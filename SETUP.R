@@ -11,6 +11,7 @@ usethis::use_git_ignore("tools/")
 # devtools::document()
 
 usethis::use_git()
+#usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
 
 usethis::use_github()
 
