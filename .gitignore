@@ -1,0 +1,10 @@
+**/.httr-oauth
+client_secret.json
+.Rproj.user
+.positai
+tools/
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto

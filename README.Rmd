@@ -1,0 +1,129 @@
+---
+output: github_document 
+---
+
+# YouTube Data Analysis with R
+
+<!-- README.md is generated from README.Rmd. Please edit that file  -->
+
+take a look at my youtube playlist with R Tutorials: 
+
+---
+
+https://www.youtube.com/playlist?list=PLRbCt61PaxX2d0_QXh6Qi6_jAQd66fmcI
+
+---
+
+## Project Overview
+
+This is an **R project for YouTube Data API automation** that:
+- Interacts with YouTube Data API v3 and YouTube Analytics API v2
+- Manages OAuth authentication for `tuber` and `YTAnalytics` packages
+- Extracts video metadata, statistics, captions from playlists
+- Generates visualizations (bar plots, pie charts, dual-axis plotly graphs)
+- Downloads YouTube videos using yt-dlp
+- Uses local LLMs (via LM Studio) to summarize video captions in Portuguese
+
+## Architecture
+
+### Core Files
+
+| File | Purpose |
+|------|---------|
+| `youtubeFunctions.R` | Contains all reusable functions for YouTube API operations |
+| `youtube.01.stats.R` | Statistics workflow: channel info, playlists, video lists, plots |
+| `youtube.02.captions.R` | Caption extraction and AI summarization with local LLMs |
+| `youtube.03.downloads.R` | YouTube video/playlist downloads via yt-dlp |
+| `SETUP.R` | Environment setup for RStudio sessions (starts LM Studio, Claude) |
+
+### Function Categories
+
+**Authentication:**
+- `AUTHENTICATE_TUBER()` - OAuth for tuber package (channel stats, metadata)
+- `AUTHENTICATE_YTANALYTICS()` - OAuth for YTAnalytics package (analytics data)
+
+**Data Retrieval:**
+- `GET_CHANNEL_VIDEOS(channel_id)` - List all channel videos
+- `GET_CHANNEL_PLAYLISTS(channel_id, exclude_playlists)` - List playlists with filtering
+- `GET_VIDEOS_FROM_PLAYLISTS(playlists)` - Extract metadata from playlist items
+- `GET_CAPTIONS_FROM_PLAYLIST(playlist_id)` - Get caption tracks for playlist videos
+- `MERGE_VIDEOS_WITH_CAPTIONS(videos, captions)` - Join captions to video data
+
+**Analytics & Visualization:**
+- `EVOLUTION_OF_MY_VIEWS(fromDate)` - Dual-axis plot of cumulative views vs uploads
+- `PLOT_BARPLOT_VIDEOS_BY_PLAYLIST()` - Bar chart of videos per playlist
+- `PLOT_PIECHART_VIDEOS_BY_PLAYLIST()` - Pie chart of videos per playlist
+- `PLOT_THUMBNAILS(urls, ncol, nrow)` - Grid of video thumbnails
+
+**Downloads:**
+- `GET_YT_DLP_COMMAND(youtube_url, OutputFolder, url_type)` - Build yt-dlp command
+
+**Specialized:**
+- `PROCESS_INFINIFACTORY_VIDEOS()` - Extract block counts from Infinifactory videos
+- `SANITIZE_FILENAME(file_name)` - Clean filenames for Windows compatibility
+
+## Common Development Tasks
+
+### Running the Project
+
+```r
+# Load all functions and run stats workflow
+source("youtube.01.stats.R")
+
+# Run captions workflow (requires LM Studio running)
+source("youtube.02.captions.R")
+
+# Run downloads workflow
+source("youtube.03.downloads.R")
+```
+
+### Authentication Setup
+
+Set environment variables in `.Renviron`:
+```r
+YOUTUBE_CLIENT_ID = "your_client_id"
+YOUTUBE_CLIENT_SECRET = "your_client_secret"
+YOUTUBE_CHANNEL_ID = "your_channel_id"
+```
+
+Or use Windows Credential Manager:
+```r
+keyring::key_set("YOUTUBE_CHANNEL_ID")
+YOUTUBE_CHANNEL_ID = keyring::key_get("YOUTUBE_CHANNEL_ID")
+```
+
+### Running a Single Test
+
+To test a specific function without loading everything:
+```r
+source("youtubeFunctions.R")
+AUTHENTICATE_TUBER()  # or AUTHENTICATE_YTANALYTICS()
+# Then call the function you want to test
+```
+
+## Important Notes
+
+- **OAuth tokens** are stored in `.httr-oauth` - excluded from git via `.gitignore`
+- Two separate OAuth directories exist: `tuber_oauth/` and `ytanalytics_oauth/`
+- The project uses Portuguese for AI-generated summaries
+- yt-dlp executable is located in `./tools/yt-dlp.exe`
+- LM Studio must be running for caption summarization (started via SETUP.R)
+
+## Package Dependencies
+
+Core packages used:
+- `tuber` - YouTube Data API v3 client
+- `YTAnalytics` - YouTube Analytics API client
+- `plotly` - Interactive visualizations
+- `magick` - Image manipulation (thumbnails, avatars)
+- `dplyr`, `lubridate` - Data manipulation
+- `countrycode` - Country code conversion
+- `keyring` - Credential management
+
+Custom packages from GitHub:
+- `xfunctions` - RStudio utilities
+- `minifunctions` - Lightweight data printing
+- `svDialogs` - User input dialogs
+- `notifier` - Desktop notifications
+- `zeallot` - Destructuring assignment
+- `rstudiotools` - RStudio integration
