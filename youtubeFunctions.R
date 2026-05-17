@@ -52,6 +52,191 @@ AUTHENTICATE_YTANALYTICS = function() {
 }
 
 
+DOWNLOAD_FROM_YOUTUBE = function(download) {
+  list2env(setNames(as.list(download$download), rownames(download)), envir = environment())
+  
+  # example: https://www.youtube.com/playlist?list=OLAK5uy_lOq4NjXU5q4EN0BTR67iTW7e_g_3qa5jc
+  if ( url_type == "playlist" ) {
+    command = "./tools/yt-dlp.exe --extract-audio "
+    command = paste0(command,"--audio-format mp3 --audio-quality 0 ")
+    command = paste0(command,"-P '",OutputFolder,"' ")
+    command = paste0(command,"-o '%(playlist_index)02d - %(title)s.%(ext)s' '")
+    command = paste0(command,youtube_url,"'")
+  } 
+  
+  # example: https://www.youtube.com/watch?v=6wo_iXimGGM
+  if ( url_type == "video_with_chapters" ) {
+    command = "./tools/yt-dlp.exe --extract-audio --split-chapters "
+    command = paste0(command,"--audio-format mp3 --audio-quality 0 ")
+    command = paste0(command,"-P '",OutputFolder,"' ")
+    command = paste0(command,"--replace-in-metadata 'section_title' '^\\d+[\\.\\s-]+' '' ")
+    command = paste0(command,"-o 'chapter:%(section_number)02d - %(section_title)s.%(ext)s' '")
+    command = paste0(command,youtube_url,"'")
+  }
+  
+  # example: https://www.youtube.com/watch?v=bvW6kN8cVXQ&list=RDbvW6kN8cVXQ&start_radio=1&rv=EQ8npjaGlV4
+  if ( url_type == "video" ) {
+    music_name = paste0(Artist," - ",Album,".mp3")
+    
+    command = "./tools/yt-dlp.exe --extract-audio "
+    command = paste0(command,"--audio-format mp3 --audio-quality 0 ")
+    command = paste0(command,"-P '",OutputFolder,"' ")
+    command = paste0(command,"-o '",music_name,"' '")
+    command = paste0(command,youtube_url,"'")
+  }
+  
+  terminal_id = rstudiotools::terminal(command)
+  
+}
+
+
+DOWNLOAD_FROM_YOUTUBE_ASK_VALUES = function(MusicFolder) {
+  youtube_url = trimws( svDialogs::dlgInput("YouTube URL?", default = "")$res )
+  youtube_url = sub("&.*", "", youtube_url)
+  
+  # if youtube_url contains "playlist?list="
+  if (grepl("playlist?list=", youtube_url, fixed = TRUE)) {
+    id = strsplit(youtube_url,"list=")[[1]][2]
+    details = tuber::get_playlists(filter=c(playlist_id=id)) 
+    
+    Album = details[["items"]][[1]][["snippet"]][["title"]]
+    Cover = details[["items"]][[1]][["snippet"]][["thumbnails"]][["standard"]][["url"]]
+    
+    Channel = details[["items"]][[1]][["snippet"]][["channelTitle"]]
+    url_type = "playlist"
+    
+  } else {
+  # individual video  
+    id = strsplit(youtube_url,"v=")[[1]][2]
+    details = tuber::get_video_details(video_id = id)
+    
+    Album = details$snippet_title[1]
+    thumbnails = details$snippet_thumbnails[1]
+    Cover = thumbnails[[1]][["standard"]][["url"]] 
+    
+    Channel = details$snippet_channelTitle[1]
+    url_type = "video"
+    
+    # Check for chapters
+    desc = details$snippet_description[1]
+    # Regex to find timestamps (e.g., 0:00, 12:34, 1:02:03)
+    # It checks for at least two timestamps, as YouTube requires 3+ for chapters
+    if ( str_count(desc, "\\d{1,2}:\\d{2}") >= 3 ) url_type = "video_with_chapters"
+  }
+  
+  # cat( cli::rule(left = url_type, col = "blue"),"\n" )
+  
+  img = magick::image_read(Cover) 
+  # print(img) - In the Viewer Pane - doesn't scale
+  plot(img) # In the Plot pane - scales better
+  
+  Artist = trimws( svDialogs::dlgInput("Album Artist?", default = Channel)$res )
+  Album = trimws( svDialogs::dlgInput("Album Name?", default = Album)$res )
+  AlbumFolder = paste0(Artist," - ",Album)
+  AlbumFolder = SANITIZE_FILENAME(AlbumFolder)
+  OutputFolder = paste0(MusicFolder,"/",AlbumFolder)
+ 
+  download = c(MusicFolder = MusicFolder,
+               youtube_url = youtube_url,
+               url_type = url_type,
+               Artist = Artist,
+               Album = Album,
+               Cover = Cover,
+               AlbumFolder = AlbumFolder,
+               OutputFolder = OutputFolder
+               )
+             
+  download = data.frame(download=download)
+  print(download)
+  
+  return(download)
+}
+
+
+DOWNLOAD_FROM_YOUTUBE_CREATE_FOLDER = function(download) {
+  list2env(setNames(as.list(download$download), rownames(download)), envir = environment())
+  
+  # Create OutputFolder
+  fs::dir_create(OutputFolder)
+  
+  cat("Create Folder   :", AlbumFolder, "\n")
+  
+  # Save Cover
+  if ( download["url_type",] == "video" ) {
+    cover = paste0(AlbumFolder,".jpg")
+  } else {
+    cover = "00.jpg"
+  }
+  
+  filename = paste0(OutputFolder,"/",cover)
+  utils::download.file(url=Cover,destfile=filename,mode = "wb")
+  cat("Save Cover      :", cover, "\n")
+  
+  # Save youtube_url
+  url = paste0(AlbumFolder,".txt")
+  filename = paste0(OutputFolder,"/",url)
+  writeLines(youtube_url,filename)
+  cat("Save YouTube URL:", url, "\n")
+}
+
+
+DOWNLOAD_FROM_YOUTUBE_INSERT_COVER = function(download) {
+  list2env(setNames(as.list(download$download), rownames(download)), envir = environment())
+  
+  if ( url_type == "video" ) {
+    cover = file.path(OutputFolder,paste0(AlbumFolder,".jpg"))
+  } else {
+    cover = file.path(OutputFolder,paste0(AlbumFolder," - 00.jpg"))
+  }
+  
+  mp3s = list.files(OutputFolder,pattern = "\\.mp3$",full.names = TRUE)
+  
+  for (f in mp3s) {
+    temp = tempfile(fileext = ".mp3")
+    
+    cmd = sprintf(
+      paste(
+        'ffmpeg -y',
+        '-i "%s"',
+        '-i "%s"',
+        '-map 0:a',
+        '-map 1',
+        '-c copy',
+        '-id3v2_version 3',
+        '-metadata:s:v title="Cover"',
+        '-metadata:s:v comment="Cover (front)"',
+        '"%s"'
+      ),
+      f,
+      cover,
+      temp
+    )
+    
+    system(cmd, ignore.stdout = TRUE, ignore.stderr = TRUE)
+    file.copy(temp, f, overwrite = TRUE)
+    unlink(temp)
+    cat("Inserting Cover in", basename(f), "\n")
+  }
+}
+
+
+DOWNLOAD_FROM_YOUTUBE_MASS_RENAME = function(download) {
+  list2env(setNames(as.list(download$download), rownames(download)), envir = environment())
+  
+  if ( url_type == "video" ) {
+    cat("No need to rename a single video\n")
+    return(invisible()) # No need to rename a single video
+  }
+   
+  prefix = paste0(AlbumFolder," - ")
+  command = paste0("Get-ChildItem '",OutputFolder,"/*' | ")
+  command = paste0(command,"Where-Object { $_.BaseName -match '^\\d{2}' } | ")
+  command = paste0(command,"Rename-Item -NewName { '",prefix,"' + $_.Name }")
+  terminal_id = rstudiotools::terminal(command)
+  
+}
+
+
 EVOLUTION_OF_MY_VIEWS = function(fromDate="2018-10-20") {
   
   # Start working with YTAnalytics package 
@@ -254,50 +439,6 @@ GET_CHANNEL_VIDEOS = function(channel_id) {
 }
 
 
-GET_METADATA_FROM_YOUTUBE_URL = function(youtube_url) {
-  # if youtube_url contains "playlist?list="
-  if (grepl("playlist?list=", youtube_url, fixed = TRUE)) {
-    id = strsplit(youtube_url,"list=")[[1]][2]
-    details = tuber::get_playlists(filter=c(playlist_id=id)) 
-    
-    Album = details[["items"]][[1]][["snippet"]][["title"]]
-    Cover = details[["items"]][[1]][["snippet"]][["thumbnails"]][["standard"]][["url"]]
-    
-    Channel = details[["items"]][[1]][["snippet"]][["channelTitle"]]
-    url_type = "playlist"
-    
-  } else {
-  # individual video  
-    id = strsplit(youtube_url,"v=")[[1]][2]
-    details = tuber::get_video_details(video_id = id)
-    
-    Album = details$snippet_title[1]
-    thumbnails = details$snippet_thumbnails[1]
-    Cover = thumbnails[[1]][["standard"]][["url"]] 
-    
-    Channel = details$snippet_channelTitle[1]
-    url_type = "video"
-    
-    # Check for chapters
-    desc = details$snippet_description[1]
-    # Regex to find timestamps (e.g., 0:00, 12:34, 1:02:03)
-    # It checks for at least two timestamps, as YouTube requires 3+ for chapters
-    if ( str_count(desc, "\\d{1,2}:\\d{2}") >= 3 ) url_type = "video_with_chapters"
-  }
-  
-  cat( cli::rule(left = url_type, col = "blue"),"\n" )
-  
-  img = magick::image_read(Cover) 
-  # print(img) - In the Viewer Pane - doesn't scale
-  plot(img) # In the Plot pane - scales better
-  
-  AlbumArtist = trimws( svDialogs::dlgInput("Album Artist?", default = Channel)$res )
-  Album = trimws( svDialogs::dlgInput("Album Name?", default = Album)$res )
-   
-  return(list(url_type,AlbumArtist,Album,Cover))
-}
-
-
 GET_VIDEOS_FROM_PLAYLISTS = function(playlists) {
   playlist_title = vector()
   video_id = vector()
@@ -352,39 +493,6 @@ GET_VIDEOS_FROM_PLAYLISTS = function(playlists) {
   videos$video_performance = round( videos$video_views / videos$video_days, 2) 
   
   return( videos )
-}
-
-
-GET_YT_DLP_COMMAND = function(youtube_url,OutputFolder,url_type) {
-  
-  # example: https://www.youtube.com/playlist?list=OLAK5uy_lOq4NjXU5q4EN0BTR67iTW7e_g_3qa5jc
-  if ( url_type == "playlist" ) {
-    command = "./tools/yt-dlp.exe --extract-audio "
-    command = paste0(command,"--audio-format mp3 --audio-quality 0 ")
-    command = paste0(command,"-P '",OutputFolder,"' ")
-    command = paste0(command,"-o '%(playlist_index)02d - %(title)s.%(ext)s' '")
-    command = paste0(command,youtube_url,"'")
-  } 
-  
-  # example: https://www.youtube.com/watch?v=6wo_iXimGGM
-  if ( url_type == "video_with_chapters" ) {
-    command = "./tools/yt-dlp.exe --extract-audio --split-chapters "
-    command = paste0(command,"--audio-format mp3 --audio-quality 0 ")
-    command = paste0(command,"-P '",OutputFolder,"' ")
-    command = paste0(command,"--replace-in-metadata 'section_title' '^\\d+[\\.\\s-]+' '' ")
-    command = paste0(command,"-o 'chapter:%(section_number)02d - %(section_title)s.%(ext)s' '")
-    command = paste0(command,youtube_url,"'")
-  }
-  
-  # example: https://www.youtube.com/watch?v=bvW6kN8cVXQ&list=RDbvW6kN8cVXQ&start_radio=1&rv=EQ8npjaGlV4
-  if ( url_type == "video" ) {
-    command = "./tools/yt-dlp.exe --extract-audio "
-    command = paste0(command,"--audio-format mp3 --audio-quality 0 ")
-    command = paste0(command,"-P '",OutputFolder,"' ")
-    command = paste0(command,"-o '%(title)s.%(ext)s' '")
-    command = paste0(command,youtube_url,"'")
-  }
-  return(command)
 }
 
 
