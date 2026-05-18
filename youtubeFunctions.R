@@ -350,11 +350,12 @@ EVOLUTION_OF_PLAYLIST_VIEWS = function(playlist) {
   token = AUTHENTICATE_YTANALYTICS()
   
   Views = YTAnalytics::playlist_stats(
-    playlistId = playlist,token = token,
+    playlistId = playlist,
     metrics = "views",
     dimensions = "day",            
-    startDate = "2026-04-01",     
-    endDate = as.character(Sys.Date()),
+    startDate = "2018-10-20",     
+    endDate = as.character(Sys.Date()), 
+    token = token,
     sort = "day",
     maxResults = 10000
   )

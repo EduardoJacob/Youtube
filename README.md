@@ -1,7 +1,12 @@
-
-# YouTube Data Analysis with R
+YouTube Data Analysis with R
+================
 
 <!-- README.md is generated from README.Rmd. Please edit that file  -->
+
+<p align="center">
+
+<img src="images/R Programming.png" alt="R Programming" width="600">
+</p>
 
 take a look at my youtube playlist with R Tutorials:
 
