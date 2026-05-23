@@ -21,6 +21,8 @@ rstudiotools::showinfo()
 # download https://github.com/yt-dlp/yt-dlp to download the videos in the playlist
 # download deno.exe from https://github.com/denoland/deno/releases/latest/download/deno-x86_64-pc-windows-msvc.zip
 
+minifunctions::imagegrid("P:/DISKD/Youtube R Programming/AppLogos")
+
 source("youtubeFunctions.R")
 
 # rstudiotools::displaymedia()
@@ -31,43 +33,95 @@ TugaStone = AUTHENTICATE_TUBER()
 # minifunctions::imagegrid("P:/DISKD/Youtube R Programming/AppLogos")
 
 download = DOWNLOAD_FROM_YOUTUBE_ASK_VALUES(MusicFolder = "C:/MEGA/Music")
+# saveRDS(download,"download.rds")
 
 DOWNLOAD_FROM_YOUTUBE_CREATE_FOLDER(download)
 
 DOWNLOAD_FROM_YOUTUBE(download)
 
-# Open Explorer to check file names
-# shell.exec(download["OutputFolder",])
-
 DOWNLOAD_FROM_YOUTUBE_MASS_RENAME(download)
 
-DOWNLOAD_FROM_YOUTUBE_INSERT_COVER(download)
+DOWNLOAD_FROM_YOUTUBE_INSERT_METADATA(download)
 
-
-# https://genius.com/api-clients
-# Artist = "Jon and Vangelis"
-# OutputFolder = "C:/MEGA/Music/Jon & Vangelis - The Friends Of Mr. Cairo"
-# track_name = "The Friends Of Mr. Cairo"
-# mp3s = list.files(OutputFolder,pattern = "\\.mp3$",full.names = FALSE)
-
-# 2. Search for the song on Genius to find its internal ID
-# search_results = geniusr::search_song(search_term = paste(Artist, track_name),n_results=1)
-
-# 3. Take the first match (most relevant) and extract its Genius ID
-# best_match_id = search_results$song_id[1]
-
-# 4. Fetch the lyrics using that ID
-# lyrics_dataframe = geniusr::get_lyrics_id(song_id = best_match_id)
-
-# 5. View the lyrics
-# The output is a clean tibble/dataframe with line-by-line text
-# head(lyrics_dataframe)
+# Open Explorer to check file names
+shell.exec(download["OutputFolder",])
 
 
 
+stop("Lyrics not working yet")
 
 
+# Nao consegui pôr as Lyrics a funcionar. 
+# Pelo menos, não aparecem no musicbee
+# Apesar de elas serem inseridas na musica
+# Apply Lyrics
+OutputFolder = download["OutputFolder",]
+mp3s = list.files(OutputFolder,pattern = "\\.mp3$",full.names = T)
+lyrics = readRDS("JoannaNewsomLyrics.rds")
+
+escape_ffmpeg = function(x) {
+  x <- gsub("\\\\", "\\\\\\\\", x)
+  x <- gsub('"', '\\"', x)
+  x <- gsub("\n", "\\\\n", x)
+  x
+}
+
+from_index = 28
+to_index = 32
+to_index = 28
+N = to_index - from_index + 1
+i = 1
+for ( i in 1:N ) {
+  Title = lyrics$Title[from_index + i - 1]
+  Lyrics = lyrics$Lyrics[from_index + i - 1]
+  mp3 = mp3s[i]
+  
+  cat("Apply Lyrics",i,"/",N,":",Title,"in mp3:",mp3,"\n")
+  
+  html = htmltools::tags$pre(
+    style = "
+      white-space: pre-wrap;
+      font-family: sans-serif;
+      font-size: 16px;
+      padding: 20px;
+  ",
+   Lyrics
+  )
+  
+  htmltools::browsable(html)
+  
+  # Insert Lyrics into mp3 metadata using ffmpeg
+  # https://eyed3.readthedocs.io/en/v0.9.8/installation.html
+  
+  tmp = tempfile(fileext = ".mp3")
+  
+  # Using ffmpeg to add lyrics metadata
+  cmd = sprintf(
+    paste(
+      'ffmpeg -y',
+      '-i "%s"',
+      '-map 0:a',
+      '-c:a copy',
+      '-id3v2_version 3',
+      '-write_id3v1 1',
+      '-metadata:s:v title=""',
+      '-metadata:s:v comment=""',
+      '-metadata lyrics="%s"',
+      '"%s"'
+    ),
+    mp3,
+    escape_ffmpeg(Lyrics),
+    tmp
+  )
+
+  system(cmd)
+  
+  file.copy(tmp, mp3, overwrite = TRUE)
+  unlink(tmp)
+}
 
 
-
+# To verify that the lyrics were added, you can use ffmpeg to read the metadata:
+system(sprintf('ffprobe "%s"', mp3))
+ 
 

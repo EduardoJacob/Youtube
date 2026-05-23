@@ -131,6 +131,7 @@ DOWNLOAD_FROM_YOUTUBE_ASK_VALUES = function(MusicFolder) {
   plot(img) # In the Plot pane - scales better
   
   Artist = trimws( svDialogs::dlgInput("Album Artist?", default = Channel)$res )
+  Album = sub("^Album - ", "", Album)
   Album = trimws( svDialogs::dlgInput("Album Name?", default = Album)$res )
   AlbumFolder = paste0(Artist," - ",Album)
   AlbumFolder = SANITIZE_FILENAME(AlbumFolder)
@@ -180,7 +181,7 @@ DOWNLOAD_FROM_YOUTUBE_CREATE_FOLDER = function(download) {
 }
 
 
-DOWNLOAD_FROM_YOUTUBE_INSERT_COVER = function(download) {
+DOWNLOAD_FROM_YOUTUBE_INSERT_METADATA = function(download) {
   list2env(setNames(as.list(download$download), rownames(download)), envir = environment())
   
   if ( url_type == "video" ) {
@@ -189,9 +190,18 @@ DOWNLOAD_FROM_YOUTUBE_INSERT_COVER = function(download) {
     cover = file.path(OutputFolder,paste0(AlbumFolder," - 00.jpg"))
   }
   
+  mp3tags = list.files(OutputFolder,pattern = "\\.mp3$",full.names = FALSE)
   mp3s = list.files(OutputFolder,pattern = "\\.mp3$",full.names = TRUE)
   
-  for (f in mp3s) {
+  i = 1
+  for (i in 1:length(mp3s)) {
+    f = mp3s[i]
+    tags = mp3tags[i]
+    parts = unlist( stringr::str_split(tags, "-") )
+    Track = as.integer(trimws( parts[3] ) )
+    Title = trimws( parts[4] )
+    Title = tools::file_path_sans_ext(Title)
+    
     temp = tempfile(fileext = ".mp3")
     
     cmd = sprintf(
@@ -203,19 +213,22 @@ DOWNLOAD_FROM_YOUTUBE_INSERT_COVER = function(download) {
         '-map 1',
         '-c copy',
         '-id3v2_version 3',
+        '-metadata artist="%s"',
+        '-metadata album_artist="%s"',
+        '-metadata album="%s"',
+        '-metadata title="%s"',
+        '-metadata track="%s"',
         '-metadata:s:v title="Cover"',
         '-metadata:s:v comment="Cover (front)"',
         '"%s"'
       ),
-      f,
-      cover,
-      temp
+      f, cover, Artist, Artist, Album, Title, Track, temp
     )
     
     system(cmd, ignore.stdout = TRUE, ignore.stderr = TRUE)
     file.copy(temp, f, overwrite = TRUE)
     unlink(temp)
-    cat("Inserting Cover in", basename(f), "\n")
+    cat("Inserting Metadata in", basename(f), "\n")
   }
 }
 

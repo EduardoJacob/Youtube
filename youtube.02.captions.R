@@ -23,8 +23,8 @@ rstudiotools::showinfo()
 # search Loaded.Functions$Function contains string: "activate"
 # search_results = 
 # Search exported functions in rstudioapi
-grep("activate", getNamespaceExports("rstudioapi"), value = TRUE, ignore.case = TRUE)
-grep("activate", Loaded.Functions$Function, value = TRUE, ignore.case = TRUE)
+# grep("activate", getNamespaceExports("rstudioapi"), value = TRUE, ignore.case = TRUE)
+# grep("activate", Loaded.Functions$Function, value = TRUE, ignore.case = TRUE)
 
 source("youtubeFunctions.R")
 
