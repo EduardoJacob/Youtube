@@ -121,7 +121,7 @@ DOWNLOAD_FROM_YOUTUBE_ASK_VALUES = function(MusicFolder) {
     desc = details$snippet_description[1]
     # Regex to find timestamps (e.g., 0:00, 12:34, 1:02:03)
     # It checks for at least two timestamps, as YouTube requires 3+ for chapters
-    if ( str_count(desc, "\\d{1,2}:\\d{2}") >= 3 ) url_type = "video_with_chapters"
+    if ( stringr::str_count(desc, "\\d{1,2}:\\d{2}") >= 3 ) url_type = "video_with_chapters"
   }
   
   # cat( cli::rule(left = url_type, col = "blue"),"\n" )
