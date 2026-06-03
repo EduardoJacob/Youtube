@@ -41,11 +41,14 @@ DOWNLOAD_FROM_YOUTUBE(download)
 
 DOWNLOAD_FROM_YOUTUBE_MASS_RENAME(download)
 
-DOWNLOAD_FROM_YOUTUBE_INSERT_METADATA(download)
-
-# Open Explorer to check file names
+# Open Explorer to check file names and optionally aply Mass Rename
 shell.exec(download["OutputFolder",])
 
+DOWNLOAD_FROM_YOUTUBE_INSERT_METADATA(download)
+
+# Play sample music
+mp3 = list.files(path=download["OutputFolder",],pattern = "\\.mp3$",full.names = TRUE,ignore.case = TRUE)
+rstudiotools::displaymedia(mp3[6])
 
 
 stop("Lyrics not working yet")

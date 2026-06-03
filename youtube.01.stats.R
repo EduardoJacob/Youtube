@@ -1,22 +1,4 @@
 
-# set snippet ----
-# usethis::edit_rstudio_snippets()
-# Ctrl+Shift-P - Show Command Palette
-rstudiotools::setcwd()
-try( dev.off(dev.list()["RStudioGD"]),silent=T) # Clear Plots
-rm(list=ls()) # Clear Workspace
-gc()
-cat("\014") # Clear Console ctrl+L
-xfunctions::XLibrary("xfunctions")
-# xfunctions::XFunctions("xfunctions")
-help(package="xfunctions")
-packageDescription("xfunctions")
-# devtools::install_github("author_name/xfunctions", build_vignettes = TRUE, dependencies = TRUE)
-# browseVignettes(package="xfunctions")
-# vignette(package="xfunctions")
-# vignette("vignette-name",package="xfunctions")
-# https://cranlogs.r-pkg.org/badges/last-month/xfunctions
-rstudiotools::showinfo()
 
 # f = xfunctions::XLibrary
 
@@ -104,8 +86,8 @@ minifunctions::tableprop(videos$video_year)
 
 
 # Statistics by playlist ----
-playlist_summary <- videos %>%
-  dplyr::group_by(playlist_title) %>%
+playlist_summary <- videos |>
+  dplyr::group_by(playlist_title) |>
   dplyr::summarise(
     total_videos = dplyr::n(),
     total_views = sum(video_views, na.rm = TRUE),
@@ -115,11 +97,11 @@ playlist_summary <- videos %>%
     # Calculate elapsed days
     # elapsed_days = 1 + as.numeric(difftime(max_video_published, min_video_published, units = "days"))
     elapsed_days = as.numeric(difftime(Sys.Date(), min_video_published, units = "days"))
- ) %>%
+ ) |>
   dplyr::ungroup()
 
 # playlist_summary order by average_views
-playlist_summary <- playlist_summary %>%
+playlist_summary <- playlist_summary |>
   dplyr::arrange(dplyr::desc(average_views))
 
 minifunctions::printdataframe(playlist_summary)

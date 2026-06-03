@@ -1,30 +1,4 @@
 
-# set snippet ----
-# Use Ctrl+Shift+k to Compile Report from R Script
-# usethis::edit_rstudio_snippets()
-# Ctrl+Shift-P - Show Command Palette
-# Ctrl+Alt-T - execute Section
-rstudiotools::setcwd()
-rm(list=ls()) # Clear Workspace
-try( dev.off(dev.list()["RStudioGD"]),silent=T) # Clear Plots
-gc()
-cat("\014") # Clear Console ctrl+L
-xfunctions::XLibrary("tuber","YTAnalytics","minifunctions","plotly")
-# xfunctions::XFunctions("rstudioapi")
-help(package="rstudioapi")
-packageDescription("tuber")
-# devtools::install_github("author_name/tuber", build_vignettes = TRUE, dependencies = TRUE)
-# browseVignettes(package="tuber")
-# vignette(package="tuber")
-# vignette("vignette-name",package="tuber")
-# https://cranlogs.r-pkg.org/badges/last-month/tuber
-rstudiotools::showinfo()
-
-# search Loaded.Functions$Function contains string: "activate"
-# search_results = 
-# Search exported functions in rstudioapi
-# grep("activate", getNamespaceExports("rstudioapi"), value = TRUE, ignore.case = TRUE)
-# grep("activate", Loaded.Functions$Function, value = TRUE, ignore.case = TRUE)
 
 source("youtubeFunctions.R")
 
@@ -40,7 +14,7 @@ rprogramming_playlist = "PLRbCt61PaxX2d0_QXh6Qi6_jAQd66fmcI"
 rprogramming_captions = GET_CAPTIONS_FROM_PLAYLIST(rprogramming_playlist)
 rprogramming = GET_VIDEOS_FROM_PLAYLISTS(data.frame(playlist_id=rprogramming_playlist, playlist_title="R Programming"))
 rprogramming = MERGE_VIDEOS_WITH_CAPTIONS(rprogramming, rprogramming_captions)
-PLOT_THUMBNAILS(rprogramming$video_thumbnail,ncol=5,nrow=4)
+PLOT_THUMBNAILS(rprogramming$video_thumbnail,ncol=5,nrow=5)
 # EVOLUTION_OF_PLAYLIST_VIEWS(rprogramming_playlist) IS NOT WORKING 
 
 # pixaroma_playlist = "PL-pohOSaL8P-FhSw1Iwf0pBGzXdtv4DZC"
@@ -53,6 +27,10 @@ captions = GET_CAPTIONS(rprogramming)
 
 prompt = "Give me the main topics of the following text in portuguese, with no more than 10 topics and no title. Format the result as a numbered list "
 N = length(captions)
+
+# Make sure LM Studio starts
+system2("powershell", args = c("-File", paste0('./powershell/LMstudioStart.ps1')), stdout = T, stderr = F, wait = T) 
+
 
 # Get topics from captions using AI: 
 # LM Studio load Qwen3.5 9B context length 100000 tokens - 10.68GB

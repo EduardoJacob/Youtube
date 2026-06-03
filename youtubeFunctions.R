@@ -276,10 +276,10 @@ EVOLUTION_OF_MY_VIEWS = function(fromDate="2018-10-20") {
   Uploads = Uploads[order(Uploads$Date), ] 
   rownames(Uploads) = NULL
   
-  Uploads = Uploads %>%
-    count(Date, name = "uploads") %>%      
-    arrange(Date) %>%
-    mutate(cumulative_uploads = cumsum(uploads))
+  Uploads = Uploads |>
+    dplyr::count(Date, name = "uploads") |>      
+    dplyr::arrange(Date) |>
+    dplyr::mutate(cumulative_uploads = cumsum(uploads))
   
   Uploads$uploads = NULL
   
@@ -289,7 +289,7 @@ EVOLUTION_OF_MY_VIEWS = function(fromDate="2018-10-20") {
   
   # PLOTLY DUAL AXIS 
   
-  p = plotly::plot_ly() %>%
+  p = plotly::plot_ly() |>
     
     # LEFT Y AXIS - cumulative views
     plotly::add_lines(
@@ -299,7 +299,7 @@ EVOLUTION_OF_MY_VIEWS = function(fromDate="2018-10-20") {
       name = "Cumulative Views",
       yaxis ="y",
       line = list(width = 3)
-    ) %>%
+    ) |>
     
     # RIGHT Y AXIS - cumulative uploads
     plotly::add_lines(
@@ -309,7 +309,7 @@ EVOLUTION_OF_MY_VIEWS = function(fromDate="2018-10-20") {
       name = "Cumulative Uploads",
       yaxis = "y2",
       line = list(width = 3)
-    ) %>%
+    ) |>
     
     plotly::layout (
       title = list(
@@ -385,10 +385,10 @@ GET_CAPTIONS = function(df) {
     captions = data.frame(captions)
     
     # Extract text from captions, removing timestamps and empty lines
-    captions = captions %>%
-      dplyr::pull(captions) %>%
-      .[!stringr::str_detect(., "[0-9]:[0-9]{2}:[0-9]{2}")] %>%
-      .[. != "" & !is.na(.)] %>%
+    captions = captions |>
+      dplyr::pull(captions) |>
+      (\(x) x[!stringr::str_detect(x, "[0-9]:[0-9]{2}:[0-9]{2}")])() |>
+      (\(x) x[x != "" & !is.na(x)])() |>
       stringr::str_c(collapse = " ")
     
     captions = stringr::str_squish(captions)
@@ -515,10 +515,10 @@ MERGE_VIDEOS_WITH_CAPTIONS = function(videos,captions) {
   # full join videos with captions by video_id
   videos = dplyr::full_join(videos,captions, by = "video_id")
   
-  videos = videos %>%
-    dplyr::group_by(video_id) %>%
-    dplyr::filter(trackKind == max(trackKind)) %>%
-    dplyr::ungroup() %>%
+  videos = videos |>
+    dplyr::group_by(video_id) |>
+    dplyr::filter(trackKind == max(trackKind)) |>
+    dplyr::ungroup() |>
     # Caso existam duplicados absolutos (ex: dois 'standard' iguais), 
     # usamos o distinct para garantir unicidade por video_id
     dplyr::distinct(video_id, .keep_all = TRUE)
@@ -552,7 +552,7 @@ PLOT_BARPLOT_VIDEOS_BY_PLAYLIST = function() {
     y = ~Count,
     type = "bar",
     marker = list(color = 'orange', line = list(color = 'black', width = 1))
-  ) %>%
+  ) |>
     plotly::layout(
       title = "Total Videos by Playlist",
       xaxis = list(title = "", tickangle = 315),
@@ -577,7 +577,7 @@ PLOT_PIECHART_VIDEOS_BY_PLAYLIST = function() {
     values = ~Count,           # Set the slice sizes
     type = "pie",
     marker = list(line = list(color = 'black', width = 1)) # Retains the black border
-  ) %>%
+  ) |>
     plotly::layout(
       title = "Total Videos by Playlist",
       showlegend = TRUE,
