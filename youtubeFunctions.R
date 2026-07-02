@@ -174,9 +174,11 @@ DOWNLOAD_FROM_YOUTUBE_CREATE_FOLDER = function(download) {
   cat("Save Cover      :", cover, "\n")
   
   # Save youtube_url
-  url = paste0(AlbumFolder,".txt")
+  # (echo [InternetShortcut] & echo URL=https://www.youtube.com/watch?v=EQ8npjaGlV4) > "Analog Dreams - Tangerine Dream Tribute.url"
+  url = paste0(AlbumFolder,".url")
   filename = paste0(OutputFolder,"/",url)
-  writeLines(youtube_url,filename)
+  filecontents = paste0("[InternetShortcut]\nURL=",youtube_url)
+  writeLines(filecontents,filename)
   cat("Save YouTube URL:", url, "\n")
 }
 
