@@ -7,7 +7,7 @@ try( dev.off(dev.list()["RStudioGD"]),silent=T) # Clear Plots
 rm(list=ls()) # Clear Workspace
 gc()
 cat("\014") # Clear Console ctrl+L
-xfunctions::XLibrary("fs","zeallot","svDialogs","geniusr")
+xfunctions::XLibrary("geniusr")
 # xfunctions::XFunctions("fs")
 help(package="geniusr")
 # packageDescription("fs")
@@ -48,7 +48,7 @@ DOWNLOAD_FROM_YOUTUBE_INSERT_METADATA(download)
 
 # Play sample music
 mp3 = list.files(path=download["OutputFolder",],pattern = "\\.mp3$",full.names = TRUE,ignore.case = TRUE)
-rstudiotools::displaymedia(mp3[6])
+rstudiotools::displaymedia(mp3[1])
 
 
 stop("Lyrics not working yet")
