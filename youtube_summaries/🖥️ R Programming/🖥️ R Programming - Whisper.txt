@@ -1,0 +1,11 @@
+🖥️ R Programming - Whisper
+1. Configuração do perfil e ambiente de R para inteligência artificial.
+2. Instalação de infraestrutura local (Torch, CUDA) e desafios de compatibilidade gráfica.
+3. Uso do pacote `whisper` em R para transcrição automática de áudio.
+4. Integração de modelos locais via LM Studio e Ollama no ecossistema R.
+5. Utilização do ComfyUI para criação e exportação de workflows de IA.
+6. Pacote `diffuseR` para geração de imagens text-to-image integrado ao R.
+7. Alternativas de transcrição via YouTube e conversão de áudio com FFMPEG.
+8. Adaptação da arquitetura do R para suportar novos tipos de input como áudio.
+9. Validação automática de parâmetros em workflows de IA integrados à linguagem.
+10. Limitações atuais de modelos locais no R e perspectivas futuras de integração.

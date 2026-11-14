@@ -1,0 +1,11 @@
+🖥️ R Programming - Spotify
+1. Instalação e configuração do pacote SpotifyR no R Studio.
+2. Autenticação na API do Spotify (Client ID, Secret e Scopes).
+3. Correção de bugs no pacote e override de funções nativas.
+4. Extração de dados do perfil do utilizador.
+5. Listagem e análise de playlists pessoais.
+6. Obtenção de faixas musicais (tracks) das playlists.
+7. Detecção de músicas duplicadas em múltiplas playlists.
+8. Análise de artistas favoritos e top artists por período.
+9. Gestão de álbuns salvos e download de capas de álbuns.
+10. Visualização do histórico de audição (top tracks/artistas por tempo).

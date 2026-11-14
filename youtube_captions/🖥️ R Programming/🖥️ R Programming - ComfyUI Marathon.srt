@@ -1,0 +1,4048 @@
+
+Ora, sejam bem-vindos a mais um tutorial,
+programação em R com RStudio. Hoje vamos
+
+
+voltar ao ComfyUI. Controlar o ComfyUI e os workflows do
+ComfyUI a partir do RStudio. Hoje vou tentar fazer
+
+
+aqui uma maratona, portanto, cobrindo uma série
+de  processos de inteligência artificial
+
+
+generativa. OK. Ora, posso fechar isto aqui.
+Aqui temos o ComfyUI, OK. Eh, e aqui temos o R.
+
+
+Ora bem,
+
+
+temos aqui o nosso setup que já vos tenho falado,
+que eu agora organizo sempre os meus projetos,
+
+
+onde tenho sempre aqui um setup, OK?
+No início, quando o projeto nasce,
+
+
+corro aqui estas diretrizes para configurar o
+projeto, nomeadamente esta parte de integração com
+
+
+o GitHub. OK? Mais ou menos. Acho que já expliquei
+tudo isto nos meus tutoriais anteriores. Eh,
+
+
+vocês que queiram acompanhar este tutorial e
+queiram reproduzir o código que hoje vamos ver,
+
+
+já sabem que vão ter o projeto disponível
+no GitHub. Eh, também deverão ter sempre
+
+
+atualizados os os meus packages, que são
+estes quatro packages que aqui estão, OK?
+
+
+Estes quatro packages e podem atualizá-los com o
+pak::pak ou com devtools Install GitHub. Eh,
+
+
+houve algumas situações que eu tive
+aqui alguma dificuldade com o pak::pak,
+
+
+não percebi bem porquê. E, portanto, e
+depois recorri ao devtools install GitHub. OK.
+
+
+Eh, vamos dar aqui uma vista de sobre algumas
+novidades de  aplicações que eu também sempre
+
+
+tenho vindo a fazer isso tutorial a tutorial. Ora,
+então o que é que temos aqui de novidades? Temos
+
+
+mediainfo. Media info não não vou mostrar.
+Pronto, o Media Info é um um produto já muito
+
+
+antigo, muito antigo. Ainda no tempo da malta que
+fazia que clonava DVDs, que que ripava CDs, etc,
+
+
+etc. Portanto, o Media Info já era um é um utilitário
+já muitíssimo antigo. Eh, e agora há pouco tempo
+
+
+instalei-o outra vez, foi só para verificar que
+ele de facto também era capaz de identificar se
+
+
+uma música tinha ou não lyrics integrados. OK?
+porque o Windows normal não consegue fazer isso.
+
+
+Precisamos de algum tipo de utilitário. E eu
+estava estava a estudar alguns utilitários.
+
+
+Claro que os os players, como por exemplo
+o MusicBee, que já que já vimos, pois ele
+
+
+consegue fazer isso, mas eu queria uma coisa mais
+simples. Então o mediainfo faz isso. Eh,
+
+
+o Media info não não vale a pena estar aqui a
+mostrar agora um exemplo para para não prolongar
+
+
+este muito tutorial que ele à partida vai ser
+vai ser bastante longo com tudo o que vamos ver
+
+
+hoje. Temos aqui um produto que eu descobri que
+eu andava à procura de um produto desta categoria,
+
+
+portanto um produto de image semantic
+classification, acho que é qualquer coisa assim
+
+
+que se chama. Portanto, a pesquisa de imagens por...
+e a pesquisa de similaridade de imagens através
+
+
+do do tema da imagem. é um tema bastante complexo,
+portanto, ou como é óbvio, recorre ele próprio,
+
+
+às vezes, pode recorrer também a inteligência
+artificial. Eh, eu vou abrir aqui a aplicação.
+
+
+Eu, na verdade, não estava a precisar
+disto por nada em especial. Eh,
+
+
+era só uma curiosidade que eu tinha de ver até
+que ponto é que já havia algumas algumas apps aí
+
+
+no mercado ou free como esta. eh, capazes de
+fazer isto. E, portanto, aqui está um exemplo.
+
+
+Temos aqui as imagens e a ideia era eh, por
+exemplo, se eu chegar aqui a uma imagem, vamos,
+
+
+por exemplo, aqui esta mulher aqui de verde e
+se eu carregar aqui e disser find similar images,
+
+
+ele eh consegue consegue de um modo geral
+identificou-me aqui as imagens similares
+
+
+que eu tenho aqui, por exemplo, nesta nesta
+coleção. Não é muito muito rigoroso, tem falhas,
+
+
+eu já vi que tem algumas falhas. Ah, mas
+pronto, é um princípio, às vezes pode ser útil.
+
+
+OK, pronto. Por exemplo, aqui find similar images. Ele
+tem esta e esta era bastante mais similar que esta
+
+
+pertence, foi gerada com a mesma prompt que esta e no
+entanto ele não a conseguiu classificar e com com
+
+
+estas outras duas aqui mais próximas. Portanto,
+tem tem as suas falhas. Mas pronto, é uma área
+
+
+que vos queria mostrar. Caso vocês não conhecessem
+este tipo de funcionalidade que existem aplicações
+
+
+que também tratam desta desta parte e acho que
+isto vai ser uma área que vai ter cada vez mais
+
+
+interesse no futuro, porque realmente eh agora com
+esta proliferar de geração de imagens artificiais,
+
+
+pois às vezes torna-se necessária uma forma eh
+mais inteligente de de organizar e e pesquisar
+
+
+as imagens. OK? Eh, finalmente quero vos
+falar também falar aqui do Stability Matrix,
+
+
+um produto que eu comecei a usar, agora está em
+standby porque vou abrir também aqui. Pronto,
+
+
+então o Stability Matrix é um pouco como o
+Pinóquio que eu já vos tinha falado e já vos
+
+
+falei no outro tutorial que o Pinóquio era como se
+fosse o Steam. O Steam está para os jogos, como o
+
+
+Pinóquio estava para as aplicações de inteligência
+artificial. Pronto. E este Stability Matrix vai no
+
+
+mesmo sentido. Portanto, ele é um gerenciador que
+instala aplicações, OK? Nomeadamente instala aqui
+
+
+o ConfyUI e por acaso está-me aqui a pedir
+para fazer um update, não vou fazer agora. E aqui
+
+
+também muito mais estável do que o Pinóquio, não
+há dúvida nenhuma. instalou o ComfyUI por exemplo,
+
+
+instalou à primeira e funcionou logo à primeira,
+mas eu não estou a usar esta versão porque porque
+
+
+eu já tenho a minha outra que foi instalada com
+o easy install e, portanto, já está bastante
+
+
+configurada e, portanto, agora aqui iria perder
+tempo a configurar esta versão outra vez, que que
+
+
+portanto está uma versão nativa e por isso é que
+não estou a usá-la, mas eventualmente num outro
+
+
+futuro eh um dia que precise de reinstalar o ConfyUI
+do zero, poderei poderei passar a instalar
+
+
+daqui e tenho aqui algumas aplicações como esta
+que quero ver se experimento. Tentei experimentar,
+
+
+mas à partida falhou-me ali a instalar ali
+os modelos, mas pronto, mas esta área não não vou
+
+
+agora debruçar mais tempo sobre isto. Isto é só um
+lá-mi-ré. Gosto de vos apresentar alguns produtos
+
+
+novos com que tenho estado a trabalhar ou que
+que que trabalhei ou que estou a experimentar.
+
+
+E portanto, mas não vamos perder mais tempo com
+isto agora, mas é um produto que sim, que aparenta
+
+
+ter bastante futuro. Gostei muito dele, como
+viram, tem um ar bastante moderno. Eh, não
+
+
+tem ainda muitas aplicações. Eh, se virmos aqui,
+aqui adicionar um package, que é uma aplicação,
+
+
+não tem muitas, já, só tem para aí esta
+dúzia, pelo que eu percebo, não há mais.
+
+
+Eh, legacy training inference. Portanto, não
+tem muitas aplicações, mas tem aqui algumas
+
+
+interessantes. Mas ok, vamos deixar isto agora.
+Pronto, esta parte penso que já está vista.
+
+
+Sim, senhora. Ora bem, então o
+que é que nós temos aqui? Temos,
+
+
+deixa-me limpar aqui esta parte.
+OK, pronto. Então este é o setup.
+
+
+E agora eu tenho feito o como já vos expliquei,
+esta parte aqui inicial, não preciso de a correr,
+
+
+uma vez que já estou num projeto, não preciso
+de a correr. só às vezes quando quero instalar
+
+
+um package de R novo, então aí sim coloco aqui e
+instalo a partir daqui desta minha função. Ora bem,
+
+
+vou então carregar aqui as funções que
+que estão aqui que vão ser usadas.
+
+
+Nós temos o COMFYUI , é a principal função que nós vamos usar, que
+é a que vai submeter workflows para o ComfyUI.
+
+
+ depois temos um um check signature, que é uma
+uma função que que porque como vamos trabalhar
+
+
+aqui com muitos workflows e cada cada workflow tem
+a sua assinatura de parâmetros, como já vamos ver.
+
+
+E eu ao chamar um workfow, como isto começou-se
+a tornar bastante complexo, eh, eu tive que criar
+
+
+aqui mecanismos e por, portanto, de checagem, que
+já vamos ver, eu já vou demonstrar isto melhor.
+
+
+Eh, e depois temos aqui um, um image comparer que
+eu queria eu queria implementar um image comparer,
+
+
+eh, portanto, usando um workflow do ComfyUI
+que faz a comparação de duas imagens, OK?
+
+
+Mas, portanto, e aqui seria, portanto, uma
+alteração no seguinte, em vez de submeter um
+
+
+workflow para executar no ComfyUI server, eu queria
+submeter um workflow, mas para abrir no ComfyUI
+
+
+client. Estão a ver? Há aqui uma ligeira
+diferença, mas não consegui pôr isto a trabalhar.
+
+
+Pronto, não interessa. Agora esta esta parte
+aqui não  ficou a trabalhar. Ora bem,
+
+
+lembram-se que eu digo que eu gosto de invocar
+sempre todas as funções eh da forma explícita,
+
+
+portanto colocando o package name de R com dois
+pontos, dois pontos e a função. Mas há situações
+
+
+em que isso não é possível. E aqui está um
+exemplo, porque eu quero usar este package zeallot,
+
+
+que me chama uma minha função, mas a minha
+função devolve dois objetos, OK? Dois data
+
+
+frames. Portanto, em vez de devolver um, devolve
+dois. Eh, e normalmente quando precisamos devolver
+
+
+mais que um objeto, a forma mais normal de o
+fazer é devolver como uma lista. devolvemos
+
+
+uma lista de objetos, mas eu poderia receber aqui
+a lista, só que eu não quero receber receber em
+
+
+forma de lista, eu quero fazer o destructoring,
+eu quero receber imediatamente, fracionando a
+
+
+lista para os objetos. E aí, pois eu investiguei e
+percebi que havia este package fazia essa função,
+
+
+o zeallot, mas com um operador customizado, que
+é uma das funcionalidades que o R permite,
+
+
+permite definir operadores. E então tem este
+operador. E quando é assim, é muito difícil aqui
+
+
+no operador eu prefixá-lo com o nome do package.
+Pronto, como vocês podem entender. Portanto, então
+
+
+aqui é uma exceção, por isso eu pus aqui o library
+imediatamente aqui junto para chamar a atenção que
+
+
+eu tenho que ter o zeallot carregado para poder
+invocar este operador que este operador, por
+
+
+acaso, eu nem não sei se carregando aqui com F1,
+se ele mostra, se ele percebe que isto é do zeallot.
+
+
+Eh, penso que não, que eu carrego aqui, ele
+não responde. Portanto, quando é um operador,
+
+
+ele não entende, não entende onde o operador está
+definido. e portanto vou , já agora,
+
+
+nesta parte aqui das funções, reparem que eu
+carreguei aqui as quatro funções, mas também tenho
+
+
+aqui duas variáveis. Eu não costumo fazer isso
+para não estar a misturar coisas. Normalmente,
+
+
+se eu carrego funções são só funções, não tem
+variáveis. Mas neste caso abri uma exceção e
+
+
+coloquei aqui as as duas variáveis. Até vou abrir
+aqui o código, OK? Porque vão ser duas variáveis
+
+
+que o ComfyUI o input folder e ComfyUI output folder
+são as duas folders pré-definidas com que o ComfyUI
+
+
+trabalha muito. E portanto há muitos nós que
+estão configurados para virem buscar as imagens
+
+
+aqui no input e salvá-las no output. OK? Muitos
+deles já já estão pré pré-definidos. Pronto. E
+
+
+embora de um modo geral é possível indicar outras
+folders, mas eu optei por trabalhar aqui nestas
+
+
+nestas folders padrão, porque se se não tivermos
+cuidado quando estamos a trabalhar com com estes
+
+
+temas eh quando damos quando dermos por ela, temos
+temos imagens e vídeos e inteligências artificiais
+
+
+espalhadas por todo o nosso computador. Portanto,
+é a loucura total. Eh, e eu sinto isso, sinto, mas
+
+
+como tive cuidado, isso não aconteceu porque sou
+sou cuidadoso e gosto de trabalhar de uma forma
+
+
+sistemática e, portanto, tenho estado restrito a
+estas duas folders, porque senão com facilidade
+
+
+as folders. É como vos digo, pronto. E, portanto,
+optei a dizer assim, não, eu vou manter estas duas
+
+
+folders. Se precisar de algum input, eu coloco o
+input na folder de input para o ler. E se gerar
+
+
+algum output, depois vou gerá-lo para a folder
+de output. Pronto, deixa-me manter aqui restrito,
+
+
+que é para a coisa não para não se perder o
+controle. Eh, e por isso pus aqui essas duas
+
+
+variáveis aqui, porque elas vão ser usadas em em
+todos os estes os scripts que nós vamos ver. OK?
+
+
+H, eu fiz aqui estas, eu tenho aqui, se repararmos
+aqui, a estrutura com que eu organizei aqui o este
+
+
+projeto. Estes images aqui não tem nada. Estes
+images é só um padrão que eu que eu ponho que é
+
+
+que depois aparece no GitHub a minha imagem
+de marca no GitHub. Portanto, este image eh
+
+
+chama-se image porque não sei, copiei por alguém e
+pensei que era o nome mais aconselhado. Pronto,
+
+
+mas aqui neste caso não tem nada a ver com images
+generativas, OK? Eh, depois tenho aqui PowerShell,
+
+
+onde eu tenho scripts de Power Shell. Depois
+coloco aqui eh Python, que também andei a fazer
+
+
+aqui algumas coisinhas com Python, pois coloco
+aqui também folder Python. Prompts. Isto são
+
+
+Prompts, ou seja, prompts que são geradas
+ou que eu vou buscar a algum lado e prompts
+
+
+para gerar imagens ou para gerar qualquer outra
+coisa. Portanto, posso posso organizar e criar
+
+
+aqui uma coleção e criar ficheiros com prompts.
+Eh, que é que temos aqui mais? screenshots.
+
+
+Já agora, deixa mostrar os screenshots que
+eu tenho aqui. Ora, vamos ve-los agora aqui
+
+
+os screenshots. Portanto, temos aqui o display
+media, uma função que vocês já estão cansados
+
+
+de conhecer. E eh eu também já conhecem o set
+current working directory, a minha função e eu
+
+
+agora uso-a para mudar  a diretoria default
+para screenshots e assim posso chamar aqui
+
+
+o display media que por default e mostra todos
+os media que estejam aqui no nesta neste caso
+
+
+nesta current folder onde eu agora eu ativei a
+current folder screenshots pronto A, vamos ver o
+
+
+que é que nós temos aqui. Ora, este é um exemplo,
+pronto, porque tudo o que vamos ver agora daqui
+
+
+a bocado e a nível de workflows eh e que eh
+vocês podiam perguntar: "Bom, mas h para quê?"
+
+
+Não é? Porque é que eu não vou às inteligências
+artificiais habituais? Pronto, é porque não dá,
+
+
+porque elas não cobrem todas as situações. Por
+exemplo, esta é uma situação que eu que eu fui ao
+
+
+Gemini pedir eh disse: "Olha, eh diz esta promete
+que está aqui place de person como se fosse um logo nesta jarra". E o Gemini e
+
+
+penso que as os outras também têm muita relutância
+em trabalhar com caras de pessoas, pensam que
+
+
+possa ser alguma figura pública e, portanto,
+não querem manipular caras de pessoas. Pronto,
+
+
+aqui está um exemplo aqui em que ele falhou,
+recusou-se a recusou-se a fazer. OK. H, vamos
+
+
+ver aqui a outra imagem. Este é um outro exemplo.
+OK, agora com o logotipo ele já fez, mas ficou mal
+
+
+feito. Ficou mal feito. Não sei porquê. Ele ele
+gerou aqui os caules à transparência e depois
+
+
+colocou o logotipo. Só que ele não arredondou
+o logotipo para seguir os contornos da jarra.
+
+
+Portanto, ficou horrível, não é? Pronto, que isto
+é um exemplo também, outro exemplo completamente
+
+
+falhado, que ele não conseguiu colocar um
+logotipo aqui, coisa que nos modelos mais
+
+
+especializados que vamos ver daqui a bocado, ele
+vai ele vai conseguir fazer este tipo de tarefas.
+
+
+O que é que temos aqui? E, portanto, aqui foi
+aqui trata-se de criar uma um access token no
+
+
+Hugging face que é usado para fazer login para o
+Hugging face que que permite e uma maior rapidez
+
+
+quando quando baixamos e eh por exemplo, usamos
+git clone para para baixar modelos do Hugging face
+
+
+ou quando usamos alguns nós quando usamos alguns
+nós do ConfyUI alguns nós são automáticos.
+
+
+Alguns nós, na primeira vez que os corremos
+eles vão buscar automaticamente os modelos de
+
+
+que precisam, vão buscá-los ao hugging face. E
+para isso convém ter feito aquele login. Ah,
+
+
+se bem que eu tive estou a ter bastantes
+dificuldades em fazer isso porque está-me
+
+
+a falhar. Tenho aqui algum problema de
+conetividade aqui no meu computador que
+
+
+ainda não consegui perceber o que é que se passa.
+E e esses automatismos de ir buscar os modelos
+
+
+automáticos estão me estão a falhar. E depois eu
+tive que ir buscar os modelos manualmente. OK,
+
+
+mas isso é outra guerra que isso não interessa agora.
+Agora eh, deixa ver o que é que temos aqui mais.
+
+
+OK, isto é o quando na altura quando eu gravei o
+token, quando eu salvei o token. Pronto. E depois
+
+
+isto este é o login feito pelo hugging face.
+Aqui fiz fiz aqui num terminal power shell.
+
+
+Eh, eu estava a testar isto, OK, ele funciona,
+mas depois é como vos digo, depois falha-me,
+
+
+há problemas de conetividade e ele não
+acaba por não ser capaz de ir ao Hugging Face
+
+
+buscar os modelos de forma automática. E
+depois também tive a a experimentar com
+
+
+o Windows Subsystem for Linux. Eh, OK, mas
+também não também não resolveu o meu problema.
+
+
+Eh, OK. Pronto, isto são alguns pormenores, mas
+isso agora não interessa. OK, pronto. E depois
+
+
+isto é um exemplo quando vamos ao hugging face buscar um
+determinado modelo e depois eu tive que carregar
+
+
+aqui nas setinhas e fazer o download manual
+de todos estes ficheirinhos de configuração e
+
+
+funciona. Pronto. E então consegui pôr os os meus
+workflows do confui a trabalhar. OK. Sim, senhora.
+
+
+Ora, e agora eh volto aqui à current working
+directory normal. OK. Sim, senhora. Pronto,
+
+
+já vimos esta parte. Agora vou então executar
+isto, esta parte aqui que já vamos ver o que é
+
+
+que ele me vai dar. Vai-me dar aqui dois data
+frames, mas primeiro tenho que mostrar aqui
+
+
+isto. Portanto, eu tenho que mostrar aqui
+mais coisas. Portanto, eu tenho que mostrar
+
+
+aqui. Temos aqui eh especialmente estas duas
+folders são fundamentais, workflows embeded e
+
+
+os workflows. Workflows embeded o que é? Pronto,
+workflows embeded são eh gerações feitas com o
+
+
+ComfyUI de imagens, de áudio, de vídeos, onde
+Deixa-me abrir aqui uma folder do Windows.
+
+
+OK.
+
+
+onde eh quando eu abro o ComfyUI que já vos tinha
+falado que as imagens geradas elas guardam o
+
+
+workflow dentro das imagens. Isso é qualquer
+coisa de fantástico. E agora descobri que não
+
+
+só as imagens, mas também o áudio. Deixa buscar
+aqui um áudio. Por exemplo, aqui vou arrastar
+
+
+aqui um áudio. Vou colocar aqui um áudio, um MP3.
+OK, cá está. E o próprio MP3 também tem a metadata
+
+
+de um de uma de um workflow lá dentro. OK? Pronto.
+Eh, portanto, isto é uma forma, se vocês copiarem
+
+
+o código, podem pegar num num destes e ficheiros
+que eu tenho aqui, workflows embeded e pegam num
+
+
+deles, arrastam e imediatamente pois ficam
+a ver o que é que faz o workflow, OK?
+
+
+E depois testam provavelmente ir-vos-á
+falhar porque vai-vos faltar alguns modelos, mas
+
+
+depois podem pesquisar, pesquisam no chatGPT, ora
+aqui pelo nome aqui do modelo, pesquisam onde 
+
+
+ir buscar o modelo no hugging face e onde colocá-lo
+no vosso filesystem. Pronto. Eh, também para
+
+
+vídeo, quando ele eh grava um vídeo, é a mesma
+coisa, só com a diferença de que o a metadata,
+
+
+o workflow não fica no vídeo, mas fica numa imagem
+que normalmente os modelos aqui quando geram um
+
+
+vídeo geram uma imagem também de referência,
+penso que com o principal objetivo de conter
+
+
+a metadata dentro da imagem. penso que deve haver
+aí alguma dificuldade em em colocar o a a metadata
+
+
+dentro do vídeo, mas não sei, não investiguei
+muito mais sobre isso. Pronto, portanto, mas
+
+
+isto é o que faz esta folder aqui, os workflows
+embutidos dentro dos media que foram gerados pelos
+
+
+modelos. OK? Não sei se me explico. Pronto. E
+depois tenho os workflows propriamente ditos.
+
+
+os workflows que estão aqui nesta esta folder
+que tem os workflows. Pronto. E como é que eu
+
+
+obtive esses workflows? Bom, esses workflows
+obtive a partir do ComfyUI quando eu tenho,
+
+
+imaginem que eu estava aqui a trabalhar, OK?
+Imaginem aqui que eu corria, eu corria este
+
+
+modelo, eu testava, vou fazer aqui um run,
+OK? Ele está a correr, ele tem aqui uma prompt
+
+
+é um  modelo generativo de voz. Eh,
+tem aqui tem aqui uma voz pré-definida, um
+
+
+profile pré-definido, um speaker, gera em língua
+portuguesa, que é uma das línguas que ele suporta,
+
+
+não é muito forte a gerar em português. Penso que
+o modelo deve ter sido mais treinado para inglês,
+
+
+principalmente. Ah, isto é demorado. É,
+sem dúvida que isto é um bocado demorado.
+
+
+Vamos ver aqui se ele tá se ele está aqui
+a gerar ou não ou se deu aqui algum erro.
+
+
+Eh, OK. Enquanto vai ver se ele gera ou se não
+gera. Ok, pronto, então ele já gerou. Vamos vê-lo
+
+
+aqui. Sejam bem-vindos ao meu novo tutorial R com
+RStudio. Desta vez vamos controlar o ComfyUI a
+
+
+partir do RStudio. OK? Portanto, quando quando
+então eu testo um workflow, olha, está tudo
+
+
+a trabalhar, eh pego neste output que ele fez,
+este áudio que que chama-se áudio qualquer coisa,
+
+
+onde ele salvou, a partir daí tenho o embed
+workflow, que é que foi o que acabei de
+
+
+vos mostrar ainda agora e depois agora quero
+o workflow propriamente dito em formato Json.
+
+
+Então, já vos tinha falado. Vamos aqui no file,
+fazemos export API. Eh, OK. E agora aqui save as. E cá
+
+
+está, aparece logo aqui a minha folder onde
+eu tenho estado a fazer os saves. Agora vou
+
+
+fazer cancel. E pronto. E então guardo ali
+os workflows. E portanto os workflows
+
+
+vão estar aqui em formato Json. OK. Vamos
+ver, por exemplo, aqui um workfow simples
+
+
+eh qualquer, por exemplo, este aqui, um simples.
+Portanto, eu ponho aqui o workfow. OK. Pronto. Eh,
+
+
+acho que em dois tutoriais anteriores, quando
+vos acho que já no outro meu outro tutorial que
+
+
+vos tinha falado de vos tinha apresentado o ComfyUI
+acho que eu usava uma técnica diferente. Eu usava,
+
+
+eu tinha o workflow tal e qual o baixava e eu não
+tocava mais nele. E depois toda todos os campos
+
+
+que eu precisasse de alterar eram feitos dentro do
+código R. OK? Mas agora eu mudei de ideias e agora
+
+
+faço uma abordagem diferente. Quando eu baixo
+um workflow, eu agora altero aqui o workflow no
+
+
+formato Json, porque é mais simples. Eu vejo
+aqui o que eu tenho que alterar. Neste caso,
+
+
+digo assim: "Olha, aqui tem que entrar uma
+imagem, OK? E olha aqui tem que entrar um file
+
+
+name prefix, OK? Pronto. Eh, este workflow,
+por exemplo, não tem seed, não tem prompt.
+
+
+Pronto. Se tivesse, eu usava também umas palavras
+chave, uns uns tokens que que eu defini para para
+
+
+colocá-los no nos sítios certos onde eu sei que
+depois vou fazer um replace string. Pronto. OK.
+
+
+Não sei se me explico. Pronto. E assim fica.
+Ou seja, agora esta é a técnica que eu faço. Eu
+
+
+modifico os workflows. Vamos aqui buscar aqui um
+workfow. Por exemplo, este aqui que trabalha este
+
+
+este trabalha com duas imagens. É um é edição de
+imagem. Este, este aqui coloquei aqui a prompt.
+
+
+Coloco aqui a palavra-chave. Coloco em maiúsculas.
+Eh, coloca-se o seed aqui, ou seja, coloca esta
+
+
+estas palavras chave no nos sítios certos, OK?
+Eh, para depois eu fazer o replace string. Coloco
+
+
+aqui imagem de input, o file name prefix, OK? Eh,
+tudo, tudo, toda a parte que eu queira customizar.
+
+
+Portanto, qualquer destas coisas poderia ser
+customizável se eu quiser eh customizá-la,
+
+
+se eu quiser torná-la dinâmica. OK? Imaginem
+aqui que ele vai gerar uma imagem, por exemplo,
+
+
+aqui 1280 por 720. Está bem para mim. Tenho estado
+sempre a trabalhar com este formato. Mas imaginem
+
+
+que eu queria alterar, então alterava
+aqui ou imaginem que eu queria tornar
+
+
+isto dinâmico. Pois sim, senhora. criava 
+parâmetros aqui e e tornava dinâmico. Portanto,
+
+
+a partir daí, a partir de agora que eu já tenho
+o workflow, eu eu posso manipular o workflow
+
+
+totalmente e definir tudo aquilo que eu possa
+querer alterar dinamicamente no workflow. OK?
+
+
+Não sei se eu me explico. Pronto. E uma vez que
+tenho estes workflows todos e como isto começou-se
+
+
+a tornar tão muito complexo, porque eu tinha aqui
+já muitos workflows, às duas por três, eu já não
+
+
+já não sabia cada um deles, quais os campos de
+entrada, o que é que o que é que saía, o que é
+
+
+que entrava, portanto isto era muito complexo.
+Eh, portanto, eu tive que criar aqui funções
+
+
+para sistematizar, eh, que é o que vamos ver
+agora. Bom, desde logo aquilo que ele gera é mais
+
+
+simples de entender porque o que gera é sempre
+de modo geral o segundo o segundo parâmetro que
+
+
+aqui está. Por exemplo, se ele está aqui text to image é
+porque vai gerar image. OK? Não sei é o que é
+
+
+que entra. O que entra à partida será texto.
+Mas, por exemplo, quando eu tenho aqui um um
+
+
+modelo image, vamos dizer image to image, então quer dizer que
+vai gerar image e e entra image, mas entra só
+
+
+image ou poderá entrar image e prompt também? eu fico na
+dúvida. Pronto, mas eu não queria estar a pôr essa
+
+
+parametrização toda aqui no nome, senão os nomes
+ficavam gigantescos. OK? E não importa porque eu
+
+
+às vezes posso decidir pôr mais um parâmetro ou
+menos um parâmetro e, portanto, não, não, eu não
+
+
+ia por aí. Então o que é que eu fiz foi eu tenho
+há um conjunto de palavras reservadas que o que eu
+
+
+tenho aí definido, e depois eu vou ler estes estes
+fluxos todos e vou ver estes workflows que quais
+
+
+dessas palavras reservadas ele tem. Portanto, que
+é o que vamos fazer agora aqui. Pronto. Então,
+
+
+ele vai-me mostrar aqui os workflows que
+eu já tenho, que são 20 workflows. Pronto,
+
+
+cá estão eles. E para cada um destes workflows,
+bom, isto aqui, isto aqui, esta parte é nova, que
+
+
+é uma estatística nova que ele agora fez num dos
+últimos eh updates que fez ao RStudio. Portanto,
+
+
+eh, eu estou a ver que eles estão a a aplicar
+alguns upgrades ao RStudio para tentar igualar o
+
+
+RStudio ao Positron. Eu penso que a ideia poois vai
+ser  facilitar no momento que os utilizadores
+
+
+decidirem eh migrar para  o Positron, pois a migração
+ser mais mais suave. Portanto, e para isso estão a
+
+
+a implementar algumas eh das características
+que já implementaram no Positron e estão a
+
+
+implementar aqui e esta é uma delas. Pronto, essa
+parte não interessa agora. Pronto. E aqui então
+
+
+tenho aqui os workflows, o nome dos workflows. E
+agora tenho os campos. Estes são todos os campos
+
+
+que eu defini. Eu é que escolhi os   campos
+com os quais quero parametrizar   os workflows,
+
+
+tendo em conta a variedade dos workflows
+com que eu comecei a trabalhar. OK?
+
+
+Pronto, à medida que comecei a trabalhar, por
+exemplo, com workfow de áudio, eh, por exemplo,
+
+
+então eu tive que definir um parâmetro que seria,
+por exemplo, a duration, a duration do áudio e ou
+
+
+do vídeo. Já, já não me recordo. Deixa ver aqui
+qual é a duration. A duration é do vídeo. Pronto,
+
+
+estava-me enganar. Por exemplo, este este workfow
+aqui: image to vídeo. Portanto, tem uma prompt, tem.
+
+
+Usa uma prompt de input. Sim, usa uma imagem de
+input. Sim, pronto, mas não usa não usa nem vídeo,
+
+
+nem second image nem escala. Quais é que usam escala?
+Os upscalers. Pronto. E assim sucessivamente.
+
+
+Portanto, aqui tenho uma matriz onde eu posso, em
+caso de dúvida, ver, posso ir pesquisar e posso
+
+
+vir aqui pesquisar e dizer: "Olha, mostra-me todos
+os e os workflows que que usam um determinado
+
+
+parâmetro, por exemplo, todos os que usam um
+vídeo de input. há um só: vídeo to text que  por acaso
+
+
+acho que este não consegui pô-lo a trabalhar,
+mas pronto, estão a perceber aqui a ideia.
+
+
+Depois tenho aqui outra parte aqui que eu não uso
+muito, mas pode pode às vezes ter um interesse
+
+
+estatístico de ir ver que de que lista para cada
+um destes modelos dos workfows que eu tenho aqui
+
+
+lá dentro faz referência a modelos e e então e e
+claro que alguns workflows usam mais que um modelo,
+
+
+não é? Acho que também já vos tinha falado sobre
+isto. Os modelos, por exemplo, um modelo gerador
+
+
+de imagem, um modelo que que interpreta a prompt,
+não é? Que transforma o texto em tokens, que vai
+
+
+entrar na rede neuronal, etc, etc. Pronto. E aqui
+posso ver eh e ordenar, por exemplo, por modelos.
+
+
+E então posso ver, por exemplo, olha, e por
+exemplo, tenho aqui um este modelo quatro
+
+
+quatro vezes. É um modelo que faz upscaling quatro vezes.
+Foi treinado para fazer upscaling quatro vezes. Pronto,
+
+
+é usado aqui neste meu workflow. Depois tenho
+aqui, por exemplo, estes estes aqui, por exemplo,
+
+
+tenho aqui um modelo que que é usado em em três em
+em três dos meus workflows, OK? Imagem to imagem,
+
+
+duas imagens para imagem ou texto para imagem.
+usa o flux klein, flux 2 kline com 9 biliões
+
+
+de parâmetros. OK? Pronto, assim sucessivamente.
+Pronto. E tem alguns workflows que não usam modelos
+
+
+absolutamente nenhuns porque não precisam ou
+porque alguns usam usam metodologias antigas que
+
+
+nem sequer recorrem a inteligência artificial
+OK? Eh, por exemplo, é o caso aqui
+
+
+do upscaler. um upscaler. Eh, existem upscalers
+tradicionais à moda antiga que fazem trabalham com
+
+
+interpolação, não usam inteligência artificial,
+mas mas há outros upscalers que sim que usam,
+
+
+que era o caso aqui, por exemplo, este aqui, este
+upscaper quatro vezes nmkd, portanto são estes são
+
+
+upscalers mais sofisticados, são upscalers
+que criam algo mais, criam imagem. OK?
+
+
+Por exemplo, um um exemplo, se eu se vir um uma
+imagem tem um automóvelzinho pequenino que está
+
+
+lá ao longe e é um borrão aqui no upscaler tradicional,
+eu nunca consigo aumentar a definição do borrão.
+
+
+Ficará sempre um borrão. Não importa o quão eu
+aumento a imagem, porque a informação não está
+
+
+lá. E este upscaler não consegue criar imagem.
+Mas o upscaler aqui inteligente consegue porque
+
+
+ele vai perceber que é um carro. Então ele vai
+tentar adivinhar, ele vai gerar um carro. OK?
+
+
+Não sei se me explico. Pronto. Portanto, os upscalers
+aqui com inteligência artificial são muito mais
+
+
+poderosos do que os upscalers tradicionais. Pronto.
+Pronto. Há aqui muitos tópicos também. Não,
+
+
+não posso agora estar a demorar muito tempo sobre
+isso. Eh, recomendo para quem quer aprofundar
+
+
+este o know how nesta área, recomendo que
+eh vejam o deixa fechar isto aqui. Vejam
+
+
+um uma playlist que já vos falei que é do Pixaroma
+OK? no YouTube, que eu também
+
+
+tenho estado a seguir. Eu agora estou aqui
+com a hesitar um bocado porque eu queria ter
+
+
+a certeza que a gravação não foi abaixo. Quando
+eu estou a usar o snipping tool eh quando estou a
+
+
+usar o snipping,  OK, está aqui o que que aqui
+aparece que às vezes fico na dúvida ele às vezes
+
+
+vai quando quando vai abaixo eu tenho que ter
+cuidado porque ele não avisa nada. Pronto,
+
+
+mas penso que está tudo a funcionar bem.
+O áudio está a ser capturado. OK. Ora bem.
+
+
+Então, continuando. Pronto, já vimos esta parte
+aqui. Pronto, então penso que já já vimos aqui
+
+
+tudo e podemos então começar a a trabalhar aqui
+com com os com os os workflows. Penso que já
+
+
+ficou claro. Ah, já agora dar aqui uma uma vista
+de olhos aqui nas funções e na principal função.
+
+
+Pronto, a principal função que temos aqui é esta.
+Portanto, ela recebe aqui, eu vou invocar um
+
+
+workflow, passo-lhe o nome do workflow e eu e eu
+vou-lhe passar todos estes parâmetros que eles são
+
+
+todos eles são opcionais, mas mas são obrigatórios
+consoante o workflow que eu  use. E como é
+
+
+que ele vai saber? Ele vai precisamente aqui a
+esta matriz. Ele vai a esta matriz e vai saber
+
+
+para cada workflow eu vou ser obrigado a passar
+os parâmetros. Por exemplo, se eu invocar um
+
+
+destes workflows, os parâmetros que estão a true,
+eu vou ser obrigado a passá-los. senão ele vai-me
+
+
+dar erro e e não posso passar nenhum parâmetro a
+mais. Pronto, isto vai ser extremamente rigoroso,
+
+
+porque senão isto era o caos. Era o caos. Se eu
+criasse parâmetros opcionais e não opcionais e e
+
+
+etc, era o caos total. Então eu eu abdiquei,
+não há opcionais, são todos obrigatórios,
+
+
+todos sempre e quando aqueles que fazem parte
+da assinatura de um workfow. OK? Pronto,
+
+
+já vamos perceber, já vamos ver isso. Eh,
+portanto, aqui temos, ele recebe o workflow.
+
+
+Cá está que ele aqui vai obter a matriz para
+saber. Agora vai ver se o workfow existe, se eu
+
+
+passei o seu nome existe, se o nome não está vazio.
+E agora vai obter aqui o workflow signature daquele
+
+
+workflow específico. Pronto. E agora vai varrer.
+Imaginem que é que eu tenho estou aqui na matriz.
+
+
+Imaginem que eu estou a invocar aqui um um
+workflow, eh, por exemplo, aqui o workflow
+
+
+5. Então, ele pega no workflow 5 e vai dizer:
+"Olha,  variável parâmetro prompt é obrigatório,
+
+
+parâmetro image é obrigatório. mais nenhum." Pronto. Portanto, então ele vai aqui e vai ver os parâmetros que estão
+
+
+na assinatura e ele vai ver aqui o parâmetros
+required são os trues, OK? E depois vai haver
+
+
+o parameter value se eu passei ou não esse
+parâmetro aqui quando invoquei aqui a função.
+
+
+Portanto, ele vai fazer essa parte, ele vai
+validar ou se passou algum parâmetro a mais,
+
+
+ele também vai chumbar. Pronto. Pronto, não posso
+estar agora a explicar isto tudo ao pormenor,
+
+
+senão, pronto, só para explicar isto era era era
+um tutorial inteiro. Eh, demorou-me isto, claro.
+
+
+Não fiz isto tudo à primeira, foi coisas que eu
+fui fazendo aqui ao longo do das últimas semanas.
+
+
+Eh, fui fui aperfeiçoando aqui o meu código. Eh, e
+portanto, pronto, e agora o sistema está montado.
+
+
+sistema agora está, posso-vos dizer que isto está
+muito robusto e está muito poderoso porque eu,
+
+
+se eu for buscar um workflow novo qualquer, eu sou
+capaz de ir buscar um workflow novo e sistematizá-lo
+
+
+e integrá-lo aqui nesta minha arquitetura em em
+coisa de 5 minutos, eu tenho aqui um workflow
+
+
+totalmente automatizado e depois com todas as
+mais valias que vamos ver agora, porque a partir 
+
+
+do momento qualquer workflow que eu tenha
+aqui e ver, reparem neste workflow eu gerei uma
+
+
+com uma prompt eu gerei um áudio. Então, se eu
+tiver agora uma centena de prompts, como é que eu
+
+
+faço? Eu tenho uma centena de prompts e eu quero
+gerar uma centena de áudios. Ora, pronto, e é para
+
+
+isso que serve o R. O R vai fazer orquestração e
+com o R eu posso massificar tudo. Não quer dizer que não haja,
+
+
+se calhar, alguns de nós aqui que também o fazem.
+Provavelmente haverá. Só que esse não, esse não
+
+
+é o ponto. Isso resolve-me apenas um uma parte de
+uma parte do problema. Pronto. A questão é que eu
+
+
+muitas vezes posso arranjar um workflow que eu que
+eu vou buscá-lo à net, o workflow já está pronto,
+
+
+está a trabalhar e eu não quero perder mais tempo.
+E ele é mais fácil levar o workflow para o R,
+
+
+massificá-lo dentro do R e depois também posso
+fazer outras coisas. Eu posso integrá-lo com
+
+
+outros workflows, coisa que aqui não posso de uma
+maneira simplista, aqui não posso. Imaginem que eu
+
+
+aqui gerei um áudio. Agora imaginem que o áudio
+ia alimentar um vídeo, OK? Que eu e pegava numa
+
+
+imagem. imagem, gera vídeo, pega, pega numa
+pronto, gera áudio, pega no áudio, integra no
+
+
+vídeo, depois pega, pega no vídeo, depois do vídeo
+vai para outro sítio qualquer, etc, etc. Vai para
+
+
+um upscaling, depois do upscaling vai para outro
+sítio. Ou seja, eu posso posso manipular todos
+
+
+este tipo de workflows e posso fazer, portanto,
+um pipeline, que acho que é o palavrão que
+
+
+normalmente agora está na moda para este tipo
+de fluxos. OK? Então, é para isso que serve
+
+
+o R. O R é com o R eu faço isso com a maior das
+facilidades e vamos ver um pouco disso daqui a
+
+
+bocado. Como é que como com toda a facilidade eu
+eu consigo encadear fluxos e workflows. OK. Ora
+
+
+bem, pronto, por isso não não posso estar aqui a
+perder mais tempo a explicar esta parte. Depois
+
+
+vocês, estejam interessados, eh, depois eh estudem
+isto e vão ao GitHub e estudem o código. Ora bem,
+
+
+vamos então partir então e tentar varrer aqui,
+por isso é que isto chama uma maratona. Eh,
+
+
+vamos tentar varrer aqui os workflows. Ora bem, para
+já estamos aqui algumas partes mais antigas que
+
+
+ainda recorriam ao LM Studio. Eram dois em um. Eu
+eu nos meus tutoriais antigos houve situações em
+
+
+que eu eh por exemplo este aqui só recorre ao LM
+Studio. Este aqui é o é o gerador de prompts a
+
+
+partir de imagens. OK? Ele aqui, eu acho que este
+aqui vou vou saltar por cima porque este já vimos
+
+
+no meu tutorial de LM Studio. Pronto, ele aqui
+e eu eu subo, eu aqui consigo subir o LM Studio
+
+
+automaticamente. Ah, vou só fazer um rapidamente.
+Pronto, tenho aqui as funções. Eu aqui carrego as
+
+
+funções, mas não preciso porque agora carrego-as
+uma vez, carrego-as no no setup, portanto já não
+
+
+preciso estar sempre voltar a carregá-las em
+todos os os scripts. OK? Eh, portanto, eu tenho
+
+
+aqui uma prompt, tenho aqui um input folder, tenho
+um output folder de prompts. Aqui eu eh vou buscar
+
+
+as imagens. Aqui tenho 183 imagens. Agora vou
+levantar vou levantar eh o o LM Studio. Pronto.
+
+
+Ou seja, nós Isto é uma coisa que agora já não
+preciso, já não preciso, isto é, já não preciso
+
+
+de andar a saltar ou ir ao LM Studio só para usar
+um LLM. Eh, agora e que já tenho maior domínio e
+
+
+sobre o ComfyUI, eu posso também usar o próprio
+ComfyUI para tudo e ter o LM Studio também eh no
+
+
+no posso ter um LLM no ComfyUI. Deixa ver se eu
+se isto correu bem. Ok, already loaded. Ok,
+
+
+pronto, então já está carregado. Eh,
+e portanto agora fazia aqui um loop,
+
+
+não vou fazer. Vamos, vamos só,
+vamos só mostrar aqui três imagens,
+
+
+OK? Ou duas para ser mais
+rápido. OK. Da 10 a 11. Pronto.
+
+
+OK. Então, ele aqui vai mostrar a imagem.
+
+
+OK. Primeira imagem. Eh, aitools
+invoca LMStudio com a prompt e a
+
+
+imagem. Cá está. Gerou, gerou uma prompt.
+
+
+Gerou uma prompt. Acumula a prompt num
+ficheiro de prompts. Segunda imagem. Ok,
+
+
+está a pedir uma prompt.
+Cá está uma segunda prompt. Pronto,
+
+
+já está e acabou. E agora vou fazer o unload
+do LM Studio, que é para depois não me pesar,
+
+
+senão depois vamos para o ComfyUI
+e não há memória que chegue.
+
+
+OK, pronto. Pois é uma uma parte rápida. Eh,
+só automatizei esta parte aqui de fazer loads
+
+
+e unloads quando preciso, eh, porque é
+mais simples, porque tive aí, tenho aí
+
+
+situações em que chamava LM studio e ComfyUI
+alternadamente e, portanto, tinha que andar a
+
+
+fazer load unload porque senão era impossível,
+a minha máquina não aguentava. OK, pronto,
+
+
+portanto esta parte está vista rapidamente. Vejam
+o meu outro tutorial sobre o LM Studio que trata
+
+
+deste tema. Explica este tema mais ao detalhe.
+Eh, aqui temos agora um prompt generator,
+
+
+mas só com ComfyUI. OK? A mesma coisa. A mesma
+coisa, mas agora só com ComfyUI. portanto vamos usar aqui um Qwen VL3 image
+
+
+to text. Agora é a altura de testar de
+testar aquela questão da assinatura que
+
+
+vos disse. Portanto, portanto, tenho aqui um
+input folder. Input folder. Não, não vou usar
+
+
+este input folder. Vou usar, vou usar este aqui.
+ComfyUI input folder. Vou usar aqui o padrão.
+
+
+ComfyUI input folder. Ok. Apagar
+isto aqui. Vou não vou fazer  loop
+
+
+agora. Vou só escolher
+uma imagem. Ora, deixa ver aqui.
+
+
+Eu aqui não estou não estou a filtrar,
+não estou a filtrar por imagens.
+
+
+Eh, mas pronto, não vou  correr isto
+agora. Isto agora não está preparado. Pronto,
+
+
+mas eh vou só vos mostrar a questão da
+assinatura, como eu valido a assinatura.
+
+
+Pronto. Imaginem que eu tenho aqui, imaginem
+que eu passo aqui um vídeo, um vídeo
+
+
+ou uma prompt ou uma prompt. eu já não lembro se
+
+
+este aqui aceita prompt ou não.
+Portanto, deixa ver aqui um vídeo.
+
+
+OK, deixa ver aqui. Pronto, cá está. Cá está
+aqui o que eu estava a dizer que ele ele valida
+
+
+e ele diz: "Olha, este este workflow ele não
+usa prompt, não lhe posso passar prompt, OK?
+
+
+E ele não usa vídeo, OK? Bom, então, então o que
+é que ele usa? Deixa passar aqui esta parte aqui.
+
+
+Então, o que é que ele usa no fim? Ele mostra-me
+aqui a assinatura. Usa unicamente imagem,
+
+
+image. OK. E workflow, isso o workflow é
+sempre. Até podia ter posto aqui o workflow também,
+
+
+porque o workflow é sempre, é sempre o
+primeiro parâmetro. Eh, mas ok, pronto. Eh,
+
+
+este não vou não vou correr isto agora.
+Vocês acreditam que isto que isto funciona.
+
+
+que ele ficou um bocado atabalhoado aqui e não não
+está pronto a funcionar. Ora, depois o que é que nós
+
+
+temos aqui? Temos o recursive generator. Também é
+um tema que já vimos, já vimos num outro tutorial.
+
+
+Não vou fazer esta parte agora também. Esta é
+uma parte aqui onde eu tenho eh aquilo que eu
+
+
+vos disse, eu trabalhava aqui com ora, prompt, LM Studio.
+Portanto, aqui invoco o LM Studio para pedir
+
+
+para pedir uma prompt. Passo-lhe uma imagem peço a
+prompt. OK. Eh, só que tinha que estar sempre,
+
+
+tinha que estar sempre a levantar o modelo,
+carregar o modelo no LM Stúdio e chamar o
+
+
+LM Studio e a seguir ... Crtl+Z e a seguir e a
+seguir descarregar de memória. OK? Pronto. Para
+
+
+poder então ter a capacidade a seguir de invocar
+aqui o ComfyUI com o nome do workflow. OK. Pronto,
+
+
+pronto. Não vamos ver esta parte aqui porque são
+temas que também já vimos noutros tutoriais. Eh,
+
+
+e depois um um recursive generator, mas só agora
+mais simples, apenas recorrendo ao
+
+
+ComfyUI unicamente. Portanto, mais simples, não
+é preciso estar a perder tempo a a carregar e
+
+
+descarregar modelos. OK? Eh, então vamos ver aqui
+um exemplo. Pronto, este exemplo aqui que é um
+
+
+recursive generator e recorrendo apenas ao ComfyUI.
+Ora, o que é que nós temos aqui? Temos dois
+
+
+workflows. Ah, está certo. OK, são dois workflows.
+Porque eu tenho um image to text. Primeiro tenho
+
+
+aqui uma imagem root. Deixa ver se esta imagem
+existe, que eu já não me lembro se existe.
+
+
+Deixa ver aqui.
+
+
+image.
+
+
+OK. Existe é esta. Ui, é esta. pelos vistos.
+É esta. Ok. Eu não estava à espera que fosse
+
+
+esta. zit text to image, mas ok. Vamos, partir
+para o teste. Isto também é uma coisa rápida.
+
+
+Vamos fazer aqui um loop de três. OK. Pronto,
+partimos de uma imagem raiz qualquer. Neste caso,
+
+
+coloquei aqui no no output. Excecionalmente, em
+vez de colocá-la no input, coloquei-a no output,
+
+
+uma vez que depois isto é cíclico. E e portanto
+as próximas geradas também vão ao output,
+
+
+vão buscar a próxima imagem.
+Ela é gerada para a folder de output. OK.
+
+
+Pronto. Então tenho aqui o evoco o workflow número
+um que que onde eu passo a imagem para analisar e
+
+
+dar-me o texto dá uma prompt. OK? Vamos fazer aqui
+um aqui um exemplo porque eu tenho aqui uma uma
+
+
+função nova que eu criei que é um edit variable.
+Ok? Então vou fazer esta parte aqui compassada.
+
+
+E vou ver esta parte aqui. Ok. Display já fiz.
+Então vou vou aqui e vou buscar a prompt. Ok.
+
+
+Oi. Deixa-me carregar aqui os workflows um e dois.
+Portanto, vou buscar aqui a prompt ao ComfyUI
+
+
+Ele está  a executar. Sim, senhora. Ele diz-me
+aqui qual o modelo que eu estou a invocar. OK.
+
+
+Tem aqui um prompt ID. OK. Se eu for aqui, eu
+vou ver aqui na na consola, eu vou ver aqui o
+
+
+código a executar. Cá está ele e eu consigo aqui
+acompanhar. As letrinhas estão muito pequeninas,
+
+
+vocês não veem nada, mas pronto, está aqui a sair
+na consola que aqui ele está está a executar o
+
+
+modelo. OK. E pronto. E então ele deu-me aqui
+uma prompt a a small fluffy white west island
+
+
+terrier. Está certo? Pronto. E o que é que eu fiz
+aqui? Fiz aqui uma função que disse assim:
+
+
+"E pá, dava jeito, por exemplo, quando estamos a
+trabalhar aqui nesta matéria e eu tenho prompts,
+
+
+eh, às vezes quero dar um toque, quero dar
+aqui um pequeno acerto na prompt, como é que
+
+
+eu faço?" E pá, não tinha hipótese, tinha fazer
+copy paste, ir a um editor, voltar a colocar aqui,
+
+
+etc. Portanto, dava jeito ter aqui um editorzinho
+aqui integrado. E temos temos aqui, descobri aqui
+
+
+uma maneira de  invocar isso. E então
+tenho aqui prompt mini functions, edit variable.
+
+
+Pronto, aqui posso dar aqui um toque. Pronto,
+então tenho aqui, tenho aqui e esta parte aqui,
+
+
+a prompt. E agora se eu quisesse a small westland white
+terrier, então posso dizer assim aqui a a
+
+
+small, por exemplo, a a small panda, por exemplo.
+Então agora vou transformar isto e e vou pôr
+
+
+vou pôr um panda, por exemplo. OK. Pronto, save.
+Pronto. E agora tenho aqui a small panda. Pronto.
+
+
+Assim. Posso dar aqui uma martelada só para vocês
+verem. Isto é um exemplo, OK? De coisas que nós
+
+
+podemos fazer aqui. E agora vou vou seguir, vou
+agora vou gerar a imagem com base nesta prompt.
+
+
+OK,
+
+
+vamos a ver se ele gera. Pronto, agora
+ele vai gerar a imagem e depois isto,
+
+
+como isto é é um loop, já já vos
+mostrei isto noutro tutorial.
+
+
+Pronto, é o chato, o chato deste tutorial vai 
+
+
+ser mesmo isto. É porque claro
+que as as gerações são sempre
+
+
+podem ser sempre pesadas.
+
+
+Às vezes pode haver aqui coisas que
+ficaram em memória. Bom, ele já já gerou.
+
+
+Pronto. E então, eh, vamos vê-lo agora aqui.
+
+
+Pronto, cá está. Já gerou o panda. Portanto, em
+vez do west white terrier, portanto, foi um panda. Ah,
+
+
+pronto, penso que não vale a pena. Vamos perder
+mais tempo com isto. Vocês já sabem qual é o
+
+
+princípio. Nós agora fazíamos aqui recursivamente.
+Uma imagem gera prompt. A prompt gera a imagem,
+
+
+a imagem gera nova prompt, a nova
+prompt gera nova imagem e, portanto,
+
+
+dá uma sequência. Às vezes dá coisas
+engraçadas, outras vezes nem por isso,
+
+
+mas pronto, este é um tema que nós já tínhamos
+visto tratado, eh, recursive generator. OK,
+
+
+ora, vamos passar aqui à frente. Ora bem,
+vamos então aqui mass generator também é um
+
+
+tema que nós já tínhamos visto, penso que
+já tínhamos visto, o mass generator. Eh,
+
+
+pois é, é o o nome diz a partir de um ficheiro
+de prompts, fazer. Penso que se calhar vou
+
+
+vou saltar por cima disto. Nós temos aqui vários
+ workflows com vários modelos. Eh,
+
+
+temos o ficheiro de prompts de input, que isto
+é fundamental. E agora fazia aqui um um loop
+
+
+com dentro das prompts . E, portanto, com as
+prompts gero  mais uma geração massiva
+
+
+de imagens. Não vou fazer isto, vocês
+confiam. Isto são os temas que já
+
+
+temos visto. Portanto, ainda ainda agora
+acabamos de ver uma geração de imagens,
+
+
+portanto isso é chapa cinco. Vou saltar
+por cima deste. Ora bem, upscaler. Pronto,
+
+
+aqui está um exemplo bem simples. Aqui
+é um upscaler eh que não necessita de
+
+
+inteligência artificial. OK? Pronto. Eh, ora
+bem, então, o que é que nós temos aqui? Bom,
+
+
+aqui aqui tinha um loop também. Tinha um loop.
+Eu agora não não vou fazer loop nenhum. Vou fazer
+
+
+vou fazer aqui um só caso. Ora ver isto aqui.
+Pronto. Deixa-me só copiar aqui estas duas linhas.
+
+
+OK.
+
+
+Ora, upscaler Imagem para imagem.
+
+
+OK. E agora, qual é aqui o celeuma do upscaler estar aqui o 0.5?
+
+
+Eh, a questão é que os upscalers eh são não,
+neste caso, este não é treinado. Portanto,
+
+
+quando são treinados e a dizer eles foram
+treinados para para uma dada escala de
+
+
+aumento. Neste caso, este, como é tradicional de
+interpolação, não foi treinado, mas ele vinha,
+
+
+se formos aqui ver o o workflow,
+eh, onde é que isto está? Workflows.
+
+
+Ora, upscaler.
+
+
+Pronto, tem aqui o workflow.
+
+
+Se calhar o então o quatro, este aqui
+nem sequer mostra o quatro, então não está,
+
+
+é porque está embutido no nó. Quem fez o
+quem fez o nó, o node dentro do para o ComfyUI,
+
+
+já o já colocou o default de quatro vezes.
+OK. Ou não, não está aqui. É o scale. Não, não,
+
+
+não, não. Eu está quatro vezes. Exato. Porque
+eu tenho, eu tenho que lhe dar um scale de
+
+
+0.5 para que em vez de quatro vezes ele faça um
+upscaling apenas de duas vezes. OK. Pronto,
+
+
+o quatro não está aqui à vista, mas está
+implícito, está definido no nó. Pronto. Portanto,
+
+
+eu para eu para fazer um um uma ampliação de
+duas vezes, eu tenho que lhe dar um scaling de
+
+
+0.5. OK? Vamos ver agora o exemplo. OK. Eh, ora,
+vamos ver agora. Vamos ver aqui um exemplo. Ora,
+
+
+deixa-me ir buscar aqui uma imagem. Deixa-me
+vir aqui. Eu tenho aqui um uns shortcuts para
+
+
+as folders. Ora, deixa pegar aqui numa numa
+numa folder qualquer. Pode ser esta a de input.
+
+
+OK. É de input. O que é que eu estou aqui a usar?
+
+
+Ora, deixa-me copiar aqui esta parte aqui.
+
+
+Não, onde é que está isto aqui?
+
+
+file.path OK. É mesmo isto que eu
+preciso. Ora, ComfyUI, viram,
+
+
+viram agora a tremenda utilidade do do copilot.
+Portanto, fez-me aqui o autocompate. É perfeito.
+
+
+Era mesmo isto que eu estava aqui à procura. Ora,
+input folder. Deixa-me escolher aqui uma imagem.
+
+
+Pode ser esta. Deixa ver. Nesta já está,
+
+
+já está. Esta já está aumentada.
+Deixa escolher aqui uma imagem.
+
+
+Ora, estas estão todas aqui aumentadas.
+Ora, um momentinho só. View extra.
+
+
+Ora, esta aqui, olha,
+pronto, esta aqui, esta aqui.
+
+
+Ora, control copy.
+
+
+Pronto, esta aqui. Ora, então vamos já.
+Esta é uma imagem de 1280 por 720. OK. Aqui
+
+
+deixa, deixa mostrá-la antes de ampliá-la.
+
+
+Pronto, esta é uma imagem 1280
+por 720. Vocês acreditam? Ora,
+
+
+agora vou mandá-lo então ampliar
+um upscaling com interpolação.
+
+
+OK. Imagina que eu já não me lembrava da da dos
+parâmetros ou falta-me algum parâmetro ou OK,
+
+
+pronto, imaginem que eu não me lembrava, não tinha
+aqui este control X, vi a importância da daquela
+
+
+função que eu fiz, senão isto era o completo
+caos, OK? Eh, portanto, ele corre aqui, diz, olha, é
+
+
+requires de scale parameter, portanto a assinatura
+é imagem e escala. OK? Sim, senhora. Vamos gerar
+
+
+parameter is required. O que é
+que falta aqui? image será?
+
+
+Acho que acho que isto acho que isto tem
+tem que ser string. Capaz de ser isso.
+
+
+Portanto, image e scale. Bem, vou fazer aqui
+uma pausa para ver o que é que se passa aqui.
+
+
+OK. Ah, faltava aqui definir a imagem já.
+
+
+Ora, já gerou, já gerou. Sim, senhora.
+
+
+Ora, é igual. Pronto, é igual, mas mas é maior.
+Ora, que a imagem que ele gerou foi o upscaler... Ah,
+
+
+este é um outro padrão que eu arranjei, que isto
+também foi fundamental porque senão isto isto era
+
+
+o caos total. É como vos disse, então isto era
+era espalhar imagens aí pelo computador todo
+
+
+que ninguém ninguém se entendia. Portanto, eu
+tive eu tive que arranjar eu tive que arranjar
+
+
+regras bastante rígidas para para não perder
+o controle disto. E uma das regras foi que
+
+
+eh não dou hipótese de escolher o nome de
+saída do da da das imagens ou dos áudios,
+
+
+ou seja, ou seja o que for. Vou usar sempre
+um padrão que é o nome do workflow. Pronto,
+
+
+eu tive que arranjar padrão nesta nesta nesta
+parte eu tive que arranjar um padrão. Não não dei
+
+
+hipótese de de escolher nomes. Depois mais tarde
+se a pessoa depois precisar de fazer um rename,
+
+
+logo fará o rename. Pronto, neste caso, então eh
+estou a usar o usei o workflow upscaler image image
+
+
+portanto ele gerou-me a imagem upscaler image
+e depois tem um contador que isso é o padrão
+
+
+que o ComfyUI usa vai ver o próximo o próximo
+numérico disponível . E, portanto,
+
+
+ele usa, neste caso, gerou image image
+o três. Portanto, vamos ver aqui.
+
+
+Vou aqui  ao output. Deixa lá buscar aqui a
+imagem. Ora, deixa ver onde é que ela está.
+
+
+Ora,
+
+
+ora, output. Ora, portanto, upscaler image,
+image. Eh, número três está aqui. Eh, ah, não,
+
+
+não, não. Neste caso, reduziu para metade. OK.
+Eu, aqui, aquela regra do quatro não era aqui,
+
+
+não se aplica aqui. Neste caso, então ele reduziu
+mesmo para metade. OK, pronto, olha, já está,
+
+
+está, já está, já está. Reduziu aqui o
+0.5, fez fez o upscaling, downscaling para,
+
+
+para metade. OK, pronto, funciona também. também
+dá para aumentar ou para diminuir. Eu eu aqui
+
+
+estava a fazer confusão. Essa regra do 0.5 para
+2 é é no outro modelo da inteligência artificial
+
+
+porque ele foi treinado para quatro vezes. Este
+não foi treinado para nada em particular. Eh,
+
+
+e portanto e nós é é o o valor que pomos ali é o é
+o valor real que ele vai usar. OK. Pronto, também
+
+
+dá para reduzir o tamanho de uma imagem. Sim,
+senhor. Pronto, aqui estamos conversados. Ora,
+
+
+e agora um upscaling então mais sofisticado e com
+com inteligência artificial. Pronto, aqui temos o
+
+
+upscaling mais sofisticado. Pronto, e agora vamos
+usar aqui que aqui é que foi a questão, ou seja,
+
+
+quando eu vou gerar o o upscaling inteligente,
+OK? Agora sim faz sentido comparar as imagens
+
+
+porque eu quero ver o quão inteligente ele
+foi ao ao gerar determinados detalhes. OK?
+
+
+Pronto. E então quando estamos no ComfyUI, existe aqui uns nós que se colocam
+
+
+aqui um um há há vários, mas fazem todos a mesma
+coisa, que é um comparador de duas imagens. Eh,
+
+
+pronto, e eu queria fazer uma coisa dessas.
+Eu gerava aqui a imagem, depois eu enviava
+
+
+duas imagens e eu abria abria aqui o ComfyUI com
+com um workflow com um comparador e eu fazia
+
+
+aqui a comparação. Pronto, mas eu essa parte
+é como vos digo, não consegui. Não consegui.
+
+
+Pronto, não consegui. Havia aqui várias
+abordagens, uma delas era injetar o um workfow
+
+
+modificado dentro da do do clipboard do Windows
+e depois chegar aqui e fazer o paste, etc, etc.
+
+
+Mas não não deu. Mas entretanto descobri este site
+aqui bastante engraçado, OK? O Twin lens que faz
+
+
+isso. Portanto, eu eu vou abrir aqui o Twin Lens.
+Eu tenho aqui várias funções e eu vou usar aqui
+
+
+o que eu quero que é o image slider. Pronto, eu
+vou posicionar aqui no image slider. OK. Pronto.
+
+
+E agora vou fazer aqui um um teste. Eu vou vamos
+fazer aqui uma ampliação, um upscaler inteligente. OK.
+
+
+Deixa-me limpar aqui isto. Então, vamos usar aqui
+este exemplo. Vamos usar aqui uma image 1. OK.
+
+
+Pronto, tenho aqui image 1. E agora o image 1 eu
+posso já colocá-lo aqui, que é o que que é o que
+
+
+eu vou usar, que é o que eu vou, deixa colocar
+aqui. Pronto, cá está. Pronto, o image eu já o
+
+
+coloquei aqui. Eh, e agora vou vou agora é que
+vai aquela questão que eu vos falei da escala
+
+
+e escala um. Ah, é porque aquele vai aqui vai
+mesmo ampliar quatro vezes. OK. Poder pode ser
+
+
+quatro vezes. Eh, para já este vou posso-vos
+dar a resolução é daqui do do deste aqui desta
+
+
+imagem tá no input. Vou-vos dizer aqui qual
+é. Ora menu JPEG.  tenho aqui no input.
+
+
+Ora, está aqui. Pronto, cá está. Ela  
+  é um quadrado 1024 por 1024. OK.
+
+
+Então vamos então fazer o upscaling, o upscaler
+inteligente. OK. Está a trabalhar. Sim, senhor.
+
+
+OK.
+
+
+Eh, vamos fazer aqui o display dele.
+
+
+OK. É um bocado mais pesado porque a imagem ficou
+muito maior. OK. Muito maior. A imagem gerada foi,
+
+
+portanto, o UPS 4X, a número 3.
+Vamos ve-la aqui eh no output. Ora,
+
+
+4X número 3 é esta aqui. Cá está. 4096 por
+4096. Está correto. Ampliou quatro vezes. OK. Eh,
+
+
+e agora vou arrastar aqui para para o
+browser. Ele está com dificuldade. Ah,
+
+
+OK. Vou arrastá-la aqui. Pronto. Então, vamos ver
+agora. Pronto, esta foi realmente este este site
+
+
+aqui muito muito jeitoso, então permite-me
+fazer essa essa parte, essa comparação. Eh,
+
+
+não sei se vocês vão conseguir ver daí, se vão
+vão conseguir ter resolução. Eh, mas pronto,
+
+
+aqui nos olhos, aqui no brilho, este, o branco
+dos olhos aqui tá muito mais bem definido,
+
+
+OK? E naturalmente os pelos da cara também,
+toda essa parte fica muito mais bem definida.
+
+
+Pronto, este pode não ter sido o melhor exemplo
+este porque este exemplo não tem aquela questão
+
+
+que eu vos disse de que um automóvel ao longe ou
+qualquer coisa ao longe que ele que ele ampliasse.
+
+
+Mas pronto, mas pronto, vocês ficam com uma ideia
+de que realmente este tipo de upscaling é muito
+
+
+mais poderoso do que os tradicionais, um upscale
+upscaling com inteligência artificial. OK, pronto,
+
+
+são modelos que foram treinados. Só para fazer
+isto, não é? Só para fazer em upscaling. OK. Ora,
+
+
+o que é que nós temos aqui mais? Eh, agora temos
+a parte image edit. Ora, image edit. Image edit
+
+
+significa image edit a partir de uma imagem. Sim,
+senhor. Ora, vamos ver o que é que nós temos aqui.
+
+
+OK, temos aqui, temos aqui, por
+exemplo, um modelo texto to texto,
+
+
+um LLM. OK, pronto, cá está.
+Posso posso chamar aqui. Ora,
+
+
+prompt, workflow.
+
+
+Ora, requires prompt paramrter. Está
+um bocado demorado, não sei porquê.
+
+
+Ok. requires prompt parameter,
+que é a prompt. Ok. Sim, senhor.
+
+
+Penso que o demorado pode ter a ver às vezes com
+que a questão que a memória vai ficando viciada
+
+
+ou ele não liberta bem os modelos. Bom, ele já
+deve ter acabado. Pronto. Ora, Pequim. Sim,
+
+
+senhor. Está correto. Pronto, o LLM aqui está a
+trabalhar. Então, vamos lá embora aqui fazer aqui
+
+
+uma sequência. Ora, generate a a prompt for a cute wastie
+puppy. Pronto, portanto, este é uma área onde
+
+
+nós podemos usar a parte do LLM, ou seja, que
+é chamada área de prompt enhancement. OK?
+
+
+Eu não eu não não eu quero fazer uma prompt, mas
+eu não sei fazer uma prompt interessante, não é?
+
+
+E, portanto, é aquela velha história que já vos
+falei noutro tutorial, que é o segredo está nas
+
+
+prompts. É aquela analogia que vos dei da lâmpada
+da Aladino. Não adianta encontrar uma lâmpada de
+
+
+Aladino se vocês ficarem perdidos sem saber o
+que pedir. Então vão, OK? Então vocês vão fazer,
+
+
+vocês e eu fazemos figuras tristes porque a gente
+não sabe o que é que há de pedir à lâmpada de
+
+
+Abadino e e portanto é esse é esse é um problema.
+Pronto. E aqui é a mesma coisa, porque os modelos
+
+
+eles foram treinados eh com determinadas palavras
+chave, OK? E nós não sabemos quais as palavras.
+
+
+Nós estamos com aquelas palavras específicas
+que vão fazer ativar o modelo para para ele dar
+
+
+o seu melhor. OK? Não sei se eu me explico.
+Pronto, vamos. Então, por isso eu aqui peço
+
+
+aqui vou pedir uma coisa genérica.
+Vou pedir uma prompt sem estar
+
+
+a detalhar para que modelo eu vou
+entregar essa prompt. OK, mas pronto,
+
+
+mas seria possível e fazer essa
+parte também, indicar para que modelo eu quero.
+
+
+Sim, senhora. Dá-me uma prompt. Dá-me uma
+prompt interessante para eu apresentar a
+
+
+um modelo gerador de imagem. OK. OK. Já 
+está a parte aqui do edit variable,
+
+
+esta parte aqui eh que já vos mostrei. Pronto,
+agora não vou aqui alterar nada. Então vamos
+
+
+começar a gerar a primeira imagem. Agora
+já tenho a prompt. Agora vamos gerar uma
+
+
+imagem com essa prompt. Vamos usar aqui o
+workflow flux. flux text to image. Sim Senhor
+
+
+ora a seguir o que é que vamos ter aqui? Ora, ah,
+
+
+são outros exemplos de outros modelos.
+OK. Isto é, isto é para comparar modelos.
+
+
+O primeiro modelo foi o Flux
+
+
+e o Flux não sabe o que é um Westie. Ora cá está. O Flux
+não foi. Este modelo não deve ter sido bastante
+
+
+treinado, não deve ter sido treinado o suficiente
+com com cães da raça Westie portanto ele não sabe o
+
+
+que é um Westie. Ok. Pronto. Então agora eh tenho
+aqui este outro mais sofisticado, mais poderoso,
+
+
+com 9 bilhões de parâmetros. Mas eu vou usar o o
+Z image turbo porque eu à partida sei que o Z image turbo é
+
+
+mais poderoso e ele sabe que eu já experimentei
+isto. Ele sabe o que é um um cão da raça Westie.
+
+
+OK.
+
+
+Portanto, não há soluções perfeitas, como
+estão a ver, às vezes eh dependendo dos fins,
+
+
+podemos experimentar vários modelos. Gostamos
+mais da solução de um do que do outro. OK?
+
+
+Portanto, isto não há não há soluções universais.
+Se bem que eh aparenta que a indústria aparenta
+
+
+estar a querer caminhar para soluções universais
+com os o aqueles os modelos eh omni omnimodais ou
+
+
+como é que aquilo se chama, como o Nemotron.
+Portanto, a tendência, se calhar será criar
+
+
+supermodelos capazes de fazer tudo em um, não
+é? Não sei. Vamos ver para que lado é que vai
+
+
+evoluir a indústria. Ora, vamos ver então se
+o Z image turbo consegue gerar um cão da raça Westie.
+
+
+E consegue. Pronto, consegue. Não é aquele Westie
+mais atual, é um mais um bocadinho acastanhado,
+
+
+mas está OK. Pronto, muito melhor
+do que o anterior. Ora bem, eh,
+
+
+portanto aqui para a parte foi de geração
+de imagem, ainda não propriamente de edição,
+
+
+mas agora vamos à parte de edição. Eh, aqui
+tenho porque aqui tinha tinha gerado aqui
+
+
+na imagem anterior, numa que eu fiz no outro
+teste, havia umas bolas no fundo e, portanto,
+
+
+agora tenho que lhe arranjar aqui uma prompt.
+Eh, bom, então, olha, eu vou eh, pronto, agora vou
+
+
+arranjar aqui uma prompt às três pancadas e vou
+dizer, olha, eh eh change the color of the dog,
+
+
+change the color of the dog to
+brown. Pronto, uma coisa simples,
+
+
+olha que se me ocorreu agora. OK. Eh,
+então vamos ver aqui. Ora full image.
+
+
+OK. Esta é a imagem que ele acabou de gerar.
+Ora, uma prompt de edição. E, portanto,
+
+
+e agora vamos fazer edição, portanto,
+OK? Portanto, é o mesmo, ou seja,
+
+
+então é o mesmo modelo. Não quer
+dizer que seja assim com todos os modelos,
+
+
+mas há modelos que têm essa capacidade. Portanto,
+podem gerar uma imagem do zero como podem e
+
+
+gerar uma imagem a partir de uma prompt e de
+uma imagem. Mas agora estava aqui a olhar porque
+
+
+este aqui eu não lhe passei imagem nenhuma e mas
+eu também não o executei. OK. Não, vamos ver se
+
+
+isto agora funciona, porque com aquela regra da
+assinatura as coisas deviam ser obrigatórias.
+
+
+Bom, vamos ver, vamos ver como é que eu já não
+me lembro disto porque já isto são é muita coisa,
+
+
+tive a trabalhar com muita coisa ao mesmo
+tempo e fazendo alterações, etc, etc. OK,
+
+
+está a trabalhar é porque a assinatura está correta.
+Esta aqui é que já não deve estar correta. Esta
+
+
+aqui certamente falharia porque diria que que
+precisava de indicar uma imagem, mas eu não queria
+
+
+indicar imagem nenhuma. OK? Vai ser um tópico
+depois que eu que eu eu irei depois resolver
+
+
+isso. Vamos ver se ele é capaz de mudar mudar a
+cor do cão. OK. Com realismo, claro. Vamos ver.
+
+
+Portanto, passamos uma imagem de
+referência e passamos uma prompt
+
+
+para ativar uma alteração sobre
+essa sobre a imagem. OK?
+
+
+Sim, senhor. Vamos ver. Vamos
+ver o que é que ele fez.
+
+
+Cá está. Muito interessante.
+Espetacular. Eu diria até espetacular.
+
+
+É, deixa fazer aqui uma comparação. Deixa
+pôr aqui o castanho. Eh, e deixa pôr aqui
+
+
+o branco.
+
+
+OK. Ah, vamos ver. Deixa aqui esta parte aqui.
+Ah, ok. Aqui estava um bocado ampliado. Ok.
+
+
+Ora, está espetacular.
+
+
+Está, realmente surpreendeu-me a precisão com
+que ele  fez isto. Espetacular.
+
+
+OK. Mantendo o rigor com que manteve tudo o
+resto, os reflexos, sem estragar reflexos,
+
+
+sem estragar sombras, sem
+estragar nada. Está espetacular.
+
+
+OK. Eh, depois tinha aqui outros exemplos
+de podíamos também mudar o estilo. OK,
+
+
+vamos pegar aqui na nesta última imagem agora em
+castanho, porque isto é tudo um seguimento. OK,
+
+
+eu preparei isto para fazer um seguimento para ver
+
+
+como podemos aplicar alterações por
+cima de alterações. Digo, olha, OK,
+
+
+change the style of the picture to a water color
+illustration. Ok, vamos ver o que é que ela faz.
+
+
+OK? Eh, se vocês já ouviram falar em Loras, OK?
+Os que não ouviram, investiguem o que é. Os que
+
+
+já ouviram, pois já sabem que os Loras e muitas
+vezes aplicam estilos, OK? Complementam eh a
+
+
+ausência de treino que alguns modelos tiveram,
+que alguns modelos não foram treinados com
+
+
+determinados estilos. E então eh o Lora vai
+complementar, fazer essa complementaridade.
+
+
+Pronto, mas eh eu não uso não uso muito e também
+penso que é uma é uma área que provavelmente terá
+
+
+tendência a desaparecer porque os modelos
+são cada vez mais poderosos e, portanto,
+
+
+os modelos são treinados com tudo e mais alguma
+coisa. Portanto, pelo menos para as coisas mais
+
+
+standard. Ora, e neste caso aqui, uma
+watercolor illustration, isto é uma coisa perfeitamente
+
+
+padronizada e, portanto, todo qualquer modelo
+moderno tem que saber o que isto é. A outra coisa
+
+
+que poderá haver no futuro os Loras sobreviverem
+apenas para coisas muito específicas de nicho de
+
+
+mercado ou alguma novidade que entretanto tenha
+aparecido e na cultura popular e que não não
+
+
+tenha sido treinada no modelo. OK? Mas para coisas
+padronizadas, pois não não necessitamos de Loras
+
+
+para nada. Eh, portanto, ele aqui, então aqui
+vamos ver o que é que ele fez. Uma aguarela. OK,
+
+
+cá está. Espetacular, espetacular como ele
+transformou. inventou aqui algumas coisas aqui.
+
+
+Inventou uns vasos porque realmente eh realmente
+está eh dá a entender que são os vasos que estão
+
+
+ali. Eu vou arrastar aqui. OK. Está espetacular. OK.
+Reparem que estamos a usar o o modelo, o flux, eh,
+
+
+que que o Flux não sabia o que é que era um um
+um cão desta raça, mas no entanto agora a fazer
+
+
+a edição de imagem é espetacular. OK, cá está.
+Estão a ver? Pronto, uma aguarela feita aqui a
+
+
+partir aqui da da imagem. Sim, senhor. Ora, o que
+é que nós podemos ter aqui? um exemplo, OK? Então,
+
+
+um homem pôr o homem, pôr o homem a chorar,
+etc. Não vale a pena mostrar mais exemplos,
+
+
+penso que vocês já perceberam a ideia. OK, pronto.
+E agora temos outro tipo de situações. Agora
+
+
+temos situações. Cá está, edição de imagem, mas
+não é imagem para imagem. Pode ser duas imagens
+
+
+para uma imagem, dois para um ou três para um
+ou quatro para um, ou seja o que for. Pronto,
+
+
+para isso existem workflows para tudo isso. Eh,
+pois claro, vão se tornando cada vez mais complexos.
+
+
+Eh, e eu tenho aqui um exemplo. Pronto,
+pus aqui um exemplo com com duas e com duas
+
+
+imagens. Portanto, tenho aqui um, portanto,
+um workflow, duas imagens para uma. Então,
+
+
+o que é que nós temos aqui? Ora, deixa-me
+posicionar aqui, deixa limpar aqui esta parte.
+
+
+Ora, o que é que nós temos então? Temos aquele
+exemplo que eu vos tinha mostrado no início
+
+
+deste tutorial. Vamos ter aqui, OK, tenho aqui um
+jarro de flores, OK? E agora quero lhe colocar um
+
+
+um logotipo. Pronto. Mas neste caso um logotipo
+complexo, uma foto. Uma foto. OK. Vamos ter aqui
+
+
+esta foto. Pronto, esta foto. Eh, por acaso
+tinha ficado melhor até tirar o background.
+
+
+Pronto, agora não para para não perder tempo,
+não vou fazer isso. Ficava bem melhor, em vez
+
+
+de ser o quadrado, ser com com transparência. E
+tenho aí, vamos ver uns workflows  daqui a bocado
+
+
+que que retiram o background também e também
+pode ser feito com ferramentas do Windows,
+
+
+obviamente. Eh, mas pronto, agora para
+não perder tempo vamos seguir. Então,
+
+
+eu tenho aqui put the second image, the
+image of a man as it was a logo on the jar. Ok,
+
+
+pronto. Este é aquele exemplo que o Gemini
+se recusou a fazer. Ora, e agora tenho aqui,
+
+
+agora tenho um é um workflow diferente porque
+agora é um workflow que está preparado para
+
+
+receber duas imagens, OK? E portanto é o
+flux 9 billion, duas imagens para imagem.
+
+
+Recebe uma prompt, recebe uma imagem
+número um e uma imagem número dois OK?
+
+
+OK,
+
+
+existem workflows super complexos, não há
+dúvida nenhuma. Se vocês virem um bocado de,
+
+
+se seguirem a playlist que eu
+vos recomendei do Pixaroma,
+
+
+não é? Se quiserem aprofundar os vossos
+conhecimentos sobre o ComfyUI vocês verão
+
+
+verão workflows completamente uma
+complexidade completamente abismal. OK.
+
+
+Alguns com chegam com dezenas ou centenas de de
+nós. Eh, OK. Vamos ver então o que é que ele fez.
+
+
+Olha, por acaso aqui saiu um bocado diferente da
+outra de uma geração que eu tinha feito na outra
+
+
+altura. Cá está. E que repara que que aqui até
+ficou ficou bem melhor que a minha outra que a
+
+
+outra geração que eu tinha feito. Aliás, vou-vos
+tentar mostrar a outra geração que eu tinha feito
+
+
+quando quando eu estava aqui a preparar isto.
+Eh, deixa ver aqui. Ele aqui gerou flux 9 billion
+
+
+Portanto, deve ser a número um. Deixa
+ver que eu devo devo tê-la aqui. Deixa ver se eu
+
+
+ainda tenho aqui para vos mostrar. Ora, flux 9
+billion 2. Onde é que isto está? Flux 9 billion 2.
+
+
+Cá está. Tenho aqui. vou-vos mostrar.
+Vou-vos mostrar como é que esta tinha uma que
+
+
+eu tinha feito à primeira vez que não tinha ficado
+tão boa como esta. Foi esta aqui. Esta aqui. Ah,
+
+
+porque porque ele pôs o com o quadrado
+mesmo assim. Está OK. Porque arredondou.
+
+
+Não, não pôs quadrado, ele arredondou a
+tentar seguir os contornos da jarra redonda,
+
+
+pôs os reflexos, etc. Mas esta, está bem melhor,
+porque esta aqui ele entendeu que havia de
+
+
+retirar aqui este fundo que não estava aqui a
+fazer nada e ficou ficou melhor. Ficou melhor,
+
+
+de facto. Eh, e pronto. E cá está, cá está. Está OK.
+
+
+Pronto. Portanto, isto é um exemplo de image
+edit a partir de dois de dois inputs. De dois
+
+
+inputs gera um output. OK? Sim, senhora. Dar um
+apanhado. Reparem, isto é só um apanhado, não é?
+
+
+Está longe de ser exaustivo, não é? Um apanhado do
+tipo de de gerações de inteligências artificiais
+
+
+generativas que nós hoje encontramos, não é? Isto
+é isto é um apanhado só. Ora, vamos agora para a
+
+
+parte aqui de vídeo. Sim, senhora. Vamos também
+gerar aqui um bocadinho de vídeo, porque não? Ora,
+
+
+deixa ver o que é que eu tenho aqui, que já
+não me recordo. Tenho, tenho aqui esta imagem.
+
+
+Ora, the man takes off the glasses
+with his hand. Ok, vamos ver. Ok,
+
+
+temos esta imagem e agora peço para fazer um vídeo
+
+
+eh com a prompt the man takes off his glasses. OK.
+Eh, OK. Vamos usar aqui este workflow.
+
+
+Sim, senhora.
+
+
+Ora, ah, precisa de uma duration. Cá está.
+Na altura, quando eu tinha feito isto,
+
+
+ainda não havia duration ou não teria uma uma
+duration padrão. Pronto. Agora, qual é a questão
+
+
+da duration? Imaginem que eu punha aqui a duration
+de, por exemplo, de 5 segundos. Então ele  
+
+
+iria ser irrealista. Ele iria fazer remover
+os óculos muito devagar, como se estivesse em câmara
+
+
+lenta. OK? Podia ter essa tendência. Portanto,
+isso tem tem que se ter cuidado. Eh, e portanto
+
+
+aqui vou imaginar que OK, eh, 3 segundos, talvez.
+Agora até vou pôr dois 2 segundos. Pronto, uma
+
+
+coisa rápida. Quanto mais curto for, mais rápido
+é também agora para para fins do tutorial. OK.
+
+
+Sim, senhora.
+
+
+Há aqui um workflow que eu não consegui pôr
+a trabalhar e um bocado paradoxalmente,
+
+
+que é eh pedir a explicação de um vídeo, dar um
+vídeo e pedir o descritivo. Esse não consegui pôr
+
+
+a trabalhar e penso que é muito exigente em termos
+das capacidades de memória do computador. Eh,
+
+
+isso é, penso que é a maneira como esses
+modelos ainda estão hoje em dia feitos.
+
+
+Eles estão à espera quando eu passo o vídeo,
+eles eles partem o vídeo em frames e acho
+
+
+que eles processam os frames todos de tacada. Eu
+fiquei com essa impressão, pelo menos este modelo
+
+
+que eu estava a experimentar. Eh, e portanto
+rebentou-me com a capacidade da máquina. Não,
+
+
+não consegui pô-lo a funcionar. OK. Portanto, é
+quase que é mais simples gerar vídeo a partir
+
+
+de texto ou a partir de imagem. Eh, neste caso, a
+partir de imagem e com uma prompt é praticamente,
+
+
+parece-me que até é mais simples do que o
+contrário, pegar no vídeo e pedir a explicação,
+
+
+o descritivo do vídeo. OK? Reparem, neste caso,
+vamos, estamos a gerar vídeo eh com com a partir
+
+
+de uma imagem, mas também é possível gerar
+vídeo sem imagem nenhuma, só a partir de texto,
+
+
+OK? Portanto, há até múltiplas variantes, OK? Eu
+não sou um expert nisso, mas eh só para vocês
+
+
+também sejam como eu, que também tenham
+pouco know how, saberem que há muitíssimas
+
+
+variantes para trabalhar com isto. Portanto,
+quando se vai trabalhar, tem que se ver bem
+
+
+exatamente o que se quer, quais os inputs que
+queremos dar e o que é que estamos à espera.
+
+
+OK? Ora, depois aqui tinha um outro exemplo de uma
+outra imagem de little Monkey tinha um macaquinho,
+
+
+um macaquinho aos pulos. Pronto, não
+depois não vamos perder mais tempo
+
+
+com isto também para não que isto que
+isto já vai demorou vai já vai bastante
+
+
+demorado. E normalmente acostuma-me demorar 1
+minuto por cada segundo. Mais ou menos assim,
+
+
+números redondos. Podemos até ver aqui
+se se a gráfica se a minha gráfica está
+
+
+a trabalhar neste momento. Vamos
+ver agora que eu estou a ouvi-la.
+
+
+Ora GPU, cá está ela. Cá está ela. Começou
+
+
+agora a trabalhar. Deve estar na parte
+agora final da geração do vídeo. OK.
+
+
+A máquina, a minha máquina também é capaz de
+estar um bocadinho degradada, é como vos digo,
+
+
+porque poderá às vezes. Pronto, eu já acabou.
+Pronto, cá está. Agora a utilização da gráfica
+
+
+já já veio, já veio abaixo. Eh, ora, vídeo.
+E vamos ver então aqui o vídeo. Ora, cá está.
+
+
+Pronto. Aqui o problema é que eu eu gero sempre
+vídeos e e imagens na no formato HD Ready. Pronto,
+
+
+é um padrão que eu arranjei para mim e diz, pá, eu
+eu vou sempre trabalhar, vou arranjar este padrão
+
+
+e, portanto, eu trabalho sempre com este tamanho.
+Pronto. E aqui ele perdeu-se um bocado porque como
+
+
+o input é quadrado, ele o quadrado ele ele
+pegou no quadrado e ele cortou uma fatia na na
+
+
+proporção que eu queria, estão a ver? Portanto,
+ele cortou aqui um bocado a cabeça. Pronto,
+
+
+mas isto foi um um exemplo rápido que eu vos
+arranjei. Mas pronto, é só para verem que não
+
+
+é o ideal. O ideal então era aqui que eu tenho
+esta proporção, eu deveria arranjar uma imagem
+
+
+de input, uma imagem de partida, uma imagem de
+referência para usar o norme do nome técnico,
+
+
+a reference image. Eh, portanto, com as proporções
+corretas iguais às do vídeo que eu queria gerar.
+
+
+OK? Mas vejam, está espetacular, não é? Isto
+ele gera, ele gera vídeos. Eu, reparem nisto. Isto
+
+
+é espetacular. Não há dúvida nenhuma que o cinema,
+tal como o conhecemos, tem os dias contados.
+
+
+Eh, não há dúvida nenhuma. Eu faço aqui este
+prognóstico, dificilmente me enganarei porque
+
+
+tem os dias contados porque e nós estamos a ver
+isto dia por dia. Eh, eu não dou mais dois ou
+
+
+três aninhos até começar a sair nos cinemas. Eh,
+filmes completamente feitos com a inteligência
+
+
+artificial. serão muito mais rápidos de
+fazer, eh, muito mais poderosos em termos
+
+
+de capacidade para tudo aquilo que nós conhecemos
+de efeitos especiais, que já hoje são feitos com
+
+
+por computador, como é óbvio. Eh, e portanto serão
+será muito mais fácil. Eh, de haverão, imagino que
+
+
+haja um guião, que vai haver imagens e depois vai
+haver vai ser feita a transição. Eu também já vi
+
+
+tutorials sobre isso. O que se faz é que tem-se um
+faz-se um guião como se fosse uma banda desenhada,
+
+
+tem-se o conjunto de imagens estáticas e depois
+faz-se a animação e e manda-se o sistema eh gerar
+
+
+de uma imagem para a outra, que também é possível,
+não é? Não é o caso aqui. Aqui foi simplesmente um
+
+
+guião contexto, mas existem modelos que fazem a
+partir de uma imagem para para uma outra imagem
+
+
+final. Eh, enfim, é como vos digo, há muito
+múltiplas variantes. Pronto. Está, mas de facto
+
+
+isto ficou espetacular. Tremendamente bem feito.
+Tremendamente bem feito. Ah, pronto, para não
+
+
+perder aqui mais tempo com isto, eh, vamos dar
+este aqui por encerrado. Isto é uma maratona,
+
+
+como vos disse, mas está a andar bem. Penso que
+agora está a andar a uma boa velocidade. Ora,
+
+
+este é o wan vídeo que já vimos, não é? Foi este.
+OK. Eh, e vamos passar agora para para para voz,
+
+
+para áudio. OK. Pronto, vamos passar aqui para
+para áudio. Portanto, temos aqui áudio. H,
+
+
+cá está. Sejam bem-vindos ao meu novo
+tutorial. Vamos aqui, temos aqui uma prompt,
+
+
+tenho aqui um workflow. Vamos usar o modelo
+Qwen 3 TTS text to speech. OK. Atenção que há vários,
+
+
+mais uma vez também aqui em matéria de áudio,
+há há múltiplas combinações. OK. Eu na altura
+
+
+estava a pegar nisto e estava-lhe a chamar text to
+áudio. Não, isto não é text to áudio, isto é text to speech,
+
+
+que é diferente de text to áudio. OK? Porque o text
+to speak é específico e especializado em gerar
+
+
+a fala humana, enquanto o text to áudio é mais
+genérico. É posso, posso gerar uma trovoada,
+
+
+posso gerar um um som de um cão a ladrar, etc,
+etc, etc. Portanto, text to áudio e depois há
+
+
+haverá  text to music também. Portanto,
+há várias variantes, atenção. Eh,
+
+
+portanto, neste caso, pois é, Text to speech, que é o mais
+tradicional. Eh, o resultado não é grande coisa,
+
+
+porque é como vos digo e porque este text to speech é
+genérico e enquanto que nós temos modelos
+
+
+especializados em determinadas línguas, OK?
+Por acaso acho que há um modelo já em Portugal
+
+
+especializado para português, que foi feito aí
+numa universidade. Eu tive a ver. Eh, mas pronto,
+
+
+como não estava não estava integrado já no no
+ComfyUI, ainda não  fui capaz ainda
+
+
+também não ainda não não pus isso como objetivo
+ir buscá-lo e tentar começar a usá-lo. Pronto,
+
+
+poderá ficar para outra altura. Mas pronto, isto
+para explicar que aqui não vai ficar grande coisa,
+
+
+porque este modelo é genérico e, portanto,
+um modelo genérico conhece várias línguas ao
+
+
+mesmo tempo, pois já não nunca nunca poderá ser
+tão poderoso como um modelo especializado numa
+
+
+determinada língua que eles existem, existe,
+que eu tive a ver que existem, existem modelos
+
+
+especializados em numa só língua. OK? Pronto,
+vamos então ver este modelo. É genérico, mas
+
+
+eu pedi para ele gerar em português. E, portanto,
+vamos ver vamos ver o que é que ele faz aqui. OK.
+
+
+Ora, e depois a seguir vamos ver um exemplo de
+voice cloning, porque aqui é um é um exemplo em
+
+
+que é usado um   padrão, um perfil que
+já vem no modelo. Pronto, pronto, iste é o
+
+
+mais rápido que existe, é pegar no modelo. Ele já
+traz alguns perfis de homem, de mulher. Portanto,
+
+
+eu escolhi ali um perfil qualquer, eu pus
+o perfil, digo: "Olha, fala isto e pronto,
+
+
+e acabou". Pronto, isso é mais simples. E depois
+a seguir vamos ver um exemplo mais complexo, onde
+
+
+aí já foi feito o voice cloning, onde eu clonei a
+minha voz e, portanto, para ele falar com a minha
+
+
+voz ou como poderia ser uma outra voz qualquer que
+eu quisesse clonar. OK? Pronto,  E depois
+
+
+existem outros modelos mais sofisticados que fazem
+diálogos, não é? Combinam várias vozes. Pronto,
+
+
+tudo isso, como vêem é uma multiplicidade, uma uma
+multiplicidade de variantes. OK? Pronto,
+
+
+isto é o mais este deve ser o mais simples que
+há. text to speech padrão básico, usa usa um perfil
+
+
+de voz já definido. Eh, e depois também há alguns
+modos que eh nem usam um perfil pré-definido,
+
+
+nem usam voice cloning, usam uma descrição
+de voz textual, ou seja, eu descrevo por palavras
+
+
+o o timbre de voz que eu quero. Mas cá está.
+Para isso também é preciso ter conhecimentos
+
+
+de quais os termos técnicos adequados para
+especificar uma voz, coisa que eu não sei,
+
+
+sei lá como é que eu dei me referir a uma
+voz, uma voz mais suave, uma voz mais rude,
+
+
+uma voz mais mais grossa, mais fina, mais isto,
+mais aquilo, mais aqueloutro. Ou seja, eu não sei,
+
+
+eu não conheço os termos técnicos para definir uma
+voz, OK? Portanto, mas mas eles existem. Portanto,
+
+
+é possível ir investigá-los e a partir daí começar
+a trabalhar e criar múltiplas vozes. Ou inclusive
+
+
+é imaginem que querem criar uma voz muito
+agradável de acordo com um timbre que vocês querem
+
+
+que não exista, alguém que não exista. E portanto,
+e aí vocês querem uma voz, é a voz da perfeição,
+
+
+a voz dos vossos sonhos e, portanto, que ela não
+existe, vocês não a podem clonar e, portanto,
+
+
+vocês têm que a descrever por palavras essa voz, OK?
+Portanto, isso também é possível. OK. Pronto. Eh,
+
+
+neste caso é o caso mais simples, portanto, uma
+voz pré-definida que mas que a língua fundamental
+
+
+dela é o inglês e ela aqui ela aqui vai tentar
+arranhar o português. Sejam bem-vindos ao meu novo
+
+
+tutorial R com RStudio, desta feita, dedicado
+a controlar o ComfyUI a partir do RStudio. OK,
+
+
+pronto, vale o que vale, como viram, não é
+grande coisa. muito abrasileirado, mas pronto,
+
+
+isso é só para vocês ficarem com uma ideia.
+E agora vamos para um então para ao próximo
+
+
+passo aqui que é voice cloning. Agora já é mais
+poderoso. Ok, pronto. Então aqui no voice cloning
+
+
+eu clonei a minha voz. Não interessa agora estar
+a explicar o mais ao detalhe como é que isso é
+
+
+feito. Vejam os tutorials do Pixaroma se quiserem
+ver os detalhes. Pronto, aí explica tudo tintim
+
+
+por tintim os workflows. Eh, e depois eu pego num
+desses workflows, eu clonei a minha voz, ela fica
+
+
+guardada eh junto ao modelo como sendo um como
+sendo que, aliás, que é o que eu tenho aqui no
+
+
+nas voices. Tenho aqui essas vozes aqui gravadas,
+só que esta parte aqui, como possam entender, eu
+
+
+não vou eu não vou eh partilhá-la no GitHub, como
+é óbvio. Acho não não preciso explicar o porquê,
+
+
+não é? Eh, portanto, eh mas pronto, é possível
+fazer isso e clonar vozes e portanto eu tenho
+
+
+aqui, vamos então a isto. Voice cloning,  a
+mesma prompt. Pronto. Mas agora vai ser com ah esta aqui
+
+
+é que há du há duas variantes. OK, já me recordo.
+Há uma variante na qual eu lhe tenho que indicar,
+
+
+ou seja, a a o voice clowning é feito no momento,
+eu é no momento em que eu peço a prompt,
+
+
+no momento que eu passo a amostragem da minha voz.
+OK? Portanto, digamos assim, portanto, esse é o
+
+
+mais rudimentar dentro do voice clowning. OK, eu
+passo e essa minha voz onde está? Bom, essa minha
+
+
+voz está já está dentro do workflow. Pronto, já
+lá está, porque eu preparei este workflow voice
+
+
+cloning neste momento para falar só com a minha
+voz. E por isso é que aqui não tenho que lhe estar
+
+
+a passar a amostragem, mas a amostragem ela está
+lá invocada dentro do modelo, OK? E, portanto,
+
+
+aqui esta geração vai ser um bocadinho mais lenta.
+Esta a seguir é que vai ser mais poderosa, porque
+
+
+esta já leva o voice cloning com profile, ela já
+leva a minha voz já foi pré-treinada e e já
+
+
+foi pré-processada. E, portanto, aqui ela vai ser
+mais rápido porque já tem a minha amostragem, o
+
+
+meu sampling de voz já  está pré-processado.
+Pronto, vamos ver primeiro este aqui.
+
+
+OK. Portanto, é só para vocês verem um realmente
+um lamiré de todas as variantes que há. Isto é
+
+
+um mundo. Isto realmente é uma coisa brutal,
+porque há há múltiplas variantes hoje em dia da
+
+
+inteligência artificial generativa. E há muitas
+mais aqui que não vamos ver. Nós aqui vamos só
+
+
+ver aqui mais duas coisinhas rápidas e vamos
+acabar senão isto, mas há coisas, por exemplo,
+
+
+há a parte a parte que trabalha com modelos
+3D, não é? a malta que vai ao Blender e vai
+
+
+buscar um modelo 3D e ou usa a inteligência
+artificial para para para gerar modelos 3D,
+
+
+cujos esses modelos depois são usados no gaming
+como personagens 3D, OK? Já não se têm que ser
+
+
+estar a ser desenhadas e no Blender.
+Portanto, há há muita coisa,
+
+
+muita coisa dentro da da inteligência
+artificial, há múltiplas variantes. OK.
+
+
+Ora, vamos ver então como é que isto ficou. Sejam
+bem-vindos ao meu novo tutorial R com RStudio,
+
+
+desta feita dedicado a controlar o
+ComfyUI a partir do RStudio. Ora,
+
+
+muito melhor. Mais parecido com a minha
+voz, como repararam. OK. E agora este aqui
+
+
+ainda é mais poderoso e mais rápido
+também. exatamente a mesma prompt,
+
+
+porque agora aqui tem a minha voz que já
+foi pré-estudada, portanto é mais rápido.
+
+
+OK? Depois estive a ver, eu estive a experimentar
+também com diálogos. a parte dos diálogos não
+
+
+ficou grande coisa, porque eu penso porque por
+causa da língua portuguesa eh eu queria pôr duas
+
+
+personagens a falar em português. Eh, e pronto,
+e como é, como vos digo, como o modelo não é não
+
+
+é específico para a língua portuguesa, portanto,
+ficou ficou um bocadinho fraquinho, ficou muito
+
+
+pior qualidade do que do que estes exemplos que eu
+vos estou a dar. Estes aqui até estão OK, estão
+
+
+estão bastante aceitáveis. Agora este aqui acho
+que vai ficar de melhor qualidade ainda. OK. Vamos
+
+
+ver. Ora, a nível de tempo, reparem como foi mais
+rápido, exatamente a mesma prompt, o anterior com
+
+
+55 segundos e este com 40 segundos. Mais rápido
+porque ele já usou a minha voz, que a minha
+
+
+voz já já foi pré-processada. OK, pronto, vamos
+ver como é que ficou. Sejam bem-vindos ao meu novo
+
+
+tutorial R com RStudio. Desta feita, dedicado
+a controlar o ComfyUI a partir do RStudio. Ora,
+
+
+cá está. muito melhor, muito mais claro, um
+bocadinho rápido, não sei, não sei porquê,
+
+
+se calhar não sei, deve ter sido algum parâmetro
+que passou no modelo e eu não reparei. Ah, mas
+
+
+pronto, vamos ficar por aqui nesta área aqui do
+voice cloning. Portanto, isto é, como vos disse,
+
+
+isto é uma maratona, um lamiré para vocês ficarem
+com uma ideia do que é que podem fazer, não é? Eh,
+
+
+todos estes exemplos que estamos aqui a ver. Eh,
+e penso que que vos sirva de inspiração para e que
+
+
+vocês vos abra os horizontes, porque é que isto
+permite, isto aqui permite fazer coisas brutais,
+
+
+não é? Quando combinando aqui várias várias coisas
+aqui. Há aqui outros tipos de ainda de de modelos
+
+
+e de trabalhos que eu que eu não fiz porque não
+dava, porque eu eu aqui tive que fazer um stop,
+
+
+senão isto ficava grande demais. mesmo assim já
+ficou enorme, mas imaginem, por exemplo, com com
+
+
+e fazer o lip syncing, uma pessoa a falar com a
+voz e forçar o lip syncing dos lábios. Isso é,
+
+
+há modelos especializados nessa área. Eh, coisas
+desse tipo, não é? Agora mais sofisticadas. Eh,
+
+
+mas pronto, mas isto acho que é, acho que é uma,
+foi uma boa introdução lámiré para vocês verem mais
+
+
+ou menos como é que eu posso, o que é que eu posso
+fazer aqui. Isto é uma infraestrutura que eu agora
+
+
+criei, gosto dela e acho que está bem feita e bem
+robusta. Isto permite-me a todo o momento que eu
+
+
+esteja a trabalhar com qualquer modelo do ComfyUI,eu posso vir
+aqui automatizá-lo aqui e depois posso combinar
+
+
+aqui uns com os outros. Qualquer ideia que eu
+tenha, posso rapidamente aqui combino modelos
+
+
+e faço pipelines aqui com com fluxos encadeados de
+modelos. Eh, estamos pertos do fim. Vamos só aqui
+
+
+ver aqui dois tópicos também interessantes que
+que que eu vi eh e que eu que vos quis mostrar. Um
+
+
+deles é o remove background. Se bem que o remove
+background também pode ser feito com ferramentas
+
+
+do Windows, mas pronto, mas imaginem que vocês têm
+uma centena de imagens para remover o background,
+
+
+não é? Pronto. Portanto, essa é sempre a questão.
+A questão que se pode pode pôr aqui é que com
+
+
+facilidade aqui. Eh, este foi um exemplo que
+eu que eu até fiz há bocado, que eu tinha aqui
+
+
+um logotipo. Este nem vou fazer, vou só fazer
+este aqui. Vou fazer só aqui este exemplo aqui.
+
+
+Portanto, tenho aqui eh este acho que é o OK.
+Uma garrafa. Pronto. Tenho aqui uma garrafa.
+
+
+Eh, este é um exemplo que eu fiz de propósito
+para verem que aqui é tem uma certa
+
+
+dificuldade acrescida. É quando o objeto é
+transparente. Quando o objeto é transparente,
+
+
+pois ele vai remover o fundo, mas ele não
+remove o fundo através da transparência,
+
+
+não com este modelo, mas depois, existem
+outros modelos mais sofisticados,
+
+
+especializados em trabalhar com transparências.
+OK? Eh, portanto, aqui calhou porque eu estava
+
+
+aqui a testar e depois acabou por ficar
+aqui o objeto com a  transparência.
+
+
+Pronto, mas portanto não vai ficar tão bem
+feito do que se fosse um objeto opaco. Ora,
+
+
+vamos. Isto é bastante rápido. Estes modelos
+para remover background são muito rápidos.
+
+
+Pronto, já está. E vamos
+ver então. Ele aqui removeu
+
+
+e cá está. Pronto, e ele é super rápido, mas
+pronto, tem esta restrição de por causa que
+
+
+o objeto é transparente e ele através da
+transparência não removeu o fundo. Pronto,
+
+
+não fica perfeito. Mas é como vos digo, há modelos
+especializados para fazer isto. Eu é que eu já
+
+
+não não não tive mais paciência para estar aqui a
+criar mais workflows. OK. E a seguir vamos criar
+
+
+aqui um outro exemplo que é o último exemplo, o
+extract object. OK? Pronto, o extract. Ora bem,
+
+
+eh, então o que é que nós temos aqui? Nós temos
+uma imagem complexa, uma imagem complexa. Aqui
+
+
+a imagem é grande, por isso está a demorar
+um bocadinho. Pronto, cá está. Tem vários
+
+
+objetos. E agora eu quero retirar um objeto. Eu
+vou retirar, por exemplo, aqui a garrafa. OK?
+
+
+Na altura, quando eu estava a fazer isto,
+disse assim: "Mas então eh existem modelos
+
+
+especializados em retirar objetos. São chamados
+modelos de segmentação, OK? Segmentam a imagem e
+
+
+sabem identificar cada elemento na imagem. Sabem
+dizer: "Aqui está um capacete, aqui está uma mesa".
+
+
+Portanto, OK, eles sabem isso tudo. Mas na altura
+eu também estava, perguntei-me assim, mas porque
+
+
+não usar um modelo de imagem? Porque o modelo,
+o modelo de edição de imagem se calhar também
+
+
+era capaz de fazer isto, eh, aquele que vimos
+há bocado, que mudava a cor do cão, etc, etc.,
+
+
+porque ele também ele também tem um entendimento
+sobre a imagem. E foi o que eu fiz aqui. Eu fiz
+
+
+extract the bottle. Eu até vou
+dizer assim, extract the botle from
+
+
+the image. And vou dizer até, vou dizer
+assim, and give me only the bottle. and
+
+
+and give me only
+
+
+the bottle. OK, vamos ver como
+é que ele ele como é que ele se
+
+
+comporta com o modelo de edição
+de imagem que já vimos há bocado,
+
+
+OK? E vamos ver que ele tem muita dificuldade.
+
+
+Tem muita dificuldade porque porque há bocado
+era uma manipulação de imagem. Eu dava-lhe
+
+
+o cão e dizia: "Muda a cor do cão". Mas a
+imagem em si tinha as mesmas proporções,
+
+
+o mesmo tamanho, OK? Era mudar uma coisa
+dentro da imagem. Agora aqui é diferente,
+
+
+aqui é uma extração. Portanto, aqui
+significa que eu posso ter uma imagem
+
+
+numas proporções e que ele vai-me dar um
+objeto noutras proporções. OK? Portanto,
+
+
+aqui aqui a mecânica aqui é é bem diferente.
+Vamos ver o que é que ele gerou.
+
+
+Olha, pronto, gerou uma imagem, mas olha, até não
+está nada mal. Não está nada mal. Pronto, gerou uma
+
+
+imagem. Depois inventou aqui um fundo. OK. Pronto,
+mas nós não queremos isto. Nós não queremos isto.
+
+
+O que nós queremos é no modelo de segmentação é
+extrair o objeto sozinho, eliminando tudo o resto
+
+
+e, portanto, apresentando-me o objeto contra um
+o fundo totalmente transparente e também com um
+
+
+crop junto ao objeto. Portanto, se o objeto fosse
+pequenino, eu não quero uma coisinha pequenina
+
+
+contra um fundo grande, que era a coisinha
+pequenina isolada. Portanto, vamos partir da
+
+
+mesma imagem, OK? Eh, e portanto agora e agora a
+prompt pode ser bem mais simples, porque o modelo
+
+
+já sabe o que é que se o que é que se espera dele.
+Eu não, já não preciso dizer extrai-me a garrafa,
+
+
+basta dizer apenas a garrafa, porque como é um
+modelo de segmentação já sabe o que o que se
+
+
+espera e, portanto, ele já sabe que nós queremos
+identificar e extrair objetos e, portanto,
+
+
+basta dizer o que eu quero. Eu quero a garrafa.
+OK? Pronto, então vamos usar este modelo extract.
+
+
+Falhou aqui qualquer coisa. Ah, ah, deve ser
+aqui isto. Deixa ver. É, é a imagem aqui.
+
+
+OK. Que a imagem tinha sido esmagada aqui.
+
+
+OK. Portanto, extrai-me a garrafa daquela
+daquela imagem complexa que tínhamos há bocado.
+
+
+Extrai-me a imagem contra fundo transparente.
+Normalmente dá sempre para pôr e quando há fundo
+
+
+transparente também dá para pôr um fundo opaco
+de uma determinada cor. Mas penso normalmente o
+
+
+que se possa o que se possa pedir mais é contra um
+fundo transparente. E vamos ver como é que ficou.
+
+
+E pronto. E fica na perfeição. E ele faz o
+crop e eu consigo extrair qualquer objeto que
+
+
+estivesse naquela imagem grande. Eh, e também
+dá para extrair múltiplos objetos de uma só
+
+
+vez. Eu estive a ver no Pixaroma e que, por
+exemplo, se eu pedir um determinado objeto,
+
+
+mas houver várias instâncias desse objeto,
+ele tira os vários objetos. Por exemplo,
+
+
+se eu disser assim: "Dá-me as pedras
+preciosas". Ele dá as diversas pedras preciosas.
+
+
+Se eu disser dá-me as pedras preciosas verdes,
+ele dá-me estas quatro pedras preciosas. Portanto,
+
+
+OK, não é necessariamente um só objeto, pode
+ser uma família de objetos. OK? Eh, e pronto,
+
+
+penso que estamos a chegar ao fim. Já vai longo
+esta maratona. Eh, deixa ver aqui. Já já falamos
+
+
+tudo, mostrei. Eu penso que espero que vocês
+tenham percebido mais ou menos qual é a ideia e
+
+
+como é que eu trabalhei aqui, como é que eu fui no
+ComfyUI e testei os workflows, salvei os workflows,
+
+
+OK? Manipulei o Json dos workflows, pus lá os
+parâmetros, OK? Eh, sim, senhora. Os parâmetros
+
+
+e posso não ter explicado bem os parâmetros.
+Só dar aqui uma última passagem aqui, eh,
+
+
+que ele tem aqui, deixa ver aqui. Portanto, aqui
+load and load and modify workflow. Portanto,
+
+
+ele aqui validou, eh, validou. E
+agora aqui é onde eu faço os replaces.
+
+
+Portanto, eu aqui e enquanto eu antigamente
+fazia, eu carregava o Json para uma lista
+
+
+de R e depois manipulava a lista enquanto
+enquanto lista, que era muito mais complexo.
+
+
+E eu já andava a trabalhar nisso há uma semana e
+a certa altura tive uma epifania, que por acaso
+
+
+até me acontece muitas vezes, e disse: "E
+pá, mas para que é que eu estou a complicar
+
+
+isto? Para que é que eu estou a trabalhar,
+a carregar um Json e a trabalhar em Json?
+
+
+É estúpido, desculpem-me a expressão. E às vezes
+é, às vezes complicamos desnecessariamente. Eu vou
+
+
+trabalhar o Json, mas enquanto um texto, enquanto
+um TXT, OK? Não sei se me explico. Portanto,
+
+
+eu carrego o workflow aqui com readlines enquanto
+TXT e depois é muito mais fácil trabalhar com
+
+
+TXT e fazer um string replace. Aqui faço o string
+replace em todo o txt à procura onde tiver as
+
+
+estas palavras chave que é as palavras chave que eu
+defini e com que eu altero os workflows e ponho
+
+
+lá estas palavras chave em maiúsculas porque
+eu verifiquei que os workflows nunca usavam
+
+
+maiúsculas e portanto usei estas palavras chaves,
+estas palavras reservadas e portanto eu faço
+
+
+replace nos workflows e eu passo-lhe os parâmetros
+onde houver. Se houver um workflow, por exemplo,
+
+
+que não tem vídeo, pois não há nada para
+substituir e depois não acontece nada, mas ele
+
+
+tenta substituir. Onde ele conseguir substituir,
+ele substitui. E depois há aqui dois, estas duas
+
+
+substituições que são automáticas que não, eu não
+preciso estar a passar em parâmetros, nomeadamente
+
+
+o SEED. O seed é gerado aqui automaticamente e é
+gerado um determinado seed aleatório e o file name
+
+
+prefix, como vos expliquei, que é o workflow name.
+Pronto. E, portanto, eu aqui trabalho em texto,
+
+
+não preciso trabalhar em... só no momento em
+que vou entregar o txt ao ao vou submetê-lo
+
+
+ao ao servidor de ComfyUI é que eu tenho que
+passar outra vez para para Json. OK, pronto,
+
+
+isto é mais mais ou menos é essa a ideia, mas
+pronto, mas a mas a parte da transformação do
+
+
+Json ficou muito mais simples aqui, só com estas
+linhas. Eu não tenho que saber onde é que nem se
+
+
+tem o parâmetro, nem se não tem, nem em que linha
+é que está o parâmetro ou que deixa de estar, nem
+
+
+se ocorre uma vez ou ocorre mais que uma. é tudo
+completamente automático. Basta fazer um replace,
+
+
+um string replace massivo. E pronto, e funciona.
+Funciona como vocês viram e viram isto tudo a
+
+
+funcionar e tudo a trabalhar. E, portanto, eu
+criei aqui uma arquitetura, como vocês estão a
+
+
+ver, para mim estou bastante satisfeito com ela.
+E de hoje para amanhã, se quiser trabalhar com
+
+
+algum outro tipo de de inteligência artificial
+generativa, com um outro tipo de de que onde
+
+
+eu preciso de algum outro tipo de parâmetro
+que não esteja aqui, pois eu  criarei um
+
+
+outro parâmetro e ponho aqui mais um parâmetro
+e pronto, e está a andar e vai e vai tudo vai ser
+
+
+tudo integrado. Mas a arquitetura já está montada
+e à partida já está bastante robusta,
+
+
+como vocês viram, porque conseguiu trabalhar
+com toda esta panóplia de workflows com bastante
+
+
+facilidade. Penso que sim, penso que agora cobri
+tudo quanto queria , quanto queria falar. Eh,
+
+
+irei daqui a bocado só atualizar aqui o
+GitHub. Pronto, então é aqui esta parte agora,
+
+
+este projeto agora por por terminado para já,
+pelo menos um syncpoint aqui. E pronto, despeço-me e
+
+
+chegamos ao fim desta maratona e espero que tenham
+gostado e até uma próxima oportunidade. Obrigado.
+
+

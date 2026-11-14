@@ -1,0 +1,191 @@
+
+Ora, sejam bem-vindos à terceira e última parte
+deste tutorial. Isto era para ter ficado em duas
+
+
+partes, mas houve um problema técnico mais uma vez
+ficámos sem áudio no final do do vídeo anterior.
+
+
+Ah, o que é que eu uso aqui para fazer esta...
+este este vídeo? O que é que eu costumo usar? É o
+
+
+é o a ferramenta do do Windows, o sniping sniping
+tool simples, aquele que usamos para fazer print
+
+
+screens, faz print screens e também faz captura de
+vídeo. Simples e funciona. E faz captura em 4K,
+
+
+que é que é o importante. Depois eu não não
+tenho muita paciência para edição de vídeo
+
+
+e também não tenho muita experiência.
+Quando preciso de usar alguma coisa,
+
+
+uso o Microsoft Clipchamp, portanto o gratuito
+Clipchamp é simples, mas tem a desvantagem de
+
+
+que a salvar o resultado final só salva em 1080p. Portanto, na versão gratuita. Eh, portanto,
+
+
+por isso é que eu não cortei o pedacinho que
+ficou sem som, portanto não tenho paciência
+
+
+e tem tenho esse esse problema, essa limitação
+e por isso estou a fazer esta terceira parte.
+
+
+Eh, penso que tínhamos ficado aqui, basicamente.
+Acho que tínhamos ficado aqui para ver o último
+
+
+gráfico que tinha realmente eu tinha aqui que
+construímos aqui um data frame, o totals que tem
+
+
+o totais de views por dia. E, portanto, agora
+fazemos foi construído aqui com o agregate.
+
+
+E realmente agora temos aqui um plot,
+um gráfico interativo, scatter plot,
+
+
+modo lines mais markers total plays
+over time interpolated, que é este aqui.
+
+
+E pronto, que este é o gráfico fundamental que
+me interessa ver, que pronto, que que até para
+
+
+dá-me uma visão de ao longo do tempo como é que
+vai estando o crescimento paulatino do número
+
+
+de plays que os jogadores jogam na plataforma.
+OK. OK. Basicamente é isso. Aqui dá-me uma visão
+
+
+que a taxa de crescimento, como estamos a ver, é
+mais ou menos constante aqui ao longo dos anos.
+
+
+Eh, e depois também faço aqui um um uma
+média móvel, ah, que é o que temos aqui.
+
+
+Ah, meto aqui, OK, onde é que isto está? Total average. Meto aqui mais um campo que é o Average.
+
+
+Isto é porque eu que eu construí aqui um conjunto
+de ficheiros que depois eu eu cheguei a usar uma
+
+
+vez. Eu usava no no Power BI da Microsoft. Cheguei
+a usar, mas agora já não uso mais o Power BI.
+
+
+Eh, e pronto, como está, eu já vos tinha
+dito que normalmente há uma média para
+
+
+aí diária de de 30 e tal plays por dia,
+que é o que estamos aqui a ver. Agora,
+
+
+estes últimos dias tem esta média móvel de 20 e
+tal, mas tenho aqui outros com 30, 38, OK? 40.
+
+
+Pronto. Eh, e penso que é tudo. Agora sim, esta
+terceira parte foi fundamentalmente para para vos
+
+
+explicar isso, porque é que eu não fiz a edição
+de vídeo do vídeo anterior, não tenho paciência.
+
+
+E também e a ferramenta que eu uso, Microsoft
+Clipchamp, depois ao salvar o resultado final só
+
+
+salva 1080p, o que é mau, obviamente para
+um vídeo, um tipo de vídeo como este,
+
+
+que interessa que tenha bastante resolução para as
+pessoas poderem olhar o código. E penso que sim,
+
+
+penso que está mais ou menos tudo
+o que eu vos queria mostrar.
+
+
+Penso que já deu para ficarem com uma ideia, para
+quem não conhecia o RStudio do poderio. Não sei se já
+
+
+vos falei aqui também do background jobs, que é
+uma área que eu às vezes também uso. Quando nós
+
+
+temos um pedaço de código, imaginando que eu tinha
+este pedaço de código aqui e que era muito lento,
+
+
+fazia um processamento, isto é usado muitas vezes
+em machine learning ou, por exemplo, se eu tiver a
+
+
+treinar uma rede neuronal que demora muito tempo,
+eu posso pegar num pedaço de código e
+
+
+submetê-lo para background. Pronto, para ele,
+esse pedaço segue, abre uma nova thead, segue em
+
+
+background e e liberta-me o IDE para eu continuar
+a trabalhar. Eh, acho que sim, acho que é mais foi
+
+
+bastante acho que é bastante completo. Tem mais
+coisas este IDE. Tem, por exemplo, addins, podemos
+
+
+programar addins que estão aqui, OK? São extensões,
+digamos, são extensões para o IDE. Ah, temos,
+
+
+por exemplo, há coisas que eu que eu uso aqui.
+Ora, por exemplo, aqui, ver se lembro aqui de
+
+
+alguma coisa. Temos integrações também com chatGPT
+que também é possível ativar aqui dentro do IDE.
+
+
+Por acaso não estou a encontrar
+aqui um que eu costumo usar.
+
+
+OK, mas pronto, não interessa. OK, não
+interessa agora, mas penso que sim,
+
+
+penso que ficaram com uma ideia bastante
+abrangente da das capacidades deste IDE.
+
+
+E acho que está tudo. Espero que tenham
+gostado e até uma próxima oportunidade.
+
+

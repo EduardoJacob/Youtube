@@ -1,0 +1,11 @@
+🖥️ R Programming - YouTube Captions Analysis
+1. Introdução ao tutorial de programação em R e RStudio
+2. Uso do Kanbanflow para gestão de tarefas (Kanban)
+3. Motivação: Limitações das IAs no acesso direto ao YouTube
+4. Integração com GitHub para gestão de projetos e pacotes
+5. Correção de legendas automáticas do YouTube
+6. Uso do Gemini Gems para geração de prompts e thumbnails
+7. Extração de dados de playlists e vídeos via API Tuber
+8. Processamento de legendas com IA local (LM Studio/Qwen)
+9. Processamento de legendas com IA web (Gemini)
+10. Visualização de resultados em DataFrames e thumbnails

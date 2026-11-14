@@ -1,0 +1,11 @@
+🖥️ R Programming - YouTube Data API
+1. Instalação dos componentes do ecossistema R (R, RStudio e RTools)
+2. Exportação manual de dados estatísticos do YouTube Studio
+3. Sincronização de ficheiros na nuvem usando MegaSync
+4. Gestão de segurança e credenciais (LastPass e Windows Credential Manager)
+5. Configuração de variáveis de ambiente no R para guardar credenciais
+6. Acesso à API do YouTube através do pacote Tuber
+7. Autenticação com a API do YouTube usando OAuth
+8. Extração de estatísticas de vídeos e playlists (views, uploads)
+9. Limpeza e manipulação de dados em R (duplicados, datas, texto)
+10. Visualização de dados e análise de evolução temporal com gráficos

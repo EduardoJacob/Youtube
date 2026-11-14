@@ -1,0 +1,11 @@
+🖥️ R Programming - MiniMax
+1. Atualizações e configurações do Obsidian (plugins, templates e índices).
+2. Organização de scripts em R e sincronização com GitHub.
+3. Geração de prompts utilizando IA local ou API Gemini.
+4. Fluxos de trabalho no ComfyUI para geração de imagens.
+5. Uso do Voice Studio como alternativa para transcrição de áudio.
+6. Implementação do modelo Minimax para geração de vídeo.
+7. Técnicas recursivas para criar animações contínuas entre clipe.
+8. Automação de edição de vídeo utilizando a linguagem R.
+9. Gestão de ficheiros e numeração de outputs no ComfyUI.
+10. Alternativas para geração de vídeo sem uso da linguagem R.

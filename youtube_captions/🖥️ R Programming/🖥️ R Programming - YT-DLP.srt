@@ -1,0 +1,3012 @@
+
+Ora, sejam bem-vindos a mais um tutorial R com
+RStudio, OK? Hoje vai ser dedicado a um tema
+
+
+de downloads massivos eh a partir do YouTube,
+especialmente dedicado à música, OK? Downloads
+
+
+dos vídeos, que depois é feita a extração do
+áudio, OK? Ora, hoje vou seguir aqui o meu guião,
+
+
+o guião que preparei, OK? Vocês já conhecem
+o KanbamFlow, portanto, hoje vai ser o tema,
+
+
+OK? YouTube downloads. Eh, como já vem
+sendo habitual, vamos falar daqui de uma
+
+
+série de tópicos antes de entrar na matéria final
+propriamente dita. Temos aqui, queria apresentar o
+
+
+ponto de situação do Positron, que eu já vos tinha
+falado, pois, entretanto já instalei o Positron,
+
+
+tenho aqui o Positron. Eh, acredito que sim, que
+será o futuro. Por muito que eu goste do 
+
+
+RStudio, acredito que o Positron vai acabar
+por se impor, porque é baseado no Visual Studio
+
+
+Code e, portanto, eh, acaba vai ter uma maior
+aceitação por parte do dos programadores. OK.
+
+
+Eh, como já expliquei, o RStudio, pois
+tem uma conotação muito forte com o R e,
+
+
+portanto, a empresa Posit lançou o Positron para
+tentar capturar mais clientela, digamos assim,
+
+
+da parte do Python e do R. Ora, aqui temos
+então o Positron e eu aqui fiz aqui um teste.
+
+
+Eu abri aqui uma folder, portanto já sabemos
+que aqui uma folder é um projeto. Portanto,
+
+
+eu ao abrir esta folder posicionado aqui, eu
+estou no projeto YouTube que podemos ver aqui. Eh,
+
+
+vou abrir aqui um OK, eu vou abrir aqui, OK,
+um dos meus scripts. Portanto, vamos executar
+
+
+linha a linha como eu gosto. Aqui não tenho
+o botãozinho de run que eu tenho no RStudio,
+
+
+mas posso dar um control enter e portanto executar
+aqui linha a linha. OK. Hum. So far, so good.
+
+
+Agora aqui perdeu aqui o Focus, não sei
+porquê. Vamos voltar aqui com o cursor.
+
+
+OK. Temos aqui os data frames loaded package. Ok.
+
+
+Sim, senhora. Até agora há algumas ligeiras, há
+algumas ligeiras diferenças. Aparece aqui empty,
+
+
+onde no RStudio não aparece,  não
+se vê nada. Aparece aqui uns gráficos,
+
+
+umas estatísticas automáticas para para os
+campos. OK. Que eu ainda não explorei isto. Sim,
+
+
+senhor. Eh, temos aqui o help. Está
+OK. Isto é o meu o meu novo logo,
+
+
+minha nova imagem de marca que eu coloquei nos
+meus packages. Já vamos falar melhor sobre isso.
+
+
+Tenho aqui o meu show info.
+
+
+Ora, fiz algumas melhorias. Entretanto,
+coloquei aqui o campo do IDE. Ele agora é capaz
+
+
+de identificar em que IDE é que eu estou. Neste
+caso, estou no Positron ou se estou no RStudio,
+
+
+o projeto, quando estamos no Positron, o projeto
+passa a ser simplesmente a folder, que essa é
+
+
+a filosofia de trabalho do Visual Studio Code.
+OK? De resto não tem aqui mais nada de especial.
+
+
+OK. Eh, vou carregar aqui as minhas funções.
+
+
+Pronto. E num dado momento, portanto,
+quando eu estava aqui a fazer os testes,
+
+
+eh, num dado momento, deparei-me aqui
+com, não sei se um bug ou qualquer coisa.
+
+
+penso que seja um bug porque e realmente aqui
+deparei-me com uma linha vermelha que eu disse
+
+
+não, daqui não vou continuar porque porque isto
+não está ainda capaz, ainda está muito verde.
+
+
+Reparem que aqui eu tenho as funções e se eu
+vou clicar aqui para tentar ver o nome compridodas
+
+
+funções, porque este campo é curto e não  consegue, não sei porquê não consegue.
+
+
+E agora a o o símbolo do mouse aqui fica fica
+fica ficou avariado, como vocês estão a ver. Eh,
+
+
+pronto. Portanto, basicamente e eu também não
+investiguei muito sobre isto, mas disse, e pá,
+
+
+não, eh, já vos tinha dito que normalmente não
+gosto de ser cobaia. Eu já vos tinha explicado
+
+
+no outro tutorial, portanto não gosto de
+ser cobaia com o produto ainda é novo. Eh,
+
+
+portanto, penso que tenha um ano ou algo
+assim. E, portanto, vou deixá-lo por este
+
+
+produto ainda na gaveta porque ainda ainda está
+muito verde. OK. Portanto, vamos sair daqui,
+
+
+mas acredito que sim, como vos digo, se mais
+tarde ou mais cedo será o futuro. Em princípio,
+
+
+se bem que hoje as coisas também mudam tão
+rapidamente que não sabemos, não é? Uma nova
+
+
+geração, novas gerações de IDEs têm estado a
+aparecer e tremendamente vocacionadas para a
+
+
+inteligência artificial, não é? como sabemos, como
+o cursor e outros e outros IDEs novos. Ora bem,
+
+
+vamos voltar então aqui ao ao nosso familiar RStudio. Deixa-me abri-lo aqui. OK. Foi só para
+
+
+vos dar um lá-mi-ré do Positron para vocês verem.
+Também podem experimentar se quiserem.
+
+
+Vamos voltar aqui ao nosso RStudio. Já
+está posicionado aqui no no projeto no
+
+
+YouTube. OK. Eh, vamos seguindo aqui o guião.
+
+
+Ora, o que é que eu tenho aqui? Apresentar o novo
+package rstudiotools. Bom, então o que é que o
+
+
+que é que se passa aqui? Quando eu eh realmente
+eu fui ao Possitron e depois pensei assim:
+
+
+"Bom, se vocês se lembram o meu último
+tutorial, eu estava a desenvolver addins para
+
+
+o RStudio, OK? Cujos addins eu tenho aqui. Eu fiz
+um package, chamava-se o minitools 
+
+
+mas entretanto eu mudei-lhe de nome e agora
+chama-se rstudiotools. Eh, porquê? Porque
+
+
+basicamente o que acontece é que eu digo assim:
+"Bom, eu qualquer dia quando migrar para o Positron,
+
+
+eu tenho uma série de funções espalhadas
+pelos meus packages que elas usam o package 
+
+
+rstudioapi. Portanto, elas usam o API do RStudio e
+depois então como é que o que é que vai acontecer?
+
+
+esse o RStudio, quando eu descontinuar o RStudio
+, o que é que eu faço a essas funções. OK? Bom,
+
+
+e então pensei assim, bom, para já eu vou tentar
+fazer o seguinte, vou tentar concentrar todas as
+
+
+minhas funções que usam a API do RStudio. Eu vou
+criar um package específico eh para ter este tipo
+
+
+de funcionalidades. Então que eu criei o rstudiotools
+para um dia mais tarde, quando eu migrar para
+
+
+o Positron, será mais fácil eu eh atacar esta
+temática e dizer assim: "OK, todas as funções que
+
+
+estão neste meu package eh eventualmente terão que
+ser convertidas em vez de usar um  RStudio API,
+
+
+pois terão que usar algum positron API. OK?
+Vocês penso que estejam a perceber a ideia.
+
+
+em todo o caso, eu estive a ver
+alguma documentação do Positron e
+
+
+Tutorials e eles dizem que à partida vai haver
+retrocompatibilidade. Portanto, naturalmente
+
+
+que a equipa do Positron não quis criar um IDE
+disruptivo para quem quisesse migrar do RStudio
+
+
+e então criaram retrocompatibilidade e tem uma
+retrocompatibilidade para com a API do RStudio API.
+
+
+Portanto, á partida tudo ficará a funcionar, OK?
+Existirá também um RStudio API dentro do Positron
+
+
+para salvaguardar essa retrocompatibilidade. OK?
+Pronto. Mas em todo o caso, eu quis arrumar a
+
+
+casa e quis dizer assim: "Bom, daqui em diante
+vou tentar e enfim no máximo do possível. Não
+
+
+consegui a 100% porque tenho aí uma outra função
+na área da inteligência artificial. tenho algumas
+
+
+funções que também usam o R Studio API,
+mas eh na medida do possível vou tentar
+
+
+concentrar todas as minhas funções que eu que eu
+implemento e que que recorrem ao R Studio API,
+
+
+eu passei a a introduzi-las aqui no meu
+novo package rstudiotools. OK? Pronto. Eh,
+
+
+sendo assim, tenho quatro novos packages,
+OK? que eu posso apresentar-vos aqui, já agora,
+
+
+vou apresentar-vos aqui no GitHub. Podemos
+ ir vê-los no GitHub, OK?
+
+
+vocês ficarem com uma ideia dos meus packages
+e podem ter uma ideia para quando estão a ver os
+
+
+meus tutorials saberem, se quiserem eh reproduzir
+algum código que estejam a ver, saberem que têm
+
+
+que baixar os packages e terem uma ideia do que
+é que eles fazem. Pronto. Então, basicamente
+
+
+eu tenho quatro packages neste momento. Eu
+tenho um package que é o mais antigo de todos.
+
+
+está bastante confuso porque já não é não leva
+muita manutenção, que é o XFunctions, que é o
+
+
+maior e mais antigo. OK? Eh, mais tarde eu criei
+o Minifunctions, o nome disto tudo, eram pequeninas
+
+
+funções e que eu na altura não quis mais misturar
+no meu package antigo, portanto, seria uma nova
+
+
+geração de funções. Eh, fiz este package aqui
+e agora, mais recentemente, tenho dois, então,
+
+
+dois packages, esses sim mais especializados.
+Criei o aitools artificial intelligence Tools,
+
+
+onde daqui para a frente onde já lá tenho algumas
+funções e irei colocar aqui qualquer tipo de funções
+
+
+relacionadas com inteligência artificial e
+rstudiotools funções relacionadas com a API do 
+
+
+RStudio, OK? como sejam os addins, por exemplo, mas
+não unicamente os addins. Pode  também lá
+
+
+coloquei algumas outras funções. Podemos ver aqui
+eh este é o meu o meu novo logotipo que eu criei.
+
+
+Isto é porque existe um padrão no nos packages
+de de R. Eh, eu penso que isto tem  esse
+
+
+padrão tenha sido criado porque existe  
+uma família de packages muito famosa dentro do R,
+
+
+da linguagem R, que é conhecido pelo Tidyverse
+e aonde cada pacote, cada package desse 
+
+
+universo, desse universo tidyverse  tem um logotipo
+que é um que é um hexágono. Então, existe um certo
+
+
+costume de de ver que é muito comum vermos
+em packages de R um logo, um logotipo hexagonal.
+
+
+E eu também, por brincadeira, também quis fazer  
+o meu logotipo, eh, mas neste caso é o mesmo para
+
+
+os meus packages, onde eu criei este logotipo.
+Eh, portanto, rstudiotools, aqui podemos ver
+
+
+que temos aqui algumas funções que são os
+addins que vocês podem ver no meu tutorial
+
+
+anterior. Tenho aqui uma função nova que já vos
+mostrarei para enviar comandos para o terminal.
+
+
+Eh, tenho este displaymedia que migrou,
+que estava no minifunctions e mas que
+
+
+como recorre ao rstudioapi, eu migrei-o para
+este novo package. Set current working directory
+
+
+provides a quick way to synchronize working directory with
+the location of the file currently being edit. Ok.
+
+
+Bom, como o nome diz tudo é um é um set
+current working directory. OK. Sim, senhora.
+
+
+Portanto, estes foram são os meus quatro packages
+de R da atualidade. Queria-vos falar agora do Openrouter
+
+
+Foi uma novidade que eu também descobri
+no meu tutorial anterior. Acho que vos falei do
+
+
+serpapi. Portanto, o serpapi era como, portanto,
+um proxy ou um diretório para chamadas a APIs,
+
+
+ou seja, uma forma de eu não precisarmos de 
+ter múltiplas credenciais para a API e termos
+
+
+apenas um único entry point através do serpapi
+poder-mos chamar múltiplas APIs. Mostrei-vos isto
+
+
+no outro tutorial com exemplos. E agora temos o
+equivalente para inteligências artificiais. Temos
+
+
+um openrouter, OK? Pronto, um open router eh é o
+equivalente, é um ponto de entrada, é um ponto de
+
+
+entrada onde basta-nos e ter uma key, termos conta.
+Eh, eu estou a usar no modo free. Eh, aliás,
+
+
+ela é free por natureza. A única coisa que é paga
+é que se eu for usar modelos que são pagos, OK?
+
+
+Há muitos modelos de inteligência artificial, não
+só LLMs, porque eu acho que ele não trabalha só
+
+
+com LLMs, trabalha com outro tipo de modelos,
+os modelos de imagem, por exemplo. Portanto,
+
+
+se os modelos forem free, a utilização desta
+desta ferramenta é free. OK? Eh, portanto,
+
+
+modelos são os mais diversos, como
+estamos a ver aqui, de áudio, vídeo, speak,
+
+
+transcription, de imagem, texto, os mais comuns.
+OK. Sim, senhora. Portanto, também explorei isto.
+
+
+Também fiz um um pequeno exemplo. Também fiz uma
+função para experimentar que está aqui no com no
+
+
+na minha na minha folder config config.AI openrouter. Podemos dar uma vista de olhos.
+
+
+Ok. Não é preciso eu sair do do meu open
+project para ir experimentar uma dada...,
+
+
+uma outra folder. OK? Isso não tem
+importância. Posso dar uma saltada lá. Não é aqui.
+
+
+Ora, open router.
+
+
+OK. Deixa-me correr aqui este
+código. Olha, cá está. Esta é a nova funçãozinha
+
+
+que eu fiz, set current working directory,
+porque eu tinha aqui um pedaço de código que
+
+
+fazia o current working directory, mas que tinha
+que testar se eu estava em modo interativo, eh,
+
+
+se o RStudio estava disponível, etc,
+etc. Pronto. E, portanto, até tem um conjunto
+
+
+de funcionalidade até bastante grande, tem uma
+meia duzia de linhas e, portanto, eu concentrei nesta
+
+
+função rstudiotools porque recorre a API, a
+funções da API do RStudio API. OK? Portanto,
+
+
+esta é a nova função que eu criei, set current
+working directory. Deixa ver aqui o help.
+
+
+Não tem parâmetros, portanto é simplesmente
+é set current working directory nada mais.
+
+
+Ele vai detetar automaticamente desde
+que esteja disponível a API do RStudio,
+
+
+pois ele vai fazer e ele aqui deu-me aqui
+este display o working directory set. OK,
+
+
+já sabem que podem instalar os meus packages, já
+sabem que podem dar uma vista de olhos no código.
+
+
+Eu há quando eu compilo os packages, há 
+uma função que diz OK, e compilar o package
+
+
+e e distribui-lo com o source available. Eu
+não tenho feito isso. Eu uso o default e,
+
+
+portanto, o source não vai não não
+vai não é distribuído. No entanto,
+
+
+consegue-se consegue-se sempre fazer
+a descompressão depois do código
+
+
+do source. Eu já vos expliquei isto noutro
+tutorial. Veja os meus tutoriais anteriores
+
+
+onde vos mostrei como vocês podem ver o
+código das funções. OK? Eh, vamos aqui.
+
+
+OK. Ellmer é o package fundamental que
+
+
+que é a interface que eu uso para para
+chamar toda uma panóplia de de modelos de
+
+
+inteligência artificial locais ou ou na cloud.
+Aqui vemos a cá está aquilo que eu vos disse,
+
+
+a tradição de um logotótipo hexagonal. E este
+package, por sinal, pertence àquela família
+
+
+que eu vos  falei do Tidyverse. OK?
+Vocês podem investigar isso, depois pesquisarem
+
+
+informações. Já sabem que podem vir aqui também
+na lista de packages e se pesquisarem aqui, ora.
+
+
+Aqui podem obter aqui ajuda. O
+que é que eu tenho aqui? Ora,
+
+
+cá está tidyverse. Portanto, a documentação
+dele, ele está alojada no site tidyverse.org. Cá está.
+
+
+Portanto, aquilo que eu vos disse, isto é uma uma
+família de de packages super famoso dentro do ecossistema do R,
+
+
+que é o Tidyverse. OK, podem investigar também um
+bocadinho sobre isso. Ora, deixa-me tirar aqui
+
+
+o Ellmer, só para vocês ficarem com uma ideia
+dos packages que pertencem a esta organização.
+
+
+Cá está os logotipos hexagonais, o GgPlot 2, o stringr, uma série de packages,
+
+
+alguns destes eu costumo usar com bastante
+frequência, como o stringr, o ggplot2,
+
+
+o readr que eu já tenho usado, o dplyr também OK
+também escrevem alguns livros como está aqui,
+
+
+tem uma panoplia muito grande de pacotes. OK.
+
+
+Sim, senhora. Ora, vamos então executar
+aqui um bocadinho do openrouter.
+
+
+Ora, cá está. Eu criei no aitools Open Router.
+
+
+Neste caso, o que eu fiz aqui e
+deixa ver se se eu me recordo. Ora,
+
+
+e como é que eu programei isto? Open router. Eh,
+
+
+tem um default de modelo automático para
+passar o nome do modelo e e a prompt. OK.
+
+
+Ora, modelo. Vamos usar aqui o Nemotron da
+Nvidia é free. OK. Há muitos modelos free.
+
+
+Ora, must use a free model. OK. aitools openrouter model igual a model. Sinceramente já não
+
+
+me lembro o que é que isto faz. Deixa ver se
+abre aqui uma. Ok. Abre aqui. Abre aqui uma 
+
+
+shell. Ou deveria abrir? Deixa ver. Ok. Cá está.
+Pronto. Isto é o normal. Também já vimos noutros
+
+
+tutoriais. Podíamos abrir aqui um uma isto não
+se chama uma shell, agora está-me a faltar o termo,
+
+
+um chat. Abre um chat. Pronto, é o nome, é o nome
+correto. OK. Eh, ou posso fazer-lhe uma pergunta.
+
+
+OK, vamos ver em que formato ele devolve
+a resposta, que também já não me recordo.
+
+
+Às vezes ou às vezes é uma string, outras
+vezes é um data frame. Depende. Eh,
+
+
+mas aqui normalmente acho que é sempre
+uma string em markdown. Deixa ver.
+
+
+Cá está. Ela está a ir à cloud. Vocês vão precisar
+da vão precisar daqui eh e vocês vão precisar
+
+
+daqui de de ter aqui uma key aqui vocês têm
+que colocar como todas as outras keys, como eu
+
+
+já vos expliquei nos tutorials, têm que colocar no
+R environment, no ficheirinho de contrrole do R,
+
+
+mas tem que saber o nome das Keys. Bom, o nome da
+Key é padrão se vocês forem ao Openrouter
+
+
+e à documentação ou qualquer outra API. Portanto,
+existe, normalmente existem nomes padronizados eh
+
+
+que é os que os que vocês devem usar e os quais
+esta função foi programada. E o que eu até posso
+
+
+ver aqui porque para vos mostrar eu está tá um
+bocado demorado, sinceramente, não sei porquê.
+
+
+Bom, não sei porque é que ele está demorado. Eh,
+entretanto, deixa-vos mostrar aqui. Pois,
+
+
+se eu for aqui, vamos ver
+esta função. aitools::openrouter.
+
+
+Ora, aitools.
+
+
+Ora, openrouter. Cá está. Onde
+
+
+é que está? Aqui. Aqui. Use openrouter API Key ok. Eu
+aqui nem tenho que passar. Ela automaticamente
+
+
+será será invocada. Pronto. Open router API key.
+Pronto. Este é este é a vossa Key que vocês terão
+
+
+que colocar debaixo desta variável no no vosso
+environment de R para que ela seja carregada. Ok,
+
+
+aqui uso o package shinychat para fazer
+para abrir aqui o chat. Calling open router.
+
+
+Bom, sinceramente não estou a
+ver o que é que é que está aqui
+
+
+a acontecer com este atraso. Bom,
+também fiz isto há pouco tempo,
+
+
+mas eu já tinha usado isto. Isto,
+sinceramente, isto tinha funcionado.
+
+
+Deixa-me abortar.
+
+
+A menos pode pode haver agora algum problema com
+com este modelo. Atenção, o facto que ele estava
+
+
+free há uma semana e agora se calhar já não
+está free ou agora já não tenha qualquer OK,
+
+
+tenha qualquer problema. Agora eu teria que ir ver,
+não vou agora fazer isso para não perder tempo
+
+
+aqui no tutorial. Eh, hoje as coisas mudam tão
+rapidamente que eu testei isto há há uma semana e
+
+
+agora se calhar este modelo já não está disponível
+e tinha que pôr aqui agora outro modelo,
+
+
+mas eu não preparei agora isto aqui, por
+isso não não vamos perder tempo com isso. OK.
+
+
+OK. Então era só um lá miré para vocês estarem
+a par. Quem não tenha ouvido, ainda não tivessem
+
+
+ouvido falar do Open Router. Ora, apresentar como
+fazer mass find / replace. Pronto, isto é uma área também
+
+
+interessante que tá um bocadinho escondida no
+RStudio. Eu vou-vos mostrar. Quando eu migrei,
+
+
+por exemplo, uma função eh migrei-a porque estava
+num package e eu migrei para o outro, eu precisei
+
+
+de fazer eu precisei de fazer uns um um um replace
+massivo em todo o meu código. OK? Vou-vos dar aqui
+
+
+um exemplo. Imaginem, por exemplo, aqui rstudiotools, o show info. Eh, imaginem que isto estava
+
+
+antigamente isto estava no minifunctions. Pronto.
+Ou imaginem que eu ia agora migrar e e migrar esta
+
+
+função para outro package. OK. Eu ia ao package,
+eu tirava a função, eu colocava no novo package,
+
+
+mas agora eu tinha que atualizar aqui todo
+o código. Vocês já sabem que eu gosto de
+
+
+gosto sempre de ter as as invocações explícitas,
+OK? Já vos expliquei isso. Portanto, portanto,
+
+
+gosto de ter sempre gosto de ter sempre aqui
+o nome do package aqui atrás. Imaginem que eu
+
+
+tinha migrado este função show info e que agora já
+não estava neste package, estava noutro package.
+
+
+Portanto, eu precisava de chegar aqui e fazer um
+find massivo, find in files, OK? Porque aqui não
+
+
+há nenhuma função de replace massivo. Estava
+aqui um bocadinho escondido e eu até nem sabia
+
+
+onde é que isto estava ou se sabia já me tinha
+esquecido e agora relembrei-me. E eu faço aqui,
+
+
+sim, senhora. Vou à minha root de de todo o
+meu código R. pesquisa apenas nos scripts R. Sim,
+
+
+senhor. E eu vou fazer aqui um find, OK? Ele
+vai- me encontrar aqui em múltiplos membros.
+
+
+OK. OK, já encontrou. Cá está. Pronto. E agora
+imaginem que eu precisava de fazer aqui um um
+
+
+um replace massivo. Então esse replace massivo
+é feito aqui neste botãozinho que tá aqui um
+
+
+bocadinho escondido. OK. Por isso é que eu
+eh esta área tá aqui um bocadinho escondida,
+
+
+mas só para vocês verem que também é suportado
+no R Studio e o Find e replaces massivos. OK? Eu
+
+
+agora se eu fizesse aqui um replace e punha
+aqui o a nova função que eu que eu queria
+
+
+a que fosse o nome do novo package. OK. OK.
+New package. Eu punha aqui. OK. Qualquer
+
+
+coisa. Pronto, não vou fazer isto agora, como é
+óbvio. Pronto, é só para vos mostrar que ele faz
+
+
+um replace massivo. OK. Nunca vos tinha mostrado
+e realmente ao longo de todos os meus tutorials
+
+
+tenho-vos mostrado diversas funcionalidades
+deste IDE. Eh, pronto, para quem já use este IDE,
+
+
+pois eventualmente será um bocadinho repetitivo
+algum algumas das coisas que eu mostro. Pronto,
+
+
+mas quem ainda não tem muita experiência,
+pois fique vai apanhando a pouco e pouco,
+
+
+vai apanhando as funcionalidades. Ora, já
+agora, quero vos mostrar aqui uma coisa também
+
+
+relacionada com esta temática das chamadas
+às funções e das estatísticas. Eu tenho aqui,
+
+
+tenho aqui a organização toda do meu código.
+Como vocês estão a ver, tenho uma área dos dos
+
+
+packages, tenho outra área dos projetos, eh, e
+tenho tenho a área do config, já vos falei, e
+
+
+agora tenho aqui uma área nova que é development.
+development é onde eu ponho algumas funções quando às
+
+
+vezes me ocorre uma determinada novidade e quero
+estar a experimentar uma coisa nova, eu
+
+
+ponho aqui e depois daqui poderá evoluir, poderá
+evoluir ou para uma função eh ou não, ou poderá ir
+
+
+para o caixote do lixo, não é? Pronto. E há uma função
+que eu tenho que eu tenho aqui, por exemplo,
+
+
+tenho aqui um um positron snippets porque eu quando
+estava no positron e eu estava a experimentar, por
+
+
+exemplo, os snippets do R têm de ser convertidos
+para uma linguagem eh de Json. OK. Eh, deixa ver
+
+
+se tá aqui. Não, isto é uma documentação qualquer.
+Bom, mas agora quero-vos mostrar é o seguinte.
+
+
+esta funcionalidade que eu criei aqui, que é um
+search for package use. Qual é aqui? Qual é aqui
+
+
+o a temática? A temática é esta. Eu tenho os meus
+packages, OK? E isto vai estar focado principalmente
+
+
+nos meus packages, mas podia ser qualquer outro
+package. Mas normalmente o que eu quero estudar é
+
+
+os meus packages. E eu quero saber, eu disse-vos,
+por exemplo, que eh por acaso estava a dizer mal,
+
+
+não é focado nos meus packages, é focado e em
+qualquer package que neste caso eu vou vou aqui
+
+
+investigar. Este é focado sim na onde é que ele
+é usado no meu código. Eh, portanto, qual é aqui
+
+
+o tema? Reparem, por exemplo, quando eu migrei
+todas as funções que eu vos disse que pretendi
+
+
+migrar todas as funções que eu tinha que fizessem
+uso do R Studio API, eu pretendi migrá-las para um
+
+
+meu novo package R Studio Tools. OK? Pronto, este
+é o código que eu usei, OK? Eh, porque vamos ver,
+
+
+vamos ver o porquê. Pronto, pronto, não vos vou
+explicar isto aqui. Isto está aqui, o código está
+
+
+aqui à vista. Portanto, por princípio, não vos vou
+explicar nunca o código. Eu sempre expliquei pouco
+
+
+e cada vez vou explicar menos. Isso hoje em dia já
+não faz, já não faz sentido explicar código. Quem
+
+
+quiser que investigue, quem quiser que pergunte
+à inteligência artificial, portanto explicar o
+
+
+código já não faz sentido. Faz sentido é explicar
+os conceitos, explicar o que é que se pretende,
+
+
+o que é que se pretendeu fazer e o que é
+que se pretendeu implementar. OK? Portanto,
+
+
+aqui o que eu pretendo é o seguinte. Eu eu quero
+saber todos os meus scripts que utilização é que
+
+
+fazem deste package do R Studio API. Ora, como
+eu uso sempre o padrão da chamada explícita,
+
+
+portanto aí têm aí têm vocês uma mais uma vantagem
+de usar sempre as chamadas explícitas porque
+
+
+porque o código fica muito mais bem documentado e
+agora permite-me fazer um search string aqui com
+
+
+o nome do package. OK? Sim, senhora. Pronto,
+agora carrego aqui todos os meus ficheiros,
+
+
+OK?
+
+
+Eh, e todos os meus ficheiros são
+nada mais nada menos do que 840. 
+
+
+já é qualquer coisa significativo. Tenho cerca de
+840 scripts. Portanto, é impensável estar a fazer
+
+
+searchs ou finds simplórios. para ver qual
+é a utilização e que tipo de utilização. E,
+
+
+portanto, isto torna-se torna-se impensável. É
+preciso é é necessário atacar isto atacar este
+
+
+tema de uma de uma forma sistemática, que é o que
+vamos ver aqui. Vou-vos mostrar aqui o que eu fiz.
+
+
+Portanto, eu agora vou eh fazer um um search, sim,
+senhor. Para em todos os membros, nos 840 scripts.
+
+
+Vou fazer um search por esta string aqui, só que
+eu vou fazer mais, OK? Porque se se uma função
+
+
+chamar... já vamos ver que eu também já
+não me recordo exatamente, é melhor fazer primeiro
+
+
+e já já vos explico porque vamos fazer aqui um
+summary de da utilização, OK? E vou fazer um vou
+
+
+fazer vou fazer também um grupo buy, etc. Mas eu
+é melhor correr isto primeiro. OK? Pronto, então
+
+
+tenho aqui os results e agora tenho aqui um um
+summary, um summary. Vamos começar pelo summary.
+
+
+OK. Portanto, o summary o que me está a dizer é,
+OK, este package R Studio API, que é o package
+
+
+que eu pretendi isolar, ele mostra-me o que
+tipo de utilização é que eu estou a ter dele,
+
+
+que tipo de utilização eu lhe estou a dar. E aqui
+tenho as funções. OK? Deixa pôr isto, talvez aqui
+
+
+um bocadinho maior e por aqui. OK. Aqui tenho as
+funções. Eh, e então fica saber deste package o o
+
+
+que tipo de funções é que eu estou a usar. Get
+active document context, get active project,
+
+
+insert is available, etc, etc, etc. Pronto, aqui
+para já aqui já tenho um summary. Se estou a usar
+
+
+o package, estou a usar muito, estou a usar pouco,
+estou a usar poucas funções, muitas funções, etc,
+
+
+etc, etc. Pronto, aqui tenho o summary do tipo
+de utilização que eu que eu tenho e quantas
+
+
+aqui tenho o total de utilizações entre todos os
+meus 840 scripts. OK? E agora tenho aqui a vista
+
+
+exaustiva. Mas aqui esta vista exaustiva
+já resultou porque eu já arrumei a casa,
+
+
+porque estava muito muito muito mais espalhado.
+Só que eu, como vos disse, eu pretendi concentrar
+
+
+o máximo possível de todas as chamadas a esta API.
+Cá está aqui as chamadas concentras no meu novo
+
+
+package R Studio Tools. E cá está. E de facto
+está aqui concentrado no R Studio Tools. OK.
+
+
+quase todo. Tirando aqui uns quantos membros
+onde eu também estou a usar aqui que já vos
+
+
+vou explicar estes setups que eu criei. Já vos vou
+explicar para que é que isto serve. E como eu vos
+
+
+disse que tinha umas chamadas também adicionais
+aqui dentro do meu package, OK? Pronto, eu não sei
+
+
+se fica mais ou menos claro para vocês, mas isto
+é só para vos dar um um lamiré de também da forma
+
+
+como eu gosto de trabalhar. Eu gosto de ter e tudo
+controlado, não é? E quando as coisas começam a
+
+
+atingir uma certa dimensão, é necessário, é
+necessário uma metodologias de trabalho, eh,
+
+
+e é necessário de ter um, pronto, uma abordagem
+mais estruturada, não é, de, digamos assim,
+
+
+ao que estamos a fazer. Pronto. Então, portanto,
+eu aqui tenho e consigo estudar a utilização
+
+
+estatística de qualquer package que eu tenha
+dentro de todo o meu código. OK? Sim, senhora.
+
+
+Ora, vamos seguir aqui o guião.
+
+
+Mostrar o meu novo logótipo hexagonal. Já vos
+mostrei. E como é que eu os fiz? Pronto, este
+
+
+é um bom exemplo daquelas pessoas que hoje em dia
+eu vejo muito que há umas as pessoas especialmente
+
+
+jovens, não é, que já quase que nasceram já na era
+de inteligência artificial e, portanto, pensam que
+
+
+e dizem: "Bom, a inteligência artificial faz
+tudo". Pronto, ainda não faz tudo porque, por
+
+
+exemplo, ela não me conseguiu fazer, como é óbvio,
+não me conseguiu fazer uma imagem hexagonal,
+
+
+porque os modelos de de imagem, eles são treinados
+para gerar imagens até com determinados tamanhos.
+
+
+Eh, e com determinadas proporções, até, por
+exemplo, há alguns modelos são treinados para
+
+
+gerar imagens quadradas, etc, etc., mas no modo
+geral, pois, imagens retangulares e e não nunca
+
+
+hexagonais. Portanto, que eu saiba, se alguém
+souber uma maneira de usar inteligência artificial
+
+
+para para me gerar uma imagem hexagonal,
+possa-me possa-me pôr no nos comentários
+
+
+que eu que eu agradecia. Eu à partida eh penso
+que não deve haver por aí nada disponível. E não
+
+
+tive outra hipótese se não ir ao GIMP. O GIMP é um
+utilitário muito poderoso que é multiplataforma,
+
+
+corre em Linux e Windows, eh, muito poderoso. Eh,
+eu já o tinha usado aqui há uns anos, eu já não me
+
+
+lembrava nada dele, mas mas eu lembrava-me que ele
+era capaz de fazer isto com máscaras e pôr pôr-lhe
+
+
+um hexágono, etc, etc, etc. Tive que pedir um
+bocadinho de ajuda à inteligência artificial. Ele
+
+
+deu-me um guião e eu consegui fazer. Pronto, não
+vamos agora perder tempo com isso, que isso seria
+
+
+tópico extravasa aqui a esta área, mas de facto
+eu usei eu usei o o gymp e agora vou-vos mostrar
+
+
+esta parte aqui de plataforma logos. Acho que não
+tem novidades, mas vou-vos mostrar aqui esta parte
+
+
+aqui que eu também já vos tenho mostrado nos meus
+outros tutoriais e agora vou vou passar sempre a
+
+
+mostrar, ou seja, à medida que vou trabalhando
+com novos produtos e novas apps, porque vem a
+
+
+propósito no no nos tutorios que eu estou a fazer
+e hoje vai ser o caso. E então faço, faço-vos
+
+
+aqui um apanhado e mostro-vos os logotipos
+que tenho que eu estou a usar. H e portanto
+
+
+agora passam a vir ordenados por ordem de
+novidade. Portanto, estas são as novidades.
+
+
+Estas três são as novidades que são abrangidas
+pelo tutorial de hoje. OK? Estes são os produtos,
+
+
+as apps que já falamos nos meus outros tutorials.
+Eh, e portanto hoje tratamos aqui com o GIMP, mas
+
+
+não não vamos entrar nem aprofundar, mas pronto,
+se nunca ouviram falar do GIMP, pois ouviram falar
+
+
+agora, que é um é um um excelente produto muito
+poderoso. Eh, e hoje vamos tratar destes dois
+
+
+temas. Nós vamos tratar de um utilitário que
+faz downloads massivos do YouTube, que é este,
+
+
+o qual a orquestração vai ser feita dentro do da
+da linguagem R. Vocês já vão ver como. E não seria
+
+
+necessário. Eu podia usar este produto apenas como
+standalund, que é um produto de linha de comando.
+
+
+Só que vocês já vão entender a vantagem de usar
+uma orquestração toda controlada pelo R. E depois
+
+
+vamos usar uma parte de para martelar tags id3 tags
+dentro da das músicas. Eh, e portanto comecei a
+
+
+usar este utilitário bastante simples, bastante
+user friendly, o MP3 tag. OK, pronto, gosto de vos
+
+
+dar aqui esta panorâmica a nível de plataformas.
+Eh, isto são apps, isto são apps. Outra coisa são
+
+
+plataformas. Já não me há alguma novidade ou
+não, mas deixa-me dar aqui uma vista de olhos.
+
+
+A ver se temos aqui alguma novidade. Ah,
+temos o openrouter. Basicamente acho
+
+
+que é a única a única novidade de que uma
+nova plataforma de que vos falei hoje. OK.
+
+
+De resto, acho que não há
+aqui mais nada de especial.
+
+
+Ora, powershell 7. Pronto, isto é importante porque
+vamos utilizar o terminal hoje. Vamos utilizar
+
+
+aqui o terminal a partir aqui do aqui do do R
+Stúio. E, portanto, eh convém dar-vos aqui um
+
+
+lá-mi-ré, para quem não saiba, dar-vos e falar-vos
+aqui de um ou dois tópicos acerca do do terminal.
+
+
+Portanto, o terminal neste momento, ele, para
+já, deixa-vos mostrar aqui o o o terminal, eh, o
+
+
+terminal nativo que vem hoje em dia com o Windows
+11. Deixa abrir aqui uma uma sessão. Pronto, aqui
+
+
+tenho o terminal. Pronto, desculpem-me aqueles que
+já saibam do que eu vou falar, mas às vezes pode
+
+
+haver alguém que não não tenha não não domine
+esta parte que eu aqui vou explicar. Portanto,
+
+
+o Windows instala com o chamado Windows
+Power Shell, OK? Só que há uma versão,
+
+
+há uma outra versão de Power Shell que pretende
+passar a ser uma shell multi-sistema operativo que
+
+
+possa correr não só em Windows, mas também em
+Linux. OK? E então deixaram cair o nome Windows
+
+
+e passa a ser apenas PowerShell ou PowerShell 7,
+que é a versão em que ele vai hoje em dia, portanto,
+
+
+e que é mais poderoso e é sempre o recomendável
+face ao Windows Power Shell. o Windows Powerhell,
+
+
+portanto, é um, digamos, eh, está-me a faltar
+agora o termo, pronto. Eh, mas pronto, é o o mais
+
+
+obsolueto, portanto, mais dia, menos dia, será
+descontinuado. Eh, aliás, ele está aqui a dizer,
+
+
+quando se abre o próprio Windows PowerShell, ele
+aqui diz install, install the letest  Powerhell.
+
+
+OK, pronto. E a partir daí, quando instalamos,
+depois já não se chama Windows Powerhell e é
+
+
+um outro Power Shell que chama-se o
+Power Shell 7, que é aqui este aqui.
+
+
+Muda um bocadinho o logotipo. Pronto.
+E agora já vai na versão 761. Pronto,
+
+
+este é o é o portanto este é o Power Shell que
+devemos usar, mas para isso temos que o instalar.
+
+
+OK? Só que há várias maneiras de instalar.
+Podemos até instalar na store da Microsoft.
+
+
+OK? Só que para o pessoal da programação que
+vai fazer programação, quando eu venho aqui,
+
+
+por exemplo, no RStudio e eu vou customizar
+qual é a shell por default, o terminal
+
+
+default aqui, e eu aqui tive que lhe dizer que
+era custom. Eh, ele tinha aqui alguns com que
+
+
+vem aqui pré-definidos. Pode ser um git bash,
+pode ser o dos, o tradicional, o command prompt,
+
+
+Windows power shell, pode ser o Windows
+subsystem for Linux, OK? Quem não sabe o que
+
+
+isto é, que investigue. O Git Bash que vem, 
+com o produto Git ou o custom, porque neste OK.
+
+
+Eh, e e neste caso o custom é o Power Shell que eu
+acabei de instalar, mas para eu poder instalá-lo
+
+
+aqui e poder dar-lhe esta pata, eu tive que
+instalá-lo a partir do do Gitub. Pronto, estou-vos,
+
+
+estou-vos já a dar esta nuance para vocês terem
+cuidado, porque se vocês instalarem a partir,
+
+
+por exemplo, do Windows, se vocês instalarem
+aqui a partir do do Windows Play Store,
+
+
+deixa-me abrir aqui o Windows Play Store. Se vocês
+vierem aqui ao Windows Play Store, o Windows Play
+
+
+Store é onde se instala as chamadas aplicações
+modernizadas do Windows, OK? E, portanto,
+
+
+e estas aplicações modernizadas, normalmente elas
+não são visíveis quando vocês vão ao control panel
+
+
+ao tradicional install package e elas não são
+instaladas no C Program Files. OK? Pronto,
+
+
+são instaladas debaixo normalmente debaixo do da
+vossa conta do utilizador do seu Windows User. E,
+
+
+portanto, depois resulta que tem uma path bastante
+árdua e que é difícil de descobrir qual é essa path
+
+
+para colocar aqui nos painéis quando nós temos que
+customizar. Pronto, isto é mais ou menos é um lámiré
+
+
+Eh, peço desculpa se estou a dizer alguma alguma
+asneira, mas mais ou menos é isto. E, portanto,
+
+
+porque vocês viessem aqui e fossem instalar aqui
+o Power Shell, OK? Eh, diz aqui que eu tenho o OK.
+
+
+Ele aqui, ele aqui pensa que eu não o tenho
+instalado porque eu não tenho, não tenho,
+
+
+mas é a versão modernizada que ele aqui me
+quer instalar, mas eu não quero que vai na
+
+
+mesma versão 761, porque eu já instalei, mas
+eu instalei a partir do GitHub, instalei 
+
+
+no C Program Files tradicional, OK? Não sei se
+me explico que é para ser mais simples, eh,
+
+
+mais simples de poder chegar aqui e colocar aqui.
+OK, pronto. Não sei mais ou menos se me explico,
+
+
+se não me explico, paciência, investiguem
+na vão ao chatGPT e investiguem. Ora bem,
+
+
+pronto, esta é a customização aqui importante
+a fazer aqui, porque nós vamos vamos usar daqui
+
+
+a bocado o terminal e eu queria ter já um
+pois já agora já a última versão do Power
+
+
+Shell. não quero estar a fazer testes e a
+usar um Windows Power Shell obsoleto. OK, pronto. Sim,
+
+
+senhora. Portanto, é o que temos aqui no terminal.
+Este é o Power Shell 7. Ora, instalar o Power
+
+
+Shell a partir do Gitub e configurar o RStudio terminal para OK, já está configurado.
+
+
+Agora quero vos mostrar a minha nova arquitetura
+de setup. Bom, esta arquitetura de setup que eu
+
+
+arranjei muito interessante, eh, especial
+para packages, mas também para projetos.
+
+
+Eh, deixa-me salvar isto aqui.
+
+
+OK. Imaginem um package.
+
+
+Isto esta necessidade até até começou,
+
+
+ela começou nasceu num package. Eu posso abrir
+o posso vos mostrar isto, quer num package,
+
+
+quer num quer quer num projeto. Vamos
+aqui a um a um a um package aitools.
+
+
+OK. Aqui estamos posicionados aqui na estruturade
+diretórios de um package de R. Pronto. Uma das
+
+
+coisas que eu comecei a usar foi o
+README.Rmd , R markdown, que é o que mandam as
+
+
+recomendações. E depois daí ele gera o README.md
+normal que vai ser usado no GitHub. Pronto, eu eu
+
+
+escrevia diretamente neste e não usava este. OK.
+Qual é aqui o Celeuma? Olha este por acaso até não
+
+
+tem setup. Eu este aqui ainda não não pus setup.
+Deixa ver se tenho aqui noutro. Ora, rstudiotools.
+
+
+OK. Este tem. Pronto. Qual é aqui a questão?
+A questão era o seguinte. A questão era, eu
+
+
+preciso de ter um membro, preciso porque eu quero,
+para fazer a orquestração de  todo o projeto,
+
+
+desde que o projeto nasce, que é o setup, que
+é o que eu tenho aqui. Ou seja, quando ,
+
+
+neste caso um package, podia ser um projeto, mas
+neste caso um package que é mais complexo. Quando
+
+
+nasce um package de linguagem R, existe toda uma
+panóplia de configurações que é feito normalmente
+
+
+no início. como por exemplo, dizer que eu quero
+usar o Git, dizer que eu quero sincronizar com
+
+
+o GitHub, eu quero sincronizar na cloud o este
+meu package com o GitHub, dizer que OK, eu quero
+
+
+preparar, estruturar a documentação no R markdown,
+que a partir daí irá gerar o markdown, OK? Eu
+
+
+quero usar um MIT License, Roxygen Markdown, etc,
+etc. Eh, e a questão é que eu ao colocar este
+
+
+membro, porque eu quero ter este membro com todos
+estes apontamentos, OK? Ao colocar este membro,
+
+
+fazia-me chumbar a validação do package, porque
+dizia porque o package à partida não pode ter
+
+
+código aqui na raiz. Os scripts eles têm que
+estar aqui na subfolder do R, OK? Ou seja,
+
+
+pronto, um package de R tem todo  um conjunto de especificações e de normas a
+
+
+cumprir. Pronto, por isso eu eh criei o setup aqui
+na mesma, simplesmente tive que incluiu no .buildignore
+
+
+É como se fosse o .gitignore para o git,
+mas aqui é para o para o R Build. Pronto. E o
+
+
+.buildignore diz: "Olha que estes membros aqui não
+fazem parte do package e, portanto, ignora-os
+
+
+do ponto de vista  da compilação quando fores
+compilar o package. Pronto. E aqui o principal que
+
+
+eu tenho aqui é de facto o setup, este setup e por
+exemplo um script que vamos ver aqui eh preparado
+
+
+para arrancar a minha inteligência artificial
+local e o cloud code que já agora vou-vos
+
+
+mostrar. Pronto, só para vocês terem uma ideia. E,
+portanto, esta filosofia do setup, eu passei, eh,
+
+
+criei-a, eu inventei-a eu e tenho estado a usar
+em todos os meus packages e todos os meus projetos.
+
+
+OK? É um padrão em que passa a haver sempre aqui
+um setup. O setup tem aqui um conjunto de tópicos,
+
+
+mas isto não tem uma ordem para executar. Isto
+é consoante. Há aqui alguns tópicos no início,
+
+
+por exemplo, imaginem que eu agora preciso, por
+algum motivo, de criar aqui, eu tenho aqui, por
+
+
+exemplo, este Power Shell. Imaginem que preciso de
+de outro Powershell, pois eu introduzo aqui o Power
+
+
+Shell e depois eu venho aqui na configuração
+e faço mais um usethis use build ignore. Eh,
+
+
+e ponho aqui. Portanto, isto é um é um é um o
+setup passa a ser um ficheirinho de de  
+
+
+configuração que eu uso para  orquestrar e e
+configurar aqui o meu package. OK. Sim, senhora.
+
+
+Ora bem, eh, então o que é que eu digo aqui?
+Eu digo que, olha, eu posso usar a inteligência
+
+
+artificial e em particular o cloud code neste
+meu projeto e neste caso neste meu package. Sim,
+
+
+senhor. Vamos ver. Eu tenho, eu criei esta
+minha nova função que é o terminal que,
+
+
+que lança um comando para o terminal. Neste
+caso, lança um este power shell. Eu posso vos
+
+
+mostrar este Power Shell. Este Power Shell
+ele arranca e arranca o o meu modelo Qwen
+
+
+na minha máquina local. Vai ver se o modelo
+ainda não está arrancado, se não está no ar.
+
+
+Eh, e portanto, e se não estiver no ar, ele vai
+chamar o comando o LM Studio interface de
+
+
+linha de comando, que agora  está na moda.
+Hoje em dia está na moda. Qualquer produto eu tenho
+
+
+que ter sempre um um interpretador de linha de
+comando. OK, está na moda. Todos os produtos têm.
+
+
+Eh, e portanto aqui está o LM Studio
+de linha de comando. Ele ele vai
+
+
+fazer o load de do meu modelo. OK? Pronto,
+basicamente é isso. Então, eu tenho aqui
+
+
+terminal e deixa-me ver aqui o help.
+OK. OK. Eu posso passar o command,
+
+
+um terminal ID e um caption. OK? Eu
+posso-lhe passar aqui um caption e
+
+
+vamos chamar aqui o cloud. Vamos
+arrancar aqui o Claude code. OK. Eh,
+
+
+pronto, cá está. Ele arranca aqui o Power
+Shell. Model not found in memory loading.
+
+
+Está a acordar os serviços porque
+eu tinha eu tinha o o LM Studio
+
+
+desligado. Ele ele arranca o LM Studio.
+OK. Agora manda carregar o modelo. OK.
+
+
+Ora, sim, senhora. Está carregado. Sucesso.
+Server is running. OK, então está tudo OK.
+
+
+E agora vou arrancar o Claude code. Pronto, não
+vou falar muito sobre o Claude code porque isso
+
+
+extravazava aqui um pouco o âmbito do tutorial,
+mas pronto, vocês que já saibam ou que já o
+
+
+experimentaram, pois tenham atenção
+que há, portanto, há dois Claudes. Existe um Claude
+
+
+desktop, como existe um chatGPT desktop e
+tantos outros produtos desktop, mas depois também
+
+
+existe um Claude terminal que é chamado o Claude
+code. Claude code é um Claude modo terminal,
+
+
+que é o que vamos arrancar aqui, que ele arranca
+em qualquer terminal e neste caso arranca aqui
+
+
+no PowerShell, como poderia arrancar no DOS
+e neste caso arranca aqui dentro do terminal
+
+
+embutido dentro do RStudio. OK? Portanto, isto é
+normal e outros IDEs, qualquer IDE que trabalhe com
+
+
+terminais também fará isto. Portanto, isto é uma
+forma de termos tudo integrado aqui dentro do IDE.
+
+
+Portanto, eu vou arrancar aqui o Claude,
+só que, como vocês também saberão,
+
+
+o Claude trabalha com modelos pagos de subscrição,
+OK? Como eh já não lembro o nome, o nome deles,
+
+
+o Opus e os acho que é o Opus. Pronto, tem lá
+três ou quatro modelos. E mas nós aqui usamos a
+
+
+infraestrutura do  Claude code, mas contra um
+modelo free que eu tenho na minha máquina local.
+
+
+Pronto, que é o que eu vou fazer agora. Então
+aqui arranco aqui. Como é só um comando,
+
+
+não precisei de fazer um power shell. Aqui fiz.
+Aqui fiz porque quis fazer um power
+
+
+shell. Também podia ter dado aqui um conjunto
+de comandos de terminal. Pronto. E agora vou
+
+
+dar o outro comando. Podia ser para um terminal
+novo. Eu poderia abrir aqui um terminal novo,
+
+
+mas posso dar o comando para o mesmo terminal.
+Pronto, que é o que eu vou fazer aqui. Eh,
+
+
+como eu eu aqui nunca o arranquei, OK? Como é
+a primeira vez que vou arrancar o Claude Code
+
+
+aqui eh nesta nesta folder, portanto ele quer
+assumir aqui como um novo projeto, OK? Porque
+
+
+eu aqui nunca o tinha arrancado. Eh, sim, senhor.
+Eu vou aceitar. E pronto, aqui temos nós,
+
+
+o Claude code e ele avisa que ele está
+a atacar o o modelo local do Qwen. OK.
+
+
+Eh, sim senhor. E, portanto, tenho aqui um MCP
+server failed, porque eu devo ter aí alguma coisa
+
+
+mal configurada a nível da MCPs que eu no outro
+dia estive a experimentar. Pronto, isso agora não
+
+
+importa. Pronto. Eh, e a partir daqui, pronto, as
+pessoas que trabalhem com o Claude Code ou que já
+
+
+conheçam, sabem que normalmente inicializamos,
+posso inicializar aqui um init aqui. OK. Se eu
+
+
+inicializar aqui, isto isto é um package. Eh, tudo
+bem, posso inicializar, não há problema. Pronto,
+
+
+ele pode ser aqui um bocadinho lento, porque ele
+é um bocadinho lento, pois porque está contra a
+
+
+minha máquina local, está contra o modelo que que
+está aqui a correr. OK. Neste momento eu estou
+
+
+a ouvir a minha gráfica a acelerar porque está
+a fazer a utilização intensiva da inteligência
+
+
+artificial local. Portanto, eu estou aqui
+sentado e eu estou a ouvir que a
+
+
+gráfica começou a trabalhar. OK, até podemos
+dar aqui uma vista de olhos no task manager.
+
+
+Ora performance
+
+
+GPU. Ó, ó, para aqui o pico. Foi a 100%
+a gráfica assim, a Nvidia RTX 5080.
+
+
+OK.
+
+
+OK. E ele agora quer fazer um Claude markdown. OK.
+
+
+Depois eu terei que excluir o Claude markdown de
+, terei que incluí-lo no build ignore porque
+
+
+porque senão irá dar erro irá dar erro
+depois na compilação do  package.
+
+
+Eu vou fazer aqui uma pequena
+pausa, porque isto pode demorar mais
+
+
+dois ou três minutos para vocês não estarem
+à espera. Vou fazer aqui uma pequena pausa.
+
+
+OK. Eu eu abortei-o porque ele estava ele estava
+a demorar muito, por acaso, não sei porquê,
+
+
+mas eu já já fiz isto noutros em outros projetos
+e ele escreve o Claude Markdown e  esse Claude
+
+
+Markdown, nomeadamente tem um um summary, por
+exemplo, de todas as funções e todos os scripts
+
+
+e portanto e depois também podemos usar essa
+esse summary diretamente para para documentar
+
+
+aqui o nosso Redmi. O RIDM neste caso é remark
+down, que é o que eu tenho aqui. OK? E portanto,
+
+
+como vem, há hoje há múltiplas maneiras de de
+obter de de documentar o código. Esta é uma
+
+
+delas aqui localmente. Eu também costumo usar
+um Gemin Gem para fazer isso. OK? E depois se
+
+
+a pessoa quiser trabalhar com o R, com o cloud
+code, pois não. Isso aí. Depois quem quem já
+
+
+tem experiência disso já entende o o que é e
+para que serve e como como é que se trabalha.
+
+
+Eu não tenho muita experiência também não não
+senti muita necessidade. Ah, mas mas pronto,
+
+
+depois a partir daqui com ele e criaria o a pá
+o ponto de partida dele do do cloud Markdown
+
+
+para depois no a pessoa lhe pedir agora escreve-me
+este script ou escreve-me esta função ou faz isto
+
+
+ou faz aquilo. OK? Eh, mas pronto, não vamos
+agora perder muito tempo com isso. Ora bem,
+
+
+eu depois eu tenho tenho que tenho que atualizar
+depois e estes. Eu vou irei depois atualizar aqui
+
+
+os meus os meus packages e projetos para ter tudo
+atualizado no Gitup para que vocês possam fazer o
+
+
+download. Não vou fazer isso agora para não perder
+mais tempo. Vamos seguir aqui o guião. Pronto,
+
+
+já vos apresentei então para que serve
+o meu novo setup R, OK? Para fazer gerir
+
+
+toda a configuração de packages e projetos.
+OK? Já vos mostrei que, nomeadamente se eu
+
+
+a todo momento quiser integrar e invocar um
+um LM Studio local ou integrar um Claude code,
+
+
+posso fazê-lo. A todo momento, posso arrancar.
+Eh, mostrei-vos aqui então o terminal.
+
+
+Eh, esta parte aqui nem vos vou mostrar esta parte
+aqui. Pronto. Eh, isto é uma função que eu tenho
+
+
+um xfunctions e onde eu posso carregar todas as
+funções de um package dentro de um data frame e
+
+
+depois posso fazer, por exemplo, uma pesquisa por
+string. Por exemplo, às vezes eu estou à procura
+
+
+eh que era aqui o o caso RStudio API e eu queria
+pesquisar mostra-me todas as funções de um package
+
+
+que que tenham a string activate que eu estou à
+procura de uma determinado tipo de funcionalidade
+
+
+e quero fazer uma pesquisa por string. Pronto,
+esse tipo de de pesquisas também é importante
+
+
+fazer. Eh, finalmente mostrar a integração com o
+cloud code. Já mostrei e o init já produz por si
+
+
+só um summary de todas as funções. É verdade.
+Fazer uma demonstração. Eu estava a fazer,
+
+
+mas estava a demorar muito tempo e e abortei,
+mas vocês confiam que isto funciona. Eu já
+
+
+tenho isso feito aqui em diversos outros
+packages e projetos. Pronto. E agora vamos
+
+
+diretamente eh para o ponto fundamental que é
+o  que nós vamos o tema principal do YouTube
+
+
+downloads. E vocês irão entender para que serve
+a orquestração que que vamos fazer. Portanto,
+
+
+deixa-me sair daqui. Deixa-me fechar aqui o
+cloud code. Fecho o terminal. Eh, deixa-me aqui.
+
+
+Vamos aqui para o projeto de YouTube. OK.
+
+
+Pronto, o projeto do YouTube que vocês já
+conhecem, porque já fiz três tutorials dedicados
+
+
+ao YouTube e este é o quarto tutorial que 
+envolve o YouTube. Eh, portanto, houve aqui muito
+
+
+muito código reestruturado. Eu tinha um único
+script e agora parti o script. Parti o script.
+
+
+Eh, o primeiro trata da das estatísticas eh
+fundamentais das duas APIs de YouTube data
+
+
+API e YouTube eh YouTube Analytics API, se não
+estou em erro. OK, essa parte já vimos. 
+
+
+não vou mostrar. Eh, depois tenho a segunda parte
+trata das captions, manda analisar as legendas para
+
+
+uma inteligência artificial. Também já vimos.
+Eh, eu voltei a correr isto agora até atualizei
+
+
+mais recente. É, é este. Onde é
+que ele está? 2024. 057 é este aqui.
+
+
+OK. Pronto, este aqui é melhor porque eu não já
+não preciso estar a comparar duas inteligências
+
+
+artificiais. Só fiz uma. Se bem que isto já
+está acabou acaba por já estar desatualizado,
+
+
+porque eu entretanto já eh estive a renovar toda a
+imagem  de marca, digamos assim, da
+
+
+minha playlist, como vocês podem ver. Portanto, já
+deitei para o lixo todos estes thumbnails. Mas
+
+
+pronto, isto é só para relembrar e como é que fica
+o resultado deste script. dá-me um summary de
+
+
+todos os os vídeos da minha playlist. OK? E aqui
+posso ver e relembrar do  que é
+
+
+que trata cada um. OK? Pronto, esta parte então está
+aqui. E agora então vamos ao tema de hoje que é os
+
+
+downloads. Pronto. Ora bem, então eh eu tenho que
+ter aqui um bocadinho de cuidado com a linguagem,
+
+
+não vá levar alguma censura da parte do YouTube,
+porque o tema é um bocado melindroso. OK?
+
+
+O tema trata disto que está aqui neste título aqui
+e eu já vos falei, mas portanto tentar evitar um
+
+
+pouco. Eh, espero não ter problemas. Portanto,
+mas vamos ver então como é que isto funciona.
+
+
+Vamos ter aqui alguns packages novos bastante
+importantes, OK? alguns com que nunca mostrei.
+
+
+OK.
+
+
+Ora bem, aqui a nível de package.
+
+
+Bom, aqui existe um bugzinho, mas isto é um
+é é um é um bugzinho que que tem estado a
+
+
+ocorrer desde que houve o último upgrade
+do R, porque houve uma mudança na
+
+
+na linguagem de compilação na versão do C. E,
+portanto, tem havido aí um uns bugs em que o R,
+
+
+o a versão dos packages está atualizada, mas ele
+pensa que que está desatualizada. Portanto,
+
+
+por isso é que aparece aqui a dizer que
+existe uma nova versão, mas que não existe,
+
+
+que é a mesma. Pronto, este é um tema que eu tenho
+andado de volta dele. Eh, já o resolvi. Depois o
+
+
+tema volta outra vez à vida. Ainda não percebi
+bem o porquê, mas pronto. Mas de resto aqui não
+
+
+não há aqui mais novidades aqui nenhuma. Isto é
+mais ou menos, já vos falei nisto. Pronto. OK.
+
+
+Aqui não há, aqui não há novidades. Ora bem,
+eh vamos carregar aqui as funções. Portanto,
+
+
+as funções, apesar de que eu parti o código e
+que já tenho aqui em três scripts, no entanto,
+
+
+as funções continuam um único módulo centralizado
+com as funções partilhadas por estes três scripts.
+
+
+E, portanto, tenho aqui mais funções,
+não é? Isto tem estado a crescer. Eh, OK.
+
+
+De resto, autenticação é a mesma, porque eu vou
+usar, eu vou usar aqui a a mesma autenticação para
+
+
+o YouTube data API, porque eu vou precisar
+também de alguma coisa nessa área. Eh, ah,
+
+
+esta parte aqui eu já vos mostrei, OK? E agora
+o que é que nós vamos ter? Bom, agora vamos vou
+
+
+ter aqui esta minha music folder, OK? Que
+eu escolhi. Eh, já agora, vou abri-la aqui.
+
+
+OK, esta vai ser o output folder.
+
+
+Ora, mega,
+
+
+ora, music. OK. Isto são os
+folders que eu , são os
+
+
+álbuns que eu já baixei. OK, pronto. Sim, senhora.
+
+
+Pronto. E agora temos aqui uma novidade que é
+eu  quero indicar,
+
+
+portanto, um YouTube, URL, não há dúvida nenhuma.
+Bom, eh eu posso , vai haver múltiplos
+
+
+temas. Eu posso indicar uma playlist, eu
+posso indicar um álbum, eu posso indicar um tema,
+
+
+eu posso indicar um tema,  um vídeo com
+capítulos ou sem capítulos. Por exemplo, existem
+
+
+álbuns neste momento que estão num único vídeo,
+mas cujas faixas são os capítulos desse álbum.
+
+
+Pronto. E aqui isso já foi foi tudo suportado aqui
+na no script que eu fiz. Bom, eu vou vos dar aqui
+
+
+um exemplo. Pronto. Eh, neste caso, em vez de
+irmos ao YouTube, vamos ao Music 
+
+
+YouTube. OK? É a mesma coisa porque porque todos
+os links que aqui estejam eh playlists, etc.
+
+
+está disponível nos dois eh quer seja no music
+YouTube, quer seja no YouTube normal. Pelo que eu
+
+
+percebi, eu durante muito tempo não, realmente não
+cheguei a perceber e ainda não, ainda não percebo
+
+
+exatamente bem, mas para que é que serve o music
+YouTube, porque o YouTube tem tudo. O YouTube tem
+
+
+tudo o que está aqui e mais ainda. Eh, só há
+uma diferençazinha que eu me tenha apercebido
+
+
+fundamental que o YouTube Music me permite fazer
+que o YouTube normal não permite, que é fazer uma
+
+
+uma pesquisa por álbum. Porque no YouTube normal,
+quando eu, se eu quiser pesquisar um álbum, o que
+
+
+vai-me aparecer são muitas playlists, mas não é
+a representação do álbum oficial. O para haver
+
+
+um álbum oficial tem que haver um protocolo com
+o próprio YouTube da produtora em que o YouTube
+
+
+aceita e regista regista como álbum. Penso que
+seja mais ou menos isso. Não tenho bem a certeza,
+
+
+mas eh realmente e dá dá-se este dá-se este
+tema. Eu vamos até por fazer aqui um exemplo.
+
+
+Eu vou pegar aqui neste álbum. Vou fazer
+um exemplo e  vamos aqui ao  YouTube.
+
+
+Vamos aqui ao YouTube normal.
+Pronto. E eu vou aqui introduzir
+
+
+aqui.
+
+
+Ora,
+
+
+pronto, cá está. Por acaso aparece aqui neste
+caso até neste caso até aparece aparece aqui
+
+
+como álbum, mas às vezes não aparece ou
+ficamos na dúvida se existe ou não existe
+
+
+e então apareceria apenas aqui, por exemplo, as
+playlists, OK? Por exemplo, aqui são playlists,
+
+
+eventualmente é igual ou não. Às vezes pode
+pode haver várias versões do mesmo álbum
+
+
+com vários alinhamentos ao longo do tempo, etc.
+A coisa não é tão simples assim. Eh, mas pronto,
+
+
+mas eh pronto, podíamos baixar alguma coisa daqui
+ou daqui. É a mesma coisa. Eh, então, basicamente,
+
+
+eu copiamos aqui o link, OK? Como
+poderia ser daqui se eu se se eu
+
+
+copiasse um um tema daqui, imaginando que
+eu que eu abria aqui o esta playlist, OK?
+
+
+Deixa fazer aqui pausa. Pronto.
+E aqui eu também podia copiar a
+
+
+partir daqui o este URL. qualquer URL
+serve, porque o que acontece que o URL,
+
+
+bom, neste caso este não serve porque este aqui
+quando tem watch ele é um ele então seria o
+
+
+seria apenas esta faixa e e não e não este álbum
+inteiro. Para baixar o álbum inteiro, eu tenho
+
+
+que baixar aqui, eu teria que baixar aqui o copy,
+o copyink address aqui. Pronto, aqui, aqui sim,
+
+
+aqui sim, que já tem para ser uma playlist,
+ele tem que levar aqui o a string playlist.
+
+
+Pronto, cá está. Aqui sim que é uma playlist,
+OK? Tem aqui escrito playlist, OK? Pronto. Eh,
+
+
+e às vezes se tiver dentro de uma playlista a
+tocar um determinado tema, leva aqui ou leva
+
+
+aqui mais algum mais algum campo aqui a seguir.
+Eh, sim, senhora. E essa parte não interessa.
+
+
+Pronto. Então, neste caso, eu vou pegar aqui
+
+
+neste URL. Pronto. Basicamente qualquer
+URL serve, porque o que acontece é que eu
+
+
+agora eu vou pedir o URL aqui. Eu peço-o
+aqui com este popup,
+
+
+OK? Com este package do SVdialogs,
+eu introduzo o URL. Pronto. E o URL agora
+
+
+ele ele vai ser truncado. Se houver aqui algum
+"&", ele já sabe que ele do "&"  para a direita
+
+
+vai deitar tudo fora e fica apenas aqui com
+a parte útil. OK. Pronto.  Sim, senhora.
+
+
+Agora o que é que acontece? Agora é que eu vou
+ao YouTube data API. Eh, não vos vou estar agora
+
+
+a mostrar as funções, depois vocês vejam isso.
+Pronto, para não perder também muito mais tempo
+
+
+neste tutorial que já vai longo. Pronto,
+mas basicamente eu vou ao data API e eu com
+
+
+aquele vídeo vou obter informações. Eu vou obter
+uma série de informações, eh, nomeadamente estes
+
+
+campos que aqui estão, nomeadamente o cover.
+Pronto. Só que eu tenho que confirmar porque às
+
+
+vezes há um nome de um   artista
+que está  mal escrito ou que que
+
+
+tem ou que ou o nome do álbum leva leva 
+o álbum e o artista ou  enfim. Pronto. E eu
+
+
+tenho que eu quero fazer uma confirmação fina. OK?
+Portanto, aí já vocês já começam a perceber para
+
+
+que é que serve aqui  a linguagem R aqui neste
+caso. OK? serve para para fazer um seguimento
+
+
+ter um fluxo de trabalho aqui rigoroso. OK?
+Pronto, ele aqui identificou-me que o URL que
+
+
+eu lhe passei é é de facto uma playlist, como
+poderia ser um vídeo único ou poderia ser um
+
+
+vídeo com capítulos. Pronto. E aqui ele está-me
+ a pedir a confirmação do artista, mas já
+
+
+me fez o display da  capa. OK? Portanto, isto é
+importante porque eu aqui estou estou a trabalhar
+
+
+e eu podia já não me lembrar ou não me lembrar
+como é que se escreve e eu aqui relembro-me. Ah,
+
+
+ok, ok. Eu estou a estou a trabalhar aqui com
+com os Warmen e, portanto, eu aqui confirmo,
+
+
+OK? E eu ponho aqui o nome do artista,
+correto. Avanço e agora pede-me aqui o
+
+
+nome do álbum e aparece-me aqui e eu vejo
+que esta parte aqui está a mais. E, portanto,
+
+
+eu trunco e ponho o nome do álbum, correto.
+OK. Pronto, esta parte é importante e aqui é
+
+
+feita de uma forma sistemática onde eu tenho
+que corrigir manualmente eh o estes campos.
+
+
+agora então vou criar uma output
+folder que não existe aqui. Como vêem não
+
+
+existe aqui nada para o Warmen. Eu vou criar
+aqui um um output folder, um álbum folder.
+
+
+OK, tenho que  que validar aqui com
+o sanitize porque às vezes pode haver um álbum
+
+
+que tem alguns caracteres proibidos e às vezes
+há uma string que tem caracteres proibidos que não
+
+
+vão ser aceites aqui no Windows para nomes
+de folders. E, portanto, isso tem  
+
+
+que ser devidamente filtrado. Eh, sim, senhora.
+E, portanto, agora crio o diretório. Cá está.
+
+
+Ele já o criou. Olhem para ele aqui. OK. Aqui não
+dá para Ah, dá. Dá para quê? Não dá. Sim, senhora.
+
+
+Eh, agora vou-lhe pôr duas coisas lá dentro.
+Eu vou-lhe pôr o póster, OK? E vou-lhe
+
+
+pôr também o  link, o YouTube, URL que eu lhe
+passei, porque fica documentado para o futuro.
+
+
+Se eu no futuro quiser ir lá ver outra vez, então
+eu já tenho aqui documentado. OK. Eu já tenho aqui
+
+
+dentro de um TXT. Eu pus aqui o link. Cá está.
+Ele fica aqui documentado. E tenho aqui o folder,
+
+
+mas ainda falta fazer aqui um rename que já  
+vai ocorrer daqui a pouco. OK. Pronto. E agora eh
+
+
+então eu vou obter. Pronto. E agora quero explicar
+aqui esta parte mais complexa. Eu tenho aqui,
+
+
+vamos usar um conjunto de tools de ferramentas
+fora do R. Eh, essas ferramentas eu tenho aqui
+
+
+informação onde é que eu as obtive. Elas estão no
+GitHub, o famoso utilitário YouTube download YT-DLP
+
+
+e usa também um outro utilitário para processar
+JavaScript. Eu não percebi bem isto, portanto
+
+
+também não vou estar agora a tentar explicar
+isso. Vocês investiguem. Eu baixei-o daqui, OK?
+
+
+E eu coloquei-os aqui dentro de uma de uma 
+pasta tools. O que acontece é que eu não 
+
+
+estou a sincronizar esta pasta no GitHub porque
+ela é bastante grande e eu num dado momento eu
+
+
+optei em não a sincronizar e portanto vocês terão
+que instalar por vocês se quiserem reproduzir todo
+
+
+toda esta mecânica. criar uma folder tools
+e  baixar três produtos eh que é o YT-DLP,
+
+
+é o Deno que está aqui e é o FFMPeg. O FFMpeg
+já eu sinceramente já não lembro onde é que eu
+
+
+arranjei. Eu já nem lembro se vinha junto deste eh
+ou se não vinha, mas isso é fácil. Vocês pesquisem
+
+
+a documentação. Eh, até ela aqui no no GitHub.
+Certamente vai lá estar a documentação e vos
+
+
+dirá onde arranjar o FFMpeg. Eh, e portanto vocês
+instalam tudo e metem e põem aqui tudo e pronto,
+
+
+não tem grande dificuldade. Se eu consegui
+fazer, vocês também conseguem. E, portanto,
+
+
+eu pus aqui tudo. Só que pronto, é
+como vos digo, são é quase 1 GB. Eh,
+
+
+e portanto não quis e depois também são binários
+e depois é sempre aquela chatiçe. Eh, vocês também
+
+
+não devem baixar binários assim de qualquer
+pessoa quando são quando é código executável.
+
+
+tem que se ter cuidado e convém baixar dos
+sítios originais, dos repositórios originais.
+
+
+Portanto, neste caso, optei por não estar a
+reproduzir esta folder no GitHub e exclui-a
+
+
+aqui nós vamos ter o comando. Pronto, o comando é
+bastante complexo. O comando que é um comando de
+
+
+linha de comando que vai ser dado no terminal. Eh,
+eu posso vos mostrar aqui a função. Eu posso vos
+
+
+mostrar aqui, só para vocês ficarem com uma ideia.
+Eh, onde é que eu tenho isto? Aqui functions. Ora,
+
+
+tenho aqui get aqui. Pronto, tenho aqui a função.
+Pronto, esta função, pronto, é relativamente
+
+
+complexa, porque eu eu tenho aqui um tipo
+de URL que eu que eu já determinei. URL é ou é
+
+
+uma playlist, ou é um vídeo sozinho, ou então é um
+vídeo, mas tem capítulos e, portanto, e os áudios
+
+
+terão que ser partidos pelos capítulos. dando
+assim origem às faixas de um álbum. Pronto, isto
+
+
+é relativamente foi mais ou menos foi complexo.
+Eu tive que precisar de ir ao ao chat GPT para
+
+
+me ajudar a construir as sintaxes e pronto, etc,
+etc. Tem aqui muita parametrização, não interessa
+
+
+agora aqui estar a a perder mais tempo com isto.
+Agora é quero vos dizer o seguinte, portanto,
+
+
+não era necessário R, linguagem R absolutamente
+nenhuma para fazer isto. Vocês construíam este
+
+
+comando à mão, portanto, davam o comando no
+terminal, etc. Pronto, e funciona. OK? funciona.
+
+
+Pronto. Aqui o que acontece aqui na linguagem R
+é que é feita uma orquestração, um encadeamento
+
+
+de um fluxo de trabalho automatizado, como vocês
+já viram. E criou-me o diretório, criou-me folder,
+
+
+baixou uma imagem, eh, documentou-me, agora vai-me
+baixar aqui o os temas, depois vai fazer rename,
+
+
+depois vai acertar, vocês já vão ver tudo o
+que ele vai fazer. Portanto, há todo o fluxo
+
+
+de trabalho e o que o R me faz aqui é essa a
+orquestração. OK? Pronto, eu agora vou invocar
+
+
+aqui, portanto, vou obter aqui o comando. Pronto,
+ele aqui já obteve. Eu podemos visualizar aqui
+
+
+o comando, o comando que eu vou disparar para o
+terminal. Cá está ele. Pronto, está aqui o comando
+
+
+com os diversos parâmetros. É um comando,
+portanto, complexo. Eh, sim, senhor. Invoca
+
+
+o utilitário que está aqui na subfolder do Tools,
+etc. diz que eu eu quero extrair o áudio formato,
+
+
+o áudio e deitar fora o vídeo, etc, etc, etc. Diz
+a estrutura com que eu quero fazer o o rename do
+
+
+do dos ficheiros, etc, etc. Pronto. E agora então
+vou lançar aqui para o terminal e vamos fazer o
+
+
+download. Isto à partida há-de ser rápido que eu
+tenho uma internet rápida. Ok, pronto, cá está
+
+
+ele. Pronto. E ele dá aqui um warning a dizer que
+YouTube music is not directly supported, redirecting
+
+
+to YouTube normal. Pronto, cá está. É o YouTube
+Music ou o YouTube normal. É, são os mesmos links,
+
+
+é tudo a mesma coisa a nível de URLs. Portanto,
+são 11 temas. Cá está. Ele está a baixá-los.
+
+
+Sim, senhora. Este é os nomes que que ela que ele
+está a dar. É, os nomes começam por numéricos,
+
+
+o tema a faixa número 01, 02, etc, etc. Ele baixa
+os vídeos  no formato webm e depois extrai o
+
+
+áudio e depois de fora o vídeo, mas também
+seria possível preservar o vídeo. OK? Pronto,
+
+
+aqui havia várias maneiras. Podia, eu posso
+fazer download de vídeos. e ficar só com
+
+
+os vídeos. Eu posso fazer o download. Olha aqui,
+deu-me um erro cannot access because by. Já vamos,
+
+
+já vamos ver o que é que aconteceu. Não percebi.
+Eh, posso, isto deve deve ter sido já, já não é a
+
+
+primeira vez que me acontece isto. Isto é que deve
+ter sido uma contenção aqui com com o Megasync
+
+
+porque o Megasync está constantemente a pegar
+nos membros para OK, eu tenho que desligar a minha
+
+
+sincronização megasync quando estiver a fazer isto.
+Então, que eu já vi que isto é um bocado sensível.
+
+
+Qual foi o erro aqui que eu de error canot access
+because ah is deve ter deve ter sido aqui um Ora
+
+
+já acabou. OK. Eh, já acabou. Sim,
+senhora. O que é que vamos ter agora?
+
+
+Agora tenho aqui um um mass rename.
+Tenho aqui um mass rename porque os
+
+
+temas começam por numéricos, mas eu agora
+quero prefixá-los pelo nome do álbum. OK.
+
+
+Vou correr um comando de powershell
+rename aqui no mesmo terminal. Agora
+
+
+vou abrir a folder. Já abri. Ela
+está aqui. Ora vamos lá ver como
+
+
+é que isto ficou. Viu isto? Ora,
+deixa-me ver aqui os detalhes.
+
+
+View details. Até está com bom aspecto.
+Depois eu já vou já vou investigar aquele
+
+
+erro. Que erro? Que erro foi aquele?
+Ora, deixa-me ver aqui o bitrate.
+
+
+O bitrate é importante, portanto é
+um indicador da qualidade.
+
+
+Eu, por acaso, tenho conta premium no YouTube.
+Eu não sei até que ponto é que realmente a conta
+
+
+premium vai afetar a qualidade aqui do bitrate,
+da qualidade que nós conseguimos baixar. Ah,
+
+
+deve ter sido aqui. Ah, este, ah, este é o 7.
+Este é o web, o tema 7 que ele não conseguiu,
+
+
+porque ele não conseguiu apagar, mas
+ele conseguiu extrair a música. OK.
+
+
+Este posso deitar fora. Isto
+está há mais. Este é o vídeo.
+
+
+Ok, pronto. Tenho que pôr ali uma nota para fechar
+o para para suspender o megasync quando estiver a fazer
+
+
+isto. Ora, o resto está tudo com bom aspeto, como
+estão a ver. Está tudo devidamente renomeado. Sim,
+
+
+senhora. E agora chamo daqui diretamente eh a
+ferramenta do do para para martelar o ID3 tag,
+
+
+OK? Que é o MP3 tag. Eu vou invocá-lo. OK, cá
+está ele. Pronto, eu invoquei-o aqui. E, portanto,
+
+
+ele não tem tags nenhumas. As músicas não têm
+tags. Eu não ligo muito às tags, mas agora,
+
+
+mas pronto, vouvos dar aqui um exemplo e em como
+aqui, neste caso, eu vou pôr a cover  como tag
+
+
+dentro de cada música, eu vou pôr o póster, OK?
+Daí foi importante baixar o póster, não na sua
+
+
+versão gigante, mas numa versão média, OK? Para
+não ocupar muito espaço. E eu, portanto, eu vou
+
+
+agora aqui fazer add cover. Eh, cá está, aparece
+aqui que eu já estou posicionado na folder.
+
+
+OK. E agora introduz a cover em aqui e aparece-me
+aqui. OK. Pronto. Pronto. Esta parte das tags,
+
+
+eu não não exporei muito, não. Eu não ligo muita
+muito a isso. Eh, eu ainda tive de volta de 
+
+
+algumas ferramentas mais poderosas, como o MusicBee
+ e o Foobar2000. Eh, estava a ver até que ponto
+
+
+é que as usava, mas e desisti de  usá-las. São
+bastante complexas. para já não  quero estar a
+
+
+matar a cabeça com aquilo, não são ferramentas,
+não são nada user friendly. E depois também eh
+
+
+ainda tentei a ideia de baixar as lyrics,
+da cloud, etc, mas dei alguns exemplos e não não
+
+
+foram satisfatórios. Vem vem com erros e depois
+há temas que não encontra e etc, etc. Pronto,
+
+
+e essa parte também extravazava aqui o âmbito aqui
+um pouco do tutorial, portanto não explorei muito
+
+
+essa parte. Bom, posso fechar isto agora aqui.
+Aqui tenho as músicas que agora já têm a cover.
+
+
+Eu posso abrir aqui os details e agora quando ponho
+aqui, pois já me aparece a cover. Cá está a cover
+
+
+agora já está já ficou embutida embutida dentro
+das músicas. Ok, pronto. E agora posso 
+
+
+subir aqui, carrego aqui com o rato, posso posso
+abrir e posso fazer um play eh diretamente aqui
+
+
+aqui, por exemplo, no VLC. Eh, este é um
+tema, vocês podem estar a a perguntar,
+
+
+mas para que é que isto serve? Hoje em dia toda
+a gente ouve música streaming no Spotify. Eh,
+
+
+pronto, quer dizer, não é bem assim. Eh, há
+pessoas, ainda há bastantes colecionadores que
+
+
+que gostam de ter a sua música. Pronto, essa parte
+eu não vou não vou debater porque isso é uma é uma
+
+
+questão filosófica. A pessoa que gosta de ter a
+sua música e gosta e deixa-me fazer aqui pausa.
+
+
+Ele ele ele demorou um bocadinho a abrir. Pronto,
+aqui temos nós. Cá está. Eu eu tenho usado quando
+
+
+é para ouvir música, tenho tenho tenho usado
+aqui o o VLC. Pronto, uma coisa simples. Pronto,
+
+
+aqui tem a folder aqui os temas e, portanto, está
+tudo funcional. Eh, e pronto, estamos a chegar
+
+
+ao fim do do tutorial. Eh, penso que cobri tudo
+o que queria o que vos queria mostrar hoje. Eh,
+
+
+havia aqui mais exemplos para para dar, como por
+exemplo, há aqui uma questão bastante interessante
+
+
+quando quando um tema capítulos que ela tem a
+capacidade de de partir os capítulos por faixas.
+
+
+Pronto, não vos posso estar agora a mostrar
+tudo ao pormenor, senão ficava um tutorial
+
+
+bastante extenso. Vocês têm que confiar que isto
+funciona. Eh, e pronto, e penso que está mais
+
+
+ou menos tudo tudo tudo visto. Espero não me
+ter esquecido. Isto está não me ter esquecido
+
+
+de assim nada de especial. E pronto, dou por
+terminado. Depois poderão baixar este projeto,
+
+
+como já sabem, do meu canal do GitHub. Eu vou
+só vou atualizar todos os meus packages e meus
+
+
+projetos para ter toda a informação atualizada
+no GitHub. Eh, espero que tenham gostado,
+
+
+espero que tenham entendido a potencialidade
+de tudo o que nós vimos aqui. Neste caso,
+
+
+foi vocacionado para o áudio, como poderia
+ser vocacionado para o vídeo e fazer downloads
+
+
+massivos de vídeo. Eh, esta ferramenta juntamente
+com o FFMPEG é muito, isto é muito poderoso.
+
+
+Vou-vos só dar um lámiré de uma coisa que podem
+fazer com isto que eu fiz no outro dia. Só a
+
+
+título de curiosidade, por exemplo, vocês podem
+pegar num vídeo com esta com esta ferramenta,
+
+
+o FFM PEG, eh, e podem dar-lhe uma ordem e dizer
+assim: "Olha, faz o play do vídeo e, por exemplo,
+
+
+de cinco em 5 segundos faz-me um print screen e
+fazer uma uma coleção de print screens". Portanto,
+
+
+isto isto é tremendamente poderoso. Imaginem que
+querem vocês eh construir um um um pipeline eh de
+
+
+inteligência artificial, por exemplo. Hoje em dia
+já começa a aparecer modelos que analisam vídeos,
+
+
+OK? Mas e ainda ainda são raros, ainda está no
+início. E então imaginem que estão a trabalhar
+
+
+com um modelo que ainda não analisa vídeos,
+mas que analisa imagens estáticas. Então,
+
+
+reparem, com isto vocês podem fazer uma coisa
+desse tipo. Vocês podem gerar uma coleção de
+
+
+imagens estáticas de forma massiva a partir de um
+vídeo, OK? Portanto, aqui as potencialidades são
+
+
+tremendas. Eh, enfim, eu espero que tenham
+se apercebido disso. Quem se apercebeu,
+
+
+apercebeu. Quem não se apercebeu, paciência. Se
+calhar está a assistir à playlist errada.
+
+
+Eh, mas quem está e quem já acompanha aqui a
+minha playlist e o meu canal, pois espero que
+
+
+tirem proveito do que viram aqui e que vos sirva
+de inspiração para desenvolverem mais coisas. Eh,
+
+
+por exemplo, uma das dos temas que nós poderíamos
+agora aqui continuar a desenvolver, se para
+
+
+quem quisesse, por exemplo, seria, por exemplo,
+preencher as tags ID3 de uma forma automatizada
+
+
+e de uma forma programática. Isso seria um tema
+eh que isso de hoje para amanhã. Eu ainda pensei
+
+
+fazer isso. Para já ficou em standby, mas eh
+qualquer dia, pois eu se eu me apetecer fazer isso,
+
+
+farei aqui um novo script, o YouTube número
+quatro e seria será dedicado à parte das tags id3
+
+
+de uma forma massiva e sistemática de de processar
+as tags e tratar as tags. Imaginem, por exemplo,
+
+
+os lyrics. Seria uma coisa interessante eu
+baixar os lyrics e injetar os lyrics,
+
+
+da mesma forma que injetei as covers, então ficar
+o áudio bastante completo com lyrics. Eh,
+
+
+portanto, seria uma parte quiçás interessante de
+hoje para amanhã para fazer um outro tutorial.
+
+
+E pronto, despeço-me, espero que tenham
+gostado e até uma próxima oportunidade.
+
+

@@ -1,0 +1,11 @@
+🖥️ R Programming - Our World In Data
+1. Introdução ao tutorial de programação em R com RStudio.
+2. Acesso a informações do site Our World in Data.
+3. Pesquisa e avaliação de pacotes disponíveis para o site.
+4. Comparação entre linguagens de programação (R, Python vs. ferramentas user-friendly).
+5. Download direto de ficheiros CSV via snippet versus arquivo zip.
+6. Leitura de metadados em formato JSON e estruturas de dados no R.
+7. Visualização de dados com ggplot2 e menção ao addin esquisse.
+8. Filtragem e seleção de países específicos nos dados (ex: Portugal, Espanha).
+9. Validação de existência dos países selecionados no conjunto de dados.
+10. Salvamento de resultados e encerramento do tutorial.

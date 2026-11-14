@@ -1,0 +1,11 @@
+🖥️ R Programming - Image to Text Models comparison
+1. Introdução ao tutorial de programação em R para inteligência artificial.
+2. Comparação de modelos text-to-image recentes (Flux, Krea, Qwen, etc.).
+3. Utilização da plataforma para gestão e download de workflows.
+4. Limpeza e edição de nós nos workflows antes da exportação.
+5. Exportação de workflows via API para uso em scripts R.
+6. Geração massiva de imagens utilizando o Mass Generator em R.
+7. Metadados embutidos nas imagens e recuperação de workflows.
+8. Comparação visual lado a lado de resultados entre modelos.
+9. Gestão de prompts e criação de coleções de imagens.
+10. Ferramentas auxiliares para edição de ficheiros em R (Notepad++).

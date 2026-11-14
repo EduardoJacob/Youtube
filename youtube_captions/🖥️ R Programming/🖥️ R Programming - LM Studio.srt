@@ -1,0 +1,2888 @@
+
+Ora, sejam bem-vindos a mais um tutorial
+R, programação em R com RStudio. Hoje vai
+
+
+ser dedicado à à inteligência artificial, como não
+podia deixar de ser o tema da moda, pois tem tinha
+
+
+que tinha que haver um mais tarde ou mais cedo
+teria que haver um tutorial sobre essa matéria.
+
+
+Hoje decidi fazer aqui um guião porque são muitos
+tópicos e para não não me perder a ver se consigo
+
+
+falar um bocadinho todos estes tópicos, OK? E a
+primeira alinea que tenho aqui é um interregno
+
+
+para mostrar eh um um bocadinho de de de um
+fix relativo ao ao meu tutorial anterior que
+
+
+era dedicado ao YouTube eh e como como eh fazer
+para aceder a duas APIs simultaneamente. Portanto,
+
+
+eu vou aqui, não podia deixar de mostrar
+isto porque o na altura o a solução que
+
+
+eu apresentei era muito foleira, digamos assim.
+Foi uma coisa assim de para desenrascar em que
+
+
+eu apagava o HTTR eh antes de aceder a qualquer
+API. Eh, mas deixa-me ver onde é que eu tenho
+
+
+isto aqui. YouTube eh YouTube Functions. OK. Eh,
+basicamente, eh, OK. Era esta, esta era a parte,
+
+
+ou seja, eu tinha este ficheiro aqui, HTTR, que
+vocês estão a ver e que naquele tutorial eu disse:
+
+
+"OK, mas se nós tivermos duas APIs, a segunda
+API esmaga este HTTR oauth e a e portanto a
+
+
+primeira API deixa de funcionar e depois eu na
+altura dei um solução assim de desenrascanço
+
+
+quando falei que OK, então nós podíamos apagar
+antes de invocar qualquer API, apagamos este HTTR,
+
+
+porque se não o apagarmos a API vai ver se o HTTR
+já existir, vai tentar usar e depois dava erro.
+
+
+Pá, se não se recordam disso, vejam vejam o meu
+o meu tutorial sobre sobre o YouTube, assim como
+
+
+vejam todos os meus outros tutorials sobre sobre a
+programação em R, porque existe uma continuidade,
+
+
+como eu já estou cansado de dizer. Pronto.
+Entretanto, portanto, fiz aqui a correção,
+
+
+uma solução um bocado melhor, bem melhor. Pronto.
+Então, na verdade, eu aqui simplesmente o que
+
+
+faço é que eh eu mudo-lhe o o diretório
+antes de fazer a autenticação de uma API.
+
+
+Eh, mudo, por exemplo, aqui vou invocar a a API do
+porque vou fazer autenticação para este package,
+
+
+o Tuber e, portanto, mudo-lhe para o subdiretório
+aqui o Tuber_oauth, que é o que eu tenho aqui ao
+
+
+lado. Eh, tuber oauth. Eh, por acaso agora não está
+lá nada. Eh, e depois eh, quando vou fazer uma
+
+
+outra autenticação aqui eu, eu, eu, eu volto, volto
+a posicionar no current directory, volto a
+
+
+subir a subir eh e quando acedo  a uma segunda API e a
+mesma coisa neste caso o YouTube Analytics oauth
+
+
+eh para este package. Eh, e por acaso aqui também
+não está nada. Provavel isto deve ter expirado e OK.
+
+
+Mas vocês podem confiar que isto que isto
+funciona. Eh, portanto, com este pequeno truque,
+
+
+assim é mais é fica muito mais fácil, muito
+mais versátil e conseguimos estar a trabalhar
+
+
+com as duas APIs ao mesmo tempo, sem qualquer
+problema. Cada uma delas faz eh autentica-se com
+
+
+num diretório diferente. OK? Pronto. Não vou estar
+agora a correr isto tudo outra vez para não não
+
+
+perder muito tempo em relação ao aqui ao âmbito
+do do do que vai ser hoje o tutorial de hoje. Eh,
+
+
+mas pronto, não queria deixar de mostrar
+isto, este pequeno fix, porque realmente
+
+
+na naquele meu outro tutorial sobre o YouTube foi
+bastante ficou aquilo, ficou bastante foleiro. OK.
+
+
+Ora bem, eh vamos falar aqui sobre sobre
+a inteligência artificial, portanto,
+
+
+diversos tópicos, mas claro que o foco vai ser
+na no R, como é óbvio que este é a parte é o que
+
+
+eu me dedico na minha nesta minha playlist. Gosto
+de falar um bocadinho sobre tecnologias diversas,
+
+
+já o tenho feito nos meus outros tutorials. Já
+falei de megasync, já falei de proton authenticator,
+
+
+já falei, pronto, gosto de falar um
+pouco de tudo. Não deixem de ver os meus,
+
+
+todos os meus tutoriais desta playlist. Agora
+vou falar aqui também do sobre a importância de
+
+
+um uma uma browser extension para prompts, OK?
+Que é o que eu tenho aqui. Deixa-me aqui mostrar.
+
+
+Pronto, imaginando que eu estou aqui, eh, eu,
+eh, portanto, à medida que vamos muitas vezes
+
+
+repetindo as prompts, eh, e eu tenho então esta
+extensão aqui que é o prompster, infelizmente ela
+
+
+não não sincroniza através da cloud, é local.
+Pronto, mas eu tive a experimentar e à procura
+
+
+de várias e não fiquei muito satisfeito, não vi
+assim nada de jeito, mas a única que me pareceu
+
+
+bastante aceitável era esta, onde nós criamos
+aqui uma prompt nova aqui com o botão de mais,
+
+
+damos-lhe um título. Eh, e quando eh estamos aqui,
+eh, se eu quiser aqui introduzir aqui uma prompt,
+
+
+eu ponho aqui a inicial. Pronto, ele mostra-me
+aqui o que é que há. por exemplo, nano banana
+
+
+2. Eh, e eu uso, por exemplo, esta prompt,
+tenho estado a usar bastante quando quando
+
+
+quero gerar imagens, quando quero e eh gerar uma
+prompt e a partir de uma determinada imagem. OK?
+
+
+Vamos imaginar que eh eu tenho aqui eh eu tenho
+aqui, por exemplo, imagens de ficção científica
+
+
+eh e do e fantasy também, que que áreas que eu
+gosto. E vamos imaginar que eu vou arrastar aqui
+
+
+uma imagem, vou colocá-la aqui. E agora peço a
+prompt. Eu quero uma prompt para gerar uma imagem  similar a esta. OK?
+
+
+E convém dizer em que qual é o modelo em que vamos
+gerar a imagem, porque aí consoante o modelo,
+
+
+o o modelo foi treinado eventualmente com
+determinadas palavras chave e o modelo tem
+
+
+determinadas capacidades. Portanto, eu digo e para
+que modelo eu vou gerar. Neste caso, vou gerar
+
+
+para para o nano banana 2 e e não mais que 100
+palavras, porque senão ele tem a tendência a dar
+
+
+uma descrição muito extensa. OK? quando analisar
+a imagem e depois e se eu puser uma promp muito
+
+
+extensa eh num num gerador de imagens, isso
+vai ser um bocado castrador, digamos assim,
+
+
+da criatividade do modelo, porque porque fica o as
+regras ficam muito rígidas e, portanto, e e perde,
+
+
+vai acabar por perder qualidade. Eu, portanto,
+cheguei a essa conclusão por por experiência própria.
+
+
+Portanto, é melhor e eh sumarizar a prompt
+tornando-a mais pequena. Eh, portanto, e aqui,
+
+
+eh, vou mandá-lo analisar a imagem. Ele analisa
+eh não mais que 100 palavras. OK. Ele aqui não sei
+
+
+quantas palavras tem. Eh, não sei se terá menos
+que 100, mas deve ter menos que 100. Eu vou copiar
+
+
+aqui. E vamos que eu agora então vou vou pedir
+ao Nano Banana para me gerar eh esta imagem.
+
+
+Eu vou aqui no novo, na nova área do do Google
+Gemini, que acho que é acho que é nova, acho que
+
+
+é relativamente recente, que é chamado o Flow. Eh,
+é o é o Google, o Gemini Flow ou Google Flow. Eh,
+
+
+agora perdi aqui o link,
+deixa-me entrar por aqui. Flow.
+
+
+Google Flow. Só para vocês verem o início, como isto
+arranca. Portanto, isto arranca. Tem aqui tudo,
+
+
+tem aqui projetos, projetos orientados a imagem,
+projetos orientados a vídeo. Eu a trabalhar em
+
+
+vídeo ainda não me atrevi. Ainda não me atrevi
+porque gosto de fazer as coisas com calma e
+
+
+ir percebendo o que é que estou
+a fazer e percebendo um pouco mais como 
+
+
+as coisas funcionam. E, portanto, ainda estou a
+trabalhar em em imagem. então tenho aqui este
+
+
+meu projeto. Eh, tenho aqui as minhas imagens,
+as que foram geradas com com o Nano Banana,
+
+
+porque é o modelo é o modelo que eu tenho aqui
+definido. Ele aqui tem vários modelos que ele
+
+
+com que ele pode aqui trabalhar. Nano Banana 2,
+Nano Banana Pro. Eu tenho estado a trabalhar com
+
+
+nanobanana 2 e posso gerar um batch de imagens,
+uma, duas, três, quatro ou quatro imagens de cada
+
+
+vez com estas proporções. Eu, pronto, eu vou gerar
+uma de cada vez. Eu vou copiar aqui aquela prompt,
+
+
+a prompt que eu que eu analisei no Gemini, como
+poderia ser no chat GPT, como poderia ser no
+
+
+modelo local, como veremos daqui a bocado. Eh, e
+eu vou gerar aqui e pronto, e ele vai gerar aqui
+
+
+a imagem. OK? Qual o problema disto? Eh, bom, o
+problema aqui não tem não, aqui não tem problema
+
+
+que porque por enquanto ele não não requer
+créditos e está totalmente gratuito. Não sei
+
+
+por quanto tempo ainda estará, mas por enquanto
+está completamente gratuito. Agora, o que não está
+
+
+gratuito é a parte aqui de gerar o prompt. Porque
+porque ao fim de meia dúzia de prompts, eh,
+
+
+não me lembro agora qual é o limite, ele eh já não
+gera mais e depois pede-me para fazer o upgrade
+
+
+para Google API Plus. Ou seja, estou-vos a fazer
+esta introdução e aqui alguns enquadramentos para
+
+
+depois também perceber o o porquê e a vantagem
+de usarmos os modelos de inteligência artificial
+
+
+locais, como vamos ver daqui a bocado, e depois
+como é que isto vai integrar com a linguagem R.
+
+
+Pronto, primeiro isto é um uma pequena introdução,
+eh, portanto, para vocês verem qual é a temática
+
+
+e aqui a problemática. Portanto, eu posso eu
+posso e isto é aqui, esta parte aqui é gratuita,
+
+
+mas tem limites. Portanto, se eu se eu puser aqui
+e meia dúzia de imagens, pois para pedir prompts,
+
+
+para pedir para para pedir uma descrição, pois
+isto tem um limite na versão free. E também não há
+
+
+assim uma forma simples de eu chegar aqui e se eu
+quiser fazer um um batch de tacada e passar-lhe uma
+
+
+centena de imagens, pois também não consigo, não é?
+Assim de uma forma simples, não é? Não sei se com
+
+
+o cloud ou alguma outra, um agentic ai ou  algum outro
+possa fazer uma coisa dessas, mas eh provavelmente
+
+
+não serão gratuitos. Provavelmente quando estamos
+a falar de funcionalidades mais avançadas hoje em
+
+
+dia, eh elas já não são gratuitas. Eh, pelo
+menos é o que é o feedback que eu tenho tido
+
+
+e é o que eu me tenho apercebido. Ora, ele aqui já
+gerou, já gerou esta imagem. Reparem que é é era
+
+
+bastante bastante similar à imagem que eu lhe
+tinha dado aqui eh de aprendizagem. Portanto,
+
+
+a imagem que eu lhe dei de aprendizagem, deixa
+que eu dei para ele me gerar uma prompt. Deixa-me
+
+
+abrir aqui ao lado. Cá está. Esta era a imagem que
+eu lhe tinha dado, que também por acaso também foi
+
+
+gerada com o aqui com o Nano Banana 2, por isso
+é que elas são tão esteticamente tão similares.
+
+
+E ele agora gerou gerou-me esta. Portanto, como
+estão a ver, são esteticamente bastante bastante
+
+
+similares. É normal quando o modelo, a descrição
+é similar e o e é o mesmo modelo. Portanto,
+
+
+é é expectável que gere imagens similares. OK? Pronto,
+isto foi só aqui um para um pequeno à parte.
+
+
+Eh, estávamos a falar aqui, portanto, de ter um
+um gestor de prompts no browser, que permite-me
+
+
+com facilidade reutilizar as prompts. OK? Como
+fizemos, reutilizei ali uma prompt, gerei uma
+
+
+prompt, uma prompt para descrever uma imagem
+que depois me permite gerar imagens em diversos
+
+
+modelos, quer seja na web ou quer seja no aqui no
+modelo local. Agora vou-vos falar aqui do LM Studio,
+
+
+portanto é é um tal como o Ollama, também já
+experimentei o ollama, mas o ollama como tem
+
+
+uma interface gráfica tão tão tão tão minimalista,
+eh, portanto não gostei, gosto mais de trabalhar
+
+
+com o LM Studio. OK. Eh, e portanto vou-vos só
+mostrar aqui o LM Stúdio. Não, não vou perder muito
+
+
+mais tempo sobre isso, porque isso não é aqui o
+âmbito do do tutorial, mas pronto. E para para
+
+
+mostrar-vos aqui que tenho aqui o LM Studio, tenho
+aqui um modelo que está no ar, está está a correr, são
+
+
+cerca de 6 GB, 6,5. Eh, ele abre aqui um servidor
+que me disponibiliza, portanto, que que eu possa
+
+
+atacar aqui este modelo com via APIs, que vamos
+fazê-lo através da programação em R. OK. Eh, tem
+
+
+aqui um uma janela de chat normal. OK. Esta mesma,
+esta mesma prompt que eu fiz ali agora no browser
+
+
+também poderia pôr aqui. Obviamente também tenho
+aqui uma give me a text prompt optimized for nano banana 2.
+
+
+Como estão a ver? A mesma coisa e é a mesma coisa.
+E isto é o que eu recorro. Se eu tiver um dia a
+
+
+a pedir muitas para analisar muitas imagens, eu
+depois gasto os créditos free no Gemini ou no chat
+
+
+GPT. E, portanto, depois então eu recorro aqui
+ao meu modelo local, que é um LLM, mas que tem
+
+
+capacidades de vision que estão aqui. Eh, também
+tem estas capacidades de deep thinking e outras.
+
+
+Eh, e também integra com plugins, como plugins
+para ir à internet, eh, etc, etc. Mas pronto,
+
+
+como disse, não vou perder muito mais tempo
+sobre isto, porque isto seria um outro tutorial
+
+
+e pronto, e extravasa o âmbito dos meus tutorials,
+mas pronto, é só para vos dar a conhecer o
+
+
+que é que eu estou a usar neste momento a nível
+local. Uso o LM Studio e aqui e mas o LM Studio
+
+
+está vocacionado para LLMs, OK? Não, para aqui
+não tenho modelos eh generativos de, por exemplo,
+
+
+de imagem. Eu aqui não gero imagens. Aqui apenas
+posso sim analisar imagens com um LLM que e e
+
+
+permite analisar imagens. OK, pronto. Então o
+LM Studio é o que eu estou aqui a usar e vamos
+
+
+integrar e o o LM Studio com a programação em R.
+Eh, portanto, aqui já já falei sobre isto. Ora,
+
+
+o Gemini flow já vos mostrei. Mostrei aqui o
+Gemini Flow e eh ele aqui vai guardando aqui
+
+
+a a minha biblioteca de imagens e eu aqui posso
+fazer posso e faço faço download eh para o meu PC,
+
+
+para a minha máquina local, que depois me permite
+fazer aqui o slide show no meu computador, etc, etc.
+
+
+Isto é uma temática que eu gosto já há muitos
+anos que eu que eu que eu gosto e que colecionei
+
+
+também antigamente muitos autores clássicos de do
+mundo da science fiction and fantasy art sempre
+
+
+colecionei muita coisa e e gosto e e muitas
+destas prompts que estão aqui eh foram geradas
+
+
+precisamente a partir de clássicos e clássicos
+de de artistas e clássicos que eu tinha aqui na
+
+
+minha coleção e foi a partir das imagens que eu
+tinha na minha coleção que eu gerei as prompts,
+
+
+tal como vos acabei de mostrar agora e depois
+a partir das prompts el gera-me imagens. Aqui o
+
+
+problema da realmente da inteligência artificial
+generativa é realmente as prompts. As prompts é
+
+
+que é o segredo e as prompts têem que estar adequadas
+ao modelo que nós vamos usar, OK? Porque, por
+
+
+exemplo, pode haver um modelo muito simplista e
+por mais exigente que seja a prompt, o modelo simplista nunca vai
+
+
+conseguir dar resposta. OK? Portanto, as prompts
+têm que estar adequadas. Eu comparo, eu comparo as
+
+
+prompts e como a aquelas histórias da lâmpada do
+da lâmpada de Aladino. Vocês certamente já ouviram
+
+
+muitas anedotas. Há muitas anedotas relacionadas
+com essa temática da lâmpada de Aladino, que não
+
+
+é o coitado, o cidadão encontra um a lâmpada de
+Aladino e sai de lá o génio da lâmpada e depois tem
+
+
+três desejos e depois ele eh claro que ele mata
+a cabeça porque não sabe o que é que há de pedir,
+
+
+não é? Eh, se ele estiver com muita fome, ele pode
+pedir o primeiro desejo, pode dizer: "Olha, dá-me
+
+
+aí um frango assado com batata frita e pronto". E
+obtém. Mas depois começa a pensar, é pá, bolas, mas
+
+
+porque é que eu gastei um desejo num frango assado?
+Foi, eu fui estúpido, devia ter pensado um
+
+
+bocadinho melhor, devia ter pedido, mas já agora,
+uma coisa diferente, uma lagosta e OK. Portanto,
+
+
+a inteligência artificial é igual. Porquê? Porque
+pelo menos eu sinto isso, porque o que eu não sei
+
+
+é o que pedir, OK? Porque eu posso ter uma ideia
+e como tinha uma coleção, como vos disse, imaginem
+
+
+que eu tenho aqui esta imagem, OK? É simbólica
+dos vikings, mas como é que eu vou pedir?
+
+
+Porque eu porque eu porque porque eu tenho que
+pedir, mas eu não posso pedir à toa. Eu tenho
+
+
+que pedir com os termos técnicos eh que são
+apropriados para o modelo, e existem termos técnicos. Imagem
+
+
+cinematográfica, imagem hiperrealista, imagem
+fotorrealista, imagem como que como que tirada
+
+
+do do de uma câmara DSLR, etc. Ou seja, existe
+uma panóplia de termos técnicos. E eu acabei por
+
+
+descobrir isto agora por experiência própria à
+medida que fui pedindo as prompts e verifiquei
+
+
+que existe uma panóplia de de termos técnicos,
+OK? Que se a pessoa não sabe os termos, não sabe
+
+
+como como fazer o pedido. OK? Portanto, o grande
+segredo aqui não é, está realmente na prompt
+
+
+quando estamos a trabalhar com os modelos generativos de Text to Image. OK? Bom, mas á parte disso
+agora que extravasa também um pouco aqui o âmbito do
+
+
+tutorial, eh nós temos aqui as imagens e eu aqui
+no no projeto eu posso fazer o download do projeto
+
+
+e mas ele aqui faz o download de das imagens
+num tamanho padrão de de 720 pixeis. Eh, e se
+
+
+eu clicar aqui, olha, agora já está, já me está a dar
+tudo.eu já não me lembrava se aparecia
+
+
+alguma janelinha ou não. A, mas por acaso até até
+é rápido, eu não vou não vou vou cancelar, mas
+
+
+se eu vier imagem a imagem aqui, eu posso fazer o
+download uma a uma e com a resolução o original,
+
+
+cá está 1 K, que é 1000 e tal pixels ou 2 K onde
+ele demora um bocadinho mais e faz o upscale,
+
+
+que é esse formato que eu tenho que eu tenho
+feito. Ou para 4K, eu teria que fazer
+
+
+o upgrade, o upgrade aqui a pagantes. Quanto
+ao formato de imagem que ele vai salvar. Ah,
+
+
+aqui nos settings, ele aqui não diz
+nada. Eh, já não me lembro se aqui diz alguma
+
+
+coisa ou não. Download 2K. Eu eu já
+não me lembro se ele diz. Deixa cá ver aqui.
+
+
+OK. Ele está a fazer o upscaling. Chama um outro
+modelo. Normalmente são modelos de inteligência
+
+
+artificial diferentes. Há há modelos próprios para
+fazer o upscaling. Portanto, ele está a chamar o
+
+
+modelo e ele agora aqui ele aqui eu tenho salvado
+como PNG, só que ele ele na verdade não é PNG. E
+
+
+já veremos daqui a bocado de mais adiante qual foi
+o problema que isto depois mais à frente me deu,
+
+
+porque eu eu disse para eu salvar como PNG, mas na
+verdade ele não salva como salva com extensão, mas
+
+
+ele não era um PNG verdadeiro, ele era um JPEG.
+OK, pronto, ele aqui enganou-me, salvou, mas na
+
+
+verdade é JPEG, mas isso já veremos mais à frente.
+Ora bem, portanto já vimos então esta parte aqui,
+
+
+download project. Pronto, agora quero vos mostrar também o
+confiUI o confiUI, Pinóquio ConfiUI e e Pixaroma. Pinóquio
+
+
+é um uma plataforma que eu tive a experimentar,
+mas desinteressei-me agora. Acho que está está ainda
+
+
+muito verde. Não consegui pôr aquilo a trabalhar.
+O o o o Pinóquio seria como que seria como o Steam
+
+
+está para os jogos, como o Pinóquio estaria para
+as inteligências artificiais. OK. Ou seja, eh,
+
+
+o Steam eh instala jogos e o Steam não se pergunta
+como como é que o jogo foi programado, se um jogo
+
+
+foi programado em mim no no no Unity ou no Unreal.
+Pronto, o Steam não quer saber disso. O Steam é o
+
+
+um gestor de instalações, instala os jogos. OK?
+E o Pinóquio é a mesma coisa. O Pinóquio não,
+
+
+tal como o Steam não faz jogos, o Steam gestiona
+gestiona gestiona a a instalação dos jogos,
+
+
+facilita-nos a instalação, porque eu quando instalo
+instalo um jogo não tenho que me preocupar sobre
+
+
+os o e os addons e os requisitos da instalação.
+Se a instação requer as livrarias livrarias do C,
+
+
+do C++, se se requer e os frameworks,
+o Microsoft.net, net, etc, etc. Pronto,
+
+
+é isso que o Steam nos dá. O Steam facilita-nos a
+instalação de um jogo sem que nos preocupemos com
+
+
+com os requisitos. OK? O Pinóquio é a mesma coisa,
+portanto, o para o o a inteligência artificial,
+
+
+portanto, o Pinóquio instala instala
+soluções já feitas, instala aplicações,
+
+
+aplicações que existem na web para inteligência
+artificial. é um é um gestor gestor de aplicações,
+
+
+porque existem aplicações que já estão já estão
+feitas, por exemplo, uma delas é o Forge, ah,
+
+
+que que é text to image, outras e aplicações e
+eh de pronto diversas, não importa agora, mas
+
+
+e realmente eu não não gostei disto, achei, não
+gostei e não consegui pôr isto a trabalhar bem. Eu
+
+
+eu ora instalava uma aplicação, hoje trabalhava,
+voltava cá amanhã e amanhã já não trabalhava.
+
+
+Eh, portanto, é pá, não sei. Acho que está
+muito verde ainda e, portanto, desinteressei-me,
+
+
+desinteressei-me de usar o Pinóquio. Eh,
+entretanto, descobri uma coisa fabulosa
+
+
+que é o confyUI. O confyUI é uma é uma
+coisa diferente. O confyUI é um é um sistema onde
+
+
+aqui nós nós não instalamos as aplicações, nós
+desenhamos a aplicação, nós é que temos com com
+
+
+através de um fluxograma, OK? Existem aplicações
+também na net para trabalhar com fluxogramas,
+
+
+com workflows eh genéricos. Há o N8N, por exemplo,
+e nunca nunca trabalhei, mas mas sei que há, não
+
+
+sei se são específicos só para Llms ou que tipo
+de, mas pronto, mas este aqui à partida confyUI é
+
+
+orientado para generative AI de imagens e vídeos
+e áudio, mas também dá para integrar com com LLMs,
+
+
+OK? Portanto, acho acaba por ser universal, embora
+mais vocacionado realmente para imagens e vídeos.
+
+
+Eh, já já voltaremos aqui daqui a bocadinho porque
+vamos fazer aqui uma demonstração também. Eh,
+
+
+tenho aqui um um fluxograma que iremos usar,
+um workflow, OK? que está aqui, que é o
+
+
+que é o que eu criei. Eh, e já agora quero-vos
+falar, já que estou a falar do confyUI e quero,
+
+
+não me posso deixar de falar no Pixaroma, que é
+um, eh, o canal de YouTube que eu descobri e onde
+
+
+tem os tutorials para o ConfyUI. Isso é um,
+de facto, é um canal realmente espetacular.
+
+
+Foi aqui que eu comecei a aprender a trabalhar
+com o confyUI o Pixaroma. Comecei com o aqui o a
+
+
+nova geração de de vídeos de tutorials. Eh, onde
+é que está aqui o episódio que é precisamente
+
+
+este aqui. Este é um novo fresquinho ac sair há
+dois meses. Eh, o primeiro episódio realmente
+
+
+é o a introdução do zero. Eh, como instalar o
+confyUI e porque há várias maneiras de instalar.
+
+
+E realmente eh acabei por seguir as instruções
+tal e qual como está neste tutorial e dei-me dei-me
+
+
+bastante bem com isso. OK? Portanto, eu não podia
+deixar de elogiar este este canal de tutorials que
+
+
+está completamente espetacular para começar
+a trabalhar com o confyUI e inteligências
+
+
+artificiais, portanto, generativas. OK? Ora,
+sim, senhora, já vos falei disto. Ora bem,
+
+
+então uma das problemáticas que então
+quando eu agora eu quis ir trabalhar com 
+
+
+vamos trabalhar então com o R, OK? Depois destas
+pequena introdução, onde falamos destas temáticas,
+
+
+eh eu vou até aqui primeiro trabalhar aqui, mudar
+aqui a ordem disto, vou primeiro aqui falar aqui
+
+
+do do LM Studio R. Então, o que é que nós temos
+aqui? Ora bem, eh nós temos aqui, primeiro,
+
+
+eu ainda não sabia bem estas novos, os meus novos
+scripts, onde é que os havia de colocar? Primeiro
+
+
+coloquei-os aqui. Eu tinha aqui uma área de
+configuração onde eu tenho configurações diversas
+
+
+de do R. No caso de eu fazer uma instalação nova
+numa numa nova máquina, num novo PC, eu as coisas
+
+
+serem mais fluídas. Eu tenho aqui e quais são os
+passos, o que é que eu tenho que instalar. Acho
+
+
+que já vos mostrei isto noutros tutoriais, OK? E
+agora fiz aqui uma nova folder que é específica
+
+
+para inteligência artificial. OK? Eh, aqui tenho
+várias coisas, portanto tenho integrações com o
+
+
+Ollama, tenho integrações com o Gemini. Eh, mas
+agora queria chamar a atenção de uma coisa,
+
+
+é que, por exemplo, se no Gemini e eu, vimos
+ali há bocado ainda online que eu fui ao Gemini
+
+
+e posso mandá-la analisar uma imagem e posso
+mandá-lo gerar uma imagem também. Neste caso,
+
+
+eu usei o flow, mas também podíamos ir ao ao
+Gemini. E o Gemini tem uma lá uma área de image.
+
+
+Eh, e nós podemos ir a aqui á areas, por exemplo, no
+GEMS, dentro dos GEMS ele gera imagens. Eh, e aqui
+
+
+também e no Tools, eh, Create Image, pronto, cá está. E
+ele aqui também gera também gera uma imagem. OK.
+
+
+Eh, não sei bem qual é a diferença, gerar a imagem
+por aqui ou gerar no flow, mas claro que no flow
+
+
+é uma plataforma que acaba por ser por ser muito
+mais poderosa, porque porque tem um projeto e as
+
+
+imagens ficam lá guardadas e posso fazer download
+e pronto, é uma coisa mais mais interessante
+
+
+aqui a parte esta parte do flow. Mas e qual é
+aqui o problema? Todas estas funcionalidades
+
+
+mais avançadas, como gerar imagens, que elas são
+free via web, mas via API elas não são free. Por
+
+
+exemplo, o o próprio chat GPT via API não é não é
+free. Eu não consigo fazer uma nenhuma pergunta no
+
+
+chatGPT aqui. Eu tenho que ter o tenho que ter
+uma subscrição paga. OK? Não vou fazer aqui a
+
+
+demo ou que o que eu já fiz, mas pronto, podem
+acreditar no que estou-vos a dizer. Acho que
+
+
+nem tenho aqui, tenho aqui no no Open AI. Eh, e
+portanto não vou fazer agora essa demonstração.
+
+
+Eu tenho tenho que apressar um bocadinho também
+o tutorial para ele não ficar muito longo. Eh,
+
+
+mas pronto, podem confiar que é é isto que eu
+estou-vos a dizer. O Gemini, por exemplo, ele ele
+
+
+é ele é gratuito. Eu posso fazer, não sei se dará
+terá um limite de de tokens para usar via API.
+
+
+Eh, mas h é é gratuito, mas se eu quiser eh
+dar-lhe uma imagem para analisar ou pedir
+
+
+para gerar uma imagem, já não consigo. Aí já não
+já não é gratuito. Ora, já agora, já que já que
+
+
+abri este membro, vou-vos mostrar aqui, vou-vos
+mostrar aqui, deixa-me correr aqui este setup.
+
+
+OK. Ora bem, o que é que eu tenho aqui? Depois
+eu eu acabei por por fazer aqui este wraper,
+
+
+como agora se diz, e fiz a minha
+função dentro do meu package que é
+
+
+o minifunctions. Eu pus lá esta funçãozinha
+gemini. Podemos ir dar uma vista de ora
+
+
+ver aqui o minifunctions. Ora, Gemini. Ok, Gemini
+está aqui. Ora, recebe uma prompt. Eh, ah, ok. Tem
+
+
+um package, já nem me lembrava disto. Pronto, tem
+um package específico. Tem alguém fez o package
+
+
+específico para o Gemini, que é o Gemini R. OK.
+Já não me lembrava. Há packages específicos e depois há
+
+
+e depois há packages genéricos para trabalhar com
+APIs e aceder a a inteligências artificiais.
+
+
+Eh, portanto, aqui usa o Gemini R answer Gemini R.
+Gemini  prompt. Eh, e depois devolve a resposta
+
+
+em texto e eu posso convertê-la para HTML. Eh, e
+depois eu visualizo visualizo aqui no no viewer
+
+
+da HTML que vem no RStudio. Eh, e depois eu gosto
+de salvar também a resposta num ficheirinho Gemini
+
+
+HTML e devolver a resposta também se eu quiser
+continuar depois a trabalhar com a resposta. OK?
+
+
+Pronto. Eh, foi aqui que eu fiz os testes, não
+vou estar agora a repetir isso, de pedir para ele
+
+
+analisar uma imagem ou passar uma imagem, pronto.
+E descobri que não era gratuito. Ora, vamos então
+
+
+experimentar. Ora, já agora, ora, podes dar-me
+um resumo em português dos principais tópicos
+
+
+tratados neste vídeo. Ah, ok. Também foi aqui que
+eu ah, foi até até aqui que eu eu vi. Já agora,
+
+
+vamos ver que ele ele não esta parte ele não faz.
+E, no entanto, no Gemini faz. OK. Já agora, vamos
+
+
+ver que ele faz isto no Gemini, que é uma das
+utilizações que eu tenho dado ao Gemini hoje em
+
+
+dia, quando quando passo um dos meus vídeos
+para ele me dar o descritivo que depois eu vou
+
+
+colocar no descritivo do meu canal do YouTube. Não
+sei se me explico. Pronto, assim torna-se muito
+
+
+mais fácil. Eu não tenho que estar a tomar notas
+do que disto que eu estou agora mesmo a falar,
+
+
+do que é que eu estou a falar, porque no final eu
+mando analisar o meu o meu vídeo. Vou pôr aqui um
+
+
+exemplo, este exemplo. Portanto, e ele é capaz de
+entrar dentro do YouTube. Cá está. E ele analisa o
+
+
+YouTube. Ele sabe analisar o YouTube. E cá está,
+ele está-me a dizer o que, do que é que trata. Do
+
+
+que é que trata este YouTube. Trata de Instant
+Data Scraper, parte um, e tem aqui os tópicos,
+
+
+estão a ver? Eh, e depois eu posso fazer copy
+paste e e meter, que, aliás, eu já fiz e e eu
+
+
+e eu tenho feito, tenho agora usado essa técnica
+e eu tenho gerado quer o descritivo dos dos meus
+
+
+vídeos, quer os próprios pósters. Eh, tenho
+tenho-os gerados através de do do Gemini.  eu
+
+
+aliás acho que neste momento o Gemini tá a ficar
+bastante poderoso e bem mais completo e poderoso
+
+
+do que do que o chat GPT, por exemplo. Mas tenho
+falado com outras pessoas. Há há quem goste mais
+
+
+do chat GPT. Eh, neste momento também há quem diga
+que não, que é o cloud, o cloud é que está-se a
+
+
+tornar o mais poderoso, eh, o qual já está mais
+completo a nível de agentic AI, com extensão para
+
+
+integrar uma extensão no browser e OK, mas eh
+mas penso que na versão free isso não não nada
+
+
+disso está disponível. a obriga obriga a a ter uma
+subscrição. Deixa experimentar então aqui agora
+
+
+esta mesma query através aqui da API. OK. calling
+Gemini taca taca taca API key set gemini is  answering.
+
+
+A ver se eu me dá a resposta ou não.
+
+
+Eh, pronto, dá bug, dá bug. Deu-me eh dá bug.
+eh, deu-me um outro vídeo, um outro vídeo,
+
+
+absolutamente um outro vídeo qualquer. Pronto,
+alucinou completamente. Alucinou porque certamente
+
+
+que é isto que eu estou-vos a dizer, requer uma
+subscrição. Ao não ter a subscrição, ele não
+
+
+passou o vídeo do YouTube e depois a inteligência
+artificial alucinou e deu e deu uma resposta
+
+
+qualquer, como se tivesse com algum YouTube
+qualquer que provavelmente existe ou nem sequer
+
+
+existe. OK? Eh, portanto, não funciona na versão
+Free, não funciona nem para analisar vídeos,
+
+
+nem para pedir para gerar imagens, nem para nada
+sofisticado. Vamos fazer agora uma pergunta mais
+
+
+simples. Qual o maior rio de França? OK. E
+pronto. E aqui sim, aqui sim que funciona. Ele
+
+
+devolve-me aqui no viewer. Ele ele grava-me aqui
+também a resposta numa num html, o Gemini HTML.
+
+
+el open open in web view in web browser, ok?
+Ou dá-me aqui a resposta também. Ele vem vem
+
+
+aqui ao OK. Eh, e também dá-me a resposta em texto
+porque agora eu podia continuar a a a programação,
+
+
+usar as respostas da inteligência artificial
+e continuar a minha programação em R. Pronto,
+
+
+cá está. Eu tenho aqui a variável com o
+descritivo. HH o descritivo aqui é ela está num
+
+
+formato eh portanto markdown, basicamente. Por isso é
+que fica aqui bem formatado aqui. E e pronto. Como
+
+
+vêem esta parte está a trabalhar. Mas seguindo
+agora o guião para não me perder muito. Pronto,
+
+
+esta parte aqui. Ah, vamos mostrar o
+o LM Studio R. Pronto. Ora, o LM Studio.
+
+
+OK. Pronto, isto agora é praticamente
+a mesma coisa que acabamos de ver,
+
+
+só que agora vai ele vai a, deixa aqui mais
+renamer. Deixa-me ver aqui. Prompt generator que
+
+
+é prompt generator está aqui. Esta parte aqui
+é bem esta parte aqui está a mais. Pronto,
+
+
+porque esta parte é só para mostrar
+se a integração está a funcionar. Ok.
+
+
+Eh, vou-vos mostrar aqui esta função que eu fiz,
+lmstudio. Ora, é que está aqui isto minifunctions.
+
+
+OK. Então, o que é que nós temos aqui agora?
+Agora trabalhamos com um package genérico,
+
+
+que é o Elmer. eh é capaz de abrir um um
+chat genérico, OK, para este IP, OK? Está na
+
+
+minha local host. Não é preciso indicar o model
+porque ele assume o default, que que é o modelo que
+
+
+estiver carregado à partida. É essa, penso que
+é essa a regra que ele tem, que é o caso agora,
+
+
+como já vimos, temos aqui um modelo que já
+está tá carregado, que é este Qwen. Hum.
+
+
+E o que é que eu eu fiz? Eu fiz, portanto, eu fiz
+esta esta função, fui eu que fiz, naturalmente,
+
+
+com tudo o que faço hoje em dia, sempre com ajuda
+da inteligência artificial. Não, isso não vale a
+
+
+pena estar-me a repetir. Isso agora já se torna
+uma banalidade. Antigamente as pessoas também
+
+
+recorriam ao Google ou recorriam a tutorials de
+YouTube ou pronto, ou o que fosse e não tinham
+
+
+que estar sempre a referir, olha, eu fui ao Google
+pesquisar isto ou aquilo ou aqueloutro. Portanto,
+
+
+eu vou deixar de referir que que estou sempre que
+eu vou à inteligência artificial porque eu passou
+
+
+a ser uma uma banalidade. Portanto, eu qualquer
+coisa quando preciso vou sempre ou quanto mais
+
+
+não seja aqui usar o copilot aqui localmente, como
+também já vos falei nisto noutros tutorials. OK?
+
+
+Pronto, portanto, isso é torna-se redundante.
+Não tenho que estar sempre a referir isso. Eu
+
+
+já não trabalho sem sem inteligências artificiais,
+como como é óbvio. Burro seria se eu se eu fosse
+
+
+teimoso em não querer usar, o burro seria
+eu, obviamente, porque porque nós temos,
+
+
+como eu já vos disse noutros tutorials , que nós
+temos, isto é uma ferramenta, nós temos que usar
+
+
+a ferramenta e sem perder o sentido crítico de
+saber o que estamos a fazer, não é? Porque porque
+
+
+usar a ferramenta sem saber usá-la não vale a
+pena. ou usar a ferramenta e não ter o sentido
+
+
+crítico para saber avaliar os resultados também
+não vale a pena, como já vos falei nisto noutros
+
+
+tutorials e portanto saber usar as coisas e
+depois saber ter o sentido crítico para saber
+
+
+analisar o resultado. Bom, eh e é o que eu faço,
+eu aproveito as respostas e depois modifico-as
+
+
+ao meu gosto. Portanto, aqui tenho que se eu não
+passar prompt, ele vai abrir aqui com este package
+
+
+que eu descobri, o Shiny Chat, ele vai abrir
+aqui um chat, uma janela de chat igual ao que
+
+
+estamos habituados a ver noutros chats, chat GPT,
+etc. caso contrário, se eu passar uma prompt,
+
+
+então ele responde à prompt de imediato, OK? Vai
+e vai ser nesta parte aqui vai ser similar ao que
+
+
+acabamos de ver com o Gemini. OK. Posso apagar
+isto aqui. Se vocês quiserem, se quiserem copiar
+
+
+o código, já sabem, com o sniping tool. Eh, copiem
+aqui o texto e façam a conversão com o sniping
+
+
+tool do Windows já faz isso. Com a maior das
+facilidades, eu estou sempre a fazer isso. Façam
+
+
+a conversão de imagem para texto e, portanto,
+copy paste e vão ter o código facilmente. OK? Eh,
+
+
+vamos então aqui correr esta parte aqui. Ora, minifunctions, vamos ver aqui quantos habitantes tem a China. OK.
+
+
+Calling LM Studio. Quantos habitantes tem a China?
+OK. Agora se eu for chamar aqui o LM Studio,
+
+
+vamos ver que ele está a raciocinar aqui na onde é
+que está isto? Aqui na parte a parte aqui. Cá está.
+
+
+Olha, já acabou. Está com 100%.   Olha, cá está.
+Estão a ver a resposta aqui? A resposta que ele
+
+
+que ele gera em em Json. OK? Porque de um modo
+geral é a forma como os LLMs trabalham são em
+
+
+Json. Eh, e se nós quisermos podemos pedir e
+para para que uma resposta de um LLM nos seja
+
+
+dada em Json. Se nós quisermos fazer algum tipo
+de integração ou automatismo, vai ser mais fácil
+
+
+ter a resposta em Jason, porque aí a resposta vai
+estar categorizada e sistematizada e, portanto,
+
+
+vai ser mais mais passivel de ser 
+trabalhado. Ele aqui até tem o deep thinking.
+
+
+O deep thinking até ficou aqui dentro e tudo.
+OK. Bom, mas não vamos perder agora tempo com
+
+
+isso. Mas portanto ele deu-me aqui a resposta. Cá
+está. Eu mostro-a aqui no viewer, eu também a salvo
+
+
+num HTML. Imaginem que eu até podia salvar num num
+PDF, por exemplo. Imaginem que é o que eu queria,
+
+
+uma resposta extensa e depois queria até formatar
+um PDF e quiçás até depois mandar a resposta por
+
+
+e-mail. Pronto, são tudo tópicos que já que
+eu já mostrei noutros tutorials anteriores,
+
+
+portanto não vale a pena agora aqui estar
+a repetir. Não deixem de ver os meus
+
+
+tutorials anteriores.  tenho a resposta
+também aqui em texto na variável answer.
+
+
+E depois tenho um chat, se eu quiser abrir
+um chat também, OK? Eh, vários packages que
+
+
+eu tive a testar no R e que abrem chats, mas há
+muitos que vêm vêm pré-definidos para trabalhar
+
+
+com chat GPT e, portanto, não funcionam
+porque obrigam a uma subscrição paga. OK?
+
+
+Eh, portanto, se vocês quiserem experimentar
+alguns desses packages, é só para estarem atentos
+
+
+a isso, não estranharem, porque às vezes depois
+o o a função não funciona e às vezes a resposta
+
+
+não é clara. E é só para vocês estarem alerta,
+porque se às vezes uma dada função não funcionar,
+
+
+tenham cuidado porque se tiver a aceder a um
+destes LLMs públicos, o mais provável é que ele
+
+
+não permita na na variante free não permita
+fazer o acesso via API. Bom, vamos agora aqui
+
+
+correr esta parte aqui da minha função. LM Studio
+ sem prompt e então ele abre aqui, abre este,
+
+
+este chat espetacular, onde eu posso aqui fazer
+as perguntas aqui. OK. Ok. Ora, qual a capital
+
+
+e OK, da Índia?
+
+
+Ok. Ok. demora um bocadinho, claro, porque porque
+ela está a recorrer, está a recorrer aqui ao
+
+
+ao meu modelo local. Obviamente o modelo local
+ele ele eh carrega  na minha gráfica. Eu tenho
+
+
+um computador poderoso, felizmente, para
+estar a trabalhar com com estes temas, eh,
+
+
+que é um computador que montei o o ano passado. Eh, portanto, tem uma uma gráfica,
+
+
+uma 5080 com 16 GB RAM e, portanto, à partida,
+eh, o modelo é todo carregado eh na gráfica. Ah,
+
+
+tenho que ter cuidado, é que às vezes quando estou
+a usar várias várias inteligências artificiais ao
+
+
+mesmo tempo, estou a utilizar esta aqui local
+e depois vou usar o confyUI como fiz há bocado,
+
+
+às 2 por 3 pois, já começava a ficar com pouca
+memória e depois com aquilo a resposta começou
+
+
+a tardar muito e depois eu lembrei-me e pá espera aí
+é porque eu já tenho duas dois modelos carregados
+
+
+em memória e pá pá isto não há computador que
+aguente, não é? Portanto, e é preciso ter cuidado
+
+
+com essas coisas. Neste caso, eu depois eu fiz o
+eject carregando qui liberta liberta a memória da
+
+
+da gráfica, pronto, para ir trabalhar com outras
+inteligências artificiais. Pronto, é preciso ter
+
+
+cuidado com com essas com esses temas. Eh, depois
+existe aqui uma configuração também para forçar o
+
+
+modelo a ser carregado na gráfica ou não ou
+executado no CPU, executado no GPU. Pronto,
+
+
+não vou agora alongar sobre isso. É como como vos
+digo, isso seria o tema para um outro tutorial e
+
+
+vocês podem procurar tutorials sobre o LM Studio.
+Há muita coisa aí na net. OK. Pronto, esta é a
+
+
+primeira parte para vos dar o enquadramento e para
+vos mostrar o que é que eu fiz. Só que eu depois
+
+
+criei criei uma outra função que, mas já vou
+mostrar que é um um LM Studio Image que ou seja aqui
+
+
+era que eu digo agora quero passar ou ou quero
+chamar o LM Studio, mas passar uma imagem porque
+
+
+realmente o modelo que eu estou a usar ele ele
+suporta suporta o input de imagem. OK? Pronto. Só
+
+
+que o o package que eu estava aqui a usar, que é o
+elmer, eh não não não suporta não suporta essa essa
+
+
+essa essa passagem. Eh, basicamente o que o que
+acontece aqui é que temos aqui vários vários entry
+
+
+points da API, acho que é os é o que estão aqui.
+API é o é o chat, downloads, download status,
+
+
+models, open AI compatible e é
+o completions. Pronto, o completions,
+
+
+que é um que vai ser usado para para as imagens.
+OK, pronto, eu não não sabia isto aqui de cor,
+
+
+mas pronto, com a ajuda da da inteligência
+artificial e e do Gemini, depois comecei a
+
+
+perceber como é que isto funciona. Portanto, isto
+são os entry points que é estão estão publicados
+
+
+aqui para que a pessoa que queira fazer uma
+API possa ir atacar estes entry points. OK?
+
+
+Pronto, o que acontece é que aquele elmer, pelo
+que eu percebi, pelo que o chat GPT me disse,
+
+
+pois não não atacava, não não foi programado para
+atacar este entry point aqui, que é o que diz
+
+
+aqui, send a chat history to the model. Bom, não sei o que é que isto, mas
+pelo menos foi o que eu entendi que era esta era
+
+
+a API que faltava. Bom, peço desculpa se estiver
+a dizer alguma asneira, mas e mas a ideia é esta.
+
+
+Os entry points são diversos, pá, e podemos
+estamos a usar aqui um package que já está feito
+
+
+e eventualmente ele não ataca todos aqueles entry
+points e, portanto, não tem todas as capacidades
+
+
+de nós estarmos a usar uma interface
+destas aqui, não é? Que está que é mais capaz.
+
+
+Basicamente aqui quando nós estamos aqui no chat
+e nós ao ao termos aqui estas várias features,
+
+
+pois ele internamente o o que o a aplicação faz é
+ele faz vai faz o intercâmbio e para para o modelo
+
+
+propriamente dito e e saber sabendo chamar osentry points
+necessários. Pelo menos é a ideia que
+
+
+eu tenho também, não sou um expert nessa nessa
+matéria. Ora bem, eh mas isso já vamos já vamos
+
+
+ver daqui a bocado. Portanto, esta parte aqui já
+mostrei. Ora bem, e agora vamos ver aqui um tópico
+
+
+que eu também tive fiz aqui um interregno já agora, e fiz
+aqui um script hoje rapidamente que é um image
+
+
+renamer. Qual era o problema? O que eu vou vou o
+que eu vou fazer aqui no R, o principal que eu
+
+
+vos vou-vos mostrar hoje é o é este script que eu
+fiz que é o prompt generator, onde eu quero gerar,
+
+
+eu quero ser capaz de processar massivamente uma
+folder de imagens para gerar massivamente eh o
+
+
+um conjunto de prompts, porque eu mostrei-vos há
+bocado que se eu quisesse fazer isso manualmente
+
+
+tinha que introduzir no Gemini imagem a
+imagem e ao fim de meia dúzia de imagens
+
+
+eu já já tinha esgotado as capacidades free
+e, portanto, eh não se não seria mais capaz de
+
+
+de de fazer isso. E, portanto, eu fiz eu
+eu fiz um prompt generator. Só que depois
+
+
+eu que houve ali uma uma linha dentro
+do prompt generator que que me deu erro.
+
+
+Eh, porque houve ali uma parte que me deu erro,
+porque eu estava a salvar imagens. As imagens que
+
+
+eu lhes estou a dar tinham extensão PNG. E e o que
+acontece é que era mentira, porque a extensão é e
+
+
+o o a imagem na verdade era era JPEG. Ou seja, se
+eu chegar aqui, eu tenho uma imagem , esta imagem,
+
+
+ela é um JPEG. Ele ele é um JPEG, mas se eu fizer
+rename PNG funciona também, não tem problema.
+
+
+para o Windows. Para o Windows não tem problema.
+Eu ponho aqui PNG. Ele dá-me aqui o aviso,
+
+
+mas eu digo: "Sim, senhora". E não tem problema
+nenhum. Eu eu dou dois cliques e ele e ele
+
+
+abre. Ele abre porque o o o visualizador do
+Windows, ele provavelmente
+
+
+ignora para sabe que isto é uma imagem. OK? É para
+mostrar uma imagem, depois vê dentro e sabe que
+
+
+é um PNG e abre e mostra a imagem e ponto final.
+Mas na verdade é mentira, não é PNG, é um JPEG.
+
+
+Eh, quando estamos a trabalhar programaticamente,
+existem funções que não são assim tão robustas,
+
+
+que foi uma como uma que eu encontrei ali. E,
+portanto, eh, e depois deu-me erro, porque eu
+
+
+queria visualizar, como já vamos ver daqui a
+bocado, dentro do do RStudio e ele pensava que era
+
+
+um PNG e depois ele dava-me a dar erro e dizia:
+"Não, isto não é PNG, portanto deu erro". Pronto.
+
+
+Então eu foi uma situação realmente inositada que
+me apareceu. Eh, e eu eh até vou vou vou deixar
+
+
+aqui esta com PNG para vocês verem. E eu fiz aqui
+um um image renamer. E o image renamer, pronto,
+
+
+existem vários image rename, existem vários file
+renamers. Eh, alguns até vêm com o com o Toys,
+
+
+como é que se chama aquela ferramenta que vem
+com o Windows, que é o Power Toys. Eh, e eu não
+
+
+sei se existe alguma coisa na net, provavelmente
+existe algum utilitário, alguma forma de fazer
+
+
+um de querer fazer um dois a um. Por um lado,
+eu quero fazer um um um power renamer, porque
+
+
+imaginem que eu tenho aqui um um nome extenso, por
+exemplo, aqui eu vou fazer aqui um rename aqui,
+
+
+OK? Vou fazer aqui um nome longo. Pronto, vai
+parar aqui. Pronto, imaginem que eu tenho
+
+
+e era o que eu tinha e era o que eu tinha, de
+facto. Eu tinha aqui uma uma coleção de imagens
+
+
+porque eram gravadas e salvadas de diversos
+tipos de ferramentas, quer do Gemini Flow, quer
+
+
+de outras de outro tipo. Então, isto já era aqui
+uma grande confusão. E por um lado eu quis fazer
+
+
+o rename dos nomes, mas eu também quis acertar as
+extensões. Eu quis dizer assim, e pá, se a imagem,
+
+
+por exemplo, não for um PNG verdadeiro, na verdade
+é um JPEG, acerta-me a extensão. E como estão a ver,
+
+
+isto é uma coisa já mais mais sofisticada, não é
+só um um simples renamer de de de texto. É um é um
+
+
+é um renamer inteligente que analisa o conteúdo
+da imagem para ver qual é o formato de imagem.
+
+
+Pronto. E foi o que eu fiz aqui. Eu fiz um um
+image renamer. OK. Pronto. E é o que vamos ver
+
+
+agora aqui. Vamos ver aqui o eu vamos ver aqui
+um image renamer, OK? eh que está aqui. Pronto,
+
+
+fiz isto rapidamente. Fiz isto. Então, o que é
+que consiste? Eu passo-lhe a folder, OK? Que é
+
+
+a folder que eu tenho aqui, OK? Eh, drive P, discd
+wallpapers. OK. Eh, vamos executar isto aqui linha
+
+
+a linha. Deixa-me limpar aqui esta
+área. Pronto. Então, eu passo-lhe a folder. OK,
+
+
+espera aí... devo ter aqui alguma coisa aqui
+pendente. Exato. Tinha aqui o chat,
+
+
+este chat pendente. Deixa-me fechá-lo.
+OK, pronto, já tenho aqui a folder. Eh,
+
+
+eu carrego os ficheiros, OK? 183 ficheiros,
+está correto. Ele carrega num vetor.
+
+
+Eh, eu tenho o aqui o número, o número de
+ficheiros 183. E agora vou fazer aqui um loop. OK.
+
+
+Pronto. Mas agora o que é que acontece? Eu tenho,
+eu quero lhe dar um prefixo. Eu não posso dar o
+
+
+mesmo prefixo que eu dei na vez anterior. Imaginem
+que eu dava-lhe aqui o prefixo image. Ele
+
+
+pegava, por exemplo, nesta imagem e fazia rename: image 
+número um. Ora, ia dar nome repetido. OK? Pronto.
+
+
+Então tem que ter cuidado. O único cuidado ter
+com isto é que eu ao ao correr uma segunda vez eu
+
+
+quero-lhe dar aqui um prefixo eh que é o que está
+aqui. OK. E mas e mas o prefixo aqui até eu tenho
+
+
+que variar o perfixo por causa disso. Eu vou agora
+chamar o prefixo a letra A. Pronto. E então vai
+
+
+vai dar a imagem A001, A002, etc. Pronto. E então
+o que é que eu tenho aqui? Ele vai fazer o loop e
+
+
+agora uso o package Magic, que é o é o package
+especialista em imagens e nomeadamente consegue
+
+
+analisar o conteúdo da imagem e e determinar qual
+o formato real da imagem. Então tenho aqui o magic
+
+
+image read e agora tenho aqui o magic image info.
+Dá-me o formato e o formato vou usá-lo como sendoa
+
+
+extensão. Converto para lower e tenho a extensão.
+E agora aqui trabalho aqui um new name e depois
+
+
+faço o rename file rename e já está. E como e vem
+como rapidamente vamos fazer aqui um power rename.
+
+
+Vou fazer vou vou correr isto agora. Pronto.
+E vamos fazer aqui o rename. Isto é rápido. O
+
+
+Magic é rápido a analisar as imagens. Cá está. Está
+a analisá-las. OK. Está a fazer o rename. Inclusive
+
+
+ da extensão, se for o caso disso. E tínhamos
+ali uma que estava com extensão PNG. Pronto,
+
+
+já acabou. Eh, estão a ver este aqui? Último.
+Ele, ele fez o rename deste último para cá está.
+
+
+E houve aqui algum que ele fez o rename de PNG
+para foi este foi, era precisamente o número um.
+
+
+Ele era PNG, mas fez rename para JPEG porque
+ele detetou que a imagem era JPEG. Pronto. E
+
+
+cá está. Pronto. Portanto, este foi um pequeno
+utilitário. Vejam bem o poderio da linguagem R.
+
+
+Existem certamente muitos utilitários para fazer
+renames. É, como vos digo, não sei se haverá algum
+
+
+que faça isto que eu acabei daqui de fazer. Não só
+o rename, mass rename a nível de nome de ficheiro,
+
+
+mas também acertando a extensão, OK? Um, dois em
+um. Acertando a extensão. Neste caso é imagens,
+
+
+só para imagens, não é? Porque usei o Magic, mas
+imaginem, poderia ser qualquer outra coisa. E
+
+
+eu podia usar aqui algum detetor, um de de algum
+outro tipo de tipo de de de formato de ficheiros,
+
+
+OK? Imaginem vídeos ou imaginem qualquer outra
+coisa. Pronto. Eh, realmente foi um foi um tema
+
+
+bastante interessante e fiz isto há bocado. Eu fiz
+isto é meia horinha, meia horinha, uma horinha fiz
+
+
+esta função e porque estava a precisar dela e fiz
+e agora ficou fiquei com um image renimer aqui na
+
+
+minha coleção. Ora, portanto, já vos falei disto
+aqui. Image renamer. Pronto. E agora vamos mostrar
+
+
+então finalmente o prompt generator que eu fiz
+e que esse é o tópico principal deste tutorial,
+
+
+o prompt generator. Ah, então bom, o que é que
+vai ser o promp generator? Pronto, eu fiz o prompt
+
+
+generator. A ideia, portanto, é esta. Imaginem que
+eu tenho porque quando vos mostrei, por exemplo,
+
+
+aqui, mostrei-vos a minha coleção aqui que eu
+tenho aqui no Flow e aqui está uma coleção já
+
+
+grande, já tem mais de mais de 100 imagens aqui.
+E tem ele tem uma uma uma funcionalidade muito
+
+
+interessante que eu posso pegar aqui, portanto,
+aqui no numa imagem e posso recuperar a prompt
+
+
+que foi usada para para gerar a imagem. Pronto,
+isto é bastante interessante. Por exemplo,
+
+
+eu chego aqui, eu faço o reuse da prompt, cá está.
+E eu aqui aqui posso fazer o copy esta pronto para
+
+
+um outro sítio, para um outro modelo qualquer
+e como fizemos há bocado  e portanto gera
+
+
+gera uma imagem eh parecida a partir de uma
+prompa. Eh, esta parte é muito interessante,
+
+
+só que infelizmente eu não consigo fazer o
+download destas prompts todas de tacada,
+
+
+que era o que eu queria. Mais uma vez volto-vos
+a dizer, mais importante do que as imagens são as
+
+
+prompts. Não se esqueçam daquela analogia que eu
+vos disse da lâmpada da Aladino. A prompt é que é
+
+
+é que é que tem o segredo todo. A prompt é que
+tem é que tem o conteúdo. A imagem pouco importa
+
+
+porque é a partir da prompt posso gerar uma
+coleção infinita de imagens dentro da de com com
+
+
+esta com esta família com com com esta tipologia.
+OK? Portanto, é é a prompt que tem a riqueza,
+
+
+não é a imagem. A imagem é só uma, é a prompt que
+tem que tem que tem o poderio. O poderio está dentro
+
+
+da prompt e sempre sempre e quando a prompt está
+adaptada a um dado modelo e, portanto, depois usar
+
+
+essa prompt nesse mesmo modelo. OK? Eh, e realmente eu queria as
+prompts, só que ele não tem aqui nenhum processo.
+
+
+Quando eu eu baixei aqui o o download project e
+depois ele baixa um zip e depois ele faz o unzip,
+
+
+mas ele só tem as imagens, não tem as prompts. A,
+não sei se a prompt até será guardada dentro da
+
+
+imagem, não, não tenho a certeza porque há muitos
+modelos e no confyUI isso é muito usado em que a
+
+
+que não só o prompt, mas o mas o próprio workflow
+em que a imagem foi gerada, todo o workflow é ele
+
+
+é guardado dentro da própria imagem em metadata
+dentro da imagem. Isso é muito poderoso e por
+
+
+isso não sei até que ponto é que a própria prompt
+esteja guardada aqui dentro da própria imagem.
+
+
+Eh, por acaso não não tenho a certeza. Eh, posso
+podemos perguntar aqui no, por exemplo, no Gemini.
+
+
+Eu posso perguntar aqui, eh, do you
+know you know if in Google Flow?
+
+
+Oi, estou com maiúsculas sem
+querer. Eh, the image store
+
+
+inside the used prompt?
+
+
+Ó, agora tinha aqui uma imagem. Foi
+estúpido. Desculpem. Tinha aqui, mas vá lá.
+
+
+the short answer is No
+
+
+...
+
+
+ok bom não não vos vou fazer perder tempo agora
+com isto. Depois tenho que analisar isto depois
+
+
+mais ao pormenor. Eh, mas eu suspeito que não,
+que que ele não guarda, enquanto que eu confyUI
+
+
+guarda. Eh, mas portanto a temática aqui
+então é esta. Eu se OK, então se eu não tenho as
+
+
+prompts, mas eu mas eu tenho as imagens. Pronto,
+as imagens tenho porque eu eu fiz download delas
+
+
+eh e portanto tenho as imagens na minha máquina.
+E agora então eu vou fazer o reverse engineering.
+
+
+Agora em vez da prompt para imagem vou fazer de
+imagem para prompt. Claro que nunca vai
+
+
+dar a mesma prompt, mas há-de dar uma prompt
+bastante bastante similar, porque é analisada por
+
+
+um modelo, pronto, neste caso modelo local. Eh, e
+como foi o facto que há bocado vimos que que ele
+
+
+que ele que ele gerou isso,  já não lembro onde
+é que vimos se foi no meu modelo local ou ou se
+
+
+foi na web, mas pronto, adiante. Ora bem, o que é
+que nós temos temos então aqui? Bom, eu agora vou
+
+
+vou ter aqui uma prompt um uma uma prompt
+para o que eu vou atacar o meu LM estúdio local. A
+
+
+prompte é a prompt é para me dar uma prompt, OK?
+Give me a text prompt optimized for z image turbo model ok
+
+
+in order to generate an image like the one attached.
+Ok. Give me only the text. Not the image. Acontece
+
+
+muitas vezes a IA baralha-se e eu estou a falarde
+imagens e ela pensa que eu quero uma imagem e
+
+
+devolvia-me uma imagem. Não, eu não quero imagem.
+Eu quero uma prompt. Eu quero um uma prompt text para
+
+
+para depois eu gerar uma imagem num determinado
+modelo. Neste caso, eu vou usar o modelo, o z image
+
+
+turbo, que é o que eu uso aqui localmente no meu
+confyUI. Bom, deixa correr isto aqui do início.
+
+
+Deixa limpar aqui isto tudo.
+Deixa-me posicionar-nos aqui. Eh,
+
+
+esta parte agora já não precisamos estar a
+correr. Esta parte é para ver se o modelo
+
+
+estava a funcionar. Já vimos que estava a
+funcionar. Deixa comentar aqui esta parte. OK,
+
+
+pronto. Para isto eu fiz uma nova função que
+é um LM Studio image OK? Vou-vos mostrar aqui. Ora,
+
+
+eu fiz aqui uma nova função aqui,
+guardei-a dentro do meu package.
+
+
+Onde é que isto está? Ora, package minifunctions.
+Ora, o código R. Ora, LM Studio Image.
+
+
+Pronto, eu fiz esta esta eu fiz esta função. Cá
+está. Porque porque o o o package que eu estava
+
+
+a usar, o elmer, não tinha não, tanto quanto eu
+me percebi, não tinha a capacidade de passar a
+
+
+imagem. E então eh eu fiz esta, fiz esta, claro,
+com a ajuda de inteligência artificial. Mais uma
+
+
+vez digo, não, não vou deixar de dizer isso porque
+isso torna-se redundante estar a dizer. Eh, OK.
+
+
+Portanto, a função entra uma prompt e uma imagem
+e, portanto, vai pedir qualquer coisa acerca
+
+
+da imagem, não é? e  portanto eu aqui tenho
+tenho que fazer aqui um encoding da imagem. Eh,
+
+
+tem aqui que analisar o o o formato o formato
+aqui da extensão da imagem. Eh, e agora usa um
+
+
+package genérico, HTTR2, que é um package genérico
+para invocar APIs diversas, de retfull APIs. OK,
+
+
+pronto. Portanto, vou-vos deixar isto aqui. Não,
+não, não vale a pena aqui perder tempo a explicar
+
+
+isto ao detalhe. Olha, olha aqui está o o o Copilot
+a tentar adivinhar o que é que eu quero a seguir.
+
+
+ pronto, não vou perder mais tempo a
+explicar-vos isto e também não vos vou
+
+
+explicar agora a fazer como é que se faz funções
+de package. Isto seria poderá ser um tópico para
+
+
+um outro tutorial. Pronto, isto esta parte aqui
+não importa. O que importa é aqui o início da
+
+
+função. Esta parte aqui de cima é o cabeçalho, a
+declaração para depois ela ser ela ser integrado
+
+
+dentro do meu package que contém várias funções.
+Mas pronto, vocês podem fazer copy paste a partir
+
+
+daqui da linha 12 e que é que é o que é o
+conteúdo da função propriamente dita. Eh,
+
+
+e portanto e mais nada. Deixa mostrar aqui esta
+parte aqui de baixo. Se vocês depois quiserem
+
+
+fazer copy paste com dois print screens. Eu até
+posso baixar isto aqui um bocadinho. Pronto,
+
+
+deixa lá ver assim. OK. Com um único
+print screen aqui, vocês copiam,
+
+
+copiam a função com facilidade. OK? Pronto.
+Eh, e mais nada. E ele aqui ele ele ele ele
+
+
+tem aqui ele cá está a API que ele invoca, que é o
+Completions. OK? Eh, ele passa-lhe aqui a imagem.
+
+
+Eh, e finalmente ele passa-lhe a prompt aqui
+algures. Ele passa aqui a prompt algures. Onde é
+
+
+que está aqui a prompt? Não a vejo. Deve estar
+para aqui algures. Aqui o request. Ora, user
+
+
+ Está aqui. Ok. Está aqui a prompt. Ok. Text
+text prompt. E, e depois faz o attachment aqui
+
+
+da imagem. OK. Pronto. Só para ficarem com uma
+ideia. Então, é isso que nós vamos fazer agora.
+
+
+Eh, nós vamos fazer agora e há aqui uma parte
+que realmente chumbava, que é aqui no meu
+
+
+display media, que chumbava quando a extensão era
+errada, quando a imagem dizia PNG, mas na verdade
+
+
+internamente era um JPEG que ela chumbou e portanto
+eu tive que fazer aquela correção. Eu vou fazer
+
+
+agora isto, esta parte aqui, vou fazer só para
+umas duas imagens para ser mais rápido, porque
+
+
+isto é bastante pesado. é pesado, obviamente
+porque chama o meu modelo local, está na minha
+
+
+máquina local, analisar imagens a e descrever as
+imagens é é sempre pesado. E portanto são aqui 183
+
+
+imagens. Eh, portanto, eu vou fazer aqui para
+a demo, para o tutorial, vou fazer isto só com
+
+
+com duas imagens, OK? Eh, e depois eu guardo
+as prompts num ficheiro de prompts. Eu vou
+
+
+vou apagar agora aqui o ficheiro de prompts, vou
+criá-lo vazio, porque este ficheiro de prompts
+
+
+depois ele vai é dado ao confyUI, já vamos ver para fazer um
+processo batch onde eu posso gerar n imagens de
+
+
+tacada. Posso deixar o modelo a correr 24 horas
+sobre 24 e eu a partir de uma coleção de, a partir
+
+
+de 100 prompts gero 100 imagens e depois posso
+repetir repetir e portanto vou gerar 100 imagens
+
+
+tipificadas a partir de de de 100 prompts.
+OK? Não sei se me explico. Portanto, vejam bem o
+
+
+poderio, o poderio que isto tem. OK? Imaginem que eu
+estou aqui, eu gosto, imaginem, digo, ah, eu gosto
+
+
+muito destas imagens. Ou então imaginem que eu
+escolho aqui algumas imagens. Olha, gosto desta,
+
+
+desta, e desta. Eu eu escolho quatro ou cinco, mas
+agora quero gerar, por exemplo, 10 instâncias de
+
+
+cada. Quero gerar, OK? Imagina, olha, gosto
+muito desta tipo de imagem ou gosto
+
+
+muito desta aqui, OK? E, portanto, eu consigo
+gerar, portanto, eu tenho que ter as prompts,
+
+
+eu tenho que ter as depois depois a partir
+das prompts, eu faço um batch file e vou gerar
+
+
+n instâncias de para cada prompt. OK? Pronto.
+Então é o que vamos ver aqui ver aqui primeiro.
+
+
+Primeiro eu tenho que gerar as prompts. Tenho as
+imagens eu tenho que gerar as prompts. Portanto,
+
+
+eu tenho aqui a minha folder com imagens. Agora
+eu vou gerar apenas para as duas primeiras imagens
+
+
+para aqui para para fins do tutorial. Eu vou
+gerar as duas prompts, OK? Ter aqui n = 2. Ok.
+
+
+Até tenho aqui a prompt, a prompt, a folder, os
+ficheiros e agora tenho aqui a n = 2. Pronto.
+
+
+E agora vou gerar aqui o loop. Eh, e depois
+eu fiz aqui alguns pequenos, alguns pequenos
+
+
+extras. Eu faço visualizo aqui a imagem que é
+para ter a noção do que é que ele está a fazer.
+
+
+Eh, visualizo o word count porque a minha prompt
+pede a dizer, olha, gera-me no máximo 100 imagens(words)
+
+
+e, portanto, eu eu fiscalizo, fiscalizo a ver se
+está correto quantas palavras ele está a usar. Eh,
+
+
+e depois guardo guardo a prompt na no ficheiro
+de prompts e fico com todas as prompts. OK,
+
+
+vamos correr isto então. Pronto, cá está. aqui
+ele eh vou fazer aqui o display da imagem eh
+
+
+e depois vamos ver aqui no no modelo aqui que
+ele vai entrar no LLM. Cá está ele. Ele já
+
+
+entrou aqui. Não é aqui, é aqui. Ele já entrou.
+Ele já está aqui a gerar. Cá está ele aqui. Ele
+
+
+já está. Ele aqui não me está a mostrar.
+Não sei porquê tenho que ir aqui ao viewer
+
+
+display aqui não não está a funcionar não sei
+porquê. Bom, mas o ele ele funciona. Eu aqui
+
+
+há qualquer bugzinho e eu penso que ou o ou de
+há aqui qualquer coisa o o viewer tinha que estar
+
+
+em estar aqui inicializado. Há aqui qualquer
+coisa na inicialização do ou é nos plots? Ah,
+
+
+é nos plots. Peço desculpa. É, nos plots. Só que o
+que ele não fez, ele não fez foi o switch porque
+
+
+ele estava no viewer e ele não conseguiu comutar
+de viewer para o plot. Mas pronto, ele tem aqui,
+
+
+ele tem aqui os dois. OK, pronto, cá está. Ele
+tem aqui os dois, o primeiro, o primeiro plot e
+
+
+o segundo plot. Pronto, mas como ele não comutou,
+que ele estava no viewer e ele ele não comutou,
+
+
+eu acho que já investiguei isto em tempos e eu
+não consegui resolver este problema. como é que
+
+
+eu programaticamente comuto comuto para aqui para
+uma destas tabs. Pronto. E eu antes de arrancar
+
+
+este loop, eu devia ter devia ter selecionado
+o plot que até vou fazer aqui até uma nota para
+
+
+ver se não me esquece da próxima vez. OK. Eh,
+select select the plots pane in RStudio
+
+
+to see images, mas exatamente ok pronto Copilot pronto pronto.
+ de resto eu tenho aqui os
+
+
+dois as duas prompts as prompts estão adequadas
+como podem ver reparem aqui neste nesta imagem ele
+
+
+gerou-me aqui a prompt a colossal bepedal mech labeled Jotun 4 está está aqui o nome stands e tal tal tal. E
+
+
+ele ele pôs-me aqui também nas promets. Ó, aqui
+gerou-me um ficheirinho de prompts. Eh, cá está,
+
+
+é um ficheiro de texto. Cá tem as duas prompts,
+uma prompt por por por linha. Pronto. Eh, e o
+
+
+tutorial está quase a terminar, mas ainda falta aqui
+porque agora vamos agora vou pegar nisto e vou vou
+
+
+meter no modelo que gera as imagens. Portanto, já
+vos mostrei aqui o prompt generator, está mostrado.
+
+
+E agora vamos ao confyUI só por curiosidade, para
+vê-lo a gerar a imagem. Obviamente isso extravaza
+
+
+um bocadinho a parte aqui, mas a ideia é passar
+o ficheiro massivo. Mas agora não vamos fazer o
+
+
+ficheiro massivo. Vou vou só gerar uma imagem.
+Eh, vou vou vou pegar aqui nesta nesta prompt.
+
+
+Vou abrir aqui o meu, vou fazer aqui o eject
+aqui para isto ser mais rápido. Vou fazer o
+
+
+eject aqui do meu modelo de LLM, OK? para
+libertar a memória. E agora vou ao confyUI
+
+
+aqui ao confyUI. E o confyUI ele está aqui. Ah, não
+vou perder aqui mais muito tempo a explicar isto.
+
+
+Já vos recomendei se quiserem o aquele tutorial
+do Pixaroma. E mas aqui temos basicamente
+
+
+eu tenho aqui uma área que é onde a área onde vai
+entrar a prompt. Eh, tenho aqui uma área onde eu
+
+
+também podia dar a imagem a partir daqui, se eu
+quiser uma imagem particular e a partir daqui ir
+
+
+ao LM Studio buscar a prompt. Pronto, mas isto
+é para uma imagem pontual, não é para um batch
+
+
+com uma centena de imagens, como é óbvio. Eh, essa
+para isso fomos a ao R, como acabamos de ver. Eh,
+
+
+e temos aqui uma zona que é o prompt loader, onde
+eu lhe dou onde está o ficheirinho de prompts para
+
+
+e onde ele vai-me e processar então massivamente  
+todas as imagens. Pronto, mas agora também não vou
+
+
+vou fazer isso para simplificar. Eu vou só passar
+uma prompt uma unica prompt, só para vocês verem isto a
+
+
+correr. E eu vou passar aqui a prompt, OK? Que é o
+colossal bipedal Mech. Está aqui. Pronto, só para uma
+
+
+prompt. Portanto, basicamente eu tenho aqui três
+três tipos de input. ou uma prompt pontual manual
+
+
+ou uma geração a partir de imagem ou uma promp a
+partir de um ficheiro. OK? Pronto. Eh, mas neste
+
+
+caso vamos usar aqui a parte manual. Eh, e depois
+tenho esses três inputs. Depois eu tenho que os
+
+
+conectar manualmente, consoante aquilo que eu
+queira. Aqui tenho que fazer uma uma uma conexão
+
+
+aqui manual. Neste caso está esta parte aqui, mas se
+eu quisesse que fosse fosse o este prompt loader,
+
+
+teria que fazer esta conexão aqui manual. Bom,
+esta parte aqui não importa. Depois eu posso aplicar
+
+
+um estilo também. Eu estou aqui a fazer bypass.
+Eu posso ainda ainda adicionalmente a uma prompt,
+
+
+eu posso ainda adicionar forçar a um determinado
+estilo ou um estilo anime ou um estilo comic book
+
+
+ou um estilo seja seja o que for. Pronto,
+esta parte aqui também não vamos fazer.
+
+
+Eh, e agora vamos correr. Pronto. E gera,
+eu gero aqui um, vou gerar uma imagem quer
+
+
+com estas proporções. Eu vou, vou gerar a
+imagem e vamos ver o que é que isto vai dar.
+
+
+Isso. OK. Está a correr
+
+
+ele aqui. A prompt está aqui, ela ela foi foi
+ela aparece-me aqui no output. Isto é porque
+
+
+quando ele é processado a partir de um de um de um
+aplicador de estilos, eu gosto de ver como é que
+
+
+a como é que a prompt foi transformada. Isto é
+mais usado quando as prompts são muito pequeninas,
+
+
+OK? Quando eu tenho uma prompt muito pequenina,
+digo assim: "Olha, faz um coelho". E ele aqui
+
+
+ele mostra mostra aqui um preview de de
+da imagem que ela vai ser gerada. OK?
+
+
+Imaginem que que a geração Imaginem que a geração
+demorava muito tempo, que era um modelo mais
+
+
+complexo, que o meu computador era lento, demorava
+10 minutos. Eu a partir do preview, se eu não
+
+
+gostasse do preview, eu podia antecipadamente podia
+logo cancelar e dizia: "Não, eu não, eu não gosto
+
+
+do resultado que vai ter, eu cancelo". Pronto.
+Então aqui temos eh realmente o que ele gerou. Eh,
+
+
+posso posso vamos comparar com o input.
+Eh, deixa-me ver aqui onde é que eu estava.
+
+
+Estava aqui o input, acho que é o o número o
+número dois. Exatamente. Pronto, este é o input.
+
+
+OK. Este é o input eh do input gerou-me uma
+prompt com o R. Através do R, do programa em R,
+
+
+eu gerei massivamente as prompts, mas só tratamos duas
+imagens para efeitos tutorial.
+
+
+e gerou uma coisa que em termos de estilo não é
+muito parecido. E a resposta é simples, porque
+
+
+é que não é muito parecido? Porque os modelos
+são diferentes. OK? Isto tem muito a ver. Não
+
+
+quer dizer que se calhar se afinando a prompt eu
+talvez conseguisse pegar num modelo e aproximar os
+
+
+resultados aos resultados que outro modelo gera,
+porque este modelo foi gerado com o nano banana,
+
+
+Google nano banana e este modelo aqui foi gerado
+com o Z-image-turbo. OK? Portanto, isso tem muito
+
+
+a ver com isso, o o a forma com que os modelos
+trabalham, a forma com que os modelos trabalham.
+
+
+Eh, e depois a pessoa com um bocado de experiência
+eh consegue muitas vezes reconhecer o modelo
+
+
+quando observa um tipo de imagem e consegue muitas
+vezes adivinhar e dizer: "Olha, isto provavelmente
+
+
+foi gerado com este determinado modelo." OK? Eh,
+pronto, é aqui o caso. Portanto, este este modelo
+
+
+Nano Banana e este modelo, eu, por exemplo,
+já reparei que este modelo, o nano banana
+
+
+tem tendência a ser este estilo mais abonecado,
+digamos assim, com imagens com cores mais vivas.
+
+
+E este tem tendência para ser uma coisa que
+mais mais com mais neblina, mais névoa. Eh,
+
+
+mas pronto, é um estilo diferente. As cores não
+estão tão vivas, o cenário não está tão focado,
+
+
+tem aqui algum desfoque. Eh, mas pronto, é o que
+é pelo menos de de raiz. Agora é como vos digo,
+
+
+agora provavelmente, pois depois trabalhando
+eh trabalhando aqui a prompt. OK. E pronto,
+
+
+estamos a chegar ao fim deste tutorial.
+Mostrei-vos esta parte que que vos queria mostrar.
+
+
+Deixa-me aqui minimizar isto aqui um bocadinho.
+Pronto. Só para vocês verem o confyUI a trabalhar
+
+
+e o tempo que ele demorou a gerar esta imagem
+foi bastante rápido, como vocês puderam ver.
+
+
+Eh, como já vos disse, tenho uma máquina bastante
+poderosa. Eh, e, portanto, dá dá conta do recado,
+
+
+dá bem conta do recado deste modelo. Este modelo
+que eu estou a usar em si, Z-image-Turbo, ele
+
+
+ele tem cerca de 20 GB. É um modelo que saiu agora
+em finais de 2025, portanto um modelo recente, um
+
+
+modelo bastante poderoso, uma capacidade criativa
+bastante grande. Ela é capaz de fazer tudo e um
+
+
+par de botas. Eh, são 20 GB e ele e, portanto, o
+confyUI consegue geri-lo e usar a minha gráfica,
+
+
+que que obviamente o modelo não cabe todo na
+gráfica, mas ele não sei bem como é que isso
+
+
+funciona, mas mas consegue trabalhar usando
+a gráfica, usando os 16 GB da gráfica e e foi
+
+
+bastante rápido, como vocês viram, e gerou.
+Pronto, não quis deixar de vos dar a mostrar
+
+
+aqui um lá-mi-ré sobre o confyUI e pronto para
+vocês verem e mas realmente não me vou alongar
+
+
+mais. Se quiserem depois sigam outros tutoriais
+sobre o confyUI. Portanto, já vos mostrei isto,
+
+
+estamos quase a acabar. E finalmente uma parte
+final que eu vos quero simplesmente falar.
+
+
+Não vou só falar, acho que aqui não preciso
+de de estar a mostrar. Eh, isto é até até a
+
+
+metodologia que eu estou agora a usar nos meus
+próprios vídeos. Portanto, quando eu tenho o
+
+
+vídeo do YouTube e este que eu agora estou a
+gravar e depois eu eh vou fazer o upload para
+
+
+o meu canal. Eh, e depois o que é que nós temos?
+Depois temos que eu tenho eu eu primeiro não, eu
+
+
+não punha descrição nenhuma e agora comecei a usar
+esta metodologia. Eu pego no meu vídeo do YouTube
+
+
+e eu dou ao Gemini. Já vimos isto há bocado neste
+mesmo tutorial e ele dá uma description do vídeo.
+
+
+Portanto, eu não tenho que perder muito tempo.
+Aqui eu tinha até este guião, mas eu nem perco
+
+
+tempo com o guião. Vou deitar isto fora porque
+uma vez o vídeo feito, eu dou ao Gemin, ele dá
+
+
+uma descrição, ele diz-me o que é que o vídeo eh
+trata e e eu ponho e eu ponho eh a descrição.
+
+
+que vou pôr no meu no meu vídeo. Eh, e depois
+também o próprio póster, o próprio póster é que
+
+
+ser feito em separado. Não, não consigo fazer dois
+passos, não consigo ir ao Gamini e dizer: "Dá-me
+
+
+o descritivo e dá-me também o póster". Não, porque
+cá está, porque ele vai usar internamente modelos
+
+
+diferentes e, portanto, ele não consegue. Ou usa
+um LLM, um analisador de imagens primeiro e depois
+
+
+para gerar uma imagem usa um outro modelo, o nano
+banana. E, portanto, eu eu tenho que ser feita em
+
+
+dois passos. Não posso fazer numa só prompt, não
+posso pedir as duas coisas. Dá-me duas coisas. OK?
+
+
+Então eu tenho faço em dois tempos. Primeiro,
+dá-me a descrição e depois dá-me com e depois
+
+
+com base na descrição, eu dou a descrição e digo:
+"Dá-me um dá-me um poster para fazer o thumbnail
+
+
+do meu vídeo com base nesta mesma descrição, OK?
+E vejo se eu tiver satisfeito o uso e se não eu
+
+
+depois afino afino a descrição ou pronto. Mas
+basicamente esta é a metodologia. Eu não vale
+
+
+a pena mostrar-vos porque isto funciona, vocês
+confiam. E, portanto, eu depois ponho essas dois
+
+
+elementos, a descrição e o póster, eu vou pôr
+no meu canal, no YouTube Studio e pois e ponho
+
+
+no meu YouTube. E pronto, e isto tem enriquece
+enriquece bastante o os meus vídeos. Eh, eu tenho
+
+
+estado a usar isso agora nesta nesta nesta nesta
+minha playlist dedicada à programação em R, e pronto,
+
+
+chegamos ao fim. Espero que tenham gostado. Eh,
+espero que não tenham alucinado com com todas
+
+
+as temáticas que vimos aqui.  espero que vos
+tenha inspirado. Falei-vos aqui de coisas muito
+
+
+interessantes, como o LM Studio, eh, o ConfyUI temas
+bastante interessantes. e mostrei-vos como o R
+
+
+se integra completamente, como vocês viram,
+consigo integrar o R com modelos, quer modelos
+
+
+na web, no meu caso que eu não tenho subscrições
+pagas, mas se eu tivesse subscrições pagas,
+
+
+pois poderia usar a linguagem R e aceder
+a funcionalidades avançadas eh de grandes
+
+
+modelos. Falei-vos que este modelo que eu usei de
+imagem, ele é um modelo de 20 GB. Eh, se vocês me
+
+
+perguntarem, e eu já tive essa curiosidade, então
+quantos gigas terá um modelo profissional como o
+
+
+nano banana? Eh, não se sabe. Isso está no segredo
+dos deuses. Os modelos, os grandes modelos das
+
+
+destas das das grandes e eh tecnológicas está
+no segredo dos deuses. Nós não sabemos quantos
+
+
+quantos gigas tem. Devem ser coisas monstruosas,
+obviamente, que estão nos nos data centers. Eh,
+
+
+mas pronto, mas com um modelo local, eh, um modelo
+local de 20 GB. Eh, este exemplo que eu vos falei,
+
+
+o z-image-turbo, eu consigo na minha máquina, que é
+uma máquina poderosa, é verdade, eh, e consegui
+
+
+gerar a imagem com com poucos poucos segundos.
+Ah, e portanto e pronto. E com a ajuda do R,
+
+
+o R consegue-me fazer processamentos massivos.
+Eh, neste caso, gerou-me as prompts e não sei
+
+
+se até se o R seria capaz até de desencadear eh
+um flowchart aqui do do próprio ConfyUI. Ainda
+
+
+não investiguei. Eu também estou trabalho com o
+ConfyUI há relativamente pouco tempo e, portanto,
+
+
+há sempre muita coisa para investigar. Ainda não
+investiguei, tenho estado a avançar nisto aos
+
+
+poucos. Eh, e pronto, ficamos por aqui. Espero
+que tenham gostado do meu tutorial. Não deixem
+
+
+de ver os meus outros vídeos do meu da minha
+playlist de de R. Todos eles têm um seguimento,
+
+
+temas muito interessantes. Eh, tentem sempre ver
+isto num monitor grande, de preferência, um grande
+
+
+de 30 polgadas de preferência com resolução 4K,
+de preferência para igualar a resolução em que
+
+
+eu também gravo estes vídeos. Eh, e pronto, até
+uma próxima oportunidade e obrigado pela atenção.
+
+

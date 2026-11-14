@@ -1,0 +1,2219 @@
+
+Ora, sejam bem-vindos a mais um tutorial,
+
+
+programação em R com RStudio. Eh, esta vai
+ser a parte dois dedicada ao YouTube. Eh,
+
+
+não estava previsto, mas como
+tive aqui a fazer umas novidades,
+
+
+implementei umas novidades nessa área e decidi
+fazer este vídeo. Ora, primeiro vou mostrar aqui
+
+
+aqui o o site da Google. OK. Onde é que está? OK,
+vou mostrar aqui este site. Portanto, aqui temos h
+
+
+a parte da da Google, Google APIs, OK? Podemos
+aceder, pesquisamos no Google e pesquisamos
+
+
+de Google Developers Console. OK. Pronto.
+Então, qual é a moral da história? Realmente
+
+
+que temos muitas APIs e dentro do YouTube,
+dentro do YouTube temos à partida três APIs,
+
+
+OK? E nós,  no meu primeiro tutorial,
+recomendo que vejam para porque este vai ser o
+
+
+seguimento no meu primeiro tutorial  eu trabalho
+com um package de linguagem R, que é o Tuber.
+
+
+E esse package ele trabalha apenas com esta API, a
+data API, que é fundamental, não é? Que é onde se
+
+
+obtém a lista dos vídeos, a lista das playlists,
+o total de likes, o total subscribers, etc,
+
+
+etc. E nessa altura eu tinha chamado a atenção
+que eu queria alguma informação que esta API,
+
+
+esta este package não me dava. e que eu chamei a
+atenção e que e portanto havia uma parte manual
+
+
+onde eu tinha que vir aqui ao meu canal que ver do
+do YouTube Studio e eu vinha aqui no no Analytics
+
+
+Advanced, eu pedia, baixava aqui um CSV que eu
+expliquei. Havia uma parte que eu não me tinha
+
+
+apercebido que dava para salvar a a configuração
+do report que nós queremos e que eu salvei aqui
+
+
+onde eu digo lifetime views. Pronto. E quando
+faço o lifetime views, aqui temos eh lifetime
+
+
+eh quebra por data e total de views. Pronto,
+eu expliquei-vos isto e expliquei que eu vinha
+
+
+aqui e baixava o CSV. Baixava aqui o CSV e que é
+ele vai baixar um zipado e depois eu faço faço o
+
+
+unzip para depois então explorar os dados no meu
+script de linguagem R, OK? Pronto, e esta foi
+
+
+a parte que eu mostrei porque realmente o package
+que eu estava a usar não conseguia aceder a esta
+
+
+parte e é normal que não conseguisse porque ela
+esta parte está está embutida dentro de outra API
+
+
+que é o Analytics API. Pronto, eu descobri
+isto fazendo umas pesquisas no chat GPT, na
+
+
+verdade no Google Gemini, eu tenho estado a usar,
+tenho estado a usar mais o Google Gemini porque
+
+
+e até é normal que o Google Gemini pois tenha
+mais informação, por exemplo, sobre o YouTube,
+
+
+já que pertence tudo à mesma plataforma da Google
+e, portanto, é expectável que que o Google Gamini
+
+
+esteja mais dentro desse assunto. E de facto
+ele ajudou-me, ajudou-me, recomendou-me um
+
+
+outro package de R que esse assim trabalha com a
+outra API que eu precisava da Analytics. E depois
+
+
+ainda existe a terceira API como estava aqui, que
+é reporting. Ah, pá, eu não conheço esta.
+
+
+Pronto. OK. E não sei se haverá algum package
+R que que que trabalhe diretamente com ela. Eh,
+
+
+scheduling reporting jobs, contains YouTube analytics, data
+and downloads. Ok, pronto. Não, não vamos agora
+
+
+debruçar sobre esta, mas vamos agora debroçar
+sobre estas duas, esta que eu já tinha e mais
+
+
+esta. Pronto, e achei por bem fazer então este
+tutorial. Eh, pronto, para chamar a atenção disso,
+
+
+não é? para chamar a atenção que e às vezes como
+nós já eu já fiz vários dos meus tutorials que os
+
+
+que atacam o Spotify, outros o Steam e e realmente
+todas as APIs são diferentes. Por exemplo,
+
+
+no no Spotify vimos que havia o scope e que para
+eu pedir uma pedir uma autenticação, eu tinha que
+
+
+indicar quais os scopes dentro do Spotify da
+da do da das áreas de informação que eu queria
+
+
+aceder. Portanto, eh, portanto, e aqui neste caso
+é diferente, aqui está separado em APIs diferentes.
+
+
+OK? Eh, e portanto é achei interessante
+mostrar, salientar este aspecto. E agora
+
+
+vamos ver algumas novidades aqui do meu código,
+como é que, como é que ele ficou. OK? Portanto,
+
+
+vamos então aqui para o RStudio. Portanto,
+vamos vou buscar aqui o meu eh o meu script. OK.
+
+
+Eh, eu agora tenho estado a trabalhar aqui com
+esta parte aqui do do outline, que é útil também.
+
+
+É muito comum em diversos IDEs. Usam este outline,
+é muito comum agora nos IDEs. E tenho estado a
+
+
+trabalhar aqui também já com a inteligência
+artificial, o GitHub Copilot da Microsoft.
+
+
+Tenho estado a trabalhar, tenho estado a dar bem.
+Muito bem. Quando à medida que vamos escrevendo,
+
+
+eh, ele vai sugerindo o próximo código e acho
+que estou sou satisfeito com isso. Eu não sei se
+
+
+daquilo tem alguma uma cota máxima de utilização
+na versão free, mas até agora ainda não andei por
+
+
+isso. Ele ainda não se queixou. Eh, portanto,
+essa parte aí também já expliquei e mostrei
+
+
+num outro dos meus tutorials. Não percam os meus
+todos os meus tutorials dedicados à linguagem R,
+
+
+porque há uma certa ordem no nos tópicos.
+Ah, não se esqueçam também, tentem ver este
+
+
+tutorial e num monitor grande de preferência
+com resolução 4K para tirarem mais proveito
+
+
+que eu também estou eu também estou a gravar este
+vídeo com 4K de resolução no meu monitor 4K. 
+
+
+instalei aqui alguns snipets. Eh, vou-vos mostrar
+aqui uma área, acho que nunca mostrei. Temos,
+
+
+por exemplo, aqui um snippet que browse RStudio Addins, portanto, e não, desculpem,
+
+
+isto não é snippets. Agora, desculpem, enganei-me. É,
+são os addins. Os snippets é outra coisa, é um são
+
+
+os pedacinhos de código. Aqui são os addins,
+não é? uma espécie de extensões, extensões que
+
+
+se aplicam no RStudio. E então temos aqui
+e por exemplo há bocado eu queria estava à
+
+
+procura de uma de ver se encontrava um addin para
+mudar o case o case do de strings ou comentários
+
+
+porque que estava a precisar e queria mudar ali
+o case, mas não encontrei um, já vou mostrar,
+
+
+mas não é não é totalmente satisfatório. que eu
+pesquisei aqui por case, uma vez que e pronto e
+
+
+encontrei este que é o case converter. Ele está
+marcado aqui a verde porque já está instalado,
+
+
+como eu instalei e ele sabe e então marca-o aqui
+a verde e eu aqui poderia desinstalá-lo se eu não
+
+
+quisesse. Portanto, então isto é a área de addins
+estas extensões que existem para o RStudio. OK?
+
+
+E então a ideia era, como estão a ver aqui
+no neste outline, eu tenho aqui eh parágrafos
+
+
+sem maiúsculas, outros sem minúsculas, não está
+não está muito bom. E depois num dado momento eu
+
+
+disse assim: "E pá, dava-me jeito um addin que eu
+chegava, por exemplo, eu chegava aqui e e pegava
+
+
+nesta string." Imaginem esta string está com estas
+letras garrafais em maiúsculo. Eu convertia isto
+
+
+para sentence case, mas infelizmente este addin
+não traz porque ele está vocacionado para para
+
+
+mudar o casing da da programação propriamente
+dita. Até eu tenho aqui no case converter os
+
+
+addins. O que acontece normalmente os addins o
+que fazem é colocam aqui umas entradas no menu
+
+
+e elas ficam aqui no menu dos addins e nós
+podemos chamar as funções a partir daqui,
+
+
+não é? OK? Mas um addin também não é mais do que
+um package. O addin em si ele é ele é um package.
+
+
+O que tem é esse package que tem eh eventualmente
+invoca a a própria API do RStudio, que existe uma
+
+
+API do IDE em si. Eu por acaso nunca fiz nenhum
+addin, mas eh qualquer dia é um é um objetivo a
+
+
+ver se faço aí algum addin. Eh, e então eh ele tem
+aqui upper case, lower case, snake case e camel case,
+
+
+mas isto são coisas para variáveis de programação
+e não tem o sentence case que que fazia sentido
+
+
+aqui para comentários. Portanto, foi pena ele, o
+autor deste addin  ter-se esquecido dessa parte. OK?
+
+
+Eh, portanto, acabei por não conseguir
+converter isto como queria, que eu queria
+
+
+isto convertido para sentence case. OK,
+então vamos lá ver o que é que nós temos
+
+
+aqui. Vamos aqui o que nós temos aqui é o este
+novo package cá está, YouTube Analytics. Pronto,
+
+
+agora vamos ter aqui alguns problemas para
+trabalhar com eh dois packages em simultâneo.
+
+
+Vamos, dois packages em simultâneo. Exatamente. Com
+
+
+duas APIs em simultâneo. Vamos ter aqui o
+problema que que eu já vou explicar. OK?
+
+
+Vamos então a começar a correr isto do início.
+Portanto, quem já conhece os meus tutorials já
+
+
+sabe. Esta parte inicial não importa para vocês.
+Isto é uma parte é um snippet que é chamar que eu
+
+
+chamo o "set" snippet, OK? E portanto é um snippet que
+corre sempre. que este cabeçalho corre sempre no
+
+
+início dos meus scripts. E a única coisa que muda
+é que eu ponho aqui os packages com que eu quero
+
+
+trabalhar e que se ele ou um desses packages não
+estiver instalado, ele instala automaticamente. OK?
+
+
+Mas isto também já existem packages. Neste caso,
+eu fiz esta funcionalidade com um package meu, foi
+
+
+o meu package chamado xfunctions e implementei
+lá dentro a livraria XLibrary e faz isso. Mas
+
+
+existem outros packages oficiais publicados no
+CRAN, eh, seguramente bem mais profissionais do
+
+
+que o meu, que este é foi um package amador que
+eu fiz para mim. Não está publicado em lado nenhum.
+
+
+Acho está uma versão antiga publicada no
+GitHub, mas eu não nunca mais a atualizei
+
+
+que que fazem isso. Mas como eu já tinha este
+feito e esteva ao meu gosto e este também faz algo
+
+
+mais faz que já já vos vou mostrar aqui que me
+devolvam os data frames com informação e portanto
+
+
+está a trabalhar, foi feito por mim, eu estou
+a usar, continuo a usar a minha versão. 
+
+
+mas pronto, isto para quem esteja já a seguir
+o tutorial, não precisa de executar nada disto,
+
+
+só precisa saber quais os pacotes que são
+que estão a ser usados, mais nada. E depois
+
+
+carregar os pacotes com o comando
+library normal do R e nada mais. Pronto,
+
+
+aí não tem mais segredos. Em todo caso,
+eu vou mostrar o que isto faz, já o tenho
+
+
+mostrado noutros tutorials. Aqui normalmente
+limpa limpa o ambiente de trabalho. Aqui limpo
+
+
+aqui as variáveis aqui do environment.
+Eh, agora limpo limpo aqui a a a consola.
+
+
+Agora carrego carrego o meu package. Eh, carrego
+o meu package. Nem precisava de carregar. Eu só
+
+
+muito recentemente é que percebi que na verdade
+os packades não precisam de ser carregados, porque
+
+
+se nós fizermos, se nós fizermos a invocação
+sempre explícita com o nome do package, portanto
+
+
+não chega a ser necessário carregar o package.
+Eu durante anos e anos pensei que sim, que era
+
+
+mandatório ter que carregá-los. Se eh se quisermos
+usar uma invocação das funções implícita só com o
+
+
+nome, aí sim temos que carregar. Mas se quisermos
+usar a invocação explícita, não precisamos de
+
+
+carregar. Embora eu pense que haja um ganho de,
+eu tive aí a ver umas coisas sobre esse assunto,
+
+
+não foi bem conclusivo, mas e penso que haja um
+ganho de de velocidade de performance quando nós
+
+
+carregamos o package, não é? que eu fica em
+memória e que, portanto, depois na invocação
+
+
+explícita, as funções já estão em memória.
+Penso que há aí sim há uma ligeira diferença,
+
+
+mas pronto, mas eh para scripts pequenos não nem
+sequer precisamos de fazer o library se usarmos
+
+
+a invocação explícita. Eu pessoalmente gosto
+sempre de usar a invocação explícita. Estou
+
+
+a olhar uma chamada a uma função, gosto sempre
+de saber de que package é que a função vem. OK?
+
+
+Ora, vamos correr isto aqui
+em todo o caso. OK. Eh,
+
+
+agora vou carregar aqui as estes estes
+packages. Eles já estão todos instalados. E depois cá está,
+
+
+ele devolve-me isto. Vocês já conhecem
+isto dos outros meus outros tutorials, OK?
+
+
+os datasets que vêm embutidos nos packages que eu
+estou a invocar, as vignettes também já vos falei,
+
+
+e os packages que é sempre útil, que os packages
+que eu carreguei, vocês dizem, mas aqui não tinha
+
+
+tantos packages também já expliquei isto porque,
+pronto, há há alguns packeges que eu carrego por
+
+
+default, gosto de ter sempre carregados e também
+acho que também acho que há outros outros packages
+
+
+próprios e como tem os requisitos, eles ao serem
+carregados que carregam as dependências. Mais ou
+
+
+menos penso penso que é é isso que é assim que
+funciona. Pronto. E basicamente eu uso isto até
+
+
+para saber se se os pack estão todos atualizados.
+Se houver uma nova versão aparece-me aqui. Eh,
+
+
+e também aqui para ver de onde é que eles foram
+carregados. Isto também foi uma alteração que eu
+
+
+fiz recentemente. OK. Eh, eu já expliquei isto
+noutros tutoriais. Reparem que eu recentemente
+
+
+fiz o upgrade da da versão da linguagem R para
+o R453. Eh, ele já está aqui. E, portanto,
+
+
+por isso já já está os os packages de base que
+vem vem de raiz com a linguagem de base. Pois
+
+
+pois são todos claramente da versão 453, OK?
+e os outros ainda não. Como a versão 453 saiu
+
+
+há bastante há bastante há bastante pouco tempo
+e portanto os outros packges todos que eu tenho
+
+
+aqui pois foram compilados com versões
+anteriores, como estão a ver aqui. Olha
+
+
+este por acaso YTanalíticos, pelos vistos,
+também já foi recompilado na versão 453. OK.
+
+
+Eh, efetivamente, quando aqui aqui diz
+o wrapper for YouTube Analytics API, OK?
+
+
+E está certo, porque trabalha com essa API do
+YouTube. OK? Eh, então, seguindo aqui em frente,
+
+
+OK? Aqui invoca o help de um package, o aqui
+o help do outro, package description. Depois
+
+
+tenho aqui uma função que eu também modernizei
+há pouco tempo, que eu que eu gosto sempre de ter
+
+
+isto visível, que é o XShowInfo. OK. Aqui mostra
+working directory, script name, time stamp, eh,
+
+
+mostra que eu estou a correr o script de forma
+interativa, portanto linha a linha, OK? Eh,
+
+
+sistema operativo, a RAM, o CPU, integrated
+GPU, eh, discrite GPU, a versão do R, RStudio,
+
+
+etc. Pronto, gosto de ter estas, gosto de ter
+esta sempre esta informação. Eh, OK, seguimos.
+
+
+Vou carregar as minhas funções. Vocês também
+já conhecem como eu trabalho dos meus outros
+
+
+tutorials. Pronto. E efetivamente eu tinha
+um autenticate. Eu tinha um authenticate que
+
+
+era o authenticate, que não era o authenticate
+normal, simples, que me autenticava para poder
+
+
+usar o package tuber, mas agora como vou trabalhar
+com dois packages e cada um vai aceder a duas
+
+
+APIs diferentes do YouTube, eu precisei de criar
+dois authenticates em separado, porque eles eles
+
+
+não são compatíveis, porque a autenticação
+que ele requer para uma determinada API,
+
+
+pois não é a mesma que requer para a outra API.
+são autenticações independentes. Mas aqui a nível
+
+
+a nível do da minha configuração do Google, eh
+eu não precisei de criar mais nenhuma aplicação,
+
+
+portanto, ou seja, nem ter mais credenciais.
+As credenciais são as mesmas, OK? Menos mal.
+
+
+Portanto, aí foi um ganho. Portanto, as
+credenciais são as mesmas. Eu tenho aqui a
+
+
+minha aplicação aqui algures aqui é os acessos que
+eu tenho estado a fazer às APIs. Eu tenho que eu
+
+
+tive que fazer o enable para cada uma das APIs
+que eu queira aceder. E então eu fiz o enable,
+
+
+eu tinha esta apenas que era a data API que é
+a mais comum e agora fiz o enable destas outras
+
+
+duas do YouTube, Analytics and reporting. E este
+apareceu-me aqui, não sei como, se calhar é alguma
+
+
+dependência, apareceu-me aqui automaticamente.
+Custom search API, nem sei o que isto é, mas pronto.
+
+
+E reparem que aqui já comecei a usar o YouTube
+Analytics, já tem aqui requests. E o reporting
+
+
+não, nunca usei nada desta API. Portanto, e é como
+digo, não estou por dentro do assunto, não sei o que
+
+
+é que ela tem. Imagino que sejam coisas mais eh
+empresariais, eh reports mais massivos do ponto de
+
+
+vista empresariais, mas não sei, não não não tive
+a investigar essa área. Eh, aqui ao oauth screen,
+
+
+deixa ver se tenho se encontro aqui a minha
+aplicação, a minha aplicação clientes,
+
+
+acho que está aqui. OK, portanto eu tenho aqui
+o cliente que eu registei na altura chamei
+
+
+tuber. Pronto, e fica tuber. Tem determinadas
+credenciais, tem o client ID e o client secret.
+
+
+Eh, já vimos isto nos outros tutoriais e e
+portanto é a mesma. A aplicação em si é a mesma,
+
+
+as credenciais são as mesmas, portanto, OK,
+menos mal, aí não tive que fazer mais nada,
+
+
+só tive que foi fazer o enable, ir ali à library e
+fazer o enable da das novas APIs que eu queria que
+
+
+eu queria aceder. E agora aqui tive que separar
+as authentications, OK? Então vamos aqui, vou
+
+
+mostrar-vos aqui as funções. Portanto, eu tinha
+esta era este era o meu autenticate antigo, OK?
+
+
+ele trabalhava aqui tuber autentica, passava o clientID
+e o client secret e depois ele ele gerava o .httr-oauth.
+
+
+Pronto. E o que acontece é que eh ao ao fazer
+uma autenticação depois, por exemplo, amanhã,
+
+
+ele lê o mesmo .httr-oauth do disco que está
+aqui, como estão a ver aqui, está no file system e
+
+
+reaproveita esse  .httr-oauth, OK? E funciona.
+Só que ao passar à segunda API, ele vê que tem o
+
+
+ .httr-oauth no disco e vai tentar aceder. Pelo
+menos essa é a ideia com que eu fiquei. Não, eu
+
+
+não sou um expert nisto. OK, diga-se de passagem.
+Aqui já estamos numa área  de de de APIs,
+
+
+de de configuração de sistemas, etc, etc. Não, não
+é não é a minha praia. OK. Eu sou mais forte na
+
+
+programação propriamente dita pura e dura. E aqui já
+estamos a entrar aqui na um pouco nessa vertente,
+
+
+não é o meu forte, mas a ideia com que
+eu fiquei é essa, que então temos aqui
+
+
+um problema e pronto e acho que havia
+várias soluções e eu implementei esta solução,
+
+
+para mim foi a mais simples. OK, antes de qualquer
+autenticação aqui eu apago o .httr-oauth
+
+
+Pronto, eu apago. E, portanto, esta é uma solução
+que dá dá dá para fazer esta solução. Dá para uma
+
+
+utilização que eu faço que eu venho aqui de vez
+em quando, x em x dias eu venho aqui e correr este
+
+
+meu script. Agora, se fosse para correr todos os
+dias ou até de uma forma desantendida, etc, etc.
+
+
+Pronto, aí seria diferente. Aí teria que pensar
+noutra noutra noutra filosofia. Eh, porque claro,
+
+
+porque porque até porque aqui vai-me aparecer,
+vai-me abrir o browser para pedir a autenticação
+
+
+para me gerar o .httr-oauth. Portanto, portanto,
+então isso não seria prático fazer isso a correr o
+
+
+script de uma forma desantendida. OK? Pronto,
+mas para agora para aqui para para o que é
+
+
+e para o que é neste momento serve. E pronto,
+então eu faço o file remove e assim eu forço o
+
+
+refrescamento e pronto, o resto é igual. já tinha
+mostrado no meu no meu outro tutorial. Pronto. E
+
+
+agora fiz uma nova função authenticate for yt
+analytics, que é para o segundo package. Eh,
+
+
+e a autenticação é ligeiramente diferente. Eu
+vou fazer o file remove também, OK? Ou seja,
+
+
+basicamente o que eu vou é usar uma uma um dado
+package e depois mais à frente uso o segundo,
+
+
+porque se eu quisesse alternar e usar os dois ao
+mesmo tempo era muito complicado. Até então eu
+
+
+teria que estar sempre a a sempre a autenticar-me
+quando eu mudo package. Pronto, já vamos ver aqui
+
+
+no meu scrit o que eu faço é é como se fossem dois
+scripts separados. Basicamente ficou tudo junto
+
+
+porque é tudo do YouTube, mas eu primeiro faço os
+acessos todos que eu preciso através de um package
+
+
+e depois mudo para o segundo package. OK? Pronto,
+assim ficou mais simples. Portanto, eu aqui apago.
+
+
+Eh, e agora aqui eu ele e a a forma de autenticar
+aqui é diferente, porque ele aqui autentica com as
+
+
+mesmas credenciais que eu autentiquei aqui, OK?
+As mesmas credenciais, só que eu aqui tenho que
+
+
+tenho que guardar o token que ele me devolve.
+devolve-me um token. Este secalhar também devolve
+
+
+um token. Eu não não cheguei a fazer o teste,
+mas se devolve eu deite-o fora, não preciso dele.
+
+
+Autenticação fica certamente em memória, fica
+alguma coisa em memória para ele saber que eu
+
+
+estou que eu estou autenticado. E ele escreve o
+.httr-oauth e não precisa de mais nada. Mas aqui
+
+
+é diferente. Ele aqui teve devolve um token que é
+um environment. Eh, e porque depois esse token eu
+
+
+tenho que tenho que usá-lo nas chamadas às funções
+deste package. Pronto. Portanto, é são situações,
+
+
+como vocês veem, isto também eh eu vi, eu descobri
+isto com com o com o Gemini e com e vendo vendo um
+
+
+pouco a a documentação. Aqui temos, por exemplo,
+a documentação do a documentação do do package
+
+
+do YT analytics. Eu relembro que o aqui o R o RStudio é tão user friendly, como vocês sabem,
+
+
+eu estou sempre a elogiar o RStudio. Isto
+isto é isto é isto é fabuloso. E, portanto,
+
+
+aqui se eu for aqui aos packages, eu tenho acesso aos helps. Portanto,
+por exemplo, aqui se eu for pesquisar o package YT
+
+
+analytics, está aqui. Ele ficou ficou
+marcado porque porque eu carreguei-o,
+
+
+carreguei-o com o library, portanto está em memória.
+Eh, e eu aqui posso ir eh eu posso ir aqui e eu
+
+
+aqui vou ao GitHub. OK. Vejam só o user friendly
+que isto é. O IDE é espetacular, espetacular. E eu
+
+
+também tenho muita experiência no VS Code. Eh,
+claro que, pronto, claro que o VS Code é para
+
+
+trabalhar em múltiplas linguagens, enquanto aqui
+está mais vocacionado para R, mas também suporta
+
+
+outras linguagens, como já como já vimos no outro
+dia, vos mostrei, que também suporta Python,
+
+
+Markdowns, eh, a programação em C. Pronto, mas
+claro, o fundamental é o R, como é óbvio. Eh,
+
+
+mas eh não há dúvida nenhuma que é como vos disse,
+este é o IDE mais user friendly produtivo que eu
+
+
+que eu há uma vez trabalhei. Eh, e portanto
+aqui temos acedo à documentação do package. Aqui
+
+
+também acedo à documentação eh via do que do que
+está no CRAN, foi o sítio onde eu estava agora,
+
+
+onde eu tenho aqui o reference manual em PDF
+ou em HTML. OK? Portanto, muita documentação,
+
+
+muita forma de aceder à documentação, muita forma
+de obter ajuda rapidamente. Eh, e portanto são
+
+
+estas as dois autenticações que eu fiz, como
+estão a ver, são ligeiramente diferentes. OK?
+
+
+Vamos então continuar a executar isto. Portanto,
+primeiro primeiro vou vou trabalhar com o
+
+
+package, o tuber portanto autentico-me aqui. Aqui acho que
+vai haver algumas diferenças em acho que fiz aqui
+
+
+algumas melhorias em relação à primeira parte ao
+meu ao meu tutorial anterior do YouTube. Acho que
+
+
+aqui fiz algumas melhorias. Eu aqui, cá está,
+ele agora está a dizer se usa local file ou não
+
+
+para to cache oauth. Eu vou vou
+dizer que sim e ele vai ele vai gravar e no disco.
+
+
+Ele agora autentica-me aqui no browser. Cá está.
+Cá está. Por isso é que isto não é prático para
+
+
+se eu quisesse tivesse a correr este script
+em background, isto agora não iria funcionar
+
+
+à partida porque ele pede uma autenticação aqui
+no browser. Portanto, aí teria que arranjar uma
+
+
+maneira diferente, não é? Eu eu tinha que me
+autenticar autenticar primeiro em foreground e depois
+
+
+então sim correr o e o script em background. Eh, mas
+depois teria o problema de esta este problema
+
+
+que agora vos vos chamei a atenção de usar de
+usar dois packages ao mesmo tempo com duas APIs
+
+
+ao mesmo tempo. OK? Eh, penso que haverá outras
+soluções mais simples para poder fazer isso, para
+
+
+compatibilizar isso, mas eu não agora não não tive
+ainda a aprofundar esse tema. É um tema que nunca
+
+
+se me tinha deparado até hoje. Foi a primeira vez
+que estou a trabalhar com duas APIs em simultâneo,
+
+
+embora as duas para o YouTube, mas duas APIs
+diferentes, como poderiam ser para plataformas
+
+
+diferentes. Acho que é a primeira vez. Os meus
+outros tutorials sempre trabalhavam com uma
+
+
+de cada vez. ou ao ou ao Steam ou o outro ia ao
+Spotify ou o outro o outro ia ao Eurostat, etc,
+
+
+etc, etc. Mas sempre uma de cada vez. O Eurostat
+não, o Eurostat é diferente que o Eurostat,
+
+
+se bem me lembro, é gratuito e, portanto, não
+tem uma autenticação deste tipo. Ora, então aqui
+
+
+autentico-me. Sim, senhora. tuber. OK, continua.
+E OK, pronto, já já estou autenticado. Sim,
+
+
+senhor. E eu pus aqui a minha a minha foto. É uma
+forma de quando eu estou a correr isto e também eu
+
+
+ter aqui um feedback e saber que as coisas estão
+a trabalhar bem e dizer: "OK, está a trabalhar bem,
+
+
+ele já já devolveu o avatar do meu canal, OK, está
+a trabalhar." E depois tenho aqui o meu profile,
+
+
+que também é devolvido naquela função. E depois o
+o profile foi devolvido aqui, que é o data frame.
+
+
+O data frame está aqui. E depois eu uso uma função
+que foi feita por mim, que é o que é para fazer
+
+
+aqui este pretty print aqui do data frame aqui em
+HTML. OK, tenho aqui as estatísticas dos views,
+
+
+subscribers, vídeos. OK, tenho aqui o link para
+o meu avatar. OK. Sim, senhor. Vamos agora aceder
+
+
+aqui ao aos meus vídeos. Também já tínhamos visto
+isto. OK. Aqui é acedo aos meus vídeos eu tenho aqui,
+
+
+pronto, obteve os IDs dos vídeos, mas na verdade
+eu não vou usar isto para nada. Não vou porque
+
+
+até tem um bug. Isto tem um bug e tem aqui alguns
+alguns eh vídeos repetidos. Eu já sabia que isto
+
+
+tinha bug. já me tinha ocorrido o bug. Depois,
+num dado momento, quando eu fiz o meu tutorial
+
+
+anterior, o bug não apareceu e depois voltou,
+agora voltou a aparecer. Ainda não percebi bem
+
+
+como é que isto aparece, mas pronto, porque
+quando eu venho aqui listar duplicados, ele
+
+
+h ele tem aqui uns quantos duplicados e e não faz
+sentido nenhum porque obviamente que não há vídeos
+
+
+duplicados. Eh, e portanto em termos de unique,
+ele só ele só tem aqui informação de 191 vídeos,
+
+
+mas que na verdade eu tenho 198, na verdade 199,
+porque há um que está privado, que aliás, e ele ele
+
+
+devolve-me 199 registros mas, mas efetivamente
+tem lá duplicados. Pronto, mas nós não precisamos
+
+
+disto porque eu não vou usar estes os os vídeos a
+partir daqui, eu vou usar a partir das playlists.
+
+
+Isto foi uma coisa que na altura quando eu
+estava a começar a trabalhar com este package,
+
+
+eu vim, eu vinha por aqui pelos vídeos e depois
+descartei e depois descobri que era mais simples
+
+
+vir aqui pelas playlists. Portanto, a partir das
+playlists, eu tenho aqui as playlists, portanto
+
+
+isto é automático, ele devolve as playlists.
+Eu tenho, por exemplo, aqui esta playlist nova,
+
+
+é o R programming. Tenho por exemplo aqui uma
+playlist que eu fiz rename, chamava-se Game
+
+
+Maker e agora passou a chamar-se GX Games. São os
+jogos que eu implemento na linguagem game maker e
+
+
+eu publico na plataforma do GX Games. Eh, OK. E
+agora vou aceder a para cada playlist aos vídeos
+
+
+que estão na na na playlist. Pronto, eu vou vou
+aceder agora aqui. Isto também é mais ou menos
+
+
+igual ao que eu já tinha antes. Só pus aqui uma
+coisinha, uma informação adicional aqui em cada
+
+
+linha. Vou visto o total. Ele ele está a aceder
+aos detalhes aos detalhes de cada vídeo. OK.
+
+
+OK. 13 vídeos em R programming, mas este que
+eu estou a gravar agora mesmo vai ser o 14º
+
+
+porque estou agora a gravá-lo, portanto,
+obviamente que ainda não foi publicado.
+
+
+E agora vou perguntar, eh, tenho algum
+vídeo em mais do que uma playlist? OK.
+
+
+Eh, playlist vídeos, duplicated, playlist vídeos,
+vídeo ID, porque os playlists vídeos agora tem
+
+
+toda a informação. Para já não tenho porque
+então eu tenho tenho daqui 199 e vejo que está
+
+
+correto. Vejo que está correto, tenho a playlist title,
+o vídeo ID, vídeo title, data de publicação
+
+
+e tenho aqui o thumbnail. Esta é uma coisa nova,
+acho que também não tinha no meu outro tutorial.
+
+
+Eh, mas como agora comecei a trabalhar com
+thumbnails personalizados nos meus vídeos de
+
+
+YouTube, ainda não não pus em todos, nem
+vou pôr em todos, mas eh tenho aqui a uma
+
+
+playlist ou outra onde comecei a a criar,
+a gerar thumbnail. Já vamos ver. E então eh
+
+
+precisei de os guardar aqui. Pronto, este
+foi uma coluna extra que eu pus aqui. OK.
+
+
+E, portanto, eu não quero ter, eu não quero
+que um dos meus vídeos esteja em mais do que
+
+
+uma playlist. Isso isto para isso para mim
+não faz sentido. E portanto eu isto aqui e
+
+
+está zero. Pronto, está correto. Eu não tenho
+não tenho duplicados aqui. Total views.
+
+
+Eh, dá-me 8263. Eu tenho aqui 8253. Eu suponho
+que porque eu suponho que o total que está na
+
+
+estatística do do YouTube não está não está
+sempre a ser atualizado ao minuto e, portanto,
+
+
+provavelmente é atualizado uma vez por dia ou algo
+assim. E portanto este é o grande total que eles
+
+
+têm como estatística do do meu canal e que não está
+sempre atualizado ao momento. E então e enquanto
+
+
+que o total dos views, pois é, já é ligeiramente
+superior. E agora vem a função nova que eu fiz.
+
+
+Pronto, é uma das funções aqui novas que eu
+fiz, que é o plot thumbnails. Eu digo assim,
+
+
+eu quero ver agora é que eu quero ver os
+thumbnails personalizados para um canal,
+
+
+para uma playlist, nomeadamente esta playlist
+aqui, eh, onde deixa diminuir aqui um bocadinho
+
+
+o tamanho da fonte, OK? Para se ver, para se ver
+tudo. E, portanto, eu passo-lhe um vetor que é
+
+
+um subset do playlist vídeos, where playlist
+title. and select apenas o vídeo thumbnail, OK?
+
+
+E isto um este é um subset de um data frame
+devolve um data frame, mas eu não quero data
+
+
+frame. Então eu ponho o drop True e como só tem
+uma coluna, como o data frame só tem uma coluna,
+
+
+é com o drop True é convertido para
+um vetor. Pronto, eu tenho plot thumbnails,
+
+
+o que eu quero é dar-lhe um vetor e depois, como
+eu sei mais ou menos quantos vídeos tenho aqui,
+
+
+eh, eu quero arranjar numa malha de 4 x
+4. OK? Pronto, esta parte aqui foi manual.
+
+
+daria para automatizar, fazer um algoritmozinho e
+ver como é que eu arrumo X vídeos, X thumbnails
+
+
+numa grelha retangular, mas pronto, não tive
+para fazer isto e para já ficou aqui manual.
+
+
+Pus 4 x 4 e pedi ajuda ao chat GPT e ao
+e ao Gemini para me dar esta função. Eh,
+
+
+pedi ajuda e e e ambos se espalharam ao comprido.
+Ambos se espalharam ao comprido porque vai haver
+
+
+aqui um pormenor que foi isto que eles não que a
+a inteligência artificial não pensou não pensou
+
+
+entre aspas, claro. E portanto não onde é que
+está isto? Aqui o plot thumbnails aqui. E portanto
+
+
+mais ou menos isto foi que a inteligência
+artificial deu. Mais ou menos. Só que tinha
+
+
+um bug. Tinha um bug realmente grosseiro que já
+vamos ver onde é e depois eu corrigi. Pronto. E
+
+
+por isso é que eu tenho. Mas reparem que é o bug.
+O bug. Isto eu quero quero que vocês prestem bem
+
+
+atenção. Este bug apareceu e foi notório por
+casualidade, dada a configuração que vamos
+
+
+ver agora dos vídeos que ele vai baixar.
+Se baixasse um outro conjunto de vídeos,
+
+
+o bug não teria disparado e as pessoas
+poderiam ter tomado o código como certo. OK?
+
+
+Não sei se me explico. Portanto, o bug estava
+presente e por acaso disparou e por acaso eu
+
+
+reparei. Senão eu não repararia no bug e poderia
+copiava, copiava a função. Ela tinha o bug e eu
+
+
+não dava pelo bug até ao dia, um dia mais tarde,
+quando o bug disparasse, porque o bug é subtil.
+
+
+Eu vou agora explicar qual era o bug que é
+simples de entender. Eh, apagar isto aqui.
+
+
+Ou melhor, eu posso-vos já explicar aqui o através
+aqui do playlist vídeos. Vou já explicar até aqui
+
+
+qual é o bug. Reparem aqui no vídeo  Deixa
+aumentar aqui um bocadinho a fonte. Tem piada que
+
+
+aqui não não me aumenta a fonte. Ok, reparem aqui.
+Estes, estes são os links para os thumbnails. Eh,
+
+
+são os links para os thumbnails. Eu vou
+vou pegar aqui num deles. Copy. OK. E 
+
+
+vamos ver vamos ver aqui o link, paste and go.
+Pronto. Este este é um do dos thumbnails.
+
+
+E este é um thumbnail de tamanho médio, porque
+o YouTube guarda vários, guarda o pequenino,
+
+
+o médio e o grande. E eu decidi, bom, eu só
+quero ver os quero ver os médios só. E reparem
+
+
+neste pormenor, o nome final de todos os links
+é o mesmo nome, medium quality default JPEG.
+
+
+Então, não sei se vocês já estão a ver qual
+vai ser o bug, porque se eu pegar numa lista
+
+
+destas com 10 URLs e disser: "Vai-me fazer o
+download destes 10 URLs, o algoritmo de do do
+
+
+da inteligência artificial pegou no nome final
+este aqui, e usou este nome final para gravar
+
+
+no meu file system aqui na máquina local. Ora, o
+que é que aconteceu? fez o override de todos,
+
+
+porque ele não supôs que os nomes pudessem
+ser todos iguais. O nome é todo igual,
+
+
+mas o que distingue os URLs não é o nome final,
+é um dos é uma da das paths, um dos qualificadores
+
+
+que está aqui nesta path intermédia. E aí e
+aí está o bug, porque ele não considerou isso.
+
+
+Ele imaginava que se eu disser assim, tenho aqui
+uma lista do URLs que que de uma lista de imagens.
+
+
+Ele imaginou, bom, então se é uma lista, pois
+há de ser diferente. E há de ser diferente em
+
+
+quê? No último qualificador, no nome da imagem.
+Pronto, errado. Cá está. Cá está. Qual ele aí se
+
+
+espalhou ao comprido. Portanto, eu volto a repetir
+aquilo que já disse noutros tutorials. É preciso
+
+
+ter muito cuidado com a inteligência artificial,
+sem prejuízo, que está espetacular, não há dúvida
+
+
+nenhuma. E eu tenho assistido e agora tenho estado
+dedicado bastante a essa área até implementando
+
+
+aqui modelos de inteligência artificial na
+máquina local com o LM studio e tudo. Eh, um
+
+
+dia destes vou fazer aí mais um tutorial aqui em
+linguagem R que invoca inteligências artificiais,
+
+
+modelos locais e modelos na cloud. Um dia deixou a
+fazer isso, já tenho mais praticamente preparado,
+
+
+uma coisa introdutória. Eh, mas é preciso ter
+muito cuidado, muito cuidado. Ah, porque se for
+
+
+uma coisa séria que estejamos a fazer, é preciso
+ter muito cuidado, porque pode passar um bug
+
+
+despercebido e este teria passado despercebido.
+Não fosse o caso destes últimos qualificadores,
+
+
+na verdade neste serem todos iguais. Se eles
+fossem diferentes, passava e o código passava.
+
+
+Mas no dia que aparecesse uma lista deste tipo,
+arrebentava e aquilo espalhava-se ao comprido. OK.
+
+
+Pronto, também isto também não é rocket de
+science, não é? Para usar aquela velha máxima.
+
+
+Paciência no dia em que rebentasse, rebentava.
+Olha, logo teríamos que corrigir. Mas é só para
+
+
+vocês perceberem e verem que é preciso o cuidado
+com a inteligência artificial. Nem 8 nem 80. Não
+
+
+vamos dizer, não vou dizer que ela não serve para
+nada. Claro que não. Eu uso-a constantemente,
+
+
+mas com muita cautela, muita cautela, porque sei
+que pode vir, pode vir um bug disfarçado. OK?
+
+
+Portanto, vamos então agora aqui vou chamar esta
+esta função que eu fiz. Já agora, mostrar-vos o
+
+
+que o bom o código vocês já estão a adivinhar como
+é. Ele recebe o vetor, ele trabalha com uma uma
+
+
+diretório temporário. Eh, agora faz um loop. Este
+loop até fui eu que fiz. Eu mais ou menos, pronto,
+
+
+porque eu depois eu tive a corrigir a função e
+ele vai fazer aqui o ele vai fazer aqui o download
+
+
+file, eh, passando uma file path. Pronto. E a file
+path eu tive que corrigir aqui o file, o file name.
+
+
+Eh, eu tive que corrigir e realmente pôr aqui
+um underscore, um um número de ordem 1 2 3 4 e
+
+
+pronto. E assim, desta forma é impossível que os
+nomes se repitam porque vai levar um sufixo sempre
+
+
+variável. E, portanto, aqui é à prova de fogo. OK.
+Eh, nós aqui ele apanha o base name. Eh, eu aqui
+
+
+parti o base name em nome e extensão, usando este o
+package Tools, usando estas funções. Por isso,
+
+
+isto é tudo com funções, não temos que andar aqui
+a fazer nada manualmente. Já existe funções para
+
+
+tudo. Eh, e depois simplesmente eu encaixei-lhe
+aqui este sufixo, o underscore. Voltei a fazer,
+
+
+voltei a montar a extensão e voltei a reconstituir
+o o caminho o caminho para o File System. E depois
+
+
+que eles estão são ficam todos downloadados, eu
+e aplico o package Magic. Vou ler as imagens. E
+
+
+agora faço um display. aplico aqui uma função que
+é o image montage. Faz uma montagem de imagens com
+
+
+estes determinados tamanhos, com num numa numa
+malha retangular de colunas e rows e pronto. Pronto,
+
+
+isto é basicamente, se quiserem para ver
+qual que é uma pormenor, investiguem vocês
+
+
+por vocês próprios a sintaxe e a documentação
+destes packages. Já vimos o Magic noutros noutros
+
+
+tutorials. É um package espetacular. Já vimos isto
+no outro tutorial que eu dediquei ao Mark Down.
+
+
+Eh, e portanto agora vamos fazer esta parte que
+isto aqui isto é bastante engraçado, porque aqui
+
+
+podemos ter um apanhado de de todos os thumbnails
+de uma dada playlist, OK? Portanto, eu vou aqui
+
+
+correr esta parte aqui. Aqui não estamos a ver no
+meu outro terminal, ele está a abrir as janelinhas
+
+
+dos dos downloads. Eh, e pronto, cá está, ele
+fez aqui os downloads e cá está, como o nome,
+
+
+o nome final é todo igual. E era aqui que havia
+o overwrite, porque o nome final é medium quality
+
+
+default JPEG. OK? E cá está. Aqui ele pôs aqui
+o a montagem. Eu vou abrir aqui no browser que
+
+
+vê se melhor. Eh, e pronto, estão a ver? Isto é
+bastante engraçado. Aqui tenho um apanhado, tenho
+
+
+um apanhado da minha playlist. Eu mandei fazer
+estas estes thumbnails, obviamente, com inteligência
+
+
+artificial. Vocês já estão a adivinhar. Eu em
+design sou um zero. Total, zero. Eu se não fosse
+
+
+inteligência artificial não não ia fazer uma coisa
+destas. Eh, nunca usei Photoshops, nunca usei
+
+
+nada disso, nunca tive jeito para para design.
+Sou o zero absoluto em design e em estética.
+
+
+Eh, e portanto, mas aqui mandei fazer, disse qual
+era o tema, o tópico. Estes primeiros foram feitos
+
+
+com o chatGPT até aqui e depois mudei para o
+Gemini. E tenho que dizer que de facto o Gemini
+
+
+é superior, não é? Estes aqui, estes que estão a
+verdinho tem um ar um bocadinho mais profissional.
+
+
+Estes tem um ar um bocadinho mais infantil. Parece
+um jogo, parece uma brincadeira. Estes têm um ar um
+
+
+bocadinho mais sério, tirando esta parte aqui do
+multiculturalismo que ele insistiu, que o Google
+
+
+insiste em em dar-nos aqui dar-nos levarmos uma
+mocada com o com o multiculturalismo, mas enfim,
+
+
+paciência. Pronto, e tirando, descartando esta
+parte, nem vou pronunciar-me muito mais sobre isso,
+
+
+não não vá o meu o meu vídeo ser banido
+ou proibido, mas pronto, temos que levar
+
+
+com isto. Faz parte, faz parte dos tempos
+modernos em que vivemos. Eh, mas de resto está,
+
+
+fiquei satisfeito aqui com a parte do Gemini, com
+acho o design. Está OK. Esta parte aqui do parte um,
+
+
+parte dois, estes amarelinhos, isto isto fiz eu.
+Pronto, esta parte tive esta parte fiz eu. Não,
+
+
+já não valia a pena estar a dar mais trabalho
+à inteligência artificial. E, portanto, ele,
+
+
+até porque se eu mandasse fazer um com a imagem,
+o número um e outro dois e três, o mais certo era
+
+
+depois modificar também o fundo às 2 por 3
+modificar e não ficava bem. E eu assim quis
+
+
+reaproveitar o mesmo fundo e pus aqui o 1 2 3.
+Agora o YouTube também tem aqui vai passar a ser
+
+
+esta é o segunda parte vai passar também aqui a
+primeira parte e a segunda parte. Pronto. Eh, OK.
+
+
+Ah, ou já agora, outra coisa que eu também fiz
+com a inteligência artificial foi o descritivo
+
+
+também espetacular, porque efetivamente eh eu já
+às vezes via que em certos vídeos do YouTube eu
+
+
+ia olhar ao descritivo. Deixa ver, deixa-me buscar
+aqui algum vídeo. Ah, deixa-me buscar aqui algum,
+
+
+algum vídeo para vos mostrar o
+que é que eu estou aqui a dizer.
+
+
+...
+
+
+...
+
+
+que eu também sei
+
+
+fazer isso no YouTube com capítulos agora um
+descritivo tão detalhado nunca tinha feito navida
+
+
+Eh, e vou-vos mostrar agora aqui o que é que eu te
+quero dizer. Estou só a posicionar-me aqui. Estou
+
+
+aqui no meu no meu canal, nas minhas playlists.
+Eh, vou entrar aqui. Pronto. E R. Pronto. Então,
+
+
+por exemplo, este aqui. Vamos aqui
+ao ao no descritivo aqui. Pronto,
+
+
+cá está. Este descritivo aqui também foi feito
+com a inteligência artificial. onde eu dei ao
+
+
+ao Google Gemini o YouTube e ele analisou, ele
+ele ele fez o play do YouTube em background,
+
+
+extraiu extraiu a a conversa, o diálogo todo e
+fez-me um resumo bastante OK, bastante porreiro.
+
+
+E como estão a ver aqui, dá dá um aspeto. Há
+aqui outros até onde ele fez o descritivo
+
+
+que até aparece aqui as miniaturas que às vezes
+se vê do vídeo e com os timings. Este este aqui
+
+
+não tem timings, não sei porquê. Ah, deixa ver
+aqui outro. Ver se aqui aqui outro com timings.
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+mas pronto, dá um ar muito mais profissional.
+
+
+Que eu pensava assim e pá grande
+
+
+trabalheira que estas pessoas têm fazem
+trabalho. Pô aqui o descritivo todo. 
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+vos expliquei, podem ver. Pronto, esta parte não
+não vou, já vos expliquei no meu tutorial número
+
+
+um dedicado ao YouTube, portanto vou passar isto
+um bocinho. OK. Number of playlist. Tá aqui. Ora,
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+( As minhas desculpas pelo áudio sobreposto )
+
+
+é o RStudio são os campos que nós tínhamos aqui
+no nos analíticos. analítics. Aqui no advanced
+
+
+mode é esta parte aqui, os métrics, as métricas
+que nós queremos. Cá está selecionar os views.
+
+
+Cá está lifetime, breakdown e matrix. OK.
+
+
+E, portanto, é o que aparece aqui, as dimensions
+aqui é é o é o é o ah as dimensions é esta parte
+
+
+aqui. É aqui este se queremos os dados por dia, à
+semana mensalmente ou por ano e eu e eu quero por
+
+
+dia. Pus pus por dia. Pronto, é esta parte aqui.
+Então temos as dimensions por dia, um start date.
+
+
+Este 2018 é uma data que eu já conhecia, já tomei
+nota que é a partir porque para trás não vale a
+
+
+pena, porque para trás eu não publicava vídeos
+e, portanto, não tinha não tinha views nenhumas,
+
+
+porque eu ainda não ainda não fazia upload
+de de vídeos, OK? Só que só comecei em 2018.
+
+
+o end date, porque é a data de hoje, o token,
+como vos disse que esta autenticação deste package
+
+
+trabalha de forma diferente. Ela devolve um token
+e o token tem que ser passado às diversas funções.
+
+
+Cá está ele. O token é um environment. Cá está
+ele aqui. Environment. Podemos dar uma vista de
+
+
+olhos lá dentro. Pronto, há de ter toda uma uma
+série de informações, há de ter aqui toda uma série
+
+
+de de de de de dados de autenticação. Não não
+vamos agora entrar nisto, não vale a pena. Eh,
+
+
+depois tenho um sort by day e o max results. Ele
+obriga a colocar um dado valor de max results,
+
+
+portanto ele não lê infinitamente. OK? Neste caso,
+eu sabia que da 10.000 chega e sobra. Pronto, vou
+
+
+buscar esta função, invocá-la. Cá está. Cá está.
+Ela deu-me 1530 observações, duas variáveis. Cá
+
+
+estão elas. Tem o day e o views. OK. Sim, senhor.
+Mas só tem os dias para os quais há visualizações.
+
+
+Por exemplo, imaginem aqui, por exemplo, no dia 1
+do este dia 1/11 teve 12 views e depois no dia 2 e
+
+
+3 não teve nada. Não, isso também não bate certo
+porque aqui aqui tem zeros. Mas sinceramente não
+
+
+sei. Agora é que eu estou a ver. Tem aqui alguns
+com zero, mas a verdade, bom, o total bate certo.
+
+
+Eu sei que isto está correto porque os totais
+batem certo, mas agora também fiquei na dúvida
+
+
+porque é que algumas datas não aparecem, sendo que
+algumas aparecem com zero. Mas quando vamos agora
+
+
+para a atualidade, pois é diferente. Agora todos
+os dias, agora as datas já estão todas seguidas
+
+
+porque o meu canal já está um boquinho maior e
+todos os dias existem sempre alguns views, OK?
+
+
+Cá está. Ora, agora vou fazer o mesmo que já tinha
+feito, que fazia antigamente. Vou fazer um aqui um
+
+
+acumulado. Eu não me interessa aqueles totais dia
+a dia. O que era é ir tendo um acumulado ao longo
+
+
+do tempo. OK. Um acumulado aparece agora aqui.
+cumulative views. está correto. É o acumulado
+
+
+1532. Tá correto? Eh, já não preciso deste
+deste deste parcelar aqui do views. Deito-o fora.
+
+
+Eh, converto para data e faço este
+novo campo de data. date aqui o dia.
+
+
+Eh, já não preciso aqui do dia. Também foi uma
+forma de fazer rename, porque eu quero que se
+
+
+chame date, porque eu já tinha o gráfico preparado
+para se chamar date. Por isso aqui optei por fazer
+
+
+aqui rename e já agora ordenar fica mais bonito.
+Primeiro é data e para cada data um total. Pronto,
+
+
+assim é que fica mais coerente e não não e não
+ao contrário como estava. OK. Eh, e agora temos,
+
+
+portanto, já tenho aqui este data frame aqui da
+da dos totais de views. E agora tenho os uploads.
+
+
+Isto é igual ao meu tutorial número um. Podem ir
+ver. Vou explicar isto. Já não preciso estar a
+
+
+voltar a a repetir-me aqui. E agora tenho aquele
+aquele plot plot famoso que também já tínhamos
+
+
+visto que faz com um duplo um duplo um duplo
+plot. Um duplo plot. Eh, portanto, com um
+
+
+com o eixo vertical à direita, o outro à esquerda.
+faço aqui os views. Eh, e, portanto, o X é data,
+
+
+cumulative views e o outro, o X aqui também é
+data e cumulative uploads. Portanto, os uploads
+
+
+aqui tem é o número de uploads, é um cumulativo
+uploads. Dar aqui uma vista de olhos desde que eu
+
+
+comecei a fazer uploads, desde 2018, o cumulativo
+e hoje em dia o meu canal já tem 199 vídeos.
+
+
+Eh, e portanto, eh, está aqui, eh, eh, foi no
+dia 19/03 que eu que eu que eu que eu fiz
+
+
+aqui mais uns uploads e pronto. Portanto,
+está tudo certo e podemos fazer o plot.
+
+
+OK, já tínhamos vistos isto
+também no outro tutorial
+
+
+e e pronto, penso que está tudo está tudo o que eu
+vos queria mostrar. Então, já agora, mostrar-vos
+
+
+também aqui uma coisa que acho que nunca vos
+mostrei, também é muito comum dos outros IDEs que
+
+
+é um um command palette, acho que até o shortcut
+é o mesmo que é o contrl shift p, o visual studio
+
+
+code também tem. Pronto, é útil às vezes quando
+estamos, por exemplo, eu aqui vim pesquisar se
+
+
+havia aqui alguma função relacionada com o case
+e não havia nada, não é? Agora já há porque eu
+
+
+instalei aqui o package do Case Converter, mas
+não, ele não tinha nada. E, portanto, é muito útil
+
+
+para isto, para sabermos se, em vez de estar aqui
+à procura nos menus todos, há uma forma, portanto,
+
+
+de virmos aqui pelo que este command palete do
+control shift p e acho que nunca vos tinha mostrado
+
+
+isto também. E, portanto, como vêem é um, como vem
+é um IDE espetacular, tem tudo aqui integrado.
+
+
+OK. E agora quando eu brevemente ver se faço o
+meu outro tutorial com a inteligência artificial,
+
+
+onde vamos meter uma vamos meter aqui
+um chat aqui também uma aplicaçãozinha,
+
+
+então podemos ter o nosso tipo chatGPT aqui
+integrado e vocês vão ver também é espetacular.
+
+
+Eh, e pronto, penso que já está tudo. Eh, já agora
+vou só mostrar-vos aqui um bocadinho aqui do das
+
+
+das funções todas que eu tenho aqui. Caso vocês
+queiram copiar alguma coisa, relembro que podem,
+
+
+vou pôr aqui um boquinho maior, relembro que podem
+copiar com um print screen. Eu já tenho feito isto
+
+
+às vezes. Portanto, penso que assim hoje em dia
+é mais fácil até com o com o sniping tool normal
+
+
+do Windows. Vocês vêm aqui e imaginando que
+querem copiar aqui um pedaço de código, eh,
+
+
+copiam aqui com o sniping to print screen e depois
+hoje em dia já traz o reconhecimento de de de de
+
+
+caracteres. o OCR, portanto ele faz na boa e fazem
+copy paste e rapidamente copiam tudo o que está
+
+
+aqui para para o o a vossa máquina local, se
+quiserem testar. Portanto, hoje em dia já não
+
+
+há tanta aquela preocupação de ter que partilhar
+o código e não sei se era, pronto, eh, sendo uma
+
+
+coisa assim pequenina como esta, eh, pode ser
+feito com meia dúvia de print screens. OK?
+
+
+Portanto, vou paginar aqui devagar
+para se algum de vocês quiser fazer
+
+
+usar essa técnica poder fazê-la. Há aqui
+as funções. Portanto, vou paginar. OK.
+
+
+Assim dá tempo. Oi. Deixa chegar
+aqui um bocadinho para a direita.
+
+
+Deixa ver se não perdi aqui nada. Acho
+que não. Get my get my playlists. Ok.
+
+
+Penso que assim fica. Se algum de vocês quiser
+copiar aqui alguma coisa, copiar aqui um
+
+
+bocadinho. OK. get my playlist vídeos.
+OK. Está aqui a função toda. Fica mais fácil.
+
+
+thumbnails foi a última função agora que
+eu fiz com a ajuda do do chat GPT.
+
+
+OK. E penso que está tudo. Penso que aqui
+também já terá dado, já terá dado tempo de,
+
+
+de verem o código todo se que, se quiserem copiar
+alguma coisa. Mas já agora, estes pacotes não são
+
+
+não são precisos. Estes packages, não são precisos
+todos. Também se se algum for preciso e que vocês
+
+
+não o tenham posto, ele vai-se queixar porque
+eu tenho a invocação explícita de todos eles. E,
+
+
+portanto, é fácil. Se houver falta de algum
+package e vocês tiverem a executar o código,
+
+
+rapidamente ele vai dizer erro, não, não, não
+tenho este package. E, portanto, e portanto isso
+
+
+também não tem problema. Rapidamente vocês
+solucionarão. Deixa paginar aqui também um
+
+
+bocadinho a ver se não escapou nada se vocês
+precisarem de fazer algum print screen. OK.
+
+
+Isto é bastante útil esta técnica do print
+screen, né? Não, não, não monosprezem essa técnica.
+
+
+Já no outro dia desenrascou-me bem bem porque
+eu sem querer apaguei um pedaço de código. E
+
+
+depois o que é que acontece? Eu eu uso o Megasync,
+também já vos falei disso, que guarda versões eh
+
+
+guarda versões eh na cloud, só que eu eh tinha o
+Megasync configurado para só guardava na última
+
+
+semana e a alteração que eu tinha perdido já era
+há mais de uma semana que eu não tinha dado por
+
+
+isso e eu consegui recuperar esse pedaço de código
+porque estava num dos meus tutorials do YouTube,
+
+
+ainda bem que os fiz. E, portanto, fui
+ao tutorial e consegui com esta técnica.
+
+
+Por isso, por isso é que vos digo, esta técnica
+funciona perfeitamente hoje em dia, um print
+
+
+screen do YouTube e consegui recuperar o código na
+boa, porque porque aparecia lá o código, tal como
+
+
+vos estou a mostrar agora neste momento, aparecia
+o código num dos meus tutorials e eu copiei e
+
+
+isso safou-me bem safado. Portanto, é outra das
+vantagens também de fazer aqui os tutorials. É uma
+
+
+segurança mais que temos para para o nosso código.
+Se acontecer qualquer coisa e eu perder o código,
+
+
+pois o código está lá no no vídeo do YouTube.
+É incrível. Hoje há tantas maneiras de fazer
+
+
+omeletes. É, é incrível, realmente, de facto,
+a tecnologia. Agora deixa-me lá paginar isto.
+
+
+plots
+
+
+Esta parte aqui.
+
+
+Esta parte agora aqui do plot
+
+
+também é bastante grande.
+
+
+E pronto, é a parte final. E pronto,
+espero que tenham gostado e mais nada,
+
+
+despeço-me e até uma próxima
+oportunidade. Obrigado.
+
+

@@ -1,0 +1,11 @@
+🖥️ R Programming - R Studio Addins
+1. Ferramenta de notas CherryTree e sincronização com MegaSync.
+2. Pacote minifunctions e funções utilitárias como imagegrid e SerpAPI.
+3. Ferramentas gerais recomendadas (Clipchamp, ComfyUI, GameMaker, Git/GitHub).
+4. Inteligência Artificial local com LM Studio e modelos como Qwen ou Nemotron.
+5. Integração de emojis em gráficos (Plotly vs GGPlot) e alinhamento de texto.
+6. Comparação entre IDEs RStudio e o novo Positron e suas diferenças.
+7. Implementação de addins no pacote minitools para o menu do RStudio.
+8. Funções de gestão de código como sort, align e ordenação alfabética.
+9. Configuração de addins via ficheiro addins.dcf e parâmetros de interatividade.
+10. Ferramentas de segurança e sincronização (LastPass, Proton Authenticator).

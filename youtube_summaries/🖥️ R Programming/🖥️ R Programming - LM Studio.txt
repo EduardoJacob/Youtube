@@ -1,0 +1,11 @@
+🖥️ R Programming - LM Studio
+1. Correção para acesso simultâneo a duas APIs do YouTube via HTTR.
+2. Utilização de extensões de navegador para gestão de prompts (Promptster).
+3. Integração com Google Gemini Flow e API via pacote minifunctions em R.
+4. Configuração e uso de modelos locais de IA através do LM Studio.
+5. A importância da adequação das prompts aos modelos generativos.
+6. Desenvolvimento de script em R para renomear e corrigir extensões de imagens.
+7. Criação de uma função em R para gerar prompts a partir de imagens (Image to Prompt).
+8. Integração dos prompts gerados com o ConfiUI para geração de imagens em massa.
+9. Metodologia pessoal para criação automática de descrições e pôsteres de vídeos do YouTube.
+10. Visão geral da integração entre R, APIs na nuvem e modelos locais de IA.

@@ -1,0 +1,11 @@
+🖥️ R Programming - Eurostat - Part 2
+1. Introdução à segunda parte do tutorial de programação em R com Eurostat.
+2. Complexidade da análise de produção elétrica versus métricas simples.
+3. Desafios na pesquisa no catálogo Eurostat e sensibilidade a maiúsculas.
+4. Uso do ChatGPT para identificar o dataset correto de energia nuclear.
+5. Carregamento e limpeza dos dados do catálogo total (NRG IND).
+6. Filtragem de variáveis por unidades (GWh) e tipos de produção (Total/Nuclear).
+7. Análise exploratória de valores únicos ordenados nos campos do dataset.
+8. Visualização da produção nuclear na Europa através de gráficos de linha.
+9. Reflexões sobre políticas energéticas e autonomia dos países europeus.
+10. Teste das Inteligências Artificiais (ChatGPT e Gemini) na geração de código R.

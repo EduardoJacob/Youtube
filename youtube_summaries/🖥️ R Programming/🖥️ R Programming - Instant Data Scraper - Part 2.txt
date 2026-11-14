@@ -1,0 +1,11 @@
+🖥️ R Programming - Instant Data Scraper - Part 2
+1. Segurança digital: gestão de senhas com LastPass e autenticação de dois fatores com Proton Authenticator.
+2. Captura de dados utilizando o Instant Data Scraper na linguagem R.
+3. Manipulação básica de data frames: adicionar colunas, subsetting e renomear variáveis.
+4. Ordenação e limpeza de registos em ficheiros de dados.
+5. Visualização interativa de gráficos com o pacote plotly.
+6. Fatorização de variáveis categóricas para análise de dados.
+7. Acumulação de dados históricos em ficheiros CSV massivos.
+8. Limpeza avançada: remoção de duplicados e espaços em branco nas colunas.
+9. Imputação de valores ausentes (dates) no conjunto de dados.
+10. Interpolação de valores numéricos para preencher registos com plays perdidos.

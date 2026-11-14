@@ -1,0 +1,1352 @@
+
+Ora, sejam bem-vindos a mais um tutorial,
+programação em R com RStudio. Hoje vamos
+
+
+dedicar este tutorial ao Steam, explorar
+dados, extrair dados da plataforma Steam.
+
+
+Ora, vamos aqui. OK. Eu
+
+
+recomendo que vejam os meus tutorials anteriores
+da minha playlist de programação em R, porque há
+
+
+alguns temas que que eu já expliquei
+que isto tem uma certa continuidade,
+
+
+OK? para não estar sempre a repetir-me.
+Também é recomendável que vejam isto num
+
+
+monitor. Vejam o tutorial no monitor,
+de preferência com com 4K de resolução,
+
+
+a mesma resolução com que eu gravei aqui,
+com que estou a gravar. Eu estou a gravar
+
+
+com o a ferramenta, o Sniping Tool, a simples
+ferramenta do Windows, Sniping Tool. Ok.  
+
+
+vamos ver aqui como é que eu tenho aqui o
+appearance 125%. Ok, pronto. E portanto com
+
+
+essas condições, eu penso que terão as condições
+para para seguir o tutorial na da da melhor forma.
+
+
+Ora bem, nós vamos aqui, temos sempre esta
+primeira parte que eu já expliquei noutros
+
+
+tutorials, portanto, é algum código
+aqui feito por mim que corro sempre
+
+
+no início do dos meus scripts. OK. Ah, vou
+carregar aqui os carregar aqui os packages.
+
+
+OK. Onde ele carrega estes três data frames?
+
+
+OK. Ora, hoje então vamos ver, portanto,
+vamos explorar os os dados eh do Steam.
+
+
+Vamos usar aqui este package. Para já deixa-me
+dar aqui uma vista de olhos aqui no Portanto,
+
+
+quando nós vamos aqui aos packages, quando eu
+quero instalar algum package que eu não tenha,
+
+
+eu posso vir aqui pesquisá-lo. Ele vai pesquisar
+no CRAN o repositório oficial da linguagem R e eu
+
+
+e vai instalar por default aqui nesta nesta
+folder, OK? Folder por default. para instalar
+
+
+os packages que eu baixei. OK. Eu, se eu começar
+aqui a pesquisar, por exemplo, Steam, não há nada.
+
+
+Steam não há nada. OK? Portanto, à partida não
+há nada no cran, não há nada, mas há há package,
+
+
+só que não estão na no repositório oficial e
+elas elas estão no GitHub, OK? Eles estão no
+
+
+GitHub. Portanto, isso é muito comum às vezes ao
+pesquisar eh um package, às vezes não estamos só
+
+
+restritos à ao repositório oficial, OK? Há mais
+repositórios e e desde logo também no GitHub.
+
+
+Eu estou a abrir aqui o GitHub. Portanto, aqui
+tenho este é o é o é o package que nós vamos usar.
+
+
+Eh, OK. Temos que vemos que tem tá
+aqui o nome, o nome da livraria.
+
+
+Aqui deve ter havido aqui uma pequena falha do
+criador deste package, porque ele eh chamou o
+
+
+nome da livraria Steam com S pequeno. Eh, mas
+depois o nome do package vai ser o Steam com
+
+
+S grande. Portanto, há aqui uma uma uma ligeira
+discrepância, temos que ter cuidado com isso. Eh,
+
+
+e portanto, e como é que nós instalamos
+o package que está no GitHub? não é pelo
+
+
+processo normal. Ou seja, o processo normal,
+eh, processo normal que deve ser install,
+
+
+eu já não me recordo, é raro usar isto porque,
+bom, no processo normal também podemos ir por
+
+
+aqui. Quando sabemos um nome de um package, nós
+vimos por aqui, como eu mostrei aqui no install e
+
+
+podemos instalar aqui interativamente, mas também
+podemos instalar, portanto, programaticamente. Ah,
+
+
+eu vou vou relembrar, é que já não me recordo
+porque eu é raro porque eu instalo aqui desta
+
+
+outra maneira. Eu instalo com a minha livraria
+o XLibrary, que automaticamente verifica se
+
+
+um package se já está instalado, se já está
+instalado, ele simplesmente faz o load dele
+
+
+e se não está instalado, ele vai instalar o
+package, mas só consegue instalá-lo se ele
+
+
+efetivamente estiver no cran, no porque se ele
+estiver no repositório, se ele estiver num repositório
+
+
+aqui da do GitHub, pois não não por aqui não
+vamos lá e temos que usar aqui outro processo,
+
+
+mas vamos deixa-me ver aqui uma vista de hoje.
+Eu tenho aqui uma uma folder minha que é o config
+
+
+onde trato de configurações diversas e aqui tenho
+informações sobre os packages e portanto ora onde é
+
+
+que isto está? Install package. Ok. Portanto, auto
+install or remove package. Install package. Esta é
+
+
+a forma. Install package. Ok. Dar aqui uma vista
+de olhos aqui no no help. Ora, install package.
+
+
+Ah, é um é um OK. É uma Então isto não vem não
+vem no base, não faz parte do base do base R. Faz
+
+
+parte de um package, mas que é o package utils que que
+é um package que vem no base R. Eu já vou explicar
+
+
+isso um boquinho melhor daqui a pouco. Eh, OK. Eh,
+não vou estar agora e já estou a ver que isto é
+
+
+bastante complexo aqui. Portanto, onde OK, podemos
+indicar qual a livraria ou diretório onde queremos
+
+
+instalar o package. OK, pronto. Eh, portanto, nós
+instalamos e quando o package ele está no GitHub,
+
+
+temos que usar algum um algum package que é
+capaz de instalar packages a partir do GitHub.
+
+
+é a forma mais simples. Ou então teríamos que ir
+ao GitHub buscar o source ou compilar ou buscar o zip
+
+
+ou instalar de de outra forma. OK? Pronto. Mas a
+maneira mais que eu acho mais comum pois será usar
+
+
+um determinado package. Existe alguns packages
+que fazem isso, como o package o remotes. E há
+
+
+outro que é este aqui que é o pack. Eu agora
+não vou instalar porque eu já instalei. Eh,
+
+
+e eu mas eu tenho eu tenho aqui um outro. Ou seja,
+também temos que ter cuidado com isso, porque às
+
+
+vezes para um determinado tópico temos mais que um
+package. OK? Por exemplo, aqui, eh, se eu fui, eu
+
+
+tirei este print screen aqui do do GitHub, quando
+fui ao GitHub e fiz uma uma pesquisa por package e
+
+
+restringi eh pesquisei Steam R dentro da linguagem
+R e e portanto temos aqui vários packages,
+
+
+mas este com que vamos trabalhar é este aqui. Já
+é antigo, mas continua perfeitamente funcional.
+
+
+penso que não tem tido muita muita não tem tido
+muita manutenção, mas continua perfeitamente
+
+
+operacional e, portanto, este é o que vamos usar.
+Entretanto, também experimentei aqui um outro.
+
+
+Experimentei este, mas este é bem mais complexo.
+Tinha uma coisa engraçada, era a forma como ele
+
+
+fazia a autenticação. Este package que é o que
+aqui, que é o que é o que está aqui. Aqui penso
+
+
+que isto é capaz de estar com bug porque não não
+não cumpre aqui as as minúscas e maiúsculas.
+
+
+Devo-me ter enganado. Mas adiante. Mas eh este
+package ele tinha uma autenticação engraçada em
+
+
+que apresentava um QR code e o utilizador tem
+que ter conta no Steam abrindo a aplicação do
+
+
+Steam no telemóvel, vendo o QR code e, portanto,
+autenticava-se. Ou seja, não precisava de uma API key
+
+
+para usar este package. Isso foi um era um
+aspecto positivo, mas depois o package em si é
+
+
+muito complexo, é de muito baixo nível, ou seja,
+para obter a mesma informação que vamos obter
+
+
+agora era preciso estar a a executar uma série
+de funções. Não gostei deste package, acho que
+
+
+não não está bem trabalhado, não é user friendly,
+portanto fui usar este que é o é o mais antigo.
+
+
+Na verdade, eu já eu quando digo fui usar, eu já
+eu já fiz isto há uns anos. Eu agora simplesmente
+
+
+arrumei aqui um bocado a casa. Eh, e portanto, e
+vamos aqui ver este package que nós vamos usar.
+
+
+Eh, ele,
+
+
+onde é que tá aqui o help?
+
+
+help package.
+
+
+Pronto, é um package, como estamos a ver, tem
+poucas funções. Tem aqui uma dúzia de funções,
+
+
+tem aqui tópicos, alguns que vamos tratar aqui
+e outros que não, que eu vou saltar por cima.
+
+
+Tem, por exemplo, aqui Global Achievements que eu
+vou saltar por cima. global estatics
+
+
+game news, eh, achievements, os preços dos
+jogos, game price também vamos saltar por
+
+
+cima e vamos só dar uma vista de olhos aqui nos
+friends, game data, os games, a coleção de jogos
+
+
+de cada utilizador, recent games e o profile
+e o profile de um utilizador. Portanto, OK,
+
+
+vamos focar-nos aqui nalgumas das funções aqui
+do package. OK, temos aqui o package description.
+
+
+Eh, e aqui temos uma descrição
+deste deste package. OK. Aqui
+
+
+tem informações sobre o package. Eh, OK.
+E tem há aqui alguma coisa de especial,
+
+
+mas nada de especial. Tem o
+autor, informações sobre o autor.
+
+
+OK. Fiz uma alteração aqui numa livraria das
+minhas livrarias aqui que é o XLibrary. Eu fiz
+
+
+uma alteração agora recentemente, uma melhoria
+onde eu introduzi aqui mais uma coluna. Oi,
+
+
+não é este? É este aqui dos os dos packages.
+Pronto, este aqui. Eu já vos tinha mostrado
+
+
+isto noutro tutorial. Pronto, vocês não
+precisam disto para seguir o tutorial,
+
+
+OK? Porque isto é uma coisa que eu tenho
+disponível. Pronto, estou-vos a mostrar. Pode ser,
+
+
+quem sabe, futuramente poderei fazer um
+tutorial e mostrar-vos. este meu package
+
+
+e algumas das suas funções. Eh, eh, o campo, o
+novo campo que eu coloquei aqui é o location.
+
+
+e o location. Portanto, é é útil porque eu vejo
+os os packages que eu tenho carregados e aqui
+
+
+vejo aqueles packages que vêm com o a linguagem R
+de raiz, que são estes porque foram instalados na
+
+
+livraria do C: Windows Program Files e, portanto,
+são estes desde logo o base, que é o base package,
+
+
+que é o pronto, que é o básico, e estes outros,
+OK? datasets, métodos, estatistics e utils.
+
+
+E depois tem estes outros todos. e todos estes
+outros são packages que eu fui fui instalando e,
+
+
+portanto, avulso. OK? Alguns já têem um
+upgrade disponível, mas não não é urgente
+
+
+estar a a instalar agora os upgrades. OK? Pronto.
+E, portanto, tem tenho aqui toda esta informação.
+
+
+OK.
+
+
+Eh, agora vou carregar as
+funções que eu que eu fiz,
+
+
+ou seja, eu tenho um conjunto de funções
+eh cujas essas funções, por sua vez,
+
+
+vão vão vão chamar aqui as funções da API. OK?
+Eu vou carregar aqui as funções. Cá estão elas.
+
+
+Sim, senhora. Pronto. E agora temos, vamos
+explorar informação de alguns utilizadores
+
+
+do Steam, no qual precisamos do Steam
+ID. Portanto, o Steam ID é informação
+
+
+pública e também existem sites na internet que
+permitem eh obter o qual é o Steam ID de um
+
+
+determinado utilizador pelo nome do utilizador,
+mas seja como for é informação pública. Pronto,
+
+
+eu tenho aqui o meu próprio Steam ID, OK?
+O meu ID do utilizador e vou carregar aqui
+
+
+mais um ou dois de alguns amigos meus.
+Pode ser este aqui e este aqui. OK.
+
+
+Eh, pronto. Então, a primeira coisa que a primeira
+função que vamos aqui explorar é o é este aqui,
+
+
+o Steam profile. Eh, precisamos de uma API
+key. não há dúvida nenhuma, que para usar este
+
+
+package carece de uma API key que nós temos que
+ir à plataforma do Steam e obter uma API key.
+
+
+Pronto, esta parte não vos vou mostrar porque
+extravaza aqui o âmbito do curso. Isso poderão
+
+
+com facilidade encontrar e pesquisar. Pronto. E,
+portanto, precisarão de uma API key. No passado,
+
+
+num outro tutorial já vimos que, por exemplo,
+para para o YouTube e precisávamos de de de
+
+
+duas keys, que era o o user ID e user secret, OK?
+Precisávamos era um par, ele trabalhava com um par,
+
+
+um par de valores. Aqui não, aqui trabalha só
+com uma única variável, uma única API key. OK?
+
+
+Pronto, eu também não sou um expert em APIs,
+mas eh pronto, pelo menos já também ficam vocês
+
+
+com esta ideia que as APIs não são todas iguais e
+não não se autenticam todas da mesma maneira, não
+
+
+trabalham todas da mesma maneira. OK? Eh, vamos
+dar aqui uma vista de olhos então na primeira função
+
+
+que nós vamos chamar Steam Get user profile. OK?
+Estas são as funções que eu fiz e depois elas
+
+
+agora internamente, como vamos ver, elas então aí
+sim vão usar aqui as funções da API. OK? Portanto,
+
+
+eu faço uma camada, eu em vez de chamar aqui as
+funções diretamente, eu faço uma camada intermédia
+
+
+de funções, OK? para porque eu dou-lhe um valor
+acrescentado, digamos assim, dou-lhe um valor
+
+
+adicional para fazer para para fazer formatar isto
+ao meu gosto. Ora, Steam get user profile. Ora,
+
+
+vamos ver aqui onde é que isto está. Get user
+profile. OK. O que é que nós temos aqui? Temos
+
+
+então o Steam API key. Já vos fiquei noutro tutorial
+onde é que isto está. tá no environment que é
+
+
+carregado no membro que é o que é o R environment.
+OK? E pronto. E agora chama aqui o Steam Profile.
+
+
+E vamos aqui ver o help do Steam Profile que eu
+tenho aqui. O Help é curto e diz o que é que entra,
+
+
+mas não diz o que é que devolve. Pronto,
+a documentação está é bastante limitada,
+
+
+mas garanto-vos que é um é um package poderoso,
+como já vamos ver a seguir, que é que ele entra
+
+
+aqui, entra o API key e entra o ID do utilizador
+que nós queremos sacar a informação sobre o seu
+
+
+profile. OK? Pronto. O que é que ela vai devolver?
+vai devolver um data frame. Devolve um data frame.
+
+
+E um desses campos que é o devolve é o o Avatar
+Full, que vai ser a imagem do utilizador,
+
+
+o qual eu vou agora obter, vou vou fazer
+o download à internet, eh, e vou obter
+
+
+onde é que isso está? Aqui uso aqui um um
+outro package que é o imageR e vou fazer
+
+
+aqui um load image profile avatar que isto
+é um URL e portanto eu faço um download. OK?
+
+
+Pronto, não posso estar agora a explicar agora
+cada package à medida que ele vai eh aparecendo,
+
+
+porque isso extravazava então aqui o âmbito
+aqui do tutorial e como eu já vos disse noutros
+
+
+tutoriales, portanto eu pretendo que estes meus
+tutorials sejam de nível médio avançado. Portanto,
+
+
+não é para estar a explicar aqui o Baba requer
+que as pessoas tenham já o algum know how e depois
+
+
+saibam explorar as coisas por si. OK. Aqui estou
+a converter umas datas que vêm em formato binário
+
+
+Unix e estou a convertê-las para este este padrão
+aqui. OK? E depois o que é que ele dá? Ele dá uma
+
+
+ele dá um profile no formato data frame com um
+só row, um só row, uma só linha que depois não é
+
+
+prático para visualizar porque é uma linha
+muito comprida com muitas muitos campos.
+
+
+Então, o que eu faço é vou fazer o transpose. O
+transpose. Portanto, toda a gente que já estudou
+
+
+matemática e matrizes, já ouviu falar do transpose
+das matrizes. Pronto, se não ouviram falar,
+
+
+investiguem, eh, o que é que faz, não é? Eh,
+e portanto, pronto, basicamente aqui é isto,
+
+
+é o que nós vamos correr agora. Eu passo aqui
+o meu ID, eu vou obter o Eduardo profile. OK,
+
+
+cá está ele. Tá. Pronto. E aqui aqui fez aqui
+um display da do meu do meu profile, do meu
+
+
+avatar. Tenho o meu nome real, o o persona name e
+o meu ID, o Steam ID. E devolveu aqui um profile.
+
+
+Podemos visualizá-lo. Posso posso clicar aqui
+ou posso executar aqui o comando view profile.
+
+
+Onde é que isto está?
+
+
+Este aqui. Pronto, cá está. Está aqui o meu profile.
+Tem aqui e 19 19 valores, 19 variáveis. Tem a data
+
+
+aqui que eu me juntei ao Steam, o país. OK.
+Tem aqui alguns campos. O avatar. Cá está
+
+
+o URL do Avatar que eu fui buscá-lo. Cá está
+o Avatar Full Persona name, etc. Sim, senhor.
+
+
+E também lá tinha um campo que
+é o Primary Clan ID. Portanto,
+
+
+o o Primary Clan é um acho que é é o grupo
+principal a que que podemos estar conectados,
+
+
+que é o que está aqui. Eh, e portanto
+Primary Clan ID, já agora vou vou visualizar,
+
+
+tá? Aqui, pego no URL. Há bocado fiz
+um copy paste do URL para para variar,
+
+
+mas também podemos fazer aqui diretamente
+executar o código e fazer um browse do URL. OK,
+
+
+está a abrir aqui no browser. Pronto, cá está ele.
+Então este é o meu o meu grupo default que é o
+
+
+Black Mesa. OK. Pronto, dá-nos aqui, digamos
+que é o nosso clã, que é o que ele chama o clã.
+
+
+Agora vou fazer o mesmo para um amigo meu,
+desde que ele tenha essa informação pública.
+
+
+OK? Portanto, o profile do do meu amigo e
+ou porque esteja no meu grupo de amigos.
+
+
+Eu agora já não lembro bem como é que isso é
+gerido, mas pronto. Mas reparem, por exemplo,
+
+
+que o nome real não aparece aqui, está
+privado. E reparem que o profile do
+
+
+meu amigo aqui, ele tem menos variáveis
+porque tem algumas variáveis privadas.
+
+
+Eh, ele tem
+
+
+aí
+
+
+tem menos variáveis 15 variáveis, OK?
+15 variáveis, enquanto que o meu tinha 19,
+
+
+portanto, ou seja, há um conjunto de variáveis que
+são privadas e ele aqui não conseguiu obter. OK?
+
+
+Qual é o clã do meu amigo? Já agora, por
+curiosidade, é um clã privado que acho que
+
+
+foi ele mesmo que fez, que é um um clã para
+os amigos dele para jogarem o civilization.
+
+
+Pronto, aqui é que acaba a parte do Profile.
+O Profile é isto, OK? Os dados fundamentais
+
+
+sobre o utilizador. Vamos agora avançar para
+outra área. Recent Games também se vai basear
+
+
+aqui na função que estava aqui, a função da
+API, que ele tem uma função recent games. OK?
+
+
+Vamos ver aqui a função depois
+mais elaborada que eu criei.
+
+
+Ora, recent games, onde é que isso está?
+
+
+Está aqui. Ora bem, recent games, uma
+função pequenina. O que é que faz?
+
+
+Cá está. Syntax vai voltar a precisar da API key
+
+
+e chama aqui recent games
+
+
+e depois faz um loop porque vai vir
+uma coleção de API IDs, ou seja,
+
+
+game ids. E faço um display do game. Chamo aqui
+uma outra função que eu fiz, o display do game.
+
+
+Ora, o display do game está aqui em baixo,
+é onde eu vou buscar o poster à internet.
+
+
+Portanto, isto na altura fui eu. Eu andei
+a pesquisar na altura onde é que isto
+
+
+estaria. OK. Eh, ou não? Ou não, não, não andei
+a pesquisar porque neste caso veio, acho que vem,
+
+
+deixa lá ver que já. Ah, ok. Estou estou a a
+chamar aqui. ora ele vem o game ID. Ok, estou
+
+
+a chamar aqui uma outra função que dá-me o game
+data. E aí sim vem o URL. Ok. Ok.  game data.
+
+
+OK? E depois tem aqui uma parte de código que faz
+o download. Pronto, não vou explicar isto agora ao
+
+
+pormenor que se vocês quiserem investiguem. Mais
+uma vez, chama aqui um outro um outro package
+
+
+que é o JPEG. Isto vai fazer um download bruto
+byte a byte. Eh, e depois depois eu gravo aqui no disco
+
+
+e portanto ele fica fica gravado no disco, fica
+convertido em JPEG. E depois faço aqui o display.
+
+
+OK. Bom, isto mais ou menos. Ora, vamos
+ver aqui quais são os meus recent games.
+
+
+Eh,
+
+
+recent games. Tenho um só, um só recent
+game. OK. Um só recent game. Nos últimos
+
+
+tempos só tenho aqui jogado display recent
+display steam display recent game. OK.
+
+
+Já não me lembrava em que formato é que isto é que
+
+
+isto aparecia. Vamos ver. Pensava que
+pensava que ia aparecer aqui um pie,
+
+
+um pie chart. Devo estar a fazer confusão.
+Vamos ver aqui para um amigo meu.
+
+
+Ah, ok. É, não é slideshow. Ok. Está correto. Pronto,
+este é os recent games do meu amigo Civilization.
+
+
+Nos últimos tempos só tem jogado estes dois
+jogos e o Old World. E vamos ver outro caso
+
+
+em que eu não tenho autorização para ver
+
+
+os recent games. Ele deve ter a
+informação privada e, portanto,
+
+
+no recent Games found for Steam ID. Estava
+à espera de aparecer aqui um ecrã em branco.
+
+
+Não me está a aparecer, mas ok. Não consigo,
+não consigo ver. Deixa-me ver se eu consigo
+
+
+ver o profile. Também já não me recordo
+se tenho autorização para ver o profile.
+
+
+Vamos ver.
+
+
+Ora, Sérgio Rodrigues Profile. Tenho, olha,
+por acaso tenho. Tem piada. Até tem mais uma
+
+
+variável do do que eu. O que é que será?
+Profile tal tal tal tal. Persona state
+
+
+game extra info Nocturnal
+Quest Anide ou RPG Adventure,
+
+
+não sei o que é que é isto. OK. Tem
+aqui algum campo a mais do que eu. Ok.
+
+
+Sim senhor, mas os recent games não consegui
+ver. Esta é a imagem dele, o avatar.
+
+
+O recent games real, efetivamente
+não consegui ver. Ok,
+
+
+vamos passar a outra área. Vamos passar
+aos friends. OK. Steam get friends.
+
+
+Steam get friends. Ok, cá está. Chamei esta API.
+
+
+E agora vou eu que vou fazer o que está aqui ou
+eu vou-me adicionar a mim próprio, aos amigos,
+
+
+que é para depois poder fazer algum gráfico,
+alguma exploração de dados e comparar os meus
+
+
+amigos comigo próprio. Pronto, que é que eu
+estou aqui a fazer é RBind e eu vou vou-me
+
+
+adicionar a mim próprio, OK? E agora vou
+obter algumas informações adicionais porque
+
+
+porque eu quis também serve como demo para
+vocês verem. Ou seja, vou dizer assim: "OK,
+
+
+os amigos vinha uma informação muito limitada e
+eu quero obter qual é o o nome do do amigo aqui,
+
+
+o persona name. Vou buscar ao profile de cada
+um dos meus amigos. E quantos jogos têm os meus
+
+
+amigos? Vou aqui eh vou buscar aqui o Steam Get
+user Games, que já vamos ver daqui a bocado, e
+
+
+depois vejo quantos jogos tem. Ou seja, pronto, cá
+está. Eu faço uma função, o fundamental é chamar a
+
+
+API, mas depois posso lhe juntar outras coisas ou
+ou ir buscar também mais umas outras APIs daqui do
+
+
+package e, portanto, eh cozinhar aqui uma solução
+mais ao meu gosto. OK? Pronto, então vamos ver o
+
+
+que é que isto vai dar. Vamos mostrar aqui os os
+meus friends. OK. Ele está a processar aqui um a um,
+
+
+que eu pus este display porque ele está um a um,
+ele está a ir buscar o detalhe. OK. E aqui construi
+
+
+um data frame. Pronto. Diz aqui cá está os friends
+e o host que sou eu próprio, o número de jogos,
+
+
+o persona name. OK. E agora vamos aqui ver
+os meus amigos, já agora, eh os seus avatares.
+
+
+OK, cá estão eles aqui, tipo slide show. OK.
+
+
+E agora vamos, vou ordenar por ordem crescente de
+de jogos e tenho que transformar em factor. Não
+
+
+vou estar aqui a explicar agora o que é o factor.
+Até acho que já falei disto noutro tutorial.
+
+
+Eh, porque porque o gráfico a seguir, para
+respeitar a ordem, se eu não pusesse o factor, ele
+
+
+ele assumia que o gráfico seria no eixo dos X persona name
+e ele assumiria que que pôr por ordem alfabética.
+
+
+e eu não quero. Portanto, então tenho que
+transformar em factor para que ele respeite
+
+
+a a ordem em que está em que que as variáveis
+se apresentam. OK? Digamos assim. E agora vou
+
+
+fazer um gráfico simples, um gráfico de barras.
+Neste caso, vou usar o plotly, que também já vimos
+
+
+noutros tutorials, uma ferramenta de de gráficos
+bem poderosa que faz gráficos interativos.
+
+
+OK. E cá temos nós. Aqui tem um gráfico de barras.
+Pronto, isto é, pronto, isto é o objetivo. É só
+
+
+para tutorial, para vocês ficarem com uma ideia,
+não é? Isto não não têm que estar à procura de
+
+
+qual é o significado disto ou se isto ou se isto é
+significativo ou se não é ou relevante ou não. OK?
+
+
+E tudo o que eu estou aqui mostrar é como exemplo
+exemplificativo de coisas que vocês possam fazer
+
+
+e que vocês vos dê inspiração, OK? para para
+explorações que vocês queiram fazer. Pronto,
+
+
+aqui está o meu número de jogos comparado com
+alguns dos dos meus amigos. OK. Sim, senhora.
+
+
+Agora vamos passar aqui à parte principal que é os
+jogos propriamente dito, ver a coleção dos jogos.
+
+
+Ora, vou pôr esta parte aqui para
+depois aqui. Deixa-me tirar isto aqui.
+
+
+OK. Ora bem, primeiro tenho aqui uma
+função que é o display top games,
+
+
+que é mostra os jogos, os os meus
+jogos mais jogados de todos os tempos.
+
+
+Ora display top games. esá aqui, está
+aqui. Para isso eu vou obter os games,
+
+
+que ainda não mostrei a função, mas já vamos
+ver. Depois tenho aqui uma ordenação por um
+
+
+dos campos que que ele devolve no data frame,
+que é o playtime forever. OK? Playtime Forever.
+
+
+E, portanto, obtem os 10 mais
+jogados. Tenho aqui um slice.
+
+
+OK. Estou a construir aqui um conjunto
+de cores, uma palete de cores. Eh,
+
+
+e pronto. E depois faço um
+gráfico um pie chart. OK.
+
+
+Então, vamos já ver os meus jogos
+mais jogados todos os tempos. Ok,
+
+
+cá estão eles. Infinifactory,
+Northgard, Far Cry Primal, etc,
+
+
+etc. OK. Posso ir ver dos meus
+amigos. Deixa ver aqui, por exemplo.
+
+
+Este meu amigo é viciado na no
+Civilization. Jogos mais jogados
+
+
+de todos os tempos do Civilization, o
+5, o 6 o 7. Pro Evolution Soccer, etc,
+
+
+etc, etc. OK. E assim vai. Deixa ver aqui se isto
+esta informação aqui está pública. Eu acho que não.
+
+
+OK. Esta informação aqui também está privada.
+Não consigo ver. E agora vamos ver os os
+
+
+recentes os jogos que que eu joguei
+nas últimas duas semanas. Já agora,
+
+
+vamos ver aqui a função. Há
+de ser parecida com a outra.
+
+
+Cá está ela. Eh, vou buscar os jogos todos e
+depois há lá um campo que é o playtime two weeks.
+
+
+Portanto, já já lá vem um campo. Portanto, por
+isso é que eu vos elogiei este package, porque
+
+
+ele já traz muita informação, muita informação de
+de alto nível. Portanto, é um package que não é
+
+
+de baixo nível, já traz muita informação adicional
+que está pronta a usar. OK? Ele chama a função e ele
+
+
+já me dá já me dá muita informação. Neste caso,
+já me dá o playtime das últimas duas semanas. OK,
+
+
+o resto é similar. Vamos ver o que é que eu
+tenho andado a jogar nas últimas duas semanas.
+
+
+Um só jogo. Portanto, nas últimas duas
+semanas só houve um jogo que eu joguei,
+
+
+que é o Infinifactory. Já agora,
+recomendo-vos. Eu tenho uma playlist
+
+
+no meu canal do YouTube dedicada ao Infinifactory. Para quem gosta de jogos de puzzle,
+
+
+não deixem de jogar este jogo. Isto é
+um jogo completamente extraordinário.
+
+
+Infinifactory. Ah, quem gosta de
+puzzles não pode deixar de jogar.
+
+
+Vamos ver aqui o meu amigo que
+é que ele tem andado a jogar.
+
+
+dois jogos nas últimas semanas, OK?
+Civilization e o Old World. Ora bem,
+
+
+agora vamos fazer uma exploração
+mais completa de todos os jogos. Ora,
+
+
+Steam Get user Games. Vamos
+ver que é que temos aqui.
+
+
+É uma funçãozinha pequenina. Cá está
+ela. Ela chama, chama a API aqui dos games,
+
+
+mas traz alguns duplicados. Não cheguei
+a perceber bem porquê. E, portanto,
+
+
+eu simplesmente aqui removo os duplicados e nada
+mais. Aqui não faço mais nenhum tratamento. OK,
+
+
+vou obter aqui os meus jogos, OK? E ele diz
+que tenho eh 181 jogos. Tem aqui uma série
+
+
+de variáveis. Há aqui muitas variáveis
+de lixo que eu não não preciso delas
+
+
+para nada, mas mas pronto, isto é o que
+o dataframe devolveu deixa estar. OK.
+
+
+Ora, e agora o que é que eu vou
+fazer? Eu disse assim: "Bom,
+
+
+eu quero informação adicional, eu quero
+obter mais informação que não está aqui,
+
+
+como que são os campos que estão aqui. Eu
+quero, por exemplo, obter o metacritic score,
+
+
+release date. Quero obter o póster, OK? e um
+link para a página do Steam que da da
+
+
+loja do Steam do jogo. OK? Eu quero obter
+aqui uns quantos campos mais. Para isso,
+
+
+criei aqui este esta função que é o Steam Process
+Games. OK? Portanto, Steam Process Games, eu vou
+
+
+vou executar.
+
+
+OK.
+
+
+Ah, mas ainda não mostrei a função Steam
+Process Games. Só para vocês terem uma ideia
+
+
+do que é que isto faz. Portanto, Steam Process
+games está aqui. Portanto, o que é que ele tem?
+
+
+Tenho aqui as colunas que que eu que
+eu quero adicionar, o Metacritic Score,
+
+
+a data de lançamento do jogo, image file, eh o
+image, portanto, será o o poster para
+
+
+ele ir buscar, enquanto o image file será um,
+portanto um nome de um de um file name para eu
+
+
+gravar no meu disco rígido, OK? Que eu que eu
+vou gerar e tenho aqui um link para o store,
+
+
+OK? E portanto aqui faço um faço um loop.
+Eu porque eu eu passo-lhe aqui o parâmetro,
+
+
+o data frame dos games. Eu faço faço um
+loop para cada jogo. Eu tenho o Game ID. Eh,
+
+
+eu vou buscar o Steam Get Image File,
+que já vimos isto, já vimos esta função.
+
+
+Game Store. Eu vou obter o link
+para o store, que é simples,
+
+
+é simplesmente uma composição aqui
+deste deste URL com o game ID.
+
+
+Eh, e depois vou buscar também o game data para
+obter mais informação adicional, como seja,
+
+
+por exemplo, o Metacritic Score, que vem lá.
+Pronto, neste caso já vem aqui tudo. Não,
+
+
+não preciso. Senão imaginem que eu precisaria
+de ter uma API para o site do Metacrític, não
+
+
+é? Nem sei se o Metacrític disponibiliza uma API,
+não é? Quando há esta estas questões, temos temos
+
+
+que investigar, não é? Temos várias plataformas. O
+Metacrític é muito famoso, como como seja o game,
+
+
+Spot, como é que se chama o game spot? Não
+me lembro agora como é que se chama, portanto
+
+
+há várias plataformas de gaming. Eh, e portanto é
+uma questão de de averiguar se e ou se quisermos
+
+
+aceder aos dados se tem uma API ou se não tiver
+API, podemos ir de outra maneira. Podemos ir com
+
+
+webscraping. Já vos mostrei aqui, já vos falei
+aqui num tutorial sobre o webscraping. OK. OK.
+
+
+Portanto, há várias abordagens possíveis, OK?
+O ideal é haver uma API sempre. O API é sempre
+
+
+o webscraping é sempre falível porque porque
+quando uma página sofre alterações pode nos
+
+
+obrigar a termos que reprogramar eh o nosso código
+de webscraping, porque se o webscraping aponta para
+
+
+determinados campos da página, OK? Eh, do HTML,
+os nomes de divisions, nomes nomes de
+
+
+tags, etc, etc. E enquanto que a API não, a API
+pois será sempre mais robusta e a API é sempre
+
+
+a forma mais robusta para obter informação de uma
+plataforma. OK? Eh, portanto, eu aqui vou ao game
+
+
+data e o game data vai-me dar aqui o Metacritic
+Score, OK? vai-me dar o release date. O release
+
+
+date pode vir em vários formatos e depois eu eu
+só estou interessado em obter o ano. Eu só estou
+
+
+interessado em obter de de em que ano foi avançado
+o jogo. Eu tenho aqui uma regular expression,
+
+
+OK? Não vou estar a explicar isto. Quem quiser
+investiguem. Pessoas que trabalhem em programação
+
+
+já sabem o que é regular expressions. OK? Eu não
+sei fazer isto de cor. eu fui ao ao chat GPT e
+
+
+pedi-lhe para me dar a regular expression. Isto é
+intragável. Regular expressions é intragável para
+
+
+mim, mas pronto, mas mas é bastante poderoso em
+certas situações. E portanto eu aqui eh obtenho
+
+
+aqui o ano eh e obtenho o header image, que é o
+póster, OK? E portanto e faço aqui um display. OK?
+
+
+Então vamos fazer isso aqui. Eu
+vou obter aqui o process games.
+
+
+Cá está. Ele está aqui a obter. Eu aqui
+estou a listar o ano porque houve uma
+
+
+altura que eu tinha um bug, porque
+eu ainda não tinha aquele regular
+
+
+expression e havia alguns anos que vinham
+mal formatados. E eu quando estava a fazia
+
+
+o debugging e depois eu pus o regular
+expression e pus o display aqui do ano
+
+
+e portanto pus esse display aqui. Ele está
+a obter toda essa informação adicional.
+
+
+OK? E, portanto, ele vai-me devolver aqui os
+games com mais variáveis. Eu vou fazer agora,
+
+
+vou terminar aqui esta primeira parte
+do tutorial nesta neste momento. Eh,
+
+
+e continuarei depois a segunda parte. a segunda
+parte terá o resto da informação. Não percam a
+
+
+segunda parte porque efetivamente vai
+tratar alguns tópicos interessantes,
+
+
+vai mostrar-vos aqui alguns gráficos complexos,
+vai mostrar aqui o que é que é o jitering.
+
+
+Eh, vamos ter aqui uns gráficos muito
+interessantes, não deixem de ver.
+
+
+E despeço-me e até à parte dois, a
+segunda parte deste tutorial. Obrigado.
+
+

@@ -1,0 +1,11 @@
+🖥️ R Programming - Steam - Part 1
+1. Introdução e configuração do ambiente de trabalho em R.
+2. Instalação de pacotes e acesso a repositórios como o GitHub.
+3. Autenticação na Steam através da obtenção de uma API Key.
+4. Extração de dados de perfil de utilizadores e avatares.
+5. Análise de jogos recentes e download de imagens dos títulos.
+6. Investigação da lista de amigos e contagem de jogos por amigo.
+7. Visualização dos jogos mais jogados (Top Games) com gráficos.
+8. Obtenção da coleção completa de jogos do utilizador.
+9. Enriquecimento dos dados dos jogos com informações adicionais.
+10. Comparação entre o uso de APIs e web scraping para obtenção de dados.

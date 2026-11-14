@@ -1,0 +1,2709 @@
+
+Ora, sejam bem-vindos a mais um tutorial,
+programação em R com RStudio. Ora,
+
+
+a ver se não me esquece os
+diversos temas que hoje quero vos falar,
+
+
+mas o tema especial que nos vamos
+dedicar hoje é ao R Markdown.
+
+
+Ora bem, uma das coisas que vos queria falar que
+me escapou das últimas vezes foi a forma fácil de,
+
+
+por exemplo, aumentar aqui a fonte, como
+eu estou agora a fazer, com o control mouse
+
+
+wheel ou e também funciona com com o control
+teclado control mais ou control menos. Eh,
+
+
+isso era uma opção que estava aqui nas options e
+eu não me lembrava dela e então eu vinha aqui aos
+
+
+options e tinha que estar a aumentar manualmente a
+fonte. OK? Pronto, assim é muito mais fácil, como
+
+
+estão a ver, eu posso aqui aumentar. Ora bem, eh
+quero-vos também falar da da parte da integração
+
+
+com a inteligência artificial, que que é o tema da
+moda e que já vem também aqui integrado desde há
+
+
+um tempo quando nós vamos aqui ao Global Options.
+Portanto, integrado no IDE o GitHub Copilot, OK?
+
+
+Portanto, o Gitup Copilot, nós temos que ter aqui
+uma conta eh com uma subscrição GitHub Copilot
+
+
+Pessoal e é free. Penso que terá um limite, uma
+cota de utilização. Eh, tenho ideia que tenha
+
+
+que que que vá ter esse limite. E eu já tinha
+isto ativado nos outros tutorials que eu fiz,
+
+
+só que eu tinha o Copilot suggestions, tinha tinha
+aqui manual e, portanto, eu já não me lembrava
+
+
+disto e e nunca estava a usar. Agora voltei
+a pôr automático, que é para não me esquecer
+
+
+que ele está aqui presente. OK. À parte disto,
+existe muitas outras integrações possíveis de
+
+
+inteligência artificial aqui dentro do R, do RStudio, com pacotes diversos. Eu até estou tenho
+
+
+estado a trabalhar agora nessa área a integrar
+com os nossos modelos locais de inteligência
+
+
+artificial que foram instalados a partir do ollama
+ou do LM Studio. Eh, mas isso será tema para para
+
+
+outro tutorial eventualmente. Hoje vamos nos focar
+eh no R Markdown. Eh, mas não queria deixar de vos
+
+
+falar neste também nesta neste tema aqui da da
+integração com o copilot, que isso é importante
+
+
+porque eu tenho não me tenho cansado de elogiar o
+RStudio e, portanto, é para que vejam que também
+
+
+tem também tem aqui esta componente similar ao
+que, por exemplo, o Visual Studio Code também já
+
+
+tem, penso que é integração, acho que também
+é com o GitHub Copilot, acho que é com o mesmo.
+
+
+OK. Está aqui um exemplo de um aqui de um de um de
+um scriptzinho onde eu vou vou demonstrar aqui a
+
+
+integração com o copilot. Eh, entretanto, quero-vos
+dizer também que já fiz aqui o upgrade para o
+
+
+R453, a versão que saiu agora mesmo há um dia ou
+dois. Eh, até para fazer o upgrade de da versão R,
+
+
+existe um pacote que facilita o upgrade, o
+facilita esse mesmo upgrade, porque enquanto
+
+
+antigamente eu ia manualmente fazer o download da
+nova versão, eu instalava, eu ficava com um nova,
+
+
+uma nova versão de R, mas que estava vazia, não
+tinha, perdia todos os meus packages. E depois
+
+
+acho que havia maneira de, de voltar a instalar
+os packages copiando-os de uma folder para a outra,
+
+
+etc. etc. Mas agora já existe uma forma mais
+simples, mais automatizada, mais automatizada que
+
+
+eh eu tenho aqui na minha folder de configuração,
+tenho configurações de temas diversos, ou seja,
+
+
+eu tenho aqui configurações eh para quando eu
+preciso de algum tema eu vir aqui e recordar-me.
+
+
+Eh, OK. E tenho, por exemplo, aqui na parte
+do update R, onde eu tenho aqui a dizer que,
+
+
+ok, eu para fazer o update R, eu posso eh usar
+um package que é o install R, update R. OK. Eh,
+
+
+só tenho que lhe passar aqui o o URL, onde está o
+CRAN, porque eh havia vários URLs e em redundância.
+
+
+Nós tínhamos aqui, tínhamos o R Studio, o
+Cran.org e e agora acho que foi desativado
+
+
+e e os há também há poucos dias e os packages
+ainda não refletem, eles trazem os defaults,
+
+
+ainda não refletem esse upgrade. Eh, e então em
+em vários packages nós podemos pôr o parâmetro
+
+
+a apontar para o novo CRAN mirror, OK? que é este
+aqui. Eh, e aqui como diz que para fazer o upgrade
+
+
+do R, eh, deve ser usado o R GUI nativo, que vem com
+a linguagem R. Portanto, o R GUI nativo, quando nós
+
+
+instalamos um R, a linguagem R pela primeira vez
+e eventualmente ainda não temos o o RStudio,
+
+
+eh, podemos usar o R GUI nativo, que eu vou-vos
+mostrar aqui, vou abri-lo aqui. Pronto. Ah,
+
+
+ora, deixa-me tentar abri-lo aqui. Ora,
+R GUI, OK. Nativo. OK, cá está ele. Eh,
+
+
+vou puxar aqui. Pronto. Então, este é este é
+o R GUI nativo, como estão a ver, o IDE nativo
+
+
+que vem junto da linguagem, como estão a ver,
+super minimalista. Eu nunca uso para nada. Eh,
+
+
+mas que usei-o ainda há ainda hoje, porque há
+bocado eu fiz o upgrade que eu tinha a versão
+
+
+R452 para 453 e ele foi espetacular. Ele fez tudo
+de uma assentada. Ele faz o download, ele instala,
+
+
+ele copia os packages da versão antiga para a
+nova, copia configurações, deixa tudo tudo a a
+
+
+funcionar a 100%. OK? Eh, e acho que ainda faz o
+upgrade de packages. Eu disse para sim, para ele
+
+
+fazer, ainda me fez o upgrade automático de todos
+os packages que que já tinham novas versões. Eh,
+
+
+OK. Portanto, era só para vos mostrar isto também.
+Nunca tinha mostrado. É o o IDE nativo. OK. Eh,
+
+
+e pronto, eu já fiz esse upgrade. Eh, entretanto,
+nos últimos dias também tive a trabalhar aqui,
+
+
+a melhorar um bocadinho as minhas e aqui a os meus
+e alguns as funções aqui do meu do do meu package
+
+
+que eu vou-vos mostrar agora. Por exemplo, este
+snippet que eu estou agora, eh, que eu tenho aqui,
+
+
+nunca vos tinha mostrado como é que nós podemos
+invocar um snippet. Nós podemos customizar os
+
+
+snipets aqui. Por exemplo, eu customizei aqui este
+snipet, que é o set. E quando eu carrego em set,
+
+
+olha, aqui está a inteligência artificial a tentar
+completar. Ah, mas o que eu quero é este aqui. Eu
+
+
+quero o snippet. Então, eu carrego no snipet. E o
+snipet pode ter um dinamismo, pode ter parâmetros
+
+
+dinâmicos que ele está aqui a piscar, que como
+estão a ver que é aqui a a função aqui que é eu
+
+
+fui programei-o assim, pus aqui uma função por
+default e eu agora ao começar aqui a escrever
+
+
+installr. Pronto, então este é o snipet, OK? Eh,
+sem estar agora a aprofundar muito, mas pronto,
+
+
+eh já vos expliquei o que é. Posso abrir aqui? Eh,
+eu tenho aqui os os snippets, portanto eu guardo
+
+
+aqui. Eh, não vos vou estar agora a dar aqui uma
+formação, um curso de snippets. Isso vocês podem
+
+
+pesquisar eh para também para não desviar muito do
+tema, porque o tema de hoje vai ser o R markdown,
+
+
+mas ao longo dos tutorials, como vocês sabem,
+e recomendo que vejam os meus tutorials mais
+
+
+antigos, porque tudo isto tem um certo seguimento.
+Portanto, e eu tento cobrir todas as áreas
+
+
+todos os temas que que todas as funcionalidades
+aqui do do IDE do RStudio. OK? Pronto, agora não
+
+
+vou-vos dar a dar aqui uma formação sobre isto.
+Já viram que isto estava, nós colocamos aqui
+
+
+o o snipet e podemos pôr aqui alguns parâmetros.
+Neste caso, aqui só tem um parâmetro. Podíamos
+
+
+ter mais que um parâmetro. Eh, e depois eh, já
+vos expliquei que eu uso muito esta técnica. Eu
+
+
+eu tenho o as minhas configurações aqui guardadas
+numa área que está debaixo do source control do
+
+
+produto do Megasync, que eu já vos tinha falado
+por forma a ter sempre tudo sincronizado na cloud.
+
+
+Eh, mas na verdade alguns destes componentes
+de configuração, como este mesmo dos snippets,
+
+
+depois ele tem que ser guardado na folder do
+Windows, do user settings. Eh, e portanto eu
+
+
+quando altero aqui alguma coisa, é, é, eu tenho
+que depois copiar daqui e para eh para 
+
+
+a folder final, ou seja, não sei se me explico.
+Portanto, eu venho aqui à configuração e eu venho,
+
+
+por exemplo, aqui à área de snippets. E na área
+dos snippets eu tenho aqui um lembrete. Ah,
+
+
+e portanto aqui eu digo, olha, eh, para e ir
+e editar o os snipets, eu uso também aqui um
+
+
+package. Reparem que no R há packages para tudo e
+mais alguma coisa. Portanto, temos aqui o package
+
+
+usethis que me edita diretamente os snippets, ou seja,
+é um package que trata das de configurações,
+
+
+configurações e instalações, etc, etc. Eh, e
+eu correndo esta linha, eu eu edito, cá está,
+
+
+eu edito o verdadeiro snippets que é que é está aqui
+é o R snippets e que está na folder do Windows, OK?
+
+
+E depois eu venho aqui a este meu, este aqui já
+não sei qual é, deve estar perdido. Eu venho aqui,
+
+
+ah, OK, era aquela era uma cópia, mas como
+chamava-se o mesmo nome, eh, eu fiquei, eu
+
+
+fiquei baralhado, mas portanto eu vinha àquele,
+eu fazia copy e paste aqui para o R snippets,
+
+
+eh, e, e pronto, ficava instalado o snipet.
+Ora, portanto, já vos falei-vos dos snipets,
+
+
+falei-vos aqui do do install R, OK? como eu fiz
+o upgrade do R hoje mesmo. Eh, e portanto agora eh
+
+
+vou-vos falar aqui um bocadinho de novidades que
+eu implementei aqui nesta função do do 
+
+
+XShowInfo, do meu package. Só por curiosidade,
+embora não entrando aqui muito ao pormenor,
+
+
+ eh vocês já têm visto eu executar esta esta este
+pedaço de código que eu coloco sempre à cabeça
+
+
+de todos os meus scripts, OK? não é essencial
+para vocês seguirem o tutorial ou vocês não
+
+
+precisam de ter isto. Isto é simplesmente eh
+simplesmente o que ele faz, instala-me pacotes.
+
+
+Se eu preciso de algum pacote, ele não estiver
+instalado, ele instala aqui automaticamente,
+
+
+ou seja, faz alguns automatismos, mas não é
+fundamental. Portanto, para vocês seguirem
+
+
+o tutorial e reproduzirem o código, não precisam
+aqui desta parte. Pode ser que num futuro tutorial
+
+
+eu e eu aborde um pouco mais ao detalhe algumas
+das funções que tenho aqui nos meus packages, OK?
+
+
+Eh, mas isto vocês vejam os meus outros
+tutorials onde eu explico eh, portanto, o que
+
+
+é que eu tenho e que eu carrego estes data frames,
+nomeadamente para ver. Eu aqui vejo, por exemplo,
+
+
+aqui os packages que eu carreguei, OK? Que eu
+estão carregados agora aqui na nesta sessão. Está
+
+
+tudo atualizado agora neste momento que não há
+nenhuma nova versão aqui disponível. OK. Eu aqui
+
+
+posso ordenar aqui e para ver quais os packages
+que vêm de raiz com o produto de base, que são
+
+
+estes aqui, OK? E os outros que estão carregados
+agora aqui nesta sessão, OK? Eh, sim, senhora.
+
+
+Entretanto, também atualizei aqui um esta
+função do XShowInfo. Sim, senhor. É uma
+
+
+função que eu fiz que recorre, por sua vez,
+recorre a diversos outros packages. Pronto. E
+
+
+eu gosto de ter isto aqui. Mostra-me aqui qual é
+a working directory onde eu estou neste momento.  
+
+
+qual é o membro que eu tenho carregado? O script,
+timestamp, sistema operativo, a RAM, as características
+
+
+do meu PC, o processador, a gráfica, a versão
+do R, a versão do RStudio, linguagem, etc,
+
+
+etc. Pronto, eu gosto de ter, eu gosto de ter
+aqui esta visualização. OK. Eh, vamos aqui ver,
+
+
+por exemplo, aqui então só um pedacinho
+para vocês verem o copilot, o GitHub Copilot.
+
+
+Já agora, há uma ligeira diferença que eu também
+já não me recordava entre Microsoft Copilot
+
+
+e GitHub Copilot. São os dois da Microsoft,
+são dois modelos de inteligência artificial,
+
+
+mas penso que, segundo eu tive a pesquisar, eh, o
+GitHub Copilot, portanto, é mais dedicado a linguagens
+
+
+de programação, à parte de programação,
+enquanto o Microsoft Copilot é generalista,
+
+
+não é? Generalista, penso que concorre
+concorre com o chat GPT ou com o Gemini.
+
+
+Eh, OK. Então aqui vamos carregar, por exemplo,
+aqui este dataset que é um dataset que que vai
+
+
+que vem de raiz. Ele vem no ele aqui vem ele vem
+no package datasets e o package datasets é um package
+
+
+que, salvo o erro, vem de raiz com a versão base.
+Exatamente. Cá está o package dataset. Está aqui.
+
+
+Exatamente. Eh, e nós também podemos ver aqui. OK.
+Mas o package datasets, eu como eu não o carreguei
+
+
+aqui explicitamente, eu não estou a ver. Eh,
+aliás, ele está de raiz. Ele ele como é
+
+
+um de raiz ele fica logo carregado. OK, penso
+que é essa é essa a razão. OK, não entrando agora
+
+
+em pormenores, mas pronto, eu vou carregar aqui o
+dataset que vem dentro do package. São temas que
+
+
+também já vos falei noutros tutorials. Relembro
+que estes tutorials são, eu considero nível médio
+
+
+avançado. E já que estou a falar em nível médio
+avançado, eu queria-vos até aqui recomendar
+
+
+recomendar talvez na outra altura um ia-vos
+recomendar um tutorial bastante bom que eu vi.
+
+
+Eh, posso posso vos recomendar este eu tenho aqui
+eh e posso-vos recomendar aqui este 
+
+
+canal. Vou-vos recomendar este canal, este aqui
+de graph courses,
+
+
+eh, enfim, há muitos tutorials na internet sobre
+linguagem R e de nível introdutório e este também
+
+
+é de nível introdutório, mas eu gostei muito
+deste. Eh, e recomendo. tem há algumas playlists,
+
+
+tem que eu já explorei e gosto muito deste
+formador e portanto gostei muito de ver aqui
+
+
+alguns tutoriales que estão neste canal, mas
+eu como já expliquei, não tenho paciência para
+
+
+tutorials de nível introdutório, OK? Portanto, eu
+vou falando, se houver algum tema que vocês não
+
+
+tenham entendido bem, tomem nota e depois podem
+investigar. E hoje com a ajuda dos do chat GPT
+
+
+é tão fácil hoje investigar, basta ouvir qualquer
+coisa, chegar ao chat GPT e perguntar e portanto
+
+
+ele dá-nos uma grande ajuda. Ora bem, eu carreguei
+então aqui, vou carregar aqui o data frame, OK? Já
+
+
+tenho aqui o data frame. Eh, e qual é a ideia
+aqui do da integração com o copilot? Portanto,
+
+
+a ideia será e que nós estamos a trabalhar, a
+recomendação que eles fazem, que eu tive a ver,
+
+
+é nós irmos escrevendo comentários sobre o que
+queremos. Por exemplo, eu aqui escrevi, eu quero
+
+
+fazer um subset data frame Iris by o campo species
+que está aqui. Pronto, essa é a recomendação.
+
+
+Nós vamos trabalhando, nós vamos escrevendo os
+comentários e ele, a inteligência artificial,
+
+
+com base nos comentários, pois eh ela vai nos vai
+nos eh fazendo recomendações. Reparem que ele aqui
+
+
+ele está a alucinar. Ele está a alucinar porque ele
+eh não sei porquê, isto é uma uma alucinação até
+
+
+grosseira. Porquê? Porque ele vê que eu estou
+a usar um pacote XFunctions e não sei porquê
+
+
+ele ele está a assumir que eu possa ter um
+que eu possa ter uma função xsubset, mas quando
+
+
+na verdade eu não tenho eh eu não tenho. OK? Eh,
+portanto ele aqui está a alucinar, mas pronto,
+
+
+paciência. Eh, mas eu como eu sei que eh só
+de olhar para isto, eu posso me relembrar que 
+
+
+existe uma forma de fazer o subset, que é a função
+subset. Eh, e portanto o que eu vou fazer aqui é
+
+
+eu vou fazer aqui, por exemplo, Setosa, vou que
+vai ser o novo nome do do meu subset que e ele
+
+
+aqui já está a fazer o autocomplete, o subset iris
+species. Eu dou-lhe tab com licença. E, portanto,
+
+
+ele e agora já fez bem. Pronto. Eh, portanto,
+e como tão a ver, eh, deixem, por exemplo, eh,
+
+
+ele aqui está a propor fazer o Setosa, que é o é o
+display no ecrã, mas eu posso fazer, por exemplo,
+
+
+um um um summary summary  Setosa. Cá está. E
+ele está sempre a propor código. Pronto.
+
+
+Eh, pronto, isto é um exemplo, não é? Como digo,
+não vou aprofundar muito mais sobre isto porque
+
+
+ainda estou a sair fora do tema que vai ser hoje o
+nosso tutorial, mas eh mas como mas eu tenho feito
+
+
+o mesmo nos outros tutorials, eu tenho sempre vou
+sempre dando um lamiré sobre as funcionalidades eh
+
+
+do RStudio para ir aprofundando as capacidades
+do RStudio. E esta parte eu nunca tinha falado
+
+
+ainda da integração com a inteligência artificial
+que vem integrada no IDE. OK? é uma coisa e outra
+
+
+coisa diferente é a explorar a inteligência
+artificial através de packages. E são coisas
+
+
+diferentes, ficará para um outro tutorial onde nós
+podemos abrir uma janela de chat aqui no viewer,
+
+
+que é uma aplicação que fica aqui. Eh, ou nós
+podemos também eh invocar inteligência artificial de
+
+
+muitas outras formas. OK? Mas isso ficará para
+outro tutorial. Ora bem, vamos então agora, OK,
+
+
+mudar aqui a página e vamos então à parte do R
+markdown. Ora bem, eh, então vamos já ver. Bom,
+
+
+vocês e já deverão ter ouvido falar eh do
+Markdown. A linguagem markdown é a linguagem
+
+
+minimalista para processamento de texto, eh, que
+tem um conjunto de comandos. Eh, OK.
+
+
+é muito usado no GitHub e é usado um pouco por
+todo o lado. Eh, e portanto, eh, e o que é que
+
+
+acontece? O que é que fizeram as pessoas do R?
+Eh, fizeram, bom, pegaram no Markdown e disseram:
+
+
+"Bom, agora podemos pôr eh chunks de código de
+linguagem R dentro do Markdown e construímos um R
+
+
+markdown". OK? É, é, é uma é muito parecido com o
+famoso Júpiter Notebooks, OK? Eh, existem Júpiter
+
+
+Notebooks, existem Google Notebooks, portanto são
+tecnologias que já existem há algum tempo, no qual
+
+
+eh a pessoa faz uma programação eh embutida
+dentro de um de um de um relatório OK?
+
+
+Eh, não sei se me explico, mas se não me explico,
+recomendo que vocês investiguem um pouco o que são
+
+
+o Júpiter Notebooks e e tecnologias afins. E aqui
+e aqui já está integrado. Aqui a vantagem é que
+
+
+está integrado dentro do IDE, ou seja, eu posso
+trabalhar em R. Reparem, até porque quando eu
+
+
+chego aqui ao RStudio, eu digo new file. Reparem
+a quantidade de tipos de sources,
+
+
+de linguagens que eu posso trabalhar dentro do
+RStudio. Desde logo temos o R Script, que é o
+
+
+fundamental. Depois temos a linguagem quarto. A
+linguagem quarto é uma nova versão do markdown,
+
+
+ou seja, enquanto o R markdown está vocacionado
+para R, OK? O que acontece é que depois eh penso
+
+
+a equipa do R Studio implementou a linguagem
+quarto que e é mais generalista do que o R markdown e
+
+
+como uma linguagem de markdown eh para permitir
+embutir códigos eh de diversas linguagens,
+
+
+não só de R, e sendo transversal, correndo em
+vários sistemas operativos e noutros IDEs ou
+
+
+noutro tipo de plataformas e e sistemas segundo eu
+investiguei, mas eu nunca explorei muito o quarto,
+
+
+mas pronto, eh tenho mantido com o R markdown,
+continua a ser bastante usado, não é, dentro do
+
+
+ecossistema do R e, portanto, nós hoje vamos 
+focar-nos aqui no R. Nós também temos o Shine
+
+
+e o Web App. Eu e talvez futuramente eu faça um
+tutorial sobre nessa área. Portanto, é o framework
+
+
+que constrói a aplicações GUI, graphical user
+interfaces. eh que correm na web, OK? E que também
+
+
+podem correr aqui localmente no mini browser aqui
+do RStudio, aqui no tab do viewer, que acho que
+
+
+já vos falei sobre isto. Nós também temos a
+um Plumber API, que é um framework para para
+
+
+construir APIs. Eh, portanto, as tradicionais e de
+como é que se chamam aquelas as API agora da moda?
+
+
+Agora está-me a escapar o termo. Eh,
+enfim, agora tive uma branca. Portanto,
+
+
+são as APIs tradicionais com o get, o post, que
+que que que correm também com com via endereço URL.
+
+
+Está-me a escapar agora o nome. Eh, também
+podemos programar em C, obviamente. Inclusive,
+
+
+é, eh, quero lembrar ou chamar a atenção que
+muitos dos packages de R que nós podemos instalar
+
+
+e invocar aqui, muitos deles, eles são programados
+em C, não são programados em R propriamente ditos,
+
+
+são programados em linguagem C realmente, para
+serem muito mais rápidos, não é? Ah, portanto,
+
+
+também podemos trabalhar em C aqui dentro do IDE,
+OK? Eh, depois também podemos trabalhar em Mark
+
+
+normal, Markdown, HTML, CSS, JavaScript, Python
+também suporta Python aqui dentro. Eu
+
+
+posso trabalhar aqui em Python. Eh, naturalmente
+terei que ter a linguagem Python instalada na
+
+
+máquina, como é óbvio, e mais alguns outras linguagens, como o stan, text files, etc,
+
+
+etc, etc. Pronto, é só para verem que o poderio,
+o poderio do RStudio, OK? Eh, agora vamos então
+
+
+voltar aqui ao Markdown e ao R markdown. Ora bem,
+eu tenho aqui, qual é a ideia aqui? Portanto,
+
+
+a ideia é que eu faço um markdown, que
+é a extensão RMD. Eh, pronto. E agora tem aqui
+
+
+o um Yaml, que é esta configuraçãozinha. E o
+Markdown pode o que é que faz? vai processar o 
+
+
+código que eu tenho aqui, que é markdown, mas com
+chunks de código, que são estes chunks aqui. Eh,
+
+
+e pode produzir um output que pode ser HTML ou
+pode ser um PDF ou pode ser um Word, eh, ou pode
+
+
+ser um PowerPoint presentation com slides
+ou várias outras metodologias ou
+
+
+vários outros tipos de output. OK? Eh, nós aqui
+vamos produzir HTML e depois no final vai haver
+
+
+um passo em que eu vou converter para PDF, OK? Só
+que eu achei que é mais flexível eu produzir HTML
+
+
+e mais poderoso. Eh, o HTML tem é mais fácil
+de  customizar e fazer formatação.
+
+
+Por exemplo, eu posso formatar com Cascade Style
+Sheets, com CSS, etc, etc. E portanto, eh,
+
+
+e eu vou usar aqui uma uma formatação bonita que
+eu descobri, que é com um package Pretty Doc, eh,
+
+
+mas que só serve para produzir output HTML e não
+PDF. Portanto, eu vou produzir a HTML. Eh, OK? Ah,
+
+
+já agora, temos aqui também uma uma situação que
+ainda não vos tinha falado e vou-vos falar
+
+
+também que é muito útil, que é o outline. Pronto,
+o outline significa quando eu estou a trabalhar
+
+
+num R normal, vou buscar aqui um R normal, pode
+ser este aqui, este R. Eh, e realmente o que o
+
+
+que o o que o outline faz, estão a ver aqui, ele
+eh ele tem eh quando eu quando eu tenho aqui
+
+
+cardinal e eh quatro quatro tracinhos, eu penso
+que é quatro tracinhos ou ou termina com quatro tracinhos,
+
+
+acho que quando termina com quatro tracinhos, por
+exemplo, se eu aqui terminar com cinco, com três,
+
+
+eu acho que já não dá. Exatamente. Reparem, ele
+desapareceu aqui do outline. Pronto. Portanto,
+
+
+tem que ter quatro ou mais. Eh, isto são chamadas
+as sections, também é muito útil, também existe
+
+
+noutros IDEs e permite-me aqui fazer aqui o o fold
+e unfold aqui das sections, como estão a ver. Eh,
+
+
+e portanto é muito útil também para estruturar
+o código e encontrar rapidamente e saltar
+
+
+rapidamente para zonas do código, como vocês estão
+a ver. OK? Pronto, esta também é uma parte que eu
+
+
+ainda eh tinha-me passado ao lado, ainda não
+vos tinha falado. OK, vamos voltar aqui ao ao
+
+
+Markdown. Eh, e portanto, qual é a ideia aqui? Eu
+vou fazer um report, não há dúvida nenhuma. Eh,
+
+
+e vamos trabalhar aqui com alguns packages
+complexos. Vamos fazer aqui determinadas tarefas,
+
+
+bastante complexas. Vamos ver se eu me consigo
+explicar. Eh, eu não não iria querer fazer
+
+
+aqui um markdown simplório, como é óbvio. Eh,
+desde logo relembrar que temos aqui no Help,
+
+
+temos eh uma série de ajudas. Nós temos aqui
+eh um markdown quick reference que ele abre
+
+
+aqui. Reparem no poderio disto. Como o markdown é
+tão importante dentro do R para fazer R markdown,
+
+
+que ele dá-nos aqui um um um auxiliar
+de memória. E também temos aqui os os
+
+
+chamados os os cheat sheets, que também são muito
+famosos dentro do ecossistema R, onde eu posso
+
+
+há vários cheet sheets que estão na
+cloud. Eh, estes são alguns dos mais importantes
+
+
+e eu posso clicar aqui e ele diretamente vai-me
+fazer o download da cloud. Por exemplo, ele tem,
+
+
+por exemplo, um R markdown cheet sheet que eu
+posso clicar aqui e ele está-me a abrir aqui o
+
+
+browser ao lado aqui no meu outro monitor e depois
+posso fazer o download. Não vou fazer agora para
+
+
+para não perder mais tempo, mas pronto, há muitos
+recursos. O R Markdown é de facto muito importante
+
+
+dentro do ecossistema R. Eh, eu sinceramente eu
+não gosto muito do do usá-lo porque, pronto, isso
+
+
+está mais virado para trabalhos profissionais. Uma
+pessoa que está a fazer a programação em R e quer
+
+
+produzir um trabalho, um report profissional
+com com aspecto profissional para entregara
+
+
+alguém. E qual é a vantagem? A vantagem é que
+quando há alguma alteração nos dados de input,
+
+
+basta correr novamente, fazer a geração novamente
+do report e obter a nova versão do report,
+
+
+OK? Enquanto que se eu não tivesse markdown, eu
+teria que fazer andar a fazer copy paste, teria
+
+
+que correr o R, obter os outputs, as tabelas e
+os gráficos, os plots e depois teria que andar a
+
+
+fazer manualmente, a colocá-los dentro de algum
+tipo de report, de algum tipo de processador de
+
+
+texto. OK? Portanto, portanto, não sei se estão
+a ver realmente qual é o o âmbito do R markdown. O o
+
+
+âmbito é eu poder produzir e, aliás, vamos já ver
+isso que eu vou fazer isso agora e vocês acho que
+
+
+vão entender. Pronto. Então o que é que eu tenho
+aqui para já? Eu estruturei aqui o meu projeto da
+
+
+seguinte maneira. Primeiro eu criei um report R
+porque eu queria fazer um orquestrador. Ou seja,
+
+
+eu não precisava, isto era opcional, só que
+eu quis fazer aqui um orquestrador. Vou tirar
+
+
+aqui este outline aqui, que agora não está a fazer
+nada. Pronto, este orquestrador é o o ponto por 
+
+
+onde ele arranca. Eu tenho aqui eh eu vou correr
+aqui. Primeiro faço o setup que ele posiciona-me
+
+
+no current working directory. OK. Sim, senhora. Pronto.
+Depois eu tenho aqui o minifunctions que vocês já
+
+
+conhecem. Eh, só que eu como este projeto já tem
+uma certa dimensão, eu pus as imagens todas aqui
+
+
+na subfolder PNG. Eh, e na verdade ter chamado
+imagens, ficava mais OK, mas chamei PNG. Mas a
+
+
+minha função display media ela por default vai
+buscar no current working directory e portanto
+
+
+não vai buscar dentro da subfolder. Eu tenho tenho
+que fazer aqui tenho que fazer aqui uma alteração
+
+
+de set working directory. Aqui eu faço aqui
+esta alteração e agora aqui já posso fazer um
+
+
+slide show automático. Ah, pronto, eu tenho aqui
+algum , portanto faço aqui o o display,
+
+
+mas eu vou fazer aqui cancel que eu agora
+não não preciso disto. OK. E portanto,
+
+
+deixa-me aumentar aqui um bocadinho. Eh, e
+agora vou voltar a repor o working directory. OK.
+
+
+E qual é a ideia desta desta orquestração? A ideia
+é eu posso eh mandar fazer fazer o processamento
+
+
+do report, o processamento mandando fazer
+fazer através de um package que é o markdown,
+
+
+o R markdown, mandar fazer a renderização do
+report do R markdown e ele vai gerar o quê? Bom,
+
+
+ele vai gerar e consoante o que está
+no cabeçalho do report. Neste caso,
+
+
+ele diz que o cabeçalho diz que é para gerar um
+HTML e portanto então ele gera o HTML. Eh, OK? Eh,
+
+
+e depois tenho aqui um processo que converte HTML
+para PDF, que já vamos ver. Pronto, digamos que
+
+
+aqui é a orquestração e depois eu tenho, eu
+quis pegar no PDF e vamos enviar por e-mail,
+
+
+neste caso, vou enviar para a minha conta
+também. Já vamos, já vamos ver isso. Eh,
+
+
+o que é acontece aqui?
+
+
+O o que acontece é que eh eh eu não consegui
+orquestrar isto a 100% porque eh deu-me erros.
+
+
+eh não consegui fazer, ou seja, fazer
+isto em eh eh aqui em desatendido. Eh,
+
+
+deu-me erros porque eu uso aqui alguns packades
+bastante complexos e então tenho que tenho que
+
+
+fazer a renderização aqui manual. Pronto, eu
+vou fazer aqui a renderização manual. Pronto,
+
+
+nós temos aqui vários chunks de código. Eu vou
+correr aqui. O primeiro aqui é simplesmente
+
+
+algumas opções que diz echo=false. Eu não vos
+quero dar aqui um curso eh de base de markdown
+
+
+ou de r markdown. Isso eh como vos digo, isso
+vocês podem pesquisar tutorials. E este canal,
+
+
+este canal aqui, ele tem um tutorial sobre R
+markdown espetacular onde ensina tudo tintim por titim.
+
+
+Eu quero passar a a tópicos já mais avançados
+e aproveito o contexto do R markdown, mas para
+
+
+vos mostrar alguns tópicos mais sofisticados
+que não que nós vamos ver aqui. Então, o que é
+
+
+que eu vou-vos dar aqui um exemplo que consiste no
+seguinte: eu quero ir buscar informação eh externa
+
+
+a sites externos e eu, vocês têm acompanhado
+os meus tutorials, já viram eh como fazer
+
+
+webscraping de vários processos, OK? com APIs, com
+o addon de browser, o instant data scraper. Eh,
+
+
+e na verdade nunca fiz um tutorial com packages
+específicos para fazer web scraping, não calhou,
+
+
+mas existem para fazer o, por exemplo, o package
+o Rvest e outros. OK? Eh, mas também vos falei das
+
+
+limitações desses packages, que, por exemplo,
+se um um site tem autenticação ou um site usa
+
+
+o capcha eh para fazer validação que nós somos
+humanos, etc, etc. Eh, logo isso é o suficiente
+
+
+para complica bastante a utilização desses pacotes
+que que querem ir obter a informação eh do HTML.
+
+
+Eh, e por outro lado também se o HTML é dinâmico,
+chama JavaScript e a página é construída
+
+
+dinamicamente, torna torna o webscraping muito
+mais complexo, etc, etc. Bom, mas e vamos deixar
+
+
+isso de lado e porque hoje vamos ver outra outra
+outras técnicas. Bom, a minha ideia aqui era eu
+
+
+vou fazer aqui estes chunks de código eh
+que o R markdown faz. Eu tenho aqui um link, OK?
+
+
+Eh, depois consultem a documentação, porque
+isso está no markdown normal, como fazer um link,
+
+
+como como incluir uma imagem, etc, etc., como
+fazer o bold, eh, os links, hiperlinks, etc, etc.,
+
+
+as coisas básicas que que constituem o markdown.
+O R markdown não é mais do que o markdown normal
+
+
+com estes pedacinhos de código aqui embutidos,
+que é o caso aqui, um pedacinho de código. E a
+
+
+minha ideia aqui era, OK, eu vou fazer aqui uma
+série de de capítulos, de páginas para o meu do
+
+
+relatório final. Por exemplo, aqui o primeiro é
+dedicado a ao estado das albufeiras em Portugal e
+
+
+que é uma coisa que eu gosto de ver. Eh, todas
+as semanas sai um report semanal do estado
+
+
+de armazenamento das albufeiras em Portugal.
+Eu coloquei aqui o código que eu tenho aqui,
+
+
+que está aqui. E o que é que faz esse código? Ele
+ele vai, existe um PDF que está que está na web,
+
+
+no site  do ambiente em Portugal.
+OK. Eh, eu não sei se posso clicar aqui. Ai,
+
+
+posso posso clicar aqui. Pronto, existe, existe,
+cá está, existe um PDF que está na web, que é do
+
+
+Ministério do Ambiente, eh, que está aqui, e
+produz-me aqui um relatório semanal em PDF,
+
+
+que vocês estão a vê-lo aqui, eh, que está eh
+que está aqui. E o que é que qual é o desafio?
+
+
+O desafio é o seguinte, eh, eu quero ir buscar
+o PDF, mas eu não quero o PDF todo. Eh, eu,
+
+
+eu só quero este pedacinho. Eu quero um pedacinho,
+um crop, um crop de imagem, um crop de imagem,
+
+
+que é este crop do PDF. OK? Reparem que isto
+é muito poderoso o que nós vamos ver hoje. E
+
+
+desde já vos digo que eh se forem à inteligência
+artificial, ela não é capaz de fazer isto. Eh,
+
+
+a nativa do via browser, atenção, agora se for
+através de uma orquestração local que vocês usem
+
+
+produtos mais complexos fazendo uma orquestração
+com vários componentes, que provavelmente serão
+
+
+capazes. Eu ainda nunca fiz isso, mas mas com
+um chat GPT nativo no browser, vocês não podem
+
+
+chegar lá e dizer: "Olha, vai-me vai-me este link
+e dá faz-me um crop de imagem eh do que do que lá
+
+
+está eh do do do portanto do do primeiro cabeçalho
+que apareça lá. Pronto, ele não vai ser capaz de
+
+
+fazer isso, OK? eh por vários motivos, porque ele
+porque ele não não faz renderização de sites HTML
+
+
+ou ou de ou ou de PDFs ou de qualquer outra
+coisa renderizável. Portanto, ele mas mas eu
+
+
+suspeito que no futuro isso deverá ser possível.
+Da mesma forma que quando apareceu o chat GPT,
+
+
+nós não podíamos dar uma imagem para ele. Nós, ele
+era simplesmente pura, puramente texto, 100% texto
+
+
+de input e texto de saída. E agora hoje em dia
+já suporta, já nós já podemos dar uma imagem para
+
+
+ele processar a imagem. OK? Portanto, eu suspeito
+que no futuro será possível eu dar um link de um
+
+
+site e pedir para eu fazer uma renderização no seu
+próprio browser, que ele terá invisível. que é o que
+
+
+nós vamos fazer aqui agora neste momento aqui na
+minha máquina local com um package. Eh, e portanto
+
+
+eu eu quero processar este este PDF fazendo
+aqui um crop em formato imagem. OK? Reparem,
+
+
+isto é muito muito poderoso e difícil difícil de
+fazer de outra forma. Felizmente que já
+
+
+existem packes feitos aqui no R para tudo e mais
+alguma coisa. Então, como é que isto funciona? E,
+
+
+portanto, eu tenho aqui, eu tenho aqui o URL. Eu
+vou vou fazer agora esta parte aqui manual para
+
+
+vocês verem. Eu eu carrego aqui o URL. Eh, agora eu
+vou eh Mas eu não posso aqui fazer porque ele aqui
+
+
+está  a apontar
+aqui para para esta parte relativa que ele aqui
+
+
+não tem. Portanto, eu agora não eh a menos que
+eu esteja situado na posição certa. Deixa-me
+
+
+ver aqui qual é. Ah, posso. OK, posso porque
+o o working directory é na folder acima. Ok,
+
+
+porque eu aqui não fiz o current working directory. Aqui
+posso onde ele está. Então aqui posso posso fazer.
+
+
+Então eu aqui vou buscar o file name. Reparem
+nesta metodologia que eu encontrei. Eu assigno,
+
+
+um file name default, um file name
+padrão file name e agora vou dizer assim: "Bom,
+
+
+eu vou trabalhar com PDFs para guardar na na
+folder PDF". OK? Eu assigno aqui, cá está,
+
+
+o file name PDF. Eu assigo um um file name
+PNG que vai conter o crop em formato imagem.
+
+
+OK? Agora eu vou fazer o download do PDF. OK? Eu
+faço o download. OK. Ele já fez. Podemos ver aqui
+
+
+que ele foi parar aqui ao PDF. Albufeiras PDF.
+Eh, agora às 5:24, está correto. Eu posso abrir-lo.
+
+
+É um PDF normal que vos que vos tinha mostrado
+ainda agora. Estou a abri-lo aqui no Adobe. OK.
+
+
+Sim, senhor. Ele fez o download, mas eu não
+quero o download todo. Eu só quero um crop de
+
+
+imagem. E agora vem este package fabuloso, que é o
+package magic. E digo magic image crop. Não, este
+
+
+primeiro aqui primeiro tenho que ler PDF. Magic,
+image read PDF com uma determinada densidade, deve
+
+
+ser por pixeis por polegada. e com o número um, a
+página número um, OK? E carrega-me em imagem. E,
+
+
+portanto, para já ele, OK, ele tirou a fotografia,
+ele tirou a fotografia da primeira página,
+
+
+OK? Reparem só no poderio disto, isto é espetacular. Ah,
+cá está. E agora vou fazer um crop. image crop,
+
+
+agora que vocês dizem, mas como foi este
+crop? Bom, foi um bocadinho por tentativas.
+
+
+por tentativa. Eu tive que um bocadinho tentativa
+e erro até acertar qual o crop que me convinha. Cá
+
+
+está o crop. E agora vou guardar o crop  aqui com
+image write. Eh, e vou guardá-lo. OK, pronto, já o
+
+
+guardei e e ele veio parar aqui. Ele veio parar aqui
+ao PNG. Ora, Albufeiras PNG. Foi agora às 5:26.
+
+
+Está correto. Agora posso abri-lo aqui. Pronto. E cá
+está ele. Ele cá está. Pronto. Reparem no poderio,
+
+
+no poderio fabuloso que nós conseguimos fazer
+aqui. Vai-me buscar, não é não um documento,
+
+
+mas um pedaço de documento que em formato imagem.
+OK? Esta é a diferença para coisas que já tínhamos
+
+
+visto no nos meus outros tutorials. OK? Eh, sim,
+senhora. E, portanto, aqui já tenho o primeiro
+
+
+pedacinho de informação que eu quero ir buscar,
+um pedaço de um PDF. Sim, senhora. Mas vamos ver
+
+
+mais. Vamos ver mais. Posso fechar isto aqui.
+E aqui eu fui capaz de colocar isto num source,
+
+
+colocar dentro do R markdown. E aqui posso
+testar este chunk de código aqui. OK. Deixa
+
+
+ver se isto funciona. Eh, pronto. E e funcionou.
+Mas eu devia-me ter colocado aqui ah preview.
+
+
+inline, mas não sei porque é que ele não me
+mostrou aqui inline. Ele devia ter mostrado
+
+
+aqui o conteúdo inline, mas ok, ele não funcionou,
+mas adiante. Eh, vamos passar aqui ao próximo. Eh,
+
+
+ Mas ele funciona. Ele funciona. Mas 
+o problema aqui é ah, não, eu estou a dizer,
+
+
+eu estou estou estou a errar. É porque eu eu o o
+display propriamente dito está aqui no chunk seguinte
+
+
+seguido. Aqui eu tentei pôr tudo dentro aqui do
+mesmo chunk, mas houve algum tipo de problema que
+
+
+eu não me estava a funcionar bem e a parte do aqui
+do da imagem eu optei por por fazer aqui neste
+
+
+chunk separado. OK? Eh, e também com muita ajuda
+no chat GPT. Eu para afinar isto tudo e aliás eu
+
+
+não não vos preciso estar a dizer a repetir isso,
+mas hoje em dia, pois eu trabalho sempre, eu já
+
+
+não pode, já não dispenso o chat GPT ou o Gemini e
+cada vez que estou a trabalhar eh ou agora aquele
+
+
+GitHub Copilot também integrado, portanto hoje
+em dia já não desenvolvo, já não já não passo sem 
+
+
+a inteligência artificial. Isso é por uma questão
+de de produtividade, porque é muito mais rápido e
+
+
+às vezes eu sei fazer uma coisa mais ou menos, mas
+mas não me lembro de cor da, sintaxe, e então é muito mais
+
+
+rápido eh fazer uma prompt bem específica do que eu
+quero e é realmente é é fabuloso. A inteligência
+
+
+artificial hoje em dia é fabulosa. Mas claro
+está, convém a pessoa ter um certo domínio do
+
+
+que está a fazer, porque que eu não não vamos dar
+uma inteligência artificial para uma pessoa que
+
+
+nunca mexeu em R na vida e a dizer: "Olha, faz-me
+aí um script R ou qualquer coisa". Porque isso é
+
+
+muito perigoso. Perigoso, entre aspas, no sentido
+de que pode dar uma grande asneirada se a pessoa
+
+
+não tiver uma noção ou um sentido crítico para
+do que está a fazer. OK? Reparam? Repararam há
+
+
+bocado quando eu estava a fazer com o autocomplete
+do copilot e ele estava-me a dar uma alucinação
+
+
+com um xfunctions de uma função que não existia
+e ele fez alucinou e estava a pensar que existia
+
+
+aquela função. Imaginem um maçarico que tivesse
+a usar aquilo, aquilo depois dava erro e depois
+
+
+ele ficava ali a bater com a cabeça nas paredes
+a dizer: "Mas então que a inteligência artificial
+
+
+não não serve para nada". Pronto, é isso que
+eu estou a dizer. Portanto, serve, mas eh não
+
+
+dispensa o a pessoa ter um certo domínio da área
+em que está a trabalhar. E aí sim, aí sim é que há
+
+
+essa sinergia eh fantástica da pessoa ter um ganho
+de produtividade fabuloso quando já tem um domínio
+
+
+de uma área e depois ajuda com a inteligência
+artificial. OK? Não sei se eu me explico. Ah,
+
+
+cá está. Eu aqui fiz o inclu gráficos. Cá
+está o pedacinho, o pedacinho de gráfico,
+
+
+o crop de imagem. OK? Reparem aqui a imagem do PDF
+e como eu fiz o crop de imagem e agora já tenho um
+
+
+pedacinho de imagem. OK? Isto é fantástico. Agora
+vamos seguir a outra outro capítulo. Vamos dizer
+
+
+assim, pronto, porque eu quero um report, eu quero
+produzir um report por capítulos. Cada capítulo é
+
+
+um tema de um pedaço de informação que eu quero
+ir a buscar algures, à web ou então que eu quero
+
+
+produzir ou por uma API ou que eu quero produzir
+por qualquer outra maneira. Eu aqui vou-vos dar eh
+
+
+três exemplos só. Isto depois é uma área que eu
+pretendo crescer e crescer até para meu próprio
+
+
+uso pessoal, mas ainda está muito no início, eh
+porque eu pretendo ter um report eh eventualmente
+
+
+semanal, eh com bastantes capítulos, com bastantes
+tópicos e depois automatizar e eu recebo um
+
+
+e-mail. Imaginem que eu vou receber um e-mail
+diário ou semanal com toda uma coleção de tópicos
+
+
+que eu quero que eu quero receber, OK? Uma
+espécie uma uma espécie de uma newsletter pessoal,
+
+
+OK? Mas ainda está muito no início. Ainda só tenho
+aqui três três tópicos, mas é o suficiente para
+
+
+fazer este tutorial. O segundo tópico que vamos
+aqui explorar é o report do Tiobe Index. Portanto,
+
+
+o Tiobe Index, que é uma área que que eu gosto muito
+e que de vez em quando gosto de ir ver, eh,
+
+
+que acho que já vos falei nisto no passado,
+que tem aqui o ponto de situação, é mensal,
+
+
+o ponto de situação das linguagens de programação.
+Podemos ver, por exemplo, aqui que a linguagem R,
+
+
+eh, felizmente está com um crescimento brutal.
+No espaço de um ano, subiu da posição 16ª para
+
+
+9º lugar. Eh, e ainda bem que assim é, porque é
+realmente é como vos digo, eu para mim o R é na
+
+
+atualidade a linguagem número um eh para user
+fryendlines para ser usada por um utilizador
+
+
+normal do dia- a dia para tarefas eh genéricas,
+OK? Ou seja, para uma programação generalista.
+
+
+Claro que se eu tiver uma coisa específica, se
+disser assim: "Não, mas eu preciso de um programa,
+
+
+eu tenho que ser super rápido. OK, pronto,
+então tenho que ir programar C++
+
+
+Ou se me disserem: "Não, mas eu preciso do
+de de um programa, de uma interface gráfica
+
+
+e uma aplicação de para máquina local. Então eu
+posso ir para visual básic, OK? Portanto, aí,
+
+
+mas eh no contexto de uma linguagem generalista
+para resolver um problema, problemas pontuais
+
+
+no momento que que eu não preciso de nenhuma
+especificidade eh nem de GUI, nem de nem de web,
+
+
+nem de restfull API, olha, restfull era a palavra que
+há bocado, eu até já estava a ter uma branca que
+
+
+está que estava a dizer que também existe uma
+um framework dentro do R para trabalhar e
+
+
+para podermos criar restful API em na linguagem
+R. Eh, é super simples. Eu nunca criei nenhuma,
+
+
+não calhou, ainda não precisei, mas eh já estive
+a dar uma uma vista de olhos na documentação
+
+
+e é super simples, bem mais simples do
+que outras frameworks, como o Node JS,
+
+
+que eu já trabalhei com o Node JS, ah, para fazer
+para frameworks, eh, para fazer, portanto, APIs,
+
+
+as nossas APIs pessoais, de restful API. Eh,
+e portanto, e posso-vos dizer que aquela que
+
+
+vimos há bocado eh do plumber e é muito muito
+simples de fazer. Qualquer dia a ver se faço
+
+
+qualquer coisa sobre isso. Bom, e portanto aqui
+tenho o Tiobe Index. E o que é que eu quero? Bom,
+
+
+mais uma vez eu quero sacar eu quero sacar aqui
+um print screen desta tabela. Há bocado o print
+
+
+screen estava num PDF, agora o Crop estava no PDF.
+Agora o Crop vai estar numa página HTML. Portanto,
+
+
+agora o tema é diferente. E mais uma vez vos posso
+dizer que as inteligências artificiais ao momento
+
+
+que eu estou a fazer isto, aquelas inteligências
+artificiais que estão disponíveis free
+
+
+agora parecia que, não sei porquê, mas parecia que
+tinha, desculpem lá, este este interregno. Eh, mas
+
+
+eu estava a olhar aqui para o para o contador da
+gravação e não estava a vê-lo e eu estava a dizer,
+
+
+queres ver que isto desapareceu? Mas deve ter
+desaparecido algures aqui quando eu cliquei aqui no
+
+
+no outro ecrã. OK. Eh, portanto, vamos continuar
+aqui. Eu vou fazer aqui esta extração. A ideia
+
+
+que eu queria aqui era colocar estes capítulos,
+cada um todo bonitinho dentro do seu source,
+
+
+dentro de uma folder. E assim seria fácil aqui
+eh ir dentro da folder do source e ter aqui,
+
+
+estão a ver aqui por por capítulo, cada capítulo,
+cada tema. Já vimos aqui o tema das Albufeiras,
+
+
+agora temos aqui o tema do Tiobe Index e depois temos
+aqui este tema exemplificativo para ir buscar
+
+
+a a classificação da primeira liga de futebol
+português, porque eu não ligo muito ao futebol,
+
+
+mas eu quis fazer isto como exercício aqui para
+para para exemplificativo aqui para o tutorial.
+
+
+Eh, mas aqui não consegui. Aqui ele dá-me aqui
+algum há aqui algum erro de sincronização. Quando
+
+
+ele coloca este código dentro do source, eh, dá
+aqui um problema de sincronismo em que o o o Knit,
+
+
+a renderização aqui do Markdown, eh, ela não se
+apercebe e e dá e dá um time out. dá um time out
+
+
+porque não se não sei explicar porquê, porque as
+funções aqui elas são esta função complexa que
+
+
+vai tirar a fotografia webshot. Ah, e portanto
+aqui há há aqui um desincronismo e portanto ele
+
+
+ele ele dá um erro. Ah, não consegui afinar isto
+e tive que colocar aqui inline, pronto. Mas ok,
+
+
+paciência. É, neste caso, a ideia do que o
+que eu desejava era colocar tudo, cada cada
+
+
+capítulo dentro do seu pequeno source, mas não não
+consegui. Ora bem, então vamos fazer aqui manual,
+
+
+mas aqui quando estamos dentro do knit,
+ele não me permite executar linha a linha,
+
+
+ele só me permite executar o chunk de tacada aqui.
+OK? Portanto, eh, é o que nós vamos fazer agora.
+
+
+Isto não é preciso executar a linha à linha. Isto
+é bem simples, como vocês estão a ver. Tenho o URL,
+
+
+tenho aqui os file names e depois tenho o webshot.
+O package é o webshot agora, agora já não é o Magic,
+
+
+é o webshot 2. Faz um webshot do URL, OK?
+Que é aquilo que a inteligência artificial
+
+
+não consegue fazer porque porque ela não não
+porque para isso é preciso lançar um browser em
+
+
+background e que que a renderização seja feita
+no browser para depois o browser fazer o print
+
+
+screen eh e então depois trabalhar o formato de
+imagem. Pronto. E e portanto o as inteligências
+
+
+artificiais que estão hoje em dia disponíveis aí
+na web eh não fazem isso porque elas não possuem
+
+
+um browser para o fazer. Mas por enquanto, mas
+eu eu quero acreditar que qualquer dia vão ter
+
+
+também essa funcionalidade, porque acho que isso
+é uma coisa tão tão com os respectivos cuidados,
+
+
+porque imaginem o que é que era um browser a
+estar a fazer a renderização de uma página, agora
+
+
+imaginem se a página trazia vírus ou qualquer
+outra coisa. Portanto, possa haver aí realmente
+
+
+eh um um há aí realmente esse cuidado a ter que
+o a inteligência artificial pois tem que ter esse
+
+
+cuidado a dizer e pá, cuidado porque então eh onde
+é que eu vou agora abrir o browser, não é? Eh eu
+
+
+tenho que abri-lo dentro dentro de um de uma de
+uma, como é que se chama? Uma um estava a faltar
+
+
+também o termo uma uma box. Ah, estava a faltar
+o termo, portanto, um um conteiner, um ambiente
+
+
+fechado onde eu possa abrir, não é? Porque porque
+existe essa essa essa problemática da segurança.
+
+
+Ora bem, portanto, então eu venho aqui webshot, URL, eu vou tirar a fotografia. Eh, e aqui eu não
+
+
+preciso de fazer crop, porque eu aqui consigo, ele
+consegue fazer a fotografia não da página inteira,
+
+
+mas de uma área usando o selector. O selector
+neste caso da classe. Eh, isso recomendo que
+
+
+vocês se não têm experiência eh em em usar o
+dev tools development tools dentro do browser,
+
+
+eh vejam outros tutorials. Eu não vou estar a
+mostrar isso agora porque pronto, senão conversa,
+
+
+puxa conversa. Eh, e depois o tutorial fica muito
+muito longo e, portanto, eu não vou estar a a
+
+
+mostrar isso agora. esse seria tema para outro
+tutorial, mas isso há vários tutorials na web,
+
+
+vocês pesquisem development tools. Normalmente é
+usado o Chrome browser, mas mas eu uso o Opera e é
+
+
+praticamente igual porque o engine do Opera é igual
+ao do Chrome e portanto isso aí é similar, mas eh
+
+
+tem ferramentas dentro do development os quais não
+pode analisar o o HTML da página. Eh e depois nós
+
+
+podemos selecionar uma página. Eu posso mostrar
+aqui. Pronto, só um lámiré rápido. Aqui eu estou
+
+
+aqui na página e eu venho aqui, eu estou no Opera
+Browser e eu no Development Tools. Eh, ele abre
+
+
+aqui a área do development tools e depois eu posso
+clicar aqui eh aqui mesmo. E portanto agora não me
+
+
+está a funcionar porquê? Ah, ok, já está a funcionar.
+E portanto, cá está, eu posso chegar aqui,
+
+
+fácil e eu posso clicar aqui numa área e
+ele mostra-me qual é a área onde eu estou.
+
+
+Eh, eu posso andar aqui à procura
+qual a área que eu que eu quero. Eh,
+
+
+OK. Eu não tenho muita experiência
+disto. Olha, cá está o top 20. Olha,
+
+
+cá está. É esta área que eu quero. É o top 20.
+E eu posso carregar aqui no no rato direito. Eh,
+
+
+e posso fazer eh posso fazer copia copy de
+selector copy selector. Pronto, cá está.
+
+
+Pronto. E então, eh, eu posso então eh chegar aqui
+e despejar aqui o selector. Pronto, cá está. E o
+
+
+selector é o cardinal 20. OK. Pronto. E, portanto,
+esse selector que o package, o webshot,
+
+
+ele consegue entender. OK. Pronto. Então, eu vou
+executar estes este chunk de tacada e, portanto,
+
+
+ele vai ao site, tira a fotografia e mas apenas
+de uma classe, como poderia ser uma
+
+
+division. Neste caso, acho que é uma classe e,
+portanto, e ele eh vai tirar a fotografia. OK,
+
+
+espero eu. Está a processar, está a abrir a
+página em background, tem um delay de 4 segundos.
+
+
+Eh, timeout. Bom, deu erro, deu erro
+aqui. Eh, cá está. Isto é uma área eh,
+
+
+deixa-me tentar pôr aqui 5 segundos a ver
+se se eu se eu consigo com 5 segundos.
+
+
+Ok, agora já funcionou. Screenshot completed. OK.
+E, portanto, o screenshot apareceu aqui, podemos
+
+
+vê-lo. Eh, portanto, é o Tiobe que eu que eu
+gravei-o. Ora, gravei aqui na área da das imagens.
+
+
+O Tiobe às 5:40. Está correto. Foi agora mesmo. Vamos
+ver se ele está correto. Ah, e está corretíssimo.
+
+
+Cá está ele. Pronto. Eh, então, pronto, vamos
+executar a próxima e o próximo chunk de código
+
+
+que é o do site da bola. Eh, cá está ele. Mais uma
+vez, eu não consegui colocá-lo aqui no source como
+
+
+como um como uma função externa. Tive que colocá-lo
+aqui inline dentro do chunk. Eu vou usar o webshot
+
+
+na mesma. Eh, mas desta forma, desta feita, eu não
+consegui usar o selector, não consegui, pronto,
+
+
+não funcionou. Eh, então, sim senhor. Então, o
+teve que converter a imagem na totalidade. Eh,
+
+
+aliás, eu usei o o usei que o selector já não,
+eu não não usei selector aqui, que aqui não tenho
+
+
+selector. Eu usei um de uma determinada dimensão
+aqui da página. Eh, e depois eu tenho eu tenho que
+
+
+pegar na imagem que que ele salvou com o Magic
+e usar o o image crop. E pronto. E então é
+
+
+similar. E, e, e vamos então vou tentar executar
+isto a ver se isto funciona. OK? Reparem que este
+
+
+site ele é manhoso no seguinte aspecto porque ele
+tem um popup. Este site aqui da bola ele, deixa
+
+
+ver aqui. Olha que está para já demora um tempo a
+carregar. Por acaso agora não me apareceu popup,
+
+
+mas às vezes aparece um popup aqui, mas por acaso,
+por sorte, se aparecesse o popup e à partida não
+
+
+havia hipótese. Eu não podia fazer nada porque eu
+não consigo, eu não consigo com estes packages
+
+
+dizer: "Olha, abre-me a página e depois vai
+lá clicar para fechar o popup". Portanto,
+
+
+eu não consigo fazer isso. Quer dizer, eu não sei
+fazer, mas já agora, se alguém soubesse fazer,
+
+
+eh, poder pôr nos comentários, eu agradecia, mas
+eu não sei fazer isso. Eh, eu acredito que, quer
+
+
+dizer, eu não sei, eu acredito que haja packages
+como, como, por exemplo, o há um package famoso
+
+
+para web scraping, que é o, agora está, tenho o nome
+na ponta da língua, é o selenium. o selenium. Eh,
+
+
+eu acredito, e depois tem o package R selenium
+que explora o selenium. Eu acredito que com
+
+
+isso seja seja possível eh automatizar o
+browser e dizer: "Olha, abre o browser.
+
+
+Eh, agora o browser aberto agora, agora, agora,
+eh, eh, vai lá e clica. Mas eu não tenho a certeza
+
+
+se ele consegue fazer isso em background com um
+browser invisível ou se só consegue fazer isso com
+
+
+browser aberto. O que eu não me interessa fazer
+com browser aberto porque, em princípio porque o
+
+
+que eu quero que pronto, enfim. Mas pronto, é
+como vos digo, eu não não explorei essa parte e
+
+
+portanto, mas por sorte aqui e eh eh estão a ver
+que agora ele abriu-me este popup, eu não estava
+
+
+aqui a fazer nada e ele abriu-me. OK, pronto, mas
+por sorte a tabela que eu tenho está mais abaixo,
+
+
+então eu posso tirar o print screen massivo e
+depois ir fazer um crop e ir buscar a imagem
+
+
+aqui mais abaixo. OK? E basicamente foi isso que
+eu fiz. Pronto. Eh, e então ele ele eh deixa-me
+
+
+correr este chunk todo que eu vou correr. Acho
+que ainda não corri. Eh, e portanto faz o image
+
+
+crop e depois OK, já não sei se corri nem se não.
+Não, ainda acho que ainda não. Vou corre-lo aqui.
+
+
+Tenho aqui um delay de 10 segundos porque isto é 
+lento. Vocês viram que isto era lento. Ok. E timeout
+
+
+Timeout outra vez. Deixa-me experimentar
+uma segunda vez. Eu não sei se isto tem alguma
+
+
+coisa a ver por ele estar aberto aqui. Não, penso
+que não, porque os browsers são outros. Ah, mas
+
+
+deixa ver agora. Até pode ser que ele tenha ou ou
+porque ele se poder guardar aqui alguma informação
+
+
+em cache e à segunda vez ele conseguir. Deixa ver.
+Como estão a ver, isto é uma área complexa. É uma
+
+
+área que agora agora não
+me está a funcionar, não sei porquê. Eh, eu tenho
+
+
+um delay de 10. Bom, bom. Eh, eh, mas eu tenho
+aqui, eu tenho aqui a última, a última vez que eu,
+
+
+que eu corri e depois mostrei o gráfico. OK, eu
+vou agora tentar correr, eu vou tentar correr isto
+
+
+tudo de tacada a ver se funciona. Como
+vos disse, a ideia seria eu conseguir orquestrar
+
+
+isto aqui, porque se eu conseguisse orquestrar
+esta parte toda aqui, eu conseguia fazer tudo
+
+
+de tacada em background. Eu conseguiria eh eh
+schedular isto no Windows e dizer que corria
+
+
+todos os dias e dizer: "Olha, corre-me todos
+os dias". E ele fazia a renderização do report,
+
+
+depois ele convertia para PDF e depois ele mandava
+para e-mail. Mas pronto, mas por enquanto eu ainda
+
+
+não tenho, não estou a conseguir fazer isso e
+eu tenho que fazer a renderização manual, OK?
+
+
+E portanto esta parte aqui, ela não está a funcionar
+e eu vou ver se consigo fazer aqui a renderização
+
+
+manual aqui do total. Deixa-me vir aqui. Eu vou
+carregar aqui no KNIT. Eh, e portanto o Knit
+
+
+vai fazer a renderização total do report. Deixa
+ver se eu consigo, se isto agora funciona. OK,
+
+
+deixa ver. Ele está aqui a renderizar. O Albufeira já
+correu. O Tiobe está a correr. Ah, penso que bem. Penso
+
+
+que ele agora deve passar ao à parte seguinte da
+bola. Deixa ver se ele consegue. Mesmo que ele não
+
+
+consiga. Eh, também o importante disto para para
+além de vos falar do Markdown, foi mostrar-vos aqui
+
+
+estes packages complexos e bastante poderosos,
+como seja o Magic e o webshot. OK? Ah, portanto,
+
+
+penso que só por isso já vale a pena ter feito
+este tutorial. São packages fabulosos. Pronto,
+
+
+ele funcionou? Não, por acaso não funcionou o
+Chromote. O Chromote aqui não funcionou. O Chromote
+
+
+acho que é o package que ele usa para lançar
+o browser em background que ele usa e não
+
+
+funcionou. Mas deixa ver se eu tenho aqui porque
+eu pode ser que ele tenha aqui tem os os print
+
+
+screens que é que ele usou na vez anterior em que
+isto tenha funcionado e e ele produziu-me aqui o
+
+
+report final em HTML que ele tem aqui a data de
+hoje, OK? Eh, e portanto ele tem a ver que ele tem
+
+
+aqui os diversos capítulos, o Tiobe index, cá está
+ele, eh, e a Liga Portugal. Eh, cá está ela. E
+
+
+pronto, e está aqui. Eh, até este pedacinho aqui
+está a mais. E isto cá está, porque isto às vezes a
+
+
+página o HTML pode mudar e depois o crop, o
+crop que tem coordenadas fixas já não apanha,
+
+
+já não faz o crop 100% correto. OK? Pronto. Eh,
+como vos disse, eh, pá, esta é uma área pronto,
+
+
+vale o que vale. Isto é para vos mostrar que tem
+um determinado poderio, mas também tem as suas
+
+
+limitações, obviamente. E obviamente que a forma
+mais poderosa de buscar informação aos sites é
+
+
+usar uma API desde desde que o site eh portanto
+eh publique uma determinada API, não é? Eh, mas
+
+
+quando são sites que não publicam essas APIs, pois
+nós ficamos um bocado imitados. Eh, se quisermos
+
+
+fazer um trabalho deste tipo e buscar print
+screens é um bocado limitado para automatizar isto e é mais falível.
+
+
+Mas ok, agora funcionou. Como está? Está. E vou
+passar à fase seguinte. Eu agora vou OK, já acabei
+
+
+a parte aqui do Markdown. Eu já tenho aqui o meu
+HTML que eu para além de estar a visualizar, eu
+
+
+também eu também o o salvei. Eu salvei-o aqui na
+parte aqui do eh aqui. Cá está. Eu salvei-o aqui.
+
+
+Eu posso eu posso abri-lo no browser, por exemplo.
+Cá está ele. Eu posso abrir aqui no browser. OK.
+
+
+Eu aqui no browser eu poderia chegar agora aqui no
+no próprio browser e fazer o save as PDF. também
+
+
+poderia, mas só que não me interessa. Quero quero
+automatizar. E então eu aqui no orquestrador,
+
+
+eu tenho aqui o meu orquestrador, eu já fiz a
+renderização. Ele não foi por aqui porque pronto,
+
+
+é porque por aqui não está é é muito mais falível.
+Foi manualmente dentro do do próprio do próprio
+
+
+R markdown eh aqui. OK. E agora vou fazer esta
+parte, o pagedown, este package pagedown chrome
+
+
+print para report report HTML e ele converte para
+PDF. OK? Eu vou fazer esta parte aqui. OK. Ah, OK.
+
+
+Isto à partida não costuma falhar. Cá está. Ele
+produziu. Cá está. Eu tenho aqui o report PDF. É
+
+
+produzido agora mesmo. Pronto, eu posso abrir, eu
+posso abrir aqui no Adobe. Cá está eh o aspecto
+
+
+dele. OK. Está bonito. Eh, cada coisa na este fez
+uma mudança como não não cabia, fez uma mudança de
+
+
+página. Forçou uma mudança de página. Pronto, aqui
+ficou mal formatado porque ele apanhou aqui um
+
+
+pedacinho a mais. Pronto, paciência. Eh, isto vale
+o que vale. Isto é só para vocês verem. Mas eu
+
+
+também podia podia eh dar-lhe aqui uma folga ali
+no markdown para imprimi-lo com um tamanho mais
+
+
+pequenino. OK. Pronto. E finalmente agora vou vou
+usar eh vou mandar aqui por mail. Eu tenho aqui
+
+
+o meu mail ficou aqui em claro. Eh eu esqueci-me
+pôr isto numa uma variável de sistema, mas pronto,
+
+
+também não faz mal. Ah, não, peço que não não me
+enviem muitos spams, mas porque mas também não há
+
+
+grande problema. Eu eu recebo às vezes dezenas de
+spams por dia e e portanto não há crise normalmente
+
+
+eles são bem detetados e vão automaticamente para
+o caixote do lixo. Eh, e portanto, eh, eu vou agora,
+
+
+eh, falei, já vos mostrei aqui alguns packages
+poderosos, mostrei-vos o Magic, o, o, o,
+
+
+que é o webshot, mostrei-vos agora o Pagedown, eh,
+e agora vou-vos mostrar um que eu também não nunca
+
+
+tinha usado e fui à procura no chat GPT e usei,
+agora usei o Microsoft 365 R. Estão a ver o poderío
+
+
+do R? O R já está com cada vez mais aceitação, como
+viram, está em nono lugar neste momento a nível
+
+
+de de popularidade, linguagens de programação e,
+portanto, está em grande crescimento e está em grande
+
+
+eh aceitação por tudo tudo quanto seja eh portanto
+frameworks de machine learning, inteligência
+
+
+artificial como a Microsoft e a Google e que têm
+esses essas frameworks como a Azure da Microsoft
+
+
+E, portanto, a Microsoft não deixou de fazer um
+package específico para integrar com R. OK? E é
+
+
+o que nós vamos fazer agora. Vou vou chamar aqui,
+criar aqui uma instância, uma conexão ao Outlook,
+
+
+OK? Eh, eu penso que nem nem sequer precisamos de
+ter o outlook o outlook instalado. Eu a primeira
+
+
+vez na vida que quando instalamos o package ou
+quando chamamos isto pela primeira vez, ele
+
+
+instala todo aqui uma uma uma série de de software
+acessório. E também há uma coisa que eu me esqueci
+
+
+de de vos falar para para eh quando instalam a
+primeira vez e começam a trabalhar com markdown da
+
+
+primeira vez. Eh, por exemplo, se forem produzir
+eh um PDF, é possível que ele dê erro a dizer que
+
+
+faltam alguns packegess ou faltam algumas componentes
+no Windows. Muitas vezes ele diz diz-vos que falta
+
+
+componentes para produzir o Adobe PDF que como seja
+o Latex mas e depois ele normalmente recomenda que
+
+
+instalem dentro do R por exemplo um um tiny tex
+que é mais simples e que que é um mini látex.
+
+
+Pronto. Ok, pode haver aqui coisas que eu me
+esqueci de falar e que se vocês forem correr
+
+
+isto por vocês vão-se deparar com esses erros. Pá,
+e eu esqueci-me porque estou-me agora a lembrar
+
+
+que quando se às vezes se instala estas coisas
+pela primeira vez e se corre pela primeira vez,
+
+
+às vezes há determinados componentes que
+que faltam eh que vos podem faltar a vocês,
+
+
+mas que normalmente há sempre um help, eh, que
+é que é fácil e para vocês seguirem. Como isto
+
+
+também é um tutorial de nível intermédio avançado,
+não tenho me preocupar muito com com essa parte
+
+
+aí da o ABC de configuração. Pronto, se fosse um
+se fosse um tutorial introdutório, eu teria ter
+
+
+mais cuidado com isso e ter até talvez até aqui
+uma máquina limpa para correr as coisas do zero
+
+
+e ver os errozinhos todos a aparecer e todas as
+configurações iniciais que são necessárias fazer.
+
+
+É como vos digo, lembrei-me agora disso porque
+a primeira vez também quando corri eu não
+
+
+tinha ainda aqui a componente latex instalada e
+depois instalei instalei o package tiny Tex e
+
+
+segui os passos ou fui ao chat GPT é bastante
+fácil e fica instalado. Ora bem, vamos correr
+
+
+então esta parte agora para acabar o tutorial.
+Vamos, eu vou enviar o report por e-mail. OK,
+
+
+cá está. Ele tá ele está aqui a a refrescar aqui à
+primeira vez. aparece-vos aqui, ele abre o browser
+
+
+e ele pede-vos uma autenticação, como é óbvio, e
+vocês, obviamente, têm que ter conta no Outbook,
+
+
+como seria de esperar, e, portanto, têem que
+se autenticar. Eh, e agora vou criar aqui
+
+
+um rascunho do e-mail, OK? Eh, e agora vou vou
+adicionar um attachment, OK? Que o attachment
+
+
+está aqui na Curent Working Directory. E agora
+vou enviar, vou enviar e ele vai enviar. OK.
+
+
+E com isto vamos terminar o tutorial. Reparem só,
+portanto, no poderio, no poderio que nós vemos aqui, eh, todo o
+
+
+tipo de automações que nós conseguimos. Ele está um
+bocado lento, espero que não esteja a rrebentar.
+
+
+Eh, será que ele está aqui à espera de alguma coisa?
+Deixa ver. Às vezes, às vezes aparece aqui algumas
+
+
+janelas aqui eh escondidas, mas eu penso que não.
+Eu realmente não está a funcionar. Mas eu já corriisto
+
+
+várias vezes. Ele sempre funcionou. Este é aquela
+aquela aquela lei de Murphy. Mas bom, eu eu eu vou
+
+
+eu vou conto convosco para acreditarem que isto
+funciona. É possível que haja aqui algo, esteja
+
+
+aqui alguma janela aqui. Olha, já já acabou. Foi
+um bocado lento, não sei porquê. Foi, foi bastante
+
+
+lento até, mas pronto. Eh, já agora vou ver se ele
+chegou aqui. Deixa-me ver se ele chegou aqui. Ah,
+
+
+cá está. Deixa ver se ele tinha aqui. Eu acho que
+ele tinha aqui uma janela e eu não reparei. Eh,
+
+
+inbox, ó, cá está. Ele está aqui. Pronto, ele chegou
+aqui. Como vem, ele chegou. Eduardo Jacob report
+
+
+PDF. Chegou agora mesmo às 17:55. Eu vou abrir eh
+vou abrir o PDF. OK. E cá está. Ó, cá está. Tenho
+
+
+um PDF. OK. Com vários capítulos. Esta parte ficou
+um boquinho mal formatada. Pronto, isto ainda
+
+
+tá muito no início, mas eu quero ver se olha,
+por exemplo, uma das outras áreas que eu quero
+
+
+implementar no futuro, ainda não implementei,
+é ter aqui informação, ter uma estatística
+
+
+aqui do meu canal do YouTube para que eu posso
+lançar isto semanalmente e pronto. Pronto,
+
+
+ainda está no início, mas já foi o suficiente para
+vos mostrar aqui e fazer o tutorial. E espero que
+
+
+tenham gostado, que isto acima de tudo eu quis
+chamar a atenção porque hoje em dia fala-se
+
+
+muito na inteligência artificial e e se eu não
+falasse nisto, as pessoas podiam pensar: "Ah,
+
+
+para que é que eu estou a perder tempo com isto?
+A programar, eu não preciso de programar". Eu não,
+
+
+no outro dia estava a falar até com com um amigo
+meu, bastante jovem, eh tem bastante domínio
+
+
+de inteligência artificial e ele estava 
+a dizer para que é que eu de programar se eu
+
+
+vou à inteligência artificial e ela faz tudo.
+OK. E pá, e é quase, quase que é verdade. Eh,
+
+
+é difícil contestar porque realmente faz quase
+tudo, mas ainda não faz tudo. Eh, e realmente,
+
+
+como vos disse, não consegue fazer se
+o que precisar a dizer, vai-me à aquele
+
+
+site e tira-me um print screen. E ele ainda não
+consegue fazer isso, como como eu vos expliquei.
+
+
+Poderá fazer uma coisa parecida. Eventualmente,
+se eu chegar aqui, é uma questão de experimentar
+
+
+a dizer agora posso posso vos experimentar. Vamos
+fazer assim. Deixa ver. Dá, dá, dá-me um gráfico.
+
+
+Deixa lá ver. Dá-me um gráfico. Um gráfico
+do status de armazenamento armazenamento
+
+
+da Albufeiras em Portugal. Eu até vou dizer desta
+semana que para ver se dar-lhe uma dica que isto
+
+
+é semanal. OK. Deixa ver o que é que o que é que
+ele consegue fazer. OK. Eh, mas portanto é como vos
+
+
+digo, pronto. E pronto. Eh, normalmente, olha, eu
+vale vale o que vale agora deu deu-me por deu-me
+
+
+aqui, OK? Por bacia hidrográfica. Ok. Ok, pronto,
+vale o que vale. Eu agora dizia assim: "E pá,
+
+
+mas eu não quero bem isto ou quero." Pronto. Eh,
+mas pronto, eu espero que vocês tenham percebido
+
+
+a ideia. Eu mostrei-vos um conjunto de pacotes
+bastante poderosos. E agora para para terminar
+
+
+esta parte, este package de Microsoft 365R, que
+eu nunca tinha trabalhado com ele, trabalhei
+
+
+agora para enviar um e-mail. Ele enviou o e-mail
+na boa, como vocês veem. Eh, e o fundamental é
+
+
+isto. O fundamental que vos quero alertar é isto.
+Eh, o poderio do R e do RStudio, a facilidade com
+
+
+que se trabalha tudo aqui integrado, como estão
+a ver. Eh, e portanto é uma aposta, é uma aposta
+
+
+ganha. Se vocês agora é assim, se alguma pessoa
+expert já muito experiente em Python tiver a ver
+
+
+e diz assim: "Ah, pá, eu já trabalho em Python e
+pá, pronto, olha, então fiquem fiquem como estão".
+
+
+Agora, se for uma pessoa que ah ou um jovem que
+está a começar e não ainda não trabalha muito com
+
+
+nenhuma linguagem de programação em particular
+e às vezes está indeciso a dizer, bom, em que
+
+
+é que eu hei de apostar? Então aí nesses casos eu
+digo: "Sem dúvida apostem na linguagem R, porque
+
+
+realmente é uma aposta ganha. É uma aposta ganha.
+É como vos digo, eh, o IDE, eu agora até nem sei
+
+
+de cor qual é o IDE mais usado para programar em
+Python. Deixa ver qual será neste momento. Não sei
+
+
+se é o Visual Studio Code, que o Visual Studio
+Code é generalista, OK? Dá um pouco para tudo e
+
+
+também é bastante poderoso. Não digo que não. Eu
+tenho muita experiência também em Visual Studio
+
+
+Code, mas mas para trabalhar em R seria borrice. É
+borrice porque o RStudio é brutal. É fantástico
+
+
+para R. Deixa-me ver qual é o qual é qual é
+o  IDE mais usado  para Python
+
+
+atualmente. Eh, Visual Studio Code. Cá está.
+Ou seja, não há. Depois tem o Py charm, mas mas
+
+
+eu não sei se ah cá está. Tem uma versão community
+e uma versão paga. Ok. Ah, Júpiter Notebook. Olha,
+
+
+hoje falei-vos em Júpiter no Júpiter Notebook. Ah,
+penso que pode-se correr na cloud ou ou também se
+
+
+pode correr localmente instalando algum tipo de
+software local. Ah, Júpiter Notebook Spider. Ah,
+
+
+ok. Mas pronto, eh, eu não já não sei se trabalhei
+no Py charm alguma vez ou não, mas é como vos
+
+
+digo, eu em todo caso eu prefiro o R porque o R o
+R tem um paradigma de programação funcional mais
+
+
+poderoso do do que o Python, porque o Python como
+muitas outras linguagens e mesmo o Java eh o Java,
+
+
+por exemplo, que era tradicional object oriented
+muitas linguagens de paradigma object oriented
+
+
+agora estão a migrar e agora são multiparadigma.
+Porque porque elas estão a migrar para paradigma
+
+
+funcional, porque eh o paradigma funcional é é
+aquele que está a mandar no momento e é aquele
+
+
+que está com mais crescimento. Eh, mas o R já
+nasceu de raiz no paradigma funcional. É por
+
+
+isso é que eh eu prefiro o R. e o R. Eh, por isso
+não, pronto, não vou estar agora a alongar muito,
+
+
+mas as características, as propriedades
+da do paradigma funcional dentro do R,
+
+
+eh, e, por exemplo, a, a a parte da das funções
+vetorizadas que ele tem ou de todas as funções
+
+
+de base por por de de de por default, elas
+são vetorizadas. Se não sabem o que isso é,
+
+
+vão pesquisem e o que é que é uma uma função
+vetorizada no R. Eh, são realmente funcionalidades
+
+
+completamente fantásticas que existem no R e de
+modo geral não existem nas outras linguagens. E
+
+
+termino por aqui este tutorial. Espero que tenham
+gostado. Não deixem de ver também os meus outros
+
+
+tutorials anteriores que eu já fiz. Espero que
+tenham gostado e até uma próxima oportunidade.
+
+

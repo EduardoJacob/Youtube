@@ -1,0 +1,11 @@
+🖥️ R Programming - Steam - Part 2
+1. Download de imagens e posters dos jogos da Steam via API.
+2. Verificação de existência de ficheiros antes de realizar o download.
+3. Técnicas de debugging linha a linha em R para depuração de código.
+4. Análise estatística dos scores Metacritic da coleção de jogos.
+5. Criação de histogramas e gráficos de barras para distribuição de classificações.
+6. Visualização de dados por ano de lançamento dos jogos.
+7. Uso de jittering para evitar sobreposição de pontos em gráficos de dispersão.
+8. Comparação entre as bibliotecas de visualização ggplot e plotly.
+9. Geração e salvamento de listas de jogos em formato HTML.
+10. Gestão de pacotes R, instalação via GitHub e comparação com Python.

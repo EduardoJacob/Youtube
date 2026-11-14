@@ -1,0 +1,1136 @@
+
+Ora, sejam bem-vindos a mais um tutorial
+programação em R com RStudio. Hoje vamos
+
+
+aqui aceder a a informação do famoso
+site Our World in Data. OK. Ah, vamos aqui,
+
+
+deixa-me até aqui fazer aqui
+o deixa-me ver aqui a fonte.
+
+
+OK, já tá em 125%. OK, deixa-me
+fazer aqui um rename aqui.
+
+
+Ora,
+
+
+OK.
+
+
+Ora bem, nós eu já já viram nos
+meus tutorials realmente múltiplas
+
+
+informações aceder a informação,
+múltiplas formas e desde addons,
+
+
+desde APIs, desde plataformas
+que fazem fazem download a pedido
+
+
+e web scraping, já falamos, embora não tenha
+feito nenhum tutorial aprofundado sobre isso.
+
+
+Hoje vamos ver eh como aceder informações de
+sites, como seja o o Eurostat, que talvez eu
+
+
+talvez eu vou fazer um futuramente um tutorial.
+E hoje temos o Our World in Data também é um site
+
+
+famoso. OK. Ora, vamos a isto. Mais uma vez,
+recomendo a toda a gente, vejam este tutorial
+
+
+num monitor 4K, de preferência para verem com
+boa resolução. Monitor grande com resolução 4K.
+
+
+Eh, não deixem de ver os meus outros tutorials de
+programação em R que estão na minha playlist,
+
+
+porque há um certo seguimento nas
+coisas, há uma certa continuidade.
+
+
+Eh, eu aqui pesquisei, reparem aqui quando vamos
+aos packages ver se existe alguma coisa, our worldin
+
+
+data. Eu podia estar aqui a pesquisar our wordin
+data e não encontrar nada, mas no entanto existem
+
+
+alguns packages. Podemos pesquisar no GitHub, como
+também já mostrei noutros tutorials, o GitHub, ou
+
+
+podemos pesquisar eh no no chat GPT, por exemplo,
+pesquisamos se existem packages. E de facto,
+
+
+ele informou-me que existem alguns packages, como
+por exemplo este aqui, our word in data API. Eu estive
+
+
+a experimentar, mas achei fraquinho o package
+muito fraquinho, não traz grandes mais valias,
+
+
+por isso não vamos usar. E acho que até tem um ou
+outro bug. Experimentei um ou dois packages, mas
+
+
+não achei que neste caso aqui não não traziam mais
+valias. São alguns packages muito básicos. Ora,
+
+
+tenho aqui a minha função que também
+já costumo usar, que é o Display Media,
+
+
+onde eu guardo aqui alguns print screens. Pronto.
+Eh, tenho aqui um gráfico, mas isso já veremos
+
+
+depois. E tenho aqui, normalmente guardo print
+screens e que me permitam relembrar. Ou seja,
+
+
+a ideia é que se eu voltar daqui a
+uns anos aqui, eu pelos print screens,
+
+
+eu tenha ou porque tenha um enunciado de um
+problema ou porque tenha informação de de
+
+
+alguma configuração de alguma API ou pronto. Neste
+caso, guardo aqui informação para me lembrar, OK?
+
+
+Que isto pertence ao site, our world in data. Eh,
+vamos aqui, eu vou puxar aqui o site para aqui,
+
+
+OK? Eu vou puxá-lo aqui que vamos aqui dar
+uma vista de olhos, OK? our world in data.
+
+
+OK, vamos aqui dar uma vista de olhos.
+Agora, eu não sou um grande expert nisto.
+
+
+Eu simplesmente estive a dar aqui uma vista de
+olhos para preparar preparar este tutorial,
+
+
+porque eu já tinha trabalhado em tempos um
+já tinha feito aqui algum tipo de exercício
+
+
+aqui com isto, portanto não já conhecia,
+eu já tinha acedido aqui a informação. Ora,
+
+
+vamos entrar aqui por data, por data. E vamos
+procurar aqui, por exemplo, GDP, por exemplo,
+
+
+a ver se ah, government spending, não. O que
+eu quero é GDP per capita. OK. GDP per capita.
+
+
+OK. E acho que é esta informação
+que eu trouxe. OK. Pronto. Então,
+
+
+o que é que nós temos aqui? Aqui agora
+temos inclusive a ver se eu coloquei
+
+
+aqui alguns print screens mais. Eh, tenho
+aqui. OK, cá está. GDP Per capita 2024.
+
+
+Tem piada que este aqui
+
+
+tem piada que este não diz 2024. Agora estou
+na dúvida se estarei no mesmo ficheiro. Source
+
+
+Eurostat, tal, tal, tal. Word Bank 2026. OK,
+não importa. Eh, não importa ou importa, mas
+
+
+pronto. Agora para o que vos quero mostrar é aqui
+esta parte download options. Ah, agora já está aqui
+
+
+o 2024. Então é é a mesma informação. Ora bem, o
+que é que nós temos aqui? Temos, por exemplo, aqui
+
+
+download full data onde ele vai downloadar um zip
+file. Ok. Eh, cá está que ele está aqui a dizer, ele
+
+
+está aqui a dizer, deixa talvez aqui aumentar aqui
+um bocadinho. Ele está a dizer download o zip file.
+
+
+Ou melhor, esta esta é a parte de visualização,
+não nos interessa. E esta é a parte de data. OK,
+
+
+estamos na parte de data, não estava a perceber.
+Esta é a parte de visualização. Esta é a parte
+
+
+de data. Temos um zip file. Podemos baixar. Vai
+conter um CSV, vai conter um ficheiro metadata em
+
+
+formato Json. Eh, e já não me recordo o que é que
+contém mais. Um Readme em formato markdown. OK. Eh,
+
+
+eu também fiz essa essa esse teste. Baixei o
+zip file. Eh, depois temos aqui que ele nos
+
+
+diz para aceder via diversas APIs que acedam eh
+podemos aceder com estes com estes URLs aqui.
+
+
+Eh, OK. E depois também tem aqui exemplos de
+snippets de código. OK? Como vêem isto é está está
+
+
+muito user friendly porque isto está pronto a
+usar. E aqui temos aqui o Python com o package
+
+
+pandas e temos o R. Ora, aqui temos, aqui está
+ preto no branco, aquilo que já vos tenho dito
+
+
+noutros tutorials, como o R e o Python são as duas
+linguagens de eleição. Normalmente estão sempre
+
+
+presentes, tudo quanto seja plataformas ou sites
+que trabalhem com machine learning, inteligência
+
+
+artificial ou ciência de dados, tratamento de de
+informação. OK? Eh, há ferramentas como diversas,
+
+
+como não quero agora estar aqui a errar nalguma
+que por acaso logo logo essa que não use o R,
+
+
+mas pronto, há diversos tipos de ferramentas
+e produtos que usam. Pronto, e este site aqui,
+
+
+como estão a ver, também usa. Eh, e depois também
+tem aqui informação para o produto Stata. O Stata,
+
+
+acho que nunca trabalhei no Stata. São produtos
+famosos como o SPSS. Há muitos eu não agora
+
+
+não estou a ver muitos. muitos porque mas como não
+costumo trabalhar neles porque é assim eh vamos lá
+
+
+ser francos eh basicamente este tipo de produtos
+eh são produtos mais user friendly para quem não
+
+
+gosta muito de programação, OK? Microsoft Power
+B, Stata. Eh, há muitos. Agora está-me a escapar,
+
+
+não me eu conheço mais, mas agora não me estou
+a recordar dos nomes. Eh, mas e sejamos francos.
+
+
+Tudo que estes produtos façam, obviamente, com uma
+linguagem de programação generalista, conseguimos
+
+
+fazer tudo e mais ainda. Portanto, nada bate
+uma linguagem generalista, neste caso como o R.
+
+
+Portanto, o que quer que seja que façamos em
+qualquer produto, podemos também fazer com a
+
+
+nossa própria programação dentro do R. Portanto,
+o R e RStudio é sempre mais poderoso e mais versátil
+
+
+para  para trabalhar nesta área. Agora, pronto,
+sem prejuízo, sem desprimor de outros produtos,
+
+
+pá, é como tudo. Vamos que tenho que pôr algumas
+pessoas a trabalharem com dados e informação,
+
+
+pessoas que não têm experiência absolutamente
+nenhuma de programação e e pá, OK, sim, senhor.
+
+
+Então, podemos pôr um produto destes à frente
+e é só clicar nos botões e pronto. Mas enfim,
+
+
+não vamos agora divagar mais sobre isso, que isso
+agora não importa. Eh, o que queria chamar-vos
+
+
+a atenção é que realmente é uma boa aposta a
+todos os que estejam a ver este esta playlist,
+
+
+este vídeo e já estão cansados de me ouvir a elogiar
+a linguagem R, pois aqui está uma prova comprovada
+
+
+daquilo que eu já tenho dito, que o R é uma
+linguagem que está de alto gabarito hoje em dia
+
+
+a nível mundial. Portanto, podem ter a garantia
+que não é tempo perdido a aposta que façam no R.
+
+
+Aliás, o R eu sei que é ensinado, por exemplo,
+aqui em Portugal, nas universidades, nos novos
+
+
+cursos de ciência de dados, que eu sei, eu que eu
+conheço alguns alunos e já vi os programas e sei
+
+
+que o R é uma linguagem que que neste momento
+está perfeitamente dentro do do do programa de
+
+
+licenciaturas aqui em Portugal. Ah, portanto, é
+uma aposta ganha qualquer de vocês que goste de
+
+
+programação. Eh, portanto, não será tempo perdido
+aprenderem a trabalhar com R. Ora bem, nós vamos
+
+
+usar aqui este pequeno snippet aqui de código eh
+que copiamos. Eu já o copiei, já o pus no código,
+
+
+portanto não não vou estar agora a repetir porque
+já lá está, OK? Mas foi daqui que eu vim buscar
+
+
+o exemplo, eu copiei. Pronto. Eh, e isto é muito
+é muito mais prático vir por aqui do que estar a
+
+
+baixar o zip, porque eu baixo o zip, depois tenho
+que fazer unzip e depois se eu para o mês que vem
+
+
+quiser ir buscar um ficheiro mais atualizado,
+como é que é? Tenho que ir buscar o zip outra
+
+
+vez. Tem que pronto. Eh, eu poderia automatizar,
+mas eh não vale a pena estar a automatizar um
+
+
+zip e depois a fazer o unzip se realmente eu posso
+ir buscar diretamente o ficheiro CSV. Portanto,
+
+
+é mais prático, OK? Mais poderoso que isto só
+via API. Vocês já sabem, só que as APIs que eu
+
+
+experimentei aqui, como vos disse, são fraquinhas,
+não para mim não valem a pena. E, portanto,
+
+
+vamos buscando, trabalhamos sem API, porque
+isto também é é um ficheiro simples neste caso,
+
+
+ou outros ficheiros que existam aqui nesta neste
+site. Este é um de exemplo que eu fui buscar. Eh,
+
+
+e portanto eh vamos a isto. Esta parte aqui já está
+vista. Portanto, o que é que eu tenho aqui mais
+
+
+aqui fiz uns print screens que eu tirei? Eh, OK. Cá
+está. Aqui tenho o exemplo que vos estava ainda
+
+
+agora a mostrar. Eh, OK. E este é uma explicação
+de um dos campos que vai vir vai vir agora aqui no
+
+
+ficheiro que eu e que eu quis. Eu fui ao chat
+GPT para procurar aqui algum esclarecimento
+
+
+do que é que era e ele estava aqui a a explicar
+um bocadinho do que é que é o o que é que é o o
+
+
+produto interno bruto per cápita e por paridade de
+poder de compra. Eu já tinha ouvido falar nisto,
+
+
+mas eu não não percebo nada de economia, não sei
+bem explicar. Mas tenho tenho uma ideia do que
+
+
+é. OK. É um é um é um é um é um é um produto
+interno bruto corrigido corrigido pelo pelo
+
+
+pelo pelo nível de vida de um determinado país.
+OK? Ou seja, se em Portugal há um há um ordenado
+
+
+médio eh seja de 1500 € e num país qualquer
+asiático há um ordenado médio de de 500 €.
+
+
+Não quer dizer que nós vivamos melhor do que essa
+pessoa, porque do que essas pessoas tem nós temos
+
+
+que ver que aqui vamos ao supermercado comprar
+um pacote de arroz que custa X e se calhar lá
+
+
+custa 10 vezes menos. Pronto. Então, eh, essa é a
+ideia que eu tenho, que então esses existe e uma
+
+
+correção eh que leva em conta e o a paridade
+de poder de compra que leva em, tal como diz aqui,
+
+
+for difference in cost of living and the purchasing power of curencies in
+different countries. Pronto. E pá, mais ou menos.
+
+
+Espero não ter dito grandes asneiras. É, como
+vos digo, isto não é a minha praia, mas pronto,
+
+
+mas eu fui buscar aqui este print screen porque
+não, eu estava a ver o campo aqui e que quis quis
+
+
+quis e pronto. E e aqui estou-vos a dar um exemplo
+com como é o como é bastante user friendly e como
+
+
+é bastante produtivo e poderoso nós integrarmos
+aqui tudo dentro do IDE e depois termos aqui uma
+
+
+coleção de print screens e podemos rever a matéria
+e visualizar aqui os print screens como eu acabei
+
+
+de fazer tudo integrado dentro aqui do ID sem
+precisarmos estar a abrir nenhuma outra ferramenta
+
+
+OK está tudo aqui integrado. print screens enunciados.
+OK, está tudo tudo aqui integrado. Ora bem,
+
+
+vamos então aqui buscar naquele snipet que eu que
+eu fui buscar lá tem o nome o nome do ficheiro CSV
+
+
+que ele está aqui, é o CSV. Passa-lhe aqui
+alguns parâmetros que é use column short names,
+
+
+true, CSV type full. Ok, pronto. Então, nada
+mais. Vamos buscá-lo. Sim, senhor. Ele foi,
+
+
+ele foi buscar, foi, foi buscar, fez o download.
+OK. Vejam como isto é tão simples, fazer o download
+
+
+numa linha de código. Eh, aqui seria um exemplo.
+Reparem que, aliás, o statement é o mesmo. Eh,
+
+
+o Statement é o mesmo para ler do disco local.
+Cá está. É o read_csv. O mesmo read_CSV. tanto lê
+
+
+um ficheiro localmente como lê através da web. OK?
+Vejam bem a facilidade disto. Ora bem, o que é que
+
+
+nós temos aqui no data frame? Temos aqui, ele
+foi buscar os cinco códigos, que é o entidade,
+
+
+que é o país, no fundo é o país, eh, o código de
+país, temos o ano, temos este tal campo, que é
+
+
+o produto interno bruto por paridade de poder de
+compra, que eu fui buscar aqui o uma explicação.
+
+
+E temos aqui o continente, OK? Eh, quantos anos
+aqui estão abrangidos? Podemos ver aqui com este
+
+
+unique, temos desde 1990 a 2024. Eh, já agora,
+quantas regiões aqui estão abrangidas? Já agora,
+
+
+que eu também não tinha feito, deixa-me listar
+aqui o unique eh, portanto, do data frame do
+
+
+region. OK.
+
+
+Ora, cá está. Ásia, Europa, África, Norte
+América, South América e Oceania. OK. Sim,
+
+
+senhora. E alguns não têm nada. Também está aqui
+uma categoria, se calhar não, não deve haver
+
+
+aí alguns países estranhos que não couberam
+aqui em nenhuma destas categorias. OK. Ah,
+
+
+sim, senhor. Agora também temos aqui
+uma metadata. Está em formato Json. OK.
+
+
+Vamos buscá-la aqui com este
+package. Json Light. OK.
+
+
+Ora, o que é que ele me dá? Dá uma uma lista.
+Eu também podia ir buscar o Json nativo,
+
+
+não é? Atenção, eu ia buscar o Json
+nativo em Json com as chavetas, etc, etc.
+
+
+É só por dizer que eh que com este package eh a
+informação é carregada imediatamente e já está
+
+
+estruturada. O que é que eu quero dizer aí com
+isso? Estruturada. Estruturada do ponto de vista
+
+
+aqui consumível do ponto de vista do R. Já vou
+já vai ficar claro o que é que isso significa,
+
+
+porque quando eu entro agora aqui eu tenho aqui
+a informação que vem do Jason, por exemplo,
+
+
+a data que eu fiz o download da informação
+que pode ficar registado. OK. Eh, e depois eu,
+
+
+por exemplo, aqui eu eu tenho aqui informação do
+original chart url, OK? Então, vamos que eu estou aqui
+
+
+e eu tenho aqui, reparem aqui neste
+campo, original chart URL. Pronto,
+
+
+não vou estar aqui a explicar muito o que é
+que é uma lista dentro do R. Isso é o pronto,
+
+
+deixe deixa o vosso cuidado, quem não saiba,
+investigar, faz parte das das estruturas de
+
+
+dados básicas que que o que a linguagem trabalha,
+sendo que o data frame é a principal de todas,
+
+
+o dataframe e o vetor. OK? Eh, e depois
+também tem a lista e tem mais, tem matrizes,
+
+
+tem arrays, etc. Mas pronto, eh, isso é
+para vocês que investigarem se precisarem.
+
+
+Agora reparem na na potencialidade aqui do IDE. É
+quando eu estou a olhar para aqui para este campo
+
+
+e eu dentro de uma lista é um campo que porque
+muitas vezes está dentro de uma estrutura que
+
+
+está está dentro de outra de outra de outra. Portanto,
+isto é tudo aninhado, umas umas estruturas dentro
+
+
+das outras porque a lista a lista assim o suporta.
+E aqui tem um botãozinho em que eu quando clico,
+
+
+quando clico, ele despeja-me para
+aqui, para baixo, para a consola.
+
+
+e despeja o portanto a a indexação necessária para
+eu aceder à aquele pedacinho de informação. Estão
+
+
+a ver? Cá está. Isto é espetacular. Ou seja, eu
+podia ter uma estrutura grande e eu não precisava
+
+
+de saber, eu nem tenho que saber de cor qual a
+sintaxe para aceder eh para aceder as estruturas
+
+
+dentro da lista, porque ele dá-me esta este, ele dá-me
+este auxiliar, OK? dá-me este shortcut em que eu
+
+
+clicando clicando e ele despeja-me aqui para baixo
+qual é a estrutura que eu que eu preciso. OK. Não
+
+
+sei se me explico mais ou menos. Acho que fica
+claro. Por acaso para data frames acho que isso
+
+
+não existe. Deixa-me dar aqui uma vista de dois.
+Não, aqui para data frames não. Eu aqui mostra o
+
+
+data frame. OK. Também poderia ter. Eu eu pôr aqui
+um botãozinho. Vamos que a pessoa não se lembra
+
+
+absolutamente de todo como baixar um um registro
+de um dataframe? Poois, até poderia ter aqui,
+
+
+mas pronto. Eh, sim, senhor. Então, portanto,
+isto é aqui o que eu dizia com eh eh o Json
+
+
+já está estruturado. O Json ficou transformado
+numa lista de de linguagem R. OK. Sim, senhora.
+
+
+Ora,
+
+
+e então, eh, sendo que este campo nos dá um
+URL, nós podemos fazer o browse desse URL. OK,
+
+
+cá está. Ele abriu aqui no browser. É o
+gráfico. Pronto, isto deve ser deve ser um,
+
+
+OK, ser um gráfico representativo do dos dados.
+OK. Nós vamos fazer uma coisa simples aqui neste
+
+
+tutorial vai ser bem curto. Eu agora tenho
+estado a fazer uma uma sequência de tutorials
+
+
+mais curtos depois que os os primeiros foram
+mais pesados, maiores. Ora, vamos fazer aquio head
+
+
+ver os primeiros registos. É o mesmo que entrar
+aqui no data frame e ver os primeiros registros.
+
+
+E agora vamos vamos fazer aqui um gráfico e
+já está. Não vamos fazer mais nada especial.
+
+
+Portanto, isto é só para vocês verem a facilidade
+com que se trabalha com com estes sites, OK? Eh,
+
+
+e que inclusive já nos fornecem um um snipet, um
+pedaço de código pronto a a embutir na nossa no
+
+
+nosso programa. OK? É super super user friendly. O
+mais complicado é saber a informação que lá está e
+
+
+saber saber o que é que há. Porque se nós não
+soubermos o que há também não nos vem não nos
+
+
+ocorre ir à procura dessa informação. Pronto, às
+vezes eu eu diria que o mais complexo aqui num
+
+
+destes sites é ter uma ideia do que é que está,
+que tipo de informação está aqui dentro. OK? Eh,
+
+
+eu também nunca não explorei isto a fundo, mas
+pronto. Ele até um destes packages que eu estive
+
+
+a dar uma vista de olhos mas não o consegui
+pôr a trabalhar, não sei porquê, ou porque tem um
+
+
+bug, talvez. Mas fornecer-nos ia um catálogo
+para um data frame que teria o catálogo de de
+
+
+todos os ficheiros de dados que estariam aqui no
+site. Portanto, seria um índice, não é? E a partir
+
+
+daí poderia ser mais simples pesquisar com um find
+string, pesquisar o esse índice. OK? Mas também
+
+
+aqui também temos aqui no search topic, OK? Aqui
+aqui temos alguns exemplos. OK, estamos a ver. OK.
+
+
+Eh, então vamos só aqui fazer um pequeno
+exemplo para terminar o o tutorial. Portanto,
+
+
+nós já vimos que aqui tem o tem um intervalo
+de datas para uma série de países. Eh,
+
+
+OK. Posso posso ver aqui quantos países são
+length. Quantos países estão aqui envolvidos?
+
+
+Unique data frame entity. Ora, estamos a
+falar de 212 países. OK. Ora, então vamos
+
+
+lá. Vou selecionar aqui um conjunto de países. OK.
+Portugal, Espanha. Já que eu estou em Portugal,
+
+
+deixa-me comparar aqui com Espanha, Alemanha,
+Rússia. tentar perceber se os últimos anos de
+
+
+guerra terá afetado a Rússia de alguma maneira.
+Vamos tentar aqui ver se é claro ou não. Atenção,
+
+
+eu vou-me basear nos dados. Não quero aqui
+quaisquer segundas interpretações, nem que
+
+
+depois me insultem de que porque os dados estão
+errados ou não estão. Atenção, a eu faço esse esse
+
+
+aviso que eu aqui não estou a pôr as mãos no fogo
+aqui por nada. Isto não me cabe a mim estar agora
+
+
+a ajuizar o a a precisão de que da informação
+que eu fui buscar. OK? Isto aqui é só didático
+
+
+do ponto de vista do tutorial da linguagem R. OK?
+Não tem não tem absolutamente mais nada. Se os
+
+
+dados são fidignos ou não, eu já não me meto nisso.
+OK? Isso aí já é outra guerra que eu não entro.
+
+
+Ora, temos aqui Rússia, temos Argentina e El
+Salvador. OK, então vamos aqui correr. OK,
+
+
+tenho aqui um conjunto de países. Eu vou selecionar
+agora estes países. Eu aqui vou filtrar,
+
+
+eu vou arranjar um subconjunto. OK, do data frame.
+data frame seleção. Pego no data frame o pipe
+
+
+operator, que também já vos falei noutros noutros
+tutorials. Ora bem, pega no dataframe original,
+
+
+submete a um filtro, seleciona uma entidade cuja
+entidade pertença seja um destes países aqui
+
+
+indicados. OK. OK. E depois de seguida eu quero
+também fazer um rename. Quero que o que passa a
+
+
+ser o country, o entity faz rename para country. E
+este campo, que é o do um campo com nome comprido,
+
+
+passa a ser GDP per capita. OK? E depois eh quero
+também que me seleciones, faças-me uma seleção
+
+
+apenas de de alguns campos. Eu não preciso destes
+cinco campos. Eh, preciso apenas do country,
+
+
+que já foi renomeado, que agora já se chama
+country, o year aqui e o GDP. OK. Pronto. Então,
+
+
+dos cinco campos, seleciona-me apenas
+estes três e ordena-me por país e ano. OK.
+
+
+Penso que basicamente é isto. E ele fez aqui
+uma seleção que agora já só tem 210 registos
+
+
+com três variáveis. Está correto? E agora faço
+uma checagem rápida para ver se eh eu podia
+
+
+pôr aqui um país. Se eu pusesse aqui um país
+que não existia, eu agora enganava-me e punha
+
+
+aqui um país que não existia. XXX. OK. Então o
+que iria acontecer ele aqui? Eu não dava erro,
+
+
+não dava erro. Ele simplesmente procurava. Pronto.
+Mas no entanto, eu estava-me a enganar. Mas eu não
+
+
+me apercebia que me estava a enganar. Eu não
+me percebia. Simplesmente ele ele retornava
+
+
+um conjunto de países e deste não tem nenhum.
+E portanto e nós não queríamos isso. Portanto,
+
+
+eu então eu quero checar aqui, quero
+fazer uma checagem if not all countries to plot.
+
+
+in unique country. Ou seja, se houver algum
+destes países aqui da minha seleção que não esteja
+
+
+nos valores retornados, então quer dizer que há há
+um erro, porque certamente eu coloquei algum país
+
+
+ou por ou por engano ou por alguma casualidade um
+país que que não que por acaso não tenha dados ou
+
+
+que não. Ok, pronto. E aqui vamos ver aqui e
+ele efetivamente diz não foi encontrada uma
+
+
+das séries. Por acaso podia dizer qual era o país,
+mas não diz mas pronto. Isto foi uma chekagem rápida,
+
+
+lembrei-me pôr aqui como exemplo para vocês
+verem. OK, vamos tirar isto outra vez. OK.
+
+
+E agora vamos fazer um plot, um plot simples.
+OK. year, GDP. Eh, geom point escalas. Não me peçam
+
+
+para explicar isto tudo ao pormenor, obviamente,
+porque isto já não mesmo como é que eu fiz isto,
+
+
+já não mesmo se fui ao chat GPT ou se não me
+recordo. Eu não sei se eu se eu tiver que fazer
+
+
+uma coisa destas de cor, eu não sou capaz, não
+sou. Ah, é um bocado trabalhar com o ggPlot ou
+
+
+conhecer os Não sou não sou capaz de eh portanto
+basicamente o que eu faço é ou procuro um outro
+
+
+exemplo que eu tenho, algum programa meu ou
+antigamente quando não havia chatGPT alguns
+
+
+sites que eu conheço que têm muitos exemplos
+tipificados de como fazer plots e, portanto,
+
+
+ia, digamos, um catálogo de gráficos, digamos
+assim. Eu ia lá, eu via outro tipo de gráfico,
+
+
+dizia: "Ó, eu quero uma coisa destas, eu quero
+assim um gráfico ou de barras ou pronto." E
+
+
+depois também há outras ferramentas. Eu até tenho
+aqui um addin. No outro dia eu até quis mostrar
+
+
+e agora não não me lembro agora o nome outra
+vez, mas acho que não o tenho aqui instalado.
+
+
+Acho que é o é o esquisse, salvo erro. Ah,
+já agora, deixa ver se eu consigo pôr isto
+
+
+a trabalhar. Já agora é uma mais valia. Como
+nunca mostrei isto, nunca mostrei este addin,
+
+
+falei dele, mas não mostrei. Deixa-me
+ir aqui ao config. Deixa-me ir aqui aos
+
+
+aos addins. Onde é que isto está? Aqui. addins.
+Remotes. Instal GitHub RStudio Addins DC.
+
+
+OK. Deixa ver aqui.
+
+
+OK. Isto é o é o esquisse. É o esquisse. Ok.
+
+
+Então ele já já estaria carregado.
+Então se ele já estaria carregado,
+
+
+ele devia estar aqui. Deixa ver onde é que ele está.
+
+
+Sinceramente não o estou a ver.
+
+
+OK, não vou não vou agora fazer isto,
+senão restartar agora tudo. Bom,
+
+
+depois eu vejo isto noutro num outro tutorial,
+depois eu logo logo vos mostro isto. Portanto,
+
+
+isto é é um é um addin que depois aparece aqui
+e que nos permite apresentar uma aplicação com
+
+
+com um GUI user graphic interface que nos
+permite dar-nos uma ajuda a a construir as
+
+
+sintaxes para o gráfico e a fazer o gráfico. OK?
+Portanto, é um é um é uma ferramenta drag and
+
+
+drop que nós e pergunta-nos qual o data frame
+sobre o que queremos trabalhar e, portanto,
+
+
+e ajuda-nos um pouco nisso. Somos capazes de fazer
+um gráfico e depois ele gera o código do ggplot.
+
+
+OK. Sinceramente devia estar aqui, mas não
+está bom. Mas isso fica para outra vez. Vou
+
+
+fechar isto outra vez. Vou voltar onde estava.
+OK. Então vamos fazer aqui então o gráfico.
+
+
+Ok. Pronto, cá está. Cá está o gráfico. Deixa-me
+fazer zoom. Pronto, não vou fazer aqui grandes
+
+
+grandes interpretações que como vos disse,
+economia não percebo nada disso. Pronto. Eh,
+
+
+mas pronto, mas é OK, não deixa de ser
+curioso algumas características aqui. Eh,
+
+
+Portugal e Espanha. Portugal está a verde. Seguem
+todos aqui um perfil mais ou menos similar.
+
+
+É, é notório aqui durante o COVID que houve aqui
+um um abaixamento. OK. E pronto, estamos estamos
+
+
+próximos aqui do fim. Podemos guardar a figura,
+podemos guardar o gráfico numa numa aqui no disco.
+
+
+OK. Podíamos guardar também a seleção por algum
+motivo quiséssemos salvar. Vamos que tínhamos,
+
+
+eu fiz uma filtragem simples, mas vamos que
+tínhamos filtrado, sei lá, com alguns critérios
+
+
+mais complexos, OK? Conjunto, um determinado
+conjunto de países de acordo com um determinado
+
+
+conjunto de critérios. OK? Eh, poderíamos guardar
+esse CSV também por algum motivo. E pronto, eh,
+
+
+eu vou ficar por aqui. Como vos disse, cheguei
+a cheguei a dar uma vista de olhos aqui numa ou outra
+
+
+API, mas não vi. Acho que não vale a pena.
+Não, acho que não traziam nada de novo. OK.
+
+
+Este poderia ser interessante baixar o catálogo
+completo, mas não consegui pôr isto a trabalhar.
+
+
+Se alguém quiser experimentar a ver se consegue,
+que seria este package aqui, Word in data API,
+
+
+e ele trazia uma traz uma função que é o get
+catalog. OK? Mas eu não consegui pôr isso a
+
+
+trabalhar. Ficamos por aqui. Eh, espero que tenham
+gostado. Espero que tenham visto. Mais uma vez,
+
+
+viram ali preto no branco como uma plataforma online.
+Ela trata Python e R como ao mesmo nível, como
+
+
+duas linguagens realmente de igual para igual. Eh,
+e pronto, espero que vos tenham tenha inspirado e
+
+
+vocês verem como é simples às vezes explorarem
+alguns dados, se quiserem investigar qualquer
+
+
+coisa, eh, baixarem, é só pesquisar informação e
+depois vocês fazerem as vossas próprias pesquisas,
+
+
+fazerem os próprios vossos próprios gráficos. OK?
+Reparem, eu nem sei se essas coisas são possíveis
+
+
+de fazer aqui. Provavelmente são. Provavelmente
+haverá aqui maneira de de arranjar um se calhar,
+
+
+cá está um gráfico de linhas, porque isto é uma
+coisa básica e selecionar os países. OK. Eh,
+
+
+podemos selecionar, já agora vou vou limpar. Deixa
+selecionar aqui a ver se a gente selecionar aqui
+
+
+alguma coisa a Portugal. Cá está. É, é similar.
+Reparem como é similar ao que tá ali. Eh,
+
+
+portanto, pois outra coisa não seria de esperar,
+não é? Eh, porque isto era um gráfico simples,
+
+
+não é? E então é simples. Ou seja, para isto
+nem era preciso programação nenhuma. Eu eu
+
+
+chego aqui seleciono os países e, portanto, eh,
+por exemplo, Spain, porque este era um exemplo
+
+
+bastante simples, não é? Pronto, mas imaginem
+de hoje para amanhã, eh, se eu quisesse uma
+
+
+aqui um uma filtragem um pouco mais complexa, eh,
+pois já não seria assim tão simples, não é? OK.
+
+
+E pronto, vamos ficar por aqui. Espero que
+tenham gostado e até uma próxima oportunidade.
+
+

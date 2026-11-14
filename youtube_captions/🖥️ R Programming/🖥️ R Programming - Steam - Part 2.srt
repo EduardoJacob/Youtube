@@ -1,0 +1,1084 @@
+
+Colocou aqui. Cá está os novos c que eu fui
+buscá-los. Metacritic score, a data do jogo,
+
+
+o image file, que é um é um nome um nome para
+para gravar aqui no meu no meu disco rígido,
+
+
+um póster e um link para o store, a
+página do da loja do do Steam. OK?
+
+
+Agora tenho aqui, por exemplo, um loop
+onde eu faço o download all images,
+
+
+OK? O download all image. Eu vou eu vou
+eu eu vou buscar todas as imagens. Eh,
+
+
+e ele faz o download, mas na verdade ele só faz o
+download da das imagens que ainda estão em falta.
+
+
+OK, vamos ver aqui, vamos ver
+aqui o Steam eh download all images.
+
+
+Cá está. Pronto. E porque é que eu tenho que
+passar aqui um image name? É porque porque
+
+
+para uma dado jogo existem várias imagens. Pode
+haver um poster grande, um poster pequeno. OK.
+
+
+E eu estive à procura, eh, procurei com exemplos
+e no chat GPT, etc. Eh, e o que é que eu vi? Vi
+
+
+que há um Game ID e depois, por exemplo, costuma
+haver este nome. Todas, ou seja, todas as imagens,
+
+
+todos os posters têm este nome. O que estão é em
+diretórios diferentes e algures aqui atrás leva
+
+
+o diretório do do Game ID. OK. que é o que
+está aqui. Eu aqui estou a construir o URL.
+
+
+Ele está aqui neste neste CDN, neste neste
+site que é uma uma base de dados de conteúdos
+
+
+barra Steam/apps barra game ID barra image
+name barra porque aqui tem tem barra OK
+
+
+sim senhora
+
+
+destination Onde é que eu vou salvar? Vou
+salvar no meu diretório de imagens de
+
+
+images que está aqui. Eu tenho aqui um
+image e depois também daqui a bocado
+
+
+vamos ter outro header image, que
+são as imagens mais pequenas.
+
+
+E agora eu aqui vejo se o ficheiro
+que eu quero salvar, o image file.
+
+
+já existe. Caso contrário, então eu vou
+tentar vou vou vou fazer o download dele. Cá está.
+
+
+OK. o que acontece aqui é que eu tenho tenho
+um campo que me vai dizer se eu fiz o download ou
+
+
+se ou se o póster já existia ou se deu erro ou se
+deu erro no download. Ele aqui as imagens já estão
+
+
+todas carregadas, portanto não, ele ele vai dar
+OK que já existem todas, mas pronto, vocês confiam
+
+
+que isto funciona. Eu fiz isto recentemente e
+ele foi buscar as imagens que estavam em falta.
+
+
+Assim vai ser mais rápido que elas já existem
+todas. Eu tenho aqui um options warn que é para
+
+
+suprimir quaisquer warnings que warnings quando
+ele vai tentar obter uma imagem e não consegue
+
+
+lá ver aqui
+
+
+result
+
+
+result not found. Ok, eu fiz aqui um bug.
+Introduzi aqui um bug. Deixa-me lá tentar
+
+
+ver se eu consigo corrigir
+isto. Ora, Steam download images.
+
+
+Ora result.
+
+
+Onde é que tenho? Tenho para aqui algures
+um result, uma variável result que está perdida.
+
+
+Onde é que isto está?
+
+
+Deixa-me executar isto. Linha a linha.
+Tenho aqui os games. Eu posso executar
+
+
+agora aqui linha à linha. Ora temos
+aqui games total OK 181 games result
+
+
+aqui. Ora games result. ok, ele criou
+
+
+uma nova coluna. Olha isto aqui até está repetido.
+Olha estava distraído. Esta linha está repetida. Ok.
+
+
+E agora entra por aqui no loop. Vamos pegar aqui
+num exemplo. Pode ser este número igual a 10.
+
+
+Ora, Game ID.
+
+
+Ok. Name, OK. Name, cá está. Lost
+Planet. Image file. Image file,
+
+
+que é como eu vou salvar lost planet
+extreme condition. O Game ID 6510, o URL
+
+
+image name not found. Ah, porque eu não
+passei o image name. OK. Ora, image name
+
+
+é um parâmetro passado aqui.
+
+
+Bem, assim também serve para vocês dar uma 
+ficarem com uma ideia como eu faço debugging,
+
+
+OK? Estou a fazer o debugging de uma função. Eu entro
+na função, eh, executo a função desde dentro, eh,
+
+
+os parâmetros, atribuo valores aos parâmetros
+e pá, e e testo linha à linha. Não tem mais
+
+
+segredos. Aqui não é preciso fazer debug. Aqui
+não. Eh, acho que existe uma forma de fazer
+
+
+debugging aqui, mas eu nunca uso. Porque
+é uma linguagem interpretada. Eu executo linha
+
+
+a linha e chega. Pronto, aqui o image name.
+Pronto, vamos voltar aqui onde estávamos.
+
+
+Ora, estávamos aqui. OK, o URL. OK, tem o este
+é o URL que ele vai que ele vai buscar. Ora,
+
+
+vamos ver se existe este URL. Vou pôr aqui
+o URL. Ora, vou capturar aqui com o rato.
+
+
+OK. Copy. Vou aqui ao browser.
+
+
+Cá está. E existe o póster do
+jogo aqui. Estão a ver? Perfeito.
+
+
+Ora, destination.
+
+
+Ora, destination. Cá está. A folder
+image Lost planet extreme condition. Tal tal. Ora,
+
+
+if games aqui result e file exists destination
+games result num exists. Vamos ver aqui.
+
+
+Ok. Ah, é este result aqui que não que não que
+não. Ok. Porque é este esta variável aqui
+
+
+resulta que ele falhou. Onde eu aqui estava a pôr o caso
+result. Ok. Porque eu eu eu mexi nesta função
+
+
+há pouco tempo. Ora, então o que é que nós temos
+aqui? Temos o result aqui already existe aqui uma
+
+
+variável result. Ok, então vou pôr aqui. Eu vou pôr
+aqui, vou voltar a pôr como estava. Result result
+
+
+igual a a branco. OK. Não, não preciso disto. Eu
+aqui posso pôr simplesmente o result num. Ok.
+
+
+parvoice, deixar como estava. Eh, eu
+simplesmente tenho que pôr este aqui,
+
+
+é o games result, que é o que é
+o que eu acabei de assignar. Ok,
+
+
+exato.
+
+
+OK. Ora, downloading imagem
+10 181. Save to condition. Ora,
+
+
+Pronto. Ok, então já está.
+
+
+Mas agora tenho que vou salvar.
+E aqui diz source on save,
+
+
+que é para ao salvar ele faz o reloading das
+funções, que é para ficar a função atualizada,
+
+
+OK? senão não ficava atualizada, senão ela
+aqui tinha a função carregada em memória e
+
+
+iria continuar a carregar a função antiga.
+Pronto, agora eu já fiz o reload da função. Pronto,
+
+
+e agora cá está, foi rápido. E agora
+ele meteu-me aqui um campo result,
+
+
+que eu posso vir aqui o result, vou ordenar aqui por
+result. Já ordenei. Eh, e portanto já ora already exists
+
+
+todas. Só há aqui dois que falham porque não
+têem posters. OK. Pronto. Vocês acreditam que ele
+
+
+faria o download, porque ele faz o download
+das imagens em falta. Eu podia apagar agora
+
+
+aqui uns posters, não vou para não estar a perder
+mais tempo. Apagava aqui uns quantos posters e ele
+
+
+fazia o download. OK. E depois eh, para aqueles
+jogos os quais ele não tinha encontrado o póster,
+
+
+eu ia fazer uma segunda tentativa, buscar
+uma alternativa que é aqui com o header, ou seja
+
+
+às vezes há alguns jogos que ele não tem debaixo
+deste nome, mas tem debaixo deste outro nome com
+
+
+um é um posterzinho mais comprido. Normalmente a
+ideia que eu tenho é que aqui é um póster ao alto,
+
+
+que é o 600 900. E aqui o header é um póster
+em em landscape. É um póster mais pequeno em
+
+
+landscape. Pronto. E download header image é
+similar, não vou estar agora a mostrar,
+
+
+é a mesma coisa. Simplesmente baixa.
+A diferença do algoritmo é que baixa,
+
+
+baixa apenas o estes headers. OK? E vou-vos
+só mostrar aqui a a folder, já agora,
+
+
+para vocês verem, para vocês verem que eu tenho lá
+os meus pósteres todos. Ora, aqui na linguagem R,
+
+
+API,
+
+
+Steam Image. OK, cá está. Eh, portanto, tenho
+aqui, cá está, estes são alguns que só aparecem
+
+
+em landscape, mas a maior parte deles aparece
+ao alto. São os pósters normais. OK, pronto,
+
+
+aqui está os pósters dos meus jogos. Tenho aqui,
+até tenho 197. deve ter aqui alguns pôsters de
+
+
+lixo, talvez a mais, já não me recordo. OK, mas
+portanto, como estão a ver, ele eh tem os pósters.
+
+
+Ora bem, e estamos quase a chegar ao fim. Eu
+vou simplesmente mostrar aqui agora uns gráficos
+
+
+mais sofisticados, onde eu vou aqui mostrar um
+gráfico que onde eu quero listar os meus jogos
+
+
+por metacritic scores. Ou seja, eu quero ter uma
+ideia quantos jogos bem classificados eu jogo,
+
+
+ou seja, à partida considerados bons jogos
+e quantos jogos mais fraquinhos eu jogo. OK?
+
+
+Então temos aqui, ora scores as numeric que por
+acaso já está como numéric. OK, as numeric. Eh,
+
+
+vou eliminar os scores que que estejam a zero
+porque quer dizer que porque não são jogos que
+
+
+não têm classificação no metacrític,
+portanto não interessa agora estudar
+
+
+porque eu esses não não posso avaliar,
+OK? Porque não têem classificação. OK.
+
+
+Quantos jogos eu fiquei? Ora, onde é que isto
+está? Scores. Scores, scores diferente de zero.
+
+
+Ah, ok. Eu estou, eu estou tenho um vetor de
+scores. OK. Tenho um vetor de scores que está,
+
+
+onde é que ele está? Aqui com 115. Portanto,
+
+
+115 jogos. Dentre os meus 181 jogos,
+eles têm a classificação metacrítica. Eu
+
+
+agora faço um histograma. Eu aqui estou para fazer
+o histograma. Estou a fazer um um é uma função
+
+
+minha, é uma função que está no meu package, mas
+pronto, é um histograma normal por scores. Pronto,
+
+
+cá está. Está aqui os scores aqui ficam com uma
+ideia mais ou menos. OK. E há aqui um jogo muito
+
+
+fraquinho que eu jogo. Fraquinho em termos de
+classificação metacrític. Eu até posso gostar
+
+
+muito do jogo, não é? Estou só a dizer, mas
+em termos da avaliação, ele está mal avaliado,
+
+
+mas a maior parte dos jogos que eu jogo ou
+que eu tenho na minha coleção estão realmente
+
+
+eh com a partir do desta classificação e
+alguns jogos que eu tenho com muito boa
+
+
+classificação como estão aqui. Pronto. E pá,
+isto é só é só para efeitos de demonstração,
+
+
+como vocês estão a ver, para ficarem com uma ideia
+de coisas que aspectos que nós podemos explorar.
+
+
+Tenho aqui um barplot normal que é similar
+a este que é feito com a linguagem base. Eh,
+
+
+e agora vou fazer também aqui um bar plot com
+eh com o plotly, OK? São formas alternativas de
+
+
+obter a mesma informação. Ver que ela vai gerar
+aqui. Pronto, cá está. É simmilr a mesma coisa.
+
+
+E agora quero ver. Já, já vi os meus jogos por
+por classificação. Agora quero ver os meus jogos
+
+
+por ano. OK, pronto, é similar. Vamos andar
+aqui mais rápido. Ora, cá está. Os jogos mais
+
+
+antigos que eu tenho, pelo menos, é são de
+2004. Eu acho que tenho coisas mais antigas,
+
+
+mas provavelmente eh não tem a classificação.
+Não tem. Deixa ver aqui se eu aqui não. Eu aqui
+
+
+já não estou a entrar com a classificação.
+Estou a entrar com dates. Deixa ver quantos
+
+
+qu em quantas dates ele aqui considerou.
+178. Ah, bom. Posso estar a fazer confusão,
+
+
+mas iria jurar que teria alguns jogos mais antigos
+que 2004. pronto, esta parte aqui é similar.
+
+
+Aqui é similar.
+
+
+Agora, display games by year. Display games. Ah,
+isto aqui é um display. É um display aqui. Pronto,
+
+
+é um display aqui em texto. E agora vamos ver
+uns gráficos mais sofisticados. Estes sim,
+
+
+mais sofisticados, onde eu quero Steam Plot
+Games by Score. OK. Eu aqui não vos estou
+
+
+a mostrar as funções aqui neste caso.
+Bem, este aqui não tinha este aqui. Eh,
+
+
+plot games by score. Eh, posso
+mostrar esta função já agora?
+
+
+Ora,
+
+
+plot games by score.
+
+
+Ora bem, cá está. Portanto, eu estou a considerar
+jogos que tenha o score, que tenha score maior que
+
+
+zero e que tenha alguma data. Eu quero que tenham
+data, caso contrário, é, são eliminados. Eh, e
+
+
+vou aproveitar aqui apenas o nome do jogo, a data
+e o score, a classificação. OK. eh complete cases.
+
+
+Portanto, eu quero eh algum que se  faltar
+algum campo, se algum campo não estiver preenchido
+
+
+destes campos para os vários registros. Esses
+registros são eliminados, não são considerados.
+
+
+É o que faz o complete cases. Eh, converto a data aqui
+para numérico, que é o ano. Faço aqui um gráfico
+
+
+e depois tenho aqui uma coisa sofisticada, esta
+sim, que é o repel. Pronto, o repel apply gitter.
+
+
+Ah, ok. Porque eu estou aqui a obter, eu estou
+aqui a obter por dois dois dois formatos. Eu
+
+
+estou a obter aqui o por dois gráficos em
+paralelo para nós compararmos. Tenho com
+
+
+ggplot e tenho com plotly. Só que o que aconteceu
+nestes gráficos é que nós vamos ter alguns jogos
+
+
+foram lançados no mesmo ano e calhou terem a mesma
+classificação do metacrítico e então os pontos no
+
+
+gráfico depois ficam sobrepostos. E então o
+que é que acontece? Para isso, aplicamos uma
+
+
+metodologia que é muito comum em data science,
+que é o jittering. E o jittering o que faz é que seja
+
+
+de uma forma mais manual ou mais automática, ou
+seja, recorrendo a algum package, alguma função,
+
+
+o que vai fazer é que esses pontos que estão
+sobrepostos vai afastá-los ligeiramente para perde
+
+
+um bocado de precisão, mas mostra-nos o cluster,
+digamos assim, que nos permite ter uma ideia e
+
+
+realmente não sermos confundidos por por pontos 
+duplicados. OK? Não sei se eu me explico. No caso
+
+
+do GGPlot aqui, ele tem uma função que é o repel
+que faz o jittering automático. No caso do plotly,
+
+
+eu próprio apliquei aqui um jittering onde eu
+calculo quais os duplicados por data e score.
+
+
+E para todos esses pares de duplicados, eu
+vou aplicar um fatorzinho aleatório, que é
+
+
+para afastar os pontos, OK? A nível de de aqui a
+nível do score, eles ficam um bocadinho afastados
+
+
+no eixo dos scores e também um bocadinho afastado
+no eixo das datas do year. OK? Pronto, o importante
+
+
+é vocês fiquem com uma ideia, como eu já vos disse
+nos outros tutorials. Aqui a ideia a minha ideia é
+
+
+passar-vos os conceitos, porque o resto não 
+interessa explicar aqui linha à linha, porque
+
+
+isso não tem interesse vocês não compreenderem
+o conceito. O que interessa é que vocês percebam
+
+
+afinal para que serve este jittering, que de hoje
+para amanhã vocês quando estiverem a fazer um gráfico,
+
+
+tenham cuidado e avaliem se não têm pontos
+sobrepostos e se realmente isso possa possa
+
+
+impactar na análise do gráfico. E então para
+isso vocês precisam de aplicar um jittering
+
+
+para afastar os pontos que estão sobrepostos. OK?
+Pronto, basicamente é o que está aqui. Portanto,
+
+
+vamos fazer essa parte agora. Esse gráfico,
+ele vai gerar dois gráficos. Cá está. Ora,
+
+
+cá está. Ora, o primeiro, pronto, o primeiro
+que temos no plot tem o jittering automático,
+
+
+que é com feito com o ggplot. E, portanto, eh,
+deixa-me ampliar aqui um bocadinho. Pronto. Eh,
+
+
+aqui há alguns aspectos que eu não gosto muito
+da forma como eu fez este automatismo, que é onde
+
+
+ele coloca e os labels, o nome do jogo, porque
+ora coloca aqui em cima, ora coloca por baixo
+
+
+do ponto, eh, ora aqui coloca por cima do ponto e
+pá, essa parte não acho que não está muito famoso,
+
+
+mas pronto. Então, este gráfico, como
+estão a ver, nos dá ao longo dos anos,
+
+
+me dá uma panorâmica de jogos com classificações
+elevadíssimas que eu tenha jogado ao longo dos
+
+
+anos. Por exemplo, imaginem que aqui eu joguei
+o Bioshock. Quer dizer, em princípio joguei,
+
+
+ele está na minha coleção, não é? Eu aqui apenas
+estou a avaliar os jogos que eu tenho. Eu não,
+
+
+eu não estou a Agora imaginem, vocês poderiam
+fazer um outro gráfico parecido com este,
+
+
+mas avaliando sim o tempo que vocês tinham jogado
+o jogo. OK? Pronto, que mais uma vez digo, isto é
+
+
+um para vos dar dicas de áreas que vocês podem
+explorar, OK? Aqui é simplesmente uma análise
+
+
+simples dos jogos da minha biblioteca, quando aqui
+tenho jogos bem classificados ao longo dos anos e
+
+
+ao longo dos anos, portanto, tem sido sistemático
+que eu tenho um conjunto de jogos que eu tenho
+
+
+adquirido bem classificados. se bem que a partir
+daqui eh nos últimos anos tem faltado, nos últimos
+
+
+anos isto tem estado um bocadinho mais fraquinho.
+Eh, aqui como vem aqui a partir de eh eu aqui não
+
+
+dá bem o ano, mas isto deve ser para aí 2017. Eh,
+tem estado um bocadinho fraco a nível de jogos de
+
+
+excelência. Se bem que há aqui alguns jogos que
+eu considero espetaculares, como o Titan Fall 2,
+
+
+por exemplo, que está aqui. OK. E agora vamos ver
+eh vamos comparar aqui com o a parte o plotly que é
+
+
+dinâmico, como nós já sabemos. está aqui no viewer
+o plotly. OK. Estava a ver se e se dava para obter
+
+
+dois zooms em paralelo. Por acaso até acho que
+dá. Tenho aqui este e tenho este aqui. Ou seja,
+
+
+porque um é o plot zoom e o outro é o é o plotly
+zoom. Como um é dos plots e o outro é do viewer,
+
+
+eh, dá para obter em paralelo. Portanto, este é
+o plotly. Eu gosto mais, desde logo, porque tem
+
+
+os pontinhos aqui azuis. se bem que o outro também
+daria para pôr eventualmente, mas é o que eu ele
+
+
+não pôs, mas o plotly como é interativo, é mais
+rico e foi onde eu lhe apliquei o jittering eh
+
+
+manualmente, não é? Eu próprio criei as funções.
+OK. Eh, vou então fechar aqui este e vamos abrir
+
+
+aqui. Pronto. Por exemplo, imaginem que aqui
+estes pontos deviam estar sobrepostos, estes
+
+
+três pontos. E eu afastei-os aqui um bocadinho
+para podermos ter a noção que temos aqui três
+
+
+pontos. Por exemplo, estes aqui ficaram mesmo com
+o aleatório, ficaram muito pertinho um do outro,
+
+
+estão quase sobrepostos, mas mesmo assim dá para
+ver claramente que estão a vir dois pontos. OK?
+
+
+Pelo menos é é um conceito interessante para
+quem nunca tinha ouvido falar nesta questão do
+
+
+jittering. E é sempre mais uma mais valia, ou seja,
+mais um cuidado que terão se alguma vez fizerem
+
+
+gráficos deste tipo, scatter plots e que tenha
+possa ser importante distinguir os overlays. OK.
+
+
+Fechar aqui. Que é que temos agora
+aqui? Plotly games by play time. Olha,
+
+
+ok, agora é o by play time.
+
+
+Não vos vou mostrar isto aqui. Penso que não
+vale a pena agora mostrar a função. É há de ser
+
+
+similar à outra. Ah, vamos ver. Já agora, vamos
+ver. plotly by play time. Deixa lá mostrar.
+
+
+Ora, é uma função mais pequenina, cá está.
+Eh, tem que ter um playtime forever maior
+
+
+que zero. Portanto, só só vão aparecer jogos os
+quais eu já joguei. Eh, OK. Complete cases. E
+
+
+depois tem um simples plotly, tem a por data
+playtime forever do eixo dos Y. Ah, ok.
+
+
+E nada, é, por acaso, é uma função
+bem pequenina, OK? Bem simples,
+
+
+recorrendo ao plotly e vocês dizem:
+"Aqui não haverá jittering?". Não, não,
+
+
+aqui não haverá jittering porque aqui só por uma
+grande coincidência é que eu tinha dois jogos
+
+
+e tinha jogado exatamente o mesmo número de
+horas e minutos. Portanto, à partida aqui não
+
+
+haverá necessidade de fazer aquela aquela aquele
+processamento. Ora, fazer aqui zoom. OK. Portanto,
+
+
+à partida aqui não haverá essa necessidade. Eh,
+pronto, cá temos aqui temos por ano, os jogos
+
+
+por ano e realmente por por tempo. O tempo jogado,
+Half Life 2, os meus jogos mais jogados, Overlord,
+
+
+os jogos que eu mais gosto, Spacechem , Infinifactory, Farcry Primal, Opus Magnum, Northgard. Pronto,
+
+
+eu podia pôr aqui as labels, OK? No, no outro
+gráfico que vimos há bocado tinha as labels. Eu
+
+
+aqui não pus as labels. OK, também se podia pôr.
+Talvez ficasse bem as labels diretamente aqui. OK.
+
+
+Ah, e pronto. E agora temos o Steam Save Games
+List. Agora eu faço, eu salvo, salvo aqui uma,
+
+
+uma lista dos meus jogos, imaginando que eu
+quero produzir um PDF ou emendar, enviar a lista
+
+
+a alguém. Alguém me dizia assim: "Olha, envia-me
+a lista dos teus jogos". Eu podia podia vir aqui.
+
+
+Eu podia vir aqui e recorrer aqui. E aqui posso
+salvar. Ele produz aqui no viewer uma tabela de
+
+
+HTML com os meus jogos. Eh, tem a classificação do
+do Metacritic, data de lançamento, application id.
+
+
+Eh, mas mais interessante é esta que vem
+a seguir, que é o Save Games List full,
+
+
+que tem também os links para store, o Store page.
+OK? Entretanto, ele gravou-me, gravou-me este,
+
+
+gravou-me no meu disco rígido a minha lista que
+está aqui a dizer games list saved to games HTML. OK,
+
+
+podemos dar uma vista também na
+função. Ora, Steam save games list.
+
+
+Steam saves games list está aqui. Portanto, aqui
+tem, eu tenho os steam get html table. Steam get html
+
+
+table. Ok, portanto cá está. Eu estou a construir
+o HTML, um pedaço de HTML. Eu uso aqui um package
+
+
+que é o kable extra, que serve precisamente
+para isso. Ajuda a formatar uma tabela de HTML.
+
+
+kable styling. Pronto, não vou estar aqui a
+explicar isto. Isto só isto daria um outro
+
+
+tutorial, como é óbvio. Imaginem, porque o
+poderio do R é tal e a complexidade de
+
+
+todos os packages, pois só a cada package
+pois daria um tutorial, não é? Pronto,
+
+
+isto é só para vos dar um lá-mi-ré  mas pelo menos eu
+tenho aqui o cuidado de vos deixar as funções aqui
+
+
+à vista para quem queira ver depois estudar mais
+pormenorizadamente o código, OK? Eh, e portanto
+
+
+onde é que nós estávamos? Steam save games list.
+
+
+Estávamos aqui. OK. Foi obter a tabela e depois
+faz um o print do HTML. que aparece aqui
+
+
+no viewer. Agora estou a fazer um destination e
+depois um kable extra save kable vou gravar o
+
+
+HTML que é o HTML mesmo que  está formatado HTML
+no Destination e o full o full é é similar só que
+
+
+vai ter mais campos vai ter um um posterzinho,
+uma imagem vai ter um link para para o store. OK.
+
+
+Aqui é igual Steam get HTML table. Eh, e
+agora estou a acrescentar, salvo erro, estou aqui a
+
+
+acrescentar algumas colunas na tabela do HTML que
+ele construiu, que é o link para a imagem 
+
+
+a própria imagem. Eh, salvo erro. E aqui os
+já não me recordo bem disto. É, pronto,
+
+
+é como vos digo, eu faço tanta coisa que pronto. E
+depois ao fazer o tutorial eh, às vezes já já não
+
+
+me recordo muitas das coisas que fiz, mas pronto,
+vale o que vale. O importante é como digo, é
+
+
+passar-vos as ideias, os conceitos do que é que se
+pode fazer e dar-vos algumas ideias e inspiração.
+
+
+Se vocês quiserem explorar, terão que explorar as
+coisas por vocês próprios, porque também é a única
+
+
+maneira de da de aprender. E hoje em dia também
+com a ajuda do chatgpt , é muito mais
+
+
+fácil hoje em dia o mundo da programação. Ora, já
+nem me lembro o que é que isto faz agora. Pronto, depois
+
+
+eu salvo salvo a lista. Eh, mas ele já acabou ou
+não? ele, plots, viewer. Ah, só que ainda não executei
+
+
+plotly games. Ora aqui deve ser esta aqui. Eu ainda
+não devia ter executado. Deixa lá ver agora.
+
+
+Só se ele não mostra que não.
+Eu acho que ele mostrava aqui.
+
+
+É estranho.
+
+
+plots presentation viewer. Deixa ver se ele salvou.
+Posso estar a fazer confusão. Posso estar a fazer
+
+
+confusão. Open view in web browser. Ah, ok. Ele
+não salvava ali localmente. Já não me recordo. Ele
+
+
+simplesmente ele ele grava a página, mas depois
+temos que abrir no browser. Cá está. Pronto,
+
+
+cá está aberto no browser. Aqui tenho uma lista de
+HTML com os meus jogos todos. Eh, a ordem não está,
+
+
+acho que não tem ordem nenhuma, é à toa ou é a
+ordem alfabética. Ah, e depois tem um link para o
+
+
+store page. Vamos ver, por exemplo, aqui pegar
+aqui num jogo qualquer. Bioshock. Vou clicar
+
+
+e ele vai para o store page Bioshock. OK. Eh,
+e pronto, eh, dou por terminado este tutorial.
+
+
+Eh, espero que tenha sido interessante para vocês.
+Vimos alguns tópicos novos, vimos aprofundamos um
+
+
+bocadinho a temática dos packages, como gerir os
+packages, como podemos carregá-los e instalá-los
+
+
+a partir do GitHub, a problemática das livrarias,
+o cuidado a ter com o com o cuidado se caso haja
+
+
+packages com o mesmo nome, eh é possível trabalhar
+com eles, gravá-los em livrarias diferentes, mas
+
+
+só poderemos fazer o o carregamento de um deles,
+um de cada vez, embora Ora, possamos instalar
+
+
+mais que um, desde que em livrarias diferentes.
+Vimos a parte do jittering, também é interessante
+
+
+e depois vimos um aqui este package um pouco mais
+ou mais ou menos um pouco com um pouco de detalhe.
+
+
+Eh, vimos como é que um package tão simples e
+simples em termos do número de de funções. Era
+
+
+um package com cerca de uma dúzia de funções. Eh,
+e não exploramos secalhar nem metade porque houve aqui
+
+
+toda uma série de tópicos novos que eu nem explorei
+e como o Game Price e achievements e as
+
+
+novidades novidades do jogo e user estatístics,
+etc, etc. Exploramos as coisas mais simples, os
+
+
+amigos, o profile, os jogos, o recent games, eh, e
+pronto. E de mais ou menos um lá miré do que é que
+
+
+se pode fazer aqui. depois tem aqui muita, muita
+mais e detalhe que já foi programado por mim, como
+
+
+ir buscar as imagens, salvar as imagens no disco,
+eh,  trabalhar a minha base de dados,
+
+
+produzir produzir as listagens de HTML, etc, etc,
+etc. Pronto, o fundamental que vocês vejam o que
+
+
+é que se pode fazer. E a partir daqui eh tem pano
+para mangas para que vocês estiverem interessados,
+
+
+pois tem aqui muita coisa para explorarem,
+como vários dos packages que nós vimos aqui,
+
+
+como o kable Extra. Eh, tem aqui, como vêem,
+muita coisa para explorar e, mas acima de tudo
+
+
+querer também partilhar convosco e mostrar-vos
+o tremendo potencial que é a linguagem R e o R
+
+
+Studio que são muito user friendly e o poderio, o
+poderio realmente do R da da dos seus packages. OK?
+
+
+Eh, é como vos digo, o R é comparável ao
+Python, até usado para muito muitas vezes
+
+
+e alternativamente pode-se usar um ou outro.
+Eh, eu, por uma questão de gosto pessoal,
+
+
+gosto mais da da linguagem R. Eh, gosto mais da
+linguagem R, da sintaxe, da forma da forma de de
+
+
+de programar do que do Python. E também gosto mais
+do RStudio IDE, porque é que acho que é realmente
+
+
+é fabuloso. E despeço-me. Espero que tenham
+gostado e até um próximo tutorial. Obrigado.
+
+

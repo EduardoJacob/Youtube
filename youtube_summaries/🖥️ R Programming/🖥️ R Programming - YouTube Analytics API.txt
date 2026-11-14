@@ -1,0 +1,11 @@
+🖥️ R Programming - YouTube Analytics API
+1. Uso das APIs do YouTube no R (Data API e Analytics API)
+2. Implementação dos pacotes `tuber` e `ytanalytics`
+3. Configuração de autenticação OAuth para múltiplas APIs
+4. Extração de dados de visualizações, playlists e vídeos
+5. Utilização de Inteligência Artificial (ChatGPT e Gemini) no desenvolvimento
+6. Correção de bugs relacionados ao download de thumbnails
+7. Visualização de dados com gráficos acumulados em R
+8. Uso de Addins e extensões do RStudio (ex: Case Converter)
+9. Dicas de produtividade no RStudio (Command Palette, Print Screen)
+10. Gestão de versões do R e dependências dos pacotes

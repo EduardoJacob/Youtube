@@ -1,0 +1,2068 @@
+
+Ora, sejam bem-vindos a mais um tutorial
+de programação em R com RStudio. Hoje vai
+
+
+ser dedicado ao ao produto ConfyUI, OK? Já o vamos
+ver, um produto para na área da da inteligência
+
+
+artificial generativa de imagens, vídeos, etc,
+etc. Eh, e vamos fazer aqui uma integração com com
+
+
+a linguagem R, com o RStudio. OK? Ora, hoje tenho
+um guião, mas o guião hoje é mesmo muito simples,
+
+
+porque eu fiz este tutorial está a ser muito
+próximo do anterior. Portanto, o anterior tinha
+
+
+vários tópicos novos, enquanto que hoje não tenho
+assim nenhuma novidade especial para além de desta
+
+
+integração que hoje vou mostrar. No entanto,
+pus aqui uma nota que queria eh voltar a dar
+
+
+uma passagem eh voltar a fazer uma abordagem sobre
+o meu o último tutorial de YouTube downloads. Ah,
+
+
+porque pronto, estive a melhorar um bocadinho esse
+código. Eh, eu queria-vos mostrar como como é
+
+
+que ficou. OK. Ora, aqui tenho o projeto aberto
+do YouTube. Eh, não deixem de ver todos os meus
+
+
+tutoriais anteriores, como é óbvio, desde desde
+o princípio, porque isto está há uma certa ordem,
+
+
+mas neste caso em particular, não deixem de
+ver o meu tutorial anterior. A, e de facto
+
+
+o que vamos, o que eu tenho aqui agora é a fiz
+aqui algumas melhorias, criei novas funções,
+
+
+que já vamos ver, já vamos ver
+que melhorias foram. OK. Ora,
+
+
+este era um package que eu estava a tentar, eu
+estava a tentar trabalhar com este package, mas as
+
+
+coisas não, não, não estou a conseguir. Eh, que é
+um package que deveria interagir eh usando a API e
+
+
+para aceder à plataforma de Genius que contém
+as lyrics das músicas. OK? Portanto,
+
+
+eu estava a tentar integrar aqui essa parte das
+lyrics e eventualmente eu poderia injetar as
+
+
+lyrics dentro das músicas, mas essa área ficou
+em standby porque não não estou a conseguir pôr
+
+
+isto pôr isto a funcionar. Ora bem, mas eh como
+estamos a ver, temos aqui eh as funções e e tenho
+
+
+aqui tenho aqui um conjunto de funções novas
+que eu que eu criei que eu criei eh para arrumar
+
+
+a casa, basicamente em relação ao que tínhamos
+anteriormente e também fiz alguns corrigi alguns
+
+
+bugs. E então temos a estas funções que estão
+aqui, download, download from YouTube. OK. Ora,
+
+
+sim, senhor. Então, o que é que nós temos aqui?
+O que é que o que é que eu mudei aqui? Pronto,
+
+
+o que mudei foi o seguinte. Portanto, eh, em vez
+de ter um conjunto de variáveis soltas com o nome
+
+
+da music folder, do álbum, do artista, etc,
+etc., portanto, vou vou criar uma estrutura,
+
+
+um data frame aqui, que é o download. E é
+sempre essa mesma estrutura que vai sendo
+
+
+passada pelas diversas funções.
+OK? Pronto. Então, sendo assim,
+
+
+eu vou criar a estrutura para para criar um
+processo de download, onde eh o único parâmetro
+
+
+que eu tenho que lhe passar é qual é onde está a
+minha music folder. OK? Pronto. Eh, sendo assim,
+
+
+cá está. Pronto, ele agora arranca e ele
+agora pede-me as informações que básicas,
+
+
+como já vimos no meu último tutorial,
+começa por pedir um YouTube URL. OK. Eh,
+
+
+eu vou buscar aqui um YouTube URL qualquer.
+Deixem-me posicionar aqui no browser.
+
+
+Ora, deixa ver o que se eu
+encontro aqui alguma coisa
+
+
+para já. Deixa-me abrir aqui
+também aqui esta folder.
+
+
+Deixa-me abrir também aqui esta folder.
+
+
+Ora, OK. Isto há uns downloads que eu já tenho
+feito. Sim, senhor. Portanto, no tutorial anterior
+
+
+já expliquei que havia três tipos fundamentais
+de downloads. Poderia ser uma música individual,
+
+
+poderia ser uma uma música, que isto é que é
+um vídeo, mas que depois é extraída uma música.
+
+
+poderia ser um vídeo com capítulos, do
+qual depois é extraído as várias faixas,
+
+
+uma faixa por cada capítulo. Eh, ou poderia
+ser uma playlist. Pronto, mas havia aqui alguns
+
+
+bugs. No no caso de, por exemplo, de uma música
+individual e havia aqui um bug porque os nomes,
+
+
+o nome da folder não estava bem a ser passado
+depois para o nome do tema. Eh, e essa essa
+
+
+parte a partir daí se foi tudo corrigido. E
+agora vou fazer como um exemplificativo, vou
+
+
+fazer uma uma música sozinha. OK? Eh, portanto,
+deixa-me aqui ir aqui ao browser, ao YouTube.
+
+
+Ora,
+
+
+deixa ver aqui. Aqui alguma coisa que eu ainda
+não tenho. OK, fazer um exemplo qualquer. Pronto,
+
+
+vou fazer este exemplo aqui. Pronto,
+uma música individual. OK. Eh,
+
+
+posso entrar? Posso clicar ou ou
+posso pronto, o mais simples é clicar.
+
+
+OK. Pronto. Copiar o copiar o link. Não tenho
+que me preocupar. Por exemplo, aqui o link tem
+
+
+uma lista porque ele faz parte de uma lista, mas
+eu não tenho que me preocupar com isso. Isso vai ser
+
+
+filtrado agora automaticamente. OK. Só tenho
+que pôr aqui o URL. OK. Ele agora vai aceder.
+
+
+a API do YouTube para pedir informações sobre
+sobre este sobre este link, OK? Ele vai pedir
+
+
+dados e nomeadamente o um póster. Claro que
+aqui não há póster porque isto não é nenhum
+
+
+álbum oficial. Eh, portanto aqui não haverá
+aqui pelo não me vai dar nenhuma capa de um
+
+
+álbum porque isto é um tema individual
+feito feito com inteligência artificial.
+
+
+Eh, ele sugere-me, portanto, cá está, dá-me
+este póster. Pronto, é, é o póster do vídeo,
+
+
+mas não não corresponde a nenhum
+poster de música. OK. Ora,
+
+
+aqui ele tenta sugerir qual o nome do artista.
+Sim, senhor. Está correto. Ele apanhou isto alguns
+
+
+na descrição do vídeo. Eh, o nome do álbum
+name. OK, pronto, que eu corrijo, dou-lhe o
+
+
+OK.
+
+
+Sim, senhora. Pronto. E com isto já tenho
+a estrutura, a estrutura download. Ok,
+
+
+cá está ela que é a estrutura eh que tem todos
+os dados que eu que eu que eu possa precisar
+
+
+aqui. Portanto, ele tem a Music Folder, o YouTube
+URL, tem o o tipo de o tipo de link é um vídeo,
+
+
+portanto é um é um vídeo isolado, o artista álbum,
+a cover, OK? tem o URL para a cover, o álbum folder
+
+
+é a nomenclatura e o o novo diretório que eu vou
+criar, OK? Eh, e o output folder, portanto, o a
+
+
+parte a parte total e para o output. OK? Pronto.
+Sim, senhora. Portanto, esta é a primeira parte,
+
+
+como vem, pronto, isto é, portanto, as melhorias
+que eu que eu implementei. Portanto, criar uma
+
+
+estrutura, ter toda a informação aqui dentro do
+data frame. Pronto. E agora tenho aqui as funções
+
+
+eh mais isoladas e, portanto, mais compactas. O
+primeiro é o download from YouTube create folder.
+
+
+Portanto, ele aqui vai criar o a folder e também
+vai inicializá-la com o o póster e o TXT que contem
+
+
+o link do YouTube, tal como vos mostrei. OK, cá
+está. Podemos ir ver aqui o que é que ele criou.
+
+
+Ora, cá está. Criou isto aqui. Sim, senhor. Cá
+está. Pronto, já já tem uma capa e já tem eh o um
+
+
+TXT que tem lá dentro o link do YouTube para ficar
+como para memória futura, como documentado de de
+
+
+onde é que isto foi downloadado. De seguida,
+damos início ao download propriamente dito,
+
+
+usando o utilitário do do YT download, OK?
+Onde ele abre um terminal. Pronto, cá está.
+
+
+É só um tema, vai ser rápido. OK. Ele extraiu
+aqui, baixa o vídeo, depois extrai
+
+
+a música e depois apaga o vídeo. Sim, senhor. Já
+correu bem. Já tenho aqui o MP3. Eh, de seguida,
+
+
+claro que isto aqui, esta parte aqui, ela é
+assíncrona, portanto, eu tenho que esperar eh
+
+
+visualmente. OK. Eu aqui não implementei aqui não
+implementei um sincronismo para para para criar um
+
+
+compasso de espera automático para passar à fase
+seguinte. OK. Eventualmente daria para fazer de
+
+
+alguma maneira. Não se me ocorreu fazer
+isso. Ah, também de modo geral é é melhor fazer
+
+
+isto de uma forma manual e compassada, porque
+às vezes pode haver algum erro, etc, etc, etc.
+
+
+Isto também é uma coisa recente. É um código que
+eu fiz, é relativamente recente. Eu próprio tenho
+
+
+testado, já tivemos aqui uma contenção, por
+exemplo, que com o Megasync que ocorreu no da da
+
+
+última vez que eu que eu mostrei isto. Acho de vez
+em quando dá uma contenção. Mas ok, isso seria uma
+
+
+possibilidade, OK, de criar aqui um um automatismo
+para para estar à escuta e  detetar quando
+
+
+quando acabava todos os downloads para então para
+fazer um o automatismo total. Ora, de seguida,
+
+
+o que é que eu vou fazer? O mass rename, OK? aqui
+um mass rename também já tínhamos visto isto. Eh,
+
+
+só que não há nada para fazer rename porque cá
+está, porque o o mass rename que eu tinha da outra
+
+
+vez, quando eu baixava as músicas, elas começavam
+com a faixa número 1, 2, 3, 4 e depois eu fazia o
+
+
+rename e punha um prefixo atrás. Agora, como não
+não ocorre isto porque é uma é um tema isolado e,
+
+
+portanto, não há necessidade de de fazer o
+mass rename porque o tema isolado
+
+
+já foi criado com o nome definitivo. OK? Pronto.
+Portanto, isto isto é algumas para vamos mostrar
+
+
+algumas das melhorias que eu implementei. Esta
+parte agora fica, portanto, isto está mais está
+
+
+mais mais preciso. Está mais OK. Eh, finalmente
+também fiz a outra parte. Se bem se lembram,
+
+
+nós abríamos agora o utilitário do MP3 tag
+para injetar a imagem, a cover dentro do
+
+
+das músicas. Portanto, essa parte eu também
+consegui automatizar. Usei o FFM PEG. OK,
+
+
+não vale a pena estar aqui a mostrar código.
+Depois, se quiserem, baixem este projeto do do
+
+
+meu canal de GitHub. E, portanto, é o que ele vai
+fazer aqui, vai injetar a música. O cover. Digo,
+
+
+reparem que aqui eu aqui nos detalhes eu ponho
+aqui no MP3, não tem cá nada, mas agora vou
+
+
+vou injetar o cover dentro da música, OK? E outra
+coisa possível seria de injetar também e as lyrics,
+
+
+OK? Mas isso é um tema que eu tenho em standby,
+pode ser que futuramente eu ainda faça isso. Eh,
+
+
+para já vamos só injetar aqui a cover,
+OK? Inserting cover in. Ok. Sim, senhora.
+
+
+E pronto, cá está a cover.
+
+
+Eh, e pronto, mais nada. Pronto, só queria,
+basicamente era só para vos mostrar isto como
+
+
+ficou isto tudo. A casa arrumei a casa para
+basicamente, como estão a ver, há uma única
+
+
+linha onde eu peço todas as informações e
+depois há quatro passos. Há quatro passos,
+
+
+criar a folder e inicializá-la com a com uma
+cover e com um TXT, baixar as faixas, fazer
+
+
+um mass rename, quando for o caso, e finalmente
+injetar a cover para dentro das músicas. Pronto,
+
+
+basicamente foi isto que eu fiz, foi arrumei
+a casa eh e coloquei tudo dentro certinho aqui
+
+
+dentro. E como vêem de função para função,
+eh, não tenho que me preocupar qual é quais
+
+
+as variáveis que que cada função precisa. Eu
+passo-lhe toda a estrutura, todo o data frame,
+
+
+que é o download. E, portanto, esse data frame
+tem tudo quanto ele possa precisar. Já agora,
+
+
+há aqui uma coisa interessante que é como
+fazer um um desconstruct muito interessante
+
+
+que eu faço aqui dentro da das funções. Ah, se
+olharmos aqui às funções, OK, vamos ver aqui,
+
+
+por exemplo, aqui uma função, uma destas funções
+novas, um destes downloads, OK? Por exemplo,
+
+
+aqui. Então, o que é que acontece? Portanto,
+eu passo-lhe o data frame downloads. E agora,
+
+
+eh, vai haver um conjunto de variáveis que são
+necessárias aqui dentro. O, por exemplo, aqui,
+
+
+output folder, álbum folder, cover, etc, etc.,
+youtube_url, etc. Então, o que é que eu faço? em
+
+
+vez de estar em vez de estar aqui agora aqui e há
+várias hipóteses. Uma era aqui atacar diretamente
+
+
+e o data frame download aqui e por exemplo
+aqui punha o download e o nome do 
+
+
+do  campo dentro do data frame e eu punha aqui.
+OK? Ficava um código mais pesado. Outra hipótese
+
+
+seria aqui aqui à cabeça. Logo aqui na linha
+157 eu fazer o desconstruct. OK? E dizer, olha,
+
+
+álbum folder, se olharmos aqui ao aqui no data
+frame e dizer, por exemplo, olha, o album folder,
+
+
+ah, não é este, este é o é este aqui.
+
+
+Álbum folder é este aqui, está nesta linha. OK,
+então, OK, fazia o download entre parentesis retos,
+
+
+algum folder, etc, etc. Eh, e então descobri
+esta, descobri este statement. Acho que nunca
+
+
+tinha usado isto. Isto isto é, isto é brutal.
+Não há dúvida nenhuma. Já, já estou cansado de
+
+
+elogiar a linguagem R, linguagem de paradigma
+funcional. Isto tem estruturas completamente
+
+
+impressionantes. Portanto, o que faz este único,
+esta única linha ou o que faz é um desconstruct
+
+
+automático em que eh tenho, vou buscar os raw
+names  do data frame download, porque
+
+
+foi assim que eu criei o dataframe. Foi assim
+que eu eu quis criar o dataframe assim com uma só
+
+
+coluna para ser mais fácil ver aqui as variáveis
+e o as raw names no fundo o raw name eu quero
+
+
+que venha a ser o nome da variável portanto isto
+é um raw name mas que eu depois que eu quero
+
+
+transformar numa variável com o nome deste raw
+name uma variável chamada music folder igual
+
+
+a este valor ok não sei se me explico portanto
+isso é feito numa assentada dinamicamente numa
+
+
+única linha de código, onde eu ponho aqui eh o
+download. Download é a a coluna do data frame
+
+
+aqui que que se chama download. OK? as list.
+Estes serão os valores, os valores set names.
+
+
+E o e os nomes das variáveis será os raw
+names dessa desse mesmo data frame. Pronto,
+
+
+eu penso que ficaram com uma ideia do que é que
+isto se faz. Isto chama-se o o desconstruct, OK?
+
+
+O desconstruct é quando há uma separação do do do
+de uma estrutura para elementos individuais. OK?
+
+
+E eu para não andar aqui a com índices do
+data frame, com índice, eu aqui quis criar
+
+
+um conjunto de variáveis individuais fazendo o
+desconstruct aqui desde dentro deste data frame.
+
+
+Pronto, não sei se me explico, mas penso que
+sim. Mais ou menos ficaram com uma ideia. Pronto,
+
+
+foi uma funcionalidade nova que eu comecei a usar
+e quero ver se vou começar a usar mais, porque
+
+
+isto é é de facto espetacular e fica mais simples
+e obriga a uma padronização de código. Ou seja,
+
+
+quando eu crio a estrutura, reparem bem neste
+pormenor é que este é o fundamental e é isto é
+
+
+que faz uma boa programação, uma programação
+estruturada. É quando eu crio esta estrutura
+
+
+aqui com este data frame, OK? Eu tenho todas as
+variáveis possíveis que eu possa vir a precisar em
+
+
+todo o meu código. E eu ao ao pré-definir aqui
+com os raw names, eu vou criar um padrão que
+
+
+obrigo e digo toda a função que eu queira criar
+para trabalhar esta estrutura. É obrigatório que
+
+
+as variáveis sejam os nomes estas variáveis
+que já estão aqui pré-definidas. Portanto,
+
+
+aqui fixa o nome das variáveis, OK? E é isto é
+que cria a boa estruturação de código. Portanto,
+
+
+aqui não dá margem para a pessoa inventar. Porque
+aqui quando eu faço a função porque porque caso
+
+
+contrário, se eu não fizesse este desconstruct
+automático, eu chegava aqui nesta função e eu
+
+
+podia chamar os nomes das variáveis que quisesse.
+Eu podia chegar aqui e chamar a folder de saída e
+
+
+punha folder de saída igual a o o correspondente
+valor que estava lá dentro do data frame onde está
+
+
+o output folder e eu punha folder de saída. OK?
+e o mesmo para todas as outras variáveis. Ora,
+
+
+eu não quero isso, obviamente eu quero uma
+padronização, uma standardização. E a forma
+
+
+de criar a padronização para todo este código
+aqui, neste caso específico que eu que eu que
+
+
+eu fiz este script para downloads, a forma de
+criar a padronização foi criar uma estrutura,
+
+
+o data frame download e logo à cabeça defini todas
+as variáveis que eu possa vir a precisar, os seus
+
+
+valores e os nomes das variáveis. guardados dentro
+de uma estrutura, dentro de um data frame e depois
+
+
+vai-me obrigar obrigar porquê? Porque eu usei
+este desconstruct que vos expliquei efetivamente
+
+
+a usar o nome dessas destas variáveis. Pronto, mas
+agora penso que me terei explicado um pouco melhor
+
+
+e espero que vocês estejam a perceber realmente
+o que está aqui em causa. Não é só porque o código
+
+
+fica mais compacto, é uma forma de fazer um
+enforcing de naming conventions. OK? Não sei
+
+
+se me explico. Se não me explico, paciência.
+Ora, e pronto, portanto, esta era a parte que
+
+
+eu vos queria mostrar, as melhorias que eu
+implementei aqui no neste YouTube download.
+
+
+E vamos passar então agora para o tópico final,
+portanto, com o confyUI o confyUI é o seguinte,
+
+
+portanto, eu já vos tinha falado nele porque já já
+houve aqui um um tutorial passado onde dedicado ao
+
+
+LM Studio que eu analisava uma folder massivamente
+todas as imagens dessa folder para obter os seus
+
+
+descritivos. E depois disse que podíamos fazer
+um ficheiro massivo com esses descritivos e ir
+
+
+ao confyUI e gerar imagens. Pronto, portanto,
+esse tópico já foi falado. Eu já recomendei
+
+
+o ConfyUI que é um produto espetacular. Até
+na altura também vos falei do Pinóquio,
+
+
+mas o Pinóquio não não gostei dele e deu-me
+bastantes problemas, mas são abordagens são
+
+
+filosofias diferentes de trabalho. OK? O Pinóquio
+e até até na altura comparei com o Steam. O Steam
+
+
+instala jogos, mas o Steam não se preocupa
+qual o engine em que o jogo foi programado. OK?
+
+
+se foi programado com Unity ou Unreal  etc, etc. Eh,
+o Pinóquio é similar. Portanto, o Pinóquio instala
+
+
+aplicações de inteligência artificial, mas não se
+preocupa que que aplicação é ou com que linguagem
+
+
+foi programada ou seja lá o que for. Pronto, esse
+é o Pinóquio. Já o ConfyUI é um conceito diferente,
+
+
+porque o ConfyUI eh tem tem uma padronização
+para criar workflows. Portanto, aquilo não
+
+
+instala aplicações, aquilo cria workflows, como já
+vamos ver. Eh, mas eu também vos queria mostrar,
+
+
+queria vos mostrar e mais uma vez recomendar-vos,
+se quiserem iniciar-se na nesta questão do confyUI, queria
+
+
+recomendar este canal que é o que eu descobri e
+que já na altura vos tinha falado nisto, que é o
+
+
+Pixaroma. OK? Eh, e portanto, eh, pronto, este,
+este pixaroma aqui que eu já vos tinha falado,
+
+
+eh, é o, o, o canal e que tem uma playlist, eh,
+um tutorial, pronto, onde explica desde o zero
+
+
+como começar a usar o confyUI. OK? Eh, pronto, tem
+a sua complexidade, é preciso que ir com cuidado.
+
+
+Eu inicialmente tinha tinha simplesmente ido
+ao site do ConfyUI e instalado o produto que
+
+
+pode-se instalar uma como uma aplicação normal ou
+como uma portable application. Eh, mas depois deu
+
+
+dei-me mal. não conseguia aqui, estava estava
+bastante confuso, não e acabei por deitar tudo
+
+
+fora e depois seguir as instruções deste canal
+aqui, onde eles utilizam um easy install, ou seja,
+
+
+utilizam uma instalação que já está um pouco
+mais customizada. Mas pronto, depois vejam,
+
+
+vejam isso se quiserem eh estudem isso por
+vocês. Ora bem, então eh o que é que temos aqui?
+
+
+Eh, qual é a ideia que hoje vamos ver para já?
+Deixa-me posicionar só aqui no código. Ora,
+
+
+close project. Eu, por acaso agora isto que eu
+vos vou mostrar, eu ainda não fiz um projeto,
+
+
+eh, mas se calhar depois eu transformo isto num
+projeto. Eu transformo num projeto se para
+
+
+você que vocês possam fazer o download, se
+bem que não tem, eu já vos vou mostrar e eu
+
+
+logo vejo se depois disponibilizo isto ou
+não num num projeto do do GitHub. Ora bem,
+
+
+então o que é que nós temos aqui? Esta é uma
+ideia que eu já tinha. O que vamos ver hoje
+
+
+é uma ideia engraçada que eu já andava a
+matutar nessa ideia já há bastante tempo
+
+
+que eu já vou passar a explicar. Ora,
+então temos temos aqui confyUI. OK.
+
+
+Vamos inicializar aqui, correr o meu código
+que eu sempre corro no início dos meus scripts.
+
+
+Tenho aqui duas funções, mas o esta esta é old
+esta, esta vai ser para deitar fora. Ora bem,
+
+
+então qual é o que é que o que é o que
+é que se passa aqui? Ora bem, portanto,
+
+
+nós levantamos o confyUI, OK? Eu não e não vou
+dar muitas explicações sobre o confyUI porque isso
+
+
+extravaza o âmbito aqui do tutorial, mas pronto,
+mas o confyUI está levantado, ele arranca 
+
+
+num terminal. Pronto, e ele está aqui a correr
+e o servidor está aqui a correr nesta aqui nesta
+
+
+nesta janela DOS. Pronto. E depois temos
+um cliente que corre no browser, OK?
+
+
+mas com o qual também podemos fazer. Vocês sabem,
+eh, já ouviram falar hoje do conceito moderno das
+
+
+web apps, em que algumas aplicações elas elas
+estão preparadas para correrem no browser,
+
+
+mas que permitem serem salvadas como standalone
+applications, que são web apps. Eh, e há várias
+
+
+aplicações que fazem isso. por exemplo o Spotify e várias
+aplicações hoje em dia que quando vocês instalam
+
+
+tem há várias variantes, portanto há vários
+sabores, digamos assim, da mesma aplicação.
+
+
+para como podem hoje pode ser uma uma aplicação
+standardizada que instala no no program files
+
+
+e e pode ser uma web app também pode ser também
+uma aplicação modernizada de do do Windows, etc,
+
+
+etc. Portanto, há hoje há múltiplas múltiplas
+variantes, mas as web apps é um é um desses
+
+
+conceitos que, pronto, é um protocolo,
+um standndard para fazer aplicações. Eh,
+
+
+e é o que temos aqui no confyUI, eu abri
+aqui. Aqui tenho o confyUI eh, portanto,
+
+
+o cliente. E estas aplicações web app normalmente
+elas elas são salvadas quando quando nós estamos
+
+
+no browser e quando a aplicação e obedece ao
+protocolo web app, normalmente no browser aparece
+
+
+um simbolozinho, um icon para nós podermos
+clicar e salvar a aplicação como standalone,
+
+
+como uma web app para correr fora do browser, mas que no fundo e
+é em background, ele está a correr no browser.
+
+
+Portanto, é aqui o o caso. E normalmente essas
+aplicações identificam-se bem quando tem aqui
+
+
+três pontinhos. E nós aqui temos o o temos e o
+menu habitual do do browser. Por exemplo, aqui tem
+
+
+as extensões do browser, etc. Portanto, nós aqui
+vemos que nós estamos numa instância de browser.
+
+
+O que é que essa essa instância de depende
+de qual o browser com que salvou a web app?
+
+
+Eh, em princípio, acho que isto nasceu até com o
+Edge da Microsoft, mas depois também o Chrome
+
+
+também aderiu a esse protocolo e mas não não estou
+seguro se todos os browsers suportam fazer isso,
+
+
+suportam fazer o Save As, mas também podem obter
+uma aplicação que já já foi distribuída nesse
+
+
+formato. Portanto, aqui há várias nuances.
+Vocês podem obter uma aplicação que é porque
+
+
+ela já veio no formato do web app ou então podem
+simplesmente ter um link para uma aplicação que
+
+
+ela ela corre no browser e depois vocês terem
+a liberdade de fazer um "save as" e fazer um
+
+
+save as web app. OK? Não sei se me explico, mas
+pronto, mas senão investiguem essa temática. Bom,
+
+
+mas portanto aqui temos no cliente eh e nós
+no cliente aqui nós abrimos aqui um workflow.
+
+
+Pronto. Então, o que é que acontece aqui? Por
+exemplo, aqui tenho um workflow. Cá está. Isto
+
+
+é constituído por nós. Eu não vou muito perder
+muito tempo a explicar isso. É como digo, pronto,
+
+
+isso depois quem quiser que investigue eh que
+siga aquele tutorial que eu aquela playlist
+
+
+que vos falei do Pixaroma. Portanto, nós temos
+aqui e eu este, por exemplo, aqui e este aqui é um
+
+
+super é um super nó porque ele tem vários nós
+lá dentro. Pronto, isto são vários nós. Este,
+
+
+este workflow, por exemplo, foi fui eu que o
+fiz. Pronto, fui eu que fui eu que fiz. Pronto,
+
+
+baseado noutros workflows, não é? Eh, mas mais ou
+menos aqui arrumei a casa e fiz este workflow. Eh,
+
+
+e basicamente isto é um Text to Image. Eu tenho, eu
+aqui ponho as dimensões que eu quero. Eu pus agora
+
+
+estas dimensões. Eu ponho as que eu quero. Atenção
+que isto não é totalmente livre. os modelos,
+
+
+os modelos eh de imagem, eles são treinados
+para determinadas proporções e determinados
+
+
+tamanhos de imagem. Normalmente tem uma uma certa
+flexibilidade. Eh, este modelo, por exemplo,
+
+
+que vamos agora usar, o Z-image-turbo, eh, não sei agora
+de cor, mas provavelmente ele foi ele foi ele foi
+
+
+treinado para até para imagens quadradas, salvo
+o erro, de 1024 por 1024. Normalmente os modelos
+
+
+são treinados para uma determinada dimensão de
+imagem e depois têm uma certa flexibilidade que
+
+
+se eu colocar um tamanho um bocado diferente, ele
+pode ainda pode ainda ser capaz de gerar a imagem,
+
+
+mas se eu colocar algo muito diferente normalmente
+vai gerar aberrações. Pá, pronto, isso são temas
+
+
+que se começarem a dedicar esta temática da
+inteligência artificial generativa, também vocês
+
+
+irão começar a aprender mais ou menos esses temas.
+Eu também não sou nenhum expert, atenção, peço
+
+
+desculpa se estiver a dizer aqui algumas agneiras
+pelo meio, mas é são coisas que também eu já tenho
+
+
+verificado da minha própria experiência própria.
+Eh, mas para já eu escolhi este tamanho 16x9,
+
+
+um tamanho que eu gosto que depois dá-me para
+fazer o wallpapers aqui para o meu computador. Eh,
+
+
+e tenho tenho, por exemplo, aqui este esta
+prompt, não interessa agora de onde ela veio,
+
+
+mas eu posso fazer aqui copy paste. Eu pus aqui
+esta prompt e depois posso fazer aqui o run  
+
+
+e ele gera uma imagem. OK, cá está. Ele está   a gerar agora. Eh, eu temos aqui o aqui no
+
+
+servidor nós vemos que o terminal está ativo,
+está a gerar aqui linhas de output. OK. E as imagens
+
+
+elas são geradas. Pronto, cá está. Ele está aqui a
+fazer agora o aqui o como é que se chama? Pronto,
+
+
+está-me a dar aqui uma miniatura que é o é o
+borrão. OK. sim senhora e gerou a imagem final. Sim,
+
+
+senhora. Eh, e portanto, eh, aqui isto, eh, esta
+parte para permitir-me abortar o processo. Ele
+
+
+aqui foi mais ou menos rápido, mas imaginando
+que era um modelo bastante mais lento. E eu aqui
+
+
+ao ver o este esta miniatura, eu poderia dizer
+assim: "E pá, não, eu não gosto do não gosto do
+
+
+do desenho que isto vai ter, porque eu já estou a
+ter aqui uma aproximação do do do resultado final
+
+
+e eu poderia logo abortar, escusava estar
+à espera até ao final. OK? Portanto, é o,
+
+
+digamos que é mais ou menos a finalidade desta
+miniatura que ela me apresenta aqui. Eh, portanto,
+
+
+temos aqui a imagem final e ela já foi salvada
+automaticamente. Ela é salvada automaticamente
+
+
+aqui num numa folder. Eh, deixa-me posicionar
+aqui, deixa-me abrir aqui a folder de output.
+
+
+OK, pronto, ela ela ela foi gerada aqui e é
+um ele automaticamente vai dando um número
+
+
+sequencial. Portanto, aqui se eu já tinha a imagem
+número seis e ele aqui gerou-me a imagem número 7,
+
+
+OK? Cá está ela aqui. Pronto, e ela gerou-me aqui
+a imagem número sete, como estão a ver. Pronto. E
+
+
+agora se eu fizer um run outra vez, ela gera mais
+uma e assim sucessivamente gera eternas imagens.
+
+
+OK. Eh, pronto. E gerou uma parecida quase igual.
+Quase igual porque a prompt, a prompt é bastante
+
+
+grande e  é bastante específica. OK? Pronto,
+isto depois depende do tamanho da prompt
+
+
+e depende de de de outras parametrizações do
+do modelo, como por exemplo, a temperatura.
+
+
+Eh, e pronto, e há diversos diversos parâmetros
+do modelo que é que vão fazer variar eh qual
+
+
+vai ser o resultado. Há aqui um conceito
+interessante aqui na nas imagens na destas
+
+
+processos generativos é que, portanto, se eu der
+a mesma promp que foi agora aqui o caso, eu dei
+
+
+a mesma prompt e o mesmo seed, porque o se ele aqui
+não está à vista, o seed está aqui algures aqui dentro.
+
+
+O Seed está aqui algures cá está ele. Está aqui o Seed.
+Pronto. Se eu repetir. Só que o Seed aqui está ele
+
+
+ele está configurado neste nó para gerar um
+Seed aleatoriamente após cada geração de imagem. E,
+
+
+portanto, ele já prepara um novo Seed. Mas se eu
+mantiver um seed fixo para uma mesma prompt
+
+
+e para o mesmo Seed, ele vai gerar exatamente a
+mesma imagem. Este é um conceito que eu também
+
+
+não tinha esta noção e até imagino que a maior
+parte das pessoas não têm esta noção. Imaginem
+
+
+que imagino que as pessoas pensam que ok, vão
+à inteligência artificial e dão a prompt e sai
+
+
+uma imagem qualquer e depois sai outra e outra e
+outra. Pronto, mas não não é assim que as coisas
+
+
+funcionam. Ou seja, é o porque a rede
+neuronal ela é determinística, ela não é random,
+
+
+ela não é aleatória, ela é determinística, embora
+não pareça. Significa que quando eu dou a um mesmo
+
+
+modelo, que é um modelo fixo que foi treinado,
+que que está fixo, que é um que é um checkpoint,
+
+
+e eu dou-lhe uma determinada prompt e um
+determinado Seed, vai-me sempre gerar sempre
+
+
+a mesma imagem. OK? Pronto, isto é importante ter
+essa noção também. Eu não tinha bem essa noção,
+
+
+OK? E e agora já tenho. Portanto, a imagem é
+sempre a mesma. O que acontece é que os modelos,
+
+
+normalmente o os modelos não, a orquestração que
+é feita sobre os modelos, OK? Não é o modelo. O
+
+
+modelo é fixo. É a orquestração, é a interface
+que interatua com o modelo. Quando nós vamos ao
+
+
+Gemini, quando nós vamos ao Nano Banana, quando
+nós vamos a algum sítio e a gente e a gente diz:
+
+
+"Olha, gera-me esta imagem". E ele vai gerar. E
+depois dizemos: "Gera-me outra vez e ele vai gerar
+
+
+outra". OK? Porque porque por detrás existe uma
+orquestração que é aqui neste caso aqui de máquina
+
+
+local que é o que nós estamos a ver aqui com esta
+parametrização. Eu tenho aqui uma orquestração
+
+
+aqui que está escondida, onde eu vou fazendo uma
+eh tenho aqui um tenho várias parâmetros. Pronto,
+
+
+não interessa agora a perder aqui muito tempo
+sobre isto. Tenho também o número de passos.
+
+
+Isto determina em quantos passos eu quero que
+ele gere a imagem, quantos passos de refinamento,
+
+
+digamos assim. OK? Pronto, são, como vem, é, é
+um tema relativamente complexo e por isso não
+
+
+não vamos aqui perder muito tempo sobre com isso,
+porque extravasa um pouco aqui o âmbito do tutorial,
+
+
+o âmbito dos meus dos meus tutorials são
+sempre focados na linguagem R. Mas pronto,
+
+
+sim, senhora. Portanto, nós temos aqui
+esta parte e agora o que é que acontece?
+
+
+Eh, o que o que eu quis foi o seguinte, bom, eu
+quero levar este modelo para a linguagem R para
+
+
+para invocar uma geração a partir da linguagem R.
+OK? Pronto, basicamente isso é o que nós vamos ver
+
+
+aqui. Eh, para isso, eu tive que vir aqui ao aos
+settings. Existe aqui uma área que é a parte de
+
+
+onde é que isto está? Development mode. OK.
+esta parte aqui que estava desligada. Portanto,
+
+
+eu tenho que, ou seja, habilitar
+o development mode por forma a ser
+
+
+capaz de salvar o workflow num formato
+que é um que é um Json eh devidamente
+
+
+formatado para ser consumido por por APIs em
+programação. OK, pronto. Eh, basicamente. E,
+
+
+portanto, eu depois de habilitar isto,
+eu eh escolhi o modelo que eu queria. OK?
+
+
+Eh, escolhi o modelo que eu queria. Neste caso era
+este mesmo, era mesmo este modelo que eu queria,
+
+
+o Text to Image. E eu cheguei aqui, eh,
+e, portanto, e fiz o save. Cheguei aqui
+
+
+e fiz o file, o export. Pronto. E ele exportou
+export  API. Portanto, exportou-me o Json,
+
+
+o Json para ser consumido e para ser integrado
+numa linguagem de programação. OK? Pronto,
+
+
+já vamos ver esse Json. Não vou fazer agora,
+já fiz e já salvei. Pronto. Existe aqui uma
+
+
+coisa muito interessante aqui no confyUI e nas
+imagens, é que as imagens por default por default
+
+
+quando elas são salvadas elas levam o workflow
+consigo. OK? Eu vou fechar agora este workflow.
+
+
+OK, pronto. Ele abre-me aqui um um workflow
+default. é um é um padrão, é um workflow
+
+
+pronto, que que vem pré-definido que que por
+acaso aqui está a precisar de um modelo que eu
+
+
+não tenho instalado na minha máquina local e por
+isso aparece a vermelho. Eh, então vamos ver aqui.
+
+
+Eu vou pegar aqui nestas numa imagem destas que
+acabamos de gerar agora mesmo e eu vou arrastar
+
+
+aqui a imagem. OK? Cá está. Isto é qualquer coisa
+de extraordinário. Ou seja, no confyUI a imagem é
+
+
+gravada com o workflow as metadata dentro
+da própria imagem. Isto é extraordinário.
+
+
+Isto eu realmente eu quando descobri isto, eu eu
+fiquei fiquei fiquei banzado completamente. Isto
+
+
+é qualquer coisa de extraordinário, porque então
+isto permite que que a própria imagem, no fundo é
+
+
+um pouco similar àquilo que acabamos de ver ainda
+há bocado. Quando há bocado vimos na música MP3,
+
+
+eu punha a cover lá dentro, como posso pôr as
+lyrics ou outra informação metadata, OK? Posso
+
+
+pôr muita informação dentro da música. E aqui é o
+similar, posso pôr metadata dentro da imagem. E o
+
+
+extraordinário é pôr a metadata em formato
+Json, que contém o workflow   para com que foi
+
+
+gerada essa mesma imagem. OK? Pronto, não sei se
+me explico. E, portanto, é uma forma desta forma,
+
+
+nunca não há perigo de perder os workflows, embora
+também dá para salvar aqui os workfows. Os workflows
+
+
+dão para salvar aqui em pastas. Só que aqui
+eu já tive muitos problemas com isto porque já
+
+
+houve situações, eu penso que o produto tem algum
+bug e às vezes ele  perdeu-me o workflow
+
+
+e esmagou-me workflows com outros workflows, etc,
+etc. E eu deixei de usar isso e nunca mais salvei
+
+
+workflows. E agora simplesmente eu sei que os
+workflows estão guardados dentro das imagens.
+
+
+E se eu quiser salvaguardar um determinado
+workfow específico, eu vou pegar nessa imagem
+
+
+e vou pôr num determinado arquivo que eu tenho
+uma folder onde tenho determinadas eh imagens eh
+
+
+padronizadas que eu sei que eu quero os seus
+workflows. Eu tenho aqui uma outra folder,
+
+
+não interessa agora estar a mostrar onde está,
+mas eu tenho aqui um determinado uma determinada
+
+
+folder que ela é um arquivo de imagens que contém
+os workflows, os quais eu quero salvaguardar. OK?
+
+
+Não sei se me explico. Pronto. Então, basicamente
+esta parte penso que aqui que já mostrei. Eh,
+
+
+eu, eh, tenho aqui agora, tenho aqui agora que
+vamos trabalhar com base, nós vamos trabalhar,
+
+
+eu estou  a explicar isto
+aos poucos e poucos como as peças de um puzzle
+
+
+para vocês perceberem depois onde é que eu quero
+chegar. OK? Eu sei que sou um bocado confuso
+
+
+e atabalhoado a explicar as coisas, mas mas eu
+penso que vocês vão conseguir lá chegar. Ora bem,
+
+
+agora quero vos mostrar aqui uma folder onde
+eu tenho wallpapers. Tenho aqui wallpapers
+
+
+e estes wallpapers aqui foram
+todos gerados por inteligência artificial. OK?
+
+
+E eu tenho aqui,
+
+
+OK? Pronto, eu tenho aqui este, estes que foram
+gerados com o confyUI tenho aqui 189 imagens.
+
+
+Pronto. Então eu posso pegar numa imagem
+qualquer destas e arrastar para o confyUI
+
+
+ok? Eu acabei de vos dizer que isto todas as
+imagens tinham o workflow lá dentro. E sim,
+
+
+exatamente. E é verdade. Ora, vou pegar aqui numa
+qualquer. Ah, sim, senhora. Pronto, vou pegar aqui
+
+
+nesta. Pronto, vou pô-la aqui. Pronto, cá está. E
+está aqui o workflow. Pronto, este é um workflow que
+
+
+eu já vos tinha falado no meu outro tutorial.
+Só que eu aqui arrumei a casa. Arrumei a casa,
+
+
+fiz aqui um super nó com os vários nodes lá dentro.
+E este workflow é um workflow massivo, massivo,
+
+
+em que eu passo-lhe um ficheiro massivo aqui de
+prompts, OK? Eh, e depois ponho-o a correr aqui
+
+
+com um run on, um run contínuo. E foi o que eu
+fiz. A primeiro eu tinha um um com uma, se virem
+
+
+esse meu outro tutorial e e dedicado ao LM Studio,
+isso se se recordam, eu gerei um ficheiro massivo
+
+
+de prompts com base numa coleção de imagens
+que eu tinha e agora com base nessas prompts,
+
+
+OK? Vamos imaginar que o ficheiro tem 200
+promps. Eu ao vir aqui e trazer este ficheiro,
+
+
+eu vou gerar não 200, mas as que eu quiser. Porque
+ele quando chega ao fim das 200 prompts, ele
+
+
+quando o índice aqui vai  sempre aumentando
+para 201 e ele quando chega ao 201 dá a volta ao
+
+
+ficheiro e começa outra vez do início. Portanto,
+a 201 ele vai outra vez para a imagem número um.
+
+
+Portanto, basicamente eu posso gerar imagens
+eternamente com as mesmas prompts ou isto é
+
+
+depois repete as prompts, não é? Porque eu tenho
+200 prompts diferentes. Pronto, e foi o que eu
+
+
+fiz aqui. Portanto, eu aqui gerei massivamente
+com o ficheiro de prompts. Eu tinha uma coleção,
+
+
+uma determinada a coleção de imagens, OK? Vamos
+dizer com cerca de 100 imagens. E eu gerei mais
+
+
+umas 100, OK? Baseadas nas prompts cujas prompts
+foram geradas por inteligência artificial.
+
+
+As imagens iniciais, elas não tinham prompt.
+As imagens iniciais é umas imagens que eu que eu
+
+
+arranjei em diversos sítios, não interessa agora
+onde. E eu quis obter as prompts dessas imagens
+
+
+indo ao modelo de inteligência artificial. Até na
+altura foi o meu modelo local, por isso é que era
+
+
+o tutorial, por isso é que se chamava LM Studio,
+porque foi o modelo usando um modelo local e eu
+
+
+gerei o ficheiro massivo. OK? Pronto. E agora com
+esse ficheiro massivo, eu gerei as prompts. OK?
+
+
+Pronto, tenho aqui as imagens. Eh, sim, senhora.
+Pronto, não vou fazer essa essa parte agora,
+
+
+não interessa. É só para vos dar um lámiré que
+agora tenho estas imagens todas. E é só também
+
+
+para vos dar um lamiré que eu aqui tenho um
+conjunto de prompts fixas. É um ficheiro
+
+
+com prompts fixas e gera imagens. Mas agora
+nós vamos ver uma coisa diferente. Eu vou-vos
+
+
+mostrar agora um fluxo de trabalho dentro do R que
+é diferente deste. Eu queria era mostrar este para
+
+
+vocês depois perceberem as nuances, porque este
+fluxo de trabalho agora que eu tenho aqui com o
+
+
+ficheiro massivo, eu agora também sou capaz de o
+fazer em linguagem R e já não preciso de vir aqui,
+
+
+já não preciso deste workflow, porque eu
+agora sou capaz, porque eu já consigo invocar o
+
+
+confyUI a partir da linguagem R. Então eu sou eu
+era capaz agora de reproduzir este fluxo mesmo não
+
+
+tendo estes nós. Houve alguém que programou este
+nó, o prompt loader, mas eu agora já não preciso
+
+
+dele. Eu consigo agora na linguagem R fazer
+exatamente a mesma coisa, pegar num conjunto de
+
+
+prompts e passar à inteligência artificial generativa aqui
+ao confyUI ao modelo que eu quiser ou modelo
+
+
+simples. OK? Eh, e portanto eu posso fazer
+isso. É só para vos mostrar o poderio do R,
+
+
+não é? E como eh o workflow, no fundo, o workflow,
+este workflow, no fundo, é está preparado para é
+
+
+é um é uma plataforma de low code ou neste caso
+até no code. OK? Portanto, esta é uma plataforma
+
+
+eh de no code eh para uma pessoa interagir com
+a inteligência artificial, mas como já vos tenho
+
+
+dito várias vezes, nada supera uma uma linguagem
+de programação, como é óbvio. Portanto, eu tudo
+
+
+tudo o que façam aqui estes nós, tudo o que estes
+nós aqui fazem tem as suas limitações para quem
+
+
+programou os nós. A, e portanto e nada supera uma
+linguagem de programação, porque eu eu agora posso
+
+
+chegar à linguagem de programação e a partir
+daí tenho toda a flexibilidade que eu quiser
+
+
+e posso ir muito para além de qualquer limitação
+que que esteja contida num destes nós. OK? Não,
+
+
+não sei se me explico. Pronto. Vamos então
+fechar esta parte agora aqui toda do cliente. OK.
+
+
+OK. E vou vou sair daqui. Pronto.
+Pronto, agora já saímos daqui. Pronto,
+
+
+voltamos aqui ao código. Então, pronto. Então,
+agora o que é que nós vamos fazer? Eu não, eu não
+
+
+nós não vamos gerar e eh fazer não não eu não vou
+não vou repetir aquilo que que que fez que fazia
+
+
+aquele workflow. Vou fazer uma coisa diferente
+que vou passar a explicar, uma coisa bastante
+
+
+interessante que então vai ser o seguinte. Eu
+tenho aqui as este conjunto de imagens. OK.
+
+
+Pronto, eu vou pegar aqui, eu vou escolher
+aqui uma imagem. Eu vou escolher aqui uma
+
+
+imagem. Ora, vamos escolher aqui
+uma imagem. O que é que há de ser?
+
+
+Pronto, pode ser esta. OK, vou escolher aqui uma
+imagem. Pronto, vou colocá-la aqui. OK, pronto.
+
+
+E agora vou renomeá-la para para com este padrão,
+com este naming convention, que é o que é o naming
+
+
+convention, que é usado pelo confyUI este é o padrão
+do confyUI. Tem um determinado prefixo e depois tem
+
+
+o underscore, o contador, etc, etc. Portanto,
+eu vou usar eu vou usar esse naming convention.
+
+
+Pronto. E vou inicializar uma primeira
+imagem. Vai ser a a imagem raiz. OK.
+
+
+Vou simplesmente apagar primeiro estas
+aqui, que eu já não vou precisar delas.
+
+
+Pronto, eu vou partir de uma imagem raiz. Ok,
+
+
+pronto, cá está ela, uma imagem raiz. OK.
+
+
+Sim, senhor.
+
+
+E agora o que é que vamos fazer? Agora vamos fazer
+uma coisa muito engraçada, que era a ideia que eu
+
+
+já andava a matutar nesta ideia há já há bastante
+tempo, que a ideia vocês conhecem aquela história
+
+
+em que e quem conta um conto acrescenta um
+ponto, OK? que isso é um é um é um conceito
+
+
+já muito antigo quando uma pessoa conta uma
+história à outra e a outra conta a outra,
+
+
+conta a outra, etc, etc, sucessivamente.
+E depois ao fim de muitas iterações,
+
+
+a história já está bastante diferente. Vocês todos
+nós já ouvimos falar de deste conceito. Então,
+
+
+que este era uma ideia que eu tinha já há
+bastante tempo. Eu já andava a matutar,
+
+
+mas ainda não sabia fazer isto e agora consegui
+fazer isto. É assim, nós partimos de uma imagem
+
+
+e eu vou pedir, dá-me a descrição dessa imagem
+e agora com base na descrição, vou dizer,
+
+
+dá-me uma imagem com esta prompt e ele vai-me
+dar a segunda imagem. OK? E agora vou pedir na
+
+
+nova imagem e vou pegar na nova imagem e vou
+dizer: "Dá-me a descrição da nova imagem". E
+
+
+assim sucessivamente. Então vai ser OK?
+Ou seja, não é um conceito igual ao dar
+
+
+bocado. Não se trata de um ficheiro de prompts
+e pegar numa prompt, que eu podia pegar numa prompt e dizer:
+
+
+"Dá-me, dá-me 100 imagens com esta prompt". Não,
+agora não. O conceito aqui é diferente. Agora a
+
+
+prompt vai estar sempre a variar para a imagem da
+mesma família. OK? Não sei se me explico. Pronto.
+
+
+E então é o que nós vamos fazer aqui. OK? Eh,
+portanto, eu tenho, deixa-me posicionar aqui,
+
+
+eu tenho aqui o workflow, o workflow que foi
+salvado a partir do confyUI e cá está ele. É,
+
+
+isto é o workflow, um determinado workflow. E algures
+aqui ele tem a prompt porque também estava lá na
+
+
+no workflow, portanto, que é o é o nó e é o sítio
+específico onde a prompt vai ser injetada. Eu
+
+
+tenho aqui a prompt, OK? Só que esta prompt
+vai ser substituída. OK? Pronto. Eu tenho aqui, eu
+
+
+tenho aqui a função workfow. Onde é que está isto?
+Aqui. Pronto, eu tenho aqui esta. Posso tentar lá
+
+
+fora até que eu já não preciso dela. Esta era uma
+velha. Pronto. Ora, isto foi feito naturalmente
+
+
+foi feito com ajuda de inteligência artificial. Eu
+não preciso estar-me sempre a repetir, é óbvio. OK.
+
+
+Se bem que ele não conseguiu acertar à primeira,
+houve vários bugs, houve vários problemas, etc.
+
+
+foi vários passos, mas pronto, com a minha ajuda
+também e a minha participação, naturalmente eu a
+
+
+dar-lhe o feedback à medida que as coisas iam iam
+andando e e claro e ele fez o principal trabalho e
+
+
+foi-me dando a orientações e eu construí a função
+e pá, eu construí porque primeiro eu fui à procura
+
+
+a ver se havia algum package de R já já feito
+que já interuasse com o confyUI. Ora como não havia
+
+
+neste caso tive que fazer a função de raiz.
+OK? Pronto. Eh, portanto, e aqui, basicamente, a
+
+
+única coisa que vai entrar aqui é o image prompt.
+É uma prompt, que é uma variável de texto. OK? Eh,
+
+
+e depois eu vou ler o workflow. OK? Eu tenho
+aqui o IP, o entry point do confyUI e depois eu vou injectar
+
+
+o image prompt, a promp de texto na
+posição do workflow, OK? Que é uma lista,
+
+
+porque isto depois isto é o R transforma de
+de Json para lista de R e vice-versa.
+
+
+OK? Injeto aqui e que como é que nós sabemos?
+Imaginem que vocês têm a vossa workflow.
+
+
+Se vocês quiserem repetir isto e tendo vocês
+a vossa workflow, uma workflow diferente,
+
+
+vocês vão à workflow e aqui descobrem eh não
+aqui porque porque aqui aqui está em Json,
+
+
+mas se fizerem esta parte aqui
+aqui linha a linha esta parte aqui
+
+
+aqui carregam aqui o workfow e agora
+carregam aqui e convertem para Json
+
+
+de Json para lista. Pronto. E aqui está,
+aqui está a lista. E agora se vierem aqui
+
+
+vocês veem onde está o texto. Ora, cá está ela
+aqui. E, portanto, aqui já já sabem fazer isto
+
+
+que eu já expliquei isto. Cá está. E ela aparece
+aqui a indexação, a indexação para o a lista.
+
+
+E vocês com com isto conseguem, portanto, esmagar
+o o valor que está nesta lista. OK? Pronto, aqui
+
+
+tem a indexação. OK? Isto são coisas são conceitos
+que já já vos vos falei nos meus outros tutorials,
+
+
+por isso digo sempre, não me canso de repetir,
+não deixem de ver os meus outros tutorials se
+
+
+quiserem eh aprofundar o o vosso know how na linguagem
+R. Ora, pronto. Então, basicamente aqui não vou
+
+
+perder muito mais tempo a explicar isto,
+OK? Isto é feita uma chamada a, portanto,
+
+
+ao ao servidor do do do confyUI é é passado
+aqui a payload, OK? Eh, com este Json, OK?
+
+
+E depois é feito aqui um compasso de espera que
+aqui aqui eu conseguimos fazer um compasso de
+
+
+espera em que ele fica à espera que que a
+geração de imagem termine. OK? Pronto. Eh,
+
+
+e então como é que isto vai funcionar? Portanto,
+eu tenho tenho a image folder aqui,
+
+
+tenho o prefix, image index. E agora o que é que
+eu vou pôr aqui? E agora vou dizer aqui quantas
+
+
+gerações eu quero. Ah, eu vou pôr 100, claro que não
+vamos ficar até ao à espera até ao fim das 100,
+
+
+como é óbvio. Ah, e depois temos aqui, eu carrego
+a primeira a primeira imagem. OK. Imaginemos aqui,
+
+
+eu vou carregar a imagem matriz, OK? Eu vou
+fazer o display dela aqui. OK, cá está ela,
+
+
+que é para irmos acompanhando a evolução. Eh,
+e agora tenho uma das minhas funções e que
+
+
+consegue passar uma imagem. Esta é uma função
+que está no meu package aitools, OK? Ela internamente
+
+
+invoca um outro package que é o Gemini.R, que
+que que portanto que comunica com o Gemini.
+
+
+OK? Eh, e aqui eu vou pedir, portanto, isto é uma
+uma alteração que eu fiz agora recentemente, OK?
+
+
+Consigo-lhe passar aqui uma imagem, OK? E vou-lhe
+passar uma prompt, passo o nome do modelo do
+
+
+Gemini e vou-lhe pedir o descritivo. Agora também
+podia fazer este pedido aqui na minha máquina
+
+
+local ao LM Studio. Vejam o meu outro tutorial
+também poderia ser. Eh, aqui não fiz isso para não
+
+
+estar a sobrecarregar o meu computador. Pronto,
+para não estar a sobrecarregar, porque então
+
+
+iria ter dois modelos carregados ao mesmo tempo.
+Iria ter o meu modelo de LM Studio e depois iria
+
+
+ter o modelo de imagem. E pronto. E então disse:
+"OK, eh, vamos ver se me consigo safar aqui." Mas
+
+
+é possível a todo momento que isto possa dar
+erro. Se eu esgotar os meus créditos grátis,
+
+
+isto dará erro. Eh, já agora, também vos quero
+dizer que eu eu também na parte depois da geração
+
+
+de imagem, eu também tentei gerar imagem indo à
+cloud, indo ao Gemini, só que na versão free eu
+
+
+não tenho créditos para o fazer, OK? E portanto,
+eh, pronto, não avancei por aí. E então, eh,
+
+
+foi uma boa oportunidade de avançar aqui
+pelo pelo meu sistema local, pelo confyUI,
+
+
+mas e é para vos dizer. Portanto, aqui
+eh vou pedir o descritivo, neste caso,
+
+
+vou pedir ao Gemini na cloud. Ora, aqui
+eu aqui talvez eu mude para 50 palavras porque
+
+
+cá está, muitas palavras vai fazer pouca
+variação porque a imagem  fica com
+
+
+uma descrição bastante intensiva. Eu vou-lhe dar
+50 palavras. assim vai dar mais riqueza e vai ser
+
+
+mais interessante ver a a imagem ser transformada.
+Eh, OK. E portanto aqui eu eu peço uma prompt, OK?
+
+
+Eh, depois aqui eu faço o display da prompt
+e finalmente chamo o confyUI onde passo-lhe a
+
+
+image prompt que essa
+prompt que é o texto vai ser injetado no
+
+
+no workflow e depois o workflow é invocado e e
+depois há de me aparecer aqui a próxima imagem,
+
+
+a imagem número um aqui. E depois o loop continua
+e depois o loop vai ler a próxima imagem que vai
+
+
+ser a número um que ainda não existe. Ao qual ele
+depois irá pedir uma descrição, dá uma descrição,
+
+
+OK? Eh, e assim sucessivamente. Penso que
+Ora, vamos então vamos então começar isto.
+
+
+OK. Deixa-me limpar aqui começar do zero.
+
+
+Ora, vamos lá ver isto então.
+Aqui a primeira imagem. Ora,
+
+
+o que é que eu diz aqui? Gemini
+is analysing image. Neste caso,
+
+
+estou estou a usar este modelo. OK, já
+analisou. OK. Não mais que 50. OK. 50 palavras.
+
+
+OK. Está a chamar o confyUI
+
+
+OK, já gerou gerou a imagem número
+um. Cá está. é parecida, cá está,
+
+
+mas ao mesmo tempo é substancialmente diferente,
+porque claro, eu reduzi para 50  palavras e
+
+
+portanto isso ao ser menos específico
+vai dar mais liberdade de ação ao modelo de
+
+
+imagem generativo. OK? Eu já cá tenho a imagem
+número um. Já foi aqui gerada. Cá está ela.
+
+
+Já tenho a imagem número dois.
+
+
+OK. É possível que ele aqui, ele aqui é possível
+que ele aqui não atualize isto porque não sei
+
+
+que ela que ela se desincronize aqui, mas eu
+posso ir vendo aqui as imagens geradas aqui.
+
+
+Deixa-me fazer aqui um view extra large images. Deixa
+ver aqui. Ok, já tenho aqui várias imagens,
+
+
+todas elas parecidas. tem piada que a primeira
+tinha tinha o Zepelin aqui do lado direito e
+
+
+estas todas agora têm o Zepelin aqui do lado
+esquerdo. Estas   estão bastante parecidas,
+
+
+mas não são iguais, que eu estou a ver
+aqui nas nuvens que não são iguais,
+
+
+mas estão a sair bastante bastante parecidas.
+Esta tem aqui uma árvore, esta não tem.
+
+
+Ok, esta já pôs aqui um bocadinho de fumo
+aqui no zepelin. Um Zépelin a Jato. Este este
+
+
+pedaço de rochedo já saiu aqui. Pronto. E assim
+cumpre-se aquela velha regra que eu vos disse,
+
+
+quem conta um conto acrescenta um ponto.
+E, portanto, isto vai ser é interessante,
+
+
+vai sendo. Eu agora até vou fazer o
+seguinte, eu vou fazer aqui uma pausa
+
+
+e mostrar-vos daqui a bocado, daqui a 10 ou 20
+ou 30 imagens, o quão diferente isto ficou. OK?
+
+
+Vou deixá-lo aqui a trabalhar. Eu vou
+fazer aqui uma pausa agora e volto já.
+
+

@@ -1,0 +1,11 @@
+🖥️ R Programming - Brilliant
+1. Introdução à plataforma Brilliant e seus cursos online de programação.
+2. Resolução de problemas de lógica booleana e construção de tabelas de verdade em R.
+3. Criação de funções lógicas personalizadas para facilitar a clareza do código.
+4. Uso da função `expand.grid` para gerar produtos cartesianos em R.
+5. Aplicação do método de força bruta para testar todas as combinações possíveis.
+6. Exploração do paradigma funcional em linguagens de programação como o R.
+7. Capacidade do R de transformar strings em funções automaticamente.
+8. Resolução de problemas de probabilidade através de simulação computacional.
+9. Utilização do pacote `gtools` para permutações e combinações complexas.
+10. Validação de afirmações lógicas usando o operador XOR em condições dinâmicas.

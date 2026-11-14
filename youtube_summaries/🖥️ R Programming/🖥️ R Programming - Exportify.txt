@@ -1,0 +1,11 @@
+🖥️ R Programming - Exportify
+1. Introdução ao uso da linguagem R e do IDE RStudio.
+2. Contexto sobre Web Scraping e suas limitações com autenticação.
+3. Vantagens do uso de APIs para obtenção de dados robustos.
+4. Apresentação da ferramenta Exportify como alternativa simplificada.
+5. Processo de download de playlists do Spotify via CSV.
+6. Análise estatística de novos artistas descobertos ano a ano.
+7. Utilização de funções e pacotes do R (loops, data frames).
+8. Cálculo de novos artistas únicos acumulados usando antijoin.
+9. Discussão sobre o caráter generalista da linguagem R.
+10. Alternativas de ferramentas externas além de APIs e scraping.

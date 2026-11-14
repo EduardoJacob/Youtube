@@ -1,0 +1,937 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial, programação em R com RStudio,
+
+
+hoje dedicado ao ao Eurostat. OK. Ora, tenho
+aqui alguns alguns scripts. Vou pegar aqui
+
+
+num deles. Pode ser este aqui. Fertility Rate.
+OK. Eh, não deixem de ver todos os meus outros
+
+
+tutorials da minha playlist de programação em
+R, porque há uma continuidade dos temas. Eh,
+
+
+não deixem, tentem ver este tutorial num monitor
+grande, de preferência de 4K de resolução, OK?
+
+
+Ora bem, vamos, vou executar aqui sempre esta
+parte aqui inicial que eu tenho. Vocês já sabem,
+
+
+não é obrigatório para vocês, mas eu eu gosto eu
+gosto de carregar esta parte aqui inicial. Ora,
+
+
+display media, vocês também já conhecem isto.
+Eu gosto de pôr aqui alguns print screens.
+
+
+Por exemplo, aqui tinha o que o que é o que
+são as regiões nuts, que há uma uma divisão
+
+
+administrativa por regiões onde que uma forma de
+dividir aqui os países a nível da Europa. Cada
+
+
+país está dividido em regiões. Ah, por exemplo,
+as regiões de Portugal, nuts nível 2. OK. OK.
+
+
+Isto é uma coisa qualquer administrativa, mas
+mas pronto, porque estou a falar nisto porque
+
+
+vai aparecer aqui mais à frente e portanto eu pus
+aqui nos estes sprint screens para me recordar.
+
+
+Ora bem, neste caso, vamos usar o package eurostat,
+claro está, que ele está aqui. E neste caso nem
+
+
+vou ao site. Eh, recordem que no meu tutorial
+anterior fomos ao World in Data e fomos ao site
+
+
+World in Data. Andamos a explorar  a ver o que é
+que lá tinha, até copiávamos as snippets de código,
+
+
+etc, etc. E aqui se calhar também terá lá alguma
+coisa, mas neste caso vou-vos mostrar como nem
+
+
+sequer temos que ir ao site porque o package é até
+está bem feito. OK. O package já está tão
+
+
+poderoso que nós trabalhamos aqui totalmente nem
+precisamos de espreitar nada dentro do site. OK?
+
+
+Não sei se me explico. Aqui tenho uma pequena parte
+que nunca chegamos a explorar, que eu já tinha
+
+
+falado em que cada package e que eu tenho aqui,
+tenho aqui a lista dos packages que neste momento
+
+
+estão carregados aqui em memória, OK? e que
+cada package, para além de trazer as funções,
+
+
+alguns desses packages também trazem datasets.
+Pronto, aqui está um exemplo dos packagess que eu
+
+
+tenho agora carregados em memória. Estes, estes
+três packages, eles eles também contêm datasets.
+
+
+São datasets que vêm de demo. Assim, a pessoa que
+instala um package pode começar imediatamente
+
+
+a trabalhar sem se preocupar em ir buscar dados a
+lado nenhum. Já tem alguns ficheiros de trabalho
+
+
+com que pode começar a fazer a fazer alguma coisa.
+Eh, por exemplo, o Eurostat traz aqui, traz aqui,
+
+
+olha, por exemplo, este aqui e traz este dataset
+aqui, o TGS 00026 com 2723 registros. Eu nem
+
+
+sei que informação há tem dentro. Poderíamos
+carregar e dar uma vista de olhos ou tentar ver.
+
+
+Ou certamente se formos ao chat GPT e perguntarmos
+Eurostat TGS 00026, ele se calhar sabe. Eu por
+
+
+acaso até vou perguntar aqui, já que estou aqui
+a olhar, deixem-me perguntar aqui no no chat
+
+
+GPT Eurostat. O chat GPT à partida também pode
+ser integrado aqui no R? Eu acho que já uma vez
+
+
+fiz uma tentativa, pronto, eu ainda não tenho
+isso bem a funcionar, porque eventualmente
+
+
+precisa de alguma conta premium de de chat GPT.
+eh para ficar a a trabalhar em plenitude. Ah,
+
+
+acho que é pelo menos fiquei com essa ideia
+a última vez que eu que eu tentei configurar,
+
+
+mas e isso a seu tempo. Cada como nós sabemos e
+quem trabalha em programação já sabe isso, que
+
+
+todos os IDEs, os diversos IDEs cada vez mais vão integrando
+a inteligência artificial e é e OK, é mais uma
+
+
+mais valia que fica fica dentro dos IDEs.
+Ora, deixa-me perguntar aqui. Eurostat, ora, TGS.
+
+
+TGS 00026. Perguntar aqui ao chat GPT que ele é capaz
+de saber. Eh, é um dataset do Eurostat. Olha,
+
+
+tem piada que por acaso é o conjunto de dados que
+já contem o total fertility race. Engraçado. Ok,
+
+
+tem piada. Mas pronto, vamos ignorar isso agora.
+Aqui vou-vos só mostrar como podemos carregar um
+
+
+um dataset que vem no package. Está aqui. Pronto.
+Isto é uma coisa nova. Nunca tínhamos feito isto.
+
+
+Ainda não tinha feito isto num tutorial.
+Portanto, carregamos aqui data eh o nome
+
+
+do dataset. OK. Aqui o nome do dataset o é pode,
+neste caso, vou vou carregar o countries que está
+
+
+no package eurostat. Ele fica uma promise, portanto
+ele fica um apontador, mas ainda não carregou. Só
+
+
+quando eu verdadeiramente aceder a ele, por exemplo,
+aqui na linha seguinte é que ele verdadeiramente
+
+
+é carregado. Eu aqui estou a carregá-lo as tibble.
+Na altura fiz, já fiz isto há uns anos. na altura,
+
+
+eh, imagino que o o tibble é uma estrutura e que não
+vem de raiz no do R, mas é é portanto é um é como
+
+
+um data frame 2.0, tem umas funcionalidades
+acrescidas, já mesmo bem de cor o que é que
+
+
+isto tem a mais, mas sei que tem algumas
+funcionalidades que são que são adicionadas
+
+
+ao data frame de base. Summary EU countries.
+OK. Isto é uma forma de também de obter help.
+
+
+Eh, OK. O, eu posso ou carregar aqui no F1,
+cá está. Ou então, se eu quiser deixar isto
+
+
+aqui programaticamente, também executando esta
+linha, é a mesma coisa. Obtem o help, obtem o
+
+
+help do da variável que eu puser aqui. OK. EU
+countries. Ok, não tem nada aqui. Pronto. Pronto,
+
+
+isto não, este foi só um pequeno a la-mi-ré. Nem
+interessa aqui o que é que ele carregou. Isto
+
+
+nem tem interesse aqui nenhum. Nem sei porque
+é que puseram aqui este pequeno dataset aqui
+
+
+de de exemplo. Tem um conjunto de países, tem
+não tem não vejo, não tem interesse nenhum,
+
+
+mas pronto. Mas foi só para vos mostrar como
+para vocês estarem atentos, porque às vezes o o
+
+
+package eh traz traz alguns datasets. E deixa ver
+aqui. Se nós formos aqui ao help do package eurostat,
+
+
+provavelmente até tem lá informação. Deixa ver
+aqui no help. Ora, tem aqui as funções aqui não
+
+
+tem, mas h, mas tem certamente deve haver aqui uma
+uma função para para listar os datasets. Imaginem
+
+
+que vocês não não vocês não têm este código
+aqui que eu tenho, não é? Que é que facilita.
+
+
+Mas eh deixa-me ver aqui, vou perguntar aqui
+ao chatGPT que já não me recordo. "how to list
+
+
+datasets included". Eu gosto
+de de falar com ele em inglês,
+
+
+mas ele também responde-me indistintamente. Ora
+responde em inglês, ora responde em português,
+
+
+como ele ele já sabe bem que eu sou português,
+how to list datasets, mas normalmente eu gosto
+
+
+por hábito gosto de falar em inglês quando estou
+a trabalhar em tecnologia. how to list datasets included in
+
+
+R package ? Deixa-me perguntar a ele. OK. Ora, eh,
+data. OK. Data. É só é só pôr aqui o data, OK?
+
+
+data Eurostat exemplo. E o gajo é isto é isto
+é é espetacular realmente o chat GPT realmente
+
+
+isto é revolucionário, o chat GPT e os outros o Gemini
+e outros o Chat GPT e Gemini são os dois que eu
+
+
+mais uso. Isto é espetacular por causa realmente
+que ele tem memória, tem contexto e ele lembra-se,
+
+
+ele sabe que eu estou a trabalhar com o
+Eurostat e ele já me dá aqui os exemplos.
+
+
+Eh, então eu temos aqui, já agora, vou-vos
+mostrar aqui o vignette. O vignette é outro tema
+
+
+que também já vos falei, que os packages também
+trazem vignettes. O vignette é uma documentação e
+
+
+por acaso aqui não está nenhum do do Eurostat.
+Eh, vignettes é estranho, não sei porquê,
+
+
+mas ele tem aqui uma é um é uma documentação.
+Ora, pode abrir eh pode abrir online. Por
+
+
+exemplo, ele aqui tem um clique para abrir online
+tutorial do Eurostat do package. Cá está o package
+
+
+Eurostat. OK. rtools for Eurostat Open Data.
+Eh, ora o, ora, neste caso, abriu aqui no Help,
+
+
+mas também pode abrir no browser. Há uma forma
+qualquer de fazer isto abrir no browser. Bom,
+
+
+já não me recordo. Ah, então aqui aqui com
+este statement podemos listar. Imaginem vocês,
+
+
+vocês não tinham isto, não é? E não tinham
+e não têm porque vocês não têm. Bom,
+
+
+e esta parte podem copiar. O que vocês não têm,
+não têm é esta minha função eh do XLibrary,
+
+
+que é a função XLibrary, é a que me constrói
+estes data frames, que depois mostra tudo o que
+
+
+está o que eu tenho aqui carregado em memória.
+OK? Eh, e depois também tenho aqui este aqui,
+
+
+o , os meus XFunctions, que carrega também num
+data frame a lista das funções de um package,
+
+
+que tenho aqui o o XFunctions. OK, pronto. Isto
+é, se eu quisesse fazer aqui uma determinada
+
+
+pesquisa, uma determinada filtragem, eu algumas
+filtragens, imaginando que eu não sei qual é
+
+
+a função que eu quero e eu esteja à procura
+das funções, eu posso fazer uma determinada
+
+
+pesquisa com determinado filtro complexo
+aqui através das descrições, por exemplo,
+
+
+e à procura e pá, dá-me as funções que tenha uma
+string, qualquer coisa, esta ou esta ou esta.
+
+
+Enfim, às vezes há uma pesquisa mais complexa e
+que me dê jeito ter o data frame com as funções.
+
+
+Ora, portanto, aqui vamos listar, cá está datasets in
+package eurostat pronto. Portanto, como vêem com esta função
+
+
+também tem. Portanto, portanto, volto a repetir,
+vocês não não precisam disto especialmente porque
+
+
+aqui não têm vocês não têm este o meu package XFunctions, OK? Eh, mas hoje em dia, com a ajuda
+
+
+do chat GPT, qualquer coisa que precisem, pois é,
+é só perguntar. Ora, então onde é que nós íamos?
+
+
+Pronto, já vimos este exemplo aqui, OK? Que nós
+podemos às vezes dar uma vista de olhos nalguns
+
+
+do datasets que vêm. E agora vamos começar então
+a explorar o Eurostat propriamente dito. Ora,
+
+
+qual é a primeira coisa que temos que começar?
+Nós começamos com uma query a a perguntar ao
+
+
+ao Eurostat, a dizer que dá-me que que tipo de
+ficheiros é que tu tens, que tipo de dados tens
+
+
+para um determinado tema. Pronto, eu pesquiso aqui
+uma stringa a vulso, neste caso fertility rate, OK?
+
+
+E ele eh certamente aqui no help, ele dá-me dá-me uma
+ajuda e explica mais ou menos com alguns exemplos
+
+
+o que é que devemos pôr na string. Pronto. Eh,
+e isto é que é bastante poderoso porque aqui,
+
+
+por acaso, nem sei se ele terá alguma função de
+catálogo para dizer baixa-me o catálogo todo, tudo
+
+
+quanto tu tenhas. Eh, é uma é uma não se não me
+lembro agora se tem. É uma era uma questão de ver.
+
+
+Eh, mas aqui já serve porque eu dou-lhe uma query
+eu tenho aqui o resultado da query e aqui tenho eh
+
+
+realmente fertility rate by nuts 2 region foi quando
+eu tive que ir ao nuts 2 region ver o que era o
+
+
+nuts 2 region ok são as regiões pronto mas
+aqui ainda vamos fazer uma coisa simples.
+
+
+Não vamos trabalhar com regiões, vamos
+trabalhar com os países diretamente, que
+
+
+é o código do o código do ficheiro no Eurostat,
+é o TPS 00199. OK? Ora, vamos fechar isto aqui.
+
+
+Pronto, então sendo assim, cá está. Então,
+eh, vou buscar o ficheiro Countries, Eurostat.
+
+
+Reparem como isto é bem mais simples eh
+do que ir buscar o CSV, por exemplo. Eh,
+
+
+lembram-se no meu tutorial anterior nós phamos o
+link do CSV, OK? Agora imaginem que o link muda,
+
+
+que há uma reestruturação dentro da plataforma do
+site e depois o link muda daqui a uns anos. OK?
+
+
+Pronto. Eh, como vêem aqui é muito mais robusto
+porque aqui se mudar o código eu vejo logo da
+
+
+query que mudou e é só mudar o nome do código
+e pôr aqui o código. OK? Mas é, vai ser sempre
+
+
+muito mais rápido do que se mudasse o link
+de um CSV e eu ter que ir ter que ir ao site,
+
+
+ter que ir à procura novamente e descobrir
+novamente onde era o novo link. OK? Portanto, é
+
+
+sempre as coisas com os acessos via API são sempre
+mais robustos e são sempre mais mais poderosos.
+
+
+Portanto, Eurostat get the Eurostat file com o ID
+do ficheiro. Eu vou obter aqui os countries. OK.
+
+
+Data dataset query already saved in cache. 
+é porque ele ele certamente guardou aqui na cache
+
+
+local, que eu já estive há bocado a fazer aqui um
+teste antes de fazer o tutorial. Engraçado. OK.
+
+
+nem sabia que ele trabalhava com outro, mas isto
+isto é interessante. Uma pessoa que esteja aqui
+
+
+a trabalhar bastante eh depois não perde tempo a
+fazer o download, já tem os ficheiros em cache.
+
+
+Ora que temos aqui os countries, portanto,
+o que é que ele tem? Tem cinco variáveis,
+
+
+tem aqui a frequência, tem os códigos. Eh, isto
+é o total fertility rate, é o deve ser o o é o é
+
+
+o portanto é o é o código do da informação
+que ele tem, a geografia. a data e o valor.
+
+
+E depois temos aqui uma função que me vai buscar
+as labels, diz assim: "OK, isto é tudo muito bonito
+
+
+para trabalhar informaticamente, mas e eu quero
+uma coisa com os descritivos mais user friendly,
+
+
+porque eu olho para aqui um a, não sei o que é que
+é isto e portanto eu quero, eu também não sei qual
+
+
+é o país AL por hipótese. E então eu eu quero eu
+quero os descritivos e ele tem tem uma função para
+
+
+ir buscar os descritivos. label label Eurostat.
+Passo-lhe o data frame, no data frame ele ele irá
+
+
+com o nome das variáveis e então vai saber OK,
+ah, OK, esta variável porque isto isto está tudo
+
+
+estruturado e tipificado dentro do Eurostat.
+Também no meu tutorial anterior era a mesma
+
+
+coisa. No World of Data também os campos estavam
+todos estruturados. Por exemplo, quando aparecia
+
+
+a entidade entity, eh, representava o nome do
+país e vários datasets que vocês fossem buscar,
+
+
+teria sempre, vai ser sempre o mesmo padrão
+e o mesmo nome de variáveis. OK? Pronto,
+
+
+portanto aqui é a mesma coisa. Então, portanto,
+ele vai saber o que é que são estes campos.
+
+
+Pronto, ele está a fazer countries labels. Pronto, então
+devolveu-me, devolveu-me um dataset data frame que
+
+
+similar, mas que agora já substituiu as constantes
+por variáveis. Por exemplo, o A é anual. Eh,
+
+
+aqui o código total fertility rate ele põe por extenso
+total fertility race. AL era a Albânia e assim
+
+
+sucessivamente. Pronto, é bastante como estão
+a ver bastante útil, bastante user friendly.
+
+
+Agora eu quero fazer aqui uma pequena alteração.
+Eu quero introduzir no aqui no data frame dos
+
+
+countries. Eh, eu vou trabalhar aqui com o dos
+countries ou um ou outro. Eles são similares.
+
+
+Pronto, um tem um tem os descritivos e
+outro tem tem o aqui o o shortcut. Eh,
+
+
+eu quero eh ter uma uma label que que me diga o
+country e que tenha que tenha e aqui o o código,
+
+
+as as iniciais e o e por extenso também.
+OK. Pronto, fica, fica mais útil. Pronto,
+
+
+então fica aqui AL Albânia. Pronto, assim é mais
+fica mais claro. Assim nós olhamos e vemos vemos
+
+
+imediatamente vemos a inicial e e também vemos o
+por extenso. Por exemplo, então eu posso vir aqui,
+
+
+pronto, e aqui já posso pesquisar, por exemplo,
+Portugal. Pronto, que aqui já tenho os descritivos.
+
+
+Claro que Portugal já eu já sabia que era PT, mas
+vamos pesquisar aqui. Ora PT Portugal. Cá está.
+
+
+E aqui vemos que tem informação desde 2013 até
+2024. Eh, já por aqui já podemos ver o fertilityrate
+
+
+que por acaso até aumentou um bocadinho. Eh,
+certamente terá a ver com a grande massa de
+
+
+imigração que temos recebido nos últimos anos,
+que terão provocado a um ligeiro aumento aqui
+
+
+da taxa de fertilidade. OK? Já sabemos que tudo
+quanto seja abaixo de dois, pois representa um um
+
+
+decréscimo da população eh a médio e longo prazo.
+OK? Ora, e portanto temos aqui  countries, OK?
+
+
+Eh, podíamos fazer aqui, podíamos fazer aqui
+uma uma um subset só para só para Portugal.
+
+
+Obviamente, podemos fazer um subset. Eh, é um é um
+filtro. Há há várias maneiras de fazer as mesmas
+
+
+coisas. Eu acho que subset nunca tinha usado o
+subset eh num num dos meus tutorials. Pronto. Mas
+
+
+eventualmente se vocês já têm alguma experiência
+de R já já de certeza que já conhecem o subset.
+
+
+Quantos geografias, quantos países temos aqui? Eh,
+estamos a trabalhar aqui com eh 41, 40, pronto,
+
+
+40 e picos países que é que ele tem aqui na
+Europa. Temos e os códigos e temos por extenso. OK,
+
+
+temos por extenso, OK? Temos alguns países e também
+temos aqui uns agregados. Temos aqui uns agregados
+
+
+que deve ser as médias as médias de destas destas
+regiões, por exemplo, aqui da União Europeia a 27.
+
+
+OK. Agora, então vamos agora simplesmente fazer
+aqui um um plot. Tenho aqui uma função eh e tenho
+
+
+plot countries. Agora vou chamar a função
+plot countries para para o todos os países da
+
+
+União Europeia. Countries. OK. Eh, dá aqui uma
+grande confusão porque tem aqui as labels. OK.
+
+
+Mas aqui dá para dar uma uma panorâmica geral como
+está a Europa toda. E vejam, pronto, que realmente a
+
+
+tendência é geral. Ah, há aqui um gráfico está aqui
+a crescer, mas nem consigo distinguir qual é. Eh,
+
+
+este. Nem consigo distinguir porque está
+aqui sobreposto, não consigo ver a label.
+
+
+OK, teria, teria que investigar, mas
+pronto, este é o panorama panorama
+
+
+da Europa. Eh, e agora o mesmo gráfico, eu posso
+fazer aqui a seleção que eu quiser.
+
+
+OK. Aqui há uns anos, quando eu fiz o gráfico, eu tinha informação
+da Rússia, mas agora já não tem. Certamente por causa da guerra da Ucrânia excluiram a Rússia e
+os dados da Rússia agora já não aparecem. Enfim,
+
+
+é aquela censura do bem e é censura do mal, mas
+enfim, não é? Cala-te boca, nem vou entrar por aí
+
+
+que extravasa o âmbito aqui do do tutorial.
+Ora, portanto, vou pedir aqui estes países,
+
+
+assim como este Euro27. Este Euro27, eu
+não sei de cor, mas eu vim aqui ver e vi
+
+
+que ele tinha aqui o Euro27. Ah, e então pois
+coloquei-o, deixa ver a média da União Europeia.
+
+
+Pronto, cá está. A Rússia já não
+conta, já não consta. Eh, e portanto
+
+
+temos aqui a Ucrânia, coitada. Penso depois,
+certamente devido à guerra, está... Aliás,
+
+
+já nem tem dados. Praticamente a partir daqui ele
+já não, penso que já não tem mais dados porque já,
+
+
+já cá não estão. Estão omissos. Eh, e pronto,
+temos aqui Portugal está similar à Hungria. A
+
+
+Espanha sempre está bem pior do que do do que
+do que do que Portugal. Eu fui muito à Espanha,
+
+
+já trabalhei na Espanha eh muitos anos,
+não continuamente, mas ia ia lá em trabalho.
+
+
+Às vezes, ao longo de vários anos, eu fui muitas
+vezes a Espanha em trabalho, tinha muitos colegas
+
+
+espanhóis e já na altura, já há há 20, 30 anos,
+quando eu ia, tinha lá os meus colegas espanhóis e
+
+
+já era e já na altura, por exemplo, a data que e a
+idade que as pessoas casvam, eu já já era notório
+
+
+que era muito avançada, ninguém casava aí antes
+dos 30, 35 e portanto já ninguém tinha filhos,
+
+
+imaginem, não é? Ah, mas enfim, mas isso é
+outro tema. Vamos que extravasa agora. Já
+
+
+entravamos  para sociologia e da e o estado
+da da nossa civilização. Mas adiante. Portanto,
+
+
+temos aqui e pronto, isto é uma coisa simples,
+só para vocês verem. Eh, dá-vos uma dica do que
+
+
+é que vocês podem explorar no Eurostat. vocês
+pesquisam o tema que vocês queiram com a query
+
+
+ou vão diretamente ao site. Neste nesse caso já
+nem precisamos de ir ao site. Ou eventualmente
+
+
+até no chat GPT. Se vocês forem ao chat GPT
+e perguntarem, vamos que há um tema que vocês
+
+
+não estão a encontrar, podem ir ao chat GPT e
+certamente que ele deve saber e perguntam qual é o
+
+
+tema e ele dir-vos quais os códigos dos ficheiros.
+Agora queria vos mostrar também a parte do esquisse,
+
+
+que é a parte que me tinha falhado no tutorial
+anterior. Eu tinha ido aqui aos addins e eu não
+
+
+estava a encontrar onde é que estava o esquisse, que
+é um addin que é é instalado através de um package
+
+
+e depois esse package instala um addin aqui no IDE
+e pá e ele estava aqui, era só fazer isto para
+
+
+baixo e eu nem estava a reparar que estava aqui a
+barra. Peço desculpa, mas na altura não encontrei.
+
+
+Pronto, aqui temos o esquisse. Eu posso carregar aqui
+mas também posso executá-lo aqui se eu, ou seja,
+
+
+e já na altura eu podia, mas eu não me recordava.
+Ou seja, eu também posso executar uma função de
+
+
+um addin a partir daqui. Vou-vos mostrar aqui o
+esquisse. Vou-vos mostrar também aqui outra coisa.
+
+
+Vou-vos mostrar, por exemplo, aqui este addin.
+ele tem um addin que é um gestor de addins. OK?
+
+
+Este addin aqui é um gestor de addins que me mostra os
+todos os addins que estão disponíveis à partida e
+
+
+quais os que eu tenho instalado e que não tenho e
+portanto e o que é que eles fazem, não é? Pronto,
+
+
+como estão a ver, isto é bastante interessante.
+Eu tenho aqui vários addins instalados.
+
+
+Existe aqui um addin que é realmente, como estão a
+ver, que acho que é do chatgpt que é este aqui. Eh,
+
+
+mas eu não vou agora clicar isto. Eu acho que
+isto não não tenho isto bem configurado. Eh,
+
+
+portanto, existem diversos addins e há um que eu
+costumo usar com frequência até que é este. Agora,
+
+
+até menos, porque agora desde que temos o chat
+GPT, eu vou ao chat GPT e dou-lhe a estrutura do
+
+
+data frame que eu quero e digo digo o que é que eu
+quero, o tipo de gráfico que eu quero e ele dá-me
+
+
+o código. Agora até já nem tenho usado isto,
+mas daqui há uns anos eu usava, eu vinha aqui
+
+
+e ele chamava o addin. Ele abre aqui uma aplicação
+gráfica, como estão a ver, o R, eu isto é feito em
+
+
+R, pressuponho que isto é feito em R e ele e o R
+também tem capacidades gráficas, como estão a ver.
+
+
+Eh, e então ele tem aqui, dizemos qual o o data
+frame que nós queremos. Agora vou só pedir aqui
+
+
+uma coisa simples que isto é só para propósitos
+do tutorial. Vou pedir aqui indico o data frame,
+
+
+carrego a data, pronto, e ele dá-me aqui os campos que
+tem o data frame. Eu vou pôr aqui o que é que eu
+
+
+quero no X, quero o o time period, no Y quero os
+valores, naturalmente, que é o fertility rate. Eh,
+
+
+agora quero uma aqui uma coloração a partir do do
+country, que só neste caso só tenho um país. Eh,
+
+
+sim, senhora. E agora eu eh tenho aqui o código
+e posso, como estão a ver, copiar o código. Eh,
+
+
+ou carrego aqui diretamente, e ele passa o código
+para para o script. OK. Imaginando que eu quero
+
+
+agora fazer aqui outro gráfico. Ou então copy to
+clipboard. OK. Posso sair daqui do esquisse e posso
+
+
+chegar aqui e e posso, como estão a ver, fazer
+o paste e posso fazer o gráfico. OK, pronto, cá
+
+
+está. Eh, muito poderoso, mas é como digo, agora
+vá com o tempo que eu penso que isto cairá em desuso
+
+
+à medida que que o chat GPT começa a
+ganhar força e à medida que o chat GPT ficar
+
+
+integrado nos IDEs eh muitas destas ferramentas
+vão vão vão perder validade. Eh, e pronto,
+
+
+penso que chegamos ao fim. Eh, tratamos alguns
+tópicos, nomeadamente esta parte do esquisse que
+
+
+nunca tínhamos visto. Tratamos aqui um pouco das
+vignettes , dos datasets que vêm dentro dos packages,
+
+
+alguns tópicos que ainda não tínhamos aprofundado
+noutros noutros tutorials e agora aprofundamos um
+
+
+pouco mais. OK? Eh, e pronto, espero que tenha
+sido inspirador para vocês, que é isso que eu
+
+
+desejo. Comecem a explorar, dediquem-se à linguagemR que
+é uma linguagem espetacular. O IDE também é
+
+
+espetacular. E aqui dou-vos os meus tutorials têm
+essa intenção de vos inspirar a irem à procura de
+
+
+informação, a pesquisarem por vocês mesmos temas
+que vocês queiram pesquisar em bases de dados
+
+
+neste tipo de plataformas. Isso é fundamental
+nós termos a capacidade de pesquisarmos por nós
+
+
+mesmos, se quisermos estar bem informados.
+OK? E pronto, despeço-me e até à próxima.
+
+

@@ -1,0 +1,11 @@
+🖥️ R Programming - Eurostat - Part 1
+1. Introdução ao pacote Eurostat em R
+2. Carregamento de datasets incluídos nos pacotes
+3. Utilização de documentação e vignettes dos pacotes
+4. Listagem de datasets disponíveis no pacote
+5. Consulta à API do Eurostat versus links CSV
+6. Rotulagem de variáveis e códigos de países
+7. Filtragem de dados por país específico
+8. Visualização de taxas de fertilidade na Europa
+9. Uso do addin Esquisse para criação de gráficos
+10. Integração de ferramentas de IA no R

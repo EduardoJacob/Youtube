@@ -1,0 +1,11 @@
+🖥️ R Programming - ComfyUI
+1. Integração da linguagem R com o ConfyUI para geração de imagens e vídeos por IA.
+2. Refatoração do projeto de download de músicas do YouTube com novas funções em R.
+3. Criação de estrutura de data frame padronizada para centralizar variáveis de download.
+4. Uso de desconstruct automático em R para dinamizar o acesso a variáveis nas funções.
+5. Exportação de workflows do ConfyUI no formato JSON para integração via API.
+6. Injeção automática de metadados, como capas, em arquivos MP3 e imagens geradas.
+7. Implementação de um fluxo iterativo onde a descrição de uma imagem gera a próxima.
+8. Utilização do pacote Gemini.R para obter descrições ou prompts baseados em imagens.
+9. Configuração do ConfyUI em modo de desenvolvimento e instalação via Easy Install.
+10. Discussão sobre boas práticas de programação, como padronização de nomes de variáveis.

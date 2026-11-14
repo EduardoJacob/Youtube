@@ -1,0 +1,3829 @@
+
+Ora, sejam bem-vindos a mais um
+
+
+tutorial. Hoje vai ser dedicado ao
+
+
+famoso produto Obsidian
+
+
+e como vamos conseguir controlar aqui
+
+
+algumas funcionalidades a partir da
+
+
+linguagem R.
+
+
+Ora,
+
+
+aqui temos o Obsidian. Portanto, eu não
+
+
+vou dar um curso de Obsidian, mas é o um
+
+
+produto muito usado de para noteing.
+
+
+Ah, compete um bocado com o Notion. O
+
+
+Notion também é muito famoso.
+
+
+Eh,
+
+
+ao longo de já conheço o Obsidian há
+
+
+alguns anos, mas não tenho usado muito e
+
+
+agora estou a começar a usar mais.
+
+
+E também já vi muitos testemunhos na net
+
+
+de pessoas que abandonaram o Notion para
+
+
+em direção ao ao Obsidian,
+
+
+por acaso, em sentido contrário, nunca
+
+
+vi, não me lembro de ter visto, mas
+
+
+também já vi pessoas que abandonam tudo,
+
+
+tudo e mais alguma coisa e ficam apenas
+
+
+com um cloud code ou com alguma
+
+
+ferramenta qualquer de inteligência
+
+
+artificial e acabou e não se preocupam
+
+
+mais em em gerir notas, né? E confiam
+
+
+tudo na inteligência artificial. OK? Mas
+
+
+pronto, há um bocado de tudo. Ora bem,
+
+
+pronto, nós temos aqui o nós temos aqui
+
+
+estas notas. Eu tenho aqui as minhas
+
+
+notas.
+
+
+Ah, também quero vos mostrar aqui o que
+
+
+é que eu usava
+
+
+e agora estou a descontinuar, que também
+
+
+já vos falei nisto no outro tutorial,
+
+
+que é o o Cherry Tre. É muito bonzinho o
+
+
+Sherry Tre.
+
+
+Eh, portanto, é um sistema
+
+
+que
+
+
+tem notas e subnotas. Por exemplo,
+
+
+imaginem que eu tenho aqui, por exemplo,
+
+
+cloud computing. Eu tenho aqui, tenho
+
+
+aqui a minha nota. Eu posso pôr texto,
+
+
+posso pôr print screens aqui. OK, posso
+
+
+pôr imagens. Sim, senhor.
+
+
+E depois eu clicando aqui posso ter
+
+
+subnotas.
+
+
+OK.
+
+
+Sim, senhor. Portanto, é parecido com o
+
+
+Obsidian, mas o Obsidian tem folders e,
+
+
+portanto, e as folders não têm as
+
+
+folders lá dentro têm notas, mas a
+
+
+folder em si não é uma nota, enquanto
+
+
+que aqui não existem folders, existem só
+
+
+notas e subnotas.
+
+
+Eh,
+
+
+depois há outras também ligeiras
+
+
+diferenças, porque eu aqui eh posso ter,
+
+
+por exemplo, duas notas com o mesmo
+
+
+nome,
+
+
+não é? Se é que isso possa fazer algum
+
+
+sentido, mas ele permite. Eu posso pôr
+
+
+aqui duas notas aqui, se eu quiser, com
+
+
+o mesmo nome, porque toda a informação
+
+
+está numa base de dados.
+
+
+Enquanto no Obsidian, pois não posso
+
+
+porque cada nota é corresponde a um
+
+
+ficheiro no OK, no Fire System, portanto
+
+
+não posso ter dois ficheiros com o mesmo
+
+
+nome.
+
+
+Eh, o OBS aqui, o Sherry Tree é guarda,
+
+
+portanto, tudo aqui nesta base de dados.
+
+
+OK?
+
+
+Eh, se eu fizer aqui um save es, ele
+
+
+tem, ele guarda, é o que ele chama um,
+
+
+um ficheiro SQL Light.
+
+
+Eh, também pode guardar num num single
+
+
+XML file.
+
+
+Eh, multiple fes in hierarchical folder
+
+
+structure. Esta parte aqui acho que nem
+
+
+nunca exporei,
+
+
+mas pronto.
+
+
+Esta é uma ferramenta que eu vou eu vou
+
+
+deixar de usar a pouco e pouco porque
+
+
+claro não tem não tem a pujança que tem
+
+
+um obsidian, porque um obsidian tem uma
+
+
+quantidade de plugins que tem tem uma
+
+
+uma comodidade grande, portanto são são
+
+
+produtos que realmente de diferentes
+
+
+campeonatos.
+
+
+Eh,
+
+
+uma das coisas que podemos fazer aqui é
+
+
+migrar. Eu posso migrar aqui em
+
+
+informação.
+
+
+Eh, e instalei aqui um plugin no
+
+
+Obsidian, que é o que é serve para
+
+
+importar informação e ele pode importar
+
+
+aqui informação, como estamos a ver, de
+
+
+vários produtos, do Evernote, Google
+
+
+Keep, o Notion.
+
+
+OK, mas não está cá a Cherry Tre,
+
+
+obviamente Cherry Tri é um produto pouco
+
+
+conhecido,
+
+
+mas eu posso, se eu quiser chegar aqui,
+
+
+eu posso exportar aqui um uma um uma
+
+
+ramificação aqui da árvore.
+
+
+OK.
+
+
+Eh, eu posso chegar aqui e dizer
+
+
+exportão
+
+
+aqui e irei exportar para HTML.
+
+
+Não vou fazer isso agora.
+
+
+Eh, já o fiz aqui. Há aqui uma
+
+
+ramificação aqui que eu já fiz isso e já
+
+
+depois importei aqui para o Obsidian,
+
+
+mas eu aqui posso exportar, portanto,
+
+
+uma ramificação completa. Selectedes and
+
+
+subnodes.
+
+
+Ah, OK. Ele vai- me dizer onde é que eu
+
+
+quero exportar. Ele vai-me pôr lá o
+
+
+Posso fazer isso. Pronto, posso fazer
+
+
+aqui só para ver para ver como é que
+
+
+fica.
+
+
+Ora, vamos imaginar que eu vou pôr aqui.
+
+
+Sim, senhor.
+
+
+OK.
+
+
+Pronto. E ele já pôs aqui. Ele pôs as
+
+
+notas toda que está toda nesta
+
+
+ramificação. Cloud computing.
+
+
+OK.
+
+
+Eh,
+
+
+OK. Cloud Computing. Tem aqui uma outra
+
+
+ramificação que é os providers.
+
+
+Eh, e depois tem aqui algumas subfolders
+
+
+aqui com com as imagens com com
+
+
+resources que que são depois apontados
+
+
+por aqui, nomeadamente as imagens e,
+
+
+portanto, as imagens pôs aqui nesta
+
+
+subfolder. OK, pronto. Sim, senhor.
+
+
+Ah, e portanto
+
+
+ah, vamos deixar agora isto, esta parte
+
+
+do Cherry Tre, tá visto. Pronto, o
+
+
+Cherry Tre, portanto, como disse, ela
+
+
+como guarda aqui só num único ficheiro
+
+
+maciço, não é nada prático nós
+
+
+manipularmos esse ficheiro através da
+
+
+programação. Eh, se olharmos para dentro
+
+
+do ficheiro, é um ficheiro complexo,
+
+
+eh, e, portanto, não é prático. onde tá
+
+
+tá todo toda a informação está lá dentro
+
+
+encapçulada e codificada de alguma
+
+
+maneira. OK.
+
+
+Sim, senhor. Vamos deixar agora isto
+
+
+e vamos fechar aqui o cherry tre
+
+
+e depois aqui podemos poderíamos
+
+
+importar, eu agora poderia importar
+
+
+aquela parte, aquela ramificação
+
+
+e dizer aqui choose folders e importar
+
+
+aqui uma determinada folder.
+
+
+Eh, mas pronto, não vou fazer isso
+
+
+agora. Não vou fazer isso agora. Já fiz,
+
+
+eu fiz, eh, já fiz no outro dia e é
+
+
+corresponde a uma área que eu tenho aqui
+
+
+nova management. Ok, pronto, e as notas
+
+
+ficaram aqui.
+
+
+Eh,
+
+
+aqui temos algumas cores. Portanto, esta
+
+
+parte aqui que é do do do file do File
+
+
+Explorer, esta parte eu tenho
+
+
+customizado através de um Cascade Style
+
+
+Sheet de, portanto, de um ficheirinho
+
+
+que eu que eu customizei,
+
+
+enfim, com a ajuda da da do chat CPT,
+
+
+obviamente, para elar o nome da da das
+
+
+tags de CSS.
+
+
+Eh, esta parte aqui do
+
+
+do graph view, esta parte eh
+
+
+infelizmente parece que não dá para
+
+
+customizar da mesma da mesma maneira que
+
+
+esta,
+
+
+OK? através de de de programação e tem
+
+
+de ser customizada aqui manualmente, se
+
+
+quisermos customizar aqui, eh,
+
+
+nomeadamente aqui, por exemplo, com
+
+
+grupos, onde eu digo, olha, todos os as
+
+
+notas
+
+
+que que estejam na patolder de Python é
+
+
+é passar a vermelho e assim
+
+
+sucessivamente vermelho, verde, azul.
+
+
+OK,
+
+
+mas ok, pronto, também não vou dar agora
+
+
+um curso de obsidian. não é esse o
+
+
+âmbito.
+
+
+Eh,
+
+
+sim, senhora. Agora vamos então ver o
+
+
+mais ou menos o que o com o que é que
+
+
+vamos agora começar a focar-nos no que é
+
+
+que vai ser hoje o tutorial. Portanto, e
+
+
+vamos então imaginar que eu tenho aqui
+
+
+as notas. Pronto. E como estamos a ver,
+
+
+tenho por exemplo aqui os alguns
+
+
+apontamentos de inteligência artificial
+
+
+que eu ponho aqui. OK? Imaginem que eu
+
+
+tenho aqui o que é a ASR. Eu posso pôr
+
+
+aqui, OK? A automatic speak recognition.
+
+
+Pronto.
+
+
+Eh, a grande vantagem, efetivamente, do
+
+
+Obsidian, é trabalhar com os ficheiros
+
+
+em formato markdown. E o Markdown
+
+
+tornou-se um um standndar de mercado.
+
+
+Portanto, o Markdown
+
+
+e é usado em tudo e mais alguma coisa,
+
+
+OK? no Gitub, por exemplo, toda a
+
+
+documentação é Markdown.
+
+
+E hoje em dia, agora com o advento da
+
+
+inteligência artificial,
+
+
+eh, sucede, eu vou puxar para aqui o
+
+
+chat G CPT,
+
+
+sucede que as inteligências artificiais,
+
+
+de um modo geral, elas devolvem os
+
+
+outputs em formato markdown. OK? Pronto,
+
+
+eu vou fazer aqui um teste. Vamos
+
+
+imaginar que eu queria aqui pedir aqui
+
+
+ou vou pedir ao chat CPT eh para para
+
+
+ele me explicar aqui um tópico de
+
+
+inteligência artificial. Eh, por
+
+
+exemplo, para ele me explicar o que é
+
+
+que é a hallucination. OK, eu vou usar
+
+
+aqui o
+
+
+vou usar aqui o microfone para ele
+
+
+capturar.
+
+
+Explain what is hallucination in the
+
+
+context of AI.
+
+
+Ok.
+
+
+Pronto. Sim, senhor. Ela dá-me, dá-me
+
+
+aqui um output qualquer, que estes
+
+
+outputs estão cada vez mais, mais estão
+
+
+cada vez mais completos, cada vez mais
+
+
+complexos. Eh, tem havido upgrades
+
+
+ultimamente, onde agora às vezes colocam
+
+
+aqui imagens, não foi agora aqui o caso,
+
+
+mas às vezes colocam imagens ou links ou
+
+
+links para vídeos ou etc, etc, etc. Bom,
+
+
+então agora que eu tenho aqui esta nota,
+
+
+eu poderia chegar aqui, fazer o copy
+
+
+paste e e gravar isto eh num ficheiro
+
+
+markdown, mas eu uso aqui um, eu uso um
+
+
+addon, que é muito mais prático. Eu uso
+
+
+este addon free que é o chatpt exporter.
+
+
+OK? Portanto, eu vou eh vou cliquei aqui
+
+
+e agora vou dizer: "Olha, salva-me como
+
+
+um markdown".
+
+
+OK?
+
+
+Portanto, ele vai salvar.
+
+
+Eh, e então eu vou colocá-lo aqui e na
+
+
+minha folder de obsidian
+
+
+e dentro aqui da da subfolder de
+
+
+inteligência artificial.
+
+
+OK. E eu vou pôr aqui e vou salvar como
+
+
+o tópico
+
+
+sim senhor.
+
+
+PMD.mkdown.
+
+
+Ok.
+
+
+Pronto. Sim, senhor. Digamos que isto
+
+
+seria isto seria
+
+
+eh isto até mais ou menos o fluxo de
+
+
+trabalho com com que eu hoje em dia
+
+
+estou a trabalhar. Quando eu quero
+
+
+quando eu quero ir buscar uma nota,
+
+
+eu eu faço desta maneira. OK. Pronto. E
+
+
+o alucineas entrou aqui. Cá está. Cá
+
+
+está ela. Pronto. Aqui às vezes isto
+
+
+este é útil porque o edadon dá-nos, por
+
+
+exemplo, aqui qual foi a pergunta, qual
+
+
+foi a pergunta que eu fiz.
+
+
+a data e hora, etc, etc. Portanto, é
+
+
+útil, é útil usar um edon desta maneira.
+
+
+Eu penso que existem outros edons mais
+
+
+poderosos que eu estive a pesquisar
+
+
+que, nomeado, que integram melhor com o
+
+
+Obsidian, onde basta um clique e a nota
+
+
+vai parar para dentro do obsidian,
+
+
+porque permite customizar quais as
+
+
+subfolders de obsidian, onde nós
+
+
+queremos colocar as as notas, não é, as
+
+
+respostas.
+
+
+eh da inteligência artificial, mas
+
+
+pronto, mas eh eh há esses dons, alguns
+
+
+parece que depois requerem requerem que
+
+
+a pessoa faça uma subscrição. Eh e
+
+
+portanto eu na verdade fiquei fiquei-me
+
+
+por este aqui, porque este aqui não me
+
+
+tem dado problemas nenhuns, está sempre
+
+
+a e tem trabalhado bastante bem o chat
+
+
+GPT Exporter.
+
+
+Eh, também existe uma outra abordagem
+
+
+que é em vez de ter que ir à
+
+
+inteligência artificial aqui no browser,
+
+
+eu eh quem diz no browser ou no no
+
+
+desktop, é, existe aqui um plugin
+
+
+aqui bastante famoso aqui no Obsidian,
+
+
+onde integra uma inteligência artificial
+
+
+que eu tive a experimentar no community
+
+
+plugins,
+
+
+que é um copilot.
+
+
+E funcionou, funcionou. Ele integra. Eh,
+
+
+só que depois os modelos
+
+
+que ele tem free são fraquinhos e,
+
+
+portanto, eh,
+
+
+não, eu prefiro ir ao chat GPT e tenho
+
+
+uma resposta mais poderosa, OK? Mesmo na
+
+
+versão free, porque eu não eu não tenho
+
+
+subscrição de chat CPT, nem de Gemini,
+
+
+nem de nada. OK? Mas pronto, só para que
+
+
+vejam que também é possível e quem tem a
+
+
+subscrição, integrar um copilot.
+
+
+Eh, cá está ele é este copilot aqui.
+
+
+E, portanto, este copilot depois integra
+
+
+aqui do lado direito aqui do obsidian e,
+
+
+portanto, nós mesmos e, portanto, dá
+
+
+fica, torna-se muito mais rápido porque
+
+
+qualquer pergunta que eu faça aqui
+
+
+automaticamente já fica salvado, fica
+
+
+salvado instantaneamente
+
+
+como uma resposta dentro aqui de uma
+
+
+subfolder do Obsidian. OK? Pronto, nesse
+
+
+aspecto a integração é muito mais rápida
+
+
+e, portanto, é, mas é como vos digo, não
+
+
+depois não gostei porque
+
+
+os modelos free davam umas respostas
+
+
+mais simplórias
+
+
+e depois também não gostei porque este
+
+
+plugin ao ser instalado usa algumas
+
+
+subfolders
+
+
+e para guardar informação e essas
+
+
+subfolders depois mistura e aqui dentro
+
+
+das minhas folders aqui principais. pais
+
+
+e, portanto, eh, e eu não gostei dessa
+
+
+dessa parte.
+
+
+Já há aqui algumas coisas que eu não
+
+
+gosto, como por exemplo, e ter que
+
+
+colocar aqui estas subfolders com
+
+
+attachments e imagens.
+
+
+Por exemplo, aqui esta área aqui de de
+
+
+knowledge base é uma área que veio do
+
+
+Cherry Tree, onde eu exportei e aqui eu
+
+
+eu coloquei aqui, eu coloquei aqui e
+
+
+portanto e estas imagens que aqui estão,
+
+
+nós podemos ver aqui
+
+
+e estas imagens
+
+
+está aqui na subfolder de images. OK.
+
+
+Eh, agora há aqui há aqui há aqui duas
+
+
+nuances porque eh
+
+
+nós há várias maneiras de de fazer a
+
+
+ingestão do HTML para dentro aqui do do
+
+
+Obsidian. Eu posso, por exemplo, usar
+
+
+uma ferramenta como o Pandoc e converter
+
+
+HTML para Mark.
+
+
+OK.
+
+
+eh ou posso,
+
+
+e foi o que eu fiz, estas esta, esta
+
+
+ingestão que eu fiz aqui foi feita com
+
+
+esse processo e e não ficou bem feita,
+
+
+porque podemos ver aqui que há aqui
+
+
+algumas algumas tags da HTML que que não
+
+
+foram convertidas e que ele manteve
+
+
+aqui, mas também posso pegar no HTML
+
+
+tal e qual e simplesmente fazer o rename
+
+
+para extensão markdown
+
+
+e é o suficiente.
+
+
+Não é preciso mais nada porque o
+
+
+Obsidian consegue consegue fazer o
+
+
+rendering de do HTML normal, portanto
+
+
+não está agarrado e suponho que também
+
+
+outros formatos como texto qual qualquer
+
+
+coisa, naturalmente que ele fará só ele
+
+
+só requer é que a extensão seja markd à
+
+
+partida que seja MB. OK?
+
+
+Mas pronto, portanto, e aqui as imagens,
+
+
+pois ela tá aqui na subfolder de
+
+
+imagens. Neste caso é a imagem 187.1
+
+
+que no momento em que ele fez a
+
+
+importação e portanto e ela está aqui,
+
+
+cá está, a imagem está aqui. OK. E
+
+
+portanto, eh,
+
+
+eu, eh, não fica bem. Eu não, eu não
+
+
+gostava, eu não gosto de ver aqui estas
+
+
+subfolders aqui de imagens e atatos, mas
+
+
+gostava que eu guardasse isto numa outra
+
+
+área para não estar a misturar aqui com
+
+
+os meus apontamentos propriamente ditos.
+
+
+Eu gostava de ver aqui apenas os meus
+
+
+apontamentos. Mas ok. Eh, eu não sei se
+
+
+é possível, porque eu também não ainda
+
+
+não domino o Obsidian, OK? Tenho estado
+
+
+a usar agora há pouco e pouco. Ora bem,
+
+
+sim, senhor.
+
+
+Portanto, eu e importei aqui esta nova
+
+
+nota, este novo output de chat cpt. OK,
+
+
+ele já está aqui. Bom, então agora
+
+
+eh vamos é está chegou a altura de
+
+
+passarmos para a linguagem R.
+
+
+Pronto, a linguagem R. Agora eu que fiz
+
+
+aqui e estruturei um projeto cujo fiz o
+
+
+upload do projeto no meu canal de Gitubs
+
+
+podem ir lá buscar este projeto onde
+
+
+está lá tudo. OK? Não me vou estar agora
+
+
+a repetir aqui como é que eu estruturo o
+
+
+projeto. Vejo os meus outros vídeos onde
+
+
+eu tenho aqui um setup. Todos os
+
+
+projetos projetos ou packages que eu
+
+
+faço ou tá sempre um ficheirinho de
+
+
+configurações onde eu faço o setup.
+
+
+Eh, se vocês instalarem este projeto,
+
+
+eventualmente vão querer também instalar
+
+
+os meus packags de linguagem R, que eles
+
+
+podem ser instalados com estes comandos.
+
+
+Eu tenho quatro packets,
+
+
+OK?
+
+
+Eh,
+
+
+irão precisar disso. Por exemplo, aqui
+
+
+neste caso deste projeto, irão precisar
+
+
+de instalar o meu package I Tools, que
+
+
+onde nós vamos invocar o Gemini, ou
+
+
+podemos invocar o LM Studio, algum
+
+
+modelo local. OK, mas isso já vamos ver.
+
+
+Eh, recomendo que vejam os meus outros
+
+
+tutorials porque, pronto, para não estar
+
+
+agora a repetir-me e a explicar tudo
+
+
+isto outra vez, como é que tudo isto
+
+
+funciona. OK? Pronto. Sim, senhor. OK.
+
+
+Mas basicamente eu tenho aqui um
+
+
+programa principal
+
+
+que eu chamei Obsidian e depois como eu
+
+
+costumo trabalhar organizo todas as
+
+
+minhas funções aqui
+
+
+e tenho aqui as minhas funções, abri uma
+
+
+biblioteca de funções que eu criei aqui,
+
+
+OK? E algumas destas destas funções vão
+
+
+usar vão usar, por sua vez, funções dos
+
+
+dos meus packages, OK?
+
+
+Mas isso vamos vend agora há pouco e
+
+
+pouco. Ora bem, então vamos lá começar
+
+
+eh para dar para vos dar ficarem com uma
+
+
+uma vista de olhos do do que é que eu
+
+
+implementei. Então o que nós temos aqui
+
+
+é o seguinte, p vou carregar aqui as
+
+
+funções.
+
+
+Sim, senhor.
+
+
+Eh, e agora e pois a primeira coisa que
+
+
+tenho que informar é onde é que eu tenho
+
+
+a minha o meu volt. o meu Volt, que é é
+
+
+numa equatura que usada pelo Obsidian,
+
+
+onde eu tenho a minha folder que tem eh
+
+
+as minhas notas. OK?
+
+
+Se formos aqui ao Obsidian,
+
+
+e penso que aqui
+
+
+clicando aqui aqui num alguma nota aqui,
+
+
+ora show in system explorer. Ok, cá cá
+
+
+está. Pronto, aqui tenho aqui tenho o
+
+
+meu volt obsidian.
+
+
+Sim, [roncando] senhor.
+
+
+Ora, podem ver que
+
+
+existem algumas folders aqui de
+
+
+configuração, começam por ponto pon
+
+
+obsidian. Trash
+
+
+e pronto. E o resto é a minha
+
+
+informação. Há aqui duas folders que
+
+
+contêm os attachments e as e imagens.
+
+
+Pronto. E o resto são as minhas folders.
+
+
+Contei estes meus tópicos. artificial
+
+
+intelligence, knowledge management e
+
+
+linguagem Python. Isto é só em
+
+
+exemplificativo, OK?
+
+
+Ora,
+
+
+sim, senhor. E, portanto, isso sendo
+
+
+assim,
+
+
+eu aqui indico qual é a raiz do do
+
+
+obsidian.
+
+
+Pronto. E [roncando] agora a primeira
+
+
+coisa que eu vou fazer aqui é
+
+
+efetivamente quais são as folders, quais
+
+
+são as subfolders que eu tenho.
+
+
+OK.
+
+
+Sim, senhor. Eh, para já não vou usar a
+
+
+recursividade porque também não existem
+
+
+subfolders,
+
+
+OK? E, portanto, vou buscar as folders.
+
+
+Eh, e agora vou excluir as folders que
+
+
+começam por ponto. Efetivamente, que
+
+
+essas folders não me interessam, que são
+
+
+são folders da configura que que o
+
+
+próprio produto usa.
+
+
+Sim, senhora. Pronto. E fico com cinco
+
+
+folders.
+
+
+Ora bem, então uma das primeiras eh
+
+
+funções
+
+
+que vou vamos agora aqui ver, não foi
+
+
+das primeiras que eu que eu programei,
+
+
+mas mas que agora é invocado em primeiro
+
+
+lugar, trata-se de ir buscar, trata-se
+
+
+de dizer, eu quero obter uma
+
+
+sumarization
+
+
+para cada daquelas notas que que vimos.
+
+
+Imaginem esta esta nota que geramos
+
+
+agora sobre alucinations,
+
+
+OK? Eu quero, eu tenho aqui a nota e eu
+
+
+agora quero obter um parágrafo, um
+
+
+resumo que me diga o o que é que trata
+
+
+esta nota, OK? Um sumarization.
+
+
+Então eu gerei eh vamos gerar para todas
+
+
+as folders, vou vou gerar o
+
+
+sumarizations. E as summarizations ele
+
+
+vai guardá-las aqui nesta subfolder
+
+
+aqui, sumarizations
+
+
+organizado com exatamente com a mesma
+
+
+estrutura, com uma clonagem que ele
+
+
+gerou isto automaticamente.
+
+
+OK? Se vocês correrem isto na vossa
+
+
+máquina, ele vai gerar as subfolders
+
+
+automaticamente, vai colocá-las aqui.
+
+
+[roncando] Eh, vemos que no generate
+
+
+sumarizations ele
+
+
+ele posso eu posso-lhe eh forçar um
+
+
+overhegem
+
+
+em que ele vai refrescar e gerar
+
+
+novamente todas as sumarizations vai à
+
+
+inteligência artificial.
+
+
+Ou o normal será que nós apenas queremos
+
+
+fazer algo incremental e, portanto,
+
+
+dizemos, olha, vai gerar as
+
+
+summarizations apenas onde onde ainda
+
+
+não existem sumarizations.
+
+
+E podemos definir o tamanho da
+
+
+sumarization, que ele tem um default
+
+
+aqui de 40 palavras. OK? Sim, senhor.
+
+
+Pronto. Neste caso aqui do
+
+
+sumarizations, agora que vamos fazer, eu
+
+
+tenho aqui na área do artificial
+
+
+intelligence
+
+
+e nós vemos que não tem aqui
+
+
+hallucinations porque eu ainda nunca
+
+
+gerei. Eu tenho aqui as pequenas
+
+
+sumarizations aqui numa única linha que
+
+
+eu que eu já gerei para as minhas outras
+
+
+notas. Pronto, então essa é a primeira
+
+
+parte. Vou sa só dar aqui uma vista
+
+
+deitos de como funciona a função.
+
+
+Pronto. Eh, aqui havia duas hipóteses
+
+
+aqui, efetivamente.
+
+
+Eh, ou eu poderia usar uma inteligência
+
+
+artificial local, que também é possível,
+
+
+mas neste caso, como eu experimentei com
+
+
+uma com um modelo na cloud, estou a usar
+
+
+o Gemini.
+
+
+E, portanto, eh, e funciona. E mesmo na
+
+
+versão free, ela está-me a funcionar,
+
+
+que é o que vamos usar aqui com uma das
+
+
+minhas funções, tá? Do meu package IS
+
+
+Gemini.
+
+
+Eh, o que acontece na altura quando eu
+
+
+programei isto, já lá vai um tempo, eh,
+
+
+ele tem lá um modelo default. Ele tem um
+
+
+modelo default
+
+
+que é o que é o o 2.5 Gemini 25 flash.
+
+
+Eh, e agora já passou bastante tempo e
+
+
+agora já podemos lhe passar um modelo
+
+
+mais avançado. E eu estou-lhe a passar o
+
+
+o modelo 3.5 FL,
+
+
+OK?
+
+
+Eh, e portanto e funciona. E até fiquei
+
+
+surpreendido porque ele conseguiu
+
+
+processar uma quantidade de de notas e
+
+
+conseguiu dar-me uma quantidade de
+
+
+sumarizations. Estava a pensar que ele
+
+
+na versão free que iria ser limitado e
+
+
+ia gastar os créditos, mas não. Foi
+
+
+bastante poderoso. Houve uma outra vez
+
+
+que rebentou, mas não faz mal porque eu
+
+
+depois repito e eu gera-me sumarizations
+
+
+onde ainda não gerou e portanto isto não
+
+
+tem problema nenhum se ele rebentar.
+
+
+Eh,
+
+
+e sim senhora. A outra alternativa seria
+
+
+realmente usar aqui o LM Studio local,
+
+
+OK? a mesma coisa, onde eu também uso um
+
+
+modelo default, mas pronto, mas agora de
+
+
+facto vamos usar o Gemini porque é mais
+
+
+rápido e é mais poderoso. Pronto, ou
+
+
+seja, eu eh desde que possível gosto
+
+
+mais de usar os modelos na cloud, que
+
+
+são mais poderosos do que usar o meu
+
+
+modelo local, né? O o meu meu modelo
+
+
+local será sempre mais simplório e mais
+
+
+lento, mesmo tendo uma máquina poderosa
+
+
+como eu tenho. Eh, não consigo competir
+
+
+com a velocidade de ir à cloud fazer o
+
+
+fazer uma query qualquer. OK?
+
+
+Pronto. Eh, como costume, não vos vou
+
+
+explicar isto aqui ao pormenor. Isso
+
+
+não, isto não faz sentido. Isto não é
+
+
+uma, não é um curso de de não é não são
+
+
+tutorials de para ensinar a programação
+
+
+R, eh, mas sim tutorials para vos
+
+
+mostrar funcionalidades e vos dar
+
+
+inspiração de ideias que vocês possam
+
+
+querer explorar e implementar. Algumas
+
+
+ideias similares, acho que eu estou aqui
+
+
+a implementar. OK, pronto. O que
+
+
+interessa é explicar-vos o que é que
+
+
+isto vai acontecer. Agora eu vou-lhe
+
+
+passar folder a folder e para para toda
+
+
+para cada folder ele vai-me buscar aqui
+
+
+eh tenho aqui uma uma subfunção get
+
+
+obsidian notes que ele ele vai-me buscar
+
+
+aqui as notas que estão numa numa data
+
+
+folder.
+
+
+Eh,
+
+
+OK.
+
+
+Sim, senhor. E excetuando a um
+
+
+determinado ficheiro específico, que é
+
+
+um índice, que é um índice, que já vamos
+
+
+ver o que isso é, que eu ainda não gerei
+
+
+os índices.
+
+
+OK, pronto, vamos então gerar isto.
+
+
+OK,
+
+
+ele tá, ele agora tá, tá a consultar o
+
+
+Gemini. Cá está, tá a consultar o
+
+
+Gemini.
+
+
+Há aqui uma série de OK,
+
+
+pronto. Agora isto é, olha, até calha
+
+
+bem ter dado este erro, que era aquilo
+
+
+que estava-vos a dizer que que às vezes
+
+
+rebenta e agora e agora e agora
+
+
+arrebentou.
+
+
+Eh,
+
+
+ele estava a canir alucinations.
+
+
+Eh, deixa cá ver se ele gerou ou não
+
+
+gerou.
+
+
+Ora,
+
+
+onde é que isto está? Ora, penso que
+
+
+não, não gerou. Vou tentar outra vez.
+
+
+Deixa lá ver se ele agora funciona.
+
+
+OK, parece que agora funcionou. Pronto,
+
+
+cá está. Até calhou bem ter rebentado
+
+
+para
+
+
+efetivamente verem que aquilo que eu
+
+
+tinha dito que não tem problema,
+
+
+arrebenta, corre outra vez. Ora,
+
+
+portanto, o que é que ele fez aqui? Ele
+
+
+ele analisou aqui, ele passou a nota
+
+
+toda ao modelo, ao Gemini.
+
+
+Eh, pediu aqui com uma data query cá
+
+
+está, onde eu digo olha e samaris de
+
+
+following obsidian return only one
+
+
+paragraph n orden 40 words. Ok, isto
+
+
+está tudo foi tudo parametrizado por
+
+
+mim. Ok,
+
+
+e depois havia duas hipóteses. Ou ou eu
+
+
+passaria e como attachment, eu podia
+
+
+passar o Bdown como attachment.
+
+
+Eh, mas eu não tenho isso implementado e
+
+
+pareceu-me que não estava ainda bem
+
+
+implementado dentro do dos packagets que
+
+
+eu estou a usar. Então, eh,
+
+
+usei apenas, portanto, aglutinei tudo na
+
+
+aqui na na prompt. Pronto, aglutinei a
+
+
+nota toda na prompt e pronto. E é
+
+
+funciona porque ele tem um contexto
+
+
+window bastante grande e, portanto,
+
+
+funcionou. Agora, naturalmente que se
+
+
+fosse um Markdown gigante, provavelmente
+
+
+daria erro ou iria seria troncado ou
+
+
+algo assim. Mas pronto, mas para já toda
+
+
+todos os exemplos que eu aqui corri, ele
+
+
+sempre funcionou, nunca se queixou.
+
+
+Ora, portanto, ele demorou aqui 11
+
+
+segundos,
+
+
+ele cá está, ele aqui criou o
+
+
+sumarization, onde está-me aqui a dizer,
+
+
+olha, o sumarization foi criado aqui
+
+
+dentro da subfolder aiucinations MD.
+
+
+Sim, senhor.
+
+
+Eh,
+
+
+ah, tá-me a dar aqui também qual qual
+
+
+foi a resposta que ele deu. Pronto, não
+
+
+mais que 40 palavras. Pronto. E tudo o
+
+
+resto eue fez skip porque porque as
+
+
+sumarization já existem.
+
+
+Eh, também fez skip de algumas folders
+
+
+por inteiro porque não tem nenhuns
+
+
+markdowns dentro. Pronto, e assim
+
+
+sucessivamente. Pronto, esta parte então
+
+
+aqui já está. Ela gerou aqui. Ora, deixa
+
+
+eu ver onde é que isto está.
+
+
+Cá está. Ele gerou aqui o o
+
+
+sumarization.
+
+
+OK. Pronto, esta é a primeira parte. Já
+
+
+vamos ver onde é que isto vai entrar.
+
+
+OK. Pronto.
+
+
+Ora,
+
+
+o que é que temos mais
+
+
+agora? Então, vem a criação dos índices.
+
+
+Bom, então os índices o que é?
+
+
+Ora, nós vamos aqui no Obsidian, vemos
+
+
+que temos aqui as notas,
+
+
+nós temos esta view aqui que é o graf
+
+
+view. Pronto, há quem gosta que isto, há
+
+
+quem não gosta, eh, vê-se muito na vê-se
+
+
+muito na web. Eh, pronto,
+
+
+redes, networks gigantescas e depois a
+
+
+pessoa coloca links de umas para as
+
+
+outras e fica uma confusão. Eu
+
+
+sinceramente não eh não vejo grande
+
+
+utilidade nisto. Isto é mais o aspecto
+
+
+engraçado, o aspecto visual do que outra
+
+
+coisa.
+
+
+que acredito que possa haver nums
+
+
+determinados casos específicos que isso
+
+
+possa ter importância realmente
+
+
+as conexões possam ter determinada
+
+
+imaginando por exemplo uma rede, uma
+
+
+hierarquia de pessoas, por exemplo, se
+
+
+eu tiver aqui representado, dá para
+
+
+representar aqui uma network com
+
+
+pessoas, com as suas hierarquias, os
+
+
+subordinados, etc, etc, porque depois a
+
+
+as conexões podem ter uma orientação,
+
+
+podem ter setinhas, etc, etc, etc.
+
+
+Pronto, haverá casos específicos que
+
+
+possamos usar aqui realmente o obsidian
+
+
+e esta visualização network para fazer
+
+
+uma coisa dessas. OK,
+
+
+mas ok, mas então o que é que nós vamos
+
+
+fazer? Eu interessa-me aqui, como isto
+
+
+tá há aqui uma grande misturada, tá tudo
+
+
+aqui à mistura, pronto, o que eu vou
+
+
+fazer agora é criar um índice. Eu vou
+
+
+criar um índice
+
+
+em para cada folder. Cada folder vai ter
+
+
+o índice que vai agregar todas as notas
+
+
+que estão dessa categoria, nessa folder.
+
+
+Pronto, é o que nós vamos fazer aqui.
+
+
+OK, então eu vou fazer aqui eh
+
+
+generate obsidian index.
+
+
+OK, pronto, eu vou correr agora. Não não
+
+
+vou estar a explicar, não vou não vamos
+
+
+estar a ver o código, não vale a pena.
+
+
+Depois vocês poderão ver eh o o código.
+
+
+Penso que não tem muito interesse. E
+
+
+também para depois também não não
+
+
+prolongar muito este tutorial.
+
+
+O que ele tem aqui é uma hipótese, um
+
+
+índice com sumarizations ou sem
+
+
+sumarizations. Para já vou fazer sem
+
+
+sumarizations.
+
+
+Portanto, então é é um índice, o vai ser
+
+
+apenas um índice simplório, mas quem vai
+
+
+já vai ser o suficiente para agregar.
+
+
+Eu até vou chegar isto aqui para o lado.
+
+
+É engraçado porque vamos ver ver isto em
+
+
+vamos ver isto em em tempo real e como
+
+
+vai afetar aqui a a network. OK.
+
+
+Sim, senhor. Eu estou a chegar isto aqui
+
+
+para o lado e agora vou correr, vou
+
+
+correr o generate obsidian index. Ok,
+
+
+pronto, cá está. E ele correu. Esta
+
+
+parte ficou aqui um bocado. Ah, ok.
+
+
+Pronto. Eh, é engraçado ver isto, ver
+
+
+isto a nascer. Pronto. Então, o que é
+
+
+que acontece? Ele cria-me aqui uns novos
+
+
+nós, que são apenas os índices que
+
+
+começam com underscore, porque eu
+
+
+escolhi o por forma a aparecer aqui no
+
+
+topo dentro de cada folder. Dentro de
+
+
+cada folder tem aqui. OK. Pronto. E
+
+
+então, eh, pronto, isto já é o
+
+
+suficiente efetivamente para dar aqui
+
+
+alguma arrumação. OK.
+
+
+Eh, e permite-me eh entrar agora aqui no
+
+
+índice, por exemplo, aqui. Pronto, aqui
+
+
+diz a data que foi criado e aqui tem o
+
+
+os links para onde eu posso clicar
+
+
+diretamente para ir ver os tópicos. Sim,
+
+
+senhor. Pronto, isto é, foi uma das
+
+
+primeiras funcionalidades que eu que eu
+
+
+criei quando comecei a preparar este
+
+
+tutorial,
+
+
+foi criar aqui estes índices. OK. Sim,
+
+
+senhor. Eh, entretanto,
+
+
+mais tarde, depois tive a ideia de criar
+
+
+realmente essas sumarizations e disse e
+
+
+o índice fica muito mais enriquecido
+
+
+se eu e introduzir sumarizations.
+
+
+Pronto. E então ele aqui vai ver se eu
+
+
+tenho as sumarizations nestas
+
+
+respectivas subfolders e se tiver vai
+
+
+agregar essas sumarizations. Se não
+
+
+tiver pois não faz, ele não vai gerar.
+
+
+Pronto, eu aqui não quis estar a
+
+
+misturar, senão era uma grande confusão.
+
+
+Portanto, eu quis gerar as sumarizations
+
+
+em separado. Primeiro eu gero que isso
+
+
+porque isso dá mais flexibilidade. Eu
+
+
+até posso introduzir uma sumarization
+
+
+manual ou corrigir uma sumarization,
+
+
+etc, etc. Portanto, dá mais
+
+
+flexibilidade. Eu faço essa parte aqui
+
+
+em separado. E agora posso fazer os
+
+
+índices
+
+
+eh incluindo as sumarizations. Portanto,
+
+
+os índices ele vai sempre fazer o
+
+
+overridge. Ele aqui ele aqui não preciso
+
+
+de dizer para fazer override ou não,
+
+
+porque ele ele fará sempre o override
+
+
+dos índices. Pronto. Pronto, cá está.
+
+
+ela gerou aqui os índices
+
+
+eh excetuando para as folders que não
+
+
+contêm notas porque então aí não existe
+
+
+índice nenhum.
+
+
+Pronto. E aqui está. E agora vamos ver
+
+
+que efetivamente o como os índices
+
+
+ficaram diferentes. Vamos ver por
+
+
+exemplo aqui este. Pronto. E agora já
+
+
+tenho aqui efetivamente ele tenho aqui o
+
+
+índice já com um pequeno parágrafo que
+
+
+dá-me uma ideia.
+
+
+permite-me voltar aqui daqui a um tempo,
+
+
+por exemplo, este hallucinations que
+
+
+tivemos aqui a ver agora
+
+
+a hallucination and language model
+
+
+generate convincing fabricated
+
+
+information tal
+
+
+pronto e depois podemos clicar aqui
+
+
+entramos diretamente aqui na nota ou
+
+
+voltando para trás ok pronto penso que
+
+
+isto é fica fica uma fica uma boa ideia
+
+
+penso que isto é bastante útil eh posso
+
+
+ter aqui um índice e posso eh controlar
+
+
+Quando o número de palavras, o tamanho
+
+
+da sumarization, eu posso efetivamente
+
+
+ter aqui com mais ou com menos detalhe
+
+
+este índice. Portanto, penso gostei,
+
+
+gostei de ter implementado aqui esta
+
+
+funcionalidade.
+
+
+Ora, é que temos aqui mais agora?
+
+
+Pronto. Agora temos aqui um outro
+
+
+conceito onde que as notas as notas
+
+
+funcionam que é com as propriedades
+
+
+e nomeadamente que podem ter tags ou
+
+
+podem ter toda uma série de campos
+
+
+pré-definidos e contactos, e-mails, e
+
+
+status, etc, etc. São propriedades, são
+
+
+campos pré-definidos que pertencem a
+
+
+determinadas características, mas
+
+
+pronto, mas o mais imediato que se que
+
+
+se costuma usar são tags. OK? Pronto.
+
+
+Então, sendo assim, o que acontece é
+
+
+que, eh, aliás, já não lembro agora se
+
+
+tenho aqui alguma tag ou não. Deixa-me
+
+
+entrar aqui num Vou entrar aqui, por
+
+
+exemplo, aqui numa destas notas, por
+
+
+exemplo, distation.
+
+
+Deixa vir aqui. Pronto, eu tenho aqui
+
+
+uma tag. são estas tags que estão aqui.
+
+
+Pronto. Eh, então, efetivamente, e estas
+
+
+tags,
+
+
+eh, que eu posso
+
+
+eh posso aqui adicionar uma nova
+
+
+propriedade.
+
+
+Eh, e essa propriedade aqui, deixa ver
+
+
+se carrega-se aqui com o rato de já não
+
+
+me lembro onde é que se faz isto.
+
+
+Add property,
+
+
+alias SS classes.
+
+
+Há aqui um sítio qualquer que diz que
+
+
+tipo de propriedade é. Agora não me
+
+
+estou a recordar como é que se faz isso.
+
+
+Bom, para dizer se é um checkbox,
+
+
+OK? ou se é um texto ou se é um se tem
+
+
+piada que não me recordo.
+
+
+Deixa fazer teste.
+
+
+Não me recordo eh onde é que se faz
+
+
+isso.
+
+
+Ah, tá aqui. Property type e checkbox,
+
+
+uma data, date and time, uma vista, um
+
+
+número, etc, etc. Mas pronto, isso agora
+
+
+não importa. É como vos digo, também não
+
+
+vou dar agora um curso de obsidian. Sim,
+
+
+senhor. Mas e já vi que há muita gente
+
+
+que usa isto e estrutura as suas notas
+
+
+com uma série com uma série de campos.
+
+
+OK? Um conjunto de check de checkbox
+
+
+onde vai marcando está feito, não está
+
+
+feito, pode ter uma data e hora, listas,
+
+
+números, textos, etc, etc. Pronto. Eh, e
+
+
+portanto eu eu aqui usei só como
+
+
+demonstrativo para vocês verem que
+
+
+podemos gerar essa essa e essa toda essa
+
+
+parte de uma forma programática
+
+
+com consoante um conjunto de critérios.
+
+
+Podemos gerar essa informação. E essa
+
+
+informação como é que ela aposta aqui?
+
+
+Como ora isto como é um markdown,
+
+
+portanto isto é aqui. Portanto, isto é
+
+
+com as tags aqui de markdown. Eh, isto é
+
+
+e é um pedacinho de de de de formatação
+
+
+que é chamado um yamal. Isto é a
+
+
+linguagem yal. Vocês toda a malta que
+
+
+vocês trabalhem em programação sabem o
+
+
+que isto é. Eh, portanto, isto é um
+
+
+pedacinho de linguagem yal que está aqui
+
+
+é colocado aqui dentro
+
+
+dentro da nota. OK? Relembro que este
+
+
+título não faz parte da nota. Este
+
+
+título é o Obsidian mostra aqui, mas
+
+
+este é o título que é o nome da do
+
+
+ficheirinho. OK.
+
+
+Vamos ver aqui se eu podemos ver aqui no
+
+
+distillation e reveal file e navigation
+
+
+não, reveal show in system explorer. Ok,
+
+
+pronto. Então se eu entrar aqui e posso
+
+
+abrir aqui no Notepad plus.
+
+
+Eh e portanto vemos que efetivamente o
+
+
+título não faz parte. E aqui este
+
+
+cabeçalho, este cabeçalho é um cabeçalho
+
+
+diamel.
+
+
+Eh, onde posso pôr aqui os pares de key
+
+
+value, OK? Das diversas categorias.
+
+
+Sim, senhora.
+
+
+Pronto. Então, sendo assim,
+
+
+portanto, e esta nota que eu acabei
+
+
+agora de gerar, hallucinations, ela não
+
+
+contém este cabeçalho e mal. OK.
+
+
+Portanto, este hallucinations que é ele
+
+
+está aqui, efetivamente, como podem ver
+
+
+não contém, OK?
+
+
+Sim, senhor. Pronto. Então,
+
+
+eh, é essa parte que vamos agora tratar.
+
+
+Portanto, eu tenho, para já eu tenho
+
+
+aqui uma uma função que é o remove este
+
+
+todos os cabeçalhos e a front matter.
+
+
+Pronto, imaginando que eu queria tentar
+
+
+aquilo tudo fora e agora queria
+
+
+construir. E agora lembrava-me que
+
+
+queria colocar um conjunto de parâmetros
+
+
+em todas as notas. Queria colocar uma
+
+
+data, queria colocar um contacto, queria
+
+
+colocar um checkbox. etc, etc. Eh, e
+
+
+então para isso dizia, mas então tenho
+
+
+que retirar aqueles que já lá estão.
+
+
+Então, num formato que eu já não quero,
+
+
+tinha que deitá-los todos fora. Pronto,
+
+
+então poderia fazer essa parte agora.
+
+
+Não vou fazer isto agora.
+
+
+E mas pronto, vocês confiem que
+
+
+funcionam e ele aqui de fora e retira
+
+
+todos aquelas todos aqueles que é
+
+
+chamado o Yama front, que é o nome
+
+
+técnico que se dá aquele cabeçalho. OK?
+
+
+Pronto. Outra coisa que podemos fazer é
+
+
+gerar um Yama default. OK? Então, como é
+
+
+que isto funciona? Eu criei aqui, criei
+
+
+uma área de Yamal, onde eu tenho um
+
+
+template.
+
+
+OK? Eu aqui poderia ter passado um
+
+
+template, não passei. Criei só generate
+
+
+amal front, eh, que eu criei aqui
+
+
+generate front, é onde eu passo-lhe
+
+
+apenas uma folder.
+
+
+Eh, eu porque eu só usei um único
+
+
+template, que é este, mas poderia ter
+
+
+usado, deixa pôr isto aqui maior para
+
+
+vocês verem. Eh, mas se eu tivesse
+
+
+vários templates, consoante aquilo que
+
+
+eu quisesse, eu poderia-lhe passar o o
+
+
+template como parâmetro. Pronto, não,
+
+
+não implemamente isso. Pronto, este vai,
+
+
+este é o único template que vamos aqui
+
+
+ver, uma coisa simples para colocar tags
+
+
+e nas tags vai o nome da folder. Pronto,
+
+
+é uma coisa um bocado redundante,
+
+
+podemos dizer assim, mas pronto, mas é
+
+
+um controle adicional que eu tenho
+
+
+dentro de cada nota. Eu assigno e
+
+
+confirmo qual a folder a folder a que
+
+
+ele pertence, que é que é o no fundo o
+
+
+tópico, o tópico principal que OK, que
+
+
+que está aqui. Isto é é como vos digo,
+
+
+isto é só exemplo título
+
+
+exemplificativo. Não liguem muito ao
+
+
+ao sentido literal tudo o que eu estou
+
+
+aqui a apresentar. Vejam apenas como
+
+
+inspirador para ideias que vocês possam
+
+
+ter de criar algo mais relevante. OK?
+
+
+Pronto. Então aqui tenho um template,
+
+
+sim senhor.
+
+
+Eh, e então tenho
+
+
+generate default front templates. Ele
+
+
+vai gerar, mas agora já está tudo
+
+
+gerado.
+
+
+Eh, ou não, vou apagar aqui um, vou
+
+
+apagar, por exemplo, aqui este para ver
+
+
+vocês verem que ele vai gerar. Ok,
+
+
+pronto, vou apagar este aqui. Pronto,
+
+
+então vou vou gerar vou generate front.
+
+
+Eh,
+
+
+OK. E ele vai ele vai gerar estes estes
+
+
+pequenos templates eh customizados, um
+
+
+para cada folder. OK,
+
+
+pronto.
+
+
+Eh, ele criou, ele provavelmente até faz
+
+
+override, já não me lembro.
+
+
+Neste caso, ele faz o override e acabou
+
+
+por fazer o override também. Criou este
+
+
+aqui. Cá está. Pronto, tá correto.
+
+
+Pronto, como estão a ver, imagina, eu
+
+
+aqui estou a fazer a tratar todas as
+
+
+folders por igual, mas imaginem que
+
+
+poderiam ter um processamento de diverso
+
+
+consoante cada folder. Para uma
+
+
+determinada folder queriam introduzir um
+
+
+determinado template, para outra outro
+
+
+template, etc, etc. ter diversas
+
+
+configurações de Yama fronts e e
+
+
+introduzir nas vossas diversas
+
+
+notas e consoante a folder. Sim, senhor.
+
+
+Bom, e uma vez que agora já gerei estes
+
+
+estes templates aqui personalizados
+
+
+com base no template raiz,
+
+
+já tenho agora os templates aqui porque
+
+
+são já estão prontos simplesmente a
+
+
+fazer a e ser introduzidos copy paste
+
+
+dentro das notas. Pronto. Então vou
+
+
+introduzi-los agora aqui no Insert e
+
+
+Alma front.
+
+
+Ele vai introduzi-os, mas aqui apenas
+
+
+vai introduzi-vos onde ainda não
+
+
+existirem.
+
+
+Por isso é que se eu quisesse forçar e
+
+
+um overright geral, eu teria que eh
+
+
+removê-los primeiro. Pronto, foi a
+
+
+maneira como eu optei por estruturar a
+
+
+programação desta maneira. Pronto, podia
+
+
+haver outras maneiras, mas pronto, eu
+
+
+optei assim. Se eu quiser, tenho que os
+
+
+remover primeiro,
+
+
+depois geraros diversos templates,
+
+
+eh, com base num ou mais templates raiz.
+
+
+Eh, e agora vou introduzir aonde ainda
+
+
+não existem.
+
+
+E ele introduziu aqui.
+
+
+Eh, cá está. E ele diz aqui, olha, Yama
+
+
+Front Matter foi inserido no
+
+
+hallucinations porque aqui ainda não
+
+
+tinha. Ok, pronto, ele aqui introduziu.
+
+
+E, portanto, agora se eu for aoination,
+
+
+já basta o cabeçalho, já lá tem a tag.
+
+
+Ok.
+
+
+Ora, onde é que isto está?
+
+
+Aqui.
+
+
+Ok. E agora já tem aqui a tag. Tá aí.
+
+
+Imaginem que vocês pediam um conjunto de
+
+
+tags que poderiam recorrer à
+
+
+inteligência artificial para dizer:
+
+
+"Classifica-me esta nota extrai-me os
+
+
+três ou quatro tópicos principais",
+
+
+OK? Eh, para classificar o para
+
+
+classificar automaticamente a nota com
+
+
+base nessas tags. E poderiam até manter
+
+
+uma base de dados de tags que vocês
+
+
+poderiam manter algo. IR R,
+
+
+enfim. Portanto, como vem, o céu é o
+
+
+limite.
+
+
+Eh, aqui existe alguns tópicos que eu
+
+
+ainda não exporei bem certas
+
+
+funcionalidades aqui do do Obsidian,
+
+
+como as bases de dados que estão aqui,
+
+
+mas eu nem vou falar nisso porque então
+
+
+é como digo, não não entendi bem o
+
+
+contexto e, portanto, nem sequer vou
+
+
+abordar essa essa parte. Existe aqui
+
+
+outra parte que também não vou falar que
+
+
+são os canvas.
+
+
+Acho que dá para fazer mais ou menos uma
+
+
+uma espécie de fluxograma onde nós
+
+
+podemos pôr algumas notas e algumas
+
+
+setas e umas imagens e uns links e OK e
+
+
+e uns títulos e faz um um fluxograma.
+
+
+Mas pronto, mas isso já com coisas mais
+
+
+específicas que o Obsidian faz, como o
+
+
+Obsidian faz tudo e um par de botas. É,
+
+
+como vos digo, aqueles de vocês que
+
+
+conheçam o o Notion ou que já
+
+
+trabalharam ou mas pelo menos têm uma
+
+
+ideia do que é o Notion e sabem o que
+
+
+que há pessoas que têm toda a sua vida
+
+
+profissional eh gerida pelo Nion, aí tem
+
+
+os calendários, agendas, eh os
+
+
+contactos, as formações, apontamentos, o
+
+
+mail, etc, tudo e um par de voltas. E o
+
+
+Obsidian é como vos digo, el compete com
+
+
+isso porque o Obsidian tem muitos
+
+
+plugins que também permitem ter todo
+
+
+esse tipo de informação, permite ter
+
+
+também os calendários e to tem também
+
+
+tem e pode ser customizado de 100
+
+
+maneiras com com temas, etc, etc. Eh,
+
+
+mas pronto, mas isso não é agora ao
+
+
+âmbito do meu tutorial.
+
+
+Ora bem, então eh estamos quase a chegar
+
+
+ao fim.
+
+
+Eh, já esta é a parte principal,
+
+
+portanto, como que vocês estão a ver,
+
+
+esta parte gerar tags ou ou gerar os yal
+
+
+front matters com uma série de
+
+
+parâmetros,
+
+
+eh, já inseri onde eles ainda não
+
+
+existem. Pronto, e finalmente eh vou só
+
+
+terminar aqui com esta parte que foi uma
+
+
+pequena ideia que depois se me ocorreu,
+
+
+que era o seguinte,
+
+
+eh, a ideia é o seguinte, que então se
+
+
+eu estou a estudar aqui um determinado,
+
+
+estes determinados tópicos, não é?
+
+
+Imaginem que eu eu estou a estudar,
+
+
+estou a estudar inteligência artificial,
+
+
+estou a estudar estes determinados
+
+
+tópicos, OK? O que é o pruning? O que é
+
+
+alucinations,
+
+
+eh, sim senhora. O que é quantization,
+
+
+etc. E num dado momento digo assim: "E
+
+
+pá, agora o que é que eu vou estudar
+
+
+mais?" Eh, então vamos pedir
+
+
+eh ao modelo de inteligência artificial
+
+
+para me recomendar novos tópicos
+
+
+baseado, tendo em conta os tópicos que
+
+
+que já ali estão, o nome das notas, OK?
+
+
+Eu vou pedir ao Gemini
+
+
+eh para me dar, neste caso, recomendo
+
+
+new topics. Por acaso aqui também não
+
+
+disse quantos tópicos eu quero que eu me
+
+
+recomende. Tá, tá art como como sendo
+
+
+três tópicos. Pronto, isto são coisas
+
+
+recentes. Eu fiz toda esta programação,
+
+
+isto tem pouco tempo, mas pronto, como
+
+
+estão a ver, há aqui toda uma série de
+
+
+pormenores que daria agora para dar aqui
+
+
+dar a mais algum dinamismo aqui. Por
+
+
+exemplo, eu aqui poderia dizer, olha,
+
+
+recomenda-me eh dois tópicos, 3, 5, 10
+
+
+tópicos, etc, etc. Pronto, aqui fiz fiz
+
+
+só três, que é que ela está aqui.
+
+
+Recomendo new topics,
+
+
+OK? Que eu tenho aqui.
+
+
+Eh, recomendo new topics.
+
+
+Sim, senhora.
+
+
+Eh, e portanto eu tenho aqui a pró que
+
+
+eu estou a preparar. I have an obsidian
+
+
+where I am studying this topic que é o
+
+
+nome da folder. My vol already contains
+
+
+the following notes. Depois eu coloco
+
+
+aqui os wikilinks que é o que é os os
+
+
+nomes os nomes do das notas. OK?
+
+
+Coloco dentro destas chavetas retas que
+
+
+isto passa a chamar-se wikilink. que há
+
+
+uma maneira também para o modelo de a
+
+
+perceber que que isto não é um texto
+
+
+livre, mas que é um uma listagem de
+
+
+tópicos específicos. E depois digo:
+
+
+"Please recomend três other topics e
+
+
+relacionados. So I can progress in my
+
+
+study. Give me only the names of the
+
+
+topics." Ok, pronto, foi uma ideia
+
+
+bastante engraçada que eu fiz. Eh, vamos
+
+
+ver agora isto a trabalhar. Isto é
+
+
+rápido porque eu simplesmente dá as
+
+
+vistagens com os nomes das notas.
+
+
+Ora, cá está. E, portanto, ele ele
+
+
+submeteu aqui, cá está, ele submeteu,
+
+
+por exemplo, aqui nesta área. Eh, esta é
+
+
+a área de A. E ele ele deu-me aqui três
+
+
+novos tópicos para que eu possa estudar,
+
+
+se eu quiser. Eu recomendou-me, por
+
+
+exemplo, o que é que é o find tuning, o
+
+
+que é que é um reinforcement learning e
+
+
+o que é que é um vector database. OK?
+
+
+Eh, depois na área aqui,
+
+
+eh, onde é que está aqui? Ah, esta não
+
+
+tem nada. Esta não tem nada.
+
+
+Eh, esta é dedicada a knowledge,
+
+
+knowledge management, que é uma área
+
+
+também que eu gosto. Estes são os
+
+
+tópicos que que eu já tenho. E ele
+
+
+recomendeu-me trê recomendou-me três
+
+
+novas três novos tópicos, três novas
+
+
+ideias que eu posso estudar.
+
+
+Cognitive biases, mental models, space
+
+
+repetition. por acaso não faço a mínima
+
+
+ideia o que sejam estes estes tópicos.
+
+
+E finalmente na área do Python,
+
+
+eh, não é que eu esteja a estudar
+
+
+Python, é como vos digo, isto é só a
+
+
+título exemplificativo.
+
+
+Eh, tenho aqui alguns tópicos aqui
+
+
+dentro do Python e ele recomendou-me,
+
+
+olha, o que são, o que são os, os
+
+
+virtual environments de Python, o que é
+
+
+que é que é um type inting e o que são
+
+
+que são generators. Pronto.
+
+
+E pronto. E agora a partir daqui,
+
+
+portanto, como vem poderia,
+
+
+eventualmente até agora até poderia
+
+
+pegar nestes tópicos e em vez de ter que
+
+
+ir aqui ao chat CPT manualmente,
+
+
+agora até poderia criar aqui uma
+
+
+integração, se eu quisesse, e passar e
+
+
+dizer: "OK, então vai vai de imediato eh
+
+
+expandir, desenvolver esses tópicos e e
+
+
+gravamos os outputs diretamente como
+
+
+novos nós." Pronto.
+
+
+poderia fazer isso agora, a partir de
+
+
+agora poderia agora implementar mais
+
+
+coisas, mas pronto, penso que estamos a
+
+
+chegar ao fim daquilo que eu tinha
+
+
+pensado para vos mostrar.
+
+
+Efetivamente é simplesmente dar-vos
+
+
+dar-vos algumas dicas e alguma
+
+
+inspiração de coisas que vocês podem
+
+
+fazer com o Obsidian. Realmente é muito
+
+
+simples trabalhar com o Obsidian desta
+
+
+maneira, porque o Obsidian realmente tem
+
+
+essa grande vantagem, é que as notas são
+
+
+simples ficheiros individuais e a partir
+
+
+daí é muito fácil fazer todo qualquer
+
+
+tipo de programação e automação sobre
+
+
+essas notas. E depois o produto em si
+
+
+simplesmente é um agregador, é um
+
+
+agregador que agrega aqui as notas, que
+
+
+permite gestionar e pesquisar. Eu posso
+
+
+aqui fazer pesquisas, eu posso pesquisar
+
+
+aqui por tags, por exemplo, posso
+
+
+pesquisar aqui uma data tag. Olha, dá-me
+
+
+tag eh de novas management aqui. Pronto,
+
+
+ele diz-me o as notas onde tem, é claro
+
+
+que aqui é uma coisa simplória e,
+
+
+portanto, todas as notas dentro de uma
+
+
+folder contém esta tag. Mas pronto, é só
+
+
+para vos dar uma ideia, coisas que que
+
+
+vocês podem fazer.
+
+
+Eh, espero que se vocês já conhe trabal
+
+
+trabalhassem trabalharem com o
+
+
+eh ou vocês já trabalham com o Obsidian,
+
+
+que isto vos seja útil, que mais uma vez
+
+
+vos mostro o podrio, o podrio da
+
+
+linguagem R e do R Stúio.
+
+
+Caso contrário que não conhecessem o
+
+
+Obsidian, eu recomendo-vos que comecem
+
+
+comecem a usar o Obsidian para guardarem
+
+
+as vossas notas, os vossos outputs de
+
+
+inteligência artificial.
+
+
+Eh, penso que vale a pena. É uma coisa
+
+
+simples, não não dá trabalho. Como
+
+
+viram, podemos usar um addon no browser
+
+
+e começamos a acumular as coisas,
+
+
+começamos a acumular os outputs,
+
+
+eh, começamos a acumular os outputs
+
+
+dentro de dentro de algumas folders.
+
+
+Eh, e pronto, penso que tá terminado, tá
+
+
+terminado,
+
+
+está terminado o que eu vos queria
+
+
+mostrar,
+
+
+OK?
+
+
+E pronto, despeço-me
+
+
+e obrigado pela atenção e até uma
+
+
+próxima oportunidade. Obrigado.
+
+

@@ -1,0 +1,11 @@
+🖥️ R Programming - R Markdown Tutorial
+1. Integração com GitHub Copilot e Inteligência Artificial no RStudio
+2. Atualização da versão do R e gestão automatizada de pacotes
+3. Personalização e gestão de Snippets no ambiente RStudio
+4. Conceitos básicos do R Markdown e formatos de saída (HTML, PDF)
+5. Orquestração de relatórios automatizados para geração de documentos
+6. Extração de dados visuais de PDFs e sites via Web Scraping
+7. Uso de pacotes especializados como Magic, Webshot e Pagedown
+8. Envio automático de relatórios gerados por e-mail (Microsoft 365 R)
+9. Diferenças entre R Markdown e a linguagem Quarto
+10. Importância do domínio técnico ao utilizar ferramentas de Inteligência Artificial

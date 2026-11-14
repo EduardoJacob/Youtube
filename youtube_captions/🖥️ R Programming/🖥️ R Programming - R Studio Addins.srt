@@ -1,0 +1,2521 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial, programação em R com RStudio.
+
+
+Ora, hoje vai ser dedicado ao tema
+
+
+um package, um package que eu fiz que implementa
+addins no RStudio. Portanto, o tema será esteAddins
+
+
+Package Minitools que eu criei e que já está
+disponível no GitHub. OK?  mas antes disso,
+
+
+vamos falar aqui de alguns temas, vamos divagar
+aqui um bocadinho sobre sobre tecnologias e
+
+
+fazer um bocado balanço de tudo o que já
+vimos nesta minha playlist de programação em R.
+
+
+Para começar, queria vos mostrar uma nova
+ferramenta. Eu já tenho, tenho por hábito
+
+
+ mostrar-vos algumas ferramentas que eu,
+que eu gosto, que já uso há bastante tempo,
+
+
+que eu recomendo. E esta ferramenta que eu vos
+vou mostrar é o CherryTree. É uma ferramenta,
+
+
+pode ser instalável, mas
+também tem versão portable.
+
+
+É uma ferramenta da categoria de note taking
+applications, OK?  Para tomada de notas.
+
+
+Eh,
+
+
+OK. Ela está aqui. É especialmente útil,
+por exemplo, no meu local de trabalho,
+
+
+como vocês sabem, muitas vezes nas empresas,
+os computadores não querem que a gente instale
+
+
+nada. é muito difícil, não temos administração
+da máquina, é difícil instalar software e com uma
+
+
+versão portable fica mais simples. E eu como
+a minha empresa não usava nenhuma ferramenta
+
+
+assim especial, nada assim userfriendly nesta área
+de knowledge base, tomada de notas, etc, etc,
+
+
+portanto eu instalei o CherryTree. Há pessoas
+que hoje em dia, hoje há várias metodologias,
+
+
+há pessoas simplesmente não tomam notas de nada.
+Outras tomam nota, as suas notas são são o e-mail.
+
+
+Portanto, alguém passa uma informação sobre o
+e-mail e, portanto, o e-mail no fundo acaba por
+
+
+ser o, portanto, a base de dados de conhecimento
+da pessoa é é o e-mail, mas só sabem aquelas
+
+
+coisas que foram trocadas através de e-mails.
+Fora disso, pois, como não tomaram nota
+
+
+de mais nada. Outras tomam nota ainda em Word,
+OK? Eh, e outras usam, pronto, algumas pessoas já
+
+
+usam ferramentas mais poderosas que estão aí no  
+mercado de noteking colaborativo e e que é usado
+
+
+e que as empresas adotam. Eh, tenho aqui
+um nome na Ponta da Língua, mas agora não me
+
+
+recordo, mas pronto, isso não interessa. Ora bem,
+esta é uma ferramenta, portanto, que ela guarda um
+
+
+ficheirinho de base de dados. Eh, acho que
+é um formato proprietário, mas é tipo basicamente
+
+
+HTML. E como estão a ver, é uma
+ferramenta hierárquica, onde nós colocamos aqui
+
+
+os os nós com nodes e subnodes. Eh, por exemplo,
+imaginando aqui que eu estou a preparar aqui
+
+
+alguns apontamentos e a parte poderosa que isto
+tem é, portanto, que combina print screens. Eu
+
+
+posso tirar print screens e colocar aqui imagens
+com texto. OK. e também a ferramenta tem
+
+
+um autosave, como é óbvio. Eh, para além disso,
+ela não sincroniza na cloud, mas nós facilmente
+
+
+com esta ferramenta ou outras ferramentas que
+tenham essa limitação de não sincronizar na cloud,
+
+
+nós podemos implementar essa sincronização por
+nós próprios. Basta, basta que essa ferramenta
+
+
+salvar salvar os seus ficheiros, a sua base de
+dados dentro de uma folder que esteja debaixo do
+
+
+controle do MegaSync, do qual eu já vos falei do
+MegaSync. Eh, portanto, é o suficiente. E a partir
+
+
+daí nós temos a sincronização porque através do
+do Megasync, o Megasync é o serviço que implementa a
+
+
+metodologia File Watcher. E, portanto, quando um
+folder é alterado, ela vai ao folder e, portanto,
+
+
+e sincroniza na cloud. E, portanto, é o caso
+aqui. Eu tenho isto sincronizado. Eu tenho duas
+
+
+instâncias de, portanto, de CherryTree. Eu
+tenho uma base de dados cherrytree que
+
+
+está no trabalho e tenho esta outra está aqui com
+no meu laptop e no meu desktop. Ah, portanto,
+
+
+é uma ferramenta, como estão a ver, bem simples,
+bem flexível e é possível pegar aqui num branch
+
+
+aqui da da Tree e, portanto, exportar para
+PDF, exportar para HTML. Portanto, nesse aspecto
+
+
+também é muito versátil. Eh, normalmente eu tenho
+a tree ordenada sempre por ordem alfabética. Gosto
+
+
+de ter isto ordenado por ordem alfabético. Eh, e
+pronto, e nada mais especial. O resto deixo para
+
+
+vocês explorarem. Tem aqui algumas aqui alguns
+comandos para fazer o tamanho das fontes. OK. Tem,
+
+
+portanto, funciona como um pequeno editor, não
+é? um pequeno editor de texto, mas muito leve,
+
+
+eh, muito flexível. Eh, pronto, este é
+o CherryTree que eu vos queria mostrar,
+
+
+OK? Vou-vos mostrar também esta nova função
+que eu fiz, imagegrid, que guardei-a dentro do
+
+
+meu package minifunctions, OK? Portanto, o que
+é que ela faz? Ela vai fazer um image grid de
+
+
+todas as imagens que eu tenha numa dada folder.
+Dou-lhe uma folder e vai-me fazer aqui uma grelha.
+
+
+Eu vou demonstrar aqui. Vai-me fazer aqui uma
+grelha. Eu dou-lhe aqui a folder. OK. Pronto, cá
+
+
+está. Eh, e portanto, eh, ele faz-me aqui a grelha
+automaticamente. Neste caso, tinha lá 16 imagens.ele
+
+
+fez.me a grelha. Pronto, aqui tenho um apanhado de
+a nível de aplicações que nós já usamos muito
+
+
+ou pouco ou que eu já recomendei ou que eu já
+falei nos meus tutorials desta minha playlist
+
+
+de programação em R. temos aqui o CherryTree, temos
+o Clipchamp, também já vos falei, eu já usei,
+
+
+mas eu não gosto de edição de vídeo, por isso
+não uso mais, mas se às vezes precisar de alguma
+
+
+coisa simples, eu uso, é free. A grande limitação
+que tem é que na versão free é só grava em 1080p,
+
+
+enquanto que eu estou aqui a gravar os
+meus vídeos em 4K. Temos aqui o ComfyUI,
+
+
+a plataforma que eu comecei a usar há pouco
+tempo para, portanto, inteligências artificiais,
+
+
+modelos generativos de imagem e vídeo. Eu uso isto
+de vez em quando como brincadeira. Esta não é a
+
+
+minha praia, nem vou apostar muito nesta nesta
+ferramenta. Isto são só às vezes às vezes gosto
+
+
+de experimentar algumas coisas e tenho estado a
+experimentar, mas pronto. Mas a minha área a minha
+
+
+área não é esta. Eu não sou uma pessoa criativa,
+eu sou uma pessoa de programação. O meu forte é a
+
+
+parte de programação. E, portanto, aqui na parte
+aqui é a parte de criatividade, criar imagens,
+
+
+criar vídeos, etc, etc. O mesmo se passa a nível
+do gamemaker, que eu também gosto de programar.
+
+
+Se algum de vocês que me esteja a
+ouvir nunca fez nenhum jogo,
+
+
+se quiser experimentar, este é o engine
+que eu recomendo. É um engine 2D bastante simples,
+
+
+muito user friendly. Eu também tenho também tenho
+uma playlist com tutorials no meu canal.
+
+
+Eh, e portanto é um é um engine comprado
+pelo browser Opera. Eh, tem uma linguagem
+
+
+de programação muito simples e que é o GML, o Game
+Maker Language, eh, uma linguagem tradicional de
+
+
+estilo imperativo, portanto, como como se fosse
+Visual Basic ou ou JavaScript, digamos assim.
+
+
+Muito muito simples, muito agradável. Gosto
+muito deste deste engine. É como vos digo,
+
+
+às vezes o o meu primeiro, o principal problema
+com ele é a falta de de imaginação que eu tenho,
+
+
+a falta de criatividade para conceber novos
+conceitos, conceitos de novos jogos. Essa é a
+
+
+parte que que eu tenho mais dificuldade. Eh, mas
+pronto, isso seria para outro tema, mas como já
+
+
+falei disto noutros tutoriais aqui, aqui pus aqui
+tenho o git que que ele integra com o RStudio,
+
+
+como já vimos e verifico que muitas pessoas hoje
+em dia, mesmo malta que trabalha em informática,
+
+
+às vezes confunde o git com o GitHub. Ainda há dias
+estava com um colega meu e tive a explicar. Ele
+
+
+ não percebia bem a diferença. Pronto, o Git
+é o produto que que é instalável nas máquinas, que
+
+
+é o que é o que faz a gestão dos versionamentos
+e os commits, os syncpoints, etc, etc.
+
+
+E o GitHub é uma plataforma online que podemos
+usá-la ou não, onde serve para nós partilharmos
+
+
+código. O que acontece é que a maior parte do
+código que lá é partilhado no GitHub, na verdade
+
+
+são repositórios Git que que são criados pelo
+Git, mas não necessariamente. Eu posso eu posso
+
+
+ter ,criar um repositório no GitHub e colocar
+lá manualmente os ficheiros que eu quiser. OK?
+
+
+Depois temos o GitHub Copilot,  a inteligência
+artificial que integra com os IDEs que eu que eu
+
+
+tenho estado a usar. Instant Data Scraper
+também já vimos num dos meus tutorials,
+
+
+o KanbanFlow também já vos mostrei e que eu estou a usar
+e que estou a usar aqui onde eu tenho o guião,
+
+
+o o guião do onde eu faço normalmente o guião
+dos aqui dos meus vídeos para não me perder
+
+
+muito. Last pass também já vos falei, gestão de
+passwords aqui o Megasync, cá está fundamental,
+
+
+já não vivo sem o Megasync. o LM Studio, como também
+já vos falei, onde na altura quando comecei nesta
+
+
+área também experimentei o Ollama porque era
+o mais famoso, mas depois rapidamente mudei
+
+
+para o LM Studio porque claro, o Ollama é muito
+minimalista, não gosto, tenho me estado a dar bem com
+
+
+o LM Studio e tenho visto que ele tem uma grande
+aceitação. Eu tenho visto a nível da internet,
+
+
+tutorials que eu vejo que realmente tem, está
+com muita aceitação, com grande crescimento.
+
+
+Ah, ainda recentemente instalei o modelo recém
+saído que está aí na berra, que é o Nemotron
+
+
+da Nvidia, que é realmente o modelo que ele é
+multimodal, portanto, que aceita vídeos, aceita
+
+
+imagens, áudios, eh, portanto, aceita tudo e mais
+alguma coisa. Mas tem uma limitação para mim,
+
+
+eu que eu topei logo uma limitação grave, é que,
+por exemplo, o tamanho do vídeo que ele aceita,
+
+
+eh, não pode exceder uns dois ou três minutos,
+portanto, de momento, só aceita vídeos pequeninos,
+
+
+portanto não lhe consigo mandar analisar um vídeo
+de uma hora, por exemplo, um dos meus vídeos,
+
+
+dos meus tutorials, eh, não o posso mandar  
+analisar. De resto, eh, achei-o muito lento. Talvez
+
+
+eu tenha configurado alguma coisa mal, não sei,
+mas poderá ser alguma má configuração que eu fiz,
+
+
+mas à partida, caso não tenha sido isso, achei-o
+muito vento o Nemotron, mas ok, saiu
+
+
+há pouco tempo, foi uma primeira experiência que
+eu tive com ele, estive a experimentá-lo aqui 
+
+
+no LM Studio, o Proton Authenticator também
+já vos recomendei quem trabalha com Two
+
+
+Factor Authenticator, o que eu recomendo, quem não
+trabalha, quem não trabalha , obviamente,
+
+
+eu recomendo, naturalmente, por segurança,
+eu recomendo estes dois tipos de produtos,
+
+
+o Last Pass, um gestor de passwords e um
+gestor de tokens de 2FA - Tow factor authentication.
+
+
+Eh, e este acho que foi o primeiro que lançou
+multiplataforma, eh, porque sincronizando,
+
+
+quer em Windows, quer no mobile, quer em em
+qualquer sistema operativo. Portanto, adotei-o de
+
+
+imediato até hoje e estou bastante satisfeito. O RStudio, naturalmente, que dispensa apresentações.
+
+
+O Sniping Tool é a ferramenta que eu estou a usar
+agora para fazer esta gravação que eu tenho usado.
+
+
+É assim deu-me um problema ainda há bocado. Eu
+estava a gravar este vídeo e devo vos dizer que
+
+
+no final deu-me um problema, não sei porquê, e
+ele perdeu o áudio a meio da gravação e eu deitei
+
+
+o trabalho todo para o licho. Eh, depois
+estive a considerar outras ferramentas. Eh,
+
+
+estive a considerar usar o Nvidia da Nvidia.
+Tem a sua ferramenta, o Nvidia Overlay,
+
+
+que faz gravação também. Eh, mas tem uma limitação
+bastante grande, é que não permite pausa. Eh,
+
+
+e aqui nos meus tutoriales, muitas vezes eu
+preciso de fazer pausa. Já aconteceu porque
+
+
+lançar um comando e que é moroso, que eu faço o
+run desse comando na consola ou no meu script.
+
+
+E a pausa para mim é uma coisa fundamental. E,
+portanto, eu sem pausa eh com a ferramenta da
+
+
+Nvidia, teria que fazer várias várias capturas,
+vários vídeos e depois teria que fazer uma edição
+
+
+de vídeo. Seria mais um passo. Eh, portanto,
+não, para já não não vou usar. Depois há outras,
+
+
+sei que há outras ferramentas mais profissionais,
+como o OBS Studio, já uma vez usei e pá, isso é
+
+
+com complexo demais para mim, sinceramente. Isso
+é para, pronto, mas cá está, cada coisa tem o seu
+
+
+âmbito. O OBS Studio é extremamente profissional,
+extremamente capaz, mas pronto, mas para já,
+
+
+para as minhas necessidades, eu queria uma coisa
+mais simples. Portanto, ou o Snipping Tool ou a
+
+
+ferramenta da Nvidia. Eh, e para já estou a usar
+o Snipping Tool. Eh, simplesmente agora vou vou ter
+
+
+mais atenção, vou estar mais atento e no serviço
+de microfone que tenho aqui na barra de tarefas,
+
+
+de vez em quando vou dar lá uma vista de olhos
+e vejo que ele está a usar que o microfone está
+
+
+em uso pelo snipping tool. Portanto, à partida está
+tudo OK. Pronto, é uma questão de ter mais atenção
+
+
+para que se houver algum problema, eu porque
+realmente ele não me deu, quando houve o erro,
+
+
+ele não me avisou de nada e foi uma chatice. Agora
+queros falar aqui do Positron, portanto o Posit,
+
+
+que é a marca que detém o é o dono do IDE RStudio.
+Pronto, o que é que acontece? Eles estão a criar
+
+
+um novo IDE. Eu compreendo. Ora, RStudio está ,
+portanto, está muito conectado à linguagem R,
+
+
+embora, como já vos falei, vocês podem também
+programar em Python e noutras linguagens dentro
+
+
+do RStudio. Só que claro, qualquer pessoa que oiça
+ falar RStudio diz: "Ah, isto é para R, não é
+
+
+para mim". Eh, e por isso eles criaram o Positron,
+que é um tem um nome mais neutro. Por outro lado,
+
+
+o Positron também é baseado no Visual Studio Code,
+que há muitos IDEs por esse mundo fora hoje em
+
+
+dia, que são forks do Visual Studio Code.
+E, portanto, e isso é uma vantagem de certa forma
+
+
+para para qualquer pessoa então com experiência no
+Visual Studio Code, pois rapidamente salta para um
+
+
+IDE destes e, portanto, e adapta-se bem. Eh, eu
+qualquer dia vou ter que olhar para o Positron.
+
+
+Em todo o caso, não acredito que o R
+Studio não vai desaparecer tão cedo,
+
+
+porque o RStudio já está há muitos anos, deve
+ter uma base de utilizadores gigantesca e, portanto,
+
+
+não vai desaparecer tão cedo, mas em todo o caso,
+quando eu tiver um tempo, está na minha agenda
+
+
+dar uma vista de olhos no positron. O Positron, eh,
+portanto, vai ter uma integração muito forte com
+
+
+a inteligência artificial, como não podia deixar
+de ser. Hoje em dia é tudo assim. Até os sistemas
+
+
+operativos vão passar a ter isso. Ainda agora há
+um dois dias veio a notícia que a futura versão do
+
+
+Ubuntu eh também já vem e bastante eh portanto
+integrada com inteligência artificial,
+
+
+por forma que a pessoa possa ter uma consola de
+inteligência artificial e fala e dá comandos para
+
+
+o sistema operativo com a linguagem natural. Eh,
+isso vai ser uma tendência, isso é  inevitável.
+
+
+O Positron está a desenvolver o seu assistente de
+inteligência artificial, o Positron Assistant, que
+
+
+já integra também no RStudio. Mas eu desabilitei-o
+porque eu continuo a usar aqui o GitHub Copilot e,
+
+
+portanto, para já não eu gosto de ir com calma e
+também quando as coisas aparecem há pouco tempo,
+
+
+não não gosto de me atirar de cabeça. Vou perder
+tempo porque as coisas ainda podem estar
+
+
+em versão beta, depois podem sofrer bastantes
+alterações. Normalmente não gosto de me tirar a
+
+
+um tema quando ele é assim muito recente. Gosto
+de deixar assentar a poeira. De maneira que mas
+
+
+eu acredito que o Possitron certamente eles, a
+Posit irá tentar e implementar um sistema de
+
+
+subscrição paga para usar as 
+funcionalidades mais avançadas. Pronto,
+
+
+esta é uma panóplia mais ou menos dos produtos que
+nós já vimos. OK. Eh, e agora vamos ver aqui outra
+
+
+vertente, uma panóplia das plataformas online
+que nós já vimos, que nós já trabalhamos ou
+
+
+que nós já acedemos via APIs na minha coleção
+de vídeos. OK? Portanto, vou pôr aqui. Bom,
+
+
+estes logotipos. Eu eu tenho os logotipos
+numa folder. Obviamente isto não é automático.
+
+
+Isto eu preparei os logotipos para ficarem na
+minha folder. Poderia ser automática até poderia
+
+
+fazer algum programinha e buscar logotipos à net
+automaticamente, mas pronto, mas depois viriam nas
+
+
+mais variados formatos. Ora, portanto,
+a nível de plataformas online, cá estão elas.
+
+
+Eh, nós temos aqui algumas plataformas com que
+umas delas foram alvo de dos meus vídeos,
+
+
+dos meus tutorials, como o Brilliant, o Eurostat,
+o Exportfy. Eh, temos aqui ChatGPT, na verdade eu
+
+
+vos mostrei que eu não conseguia aceder ao ChatGPT via API de forma gratuita. Eu penso que não
+
+
+é possível. em contrapartida o Gemini sim, que
+permite o GitHub, como vos falei ainda há pouco,
+
+
+a nível de Google Labs, eh também vos falei,
+é sempre uma plataforma útil que vocês poderão
+
+
+explorar , porque as novidades da
+Google estão sempre aqui a sair. E uma delas
+
+
+que eu que eu já vos mostrei um bocadinho
+muito engraçada, que era o Flow,
+
+
+o Google Flow para que faz imagens e vídeos muito
+user friendly, muito engraçado. E agora há dias
+
+
+comecei a usar outra também espetacular.
+Fiquei mesmo impressionado, que é o Flow...,
+
+
+até tenho aqui aberta que é o Flow Music. Isto é
+espetacular, onde ele faz música eh com lyrics ou
+
+
+sem lyrics ou portanto com vocais ou sem vocais
+e onde nós podemos pode criar a música a partir de
+
+
+uma prompt ou a partir de uma imagem ou a partir
+de uma combinação com prompt e imagem, etc, etc.
+
+
+Comecei a explorar isto há pouco tempo e
+digo-vos uma coisa, estou estou verdadeiramente
+
+
+impressionado. É impressionante que ao nível que
+nós chegamos e ao nível que está o desenvolvimento
+
+
+da inteligência artificial neste momento.
+Agora, atenção, não esqueçam os cuidados que
+
+
+eu já vos dei nalguns dos meus tutorials.
+Uma coisa é a brincadeira. Quando eu digo
+
+
+que isto é impressionante, é impressionante
+para brincadeira. Chego aqui, tenho músicas,
+
+
+tenho imagens. Isto é divertido, outra coisa é
+fazer um código que eu já vos avisei, tenham muito
+
+
+cuidado porque vocês mandam fazer uma aplicação,
+mandam fazer um código e vem lá um bug escondido
+
+
+e cuidado que um dia vocês podem se espalhar ao
+comprido com isso. Pronto, mas isso são temas que
+
+
+eu já tenho alertado noutros dos meus tutorials,
+portanto é preciso ter muito cuidado
+
+
+na utilização da inteligência artificial.
+Sabermos para que fim a estamos a usar. OK?
+
+
+Agora, quando o tema é brincadeira, pois aí não há
+não há nada a dizer, isto é espetacular. Ora bem,
+
+
+eh, portanto, temos aqui a Metacrític, que também
+já vos falei, que vinha, inclusive alguns dados
+
+
+Metacrític, vêm dentro da metadata que que está
+no Steam, Spotify, Maven Analytics, também já vos
+
+
+falei no meu no meu último tutorial, o GX Games, a
+plataforma que também está ligada ao game engine do GameMaker. 
+
+
+A isto também já vimos isto num tutorial,
+o Tiobe index também já vimos. As APIs,
+
+
+diversas APIs do YouTube também já tratamos
+nos meus tutorials. O Qwen é o modelo
+
+
+principal que eu uso no LM Studio. Eu tenho
+tenho usado, estou satisfeitíssimo com ele,
+
+
+bastante poderoso. Tem acho que pertence
+à Alibabá. Na altura ainda nem me tinha
+
+
+apercebido a quem pertencia. Acho que é o Alibabá
+o dono desta família de modelos da Qwen. Eh,
+
+
+hoje vamos ver também o falar-vos um bocadinho
+do SerpAPI, que é uma novidade, nunca falamos
+
+
+e eu também desconhecia, descobri isto há pouco
+tempo. Portanto, vou-vos mostrar aqui o SerpAPI que
+
+
+está aqui na nossa agenda aqui no guião. OK?
+Então, portanto, o que é o Serpapi? Portanto,
+
+
+o Serpapi, portanto, vamos dizer assim que é um
+proxy. Eu vou entrar aqui, vou entrar aqui no
+
+
+SerpAPI. Portanto, ele  é mais fácil
+mostrar e explicar ao mesmo tempo. Ora, SerpAPI.
+
+
+Ora bem, então o Serpapi o que vai ser? Imaginem uma série de APIs
+como estas que aqui estão. Como possam imaginar,
+
+
+existem centenas a milhares de APIs espalhadas
+por esse mundo fora. E aqui estão algumas
+
+
+delas. Portanto, APIs para o Google, para Amazon,
+para o DuckduckGo, Bing, Yahoo, etc, etc. Imaginem
+
+
+que vocês querem trabalhar com uma dúzia destas
+APIs, vocês teriam que arranjar as credenciais.
+
+
+vocês tinham que obter as credenciais para uma
+dúzia destas APIs, OK? Portanto, imaginem essa
+
+
+complexidade que inclusive nos meus vídeos eu já
+vos mostrei e que eu tenho essas credenciais para
+
+
+os tutorials que eu já vos apresentei do Steam,
+do Spotify, etc, etc. Portanto, aqui temos uma
+
+
+outra abordagem, temos um proxy, OK? Um serviço
+intermédio, o Serpapi, onde eu basta-me uma Key,
+
+
+uma credencial para o Serapi. E a partir daí é que
+isto é como uma espécie como se fosse uma VPN,
+
+
+como se fosse, OK? É um intermediário.
+E eu simplesmente comunico com o SerpAPI e depois
+
+
+digo-lhe qual das APIs eu quero e, portanto,
+e a partir daí faz o bypass e vai àquela
+
+
+API final que eu quero usando as credenciais do
+SerpAPI. Eh, o serviço é gratuito com
+
+
+determinadas limitações, ou seja, portanto, na
+vertente gratuita e, portanto, terá as mesmas
+
+
+limitações que teria se eu também acedesse
+a uma das outras APIs à partida. OK? Portanto,
+
+
+terá as suas limitações na vertente
+gratuita X acessos por dia ou X tokens por dia,
+
+
+seja o que for. OK? Pronto. E então eu implementei
+aqui eh uma função, um serpAPI eh que também
+
+
+guardei-o dentro do meu package minifunctions,
+que todos estes meus packages, como vocês sabem,
+
+
+vocês podem experimentar, podem fazer download
+deles. está no meu  canal de GitHub, OK?
+
+
+E, portanto, que isto também já foi apresentado.
+Eh, e vocês podem instalar os meus packages,
+
+
+OK? Não me vou estar aqui a repetir, mas vejam os
+meus tutorials anteriores onde eu explico
+
+
+como se instala packages diretamente do
+GitHub. Isto dentro do RStudio com um comando,
+
+
+puxa-se um package do GitHub e instala-se o
+package. Ah, vejam os meus tutorios anteriores
+
+
+onde onde falo sobre tudo isso. Eh, vamos só dar
+aqui então aqui uma vista de hoj no serpAPI.
+
+
+Eh, ora vamos aqui,
+
+
+ora serpAPI.
+
+
+Ora, então, o que é que nós temos aqui?
+Pronto, ele devolve um dataframe. O
+
+
+código deixo ao vosso cuidado. Vocês depois, se
+quiserem instalem o meu package minifunctions e
+
+
+depois já vos ensinei nos meus tutorials como
+podem eh estudar o código de todas as funções,
+
+
+OK? Mostrei-vos até por segurança. Vocês, antes de
+chamarem qualquer função, vocês podem inspecionar
+
+
+o código de todas as funções. Eu já já vos
+expliquei isso nos meus outros tutoriais.
+
+
+Ora, portanto, aqui está um exemplo. Portanto,
+o que é que ele, qual é a API que eu 
+
+
+integrei aqui nesta minha função? Uma vez
+que este é um proxy, ela pode ir a milhares
+
+
+de APIs. Pronto, mas eu aqui eu programei-a para
+ir a uma só API, que é uma API de Search do Google,
+
+
+um Google Search. OK? Eh, basicamente, eh, esta
+minha playlist, ela é focada em APIs. Pronto,
+
+
+isso é o ponto forte. Foi para isso
+que eu criei  esta playlist. O ponto
+
+
+forte aqui é programação em R e integração com
+APIs. Eh, e de facto eh ainda não tinha feito
+
+
+nenhuma integração com nada da Google, OK? Já
+usamos outras, como vocês viram, do Steam,
+
+
+do Spotify,  mas de Google nada. Eh,
+e então eh usei-a agora, mas através do serpAPI.
+
+
+eh foi mais fácil para mim, de acordo com o
+que eu estava a investigar. De certa forma,
+
+
+se vocês eh repararem, eh mesmo quando hoje vocês
+vão ao Google fazer uma pesquisa, muitas vezes o
+
+
+Google comuta a pesquisa e entrega automaticamente
+à inteligência artificial. É um modelo. Ou seja,
+
+
+basicamente o que o que nós vemos é que a
+inteligência artificial está-se cada vez
+
+
+mais a substituir ao Google. às pesquisas,
+ às pesquisas da Google, não é? Portanto,
+
+
+o modelo tradicional de pesquisas parece que está
+a cair, vai cair em desuso e vai ficar tudo entregue
+
+
+à inteligência artificial, mas sempre
+e quando essa inteligência artificial precisa
+
+
+de ter a capacidade de utilização de tools
+para fazer pesquisas. Portanto, ele tem para
+
+
+fazer uma pergunta a um modelo de inteligência
+artificial, uma pergunta sobre um tema atual, como
+
+
+nós sabemos, ele tem que ir à web porque o modelo
+não foi treinado e não tem informação recente. OK?
+
+
+Portanto, ele tem que ser capaz de ir ir interactuar
+eh com a web, acho que é aquilo que se chama o
+
+
+rag, a funcionalidade rag dos modelos. Eh,
+e portanto, e aí é isso que é isso que acontece.
+
+
+ e pronto. E basicamente nós, de certa forma,
+podemos dizer que a inteligência artificial é
+
+
+como um Google 2.0. OK? Nós antigamente fazíamos
+a pesquisa no Google, ele dava-nos as páginas e
+
+
+depois nós tínhamos que entrar página à página à
+procura, a ver dentro dessa página a informação
+
+
+daquilo que nós queríamos e depois nós tínhamos
+que de certa forma processar e fazer um summary,
+
+
+sintetizar todo o output que nós tínhamos
+recebido. Pronto. E é essa mais valia que hoje a
+
+
+inteligência artificial nos dá. ele faz a mesma
+pesquisa, mas depois ele próprio é capaz de
+
+
+sumarizar tudo aquilo, pesquisar e encontrar toda
+a parte útil que está dentro de cada página, de
+
+
+cada resultado. Pronto. E é como vamos ver aqui,
+pronto, eu vou-lhe perguntar aqui qual é a capital
+
+
+de Portugal. E mas aqui é uma é uma pesquisa
+Google simplória, não é? Cá está. Eu fiz isto por
+
+
+brincadeira. Eu à partida não vou precisar disto
+para nada. Eu até demorou 8 segundos. Até foi um
+
+
+bocado do lento. Pronto, ele devolveu-me aqui o
+data frame, qual é a capital? E o que é que ele
+
+
+tem aqui? Ele tem, pronto, ele  aqui tem
+que ele foi e esta parte porque é que ele vai
+
+
+a um sítio não ao outro? Isso já não sei. Isso já
+é o proxy serpapi que decide. Eh,
+
+
+porque que eu já fiz isto noutras alturas. Por
+exemplo, ele fazia duas pesquisas na Wikipedia,
+
+
+fez uma pesquisa Wikipedia Lisboa, fez outra
+pesquisa Wikipedia Portugal. Ou seja, isto
+
+
+não é sempre igual. Portanto, aí os critérios, eu
+não sei como é que é, como é que é decidide esses
+
+
+critérios, mas pronto, mas aqui à partida até nem
+sei se não terá qualquer coisinha de inteligência
+
+
+artificial local lá pelo meio para fazer este
+tipo de decisão, esse tipo de análise. Isso
+
+
+não faço ideia. Pronto, o que nós simplesmente
+usamos o serpAPI, fazemos a pesquisa e ele
+
+
+mostra-nos os resultados. Pronto,
+mostra-nos. Tem aqui a source a que foi. Portanto,
+
+
+isto é importante, OK? porque eu tenho até eu
+fico a saber qual é a fonte de informação que
+
+
+ele uso que ele  recorreu. Eh,
+porque talvez isto pudesse ser mais rápido se
+
+
+eu limitasse o número de sources, mas eu
+eu não investiguei isto, deixei depois isto,
+
+
+não avancei mais com isto, deixei isto em
+standby. Foi só uma pequena brincadeira que
+
+
+eu fiz e pus aqui e pus na minha coleção. Às vezes
+faço muito isso e depois mais tarde se eu precisar
+
+
+de aperfeiçoar esta funcionalidade, poois eu logo
+logo volto a alterar e logo volto a desenvolver.
+
+
+Eh, portanto, dá-nos aqui e o o título, OK?
+O título, a source e o título de
+
+
+onde ele foi ou a página. Eh, e depois o snippet,
+que é o resultado, a função propriamente dita,
+
+
+o resultado que que ele me devolveu. OK?
+Eh, vamos ver agora uma coisa mais recente,
+
+
+qual a classificação da primeira liga em Portugal.
+OK? Portanto, ele aqui, não há dúvida nenhuma,
+
+
+que ele tem que ir buscar informação
+perfeitamente atual, que isto é um tema atual.
+
+
+OK. Aqui falta falta-me aqui prefixar
+aqui. Control copy. Ok.
+
+
+Ora, vamos lá ver então o que é que o que é
+que Ah, OK. Como eu pus um print data frame,
+
+
+portanto ele ele ele despeja diretamente para aqui
+o print data frame. Pronto, então aqui temos ora,
+
+
+isto é os sites onde ele foi, os sites desportivos
+que ele foi. Por isso é que não sei como é que ele
+
+
+avalia, como é que ele determinou que isto era um
+tema desportivo. Não sei se ele usa depois alguma
+
+
+camada de ajuda de inteligência artificial para
+ajudar, orientar quais os sites a que ele deve
+
+
+ir. Pronto, essa parte não sei bem como é que
+funciona. É uma questão de perguntar ao chat GPT
+
+
+como é que isto funciona. Ele deve saber quando
+eu digo chatGPT, ou Gemini ou qualquer outro. Eh, e pronto,
+
+
+cá está. Ele tem aqui, ó, este aqui não não deu
+nada. Este aqui deu, eu penso que tá correto.
+
+
+Porto 85, Benfica 76. Acho que está correto.
+Acho que esta é a classificação. OK. Pronto,
+
+
+isto foi só uma uma pequena dica para vocês,
+para vos mostrar para que fiquem a conhecer esta
+
+
+plataforma do serpAPI. Pronto, se quiserem depois
+podem explorar mais um pouco. OK.
+
+
+Ora, agora quero vos falar um bocadinho sobre o
+tema dos emojis. É um tema interessante. Eh,
+
+
+vamos aproveitar este projeto que eu estou
+aqui. Estou posicionado aqui no projeto do
+
+
+YouTube. Já agora, há bocado não vos falei, mas
+quando o novo Positron IDE, que eu estive a ver um
+
+
+pequeno tutorial sobre ele, realmente tem
+algumas diferenças, como seria expectável, e,
+
+
+por exemplo, já não implementa projetos de R,
+já o conceito tradicional do projeto de R,
+
+
+tal como temos aqui, ele já não implementa, que no
+fundo vai no sentido que eu já vos tinha falado,
+
+
+que o conceito de projetos é um conceito que
+está para ser descontinuado. Já não, já não,
+
+
+não há projetos. Não, não faz sentido falar em
+projetos. Um projeto é uma folder. A folder é
+
+
+o projeto. Nós colocamos o software todo dentro
+de uma folder e essa folder é o projeto. Eh,
+
+
+e portanto e o Positron também trabalha dessa forma,
+como o Visual Studio Code. Os projetos são as
+
+
+folders. Depois eu estou curioso, essa parte não
+sei como é que ele vai integrar o Git e o GitHub
+
+
+a nível da folder. Portanto, essa parte não sei
+para quando chegar a altura logo irei estudar esse
+
+
+tema, mas pronto, é só para vocês estarem a par se
+de repente quiserem já ir estudar e dar uma vista
+
+
+de olhos e experimentar o novo IDE o Positron, eh,
+pois para estarem estarem com cautela que haverá
+
+
+diferenças, algumas diferenças significativas
+em relação aqui ao RStudio. OK? Por exemplo,
+
+
+os addins, provavelmente os addins aqui 
+deixarão de funcionar. Eu não sei se o Positron,
+
+
+porque o Positron usa a filosofia das extensões,
+que são as mesmas, as mesmas que o Visual Studio
+
+
+Code. OK? Quem de vocês já tenha programado
+com Visual Studio Code sabe que há uma uma
+
+
+biblioteca gigantesca de extensões, OK?
+Eh, portanto, provavelmente estes addins, pois,
+
+
+já não funcionarão mais, porque estes addins, eles
+eh suportam-se na API do RStudio,  rstudioapi.
+
+
+OK. daqui a bocado já vamos ver porque como eu fiz
+um e eu já vos vou mostrar um pouco, mostrar um pouco
+
+
+disso, mas ok, estejam atentos a isso,
+se forem, se quiserem experimentar o positrom.
+
+
+Ora bem, vamos aqui eh vamos aqui posicionar-me
+aqui na na Current directory. Eh, vou-vos mostrar
+
+
+aqui umas novidades acerca dos emojis, porque eh
+eu adotei os emojis eh no nas minhas playlists
+
+
+do YouTube, como vocês poderão reparar, se forem
+ver os títulos dos meus vídeos, acho que fica
+
+
+engraçado assim. Eu vi outras pessoas que faziam
+o mesmo e disse, decidi que também queria fazer.
+
+
+Eh, e portanto, eh, fiz isso, mas depois
+precisei de afinar algumas das minhas funções
+
+
+que não estavam preparadas para emojis, eh, porque
+o emoji é um caracter, são caracteres do Unicode e,
+
+
+portanto, e cada emoji ocupa dois ou
+três dois ou três bytes de tamanho e,
+
+
+portanto, e depois desfasava ali o portanto o
+alinhamento de algumas das minhas funções.
+
+
+OK? Não sei se me explico. Ora, vamos aqui. Isto
+é o nosso famoso projeto que eu tenho do YouTube,
+
+
+que está também nos meu tutorials,
+portanto não vou perder tempo aqui
+
+
+a explicar o que isto faz, OK? Que
+isso já está mais que explicado, OK?
+
+
+Ora,
+
+
+ou vídeos,
+
+
+vamos buscar aqui as playlists. Cá está, vamos ver
+aqui as playlists , por exemplo, que já trazem aqui
+
+
+os emojis nos títulos. Cá está. Fica muito mais
+engraçado, fica mais divertido um emoji aqui
+
+
+atrás de cada de cada playlist. Eh, e depois
+eu repito esse emoji, pois será usado em todos
+
+
+os vídeos de de cada uma das minhas playlists
+para estar em sintonia o emoji do título da
+
+
+playlist com o emoji dos vídeos. É engraçado.
+Acho que fica melhor assim. Ora,
+
+
+deixa buscar aqui os vídeos. Ele aqui também
+põe os emojis. Pronto, eu estou vos a mostrar
+
+
+este lá miré até para verem, portanto, que como o
+RStudio já suporta os emojis, na maior parte dos
+
+
+casos já está tudo completamente integrado. Reparem
+aqui o terminal, ele suporta. Eh, só houve aqui um
+
+
+tópico ou outro onde não suportava. Por exemplo,
+o GGPlot, que já vamos ver, eh, não... suporta,
+
+
+mas mostrava os emojis a preto, a preto e branco,
+como considerava como sendo um caracter. E,
+
+
+portanto, para ele, e imaginem que
+eu estava aí a dizer, olha,
+
+
+ o texto é a preto, então depois ele
+pegava nos emojis e passavam a preto. Pronto. E,
+
+
+portanto, ele aí não respeitava a coloração de
+origem que já vinha no emoji. A, então eu converti
+
+
+para Plotly, que é o poderoso package que também já
+estou cansado de vos mostrar nos meus tutorials que
+
+
+é um package que não é só para R, atenção, o às
+vezes podemos ter aqui alguns packages. Isto são
+
+
+as implementações que existem para R, mas também
+existem para, por exemplo, para Python. O plotly é
+
+
+um package que existe para multilinguagens,
+OK? Portanto, é um package poderoso. Ora,
+
+
+OK. Este, este é uma das funções que eu tive que
+eu tive que acertar porque ficava aqui
+
+
+desalinhado e, portanto, tive que lhe dar um... e
+mesmo assim ainda está aqui um bocadinho desalinhado
+
+
+esta linha dos títulos. Eh, porque por causa da
+presença dos emojis chegou aqui estas 
+
+
+linhas, chegou aqui um bocadinho para
+a frente e desalinhou um bocadinho, mas pronto,
+
+
+paciência. Estes gráficos foi os gráficos que eu
+tive que reescrevê-los e passá-los para Plotly,
+
+
+OK? Para poder respeitar a cor original
+aqui dos emojis, como vocês estão a ver, OK?
+
+
+Portanto, tive que passar a Plotly.
+e o Plotly depois tem uma série de mais
+
+
+valias. O Plotly tem interatividade
+como já vimos. Portanto,
+
+
+eu tinha isto em GGPlot porque calhou, também tinha alguns plots com o
+
+
+R nativo e pronto e agora estou a usar o plotly e
+pronto, esta parte está a funcionar perfeitamente.
+
+
+OK, temos aqui um Pie chart, mesma coisa. Eh, e
+pronto, não vamos agora ver esta parte toda até
+
+
+ao fim, que isto é moroso. Aqui também fica bem
+o print data frame, os emojis ficam bonitinhos. E
+
+
+pronto, não vamos ver mais porque esta parte já tá
+nos meus outros tutorials. Agora entravamos aqui
+
+
+na área das legendas, a processar legendas, baixar
+legendas e enviar as legendas para a inteligência
+
+
+artificial. Pronto, não vamos agora repetir
+essa parte que isso já foi visto. OK? Pronto,
+
+
+isto era só para vos mostrar esta parte
+dos emojis. Eh, e finalmente vamos ver
+
+
+para terminar o tutorial, vamos ver então o
+package minitools propriamente dito. OK,
+
+
+pronto, será o último tema. Vamos ver agora o
+package minitools. OK, para isso, deixa-me mudar
+
+
+aqui então de package. Vamos passar aqui para
+o minitools, o meu novo package. OK. Ora bem,
+
+
+então o que é que nós temos aqui? Portanto, nós
+temos aqui as funções e estas funções, tenho aqui
+
+
+oito funções. Para já tenho aqui o package. Isto é
+o normal do package. OK. Aqui tenho, por exemplo,
+
+
+o description. Ah, uma da, imaginem que isto aqui
+estava fora da ordem. OK, vamos pôr isto aqui.
+
+
+OK. Eh, então uma das coisas que eu uso muito, por
+exemplo, é uma aqui e eu uso na description dos
+
+
+meus packages, é, eu gosto de ter isto ordenado
+por ordem alfabética, pois eu venho aqui ao addin,
+
+
+eh, tenho aqui o nome do package, o minitools,
+e o package instala vários addins, OK? Não é o
+
+
+package que é um addin. Até porque um package
+pode trazer diversas funções, mas nem todas as
+
+
+funções serem addins. Nós temos aqui packages, por
+exemplo, aqui o devtools, um package poderoso,
+
+
+implementa alguns addins, mas  o devtools tem
+muito mais, tem outras funções que não são. OK?
+
+
+Pronto. Neste caso, este meu package que eu fiz
+tem oito funções e todas elas são addins. Pronto.
+
+
+E muitos destes addins, estes primeiros aqui, eu
+na verdade eu copiei, não copiei integralmente,
+
+
+mas eu fui buscar packages que implementavam
+também addins de R e eu fui e pesquisei-os no GitHub
+
+
+e pá e pronto, devo confessar que copiei bastante
+de código e depois adaptei à minha maneira, mas
+
+
+mas copiei muita coisa e pá, pronto, porque isto
+é mesmo assim, não? A programação é mesmo assim,
+
+
+não vale a pena estarmos a reinventar a pólvora e a
+programação vive muito disto de copiar e não tem
+
+
+problema nenhum. Eh, OK. Outra coisa seria copiar
+um projeto de grande envergadura e não referir
+
+
+o autor ou OK, isso seria outra coisa. Agora
+quando é uma pequena coisa, um pequeno pedacinho,
+
+
+um pequeno script, uma pequena coisa, não preciso
+estar aqui a dizer, copiei isto a pessoa A,
+
+
+B ou C, até que essa pessoa A, B ou C que
+fez esse package, se calhar também copiou,
+
+
+muitas vezes, por sua vez, já copiou de outra
+pessoa. OK, pronto, eu penso que tem que haver
+
+
+aqui um um certo bom senso. Eh, e portanto
+copiar um pedacinho de código normalmente,
+
+
+não é? Não, não acho que não tem problema e não
+tenho que estar a fazer mais nenhuma referência,
+
+
+mas copiei alguns pedacinhos de código. Ao
+fim e ao cabo, em vez de copiar o código,
+
+
+eu poderia ir ao chat GPT e dizer: "Olha, como se
+faz isto" e ia dar quase ao mesmo. E ele certamente
+
+
+dar-me-ia uma solução bem similar. Portanto,
+na verdade, hoje em dia, com as inteligências
+
+
+artificiais e pois acaba porque por ser uma
+alternativa que bastante poderosa que
+
+
+nós temos. para e portanto vamos vou fazer
+aqui o sort. OK, cá está. Ele fez esta
+
+
+é uma área onde eu uso aqui o sort.  as outras
+áreas aqui eu não não vos mostrei. Podia ter vos
+
+
+mostrado aqui um exemplo. Upper case, lower case, o align. O
+align. Posso mostrar aqui o align. O align já
+
+
+foi uma função que eu fiz. Esta eu não copiei.
+Esta fiz integralmente. Uma coisinha simples,
+
+
+também baseada nas outras. Imaginando que eu
+tinha isto aqui tudo desalinhado, eu tinha isto
+
+
+desalinhado e, portanto, e eu posso chegar aqui.
+Imaginem que isto eram muitas linhas, não é? Claro
+
+
+que aqui três linhas é pouco, mas pronto. E
+eu faço aqui um align. Pronto. E ele alinha,
+
+
+pronto, ela empurra tudo para a esquerda.
+E agora aqui já posso ordenar. Pronto. E fica
+
+
+tudo ordenado. OK. E finalmente tenho uma função. Já
+agora, vou-vos mostrar a função outra que eu fiz.
+
+
+Essa também fiz de raiz, que uma função essa
+já mais bem mais difícil que é o,  alinhar,
+
+
+ordenar as funções, OK? Que é esta última que
+está aqui, que é o sortfunctions. O sortfunctions, este é um tema
+
+
+bastante complexo, isto é mais complexo do que
+parece. E isto pertence à categoria de algoritmos
+
+
+de block sort. Block sort. O RStudio não faz não
+faz isto de raiz, assim como o RStudio também não
+
+
+ordena linhas de raiz. O block sort é
+um tema complicado. Vou ter vou tentar explicar
+
+
+porquê. Para isso, deixa-me ir aqui recent.
+Eh, podia ter-vos mostrado isso há bocado,
+
+
+mas deixa mostrar-vos aqui. Eu vou abrir aqui o
+YouTube functions. Tenho aqui as minhas funções,
+
+
+OK? Vou comprimi-las aqui. Pronto, eu tenho aqui
+as funções. Eu vou carregá-las aqui em memória.
+
+
+OK? Eu vou carregá-las aqui em memória. Pronto,
+já as carreguei. Pronto. E o que é que acontece?
+
+
+Normalmente quando eu estou a fazer funções,
+OK? Eh, eu vou fazendo as novas funções e vou
+
+
+colocando aqui no fim. Eu vou fazer uma nova
+função, vai para o fim e pronto. E este é o é
+
+
+o normal, não é? Pronto. O que acontece é que eh
+depois também vai havendo vários renames. Às vezes
+
+
+faço uma função, depois eh começo a sistematizar a
+nomenclatura das funções, as que começam por get,
+
+
+as que começam por plot, etc, etc. Gosto, sou
+bastante perfecionista quando estou a programar.
+
+
+Eh, portanto, gosto de ter regras, gosto de
+ter stándares. Pronto. E num dado momento,
+
+
+as funções já ficam desordenadas alfabeticamente.
+E quando as carregam elas aqui ficam ordenadas. O
+
+
+RStudio mostra-me as funções que estão carregadas
+em memória. Pronto. Então, o que eu fiz foi isso.
+
+
+Eu fiz, só que agora imaginem o seguinte.
+Imaginem que eu tinha aqui uma função fora
+
+
+de ordem. Eu vou pôr aqui esta função Evolution
+of my views. Pronto, eu vou pô-la aqui em cima.
+
+
+Vou pô-la aqui fora da ordem. OK. Pronto.
+Eh, tenho aqui Evolution of my views. Pronto,
+
+
+está fora da ordem, fora da ordem alfabética. Eh, e
+o ideal seria o seguinte. O ideal seria, eu pegava
+
+
+aqui, por exemplo, numa seleção e dizia: "Olha,
+ordena-me estas funções." Eu ia ao addin e dizia:
+
+
+"Ordena-me as funções". Só que isto é bastante
+complexo. É bastante complexo porque isto para
+
+
+ser robusto eu tenho que fazer o parsing da
+função. Portanto, é que eu para fazer o parsing,
+
+
+imaginem aqui, eu tinha que pesquisar, olha onde
+é que está a function e dizer, olha, a função
+
+
+começa nesta linha ou não, ou se calhar já começou
+numa linha de trás, percebo que eu podia ter assim
+
+
+também é válido. E depois  onde é que ela acaba?
+Quando encontrar uma chaveta reta. Porque aqui
+
+
+abre chaveta, é quando encontrar a chaveta, mas
+aqui no meio pode haver outras chavetas. Ou seja,
+
+
+eu tinha que estar a fazer o parsing, a controlar
+as chavetas, a contá-las para determinar. Ou seja,
+
+
+estão a ver? Como se fosse era quase um
+interpretador de linguagem, fazer um parser. OK?
+
+
+Pronto, isto é só para verem que isto é muito
+complexo e é por isso que os IDEs não implementam
+
+
+isto, não implementam block sort. Eu não conheço
+nenhum IDE que implemente uma coisa destas,
+
+
+por exemplo, um sort de funções dentro de uma de
+uma livraria, eh, portanto, dentro de um membro,
+
+
+não é? Pode haver outra metodologia e há quem
+goste de trabalhar mais e fazer um módulo,
+
+
+um membro para cada função, OK? que é a
+nomenclatura que eu, a metodologia, o padrão que
+
+
+eu também uso ao fazer um package dentro aqui da
+da livraria R, eu também ponho uma função. Pronto,
+
+
+mas aqui é diferente porque aqui há uma aqui
+é um conceito diferente que aqui estou a fazer
+
+
+um package e portanto e o package tem funções e
+portanto cada função é independente. Agora aqui
+
+
+no YouTube eu tenho um código principal
+e depois tenho um uma livraria,
+
+
+um módulo com as funções. já tenho 14 funções
+e não justificava estar a criar 14 scripts
+
+
+independentes. OK? Não sei se me explico. E
+pá, são normas, são convenções e cada 
+
+
+pessoa usa a forma de trabalhar que mais gosta,
+OK? Eh, e portanto é para vocês verem que não é
+
+
+nada fácil fazer um parser. E por isso é que
+eu adotei a metodologia, esta metodologia. Ou seja,
+
+
+se o R já tem as as funções carregadas em
+memória, o R já fez o parsing e, portanto,
+
+
+as funções já estão aqui. Agora eu vou usar uma
+função do R, que é o dump. O dump é capaz de pegar
+
+
+em qualquer objeto que está carregado em memória,
+seja uma variável ou uma função, e escrever para
+
+
+um ficheiro, fazer o dump desse objeto para
+um ficheiro. Pronto, mas isso é o que já veremos
+
+
+daqui a bocado. Entretanto, vou-vos só mostrar
+aqui como isto funciona. Vou fazer aqui Alt + o.
+
+
+Eh, vou selecionar isto tudo. Eh, e vou fazer
+agora chamar a função porque o que que atenção
+
+
+que a função é perigosa, porque o que a função
+vai destruir tudo o que eu tenho aqui, tudo o
+
+
+que eu selecionei e vai substituir por todas as
+funções que estejam aqui. O, portanto, o perigo,
+
+
+qual o perigo? Imaginem que pode estar aqui uma
+função a mais que eu não queria porque eu tinha
+
+
+ficado esquecida, porque eu a tinha carregado de
+outro sítio e, portanto, era uma função e que ia
+
+
+entrar aqui sobre subrepticiamente aqui dentro daqui
+do meu código, OK? Ou qualquer outra desfazamento
+
+
+deste tipo. Portanto, isto é uma função que tem que
+ser chamada com muito cuidado. Eh, e eu aqui no na
+
+
+descrição, eu pus uma descrição mais ou menos
+longa para para explicar bem o que isto faz,
+
+
+o que isto diz. é o seguinte, ele vai inserir
+todas as global environment functions, todas as
+
+
+funções que estão aqui declaradas no global
+environment, carregadas no global environment,
+
+
+ele ele vai inseri-las na current selection
+aqui. Portanto, na selection que eu tenha,
+
+
+eu posso até não ter seleção nenhuma. Se eu se
+eu puser aqui ela seleciona, existe sempre uma
+
+
+selection por default, nem que seja uma selection
+do tamanho zero, mas é também uma selection do
+
+
+ponto de vista da API. Quando eu digo insere na
+posição da selection e eu aqui neste momento onde
+
+
+tenho o cursor, isto é uma selection e ele vai
+inserir aqui. É uma selection de tamanho zero,
+
+
+mas é uma selection válida. OK? Se eu
+fizer, se eu fizer assim, é uma selection
+
+
+de tamanho um e assim sucessivamente. Pronto.
+Pronto. Eu aqui posso selecionar tudo. Eh,
+
+
+reparem que a Evolution está em primeiro lugar e ele
+agora vai ficar tudo tudo devidamente ordenado.
+
+
+Ele vai fazer o dumping aqui para dentro,
+OK? Sort functions aqui para dentro. Pronto,
+
+
+já está. Alt + o. Cá está. E já está. ficou outra vez
+tudo certinho, tudo ordenado por ordem alfabética,
+
+
+que inclusive é se eu puxar aqui o outline, ele
+mostra-me o outline aqui do meu código. Também é
+
+
+uma forma fácil de eu comparar aqui o outline
+com as funções que eu tenho aqui carregadas em
+
+
+memória e rapidamente olho e rapidamente vejo que
+está tudo OK e estão alinhadas uma para uma. OK?
+
+
+Pronto, isto é, isto foi a função que realmente
+que me deu mais luta. Até demorou-me uns dois
+
+
+a três dias a pensar nesta função, não é pensar
+em tempo inteiro, mas às vezes porque havia aqui
+
+
+muitas nuances, porque eu pensei, num dado momento
+pensei e será de fazer um backup, já que a função
+
+
+é perigosa, porque ela vai esmagar código,
+eu posso pegar neste código e fazer aqui um
+
+
+backup? Poderia ser. Será de fazer fazer pôr aqui
+uma pergunta, mandar uma mensagem para a consola?
+
+
+a avisar que tenha cuidado, vou substituir o
+código, deseja continuar, sim ou não? Ou seja,
+
+
+é só para vocês verem que havia várias hipóteses
+de trabalho, várias nuances, OK? Que eu pensei
+
+
+e pronto, e por isso demorei alguns dias. Eh, às
+vezes tenho uma ideia, estou a meditar sobre ela,
+
+
+mando essa ideia para background. passado um
+ou dois dias, às vezes aparece-me alguma solução à
+
+
+frente, mesmo sem eu estar a pensar ela, a solução
+aparece-me e pronto. E depois num dado momento
+
+
+tomo uma decisão e digo: "OK, vou desenvolver
+desta maneira". OK? Eh, pronto, isto era o que
+
+
+eu vos queria mostrar, o que ela faz, insere
+as funções por ordem alfabética, OK? Eh, e, eh,
+
+
+já vamos ver daqui a bocado, porque isto teve que
+ser um bocadinho afinado porque as funções quando
+
+
+eu faço o dump, por exemplo, os espaços em branco,
+eles foram mandados para o licho, eles não vêm no
+
+
+dump. Mas isso já vamos ver daqui a bocadinho.
+Vamos voltar aqui onde estávamos ao package.
+
+
+Vamos, vou vos mostrar aqui um bocadinho das
+das funções como isto funciona. Por exemplo,
+
+
+aqui o upper case. OK? E vou-vos mostrar que eh
+eu tenho aqui, pronto, como é que isto funciona?
+
+
+E isto é uma uma uma função do package, obviamente
+tem aqui uma parte que é o Yaml, que é uma
+
+
+parte declarativa para o package e depois usa
+muito a API que vem neste package que é
+
+
+o rstudioapi. OK. Ele aqui obtem o Get Active
+document context. Qual é  a sessão de edição
+
+
+onde eu estou aqui? Qual é a seleção? A selection.
+Depois captura-me o texto da selection e converte
+
+
+para upper e depois volta a despejar em cima da
+selection. Ele volta e esmaga o que o que estava
+
+
+na selection. Pronto, isto assim traços largos.
+É isso. Eh, ora bem, o que é que acontece aqui?
+
+
+Eh, quando nós estamos a desenvolver estas
+funções, é difícil, bastante difícil testar isto.
+
+
+Eh, porquê? Porque, eh, reparem, vou vou dar aqui
+um exemplo. Imaginem que eu estava a desenvolver
+
+
+esta função, que era a primeira vez. Eu ainda
+não tinha compilado o package, portanto eu ainda
+
+
+não tinha aqui a entrada. Então, o que é que
+acontece? Se eu fizer aqui, por exemplo, eu vou
+
+
+testar o upercase. Pronto, aqui. E eu eu queria
+testar esta função. OK. Eu estou a programá-la,
+
+
+estou a desenvolvê-la e eu agora quero testá-la.
+OK, pronto. O que é que acontece? uma hipótese
+
+
+para já. Deixa, deixa-me carregar aqui a função
+primeiro em memória. Deixa-me limpar isto aqui.
+
+
+Deixa-me carregar a memória. Portanto, isto é como
+se eu tivesse a desenvolvê-la agora do zero. OK,
+
+
+vou fazer aqui o source on save. Pronto, eu
+já tenho aqui a função. Uppercase está carregada
+
+
+em memória. E agora vou testá-la. Pronto. E agora
+chegava aqui. Deixa-me pôr aqui em minúsculas.
+
+
+Eu quero testar a função. Pronto. Como é que
+eu vou fazer? Ora bem, então eu eu quero testar
+
+
+a ver se eu substitui esta esta seleção, esta
+selection. OK? Eh, então eu tenho que chamar a
+
+
+função e como é que eu vou chamar? Se se
+eu chamar aqui, a selection desaparece.
+
+
+Se eu chamar aqui, eu posso chamar aqui, eu chamo
+uppercase(). uppercase() não funciona. Porquê? Porque
+
+
+ele aqui está a correr no contexto da consola. E
+quando ele pede o contexto e a seleção, ele vai a
+
+
+ver se eu tenho alguma seleção aqui na consola. O
+que eu não tenho e eu não quero, eu quero
+
+
+testar aqui, portanto não funciona. Então eu eu
+posso chamá-la aqui uppercase(). 
+
+
+Mas pronto, mas então temos aquele problema que
+eu vos disse. Eu agora como é que eu resolvo?
+
+
+Eu tenho aqui selecionado e agora como é que eu
+executo? Se eu vier aqui tenho que posicionar aqui
+
+
+para executar esta linha. OK. Pronto. Então, qual
+foi? Eu na altura tive até a perguntar ao chatGPT
+
+
+o que é que ele achava. Pronto. E ele deu-me
+uma dica e realmente funciona. Pronto, vai
+
+
+haver aqui então um truque. Nós vamos fazer aqui
+um Sys.sleep. Um Sys.sleep. Eu vou-lhe dizer,
+
+
+por exemplo, 3 segundos e ponto e vírgula. Pronto.
+E sendo assim, vou executar estas duas linhas, estes
+
+
+dois comandos de tacada. E quando eu mandar
+executar, ele adormece 3 segundos na primeira
+
+
+parte, onde vai-me dar tempo de selecionar a
+parte de baixo e depois quando executar o uppercase,
+
+
+então eu já tenho o contexto correto. Vamos lá ver se
+eu consigo. Eu vou fazer 5 segundos que é para
+
+
+dar tempo, não vai falhar. Pronto, 5 segundos. 6
+segundos. Vá, eu vou clicar aqui. Pronto. E agora
+
+
+vou selecionar aqui. Pronto. E aguardo agora.
+Foço os 6 segundos. E pronto, e já converteu.
+
+
+OK. Pronto, eu acho isto é engraçado porque e
+estou vos a mostrar como,  a forma diferente e
+
+
+estas idiossincrasias que existem aqui para termos
+que testar, porque claro, porque caso contrário eu
+
+
+cada alteraçãozinha que eu fizesse, cada cada vez
+que eu queria testar eu tinha que estar a compilar
+
+
+o package todo, o que não o que não é viável.
+Imaginem, já tenho oito funções. Eu cada vez que
+
+
+alterasse agora uma pequena linha, tinha
+que estar a compilar um package inteiro de para
+
+
+fazer um package novo com as oito funções. Não
+é prático. Portanto, eu tive que arranjar
+
+
+uma maneira de testar isto e essa maneira foi
+esta com os com os sleeps, OK? Para poder testar
+
+
+isto no contexto correto. OK? OK. Pronto. Então,
+sendo assim, eh, para terminar, vou-vos só mostrar
+
+
+então um pouco desta da função mais complexa
+que eu fiz. que foi realmente o sortfunctions. Pronto,
+
+
+o sortfunctions efectivamente, deixa-me até carregar
+aqui mais functions para nós vermos. Vou carregar
+
+
+aqui mais functions em memória. Deixa-me libertar
+agora esta, por exemplo, esta aqui. Deixa-me
+
+
+voltar a carregar aquelas functions. Recent. OK.
+Deixa-me fazer aqui o source. Ok, já tenho aqui as
+
+
+funções, posso fechar isto. Elas estão carregadas
+em memória. Pronto. E aqui, então quando eu estou
+
+
+aqui em sorts aqui, eu eh tenho aqui uma função
+que do package utils que diz list functions.
+
+
+E o ls acho que não é de list. Eh, mas pronto, é
+o acede cá está no environment global environment
+
+
+acede a todas as funções que estejam carregadas
+em memória no global environment. OK? Pronto,
+
+
+então vamos executar aqui. Pronto, eu tenho aqui
+14 funções que elas já vêm por ordem alfabética.
+
+
+Eh, depois eu aqui pôs-se aquela questão, como já
+vos expliquei, OK, eu agora vou fazer um dump,
+
+
+mas vou fazer um dump onde? poderia fazer um dump na
+current directory, eh, mas claro,   poderia ser,
+
+
+mas há os pró e contras. Eh, e depois como é que
+eu fazia? Deixava lá o dump ou apagava-o? Eh,
+
+
+e depois e e fazia backup ou não fazia
+backup. Pronto, todas essas questões. Então,
+
+
+eu optei por fazer num num ficheiro temporário,
+que também é uma técnica muito usada aqui no R,
+
+
+eu aloco um temporary file e o sistema fala,
+o R vai falar com o sistema operativo para 
+
+
+pedir as normas dos temporary files do sistema
+operativo onde nós estamos. OK? Ele dá-me aqui
+
+
+o temporary file e agora despeja, faz o dump das
+funções para esse temporary file. Portanto, isto
+
+
+é muito poderoso. Cá está. E podemos 
+dar uma vista de olhos a ver como ficou o dump.
+
+
+OK. Deixa-me sacar aqui a Path do temporary file onde ele
+
+
+onde ele gravou. OK. E deixa vir aqui ao
+Explorer. Deixa-me abrir aqui um Explorer.
+
+
+OK.
+
+
+pôr isto aqui mais pequeno. Ora,
+
+
+deixa-me tirar aqui este excesso de barras.
+
+
+OK. Ora, e portanto qual é o
+nome do ficheiro? File ,
+
+
+qual é o nome dele? É o  ...7C4. É este aqui.
+
+
+Vamos abrir aqui. Ora, cá está. Pronto, aqui
+está o dump. Eh, desde logo o que é que acontece?
+
+
+Para já, ele usou uma nomenclatura
+eh que é o que é o padrão do R, que é com estes
+
+
+caracteres aqui, o que eu não gosto. Eu gosto de
+usar o caracter de igual. OK? Eu conheço isto,
+
+
+mas eu não gosto. Prefiro o caracter de
+igual e também não gosto de ter isto aqui
+
+
+partido de uma linha para outra. Gosto de ter na
+mesma linha. E por outro lado, como estão a ver,
+
+
+eliminou-me todas as linhas, todos os espaçamentos
+em branco que eu tinha entre as funções. OK?
+
+
+Pronto. Então, basicamente é isso. Eu tenho aqui
+o dump, como estão a ver, isto é muito poderoso,
+
+
+muito user friendly, mas à parte esses
+pequenos pormenores eh dos espaçamentos que
+
+
+eu depois eu agora corrigi aqui com o aqui
+com a minha função. OK? Portanto, eu aqui,
+
+
+então, o que é que eu fiz aqui? Bom, eu fui ler o
+dump, eh, OK, eu colapsei para uma string, agora
+
+
+fiz um um global substitution. usando regular
+expressions. Ah, portanto, onde tinha aqueles
+
+
+caracteres com a mudança de linha, eu eu substituí
+aqui posicional de igual e cortei a mudança de
+
+
+linha, a quebra de linha. Eh, e depois o que é
+que eu fiz mais agora? disse assim: "Bom, agora
+
+
+no início de cada função encontra-me
+aqui onde é que eu tenho o início de cada
+
+
+função e coloca-me aqui duas
+linhas em branco antes de cada função e depois
+
+
+no final de tudo também duas linhas em branco no
+final. E pronto, e agora tenho o dump outra vez.
+
+
+Eh, e agora, finalmente, chamo o RStudio
+API, o contexto, a selection, e agora despejo
+
+
+e esmago na selection e esmago o meu dump,
+agora já devidamente tratado. Eh, e pronto,
+
+
+basicamente é isso. Depois, mais  algum
+pormenor que queiram saber, investiguem. Por exemplo,
+
+
+aqui eu não sabia o que é que era isto. Perguntei
+ao chatGPT a dizer: "Mas então estás à procura,
+
+
+regular expression? Porque é que puseste
+o barra barra?" Pronto, que eu sei, eu sei pouco
+
+
+de regular expressions. Regular expressions é
+horrível, é um tema horrível detesto. Eh, mas
+
+
+é útil, é útil, é prático, mas agora saber aqui,
+saber as regras de cor é completamente horrível.
+
+
+E ele lá me explicou que o parênteses é um
+caracter especial dentro das regular expressions
+
+
+e, portanto, tem que tem tem que levar um escape
+eh para fazer o escape do parênteses para 
+
+
+ser o parênteses exato para isto funcionar
+como function parêntese.s OK, pronto,
+
+
+tudo bem. Eu só perguntei-lhe para para ter uma
+ideia, ter isto debaixo de controle, mas pronto. Eh,
+
+
+basicamente é isto que eu vos queria mostrar.
+Eh, e já vos mostrei isto a trabalhar. Portanto,
+
+
+aqui tem o package. Vamos aqui ao git ver se há
+aqui alguma coisa. uppercase. Isto foi
+
+
+alguma alteraçãozinha que eu fiz. Eh, podemos ver
+o que é que eu fiz. Deve ter sido alguma coisinha
+
+
+de nada. Deixa ver aqui. A ver se eu não estraguei
+nada. Deixa-me ver aqui no commit. Eh, deixa ver
+
+
+aqui. Ah, foi alguma linha, alguma linha aqui que
+eu apaguei. Alguma linha a mais. A linha 19. OK.
+
+
+Pronto. Eh, não preciso estar a fazer agora o 
+commit e o push só para isto. Eh, há aqui um outro
+
+
+tema que não vos falei e que me escapou. Enfim,
+há sempre temas. Eu aqui comecei a usar esta
+
+
+nomenclatura para a versão dos meus packages. Vou
+passar a usar esta nomenclatura. Eu ponho a data,
+
+
+a data de que eu faço o push para o GitHub. Eu
+sei que isto não é profissional. Eu sei bem que
+
+
+que estas as versões não  são à toa. É o major
+version, o minor version, o fix, etc. E, portanto,
+
+
+elas têm um significado importante no mundo
+da programação para a pessoa que instala um
+
+
+package saber se a alteração foi uma major ou foi
+uma minor. Ah, sim, eu estou a par disso. E pá,
+
+
+mas isto aqui é uma brincadeira que eu faço, são
+uns packages, pequenos packages de brincadeira,
+
+
+portanto eu não ligo a isso. Eh, e portanto
+vou pôr vou usar esta nomenclatura para o 
+
+
+o futuro à partida. São coisas, são pequenos
+packages amadores, não tenho que me estar a
+
+
+preocupar com essas regras todas. OK? Eh, e
+pronto, penso que cobri mais ou menos tudo o
+
+
+que eu estava a a pensar. Eh, cobrimos aqui tudo,
+mostrei-vos o CherryTree. Gosto sempre, vou-vos
+
+
+mostrando algumas ferramentas que eu uso, coisas
+que eu recomendo. O imagegrid, por exemplo,
+
+
+uma novidade. Até penso que haverá mais novidades.
+Talvez me tenha esquecido de mostrar-vos alguma
+
+
+coisa para vocês depois investiguem. Vejam as
+funções que estão no meu package minifunctions. Ah,
+
+
+esta também é nova, o Serpapi. Falei-vos dos
+emojis, que é uma novidade que eu comecei a usar.
+
+
+E finalmente falei-vos do meu novo package minitools que implementa Addins. Eu nunca tinha, foi a
+
+
+primeira vez que eu, programei  addins. realmente
+nunca tinha feito addins. Foi a primeira vez,
+
+
+há sempre uma primeira vez. E, portanto, eh, agora
+o todos aqueles addins. Ah, pá, eu esqueci-me,
+
+
+já agora, esqueci-me aqui de uma parte, é
+que não basta, não basta fazer isto para que
+
+
+eles apareçam em addins. Nós temos as funções, eu
+esquecia-me, eh, ia-me escapando, devia ter posto
+
+
+aqui no guião para não me esquecer deste tópico.
+É porque as porque uma coisa é fazer as funções
+
+
+e as funções ficam disponíveis quando nós pomos
+aqui minitools:: . E agora estão aqui as funções,
+
+
+mas outra coisa é fazer que as funções apareçam no
+menu e então eu tenho que dizer quais das minhas
+
+
+funções deste package é que eu quero que apareçam
+aqui neste menu, que neste caso até são todas,
+
+
+não é? Então existe um ficheirinho de configuração
+que está aqui. que isto é um padrão do
+
+
+RStudio addins. Portanto, isto é algo,  um padrão específico do RStudio. Nós temos
+
+
+que colocar aqui um ficheirinho de controle de
+parametrização, que é o addins.dcf. E este addins.dcf,
+
+
+como estão a ver, ele tem aqui os nomes e os
+descritivos do que vai aparecer aqui, como estão
+
+
+a ver, sort A- Z, o descritivo. Eh, e depois tem
+o nome da função, o binding, o nome da função que
+
+
+está neste package para dizer quando selecionar a
+opção do menu, qual a função que eu quero chamar.
+
+
+OK? Portanto, aqui tenho todas as minhas
+funções e aqui está por ordem pela qual eu
+
+
+quero que apareça aqui no menu. OK? Portanto,
+aqui esta ordem é importante. Eh, além disso,
+
+
+está aqui um parâmetro de interatividade
+que é falso. Eh, portanto, se eu pusesse true,
+
+
+à partida isso seria para implementar algum
+addin, por exemplo, com uma componente gráfica,
+
+
+que é o caso aqui, por exemplo, aqui, eh, temos
+aqui com, por exemplo, aqui o browse RStudio addins,
+
+
+isto é um addin que tem uma componente gráfica. Cá
+está ela. Normalmente estas componentes gráficas
+
+
+elas são programadas com o a framework do
+shiny. OK? Eu nunca fiz nenhum tutorial eh
+
+
+sobre o shiny. Eu já trabalhei com shiny há
+bastante tempo. Estou um bocado destreinado,
+
+
+mas qualquer dia ainda faço, faço aí algum
+tutorial. Vou refrescar as ideias e ainda
+
+
+faço qualquer coisa. Tenho umas coisas já
+feitas antigas de estatística que fazem uns
+
+
+gráficos interativos da distribuição normal e
+outras distribuições estatísticas. Mas, portanto,
+
+
+esta é a parte da interatividade, sim ou não,
+que nós temos que colocar aqui no ficheiro de
+
+
+parâmetros. Neste caso, está tudo falso.
+Pronto, esta parte ía-me esquecendo de vos mostrar
+
+
+que isto é fundamental. OK. Eh, e agora sim,
+penso que não me falha mais nada de especial.
+
+
+Eh, e pronto. Eh, espero que tenham gostado
+e até uma próxima oportunidade. Obrigado.
+
+

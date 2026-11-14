@@ -5,14 +5,19 @@ AUTHENTICATE_TUBER = function() {
   # https://console.cloud.google.com/auth/clients?project=chromeextension-1606581122438
   YOUTUBE_CLIENT_ID = Sys.getenv("YOUTUBE_CLIENT_ID")
   YOUTUBE_CLIENT_SECRET = Sys.getenv("YOUTUBE_CLIENT_SECRET")
-  setwd("./tuber_oauth")
+  YOUTUBE_CHANNEL_ID = Sys.getenv("YOUTUBE_CHANNEL_ID")
+  YOUTUBE_API_KEY = Sys.getenv("YOUTUBE_API_KEY")
+  
+  setwd("./oauth_tuber")
   tuber::yt_oauth(YOUTUBE_CLIENT_ID,YOUTUBE_CLIENT_SECRET)
+  tuber::yt_set_key(YOUTUBE_API_KEY)
   setwd("..")
   
-  YOUTUBE_CHANNEL_ID = Sys.getenv("YOUTUBE_CHANNEL_ID")
-  stats = tuber::get_channel_stats(channel_ids=YOUTUBE_CHANNEL_ID)
+  # stats = tuber::get_channel_details(channel_ids=YOUTUBE_CHANNEL_ID,simplify = TRUE)
+  stats = tuber::get_my_channel(simplify = TRUE)
   
-  profile = c(Title       = stats$title,
+  profile = c(Avatar      = stats$thumbnail_url,
+              Title       = stats$title,
               Description = stats$description,
               ChannelID   = stats$channel_id,
               Handle      = stats$custom_url,
@@ -22,8 +27,8 @@ AUTHENTICATE_TUBER = function() {
               Country     = countrycode::countrycode(stats$country, "iso2c", "country.name") ,
               Views       = stats$view_count,
               Subscribers = stats$subscriber_count,
-              Videos      = stats$video_count,
-              Avatar      = stats$thumbnail_url)
+              Videos      = stats$video_count
+              )
   
   profile = data.frame(profile=profile)
   
@@ -36,6 +41,13 @@ AUTHENTICATE_TUBER = function() {
   #                                 location = "+0+10") # Small offset from the top
   plot(avatarfull)
   
+  # Save Avatar to file
+  download.file(
+    url      = stats$thumbnail_url,
+    destfile = file.path("youtube_avatars",paste0(stats$custom_url,".jpeg")),
+    mode     = "wb"
+  )
+  
   return(profile)
 }
 
@@ -45,10 +57,55 @@ AUTHENTICATE_YTANALYTICS = function() {
   # file.remove(".httr-oauth")
   YOUTUBE_CLIENT_ID = Sys.getenv("YOUTUBE_CLIENT_ID")
   YOUTUBE_CLIENT_SECRET = Sys.getenv("YOUTUBE_CLIENT_SECRET")
-  setwd("./ytanalytics_oauth")
+  setwd("./oauth_ytanalytics")
   token = YTAnalytics::youtube_oauth(clientId = YOUTUBE_CLIENT_ID, clientSecret = YOUTUBE_CLIENT_SECRET)
   setwd("..")
   return(token) 
+}
+
+
+CREATE_SUBFOLDERS = function(playlist_title) {
+  # Create subfolders for thumbnails and captions
+  subfolders = c("youtube_thumbnails", "youtube_captions", "youtube_summaries", "youtube_summaries_html")
+  
+  for (subfolder in subfolders) {
+    subfolder = file.path(subfolder,playlist_title)
+    
+    if ( dir.exists(subfolder) ) {
+      cat("Subfolder already exists:", subfolder, "\n")
+    } else {
+      cat("Creating subfolder:", subfolder, "\n")
+      dir.create(subfolder, recursive = TRUE)
+      
+    }
+  }
+   
+}
+
+
+DOWNLOAD_CAPTIONS = function(videos) {
+  download_folder = file.path("youtube_captions",videos$playlist_title[1])
+  
+  # Download each caption
+  for ( i in 1:nrow(videos) ) {
+    file_name = videos$video_title[i]
+    file_path = file.path(download_folder,paste0(file_name,".srt"))
+    if ( file.exists(file_path) ) {
+      cat("Caption already exists:", file_path, "\n") 
+    } else {
+      cat("Downloading caption:", file_path, "\n")
+      captions = tuber::download_caption(
+        caption_id = videos$caption_id[i], lang = videos$language[i], format = "sbv", as_raw = F
+      )
+      captions = gsub("[0-9]+:[0-9]{2}:[0-9]{2}\\.[0-9]{3},[0-9]+:[0-9]{2}:[0-9]{2}\\.[0-9]{3}", "",captions)
+      captions = gsub("\u00A0", "", captions) # Remove non-breaking spaces
+      # captions = gsub("(\r?\n)+", "\r\n", captions, perl = TRUE) # Remove multiple empty lines
+      writeLines(captions, file_path)
+      
+    }
+    
+  }
+  
 }
 
 
@@ -91,18 +148,25 @@ DOWNLOAD_FROM_YOUTUBE = function(download) {
 
 
 DOWNLOAD_FROM_YOUTUBE_ASK_VALUES = function(MusicFolder) {
+  # MusicFolder = "C:/MEGA/Music"
+  # youtube_url = "https://www.youtube.com/playlist?list=PL6ZNwyxUtD27vHO9BfveOM6lLzSBMb9tL"
   youtube_url = trimws( svDialogs::dlgInput("YouTube URL?", default = "")$res )
   youtube_url = sub("&.*", "", youtube_url)
   
   # if youtube_url contains "playlist?list="
   if (grepl("playlist?list=", youtube_url, fixed = TRUE)) {
     id = strsplit(youtube_url,"list=")[[1]][2]
-    details = tuber::get_playlists(filter=c(playlist_id=id)) 
+    details = tuber::list_playlists(playlist_ids=id) 
     
-    Album = details[["items"]][[1]][["snippet"]][["title"]]
-    Cover = details[["items"]][[1]][["snippet"]][["thumbnails"]][["standard"]][["url"]]
+    Album = details$title
     
-    Channel = details[["items"]][[1]][["snippet"]][["channelTitle"]]
+    playlist_videos = tuber::get_playlist_video_ids(playlist_id = id,max_results = 500)
+    video_details = tuber::get_video_details(video_ids = playlist_videos)
+    Cover = video_details$snippet_thumbnails[[1]][["standard"]][["url"]]
+    
+    # video_stats = tuber::get_video_stats(video_ids = playlist_videos)
+    
+    Channel = details$channel_title
     url_type = "playlist"
     
   } else {
@@ -252,6 +316,80 @@ DOWNLOAD_FROM_YOUTUBE_MASS_RENAME = function(download) {
 }
 
 
+DOWNLOAD_SUMMARIES_FROM_LMSTUDIO = function(videos) {
+  playlist_title = videos$playlist_title[1]
+  folder_captions = file.path("youtube_captions",playlist_title)
+  folder_summaries = file.path("youtube_summaries",playlist_title)
+  folder_summaries_html = file.path("youtube_summaries_html",playlist_title)
+  prompt = "Give me the main topics of the following text in portuguese, with no more than 10 topics and no title. Format the result as a numbered list: "
+  
+  # Download each summary
+  for ( i in 1:nrow(videos) ) {
+    file_name = videos$video_title[i]
+    path_captions = file.path(folder_captions,paste0(file_name,".srt"))
+    path_summaries = file.path(folder_summaries,paste0(file_name,".txt"))
+    path_summaries_html = file.path(folder_summaries_html,paste0(file_name,".html"))
+    
+    if ( file.exists(path_summaries) ) {
+      cat("Summary already exists:", path_summaries, "\n") 
+    } else {
+      cat("Downloading summary:", path_summaries, "\n")
+      
+      captions = readLines(path_captions, warn = FALSE)
+      captions = c(prompt,captions)
+      captions = paste(captions,collapse = " ")
+      # minifunctions::editvariable(captions)
+      
+      video_summary = aitools::lmstudio(prompt=captions)
+      video_summary = paste0(file_name, "\n", video_summary)
+      writeLines(video_summary,path_summaries)
+      
+      Report = data.frame(Video = videos$video_thumbnail[i], Summary = video_summary, stringsAsFactors = F) 
+      html = minifunctions::printdataframe(Report,expand_images = T)
+      writeLines(html,path_summaries_html)
+      
+    }
+  }
+}
+
+
+DOWNLOAD_THUMBNAILS = function(videos) {
+  file_paths = vector()
+  
+  ncol = ceiling(sqrt(nrow(videos)))
+  nrow = ceiling(nrow(videos)/ncol)
+  
+  download_folder = file.path("youtube_thumbnails",videos$playlist_title[1])
+  
+  # Download each image and store the file paths
+  for ( i in 1:nrow(videos) ) {
+    url = videos$video_thumbnail[i]
+    file_name = videos$video_title[i]
+    file_path = file.path(download_folder,paste0(file_name,".jpg"))
+    if ( file.exists(file_path) ) {
+      cat("Thumbnail already exists:", file_path, "\n") 
+    } else {
+      cat("Downloading thumbnail:", file_path, "\n")
+      download.file(url, file_path, mode = "wb")
+    }
+    file_paths = c(file_paths,file_path)
+  }
+  
+  # Read the images using magick
+  images = lapply(file_paths, magick::image_read)
+  
+  # Combine the images into a grid
+  grid_image = magick::image_montage(
+    do.call(c, images),
+    tile = paste(ncol, nrow, sep = "x"), 
+    geometry = "320x180+10+10"
+  )
+  
+  # Display the grid image
+  print(grid_image)
+}
+
+
 EVOLUTION_OF_MY_VIEWS = function(fromDate="2018-10-20") {
   
   # Start working with YTAnalytics package 
@@ -378,62 +516,29 @@ EVOLUTION_OF_PLAYLIST_VIEWS = function(playlist) {
 }
 
 
-GET_CAPTIONS = function(df) {
-  N = nrow(df)
-  CaptionsVector = vector()
-  for (i in 1:N) {
-    cat("Processing video", i, "of", N, "\n")
-    captions = tuber::get_captions(id = df$caption_id[i],lang=df$language[i],format="sbv",as_raw=F)
-    captions = data.frame(captions)
-    
-    # Extract text from captions, removing timestamps and empty lines
-    captions = captions |>
-      dplyr::pull(captions) |>
-      (\(x) x[!stringr::str_detect(x, "[0-9]:[0-9]{2}:[0-9]{2}")])() |>
-      (\(x) x[x != "" & !is.na(x)])() |>
-      stringr::str_c(collapse = " ")
-    
-    captions = stringr::str_squish(captions)
-    
-    CaptionsVector = c(CaptionsVector, captions)
-  }
-  
-  return(CaptionsVector)
-}
-
-
 GET_CAPTIONS_FROM_PLAYLIST = function(playlist_id) {
   suppressMessages({
-    playlist_videos = tuber::get_playlist_items(filter =c(playlist_id = playlist_id),max_results = 500)
+    playlist_videos = tuber::get_playlist_video_ids(playlist_id = playlist_id,max_results = 500)
   })
   # Create empty dataframe to store captions
   # asr stands for Automatic Speech Recognition
   captions = data.frame()
-  for (i in 1:nrow(playlist_videos)) {
+  for (id in playlist_videos) {
     cat(".")
-    df = tuber::list_caption_tracks(video_id = playlist_videos$contentDetails.videoId[i])
+    df = tuber::list_captions(video_id = id)
     captions = rbind(captions,df )
   } 
-  cat(" ",nrow(playlist_videos),"videos,",nrow(captions),"captions") 
+  cat(" ",length(playlist_videos),"videos,",nrow(captions),"captions") 
   cat("\n")
-  
-  # Rename column in captions from "videoId" to "video_id"
-  names(captions)[names(captions) == "videoId"] = "video_id"
   
   return(captions)
 }
 
 
 GET_CHANNEL_PLAYLISTS = function(channel_id,exclude_playlists) {
-  playlists = tuber::get_playlists(filter=c(channel_id=channel_id),max_results = 500) 
-  
-  playlist_id = vector()
-  playlist_title = vector()
-  for ( playlist in playlists$items) {
-    playlist_id = c(playlist_id,playlist$id)
-    playlist_title = c(playlist_title,playlist$snippet$title)
-  }
-  playlists = data.frame(playlist_id,playlist_title)
+  playlists = tuber::list_playlists(channel_id=channel_id,max_results = 500) 
+ 
+  playlists = data.frame(playlist_id = playlists$playlist_id,playlist_title = playlists$title)
   
   # Create the regex pattern
   exclude_playlists = paste(exclude_playlists, collapse = "|")
@@ -450,8 +555,21 @@ GET_CHANNEL_PLAYLISTS = function(channel_id,exclude_playlists) {
 
 GET_CHANNEL_VIDEOS = function(channel_id) {
   videos = tuber::list_channel_videos(channel_id=channel_id,max_results = 500)
-  video_id = videos$contentDetails.videoId
+  video_id = videos$video_id
   return( data.frame(video_id))
+}
+
+
+GET_PLAYLIST_TITLE = function(playlist_id) {
+  # playlist_id = "PLRbCt61PaxX2d0_QXh6Qi6_jAQd66fmcI"
+  playlist = tuber::list_playlists(
+    playlist_ids = playlist_id,
+    part = "snippet",
+    simplify = FALSE
+  )
+  
+  playlist_title = playlist$items[[1]]$snippet$title
+  return(playlist_title)
 }
 
 
@@ -469,30 +587,22 @@ GET_VIDEOS_FROM_PLAYLISTS = function(playlists) {
     cat("Processing Playlist",i,"/",nrow(playlists),":",playlistTitle)
     
     suppressMessages({
-      playlist_videos = tuber::get_playlist_items(filter =c(playlist_id = playlists$playlist_id[i]),max_results = 500)
+      playlist_videos = tuber::get_playlist_video_ids(playlist_id = playlists$playlist_id[i],max_results = 500)
+      video_details = tuber::get_video_details(video_ids = playlist_videos)
+      video_stats = tuber::get_video_stats(video_ids = playlist_videos)
     })
     
-    for ( id in playlist_videos$contentDetails.videoId ) {
-      cat(".")
-      playlist_title = c(playlist_title,playlistTitle)
-      video_id = c(video_id,id)
-      url = paste0("https://www.youtube.com/watch?v=",id)
-      video_url = c(video_url,url)
-      
-      suppressMessages({
-        video_detail = tuber::get_video_details(video_id = id)
-        video_stats = tuber::get_stats(video_id = id)
-      })
-      
-      video_title = c(video_title,video_detail$snippet_title)
-      video_published = c(video_published,video_detail$snippet_publishedAt)
-      video_views = c(video_views,video_stats$statistics_viewCount)
-      video_thumbnail = c(video_thumbnail,video_detail$snippet_thumbnails[[1]][["medium"]][["url"]])
-    }
-    
-    cat(" ",length(playlist_videos$contentDetails.videoId),"videos") 
-    cat("\n")
-     
+    N = length(playlist_videos)
+    cat(" ",N,"videos \n") 
+    playlist_title = c(playlist_title,rep(playlistTitle,N))
+    video_id = c(video_id,video_details$id)
+    url = paste0("https://www.youtube.com/watch?v=",video_details$id)
+    video_url = c(video_url,url)
+    video_title = c(video_title,video_details$snippet_title)
+    video_views = c(video_views,video_stats$view_count)
+    video_published = c(video_published,video_details$snippet_publishedAt)
+    video_thumbnail = c(video_thumbnail,sapply(video_details$snippet_thumbnails, function(x) x[["medium"]][["url"]]))
+ 
   }
   
   video_views = as.integer(video_views)
@@ -517,12 +627,22 @@ MERGE_VIDEOS_WITH_CAPTIONS = function(videos,captions) {
   # full join videos with captions by video_id
   videos = dplyr::full_join(videos,captions, by = "video_id")
   
-  videos = videos |>
-    dplyr::group_by(video_id) |>
-    dplyr::filter(trackKind == max(trackKind)) |>
-    dplyr::ungroup() |>
+  #videos = videos |>
+  #  dplyr::group_by(video_id) |>
+  #  dplyr::filter(track_kind == max(track_kind)) |>
+  #  dplyr::ungroup() |>
     # Caso existam duplicados absolutos (ex: dois 'standard' iguais), 
     # usamos o distinct para garantir unicidade por video_id
+  #  dplyr::distinct(video_id, .keep_all = TRUE)
+  
+  # Added support for videos with no captions (track_kind is NA)
+  videos = videos |>
+    dplyr::group_by(video_id) |>
+    dplyr::filter(
+      if (all(is.na(track_kind))) TRUE
+      else track_kind == max(track_kind, na.rm = TRUE)
+    ) |>
+    dplyr::ungroup() |>
     dplyr::distinct(video_id, .keep_all = TRUE)
   
   videos = subset(videos, select = c(playlist_title,
@@ -533,11 +653,10 @@ MERGE_VIDEOS_WITH_CAPTIONS = function(videos,captions) {
                                      video_thumbnail,
                                      video_url,
                                      video_year,
-                                     id,
+                                     caption_id,
                                      language,
-                                     trackKind) )
-  # Rename column in videos from "id" to "caption_id"
-  names(videos)[names(videos) == "id"] = "caption_id"
+                                     track_kind) )
+ 
   return(videos)
 }
 
@@ -591,44 +710,6 @@ PLOT_PIECHART_VIDEOS_BY_PLAYLIST = function() {
 }
 
 
-PLOT_THUMBNAILS = function(urls, ncol, nrow) {
-  # i have an r vector with jpg urls. 
-  # make me a function to download all the images and plot them in the plot pane or viewer pane in grid layout. 
-  # the function must have 2 parameters: (number_of_columns,number_of_rows)
-  # Create a temporary directory to store the downloaded images
-  temp_dir = tempdir()
-  file_paths = vector()
-  
-  # Download each image and store the file paths
-  for ( i in 1:length(urls) ) {
-    url = urls[i]
-    file_name = basename(url)
-    # split file_name into name and extension
-    name = tools::file_path_sans_ext(file_name)
-    ext = tools::file_ext(file_name)
-    # create a new file name with the index
-    file_name = paste0(name, "_", i, ".", ext)
-    
-    file_path = file.path(temp_dir, file_name)
-    download.file(url, file_path, mode = "wb")
-    file_paths = c(file_paths,file_path)
-  }
-  
-  # Read the images using magick
-  images = lapply(file_paths, magick::image_read)
-  
-  # Combine the images into a grid
-  grid_image = magick::image_montage(
-    do.call(c, images),
-    tile = paste(ncol, nrow, sep = "x"), 
-    geometry = "320x180+10+10"
-  )
-  
-  # Display the grid image
-  print(grid_image)
-}
-
-
 PROCESS_INFINIFACTORY_VIDEOS = function() {
   
   infinifactory = subset(videos, grepl("Infinifactory",playlist_title))
@@ -655,7 +736,7 @@ PROCESS_INFINIFACTORY_VIDEOS = function() {
   
   HTML = minifunctions::printdataframe(infinifactory)
   
-  kableExtra::save_kable(HTML,"infinifactory.html")
+  kableExtra::save_kable(HTML,file.path("infinifactory","infinifactory.html"))
   
 }
 

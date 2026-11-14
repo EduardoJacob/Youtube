@@ -1,0 +1,1396 @@
+
+Ora, sejam bem-vindos ao meu primeiro
+tutorial dedicado à linguagem R.
+
+
+Nós podemos ver aqui no Tiobe Index. É
+com bastante agrado que eu vejo que a
+
+
+linguagem R está em crescimento. Tive a sorte de
+descobrir esta linguagem já há bastantes anos.
+
+
+e realmente adotei-a de imediato. Uma linguagem
+espetacular interpretada, paradigma funcional,
+
+
+Tem de facto algumas características
+realmente que a diferenciam de qualquer outra.
+
+
+e realmente está em bom crescimento, está...
+É aceite na generalidade hoje em dia,
+
+
+por muitos frameworks de inteligência artificial
+e machine learning. Ela é ensinada nas faculdades
+
+
+neste momento. Digamos que ela a par e passo
+com o Python são talvez as duas linguagens
+
+
+fundamentais usadas hoje em dia na área de machine
+learning e inteligência artificial. Eu não sou
+
+
+grande fã de Python, sinceramente. A forma
+do Python de indentar o código não me agrada.
+
+
+Portanto, estruturar o código através
+da indentação é um tipo de solução que
+
+
+realmente não me agrada. Eu gosto mais
+do R, da, da, da forma de codificar em R.
+
+
+Então, vamos ver hoje uma solução, que eu
+implementei e será o objetivo destes tutorials,
+
+
+tentar ver como é que eu posso integrar a
+linguagem R com outro tipo de ferramentas ou APIs,
+
+
+por forma apresentar aqui
+alguma solução interessante.
+
+
+e também abrir os horizontes às pessoas para
+também inspirar as pessoas que estejam a ver
+
+
+este vídeo de toda uma série de temáticas daárea
+da programação. E nós vamos aqui tratar hoje
+
+
+é de um tema de datascraping, OK? Webscraping.
+Portanto, nós vamos aqui, qual é aqui o objetivo?
+
+
+O objetivo é simples, é o seguinte. Eu tenho
+aqui, já agora, faço também um bocadinho de
+
+
+propaganda ao browser Opera, que é o browser
+que eu uso desde também desde há muitos anos.
+
+
+Para mim é o melhor, é o melhor browser que há no,
+conjunto de user friendyleness e compatibilidade,
+
+
+porque ele instala, tem os seus próprios addons,
+mas também é compatível com os addons do Chrome,
+
+
+da Chrome Store. Portanto, mas ok, não vou,
+o tutorial não é dedicado ao Opera hoje.
+
+
+Então o que nós vamos fazer aqui da área de
+data scraping é o seguinte. Eu tenho aqui o um
+
+
+site onde eu, dedicado ao gaming, que por acaso
+pertence ao Opera Browser, é por coincidência.
+
+
+é o Opera Browser comprou esta plataforma
+
+
+que é plataforma GX Games e também adquiriu
+o game engine que é chamado de GameMaker e
+
+
+que eu por acaso também gosto bastante que
+é um game engine mais dedicado para jogos
+
+
+2D e o qual eu tenho e eu programo e faço os
+meus jogos e tenho aqui os meus jogos. OK?
+
+
+E aqui eu já estou autenticado. Eu já estava
+autenticado e, portanto, eu entrei aqui, como
+
+
+estão a ver, eu estou autenticado, e tenho aqui
+os meus jogos e tenho aqui algumas estatísticas,
+
+
+como seja, por exemplo, o número de plays que
+os jogos já têm, portanto, o total de plays
+
+
+neste momento. OK, pronto, cá está. Então,
+o que é que me interessa? interessa-me fazer
+
+
+um gráfico e eu quero ver realmente que qual
+é o meu jogo de maior sucesso e quero também
+
+
+estudar e fazer um gráfico ao longo do tempo
+para saber como é que está a evoluir e portanto
+
+
+a popularidade dos meus jogos. OK? Pronto. E
+é para isso que vamos recorrer à linguagem R.
+
+
+Porque e como estamos a ver aqui nesta plataforma,
+eu portanto a parte de analytics é limitada,
+
+
+não... na prática não tem aqui nada,
+não me faz gráficos, não me faz nada,
+
+
+tem apenas os totais atuais no presente
+momento. E nós vamos ver que vamos ter aqui,
+
+
+eu vou implementar uma solução no qual permite-me
+fazer o estudo destes totais ao longo do tempo,
+
+
+desde que eu vá capturando esta informação
+com uma certa regularidade. Devo dizer que eu
+
+
+no passado usei uma solução que era o Microsoft
+Microsoft Power Automate. OK? Microsoft Power
+
+
+Automate também podem explorar. E era uma solução
+que realmente que nós ensinamos a a página que
+
+
+nós queremos capturar e ele vinha cá buscar
+informação e depois também eu podia submeter em
+
+
+background invocar um script em linguagem R para
+me fazer o processamento que eu preciso de fazer.
+
+
+e funcionava. é uma boa opção. Só que tem um
+problema, é que guardava o script de Power
+
+
+Automate era gravado na cloud e eu tive um
+problema num dado momento, nunca cheguei,
+
+
+nunca consegui entender bem o porquê em
+que eu perdi, eu perdi esse trabalho que
+
+
+eu tinha feito. Houve ali qualquer problema com
+a Microsoft que eu não entendi bem e a verdade
+
+
+é que eu perdi esse trabalho e então fartei-me
+e deixei de usar o Power Automate. e procurei
+
+
+uma outra solução. Há muitas soluções
+para vir aqui buscar esta informação.
+
+
+nós a solução que vamos ver
+hoje é usar um addon, uma
+
+
+extenção de browser muito famosa que é o
+instant data scraper que está aqui neste
+
+
+icon, OK? que está na loja
+do Chrome, como vos disse,
+
+
+e que é compatível com o browser Opera. Há outras
+soluções totalmente programáticas para fazer isto,
+
+
+só que não são práticas quando um site tem
+uma autenticação forte como tem este site. OK?
+
+
+Porque se eu for fazer o datascraping de forma
+totalmente programática, o que vai acontecer é
+
+
+que eu vou ter que me autenticar e como e depois
+na fase de autenticação e vai vai-me aparecer os
+
+
+aqueles famosos Capchas que há para a gente dizer
+onde estão as bicicletas e onde estão aquelas
+
+
+coisas, parece aquela bonecada e portanto
+isso é uma parte que é que é muito difícil,
+
+
+pelo menos com o meu Know How que eu tenho é muito
+difícil de automatizar Por isso, eu implementei
+
+
+aqui esta solução que é semiautomática. Portanto,
+tem esta fase manual que eu tenho que entrar aqui,
+
+
+eu autentico-me. E aqui tenho tenho aqui
+a tabela com os meus jogos, tenho aqui as
+
+
+várias páginas em mais em particular tenho três
+páginas. Pronto. E agora vamos usar o o Instant
+
+
+Data Scraper que eu já instalei. Eu vou invocá-lo
+aqui. Aparece-me aqui o addon, a extensão. OK.
+
+
+E é uma extensão que faz que automaticamente me
+deteta uma a tabela deteta-me tabelas de HTML
+
+
+que estão presentes aqui na página. OK? Pronto,
+portanto, terá as suas limitações, mas quando a
+
+
+informação vem de tabelas é pois é bastante
+bastante prático, bastante userfrendly. OK?
+
+
+Portanto, o que nós temos aqui, eu quando arranco,
+arranco o a extensão, ele automaticamente já
+
+
+percebeu que tinha aqui uma tabela, mas ele
+ainda ele ainda não paginou e não leu todas
+
+
+as páginas. Agora vou ter que carregar aqui para
+ensinar a ele onde está o botão da next página.
+
+
+Portanto, eu vou carregar aqui. Eu carrego e agora
+venho aqui ao botão e eu clico aqui. Pronto. E ele
+
+
+agora já aprendeu porque eu já, já lhe ensinei
+qual é o botão. E pronto. E agora simplesmente
+
+
+vou dizer start crawling. Start crawling.
+E ele cá está. Ele vai paginar. Estão a
+
+
+ver? Olha ele aqui já paginou. E pronto. E ele
+no total disse-me paginou aqui três páginas.
+
+
+e obteu 22 registros. Está correto que eu que
+eu tenho 22 jogos e com uma série de campos,
+
+
+os campos, as colunas que são as informações HTML
+que ele obteve aqui em cada célula da tabela,
+
+
+os quais eu não me interessam todos estes campos,
+como é óbvio. Só me só me vou interessar aqui
+
+
+o nome do jogo e o número de plays. OK. E mais
+nada. Tenho aqui a data, o created date, mas acho
+
+
+que o create date eu não estou a usar. Eu podia
+logo aqui filtrar alguns campos. Se eu filtrasse
+
+
+aqui alguns campos e riscasse aqui alguns destas
+colunas, eu podia logo aqui fazer uma filtragem e
+
+
+ele aprendia e deve ficar aqui guardado algures
+ou nos cookies ou qualquer coisa. Isso não sei
+
+
+onde é que ele guarda. E depois a próxima vez
+que eu viesse cá, pois ele já tinha aprendido e
+
+
+ele teria já o filtro aplicado. Pronto. Mas como
+eu vou usar a linguagem de programação é muito
+
+
+mais prático e user friendly pois trabalhar numa
+linguagem de programação avançada do que estar
+
+
+aqui com com este form. Portanto, aqui eu vou
+fazer interessa-me fazer aqui o mínimo possível,
+
+
+o mínimo indispensável. O mínimo indispensável
+pois foi fazer esta captura e nada mais. Eu
+
+
+aqui não mexo mais. E agora tudo o resto fica
+muito mais potente fazer dentro da linguagem de
+
+
+programação. Pronto, aqui simplesmente agora vou
+gravar num CSV, OK? Eu vou gravar aqui num CSV.
+
+
+e é intuito meu destes tutorials também
+partilhar toda uma série de tecnologias
+
+
+que eu uso e é isso que eu acho que
+são interessantes. portanto, ou seja,
+
+
+em vez de dizer, OK, eu vou fazer um tutorial só
+de linguagem R, poderia ser maçudo ou monótono,
+
+
+interessa-me partilhar uma série de Know
+How, como já estou aqui a partilhar. Sim,
+
+
+já partilhei convosco. Mostrei-vos o Tiobe Index
+para quem não conheça, onde têm, onde podem ver
+
+
+o andamento de como é que vai a popularidade
+das linguagens de programação a nível mundial.
+
+
+mostrei-vos agora o este addon, mostrei-vos
+o Opera Browser, o Addon, o Instant data
+
+
+Scraping e já agora falo-vos aqui no MegaSync. O
+MegaSync é uma plataforma espetacular e gratuita.
+
+
+que onde permite sincronizar na cloud, através
+da cloud, permite-me sincronizar uma folder,
+
+
+não é? Um conjunto de folders, faz as vezes
+como se fosse o Google Drive, OK? Portanto,
+
+
+é uma é uma é uma forma de uma cloud folder
+que permite sincronizar entre devices.
+
+
+o MegaSync tem uma grande vantagem sobre outras
+soluções, é que o MegaSync é transversal,
+
+
+multisistema operativo. Portanto, essa é a grande
+vantagem. o MegaSync instala em Linux, em Windows,
+
+
+acho que em Mac também, se não me engano.
+Mobile, salvo erro, também. Eu, atualmente,
+
+
+eu só uso para Windows, mas uso em várias
+máquinas. Tenho no meu desktop, no meu portátil
+
+
+e depois tenho também na cloud. E o MegaSync
+faz também versionamento, que é espetacular.
+
+
+e portanto, se eu precisar de aceder a uma versão
+anterior de um componente, eu vou na cloud e tenho
+
+
+lá uma versão anterior e eu consigo recuperar
+uma versão anterior. OK? De resto, o MegaSync,
+
+
+pois, é um serviço, ele corre, corre aqui
+como um serviço no Windows. e portanto em
+
+
+si a sincronização é automática. Cada vez que eu
+estou a trabalhar nas folders e a salvar, ele está
+
+
+sempre a sincronizar. Portanto, é espetacular. Já
+há muitos anos que eu uso. Na na variante gratuita
+
+
+tem uma limitação a nível de o número de gigas...
+não me lembro agora se são acho que são 25 GB não
+
+
+me recordo. Tem uma dessa limitação, mas é para
+mim chega bem. , OK. Eu não tenho tudo, não uso
+
+
+só o Mega Sync, também uso o Google Drive e uso
+a também aquela outra solução da Microsoft. Eh,
+
+
+mas o MegaSync uso normalmente para as linguagens
+de programação, OK? as coisas que eu que eu gosto
+
+
+de programar. Por exemplo, aqui está um exemplo.
+E aqui vocês podem ver um exemplo do que é que eu
+
+
+gosto de programar e o que é que eu já tenho
+programado. Desde C# desde C++ desde Docker,
+
+
+Flash que já está descontinuado, linguagem
+flash antiga, o game maker cá está quando
+
+
+programo jogos em game maker GeoGebra também
+tenho também tenho uma presença na cloud com
+
+
+soluções de GeoGebra também muito interessante
+e etc, etc. Agora não importa o resto. E tenho
+
+
+aqui a linguagem R. Portanto, agora eu vou
+salvar realmente. Portanto, eu salvo aqui na
+
+
+folder local e o MegaSync sincroniza na cloud. OK?
+Portanto, eu vou gravar aqui. Eu tenho aqui uma
+
+
+folder. Esta é uma área e dentro da linguagem
+R. Como podem ver, tenho muita muito já tenho
+
+
+muito trabalho aqui desenvolvido porque já há
+muitos anos que eu programo em linguagem R.
+
+
+E portanto tenho também tenho alguns packades
+que eu programei em linguagem R. Isto futuramente
+
+
+poderei fazer outros tutorials, logo vejo também
+consoante o sucesso que este tutorial venha a ter.
+
+
+E depois tenho aqui uma área da APIs,
+onde eu tenho trabalho com algumas APIs,
+
+
+como API do YouTube, Twitter, o Steam, Instagram,
+Spotify, etc, etc. E depois tenho aqui o GX Games.
+
+
+GX Games não é bem não vou usar nenhuma API, mas
+como eu uso o instant data scraping e no fundo
+
+
+fiquei aqui é no fundo é como se eu estivesse
+a usar uma determinada API que é, que no fundo
+
+
+é um addon e acabei por colocar aqui. Pronto. E
+eu vou tenho aqui eu vou esmagar aqui. Ponho aqui
+
+
+o instant data scraper aquilo que eu que acabei
+de capturar e vou e vou gravá-lo. OK. Portanto,
+
+
+já não já não preciso deste addon. Vou
+fechá-lo. Já não preciso desta página.
+
+
+OK. Vou podemos ver aqui o que eu capturei, o que
+eu fiz agora download instant data scraper. OK.
+
+
+Eu posso abri-lo aqui. Vou abri-lo aqui
+no notepad++. OK? e portanto, vemos que
+
+
+é um CSV normal, separado por vírgulas e que tem
+uma linha de headers, tem uma linha de headers de,
+
+
+com os nomes os nomes das colunas. OK, não
+há nada de especial. Podemos fechar aqui.
+
+
+e portanto e agora vamos tirar aqui o browser.
+OK. E agora temos, vamos para a linguagem R.
+
+
+portanto, para quem não conhece R,
+nós temos, nós instalamos a linguagem,
+
+
+que é a linguagem interpretada. E normalmente
+eu diria que 99,99% de todas as pessoas que
+
+
+trabalham em R vão trabalhar com o IDE, que é o
+RStudio. Portanto, o RStudio é um IDE fabuloso,
+
+
+como veremos. E realmente eu acho que o R e o
+RStudio é realmente a solução de programação para
+
+
+mim do que eu conheço mais avançada, mais user
+friendly que eu conheço que eu já vi até hoje.
+
+
+Não há qualquer hipótese. Não dá hipótese. Seja
+seja Visual Studio Code, seja eclipse, pá, seja
+
+
+o que for, não dá hipótese. RStudio é a solução
+mais avançada, mais user friendly que existe,
+
+
+assim como a linguagem R. Mas eu não quero estar a
+dar aqui um agora um curso de de R básico, porque
+
+
+há muitas coisas na internet para vocês tentarem
+perceber, quem tenha interesse tentarem perceber o
+
+
+porquê o porquê de eu estar a fazer estes elogios
+à linguagem R. Eu não gosto de fazer tutorials de
+
+
+nível introdutório. Chateia-me estar a explicar
+o que é um IF, o que é um loop, o que é o que é.
+
+
+Não, não gosto. Gosto de fazer tutorials já de
+nível médio, avançado. Portanto, quem quem não
+
+
+conhecer R, pois poderá tem muitos tutorials na
+internet, no YouTube para para aprender o B-A-Bá.
+
+
+Portanto, agora o que me interessa é mostrar
+a solução que vamos ver agora, onde começámos
+
+
+com o instant data scraping. OK? E agora eu vou
+arrancar aqui o meu código que está aqui no GX
+
+
+Games. Eu espero que a fonte tenha seja boa. Eu
+vou pôr até um bocadinho maior, como isto é para
+
+
+o YouTube. Ora, e onde é que está isto aqui? dos
+options. Deixa-me pôr aqui uma fonte aqui. Vai
+
+
+aumentar aqui isto um bocadinho. Para 150. OK. Eu
+também estou a gravar isto em 4K, portanto espero
+
+
+que fique bem com bastante resolução. Deixa
+ver aqui. Ok. Assim bem grandinho. Ok. Ora
+
+
+bem. Então temos aqui no GX Games, eu tenho aqui
+o meu código, o TugaStone.R. Chama-se TugaStone
+
+
+porque o meu canal, o meu canal de game maker
+também é Tugastone. Tugastone é uma imagem de
+
+
+marca que eu uso e que... isto assim também está
+um bocado grande mais. deixa voltar aos 125.
+
+
+TugaStone é um nome que vem em tempos há muitos,
+há uns anos atrás, eu joguei, eu joguei um jogo
+
+
+que era o HeartStone, um jogo altamente viciante
+e depois houve uma vez que me chateei e que parei
+
+
+com ele de vez e ele pronto e depois mas... ficou
+o nome ficou e depois baseado nesse Heartstone eu
+
+
+criei TugaStone. Ora bem, vamos então arrancar
+aqui com isto. O que é que nós temos aqui?
+
+
+Eu quando arranco eu tenho eu tenho eu
+tenho o R muito otimizado. Tenho aqui o R
+
+
+tenho configurações automáticas quando entro
+no RStudio. Pronto, isso não vai ser âmbito
+
+
+agora deste tutorial. São tópicos avançados. Por
+exemplo, eu tenho aqui uma prompt e que me diz
+
+
+automaticamente me deteta que eu estou a usar
+a última versão do R, não é necessário fazer
+
+
+nenhum upgrade. e portanto eu tenho aqui
+esta, eu tenho aqui o R interativo aqui.
+
+
+naturalmente eu posso pôr aqui um statement de
+um statement de R. acho que também não
+
+
+não ganho muito com isso, porque eu também
+posso, como a linguagem é interpretada, também
+
+
+posso colocar aqui no código e executar esta
+linha. OK? Portanto, não não é muito importante,
+
+
+mas é mas é o... mas às vezes é útil e também
+aqui vai-me dar o o output do nosso código.
+
+
+portanto, eu tenho, uso alguns snippets de código,
+que isso agora também não importa estar agora a
+
+
+explicar ao pormenor, mas basicamente aqui ele
+limpa a minha sessão. Quando eu vou arrancar,
+
+
+olha agora limpou aqui o o ecrã porque
+aqui com esta linha limpou a consola.
+
+
+Pronto. Depois eu tenho eu tenho um package.
+Portanto, isto é uma linguagem que trabalha
+
+
+muito com packages, como outras linguagens também
+trabalham, como o Python, vivem muito à base de
+
+
+packages e que nós podemos ver aqui os packages
+que nós temos instalados aqui. OK, tenho aqui
+
+
+os packags e eu já criei alguns packages, tenho
+alguns packages meus, mas não estão publicados.
+
+
+são uso aqui só para consumo interno.
+portanto, e tenho alguns e tenho este package, por
+
+
+exemplo, o XFunctions. E uma das coisas que ele
+faz, uma das funções que faz, que é o XLibrary,
+
+
+é eu carregar os packages que eu quero, que eu
+preciso, que que eu vou usar aqui no código.
+
+
+na verdade não vou usar estes todos, às vezes
+eu faço copy paste e ficam alguns packages aqui
+
+
+a mais. Eu não vou usar estes packages, não
+vamos precisar destes packages todos aqui,
+
+
+mas não importa carregar alguns
+a mais, não, não tem problema.
+
+
+e tem também a vantagem que ele, se algum package
+for a primeira vez que eu estou a invocar,
+
+
+esta minha função vai detetar que o
+package não está instalado e então
+
+
+instala automaticamente. Portanto, é um
+é um package que gere automaticamente é
+
+
+um é um o package é o XFunctions, é uma função
+XLibrary que automaticamente gere os packages
+
+
+que eu preciso instalando aqueles
+que estão em falta. OK? Pronto,
+
+
+é o que ele está aqui. Está aqui a dizer
+"automatic install and load packages". Ok,
+
+
+portanto ele está a carregá-los. OK.
+
+
+Sim, senhor. Vamos aguardar aqui um pouco. OK.
+Pronto. E depois também dá-nos como output três
+
+
+data frames, três data frames muito interessantes
+que eu tenho sempre, com que eu trabalho sempre,
+
+
+que são um deles é um data frame que me
+dá aqui com com os packages que eu tenho
+
+
+carregados em memória, que eu acabei de carregar
+aqui em memória, que é este aqui. E este é aqui.
+
+
+é um datafame que eu gosto, que que eu criei com
+a minha função que me mostra, OK, os packages
+
+
+que estão carregados em memória. Por exemplo,
+tínhamos aqui o o base package, obviamente,
+
+
+que é o que é o base. E depois temos os outros que
+eu acabei de instalar. Aqui mostra-me também com
+
+
+que versão foram compilados, com que versão foram
+produzidos, que isto é uma linguagem interpretada
+
+
+interpretada, mas que também tem um processo que
+que permite, permite a pessoa produzir um package,
+
+
+por exemplo, em linguagem C ou noutras linguagens
+e sendo compiladas e etc, etc. e depois mostra-me
+
+
+aqui também que, por exemplo, os packages que
+já saíram novas versões. Pode ser interessante
+
+
+saber se eu tiver a dar algum problema aqui na
+utilização de algum package, eu posso vir aqui
+
+
+e saber, olha, já saiu uma nova versão, posso, eu
+posso fazer o upgrade. OK. tenho aqui, portanto,
+
+
+este data frame, OK? Para quem nunca viu esta
+esta nomenclatura, portanto, um data frame é é
+
+
+uma tabela. um dataframe é uma tabela com colunas
+em que cada coluna só tem um determinado data
+
+
+type que eu posso ver os data types aqui, posso
+clicar aqui e ver que cá está que este data frame
+
+
+chama-se Loaded.Packages, o nome o nome pode
+conter um ponto, não tem problema. E que tem
+
+
+cinco colunas, tem 27 registos de cinco colunas
+e estas colunas são todas do tipo character, OK?
+
+
+e portanto é isso, Loaded.Packages. Depois também
+tenho Loaded.Datasets Também é interessante...
+
+
+isto que eu estou-vos a falar extravaza
+um pouco o âmbito do tutorial,
+
+
+mas como este é o meu primeiro tutorial
+que eu estou a fazer em linguagem R,
+
+
+é para mostrar-vos algumas das potencialidades
+que o R tem e também familiarizar-vos com algumas
+
+
+das nomenclaturas que o R usa para quem não
+esteja ainda familiarizado, não é? Portanto,
+
+
+estou a extravassar um bocadinho o âmbito,
+mas mas pronto, também para dar um bocadinho
+
+
+de enquadramento, introdução alguns dos dos
+tópicos com que que com que manipulamos aqui
+
+
+na linguagem R e no RStudio. OK? Loaded.Datasets.
+O que é ? Loaded.Datasets é um dataframe que eu
+
+
+aqui também construo, em que quando nós
+instalamos um package aqui na linguagem,
+
+
+o package traz, portanto, uma uma biblioteca de
+funções, não é? Mas por vezes também traz mais,
+
+
+também traz alguns ficheiros de trabalho que para,
+por exemplo, para como uma demo. Imaginamos que,
+
+
+por exemplo, um package por exemplo
+este package aqui é um package gráfico,
+
+
+ggplot2. E então ele traz alguns data frames.
+Temos aqui data frames, aqui diz com quantos
+
+
+registos que são para fazer uma demo que vem fazem
+parte do package e traz alguns dados para que a
+
+
+pessoa possa imediatamente começar a trabalhar
+com esses dados. eventualmente haverá alguns
+
+
+exemplos que vêm no package e que a pessoa
+já traz dados, OK? Ó, imaginem, por exemplo,
+
+
+um package de machine learning que vocês instalam
+o package e o package traz as funções e pode
+
+
+também já trazer uns ficheiros de trabalho já
+adequados para imediatamente começar a explorar
+
+
+e experimentar algumas das funcionalidades
+de machine learning. OK? E, portanto,
+
+
+é o que temos aqui. Eu aqui tenho tenho os data os
+datasets, datasets diversos. podem ser data frames
+
+
+ou podem ser de outro tipo, podem ser matrizes,
+por exemplo, aqui são basicamente data frames.
+
+
+podem ser de outros tipos, matrizes, arrays,
+há outros outros tipos de estruturas de dados
+
+
+que que trabalhamos no R, mas o data frame
+é realmente é realmente eu diria, o data
+
+
+structure fundamental da linguagem R, que é o
+data frame. Ora, pronto, temos os Loaded.Packages.
+
+
+Estão a ver como é tão fácil trabalhar aqui com
+estas tabelas, com os dataframes. Eu, por exemplo,
+
+
+eu posso eu posso eu posso aqui ordenar pela
+coluna que eu quiser. OK? Portanto, é espetacular,
+
+
+é tão user friendly trabalhar dentro do RStudio,
+como estamos aqui ver. Nós todas as variáveis que
+
+
+vão ficando carregadas em memória, nós temos aqui
+e nós podemos visualizá-las de múltiplas maneiras.
+
+
+Finalmente temos as vignettes. As vignettes também
+que eu pus aqui outro data frame. Foi isto, fui eu
+
+
+que fiz estes data frames, ou seja, sou eu que
+os construo com o meu package que eu fiz e com a
+
+
+minha função, não é? e temos as vignettes. E aqui
+temos as vignettes. É, é um conceito, é um help de
+
+
+HTML, digamos assim, que também vem associado a
+alguns packages. Portanto, alguns packets trazem
+
+
+vignettes, trazem as funções, trazem data frames
+ou datasets de dados e trazem vinhetes também.
+
+
+imaginemos, por exemplo, aqui uma vignette.
+Por exemplo, por exemplo, o chromote, que é
+
+
+um que é um um package que eu tive a trabalhar
+recentemente na área de web-scraping. então,
+
+
+imaginem que eu estou aqui e eu vou aqui,
+por exemplo, ora, browse vignettes, packages,
+
+
+chromote. Esta linha está comentada, mas eu
+posso selecionar o pedaço da linha mesmo com
+
+
+ela comentada e mandar executar este pedacinho.
+OK? Reparem só isto, isto é fabuloso. Portanto,
+
+
+abriu-me aqui no browser. Portanto, e estas são
+as vignettes que vêm com que vêm com o chromote,
+
+
+OK? E aqui podemos ver uma série de exemplos,
+OK? de demo e documentação do package. OK.
+
+
+Mas não vamos agora perder mais tempo
+com isto. OK? vamos andando. Pronto,
+
+
+digamos que esta parte aqui inicial,
+portanto, extravasa um pouco o âmbito do aqui
+
+
+do tutorial. Isto foi só para vos darmos aqui
+umas luzes de alguns conceitos que existem
+
+
+aqui. O âmbito do tutorial vai aparecer aqui
+um pouco mais à frente. agora vou-vos mostrar,
+
+
+por exemplo, aqui este outro package que eu fiz, o
+
+
+minifunctions. minifunctions, o nome diz tudo
+são pequeninas funções que eu às vezes eu agrupo
+
+
+e quando eu tenho uma pequena função e vejo
+que ela é passível de ser reutilizável,
+
+
+pois eu agrego-a dentro do meu package chamado
+minifunctions e eu ponho aqui mais uma função.
+
+
+Cá está as funções que eu tenho. Olhem para
+elas aqui. Portanto, estas são as funções que
+
+
+eu vou fazendo às vezes e vou agregando-as e
+elas ficam guardadas aqui agrupadas dentro do
+
+
+package. e então tenho aqui uma das funções deste
+package que é displaymedia. Ora, o displaymedia.
+
+
+Reparem que basta pôr o cursor aqui em cima,
+carregar em F1 e eu vou diretamente ao Help.
+
+
+Isto é espetacular. Reparem. no potencial que tem
+este IDE, nas coisas que nós já vimos, já vimos,
+
+
+tem uma consola, já vimos o editor, onde podemos
+executar código linha a linha, pedaço a pedaço,
+
+
+ou podemos executar de tacada. Vimos que já
+temos aqui uma área que é o data visualization,
+
+
+onde visualizamos variáveis e estruturas de
+dados. Vemos que temos aqui uma área onde tem
+
+
+o help automático. vamos ter aqui uma área onde
+nós vamos ver os plots. Temos aqui uma área que
+
+
+é o mini browser que há determinados gráficos que
+são dinâmicos que são construídos com HTML e eles
+
+
+vão aparecer aqui. Temos aqui o explorador de
+ficheiros. E pá, isto é brutal. É como vos digo,
+
+
+É como vos digo, é o IDE mais avançado que eu
+conheço. E olhem que eu já ao longo de muitos anos
+
+
+que já trabalho em programação, já trabalhei com
+muita coisa, com eclipses, com visual estúdios,
+
+
+com com mil e uma coisas. E digo-vos sinceramente,
+não... aqui nem há discussão. IDE RStudio
+
+
+Este IDE RStudio é fabuloso. É outra dimensão.
+Ora, agora vocês vão dizer assim: "E pá, mas
+
+
+isto é o R é limitado?" E pá, sim, eu isto isto
+é para fazer pequenos scripts, pequenas soluções,
+
+
+pequenos. OK, isto não é para, eu não vou, não
+vamos estar aqui e e não vou estar a dizer não,
+
+
+eu não vou estar a dizer aqui o R não é para
+substituir as outras linguagens, atenção,
+
+
+todas as linguagens que todas elas têm o
+seu âmbito. Naturalmente eu isto não não é
+
+
+para substituir o C++ ou não é para substituir
+outro tipo de soluções, não é? Isto é para o
+
+
+utilizador final que precisa de fazer um pequeno
+script, uma... precisa de fazer uma uma pequena
+
+
+programação. OK? E então a forma rápida e
+user friendly que ele tem de a fazer. Ora,
+
+
+este é o help que eu que eu que eu programei este
+help quando eu fiz o meu package e que descreve,
+
+
+por exemplo, o que é que faz esta função, o mini o
+mini functions tem também aqui o index. Portanto,
+
+
+este é o o índice que cá está, minifunctions
+package by Eduardo Jacob. Portanto, fui eu que
+
+
+fiz este package. e está aqui as funções que
+eu já as tenho. E esta função em particular
+
+
+é uma uma função que eu até fiz recentemente,
+que é um visualizador de mídia, de multimídia
+
+
+seja PDFs, movies e páginas web,
+seja na cloud, seja localmente
+
+
+ou por exemplo automaticamente fazer o
+display de todos os local media files. Pá,
+
+
+isto é fabuloso, esta função, isto é fabuloso
+porquê? Imaginem que vocês vocês, por exemplo,
+
+
+querem resolver um problema. Vamos imaginar, por
+exemplo, na área da matemática e vocês viram um
+
+
+enunciado. Estão a ver um enunciado algures no
+YouTube, onde quer que seja, um PDF, e depois
+
+
+vem um problema e dizem: "Eu quero resolver este
+problema". Então, o que é que podem fazer? Vocês
+
+
+podem fazer o print screen desse problema,
+desse enunciado e gravá-lo como uma imagem.
+
+
+E depois quando vêm aqui para a programação,
+vocês querem posicionar aqui esse enunciado. Vamos
+
+
+imaginar aqui, por exemplo, eu tenho aqui
+duas imagens. Tenho aqui este JPEG,
+
+
+este e este. Eu quando vou fazer aqui o
+minifunctions displaymedia, eu vou correr,
+
+
+ele automaticamente ele abre-me aqui o ele abre-me
+o todos os todos os media que ele deteta aqui.
+
+
+Vejam bem a potencialidade que isto tem, porque
+vocês podem trabalhar aqui num problema e terem
+
+
+aqui um enunciado, pode ser um enunciado gráfico,
+de geometria, pode ser o quer que seja, OK?
+
+
+E vocês têm tudo aqui integrado. Não é
+preciso estar a abrir JPEGs ao lado. Portanto,
+
+
+está tudo integrado dentro do IDE. Porque se vocês
+trabalham num problema de matemática, por exemplo,
+
+
+e depois voltam, passado um ano, voltam, vocês se
+não tiverem um enunciado gráfico bem explícito,
+
+
+vocês já não se lembram nada do que é que estavam
+a fazer. OK? Não sei se estão a ver a ideia.
+
+
+Portanto, isto é tremendamente poderoso.
+isto é uma técnica que comecei a usar e,
+
+
+por exemplo, na área da matemática também uso
+muito, resolvo muitos problemas de matemática,
+
+
+é que eu gosto muito de matemática, é um dos
+meus hobbies e tenho trabalho muito com esta
+
+
+forma. Eu tenho o enunciado do problema
+e depois tenho a solução. OK? Pronto,
+
+
+este aqui eu pus aqui este este pequeno print
+screen que que que é o no fundo é o meu canal
+
+
+de game maker onde diz que eu sou um criador
+de jogos desde o ano 2022 foi quando comecei
+
+
+a dedicar ao game maker.e agora tenho aqui aqui
+na consola ele está à espera que eu que eu que
+
+
+eu deu enter quando quando há quando há mais
+mídias. OK, temos aqui mais um mídia. Portanto,
+
+
+isto aqui foi onde eu fiz o print screen. Cá está.
+Como isto é útil que é para me recordar. Imagina
+
+
+que eu volto daqui a uns anos e eu já não me
+lembro, eu já não me lembrava que este R script,
+
+
+Ora, tive aqui um pequeno
+problema com os headphones,
+
+
+gastou-se a bateria deles. Estou a usar aqui
+
+
+uns headphones da Lenovo. e gastou-se sem fios,
+mas agora liguei o fio, liguei o carregador. OK,
+
+
+vamos continuar. E portanto estava eu a
+dizer, eu chegava daqui a um ano ou dois,
+
+
+eu por já já não me lembrava que que isto que
+este script é para integrar com o instant data
+
+
+scraper. OK? Ah, vocês podem dizer: "Ah, mas
+eu podia pôr aqui uns apontamentos aqui". E pá,
+
+
+e eu digo: "E pá, mas quem é que lê apontamentos,
+meu? eu quando chego aqui, eu não leio nada.
+
+
+Portanto, e aqui uma imagem vale mais de que
+1000 palavras, lá, diz o ditado. E, portanto,
+
+
+aqui é é um pequeno lembrete a dizer: "Ah,
+quando eu vejo aqui, eu vejo e lembro-me, OK,
+
+
+eu tenho que ir buscar a informação com o instant
+data scraper". OK? Pronto, então sigamos. É o
+
+
+que faz aqui esta função e assim já vos falei
+um pouco do que são os packages, as funções,
+
+
+o sistema dela aqui integrado, etc, etc. Ora
+bem, recentemente eu tive a trabalhar aqui com
+
+
+o um package do aqui do R, que é o chromote e o
+chromote, portanto, da área de de data scraping.
+
+
+E ,
+
+
+deixa-me parar aqui
+
+
+parar aqui isto
+
+
+e
+
+
+tem as suas limitações, como já vos falei, que é a
+parte da autenticação, OK? a parte da autenticação
+
+
+que vos falei porque aparece o Captcha cá está o
+Captcha que é o acrónimo de (Completely Automated
+
+
+Public Turing Test To Tell
+Computers and Humans Apart)
+
+
+e pá e não e portanto não não adianta
+não é prático, não é prático. Esta parte
+
+
+realmente não é prática porque eu teria
+que fazer o login, o login autenticação.
+
+
+Porque o que acontece com este método do chromote
+é que ele abre uma uma sessão virgem do browser,
+
+
+neste caso do Chrome. E portanto depois eu
+tenho que fazer a autenticação manualmente
+
+
+e depois tenho que voltar aqui e mandá-lo avançar
+para para capturar a capturar a informação que eu
+
+
+quero. E pá, e não é prático. tem que estar
+a especificar com quais quais as células,
+
+
+quais as não é prático quando temos
+aquela extensão. OK? Portanto, neste caso,
+
+
+eu desisti desisti aqui de usar, de
+tentar automatizar aqui por este por
+
+
+este processo. OK? Pronto. Então,
+vamos começar aqui. Vamos começar aqui.
+
+
+read output from instant data scraper. Pronto,
+esta é a primeira parte que nós vamos aqui com
+
+
+o fazer, OK? Que é o R, o R obviamente lê um CSV,
+OK? Cá está. Ele fica carregado enquanto um data
+
+
+frame. OK. e estou estou com com um bocadinho de
+pausas porque estou a pensar em talvez dividir
+
+
+isto em duas partes. Isto já vai bastante longo.
+Eu penso que vou vou vamos ficar por aqui agora.
+
+
+Porque que agora na parte dois é que
+vamos propriamente aí sim vai ser o âmbito
+
+
+do tutorial em que começamos realmente vamos
+começar a processar o ficheirinho do instant
+
+
+data scraper que capturámos com a extensão,
+OK? Porque até agora foi uma foi uma realmente,
+
+
+como viram, uma introdução falando de tópicos
+diversos relacionados com a linguagem R. E
+
+
+vou ficar por aqui agora, que é assim, é mais
+simples e depois então farei uma segunda parte.
+
+
+Obrigado e até breve.
+
+

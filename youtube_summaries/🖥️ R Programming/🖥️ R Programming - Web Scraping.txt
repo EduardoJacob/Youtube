@@ -1,0 +1,11 @@
+🖥️ R Programming - Web Scraping
+1. Introdução ao web scraping em R com o pacote `rvest`.
+2. Configuração do ambiente de projeto e integração com Git/GitHub.
+3. Extração de links e textos da página principal do site alvo.
+4. Filtragem de dados para identificar álbuns, temas soltos e faixas.
+5. Criação de data frames para armazenamento e processamento de dados.
+6. Extração de letras das páginas individuais das músicas.
+7. Considerações éticas sobre o acesso massivo a sites durante o scraping.
+8. Persistência de dados: serialização com `saveRDS` e recuperação posterior.
+9. Geração de relatório final em PDF utilizando Quarto (QMD).
+10. Ferramentas auxiliares para metadados e letras (One Tagger, MusicBee).

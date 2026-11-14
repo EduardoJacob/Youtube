@@ -1,0 +1,2639 @@
+
+Ora, sejam bem-vindos a mais um tutorial
+programação em R com RStudio. Ora,
+
+
+hoje vamos ter aqui o este meu novo
+projeto, o One language to rule them all.
+
+
+eh está estruturado num conjunto de folders,
+nove folders com nove problemas, cujos problemas
+
+
+eh eu copiei-os desta plataforma, um canal e
+uma playlist do YouTube que eu  descobri,
+
+
+eh, e que tinha um conjunto de problemas,
+
+
+mas que são resolvidos com outras linguagens e
+
+
+e outras soluções que 
+não o R. OK. Podemos ver aqui
+
+
+agora onde é que isto está.
+
+
+OK, podemos ver aqui o póster do que vai ser
+deste deste meu novo YouTube vídeo e portanto
+
+
+que os problemas que eu vi que esse canal o que eu
+tenho a elogiar o Maven Analytics é um bom canal,
+
+
+um canal simpático, mas eh aborda
+os problemas com Excel ou Microsoft Power BI,
+
+
+Python ou SQL, mas não com R.
+E eu disse para os meus botões,
+
+
+deixa-me lá resolver isto com R. OK? Pronto. Eh,
+o resto desafio-vos a verem a playlist deles
+
+
+e verem como é que estes mesmos problemas
+são resolvidos com as outras linguagens.
+
+
+Ora, vamos começar com o problema número
+um. Eu estruturei, portanto, cada problema,
+
+
+cada problema que cuja solução está naquela
+playlist que eu vos disse da Maven Analytics,
+
+
+mas não na linguagem R. Claro, porque eles
+não eles não trabalham com linguagem R.
+
+
+Então, estruturei cada problema
+na sua folder, onde temos,
+
+
+vamos resolver aqui esta parte.
+
+
+Não deixem de ver todos os meus vídeos
+da minha playlist para perceberem o que
+
+
+é que se está aqui a passar, que há partes
+comuns aqui que já foram faladas no passado.
+
+
+Ora bem, aqui temos então o enunciado do problema,
+OK? Problema número um de Org Chart Overhaul.
+
+
+Eh, e portanto trata-se de,
+
+
+deixa-me avançar aqui para a frente. Depois
+tem, tenho aqui um print screen da solução. OK,
+
+
+cá está ela. OK, então o que é que nós vamos
+ter aqui? Deixa-me carregar aqui as as funções.
+
+
+Ora, sim, senhora. Bom, o que é que nós
+temos aqui? Uma lista de funcionários.
+
+
+Temos 25 membros aqui da organização. Eh,
+e para cada um deles tem o seu manager direto,
+
+
+exceptuando para Bill Lumber, que não tem manager
+nenhum. OK? Pronto. Portanto, isto é uma
+
+
+hierarquia, uma network. E com esta informação é o
+suficiente para construirmos o gráfico da network.
+
+
+o qual não é pedido no problema, mas que eu
+quis dar um valor também acrescentado aqui 
+
+
+à minha solução. Fui buscar o package diagrammR
+e implementei esta funçãozinha plot network
+
+
+com a com a ajuda da inteligência artificial.
+A parte de grafismos normalmente é uma coisa
+
+
+a que eu já recorro muito, portanto quando
+é necessário fazer algum tipo de gráfico,
+
+
+normalmente vou sempre à inteligência artificial,
+é mais simples. Ora, portanto, plot network.
+
+
+E cá está. E ele dá-nos a rede,
+a estrutura hierárquica. OK.
+
+
+Eh, num dado momento, quando eu estava depois aqui
+a procurar a implementar a solução que vamos ver,
+
+
+porque o qual é o problema que nos é pedido
+é trata-se de calcular todas as hierarquias
+
+
+para cada um dos funcionários. Portanto, a
+hierarquia, portanto, a cadeia de comando,
+
+
+digamos assim, para cada funcionário. E,
+portanto, e eu e a lista dos empregados vem
+
+
+mais ou já vem mais ou menos eh ordenada, porque
+realmente as chefias estão aqui no topo e isto
+
+
+vem vem mais ou menos já quase que ordenado na
+perfeição, mas não está ordenado na perfeição,
+
+
+como já veremos daqui a bocado. E, portanto, e
+uma das questões que se me colocou foi: "Então,
+
+
+e se isto não viesse ordenado?"
+Então eu fiz aqui uma baralhação.
+
+
+Deixa-me recomeçar aqui o início que eu não
+esqueci-me aqui de executar este código. Portanto,
+
+
+aqui para já introduzi aqui uma ordem original,
+original order, OK? Porque depois vamos fazer
+
+
+a baralhação e eu quero ter sempre presente
+já para controlo qual era a ordem original.
+
+
+Temos aqui reporting hierarchy, estes
+três campos amarelos que eu agora estou a
+
+
+colocar aqui. Três campos novos que estão a
+amarelo. OK. O plot network já vimos e agora
+
+
+faço a baralhação. Quando faço a baralhação,
+cá está original order. ficou baralhado
+
+
+e vamos testar o plot network novamente. Funciona
+porque não depende da baralhação. É a mesma
+
+
+rede. O que acontece é que ela é disposta com
+outro layout. Pronto, porque o layout depende,
+
+
+tem o mesmo número de camadas, é equivalente.
+Se olharmos, por exemplo, aqui para trás,
+
+
+tem Linda Grayson aqui à direita e agora Linda Grayson
+ficou aqui à esquerda. Ou se, portanto,
+
+
+pronto, digamos, o que muda é isso, é a ordem
+com que as caixinhas aqui são apresentadas,
+
+
+mas é é a mesma é a mesma rede ordenada
+de uma forma distinta. Ora bem, o que é
+
+
+que nós vamos ter aqui? Portanto, vamos
+ter que ter aqui uma solução recursiva,
+
+
+que é é de facto é o recomendável aqui, porque
+se eu se eu quero calcular a hierarquia,
+
+
+vamos dizer aqui, por exemplo, Michael Balton, eu
+digo: "OK, Michael Balton, qual é o teu manager?"
+
+
+o Samir. E qual é o manager do Samir? É este. E
+o manager do este? Este. E assim sucessivamente
+
+
+até chegar a um Bill Lumber que diz: "Qual é
+o teu manager?" Não há nenhum. Então pronto,
+
+
+aí termina. Pronto. E portanto é uma solução
+recursiva. Vou carregar aqui a a função.
+
+
+Cá está. Esta é a parte do
+plot que nem vou explicar.
+
+
+OK. Não era pedido do problema, foi
+um algo adicional que eu coloquei. Eh,
+
+
+e portanto temos aqui a hierarquia, a
+hierarquia ou o cálculo da hierarquia
+
+
+com recursividade. Pronto. Então,
+o que é que nós temos aqui?
+
+
+Quando eu peço a hierarquia de um de
+um dado elemento, o elemento número i,
+
+
+utilizador qualquer, por exemplo, Nathan Dross,
+ele aqui pergunta-me se o manager estiver a branco,
+
+
+o manager só vai estar a branco para este único
+elemento que é o Bill Lumberg. Se o manager estiver
+
+
+a branco, então a hierarquia desse manager
+é ele próprio. Devolve o employee name, OK?
+
+
+Caso contrário, devolve devolve, de
+acordo com as especificações do problema,
+
+
+aquilo que é pedido aqui. O que é pedido é
+que eu que dê, calcule uma hierarquia em
+
+
+que o funcionário está no extremo direito
+e todos os seus managers ordenados para a
+
+
+esquerda. Pronto. OK. Então, o que é que eu
+tenho aqui? Portanto, se existe um manager
+
+
+pelo nome do manager, eu vou vou perguntar
+aqui qual o índex do dos funcionários onde
+
+
+está esse manager, que é o que é o K.
+E então agora vou retornar esta cadeia,
+
+
+a hierarquia que é composta por quê? é
+composta à direita aqui pelo nome do do
+
+
+employee name com este separador e à esquerda
+é composta não pelo manager direto. Imaginem
+
+
+aqui o Ócar tem o manager direto Angela.
+Eu não quero o manager direto de Angela,
+
+
+mas eu quero a hierarquia de comando
+desse elemento, desse manager Angela.
+
+
+E, portanto, está à esquerda entra a recursividade,
+get reporting hierarchy do elemento número K. OK.
+
+
+Agora uso aqui um contador por curiosidade para
+saber quantas vezes a função foi chamada. OK?
+
+
+E agora temos esta linha aqui que é uma linha
+de otimização. Ela não é obrigatória. Se eu a
+
+
+comentar é igual isto funciona. O que acontece
+é que vai haver aqui cálculos redundantes.
+
+
+Porque quando eu estou a calcular
+uma hierarquia, vamos dizer aqui,
+
+
+eh, por exemplo, Michael Balton e
+é o calcula a ierarquia aqui das chefias.
+
+
+Depois chega, chega a Dom Portwood e diz e e pede,
+dá-me a hierarquia do Dom Portwood. Mas vamos
+
+
+que eu já tinha calculado outro outro utilizador
+antes, Greg Torres. Ele já tinha pedido a dá-me a
+
+
+hierarquia do Nathan Carter, dá-me a hierarquia do
+Don Portood. Portanto, a hierarquia do Don Portood já
+
+
+tinha sido computada anteriormente no momento em
+que eu estou de Michael Balton e num dado momento
+
+
+eu peço a hierarquia de Don Portwood. Então seria
+com uma computação repetida. Funciona, mas não
+
+
+estaria otimizado, que seria esta situação aqui.
+Portanto, para otimizar, eu coloquei esta linha.
+
+
+Quando eu peço uma hierarquia do elemento i,
+eu vou perguntar se a hierarquia já já está,
+
+
+já existe, desde que essa hierarquia na string
+reporting hierarquia seja diferente de branco,
+
+
+então já já está computada, já não já quebro
+a recursividade, não preciso de fazer mais
+
+
+nada e e retorno de imediato essa mesma reporting
+hierarquia que já esteja que já esteja computada.
+
+
+OK? Não sei se me explico. Imaginem aqui esta
+tabela. Imaginem que estávamos aqui a calcular
+
+
+o ócar e eu dizia: "Olha, ócar e à esquerda dá
+uma hierarquia de Angela. Então ele vai percorrer
+
+
+aqui a tabela para ver a Ângela e a encontra.
+Se aqui estivesse a branco, então seguia, continuava
+
+
+a recursividade, encontrava, olha, Ângela,
+cujo manager é Michael, dá-me a hierarquia do
+
+
+Michael. Pronto, mas quando aqui o Óscar pede dá-me a
+hierarquia de Angela ao ir questionar o index K,
+
+
+onde está a Angela, Eu vejo e digo: "Alto a
+hierarquia já está aqui, já já foi computada
+
+
+anteriormente, portanto toma a hierarquia
+toda, já não é preciso mais recursividade,
+
+
+que eu já tenho aqui a hierarquia toda." Pronto,
+não sei se me explico, se não me explicar,
+
+
+paciência, façam pausa e meditem sobre o assunto.
+Ora, e portanto esta linha otimiza, mas é, e aqui
+
+
+tenho o call count e vocês poderão até fazer
+experiências comentando esta linha e vendo qual
+
+
+é a poupança em número de de de vezes que que esta
+função é é chamada recursivamente. Ok, pronto.
+
+
+Depois eu calculo aqui também
+o direct reports. Portanto,
+
+
+o direct reports é simples. O direct 
+reports. Podemos ver aqui, por exemplo,
+
+
+o Michael, por exemplo, ele
+tem três direct reports porque ele tem porque ele
+
+
+tem aparece aqui como manager direto de três
+subordinados. Pronto. Portanto, este cálculo
+
+
+aqui é simples. Então eu aqui eu pergunto
+quando eu estou num num employe name aqui,
+
+
+imaginem aqui Jim, estou no Jim e eu vou perguntar
+qual é o índice cujo nome é igual ao manager onde
+
+
+eu estou. Portanto, se eu estou no Jim, qual é o
+índice cujo nome é Michael? E ele vai encontrar.
+
+
+É o índice número dois. Então incrementa o
+direct reports do dois, incrementa de mais um,
+
+
+uma vez que esse Michael é está na hierarquia direta
+do direct report aqui do Jim. Pronto, não sei se
+
+
+me explico, mas é o que faz aqui estas duas linhas
+aqui de programação. Finalmente, no fim temos
+
+
+o total reports. Quero vos dizer que há várias
+maneiras de resolver isto. Atenção, eh, direct reports,
+
+
+total reports, estes contadores poderiam também
+ser computados aqui dentro. Há várias maneiras.
+
+
+Eu, enquanto estava a fazer isto, eh, também me
+apercebi disso e havia várias formas e depois tive
+
+
+que optar por uma das formas. Eh, e optei por esta
+forma em separar as coisas, deixar as computações
+
+
+separadas para não causar confusão. Calculamos
+a hierarquia aqui em separado. Depois temos esta
+
+
+parte aqui também está em separado, embora aqui
+dentro do loop. E esta parte calculei aqui à
+
+
+parte. E como se calcula esta parte do total
+report? Isso é simples. Se nós repararmos aqui,
+
+
+por exemplo, nesta tabelinha, nós somamos o total
+de janes, somarmos todos estes nomes, aglutinarmos
+
+
+todas estas cadeias de comando, nós vemos que Jan
+aparece sete vezes e, portanto, tem total reports,
+
+
+7 - 1, 6. Michael aparece seis vezes, aqui tem
+cinco e assim sucessivamente. Portanto, é o número
+
+
+de vezes que cada palavra, cada nome aparece
+na aglutinação total aqui desta desta coluna.
+
+
+-1. E é o que nós vamos ter aqui. Portanto, eu
+aqui já já computei aqui, ainda não ainda não
+
+
+computei o direct reports. Deixa-me computar
+aqui. Call count zero. Ok. Eh, quantas vezes
+
+
+eu chamei a rotina? 74 vezes recursivamente. O
+número de vezes vai depender da baralhação. OK?
+
+
+Eh, portanto, não é um número certo,
+depende. Quando se faz a baralhação,
+
+
+os registros podem ficar mais ou menos baralhados
+e, portanto, o algoritmo da recursividade pode
+
+
+resultar que ter que ser chamado mais vezes
+ou menos vezes aquela função recursivamente.
+
+
+Portanto,
+
+
+temos aqui aqui aglutino
+aquela coluna total reports.
+
+
+Cá está, mas é uma string. Com isto eu
+não faço nada. Eu agora tenho que partir
+
+
+a string string split com este separador para
+transformar numa num num vetor de strings. OK?
+
+
+Total reports. OK, já está. Está
+num vetor com 95 entradas. OK.
+
+
+Eh, e agora tenho que fazer o a a tabulação,
+o table para fazer as contagens por distinto
+
+
+valor aqui e depois subtrair um, que é este
+um que eu aqui vos mostrei aqui que temos que
+
+
+subtrair. Então, temos total reports, uma
+tabela. OK? E cá está ela com 25 entradas.
+
+
+E agora vou fazer o merge dessa tabela que tem 25
+entradas, transformando-a numa coluna numérica e,
+
+
+portanto, fazendo merge e agregando-a no data
+frame. Agregando-a que já está aqui agregada,
+
+
+mas mas está a zeros. Poderia não estar, era igual.
+
+
+Neste caso já está a zeros. Portanto,
+vai simplesmente haver um update aqui.
+
+
+E pronto. Então, já temos aqui com
+isto já temos a solução do problema.
+
+
+Eu vou pôr aqui original order para
+podermos comparar aqui com a solução.
+
+
+Cá está a solução. Pronto, está correta. podemos
+ver que está correto, eh, mas não está perfeito. E
+
+
+podemos ver aqui que não que não está perfeito
+na na forma de apresentar apenas resultados,
+
+
+apenas da na forma de ordenação. Podemos ver aqui
+pelos cumprimentos das cadeias de comando, porque
+
+
+tem as chefias, depois tem os os sub-chefes e assim
+sucessivamente, mas aqui não está bem ordenado.
+
+
+Tenho aqui um elemento aqui, por exemplo, com
+quatro quatro nomes na cadeia de comando que
+
+
+está aqui no meio com dois outros elementos com
+cinco nomes na cadeia de comando. Portanto, não
+
+
+está correto, não não está bem, não está perfeito na na
+ordenação. E por isso eu fiz computei aqui um novo
+
+
+campo que é o depth, a profundidade que é o número de vezes
+para para cada registo que aparece o separador e
+
+
+que vai determinar qual o comprimento da cadeia de
+comando. Pronto, que é o depth e aparece e aparece
+
+
+aqui o depth. E agora sim, ordenando aqui o depth.
+Cá está. E agora sim, está a ordenação perfeita. Eh,
+
+
+porque aqui tenho então efetivamente representado
+as cinco cadeias as cinco camadas da network desde a
+
+
+zero, camada 1 2 3 4 5 e aqui já tenho então os
+elementos, ou seja, da da zero a 4 zero esta
+
+
+B.lumberg a zero a 1 a 2, a 3, a 4. E pronto, tá
+está terminado o primeiro problema, estes problemas
+
+
+que estão na plataforma que eu vos falei do Maven
+Analytics. Este problema estava classificado como
+
+
+advanced. Vamos dizer que sim, que até podemos
+considerar advanced porque sempre sempre que mexe
+
+
+com recursividade e eu considero que de facto
+nunca é normalmente nunca é uma coisa simples.
+
+
+E pronto,
+
+
+está terminado o primeiro problema.
+E, portanto, os problemas que eu
+
+
+tenho aqui estão todos estruturados da mesma
+forma. Normalmente tem dois print screens,
+
+
+é o enunciado e a solução para podermos resolver
+o problema e confrontar o resultado. OK? Ora,
+
+
+vamos passar ao problema número 2. Flatten
+the stack. Ora, vamos ver o que é que é o que é
+
+
+que isto faz, que também já não me recordo, mas
+já vamos ver aqui o enunciado do problema. Ah,
+
+
+este trabalha com Json. Já estou a ver que isto
+é trabalha com Json. OK. Eh, e portanto o que vai
+
+
+acontecer é que nós vamos receber um ficheiro em
+que um dos campos line items é um campo de facto é
+
+
+um campo estruturado com informação em Json que
+contém uma vista de produtos. Para cada produto
+
+
+contém três campos, product name, product price e
+quantidade. E o que queremos é fazer aqui uma
+
+
+uma um desdobramento, por exemplo, aqui neste caso
+que tinha dois produtos, o registro original ele é
+
+
+desdobrado em dois registros em que acrescenta
+os três novos campos, product name, product price e quantidade.
+
+
+OK? É bem simples. Eh, temos então
+aqui o ler o ficheiro de entrada.
+
+
+Esta é a solução que já vamos confrontar. Aqui
+temos o o ficheiro de entrada. Podemos ver o
+
+
+ficheiro de entrada aqui. Quero vos mostrar aqui
+uma coisa que é espetacular. Realmente vocês já me
+
+
+conhecem. Eu não paro de elogiar o RStudio. Isto
+é completamente espetacular. Quando eu ponho aqui
+
+
+o cursor aqui em cima, ele mostra-me estruturado o
+Json correspondente. Estão a ver? Isto é fabuloso.
+
+
+Eh, mas caso eu não tivesse isso, eu poderia aqui
+eh para já aqui eu estou a colocar aqui um index
+
+
+também. OK. Sim, senhor. Já não me lembro para
+quê, mas OK. Ah, já me lembro. É para fazer depois
+
+
+um join. Pronto, aqui coloquei um index, OK?
+Do um ao até ao fim, até ao 100. Eh, aqui tenho
+
+
+um pretty print. OK? Imaginem que eu não tinha que
+eu não tinha esta visualização aqui do do Json.
+
+
+Então aqui eu tenho o pretty print, posso visualizar
+aqui um Json qualquer. OK, cá está ele.
+
+
+Eh, e então o que é que nós temos aqui? Vamos
+usar o package muito famoso em R, que é o jsonlite
+
+
+Eu vou agora vou ter aqui um data frame
+line items, onde eu vou vou pegar no Json,
+
+
+para cada Json vou transformar em data frame. OK.
+Eh, e vou acumular todos os todos os resultados.
+
+
+OK? Começo com data frame vazio, line items.
+Eh, vamos aqui fazer um aqui um elemento aqui
+
+
+manualmente, o i=1. E agora tenho o jsonlite::fromjson. É aqui que ele transforma
+
+
+e saves line items e transforma aqui o Json.
+Eu dou-lhe o flatten. O flatten é porquê? o flatten
+
+
+Porque se eu não der o flatten e por exemplo quando
+estamos neste Json, ele transforma na estrutura 
+
+
+100% que que representa este Json, nomeadamente
+temos ali uma entrada product e depois debaixo
+
+
+tem do product é que temos product name e product price. Pronto,
+então o flatten o que vai fazer dá-me apenas os nomes
+
+
+das variáveis finais, as que já têm valores.
+vai-me dar apenas product name e product price e
+
+
+não precisa de, ignorando que estão dentro
+debaixo de uma hierarquia product. OK? Pronto,
+
+
+basicamente é isso. E fica mais simples neste
+caso. Eh, e portanto aqui eu tenho o DF.
+
+
+Cá está ele. E então o que é que
+ele tem? Cá está. Ele fez. Ah,
+
+
+mas ele dá-me a hierarquia, mas dá-me aqui
+product. Product. OK, mas tudo bem assim. 
+
+
+estamos confortáveis com isto. Product.
+product name e product price. Pronto,
+
+
+mas se eu não tivesse o flatten, ele seria
+diferente. Ele dar-me-ía o product, uma estrutura,
+
+
+talvez com lista, já não me recordo, e debaixo
+do product, então teria as outras duas.
+
+
+Ora bem, eh, então agora com esta informação
+aqui, o que é que eu vou fazer aqui? Vou vou
+
+
+vou eh vou-lhe a atachar o índex com que estamos a
+trabalhar. Ou seja, porque este isto é representa
+
+
+a explosão dos do dos dos três produtos que estão
+dentro do Json da linha número um, do registro número
+
+
+um com que nós estamos aqui da das vendas. OK?
+Portanto, eh, representa quando eu ponho aqui
+
+
+o cursor aqui, este aqui tem três produtos.
+Cá está o os produtos que estão ali com as
+
+
+quantidades 3 2 1. Pronto. Então, o que eu tenho
+que atachar aqui o index, que é para depois no
+
+
+final eu poder fazer um join e trazer e e trazer
+aquela informação de volta ao ficheiro original.
+
+
+Pronto, vou pô-lhe aqui, voulhe pôr aqui o o
+index, vou-lhe pôr aqui um line item também,
+
+
+já não lembro para quê, acho que está aqui,
+porque é patido aqui. É um é um número de ordem,
+
+
+um número de sequência apenas 1 2 3. Pronto.
+Eh, e mais nada. E depois aqui os nomes,
+
+
+respeitando os nomes que são
+pedidos aqui do problema. Product name,
+
+
+product price, quantity. Pronto, nada,
+nada demais. E agora eh vou acumulando,
+
+
+acumulando o datafame final. Pronto, vou fazer
+isto agora de tacada. OK, no final o sales line
+
+
+items eu já não preciso dele. Ou seja, este esta
+coluna que tem informação Json, ela já foi toda
+
+
+explodida para um data frame auxiliar, que é
+o DF, que é o eh line items com 230 registos.
+
+
+Portanto, esta já não preciso dela, deitou-a
+fora, OK? Que é o que eu estou aqui a fazer.
+
+
+E agora pôs um full join. Agora é um full join
+de um de 1 x n de 100 usando a chave, o index,
+
+
+o os as 100 vendas, as 100 transações para os
+230 produtos tem que me dar 230 produtos. OK?
+
+
+A menos que houvesse aqui alguma
+venda sem sem nenhum jeito. Pronto,
+
+
+vamos ver o que é que isto vai dar. Se line
+items 230, está correto. E agora o index foi
+
+
+uma variável auxiliar que eu usei para fazer o
+join. Não preciso dela mais porque eu já fiz o
+
+
+join. Deito-a fora. E finalmente temos o resultado
+final, o sales line items, que podemos confrontar
+
+
+aqui com com a solução. Cá está e que está toda
+correta. product price, as quantidades 3 2 1 5
+
+
+Está simplesmente aqui um campo
+aqui um bocadinho fora da ordem em relação à
+
+
+à minha solução, mas pronto, nada demais,
+como viram, e está resolvido este problema.
+
+
+OK? Não se esqueçam que este problema vai estar
+no GitHub. Depois podem ir buscar o código,
+
+
+podem vocês reproduzir todo tudo isto que eu estou aqui
+a fazer. Ora, vamos então ao problema número três.
+
+
+Rolling up, looking back. Também já não me
+lembro o que é que isto faz, mas já vou ver.
+
+
+OK. Então, o que é que nós temos aqui? OK.
+Ah, já, já me lembro. Pronto, isto trata-se
+
+
+de fazer umas agregações por por eh por mês
+eh por mês e por loja, salvo o erro. Então,
+
+
+o que é que nós temos aqui? Temos mais uma
+vez o enunciado do problema, a solução.
+
+
+OK, cá está ela. Pronto. Então, o que é que nós
+temos? Eh, temos aqui uma informação de vendas,
+
+
+mais uma vez bastante grande, com
+150.000 e linhas, eh, que tem datas,
+
+
+eh, o nome da loja, nome de um produto,
+quantidade e o montante da venda. Eh,
+
+
+pronto. O que acontece é que eu ao a ao observar
+isto, eu primeiro estava na dúvida se tinha que
+
+
+ser a venda por unidade e teria que multiplicar
+por quantidade ou não, mas depois eh fiz aqui um
+
+
+estudo visual e verifiquei que não que o total eh
+daqui das dos sales já já tinha abarcava ao total.
+
+
+Portanto, basicamente, não preciso aqui da
+quantidade para o que está aqui a ser pedido.
+
+
+Não preciso do nome da quantidade, nem do
+produto. Reparem aqui no no ficheiro final,
+
+
+ele não não contém produto, OK? Portanto,
+essa pequena limpeza vamos fazer agora.
+
+
+Vamos transformar aqui a data que vai está
+como char. Vamos transformar numa data.
+
+
+OK. As date. Order ID. Não precisamos.
+A quantidade não precisamos e o produto
+
+
+não precisamos. Eh, qual é o time range com que
+estamos aqui a a tratar? Só por curiosidade,
+
+
+entre janeiro 2023 e junho 2023, quantas lojas
+temos aqui? Só por curiosidade também. Eh,
+
+
+três lojas. Eh, bom, então eu vou precisar de
+month, dos meses porque é o enunciado do problema.
+
+
+diz que se pretende fazer uma
+agregação por mês, mês a mês,
+
+
+eh, para as diversas lojas. Então eu tenho que
+que computar aqui o mês sales month. Pronto,
+
+
+e ele já pôs aqui o mês. E agora não tenho
+mais do que fazer um agregate. Um agregate
+
+
+é um somatório. Aqui digo por mês e por loja
+para o data frame sales. E qual o novo campo
+
+
+que eu quero calcular? Neste caso, quero calcular
+sales. Eh, ficou o nome do campo ficou igual ao
+
+
+nome do data frame. Não ficou muito famoso,
+mas pronto. Eh, mas é permitido. Mas pronto,
+
+
+não se confundam. Este sales é um campo novo que
+queremos calcular. Sales e aqui que é igual a
+
+
+e aqui esse sales. Espera aí. OK. Nós
+estamos a fazer um data frame novo. OK,
+
+
+estava-me a esquecer. Pronto, então, portanto, o
+data frame novo, monthly sales, eh, baseado em
+
+
+sales e vai ter um campo, um campo sales que vai
+ser a agregação por mês e por store do data frame
+
+
+sales. E qual função queres agregar? Qual função
+queres usar? Eh, a soma, portanto, a soma de sales.
+
+
+Eu estou a explicar isto um bocado mal. Portanto,
+o que eu quero é a soma de de sales do data frame
+
+
+sales. Está um bocado confuso. E pá, mas pronto,
+vocês estudem isso ou perguntem à à inteligência
+
+
+artificial para explicar, OK? E ele faz o monthly
+sales, OK? Neste caso já só tenho as 18 variáveis,
+
+
+porque nós estávamos o time range abarcava aqui
+6 meses, eu tenho três lojas, 6 x 3 18. Pois está
+
+
+corretíssimo. Abarcou, abarcou 18 registos. Cá
+estão eles. Eh, e tenho o total de vendas. OK. Mas
+
+
+eles não eles não pedem, eles não pedem o total
+de vendas. O que eles querem é estudar a variação
+
+
+mês após mês eh de month change em sales. Portanto, eles
+querem estudar mês após mês a o a diferença. Eh,
+
+
+as vendas que subiram, as vendas desceram
+eh para cada para cada uma destas lojas
+
+
+mês após mês. É isso que eles querem. Então,
+o que é que nós temos aqui? Para, para já,
+
+
+eu fiz aqui um gráfico, não era pedido, mas eu
+fiz aqui um gráfico que mostra as vendas por
+
+
+loja e vemos que as lojas têm um comportamento
+bastante similar. As lojas são equivalentes,
+
+
+OK? No nos se meses que estão aqui em jogo.
+Então, finalmente, agora temos aqui o que é
+
+
+pedido. Portanto, o que é pedido é eh as as vendas
+mensais. Vamos ordenar por store e por por loja
+
+
+e mês group by loja. E agora aqui é calculado,
+é vai ser calculado o diferencial das vendas é
+
+
+igual às vendas menos as vendas anteriores,
+menos as vendas do registro anterior. OK?
+
+
+E pronto, basicamente é isto. Eu aqui acho que
+recorri à inteligência artificial. Vocês já estão
+
+
+a ver. Tudo bem. Eu eu aqui hoje em dia, isso é um
+lugar comum. Não vale a pena estarmos a reinventar
+
+
+a pólvora. Às vezes há até há há casos que eu
+gosto de resolver por mim próprio. Aquele caso
+
+
+que vos mostrei há bocado da recursividade foi
+totalmente resolvido por mim. Eh, mas pronto,
+
+
+isso depende e a inteligência artificial hoje
+existe para isso, para para nos dar apoio. Então,
+
+
+o que é que nós temos aqui? montly sales e ele já
+calculou aqui o diferencial. Podemos ordenar aqui.
+
+
+Estes não passam para cima. OK. Eh,
+vamos comparar aqui com a solução.
+
+
+Ora, a solução do problema. Eh, como é que ele
+está? Está ordenado por janeiro. Janeiro, janeiro. OK,
+
+
+então . OK. OK. Eh, e pronto. E podemos
+comparar aqui e está correto. Menos 2208. Pronto,
+
+
+está tudo correto. 4358. O último é é
+o que é o é o Hells kitchen 4358. OK.
+
+
+Pronto, este, isto aqui não ficou bem ordenado,
+mas pronto, agora podíamos ordenar para mais
+
+
+que dois campos, mas aqui acho que aqui não
+permite. Aqui acho que não há maneira de,
+
+
+se bem membro de aqui manualmente ordenar aqui.
+Teria que vir aqui ao código ordenar para estes
+
+
+dois campos. Não vale a pena. Isto vemos que
+está correto. E vamos passar ao próximo problema.
+
+
+A ver se conseguimos fazer
+aqui uma mini maratona. Ora,
+
+
+problema número quatro, spot sale.
+
+
+Ora, vamos ver o que é isto,
+que também já não me recordo.
+
+
+Ora, o que é que nós temos aqui? A ver se eu me
+recordo disto. Ah, ok, já me lembro. Portanto,
+
+
+nós temos as transações e nós temos um ficheirinho
+de em que do dos dos períodos em que ou em que
+
+
+estiveram ativas promoções na loja e nós queremos
+identificar da lista de todas as transações quais
+
+
+aquelas que caíram nos dias em que houve
+promoções. Sim, senhora. É bem simples. Ora,
+
+
+temos aqui a solução,
+
+
+OK? Pronto. Então temos aqui as transações
+e tem simplesmente um order ID e que acho
+
+
+que não vai ser usado para nada, nem a quantidade
+também não. A única coisa que queremos é atachar
+
+
+aqui um novo campo, que é o que está aqui no
+enunciado. Cá está. a attachar aqui este campo
+
+
+amarelo e simplesmente com o olhando à data, se
+a data cair no intervalo da de alguma promoção,
+
+
+pois classificar esse registo com o código
+da promoção é bem simples. Vamos ter aqui
+
+
+converter este campo para data, como como
+é óbvio. Vamos adicionar promotion ID. Eh,
+
+
+vamos e ler a tabela das promoções que está
+aqui. Aqui diz quais as promoções. Nós tivemos
+
+
+estas seis promoções nestes períodos
+horários, nestes períodos temporais.
+
+
+Eh,
+
+
+vamos converter também as datas aqui
+para para data própria para para data.
+
+
+E agora o que é que vamos fazer? Uma coisa bem
+simples, nós vamos varrer as transações e para
+
+
+cada transação vamos para cada uma varremos as
+promoções. Para cada transação vamos verificar
+
+
+se a data da transação está between, está
+no intervalo temporal de alguns dos
+
+
+aqueles intervalos temporais das promoções. E se
+estiver, pois obviamente que Orders Promotion ID,
+
+
+vamos colocar o código aqui. Poderia haver aqui um
+cuidado se houvesse duas promoções a fazerem over
+
+
+over overlay dentro do mesmo período temporal,
+mas não existe. Eh, pode-se verificar isso
+
+
+visualmente ou pode-se verificar aqui com aqui,
+por exemplo, com este gráfico adicional que eu que
+
+
+eu que eu que eu construí, este aqui. Falta,
+falta aqui qualquer coisa aqui. Pronto, este
+
+
+gráfico que eu adicional que eu decidi construir.
+E aqui visualizamos facilmente que aquelas seis
+
+
+promoções, portanto elas não se sobrepõem, elas
+são independentes. Portanto, qualquer transação
+
+
+que tenha uma determinada data, ela no máximo irá
+coincidir com uma e só uma promoção. Pronto. Não
+
+
+fosse estar a dar o caso que houvesse mais que uma
+promoção numa dada data e teríamos que ter cuidado
+
+
+com isso, mas não é o caso. E, portanto, aqui com
+estes simples e estes loops com o dplyr::between.
+
+
+Eu vou perguntar se a data está no intervalo das
+promoções. E é um código bem simples, como estão
+
+
+a ver. Eh, quantas promoções, então, finalmente,
+quantas das transações usufruíram de promoção?
+
+
+Temos aqui as seis promoções, quantas
+transações usufruíram e 1916 que não
+
+
+não usufruíram de de nenhuma promoção. Eh, e
+pronto, está o problema terminado. Estes 1916,
+
+
+acho que era o valor aqui que eles queriam aqui,
+que é o que está aqui, o 1916. E, portanto,
+
+
+isto está correto. Um problema bem simples, não
+aparece nada. OK. este 1916 que está aqui. OK.
+
+
+Problema bem simples. Vamos passar ao próximo.
+
+
+Ora, estamos no quatro. Vamos
+para o cinco. Movie metrics.
+
+
+Ora, movie metrics.
+
+
+Ora, o que é que nos diz aqui movie métrics?
+Portanto, diz-nos que, OK, temos uma tabela
+
+
+com informação das visualizações dos dos
+utilizadores. O utilizador numa dada data,
+
+
+ele ele visualizou um determinado
+filme, ou terminou ou não terminou.
+
+
+Sim, senhor. É isso que nós
+vamos ter aqui. O ficheiro aqui,
+
+
+OK? Eh, vão ser pedidos aqui determinados. Esta
+é uma das soluções cá está que que eu copiei da
+
+
+plataforma que vos falei, onde a parte do Python
+é resolvida em Júpiter Notebook. OK? Eh, pá, vale
+
+
+o que vale. Pronto, não vou, já chega, já chega a
+elogiar o RStudio IDE. Pronto, que quem quiser
+
+
+que experimente o Júpiter Notebook e e tire as
+suas conclusões. É similar ao R Markdown. Eu já fiz
+
+
+um tutorial sobre o R markdown. Pronto, é similar,
+mas tem um âmbito diferente. É um âmbito quando
+
+
+precisamos de apresentar um report bem formatado
+e então recorremos a uma destas ferramentas.
+
+
+Eh, bom, adiante. Então, vamos ter aqui
+então a o histórico dos utilizadores.
+
+
+Ora, o que é que nós temos aqui? Ah, aqui,
+aqui temos apenas o os utilizadores. Eu
+
+
+acho que este este ficheiro não é usado para
+nada. Tem um e apenas nos indica que existem
+
+
+25 utilizadores. Já vamos ver, já não me recordo.
+Eh, o que o importante aqui vai ser o activity.
+
+
+Pronto, o activity tem um historic de 560 entradas
+e que diz tem aqui o código do utilizador. Ah,
+
+
+OK. o o código utilizador vai ser usado.
+É, mas é com com o código. Portanto,
+
+
+nós não temos o nome dos utilizadores.
+E temos aqui, pois um historial. Eh, um
+
+
+determinado utilizador numa determinada data ele
+assistiu um determinado filme e ele ou o terminou
+
+
+ou o viu completo ou não, ou deixou-o a meio.
+Sim, senhora. E o que é que pede o enunciado?
+
+
+Portanto, o enunciado pede calcular para cada
+utilizador para cada utilizador calcular qual
+
+
+foi a data eh em que esse utilizador viu
+um filme completo. E qual foi esse filme?
+
+
+Date from First Movie Day Finished. OK. Qual
+foi o último filme completo que o utilizador qual
+
+
+foi o primeiro filme completo e em que data e
+qual foi o filme que esse utilizador viu? E
+
+
+qual foi o o filme com que que completo que
+esse utilizador viu mais recentemente? OK?
+
+
+E depois ainda mais o total de filmes que a
+pessoa visualizou tendo ou não completado,
+
+
+e o total de filmes completado. OK? Bem
+simples. Ora, então, o que é que nós vamos
+
+
+ter aqui? Pois são os campos amarelo que
+nós temos aqui. 1 2 3 4 5 6 campos. Seis
+
+
+campos novos que nós temos que calcular. Nós
+vamos aqui anexar aqui no data frame de users.
+
+
+O activity ID é este, não precisamos
+dele. Este activity ID não serve para
+
+
+nada. É um número de ordem,
+como estamos a ver. Portanto,
+
+
+vou eliminá-lo e vou acrescentar estes
+campos aqui no data frame do users. OK.
+
+
+Pronto. Eh, activities already sorted by date.
+Ah, OK. Eh, portanto, por exemplo, eu calcular
+
+
+o primeiro filme, pois eu tinha que começar e
+pelas datas mais antigas, como é óbvio, até que
+
+
+aparecesse o primeiro filme marcado como completo.
+Pronto, e é isso que eu estou aqui dizer. Eh,
+
+
+eu faria aqui um sort, mas como eu reparei que
+o ficheiro já vinha ordenado, o ficheiro activity
+
+
+já vinha ordenado por data, pronto. Eh, foi
+visualmente, já não me recordo. Pronto, portanto,
+
+
+passei por cima desse passo. Então, vamos fazer um
+loop nos utilizadores, porque o que nós queremos é
+
+
+enriquecer o ficheiro dos utilizadores para cada
+utilizador. OK, eu vou fazer uma pesquisa aqui.
+
+
+Poderia ser com a loop, mas neste caso, como
+é uma uma query simples, faço com o comando
+
+
+subset. Por exemplo, aqui para o utilizador
+i digo qual foi a data em que ele completou
+
+
+o primeiro filme. Tenho o subset do activity
+para este user ID e com finished igual a Yes.
+
+
+dá-me o campo data, faz-me um drop, ou seja, em
+vez de o subset, em vez de devolver um um subdata
+
+
+frame, uma vez que eu só estou a selecionar uma
+coluna, então eh faz drop de data frame para
+
+
+vetor e depois é o primeiro, portanto, no fundo,
+é o primeiro registo que apareça eh dos finished,
+
+
+dos completados para Este utilizador é bem é bem
+simples. Por exemplo, vamos ver aqui, por exemplo,
+
+
+i igual a 1. Aqui temos a a data users first date
+1, que está aqui. Cá está 12/09. Eh, e agora qual
+
+
+o nome do filme? Pronto. E agora repete aqui
+um bocadinho e desde logo quero-vos dizer isto
+
+
+assim não está otimizado. Assim estou a fazer
+duas duas queries que podem ser pesadas quando
+
+
+no fundo elas estão no mesmo registro porque o
+registro onde continha a data também lá contém já
+
+
+o nome do filme. OK? Pronto. Portanto, isto não
+está otimizado e muitas das soluções que eu estou
+
+
+aqui a apresentar elas não estão otimizadas. OK?
+Isso é outra guerra porque eu para otimizar em
+
+
+termos de performance poderia sacrificar em termos
+de clareza. OK, pronto. Portanto, aqui neste caso,
+
+
+por exemplo, optei, sei muito bem que isto não
+está otimizado, mas eh por uma questão de clareza,
+
+
+mostrar como cada uma destas informações pode
+ser obtida de forma independente. Aqui o segundo
+
+
+subset é praticamente igual ao primeiro. Em vez de
+de pedir o campo data, eu peço o campo movie name.
+
+
+OK? Pronto. E, portanto, o movie name foi turning
+red. E agora o último, a last date para o last
+
+
+date é a mesma coisa. Em vez de pedir o primeiro,
+peço o último. E umas formas, uma das formas
+
+
+de pedir o último de um vetor é com a função
+tail. Dá-me o tail, a cauda, o último, ou seja,
+
+
+o tail de comprimento um, depois vai ser o último
+registo. Finalmente, quantos filmes eu eu estartei
+
+
+a ver? Bom, é unicamente é o número de registos,
+o número de transações que eu tenho para este
+
+
+utilizador. Portanto, aqui não tem mais. Aqui não
+preciso de converter nada, nem selecionar campos.
+
+
+Basta-me fazer uma contagem. Dá-te 560 atividades.
+Quantas atividades para cada utilizador? OK.
+
+
+subset by user id e quantos finished é a mesma
+coisa, quantos registros de atividade, mas com a
+
+
+condição finished igual a Yes. E pronto, que isto é
+bem simples. Eh, e portanto vou fazer o loop todo.
+
+
+E pronto. E cá temos nós. Eh, e
+vamos confrontar aqui a solução.
+
+
+Eh, e portanto cá temos o primeiro registo. Eh,
+
+
+cá está, Turning Red. O segundo Shawchamp
+Redemption o último film Fight Fight Club.
+
+
+Os contadores 15 22 107. OK. Está correto?
+E demos por terminado este problema. OK.
+
+
+Problema número cinco. Vamos para o problema
+
+
+número seis. Strick leaderboard.
+Também é um problema interessante.
+
+
+Strick leaderboard. Isto é muito usado
+nas plataformas diversas. Por exemplo,
+
+
+na plataforma Brilliant, que eu já fiz um tutorial
+meu dedicado à plataforma Brilliant. Portanto,
+
+
+o streak é o número de dias consecutivos em que
+o utilizador está ativo resolvendo problemas.
+
+
+OK? O streak, por exemplo, no Steam, o número
+de dias seguidos em que um utilizador esteve a
+
+
+usar a plataforma do Steam ou ou a jogar jogos.
+OK? Pronto, este é o este é o streak e o longest
+
+
+streak. Ok? Pronto. Então, qual é o problema aqui?
+Pois é, vai ser esse mesmo. Vocês já estão a ver.
+
+
+Portanto, nós vamos ter aqui um um report eh
+de utilizadores eh numa plataforma de ensino
+
+
+que ele tem aqui no o ID de lições. E, portanto,
+eh isto ele eh não importa que lição ele está a
+
+
+ter para calcular o streak, isso não interessa.
+Ele pode ser a mesma lição ou lições diversas ou
+
+
+cursos diversos, isso não importa. Por exemplo, se
+fosse um jogador do Steam, quantos dias ele está,
+
+
+quantos dias seguidos aquele utilizador está
+a jogar jogos? Não importa se é o mesmo jogo
+
+
+ou jogos diversos. Eh, o importante é olhar
+as datas. Por exemplo, este utilizador aqui,
+
+
+Bobby Fairways, ele ele esteve a trabalhar trabalhar
+ou a estudar ou o que seja. Eh, data 10/09, 10,
+
+
+11, 12. Pronto, e quebrou. Aqui quebra a sequência
+porque agora a data 13 já não existe. OK?
+
+
+E depois e assim sucessivamente. E depois
+tem aqui um outro streak mais longo 4 day
+
+
+streak. E é bem simples. Acho que é bem
+simples de entender aqui o enunciado. Eh,
+
+
+vamos ver como atacamos este problema
+de uma forma mais ou menos simples. Ora,
+
+
+vamos e calcular aqui. Ele aqui, está à espera
+que eu dê aqui um enter, OK? eh para mostrar a
+
+
+solução. Pronto, esta vai ser a solução. E eles
+depois pedem o ranking. Portanto, eles pedem:
+
+
+"OK, dá-me de de de todos os utilizadores. Eu
+quero o ranking dos utilizadores." Eh, então,
+
+
+quantos utilizadores estamos aqui a falar? Nós
+estamos aqui a ainda não carreguei o ficheiro,
+
+
+portanto o ficheiro é grande, reparem, tem
+0.8 milhões. Demorou um bocadinho a carregar.
+
+
+Eh, tenho os user ids, username, as datas, o
+lesson ID e o ID. Bom, então o que é que nós temos
+
+
+aqui? Ora bem, quantos utilizadores estamos
+a falar distintos? Cerca de mais de 15.000.
+
+
+Eh, e agora punha-se a questão, porque eu tenho
+que saber se poderá haver utilizadores distintos
+
+
+com o mesmo nome. Nós sabemos que na vida real às
+vezes há pessoas com o mesmo nome. Eu tenho que
+
+
+saber isto, que é para a seguir, quando for atacar
+o problema, ter o cuidado que se que se fosse
+
+
+houvesse nomes eh iguais, eu teria que atacar o
+problema com os user ids e nunca com os usernames.
+
+
+Pronto, daí que eu fiz esta esta questão. Dá-me os
+unique usernames. OK? Isto é fundamental. OK? É
+
+
+igual. Portanto, eu posso estar descansado. Que
+é indistinto. Qualquer deles serve como chave
+
+
+unívoca para atacar este problema. Ora bem, como
+não precisamos do do lesson ID, nem precisamos do
+
+
+ID do registo. Isso não é o necessário para
+nada. Apenas preciso o user ID e as datas.
+
+
+E aqui também eh o o user ID também já não preciso
+dele porque eu vou trabalhar só com os nomes,
+
+
+já que é indiferente trabalhar com user ids
+ou com nomes, mas aqui a solução está com os
+
+
+nomes. Temos aqui o username, portanto é
+sendo assim, vou trabalhar com os nomes,
+
+
+o user ID vou deitá-lo fora. Vou converter
+os streaks date as date. Vai demorar um
+
+
+bocadinho porque isto é são é quase 1 milhão de
+registos. Ele está a fazer a conversão aqui. OK.
+
+
+OK. Eh, e agora tenho users e data
+frame, username unique. Portanto,
+
+
+agora eu vou ter que construir um um novo um
+novo data frame composto pelos users. Cá está.
+
+
+E os users têm uma entrada para cada user e o e
+o longest streak que neste momento está a zero.
+
+
+E agora o que é que eu vou fazer aqui? Agora
+vou fazer aqui um loop for i in all users
+
+
+para cada user. Para cada user eu vou fazer
+eh vamos fazer aqui um exemplo, por exemplo,
+
+
+este aqui para vocês verem. Pronto. Então tenho
+aqui eh o utilizador 383 e o utilizador 383.
+
+
+OK. Seja qual for o nome que não importa
+agora, eh, que aliás está aqui o nome.
+
+
+Pronto, este utilizador. Agora,
+o que é que eu vou fazer aqui?
+
+
+Vou fazer o subset dos streaks para este username.
+
+
+Eu vou obter um data frame, o data frame data, ou
+seja, dá-me todas as datas para este utilizador.
+
+
+Basicamente é isto. E eu quero no formato
+data frame. Pronto, cá está. 140. Pronto,
+
+
+cá tenho aqui tenho as datas. E aqui tenho
+datas. eh eh algumas eventualmente repetidas,
+
+
+OK? Eh, ou não? E e com algumas seguidas
+e outras não seguidas. OK? Pronto. Sim,
+
+
+senhor. E agora eu vou dizer assim: "Bom,
+eh, eu vou dizer o streak, no mínimo é um,
+
+
+porque quando a pessoa vai trabalhar um dia, ele
+tem um streak de um. OK? Que é o que eu vou aqui
+
+
+fazer? Portanto, dates strick 1. Ora vamos aqui.
+Pronto. Ou seja, para cada uma destas datas,
+
+
+o utilizador tem o strick 1. Isto é a base,
+é o ponto de partida. E agora vou fazer aqui
+
+
+e porque houve o que o que acontece é que
+sucedeu que houve aqui alguns utilizadores e
+
+
+eventualmente ou que só foram uma vez. Só houve um
+único dia na vida que eles usaram a plataforma. E,
+
+
+portanto, aí era difícil estar a a comparar, a
+a computar o streak e a perguntar, mostra-me a
+
+
+data anterior, a diferença das datas de hoje para
+a anterior, se é um. OK? Pois daí que eu fiz aqui,
+
+
+se o número de registro de de dates for maior que
+um, OK, então aí sim eu vou computar o strick.
+
+
+Caso contrário, o streck já está computado.
+É um, porque esse utilizador só foi um único
+
+
+dia na vida, só usou um único dia
+na vida a plataforma. Portanto,
+
+
+se o número de datas é maior que um, eu faço
+aqui um loop, OK? E para cada data eu vou
+
+
+questionar a data, a data anterior. Isso é
+diferença de datas. Reparem que ah, reparem que
+
+
+aqui eu eu estava distraído. Aqui temos o unique.
+Portanto, o unique deu-me os os as datas, mas o
+
+
+unique, portanto, já me eliminou as repetidas.
+Portanto, aqui, quando eu tenho 140, já tenho 140
+
+
+datas distintas. Agora para cada uma das datas,
+comparo a data anterior, se a diferença for um,
+
+
+então incremento o data streak da current data. Portanto
+eu estou hoje. Se ontem eu trabalhei, então eu
+
+
+incremento hoje e hoje passa dois. O streak de hoje
+é dois porque eu ontem trabalhei. Quando amanhã
+
+
+eu vou computar e vou perguntar ontem, amanhã vou
+perguntar. No dia anterior trabalhei? Sim. Então,
+
+
+dá-me o streak do dia anterior, era 2. Então,
+o streak de amanhã será o 2 mais 1, que é o 1,
+
+
+é da amanhã, porque eles foram todos inicializados
+a um e, portanto, vai dar três. Portanto,
+
+
+o streak do current day, o strick de hoje vai
+ser igual caso ontem eu tenha trabalhado, caso a
+
+
+diferença de datas seja um, então será o streak de
+hoje será igual ao streak de ontem mais um. Pronto,
+
+
+não sei se me explico, mas acho que é acho que
+é claro. Eh, e finalmente o user strick i eu aqui
+
+
+estou a trabalhar com as datas, a varrer para cada
+utilizador. Eu estou a, eu vou computar as datas
+
+
+para esse utilizador, faço o cálculo e depois
+no final vou ver qual o max de dates streak.
+
+
+OK? Portanto, tenho aqui este utilizador aqui, o
+383. Vamos só computar aqui para este utilizador.
+
+
+Pronto, calculei aqui estas datas. 140. Pronto,
+aqui temos o streak. Olhem, reparem aqui o streak
+
+
+de 1 a 21, mas aqui houve quebra de 21 de
+maio. Já só voltou a 1 de junho. Portanto,
+
+
+começou a contar outra vez. Estão a ver? Aqui
+tenho os diversos streaks com as diversas quebras.
+
+
+Se eu ordenar agora aqui por streak, no final
+vou ter o máximo streak 118. Pronto. E portanto
+
+
+aqui o users streak i vai dar 118, que agora vai-me
+aparecer aqui nos users. São 15.000 e tal registos,
+
+
+mas podemos ir lá ver. E o streak
+cá está 118 para o Maveric Banner.
+
+
+E pronto, não tem mais. Deixa-me calcular isto
+massivamente. Ora, deixa-me calcular isto aqui.
+
+
+OK, demora um bocadinho. São eu aqui na altura
+pus um display porque como demorava um bocadinho
+
+
+para ir acompanhando. São 15.000. Eu até
+vou fazer aqui um bocadinho, uma pausa.
+
+
+Ora, já terminou. Enquanto estava a fazer pausa,
+estava a olhar para aqui e ocorreu-se-me uma outra
+
+
+solução, eh, realmente que certamente será
+bem mais rápida do que esta e que seria,
+
+
+em vez de fazer um loop, fazer e para cada
+utilizador fazer todo um varrimento. Já não
+
+
+precisava de data de data set. eh e separado
+data frame de datas. Eh, nem sequer preciso de
+
+
+data frame de users e trabalhávamos apenas com os
+streaks, com o dataframe gigante original, deste que
+
+
+eu ordene por utilizador primeiro e em segundo
+lugar por data. E então quando estiver a fazer o
+
+
+varrimento dos streaks, eu uso a mesma lógica aqui
+de incrementar o streak com o valor anterior, mas
+
+
+tenho que analisar a quebra se o diferencial de
+datas for maior que um ou se houver quebra de nome
+
+
+do utilizador. Não sei se me explico, mas pronto.
+Mas secalhar ainda irei fazer isso e depois atualizo o
+
+
+meu repositório no GitHub com essa nova solução,
+porque esta, pronto, é é cá está. Às vezes as
+
+
+soluções dependem da do tamanho da dos ficheiros.
+Neste caso, este ficheiro é bastante grande e pá
+
+
+e isto foi um bocado moroso. Mas pronto, ele
+está terminado. Eh, e agora não temos mais que
+
+
+ir aos users aqui e ver quem são os campeões do
+dos streaks. Pronto, cá está. O que acontece é
+
+
+que estes resultados estão corretíssimos face ao
+que está na solução. Tem o Tom Parmsman 121,
+
+
+Check, o Check 120, mas depois eu tenho aqui
+outros outros users que não estão aqui. Portanto,
+
+
+das duas uma ou houve aqui bug do lado deles que
+eu não sei. Eu depois também não tive a ver com
+
+
+pormenor como é que eles resolveram ou não. Eh,
+mas tenho bastante confiança que eu tenho isto
+
+
+correto, porque eu não iria ter o 100% correto
+para todos os nomes que eles aqui apresentaram.
+
+
+Por exemplo, o Alalibot 49. Tenho aqui tudo
+correto, não iria ter que tudo correto e depois
+
+
+ter alguns aqui no meio, não faz muito sentido.
+Portanto, eles ou mudou entretanto o ficheiro na
+
+
+altura quando eles fizeram este tutorial aqui, eh,
+ou mudou o ficheiro e agora tem mais utilizadores,
+
+
+ou então eles que terão cometido algum bug,
+inclino-me mais para isso. Mas pronto, mas
+
+
+seja como for, a ideia é que vocês percebam como
+é que isto, como é que se resolveu este problema
+
+
+de calcular the longest streak. E pronto, e todos
+os resultados que ele tem aqui batem certo com
+
+
+os meus também. E eventualmente eu irei eu irei
+melhorar bastante aqui este código. OK? Mas agora
+
+
+não. Vamos passar ao próximo problema. Problema
+número 7. Turning bullish. OK, vamos ver o que
+
+
+é que isto trata. Também já não me recordo. Stock
+market. OK, isto tem a ver com o stock market. OK,
+
+
+vamos utilizar aqui um package
+famoso dentro da do ecossistema R,
+
+
+que é o Zoo, OK? Para fazer médias móveis.
+
+
+OK. Eh, deixa-me colocar aqui o mini
+functions com com que me esqueci.
+
+
+OK. Ora, tenho aqui o objetivo. Portanto, então
+o que é que é o objetivo aqui? Eu vou ter a
+
+
+cotação das ações e queremos computar uma média
+móvel a 50 dias com uma média móvel a 200 dias.
+
+
+e depois encontrar os pontos em
+que a média móvel de 50 dias cruza,
+
+
+passando para cima da média móvel de 200 dias.
+Provavelmente isto será um indicador que é que
+
+
+é usado eh nos investidores. Não sei porque eu
+não sou não sou investidor, mas deve ser. Eh,
+
+
+e portanto é o que eles chamam aqui de Golden
+Cross e portanto calcular quantos Golden Cross vai
+
+
+ter aqui todo o ficheiro aqui de dados que temos
+para tratar. OK, vamos ver. Eh, eu tenho aqui eh
+
+
+algumas funções. Deixa ver quantas que já não me
+recordo. Esta é a solução. Portanto, só vai haver
+
+
+dois golden cross, que são estes com estas datas.
+Já vamos ver. Deixa-me carregar aqui as funções.
+
+
+Ora, é um plot. OK. É esta. Só só temos aqui uma
+função que é um plot que já vamos ver. Ora bem,
+
+
+então vamos carregar aqui
+as cotações, OK? Os prices,
+
+
+cotações de uma determinada ação, que
+não não interessa agora qual seja,
+
+
+e temos o o valor no fecho e temos as datas, nada
+mais. OK? Portanto, aqui vou transformar data as date aqui
+
+
+e vou dizer que para cada data para já vou
+inicializar Golden Cross a zero, OK? Para
+
+
+seguirmos o o formato que nos foi apresentado
+aqui na na solução. Portanto, eu também tem aqui
+
+
+um Golden Cross, OK? Eh, e tem aqui dois outros
+campos, é o valor da média móvel dos 50 dias e o
+
+
+valor da média móvel de 200 dias. Portanto, isso
+é facilmente poderia ser calculado manualmente.
+
+
+Portanto, a média móvel de 50 dias, eu começaria
+no registo 50 e calculando os 50 registros
+
+
+anteriores, incluindo o próprio, eu fazia a média.
+Pronto, mas usamos o package Zoo onde ele tem aqui
+
+
+rollmean média móvel e tem aqui à direita. Deve
+isto deve significar que porque na média móvel
+
+
+se eu quiser por exemplo calcular  50 dias eu
+posso ter um pivôt e dizer e agora especificar qual
+
+
+é o intervalo dos 50 dos 50 dias. É os 50 dias mas
+com o pivôt no meio ou o pivôt à direita ou o pivôt à
+
+
+esquerda. Pronto. Eh, então eu penso que o que se
+quer é isto aqui, que é os 50 dias anteriores. E
+
+
+esta função e já já faz isso. Eu vou usando aqui
+o o os a cotação de fecho. Eh, e portanto aqui
+
+
+ponho a 50 dias e o mesmo a 200 dias. E, portanto,
+ construí mais dois campos, que são estes.
+
+
+Cá está que os primeiros não estão disponíveis
+porque, por exemplo, que a média móvel 50 dias.
+
+
+Só assume  valor a partir do do dia 50 e
+a outra, portanto, a partir do dia 200. OK?
+
+
+E agora fiz aqui uma função, um plot que
+também não era pedido no enunciado do problema,
+
+
+mas para enriquecer aqui a minha solução. Eh, plot
+price prices. E, portanto, aqui vemos a cotação,
+
+
+vemos as médias móveis, a média móvel vermelha há
+50 dias, pois só começou aqui a partir do dia 50,
+
+
+a outra a partir do dia 200. E aqui já vamos ver
+então quanto golden cross que vai haver. Portanto,
+
+
+golden cross quando a linha azul passa
+por cima. da linha vermelha. É aqui,
+
+
+temos aqui nesta posição uma eh não estou a dizer
+ao contrário. Portanto, quando a linha vermelha
+
+
+passar para cima da azul, portanto será aqui a
+linha vermelha passa para cima da azul, ela aqui
+
+
+passa para baixo, portanto não conta. E aqui, aqui
+passa novamente para cima da linha azul, ou seja,
+
+
+temos dois golden cross aqui em todo este gráfico,
+OK? Stock prices and moving moving average. Ok,
+
+
+então o que é que nós temos aqui? Eh, tenho aqui
+um loop. Eh, mas eu só começo no 201. Eu só a
+
+
+partir, eu só posso computar a partir daqui. É a
+partir daqui é que eu tenho as duas médias móveis
+
+
+disponíveis. OK? Portanto, para trás não faz
+sentido estar a estar a fazer essa pergunta.
+
+
+Portanto, eu vou fazer aqui o loop e vou ver
+realmente se os prices eh da o o do valor da média
+
+
+móvel de 50 está maior do que a da média móvel de
+200 e no valor anterior, por isso é que eu começo
+
+
+no 201 e não no 200 para ter o valor anterior
+e no valor anterior estava menor ou igual. Então
+
+
+significa que houve uma passagem e passou para
+cima. É bem simples, como estão a ver. Neste caso,
+
+
+eu marco e marco prices golden cross 1, marco esta
+data como a data em que houve a eh a a transição.
+
+
+OK? E pronto, isto é bem simples. Eh, e temos
+agora aqui os prices. Ordeno Aqui temos os os
+
+
+Golden Cross aqui. Cá estão eles. Cá estão
+eles que houve aqui e dois golden cross onde
+
+
+eu posso fazer aqui um print, um pretty print
+data frame. Ok. Eh, e cá está.
+
+
+E, portanto, a 2/2 e a 1/7.
+Vamos confrontar aqui com a solução
+
+
+a 2 do2 e 1 do7. Está correto. Pronto,
+
+
+estão calculados os golden cross aqui da da da
+cotação de ações. OK, está terminado o problema
+
+
+número 7. Estamos quase a acabar esta mini-maratona.
+Problema número 8, Spliting the field.
+
+
+Isto tem a ver com o go baseball
+baseball positions. Ora, vamos ver.
+
+
+Ora, temos aqui um ficheiro beisebol, tem
+três variáveis. O que é que ele tem? Portanto,
+
+
+tem o nome de um nome de jogador, em que
+equipa jogou e em que posição jogou. OK.
+
+
+Eh, quantos jogadores distintos
+temos? 1098. Portanto, houve aqui
+
+
+alguns jogadores que ao longo do tempo
+jogaram em posições distintas. OK?
+
+
+Vamos ver aqui o enunciado do problema.
+Portanto, aqui temos o enunciado do problema.
+
+
+Portanto, aqui temos
+
+
+piada que eu aqui a team positions of/dh
+
+
+output e ele aqui partiu por of dh. Tem piada
+que eu não me lembro de de fazer isto.
+
+
+Eu não me lembro de partir isto. Se calhar,
+se calhar estava distraído e e não não parti,
+
+
+já não me recordo. Ou parti, não, se calhar
+parti. Tá aqui, tem aqui um split. OK,
+
+
+eu já não me recordava disto. Vamos ver.
+Ora bem, então, Unique Baseball Positions,
+
+
+só que tem as barras, portanto isto não não
+é muito útil, mas OK. Mas em todo o caso,
+
+
+quantos casos temos? Eh, OK. Isto aqui é sobre
+alguma OK. uma consulta que eu fiz ao Gemini
+
+
+e a solução.
+
+
+Pronto, esta é a solução que temos que
+obter. Ora bem, então vamos ver. Aqui
+
+
+tenho um unique position, mas isto
+não serve de muito porque aqui tem
+
+
+combinações de posições em que o jogador jogou.
+O jogador jogou. OK. Então vamos fazer o quê?
+
+
+fazer split string into a list of strings based
+on the limiter ok vamos ter aqui uma position list
+
+
+ok
+
+
+list of 1101 vamos converter para vetor
+
+
+ok
+
+
+e vamos ter aqui sort table position  Ok, então aqui sim vamos ter todas as
+
+
+posições. OK. Então, basicamente as posições
+são só estas. Eh, as posições são só 9
+
+
+São estas nove que estão aqui. OK, está correto.
+Pronto, estas são. Ah, e aliás já está acabado
+
+
+o problema. Eu já não me lembrava disto. Ah,
+portanto, eu já não lembrava. Portanto, aqui
+
+
+temos efetivamente a resposta ao problema. O
+que eles queriam saber era o número o número dos
+
+
+jogadores em cada posição, portanto, posição OF,
+SP, etc. Aqui o que eu tenho é uma alternativa.
+
+
+Uma alternativa eh para quem prefira usando o
+operador R pipe nativo. Eh onde o o basicamente
+
+
+estas três linhas de código elas são substituídas
+por por esta único este único statement que tem um
+
+
+um encadeamento com o pipe operator e permite
+uma leitura mais mais simples, digamos assim.
+
+
+aqui permite-me dizer o seguinte, ou seja, eu pego
+nas nas positions, eu faço o string split por este
+
+
+separador, eu faço o unlist e depois faço uma table
+e depois faço um sort decreasing dos valores do
+
+
+totais dessa table. OK? Pronto, basicamente é
+isto. Eh, e cá está, dá-me a mesma coisa. Eh,
+
+
+e portanto está certo, está de acordo aqui com
+a solução. E pronto, está terminado este problema.
+
+
+Estamos quase a terminar o tutorial
+oito. E vamos para o último: the price is
+
+
+right. Vamos ver o que o que é que
+temos aqui. Ora, price history.
+
+
+Ora vamos ver aqui price history.
+
+
+Vamos aqui colocar o minifunctions
+que também me esqueci.
+
+
+Ora bem, the price is right, então o que é que
+nós temos aqui? A ver se eu me recordo,
+
+
+temos três tabelas do da pizaria. Ora, vamos
+lá ver. Ora, temos aqui um price history,
+
+
+temos aqui a solução. OK. Então,
+o que é que nós temos aqui? Ora,
+
+
+price history, o que é que nós temos? Price
+history temos um conjunto de datas. Ah,
+
+
+portanto temos um um pizza ID. OK. Portanto, isto
+é a variação do preço. Eh, portanto, pelos vistos,
+
+
+teremos 10 tipos de pizza e com algumas variações
+de preço ao longo do tempo. OK. Sim, senhora.
+
+
+Podemos ver aqui unique price history effective
+date temos e OK, temos apenas quatro datas.
+
+
+Portanto, as variações de tempo de preços
+ocorreram em em quatro datas, OK? Não sei se
+
+
+vamos precisar disto ou não. Já veremos. O que é
+que nós temos agora aqui mais? Temos os produtos.
+
+
+São os 10 tipos de pizza, OK? Com o preço atual.
+Bom, o preço atual há de ser certamente igual ao
+
+
+último preço que está aqui no price history.
+Por se olharmos aqui, vamos, por exemplo,
+
+
+ordenar aqui no no aqui no PIZZA ID, vamos
+ver, por exemplo, aqui uma PIZZA, por exemplo,
+
+
+a PIZZA número 7 já teve quatro variações de preço,
+sendo que o preço mais recente fixou-se nos 20.5,
+
+
+a pizza número 7. Portanto, aqui a pizza número 7
+fixou-se nos 20.5, está correto? OK. Sim, senhora.
+
+
+Portanto, este, no fundo, este current price não
+precise disto para nada, que é é o é o último
+
+
+preço que vai estar no price history. Ora, o que é
+que temos aqui? Agora temos as transações. Pronto,
+
+
+portanto, as as transações 7164 transações,
+temos a PIZZA ID, a quantidade e a data. OK?
+
+
+Pronto. E já estamos mesmo, já está-se mesmo
+a ver o que é que vai ser pedido. Portanto,
+
+
+vai ser pedido eh para calcular o total, o total
+de vendas, que é o que está aqui. Portanto,
+
+
+o total de vendas para cada data eh o número da
+pizza vezes a quantidade, qual era o preço dessa
+
+
+pizza nessa data. OK, vamos ver aqui que também
+já não me recordo como é que eu fiz. Ora bem,
+
+
+primeiro temos o current price que eu dei fora,
+como expliquei, que não precisamos dele para nada,
+
+
+não porque porque todos os preços estão no
+price history. Transactions order, também
+
+
+não precisamos disto para nada, nem order ids
+price transactions price também não precisamos.
+
+
+Ah, ok. Este é um é um campo novo transaction,
+que é este vai ser o transactions price,
+
+
+OK? Portanto, o transactions price está
+a zero. Aqui é onde eu vou colocar,
+
+
+Aqui é onde eu vou então calcular para
+a PIZZA ID nesta data qual foi o preço. O
+
+
+preço fez essa quantidade. Eu vou colocar
+então aqui qual foi o preço total. OK?
+
+
+Então, portanto, eu vou varrer as aqui varrer as
+transações. Exatamente. Eh, e agora vou ter, ora,
+
+
+qual foi o preço? O subset de price history para
+PIZZA ID. OK, aqui estamos aqui estamos estamos
+
+
+confortáveis. Portanto, dá-me no price history
+para cada se eu agora estou a a trabalhar com a
+
+
+Pizza ID número 7, dá-me os registros PIZZA ID
+número 7, vai ter quatro datas. OK? E agora,
+
+
+qual é a data? Imaginem que eu estava no dia 20
+de janeiro, portanto vai ser os registros que me
+
+
+interessam são, ora, a 20 de janeiro, qual o preço
+que está em vigor? É este aqui, de 19 de de janeiro.
+
+
+Portanto, eu quero as datas menor ou igual que
+20 de janeiro. E dessas datas eu quero a última.
+
+
+Então, que vai ser o preço corrente
+à data 20 de janeiro. Portanto,
+
+
+dá-me as datas menor ou igual que a data da
+transação e destas essas datas dá uma última. OK?
+
+
+É o que eu estou aqui a fazer.
+Então, dá-me para essa pizza id
+
+
+where effective date menor
+
+
+ou igual que transaction order date.
+OK. Dá-me as datas do do price
+
+
+history. Foi aquilo que eu disse, as
+menores ou igual a transaction order date,
+
+
+dá-me apenas o price, faz-me
+drop para um vetor e depois dá-me
+
+
+o tail.
+
+
+O tail
+
+
+aqui estou um bocadinho perdido se é se se
+se o o porque é que está o tail e o tail. Ah,
+
+
+está bem. O tail é o último. Está bem. Foi o que eu
+disse. É o último. O tail. Está correto. Está correto.
+
+
+Agora estava estava um bocado confuso. Pronto.
+Portanto, que foi o que eu vos disse. Portanto,
+
+
+aquelas eh os preços do price history, as datas
+menores e de entre essas datas o último. Portanto,
+
+
+o último é o tail, está OK. O tail número
+um, o último, o último dos preços.
+
+
+É, é simples ponderarem um bocado sobre
+isto. Pronto, aqui computo isto. Pronto,
+
+
+já tenho aqui tudo. E as quantidades
+não multipliquei pelas quantidades.
+
+
+Ah, as quantidades é é computado
+agora aqui no total. Pronto,
+
+
+agora o total que é o total que está
+aqui, que onde ele vai vai me computar
+
+
+de uma assentada o somatório dos preços
+vezes as vezes vezes a quantidade. OK?
+
+
+Eh, cá está. 161144. E pronto, damos
+por terminado este tutorial. Foi uma
+
+
+mini maratona de resolução de problemas. Eh,
+resolvemos nove problemas com linguagem R.
+
+
+Eh, desafio-vos a irem ver aquela plataforma que
+vos falei, o Maven Analytics. Deem uma vista de
+
+
+olhos como é que as pessoas resolvem os problemas
+com o Power BI, com Excel, com SQL puro, com
+
+
+Python. Eh, deem uma vista de olhos, confrontem,
+tirem as vossas conclusões e deixei-vos aqui um
+
+
+conjunto de problemas abordando, portanto, este
+tipo de diversas temáticas. Espero que vos seja
+
+
+útil, inspirador para vocês. Poderão vocês, eh, se
+quiserem, vão lá ver a plataforma, tentem resolver
+
+
+vocês se quiserem, com a linguagem R, sem olharem
+aqui para o meu código. Ou podem ter ficado só com
+
+
+uma ideia, mas tentem vocês resolver os problemas
+à vossa maneira, partindo do zero. Pode ser um
+
+
+bom desafio. Eh, e pronto, espero que tenham
+gostado. Despeço-me e até uma próxima oportunidade.
+
+

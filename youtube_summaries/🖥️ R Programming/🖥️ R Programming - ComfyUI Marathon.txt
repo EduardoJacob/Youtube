@@ -1,0 +1,11 @@
+🖥️ R Programming - ComfyUI Marathon
+1. Introdução ao controle do ComfyUI a partir do RStudio.
+2. Configuração de ambiente, pacotes e estrutura de projeto em R.
+3. Ferramentas auxiliares como Stability Matrix e MediaInfo.
+4. Organização de pastas e variáveis para input e output.
+5. Validação de assinaturas e parâmetros dos workflows JSON.
+6. Manipulação de arquivos JSON via substituição de strings no R.
+7. Integração com LLMs para geração automática de prompts.
+8. Geração, edição e estilização de imagens (cores, logotipos).
+9. Geração de vídeo e síntese de áudio (TTS e clonagem de voz).
+10. Extração de objetos e remoção de fundo em imagens.

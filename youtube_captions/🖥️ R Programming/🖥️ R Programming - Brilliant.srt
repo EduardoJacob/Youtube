@@ -1,0 +1,1762 @@
+
+Ora, sejam bem-vindos a mais um tutorial
+programação em R com RStudio. Hoje vai ser
+
+
+dedicado à plataforma Briliant, OK? Portanto, a
+plataforma Brilant e tem ,tem cursos
+
+
+online. Eh, deixa-me abrir aqui. É uma plataforma
+paga, mas eu não recebo nada, absolutamente nada,
+
+
+obviamente. Eu simplesmente eu
+subscrevo esta plataforma, OK?
+
+
+E, portanto, é uma plataforma que tem tem
+uma série de cursos bastante interessantes.
+
+
+Estamos a ver aqui um exemplo. Tem umas coisas
+de programação, data análisys, ciência, lógica,
+
+
+circuitos lógicos. Aqui, por exemplo, que vamos
+ver hoje, vou resolver aí um problema, matemática,
+
+
+puzzles, etc, etc.
+
+
+Ora bem, então vamos ver hoje um exemplo de
+alguns problemas que nós podemos e resolver
+
+
+e também para vos dar inspiração que eu já tinha,
+acho que já vos tinha dito noutros noutro tutorial
+
+
+que eu gostava, gosto bastante de matemática
+e, portanto, e uso muita programação às vezes
+
+
+para resolver problemas, métodos de Monte
+Carlo, estatísticas, probabilidade,
+
+
+simulações, cálculo numérico, etc, etc. Então,
+vamos começar aqui e por exemplo, aqui nesta
+
+
+área das portas portas lógicas. Vou abrir aqui
+um problema de exemplo. Ora, missing gates 2. Ok,
+
+
+então vamos lá ver o que é que temos aqui.
+Mais uma vez volto a repetir, não deixem de
+
+
+ver todos os outros vídeos que eu tenho na minha
+playlist, porque há uma certa continuidade,
+
+
+OK? Há coisas que eu vou explicando ao longo do
+dos vídeos para não me estar sempre a repetir, OK?
+
+
+Eh, já vos tinha explicado como a importância
+que tem a mais valia que tem. Nós, por exemplo,
+
+
+fazemos uns print screens e temos aqui alguns
+print screens com enunciados do do problema,
+
+
+que é o que eu vou fazer agora. Eu tenho
+aqui o enunciado do problema. Pronto,
+
+
+aqui está um problema. OK. E, portanto,  o
+problema consiste em, eu tenho aqui a expressão,
+
+
+tenho duas variáveis A e B, e eu tenho
+que uma uma tabela de verdade. Eh,
+
+
+suponho que quem esteja a ver este
+vídeo e já tenha estudado a lógica bivalente,
+
+
+acho que é bivalente que se chama, já não
+me recordo, a lógica, as tabelas de verdade,
+
+
+as portas lógicas. Pronto, isto são
+pré-requisitos para entender o problema.
+
+
+E então tem aqui estas as quatro estas quatro
+opções aqui azul para preencher nos quatro
+
+
+quadrados. OK? Eh, mas claro, por exemplo, aqui
+A, eu não vou pôr A B, isto não faz sentido. Aqui
+
+
+aqui só pode ir o OR ou o AND, aqui tem que ir um
+ um operador lógico. E aqui poderá ir o B
+
+
+ou o not B. E aqui também só pode ir o OR ou AND
+ E aqui só pode ir o B ou not B, OK? Que é
+
+
+o que é o que faz sentido aqui na expressão para
+para construir a função e a tabela da verdade. Eh,
+
+
+esta tabela da verdade por este aqui, ora isto
+é, acho que é a negação, é a negação do do XOR,
+
+
+salvo erro. Ora bem, então o que é que nem nós
+vamos ter aqui então para resolver o problema?
+
+
+Primeiro, primeiro eu gosto de de de criar umas
+funções, estas funções lógicas. Gosto de as criar
+
+
+porque é mais fácil trabalhar para mim com
+funções, fica fica o código mais claro do que do
+
+
+que trabalhar com os operadores nativos que vêm
+aqui na linguagem. OK? Por exemplo, aqui o AND,
+
+
+portanto, gosto de criar a função AND. OK?
+embora. Portanto, é como digo, o AND já já vem,
+
+
+só que aqui vem como operador e eu gosto de criar
+como função. Fica mais claro para mim. Fica. Então
+
+
+tenho aqui o AND, o OR, o XOR. O XOR  não, não vai
+ser usado. Eu pus o XOR aqui, mas o XOR não está
+
+
+aqui nestas opções. Temos o NOT, porque também
+temos aqui um NOT. Reparem, temos aqui o not,
+
+
+o not e temos o NOP. O nop é o não faz nada porque
+eu tenho aqui uma variável B e a variável se eu
+
+
+puser a variável B n alguma caixinha portanto o
+que está a operar o B é nada é B igual a B. OK?
+
+
+Pronto. E agora tenho aqui vou considerar aqui
+quatro portas lógicas. 1 2 3 4. Mas já sabemos
+
+
+que o dois e o 4 não não podem ser portas lógicas.
+Mas mas eu estou a generalizar. Então vou dizer
+
+
+bom na na porta 1. Ou seja, nesta posição posso ter
+aqui o um ou é um OR ou é um AND. OK? Pronto. Na
+
+
+dois aqui nesta posição ou vou ter um um NOT ou
+vou ter uma negação. OK? Que vai ser a negação do
+
+
+B. ou então vou ter o o nada, o NOP também podia
+ter chamado e e igualdade ou pronto, mas ficouNOP
+
+
+ou seja, não faz nada. Então o o não faz nada
+de A é igual a A, OK? Eh, e portanto aqui o dois,
+
+
+a porta, a porta três aqui, aqui nesta posição, um
+OR ou um AND e a porta 4 um NOP ou um NOT. OK?
+
+
+Eh, portanto, estes tutorials agora que vamos
+ver hoje, estas problemas, pois é para já,
+
+
+como eu já vos tenho dito e os meus tutorials
+são nível médio avançado. Aqui já vamos explorar
+
+
+algumas funções sofisticadas do R, OK? E vamos ver
+daqui a bocado algumas capacidades do paradigma
+
+
+paradigma das linguagens de programação
+funcionais. OK? Vamos ver alguns tópicos
+
+
+avançados com com,  com envolvendo funções.
+Eh, aqui temos uma função muito interessante
+
+
+que vem que vem do R nativo. Acho que isto é
+nativo, salvo o erro. Exatamente. Vem de base,
+
+
+uma função muito poderosa que é o expand grid.
+O expand grid não é mais do que o produto
+
+
+cartesiano. O produto cartesiano dos vários vários
+operadores que eu ponho aqui, dos vários valores,
+
+
+dos vários vetores. OK? Eu aqui estou-lhe
+a passar quatro argumentos aqui. Acho que
+
+
+o número de argumentos é é variável. É o que eu
+passar aqui. E depois tem aqui alguns parâmetros.
+
+
+Eh, mas basicamente o que importa é eu passo
+passo-lhe aqui quatro argumentos que é o que
+
+
+é o a ou um OK? Ah, OK. Eu devou estou-lhe
+a dar nomes ou 1 ou 2 ou três ou quatro. E,
+
+
+portanto, o produto cartesiano aqui, pois 2
+x 2 4 x 2 8 x 2 16 vai dar 16 valores. OK?
+
+
+Object 2 not found. OK.
+
+
+Deixa-me repetir isto aqui.
+
+
+Gate 1, gate 2, gate 3, gate 4 e gates. OK. Então
+tenho aqui o produto cartesiano e tenho aqui as
+
+
+várias combinações. Na porta um só pode ir o AND ou o OR
+assim como na porta 3 e na dois e na 4 ou vai
+
+
+o valor ou vai a sua negação. OK? Ora, e agora não
+tenho mais do que testar todas as combinações. Vou
+
+
+testar aquilo que também vulgarmente se designa  o método
+da bruta força. ou da força bruta, testar
+
+
+exaustivamente todas as combinações aqui. Vou vou
+vou vou testar trying. Ah, testar o linha a linha.
+
+
+Eh, para cada linha vou refazer
+os operadores 1 2 3 4. Ok? Eh,
+
+
+OK? Reparem que aqui aqui no nos gates não não tão
+funções, tão tão strings, OK? São strings, OK? OK.
+
+
+E eh aqui, portanto, ao P1 ao P4 vão ser
+strings, OK? Mas quando as strings são
+
+
+são e afetadas de parênteses, transformam-se
+automaticamente em funções. OK? Cá está. Isto é
+
+
+espetacular. Isto é a forma como funciona
+o paradigma das linguagens funcionais.
+
+
+Portanto, então aqui eu vou ter vou construir
+aqui um data frame. Agora tenho aqui uma função,
+
+
+uma função minha aqui. A minha função
+e que a única o que faz é é uma tabela
+
+
+de verdade. Uma tabela de verdade. Deixa pôr
+aqui um exemplo. Eu tenho aqui mini functions
+
+
+truhtable. Pronto. Querem ver um exemplo?
+Eu vou aqui no F1. Pronto. E aqui o que diz
+
+
+é truthtable recebe uma função e a função é
+com o número de argumentos variável, OK?
+
+
+E eh o que vai fazer o truthtable é construir a
+tabela de verdade, assumindo os parâmetros da
+
+
+função como valores lógicos, verdadeiro ou falso,
+e fazendo, construindo todas as combinações,
+
+
+neste caso 2 elevado a 4 dá 16, vai ter 16
+combinações e constrói a tabela de verdade
+
+
+da função e faço run examples. Pronto, cá
+está. Ficou a tabela de verdade. OK. Ah,
+
+
+isto é muito útil qualquer pessoa que
+esteja a estudar a a lógica eh matemática,
+
+
+acho que está-se para aí a partir do 10º
+ano, se bem bem, já não me recordo. Eh,
+
+
+portanto, isto é muito útil. Alguém que
+trabalhe com R. Eh, todo o nosso ensino
+
+
+está obviamente completamente obsoleto. Todo
+o nosso sistema de ensino para variar, não é?
+
+
+Ah, não falando tudo o resto, já falei aqui
+noutros tutorials também do problema da produção
+
+
+energética. Eh, e o ensino é outra questão, é
+outra questão. Está completamente obsoleto o nosso
+
+
+ensino. O ensino tinha que ser todo remodelado.
+Por exemplo, matemática. Matemática e computação
+
+
+tinham que ser tratados lado a lado. Por exemplo,
+não há matemática sem computação e vice-versa.
+
+
+Eh, portanto, isso sem sem desprimor de de de
+tratar toda a matemática analíticamente como ela
+
+
+deve ser tratada, obviamente. Mas eh eu eu, por
+exemplo, imaginem que eu quero eu eu se eu que se
+
+
+eu estou, por exemplo, a calcular um integral ou
+uma ou uma derivada analíticamente, posso fazer o
+
+
+integral e posso também fazer o grafismo e posso
+ver o gráfico e para isso preciso de computação.
+
+
+Ou seja, e as coisas complementam-se e e o e
+a aprendizagem fica fortalecida quando quando
+
+
+temos essa visão global de todas essa toda essa
+perspectiva. OK? Ah, mas enfim. Vamos então, por
+
+
+exemplo, aqui eu posso fazer a tabela de verdade
+e posso fazer aqui uma função. Eh, por exemplo,
+
+
+function de x, function de de x, por exemplo.
+Isto é uma uma tabela de verdade de de de uma
+
+
+variável. OK? Isto é uma uma lambda function.
+Também as pessoas, vocês quem tem a experiência
+
+
+de programação entenderá o que eu estou a falar.
+Uma lambda function é uma função sem nome. Vamos ver se
+
+
+isto funciona. Cá está a tabela de verdade.
+Eh, e também tenho uma outra função que que
+
+
+que me vai mostrar, vai-me fazer aqui o plot.
+Fica mais bonito do que do que aparecer aqui.
+
+
+Então vou pôr aqui mini mini functions. Acho que
+é minifunctions. Print print data frame. Exato.
+
+
+Eu posso pôr aqui print data frame e minifunctions truth
+table porque minifunction truthtable devolve uma
+
+
+um data frame. Portanto, eu posso fazer assim.
+Ok. Eh, e então aqui fica mais bonito. Estão a
+
+
+ver? Minifunctions truthtable. E aqui tem a função x,
+a negação de x, a tabela lógica da negação. O
+
+
+zero dá 1 e 1 dá 0. Estão a ver, estão a
+ver a potencialidade disto no ensino? OK.
+
+
+Vamos aqui a ver outra agora. X, Y ou
+A e B. A e B. e posso fazer a tabela,
+
+
+a truthtable da conjunção A AND B. OK. OK. Pronto,
+penso que já devem estar a ver a a tremenda
+
+
+potencialidade disto. Eh, e também posso fazer eh
+outra coisas mais complexas, eu posso fazer,
+
+
+por exemplo, às vezes existem problemas para para
+simplificar expressões e eu estou a simplificar
+
+
+uma uma determinada expressão, imaginando que
+isto era uma função complexa. E e queria dizer,
+
+
+olha, verifique se esta expressão, por exemplo, A
+e B, verifique se é igual se A conjunção B. Olha,
+
+
+imaginem, por exemplo, uma olha uma coisa
+simples que se aprende que é as leis de de De Moivre.
+
+
+E verifique que a a negação da da conjunção é é
+igual a ao à disjunção das negações, OK? Então
+
+
+ponho aqui or not B. Ok, imagina esta função. OK,
+verifique. OK, cá está. Verdade, verdade, verdade,
+
+
+verdade. Portanto, as expressões são equivalentes.
+Porque para porque dá sempre verdade. É sempre
+
+
+verdade que a negação de de A e B é igual a não A
+ou não B. OK? Portanto, já estão a ver o poderio,
+
+
+o poderio de trabalhar com isso. Nos meus tutorials
+anteriores, não me canso de elogiar este IDE. Estão
+
+
+a ver as capacidades gráficas que ele tem? As
+capacidades, neste caso, em HTML, gerar tabelas
+
+
+em HTML, tudo integrado aqui no IDE. OK? Ora bem,
+vamos então continuar aqui com o nosso problema.
+
+
+Este foi só um um interregno aqui, uma uma
+àparte para vos mostrar a minha tabela. Não
+
+
+vou-vos mostrar agora o código desta tabela até
+desta função, o truthtable. Até posso deixar-vos a
+
+
+vocês como que se trabalharem em R como como como
+desafio. Se quiserem fazer uma uma função destas.
+
+
+OK. Já viram que ela é dinâmica porque ela ela vai
+trabalhar automaticamente automaticamente deteta o
+
+
+número de argumentos. OK? Pronto. Então, portanto,
+vamos continuarávamos aqui no nosso problema.
+
+
+Portanto, eu vou ter aqui os os quatro operadores.
+Deixa-me posicionar aqui. Cá está no enunciado do
+
+
+problema. E então eu vou vou já sei que o truthtable
+devolve um data frame. Eu aqui vou construir aqui
+
+
+a a expressão, esta expressão desta função
+x, OK? Que é uma função de quê? É uma função
+
+
+de A e B. Não há dúvida nenhuma. As variáveis
+independentes são o A e o B. OK? E, portanto,
+
+
+em que é que ela consiste? Ela tem aqui, aqui leva
+operador 1 2 3. Portanto, o que ela faz é operador
+
+
+3. Por isso é que eu transformei isto em funções,
+porque é mais simples escrever a expressão
+
+
+no formato de funções do que aqui com com os
+operadores nativos. Então digo operador 3, que é
+
+
+esta posição aqui, opera opera em A, opera aqui do
+lado esquerdo em A com operador 2. cá está aqui,
+
+
+ou melhor, é é, portanto, aqui é o é o operador
+um, portanto opera no operador um. O operador
+
+
+O1 opera em A e B ou operador 2. Operador 2
+B. E operador dois, se forem ver aqui, eh,
+
+
+o operador dois está aqui. Ou há de ser um uma
+negação, ou há de ser o não faz nada e e deixa
+
+
+o B. Portanto, aqui há de ser, ele vai testar o
+operador um a operar em A e B ou em A e not B. OK?
+
+
+Não sei se me expliquo, mas se não me explicar,
+façam pausa e estudem o código aqui com cuidado
+
+
+e certamente deve ficar mais claro. Portanto, o
+operador, este operador 3 trabalha aqui sobre
+
+
+este argumento do lado esquerdo, OK? Juntamente
+com o argumento do lado direito, que é um AND,
+
+
+OK? Aqui do lado direito é é um AND. é um AND que
+trabalha sobre not A cá está o not A  e
+
+
+o operador 4 de b. OK? E portanto eu vou aqui
+fazer isto. Isto vai vai dar 16 16 hipóteses,
+
+
+16 combinações. E o que é que eu quero? Determinar
+qual é a solução que me dá, qual é a combinação
+
+
+que me dá a resposta da variável dependente 1001.
+OK? Pronto. Então eu ponho aqui e agora tenho
+
+
+que procurar aqui a resposta 1001 que é esta.
+OK? Que posso depois aqui testar testar aqui
+
+
+que tem que me dar 1001. Cá está. E que
+e é esta. OK? Ou seja, portanto, a solução,
+
+
+a solução será o que é que vai aqui. Eh, deixa lá
+ver isto. Portanto, o que é que o que é que vai
+
+
+aqui? Aqui vai um or. Portanto, aqui é o or. OK?
+Depois tenho entre, A e B. Aqui vai o AND. Aqui é
+
+
+o A, aqui é o B. E, portanto, aqui é o not B. OK?
+Eh, eu também podia fazer aqui de outra maneira.
+
+
+Podia fazer aqui a função, deixa cá ver, operador
+a função AB igual a também podia fazer assim,
+
+
+eu podia pôr aqui o o vetor da resposta. Deixa pôr
+aqui o vetor da resposta. X é igual a C. E vou pôr
+
+
+aqui 1001. É o valor expectável. OK? E agora dizer
+que eh ou posso pôr com valores lógicos é igual
+
+
+ou é igual. Vou deixar assim. Um zero é o mesmo que
+pôr true e false. E agora dizer, olha a função A
+
+
+b, que é é esta expressão aqui. aqui é o resultado
+desta operação e eu quero que seja igual a a x
+
+
+de I. I porque o I varia de 1 ou é não
+X I não. Aqui tem 16 16 16 16 hipóteses.
+
+
+Não, aqui não. Bom, aqui não. Bom, eu agora agora
+não quero estar agora aqui aqui a perder tempo,
+
+
+mas vocês veem a ideia. Agora não me está a ocorrer
+aqui assim de imediato e para para não estar aqui
+
+
+a a perder tempo, não vou fazer essa essa
+essa essa simplificação. Mas eh mas pronto,
+
+
+espero que tenham percebido a ideia. Aqui,
+como eram poucos casos, era era fácil aqui ver,
+
+
+procurar aqui a olho qual era a solução, que
+era o 1001, que era esta, e verificar que só
+
+
+havia uma solução. OK? Eh, aqui neste caso, neste
+problema, vou vamos ficar por aqui. Eh, e prontos,
+
+
+espero que isto seja inspirador para vocês e
+verem como o tão útil que é, o tão poderoso
+
+
+que é a aplicação da linguagem R, a problemas de
+matemática, neste caso da da área da lógica. OK?
+
+
+Vamos passar a outro problema, um problema agora
+na área de probabilidades. Vamos passar aqui. Ora,
+
+
+produto cartesiano 3. Pode ser este aqui.
+
+
+Então, vamos  lá ver o que é que nós temos aqui.
+
+
+Ora bem, então aqui temos aqui um problema de
+probabilidades, OK? Ele é simples, o problema é
+
+
+simples, mas pronto, mas isto é exemplificativo do
+do que se pode fazer e como podemos com facilidade
+
+
+qualquer problema de de probabilidades eh
+podemos eh resolver com programação. OK?
+
+
+Pronto, basicamente remover uma carta por forma a
+maximizar a a probabilidade de a probabilidade da
+
+
+função objetivo. A função objetivo é eu quero
+retirar uma carta branca de de aqui de entre
+
+
+quatro cartas e e uma de entre estas três por
+forma que a soma seja seis. OK? Por exemplo, uma
+
+
+destas 4 e 2 6 3 e 3 6. OK? E eu quero remover uma
+carta. Remover uma carta. E já está aqui a resposta
+
+
+que que é a carta 5. Eh, realmente é é acaba por
+ser óbvio, porque porque o cinco o escolhendo uma
+
+
+branca, se sair cinco já nunca consigo obter seis
+por 5 e do 7, etc, etc. Portanto, aqui até aqui é
+
+
+evidente que é seria a carta cinco. Pronto, mas
+eh vamos imaginar que não era evidente que era
+
+
+algum tipo de problema similar a este, mais ou
+menos como a mecânica deste género, que não era
+
+
+evidente. E portanto eu tenho que tirar aqui diz:
+"Olha, retira uma carta por forma a maximizar a
+
+
+probabilidade da função objetivo. Posso retirar
+uma carta, poderá ser uma carta branca ou uma
+
+
+preta". OK? sendo que depois de retirada a carta,
+eu vou vou vou testar o resultado depois com a
+
+
+função objetivo, eh tirando uma carta branca e
+uma preta. OK? Então vamos então como é que nós
+
+
+estamos aqui resolver. Eu tenho as cartas brancas
+com os valores 2 3 4 5 e as pretas 2 3 4. Agora o
+
+
+que é que eu tenho primeiro? Primeiro deixa ver
+qual a probabilidade da função objetivo ah sem
+
+
+retirar carta nenhuma. OK? Portanto, este é o
+valor de partida, que é para efetivamente ver,
+
+
+confirmar depois que retirando realmente uma
+carta conseguimos melhorar a função
+
+
+objetivo. Então o que é que nós temos aqui?
+Vamos ter um expand grid mais uma vez entre as
+
+
+cartas brancas e pretas que são os outcomes.
+OK? Portanto, oi, falta-me aqui definir isto.
+
+
+Pronto, tenho aqui os outcomes. São são 12 valores
+por 4 x 3 12. OK, são os outcomes var 1, var 2,
+
+
+que eu agora vou vou vou vou fazer o rename das da
+das colunas, que é para ficar o o código mais mais
+
+
+explícito. Vou chamar white and black. white and
+black. E, portanto, a probabilidade agora é fácil.
+
+
+Eu é é é basta somar para para cada linha somar
+a aqui a carta branca com a preta para ver se dar
+
+
+seis se dá seis. OK? Portanto, a probabilidade
+de sair seis é o é o é o conjunto de valores
+
+
+para os quais a branca mais preta é igual a 6 a
+dividir pelo total de outcomes. OK? Sim, senhora.
+
+
+Eh, se eu fizer assim, se eu fizer assim, o que
+é que isto vai dar? Vai dar uma sequência. Falso.
+
+
+Falso. Portanto, tenho aqui 1 2 3. Tenho
+tenho três casos em que dá seis. Três trues,
+
+
+portanto, 3/sobre 12. Portanto, se não me
+engano, que isso vai dar eh 25%. OK? E,
+
+
+portanto, OK. Então, eh, o ponto de partida
+é este. Não removendo nenhuma carta,
+
+
+a probabilidade de sucesso aqui da função
+objetivo é 25%. Sim, senhora. Agora vamos
+
+
+testar removendo uma carta branca. Ora, removendo
+uma carta branca pode ser removendo da 1 a quatro,
+
+
+portanto, for igual a 1 até ao comprimento das
+brancas. Vou fazer exatamente a mesma coisa,
+
+
+o expand grid. Mas agora o expand grid de todas
+as brancas menos aquela que eu retirei, que eu vou
+
+
+retirar. OK? O resto é tudo igual. Portanto, eu
+vou aqui testar quatro hipóteses. Pronto, cá estão
+
+
+as quatro hipóteses. Removendo a carta número
+um, eh, eu obtenho esta probabilidade. Portanto,
+
+
+baixa-me a probabilidade em relação ao 0.25 de não
+fazer nada. E removendo a carta número quatro,
+
+
+aumenta a probabilidade de sucesso da
+função objetivo. Agora já tenho 0.33. OK?
+
+
+E removendo uma carta preta, o que é que nós
+obtemos? É constante, não não faz variar. É,
+
+
+é removendo uma carta preta eh dá 0,25 na mesma.
+É o mesmo que não remover não remover nenhuma.
+
+
+Pode não parecer assim um bocado intuitivo? Para
+mim também não me está a parecer muito intuitivo.
+
+
+Até parece um bocadinho contra-intuitivo
+que removendo uma qualquer das pretas não
+
+
+faz variar. É o mesmo que não removendo
+nenhuma. Mas pronto, cá está. Este é até
+
+
+o tipo de problemas interessante. Eh, e que eh
+mesmo que eu resolvesse isto analíticamente,
+
+
+muitas vezes removendo e resolvida analiticamente
+fazemos a expressão matemática, etc.,
+
+
+chegamos a um resultado, mas por vezes não não
+não conseguimos visualizar todos os resultados
+
+
+possíveis do que se resolvermos exaustivamente.
+OK? Portanto, uma coisa não afeta a outra.
+
+
+Portanto, é importante ser capaz de resolver
+um problema analiticamente, como como para
+
+
+mim é importante eh resolver eh através de uma
+simulação. Eu até diria mais, que é mais é é mais
+
+
+importante até para mim resolver através de uma
+simulação, dada o hoje em dia o poderio que há.
+
+
+E porque vamos ver, eu vamos ver uma
+pessoa que tenha um problema prático. Eu,
+
+
+se tiver um problema prático para resolver, eu
+posso tentar resolver analiticamente. E é isso
+
+
+que eu faço. Só que eu às vezes posso ficar na
+dúvida se eu me terei enganado. Imaginem que eu
+
+
+estou a calcular um integral, OK? Imaginem que eu
+resolvo, mas depois posso ficar na dúvida se eu não
+
+
+me terei enganado na na resolução analítica. OK?
+E então a seguir não é demais aplicar um método
+
+
+numérico e para para confirmar o resultado. OK?
+Portanto, por isso é que eu digo, as estas coisas
+
+
+hoje em dia andam andam mano a mano. Eh, e pronto,
+este terminar aqui o problema número dois, OK?
+
+
+E vamos passar ao problema número
+três. Este problema número três vai
+
+
+ser o mais complexo também, um problema
+de lógica. Ora, estamos aqui combinatórics
+
+
+e true or false.
+
+
+Tem aqui vários problemas parecidos.
+Ora, onde é que isto está?
+
+
+Será este? Acho que é este. OK. Eles são
+parecidos. Tenho aqui vários problemas parecidos.
+
+
+OK. Eu já preparei um aqui para o tutorial.
+Ora bem, então o que é que nós temos aqui?
+
+
+Este é mais complexo. OK. Este
+é bastante mais complexo. Eh,
+
+
+e portanto vamos ver.
+
+
+Ora bem, então o que é que nós temos aqui?
+
+
+Este é um exemplo de problemas que aparece,
+portanto, na plataforma Brilliant, como já vos disse,
+
+
+não é? o qual eu já fiz múltiplos cursos que
+estão na plataforma que eu já resolvi e
+
+
+há uma série de de cursos dedicados a parte de
+charadas matemáticas e muitos deles eu resolvi
+
+
+desta resolvi computacionalmente. OK? Porque
+porque uma vez resolvido um eh eu resolvo,
+
+
+eu eu faço os cursos muito rapidamente. Eu
+faço os cursos muito rapidamente e quando
+
+
+começo a fazer um curso e, portanto, começa-me a
+aparecer um um tipo um tipo padrão do problema,
+
+
+pois eu eu resolvo computacionalmente como
+está aqui, e depois resolvo todo o tipo de
+
+
+problemas similares de tacada, que eu sou muito
+rápido, modéstia à parte, não é para me gabar,
+
+
+mas sou muito rápido a resolver problemas,
+qualquer tipo de problema matemático,
+
+
+seja simulações, métodos de Monte Carlo, por
+exemplo, qualquer problema de probabilidades,
+
+
+qualquer problema, seja do que for, a
+nível de cálculo numérico. Ah, portanto,
+
+
+e este é um exemplo, este é um exemplo, é um
+tipo de problema e que vocês vão ver como eu
+
+
+resolvo. O problema não é fácil, obviamente
+resolver resolver manualmente não é fácil.
+
+
+a pessoa que fizeram este tipo de problemas
+no curso, eventualmente penso que esperariam
+
+
+que as pessoas resolvessem com lápis e papel. E
+pá, mas é um bocado exaustivo resolver isto com
+
+
+lápis e papel. OK. Bom, então o que é que nós
+temos aqui? Nós temos que aqui que determinar
+
+
+dois parâmetros para cada uma destas linhas. Temos
+que determinar se esta nós temos quatro afirmações
+
+
+e temos que e que estão e impressas aqui no no
+cofre. Quatro cofres. Cada cofre tem lá dentro
+
+
+um conteúdo. Ou é ouro, ou é prata, ou é uma
+mistura ouro e prata, ou é pedras, rocks. Eh,
+
+
+sendo que e não há repetições. Portanto, um dos
+cofres tem o item um, o outro dois, o três e o
+
+
+quatro, OK? E depois temos, portanto, logo aqui
+já tenho permutações de quatro, OK? eh, que acho
+
+
+que dá 24. Logo aqui já tenho 24 hipóteses de
+combinações e depois ainda tenho que determinar
+
+
+eh que cada cofre tem uma label associada
+à afirmação e a label diz se a afirmação
+
+
+é verdadeira ou falsa. OK? Eh, e portanto
+logo aqui, vejam, façam os cálculos e vejam
+
+
+já quantas combinações temos. 24 vezes, eh, seria
+e oito, salvo o erro. Mas eh depois temos aqui as
+
+
+condições, OK? Por exemplo, aqui as condições nos
+dizem que a e os verdadeiros e falsos é apenas um
+
+
+falso e três verdadeiros. Ou seja, eu tenho
+que ter três verdadeiros e um falso. Pronto,
+
+
+aí já me simplifica muito. Aí já tenho
+quatro hipóteses. O falso é este, este,
+
+
+este ou este. Portanto, na verdade, então tenho
+aqui quatro hipóteses com combinações de 24.
+
+
+Portanto, se não, se não me engano, deve
+ter aqui isto feito com lápis e papel,
+
+
+seria 24 x 4 hipóteses. E pá, bastante bastante
+bastante exaustivo. OK. Pronto. Portanto,
+
+
+aqui tenho esta esta parte que controla quantos
+verdadeiros e falsos tenho, que tenho que ter
+
+
+três verdadeiros, três afirmações verdadeiras
+e uma falsa. OK? Aí já já simplifica muito.
+
+
+E depois tenho aqui eh mais duas restrições que
+diz que o cofre que contém ouro, apenas o ouro,
+
+
+ou seja, o cofre que contenha aqui as moedas de
+ouro, é necessariamente tem que ser tem que ter
+
+
+a afirmação verdadeira. OK? E depois mais nada.
+E depois a última a última afirmação é apenas
+
+
+dizer que que os quatro items estão divididos
+sem repetição em cada um dos cofres. Ou seja,
+
+
+um cofre contém apenas o ouro, o outro contém a
+prata, o outro contém o mix, que é este aqui, e
+
+
+o outro contém rocks. OK? Pronto, então este este
+é o enunciado do problema. Vamos resolver. Eh,
+
+
+então o que é que nós vamos ter aqui?
+
+
+Ora bem, nós vamos primeiro vamos ter aqui as
+permutações. Eu aqui tenho chamo um package que
+
+
+é o o gtools que trabalha, constrói permutations
+ou combinations, etc, etc, com repetição,
+
+
+sem repetição, etc, etc. Portanto, eu eu gero
+gero as permutações, gero as eh todo todo o
+
+
+tipo de cálculo combinatório com com com este
+package. OK? Sim, senhora. Então, o que é que eu
+
+
+quero aqui? Digo, olha, quero, eu tenho e o valor
+este valor de input de quatro quatro variáveis,
+
+
+que é o gold, silver, mix and rocks. E quero que
+faças uma permutações sem repetição, repeats allowed false,
+
+
+OK? E com comprimento de quatro. Portanto,
+basicamente são as permutações padrão puro e duras. OK?
+
+
+Então vamos resolver aqui. Pronto, já tenho aqui
+permutations 1. Estão aqui as permutations. OK.
+
+
+E agora a segundo as permutations de dois valores
+cujos esses valores é true ou false, comprimento
+
+
+quatro e repeats allowed  true. Portanto, agora são
+permutações com repeats allowed  de comprimento 4. Portanto,
+
+
+isto vai-me dar 16 valores, está correto? mas que
+na verdade depois apenas simplifica para quatro
+
+
+porque eu já sei que só posso ter três verdadeiros
+e um falso. Mas pronto, mas este seria o ponto de
+
+
+partida, OK? Este seria o ponto de partida
+com todas as combinações, verdadeiro, falso
+
+
+destas destas destas destas quatro afirmações
+aqui. OK? Então agora o que é que vamos ter?
+
+
+Eh, aqui a função, isto já vou explicar, mas agora
+vamos ver aqui. Não há dúvida nenhuma que eu vou
+
+
+ter que combinar uma hipótese para as permutações
+uma com uma hipótese para as permutações dois. Vou
+
+
+ter que fazer aqui o o produto cartesiano
+das permutações um com o dois. Portanto,
+
+
+tenho um loop dentro do outro loop. OK?
+Portanto, fazia pôr o um dos loops fora ou
+
+
+ou um dos loops dentro é igual. Neste caso,
+comecei pelo loop das permutações um, OK?
+
+
+E para cada uma das linhas, eu vou obter o vetor
+item. O item, o item será unlist permutations,
+
+
+portanto o item será os items. Portanto,
+por exemplo, se eu for na linha seis,
+
+
+deixa-me pôr aqui, por exemplo, se eu vou na
+linha um, imaginando que eu estou na linha um,
+
+
+então o item é é um é uma hipótese de uma uma
+sequência. Portanto, uma hipótese é que o cofre A
+
+
+contém gold, mix, rocks and silver. pronto? Está
+aqui uma hipótese, uma combinação. Sim, senhora. E
+
+
+agora para esta combinação, eu estou a estudar
+esta combinação contra todas as combinações
+
+
+de true e false, OK? Que é o que está aqui a
+acontecer. Imaginando que eu estou aqui no J = 8
+
+
+e eu tenho eh a o portanto uma das linhas das
+combinações é e que eu que eu que eu gerei, is true é
+
+
+verdade e e dá-me por exemplo falso true true true.
+Ok? Portanto, então agora é isto é que eu vou
+
+
+combinar. Eu vou combinar eh eh vou testar esta
+solução destes quatro conteúdos do cofre contra
+
+
+esta hipótese de falso. True, true, true. OK. Sim,
+senhora. Eh, aqui já ponho uma condição e soma de
+
+
+istrue diferente de três, vai-te embora porque eu
+tenho que ter, eu tenho que ter sempre três trues,
+
+
+OK? Portanto, o sum is true deste vetor tem
+que dar deste aqui tem que dar três. OK?
+
+
+Agora tenho reject igual a false. E agora vou
+testar as condições que são as afirmações, OK?
+
+
+E no final e digo, e aqui quando encontrar alguma
+contra contrariedade, alguma contradição, eu vou
+
+
+rejeitar, eu vou rejeitar esta esta combinação que
+eu estou a testar de uma solução de permutações um
+
+
+com uma da dois. Se chegar aqui ao fim e dizer if
+not rejected, então print solution. E uma solução,
+
+
+o que é que é uma solução? É uma sequência
+das permutações um. Portanto, é aqui um
+
+
+resultado do dos conteúdos dos cofres mais uma
+categorização completa de true ou false para
+
+
+estas quatro afirmações. OK? Pronto. Também quer
+vos dizer que é assim, eu quando programei isto,
+
+
+eu não fiz logo esta solução logo de início,
+isto não sai. E como isto é normal, não é?
+
+
+Quando começamos a trabalhar num problema,
+esta é este pequenino código que está aqui,
+
+
+está muito compacto, está muito otimizado. Eh, mas
+isto não saiu logo à primeira. Por exemplo,
+
+
+eu aqui vou eu vamos usar aqui a função XOR.
+E eu do início não, eu não estava a ver que que
+
+
+que isto era o XOR, porque o XOR também
+não é daquelas coisas lógicas mais comuns,
+
+
+não é? Normalmente a pessoa raciocina com ANDs, ORs. O XOR
+não é muito normal, penso eu. Pronto. E na verdade
+
+
+vamos ver que o XOR era o operador lógico
+fundamental que eu tinha que aplicar aqui. Já
+
+
+vamos ver porquê. OK. E portanto isto não me saiu
+logo à primeira. Houve uma fase em que eu tinha
+
+
+aqui punha as condições aqui de uma forma mais
+exaustiva, etc, etc. Pronto. E num dado momento
+
+
+depois comecei a simplificar, simplificar até
+ficar aqui com códigos com com meia de linhas,
+
+
+como vocês estão a ver, e faço isto. Ora
+bem, então o que é que nós temos aqui? Eu
+
+
+agora tenho que testar testar as condições, ou
+seja, para para cada uma destas combinações,
+
+
+eu tenho que testar as afirmações. Imaginem,
+por exemplo, esta afirmação. This safe contains
+
+
+no gold coins. Ora, This safe é o safe
+número um, ou seja, o cofre número um não
+
+
+pode conter moedas de ouro, portanto não pode
+conter nem este caso aqui, nem este caso aqui
+
+
+do mix. OK? Pronto. Sim, senhora. Como é que
+eu traduzo isso aqui matematicamente? Portanto,
+
+
+eu faço aqui uma função. Tem esta
+primeira função, ela não tem argumentos,
+
+
+OK? Foi mais fácil para mim não não introduzir
+argumentos e pôr os argumentos hardcoded aqui
+
+
+dentro. Reparem que a primeira função ela ela
+exprime uma afirmação acerca do cofre número um.
+
+
+Mas não é sempre assim. Por exemplo,
+a quarta a quarta afirmação, ela ela
+
+
+exprime exprime faz uma afirmação acerca
+do cofre número um e não número quatro.
+
+
+Esta faz uma afirmação acerca do do
+cofre número um. OK? A afirmação um
+
+
+refere-se ao cofre número um. A afirmação dois
+refere-se ao cofre número dois. A três refere-se
+
+
+ao cofre número 3. No entanto, a 4 refere-se
+ao cofre número um e não ao cofre número 4.
+
+
+Ok? Pronto. Então, por isso é o que temos aqui.
+A afirmação número um refere-se ao cofre número
+
+
+um. Por isso entra aqui o item um, que é o cofre
+número um, e diz assim: "If this safe contains no
+
+
+gold". Ok? Então, se o item número um for gold or
+mix, é falso. Então, if not contain gold or mix,
+
+
+então resulta verdadeiro. Pronto. Portanto, a
+função, afirma, esta afirmação consiste aqui
+
+
+nesta expressão. Diz só, diz safe contains no
+gold, ou seja, está aqui o not this safe,
+
+
+this safe número um, o cofre número um. contains no
+gold. Ok, pronto, penso que isto seja seja claro
+
+
+para vocês. Senão, façam pausa e e meditem
+um bocadinho sobre isto. A segunda é igual,
+
+
+mas refere-se ao cofre número dois. This safe contains
+no gold. Portanto, agora entra aqui o item número
+
+
+dois. A terceira This safe contains rocks. Portanto,
+a terceira função item número três contém rocks.
+
+
+E a quarta refere-se ao cofre número um. Cofre
+número um contains rocks. portanto. A quarta função,
+
+
+item número um, contains rocks ok? Pronto. Pronto, as
+quatro afirmações já estão aqui todas codificadas.
+
+
+Então, o que é que eu vou fazer agora?
+Portanto, para cada uma destas combinações
+
+
+de permutations 1 e 2, imaginando este caso,
+eu quero testar estes conteúdos contra estas,
+
+
+contra estes valores lógicos das afirmações,
+OK? E eu vou ver se encontro uma contradição.
+
+
+Se encontrar uma contradição, eu chumbo,
+eu chumbo esta esta esta combinação desta
+
+
+destas permutações um com a dois. OK? Pronto.
+Então, o que é que nós vamos fazer aqui? 
+
+
+o que é que eu tenho aqui? tenho, eu eu vou testar
+eu agora vou testar as quatro afirmações. Eu eu
+
+
+tenho que eu tenho que validar estas quatro
+afirmações se são verdadeiras ou falsas. OK?
+
+
+Primeiro, eu eu eu estou a assigno uma uma
+uma hipótese, uma combinação. Vou dizer:
+
+
+"Bom, vou deixar assumir que este tenha
+gold, que este tenha que este tenha mix,
+
+
+que este tenha rock e que este tenha silver."
+Pronto. Então vamos nesse pressuposto,
+
+
+vamos testar estas afirmações e ver se elas
+são verdadeiras ou falsas. Por exemplo,
+
+
+a primeira, na hipótese que a primeira tem
+gold e aqui diz this safe contains no gold,
+
+
+então a afirmação é falsa. Ou seja, na hipótese
+que aqui esteja gold, a afirmação é falsa,
+
+
+porque a afirmação está a dizer que este cofre
+não contém ouro. Pronto. Então como vêem isto
+
+
+é isto é fácil de avaliar. Ora o que é que eu
+tenho aqui? The the safe that contains only
+
+
+gold coins is labeled with a true statement. Este
+é uma das das condições que está aqui adicional,
+
+
+que é esta aqui. OK? Pronto. E então eu tenho
+que colocar aqui e digo assim, se este item
+
+
+item K varia de 1 a 4. Se este cofre, o cofre
+número k contém gold e a afirmação número K
+
+
+é falsa, então rejeita. OK? Porquê? Porque
+eu tenho aqui esta condição que o o cofre
+
+
+que contenha gold, ele ele tem ela tem que
+ter uma afirmação verdadeira. Portanto,
+
+
+se se verificar isto, rejeita. OK. Pronto. E
+agora, finalmente, agora sim, testar as quatro
+
+
+afirmações. Até agora aqui temos as as outras
+condições que estavam aqui adicionais, OK?
+
+
+Nós tínhamos estas duas primeiras que traduzir
+aqui. Eu tenho aqui os os descritivos,
+
+
+portanto penso que para vocês seja
+fácil seguir. Pronto. E agora o que
+
+
+é que acontece? Agora vamos ver o
+poderio da do paradigma funcional,
+
+
+porque eu tenho aqui uma eu tenho um um vetor de
+quatro funções, 4 lambda functions. OK? E agora
+
+
+o o R automaticamente automaticamente quando
+eu atribuo aqui um um vetor de funções, ele
+
+
+ele transforma numa lista. Ele ele ele é incomportavel
+ter um vetor. como vetor. E ele transforma isto
+
+
+numa lista em que eh eh eh cá está o conteúdo das
+das listas. é uma uma função. E aqui temos este
+
+
+shortcut que nós já vimos que que me diz como é
+que eu acedo a cada um dos elementos de uma lista.
+
+
+Cá está. É com um par de parênteses reto. No caso
+das listas é assim que funciona na linguagem R.
+
+
+Mas temos este auxiliar de memória. Quando estamos
+a trabalhar com listas, nem temos que ter nada de
+
+
+cor. E aqui temos o conteúdo das funções.
+Eventualmente, por exemplo, aqui mostra-me
+
+
+a função número dois. E ele mostra, 
+isto é isto é isto é brutal. Este este IDE é Ora,
+
+
+então temos aqui temos aqui as funções. Então
+agora para cada uma das linhas, por exemplo,
+
+
+se eu estou na linha número um aqui, K = 1, aqui
+eu vou testar a função número um, f. Cá está f que
+
+
+é uma function sem argumentos que é esta a função
+que é esta está correta: this safe contains no gold.
+
+
+É engraçado que ele até dá aqui o descritivo
+e tudo. Isto é espetacular. Isto não há duvida nenhuma
+
+
+que isto é completamente espetacular. OK. Até até
+até o até o descritivo ficou incluído lá dentro.
+
+
+Eh, portanto, eu tenho a função. OK. E então
+agora, agora é que entra entrar o operador lógico,
+
+
+o XOR. OK. Pronto. E o que é que faz
+o XOR? O XOR vai-me dizer assim:
+
+
+"Bom, se o cofre é verdadeiro, OK? Portanto, se a
+label for verdadeira e e a e a afirmação é falsa,
+
+
+não pode ser. Portanto, isso é uma é uma
+contradição. Eu chumbo. Ou se o cofre é falso,
+
+
+se eu clicar aqui em falso a
+dizer que a afirmação é falsa,
+
+
+mas a afirmação é verdadeira, então rejeita.
+E é por isso é que é o XOR. Portanto, if XOR,
+
+
+eh,
+
+
+porque o o XOR só dá verdade se um dos dois for
+verdade, mas mas não os dois simultaneamente. OK.
+
+
+É um bocado, é um bocado complicado de de digerir,
+
+
+mas mas está mas está correto. Vamos lá ver se tentar
+explicar. Até para mim, olhando agora para isto,
+
+
+é um bocado difícil de digerir. Ora bem, se
+o cofre é verdadeiro e a afirmação é falsa,
+
+
+se o cofre é verdadeiro e a afirmação é falsa
+ou o cofre é falso e a afirmação é verdadeira,
+
+
+então rejeita. Pronto, cá está. É o que é.
+Portanto, um ou zero ou zero ou um. Então, então
+
+
+o o XOR dá true e, portanto, se o XOR der
+true, rejeita. Caso contrário, aceita. Portanto,
+
+
+eu aceito quando aqui for verdade, verdade,
+cujo XOR dá zero, ou quando aqui for falso,
+
+
+falso, cujo cujo XOR dá zero. E então aí
+não executa isto e e e portanto não rejeita.
+
+
+Eh, e pá, pronto, é assim, eh, imagino que isto
+seja um bocado árduo. Qualquer de vocês que não
+
+
+assim ver isto assim à primeira, imagino seja um
+bocado árduo. Estão aqui muitos conceitos. Ah,
+
+
+temos aqui listas de funções, funções como
+parâmetros. Eh, temos aqui esta chamada
+
+
+dinâmica com as com as funções aqui dentro do
+operador lógico, mas pronto, penso que também não
+
+
+consigo explicar assim um bocadinho mais melhor
+do que já expliquei. Portanto, vamos executar. Eh,
+
+
+o que é que é expectável que eu tenha apenas
+uma única solução. Isto é o expectável, não é?
+
+
+Portanto, se eu tiver mais que uma, não, ou
+nenhuma, pois não, não faria muito sentido,
+
+
+não é? O problema à partida o problema para
+resolver o problema é expectável que ele tenha
+
+
+uma e uma só solução. Vamos então resolver. E
+pronto, cá temos nós a solução, uma só solução,
+
+
+está aqui. Então, vamos testar. Já agora,
+vamos fazer uma checagem manual aqui, eh,
+
+
+para ver que faz sentido. Portanto,
+o que é que nos diz então a solução?
+
+
+Ela diz-nos que e a primeira contém rocks e é
+verdadeira e a afirmação é verdadeira. Então,
+
+
+então se ela é verdadeira e diz este cofre não
+contém ouro. É verdade, a afirmação é verdadeira
+
+
+porque ela contém rocks. Então está coerente.
+A afirmação está coerente com a label true. OK.
+
+
+Passa, passa, passa na checagem. Vamos aqui à
+alinea número B. Diz, diz-nos a solução que
+
+
+a alinea número B contém silver e a afirmação
+é verdadeira. Este cofre não contém ouro. Este
+
+
+cofre não contém ouro. Eh, e é verdade porque ele
+contém silver, que é aqui o S. E a afirmação é
+
+
+verdadeira. Está correto, está coerente, está tudo
+coerente, passa na checagem. Vamos à alinea C.
+
+
+Aqui na alinea C diz que o cofre contém mix e que
+a afirmação é falsa. Então o que diz a afirmação?
+
+
+A afirmação This safe contains rocks. É falsa, está
+correta? É falsa porque ela contém mix. Cá está.
+
+
+Então está coerente, passa no teste. E finalmente
+o quarto cofre contém gold, que está aqui,
+
+
+contém gold e a afirmação é verdadeira. Ela contém
+gold. E o que diz a afirmação? A afirmação diz que
+
+
+o cofre número A contém rocks. É verdade, o cofre
+número A contém rocks. Está aqui na solução. E,
+
+
+portanto, esta afirmação aqui é verdadeira. E,
+portanto, tá tudo coerente. E pronto, está tudo
+
+
+coerente, como vimos. Eh, determinei a veracidade de
+cada uma destas afirmações, assim como determinei
+
+
+o conteúdo de cada um dos cofres. OK? Eh, e
+pronto, espero que tenham gostado. Abordamos aqui
+
+
+realmente alguns temas que no tutorial de hoje que
+que são novos, que nunca tinha abordado nos outros
+
+
+tutorials. Ah, hoje trabalhamos aqui muito com
+lógica. Trabalhamos muito aqui com com este este
+
+
+package, o package do gtools, que gera permutações,
+combinações, todo o tipo de cálculo combinatório.
+
+
+Trabalhamos aqui com um bocadinho de paradigma
+funcional, com funções passados como parâmetros.
+
+
+verificarmos como é que uma string pode
+transformada automaticamente em função.
+
+
+Quando eu pego numa string qualquer que ela foi
+igualada a uma função quando pego no no ou seja,
+
+
+o nome da função no fundo dentro de uma variável.
+Eh, pronto, acho vimos mais ou menos esse tipo de
+
+
+conceitos. Eh, espero que tenham gostado, que vos
+sirva de inspiração para até vocês que estejam às
+
+
+vezes a fazer alguns cursos nas na escola,
+no ensino ou alguma plataforma de formação e
+
+
+trabalhem com problemas deste tipo, matemáticos,
+de lógica, estatística e probabilidades,
+
+
+que vos inspire a a acompanharem sempre com
+alguma programação. E a linguagem R é de facto
+
+
+talhada para para esse objetivo. OK? Linguagem R
+é espetacular, muito compacta e o IDE, como estão
+
+
+a ver, muito poderoso para acompanhar este tipo
+de problemas e checar este tipo de problemas. OK?
+
+
+E pronto, espero que tenham gostado
+e até uma próxima oportunidade.
+
+

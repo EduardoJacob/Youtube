@@ -1,0 +1,11 @@
+🖥️ R Programming - One Language to rule them all
+1. Introdução ao projeto One language to rule them all e estrutura dos problemas da Maven Analytics.
+2. Visualização de redes hierárquicas organizacionais utilizando recursividade e diagrammR.
+3. Manipulação de dados JSON e exploração de estruturas aninhadas com o pacote jsonlite.
+4. Agregação de vendas mensais por loja e cálculo de variações temporais de receita.
+5. Identificação de transações comerciais que ocorreram durante períodos promocionais específicos.
+6. Análise de métricas de usuários e filmes, incluindo datas de conclusão e contagem de visualizações.
+7. Cálculo de streaks (dias consecutivos ativos) para ranking de utilizadores em plataformas de ensino.
+8. Detecção de Golden Cross em séries temporais financeiras utilizando médias móveis com o pacote Zoo.
+9. Processamento de posições esportivas no beisebol através da divisão e contagem de strings.
+10. Cálculo de totais de vendas baseados na junção de transações com histórico de preços dinâmico.

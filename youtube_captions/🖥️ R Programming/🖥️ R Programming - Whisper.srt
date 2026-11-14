@@ -1,0 +1,2586 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial, programação em R com RStudio.
+
+
+Hoje vai ser dedicado ao modelo da
+Open AI, que é o modelo Whisper,
+
+
+modelo da área de ASR automatic Speak
+Recognition, que ainda nunca tinha abordado
+
+
+este tipo de modelos aqui nos meus tutorials,
+portanto agora chegou essa oportunidade.
+
+
+Ora, vamos aqui ao R. Hoje penso que vai ser um
+um tutorial relativamente curto. Este tema é bem
+
+
+específico, está bem delimitado. Vou puxar aqui
+o meu guião. Pronto, aqui então vamos ver aqui.
+
+
+Primeiro quero-vos mostrar aqui o meu R profile.
+Acho que nunca tinha mostrado e agora estive a
+
+
+fazer umas melhorias, umas simplificações.
+Portanto, eu tenho aqui na minha estrutura,
+
+
+na minha infraestrutura, tenho aqui a minha
+a minha folder de configuração que já vos
+
+
+falei e depois tenho uma outra área que é
+configuração para inteligência artificial.
+
+
+Está aqui em separado. Nesta área de configuração
+tenho aqui diversos temas como como estamos
+
+
+aqui. Então vocês podem ver aqui pelos pelos nomes
+dos membros. Eh, e portanto na área do profile,
+
+
+que é o que é executado quando
+arranca uma sessão de R, OK? Eu tenho aqui eh e
+
+
+eu simplifiquei bastante esta parte. Eu tinha
+aqui muito código. Eh, fazia, por exemplo,
+
+
+fazia aqui uns displays do utilizador e da
+máquina e e verificava se havia alguma novidade,
+
+
+alguma nova alguma novidade de R, alguma nova
+versão. Eh, não era o sítio apropriado para ter
+
+
+todo esse código. Realmente o profile quer-se
+o mais simples possível porque ele é executado
+
+
+várias vezes. Ele às vezes, por exemplo, quando
+estamos a compilar os pacotes de R, ele, a sessão 
+
+
+de R faz restart várias vezes e, portanto, aqui
+queria realmente um código bastante leve
+
+
+criei esta mensagem aqui com este emoji, porque
+isto é importante que chama a atenção precisamente
+
+
+nessas situações para eu poder observar
+quando é que ele está a restartar a sessão. OK?
+
+
+Eh, tenho tido alguns problemas com downloads,
+tenho tido alguns problemas eh com diversas
+
+
+funções de R que fazem download ou por exemplo
+downloads de modelos de inteligência artificial
+
+
+que alguns packages fazem. Eh, tenho tido
+alguns problemas eh e ainda tenho
+
+
+às vezes eh muitas vezes há uma a função rebenta
+à primeira, mas depois à segunda tentativa ele
+
+
+consegue fazer. Eh, por isso tenho aqui mais ou
+menos tentei resolver, tentei afinar a situação
+
+
+e então pus aqui eh pus aqui estes parâmetros para
+o método de download default para atribuir ao R.
+
+
+Pronto, esta é uma parte não interessa agora. Se
+vocês quiserem podem investiguem isto, o que é que
+
+
+isto significa? OK. Eh, agora pus aqui um também
+um um package default de CRAN. Portanto, aqui um
+
+
+mirror. Portanto, foi simplesmente uma
+questão estar aqui um mirror mais mais próximo
+
+
+de onde eu vivo. Nada mais. O importante é que
+aqui, esta parte aqui dos packages,
+
+
+esta tab aqui, ela, por exemplo, quando eu faço o
+update, ela funciona, portanto isto significa
+
+
+que está a funcionar, que ela  acedeu ao cran e
+foi e foi buscar as as últimas versões. Pronto,
+
+
+isso é que é o importante. Ou quando eu clico eminstall,
+verificar que ele está a aceder, quando eu começo
+
+
+a clicar em qualquer coisa. Ok, pronto, esta parte
+é importante. Esta parte está tudo a trabalhar.
+
+
+Pronto. Portanto, aqui houve esta simplificação
+aqui do profile. Eu eh tenho aqui este profile,
+
+
+mas este não é o profile verdadeiro. Esta é uma
+cópia do profile que eu guardo aqui nesta folder
+
+
+para ser sincronizada entre as minhas máquinas
+com o MEGAsync. Acho que já vos falei disso. Eh,
+
+
+e quando eu faço aqui uma alteração, depois
+eu tenho que efetivar essa alteração. Eu eu
+
+
+normalmente eu chego aqui, faço aqui o control
+A, control copy e depois executo aqui esta linha
+
+
+usethis edit R profile e então aqui edito o R
+profile verdadeiro, cá está ele que é o ponto
+
+
+R profile e aqui faço paste e depois tenho que
+restartar a sessão de R e pronto. E é assim que
+
+
+eu trabalho. OK. Tenho, portanto, aqui o profile,
+é só isto. Depois também tenho o environment, não
+
+
+vou mostrar agora porque o environment eh tem os
+meus tokens, os meus tokens da das diversas APIs.
+
+
+OK. Mas a filosofia é a mesma. Eu tenho tenho não
+é o verdadeiro environment que eu edito. Edito,
+
+
+tenho uma cópia do environment e depois tenho
+que efetivar também com o package usethis o edit
+
+
+environment. Ok. Pronto, ele aqui pensa que eu
+eu alterei o profile onde ele ele diz para eu
+
+
+fazer restart. OK. Eh, podemos sempre restartar
+a sessão de R quando queremos. Eu clico aqui.
+
+
+OK. E cá aparece esta mensagem. E este emoji é
+um ajuda-me, é uma ajuda visual para eu a todo
+
+
+momento que seja por que razão for que haja uma
+um restart da sessão, eu eu poder visualizar. OK.
+
+
+Ora bem, pronto. Hoje vamos tratar então com o
+modelo de do whisper que já vamos ver. E qual
+
+
+vai ser a novidade? A novidade é que nós vamos, eu
+descobri um package que é o package Whisper. OK.
+
+
+Eh, deixa ver se ele está aqui disponível
+no cran ou se ainda só estava no GitHub,
+
+
+porque já não me recordo. O whisper está aqui. OK,
+portanto, este é o whisper que nós vamos ver. Eh,
+
+
+e o que é que acontece? Ele precisa.
+Portanto, a novidade aqui, qual é?
+
+
+A novidade é que nós e já tínhamos integrado
+aqui dentro da linguagem R, tínhamos acedido
+
+
+a modelos de inteligência artificial, quer
+fosse na cloud, quer fosse locais, eh, OK,
+
+
+através de APIs diversas, mas hoje vamos ver
+uma novidade, porque hoje vamos ver que eu posso
+
+
+invocar uma inteligência artificial local, mas
+ela é local, ela é instalável. totalmente dentro
+
+
+do ecossistema da linguagem, da programação.
+Portanto, mais fácil ainda. Ou seja, não preciso
+
+
+de instalar mais nenhum produto, não preciso de
+instalar nem LM Studio, nem OLAMA, nem ComfyUI nem nada para usar
+
+
+este tipo de de modelos de inteligência
+artificial. Mas se bem que tanto
+
+
+quanto me apercebi, esse tipo de
+oferta que está disponível neste momento ainda é
+
+
+muito limitada. Isto são tudo coisas novas que têm
+estado a aparecer, mas já vamos voltar a isso. Mas
+
+
+entretanto eh é preciso, normalmente esses modelos
+necessitam de uma tecnologia que é o torch,
+
+
+que acho que é proveniente do Python.
+Eh, e portanto existe um package torch,
+
+
+que é um package, portanto, de infraestrutura
+para ser usado por estes outros packages, como o
+
+
+package do whisper que vamos ver hoje. E, portanto,
+esse torch tem que ser tem que ser instalado. OK?
+
+
+Portanto, eu venho aqui, cá está, eu agora tenho
+esta minha folder de configuração de inteligência
+
+
+artificial.  já tenho também aqui esta parte
+do cuda. Eh, o CUDA e  o CUDA tooolkit, eu penso
+
+
+que não são necessários. E fiquei na dúvida, mas
+num dado momento pelo Sim, pelo não, eu acabei
+
+
+de instalar um Cuda toolkit que no fundo, tanto
+quanto me apercebi, portanto é um SDK para 
+
+
+fazer programação para aceder à infraestrutura
+CUDA. a integração da da NVIDIA com as placas
+
+
+gráficas. OK? Eh, mas portanto eu instalei eh
+e tenho agora instalado aqui. Portanto, OK, uma
+
+
+coisa é o o cuda suporte, ou seja, dizer a minha
+gráfica e qual é a versão de cuda que suporta.
+
+
+Posso consultar aqui correr este este comando, OK?
+Quando ele me diz, olha, suporta a versão 13.3, é
+
+
+a última versão que que ele suporta. E outra coisa
+é o Cuda toolkit que eu não tinha instalado,
+
+
+mas mas que agora instalei. Mas é como digo, penso
+que não é necessário. Eh, o Cuda ToolKit instalei e
+
+
+instalei a versão 12.8 o que, ou seja, eu estava a
+uma altura que eu estava na dúvida se seria ou não
+
+
+necessário e tive a investigar e a versão que
+era recomendável, eh, que era mais compatível
+
+
+com estes packages de torch e outros 
+tipos de soluções de inteligência artificial locais
+
+
+e, portanto, recomendavam esta versão. Pronto,
+eu instalei. OK, esta é a parte do cuda e depois
+
+
+temos aqui então a parte do do torch. Eu não vou
+tentar explicar o que é isto, porque eu também
+
+
+não tenho conhecimentos. Eu penso que isto é a
+parte é a parte matemática que que implementa os
+
+
+tensores e as matrizes e as operações de matrizes,
+etc, etc. Eu tenho essa ideia, mas pronto, também
+
+
+não sou expert nisto e não, portanto, espero não
+estar a dizer nenhuma asneira, mas pronto, mas eh
+
+
+num dado momento apercebi-me que realmente que era
+necessário. Eh, pronto, eu não vou tentar explicar
+
+
+isto aqui ao detalhe. Eh, o que acontece é que,
+pronto, à partida, quando instalamos o pacote,
+
+
+eu não vou agora instalar que já instalei, eh, já
+instalei aqui o pacote, tenho aqui a versão 0.17.0.
+
+
+Ele ao instalar, ele instala uma determinada
+infraestrutura eh de  ficheiros. Eh,
+
+
+não sei se pode chamar propriamente de modelos,
+não, não sei bem explicar, mas pronto. Feicheiros
+
+
+de trabalho, vamos dizer assim, que ele
+necessita instalar para interatuar, por exemplo,
+
+
+aqui com a gráfica. E ele à partida ele faria a
+identificação automaticamente de qual era a minha
+
+
+gráfica e depois instalava esses ditos ficheiros
+automaticamente. O que acontece é que essa parte
+
+
+falhou porque eh eu penso que a geração de gráfica
+que eu tenho da  família 50 eh ainda é bastante
+
+
+moderna e ainda gera algumas incompatibilidades
+aqui com este tipo de tecnologias. Eh, então,
+
+
+num dado momento, eu tive que acertar aqui este
+parâmetro. Tive a consultar aqui a documentação,
+
+
+claro está, a documentação aqui do Install Torch.
+Eh, e portanto, eh, tive a ver aqui a documentação
+
+
+e, e, portanto, instalei, forcei a instalação
+e, e, eh, e pronto. E agora no final e vou vou
+
+
+testar e vou ver se o torch está bem integrado.
+Á partida ele está bem integrado. Ele diz queCUDA
+
+
+is available. Yes. Cuda device count. Um, OK, eu
+tenho uma gráfica com capacidades. Pronto, esta
+
+
+parte está está instalada e á partida estaria a
+funcionar. O que vai acontecer é que  isto não,
+
+
+na verdade não  vai funcionar bem.
+Vai estourar mais à frente, mas já vamos
+
+
+ver. Mas pronto, mas digamos que isto eram os
+pré-requisitos daquilo que vamos ver a seguir,
+
+
+OK? Que era instalar o package torch. Agora
+vamos ver então o package whisper que eu descobri.
+
+
+Eh, pronto, isto tudo nasceu porque tinha uma
+pessoa amiga, minha amiga, que me pediu para fazer
+
+
+a transcription de um áudio, um áudio com cerca
+de uma hora e, portanto, eu eh não tinha ainda
+
+
+nada disponível e, portanto, pus-me a investigar.
+Pronto. Então, eh, foi com surpresa e agrado que
+
+
+vi que havia um package e pronto, pronto a usar no
+R que que faz que faz essa parte de transcription.
+
+
+OK, pronto, vamos então agora partir para
+esse projeto que é o meu projeto aqui whisper, OK?
+
+
+Ok,
+
+
+pronto. Esta é a estrutura de projetos. Este
+projeto à partida não o vou disponibilizar na
+
+
+no GitHub à partida porque é um projeto pequenino.
+O que eu vou mostrar aqui são é coisas pequeninas.
+
+
+Se algum de vocês quiser copiar, basta usar aquela
+metodologia do print screen e copia um pedaço de
+
+
+código e, portanto, não, pronto, a menos que
+haja alguém que em especial que peça para eu
+
+
+disponibilizar isto à partida. Eh, para já não
+estou a pensar disponibilizar no GitHub, OK?
+
+
+Eh, em todo o caso, estruturei, estruturei na
+forma de um projeto de R, portanto ele fica já
+
+
+pronto. A todo momento que eu se eu quiser
+sincronizar com o github é fácil ativar porque
+
+
+eu já o tenho como projeto. E tenho o git. O git
+aqui localmente eu tenho tenho a eu tenho tenho
+
+
+tenho. Por acaso não sei porque é que ele está. Ah,
+não. Então eu não tenho git ainda não. Ainda não
+
+
+ativei git. Eu posso ativar git. Posso vir aqui
+no meu setup. Vocês já conhecem isto. Portanto,
+
+
+eu normalmente nos projetos tenho
+sempre aqui um ficheirinho de setup. Eh,
+
+
+e agora então eu quero usar git. Eu vou correr
+esta linha aqui para ele inicializar a Current
+
+
+Folder eh como uma um repositório git.
+OK. Eh, vamos fazer o inicial commit. OK.
+
+
+Pronto. Eh, restart now. Ok.
+Portanto, restartar o projeto.
+
+
+À partida eu não preciso disto. Vocês já sabem,
+eu já tenho falado, eu uso o Mega Sync
+
+
+faz versionamento automático e, portanto, a
+partida, pronto. Só que aqui o o Git também
+
+
+dá-me outra facilidade, é porque o git quando eu
+faço alguma alteração, é mais rápido chegar aqui
+
+
+ao git e e é muito mais rápido ver, deixa cá ver
+o que é que eu o que é que eu acabei de alterar 
+
+
+nalgum membro. Pronto, é mais esse tipo de ajuda.
+OK. Porque pronto, e não é demais. Fico com duas
+
+
+soluções que estão a fazer o mesmo. Estão a fazer
+versionamento, versionamento e backup. OK. Este
+
+
+aqui, este guit aqui é local, enquanto que o
+meu mega sync, pois sincroniza na cloud.
+
+
+Use github é como disse, não vou fazer agora
+isso e portanto não vou usar  github também.
+
+
+Não preciso de nenhum Readme markdown. OK. Sim, senhora.
+Ora bem. Então, o que é que nós vamos vamos o
+
+
+que é que nós temos aqui? Portanto, vamos lá fazer
+aqui um um apanhado das coisas que nós já vimos a
+
+
+nível de chamadas de inteligência artificial.
+Nós vimos que podíamos eh invocar um modelo na
+
+
+cloud. Por exemplo, eu tenho aqui o aitools, o
+meu package aitools, vou chamar o modelo Gemini, OK?
+
+
+Eh, neste caso, se eu não lhe passar a prompt,
+ele não funciona. Ele obriga a prompt. Eh,
+
+
+então eu aqui passo-lhe aqui uma prompt. Pronto.
+OK. Qual é a capital do Peru? Eu vou-lhe passar.
+
+
+OK. Ele vai à cloud. Vocês, se quiserem ver estas
+estes o código destas funções, portanto, já sabem,
+
+
+basta irem ao à minha página de GitHub e
+baixar o meu package, assim como os meus outros
+
+
+packeges. Já agora, eu tenho quatro packeges, já
+estou cansado de vos falar nisso. E, portanto, eh,
+
+
+OK, ele funcionou, ele ele dá-me aqui a resposta
+na variável answer. Aqui a resposta é pequenina,
+
+
+nós vemos logo a resposta. Imaginando que a
+resposta era grande, eh, portanto, eu podia,
+
+
+eh, visualizá-la de várias maneiras. Pronto,
+eu posso salvá-la aqui. Eu posso salvá-la aqui
+
+
+no nesta minha pasta de markdown, que que
+coloquei aqui para OK? E agora posso ou ou
+
+
+visualizá-la aqui com programaticamente. OK.
+Ele visualizou. Claro que é uma coisa simples,
+
+
+é só uma linha. Eh, mas também podia
+ir entrar aqui na folder do Markdown.
+
+
+Eh, e posso entrar aqui no no ficheiro Markdown.
+E agora aqui posso fazer o preview, que
+
+
+obviamente que o RStudio também tem faz preview
+automático de Markdown. Eh, OK. Sim, senhora.
+
+
+E, portanto, estes eram as duas formas
+principais que nós já tínhamos visto,
+
+
+chamar o modelo na cloud ou chamar o modelo local
+eh com o com o LM Studio que ainda não vimos,
+
+
+mas vamos ver agora. Portanto, para isso, o que
+é que eu tenho? Criei aqui um PowerSell, acho que
+
+
+também já vos tinha mostrado, em que eu aqui eh eu
+vou levantar o vou carregar o modelo no LM Studio.
+
+
+OK? Mas como eu comecei a trabalhar com mais do
+que um modelo, então agora o que eu normalmente
+
+
+faço é eu primeiro faço o stop para ter a garantia
+que fecho todos os modelos. Vou fazer aqui o stop.
+
+
+Ora, terminal. OK, este este terminal. Deixa-me
+
+
+fechar aqui os terminais todos.
+Ora, close all terminals. Ok.
+
+
+Ok. Pronto, então deixa-me correr isto aqui.
+
+
+Ora, portanto, acabei por implementar esta
+solução. Fiz uma pequena alteração. Por acaso
+
+
+agora não estava nenhum a correr. OK. Sim,
+senhora. Porque eu tive a fazer testes com
+
+
+outros outros modelos. Ah, não interessa agora
+estar a explicar o quê. E, portanto, agora já
+
+
+tenho mais mais do que um modelo no LM Studio
+e, portanto, faço o stop deles todos. OK? Eh,
+
+
+e agora vou carregar o modelo que eu quero.
+Pronto, vou carregar aqui este que é o que
+
+
+eu que é um de tamanho médio, são cerca de 6 GB.
+E, portanto, é o que eu costumo trabalhar aqui.
+
+
+Ora, ele está a carregar. OK, cerca
+de 6 GB. Pronto, está carregado. Eh,
+
+
+então agora, eh, OK, esta é esta parte aqui que
+eu costumo mostrar sempre nos meus tutorials,
+
+
+mas que desta desta feita não há novidades de que
+desde a última vez. Pronto, eu normalmente costumo
+
+
+mostrar aqui isto. Vocês já sabem quando  trabalho com algum alguma aplicação nova,
+
+
+eu costumo-vos mostrar. Isto são mais as
+basicamente as apps principais com que eu
+
+
+já trabalhei desde que comecei aqui esta
+minha playlist, OK? Mas desde a último,
+
+
+desde o meu último tutorial não houve novidades.
+Já vos tinha mostrado tudo isto, stability,
+
+
+matrix, etc, etc, etc. Portanto, aqui não
+há novidades. Portanto, aqui não há nada de
+
+
+novo. Ora, agora carreguei então o meu modelo
+local. Posso posso trabalhar de duas maneiras.
+
+
+Posso abrir aqui um um chat local, também é
+bastante engraçado. Eu posso abri-lo aqui,
+
+
+OK? E aqui posso fazer uma conversação, como
+vocês estão habituados a fazer no browser. OK. Eh,
+
+
+posso dizer, olha, what is what is ASR? Automatic
+speak recognition. Deixa ver o que é que ele diz,
+
+
+que é o que vamos ver hoje. Dentro da área do
+áudio, temos aqui o que é mais usado é o TTS,
+
+
+text to speak. E depois temos outros
+modelos. Temos, por exemplo, texto to áudio,
+
+
+eh, e temos outras coisas novas agora,
+como seja a geração de música, por acaso,
+
+
+não sei se isto tem algum nome específico.
+Está um bocado demorado. Eh, não sei se ele
+
+
+terá o deep thinking por default aqui no meu
+modelo local. Pronto, OK, já começou a gerar.
+
+
+Ok,
+
+
+pronto, esta também um acaba por ser um bom
+exemplo porque uma vez que ele vai vai devolver
+
+
+e não, ele aqui não vai devolver porque ele aqui
+eu aqui estou no no chat interativo. Eu aqui,
+
+
+se eu quisesse salvar isto agora, não
+sei se publish publish application. Não,
+
+
+por acaso aqui acho que não. Não tenho aqui
+nada. Ou poderia abrir aqui. Não sei se tenho
+
+
+aqui algum open in browser. Tenho aqui. Pronto.
+Teria que vir aqui. Pronto. E agora salvava
+
+
+aqui. Eventualmente aqui tenho acesso ao source em
+Markdown. Não sei. É uma questão de de ver. Já agora,
+
+
+quero-vos mostrar também uma novidade aqui. Por
+acaso aqui e quando disse que não havia novidades
+
+
+a nível de aplicações, enganei-me. Há uma
+novidade aqui, por exemplo, que eu comecei a usar.
+
+
+a nível addons, a nível de addons e de browser, eh,
+eu comecei a a usar este aqui bastante jeitoso,
+
+
+que é um chat GPT Exporter, pronto, que é uma
+forma de quando nós estamos aqui a fazer a
+
+
+conversação, eh, eu depois carrego ali no exporter
+e eu salvo salvo um markdown. Pronto. Antigamente
+
+
+o que é que eu fazia? Antigamente fazia com o
+rato, copy paste e eh mas não era prático. E agora
+
+
+quando eu faço aqui no botãozinho, ele salva-me
+qual é a pergunta, salva-me a data e hora que eu
+
+
+fiz a pergunta, eh qual era o nome do do chat onde
+eu estava, que era o chat CPT, etc, etc. Portanto,
+
+
+é muito mais poderoso. E eu quando estou a
+trabalhar num projeto e muitas vezes venho aqui,
+
+
+depois guardo as respostas, eh, basicamente acho
+que já vos mostrei isto, não a minha forma de
+
+
+trabalhar, mas guardo estas respostas normal,
+ou seja, às vezes ou são screenshots, guardo
+
+
+numa folder screenshots ou então numa folder
+markdown e guardo as respostas. Pronto, e tenho
+
+
+estado a usar este addon aqui do chat exporter.
+Eh, vocês já sabem que eu uso o o browser opera,
+
+
+pronto, é o que eu gosto mais. E o Opera tem uma
+vantagem que é compatível com a store de extensões
+
+
+do Chrome. E, portanto, a partir daí estamos
+descansados porque toda uma grande panóplia de
+
+
+extensões que estão disponíveis também aqui para
+o Opera. OK? Pronto. Portanto, esta é a parte OK.
+
+
+É o que, portanto, era a novidade que eu
+tinha-me esquecido de mostrar. Ora bem,
+
+
+portanto, temos temos então estas formas de
+trabalhar ou na cloud Gemini ou LM Studio
+
+
+ou OLama também. Não vou mostrar agora que não
+não vale a pena. É o mesmo que o LM Studio. Eh,
+
+
+OK. Não são bem diferentes. Eu, por acaso,
+ultimamente estive a trabalhar bastante com
+
+
+os dois e bastante com o Olama. porque eu
+estive a trabalhar também muito em Python,
+
+
+embora que vocês já sabem a minha preferência
+pelo R, mas e pá, mas no entanto nós sabemos
+
+
+que o ecossistema de Python é 
+muito maior, muito mais vasto e eu tenho
+
+
+estado a trabalhar também em Python usando
+o IDE o Positron e, portanto, estive também a
+
+
+trabalhar muito em diversos tipos de soluções de
+inteligência artificial que não interessa agora.
+
+
+Eh, e portanto, eh, e aí houve, teve a trabalhar
+com o Olama porque havia uma, houve uma questão
+
+
+em que o Olama se mostrou mais poderoso, porque
+eu estive a  trabalhar em agentes de
+
+
+inteligência artificial, a programação de agentes
+com o famoso package de Python que é o Langchan.
+
+
+E, portanto, eh, depois havia uma área que
+que tem a ver com respostas estruturadas,
+
+
+quando nós queremos fazer uma query para o modelo,
+mas queremos que a resposta venha estruturada com
+
+
+uma determinada estrutura pré-determinada, que
+isso é possível fazer. E nós passamos esta essa
+
+
+estrutura para o modelo e e dizemos: "Olha,
+dá-me a resposta, mas eu quero que me dê a
+
+
+resposta estruturada, por exemplo, num Json com
+com este com esta estrutura, com estes campos."
+
+
+E nesse aspecto o Olama mostrou-se
+mais mais flexível para isso. Mas ok,
+
+
+isso são outros tópicos agora que não interessa.
+Extravaza agora aqui o âmbito deste tutorial.
+
+
+Eh, e portanto esta parte aqui é quando eu
+obtenho aqui uma resposta, eu posso eu posso eh
+
+
+se eu este caso aqui é uma pergunta curtinha, mas
+imaginando que era uma pergunta e eh uma pergunta
+
+
+longa como aquela que acabamos de ver agora. E eu
+eu então posso posso salvar aqui a resposta, OK?
+
+
+num ficheirinho. E agora posso usar 
+a minha função que vocês já estão cansados de
+
+
+conhecer, o Display Media e portanto e
+ele faz o render e vai mostrar aqui. OK,
+
+
+tudo bem. Mas também posso ir aqui também tenho
+outro, acho que já já mostrei, não é? Posso posso
+
+
+ir aqui no na folder de Markdown e ver a resposta
+e fazer o preview. OK, pronto. Sim, senhora.
+
+
+É tudo coisas que já vimos. Pronto, então que
+esta parte mais ou menos já está falada. Ah,
+
+
+e além disto, além de modelos locais
+que eu posso chamar aqui, por exemplo,
+
+
+com com esta minha função, eu também posso chamar
+o o confyUI por exemplo, se for se eu quiser se os
+
+
+modelos que eu quiser forem generativos de
+imagem, por exemplo, então eu vou chamar o
+
+
+confyUI e vejam o meu tutorial anterior, confyUI
+maratona. E pronto. E aí que aliás vamos ver
+
+
+hoje porque hoje também vamos correr o whisper
+e debaixo do confyUI já vamos ver. OK. Pronto.
+
+
+Pronto. Esta parte então está vista. Então
+vamos passar aqui ao whisper propriamente dito
+
+
+ao whisper. já estamos localizados
+aqui no projeto. Vamos aqui vamos aqui
+
+
+buscar o whisper. Pronto. Então o é como vos digo,
+
+
+foi com uma agradável surpresa de ver
+que eu podia trabalhar com modelos de IA,
+
+
+de uma forma muito mais simples, sem precisar
+de instalar absolutamente mais nada, mais nenhum
+
+
+produto, ou seja, tudo dentro aqui da linguagem.
+Fica muito mais simples. Só que, pronto, a oferta
+
+
+ainda é muito menor. Eu aqui ainda só tenho pouca
+coisa disponível. Tenho este whisper, eu estive à pesquisa a
+
+
+pesquisar usando o chatGPT e à partida só há para
+aí dois ou três packages de R ainda que tratam
+
+
+destas matérias e um deles por acaso era aqui o
+Whisper. OK, eu vou aqui indicar qual o modelo que
+
+
+eu quero aqui. Claro que está aqui na documentação
+do whisper. Eu vou indicar qual o modelo que eu
+
+
+quero. Vou indicar o mais poderoso. OK. Pronto,
+eu tenho aqui eh criei aqui um uma folder que
+
+
+é onde onde estão eh os áudios. Eu agora vou
+usar aqui um áudio pequenino para teste. Eh,
+
+
+tenho aqui outros áudios de uma hora cada um, que
+foi uma pessoa, minha amiga, que me pediu para eu
+
+
+fazer o transcription. OK? Eh, já agora, eu quero
+vos dizer outra forma de fazer isto, se vocês
+
+
+precisarem. Nós podemos fazer um transcription
+de uma maneira bem simples de um áudio. Como nós
+
+
+precisamos de subir esse áudio para o YouTube.
+O que acontece é que o YouTube está à espera de
+
+
+um vídeo e não de um áudio. Então, para isso, o
+que nós fazemos é usamos o utilitário FFMPEG, OK?
+
+
+eh, que também já vos falei dele noutros tutoriais
+meus. E nós convertemos um áudio para um vídeo,
+
+
+damos-lhe uma imagem de background que e ele faz
+um vídeo com uma imagem estática e ele coloca-lhe
+
+
+o áudio. Pronto. E a partir daí isso, e eu fiz
+isso, eu fiz essa, fiz essa experiência. Portanto,
+
+
+eu subo esse vídeo para o YouTube. Neste caso,
+eu subi para uma playlist privada, como é óbvio,
+
+
+porque isto era um um trabalho que um o meu amigo
+me pediu. Eh, e eu vou lá no dia seguinte e no
+
+
+dia seguinte já tenho a legendagem. Ou seja, é
+também uma forma de fazer. OK? O YouTube dá-nos
+
+
+essa benesse, é, oferece-nos a a transcription 
+automática. OK? Pronto. Eh, não vou vos mostrar
+
+
+agora mais sobre isso porque senão extravazava
+aqui um bocado o âmbito e depois às duas por
+
+
+três os tuturials ficam muito grandes. Vocês já me
+conhecem, conversa, puxa, conversa e às vezes,
+
+
+pronto, e por isso às vezes os tuturials acabam
+por ficar bastante grandes, mas pronto, tem sempre
+
+
+essa solução também. Neste caso, eu queria fazer
+uma solução aqui local e, portanto, encontrei este
+
+
+package whisper. OK. Pronto. Eh, então, coloquei
+aqui o a minha folder de onde tenho os meus
+
+
+speaks, eh, output folder, onde vou colocar as
+transcriptions. OK, pronto. Vamos eh buscar agora
+
+
+este áudio aqui de exemplo, que é um áudio
+que eu gravei e da minha própria voz. Foi
+
+
+quando num outro tutorial eu tivemos a trabalhar
+com voice cloning, não sei se recordam, no confyUI
+
+
+maratona. E portanto, e foi aqui este áudio que
+eu usei para clonar a minha voz à experiência.
+
+
+Pronto, essa parte aí já foi vista. E agora
+vamos, eu vou pegar aqui neste áudio para obter
+
+
+a transcription. OK, pronto. Vou ouvir aqui o
+áudio para ver que tenho aqui o áudio inválid path...
+
+
+Ah, OK. Preciso de lhe passar aqui isto.
+
+
+OK.
+
+
+Nascido na Ribeira do Porto há 124 anos. Foi
+batizado como Diocleciano Monteiro. OK. Pronto, estão
+
+
+a ver? Esta é a minha fala. OK? Já estão a ver
+que eu eh Vejam a potencialidade disto. Isto é uma
+
+
+função que eu que eu fiz, que vocês já conhecem,
+acho que já vos mostrei. O Display Media,
+
+
+portanto, é um é um tudo em um em que ele lê
+ficheiros, quer seja locais, quer seja na cloud,
+
+
+dos mais diversos formatos. O que acontece é que
+consoante os formatos, eh, portanto, o tratamento
+
+
+e necessário, a codificação necessária ou os
+packages ou o quer que seja é diferente. Portanto,
+
+
+há metodologias para tudo. Eu posso visualizar
+aqui um YouTube, um áudio, uma imagem.
+
+
+E, portanto, daí que eu fiz esta minha função, que
+vocês se quiserem ver o código, já sabem, instalem
+
+
+o meu meu package R Studio Tools e,
+portanto, vêem, como é muito prático. Pronto, eu
+
+
+agora pois, eu estou a confirmar que está tudo
+certo, tenho tudo no sítio, estou a confirmar que
+
+
+isto, de facto, é um áudio que se ouve, etc, etc,
+que está tudo OK. para a seguir vou passar aqui
+
+
+ao meu modelo. Pronto. E o modelo que aqui é o
+está no package whisper que é o transcribe. Podemos
+
+
+ver aqui o help. Pronto, cá está. O que é que ele
+tem aqui? Ele tem tem o o nome do modelo. Eu pus o
+
+
+modelo o mais poderoso. O mais poderoso que é o
+Large V3, OK? Que ele à partida ele vai fazer o
+
+
+download automático desse modelo à primeira vez
+que invocamos. Pronto, essa parte aí funciona,
+
+
+funciona. Eu tive algumas dificuldades, como vos
+disse. Eh, mas pronto, depois acabei por conseguir
+
+
+ele. Baixei até diversos modelos. Eu comecei com o
+pequenino, com o Tiny e o Base, pronto, mas depois
+
+
+passei diretamente para o Large V3. Pronto, não vale
+a pena estar com poupanças e o melhor é usar mesmo
+
+
+assim o Large acho que são um pouco mais de
+2 GB, portanto nada de especial. E o que
+
+
+acontece é que não consegui pôr isto a trabalhar
+com a com a gráfica. Pronto, essa é a parte que
+
+
+eu vos disse que falhou. Pronto, eu penso que aqui
+a infraestrutura toda do torch que eu vos falei,
+
+
+toda essa parte eu penso que ainda não está
+preparada para as gráficas da série 50. Ah,
+
+
+ou pelo menos eu não, eu não consegui pôr isso
+a trabalhar, não sei porquê. Eh, ainda há bocado
+
+
+tive a fazer uma tentativa e ele depois ele
+ele crasha a minha sessão de R e não consegue fazer. Pronto,
+
+
+então vamos fazer recorrendo ao CPU.
+OK. É uma uma parte também interessante para vocês
+
+
+verem que não não precisam de ter gráfica para
+fazer este operações de inteligência artificial.
+
+
+O que acontece é que as coisas vão ser muito mais
+lentas, como é óbvio. Este áudio aqui é pequenino,
+
+
+portanto não é assim tão lento, mas um áudio, por
+exemplo, de 1 hora, ele aqui em CPU demorou-me eh
+
+
+pelo menos uma hora demorou-me, mas depois
+eu isto acabei por implementar uma solução
+
+
+dentro do ConfyUI. E a partir daí já demorou
+1 minuto ou dois. Eh, mas eu já vou mostrar.
+
+
+Pronto, agora para já vamos fazer aqui o
+transcription eh usando aqui o CPU. É lento,
+
+
+mas como o áudio é pequenino, são 30 segundos.
+Eh, portanto, vamos ver, vamos vê-lo, vamos ver
+
+
+a trabalhar. Pronto, o que é que ele vai fazer?
+Ele cá está, ele carrega aqui o modelo. Portanto,
+
+
+o modelo está aqui nesta folder, OK? Está na
+extensão safetensors. O áudio então são
+
+
+32 segundos. que ele agora vai identificar a
+a linguagem que é português e depois divide
+
+
+o áudio em chunks, em pedaços pequeninos e deve
+processar um um pedacinho de cada vez. Neste caso
+
+
+são só dois chunks. O aquele o áudio grande que
+eu vos falei eh ele ele foi cerca de uma centena
+
+
+de chunks, portanto, bem podem imaginar.
+Demorou-me para aí bem mais de uma hora.
+
+
+Mas funciona, funciona. E digo-vos, este modelo
+é muito poderoso. Este modelo do Whisper, ele
+
+
+consegue fazer a transcription com muita precisão.
+Ah, só há aqui, olha, já acabou. Pronto. Eh,
+
+
+o que é que acontece? Ele devolve-me aqui o result
+dentro aqui de uma lista. Ah, pronto, ele tem aqui
+
+
+a duration. Olha, engraçado, ele tem a duration,
+quanto é que tempo é que demorou, a linguagem que
+
+
+ele identificou, o nome do modelo, pronto. E e
+o texto propriamente dito, o texto ele veio numa
+
+
+string muito longa que não é prático para a gente
+ver. E então eu parti aqui a string por vírgulas e
+
+
+por pontos finais. OK? Eu vou partir aqui. Pronto.
+E assim fica mais simples. Pronto, cá está.
+
+
+E ele dá-me aqui o texto. Eh, e portanto eu depois
+também posso h eh escrever aqui output folder not
+
+
+found. Se calhar não carreguei isto. Deixa-me ver aqui.
+Ok, posso escrever aqui o output. Ok, já está. Eh,
+
+
+e portanto está aqui nas transcriptions, então
+também eu posso ver aqui. OK, pronto, cá está.
+
+
+E posso-vos dizer que ele só se enganou numa
+palavra que é aqui onde é Cândido Venceslau e
+
+
+ele e ele escreveu Vencesval, mas também isso é
+por causa que eu tenho uma pronúncia eh muito
+
+
+mázinha na área dos "L"  e sempre tive é
+desde que era pequeno. Eh e portanto eu eh
+
+
+penso que seja por causa disso. Ele aí enganou-se
+porque eu tenho uma má pronúncia dos L.
+
+
+Eh, mas tirando isso, está perfeito, está
+ uma legendagem muito perfeita,
+
+
+muito poderoso. OK, pronto. E como viram, está
+feito. E fazemos uma transcription eh com 
+
+
+recorrendo ao CPU. OK? Pronto, esta parte aqui
+está terminada. OK, agora o que é que acontece?
+
+
+Isto era eh ah vou-vos mostrar. também o o diffuseR
+e depois já vamos passar para o confyUI pronto.
+
+
+Na altura eu estava a investigar eh quando
+eu eu fiquei agradavelmente surpreendido por
+
+
+descobrir este package e ver que este package
+era bem simples. Eh, é bem simples, embora não
+
+
+esteja a funcionar bem porque não me funciona na
+gráfica. Pronto, mas vamos admitir que daqui por
+
+
+uns tempos eh venha venha tudo a funcionar e
+então vai ficar super simples porque então está
+
+
+tudo dentro do RStudio, não preciso instalar
+mais nada, não preciso sair daqui e portanto daqui
+
+
+faço a gestão dos modelos e invoco os modelos. OK?
+Pelo menos a mim parece-me bem mais prático. OK?
+
+
+Eh, e estive a investigar no chatGPT que outro
+tipo de package já haveria dentro da linguagem
+
+
+R também e pronto a usar chave na mão eh para
+trabalharem com modelos de IA. E ele deu-me mais um
+
+
+ou dois e houve realmente mais um que me despertou
+a atenção, que foi o diffuseR. O nome diz tudo
+
+
+vocês já estão a ver, vai ser um modelo de textoto
+imagem eh baseado no nome do stable diffusion.
+
+
+Eh, e portanto, deixa-me
+fechar isto aqui, este projeto.
+
+
+E, portanto, eu tenho aqui, ora,
+
+
+diffuseR. Cá está ele.
+
+
+Só que aqui vai acontecer o mesmo. Eu não consegui
+pôr isto a trabalhar com a gráfica. Ela ela
+
+
+rebenta a sessão de R. Pronto, é exatamente a
+mesma coisa. Não, não estou a conseguir nestas
+
+
+nestas soluções todas integradas aqui dentro
+do R, eu não estou a conseguir trabalhar com a
+
+
+gráfica. OK? Mas pronto, mas não quis deixar de
+vos mostrar porque isto é bastante interessante
+
+
+porque realmente eh mostra o futuro e
+mostra uma solução alternativa. Eu não consegui,
+
+
+mas se vocês poderão conseguir, quem sabe vocês
+poderão conseguir ou porque vocês poderão ter
+
+
+uma gráfica da geração anterior, da série 40, da
+Nvidia. Eh, e aí poderão, imagino que funcione bem,
+
+
+não haverá porquê não funcionar. OK, pronto.
+Então, vamos vou-vos mostrar aqui. Portanto,
+
+
+o package a filosofia é a mesma. Portanto, aqui
+ele tem, nós podemos eh à primeira chamada a um
+
+
+modelo, ele poderá fazer também o download do
+modelo ou então alternativamente, que é o que
+
+
+eu fiz, eu eu instalo os modelos eh numa primeira
+fase, foi o que eu fiz aqui. Ele tem um conjunto
+
+
+de funções para instalar determinados modelos
+que são famosos e que vocês até já conhecem. Se
+
+
+vocês têm seguido os meus tutorials, como o Flux
+1, Flux 2 Kline, o modelo z-image-turbo, que eu
+
+
+gosto bastante porque são alguns dos modelos mais
+conhecidos, depois há outros também como o nano
+
+
+banana e há tantos mais. OK. Eh, mas pronto. Eh,
+portanto, eu instalei aqui alguns modelos. Sim,
+
+
+senhora. E instalou. Pronto. E agora vamos
+aqui ao ao diffuse diffuse CPU. OK. Ora,
+
+
+aqui no setup aqui
+
+
+Ora, aqui já fiz o o current directory. OK. Aqui já
+não preciso ter esta inicialização aqui.
+
+
+Ora o diffuse, o diffuse R já não me lembro se
+está disponível no CRAN ou não. Deixa ver aqui.
+
+
+Não está. Pronto, este é um exemplo em que há
+um package ainda é bastante novo ou ou ou por
+
+
+não ser novo ou porque ainda não reuniu
+todos os requisitos, todos os critérios
+
+
+de aceitabilidade por por parte da da base
+de dados oficial da linguagem R e, portanto,
+
+
+ainda não está no CRAN. Eh, e portanto, mas está
+está no GitHub. Pronto, eu obtive boas referências
+
+
+dele e nomeadamente através do chat GPT. E,
+portanto, eu eu instalei-o a partir daqui. OK.
+
+
+Eh, uma vez instalado um package,
+vocês podem podem encontrá-lo aqui.
+
+
+Ora, diffuse R. OK. E aqui, carregando aqui
+neste neste icon do mapa mundo, vocês podem
+
+
+aceder à documentação dele diretamente no GitHub.
+Portanto, como vêem, isto é bastante user friendly,
+
+
+bastante poderoso. Eh, e portanto aqui podem podem
+dar uma vista de olhos e consultar a documentação
+
+
+se vocês quiserem instalar vocês e experimentar.
+Pronto, é como vos digo, não consegui pôr isto a
+
+
+trabalhar na gráfica, mas mas pus a trabalhar no
+CPU. Obviamente no CPU é muito mais lento. Pronto,
+
+
+aqui estão aqui um exemplo. Vamos ver aqui a
+correr um bocado. Isto é um é um bocado lento. Eh,
+
+
+eu não eu não vou pôr a correr porque isto é um
+bocado lento. Eu demora para aí do 2 minutos e
+
+
+meio ou 3 minutos a gerar, por exemplo, esta
+imagem do gato. Mas vou-vos mostrar. Vocês
+
+
+acreditam que corri isto ainda há bocado, estava a
+fazer o teste e, portanto, como estão a ver aqui,
+
+
+eh, eu dou aqui estes estes dois comandos aqui
+iniciais, dou-lhe aqui um time out. Este time
+
+
+out aqui não é preciso. Eu penso que isto
+é para ele e se ele fosse baixar o modelo,
+
+
+mas como eu já o baixei, portanto eu já não
+preciso disto. Esta parte aqui nem nem percebi bem
+
+
+o que é que isto faz, mas isto vinha recomendado
+na documentação. esta parte daqui temporary
+
+
+modify gradient recording. Eh, bom, não vou agora
+agora não é não é tempo estar a estudar isto como
+
+
+também não percebi também não vou tentar
+explicar. Ah, e portanto esta parte aqui,
+
+
+isto aqui está a mais pronto e depois portanto
+aqui é o é o normal que já estamos já já estamos
+
+
+habituados um nome de um modelo. Claro que isto
+tem muito mais parametrização, mas ele aqui vai
+
+
+usar os defaults, não é? nomeadamente o tamanho,
+as dimensões da imagem. OK? Pronto, ele aqui tem,
+
+
+ele aqui tem o modelo, os modelos que ele
+trabalha à partida são só estes. OK? Eh, eu
+
+
+agora vou vou usar aqui o Flux 2. Não vou 
+não, porque que eu não não vou usar porque eu já
+
+
+vou só mostrar-vos o resultado. Ah, aqui nem tem.
+Agora aqui não tem mais detalhes. Ok. Eh, pronto.
+
+
+E vou-vos só mostrar aqui o resultado que ele
+gerou o o gato com os óculos escuros. Pronto. 
+
+
+cá está. Pronto. Eu, com licença, eu não vou
+usar isto, obviamente, porque eu já tenho o
+
+
+confyUi. o confyUI é uma plataforma mais poderosa e
+além disso, esta é a solução agora aqui local,
+
+
+eu como não como não está a funcionar na gráfica,
+pois perde perde todo o interesse, não é? Pronto,
+
+
+só estou-vos só a mostrar só por uma questão de
+curiosidade para vocês saberem que existe e
+
+
+é como digo, poderão tentar instalar nas vossas
+máquinas e até poderá correr nas vossas máquinas.
+
+
+Não tem nenhum problema que eu estou que eu estou
+a ter porque na minha máquina não consigo pôr
+
+
+isto a correr na gráfica. OK? Pronto. Aqui vocês
+acreditam que isto funciona, que isto gerou 
+
+
+aqui gera aqui a imagem. Eh, na altura até ele
+depois até porque quando vamos ao Task Manager,
+
+
+nós vemos que o CPU realmente está a ir a não digo a
+100%, eu também tenho um CPU bastante poderoso,
+
+
+mas pronto, o CPU vai ali aos 60 70% e portanto e
+e funciona. Pronto, e gerou gerou aqui o gato. OK,
+
+
+pronto, vamos passar à frente. Eh, então
+agora vamos passar para o confyUI. Na altura,
+
+
+como eu estava a fazer a parte de transcription
+de áudio e eu estava a ver estava a ver e pá,
+
+
+mas isto é muito lento, eu não consigo pôr isto
+na minha gráfica, está-me a rebentar. E portanto
+
+
+eu fui ao chat GPT e perguntei-lhe: "Olha lá, por
+acaso não conheces nenhum nó eh que eu possa usar
+
+
+no ConfyUI ?" OK, eu tenho-me dado bem com o ConfyUI.
+Normalmente tenho conseguido trabalhar bem com
+
+
+o ConfyUI e pronto. E ele recomendou-me, que é o
+que vamos ver agora. Vamos ver um nó. E vamos
+
+
+ver agora. vai ser um bom exercício, porque nós
+vamos ver como é que eu consegui fazer desde
+
+
+o zero criar um workflow que eu que eu criei,
+mas é bem simples com poucos nós, mas pronto,
+
+
+criei o workflow do zero e como consegui
+exportar o workflow para um Json local,
+
+
+integrá-lo dentro da minha arquitetura de R e pô-lo
+a correr. E portanto e vai ser um bom exercício
+
+
+porque nós vamos ver isto tudo. OK? Pronto,
+então, para já, eu vou arrancar eh eu vou,
+
+
+deixa-me só fechar aqui esta parte do diffuse R.
+Eu vou arrancar aqui o meu projeto do confyUI, e entretanto
+
+
+eu vou arrancar que ainda não arranquei o 
+confyUI propriamente dito o produto. Pronto,
+
+
+eu tenho aqui um icon que arranca,
+
+
+que é um, está aqui, mas está aqui no meu
+outro monitor, eu agora puxei para aqui,
+
+
+que é o  easy launcher. Pronto. Eh, já
+vos tinha falado disto. Portanto, há há várias
+
+
+maneiras de instalar o ConfyUI Mas há uma maneira
+que é recomendável e que eu também recomendo,
+
+
+que existe um produto no GitHub que é o Easy
+Launcher. ConfyUI Easy Launcher que pronto,
+
+
+que faz uma instalação um pouco mais
+customizada, um pouco mais poderosa. Ah,
+
+
+isto e pronto. E a partir daí é o que eu tenho
+estado a usar. E eles agora criaram este launcher,
+
+
+eh, que eu posso arrancar o confyUI server, servidor
+e depois o cliente pode ser aqui no browser,
+
+
+que antigamente era o default, ele arrancava
+no browser e depois havia um e depois havia um
+
+
+icon à parte que que eu arrancava porque
+que eu não gosto de correr isto no browser
+
+
+e ele arrancava como uma web app, ou seja, uma
+aplicação de desktop, mas que não é mais do que
+
+
+a cópia da versão do browser, simplesmente
+materializada numa aplicação desktop, OK?
+
+
+Eh, e portanto eu tenho estado a correr aqui esta
+esta parte aqui e depois eu corro aqui com o sage
+
+
+attention. Eh, não vou tentar explicar o que é
+isso agora que extravaza um pouco aqui o âmbito,
+
+
+mas se quiserem investiguem o que é que é num
+modelo de IA, o que é que é o attention. E  portanto
+
+
+eu tenho eu tenho corrido aqui com o sage attention.
+Eh, eu vou arrancar isto aqui. OK. Deixa
+
+
+ver se ele está a arrancar ou
+não. OK, ele está a arrancar aqui.
+
+
+Olha, por acaso está aqui
+um update. Eh, update. OK.
+
+
+Eh, não vou fazer agora o update. Pronto,
+para para ver se não demora tempo.
+
+
+Portanto, tenho-me dado bem com este easy install esta
+esta versão personalizada porque como vocês vêem,
+
+
+ele trata, identifica
+o update, faz os updates,
+
+
+dá-me ali uns links eh uns shortcuts para fazer
+o update do confyUI o update dos nós, etc, etc. OK?
+
+
+Pronto. Então, portanto, como vos estava a
+dizer, eu fui ao chatGPT e ele recomendou-me
+
+
+um nó. Pronto. OK. OK. Ele não recomendou
+um nó, ele recomendou um package. Portanto,
+
+
+o que no confyUI, o que acontece é que e existe
+um conjunto de packages, OK? Imaginem como se
+
+
+fosse um package de uma linguagem de programação.
+Portanto, aqui é um package. Eh, tanto quanto sei,
+
+
+normalmente é programado em Python também. esses
+packages e esses packages contêmm um conjunto
+
+
+de nós, digamos assim. É como um package de uma
+linguagem de programação e contém um conjunto de
+
+
+funções. Portanto, ele aqui contém um conjunto de
+nós. Mas este package em particular que vamos ver,
+
+
+por acaso, bem simples, só contém um nó, que
+é um nó que que implementa o o modelo whisper,
+
+
+OK? Da Open AI Whisper, que é o que nós vamos
+ver. Portanto, é bem simples. Eh, e portanto
+
+
+aí foi bem simples de eu conseguir fazer um 
+workflow de raiz bem simples. Já vou-vos
+
+
+mostrar. Só tive que pôr mais dois nós, um
+nó de entrada e um nó de saída. OK? Bem simples.
+
+
+Eh, e depois e eu exportei esse nó. Como vocês
+já sabem, eu já mostrei isto no meu tutorial
+
+
+anterior do confyUI maratona e, portanto,
+exportei para a minha arquitetura. Eh,
+
+
+porque gosto mais, gosto mais de trabalhar e
+ou de hoje para amanhã eu cada vez que preciso
+
+
+fazer uma transcription, pois eu é mais fácil
+para mim trabalhar desde desde dentro do R. OK.
+
+
+Está um bocadinho lento.
+Vamos aguardar aqui um bocado.
+
+
+Ora, e o que é que nós vemos aí?
+Entretanto, enquanto ela arranca,
+
+
+vamos aqui falando aqui um bocadinho. Ora, aqui a
+nível do setup, o que é que eu vou fazer aqui? Vou
+
+
+vou agora não preciso de nada disto. Não
+preciso de LM Studio nenhum. Aliás, eu vou é vou é
+
+
+garantir que não tenho nada carregado em memória,
+porque já não me lembro se deixei alguma coisa
+
+
+carregada em memória. Vou aqui, deixa-me fechar
+aqui os terminais. Não sei se tenho aqui alguma
+
+
+coisa aberta. OK, deixa-me vir aqui garantir
+que tenho tudo fechado. Ora, LMstudioStop.
+
+
+Deixa-me ver aqui.
+
+
+Isto não está ainda. LMstudioStop. Isto
+está um bocado, está um bocado desatualizado.
+
+
+Está um bocado desatualizado. Deixa-me, deixa-me
+vir aqui ao LM Studio ver se tenho aqui alguma
+
+
+coisa carregada em memória, porque eu acho
+que esta, esta versão já não é a última. Não
+
+
+não quero estar agora a correr isto. Deixa
+ver aqui se eu tenho aqui alguma coisa. Ora,
+
+
+por acaso também já tem aqui um update
+available. Deixa-me ver aqui. Ora, os modelos.
+
+
+Penso que não tenho nada carregado.
+
+
+Load model... penso que não.
+
+
+loaded models não está aqui nada. Ok. Sim, senhora.
+Ora, vamos ver o confyUI se ele já. Ok, ele já já
+
+
+acabou. Pronto, cá está ele. Pronto. Eh, então,
+basicamente, o que é que nós temos? Portanto,
+
+
+eu eu vim aqui ao manager, OK? Se não conhecem
+o ConfyUI pois , vejam tutorials. Já
+
+
+vos recomendei várias vezes aquele aquele tutorial
+espetacular que é da Pixaroma. OK? Portanto,
+
+
+eu na altura eu cheguei aqui, eu vim aqui ao
+package manager, eu pesquisei o nome que o chat
+
+
+GPT me deu, o whisperXX. Ok, pronto. Eh, basicamente
+ele aqui diz quantos quantos nós tem. diz que
+
+
+este package só traz um nó ou melhor, quanto
+menos melhor. Eh, e porquê este nome designação
+
+
+xx? Pronto, o que acontece é que existe, acho
+que existe uma variante do whisper que é chamado
+
+
+whisperX, que traz uma feature mais avançada
+que eu que por acaso também estava à procura dela,
+
+
+que é chamado o diarization. E o diarization
+é um nome técnico que se dá quando fazemos a
+
+
+identificação de um diálogo, identificando quantas
+pessoas estão envolvidas na conversação e qual é o
+
+
+o nome da pessoa quando nós conhecemos o nome eh
+dos personagens, o personagem o A, B e C de quem
+
+
+está a falar a cada momento. Pronto, isto é também
+é bastante útil, como vocês possam imaginar,
+
+
+fazer essa  parte quando nós estamos
+a fazer o transcription de uma conversação
+
+
+que envolveu várias pessoas. OK, mas eh eu não
+consegui pôr essa parte da diarization a funcionar
+
+
+realmente, nem com o whisper que vimos há bocado
+dentro do R, nem com este whisper aqui do
+
+
+confyUI eu não consegui pôr essa parte a trabalhar.
+E também estive a tentar trabalhar com um package
+
+
+de Python, que também existe naturalmente
+que também existe um whisper de Python.
+
+
+Eh, e eu estive a tentar trabalhar com programação
+eh pura e dura de Python dentro do Positron,
+
+
+mas também não consegui pôr essa parte a
+trabalhar. E se conseguisse também à partida não
+
+
+vos iria mostrar porque o meu os meus tutoriais
+são de linguagem R, não são de Python e portanto
+
+
+à partida também não iria mostrar isso. Ora
+bem, portanto, então aqui isto é só para verem que
+
+
+o meu nós pesquisamos, encontramos o package. Às
+vezes há packages parecidos com nomes parecidos,
+
+
+nós temos que ter cuidado. em caso de dúvidas,
+depois convém investigar ou vamos ao chatGPT,
+
+
+perguntamos, pronto. E então aqui já não
+havia dúvida, era esta e eu já instalei,
+
+
+portanto está instalado, não vou instalar outra
+vez. Pronto. E agora quando estamos aqui nós,
+
+
+eu dou dois cliques. Eu eu instalo aqui o nó. Eu
+pesquiso aqui whisperxx. Ele até ele diz-me aqui o nome
+
+
+do nó que é o whisperxx. E ele diz-me aqui,
+olha o whisper o whisper cpp transcription. Eu
+
+
+ponho aqui o nó. E aqui começa começa a fazer o
+workfow. Pronto. Ok. O que acontece é que eu já
+
+
+fiz o workfow. Agora não vale a pena. Vou já buscá-lo
+aqui que já está feito, mas é bem simples. Pronto, é
+
+
+só por dizer que aqui já está feito. Pronto, e este
+é o workflow, eh, que eu já o fiz. Eh, e como vêem,
+
+
+ele é bem simples e bastante completo.
+Ele tem aqui o o nó principal e ele recebe
+
+
+aqui um áudio. Eh, eu quando estava a fazer este
+workflow e era bem simples. O que é que acontece?
+
+
+Eu nós arrastamos aqui o nó. Nós arrastamos aqui
+o nó. Eu ponho aqui o nó e depois eu digo assim:
+
+
+"Bom, tem que entrar aqui um áudio, mas mas qual
+será o nó de input?" O que acontece é que eu
+
+
+arrasto aqui e ao arrastar o sistema vai me propor
+quais os possíveis nós que são compatíveis com
+
+
+esta entrada. E portanto e um deles vinha logo
+aqui à cabeça, por exemplo, vinha logo aqui load a
+
+
+áudio. Então eu experimentei, pronto, e funcionou.
+Eh, e o mesmo para a saída. Ele tem aqui várias
+
+
+várias saídas. Porquê? Porque este este nó ele
+fornece vários tipos de saídas, vários tipos de
+
+
+legendagens. Podem ser legendagens com timestamp, sem
+time stamps, etc, etc. Há vários formatos. Pronto,
+
+
+eu estou a usar o formato mais simples, que é o a
+transcription mais simples, eh, sem time stamps,
+
+
+sem nada. Eh, e portanto eu arrastando assim para
+aqui, portanto ele também me propõe aqui qual é os
+
+
+nós possíveis de saída. Eu ah pá, eu tenho tenho
+poucos conhecimentos de confyUI. À partida eu olhei
+
+
+aqui, olha, tenho aqui um show text, olha, nem
+é tarde nem é cedo, vou usar este. Pronto, e
+
+
+então cheguei aqui, pronto, está feito. OK. Pronto,
+basicamente foi só isto. Foi pôr um nó de entrada,
+
+
+um nó de saída e ficou tudo a trabalhar. Deixa-me
+fechar aqui isto, esta parte aqui. Pronto. Então
+
+
+aqui vamos pôr aqui um áudio, como estamos aqui
+a ver. Eu tenho aqui um áudio. Eh, e portanto,
+
+
+eh, vamos esta parte aqui deixa apagá-la.
+OK, pronto, vamos pôr isto a correr. Pronto,
+
+
+basicamente foi o que eu fiz. Eu tenho que testar
+a ver se se todo o worflow está a trabalhar. OK,
+
+
+cá está. Podemos ver que ele está a recorrer à
+partida à gráfica, porque ele tem aqui a a VRAM.
+
+
+está a ser ocupada, enquanto que o CPU está
+fraquinho. OK, vamos ver. Está a demorar um
+
+
+bocado de tempo, provavelmente tá a
+carregar o modelo ainda na gráfica,
+
+
+porque é uma primeira chamada que eu estou
+a fazer. OK. E pronto, cá está. E ele está,
+
+
+aparece-me aqui a mensagem, job completed. Eh,
+e pronto, está aqui a, está aqui a transcrição,
+
+
+que isto foi é um pequenino áudio de exemplo que
+o que eu pus aqui. Eh, e portanto funciona. Eh,
+
+
+a partir daqui, o que é que eu fiz? Eu fiz, bom,
+OK, mas eu eu não venho trabalhar aqui, não gosto
+
+
+de trabalhar aqui, vocês já sabem. Eu aqui gosto
+de testar e depois eu gosto de exportar exportar
+
+
+o workflow. Portanto, eu vim aqui e fiz o
+o export file export as API. Vocês já conhecem isto,
+
+
+já vos expliquei. E exportei. Pronto, exportei.
+Portanto, vou minimizar agora isto. Portanto,
+
+
+então foi o que eu exportei aqui. Ora, já
+vos expliquei isto no meu outro tutorial.
+
+
+Para os workflows. A nível de
+workflows embeded aqui não tem.
+
+
+Aqui não tem porque que eu já vos expliquei
+que quando geramos, por exemplo,
+
+
+uma imagem ela a imagem guarda o workflow
+dentro da imagem. É extremamente poderoso,
+
+
+mas agora ele ali gera um texto, portanto onde é
+que ele vai guardar o workflow? Portanto, ali não
+
+
+tem. Portanto, ali não consegui gerar nenhum
+objeto, pelo menos que eu esteja a perceber. Não
+
+
+consegui gerar um objeto com o workfow, OK?
+Com o workfow embutido, digamos assim. OK?
+
+
+Eh, portanto, eh, haveria, uma maneira
+de enganar o sistema. Eu podia pôr ali um nó, um
+
+
+nó qualquer, um dummy node a gerar uma imagem qualquer,
+qualquer coisa, só para enganar o sistema e só
+
+
+para poder gravar um objeto para depois ter.
+Portanto, a ideia a ideia destes objetos que eu
+
+
+guardo aqui é uma é uma garantia que eu não 
+perca os workflows, OK? É uma garantia que eu
+
+
+tenho aqui, porque realmente já tive problemas no
+passado com os workflows do ConfyUI quando estava a
+
+
+trabalhar, trabalhava bastante com os workflows,
+fazia, fazia alterações, salvava e havia bugs e às
+
+
+2 por três ele e perdia-me o workflow ou esmagava-me
+os workflows. Ok, pronto. Portanto, aí eu deixei
+
+
+de trabalhar com os workflows salvados ali e eu ou
+guardo aqui estes objetos ou neste neste caso não
+
+
+consegui fazer isso, mas pronto, salvei, exportei
+o workflow e tenho aqui o workflow. Eh, portanto,
+
+
+tenho aqui o workflow, o whisper. OK. E pronto. E
+está aqui o workflow. O workflow é pequenino porque
+
+
+ele ele usa um nó que é bastante
+poderoso. Ele é pequeno porque já tem um nó
+
+
+um nó que ele ele ele é bastante poderoso que ele
+ele aglutina lá dentro toda uma série de
+
+
+parametrização. Eu por acaso aqui eu aqui não vos
+mostrei, mas eh não é aqui, é aqui. Eu aqui não
+
+
+vos mostrei, mas ele aqui tem opções avançadas
+em que que é esta parte aqui. Pronto. E aqui,
+
+
+como estão a ver, nós aqui podemos mexer em muito
+mais parâmetros e e nomeadamente aqui na parte da
+
+
+diarization que eu vos falei, poderíamos mexer
+aqui na parte da diarization, onde é que isso
+
+
+está? Está, acho que está aqui quando eu diz aqui
+diaris e pronto, mas eu não consegui pôr isto a
+
+
+trabalhar, portanto, até porque eu só me aparecia
+aqui um modelo de diarization para língua inglesa
+
+
+e, portanto, não me servia porque eu tinha de
+língua portuguesa. Eh, e não aqui não não vi eh
+
+
+nenhuma outra hipótese de mudar isto. Enquanto que
+o modelo de transcription, esse não tem língua, é,
+
+
+esse é multilíngua que ele tem aqui o modelo,
+ele aqui tem o default modelo large V3 turbo,
+
+
+mas na verdade o que eu estou a usar é o
+Large V3, que é mais poderoso. OK, pronto. 
+
+
+mas como estão a ver aqui, é fácil chegar aqui,
+reparem, eu estou a mexer aqui nos parâmetros e
+
+
+às 2 por tr eu estraguei os parâmetros que
+eu tinha, estão a ver? Então é por isso é que
+
+
+eu gosto de salvar e exportar o Json, porque
+uma vez exportado tenho aqui essa garantia,
+
+
+porque eu aqui  imagina que eu aqui eu 
+esmaguei os parâmetros às 2 por 3 já não me
+
+
+lembro qual era a afinação, o fine tuning que eu
+tinha feito. Até tenho aqui agora neste momento
+
+
+até tenho aqui um um parâmetro vermelho que  aparenta estar com erro. Ok.  Pronto,
+
+
+esta parte, mas não interessa porque não
+vamos agora usar isto que eu agora já tenho,
+
+
+já tenho ali o Json salvado. OK, pronto. Eh, e
+portanto eu aqui o que é que acontece? Eh, esta
+
+
+foi a primeira vez que eu ia tratar um um modelo
+no qual a entrada era um áudio, porque eu ainda
+
+
+não tinha nenhum modelo desse tipo. E, portanto,
+que eu aqui tive que adaptar a minha arquitetura
+
+
+porque isto era uma novidade. OK? Eu não sei
+se vocês se lembram na altura que vos falei,
+
+
+vejam o meu tutorial anterior, e eu vos falei
+que isto era muito rápido acrescentar qualquer eh
+
+
+workflow novo sempre e quando ele trata os mesmos
+tipos de objetos com que já estavam eh suportados
+
+
+na minha arquitetura. OK? Não sei se eu me
+explico, porque eu tinha aqui que eu vos mostrei,
+
+
+eu tenho aqui uma função, deixa carregar aqui as
+funções. Pronto. E eu tenho aqui uma função que
+
+
+faz o levantamento, o levantamento de todos
+os meus modelos, todos os meus workflows.
+
+
+Vos expliquei isto no meu outro tutorial, que eu
+venho aqui eh aqui tenho que este levantamento que
+
+
+é para que é um que é um lembrete para eu saber
+eh todo o tipo de inputs ou outputs. Outputs não,
+
+
+inputs, porque normalmente o output é só um
+um output e o output e nós podemos ver através
+
+
+da nomenclatura do do aqui do do workflow. Foi
+foi o padrão que eu, por exemplo, este workflow
+
+
+do whisper eu chamei speak to text. Pronto,
+que significa que gera texto e entra speak,
+
+
+ou seja, speak é o principal que entra, mas
+pode entrar mais coisas, pode entrar prompt,
+
+
+por acaso, neste caso, não entra. Este modelo
+não tem, não tem prompt, mas mas poderia entrar.
+
+
+Pronto. E então e os diversos inputs que
+podem entrar, eu tenho que os sistematizar,
+
+
+OK?  é o que me aparece aqui. Ele eu fiz esta
+função. Ele faz o scanning daqui dos meus
+
+
+workflows e vai ver dentro deles tem um conjunto
+de palavras reservadas que eu defini que estão
+
+
+escritas em maiúsculas. Isso está tudo explicado
+no tutorial anterior. E portanto, eh, e portanto
+
+
+estou a ver aqui se o áudio está a gravar. Acho
+que sim. OK. E portanto é essa parte aqui. E este
+
+
+workflow ele era novidade porque ele trabalhava
+com speak. Reparem aqui na coluna do Speak é o foi
+
+
+o primeiro que trabalha com Speak. E era novidade,
+não tinha nenhum a trabalhar com Speak. Portanto,
+
+
+tive que aqui tive que mexer um bocadinho
+mais nas funções para suportar um novo tipo
+
+
+de input. OK? Pronto, não sei se me explico.
+E portanto tive tive que tive que mexer aqui
+
+
+um bocadinho nas funções. OK. Aqui vamos
+ver aqui as funções onde é que elas estão.
+
+
+ConfyUI functions. Portanto, aqui.
+
+
+OK. Portanto, eu aqui criei criei uma nova palavra
+reservada que é esta aqui. Reparem aqui nela que
+
+
+é o speak. OK. Eh, aqui não há mais nada. Não há
+promp. Aqui não  Seed aqui 
+
+
+não há nada. Portanto, isto não é não é preciso
+seed para nada. Isto é uma transcription é
+
+
+uma coisa objetiva, determinística, portanto
+não preciso aqui de passar seed nenhuma. OK?
+
+
+Só precisei de pôr este novo campo speak. Sim,
+senhora. E portanto aqui tive que pôr eh confyUI
+
+
+get models aqui. Tive que criar aqui, pronto, um
+um novo campo. tive que fazer aqui uma adaptação,
+
+
+basicamente os tipos de palavras reservadas
+com que eu trabalhava, tive que pôr um novo.
+
+
+Pronto, daí deu-me um bocadinho mais trabalho,
+mas já fica para o futuro. Agora já passa a
+
+
+suportar para o futuro todo, todo e qualquer tipo
+de workflow que trabalhe com um speak, pois já já
+
+
+está suportado. OK, não sei se me explico. Pronto,
+não vale a pena agora ver ao detalhe. Portanto,
+
+
+tenho aqui eh tenho aqui o speak, tenho aqui
+a detecção da palavra chave speak, etc, etc.
+
+
+Pronto, que esta parte eu expliquei do meu
+tutorial anterior. Pronto. Eh, e agora vamos aqui,
+
+
+pronto, ver aqui o script propriamente dito.
+Vou chamar aqui o confyUI whisper. Pronto,
+
+
+cá está ele. Tenho aqui, vamos ver aqui esta
+transcription aqui deste áudio. OK, cá está ele.
+
+
+Este aqui não, este, este é bastante
+longo. Vamos ver aqui uma coisa rápida.
+
+
+OK. Eh, vamos ver aqui.
+OK. Ora, tenho aqui output.
+
+
+Vamos ver aqui. Vai propor no parlamento a lei
+centeno. Pronto, cá está. Temos aqui um áudio. OK.
+
+
+Ora, e vamos agora chamar o transcription
+igual a COMFYUI Lembram-se que eu faço a validação,
+
+
+fiz uma função específica para fazer a validação
+de parâmetros. Recordam-se? Se não se recordam,
+
+
+vou-vos  relembrar aqui, OK? Imaginem que eu
+já não me lembrava quais os parâmetros do que que
+
+
+que necessários para este workflow. Eu já tenho
+uma mais de uma vintena de workflow, já as duas
+
+
+por já não me recordo. Eu se eu chamar um workflow
+com falta de parâmetros ou com parâmetros errados,
+
+
+pois ele avisa-me, diz-me: "Olha, o workflow,
+o whisper speak to text, ele requires speak". E a
+
+
+assinatura deste workflow, tens que passar dois
+parâmetros, tens que passar o workflow e speak.
+
+
+Pronto, esta é uma parte fundamental, como vocês
+vêem, porque eu já tenho eh mais de uma vintena
+
+
+de workflows e às 2 por 3 já era impossível, já
+não me recordava quais todo o tipo de parâmetros
+
+
+obrigatórios que eram necessários. Pronto.
+E portanto eu fiz esta função que analisa,
+
+
+faço o scanning dos workflows para me poder
+depois validar o que eu estou a passar para
+
+
+garantir que eu estou a passar todos os parâmetros
+necessários, OK? Porque aqui é uma uma função que
+
+
+tem muitos parâmetros, eh, sendo todos os
+eles opcionais, como estamos aqui a ver.
+
+
+OK, posso passar prompt imagem, vídeo, second imagem,
+etc, etc. Ok, pronto, então aí já sabemos. E digo:
+
+
+"OK, eu preciso de passar um speak". OK, cá
+está ele aqui. Pronto, vamos então passar o
+
+
+transcription. OK, vou abrir aqui o confyUI, por
+exemplo, para vermos aqui na consola que ele 
+
+
+vai ele vai estar aqui a correr. Vamos ver aqui
+aqui. Vamos ver aqui. OK. Transcription. Ok.
+
+
+Ora cá está ele.
+
+
+Vamos ver. Isto há-de ser rápido.
+
+
+O mais lento deve ser carregar o modelo em memória
+propriamente dito, que eu penso que ele deve estar
+
+
+com uma filosofia de carrega e descarrega.
+Às vezes alguns nós têm a opção. Pronto,
+
+
+foi bastante rápido, como estão a ver. Eh, e é
+mais rápido ainda se isto é eh não foi tão rápido,
+
+
+que é como vos digo, porque ele carrega
+o modelo em memória. Pronto. E, portanto,
+
+
+quando o áudio aqui é pequenino, não se não
+isso é significativo. Se um áudio for grande,
+
+
+eh, o áudio de 1 hora, posso-vos dizer
+que demorou para aí 2 ou 3 minutos a
+
+
+fazer a transcription total. Portanto, bastante
+poderoso, como estão a ver, bastante flexível.
+
+
+Eh, e portanto já fez. E agora vou fazer o
+mesmo que fiz há bocado. Vou vou-lhe tirar aqui,
+
+
+vou fazer aqui umas quebras de linhas que é mais fácil.
+Pronto. OK. Já salvei aqui nas transcriptions.
+
+
+Ora, ComfyUI transcriptions. Cá estão elas. Ora cá está ela.
+OK. E pronto, penso que estamos chegados ao
+
+
+fim deste tutorial. Espero ter-vos mostrado eh
+ter sido interessante que como vos digo aqui,
+
+
+a principal o principal objetivo foi mostrar esta
+novidade que eu nunca tinha falado e nem
+
+
+sabia que já existia, que é a possibilidade de
+de eh por enquanto ainda é limitada, mas pronto,
+
+
+é uma nova abordagem de como trabalhar com
+modelos de inteligência artificial eh totalmente
+
+
+integrados dentro da linguagem R, sem recorrer
+a nenhum produto, OK? Que é o que fizemos com o
+
+
+package Whisper e com o diffuse R. Infelizmente
+ainda não está a trabalhar na perfeição,
+
+
+OK? Como vos mostrei e daí ter feito este addon
+aqui, esta chamada ao confyUI também como uma espécie
+
+
+de continuação do tutorial anterior para vocês
+verem. OK? Na altura tinha-vos dito que tinha-me
+
+
+gabado da minha arquitetura e como facilmente
+podia integrar qualquer outro workflow. E
+
+
+aqui fiz-vos uma demonstração cabal em como
+integrei. Pronto, não vos disse quanto tempo
+
+
+é que demorei porque este workflow como tinha um
+campo novo, foi isso que fez demorar mais tempo,
+
+
+não é? Que era o speak. Eh, e portanto, mas coisa
+de meia horinha para aí tinha isto a trabalhar.
+
+
+Pronto. E agora já tenho e agora para o futuro,
+pois já tenho uma uma arquitetura mais robusta.
+
+
+que já suporta também modelos de de com tratamento
+de áudio de input. OK? Na minha maratona que vocês
+
+
+se vocês se recordam tínhamos visto modelos
+de TTS text to speak, mas não tinhamos visto nenhum desta área de
+
+
+ASR automatic speak recognition e pronto daí foi
+interessante fazer agora este tutorial. Eh,
+
+
+espero que tenham gostado. Eh, penso que foi penso
+que sim, cobrir tudo o que eu queria mostrar.
+
+
+Eh, e pronto, muito obrigado
+pela atenção e até um dia destes.
+
+

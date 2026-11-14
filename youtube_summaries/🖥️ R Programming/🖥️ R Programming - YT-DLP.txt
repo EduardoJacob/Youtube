@@ -1,0 +1,11 @@
+🖥️ R Programming - YT-DLP
+1. Apresentação do Positron e comparação com o RStudio como IDEs.
+2. Introdução aos novos pacotes R, incluindo rstudiotools e aitools.
+3. Integração de ferramentas de Inteligência Artificial via OpenRouter e Ellmer.
+4. Configuração do terminal PowerShell 7 para uso no RStudio.
+5. Nova estrutura de projetos e pacotes com ficheiro setup.R.
+6. Utilização de funcionalidades de busca e substituição massiva no código.
+7. Fluxo de trabalho para downloads massivos da API do YouTube.
+8. Orquestração de ferramentas externas como yt-dlp e ffmpeg pelo R.
+9. Processamento de áudio, renomeação de ficheiros e adição de metadados ID3.
+10. Potencialidades futuras para pipelines de IA e automação de tags.

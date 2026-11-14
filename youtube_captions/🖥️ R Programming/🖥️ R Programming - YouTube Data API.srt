@@ -1,0 +1,2800 @@
+
+Ora, sejam bem-vindos a mais um tutorial de
+linguagem R e RStudio. OK? Por acaso ainda agora
+
+
+eu entrei no RStudio e ele avisou-me que tinha um
+upgrade para fazer, que eu já o fiz. Baixei esta
+
+
+versão acabada de sair hoje mesmo. OK. Este é o
+site onde podemos baixar o RStudio. Aqui podemos
+
+
+podemos baixar a linguagem R também a partir
+daqui. Eh, à partida podemos devemos instalar
+
+
+primeiro a linguagem R e depois o RStudio. OK.
+Eh, o R também acho que traz um pequenino editor.
+
+
+Eh, acho que sim, mas eh toda a gente usa usa o RStudio.É o IDE por excelência para a linguagem R.
+
+
+Também existe um um outro componente, um terceiro
+componente que pode ser instalado, que são os
+
+
+os RTools. Eh, podem pesquisar na internet e é um
+componente que serve para poder compilar packages
+
+
+que são instalados em em linguagem nativa
+e depois são compilados na máquina local.
+
+
+Portanto, são estes três componentes, a linguagem
+R propriamente dita, o RTools e o RStudio. OK?
+
+
+Eh, eu vou mostrar aqui, vou mostrar aqui nos
+meus programas instalados aqui, programs and
+
+
+features. Ora, eh, vou mostrar aqui, por exemplo,
+aqui temos o R, linguagem R, cá está, RStudio,
+
+
+cá está, e o RTools. OK, cá está. Eh, e portanto
+a o RTools será a versão e apropriada para a versão
+
+
+de R que que a pessoa tenha instalado. Mas se
+instalarmos a última versão do R da linguagem R,
+
+
+pois também podíamos instalar a última versão
+do RTools. Estes são os três componentes que
+
+
+devem ser instalados, OK? linguagem R,
+RTools e RStudio. Eh, hoje vamos então
+
+
+trabalhar aqui com as estatísticas de de de
+do meu canal de YouTube, não é? Portanto,
+
+
+isto se este tutorial vai ter interesse para
+para pessoas que têm um canal de YouTube e que
+
+
+queiram fazer alguma análise um pouco para para
+lá daquela que o próprio canal de YouTube nos dá.
+
+
+Eh, então eu vou aqui entrar,
+
+
+eu vou entrar aqui no no meu canal aqui no meu RStudio e desculpem, no meu YouTube Studio. A
+
+
+porque ah vai haver aqui uma uma uma componente de
+dados que eu não vou não à partida, tanto quanto
+
+
+eu percebi, não consigo aceder a ela através do do
+package e a partir da da do package que nós vamos
+
+
+usar e que eu já vou mostrar. E portanto há uma
+parte de informação que eu venho aqui eh buscá-la
+
+
+manualmente. OK? Mas também é interessante mostrar
+isto porque imaginando que pessoas que tenham um
+
+
+canal e que nunca tinham apercebido que dava
+para baixar dados estatísticos a partir aqui
+
+
+do do próprio YouTube Studio. Eh, então vamos
+aqui à parte onde diz o analytics. OK? Eu não
+
+
+sou propriamente um expert disto, não, portanto,
+nunca explorei isto aqui muito, mas eh mas quando
+
+
+precisei, houve uma determinada informação que eu
+precisava porque eu queria analisar e e depois não
+
+
+a consegui resolver usando o package na linguagem
+R, como já iremos ver. E então eu vim à procura e
+
+
+encontrei-a aqui. E depois eu vou então baixar a
+informação a partir daqui. Portanto, eu vou agora
+
+
+aqui entrar no advanced mode, OK? E a informação
+que eu quero é o total de views de todos os meus
+
+
+vídeos ao longo de todos os tempos. Portanto, até
+eu venho aqui e eu vou vou colocar aqui a lifetime
+
+
+e eu quero eh a partir por eh data. Portanto,
+
+
+eu quero os views por data, dia-
+a dia. Ora, onde é que isto está?
+
+
+Sinceramente, não estou a ver.
+
+
+Vamos aqui, deixa-me ir aqui também primeiro.
+Aqui eu aqui não quero estes campos todos,
+
+
+eu quero apenas os views. Vai e
+break. Eu break down. Eu tenho
+
+
+que me aparecer aqui data search
+break down date. Ah, cá está. Ok.
+
+
+Ok. Ele aqui voltou-me a pôr aqui mais
+campos, não sei porquê. Unselect all, views, apply.
+
+
+OK? Então, eh, basicamente tenho aqui toda a
+informação de todo o meu canal ao longo de todo o
+
+
+tempo e eu quero por data o total de views em cada
+dia, o tal de views que foram os views que foram
+
+
+desse dia. OK? Pronto. E agora vou aqui e vou
+fazer o download export current view. Ora, como um CSV,
+
+
+exatamente, que é mais simples, um CSV. Pronto.
+E ele tem aqui, tem aqui o nome do meu canal,
+
+
+Togastone. Ora, eu vou gravar aqui junto da minha
+da linguagem R. Ora, eu tenho isto aqui. Ora,
+
+
+YouTube. Como vêem, já tenho aqui alguns que eu
+que eu já tenho vindo a fazer. E agora esta é
+
+
+uma é um é um download novo. OK. E eu vou abrir
+aqui a folder. Vou abrir aqui a folder e vou eh
+
+
+extrair. Eu uso o 7zip extract here
+e ele eh vai dar aqui um overwrite.
+
+
+Eh, OK. Table data. Yes. E o outro é o
+totals, que é o que nós vamos usar. Yes. OK.
+
+
+Portanto, eh, vamos ver aqui o totals. Não sei se
+repararam, mas estava aqui um iconzinho vermelho,
+
+
+depois passa a verde. Portanto, isto é
+porque como como está debaixo do controle,
+
+
+a folder está debaixo do controle do Megasync, que eu
+já vos tinha falado no meu primeiro tutorial que
+
+
+foi dedicado ao Instant Data Scraper e portanto
+e e como a a sincronização através do Megasync é
+
+
+sempre instantânea, não é? Se eu cada componente
+que se altera, ele automaticamente deteta e vai
+
+
+sempre sincronizando na cloud. Eu uso muito
+isto porque às vezes estou a trabalhar noutro
+
+
+local com outra máquina, com outro computador. Eu
+consigo continuar onde estou de forma totalmente
+
+
+transparente. Eh, e chego a casa, vou para o meu
+desktop, como estou agora, e continuo a trabalhar,
+
+
+portanto, com total continuidade. Mais simples do
+que usar GitHub, por exemplo. Eu não uso GitHub.
+
+
+É raro usar o GitHub, digamos que será mais para
+trabalho colaborativo, como eu trabalho sozinho,
+
+
+não uso Gitub, mas o Gitub é muito mais e
+trabalhoso para para estar a trabalhar e
+
+
+configurar, porque o Gitub nós temos que dizer
+quando queremos sincronizar eh fazer os o push
+
+
+e o Pull e aqueles termos que ele usa. Pronto,
+enquanto que o Megasync é totalmente transparente.
+
+
+O Megasync está sempre a sincronizar tudo, OK? Sempre
+a sincronizar. No caso de nós fazermos asneira e
+
+
+estragarmos um componente, ele sincroniza
+essa asneira. Mas como eu também disse no
+
+
+outro tutorial, eu posso sempre ir buscar uma
+versão anterior ao vou vou à cloud, vou ao site
+
+
+do Megasync, posso visualizar e posso fazer fazer
+um download e puxar uma versão anterior. OK.
+
+
+Eh, já agora, queria também esclarecer um algumas
+assim um alguns pequenos disparates que eu disse
+
+
+no meu primeiro tutorial, porque estava um
+bocado cansado e e às vezes a pessoa não
+
+
+quando estava a falar, por exemplo, do Last Pass
+e e chamei a atenção que que não é recomendável
+
+
+as pessoas autenticarem-se nos sites com com
+password da Google da Google ou da Microsoft,
+
+
+não é? E mas depois eu não soube bem explicar eh
+a questão, não é que porque o site a plataforma
+
+
+pudesse ser comprometida, porque isso então porque
+então tanto tanto pode ser comprometida essa
+
+
+plataforma como aquela do Last Pass onde eu
+tenho as passwords. Portanto, o problema não vai
+
+
+por aí. E o problema vai que a pessoa possa sim
+perder e ou seja, a a a sua password de Google por
+
+
+algum motivo num num dado momento, eh, portanto,
+a pessoa para para perder essa password ou ou
+
+
+passar para o conhecimento de alguém. Pronto. A
+questão é simplesmente que se uma pessoa perde uma
+
+
+determinada password e depois com essa password
+essa a a alguém que adquiriu ter ter acesso a
+
+
+todas as plataformas porque uma pessoa eh se faz
+faz o login sempre com a com a password do Google.
+
+
+Portanto, isso parece-me que é óbvio, não é? Por
+isso, eu no no meu tutorial anterior, eu avisei as
+
+
+pessoas e recomendei para que não usem esse tipo
+de autenticação. Usem sim um gestor de passwords
+
+
+eh para terem uma password diferente em cada
+plataforma. Eu neste caso uso o Last  Pass. Como
+
+
+acho que vos tinha falado, eu uso o Last Pass a
+versão paga, versão premium, porque é que permite
+
+
+me aceder em todas as plataformas, no mobile,
+Linux, Android, Android, já falei, que é mobile,
+
+
+que é o que eu uso, Windows, etc, etc. E depois
+dá-me mais algumas mais valias também o gestor
+
+
+de passwords dá-me, imaginando, por exemplo, que
+um determinado site onde eu tenho password que o
+
+
+site foi atacado, não é? Foi comprometido, então a
+plataforma, o Last Pass avisa-me a dizer, portanto,
+
+
+dá dá-me um pouco, dá-me algumas mais valias. Eu
+estou bastante satisfeito. Não sou um especialista
+
+
+em em gestores de passwords. Há várias no mercado.
+não posso recomendar qual seja melhor ou não,
+
+
+mas eh o Last Pass é uma que eu comecei a usar
+aqui há uns anos e e estou satisfeito até hoje,
+
+
+não tem dado problema. Ora bem, vamos então vamos
+ver aqui o que é que nó que é que ele baixou.
+
+
+Temos o table data. Este este CSV eu nem uso, já
+nem me lembro o que é que ele tem aqui dentro.
+
+
+Eh, tem aqui date and views. Date,
+date and views. E o outro, o totals
+
+
+totals
+
+
+Parece-me que são iguais. Eh, que
+começa em 2010. Este aqui tem 2024.
+
+
+Show em top 500 resultados. Table data.
+Enquanto o totals começa em 2010. Começa
+
+
+em 2010. Tem muito mais informação e
+vai até ao dia de hoje. OK. Portanto,
+
+
+então o que me interessa é realmente o Totals,
+OK? Pronto, o Totals contém toda a informação.
+
+
+Reparem nos primórdios e 2010 eu não tinha,
+ainda não tinha canal de YouTube, não,
+
+
+portanto eu não fazia upload de nada, portanto não
+tenho aqui views nenhuns, tenho zero views. OK.
+
+
+OK. Portanto, nós, este, esta é a parte que eu
+precisei de ir buscar ao YouTube. OK, vamos tirar
+
+
+isto aqui. Ora, vamos então de volta aqui então ao
+RStuio. Eh, eu tenho aqui o código, tenho aqui no
+
+
+YouTube Tuber. Eu chamei, chamei-lhe Tuber porque
+vamos usar um package e que é o Tuber. OK? Sim,
+
+
+senhor. Já agora, quero falar também aqui no
+terminal porque no meu último tutorial o eu o
+
+
+terminal estava aqui desligado, eu
+não o tinha à mostra, eu fartei-me de elogiar
+
+
+aqui este IDE e continuo e mostrei-vos a consola
+de R. Mas o terminal como não estava à vista e,
+
+
+portanto, agora já o ativei e quero chamar
+a atenção, pois que é o normal também,
+
+
+qualquer IDE moderno também tem um
+terminal. Este terminal acho que é de DOS.
+
+
+Não, não, não tenho a certeza se dá para pôr aqui
+e o Power Shell ou algum outro tipo de terminal.
+
+
+Provavelmente dá, mas eu também não não aqui à
+partida nunca preciso de usar aqui o terminal. OK.
+
+
+a chamar a atenção que eu executo o R sempre
+aqui eh dentro, executo o R dentro do RStudio,
+
+
+mas não é obrigatório. Nós podemos executar um
+R desde desde a linha de comandos. OK? que eu,
+
+
+portanto, este é o IDE, mas o script em si,
+o script, obviamente que corre fora do RStudio
+
+
+e pode correr em linha de comando se quisermos
+fazer alguma automatização dentro de um DOS file
+
+
+ou de um PowerSell ou qualquer coisa. Eu, no
+meu caso, já fiz no passado usando Microsoft
+
+
+Power Automate, como já falei, e que
+depois ele invocava um meu script R.
+
+
+Ele aqui está-me a dizer que este aviso aqui
+em cima, package keyring required but not installed. Ok,
+
+
+portanto ele está-me a dizer que ele ele olhou para
+o meu código e viu que eu algures aqui estou a
+
+
+usar o é aqui aqui ele a partir daqui ele viu que
+eu estava a invocar um package keyring e que não
+
+
+está instalado na minha máquina e ele pergunta se
+eu quero instalar já. Podemos instalar já, embora
+
+
+ele também seria instalado aqui pela minha função
+do XLibrary, que é uma função que eu fiz e que
+
+
+instala automaticamente qualquer package que
+não esteja instalado. OK, ele já instalou. Sim,
+
+
+senhor. Ora, esta parte aqui, portanto, eu não
+vou perder aqui muito tempo a explicar esta parte,
+
+
+porque esta parte eh são funções que foram
+feitas por mim. Isto é um snippet e dentro da do
+
+
+package xfunctions, que é um package meu, eu fiz
+aqui esta XLibrary e portanto esta parte aqui,
+
+
+esta parte eu podia correr isto tudo sem esta
+parte, portanto esta parte não é necessária. 
+
+
+desde que vocês vão fazer um tutorial de linguagem
+R básica e, portanto, aí aprenderão como carregar
+
+
+um package, como instalar e como invocar, como
+invocar e chamando a função library, o a função
+
+
+library faz o load de um package. Pronto, portanto
+isso. Qualquer tutorial de R básico que vocês vão
+
+
+fazer, vão que façam, vão aprender essas coisas
+básicas, instalar um package e carregá-lo aqui
+
+
+na linguagem, OK? Eu é que uso funcionalidades
+mais avançadas com um package, um próprio package
+
+
+feito por mim, que é o xfunctions. Pronto, mas
+como extravaza aqui o âmbito do tutorial, não vou
+
+
+perder tempo aqui, muito tempo a explicar isto.
+Bom, vou só correr aqui este código que eu gosto
+
+
+de correr. Portanto, este estes o xfunctions XLibrary vai-me dar aqui três data frames que eu
+
+
+já tinha mostrado no meu outro tutorial que são
+úteis, que dá uma informação que que eu já vos
+
+
+tinha falado, mas pronto, não não é obrigatório
+para que vocês sigam este tutorial. vocês
+
+
+podem fazer um um script e não ter essa parte de
+informação. Pronto, estes três data frames aqui à
+
+
+direita, portanto, que já vos tinha falado, se é
+uma informação adicional que eu gosto de ter, eu
+
+
+gosto de saber quais são os packages que eu estou
+com que eu estou aqui a trabalhar, que eu já vos
+
+
+tinha mostrado isto da outra vez, e saber se existe
+aqui algum upgrade pendente de algum package,
+
+
+que é aqui o caso. OK, agora não vamos estar aqui
+a fazer o upgrade. já vos tinha falado disto,
+
+
+tinha-vos falado nas vignettes, tinha-vos falado
+do dos datasets que vêm com os packages. Pronto,
+
+
+falei-vos disto. Isto gosto de ter aqui esta
+informação aqui à mão, mas pronto, é como digo,
+
+
+não isto não não não é não é necessário para para
+o seguimento do tutorial. Ora bem, vamos então
+
+
+começar aqui o código e o que é que nós temos
+que ter. Portanto, nós nós vamos usar a API do
+
+
+YouTube, que é uma API, como agora está na moda,
+que que obedece ao protocolo do Rest Full API.
+
+
+Pronto. E o Restful API, eh, pronto, eu, e vocês
+deverão ter alguma noção sobre o que isso é,
+
+
+porque que eu não vou estar agora aqui a explicar
+também extravazava aqui o âmbito deste tutorial.
+
+
+Eh, portanto, é a API que nós acedemos com
+uma com um link com URL, como se estivéssemos no
+
+
+browser. Eh, passamos para para parâmetros na
+na na tipo query string que que vai no URL. E
+
+
+depois o web server que está do lado lá, ele vai
+nos devolver uma resposta que normalmente virá
+
+
+em formato Json. Portanto, é o standard Json
+que é usado na nas APIs. Pronto. O que acontece?
+
+
+E eu também podia fazer isso aqui. Eu podia
+trabalhar com o restfull APIs nativas aqui dentro
+
+
+do do R, OK? Eu podia fazê-lo. Eh, só que não
+não é prático porque eh eu depois tinha que estar
+
+
+depois a a a processar o Json, a formatá-lo. Eh,
+e não é prático, porque o que o que é prático é
+
+
+usar já uma camada intermédia. que vai ser
+um package que faz esse trabalho para mim,
+
+
+tem um conjunto de funções e com uma simples
+chamada à função me devolve imediatamente os
+
+
+dados já estruturados no formato de um dataframe
+de R, OK? Como vamos ver de seguida. Mas pronto,
+
+
+mas aqui o importante é que para se que vocês
+que que que queiram eh correr um código igual
+
+
+a este eh que tenham o vosso canal do YouTube, eh
+precisam de ter vocês precisam eh de de uma de que
+
+
+criar uma uma uma entrada na no têm que pesquisar
+o Google Development. para para para criar uma
+
+
+entrada na Google. Não sei se me explico. Se se
+não me explicar eh eu vou aqui à procura ver se
+
+
+tenho aqui algum. Pronto, vocês eu vou pôr só
+aqui alguns print screens. Não posso mostrar
+
+
+aqui os prints screens todos porque aparece aqui
+os meus os as minhas credenciais e portanto não
+
+
+posso. Mas pronto. Mas basicamente eh vocês
+têm que procurar se pesquisarem no Google como
+
+
+criar um um um um oauth client dentro do do YouTube.
+Pronto. E eu criei-o até foi em novembro de 2025.
+
+
+eh e criei-o e e chamei-lhe TUBER. Portanto, é
+como sendo um nome de uma aplicação que vai ser
+
+
+um ponto de entrada a partir da qual depois vocês
+podem fazer as vossas aplicações ou linguagens,
+
+
+programas, scripts, etc, etc, que usam essa API.
+Essa API. Portanto, a entrada para trabalharem
+
+
+com essa API tem que estar registada dentro da
+plataforma, neste caso dentro do YouTube, OK?
+
+
+Eh, não vos posso estar aqui
+a mostrar o tudo e também não
+
+
+ia fazê-lo porque eu também não
+domino esta esta matéria e, portanto,
+
+
+isso eh isso terão que vocês investigar por por
+vocês próprios como como criar essa essa parte,
+
+
+como como registarem-se como developers junto
+do YouTube e criarem depois uma uma entrada, OK?
+
+
+ver se tenho aqui algum se tenho
+aqui mais algum print screen.
+
+
+OK, pronto, não vou não vou mostrar mais. Pronto,
+essa é uma parte vocês terão que descobrir por
+
+
+certamente que quem quem esteja a ver este
+este vídeo e já tenha trabalhado com restfull APIs,
+
+
+de certeza que sabe o que eu estou a falar e,
+portanto, será capaz de fazer isso à partida.
+
+
+Ok, pronto. Então é o que eu tenho. E e eu
+quando estava a preparar este tutorial aqui
+
+
+e depois pensei e pá, eu depois eu não posso
+ter as minhas credenciais aqui à vista. Pronto,
+
+
+então o que é que eu fiz? Então há há várias
+maneiras para fazer aqui o tutorial e não e não
+
+
+mostrar as credenciais. Pronto. Uma delas é usar
+aqui um um package que eu que eu descobri quando
+
+
+estava a fazer umas pesquisas também aqui no chat
+GPT e descobri este package que eu não conhecia,
+
+
+que é o Keyring. Pronto. E o Keyring permite-me e
+guardar uma uma credencial dentro da própria
+
+
+estrutura do do Windows Credencial Manager. OK?
+Pronto, vamos imaginar aqui, vamos imaginar que
+
+
+eu vou aqui e que eu tinha aqui uma uma password
+qualquer. Neste caso que esta informação aqui que
+
+
+é o YouTube channel ID, ela é pública, é o é o ela
+é a string do meu canal do YouTube, portanto isso
+
+
+é uma informação pública. Posso mostrar e eu já
+vou mostrar daqui a bocado, mas vamos imaginar que
+
+
+isto era uma outra password qualquer. Portanto, eu
+que ao chamar aqui o o Keyring Key set, ele permite-me
+
+
+colocar aqui uma informação, uma password, que
+eu vou pôr aqui 1 2 3 4 5, que é só um exemplo.
+
+
+Portanto, isto é útil para fazer, imaginando
+que que queremos fazer um tutorial ou queremos
+
+
+gravar qualquer coisa, ó mesmo, independentemente
+disso, queremos trabalhar com toda a segurança e,
+
+
+portanto, as passwords e as credenciais nunca
+vão estar visíveis. que eu introduzia aqui,
+
+
+mas ela não tá visível. Ela em em em situação
+alguma ela estará visível. E eu dei-lhe o OK e
+
+
+ela e já está já foi ficou guardada no Windows.
+E já agora vou-vos mostrar onde é que isso está,
+
+
+porque também era uma área que eu não tinha
+muita experiência. Esta área aqui do não tinha,
+
+
+ainda não tenho do Windows Credencial Manager. Ele
+está aqui no no control panel aqui no credencial
+
+
+Manager. Eh, e o e deve estar aqui no Windows
+Credentials. E eh, onde é que isto está? Olha, cá
+
+
+está. YouTube Channel ID modificado hoje. Pronto.
+Eh, e está aguardada aqui e e e portanto fica aqui.
+
+
+Eh, a desvantagem que eu vejo aqui disto, eu não
+estou a usar este método. Eu eu usei-o agora aqui
+
+
+só para para fins educativos para vos mostrar,
+mas não não estou a usar este keyring porque e
+
+
+tem tem um contra é que de repente se queremos
+reinstalar o sistema operativo, não nos lembramos
+
+
+disto e isto perde-se, OK? Reinstalando o sistema
+operativo, pois é, perde ele perde toda esta
+
+
+informação. Ele ele permite fazer aqui um backup,
+mas temos que nos lembrar que de fazer o backup.
+
+
+Se se nos esquecermos, pois perdemos aqui
+as credenciais. Também não é crítico,
+
+
+porque vamos lá ver, as credenciais, elas também
+estão guardadas lá na plataforma. Eu posso ir ao
+
+
+ao site da da Google ou do YouTube e e buscar
+buscar ou gerar novas credenciais. Portanto,
+
+
+também não é crítico, mas pronto, mas
+não achei que seja prático. Para mim como
+
+
+eh amador eh desenvolvedor, tipo
+hobby, não não para mim não é prático,
+
+
+mas eventualmente isto será mais prático.
+Não, num outro contexto, uma empresa ou
+
+
+qualquer coisa no tipo de contexto usar este
+é aqui este recurso do credencial manager. OK.
+
+
+Eh, uma vez que eu guardei lá
+uma determinada credencial,
+
+
+eh, posso depois recuperá-la aqui. Se se
+
+
+Ora, posso vou recuperá-la aqui. Ela agora aqui
+vai fica visível. Fica porque eu estou estou a pôr
+
+
+visível aqui só para para com como como exemplo
+demonstrativo. OK. Pronto, vou carregá-la aqui.
+
+
+Cá está. É ficou o 1 2 3 4 5 Eu tinha carregado há
+bocado. Ok. Pronto, isto foi só como como exemplo,
+
+
+mas mas eu não eu não não vou usar isto. Eu não
+estou a usar isto aqui. E eu tou a usar outra
+
+
+outra outro método para guardar a as credenciais.
+Eh, eu estou a usar o o R environment. O o R
+
+
+environment. Deixa pôr aqui isto um bocadinho
+maior que eu esqueci-me. Esqueci-me. Convém pôr
+
+
+aqui na um bocadinho maior aqui o texto. Onde
+é que está appearance? 110. Vou pôr aqui 125.
+
+
+OK. Pronto, o R environment é este é um é
+um é um membro que está na configuração do R,
+
+
+começa por ponto e que vocês podem editá-lo.
+Eh, não vou mostrar agora  onde está que não
+
+
+não importa e também não posso abri-lo porque 
+tem lá as minhas credenciais. E é um ficheiro de
+
+
+texto. Ela não, ela não é um script de R. ele é
+um ficheiro de texto que onde nós podemos colocar
+
+
+eh as credenciais na no formato de assignação.
+Portanto, podemos pôr o nome nome da variável
+
+
+igual a valor, OK? E depois podemos carregar.
+Pronto. E depois o que que quando a sessão deR
+
+
+arranca, ele ele lê o R environment e, portanto,
+ele carrega as credenciais todas que depois nós
+
+
+acedemos às credenciais que precisarmos,
+OK? Por exemplo, neste, por exemplo, aqui,
+
+
+eu vou carregar, vou fazer aqui um data frame onde
+vou carregar todas as credenciais. OK? está aqui,
+
+
+eu vou carregar. Pronto, carreguei. ele está aqui.
+Agora não, não vou clicar aqui se não aparece
+
+
+as credenciais. OK. Pronto, podíamos é ver aqui no
+Row names, eh, aparece aqui os nomes das credenciais
+
+
+que lá estão e tem variáveis de sistema, eh,
+coisas que vêm com o próprio R. E tem aqui, hum,
+
+
+onde é que está?
+
+
+Era
+
+
+o suposto ter aqui as credenciais
+que eu já as devia ter salvado.
+
+
+Ora, estou de volta. Fiz aqui uma pequena
+pausa porque eu tinha eu tinha que eh eu
+
+
+comecei a usar este R environment há pouco
+tempo e eu e eu fiz isso numa outra máquina,
+
+
+mas o R Environment é um componente de de
+configuração do R que não fica guardado
+
+
+dentro da minha folder do de de Mega
+onde está debaixo do Megasync. Portanto,
+
+
+ele não sincronizou e ele, portanto, eu aqui
+nesta nesta máquina esse setup não estava feito,
+
+
+mas eu tenho forma de sincronizar porque
+eu tenho uma cópia quando são ficheiros
+
+
+de configuração. Tenho aqui uma folder, já agora
+estou-vos a a dar estas dicas como como se pronto,
+
+
+são dicas que vocês poderão aproveitar eh quer
+aqui para o RStudio, quer para outras plataformas
+
+
+de programação. OK? Pronto. Então, o que é que
+eu faço? Eu tenho, eu sei que tenho o meu código,
+
+
+portanto, que está debaixo do da sincronização
+automática, mas eh as às vezes há há componentes
+
+
+de configuração aqui do produto que que não
+estão que estão no no na na folder do do user,
+
+
+do Windows user e etc, etc. E, portanto,
+nesse caso, o que eu faço é que normalmente
+
+
+esses ficheiros que eu sei que estão e que eu
+quero salvaguardar e sincronizar, eu faço aqui
+
+
+uma cópia deles. Cá está. Por exemplo, eu tenho
+aqui um R environment que é a cópia do ponto R
+
+
+environ sem R. aqui pus com extensão R, que é
+para pronto para aparecer aqui. Ha, portanto,
+
+
+e assim sei que tenho aqui e que era agora o
+caso. E, portanto, eu simplesmente peguei nesse
+
+
+neste conteúdo e copiei-o no tal ficheirinho de
+configuração que é o ponto R environment. OK?
+
+
+portanto, vamos aqui. E agora, como estava
+aqui, estávamos, tínhamos ficado aqui que eu fiz
+
+
+o row names e aqui tenho o nome. Cá estão estas
+credenciais que é o que nós vamos usar agora e que
+
+
+eu tenho aqui. Tenho o channel ID, que é público,
+é o meu canal. Eh, e depois tenho o client ID e o
+
+
+client secret, que essas sim, essas são as que
+dão entrada na API. E depois tenho este user
+
+
+ID que que é o meu user ID de de de do Google,
+mas que acho que isto não é usado para nada. OK?
+
+
+Pronto. E é estas credenciais que vocês precisam
+para correrem correrem este código se quiserem
+
+
+correr contra o vosso canal de YouTube. Ora bem,
+então eu tenho aqui, vamos começar por por explorar,
+
+
+por exemplo, aqui o YouTube channel ID. Eu vou
+buscar aqui ao meu data frame, OK? Eh, neste caso
+
+
+eu estou a ir buscar aqui ao datfame, mas também
+posso usar o o sys get environment, OK? Eh, o Sys
+
+
+get environment, deixa carregar aqui no F1, que é
+é uma função que vem de base com a linguagem R. Cá
+
+
+está, o Sys GET environment. E, portanto, eu dou-lhe
+o nome da chave e ele vai ver se conhece, não é?
+
+
+Tem um valor aqui para isto. Pronto. Portanto,
+eu vou, portanto, aqui eu posso ir aqui ao data
+
+
+frame. Cá está. Eu tenho aqui ou posso ir aqui
+e que é que é igual aqui vai direto. Pronto,
+
+
+porque eu aqui carrei o dataframe, mas não
+precisava, não é? Eu podia ir buscar. Eu só carrei
+
+
+o dataframe para vos mostrar que tinha aqui estas
+múltiplas variáveis que que que estão dentro que
+
+
+são variáveis de environment. OK? Depois, só para
+poder-vos mostrar aqui o nome delas todas, para
+
+
+vocês verem que tem uma série de variáveis, mas
+mas pronto, na prática não precisamos nada disto,
+
+
+OK? Eu até vou agora a comentar isto, portanto eu
+o keyring eu não uso mais. Isto também não uso. E
+
+
+aqui isto também não não uso, não preciso de data
+frame nenhum. Isto foi só para vos mostrar. Ah,
+
+
+pronto, na prática que fazemos, o que nós
+fazemos é só isto, é o Sys GET Environment,
+
+
+o nome da variável e já está. OK. Eh, com isto,
+portanto, este é o o o nome, o o o índice do meu
+
+
+canal de YouTube, que eu posso aqui fazer aqui
+uma composição e obter aqui o URL. Cá está aqui
+
+
+o My Channel. E posso usar aqui um utilitário
+utils, que que é do package utils browseURL,
+
+
+onde daqui posso navegar, posso navegar para para
+o meu canal. OK. E pá, é como vos digo, desde já
+
+
+vos digo que o o R é como o Python nesse nesse
+aspecto. O Python eu não tenho muita experiência,
+
+
+mas penso que seja similar, ou seja, tem há
+pacotes para tudo, há packages que fazem tudo e
+
+
+um par de botas, tudo o possível do imaginário. E,
+portanto, pois, naturalmente também tinha que ter
+
+
+um package para fazer browse direto e invocar links,
+etc, etc. E abriu aqui o meu canal. Cá está.
+
+
+E cá está aqui para aqui o channel ID. OK. ,
+mas também podemos fazer de outra maneira para
+
+
+ir já agora, por curiosidade, para ir ao meu
+canal, eu posso ir pelo pelo YouTube handle.
+
+
+YouTube handle, que é o que está aqui, este
+@tugastone, que é a minha imagem de marca.
+
+
+Enão eu posso ponho aqui e portanto também
+posso fazer aqui um URL alternativo que está aqui
+
+
+o YouTube handle e my channel alternate que é
+este aqui. OK? Este URL aqui. Pronto. E ele também
+
+
+navega para lá e e é igual obviamente. Pronto,
+cá está ele. Aqui o Oi, onde é que ele está?
+
+
+Tem piada, tem piada que é igual. É. Ah,
+youtube handle tem piada que é igual. Ah,
+
+
+não, não, não, não, não. Eu acho que aqui não
+leva channel. Eu acho que não leva channel.
+
+
+Acho que é só assim, se não
+me engano. Channel alternate
+
+
+mais. Não, ele ele reverteu. Tem piada que
+ainda há dias eu fiz isto e ele aparecia
+
+
+aqui no com o formato @ ele não ele
+não ele agora tá a reverter, ou seja,
+
+
+ele aceitou, mas mas reverteu. Reverteu não sei
+porquê. Eu não, não estou a perceber porquê,
+
+
+porque eu já ainda há dias fiz isto e
+ele aparecia aqui com o handle, o tugastone
+
+
+o chamado YouTube handle,
+
+
+eu acho que não leva, não leva channel. Não leva
+channel. É direto com o handle. tugastone. OK, cá
+
+
+está. Funcionou. Eu não percebo porque é que aqui
+não funcionou. HTTPS YouTube@tugastone. Quer dizer,
+
+
+funcionou, só que reverteu para o outro. Não sei,
+é qualquer coisa que devia estar na cache de eu ter,
+
+
+não sei, mas ok. Pronto, é só também por
+curiosidade para vos mostrar isto. Pronto,
+
+
+às vezes. Eh, ora bem, então vamos continuar. Isto
+aqui, portanto, isto também não é não é nada de
+
+
+importante para o que vamos ver agora no isto foi
+só para uma introdução eh que estou-vos a mostrar
+
+
+como como se carrega uma variável aqui do que está
+no environment, OK? Que estava na no membro do
+
+
+R environment, onde eu pus as minhas cartenciais,
+OK? Eh, pronto. E agora tenho aqui algumas funções
+
+
+que é o que eu vou carregá-las aqui. Este também
+é uma novidade. No meu outro tutorial eu não usava
+
+
+funções, agora uso funções. Portanto, vamos
+lá ver. Nós podemos ter funções que elas podem
+
+
+estar dentro de um package. Eu posso eu eu posso
+compilar as funções todas e fazer um package de R,
+
+
+que eu também faço isso, não é? Mas e também posso
+usar aqui funções a vulso. E nesse caso fiz aqui
+
+
+um membro que é uma técnica que eu uso muito. Eu
+tenho aqui o o o que o código principal e depois
+
+
+quando começo quando preciso de ter algumas
+funções, eu crio um aqui um módulo à parte.
+
+
+Neste caso, chamei-lhe o tuberFunctions. Eh, eu,
+eh, eu podia, posso abri-lo aqui. Ele tem aqui
+
+
+algumas funções. Ele tem aqui o autenticate,
+get my vídeos, o get my playlists, get e get
+
+
+my playlists vídeos. Portanto, ele tem tem estas
+quatro estas quatro funções. E quando quando o
+
+
+eu quero carregá-las, na verdade eh a forma de
+carregar as funções é simplesmente executá-las,
+
+
+OK? Não existe uma maneira de dizer, olha, carrega
+as funções. Eh, ou ou ou não existe uma maneira de
+
+
+dizer, olha, se houver uma chamada, uma função,
+vai buscar aqui ou acolá. Não. O que e a forma como
+
+
+ele trabalha é eu executo o código. É o mesmo
+chegar aqui manualmente e e executar. E como a
+
+
+execução tem uma tem definições de funções, pois
+as funções ficam definidas. Pronto. Portanto,
+
+
+ou seja, aqui não necessariamente teria apenas
+funções, mas podia ter funções ou outros ou outro
+
+
+código qualquer. E é o que faz aqui este
+source. Eh, reparem que eu aqui ao fazer
+
+
+source é o mesmo que entrar dentro do membro e
+carregar aqui e fazer o source. É executá-lo todo,
+
+
+executar este este ficheiro. OK? Mas normalmente
+eu não estou sempre a abrir isto. E, portanto, por
+
+
+isso é que normalmente é mais prático executá-lo
+aqui. E eu executo. Pronto. E ao executar,
+
+
+reparem na potencialidade do RStudio. Isto é
+brutal. Portanto, ele dá-me aqui eh as funções.
+
+
+E imaginando que eu tinha isto aqui fechado aqui,
+eu aqui posso ao clicar numa função, ele mostra,
+
+
+abre-me o do sítio onde está e posiciona-me aqui
+na função. OK? é tremendamente user friendly,
+
+
+como estão a ver. Eh, e portanto mostra-me aqui,
+como estão a ver, na no global environment,
+
+
+que é o que está carregado em memória, variáveis,
+estruturas de dados, data frames e funções. OK?
+
+
+Aqui mostra a assinatura das funções também.
+OK? Então, a primeira função que nós vamos
+
+
+fazer é o authenticate. Cá está. É, é onde ele vai
+buscar as credenciais. Pronto, cá está as minhas
+
+
+credenciais. Elas estão aqui escondidas nesta
+nestas variáveis e depois ele e executa o tuber.
+
+
+Ora bem, eh eu carregamos o package tuber, mas eu
+ainda não vos fala nada sobre este package. Bom,
+
+
+o package tuber h podíamos ir aqui buscar o o
+help do do package e help package tuber aqui.
+
+
+Pronto. Ora bem, quando eu eu comecei a trabalhar
+com isto há relativamente pouco tempo e e portanto
+
+
+eu vim aqui e também procurei uns exemplos, já
+não me lembro na documentação ou no chat GPT,
+
+
+já não me lembro onde é que onde é que eu
+fiz, já procurei uns exemplos, pronto, e depois
+
+
+tive aqui dar uma vista de olhos e tive a ver o
+que o que é que ele traz, o que é que ele traz,
+
+
+pá. E muitas vezes porque nós chegamos aqui e
+procuramos ah o que é que ele tem, por exemplo,
+
+
+get e eu vejo o que é que ele tem. Get captions,
+get channel estatísticos, get comentários,
+
+
+playlist, etc, etc, etc, etc. Pronto, e depois
+podemos entrar num a um, um a um e experimentar,
+
+
+chamar, fazer a chamada ou ver a documentação. Eu,
+sinceramente, não tenho muita paciência para ver
+
+
+documentação, né? Portanto, o que eu faço aqui
+é quer experimentar uma função, chamo a função
+
+
+e vejo e vejo o que é que ela devolve. Pronto.
+E então aqui no authenticate, quando eu fiz
+
+
+aqui esta minha função authenticate, eu vi,
+eu vou usar tuber YouTube. A função ytoauth,
+
+
+ela está aqui. Ytoauth. Cá está. Portanto, aqui
+está. E aqui dá um dá um lamiré do do como é que a
+
+
+função se invoca. Pronto. Mas basicamente basta
+passar aqui dois dois parâmetros. Acho que são
+
+
+os mínimos obrigatórios, que é o o client ID e o
+client secret. Pronto. Então é o que eu vou fazer
+
+
+aqui. Aqui as variáveis não vão ficar expostas
+aqui porque elas estão estão embutidas dentro da
+
+
+função e portanto o scope o scope aqui é local
+dentro da função. Portanto, eu posso executar
+
+
+aqui à vontade esta função. O authenticate. Não há
+não há perigo que não vai aparecer aqui nada. Ok.
+
+
+Vou executar aqui. Pronto. E já executou com
+sucesso. OK. Neste caso já tenho já já estou
+
+
+autenticadoos junto do YouTube. Ok. Pronto. Então
+vamos então agora procurar eh começar a informação
+
+
+propriamente dito. Por exemplo, a primeira parte
+que eu vou aqui obter é os os meus vídeos. Vou
+
+
+obter aqui os meus vídeos todos. E se bem que
+eu nem precisava disto. Isto foi num dado numa
+
+
+primeira fase que eu quando eu estava a explorar
+isto e eu estava a experimentar as funções,
+
+
+a ver o quais as funções que me davam o que
+eu queria. Vamos aqui ver o código já agora,
+
+
+do get my vídeos. Eu vou pôr aqui o F1 aqui em
+cima disto ver se ele vai lá. Não, eu daqui não
+
+
+salta, mas daqui salta. Get my vídeos. Ok, então
+get my vídeos. Reparem também é uma funçãozinha
+
+
+pequenina que é que ela tem vídeos igual ao tuber.
+Eu gosto sempre de pôr o nome do package atrás.
+
+
+No meu tutorial anterior havia exemplos que não
+tinha porque são coisas que fui ao chat CPT e pedi
+
+
+um pedaço de código e ele e ela por default não
+pôs. Mas quando sou eu a codificar tudo de raiz,
+
+
+eu gosto sempre de pôr o tuber atrás. Não é
+necessário porque o o R ele vai procurar esta
+
+
+função e vai ver onde é que a encontra dentro dos
+packages que estão carregados. Mas fica muito mais
+
+
+claro, mais explícito eu estar aqui completamente
+explícito para saber que eu estou a invocar uma
+
+
+função que pertence ao package tuber. OK? Até eu
+vou chamar aqui o Tuber. Tenho que acho que tenho
+
+
+que lhe passar um máximo de 500 vídeos. Chega
+e sobra que eu tenho cento e tal.
+
+
+Eh, e depois já agora, vou vou fazer isto
+aqui a passo a passo só numa primeira vez,
+
+
+porque eu depois eu não estou eu não vou
+buscar eu não vou usar todos estes campos,
+
+
+só vou usar eu aqui só vou usar um campo que é o
+vídeo ID, OK? Que é o ID de cada vídeo. Pronto, eu
+
+
+vou executar aqui, já executei. E ele devolve-me
+o quê? Ele devolveu-me aqui e que not é de, deixa
+
+
+lá ver que ele não é de vídeos. OK, já estou. Isto
+acontece às vezes, às vezes é lá a primeira falha
+
+
+não sei porquê, há qualquer coisa e depois temos
+que temos que ir à segunda. Isto é só quando é a
+
+
+primeira chamada à API. E ele fez e a própria
+função me devolve aqui algumas estatísticas,
+
+
+OK? Portanto, h, ele devolveu, eh, neste caso, a
+função também devolveu aqui a um output. Aqui não
+
+
+é comum as funções devolverem aqui output. Até é
+até é comum de certa forma. Temos o channel title,
+
+
+o total de views, eh os subscribers, OK? Que
+é a fantástica quantia de 34 subscribers que
+
+
+tem o meu canal e o número de vídeos 178.
+Ora, e aqui vamos ver o data frame. Está aqui,
+
+
+portanto, tem cinco variáveis. O que é que ele
+tem? Cá está. Tenho aqui, tá aqui informações
+
+
+que não me interessam para nada, que é isto, ou
+seja, aqui que YouTube playlist item. Portanto,
+
+
+isto deve ser uma uma uma tag qualquer que vem
+da, portanto, da da da API, do restfull API,
+
+
+que vem dentro do Json e ela é despejada aqui.
+Isto também não sei bem o que é. Esta parte aqui
+
+
+também não estou a ver. O que interessa
+é isto aqui, que este aqui é o vídeo ID,
+
+
+que é a chave que permite uma pessoa com com ir
+com o ao browser e meter esta esta chave e ir. OK.
+
+
+Esta parte aqui, a data que eu publiquei o vídeo
+também é importante, mas eu vou buscá-la daqui a
+
+
+bocado. Eu vou buscá-la noutro sítio. OK, vamos
+sair daqui. OK. E depois eu tenho aqui realmente
+
+
+eu faço vídeo ID igual àquele campo, àquele campo
+que é o que é o content details vídeo id vídeo e
+
+
+e devolve um data frame só com um campo. OK, eu vou
+voltar atrás e para para executar a partir daqui.
+
+
+OK, pronto. Então cá tenho e agora tenho um um
+data frame que tem apenas os os meus vídeos.
+
+
+Eh, este é uma primeira checagem que podemos logo
+aqui fazer, por exemplo, check for duplicates.
+
+
+Bom, à partida não há duplicados, não faz sentido.
+Só que houve aqui uma um período que onde eu
+
+
+estava a usar este package e que devia haver
+aqui um bug e de facto ele tinha sim duplicados,
+
+
+tinha meia de duplicados e portanto também fiquei
+um bocado surpreso e mas é o que é, não é? Pronto,
+
+
+isto tudo todo o software tem bugs, como sabemos,
+e devia haver aqui algum bug, aqui algum problema
+
+
+que eu não cheguei a perceber e ele tinha aqui
+alguns duplicados. Portanto, é sempre bom checar
+
+
+aqui os duplicados. Não tem, não tem duplicados. E
+esta como já vos tinha dito no meu outro tutorial,
+
+
+eu não vou-vos explicar aqui linha a linha o que é
+ou como se faz, não. Eu estou-vos a dar o código e
+
+
+depois se vocês quiserem investiguem a sintaxe,
+etc. Eu estou-vos, eu quero é passar as ideias,
+
+
+os conceitos. Pronto, que acho que isso é mais
+interessante. O resto vocês quiserem experimentar,
+
+
+o código está aqui à vista, experimentam com
+outros dados e se quiserem experimentar com
+
+
+como como detetar os os duplicados dentro de um
+data frame, seja seja seja o que for próprio, isto
+
+
+isso esse trabalho fica para vocês. E agora tenho
+aqui o length unique e dizer quantos valores
+
+
+distintos eu tenho e tenho 179, está correto?
+Porque o meu data frame tem 179. No entanto,
+
+
+há bocado aqui nesta estatística, ele dizia que
+eu tinha 178 vídeos, mas é mentira, eu tenho 179,
+
+
+é porque eu tenho um que é privado, está nas minhas
+playlists, mas é privado. Eh, então deve ser por
+
+
+isso que ele eh não acedeu ou não contabilizou
+aqui. Pronto, na verdade eu tenho 179. Ora, sim,
+
+
+senhora. Mas eu acho que não vou não vou usar mais
+esta este data frame. Eu vou eu vou é é por outra
+
+
+via. Eu eu eu para agora ir buscar os meus dados.
+O que eu faço é eu vou através das playlists aqui,
+
+
+get my playlists e get my playlists eh esta
+função que está aqui e aqui eu preciso do do
+
+
+YouTube channel ID que vai entrar aqui e ele vai
+buscar aqui que é o get playlists. Pronto, o nome
+
+
+disto tudo. Pronto, e agora mais uma vez, não,
+agora isto agora já é mais complexo e, portanto,
+
+
+não vou estar agora a detalhar tudo aqui. Pronto,
+eu aproveito aqui alguns campos.  OK. Está aqui,
+
+
+tenho aqui o plylist ID, playlist title. Eh, estou estou
+a construir alguns alguns vetores aqui para depois
+
+
+no final eu devolver o data frame com os campos
+que eu quero e tenho eh e e eu não quero todas
+
+
+as playlists. Eu aqui já estou a fazer alguma
+filtragem. Ele só vai buscar as minhas playlists,
+
+
+mas há duas playlist aqui que não me interessam.
+Há é uma que é a família que tem coisas da família
+
+
+que aqui não interessa agora estar aqui a
+mostrar, como é óbvio, nem nem os títulos,
+
+
+nem nada sobre isso. Eh, e até porque tem
+lá eventualmente tem lá vídeos que não fui
+
+
+eu que fiz. E aqui a música também, que é os os
+meus favoritos da música que eu ponho lá e não
+
+
+são vídeos feitos por mim. Portanto, as outras
+playlists é que são aquelas que eu quero estudar
+
+
+estatisticamente, que são as minhas playlists,
+mas com os meus vídeos, OK? Com os meus vídeos.
+
+
+Pronto. E é por isso é que é esta
+filtragem que aqui está. Eh, portanto,
+
+
+essa é a ideia. Pronto, não temos que
+avançar um bocado mais rápido também,
+
+
+porque isto já vai em 50 minutos. Então,
+eu vou buscar aqui as as minhas playblists.
+
+
+OK. Está aqui. Eu tenho aqui nove playlists
+aqui. Posso posso ir vê-las aqui. Pronto,
+
+
+são estas. Tenho o do Agario Block Motion Builds é
+uma playlist que tem um vídeo privado que está aqui
+
+
+dentro que foi um que eu nunca nunca decidi
+publicá-lo para o público. GameMaker, GameMaker
+
+
+Tutorials, o Infinifactory Workshop, Notebook
+LM e o R Programming, que é o canal mais recente,
+
+
+a playlist mais recente que eu fiz, onde estou
+que ou cujo este vídeo vai irá parar lá dentro.
+
+
+Ora, sim, senhor. E agora vou buscar o Get My
+Playlists. Agora playlist a playlist. Vou buscar
+
+
+os vídeos que pertencem a essa playlist, OK?
+Os vídeos que pertencem a essa playlist. Ah,
+
+
+portanto, está aqui get my playlists vídeos, que é
+esta função que eu tenho aqui. Pronto,
+
+
+deixo-vos aqui o código para vocês verem. OK?
+Mais uma vez, não vou perder aqui muito tempo
+
+
+a explicar isto. A ideia aqui é similar. OK, eu
+vou fazer aqui um loop para cada playlist. Eh,
+
+
+para cada playlist eu vou buscar get playlist
+items. Vou buscar a lista do do dos dos vídeos
+
+
+que fazem parte dessa playlist. Ah, depois vou
+varrer todos esses vídeos aqui num outro loop.
+
+
+Eh, e depois vou buscar um detalhe. Há aqui uma
+outra função que me vai vai buscar o detalhe,
+
+
+nomeadamente que eu quero saber e já não me
+recordo, eventualmente aqui dentro vai estar eh
+
+
+o número de views ou alguma coisa assim ou a data
+que o vídeo foi foi postado, etc. Pronto, já já
+
+
+não me recordo. É como digo, não vale a pena estar
+aqui. Pronto, a ideia é vocês ficarem com a ideia.
+
+
+Pronto, claro que eu tive que andar a partir pedra
+na altura à procura quais as funções que tinham a
+
+
+informação que eu queria, como é óbvio, e depois
+construir aqui os loops. Pronto, mas vos garanto
+
+
+que isto é muito mais simples do que se eu tivesse
+a trabalhar com o Json nativo, não é? E cada cada
+
+
+query que eu fizesse, eu tinha que ter tinha
+que estar a a processar o Json, não é? Pronto,
+
+
+isto assim é muito mais simples. Eh, e pronto, mas
+basicamente e vai retornar aqui um data frame. OK?
+
+
+Eu vou fazer aqui o Se vocês quiserem até copiar
+este código e também imagino que seja fácil hoje
+
+
+em dia, basta fazer um print screen e depois até
+mesmo o sniping do Windows, que hoje em dia já
+
+
+tem reconhecimento de caracteres. Eh, certamente
+que vos faz. Eu até posso fazer aqui um teste.
+
+
+Eu vou fazer aqui um teste. Faz de conta que
+vocês estão a ver este vídeo. E agora não posso
+
+
+porque eu estou a usar o sniping to aqui para
+fazer a gravação. Pronto, mas ele tá, ele faz o
+
+
+reconhecimento de caracteres. OK. Pronto, já posso
+fechar isto. Posso fechar isto. Pronto. Então eu
+
+
+vou vou invocar agora get my playlists vídeos. Eu
+vou invocar. Pronto. Eh, e aqui aparece estes
+
+
+pontinhos porque fui eu que fui eu que fiz. que
+eu fiz a função assim porque ele como demora um
+
+
+bocadinho porque ele para para cada vídeo ele tá
+aí buscar detalhes desse vídeo. Eh, deve ser o
+
+
+número de views ou e mais alguma outra coisa que
+já não me recordo. E como era um bocado lento,
+
+
+eu então fiz este, fiz fiz uns quantos displays
+para podermos acompanhar o que está a acontecer,
+
+
+onde cada pontinho é um vídeo e ele está a processar
+e está a ver a informação desses vídeos. OK? Pronto.
+
+
+Por exemplo, em R programming, na minha nova
+playlist, só só tem lá dentro três vídeos, OK?
+
+
+Eh, agora que interessa-me saber também para já,
+deixa ver o que é que ele devolveu. Portanto, ele
+
+
+devolveu aqui playlist vídeos com cinco variáveis.
+OK? Está aqui. Ele tem o nome da playlist,
+
+
+o vídeo ID, tem um vídeo, o vídeo title, uma data
+de upload e o total de views. Pronto, agora sim.
+
+
+Agora já estamos a começar, já começamos a
+trabalhar com informação mais palpável, não
+
+
+é? Já temos informação mais útil, mais palpável.
+Portanto, eu agora vou aqui eh e aqui interessa-me
+
+
+saber se há uma coisa que me interessa, que
+é saber se eu se eu será que eu tenho algum
+
+
+vídeo dos meus vídeos os o qual eu tenha posto
+em mais que uma playlist? Eu não me interessa
+
+
+isso. Eu cada vídeo só pode estar numa playlist à
+partida. É uma regra que eu ponho, é uma restrição
+
+
+que eu imponho. Portanto, eu aqui vou ver playlist
+vídeos duplicated duplicated por vídeo ID. OK.
+
+
+Eu ali tenho todas as minhas playlists e todos
+os vídeos dentro das playlists. Eu agora que aí
+
+
+facilmente eu vou ver se existe algum vídeo que
+apareça duplicado em mais que uma playlist. OK?
+
+
+Não existe. OK, então, so far, so good. De
+seguida, eu posso aqui também posso fazer o
+
+
+total views. Eu já sei qual é, que ela já me tinha
+mostrado há bocado, 7798, mas isto é uma uma forma
+
+
+de checagem, de uma contrachecagem para ver se está
+tudo a bater certo. Vamos fazendo contrachecagens
+
+
+para ver se tá tudo certo, se não temos bugs
+aqui no código. Pronto. E ele dá-me aqui 7805.
+
+
+Já está maior. OK, faz sentido porque desde desde há
+bocado até agora, provavelmente já houve mais meia
+
+
+duzia de pessoas para esse mundo fora que viram
+alguns vídeos meus. OK? Portanto, assumo que
+
+
+possa ser isso. Então agora já dá 7 805. OK. OK.
+Agora outra coisa que me interessa é o seguinte.
+
+
+Na altura, quando eu tinha os meus vídeos,
+eu subi-os por duas vias, quer a lista total
+
+
+de vídeos que estava aqui, quer através das das
+playlists, a lista total playlists, OK? Eh, vai
+
+
+dar a mesma coisa porque eu nas minhas playlists
+só coloco vídeos meus, OK? Portanto, eu eu sei que
+
+
+eu uso essa regra, portanto, aí eu sei que só vou
+ver os meus vídeos, mas se que eu tivesse mistura,
+
+
+se eu tivesse aqui uma playlist e pusesse os meus
+vídeos com vídeo, com outros vídeos, pois dá dá
+
+
+daria uma grande confusão e teria que ter esse
+cuidado. Mas neste caso, como eu sei, eu tenho
+
+
+essa restrição já até é cumprida e se não for
+cumprida, se eu dia me enganar, eu vou detetá-la
+
+
+agora. Eu vou detetar aqui se eu tenho orfan orfan
+vídeos not on playlist vídeos eu vou detetar se
+
+
+tenha algum há algum vídeo meu que eu não tenha
+colocado em nenhuma playlist que tenha ficado
+
+
+orfão ok então aqui é um antijoin isso é chamado
+um antijoin que é mostra-me se existe algum uma
+
+
+entrada no dataframe vídeos que não esteja no
+playlist vídeos pela chave vídeo ID, portanto,
+
+
+que para um dado vídeo ID, porque reparem, mas
+esta chave é comum. Aqui nos vídeos, nos vídeos
+
+
+eu tenho vídeo ID e no playlist de vídeos
+eu também tenho vídeo ID. Cá está. É o mesmo
+
+
+campo. Eu chamei o mesmo campo precisamente para
+me permitir depois fazer os joins e antijoins. OK.
+
+
+Pronto. Então aqui tenho o antijoin. Eh, eu estou
+a usar este antijoin, estou a usar o dplyr. E eu
+
+
+acho que fui buscar isto a ao chat GPT. Eu eu hoje
+em dia recorro muito ao chat GPT. Eu sei fazer as
+
+
+coisas de de outras maneiras, mas às vezes quando
+eu estava à procura, olha, eu quero ver os as
+
+
+chaves de um datafame que não estão no outro e pá
+e não estou para perder tempo ou estar à procura
+
+
+ou me membrar e vou ao chat GPT e por vezes depois
+ele dá-me diretamente uma solução que que recorra
+
+
+a um determinado package. E pá, sim senhor, eu uso
+esse package e não se fala mais nisso. Pronto. E
+
+
+aqui eu usei o antijoin. Eu nem conhecia isto,
+nunca tinha usado o antijoin, mas há mil e uma maneiras
+
+
+de fazer as coisas, não é? Eh, dentro do R. O R é
+muito versátil, podemos usar o base R ou podemos
+
+
+usar packages como que já trazem funções mais mais
+sofisticadas. Pronto, então vamos fazer aqui e
+
+
+eu estou à espera que me dê zero, está correto?.
+Dá-me zero. Ou seja, eu não tenho nenhum vídeo
+
+
+órfão. Todos os meus vídeos estão devidamente
+classificados dentro das minhas playlists. Agora
+
+
+não sei se vocês já estão a ver este poderiu.
+Estão a ver o poderio que nós temos aqui? Eh,
+
+
+muitas das coisas que nós estamos aqui a sacar, eu
+não posso garantir se o eh se o YouTube Analytics
+
+
+se me dá ou não. Eu também não sou um expert em
+YouTube Analytics. Eh, não posso precisar, não vou
+
+
+jurar se o YouTube se é se a ou não maneira de.
+Agora, uma coisa posso-vos dizer, se houver
+
+
+maneira de fazer isto dentro do YouTube Studio, é
+todas essas estas estatísticas que nós vamos aqui
+
+
+sacar, elas estarão, caso seja possível fazê-las
+dentro do YouTube Studio, elas estarão dispersas.
+
+
+Eu terei que ir à procura e fixar e onde é que
+é, quais os menus, quais as opções, onde é que
+
+
+eu tenho que clicar, etc, etc. Eu não tenho uma
+maneira sequencial de executar aqui, enquanto que
+
+
+aqui eu executo o script sequencialmente e tenho
+toda aquela informação que eu quero. OK? Portanto,
+
+
+não sei se estão a ver a ideia. Pronto. Eh,
+mas eu desconfio que o YouTube não nos dá estas
+
+
+informações. O YouTube não tem. Se eu desconfio
+que se eu for ao YouTube pedir eh dizer: "Olha,
+
+
+mostra-me se eu tenho algum vídeo que não não faz
+parte de nenhuma playlist". Eu penso que se calhar
+
+
+não deve ser fácil encontrar isso. E agora o
+contrário. Mostra-me se eu tenho algum vídeo
+
+
+dentro de uma playlist que não pertence aos meus
+vídeos. Nesse caso, que eu tivesse um vídeo que
+
+
+não era da minha autoria, que eu tivesse posto num
+numa playlist minha. E mas que o vídeo não é meu,
+
+
+então também vou estar aqui. Eu também
+não quero isso e também não tenho. Pronto,
+
+
+eu não quero nestas playlists. Eu tenho outras
+playlists que sim, aquelas playlists da música e
+
+
+a da família são playlists que sim, que tem vídeos
+que não são meus, mas nestas outras playlists que
+
+
+aqui vamos a tratar, eu só quero tratar as minhas
+playlists que com os meus vídeos. OK? Então,
+
+
+até agora tá tudo bem. Agora, o que é que vamos
+aqui fazer? Agora vou carregar aqui um um novo
+
+
+data frame. Copio a partir do playlist vídeos.
+Vou que eu aqui YouTube playlist vídeos. OK. Ah,
+
+
+podia ser o mesmo, mas eu na altura quando estava
+a fazer o código, eu às vezes enganava-me e tinha
+
+
+que voltar atrás. E para não estar aí buscar a
+informação toda à API, era mais rápido então fazer
+
+
+uma cópia. Eu, por isso fiz a cópia de segurança
+YouTube aqui, dupliquei, clonei e se me enganava,
+
+
+eu voltava do início e carregava outra vez o playlist
+vídeos. Portanto, foi por isso, mas portanto ele
+
+
+começa aqui por ser uma cópia. E agora vamos
+trabalhar agora sobre a cópia. Portanto, tenho
+
+
+aqui o YouTube que o data frame aqui e é igual.
+Agora o que é que eu vou fazer? Eu vou aqui meter
+
+
+mais um campo, que é uma forma simples, porque o
+que vou fazer vou vou querer estatísticas por ano,
+
+
+OK? Então eu vou vou aqui criar um novo campo que
+é o vídeo year. OK? Pronto. E apareceu-me aqui,
+
+
+portanto, que eu que eu vou querer estatísticas
+por ano. Então eu quero destacar aqui o ano,
+
+
+que é mais simples do que depois fazer uma função
+qualquer sofisticada para sacar eh em tempo real,
+
+
+em tempo de run, sacar o ano daqui. Portanto,
+então eu crio logo aqui um campo com o ano. OK?
+
+
+Eh, e agora vou converter isto para data,
+porque isto este, estas datas, isto é uma data,
+
+
+mas ela está como character e eu interessa-me
+convertê-la para data. Eu vou converter. Pronto.
+
+
+E aqui está como data e com este formato, OK? Eh,
+que é o formato default. Não me interessa a hora,
+
+
+interessa-me só o dia em que o vídeo foi uploadado
+não? Por isso eu aqui desprezei e mandei fora a
+
+
+hora. Ora, o que é que eu vou agora fazer aqui?
+list my... agora vou fazer aqui vamos começar a ver
+
+
+aqui algumas estatísticas. Bom, neste caso uso
+aqui uma função minha que é um table proportion,
+
+
+mas isto é simples. Deixo-vos para vocês como
+desafio que existe uma função base no R que é
+
+
+o table e que vos dá e que vos dá aquilo que eu
+vou mostrar aqui. Só que eu aqui juntei um dois
+
+
+em um e fiz uma funçãozinha dentro do meu package
+minifunctions table proportions, que me dá a dizer
+
+
+list number of vídeos by playlist. Portanto, eu ataco
+aqui  YouTube playlist title eh e ele vai- me
+
+
+dar eh vídeos by playlist
+Exato, exato. Que é o é o é o playlist. É o é
+
+
+o o nome da playlist. Pronto, ele aqui vai-me dar
+quantos vídeos eu tenho em cada playlist. Eh, e em
+
+
+termos percentuais, pronto, é uma uma brincadeira.
+Pronto, e o meu canal é pequenino, como estão a ver.
+
+
+Eu eu faço às vezes faço estas coisas mais por
+carolice, porque eu gosto de programar e às vezes
+
+
+foi e portanto e ponho-me aqui a fazer coisas.
+Pronto, isto é um canal tão pequeno, não nem não
+
+
+preciso, não precisamos disto, mas pronto, gosto,
+eu gosto de fazer isto. Eh, e agora vamos ver
+
+
+list my total views. Aqui é o número de vídeos,
+OK? Por playlist. Então, e por total de views,
+
+
+OK? Tem aqui um agregate. Pronto, não vou explicar
+isto ao pormenor. Mais uma vez, investiguem.
+
+
+E dá-me aqui, portanto, por total de views, o
+meu canal de maior sucesso, mas também porque
+
+
+tem muito mais vídeos. É o tem o Infinyfactory, onde
+eu jogo um jogo Infinifactory e gosto de partilhar as
+
+
+minhas as minhas soluções. OK. Hum. Ok. E agora
+tenho mais outra aqui que é por ano. Por ano,
+
+
+pronto. E por ano foi a partir de 2018 quando eu
+criei o meu canal e comecei a fazer uploads. Eh,
+
+
+em 2024 tive aqui um pico e agora em 2026 já vou
+com 29 vídeos. Eu quero ver se 2026 é um se vai
+
+
+ser um bom ano, que eu possa crescer um pouco o
+meu canal e também e fazer mais alguns uploads,
+
+
+nomeadamente esta este tópico da programação em R.
+É um é um canal novo, é uma playlist nova que eu
+
+
+criei. Ora, vamos aqui também fazer mais algumas
+conversões. Vou converter converter o vídeo
+
+
+title do title case. OK. Eh, trim vídeo title.
+Portanto, aqui vou vou vou limpar porque às vezes
+
+
+ao introduzir um title num vídeo pode ter ficado
+com exesso de de espaço em branco à direita ou à
+
+
+esquerda. Isso também não me interessa. Portanto,
+também vou limpar, fazer aqui alguma limpeza aqui
+
+
+com estas duas linhas. Pronto. E agora está aqui uma
+uma área que é específica do do meu do da minha
+
+
+playlist Infinifactory. porque a minha playlist
+Infinifactory, que eu posso vos mostrar aqui,
+
+
+o que ela tem aqui é que quando eu faço, quando
+eu resolvo um puzzle, eh, que isto é um jogo de
+
+
+puzzles e eu eh tento otimizar a solução do puzzle
+para minimizar o número de blocos, que é um que é
+
+
+um jogo de blocos, é um jogo de construção de
+blocos. Então eu ponho aqui quantos blocos eu,
+
+
+Ora, tem tido vários problemas técnicos aqui com
+o meu headset da Lenovo. Vou ter que comprar
+
+
+uma alguma coisa nova porque isto realmente não
+está capaz. Ele estava mais ou menos carregado. Eu
+
+
+começo a fazer um vídeo e ele depois começa a
+falhar e a desligar-se, pá. Pá, e agora até está
+
+
+está ligado por cabo, portanto eu estou, ele é sem
+fios, mas está ligado agora, está a ser alimentado e
+
+
+mesmo assim não consegue. Bom, e portanto eu tenho
+aqui o número de blocos, estáva eu  a dizer
+
+
+e eu tenho aqui para o mesmo puzzle, às vezes
+ponho mais que um vídeo ao longo do tempo quando
+
+
+eu consigo uma melhor solução e mudo ao número
+de blocos. Eu agora quero extrair este número
+
+
+de blocos e pôr aqui numa coluna à parte. Pronto,
+como estão a ver, e pá, isto não não a vicês se calhar não vos diz
+
+
+nada, mas pronto, é um exemplo em como às vezes
+um tipo de tratamento de dados que podemos fazer,
+
+
+neste caso, extrair uma determinada de informação
+que está ela própria dentro de um determinado
+
+
+descritivo de um campo eh e que fazemos e
+vamos isolar aqui numa numa coluna. Pronto. Eh,
+
+
+isto não vos diz nada, mas mas pronto, às vezes
+pode dar inspirar, pode dar uma dica. Eu aqui
+
+
+vou usar aqui esta, como é que se chama isto?
+este regular expression aqui. Eh, e vou extrair
+
+
+aqui o número de blocos. Ah, e pronto. E agora vou
+fazer no um campo e depois também vou fazer quando
+
+
+extraio esse número de blocos. Depois eu vou,
+interessa-me ir depois a ao ao título do do vídeo,
+
+
+não só extrair daqui este o número 20 aqui,
+mas também depois tirar esta parte 20 blocos,
+
+
+tirar, removê-la aqui do título. Pronto. Ou seja,
+isto é um determinado tratamento de dados muito
+
+
+específico que eu quis fazer dentro desta minha
+playlist, OK? Portanto, vocês não pode não vos
+
+
+dizer nada, mas eh pronto, mas também para o caso
+não importa. Ficam só com a ideia do que é que
+
+
+eu estou aqui a fazer. E agora aqui, se viermos
+aqui, eh, vamos ver que cá está. Ele já retirou,
+
+
+por acaso. Estes aqui não, estes não retirou.
+Eh, onde é que está isto? Ah, não, porque este é do
+
+
+block motion. Está bem. É dos do Infinifactory.
+É, é, ainda não retirou. Deixa-me lá fechar isto.
+
+
+Ou será que ele não fez refresh? Ora, YouTube
+video title. Deixa-me abrir aqui outra vez.
+
+
+Infinifactory. OK, já retirou. Pronto,
+
+
+já retirou. Já não aparece aquilo que
+estava aqui, que era o número de blocos. OK.
+
+
+Sim, senhor. Agora tenho aqui um sort
+
+
+reset row names. E agora vou
+vou tenho aqui os links,
+
+
+URL to clicable links. Eu pego no
+vídeo ID e construo um link direto,
+
+
+um link para eh porque já, já vão ver o que
+é que isto vai dar. Eu vou construir aqui uma
+
+
+página HTML e depois poder clikar no link e
+ir diretamente ver um vídeo meu. Pronto. OK.
+
+
+Eh, e eu tenho aqui uma função. Pronto,
+isto é um tópico avançado. Pronto,
+
+
+não posso estar a mostrar tudo, senão teria
+que fazer um outro outros tutorialis. Pronto,
+
+
+esta parte já não é necessária. Eu vou o
+importante aqui era mostrar-vos o o package
+
+
+de Tuber e as funções e como podemos ir buscar
+as informações dos vídeos, as playlists, etc,
+
+
+etc, etc, os views, etc, etc. Pronto, esta parte
+agora são extras, vocês podem ver e vai e é para
+
+
+para vos inspirar e dá do que do que é que nós
+podemos fazer. Eu tenho aqui uma função que ela
+
+
+faz-me uma página HTML com base, transforma um
+dataframe numa página HTML. OK, cá está. E agora
+
+
+eu vou visualizá-la. Ah, já está aqui. Vou é
+salvá-la. Pronto, eu tenho aqui e e portanto
+
+
+estes são todos os meus vídeos. Eu vou fazer
+aqui um zoom. Eh, e tenho aqui os vídeos. Ok,
+
+
+pronto, cá está. Eh, que tenho aqui a playlist.
+Pronto, no fundo é uma coisa que eu podia agora
+
+
+imprimir para um PDF ou qualquer coisa. Eh,
+há uma coisa que não ficou aqui muito bem,
+
+
+porque tenho aqui alguma coisa mal configurada
+aqui neste meu desktop, porque aqui não era
+
+
+para aparecer aqui este href, era para aparecer
+simplesmente o link, o no formato de link e
+
+
+não num num formato pronto, mas eh pronto,
+paciência, esta parte aqui não ficou bem,
+
+
+o que apareceria apenas aqui o link e nós aqui, eu
+poderia clikar no link e ia diretamente. Pronto,
+
+
+esta parte não correu bem, mas também agora
+para para o caso não importa. Pronto. Eh,
+
+
+sim, senhor. E agora vamos fazer alguns gráficos.
+Ah, e agora vou buscar então finalmente um data
+
+
+frame daquele que eu não consegui obter através
+aqui deste package do Tuber, OK? E por isso vou
+
+
+buscar aquele que eu vos mostrei no início do
+tutorial que eu tinha aí buscado diretamente no
+
+
+ZIP através do YouTube Studio, que é o Totals
+CSV. Pronto, que eu vou buscar aqui o Totals.
+
+
+Eh, onde é que ele está? Ah, é o é o view.
+Chamei-lhe views. Está aqui. Portanto, pronto,
+
+
+tem uma data e tem o total de views
+para cada data. Sim, senhor. Então,
+
+
+vamos avançando aqui. Eh, e agora tenho, vou fazer
+um cumsum, um acumulado, que é uma ou seja,
+
+
+interessa-me ter aqui um acumulado e tiro o views.
+Em vez de ter os views eh dia a dia. E e neste
+
+
+neste caso a mim em particular que me interessa
+ter o acumulado, interessa-me chegar aqui dia
+
+
+a dia, começar a navegar e ter dia a dia o ao
+longo do dia qual era o acumulado. Por exemplo,
+
+
+imaginem no ano 2021 eu tinha 837 views no total
+e este valor está sempre a subir até chegar à
+
+
+data de hoje. OK? Pronto, isto é aquilo que que me
+interessou. Portanto, estou mostrar como exemplo,
+
+
+não é? É o gráfico que eu quero, eu dá-me mais
+jeito ter de diretamente o acumulado. OK? Por
+
+
+isso pus o acumulado e deitei fora o o outro. Eh,
+eliminar os primeiros anos onde não houve views.
+
+
+Eu agora vou fazer um gráfico, mas os primeiros
+anos, os primeiros anos não me interessa ter um
+
+
+um grande secção do gráfico a zero, porque
+eu eu não fazia uploads nesse nessa altura,
+
+
+só comecei a fazer os uploads aí a partir do 2018.
+Portanto, eu aqui filtro filtro por data, OK?
+
+
+E agora tenho aqui um outro campo que é evolution
+of number of upload vídeos overtime. Portanto,
+
+
+eu agora aqui aqui são os views e agora vou
+e agora vou estudar os uploads e depois vou
+
+
+imprimir os dois juntos. Vou fazer dois dois
+gráficos sobrepostos aqui. Vou fazer os uploads
+
+
+por por data de upload. Aqui tenho views por data
+e agora vou cruzar contra uploads por data. E pá,
+
+
+porque me apeteceu, porque disse assim, deixa ver
+como é que deixa ver os dois gráficos lá a lado,
+
+
+só para estudar os gráficos lá a lado. Eh, e
+então pus aqui eh o data frame, tenho aqui o
+
+
+vídeo published. OK, aqui tenho o o campo uploads,
+vou fazer um novo data frame, onde eu tenho os
+
+
+uploads aqui por data e o vídeo. OK. uploads 
+e agora ordena aqui por data e agora rowname
+
+
+uploads e ok isto aqui não interessa. E agora que
+interessa-me fazer uma contagem porque eu tenho
+
+
+aqui os uploads. Eu tenho aqui os uploads eh os
+uploads que eu fiz ao longo da interessa-me
+
+
+fazer uma uma uma contagem também porque eu também
+quero um acumulado. Eu quero e eh para cada data,
+
+
+qual foi o o já não lembro se é o o OK, acho
+que é o acumulado, o total de uploads que eu
+
+
+já tinha feito ao longo de toda a vida até essa
+data. OK? é similar ao outro dos views. O outro
+
+
+era o acumulado com views e agora é o acumulado
+de uploads. Pronto, aqui tenho aqui. Pronto,
+
+
+então não vou explicar isto aqui agora ao
+pormenor. Ah, lembra no outro tutorial não
+
+
+me lembrava como se chamava este operador.
+É chamado o pipe pipe operator que é usado
+
+
+por alguns packages e aqui famosos aqui no no na
+linguagem R. OK. Eu eu devo ter ido aos chatGPT
+
+
+certamente para fazer isto, para ver como
+é que eu fazia aqui este acumulado. É um count,
+
+
+name, uploads, arrange date, mutate e crio um
+novo campo que é o cumulative uploads. OK? Pronto,
+
+
+cá está. E agora tenho aqui o acumulativo upload.
+E agora já é acumulado. Estão a ver aqui? No
+
+
+primeiro dia era três, o acumulado três. No outro
+dia houve dois uploads, eu fiz dois uploads num
+
+
+dia e agora já tenho um acumulado cinco e assim
+sucessivamente. OK? O normal é como vocês estão
+
+
+2018. Ah ah, ok. Eu aqui não tenho as datas todas.
+Só tenho algum ten as datas são esporádicas,
+
+
+só tenho as datas em que eu fiz uploads. OK. Não
+tenho porque houve datas onde eu não fiz nenhum
+
+
+upload não aparecem. Ok. Eh, uploads. E agora
+deito fora o outro campo do do uploads dia a dia,
+
+
+que não me interessa porque eu só me interessa
+ao acumulado. Detentou. Pronto. E agora vou fazer
+
+
+aqui um gráfico. Pronto, este gráfico eu também
+fui buscá-lo ao chat GPT, que eu não, eu já não
+
+
+me lembrava como é que eu fazia um gráfico com
+dois gráficos sobrepostos, dois em um, com os
+
+
+dois eixos, um à direita e um à esquerda. Pronto,
+um deles é os views e o outro é os uploads. Eh,
+
+
+pronto, está aqui. Vou usar o Plotly, que eu
+também já vos já vos mostrei, já falei dele no
+
+
+meu primeiro tutorial. Eh, e pronto, aqui não tem
+muito mais. Agora é é o plot e como poderia ser o
+
+
+GG Plot ou algum outro package. Pronto, ou outros
+packages de R nativo, que eu também podia mostrar.
+
+
+Eh, agora não posso precisar se com R nativo
+conseguimos fazer dois gráficos sobrepostos
+
+
+ou não, mas acho que sim. Acho que sim. Não
+sei se dá para fazer com escalas diferentes,
+
+
+porque ele aqui tem que adaptar escalas, não é?
+As escalas dos views, não é o mesmo que a escala
+
+
+dos uploads. OK, eu vou correr isto agora. OK,
+eu vou-vos só pôr aqui um bocadinho isto maior
+
+
+para que queira alguém que queira fazer aqui um
+print um print screen numa captura. Vou-vos pôr
+
+
+aqui esta primeira parte aqui para vocês verem com
+cuidado. Layout. Isto aqui não cabe tudo. E depois
+
+
+tem aqui mais algumas informações. X axis,
+Y axis, Xaxis 2, uma legenda, etc. E pronto. E
+
+
+agora vamos mostrar aqui o gráfico. Pronto, que
+este é o gráfico principal que me interessava
+
+
+ver. Vou fazer aqui um zoom. Pronto, o gráfico
+não tem nada de especial, mas eu interessava-me
+
+
+saber mais ou menos como é que evoluía os views ao
+longo dos anos juntamente com os uploads. E pá,
+
+
+e o que se verifica realmente é que eles andam
+a a mano a mano, não é? Ou seja, eu quanto mais
+
+
+vídeos eu fizer uploads, pois mais views eu vou ter. Não
+houve aqui nenhum vídeo que tenha sido viral.
+
+
+Não houve aqui nenhum vídeo a partir do qual tenha
+disparado eh os views, os views aqui a a azul.
+
+
+O que acontece é que isto anda mais ou menos mano
+a mano, ou seja, isto mais ou menos à medida que
+
+
+quanto mais uploads eu faço, mais disparam
+os views. Pronto, mas pronto, eu também quis
+
+
+fazer isto por carolice. Eh, a partir de um
+determinado momento, agora dos últimos 2 anos,
+
+
+o crescimento de views tem sido mais ou menos
+regular, tem uma determinada taxa de crescimento
+
+
+que tá tá boa. Reparem que aqui nos primeiros
+anos o número de views era muito lento, portanto
+
+
+isto crescia muito lentamente nos primeiros anos.
+Depois em 2024 disparou porque eu postei muitos
+
+
+vídeos. Foi um ano que eu postei muita coisa.
+Eh, aqui no Laranja fiz muitos uploads. Reparem,
+
+
+neste período eu não fiz upload nenhum. Entre 2021
+e aqui 2023. Aqui esta data aqui julho. Portanto,
+
+
+não fiz nenhum upload. OK. E depois aqui neste ano
+aqui entre esta data e esta, fiz aqui muitos uploads,
+
+
+e assim sucessivamente. Pronto. Eh,
+pronto. Eh, portanto, aqui é como vos digo,
+
+
+o tutorial está está prestes a chegar ao fim. Eh,
+aqui acho mais importante do que explicar-vos aqui
+
+
+a função XPTO, é dar-vos inspiração, mostrar-vos,
+dar-vos ideias. Neste caso, mostrei-vos como
+
+
+podemos como o R é bem capaz de usar packages para
+aceder a restfull API de diversas plataformas.
+
+
+eh, por exemplo, o Steam, que provavel futuramente
+talvez farei também um um tutorial sobre sobre o
+
+
+a API do Steam, eh, e tantas outras, pronto,
+ou outras que eu também que eu não conheça. E,
+
+
+portanto, mostrar, bom, desde que existam packages
+para isso, ou se não existir, então existirão
+
+
+packages genéricos nos quais vocês terão que
+trabalhar em Json nativo aqui dentro para fazer
+
+
+isso se quiserem fazer isso. OK? Eh, e estamos
+quase a chegar ao fim. Tenho só aqui mais aqui
+
+
+alguns barplots. Este aqui nem vos vou explicar.
+Vou só vos mostrar-vos os gráficos. Isto aqui
+
+
+não tem. Acho que é o número de views por mês. Ah,
+salvo erro, também pode ter interesse. Eu às vezes
+
+
+posso posso posso ver. Pronto, cá está. Este foi
+um pico que houve em 2024. E aqui posso comparar
+
+
+aqui mais ou menos como é que tem estado agora nos
+últimos meses. Eh, e depois tenho também aqui por
+
+
+ano. Tenho aqui por ano. OK. Eh, pronto, cá está.
+E, portanto, é isto. Eh, está a chegar ao fim. Eh,
+
+
+pronto, que eu o que eu que a minha ideia destes
+meus tutorialis é esta, é dar-vos e inspirar-vos
+
+
+também, dar-vos um lamiré de uma série de
+tópicos. Eu gosto de mostrar de de misturar
+
+
+aqui um conjunto de tópicos. Há aqui coisas,
+por exemplo, que eu nunca tinha trabalhado,
+
+
+como aquele o Windows Credential Manager, eu nunca
+tinha usado e, portanto, mostrar-vos dar um lámire
+
+
+gosto de debater tecnologias e, portanto,
+pronto, neste caso, aproveito o R Studio como como
+
+
+a peça central e depois aproveito para divagar um
+pouco e mostrar-vos outros tópicos e falar-vos às
+
+
+vezes de outra de outras temáticas, não é? Como
+falei-vos aqui do de um gestor de passwords,
+
+
+falei-vos assim de alguns tópicos, eu acho que
+acho que sim, acho que está mais ou menos cumprido
+
+
+aquilo que eu vos queria mostrar. Eh, espero que
+tenham gostado e até uma próxima oportunidade. - Obrigado
+
+

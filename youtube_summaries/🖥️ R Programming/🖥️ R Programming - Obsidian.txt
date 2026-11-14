@@ -1,0 +1,11 @@
+🖥️ R Programming - Obsidian
+1. Introdução ao produto Obsidian e comparação com ferramentas como Notion.
+2. Uso do formato Markdown para notas de inteligência artificial.
+3. Integração da linguagem R para automatizar funcionalidades no Obsidian.
+4. Geração automática de resumos (summarization) de notas via IA.
+5. Criação de índices automáticos por pasta para organizar as notas.
+6. Gestão de Front Matter (YAML) e adição de propriedades nas notas.
+7. Utilização de plugins como ChatGPT Exporter e Copilot.
+8. Importação e exportação de conteúdos entre diferentes ferramentas.
+9. Sistema de recomendação de novos tópicos de estudo baseado em notas existentes.
+10. Vantagens da estrutura de ficheiros para automação no Obsidian.

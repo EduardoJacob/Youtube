@@ -1,0 +1,2200 @@
+
+Ora, sejam bem-vindos a mais um tutorial,
+programação em R com R Studio. Hoje vamos nos
+
+
+debruçar sobre o Spotify, aceder aos nossos
+dados Spotify usando um package Spotify R.
+
+
+Ora, recomendações que vejam este
+vídeo num monitor grande com resolução
+
+
+4K para poderem ver com toda a nitidez,
+porque eu também estou a gravar com 4K.
+
+
+Eh, também é importante que vejam eh os
+os meus tutoriais anteriores desta minha
+
+
+playlist programação em R. Portanto, há
+tópicos que eu já expliquei, há coisas que
+
+
+têm uma certa continuidade, OK? Para eu não me
+estar sempre a repetir, é fundamental verem os
+
+
+os outros tutorials, pá. E espero que quem não
+conhecia o R, eu espero que se dediquem ao R.
+
+
+R para mim é a linguagem número um hoje
+em dia como a linguagem fundamental para
+
+
+qualquer pessoa que gosta que precisa de fazer
+algum tipo de programação pontualmente. OK? É
+
+
+uma linguagem generalista, muito user friendly.
+Eh, e portanto vamos aqui então dar início. OK.
+
+
+Ora, o meu último tutorial que tratava parecido
+com este, mas que era dedicado ao Steam,
+
+
+à plataforma de jogos Steam, em que o package não
+havia nenhum package, pelo menos que eu tivesse
+
+
+assim identificado, eh, dentro do repositório
+oficial de packages do da linguagem R. OK?
+
+
+E, portanto, nós fomos ao GitHub. OK, pronto, não
+vou estar a repetir agora tudo isso. Vejam os meus
+
+
+tutorials anteriores. Neste caso, este package
+sim que existe na no cran. Existe aqui, se eu chegar
+
+
+aqui install e pesquisar aqui, Spotify, eu vejo que ele
+existe, o Spotify R. Eh, já não me lembro se ele
+
+
+está instalado ou não. Eu posso ver aqui se eu já o
+instalei. Já não me recordo. Eh, porque eu tenho
+
+
+mais que um computador e por isso é que estou a
+dizer que já não me recordo, porque às vezes estou
+
+
+a trabalhar no meu portátil e, portanto, a depois
+já faço confusão, já não me lembro se trabalhei
+
+
+numa máquina ou noutra. OK? Embora tenho sempre
+o código todo sincronizado, já vos falei nisto
+
+
+noutros tutorials. Eu uso a plataforma do Megasync
+para ter ser sempre tudo sincronizado. Portanto,
+
+
+posso entrar numa máquina, noutra e está sempre
+tudo sincronizado. Ora, o código desenvolvido
+
+
+por mim já o mesmo não se aplica a eh, por
+exemplo, a packages, não é? Porque os packages
+
+
+que eu instalo aqui numa máquina, pois não ficam
+sincronizados noutra. Ora, Spotify R já está aqui
+
+
+instalado. Sim, senhor. Na versão 225. Aqui diz
+que ele foi instalado a partir do cran. OK. Sim,
+
+
+senhor. Temos este outro aqui, por exemplo, este
+aqui e foi instalado a partir do GitHub. OK. Sim,
+
+
+são tudo temas que eu já falei noutros
+tutorials. Ora, vamos então aqui arrancar.
+
+
+OK.
+
+
+Ora, sim, senhora. Temos aqui o help.
+Ora, o que é que nós temos aqui?
+
+
+Temos aqui, vamos precisar mais uma vez,
+portanto, de de de uma de uma conta de
+
+
+uma de uma de uma conta de acesso à API
+de development do Spotify. OK? Então,
+
+
+deixa-me carregar aqui as minhas funções. OK.
+OK. Então temos aqui, vou abrir aqui o código.
+
+
+Quando clico aqui nesta setinha,
+posiciono-me na working directory,
+
+
+OK? E a working directory ela é estabelecida
+automaticamente aqui pela minha inicialização.
+
+
+OK? Eh, aqui está aqui set working directory.
+OK. posiciona-me aqui na onde onde eu estou,
+
+
+ou seja, na na mesma directory do
+membro que eu abri. OK? Ora, vamos aqui.
+
+
+OK. Então, eh, eu quero vos mostrar
+
+
+aqui alguma documentação sobre este package,
+
+
+por exemplo, no browser. Estava
+a ver se tinha aqui alguma linha.
+
+
+OK, tenho aqui esta.
+
+
+Eh, não estou a ver onde está, mas
+OK. Eu vou aqui, eu vou aqui ao GitHub.
+
+
+Vou aqui ao github.
+
+
+Ora, eu vou aqui pesquisar Spotify R.
+
+
+Reparem, o package está no cran. Eu também
+podia ir à documentação do cran. Agora calhou.
+
+
+Vim aqui porque aqui também está sempre
+está sempre o do desenvolvimento do package.
+
+
+Ora, onde é que isto está?
+
+
+Será? Acho que será esta.
+
+
+É este. OK. Pronto. E e portanto aqui diz que
+necessita um client ID e um e um e um Spotify
+
+
+client secret. OK? É similar à API do
+YouTube. OK. Também trabalha com este par,
+
+
+o qual eu já tenho, obviamente
+já tenho essas credenciais.
+
+
+Eh, eu tenho aqui, onde é que está?
+
+
+OK, está aqui informação. OK,
+quando um package está no cran,
+
+
+eh, também podemos instalá-lo a partir do do
+GitHub. Depende. Temos que ter cuidado. Às
+
+
+vezes no GitHub pode estar ainda uma versão
+em desenvolvimento, alguma versão beta,
+
+
+portanto temos que ter cuidado. E no CRAN
+estará uma versão já a finalizada. OK. Ora.
+
+
+Ah, é isto que eu queria. OK. Eh, não, onde é
+que está? Está aqui. Pronto. Ora, eh, mais uma vez,
+
+
+eu não vou aqui perder muito tempo a explicar
+como se faz isso, como se cria uma uma uma como
+
+
+se obtém as credenciais para uma API, porque
+isso extrava um pouco aqui o âmbito do curso.
+
+
+Eu quero-me centrar eh, portanto, não vou perder
+muito tempo. Mas aqui temos aqui a minha entrada,
+
+
+a minha entrada aqui no developers Spotify.com,
+Spotify for developers. Portanto, aqui tenho os
+
+
+dados. Eu tenho aqui o client id, está visível, não há
+problema, porque falta o client secret, este está
+
+
+aqui. Eh, e o a aplicação está em development
+mode, porque ela necessita mesmo de estar em
+
+
+development mode. Portanto, para para passar a um
+nível mais avançado, eu preciso de de de cumprir
+
+
+outros requisitos que eu não tenho. Ou tenho que
+ter algum tipo de site profissional ou alguma
+
+
+empresa, já não me recordo, na altura tive a vir
+aqui a documentação. Pronto, portanto, ele fica
+
+
+sempre aqui em development mode. Eh, portanto,
+nós damos aqui um nome, application name,
+
+
+app description e depois tem aqui um parâmetro
+que é o redirect uri que é importante. Pronto,
+
+
+isso depende da da aplicação que vai chamar a
+API, ela vai indicar um redirect uri. E eu não sei
+
+
+bem bem como é que isto funciona, mas pronto, é um
+parâmetro para ir ao browser fazer, ele vai fazer
+
+
+a autenticação no browser e depois ele retorna o e
+depois a aplicação está à escuta no redirect uri para
+
+
+obter o resultado. Mais ou menos assim, eu não
+também não sei explicar bem, mas aqui tínhamos
+
+
+aqui um bug aqui na tínhamos e temos temos aqui
+um bug neste neste neste package. é um um bug
+
+
+porque porque isto mudou porque mudou. Já vos vou
+mostrar aqui o que é que mudou e o que é que o que
+
+
+é que alterou. Portanto, aqui na documentação, vêem
+aqui na documentação aqui do package que dizia que
+
+
+nós podemos pôr aqui application name e depois no
+redirect uri nós podemos pôr aqui localhost. Ora,
+
+
+o que acontece é que eh o localhost ele já não
+aceita. O Spotify já não aceita localhost. OK? E
+
+
+então precisamos de pôr aqui em vez do localhost
+este 127.0.0.1, OK? Que é igual ao localhost, mas
+
+
+que neste formato aceita e por extenso não aceita.
+Isso está aqui na documentação. Algures aqui e se se
+
+
+puserem aqui local host ele depois vai dar o erro
+e depois podem ter aqui uma chamada à documentação
+
+
+onde vai mostrar o que aceita e porque é que não
+aceita. Eh, e portanto isto foi o suficiente para
+
+
+rebentar o package, porque o package depois ele
+ele valida que o o URL da da página que vai abrir
+
+
+no browser, se não for exatamente igual ao que
+nós programámos aqui no nosso setup, ou seja,
+
+
+neste meu setup aqui, não funciona. O que
+acontece é que este localhost:1410 ele está
+
+
+hardcoded dentro do package. Pronto. E, portanto,
+isto foi chegou aqui a uma situação de impasse que
+
+
+eu não consegui ultrapassar. Só que depois eu
+aqui algures eu descobri eh acho que foi aqui
+
+
+já não me lembro onde é que foi. Ou ou foi aqui
+foi aqui no site que também tem um, para além
+
+
+do GitHub, tem aqui um site. Exato. Acho que foi
+aqui. Tem aqui a mesma documentação. E depois tem
+
+
+aqui a parte de report bugs. E aí eu descobri,
+portanto, que este este problema, portanto,
+
+
+já estava reportado. Olha, cá está. Aparece alguém
+em primeiro lugar. E aqui tinha a solução. Pronto.
+
+
+E a solução já vamos ver que vai ser e reescrever
+uma das funções do package. OK? Pronto, isto vamos
+
+
+ver isto agora aqui à frente. Ora bem, portanto,
+eh, entretanto, eu tenho as minhas credenciais,
+
+
+obviamente que elas estão aqui carregadas com
+o R environment. Também já expliquei isto nos
+
+
+meus outros tutorials. Eh, e agora vou ver que
+credenciais é que eu tenho que contêem a string
+
+
+Spotify para vos mostrar aqui. Eu vou mostrar.
+Ah, OK. É porque eu não eu não eu não as carreguei
+
+
+aqui. Eu ainda não as carreguei aqui. Portanto, eu
+vou eu vou carregá-las aqui. Eh, porque eu tenho-as
+
+
+aqui. Ora, onde é que isto está? Eu tenho uma
+folder aqui de configuração porque esta parte não,
+
+
+ela não foi sincronizada no Megasync porque ela
+não está na minha folder de sincronização. Ela
+
+
+como está é instalada numa folder do Windows
+do user settings e portanto e essa folder eu
+
+
+não tenho sincronizada. Pronto, portanto essa
+parte aqui eu tenho essa parte de configuração
+
+
+eu tenho que a repetir aqui. OK? Eh, portanto, eu
+vou aqui fazer aqui uma pequena pausa na gravação,
+
+
+que é para não mostrar as minhas passwords, as
+credenciais, que elas estão aqui em claro. Aqui
+
+
+eu tenho aqui o membro R environ.R  e depois
+eu vou copiar para o membro de configuração,
+
+
+o verdadeiro R environment que que que existe aqui
+na na configuração do R que é o .Renviron
+
+
+Pronto, isso também já expliquei no outro
+tutorial e, portanto, eu vou simplesmente
+
+
+agora copiar isto. OK, vou fazer aqui uma
+pequena pausa agora na aqui e já volto. Ora,
+
+
+OK, já está. E, portanto, eu tenho estas três
+variáveis do meu environment, é o client ID,
+
+
+o client secret e tenho este Spotify redirect URI, mas não é usado. Isto era, eu pensava,
+
+
+pensava em alguma documentação e inclusive é o
+chat GPT. Eh, portanto, parece haver aí alguma
+
+
+certa confusão em que, eh, de acordo com algumas
+fontes, nós poderíamos configurar dinamicamente
+
+
+aqui qual seria o redirect uri que nós tínhamos
+configurado aqui no no Spotify Development e,
+
+
+portanto, para queria para eu poder pôr aqui o
+que eu quisesse e depois punha aqui no Spotify
+
+
+redirect uri, e portanto isto ficar dinâmico, mas acho
+que não, não funciona porque porque isto está hardcoded
+
+
+no package. OK. Eh, portanto, eh, vamos usar
+estas outras duas, client ID, client secret. OK. Ora,
+
+
+e ele tem aqui eh duas tem dois tipos de
+autorização com que este package trabalha,
+
+
+na verdade, eh consoante o o nível de informação
+ao que nós queremos aceder. Portanto, há um nível
+
+
+de informação no Spotify que é público e que e
+há outro nível onde eu tenho que me autenticar
+
+
+para aceder ao meu ao meu próprio profile, às
+minhas próprias playlists, eh, etc, etc. Pois para
+
+
+aceder uma determinado de tipo de informação, eu
+tenho que estar autenticado. Mas para aceder a outra informação, mais generalista
+
+
+eu basta-me ter aqui um access token.
+Portanto, o access token, eh, vamos ver aqui.
+
+
+Onde é que onde é que ele está? Ah, o Access token
+não não está em lado, portanto está diretamente aqui
+
+
+no package e, portanto, não requer qualquer
+parâmetro. Já não me recordo. Deixa-me ver.
+
+
+ai não... requer. OK, requer. Estava a fazer
+confusão. OK, ele também, ele aqui também requer
+
+
+os dados da API. O que acontece é que e mesmo
+assim eh está correto aquilo que eu disse. Ou seja,
+
+
+é dois tipos de autenticação diferente, mas ambos
+requerem os mesmos parâmetros. Mas este que é um
+
+
+nível mais avançado, vai requerer um outro um
+outro o nível mais avançado de de autenticação,
+
+
+porque eu vou ter que informar os o scope, ou
+seja, as áreas dentro da API que eu que eu quero
+
+
+aceder. OK? Vamos então correr aqui primeiro
+esta parte aqui. E aqui a documentação diz-me
+
+
+que ele não precisa de passar parâmetros
+porque ele assume este default. Portanto,
+
+
+os estes dois parâmetros das credenciais, ele
+assume o default que ele vai buscar às variáveis
+
+
+de environment. OK? Está correto. Que é onde eu
+as tenho, portanto é precisamente onde eu as
+
+
+tenho. Portanto, ele vai ele vai lá buscá-las.
+Portanto, eu vou buscar aqui o access token. Eh,
+
+
+cá está. Está aqui o access token e, portanto, eh,
+isto permite-me um determinado nível de acesso,
+
+
+mas é muito limitado porque quase quase todas
+as funções que vamos aqui trabalhar precisam de
+
+
+um nível superior que é o authorization. Eh,
+onde tenho o get Spotify Authorization Code
+
+
+que está aqui, onde necessita de o estas duas
+mesmas credenciais mais o scope, ou seja,
+
+
+eu tenho que lhe indicar o scope. Pronto. Então o
+que acontece é que realmente esta API aqui é mais
+
+
+complexa do que outras que já vimos noutros
+tutorials, porque esta nós precisamos de eh
+
+
+registar quais os scopes que indica, quais
+as áreas dentro da API que queremos aceder,
+
+
+se queremos aceder a playlist, se queremos aceder
+à às músicas recentemente tocadas, se queremos
+
+
+aceder aos amigos, se queremos aceder toda uma
+série de áreas em que a API está dividida, OK?
+
+
+Eh, e portanto nós temos que indicar eh que é o
+que eu tenho aqui. Eu tenho aqui eh os scopes,
+
+
+o link para a documentação dos scopes. OK? Pronto,
+temos aqui a documentação dos scopes e aqui diz eh
+
+
+o os scopes, não é? E os scopes são estas strings.
+Por exemplo, imaginando que eu quero aceder às às
+
+
+playlists, eu vou precisar de ler playlist read
+private. Eu vou eu vou precisar de registrar e
+
+
+de informar. Eu tenho que informar a API de qual
+os scopes que eu quero. Isto é por uma questão
+
+
+de segurança, porque imaginem que alguém faz um
+produto até comercial, não é, e disponibiliza numa
+
+
+página web que existem vários produtos desses
+comerciais ou mesmo gratuitos que existem.
+
+
+Se vocês pesquisarem aí no Google, vão encontrar
+eh ferramentas que acedem ao Spotify, que acedem
+
+
+obtem as vossas listas e a no fundo algo similar
+ao que vamos aqui fazer hoje, só que com já com
+
+
+uma interface gráfica e publicadas na web. E,
+portanto, por uma questão de segurança, eh,
+
+
+a pessoa que faz também essa essa essa ferramenta,
+ela limita quais os scopes que os utilizadores
+
+
+que vão usar a ferramenta poderão aceder, que é
+OK, pronto, não sei se me explico. Eh, portanto,
+
+
+aqui estão muitos scopes. Vamos ver, por exemplo,
+aqui no meu código que eu tenho aqui, por exemplo,
+
+
+o user library read, eh, por acaso, eh, e para
+OK. e o o o playlist read private, OK? Que é o
+
+
+que está aqui, playlist read private. Agora, se
+eu clicar, ele vai dizer certamente o que é que
+
+
+o que é que acede ou que não acede. OK? Pronto.
+Portanto, isto é uma área que se eu começar a usar
+
+
+algumas funções a aqui do do package e me der um
+erro da falta de autorização, eu já vou saber que
+
+
+falta-me um scope e então eu vou ver pelo tipo de
+função que é, por exemplo, se consoante o o tipo
+
+
+de função do package e foi o que me aconteceu
+e eu facilmente percebi, por exemplo, num dado
+
+
+momento eu estava a aceder a aos meus top artistas
+e, portanto, deu um erro e eu rapidamente fui aqui
+
+
+à documentação e encontrei que era este scope que
+eu precisava. OK? Pronto. E, portanto, aqui eu
+
+
+concateno estas strings e depois tenho tenho e e
+depois tenho os scopes. Ele usa aqui uma função
+
+
+scopes que é nativa do package, mas que acho que
+isto também deve haver aqui um bug, porque o que
+
+
+o que ele faz por default é que daria acesso a
+todos os scopes. A, e deu-me erro, provavelmente
+
+
+ou porque a aplicação a nível de desenvolvimento
+não pode aceder a todos os scopes ou porque alguns
+
+
+desses scopes já estarão desatualizados. Não
+sei não, não. Depois não investiguei mais,
+
+
+mas verifiquei que eu a substituindo-me à
+função nativa que veio aqui no aqui no help
+
+
+da documentação, portanto ele aqui traz uma função
+que é os scopes que está aqui  scopes e OK, que ele
+
+
+diz que acede aos scopes, mas eu ao ao redefini-la
+aqui, eu estou a fazer o override dela. Então,
+
+
+se eu se eu faço defino aqui a minha própria
+função scopes, eu quando chamar os scopes aqui,
+
+
+eu eu ao não prefixar pelo package, se eu
+puser aqui o Spotify, o Spotify R, desta forma,
+
+
+eu estou a forçar, que é para ir buscar a função
+dentro do package. Se eu não puser nada, então
+
+
+o sistema irá procurar a função. Também poderá
+encontrá-la dentro do package, mas e tem uma certa
+
+
+ordem por não não posso garantir agora de cor
+como é, mas eventualmente ele vai primeiro aqui ao
+
+
+current environment procurar a definição a a minha
+própria função e só se não encontrar é que depois
+
+
+vai à procura nos packages. Provavelmente é isso
+que ele faz porque está a funcionar. OK? Portanto,
+
+
+eh, então estávamos a ver esta função aqui e que
+tem tem realmente tem o bug. Eu não vou agora aqui
+
+
+reproduzir o bug, não vale a pena. Não é aqui,
+é aqui. OK, eu até posso reproduzir. Eu vou
+
+
+pôr aqui, eu vou pôr aqui Spotify R. OK. Eu vou
+reproduzir aqui. E então o que é que isto vai dar?
+
+
+Eh, dá, dá-me aqui um ilegal scope porque
+eu cá está aqui o que eu estava a dizer,
+
+
+porque ele tá a usar os scopes, os scopes dele
+próprios, OK? Está a usar os scopes dele, OK?
+
+
+Então eu vou eh aqui posso posso forçar
+a passar os meus scopes porque porque
+
+
+aqui aqui ele tem e estas três variáveis, elas
+elas assumem defaults, mas eu posso lhe passar
+
+
+a terceira para fazer o override ao default.
+Então eu vou-lhe passar o o terceiro parâmetro,
+
+
+scope. Scope e vou-lhe passar a minha
+função scopes, a minha a minha função.
+
+
+Cá está scopes. E e assim já vai chamar os
+os meus scopes. OK? Então vou vou executar.
+
+
+E pronto, agora já já ultrapassou a fase dos
+scopes, mas falha naquele tópico onde eu vos
+
+
+disse que dá inválid redirect uri porque
+aqui neste URL, OK, que ele tem aqui,
+
+
+ele ele inclusive é onde ele passa o o passa os
+scopes que eu estou a pedir, eu estou a pedir
+
+
+a autorização para aceder à aqueles scopes e,
+portanto, e que e depois ele também passa aqui
+
+
+o redirect uri e reparem que ele vem hardcoded localhost. Pronto. Só que no no Spotify Development
+
+
+não me deixa registrar um redirect uri com o nome
+localhost. Deixa-me com aquele IP equivalente.
+
+
+Só que isso é o suficiente para fazer falhar o
+package. Levei umas horitas até descobrir isto,
+
+
+até perceber e e depois só resolvi porque descobri
+uma solução eh que alguém reescreveu a função,
+
+
+certamente foi ver o código original e corrigiu
+a função. OK. Ainda me durou. Pronto, estou-vos a
+
+
+dar aqui também um lá miré como eh ainda houve uma
+fase que experimentei, experimentei e chegar aqui
+
+
+e fazer o override e meter aqui o IP e depois
+que punha aqui na na linha do browser e etc,
+
+
+etc. Mas não consegui. Pronto, isso não funcionou
+nada. Isso nada disso funcionou. Mas ok. Espero
+
+
+que tenham ficado com uma ideia de qual é o
+problema que tinha. O bug tem o package. OK.
+
+
+E felizmente encontrámos aqui uma uma solução.
+Estas coisas também acho que são bastante
+
+
+interessantes, mostrar num tutorial, OK? Não é
+só mostrar o tutorial e e dar enter enter enter
+
+
+e corre tudo bem e não é mostrar porque sabemos
+que e bem e quem trabalha em programação sabe
+
+
+bem e entende bem o que eu estou a falar as
+coisas às vezes não saem assim tão bem como
+
+
+parece às vezes em tutorials todos bonitinhos
+e que a pessoa preparou e depois quando faz o
+
+
+tutorial já está tudo a 100%. Mas eh realmente
+não, normalmente as coisas não não são assim,
+
+
+não. Quando se estão a preparar as coisas não
+arrancam logo a 100%. Portanto, aqui e eu eh
+
+
+aqui copiei aquela função que vos disse que era a
+função corrigida e portanto eu pus aqui a função
+
+
+corrigida que está aqui. Dei-lhe o mesmo nome
+por uma questão de clareza, até porque de hoje
+
+
+para amanhã, quando a função já estiver corrigida
+no package, eu simplesmente tenho que apagar aqui
+
+
+e não tenho que apagar em mais lado nenhum. E
+ele nos vários sítios que invoca esta função,
+
+
+pois e já passará passará a redirecionar para
+a função que vem do package. OK? Pronto. E,
+
+
+portanto, temos aqui esta função. Eh, não vou
+explicar muito isto porque também eu também não
+
+
+entendo. Eu entendo daqui a pouco, tenho uma ideia
+do que é que ela está a fazer para já. Baseia-se
+
+
+noutros packages e baseia-se aqui num package
+precisamente que acede às API em baixo nível.
+
+
+Isso era se vocês quisessem aceder à API a baixo
+nível ao Json, OK? Vocês fariam aqui, mas para
+
+
+isso tinham que ver a ver a documentação aqui para
+ver qual era a documentação. Imaginemos aqui. Eh,
+
+
+vamos entrar aqui a ver se ele dá aqui a alguma
+documentação aqui. P pa pa pá. Onde é que isto
+
+
+está? Scopes. Ah, ...
+Pronto, aqui não estou a ver onde é que está.
+
+
+Pronto, mas algures deve estar aqui a documentação
+e eventualmente com alguns exemplos de
+
+
+do Json que ele que ele devolve. OK. Pronto. Mas
+pronto, mas isso é um trabalhar a baixo nível. Eu
+
+
+nunca trabalhei, nunca nunca que me lembro nunca
+fiz nada a este nível. Eh, isto é um é mais baixo
+
+
+nível. Também não gosto muito de programar a esse
+nível. Gosto de ter já alguma API já desenvolvida,
+
+
+pá, e fica muito mais fácil, não é? Depois quando
+chamamos uma função da API, ele já nos devolve um
+
+
+data frame, já a informação já toda estruturada,
+já não tenho que andar a processar o Json. OK? Mais
+
+
+simples. Pronto, e basicamente é o que está aqui.
+E a parte que foi realmente reescrita e corrigida
+
+
+na função é esta parte. Pronto, o redirect uri
+aqui, ele tá a ser overrided aqui, já não leva
+
+
+o localhost e já leva aqui o IP. Pronto, eu
+penso que sim. Penso que seja basicamente só isto
+
+
+que foi corrigido. Pronto. Eh, e portanto,
+eh, vamos aqui, vamos ver se está tudo OK.
+
+
+Vou vou eh agora vou chamar aqui a função,
+mas para isso, para chamar a minha,
+
+
+tiro daqui o Spotify R. OK. Tiro daqui
+o Spotify R. O o resto é igual. Eh,
+
+
+scope scopes aqui acho que é
+indiferente que ele também vai
+
+
+aos meus scopes. Ele está a ir aqui aos meus
+scopes. Portanto, aqui penso que nem temos
+
+
+que passar nada porque já está ali dentro.
+OK. Então, vamos lá ver se isto funciona.
+
+
+OK, funcionou. Authentication complete. Eu por
+acaso estava à espera que ele me mostrasse aqui
+
+
+um print screen. Não sei porque é que ele não
+mostou. Ele normalmente mostra aqui um ecrã de
+
+
+apresentação para a pessoa ter a certeza e saber
+qual a aplicação que que está definida no Spotify
+
+
+Development que a pessoa vai usar. Sinceramente
+não sei porque é que aqui não mostrou, mas em todo
+
+
+o caso, eu por acaso fiz um print screen aqui.
+Eu fiz aqui um print screen que tenho aqui. Ora,
+
+
+eu tenho esse print screen. Vou pôr aqui vou pôr
+a chamada aqui. Também já mostrei isto nos meus
+
+
+outros tutorials, que eu tenho um package meu que
+é o minifunctions e tenho aqui um displaymedia.
+
+
+Pronto, eu vou mostrar aqui.
+
+
+OK. Isto aqui não, não é nada. É alguma foto,
+algum perfil de utilizador que ficou aqui. Ora,
+
+
+este sou eu, o meu perfil. Outro perfil. E
+cá está. Isto era o que eu tava à espera que
+
+
+aparecesse, eh, que deveria aparecer isto. Não
+sei porque é que não apareceu agora. Autenticou
+
+
+direto sem me mostrar, sem me mostrar este
+consentimento aqui. Estava à espera que aparecesse
+
+
+aqui. Cá está o nome da aplicação que eu defini
+lá no development. Ah, por acaso tinha fiz aqui
+
+
+um print screen e tinha aqui, mas para vocês
+verem. Mas agora não me apareceu, não sei porquê.
+
+
+E apareceu-me aqui simplesmente
+direto autentication complete. OK.
+
+
+OK. Então já posso fechar isto aqui. Isto aqui
+tudo que esta parte já está explicada. OK. E vamos
+
+
+então começar agora. Sim, que já tenho tudo. Já
+tenho. E esta autorization ela devolve aqui no no
+
+
+formato de um environment, OK? um environment
+que é um eh pá, não sei bem explicar o que é
+
+
+que é isto, mas pronto. Eh, eu tenho o global environment,
+é como se fosse aqui um outro environment,
+
+
+é uma outra um ponto de entrada com um
+conjunto de variáveis lá dentro. Pronto. Eh,
+
+
+seja o que for, é o que é o que está a funcionar.
+Ora bem, então vamos então começar a explorar a
+
+
+informação do Spotify. O que é que nós vamos ver
+primeiro? Eh, de uma forma similar ao que fizemos
+
+
+com o Steam, vamos ver o user profile. Spotify
+get my profile. Vamos dar aqui uma vista de olhos
+
+
+na função. Spotify get my profile. Pronto.
+E o que é que ele tem aqui? Ele tem aqui a,
+
+
+podemos ver aqui  a documentação, O
+que é que ele tem aqui? Ele recebe autorization.
+
+
+Ele aqui tem no formato autorization e chama a
+função consecutivamente. E pá, mas isto é uma
+
+
+uma perda de tempo, isto é uma perda de trabalho
+que ele está sempre a chamar. O melhor é chamar uma
+
+
+vez e depois reutilizamos a autorization. Pode
+acontecer é ao fim de um determinado timing e
+
+
+autorization expirar e depois se expirar dá
+dá-me erro e voltamos a correr. OK? Pelo menos
+
+
+nesta fase de desenvolvimento isto funciona
+bem. Se fosse um produto mais profissional,
+
+
+pois provavelmente ficaria melhor assim. Quer
+dizer, cada chamada de função, ele internamente
+
+
+ele reautenticava. OK. Eh, sim, senhora. Até
+poderia haver o caso de que em cada chamada
+
+
+eu passar os scopes específicos, ficava até uma
+coisa mais robusta. Eu cada função eu poderia
+
+
+obter uma autenticação, uma autorização para o
+determinado scope e depois na próxima função eu
+
+
+obtinha uma autorização para outros scopes. OK?
+Pronto, mas aqui eu reutilizo a autorization, OK?
+
+
+que é este environment aqui. Eh, e pronto. E
+depois já sabemos, isto é o costume dentro do R,
+
+
+ele devolve um data frame. Normalmente eu vou
+obter aqui algumas informações e depois vou
+
+
+fazer o numa delas é o URL para o meu avatar,
+o meu profile, e depois faço um download. Isto
+
+
+é similar ao que vimos no meu outro tutorial do
+Steam. É muito similar. OK, vamos então executar.
+
+
+OK, está a fazer o download e pronto, cá está.
+Dá-me o meu nome do utilizador, o Steam ID,
+
+
+eh, desculpem, o Spotify ID. Eh, e pronto. E
+e dá-me aqui mais algumas coisas. Dá-me aqui
+
+
+alguns campos também. Eduardo profile e por acaso
+é muito parecido com com o que vimos no Steam. Dá
+
+
+o país. Diz-me que eu tenho conta premium e já
+agora convém esclarecer que é necessário conta
+
+
+premium para usar este este package para aceder a
+API. Isso é uma documentação que está lá na API,
+
+
+portanto é requisito, o utilizador tem que ter
+uma conta premium para poder aceder via API à à
+
+
+à informação. OK. Ah, mais alguma coisa de
+especial? Acho mais nada de especial. OK.
+
+
+Aqui posso aceder ao profile de outra pessoa.
+Teoricamente posso, eh, mas já já consegui e
+
+
+também já me deu erro e não fiquei e não fiquei
+bem esclarecido o porque é que deu erro. Deixa-me
+
+
+experimentar agora. Ver o que é que acontece. Cá está. Ele
+dá-me aqui um erro. Não, não consegui perceber
+
+
+bem. E provavelmente falta-me algum scope. Ah, mas
+vou passar por cima também para isto não ficar.
+
+
+Vou saltar um bocadinho isso por cima porque
+aí também ainda não resolvi este problema. Não
+
+
+sei o que é que se passa. Eh, se se vocês
+quiserem e vos der o mesmo problema, eh,
+
+
+têm têm que investigar melhor, procurar no chatgpt
+ou ver se há algum scope, um scope específico
+
+
+para aceder a outros profiles, aos profiles
+de outras pessoas. OK? Eh, se virmos aqui,
+
+
+eu tenho aqui alguns scopes. Cá está. Eh, e se
+calhar haverá agora agora a meio do tutorial,
+
+
+não vou estar a ver isso. Pronto, portanto
+vamos saltar por cima dessa parte,
+
+
+vamos trabalhar apenas os nossos dados. Ora, vou
+buscar as minhas playlists, OK? No próximo passo.
+
+
+Ora, é a mesma coisa. A mesma, é a mesma, é a
+mesma coisa. Isto é, é, ele está aqui, é o get my
+
+
+playlist. Eu é que estou a obter aqui, eu estou a
+obter aqui o meu profile porque eu quero eh quero
+
+
+completar informação que ele veio aqui. Pronto, eu
+é similar ao que vimos no outro tutorial do Steam.
+
+
+Portanto, eu eu e ao invés de chamar unicamente
+a função direta, que me dá aquilo que eu quero,
+
+
+muitas vezes complemento, chamo outras funções
+e, portanto, e trabalho um bocadinho aqui os
+
+
+resultados para dar uma uma informação um pouco
+mais completa. OK? Neste caso, vou ao meu profile,
+
+
+buscar o meu ID, o meu name. Eh, depois vou aqui
+get my playlists, a documentação, o que é que ela me
+
+
+diz? Eh, ela diz-me que, OK, é o que eu tenho que
+introduzir um determinado limite, eu sou obrigado
+
+
+a apresentar um limite, cujo default é 20. E, se
+necessário, ele faz várias chamadas passando um
+
+
+offset. No caso que eu tivesse muitas playlists,
+como eu tenho menos que 50, eu passo-lhe aqui o
+
+
+limite de 50, ele também consulta, mas eu tenho
+aqui o loop, se ele tiver mais que 50, ele ele
+
+
+continua. Eh, e portanto eh e vou buscar todas
+as minhas playlists, passo-lhe autorization. Eh,
+
+
+e depois o que é que eu tenho aqui? Tenho
+aqui um depois aqui um resumo onde me lista
+
+
+quantas playlists tenho e também
+se tenho playlists que estão na minha conta,
+
+
+mas cujo autor seja o outro autor que não eu. OK?
+Isto é similar, por exemplo, ao YouTube, não é?
+
+
+Eu podemos ter as nossas playlists do YouTube,
+elas podem conter vídeos que que nós somos o
+
+
+owner ou pode conter vídeos de outras pessoas.
+OK? Pronto, aqui é similar. Normalmente eu não
+
+
+gosto de misturar nada. Vejam o meu vídeo sobre
+a API do YouTube. Ali tem boas práticas e boas
+
+
+recomendações sobre esses temas. Eh, e portanto
+aqui é a mesma coisa, mas vai aparecer aqui uma
+
+
+playlist que não é a minha, que eu até deixei
+ficar para para exemplificativo. Ora, Eduardo
+
+
+Playlists, OK? Vai ser as minhas playlists.
+OK, cá está. E ele listou aqui. Que temos aqui
+
+
+eu tenho 40 playlists, mas tenho mais uma playlist
+aqui na debaixo do meu ownership. Portanto,
+
+
+mas eu aqui eu só eu só filtro e depois
+só mostro as minhas. Está aqui uma playlist
+
+
+aqui que não é minha, que podemos vê-la aqui.
+Ah, eu vou aqui, podemos ver aqui a playlist.
+
+
+OK. Spotify.
+
+
+OK.
+
+
+Ah, ele abriu, ele abriu o próprio Spotify
+em vez de abrir aqui no browser. OK. Ah,
+
+
+mas também abriu. Oi. Também abriu. Também
+abriu no browser, portanto é é indiferente. OK.
+
+
+Eh, então eu tenho aqui, ora playlists, ora estas
+são as minhas. Cá está. esta playlist aqui que
+
+
+é o o creator, é o Shirso pronto, deixa cá o que
+é o que ele está-me aqui a dar. Ok, pronto. Ah,
+
+
+portanto, isto pode ser útil, sei lá, imaginem
+uma pessoa que tem muitas playlists e de repente
+
+
+e quer controlar isto com uma certa frequência,
+quero saber se entraram algumas playlists e de
+
+
+quem é quem é que entraram. Ora bem, eh, o que
+é que tem informação aqui no data frame? Tem,
+
+
+vamos ver aqui o ID da playlist,
+o nome, se é pública ou privada,
+
+
+a playlist, as minhas playlists são
+todas públicas e quantos temas tem. OK.
+
+
+Não tem mais nada de especial. OK, são 40
+playlists. Cá estão elas. Sim, senhora. Eu
+
+
+aqui estou a gravar as playlists. Vou vou gravar
+num ficheiro, num CSV. como exemplificativo. Vamos
+
+
+que agora queríamos trabalhar isto noutro sítio
+qualquer e, portanto, gravávamos as playlists. Ó,
+
+
+vamos que eu queria também posso passar as
+minhas playlists todas a uma pessoa uma maneira,
+
+
+imaginando eu enviava o ficheiro desse o
+ficheiro e tem lá o ID das playlists e a
+
+
+partir do ID a pessoa pode certamente assistir
+às playlists, enfim, para o que se quiser. Ora,
+
+
+objeto playist not found. Ah, ok. Eu aqui tenho
+que pôr Eduardo playlists. Ora, control copy.
+
+
+Posso fazer aqui também Eduardo Playists.
+OK, já salvou. Deve ter salvado aqui. Ora
+
+
+no Working directory. Ora eduardo playlist. Cá está.
+Pronto, gravou o CSV. Ora bem, agora o que é que
+
+
+vem agora a seguir? Bom, agora vem os tracks. Os
+tracks a partir das playlists. Spotify get tracks
+
+
+from playlists. Ora, get tracks from playlists.
+Cá está. Está aqui. Portanto, o que é que isto tem?
+
+
+Eh, vai fazer aqui eu eu passo-lhe as
+playlists, ou seja, passo-lhe um data
+
+
+frame de playlists no no formato em que
+eu construí aqui e ele vai ele vai varrer,
+
+
+vai fazer um loop eh para cada playlist tenho o
+ID, tenho o nome da playlist e depois agora vai
+
+
+buscar os os tracks, vai usar esta função
+aqui, eh, esta Get playlist. Ah, pronto,
+
+
+agora vamos passar um bocadinho mais depressa.
+Ah, depois tem aqui o o Tidy tracks. Já de que
+
+
+isto faz? Deixa ver aqui. Tidy tracks. Ora, tidy,
+a playlist extracts the data frame ...
+
+
+track level information as a table. Já não
+me recordo porque é que fiz isto. Pronto,
+
+
+mas também não importa. Agora é como vos digo,
+isto é é vocês ficarem com uma ideia. Tem tem
+
+
+aqui o tá aqui tudo à amostra. Depois se quiserem
+explorar qualquer coisa, explorem mais ao detalhe,
+
+
+não é? Isto é o já fiz isto há bastante tempo.
+Também já não me lembro exatamente o que é que
+
+
+eu fiz. Ah, e depois construo aqui. Eu estou a
+fazer aqui um tracks. OK, tracks. OK, o tracks vai
+
+
+ser o data frame que eu que eu vou devolver. Eh,
+e estou a selecionar os campos que eu quero. OK.
+
+
+Eh, pá, já não o que é que estou aqui a fazer.
+E depois tenho aqui o my tracks com os tracks.
+
+
+Sinceramente já não me recordo. Bom, já
+não me recordo bem o que é que isto faz,
+
+
+mas pronto, vai buscar os tracks. Isso é que
+é que interessa. Ora, Tracks, Eduardo Tracks.
+
+
+OK,
+
+
+está aqui esta. Estamos aqui.
+Eduardo Tracks. Dá-me Spotify Get
+
+
+Tracks from playlists e passa-lhe
+as playlists. Eduardo playlists. OK.
+
+
+Pronto, cá está. Ele agora está aqui a obter os
+tracks para cada uma das minhas 40 playlists. OK.
+
+
+Agora vamos aguardar um bocadinho
+que está a andar rápido.
+
+
+Ora, e que é que ele me devolveu? Eduardo tracks.
+Ora, Eduardo tracks. Cá está, 1908 temas,
+
+
+músicas, é nas playlists, porque depois também
+temos os álbuns. OK. E pronto, e aqui já estamos
+
+
+a ver até aqui. Podemos explorar ver de uma ordem,
+podemos explorar aqui ordenando, podemos por
+
+
+artista, por álbum, por track, por popularidade.
+Posso ver as músicas mais populares. OK.
+
+
+Radiohead, weekend, as mais populares e aquelas
+muito pouco populares são temas moby estes temas
+
+
+do moby estarem pouco populares é estranho,
+mas ok. Em que playlist é que estão e é só OK.
+
+
+OK, já tenho aqui os tracks
+aqui também posso salvá-los. Ok,
+
+
+Eduardo tracks, control copy. Deixa pôr aqui.
+
+
+Ok, já está. OK. E agora vamos buscar os
+os top top artists. Ora, os top artists. O
+
+
+que é que eu o que é que eu passo aqui? Eu
+passo-lhe apenas tracks artist. Deixa ver
+
+
+o que é que isto faz que já não me recordo.
+Spotify e display artist. Spotify display top artists
+
+
+as data frame artists. OK. Então eu aqui
+não, eu aqui não acedo, eu aqui não estou
+
+
+a aceder a nenhuma função da API. daqui já
+é uma função totalmente feita feita por mim,
+
+
+que eu passo-lhe aqui o o os artistas.
+Eh, e como os artistas vai ter repetições,
+
+
+obviamente eu consigo fazer aqui uma frequência,
+consigo fazer aqui um gráfico e neste caso eu
+
+
+vou eh vou fazer aqui um gráfico do tipo Pie chart.
+OK? Pronto, uma coisa simples. Pronto, portanto,
+
+
+este é um exemplo. E aqui passo-lhe então apenas
+o vetor que está no data frame, que é o o com o
+
+
+nome do artista, OK? Da a partir das playlists,
+os meus top artists a partir das playlists. OK.
+
+
+OK.
+
+
+Object tracks not found. Falta-me esta linha aqui.
+
+
+OK. Eh, cá temos. Pronto. Portanto, o top artists
+a partir eh das playlists, OK? Ah, nem sequer são
+
+
+os meus alguns meus músicos preferidos, alguns
+nem estão aqui. O que acontece é que como é em
+
+
+termos da playlist, basta eu ter uma playlist,
+imaginando que eu tenho uma playlist, por exemplo,
+
+
+aqui de um álbum. por exemplo, da da Valve, porque
+são são tem a ver com jogos, automaticamente já
+
+
+me aparece aqui. OK? Portanto, eh, vale o que
+vale, não é? Agora, daqui a bocado, vamos ver
+
+
+o top artist a partir dos álbuns e já veremos que
+eh o resultado vai ser diferente. Eu também podia
+
+
+eh filtrar de alguma maneira as playlists,
+dizer: "OK, eu não quero todas as playlists,
+
+
+quero, por exemplo, algumas playlists foram
+feitas por mim, mas mas são mas são baseadas em em
+
+
+álbuns, como diz, de jogos, não é? Eh, no fundo
+é é se calhar deveria devia ter registrado como
+
+
+álbuns e não como playlists. OK. OK. Mas vale o
+que vale. Portanto, eu facilmente tirávamos aqui
+
+
+algumas playlists para estudar apenas aquelas que
+nos interessassem. Ah, vamos fazer aqui também
+
+
+estudar aqui a popularidade dos dos das minhas
+músicas. Portanto, aqui ao nível de playlists. OK.
+
+
+Aqui temos a média de popularidade. Eu não
+sei se isto é muito baixo, se não. Teria
+
+
+que comprar ar com outras pessoas. Eh, certamente
+que será um bocadinho mais baixo do que a média,
+
+
+porque eu também até pela minha idade já um pouco
+avançada, eu as músicas que eu hoje e que eu gosto
+
+
+não serão certamente as mais populares hoje em
+dia. Portanto, é normal que eu tenha aqui alguns
+
+
+valores um bocadinho abaixo da média em termos da
+da popularidade daquilo que eu oiço. OK? Eh, vamos
+
+
+então agora passar aqui a outra outra parte aqui.
+Vamos agora trabalhar aqui o as pistas, as músicas
+
+
+e para obter algumas informações que podem podem
+ser útil. Por exemplo, aqui encontrar músicas
+
+
+duplicadas. Imaginamos que eu quero eh saber se
+tenho músicas duplicadas em várias playlists. OK.
+
+
+OK, não vou estar a detalhar isto agora
+pormenor. O que é que faz cad linha? Pronto,
+
+
+é só dar-vos a ideia. Duplicates. Eh, e tenho
+aqui, tenho aqui os duplicados. E tenho aqui
+
+
+os duplicados. Cá está. Eu tenho aqui as músicas
+duplicadas. Pode ser interessante. Por exemplo,
+
+
+a a Love, a Love So beautiful é duplicada, mas
+na verdade são vários artistas. Portanto, e isto
+
+
+é interessante para mim. E é, OK, imaginando
+que eu queria realmente saber as duplicadas
+
+
+por por pista e por artista, também poderia ser. E
+também tenho algumas, também tenho algumas que com
+
+
+o mesmo artista e a mesma música por porque estão
+em playlists diferentes, mas também é útil saber se
+
+
+são duplicados apenas pelo nome da música, porque
+às vezes é interessante saber dizer que olha,
+
+
+já não me lembrava esta esta canção foi 
+cantada pelo menos por estes três eh artistas
+
+
+diferentes. OK? Pronto, como estão a ver há aqui
+pano para mangas para a pessoa explorar eh o que
+
+
+o que quiser, não é? consoante o que quiser.
+Pronto, aí está toda esta potencialidade. Vocês
+
+
+claramente não conseguem fazer isto no Spotify,
+como é óbvio. Aqui está um nível de detalhe. Eh,
+
+
+OK, que não conseguem no Spotify, não conseguem
+de todo fazer este tipo de análises, OK? Portanto,
+
+
+e aqui conseguem fazer tudo, o tudo e um
+par de botas. Ora, row names, duplicates,
+
+
+pronto. E aqui dá um exemplo, dá, dá um topo, dá
+aqui algum exemplo, penso eu, ou dá os primeiros
+
+
+registos. Pronto. OK. Mas não tem muito interesse
+porque é o mesmo que eu entrar ali e ver.
+
+
+Export, duplicates to Excel. Não vou fazer agora
+esta parte, isto não tem interesse. Isto era,
+
+
+se, por exemplo, uma pessoa pedia-me informação,
+uma pessoa, por exemplo, mandava-me o seu ID do
+
+
+utilizador e pedia-me dizer: "Olha, eh, dá-me aí
+a lista do das dos meus duplicados." E eu corria
+
+
+aqui para obtinha as e as informações desse desse
+utilizador ou desse meu amigo e depois produzia
+
+
+um CSV e entregava-lhe. Pronto, poderia ser esse o
+caso. Eh, também podia fazer uma aplicação na web,
+
+
+não é? Só que eu nunca fiz. Eh, pronto, isso
+então pouco mais trabalhoso, não é? Para para ter
+
+
+algo publicado na web. E com a linguagem R não é
+não é tão simples. O R já não é tão user friendly
+
+
+para produzir uma aplicação com interface gráfica,
+embora também suporte. Existe uma framework no R
+
+
+que é chamado shiny. Pode ser que um dia eu faça
+um tutorial sobre isso. Eh, e também permite,
+
+
+mas eventualmente para fazer uma aplicação
+dessas na web aqui já não o R já não seria
+
+
+o mais recomendado, não é? Se calhar aí alguma
+outra coisa, um Python ou alguma outra coisa. Eh,
+
+
+OK. O que é que temos aqui? E temos Shazam
+Tracks. Esta também é uma parte interessante,
+
+
+as pessoas que usam Shazam e que o Shazam cria
+automaticamente uma playlist dentro da nossa
+
+
+conta Spotify que ela está aqui. Ora, onde
+é que isto está? Deixa ver aqui. Sort by... alphabetically.
+
+
+Ok. Ora, my shazam tracks. Está aqui. Então, eu tenho
+aqui my shazam tracks. Eh, eu neste momento só tenho
+
+
+aqui uma uma uma música, OK? Porque normalmente
+eu costumo vir aqui e nós quando andamos de um
+
+
+lado para o outro e às vezes usamos o Shazam
+e ele detecta as músicas e depois eu de vez em
+
+
+quando chego aqui, eu analiso as músicas e vejo
+se as quero guardar nalguma playlist minha,
+
+
+guardo ou se não quero deito fora. Pronto. E então
+imaginando, eu agora só tenho aqui uma música,
+
+
+mas imaginando que eu tinha aqui 20 ou 30
+músicas e eu já não me lembrava se já as
+
+
+tinha colocado nas minhas playlistas e assim
+e pá, tenho estas músicas, eu quero limpar
+
+
+porque eu não me interessa que isto cresça
+eternamente. Eu pessoalmente não gosto disso,
+
+
+mas há outras pessoas que até não se importam e
+tem my shazam tracks com centenas de de de músicas.
+
+
+Isso depende da da forma de trabalhar de cada um.
+E então interessava-me saber quais destas de temas
+
+
+de shazam tracks é que eu já adicionei às minhas
+playlists. E então aqui vou listar quais os
+
+
+meus chamam tracks que ainda não estão em nenhuma
+playlist. Pronto, que que vai dar o mesmo, não é?
+
+
+as que não estão e depois daí eu consigo
+saber as que estão. Eh, então tenho aqui,
+
+
+ora e ele vai-me dar aqui
+tracks, tracks de Shazam.
+
+
+Onde é que está aqui? Track Shazam. Tracks.
+de Shazam. tracks não shazam.
+
+
+Ah, está aqui. E OK. Ele ele não devolveu como como
+data frame. Ele ele devolve-me como vetores. OK.
+
+
+Então, e os tracks Shazam é o mistifs que
+era a única música que lá estava. Portanto,
+
+
+esta música eh está aqui, mas não está
+em nenhuma das minhas outras playlists. OK.
+
+
+Eh, mais coisas que podemos analisar, por exemplo,
+duplicate artistas, OK? Eh, quais são os artistas
+
+
+que estão em mais de uma playlist? Eu posso não
+querer, eu posso não querer duplicar artistas,
+
+
+digamos assim, e pá, se um artista é um artista
+de pop, então não há não há de ser de heavy metal,
+
+
+não faz sentido. Então, detecta-me algum artista
+que eu tenha em mais que uma playlist, OK? Pronto,
+
+
+isto pode ser um preciosismo. Há pessoas que não
+ligam nenhuma a estas coisas de de organizar e da
+
+
+organização e é tudo à balda. Pronto. E pronto,
+há gostos para tudo e há outras pessoas que são
+
+
+minuciosas, gostam de ter tudo certinho. Eu sou
+mais desse segundo tipo, eu sou mais minucioso.
+
+
+Atualmente tenho as minhas playlists um bocado
+desorganizadas porque ainda não tive paciência
+
+
+para as para as acertar, mas de hoje para amanhã
+quando que me apetecer acertá-las eu tenho aqui
+
+
+com a ajuda de deste código e eu vou ter toda a
+informação necessária para acertar e para limpar
+
+
+para limpar a arrumar a casa. Portanto, aqui eu
+vou então eh obter os artistas duplicados,
+
+
+OK? Eh, sim, senhora. E vou obter o o do
+artist que está aqui. Portanto, eu tenho aqui
+
+
+estes artistas. Pronto, cá está. Então, tenho
+aqui, ó, e imaginando o Joel Nilson, eu tenho,
+
+
+eu tenho aqui em quatro playlists, OK? Mike Oldfield,
+tenho apenas em duas playlists. Mike Oldfield Tribute.
+
+
+e tenho aqui nesta outra playlist. OK? Eh,
+e pronto, assim sucessivamente. Portanto,
+
+
+eu aqui poderia fazer uma limpeza e dizer:
+"OK, por exemplo, este artista enquadra-se
+
+
+mais no progressive rock ou enquadra-se mais no
+romântico, OK?" E assim sucessivamente. Portanto,
+
+
+pelo menos toda a informação está aqui. OK? É
+um bocadinho, já há muito tempo que não faço
+
+
+qualquer qualquer tipo de de limpeza aqui nas
+nas minhas coleções. OK. Mais coisas. E agora
+
+
+vamos aos álbuns. Spotify get my álbums.
+O que é que nós temos aqui? Get My albuns.
+
+
+Ora, cá está. Get my my saved álbuns. Ok.
+Esta é parecida com aquela outra da do dos
+
+
+tracks. Portanto, também necessita de um limite.
+Ele pode entrar aqui em loop, OK? Se eu tiver e
+
+
+vai ser o caso, porque eu tenho mais que 50
+álbuns. Eh, OK. E depois para cada álbum eu
+
+
+vou obter as imagens. OK. Eh, sim, senhor. Pronto.
+E no final, eh, retorna my álbums. OK.
+
+
+Faço aqui um filtro. Quais os campos que me
+interessam? OK. Então, vamos lá ver isto.  Albuns
+
+
+OK.
+
+
+Ora, já está. Tenho 162 álbuns. Está
+cá, cá está. Tenho artista aqui por
+
+
+artista. Popularidade, o ano do álbum,
+quanto, quantas músicas tem e a imagem,
+
+
+o póster do álbum. OK. Foi os campos que eu
+selecionei. write CSV, agora não vale a pena.
+
+
+Eh, ah, estou estou a ordenar aqui por por
+por eh por por ano. OK. Posso listar os meus
+
+
+álbuns por popularidade também. Cá está. Vale
+o que vale. Não, assim sozinho não dá para ver.
+
+
+Só se me comparasse com outra pessoa
+é que poderia analisar como é a minha
+
+
+a popularidade da música que eu oiço a nível
+de álbuns. Eh, também posso aqui por ano. OK.
+
+
+Eh, e agora vou fazer aqui um gráfico, um ggplot
+por ano, OK? A nível dos álbuns. OK. Cá está.
+
+
+OK. Que mostra mais ou menos, é mais
+ou menos constante. Eu hoje oiço música
+
+
+mais ou menos desde 1970. A nível de álbuns,
+atenção, isto é por álbuns, OK? Quer dizer,
+
+
+isto é o que eu tenho, não é o que eu oiço.
+Isto é os álbuns que estão aqui guardados
+
+
+aqui na na minha coleção. E estatísticas por
+popularidade, popularidade dos álbuns. OK.
+
+
+Vamos também aqui a mesma coisa. Eh, tenho alguns
+aqui com popularidade zero e depois tenho mais ou
+
+
+menos aqui constante. OK. Agora tenho aqui os os
+meus top artistas. Há bocado tínhamos vistado os
+
+
+meus top artistas a nível de playlists e agora
+os meus top artistas a nível de álbuns. Ora,
+
+
+Spotify display Top artistas. Spotify. Vamos ver
+aqui a função display top artistas. Está aqui.
+
+
+Ora, display top artistas. Mais uma vez é uma
+função que não chamo, é parecida com a outra,
+
+
+portanto há de ser em tudo similar. Eu aqui não
+chamo, não preciso de chamar mais nada da API,
+
+
+nada. Eu simplesmente passo os artistas eh ele
+faz o gráfico. OK. Eu passo-lhe aqui dos álbuns
+
+
+o álbums dólar artista. Estou-lhe a passar
+os artistas todos que estão no data frame dos
+
+
+álbuns. OK. Eh, cá está. E agora sim, agora
+já é mais, já tá mais fiel aos meus gostos
+
+
+musicais. Aqui realmente já se coaduna
+melhor com os meus gostos musicais. OK.
+
+
+a nível de álbuns, porque na altura quando eu
+agora já há muito tempo que eu não não não mexo
+
+
+a nível de álbuns, eu penso que também com o tempo
+as pessoas tendem a trabalhar mais com playlists
+
+
+do que com álbuns, OK? Portanto, já há muito
+tempo que não mexo nos álbuns, mas ok, aqui está.
+
+
+E depois temos os download álbum images, que
+portanto vai ser também fizemos o mesmo no Steam,
+
+
+baixamos os pósters dos jogos e aqui é similar,
+baixamos os pósters, eh, baixamos os pósters dos
+
+
+meus álbuns, não é? OK. Eh, Spotify Download
+álbum images. Spotify download álbum images.
+
+
+Ora, cá está. Eu passo-lhe os álbuns.
+
+
+Eh, ele vai gravar aqui na na folder álbuns e
+vai gravar eh com o nome e o artista, o ano,
+
+
+o nome do álbum .jpeg. OK? E é similar
+ao que vimos com com o Steam. Ele vai ver
+
+
+se already exists e baixa-me apenas aqueles que eu
+ainda não tenha, os álbuns que eu não tenha.
+
+
+OK. E return álbuns. OK. Vamos ver então o que é
+que ele, o que é que ele vai fazer aqui. Portanto,
+
+
+eu passo-lhe os álbuns e ele
+retorna aos mesmos álbuns,
+
+
+mas com algum campo a mais, eventualmente
+aquele campo do result. Cá está o result. que era igual ao que vimos na parte do Steam
+
+
+OK. Eh, eu eu não vai baixar agora nada porque já
+tá tudo baixado, porque eu corri isto, eu corri
+
+
+isto hoje numa outra na outra altura para para
+que era para testar antes de fazer o tutorial.
+
+
+Eh, e portanto, e ele já baixou tudo. Pronto,
+mas vocês acreditam que ele baixa. Eh,
+
+
+foi rápido, cá está, porque ele
+already exists tudo e, portanto,
+
+
+ele já gravou os álbuns. Eu vou só dar-vos aqui
+uma vista de olhos, mostrar-vos aqui. Ora R API
+
+
+Spotify álbuns View extra large, cá
+está. Ele baixa aqui os álbuns. OK.
+
+
+Ora,
+
+
+onde é que estávamos?
+
+
+Estamos aqui, download, OK. Devices é uma
+área que eu experimentei hoje. Nunca tinha
+
+
+explorado isto. Devices tem aqui dois devices
+que tem utilizado o Spotify. Eduardo PC,
+
+
+que é aqui o desktop. Isto deve ser
+os devices que estão agora conectados,
+
+
+OK? É os devices que estão conectados
+e o app player no no Chrome, OK?
+
+
+Eh, mais coisas. Agora, por exemplo, top
+artists por listening, aquilo que eu mais oiço.
+
+
+OK. Não é aquilo que eu tenho agora. não é o
+que eu tenho. Há bocado vimos o que eu tenho,
+
+
+o que eu mais tenho a nível de álbums ou de
+playlists. E agora é realmente o que eu mais
+
+
+oiço, o que eu mais tenho ouvido. Eh, onde o
+Spotify me dá no long term, medium term, e short term, OK?
+
+
+Então tenho aqui Spotify get my top artists
+
+
+get my time time time range pronto e
+então aqui sim que chamo uma função
+
+
+da API get my top artists or tracks. OK. Sim, senhora.
+
+
+Ah, devolvo aqui alguns return tracks.
+Vou devolver aqui alguns tracks,
+
+
+OK? Apenas com estes temas,
+com estes campos, o artista,
+
+
+o álbum e o track. OK? Agora vou vou fazer três
+gráficos em um só em um só painel. Para isso,
+
+
+uso aqui esta função onde especifico que, olha,
+eu quero eu eu vou eu vou imprimir três gráficos,
+
+
+três plots em um row e três colunas, OK? é
+o que faz aqui esta função. E, portanto,
+
+
+vou obter aqui estes tracks eh e vou fazer
+aqui um display, um pie chart e agora medium term e short term.
+
+
+Fazer aqui um zoom para se ver melhor. Eh, e
+pronto. E aqui dá a minha informação o que é
+
+
+a longo a long term. O que é que eu costumo
+ouvir? Marilion, etc, etc. Estes que aqui estão
+
+
+eh a médio term mais ultimamente, o que é que
+eu tenho ouvido? OK. E nas últimas semanas mesmo,
+
+
+o que é que eu tenho ouvido? Tenho tenho. Pronto,
+é isto que isto que aqui está. OK, pronto. Isto
+
+
+também pode mais alguma informação que o Spotify
+nos dá. OK. por audição e estamos prestes a acabar
+
+
+o tutorial. Eu tinha aqui uma outra coisa que eu
+tinha comentado, mas que eu quero mostrar a ver
+
+
+se já está a funcionar. Ah, é aqui. Eh, Spotify
+Display Artist. Deixa ver aqui se esta função está
+
+
+OK. Eu tinha comentado na altura que que o package
+tinha o bug e eu não conseguia. OK. Autorization.
+
+
+Eh, arranje. OK. Depois tenho aqui um ggplot.
+OK. Já não me lembro se isto está a trabalhar. Vamos ver.
+
+
+OK.
+
+
+Não. Eh, eventualmente falta-me falta-me falta-me
+algum scope, algum scope. Eventualmente falta-me
+
+
+algum scope para obter dados de do de
+artistas, diretamente dos artistas. OK.
+
+
+Até agora vimos, acedemos às nossas playlists,
+aos nossos álbuns, ao nosso profile, ao nosso
+
+
+tempo de audição. Eh, eventualmente falta aqui
+algum scope. Pronto. Eh, OK. Mas penso que isto
+
+
+é o suficiente. Portanto, obviamente que isto
+se fôssemos a estar a ver tudo ou pormenor,
+
+
+pois seria seria bastante exaustivo. Eu também
+não explorei. Esta API é aqui tem muita coisa.
+
+
+Suponho que seja bastante complexa, tem muitas
+funções. Reparem, cá estão elas. Imaginem,
+
+
+podemos obter músicos similares. Olha,
+por exemplo, podemos obter recomendações,
+
+
+podemos, ou seja, muitas das funcionalidades
+que o Spotify nos dá, OK? Estão a ver? Eh,
+
+
+imaginem podcasts, episódios, OK? Está muita
+informação aqui. Pronto. Está aqui muita
+
+
+informação consoante a área que a pessoa queira
+explorar, consoante a área que a pessoa mais
+
+
+goste de trabalhar dentro do Spotify. OK? Eh,
+portanto, há aqui muita coisa. Eu a parte que
+
+
+eu mais explorei foi o que vos mostrei que eu tenho.
+Gosto de ver o e analisar artistas duplicados,
+
+
+músicas duplicadas em mais que uma playlist, etc,
+etc, etc. E penso que sim, penso que cobriu mais
+
+
+ou menos tudo o que eu queria mostrar. Espero que
+tenham gostado e até uma próxima oportunidade.
+
+

@@ -1,0 +1,3958 @@
+
+Ora, sejam bem-vindos a mais um
+
+
+tutorial,
+
+
+programação em linguagem R com R Stúio.
+
+
+Eh, efetivamente
+
+
+já existe um novo ID que, como já
+
+
+abordei noutros tutoriais, que é o
+
+
+Positron,
+
+
+que eu já experimentei, que mas que para
+
+
+já ainda me mantenho no R Studio
+
+
+Positro. ainda me pareceu-me um bocado
+
+
+verde, ainda tenho que limar ali algumas
+
+
+arestas.
+
+
+Bem, e portanto para já tenho-me mantido
+
+
+aqui neste ID. Ora bem, hoje vai ser
+
+
+dedicado, efetivamente
+
+
+ao modelo de vídeo que é o o Minimx.
+
+
+Eh, mas antes vamos só aqui para dar
+
+
+aqui uma uma vista de hoje sobre alguns
+
+
+temas.
+
+
+eh falar aqui um bocadinho de obsidian,
+
+
+como sabem que eu fiz o meu outro
+
+
+tutorial sobre o Obsidian.
+
+
+Eh, portanto, implementei aqui alguns
+
+
+pequenos acertos.
+
+
+Deixa-me abrir aqui o Obsidian.
+
+
+Eh, efetivamente, no Obsidian,
+
+
+ah, temos o há uma série de plugins, OK?
+
+
+Eh, para tudo e mais alguma coisa. E
+
+
+efetivamente eu instalei aqui,
+
+
+experimentei aqui este este plugin que é
+
+
+o notebook naigator.
+
+
+OK? Então tínhamos esta visão que já
+
+
+tínhamos visto de trás
+
+
+e
+
+
+mostrei isto, mostrei que fazia fazia
+
+
+aqui uns índices.
+
+
+OK?
+
+
+eh
+
+
+o índice começava com até começava com
+
+
+underscore para ficar aqui no topo.
+
+
+E entretanto o que é que eu fiz também?
+
+
+Portanto, fiz aqui este rename destas
+
+
+folders que são folders técnicas,
+
+
+portanto, de attachments. E, portanto,
+
+
+pus o underscore aqui.
+
+
+E a nível aqui do notebook navigator, o
+
+
+que é que ele faz? ele a permite criar
+
+
+um permite a tratar um índice
+
+
+automaticamente, desde que exista uma
+
+
+nota com o mesmo nome da folder,
+
+
+ele eh e quando eu clico aqui, ele abre
+
+
+efetivamente essa nota.
+
+
+A,
+
+
+e pronto, daí que passei a usar como
+
+
+índice uma nota exatamente com o mesmo
+
+
+nome da da folder abdicadei do_.
+
+
+Entretanto, como vem aqui que existe
+
+
+esta coleçãozinha de imagens que ela faz
+
+
+este display, isto é bastante engraçado.
+
+
+E, portanto, e
+
+
+nesse caso o que eu fiz foi altrai o
+
+
+template, OK? este front template que f
+
+
+este yamaal front matter que que falamos
+
+
+no outro tutorial
+
+
+e altereio. E agora realmente todas as
+
+
+notas têm têm quando nós visualizamos
+
+
+aqui, neste caso todas têm este
+
+
+logotipo, mas imaginando que até poderia
+
+
+ter aqui vários logotipos. OK? Pronto,
+
+
+fica bastante interessante.
+
+
+Aqui a nível da programação
+
+
+temos
+
+
+eh que carrego as folders exatamente da
+
+
+mesma maneira como de antes. Agora euino
+
+
+estas folders técnicas que começam com
+
+
+ponto e também as que começam com
+
+
+underscore. Pronto, assim é mais
+
+
+simples, enquanto que da outra vez tinha
+
+
+algumas folders e vazias ou que não
+
+
+tinham nenhuma nota dentro. Eh, mas é
+
+
+mais fácil assim escluir imediatamente
+
+
+as folders aqui à cabeça. Agora tenho
+
+
+esta parte aqui dividida em duas
+
+
+secções. Tenho nesta primeira secção são
+
+
+as operações raras
+
+
+quando efetivamente preciso de remover o
+
+
+Yamo front e preciso de generar novos
+
+
+templates. OK? Pronto, aqui a nível dos
+
+
+templates, portanto, eu modifiquei aqui
+
+
+um bocadinho o template, portanto,
+
+
+coloquei aqui um um link para
+
+
+o será a uma imagem que coloquei
+
+
+coloquei dentro do do Obsidian e com o
+
+
+nome da folder e, portanto, que vai faz
+
+
+o logotipo default associado a essa
+
+
+folder, que é o que tivemos a ver agora.
+
+
+OK? Pronto, daí mudei aqui este template
+
+
+default e reapliquei esse template.
+
+
+OK. Pronto. Então aqui temos esta parte
+
+
+que já vimos no outro tutorial. E estas
+
+
+operações são as as mais comuns, são
+
+
+aquelas que
+
+
+que se executa cada vez que haja novas
+
+
+notas. Portanto, eh, obter as novas
+
+
+sumarizations caso
+
+
+deixa-me carregar aqui as funções.
+
+
+OK.
+
+
+Obter sumarizations.
+
+
+OK. Neste caso não há nada porque isto
+
+
+já não tem nada de novo. Tá tudo
+
+
+refrescado.
+
+
+OK. Eh, gerar os índices também. Ele
+
+
+aqui, ele aqui regenera sempre os
+
+
+índices. Ele aqui regenera sempre os
+
+
+índices. OK?
+
+
+Porque é uma coisa rápida. Portanto, não
+
+
+há problema em estar a regenerar outra
+
+
+vez do zero.
+
+
+Eh, insertam front também podemos correr
+
+
+sempre porque ele só vai inserir onde
+
+
+fizer falta. OK? Ele inseriu aqui nos
+
+
+próprios índices. Como os índices foram
+
+
+regenerados,
+
+
+elas não têm o Yama front e portanto
+
+
+introduzi-os agora. E, eh, finalmente
+
+
+tínhamos visto aquela questão do
+
+
+recomend new topics e que já estava a
+
+
+trabalhar, onde agora eu posso dizer
+
+
+quantos tópicos eu quero. Eu posso
+
+
+dizer, olha, recomenda-me cinco novos
+
+
+tópicos para cada uma das minhas
+
+
+folders. OK?
+
+
+Isto é uma área bastante interessante e
+
+
+rápida,
+
+
+OK? E ele e ele gera aqui.
+
+
+Ora aqui a nível de temos aqui a nível
+
+
+de AI, ele recomenda aqui este estes
+
+
+tópicos find tuning transformer,
+
+
+architecture
+
+
+e vector search. OK. Ora, então eh vamos
+
+
+imaginar que eu digo assim: "Olha, eu eu
+
+
+quero eh eu quero explorar o que é que é
+
+
+este tópico, Transformer Architecture."
+
+
+OK? Pronto, então o que é que eu vou
+
+
+fazer? Era aquilo que eu vos tinha
+
+
+falado, mas ainda não tinha
+
+
+implementado. Vou, eu chego aqui eh fiz
+
+
+esta função explain explain um novo
+
+
+tópico, OK? É bastante útil e é mais
+
+
+rápido do que do que ir ao chat GPT e
+
+
+fazer a pergunta e depois eh usar
+
+
+aqueleon para para salvar. é mais
+
+
+rápido. E também posso ficar aqui com um
+
+
+hisoral, um historial de quais os
+
+
+tópicos que eu que eu tenho estado eh a
+
+
+a usar. Eh, portanto, aqui vou dizer,
+
+
+olha, explica-me o que é Transformer
+
+
+Architecture. OK?
+
+
+Eh, claro que eu podia fazer isto tudo
+
+
+automático. Eu podia dizer
+
+
+automaticamente todas as novas
+
+
+recomendações, elas eram materializadas
+
+
+agora em novos em novos novas notas.
+
+
+Pronto, mas à parte para já não, isso
+
+
+não me interessa. Interessa-me fazer uma
+
+
+sução daquilo que eu quero. Então aqui
+
+
+digo esta prompt explain
+
+
+e um determinado tópico. Explain
+
+
+transformer architecture in the context
+
+
+of AI. E portanto aqui e eu agora decido
+
+
+o nome que eu quero dar. Pronto, quero
+
+
+ser eu a decidir manualmente o nome que
+
+
+quero e voulhe dar transformers.
+
+
+Pronto. Ai transformers. OK. Eu vou
+
+
+executar aqui.
+
+
+Sim, senhor. Pronto. Então, ele criou
+
+
+automaticamente a nota.
+
+
+Eh, vamos ver aqui no Obsidian, que ela
+
+
+já deve estar aqui.
+
+
+Eh, cá está ela. Ela está aqui
+
+
+descompassada aqui. Transformers. OK.
+
+
+Pronto. E então agora quando nós temos
+
+
+novas notas e então e eu venho aqui
+
+
+quando quando eu quiser, não é? Quando
+
+
+quiser refrescar isto, vou obter
+
+
+summarization. Vou refrescar as
+
+
+sumarizations.
+
+
+OK,
+
+
+vou refrescar aqui as sumarizations. OK,
+
+
+já está.
+
+
+Eh,
+
+
+vou refrescar aqui os índices.
+
+
+OK,
+
+
+vou e fazer o insert matter, onde faça
+
+
+falta, OK? Que é aqui o Eu eu eu
+
+
+introduziu, OK? Eu introduziu aqui,
+
+
+introduziu onde onde fazia falta.
+
+
+Eh, e pronto. E vamos ver aqui como é
+
+
+que isto ficou.
+
+
+Ora,
+
+
+Transformers.
+
+
+[roncando]
+
+
+Ora, deixa procurar aqui, talvez seja
+
+
+mais fácil. Olha, aparece aqui. Pronto,
+
+
+aqui a nível deste plugin, ele ele
+
+
+aparece aqui por ordem como sendo uma
+
+
+nota recende. Por aparece aqui em cima.
+
+
+Ok, pronto, cá está.
+
+
+E a nota aparece aqui com o respectivo
+
+
+logotipo, com tudo certinho.
+
+
+Sim, senhor. Depois eu vejo isto quando
+
+
+tiver tempo. Pronto, esta a parte que
+
+
+esta era a parte que eu vos queria
+
+
+mostrar.
+
+
+Eu a nível profissional não estou a
+
+
+usar, não estou a usar Obsidian porque
+
+
+não posso, porque como muitas empresas
+
+
+normalmente aqui em Portugal e eu tenho
+
+
+um portátil da empresa que vêm
+
+
+bloqueados e fechados e é bastante
+
+
+difícil instalar novo software e
+
+
+portanto aí eu não posso
+
+
+e uso o que eu uso. tive a possibilidade
+
+
+de poder instalar uma versão portable do
+
+
+Sherry Tre, que aqui é o Sherry Tree que
+
+
+também já vos mostrei. E, portanto, aí a
+
+
+nível profissional e uso o Sherry Tre.
+
+
+Eh, e agora aqui a nível pessoal, tenho
+
+
+comecei a usar agora isto há pouco
+
+
+tempo,
+
+
+o Obsidian. OK, acho bastante
+
+
+interessante.
+
+
+Sim, senhor. Vamos então deixar agora
+
+
+esta parte aqui do obsidian. Vou fechar
+
+
+isto aqui.
+
+
+OK.
+
+
+Ora, vamos passar aqui então ao ao meu
+
+
+projeto confi
+
+
+aqui este código, não se esqueçam que
+
+
+tem sempre disponível,
+
+
+têm sempre disponível e portanto os os
+
+
+meus projetos aqui a nível do Gitub.
+
+
+OK.
+
+
+Sim, senhor. Podem pesquisar Gitub
+
+
+Eduardo Jacob.
+
+
+Ora,
+
+
+fazer aqui um comit para o guitab.
+
+
+OK.
+
+
+Sim, senhor.
+
+
+Pronto, já está tudo sincronizado.
+
+
+Ora, vamos passar aqui para o projeto
+
+
+confio,
+
+
+a nível de confi e temos aqui,
+
+
+fiz aqui uma série de renames massivos
+
+
+dos meus scripts, porque os meus scripts
+
+
+já eram bastante. Inclusive, eu fiz aqui
+
+
+um um script 00 que serve apenas para
+
+
+fazer o rename de todos os scripts.
+
+
+OK? Acho interessante mostrar-vos esta
+
+
+as minhas metodologias de trabalho.
+
+
+Vocês podem aproveitar algumas dicas
+
+
+daqui.
+
+
+Ah, e esta é uma delas. Nunca tinha
+
+
+feito isto, mas que hora fiz e disse:
+
+
+"Não, isto já começa a ser muitos
+
+
+scripts. Eu quero isto devidamente
+
+
+numerado, isto tem uma determinada ordem
+
+
+e portanto e quando eu quero, eu faço
+
+
+aqui, eu corro este rename e faço o
+
+
+rename, o rename dos próprios criptos,
+
+
+onde eu digo que eh começa começa no no
+
+
+a partir do zero e soma de 10 em 10 e
+
+
+com três dígitos. OK?
+
+
+Então, o que é que nós temos aqui de
+
+
+novidades? De novidades temos, nós já
+
+
+tínhamos falado de promet generator,
+
+
+que é uma uma facilita importante,
+
+
+importantíssima, não é, a nível do da
+
+
+inteligência artificial generativa.
+
+
+OK? Ter a prompta adequada é
+
+
+fundamental.
+
+
+Eh, tínhamos e noutros tutorial já tinha
+
+
+apresentado, eu posso gerar promos a
+
+
+partir da da minha inteligência
+
+
+artificial local com LM Studio ou num
+
+
+próprio workflow de confi
+
+
+generator ou agora implementei este novo
+
+
+que a partir do próprio Gemini. Eu acho
+
+
+que o Gemini agora está mais eh
+
+
+permissivo. Ele permite porque eu penso
+
+
+que aqui há uns meses atrás eu não me
+
+
+permitia. Eu eu ao fim de subeter duas
+
+
+ou três imagens eu esgotava os créditos
+
+
+free, mas agora parece-me que ele está
+
+
+mais permissivo porque eu consigo
+
+
+injetar uma série de imagens e ele e ele
+
+
+responde. Eh, e sendo assim, eu prefiro
+
+
+usar o eu prefiro sempre usar uma
+
+
+inteligência artificial na cloud de um
+
+
+modo geral. só porque é mais rápido e de
+
+
+modo geral é uma das vantagens é essa e
+
+
+portanto é bem mais rápido o que estar a
+
+
+usar aqui localmente. Pronto. E nessa
+
+
+nesse contexto, portanto, o que é que eu
+
+
+tenho aqui? Por exemplo, aqui fiz um
+
+
+exemplo onde eu eh fui buscar um um
+
+
+conjunto de imagens, neste caso até acho
+
+
+que foi ao Facebook. Existem muitos
+
+
+canais de Facebook com imagens geradas
+
+
+por inteligência artificial.
+
+
+Eh, e eu fui fazer a fui fazer download
+
+
+de algumas delas a título
+
+
+exemplificativo.
+
+
+Ora, posso-vos mostrar aqui.
+
+
+Ora, o wallpapers new. Pronto, foi esta
+
+
+esta área aqui que eu que eu fui
+
+
+que eu fui.
+
+
+Pronto, tive aqui um conjunto de
+
+
+imagens. Eu fui buscar estas imagens.
+
+
+Fui buscar estas imagens ou alguns
+
+
+canais, algumas páginas de Facebook,
+
+
+elas vêm nesta proporção, como vocês
+
+
+estão a ver,
+
+
+OK? Eu não gosto de trabalhar nesta
+
+
+proporção, gosto mais de trabalhar em
+
+
+16x9.
+
+
+Pronto, mas isto é a título
+
+
+exemplificativo. Vou-vos mostrar como eu
+
+
+faço, portanto, um fluxo de trabalho.
+
+
+Ah, agora é assim, vocês dizem assim:
+
+
+"Bom, mas eu copio as imagens e pá,
+
+
+pronto, OK. Eh, peço desculpa, mas sim,
+
+
+eu copiou as imagens.
+
+
+Eh, não, já sabem aquela velha regra. Na
+
+
+natureza nada, nada se perde, nada se
+
+
+nada se cria, nada se perde, tudo se
+
+
+copia. Eh, portanto, eu copio, pronto,
+
+
+desde que não estou a ganhar dinheiro
+
+
+com isto, pronto, não me di consciência
+
+
+por por estar a copiar isto. Uso estes
+
+
+exemplos a título formativo para fazer
+
+
+os meus tutoriais.
+
+
+Eh, outra coisa seria se fosse para para
+
+
+ganhar dinheiro, pois teria que ter mais
+
+
+cuidados e ver e não não estar a usar
+
+
+uma uma imagem que eu não estou a copiar
+
+
+a imagem, mas estou é depois baseado
+
+
+nessa imagem, eu ao extrair uma prompte,
+
+
+eu no fundo vou estou estou a copiar um
+
+
+conceito, não é uma ideia, porque depois
+
+
+eu vou obter imagens parecidas com esta.
+
+
+OK, mas tudo bem, vale o que vale, mas
+
+
+pronto, como é para fins educativos, é
+
+
+como vos digo, não me pesa a consciência
+
+
+por causa disso. Então, fui baixar aqui
+
+
+este conjunto de imagens. Sim, senhor.
+
+
+Pronto. E aqui,
+
+
+ó, subetias submetias aqui uma a uma e
+
+
+com esta minha função que vocês já
+
+
+conhecem, onde eu invoco o Gemini. Eu
+
+
+acho que não vos tenho chamado a
+
+
+atenção, mas nestas coisas vocês têm
+
+
+sempre que ter eh uma chave. Vamos ver,
+
+
+por exemplo, aqui o código desta função.
+
+
+A to Gemini, vamos dar aqui uma vista de
+
+
+está aqui no meu package
+
+
+no ITES. Todas estas coisas estão no meu
+
+
+canal de Gitub, OK? Tá tudo tudo
+
+
+acessível.
+
+
+Ora, temos aqui, portanto, o Gemini, o
+
+
+código do Gemini. O que é que isto
+
+
+mostrou? Para já atualizei aqui o
+
+
+modelo. Pronto, tinha um modelo 2.5 já
+
+
+antigo e pronto, agora deixa este novo
+
+
+default e pronto. E portanto este passa
+
+
+a ser o default um um modelo já mais
+
+
+moderno.
+
+
+Eh, depois temos aqui efetivamente a
+
+
+chave, portanto vocês precisam de ter um
+
+
+gemin
+
+
+API key. OK? Eu penso já vos expliquei
+
+
+tudo isto noutros tutoriais onde como
+
+
+fazer, onde ir buscar e onde guardar,
+
+
+OK? guardamos isto no no ficheiro
+
+
+environment da da linguagem da linguagem
+
+
+R. OK? Pronto, se isto está acho que
+
+
+isto está explicado. Se não souberem
+
+
+alguma coisa, peço peçam ajuda a um chat
+
+
+GPT, como é que isso se faz? Mas pronto,
+
+
+ou seja, isto não é só abaixar o código
+
+
+e começar a executar que não vai
+
+
+funcionar. Vocês precisam de ter uma
+
+
+série de requisitos e este é um dos
+
+
+requisitos, precisam de ter um Gemini
+
+
+API key eh no no vosso ambiente. OK?
+
+
+Sim, senhor. Pronto.
+
+
+Eh, depois, por sua vez, usa aqui um
+
+
+outro package também. OK. OK. Pois,
+
+
+pois, estudem isto mais ao pormenor se
+
+
+for do vosso interesse.
+
+
+Pronto. Então, sendo assim, eu vou
+
+
+passando aqui mais uma a uma e ele dá-me
+
+
+dá-me as respostas.
+
+
+E eh depois guarda guarda as respostas
+
+
+num ficheirinho de prometes. E pronto,
+
+
+esta é a primeira parte. Não vale a pena
+
+
+estar a fazer agora. Vocês confiam que
+
+
+isto funciona. Penso que já vos mostrei
+
+
+muito. Já estou cansado de vos mostrar
+
+
+isto noutros tutorialis. Portanto,
+
+
+e era só para vos mostrar aqui estas
+
+
+novidades a nível aqui dos scripts.
+
+
+Esta parte aqui. Pronto, que podemos
+
+
+temos agora mais esta variante. Ficamos
+
+
+assim com três variantes, como estão a
+
+
+ver.
+
+
+recorrer ao LM Stúdio local ou recorrer
+
+
+a um um próprio modelo do Confi por
+
+
+exemplo, a nível do confi workflow é um
+
+
+modelo com NVL3 e image to text. OK,
+
+
+pronto.
+
+
+Eh,
+
+
+sim, senhor. E esta é a novidade agora a
+
+
+nível do Gemini. Depois tenho aqui mais
+
+
+uma outra. Fiz aqui mais um pequeno
+
+
+acerto a nível de mass generator.
+
+
+OK.
+
+
+A nível do mass generator, fiz aqui um
+
+
+acerto
+
+
+onde efetivamente posso fazer aqui um
+
+
+super loop, um super loop, que foi o que
+
+
+eu fiz aqui,
+
+
+em que eh em vez de estar a executar
+
+
+manualmente um workflow de cada vez, eu
+
+
+faço um loop nos workflows. Para cada
+
+
+workflow, faço um loop nas prometes. E
+
+
+para cada prómete ainda posso fazer um
+
+
+loop no número de instâncias que eu
+
+
+quero para para cada imagem dessa dada
+
+
+promete. OK? Já corri isto há bocado,
+
+
+não vale a pena agora a correr. Vouvos
+
+
+só mostrar aqui, mostrar aqui um
+
+
+bocadinho do do resultado.
+
+
+Eh,
+
+
+temos aqui
+
+
+temos aqui o a nova interface do confi
+
+
+do confi easy easy launcher, OK? Que é o
+
+
+que eu uso, que também já vos falei.
+
+
+Eh, eles vão vão atualizando isto cada
+
+
+vez mais. Isto vai ficando com uma
+
+
+interface cada vez mais moderna.
+
+
+Portanto, aqui permite-me fazer os
+
+
+updates do sistema e permite-me aqui eh
+
+
+abrir diretamente, por exemplo, aqui o
+
+
+output.
+
+
+OK.
+
+
+Sim, senhora.
+
+
+OK. Aqui temos aqui o output que eu
+
+
+acabei de correr há bocado. Pronto. E o
+
+
+que é que acontece aqui? Que cuidados é
+
+
+que há? Normalmente eu gero aqui as
+
+
+imagens eh na fica nesta folder de
+
+
+output do confi e depois eu pego nelas e
+
+
+guardo numa outra folder minha que é a
+
+
+folder de de wallpapers. OK? Pronto. O
+
+
+que acontece é que se eu agora for gerar
+
+
+aqui mais imagens outra vez a partir do
+
+
+zero, o confio A e vê esta folder vazia
+
+
+e começa a numerá-las com imagem número
+
+
+1, 2, 3. Pronto. E depois origina, vai
+
+
+originar nomes duplicados se eu quiser
+
+
+arquivar estas imagens na minha folder
+
+
+massiva de wallpapers. OK? Pronto. Então
+
+
+o que acontece é que eu tenho o cuidado,
+
+
+vou à minha folder do wallpapers e fui
+
+
+buscar as últimas imagens que lá estavam
+
+
+geradas. A última numeração que
+
+
+nomeadamente era esta numeração que era
+
+
+o 186 que eu tinha gerado num outro
+
+
+tutorial. Gerei 186 imagens de cada
+
+
+modelo. Pronto. Então eu coloco aqui o
+
+
+186.
+
+
+Isso faz com que as novas gerações agora
+
+
+é eh automaticamente o confio e vai ver
+
+
+a numeração, vê que já existe um 186 e
+
+
+continua no 187 e assim sucessivamente.
+
+
+Pronto, esta é uma forma de ir
+
+
+continuando a numeração.
+
+
+Eh, no caso em que eu penso que que eu
+
+
+vou querer guardar estas imagens e então
+
+
+posso usar esta técnica. OK? Eu eu tenho
+
+
+o cuidado de deixar aqui eh o uma imagem
+
+
+de cada da última numeração, que é para
+
+
+eu depois continuar a numeração. Pronto.
+
+
+Não sei se se
+
+
+fui claro. Pronto. E então pronto, foi
+
+
+isso que eu fiz.
+
+
+Aqui os cuidados a ter
+
+
+eh os cuidados a ter realmente neste
+
+
+super loop é ter o loop do workflow como
+
+
+loop externo. OK? Ou seja, eu carrego um
+
+
+workflow dentro do dentro do confi.
+
+
+Portanto, quando eu carrego aqui um
+
+
+workflow, quando eu lhe passo um
+
+
+workflow, ele carrega em memória e vai
+
+
+carregar o modelo na memória da gráfica,
+
+
+OK? Por isso é que convém ser o loop
+
+
+externo e depois uma vez carregado o
+
+
+modelo, eu vou executar várias vezes
+
+
+para várias prometes e várias vezes.
+
+
+Pronto. Eh, seria estúpido era pôr o
+
+
+loopflow internamente, então ficaria
+
+
+tudo mais lento porque então para para
+
+
+cada imagem ela estava sempre a trocar a
+
+
+trocar o modelo na gráfica. OK? Não sei
+
+
+se me explico. Por isso isso é
+
+
+fundamental ter o workflow, o loop
+
+
+externo aqui no workflow. Sim, senhor.
+
+
+Pronto, eu gerei isto há bocado, não
+
+
+vale a pena agora estar a mostrar. Eh,
+
+
+vamos só ver aqui um láiré do da saída
+
+
+aqui. Vamos obter aqui um
+
+
+um comparador, que também já vimos isto
+
+
+noutro tutorial.
+
+
+OK. Eu gerei aqui este, eu gerei aqui as
+
+
+as imagens de saída.
+
+
+Ora, deixa-me carregar aqui as funções.
+
+
+Ah, antes disso, deixa dar aqui um
+
+
+láiré. Já há muito tempo que não dou não
+
+
+damos aqui uma vista de olhos que eu
+
+
+costumo mostrar aqui os os logotipos
+
+
+os logotipos de aplicações com que eu
+
+
+tenho trabalhado.
+
+
+Também para conversar um bocadinho com
+
+
+detec sobre tecnologia desde logo o
+
+
+Obsidian, não é? Que comecei agora
+
+
+comecei a trabalhar com ele. O OBS
+
+
+Studio, que é com que eu estou a fazer
+
+
+esta gravação deste tutorial.
+
+
+Eh, abandonei o abandonei
+
+
+aquela aplicação, o Sniping to do
+
+
+Windows.
+
+
+OK. E disse: "Bom, é tempo de começar a
+
+
+usar alguma coisa mais robusta".
+
+
+Eh,
+
+
+OK.
+
+
+Voice Studio. Voice Studio é uma
+
+
+agradável surpresa que eu descobri, que
+
+
+é um projetozinho que está disponível
+
+
+no GitHub. Tem uma interface
+
+
+espetacular.
+
+
+Eh, voice stúdio. Deixa abrir aqui a
+
+
+aplicação.
+
+
+E, portanto, que é para uma necessidade
+
+
+que eu que eu uso muito, que é fazer o
+
+
+transcription de de de áudio. Portanto,
+
+
+eu preciso é uma uma tarefa que eu
+
+
+preciso com muita frequência.
+
+
+Eh, ela tá aqui. Deixa lá ver se isto se
+
+
+isto abre.
+
+
+É uma tarefa que eu que eu que preciso
+
+
+com fazer com bastante frequência. Eu eu
+
+
+eu recebo uns determinados vídeos e,
+
+
+portanto, para cada vídeo eu faço o
+
+
+transcription e tenho feito aqui no
+
+
+confiare
+
+
+que agora não tá não tá tá desatualizado
+
+
+provavelmente, mas ok, mas funciona bem
+
+
+e é uma aplicação moderna,
+
+
+mas já não usa há um certo tempo. Eu tá
+
+
+a precisar aqui de alguns upgrades, não
+
+
+vou fazer isso agora, mas pronto, fiquei
+
+
+com mais uma alternativa.
+
+
+Por um lado,
+
+
+para vocês, se precisarem de, se
+
+
+precisarem de
+
+
+fazer este tipo de tarefas, trabalhar
+
+
+com voice cloning ou text to speak ou ou
+
+
+o contrário, speak to text, automatic
+
+
+speak recognition, portanto, quaisquer
+
+
+dessas tarefas
+
+
+e pronto e que não não
+
+
+se sintam com coragem de instalar o
+
+
+confio Porque eu também reconheço que é
+
+
+uma uma coisa que não não é não é assim
+
+
+muito muito linear, é para dar um bocado
+
+
+de trabalho, às vezes dá dá problemas
+
+
+com o pai, portanto temos que recorrer
+
+
+ao chattir ajuda, às vezes dá dar
+
+
+conflitos nas versões, etc. É um bocado
+
+
+trabalhoso às vezes, às vezes dá
+
+
+problemas quando quando faz upgrades, às
+
+
+vezes rebenta o rebenta o produto, temos
+
+
+que estar a acertar as coisas. Eh, e aí
+
+
+às vezes é mais fácil usar outras
+
+
+aplicações como esta.
+
+
+E, portanto, eh, este é um exemplo de
+
+
+uma aplicação e eu agora tenho o já
+
+
+usei, uso como alternativa. Ora uso por
+
+
+aqui, ora uso por dentro do confio no
+
+
+modelo que tenho que é com o whisper,
+
+
+que é o e que este também, este aqui
+
+
+também trabalha com o whisper. OK, mas
+
+
+tudo bem. Ele agora não arrancou.
+
+
+Paciência. Sim, senhor. De resto, não há
+
+
+aqui mais nada de especial.
+
+
+OK.
+
+
+Sim, senhor. Vamos chegar isto aqui para
+
+
+o lado.
+
+
+Ora bem, eh,
+
+
+sim, senhora.
+
+
+Hell.
+
+
+Então vamos correr aqui então
+
+
+aqui
+
+
+complexia
+
+
+foma
+
+
+carregar aqui
+
+
+realis
+
+
+domain.
+
+
+Já tínhamos
+
+
+pronto.
+
+
+C era
+
+
+imagens
+
+
+for real
+
+
+minunction
+
+
+x sin x
+
+
+1+ x s
+
+
+indeed finding
+
+
+aqui
+
+
+estas novas imagens e podemos agora
+
+
+as imagens
+
+
+e
+
+
+simple
+
+
+ofic
+
+
+O que acontece é que
+
+
+as pras
+
+
+o tema é o mesmo, mas
+
+
+que
+
+
+ok como eu não
+
+
+É porque eu gerei
+
+
+para ver que
+
+
+exable
+
+
+Agora mais vamos ver aqui mais
+
+
+ficar
+
+
+realmente uma geração super massiva
+
+
+que eu posso fazer no confio
+
+
+fazer
+
+
+chamadas a quatro modelos possível mas
+
+
+não compensividade do para amanhã quer
+
+
+mudar o quero mudar o modelo quer quer
+
+
+pô uma
+
+
+modelo e quer dizer
+
+
+só para vocês ficarem com uma ideia
+
+
+isto é um modelo. imaginar
+
+
+por qu e eventualmente
+
+
+para outra
+
+
+prático estar a mudar de de
+
+
+aqui a meio-
+
+
+wia tirar
+
+
+Roser
+
+
+point
+
+
+trabalho que eu às vezes faço.
+
+
+Znalaz
+
+
+ten não ten capacidade
+
+
+e agora descrever uma
+
+
+eu
+
+
+se eu quero tenho que partir alguma
+
+
+coisa tenho que partir imagens ou
+
+
+algum trabalho
+
+
+portanto
+
+
+ok pronto-ners
+
+
+grandes melhorias neste
+
+
+Tenho aqui o
+
+
+pronto e vouar então
+
+
+ine
+
+
+Relembrar aqui
+
+
+o site do Pixar Roma.
+
+
+OK.
+
+
+Ora, sim, senhora. Pronto. E
+
+
+efetivamente aqui temos.
+
+
+Ora, por acaso agora saiu este bastante
+
+
+recentemente.
+
+
+Ele não tem aqui a data, mas isto saiu
+
+
+há um dia ou dois.
+
+
+OK. Uma uma série de de
+
+
+workflows para trabalhar com Minimx e e
+
+
+fazer uma uma série de edição de imagem.
+
+
+OK? Bastante interessante.
+
+
+Eh,
+
+
+e o que eu usei foi este, usei esta este
+
+
+vídeo aqui como referência.
+
+
+OK?
+
+
+Pronto. E basicamente se vocês seguirem
+
+
+este tutorial aqui no YouTube ou e
+
+
+baixarem os workflows, pronto, o que vão
+
+
+ver é que
+
+
+eh eu posso abrir, eu posso abrir aqui.
+
+
+Vamos aqui ao confi-os
+
+
+aqui. Deixa só ver aqui. Eu quando cheg
+
+
+aqui, hora relembrar aqui que este é foi
+
+
+o tutorial número 35. Portanto, isto
+
+
+está está bastante organizado, não há
+
+
+dúvida nenhuma.
+
+
+Está espetacular. Portanto, eu vejo é o
+
+
+tutorial 35. Eu chego aqui, chego aqui
+
+
+aos workfows. Eu tenho aqui a pasta
+
+
+número 35, que é esta aqui. Pronto. E
+
+
+então temos aqui e basicamente vemos que
+
+
+existem três
+
+
+três formas de trabalho que foram
+
+
+implementadas aqui. Na verdade, acho que
+
+
+existem mais. Portanto, existe o texto
+
+
+do vídeo.
+
+
+OK. Texto do vídeo. Aqui, aqui está um
+
+
+exemplo. OK. do workflow.
+
+
+Eu não usei, não usei isto.
+
+
+Existe também o first and last frame, ou
+
+
+seja, eu dou-lhe uma imagem inicial e
+
+
+uma final e ele vai fazer uma
+
+
+interpelação, vai fazer um vídeo que vai
+
+
+do início até ao fim. Isto permite fazer
+
+
+aquelas brincadeiras quando quando o
+
+
+automóvel se transforma no Transformer
+
+
+ou uma pessoa se transforma no animal ou
+
+
+uma coisas desse gêno permite fazer
+
+
+essas brincadeiras porque ele vai fazer
+
+
+uma animação do primeiro frame até ao
+
+
+último frame. OK?
+
+
+Eh, também não foi, eu também não foi
+
+
+isso que eu implementei. E o que me
+
+
+interessou mais foi de facto isto, foi o
+
+
+first, o first frame first frame to
+
+
+vídeo. Pronto. Eh, o que acontece é que
+
+
+depois eliminei aqui estes nós todos a
+
+
+mais, como já vos expliquei no meu outro
+
+
+tutorial.
+
+
+Eh,
+
+
+sim senhor. Eh, gravei o workflow, como
+
+
+é óbvio, aqui na minha pasta de
+
+
+workflows.
+
+
+Pronto. E então, qual foi aqui a a
+
+
+sequência de trabalho?
+
+
+Deixa limpar isto aqui.
+
+
+Ora bem, implimentei a duration. Numa
+
+
+numa fase inicial, eu não tinha, tinha 4
+
+
+segundos certos para cada clip.
+
+
+Fiquei realmente surpreendido por
+
+
+eh ser bastante rápido,
+
+
+bastante em relação ao que há uns meses
+
+
+atrás eu tinha testado aqui um outro,
+
+
+podíamos ver aqui nos modelos aqui a
+
+
+nível do vídeo.
+
+
+Eh, t com fi H3.
+
+
+Acho que o último que tinha que eu tinha
+
+
+testado era o one, era este aqui.
+
+
+Portanto, muito mais lento. Muito mais
+
+
+lento. Pronto. E entretanto agora desde
+
+
+realmente este minimx é é outra
+
+
+dimensão.
+
+
+Ora,
+
+
+sim, senhor. Então, o que é que nós
+
+
+vamos ter aqui?
+
+
+Aqui como é que qual foi a minha a minha
+
+
+forma de trabalho?
+
+
+Foi o seguinte, eu arr eu arranjei uma
+
+
+prompt, eu tive que arranjar aqui uma
+
+
+prompt, uma master prompt. Vamos ver lá
+
+
+aqui. Está nas promptes.
+
+
+OK.
+
+
+Ora, prompt minimax prompt. Pronto. E
+
+
+nesta nesta prompt o que é que eu quero?
+
+
+Eu digo, eu tenho que pedir a um LLM
+
+
+para analisar uma imagem e dizer
+
+
+concebe-me uma uma animação,
+
+
+dá-me uma promete para fazer uma
+
+
+animação. Pronto, eu porque eu não fiz
+
+
+nada manualmente, como vos disse, eu não
+
+
+tenho capacidade criativa para isso.
+
+
+Pronto, uma pessoa que tenha uma
+
+
+inspiração e tenha tenha essa capacidade
+
+
+criativa, eh, poderá escrever a prompte
+
+
+manualmente e dizer: "Movimenta-me a
+
+
+personagem da direita para a esquerda,
+
+
+faz isto, faz aquilo, etc, etc". Pronto,
+
+
+como eu não fiz isso, eu tive que fazer
+
+
+tudo automaticamente. Portanto, eu
+
+
+disse, eu preparei esta promete para um
+
+
+LLM a dizer, dá-me uma promptia
+
+
+max H3 do tipo first frame do vídeo.
+
+
+Eh, depois havia havia uma deficiência
+
+
+que eu comecei a ver, era que
+
+
+normalmente e o modelo tinha tendência
+
+
+para começar a aproximar a câmara do
+
+
+cenário. Pronto. E como eu que tinha uma
+
+
+ideia que eu tive uma ideia que foi o
+
+
+seguinte, eu vou querer fazer uma fazer
+
+
+uma experiência recursiva.
+
+
+Eu vou querer gero um clipe e depois eu
+
+
+extraio o último frame do clip e o
+
+
+último frame vai ser usado como a
+
+
+primeira imagem para o próximo clipe e
+
+
+dessa forma conseguir fazer uma animação
+
+
+continuada.
+
+
+E mais ou menos até que consegui e às
+
+
+vezes sai um resultado bom e outras
+
+
+vezes sai um resultado menos bom. mas
+
+
+também no início e degenerava
+
+
+rapidamente o resultado porque ele
+
+
+aproximava à câmara e começava a
+
+
+aproximar cada vez mais. Eu tive que lhe
+
+
+pedir aqui explicitamente do not
+
+
+approximate the camera.
+
+
+Preserve the distance to the scene. Be
+
+
+creative and move the main characters.
+
+
+Give me only the prompt and nbor. Ok,
+
+
+pronto, isto foi uma primeira
+
+
+aproximação que eu vos disse. É, como
+
+
+vos digo, pá, isto foi um um pontapé, um
+
+
+pontapé de saída que eu fiz e
+
+
+eventualmente de hoje para amanhã se
+
+
+estiver mais inspirado, poderei
+
+
+aprofundar isto e tentar fazer aqui aqui
+
+
+uma prompte mais complexa ou ou logo
+
+
+vejo. Mas pronto, este foi o ponto o
+
+
+ponto ponto de partida. Eu preparei esta
+
+
+master prompt. Pronto. Sim, senhora. E
+
+
+agora eu preparei a o workflow,
+
+
+efetivamente mini max do vídeo. OK,
+
+
+deixa- carregar isto aqui tudo.
+
+
+Sim senhor. [suspirando]
+
+
+Define number of sequential clips for
+
+
+each root image. Pronto.
+
+
+E então agora vou fazer, por exemplo, eh
+
+
+dois. Vou fazer aqui como exemplo. Vou
+
+
+só fazer dois clips agora. dois clips.
+
+
+Pronto. E agora tenho um root image.
+
+
+Tenho que dizer qual é o nome da root
+
+
+image. Pronto. O nome da root image ela
+
+
+ela tem que estar de um modo geral e
+
+
+todos os inputs que vão vão servir de
+
+
+input para os modelos de confi deverão
+
+
+estar sempre na na folder confi folder.
+
+
+E todos os outputsão são são sempre
+
+
+gerados para confi output folder.
+
+
+Pronto. Aqui o que é que eu vou fazer?
+
+
+Eu criei uma imagem vai ser imagem raiz
+
+
+minimax.
+
+
+Eh, root image. Vamos ver aqui o
+
+
+exemplo, o que é que eu tenho lá neste
+
+
+momento. Ora, deixa-me abrir aqui a
+
+
+nível do confi-me abrir aqui o output.
+
+
+OK. Ora, onde é que ele abriu?
+
+
+Deixa-me ver onde é que isto está.
+
+
+Agora não estou a conseguir abrir isto.
+
+
+Close.
+
+
+Ora, um momentinho,
+
+
+deixa eu ver se eu consigo.
+
+
+Ora, output.
+
+
+OK. Tá, estava aqui um bocadinho
+
+
+escondido. Pronto, tenho aqui o output.
+
+
+Ora bem, então o que é que eu tenho aqui
+
+
+de referência?
+
+
+Ora,
+
+
+Minimx,
+
+
+onde é que isto está?
+
+
+Ah, este é o output. É o que, desculpem,
+
+
+eu preciso do input, OK? Preciso do
+
+
+input. OK. Ora, vamos aqui ao input.
+
+
+Ok,
+
+
+[roncando]
+
+
+aqui tenho o input.
+
+
+Ora,
+
+
+minim first. Vamos ver o que é que eu
+
+
+tenho aqui. Pronto, esta é um este é um
+
+
+bom exemplo. Pronto, temos aqui o
+
+
+dinossauro. OK, pronto. Sim, senhor.
+
+
+[roncando]
+
+
+E ele até é uma imagem bastante grande,
+
+
+tá com 2560 pixis, mas o modelo de vídeo
+
+
+não, eu não pedi para gerar com uma
+
+
+dimensão destas. Penso que nem é capaz,
+
+
+não é?
+
+
+até porque demoraria muito mais tempo,
+
+
+portanto geramos em mais pequeno e
+
+
+depois eu fiz alguma edição de imagem no
+
+
+Clip Champ e ele aí faz algum upscaling.
+
+
+OK? Sim, senhora.
+
+
+Portanto, este vai ser, esta vai ser a
+
+
+imagem de referência, que é vai ser o
+
+
+dinossauro.
+
+
+Pronto.
+
+
+Ah, portanto, vamos carregar isto aqui
+
+
+tudo.
+
+
+OK.
+
+
+Eh, root, root images, vist files.
+
+
+Ah, ok. Isto é porque ele ele ele aqui
+
+
+poderia ter um conjunto, ele poderia ter
+
+
+um conjunto de root images, OK?
+
+
+Ele poderia ter um conjunto de root
+
+
+images.
+
+
+Eh, isto é porque isto é que para eu
+
+
+fazer uma sequência massiva, digamos,
+
+
+para cada root e-mails, eu gero uma
+
+
+animação com vários clips. OK? Pronto,
+
+
+essa foi a ordem de trabalhos, mas agora
+
+
+vamos fazer só para uma roage, OK?
+
+
+Pronto. Sim, senhor. Então, eu vou fazer
+
+
+aqui, eu vou fazer aqui só para uma.
+
+
+Eh, aliás, eu aqui basta-me fazer aqui
+
+
+first image.
+
+
+Este é o nome.
+
+
+Eh, root images.
+
+
+Ora, um momentinho só.
+
+
+OK. Eh, portanto, aqui
+
+
+como vamos fazer agora? Vamos só gerar
+
+
+aqui dois clips partindo desta rote.
+
+
+Eh, portanto, eu vou entrar aqui.
+
+
+Pronto. E aqui, qual era a ideia? A
+
+
+ideia é que para o nome da
+
+
+da first image é fixo
+
+
+e depois para cada nova imagem eu pego
+
+
+na imagem, copio-a e esmagoa para ela
+
+
+começar sempre por este nome minim first
+
+
+imagem. OK? Pronto, não sei se me
+
+
+explico, mas penso que isto agora vai
+
+
+ficar claro. Pronto, agora aqui tenho n
+
+
+= 2. Pronto, então agora vou gerar aqui.
+
+
+Ora, vou gerar aqui generating clip.
+
+
+Sim, senhor. Pronto, aqui vou subeter ao
+
+
+Gemini a imagem e vou dizer: "Olha,
+
+
+dá-me uma dá-me prompt. Eu vou-lhe
+
+
+passar aquela master prompt que já vimos
+
+
+para dizer: "Olha, dá-me uma prompt
+
+
+ao ao Minimx".
+
+
+OK.
+
+
+Eh, então vamos fazer isto até
+
+
+manualmente aqui agora inicialmente.
+
+
+Ora, deixa-me fazer aqui i = 1.
+
+
+I = 1.
+
+
+Ok.
+
+
+Portanto,
+
+
+vamos ver isto aqui.
+
+
+OK. Ela aqui não tem. Oraip
+
+
+igual a 1.
+
+
+Ora igual a 1.
+
+
+Ok. Generating ele pensa que vai gerar
+
+
+muitos, mas mas não vai.
+
+
+Ora, clip igual a clip mais 1.
+
+
+Ora bem, vamos então aqui.
+
+
+Ora, promet first.
+
+
+Ok.
+
+
+Sim, senhora. Pronto, aqui estamos. Já,
+
+
+já estou a passar a imagem a dizer
+
+
+dá-me, dá-me uma prompt. OK. Ele já
+
+
+gerou uma prompt e essa prompt é para
+
+
+passar para a animação. OK.
+
+
+Pronto. Então a prompt
+
+
+é o o LM prompt.
+
+
+Pronto, posso ir. Pronto, cá está. E já
+
+
+era aqui esta esta. Pronto.
+
+
+Tiranossauraros. Tal tal tal tal.
+
+
+Pronto. Não vou agora a ver. Não sei o
+
+
+que é que ela vai dizer, não sei que
+
+
+presto, mas pronto. Aqui seria a parte
+
+
+onde nós podíamos intervir e escrevermos
+
+
+aqui manualmente dizermos o que é que
+
+
+queríamos que o dinossauro fizesse. OK.
+
+
+Sim, senhora.
+
+
+Ora, vamos então gerar aqui. Eu vou
+
+
+pedir agora só 4 segundos. Vamos ver
+
+
+quanto tempo é que ele leva. A primeira
+
+
+vez é um bocadinho mais lento porque
+
+
+ele vai carregar o modelo em memória.
+
+
+OK. Pronto, até el está tá ch chamou o
+
+
+mini maxil do vídeo.
+
+
+OK. O interessante aqui deste modelo é
+
+
+que ele também consegue gerar som. é é
+
+
+bastante interessante. Ele consegue eh é
+
+
+possível inibir, mas eh e acho que
+
+
+também é possível interferir a nível da
+
+
+da prompt e especificar o que tipo de
+
+
+som também, que tipo de áudio queremos
+
+
+que ele gera para para a animação. Isto
+
+
+é realmente,
+
+
+não há dúvida nenhuma que está a haver
+
+
+grandes progressos nesta área.
+
+
+Mas pronto, eu aí nessa parte não mexi
+
+
+nada, deixei ele gerar o que ele
+
+
+quisesse
+
+
+e depois no final, ao fazer edição de
+
+
+vídeo final, logo optamos se queremos
+
+
+manter os sons ou não. OK? Houve um
+
+
+vídeo que eu fiz com isto que está no na
+
+
+minha nova playlist de YouTube que eu
+
+
+vos que eu vos vou mostrar.
+
+
+Ora, este é o primeiro vídeo que eu que
+
+
+eu efetivamente fiz com esta técnica.
+
+
+Nós aqui podemos ver clips de 4
+
+
+segundos. De repente há aqui uma uma uns
+
+
+pequenos saltos, umas pequenas
+
+
+descontinuidades.
+
+
+Olha, repararam agora houve um pequeno
+
+
+impulso. OK, ele passou para outro clip.
+
+
+OK, são de quatro em 4 segundos. OK, às
+
+
+vezes não. E e depois às vezes surg umas
+
+
+coisas bizarras, não é? Aqui esta base
+
+
+está a subir e agora de repente começa a
+
+
+descer. É uma mudança de clip. E claro,
+
+
+ele não sabe quando tá a gerar a próxima
+
+
+animação, ele não tem memória da
+
+
+animação anterior. Ele não sabe se se
+
+
+anteriormente as naves estavam aí para
+
+
+cima ou para baixo. Pronto, portanto é
+
+
+como vos digo, isto foi a primeira
+
+
+coisa, a primeira vez que eu que eu fiz
+
+
+isto e, portanto, gera estas
+
+
+incongruências.
+
+
+OK? Mas pronto, isto foi como foi uma
+
+
+uma forma experimental de fazer isto,
+
+
+ver o que é que acontecia.
+
+
+às vezes calha bem, por exemplo, aqui
+
+
+calhou bem porque ele aqui os aviões ele
+
+
+era os aviões e entendia para que para
+
+
+para que sentido é que os aviões teriam
+
+
+que andar, não é? Portanto, aí não não
+
+
+houve esse problema. OK?
+
+
+Pronto, esta foi realmente a primeira
+
+
+produção que eu fiz exatamente com esta
+
+
+técnica que estou-vos a mostrar.
+
+
+Pequenos clips de 4 segundos cada um.
+
+
+a partir de root images, cada imagem
+
+
+ela, portanto, gera 4 segundos. Depois
+
+
+vai extrair o último frame do do vídeo
+
+
+para servir de nova imagem e assim
+
+
+sucessivamente.
+
+
+E no final, pois, compus tudo, fiz a
+
+
+edição final no Cripchap.
+
+
+OK?
+
+
+Há aqui umas incongruências engraçadas
+
+
+aqui, aqui nestas cabanas.
+
+
+Estas fulanas agora andam para trás e
+
+
+para a frente porque cá está não ele não
+
+
+sabe quando passa de aqui pr aqui
+
+
+transitou
+
+
+agora vai para usar isto. Agora
+
+
+transita, levanta outra vez pronto, cá
+
+
+está.
+
+
+Pronto, é engraçado. Pronto, vale o que
+
+
+vale.
+
+
+Isto é só para ter uma ideia, mas
+
+
+realmente uma pessoa que tenha
+
+
+paciência, quem tenha paciência para
+
+
+especificar as prómetes, neste momento
+
+
+está perfeitamente capacitado para para
+
+
+fazer pequenas animações. Não tenha mais
+
+
+pequena dúvida.
+
+
+É só ter um guião, ter um guião e ter
+
+
+uma, ter a paciência para gerar as
+
+
+parómetros adequadas, mandar as
+
+
+personagens e andarem para um lado ou
+
+
+andarem para o outro.
+
+
+OK? Pronto, este foi o primeiro vídeo
+
+
+que eu fiz.
+
+
+Sim, senhor.
+
+
+Exatamente. Com esta técnica. Ora, ele
+
+
+então aqui já gerou agora este primeiro
+
+
+este vídeo do dinossauro. Vamos ver como
+
+
+é que ele ficou.
+
+
+Ora, o vídeo o 34.
+
+
+Ora vamos aqui.
+
+
+Ora, output,
+
+
+o minimax, o 34.
+
+
+Som que eu estou [roncando] sem sem
+
+
+auricares. Deixa-me pôr aqui os
+
+
+auricares para ver como é que ficou o
+
+
+som.
+
+
+[roncando]
+
+
+Ora, deixa ver outra vez.
+
+
+Estão a ver as dimensões? Estas é as
+
+
+dimensões relativamente pequenas com que
+
+
+ele fez. E depois no no clip champ ele
+
+
+faz um upscaling para para full HD. OK.
+
+
+Pronto. Então agora como é que isto
+
+
+segue para o próximo clipe que eu quero
+
+
+fer uma animação maior? Claro que eu
+
+
+também posso fazer uma animação maior à
+
+
+partida dando pedindo 10 ou 15 segundos.
+
+
+penso que mais ou menos 10 ou 15 já tá
+
+
+próximo do limite que que o sistema
+
+
+aguenta. Isso também depende da vossa
+
+
+máquina, da da da gráfica, etc, etc.
+
+
+Depende toda uma série de de fatores.
+
+
+Mas eu também posso eh fazer um um só
+
+
+clipe de de de de grande, não é? Pronto,
+
+
+mas tem limites. Agora, se eu quiser
+
+
+fazer uma sequência longa, guiada com
+
+
+prómetros, então eu tenho que usar esta
+
+
+técnica. Eu vou ter que eu não vou
+
+
+conseguir fugir desta desta técnica de
+
+
+ter que partir do último frame para
+
+
+servir de primeiro frame para o próximo
+
+
+clip. OK? Pronto. Então aqui vamos
+
+
+continuar agora manualmente.
+
+
+Ora aqui o quê? Então aqui vamos fazer a
+
+
+extração do frame. Portanto, eh vamos
+
+
+ver aqui o vídeo que ele gerou. Vamos
+
+
+usar aqui um package de R que é que é
+
+
+dedicado a vídeo que me dá aqui o vídeo
+
+
+info. Eu podia fazer aqui tudo com com o
+
+
+utilitário, o FF o FFM PEG. Pronto. E
+
+
+aqui teria que passar comandos de
+
+
+consola FFM PEG. Pronto. Mas assim é
+
+
+mais simples, é mais simples conseguir
+
+
+fazer tudo aqui dentro do R sem ter que
+
+
+estar a dar comandos do sistema
+
+
+operativo. OK? Pronto, ele aqui dava uma
+
+
+estrutura e nomeadamente aqui eu consigo
+
+
+saber qual é o last frame que é o frame
+
+
+107. E agora consigo especificar aqui
+
+
+uma string de de de filtragem para dizer
+
+
+vai buscar o último frame que é o trim
+
+
+info. Vai buscar o último até ao frame
+
+
+107.
+
+
+E agora consigo sacar o o
+
+
+o bast frame que já saquei.
+
+
+Eh, e agora copio este base de frame
+
+
+para o nome da first para que funcione
+
+
+como a a primeira imagem
+
+
+para eu repetir o repetir o loop.
+
+
+Pronto. E agora vou vou repetir o loop.
+
+
+Pronto. Vamos só fazer isto aqui
+
+
+manualmente. Pronto.
+
+
+OK.
+
+
+Porque eu esmaguei a FAS e agora
+
+
+estou-lhe a pedir outra vez, dá-me uma
+
+
+promet para a Famis. OK, já está. Ele
+
+
+deu-me. Há de ser bem bem parecida
+
+
+porque que o dinossauro o dinossauro
+
+
+continua na mesma. Pronto. E agora vou
+
+
+vou gerar o segundo clipe e vamos ver
+
+
+que eles isto vai ser a continuação.
+
+
+Aqui não se vai não se vai notar grande
+
+
+coisa porque é o dinossauro tá parado.
+
+
+Mas pronto, foi um exemplo um pouco mal
+
+
+escolhido, mas vocês vocês confiam.
+
+
+Ora, quanto tempo é que isto demorou há
+
+
+bocado?
+
+
+Ora,
+
+
+eh, há bocado demorou 242 segundos.
+
+
+OK, vou fazer aqui uma pequena pausa.
+
+
+OK, até já.
+
+
+Ora, já acabou.
+
+
+Ora, efetivamente foi mais rápido.
+
+
+Agora, é como vos disse, porque aquele
+
+
+agora já tinha o modelo carregado em
+
+
+memória. Deve ser por isso que foi mais
+
+
+rápido. Pronto, ora, deixa-me tentar
+
+
+abrir aqui então os dois vídeos, os dois
+
+
+clipes seguidos que que ele gerou.
+
+
+Ora, vou abrir aqui os dois vídeos. Ora,
+
+
+deixa vir aqui. É tu playlist
+
+
+agora aqui.
+
+
+Não, não funcionou.
+
+
+Ora,
+
+
+ah, deixa-me, deixa-me tentar fazer aqui
+
+
+lá lá ver. É, como vos disse, e a imagem
+
+
+não foi muito bem escolhida,
+
+
+não.
+
+
+Pausa.
+
+
+Pronto,
+
+
+isto não foi muito bem escolhido, mas
+
+
+paciência. Mas vocês acreditam que isto
+
+
+é a continuação. Vou abrir agora aqui o
+
+
+próximo.
+
+
+Ora,
+
+
+onde é que isto está?
+
+
+Pronto, cá está. Cá está. Vocês vem,
+
+
+veem que é igual.
+
+
+Pronto, ele faz a primeira animação e o
+
+
+segundo é a continuação.
+
+
+OK, pronto, penso que sim. Eh, e
+
+
+portanto é é como vos digo, eh, dá
+
+
+bastante margem de flexibilidade para
+
+
+com esta com esta metodologia
+
+
+e para fazer, neste caso, eh, o guião
+
+
+foi automático, mas nós podemos usar
+
+
+esta metodologia com um guião manual.
+
+
+Nós podemos ir gerando os clips, um a
+
+
+um, usar esta tecnologia, extrair o
+
+
+último frame. Aqui vos mostro como isso
+
+
+é possível fazer também com a linguagem
+
+
+R.
+
+
+Eh, e depois podemos fazer um guião
+
+
+manual e estabelecer o que é que
+
+
+queremos para para o próximo frame. E
+
+
+dessa forma, acredito que quem tenha
+
+
+paciência e capacidade criativa pode
+
+
+pode neste momento tá capacitado para
+
+
+fazer filmes de animação muito
+
+
+interessantes. OK? Pronto. Eh, depois
+
+
+até que eu eu fiz isto e depois disse:
+
+
+"Bom, agora deixa-me passar para um mais
+
+
+simples agora, uma vez que este modelo é
+
+
+bem capaz. Eh, agora vou vou gerar agora
+
+
+só um único clipe, mas mais longo.
+
+
+Pronto, então eh depois eu fiz aqui.
+
+
+Ora, onde é que isto está?
+
+
+No script. Depois acabei por fazer um
+
+
+mais simples. Este aqui, o simples.
+
+
+Pronto, é parecido.
+
+
+Eh, tem também o conjunto de rotí porque
+
+
+eu posso-lhe eu posso-lhe dar um
+
+
+conjunto de imagens.
+
+
+Eh, e realmente para cada uma delas
+
+
+ele gera um só clip. E neste caso gerou
+
+
+e fiz, por exemplo, aqui uma geração com
+
+
+10 segundos cada uma.
+
+
+E, portanto, é o exemplo aqui, já agora
+
+
+vou-vos mostrar aqui o exemplo
+
+
+que também já subi aqui para o meu canal
+
+
+de YouTube. O este último exemplo aqui
+
+
+que eu tenho aqui, este já é com dessa
+
+
+forma. Portanto, agora já são clips de
+
+
+10 segundos, pois fica ficam mais
+
+
+uniformes, não é?
+
+
+Ora,
+
+
+vamos ver aqui o timing, onde é que isto
+
+
+está. OK, o segundo clip.
+
+
+OK.
+
+
+As músicas é [música]
+
+
+as músicas é um tema que que vocês podem
+
+
+pesquisar músicas free no YouTube.
+
+
+Pesquisam YouTube Audio Library, aparece
+
+
+uma série de playlists e essas músicas
+
+
+de modo geral são todas free. Podem
+
+
+fazer um download massivo, tal como eu
+
+
+fiz, usando o meu projeto de YouTube,
+
+
+que é uma coisa que já vos mostrei
+
+
+também no noutros tutorials e foi o que
+
+
+eu usei agora. com toda a facilidade, eu
+
+
+consigo fazer downloads massivos de
+
+
+músicas que tenho aqui na tenho para aí
+
+
+nas na minha coleção e depois eu dei ao
+
+
+clip champ e consigo fazer a montagem
+
+
+final.
+
+
+Eh, pronto, então este é um exemplo,
+
+
+[música] este é um exemplo, então agora
+
+
+já com os tipos maiores, mas pronto, já
+
+
+não tem aquela aquele tema, aquela
+
+
+temática daí ir buscar o último frame e
+
+
+e fazer a continuidade. OK? Este este é
+
+
+um é um exemplo mais simples, é um
+
+
+exemplo mais simples que é clipa a clip,
+
+
+clips únicos, OK?
+
+
+Sim, senhor.
+
+
+E pronto, penso que tá chegado ao fim. O
+
+
+que vos queria mostrar,
+
+
+penso que sim, cobriu mais ou menos o
+
+
+que vos queria mostrar, mostrar-vos como
+
+
+o meu computador,
+
+
+tenho uma uma RTX 5080
+
+
+com 16 GB 16 GB de memória RAM.
+
+
+Eh, e consigo fazer isto. Já ficaram com
+
+
+uma ideia quanto tempo é que leva.
+
+
+Eh, por exemplo, aqui pouco mais 3
+
+
+minutos para um clipe de 4 segundos.
+
+
+OK.
+
+
+Ah, portanto, penso que sim, ficaram com
+
+
+uma ideia da das capacidades.
+
+
+Eh, agora, atenção, se não eh não querem
+
+
+usar o R, OK, não usem. Vocês podem vir
+
+
+aqui ao Pixar Roma, instalam o configi e
+
+
+aqui instalam aqui, põe aqui o first
+
+
+frame do vídeo, é a mesma coisa, não vou
+
+
+agora estar a fazer isso. Ponham aqui,
+
+
+vejam, vejam o tutorial do Pixaroma. Põe
+
+
+aqui a a imagem e geram geram aqui um
+
+
+clip de cada vez. Tem aqui as as
+
+
+resoluções, etc, etc. Podem fazer aqui
+
+
+exatamente a mesma coisa. OK? Portanto,
+
+
+aqui podem fazer, fazem um pronto. O que
+
+
+dá a linguagem R, dá a potencialidade
+
+
+para para criar eh automações mais mais
+
+
+poderosas, não é? Nível de automações.
+
+
+Pronto, agora fazendo as coisas de uma
+
+
+forma mais simples, é é não precisamos
+
+
+da linguagem R, OK?
+
+
+Eh, é como vos digo, vocês podem fazer
+
+
+aqui, vocês podem fazer aqui. Eh, e por
+
+
+exemplo, se se depois se quiserem sacar
+
+
+a o último frame, o último frame de um
+
+
+vídeo, usam o utilitário FFM PEG, ou até
+
+
+podem usar um simples print screen e há
+
+
+tantas maneiras, não fica perfeito, mas
+
+
+portanto há muitas maneiras de fazer
+
+
+ombets. Imaginem
+
+
+andando frame a frame e e e fazendo o
+
+
+freeze do vídeo no último frame com
+
+
+print screen sa com o último o último
+
+
+frame. Portanto, há há muitas maneiras
+
+
+de fazer as coisas. Pronto, é como vos
+
+
+digo, a minha ideia normalmente os meus
+
+
+tutorials é é dar-vos inspiração, OK?
+
+
+Passar-vos passar-vos ideias, coisas que
+
+
+para que vocês coisas que vocês possam
+
+
+fazer e portanto e partilhar com vocês
+
+
+algumas das brincadeiras que eu que eu
+
+
+tenho andado a explorar. E pronto, penso
+
+
+que vamos ficar por aqui. Eh, se
+
+
+quiserem de uma vista, deem uma vista
+
+
+deos aqui nesta minha nova playlist aí
+
+
+productions. Tenho aqui três vídeos para
+
+
+dar aí uma vista de hoje. Como é que
+
+
+isto fica, como é que estas brincadeiras
+
+
+ficam?
+
+
+Eh, e pronto, penso que sim. Vamos
+
+
+explicar por aqui. Eh, obrigado pela
+
+
+atenção, despeço-me e até uma próxima
+
+
+oportunidade.
+
+

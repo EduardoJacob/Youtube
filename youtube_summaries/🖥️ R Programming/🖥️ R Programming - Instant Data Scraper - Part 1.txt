@@ -1,0 +1,11 @@
+🖥️ R Programming - Instant Data Scraper - Part 1
+1. Introdução à linguagem R e análise do seu crescimento no Tiobe Index.
+2. Comparação entre R e Python, destacando a preferência do autor pelo R.
+3. Objetivo principal: Integração da linguagem R com outras ferramentas e APIs.
+4. Realização de Data Scraping na plataforma GX Games para análise de jogos.
+5. Utilização do navegador Opera e extensão Instant Data Scraper para captura de dados.
+6. Discussão sobre alternativas como o Microsoft Power Automate e suas limitações.
+7. Apresentação da ferramenta MegaSync para sincronização de ficheiros na cloud.
+8. Introdução ao ambiente RStudio e seus recursos avançados para programação.
+9. Explicação de conceitos fundamentais da linguagem R, como Packages e Data Frames.
+10. Limitações do pacote chromote e fluxo de trabalho finalizado com exportação CSV.

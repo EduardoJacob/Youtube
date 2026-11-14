@@ -1,0 +1,11 @@
+🖥️ R Programming - Instant Data Scraper - Part 3
+1. Introdução ao tutorial e contexto de edição de vídeo.
+2. Ferramentas de gravação e edição utilizadas (Snipping Tool e Clipchamp).
+3. Limitações técnicas da versão gratuita do Clipchamp.
+4. Criação de dataframes e agregação de dados no RStudio.
+5. Visualização de dados através de gráficos interativos.
+6. Análise de crescimento de plays dos jogadores ao longo do tempo.
+7. Implementação de média móvel para análise estatística.
+8. Uso de background jobs para processamento em segundo plano.
+9. Funcionalidades do IDE como addins e extensões.
+10. Integração com ChatGPT no ambiente RStudio.

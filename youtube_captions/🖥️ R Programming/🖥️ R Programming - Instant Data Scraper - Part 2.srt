@@ -1,0 +1,1376 @@
+
+Ora, sejam bem-vindos à segunda parte deste
+tutorial R, programação em R com instant data
+
+
+scraper. Eh, não sei se os mais atentos repararam,
+mas pronto, eu fiquei um bocado, fiquei assim um
+
+
+bocado abananado porque eu tinha aqui a password
+em claro aqui. Não há problema porque eu uso muita
+
+
+segurança. Eu uso muita segurança e para já mudei
+a password do Opera e mas em todo o caso eu uso
+
+
+Two Factor Authentication, só que na altura não
+tinha a certeza absoluta porque não tenho
+
+
+de cor quais as plataformas que têm two factor
+authentication ou não, não é? À partida já todas têm
+
+
+de qualquer plataforma com o mínimo de dimensão
+pois tem tem que implementar uma uma segurança
+
+
+adicional com Two Factor Authentication e já agora,
+já que vos tenho mostrado aqui vários softwares,
+
+
+várias soluções. Já vos falei do Megasync. 
+vou-vos falar de mais uma que é o que eu uso
+
+
+para na área de Two Factor Authentication. Ah,
+como vocês sabem, há muita coisa. Vocês para
+
+
+quem usa para quem usa sabe o que é que eu estou a
+falar. Quem não sabe o que eu estou a falar,
+
+
+pois não é? Então não adianta. É como um
+burro a falar para um palácio. Mas pronto,
+
+
+mas mas para quem sabe o que é o Two Factor
+Authentication, certamente conhece o o Google
+
+
+Authenticator e depois também há o pessoal da
+Apple usa as suas próprias soluções, etc, etc.
+
+
+Eh, eu já usei várias soluções, mas agora desde há
+uns tempos comecei a usar o Proton Authenticator,
+
+
+porque o Proton Authenticator tem uma grande
+vantagem, que normalmente estes authenticators
+
+
+de Two Factor Authentication só trabalham em
+mobile. Nós temos a app instalada no telemóvel
+
+
+e depois quando precisamos depois para para
+fazer uma autenticação forte a por exemplo,
+
+
+mesmo que estejamos no Windows, pois, nós temos
+que ir ao buscar o telemóvel para fazer buscar
+
+
+o Two Factor Authentication. E o que o proton
+Authenticator tem, que estou-vos aqui a mostrar,
+
+
+não há problema. escusam de copiar aqui os códigos
+porque não vale isto não vale nada, mas é só
+
+
+para vos dizer como é tão user friendly que
+tanto quanto eu sei é o primeiro de todos os os
+
+
+authenticators que a Proton que implementou uma
+solução eh também para para Windows. É uma coisa
+
+
+que sempre fez um bocado de impressão de
+confusão, porque é que a as marcas como o Google
+
+
+não implementava também um clone para Windows
+para que eh independentemente do device que nós
+
+
+tivéssemos a ir buscar, nós tivéssemos os nossos
+códigos. sempre fez um bocado de confusão. E
+
+
+depois também tem um problema, é que, por exemplo,
+bom, eh, agora acho que já não, esse problema já
+
+
+não é tanto porque existe sincronização, mas aqui
+há uns anos atrás, por exemplo, nós perdíamos um
+
+
+o telemóvel e nós tínhamos estes códigos e depois
+era um problema, porque se perdêssemos o telemóvel
+
+
+com os códigos, nós perdíamos os códigos,
+depois daria uma uma trabalheira dos diabos.
+
+
+eh eh, portanto, fazer o refresh das autenticações
+todas nestas plataformas. OK? Eh, agora
+
+
+penso que isso já tá ultrapassado porque penso
+que o Google Authenticator já guarda na cloud,
+
+
+mas nos primeiros anos não guardava na cloud,
+era somente local. Ah, mas realmente aqui assim é
+
+
+mais simples. Com o Proton Authenticator eu tenho em
+em todo o lado, eu tenho aqui tenho em Windows,
+
+
+em mobile seja onde for. Eh, como estão a ver, eh,
+tenho aqui o Proton Authenticator, como estão a ver,
+
+
+a quantidade de códigos que eu tenho, eh, e
+o cuidado que tem que se ter aqui no Windows,
+
+
+que às vezes acontece, é quando o relógio do
+Windows se atrasa um bocadinho, se se atrasam
+
+
+alguns segundos, como isto é gerado, salvo erro,
+de 30 em 30 segundos, portanto se se atrasa,
+
+
+por exemplo, 15 segundos, às 2 por 3 está a
+gerar o código e o código já já está desfazado
+
+
+e depois falhamos a autenticação falha. Pronto,
+temos só ter esse cuidado. Se às vezes ele disser
+
+
+que o código está errado, eh provavelmente é
+que temos que fazer aqui o refresh da hora
+
+
+aqui nos settings do Windows, OK? Eh, e pronto,
+eu não ganho nada em estar a fazer a publicidade
+
+
+ao Proton Authenticator, OK? Mas simplesmente, como
+vêm, estou-vos a a recomendar este produto porque
+
+
+se realmente sinto que é um produto espetacular
+porque tem essa esta particularidade que corre em
+
+
+Windows e corre em mobile. OK? Eh, quanto às
+passwords, realmente eu já mudei a password.
+
+
+Eh, se repararem no meu outro vídeo que eu apaguei
+a password, que eu tinha aqui a password aqui
+
+
+em claro, era uma password bastante bastante
+complexa. São passwords que eu que eu que eu
+
+
+que uso um sistema para gerar as passwords, já
+agora, que é o Last Pass. Pronto. E, portanto,
+
+
+como vêem, eu tenho toda uma série de cuidados. Eu
+tenho, como vêem, trabalho com muita coisa e,
+
+
+portanto, preciso desde desde muito cedo comecei
+a trabalhar e preciso precisar de ter um gestor de
+
+
+passwords. É incrível como muitas pessoas, ainda
+mesmo jovens que eu vejo hoje em dia, que não
+
+
+usam gestores de passwords e usam sempre as mesmas
+passwords ou então às vezes usam sempre a... fazem
+
+
+sempre autenticação com o Google, por exemplo,
+para todos os sites onde entram autenticam com o
+
+
+Google. E pá, eu sinceramente eu não recomendo
+isso, pá. Eh, de todo, eu não recomendo uma
+
+
+solução dessas porque imagina que um dia há uma
+plataforma dessas fica comprometida. Se o google
+
+
+ficar um dia comprometido e todas as autenticações
+e todas as plataformas ficam comprometidas porque
+
+
+estão todas autenticadas com Google. Portanto,
+eu sinceramente não não recomendo uma uma
+
+
+solução dessas. Eu eu nunca autentico com eu
+autentico sempre com com user e password. Eh,
+
+
+nunca faço autenticação, seja Google, Microsoft.
+Não, não uso nada disso. Eu cada cada um tem a
+
+
+sua autenticação independente. Eh, agora vocês
+podem dizer assim: "E pá, tá bem, então e se Last
+
+
+Pass também ficar comprometido? Bom, então aí aí
+paciência, não é? Eh, não se não se pode ter tudo,
+
+
+mas eh mas quer dizer eh mas pronto, digamos que
+eu quase que confio confio mais no Last
+
+
+Pass numa plataforma destas, até porque é paga
+do que na plataforma generalista do do Google.
+
+
+Eh, de resto, o importante aqui que eu uso uso o
+Two factor authentication, que aí sim procuro usar
+
+
+aqui num num fornecedor diferente daquele que eu
+tenho as passwords, porque os dois trabalham em
+
+
+conjunto. Quando eu tenho que me autenticar, ele
+vai-me pedir a password e depois vai-me pedir
+
+
+o Two Factor authentication. Portanto, aí eu acho
+que aí sim que é importante usar dois fornecedores
+
+
+diferentes, porque se o fornecedor fosse o mesmo,
+imaginem estar a usar um gestor de passwords,
+
+
+por exemplo, da Proton. Então, se a Proton
+ficasse comprometida, pois eu teria teria lá tudo,
+
+
+teria os códigos e teria as passwords. OK? OK.
+Eh, vamos então seguir. Já vos fiz aqui esta estas
+
+
+recomendações que eu acho interessante mostrar-vos
+aqui alguns produtos para quem não não conhecesse
+
+
+o Proton Authenticator, porque o Proton
+Authenticator no Windows é relativamente recente.
+
+
+Ora bem, então vamos continuar onde estávamos.
+E, portanto, nós estávamos aqui, eu tinha acabado
+
+
+de carregar aqui o Instant Data Scraper. Cá está
+ele. Pronto, que isto era o que tínhamos visto há
+
+
+bocado usando o notebook++. Agora temos aqui no
+datafame e tenho aqui os meus os meus jogos. Tenho
+
+
+aqui os jogos e tenho aqui os plays que está aqui
+mais à frente. Cá está. Tá aqui os plays estão
+
+
+aqui. Ok. Pronto. E esta é a informação agora que
+vamos trabalhar. E o que é que eu vou fazer aqui?
+
+
+Bom, eu por primeira coisa vou introduzir uma
+data que é a data de hoje. Portanto, digamos,
+
+
+eu capturei isto hoje. Então, eu interessa-me eh
+guardar aqui uma referência para ficar registado
+
+
+para memória futura, que eh foi eh da data de
+hoje. Portanto, eu vou introduzir aqui um campo
+
+
+eh vou introduzir, eu vou acrescentar uma coluna
+no data frame. Reparem como é simples. OK? Pronto,
+
+
+vai. Ela apareceu aqui. OK. Pronto. Reparem na
+simplicidade da programação R. Como como com a
+
+
+maior das facilidades, eu introduzo uma coluna com
+um campo com o mesmo valor em todos os registros.
+
+
+OK? É muito user friendly. Pronto, cá está. Já
+introduzi aqui a coluna. E agora o que é que eu
+
+
+vou fazer? Agora eu vou selecionar quais os campos
+que eu quero. Quero os campos, as colunas a 11,
+
+
+a 13 e a 7. OK? Não, não vos vou explicar aqui o
+ R, é como vos digo agora ao pormenor como é
+
+
+que se faz o subsetting data frames, porque é como
+vos digo, eu que estou a dar um tutorial de 
+
+
+nível médio avançado, portanto, por isso não vos
+vou ensinar o b-a-ba agora como é que se seleciona uma
+
+
+coluna como se faz o... é chamado o subsetting, que
+é selecionar um um subconjunto aqui das colunas
+
+
+ou das linhas. Pronto. Não, não, não me
+interessa ensinar o B-A-BA. Isso há muitos tutorials
+
+
+que que vocês podem aprender aqui. Interessa-me
+mostrar os conceitos, eh, porque alguns dos
+
+
+conceitos que vamos agora aqui ver são conceitos
+universais e são que extravasam a linguagem R.
+
+
+Podem ser usados noutras linguagens. Vamos já ver,
+vamos ver daqui a bocado já aqui alguns conceitos,
+
+
+como por exemplo a imputation de missing values ou
+interpolação e etc, etc. Portanto, são conceitos
+
+
+e é isso que me interessa, falar-vos desses desse
+tipo de conceitos que são usados na na em ciência
+
+
+de dados e tratamento de de dados. Ora, então
+vamos aqui correr esta filtragem. Cá está. Eu
+
+
+filtrei, só ficam estas três colunas,  Agora interessa-me aqui fazer o rename
+
+
+da da do das colunas, obviamente, porque estes nomes
+são não não são práticos. Fazer pronto, agora fiz
+
+
+o rename, date game and play. Pronto, agora porque
+porque isto começa a ficar com com um aspecto
+
+
+já bastante user friendly e cá temos temos a data
+aqui eu fiz aqui eu fiz a extração do do instant
+
+
+data scraper eh o nome do jogo e o número de
+plays. OK. Eh, sim, senhora. Agora vou fazer aqui,
+
+
+vou fazer uma ordenação. Interessa, eu quero
+ordenar por plays, por ordem crescenta de plays. OK,
+
+
+cá está. Ordem crescente de play. Eu chego aqui e
+ele ordenou, cá está, tá ordenado, mas ele guarda
+
+
+os row names, que é o que é o índice numérico,
+que era os row names iniciais, que isto pode ser
+
+
+útil para eu saber qual era a ordem inicial que
+eu tinha um determinado ficheiro e que agora ao
+
+
+fazer uma ordenação ele... como é que ficaram
+e qual era a ordem dos registros iniciais. Pronto,
+
+
+neste caso isto não me interessa. A ordem inicial,
+eu não preciso mais dela. E então eu vou limpá-la
+
+
+aqui. Pronto, eu vou limpá-la e e ao limpar ele
+ele eh realmente ele reordena e atribui uma nova
+
+
+numeração. OK? Pronto. E aqui já tenho o ficheiro,
+então, na forma que eu quero tratá-lo. E agora eu
+
+
+daquilo com isto já posso fazer um gráfico, como
+podem imaginar, posso fazer aqui um gráfico de
+
+
+colunas, um barplot, não é? Já tenho aqui
+um conjunto de de labels com com valores
+
+
+numéricos. OK? Eh, e é o que vamos fazer a
+seguir, mas para isso vou usar um package
+
+
+muito poderoso que é o plotly. Eu eu também
+podia usar o base R. a linguagem base também
+
+
+permite eh e também faz bar plots, mas o o plotly
+é um package bastante comum e além disso também
+
+
+é usado em Python e portanto pronto para para
+que também é é mais o o útil de estarmos aqui
+
+
+a fazer um bocadinho da da propaganda desde deste
+package porque assim para quem não conheça, ficar
+
+
+a conhecer que ele é usado noutras linguagens
+de programação. E é um package poderoso,
+
+
+muito mais user friendly e constrói gráficos
+interativos com a interatividade, como vamos ver,
+
+
+vamos ver a seguir. Mas e para isso, para ele
+fazer aqui um barplot, ele precisa que o game,
+
+
+neste caso, seja fatorizado. Pronto. Portanto, o
+a fatorização é aqui é um conceito eh que quando
+
+
+nós temos categorias, um dataset e temos
+categorias eh e eu estar a dizer e o que
+
+
+eu estou a dizer aqui é que olha estas labels é
+uma categoria eh OK. Eh, isto aqui não fica bem
+
+
+claro porque que aqui cada para cada categoria
+só tem uma instância e portanto não se percebe
+
+
+bem. Mas isto é mais útil quando eu tenho várias
+ocorrências para uma dada categoria. E então ao
+
+
+que ao estar a categorizar e dizer que uma label
+é uma categoria depois permite usar uma série
+
+
+de funções avançadas dentro do R, onde por exemplo
+fazer grupos by e outras outras coisas do género,
+
+
+uma vez que ele já sabe que aquilo é uma categoria
+e e então permite eh fazer agregações de forma
+
+
+mais simples. Pronto, basicamente é isso. É como
+vos digo, isso é podem ver noutros tutorials.
+
+
+Eh, então faço aqui esta parte de fatorização aqui
+a dizer: "Olha, eu quero que trates este campo
+
+
+como sendo uma categoria e quando eu tenho uma
+categoria eu tenho que atribuir níveis". Eh, OK?
+
+
+Imaginem, por exemplo, imaginem os exemplos
+são muito comuns que vem isto no tutorial,
+
+
+por exemplo, imaginem o tamanho das roupas, que
+é o small, o medium, eh, e o, e o large, que é,
+
+
+ou seja, o size. Então, eu posso dizer, olha, o
+size da roupa é uma categoria e depois  os os
+
+
+levels são são e os levels posso numerá-los. Os os
+levels podem ser eh podem ser ordenados com ordem
+
+
+ou sem ordem. com ordem é quando tem uma categoria
+de um maior que outro. E então eu digo: "Olha,
+
+
+é por ordem, começa no small, depois o medium
+e depois o large quando não tem ordem. Então
+
+
+posso dizer que os níveis não têm ordem. OK? E pá,
+e pronto, isto é que vos diga é só um lamiré. Eh,
+
+
+mas pronto, é para quem nunca ouviu falar nestes
+conceitos, fica com uma ideia e depois se quiser
+
+
+pode ir aprofundar mais. Pronto. Basicamente
+aqui, portanto, eu vou e categorizei aqui e digo
+
+
+que isto é um fator e ele diz que é, então fica
+como sendo um fator com 22 níveis. Pronto, mas
+
+
+os níveis não são ordenados. aqui nenhum destes
+níveis, não, eu não posso dizer que um nível aqui
+
+
+é maior que outro, isso não faz sentido. Então,
+eh, são são níveis independentes que é o nome dos
+
+
+jogos eh que é necessário para que porque este
+esta esta forma aqui que ele agora vai usar de
+
+
+fazer o gráfico. Agora vamos fazer aqui o gráfico.
+Eh, eu tenho o data frame, é o instant data
+
+
+scraper. Eu quero no eixo X, eu quero o jogo e no
+eixo dos Y, que eu quero o total de plays. Eh, eu
+
+
+tenho um título e o tipo do gráfico é um barplot.
+Pronto, bem simples. E vamos ver como é que é.
+
+
+Portanto, ficamos aqui com um gráfico interativo.
+Ah, cá está. E aparece-me no viewer porque como
+
+
+ele é interativo, ele ele ele é ele é codificado
+em HTML. Eh, e também podemos fazer aqui um zoom,
+
+
+o que é muito útil. Eh, ele ele permite destacar
+aqui o gráfico onde permite fazer aqui o zoom.
+
+
+Eh, e portanto ele tem aqui alguma interatividade
+quando eu ponho aqui o o cursor aqui em cima,
+
+
+ele tem uma interatividade. Eh, e aqui mostra-me
+o nome do jogo e o total de plays. E pronto. E
+
+
+digamos que este é o primeiro gráfico que
+eu consegui. E aqui já temos uma mais valia,
+
+
+porque realmente o site, a plataforma de de de
+jogos do GX Games não me dá esta não me dá não
+
+
+me permite e trabalhar os dados e estudar os
+dados desta desta maneira. E por isso é que eu
+
+
+estou a fazer esta programação. Aqui tenho uma
+visualização e vejo quais são os jogos de maior
+
+
+sucesso que eu que eu já fiz. OK. OK. Pronto,
+esta é a primeira parte. E agora o que é que eu
+
+
+tenho? Agora vou gravar gravar este ficheiro e
+o tugastone.csv. Vou gravar  no tugastone.csv
+
+
+Eu vou que é o é o acumulado, eu vou
+gravar este instant data scraper. Portanto,
+
+
+basicamente eu vou acumulando. Ou seja, que cada
+vez que eu faço um instant data scraping e que eu
+
+
+venho aqui na linguagem R, o que eu eu acumulo no
+acumulado, que é um acumulado que já tem vários
+
+
+anos de existência, mas eu não tenho todos os
+dias, porque eu não preciso de entrar aqui todos
+
+
+os dias. Ele ele tem eh esporadicamente
+quando eu faço, quando eu venho aqui, OK?
+
+
+Eh, eu não tenho isto rotinado porque eu não
+preciso de rotinar isto todos os dias. Eh,
+
+
+poderia ser, se fosse necessário, eh, eu
+poderia rotinar, mas aí teria que fazer,
+
+
+eventualmente já não usaria o Instantato Scraper
+e voltaria a usar o Microsoft, o Power Automate,
+
+
+que permite fazer um tipo de automatizações mais
+mais poderosas. E aí eu poderia fazer rotinar
+
+
+uma coisa desse tipo se eu precisasse de rotinar.
+Não é aqui o caso, não. Isto é uma coisa amadora,
+
+
+isto é uma brincadeira e, portanto, não preciso
+de rotinar isto. Eh, e portanto agora o que eu
+
+
+vou aqui acumular e neste ficheiro massivo que é
+o tugastone.csv, eu vou correr aqui. Pronto, já
+
+
+acumulou. E agora já não preciso do instant data
+scraper, eu vou lhe fazer o remove. Mas antes de
+
+
+fazer o remove, até vou ver agora o acumulado. Eu
+agora vou ver aqui o acumulado total, OK? que eu
+
+
+tenho aqui. OK, eu vou ver o acumulado. Pronto, cá
+está. Tem 4400 e tal registros com três variáveis.
+
+
+As variáveis são as mesmas. Date, game, and plays. OK.
+Pronto, é a mesma coisa, só que é o acumulado ao
+
+
+longo do tempo e que vamos ver aqui que no fim
+vai estar a data de hoje, que eu acabei de fazer
+
+
+o append. Cá está, do dia 17. Eu fiz o append fiz
+agora mesmo. OK. A última vez que eu tinha corrido
+
+
+isto há dois dias atrás. OK. Sim, senhora. Então,
+agora já posso fazer aqui o remove aqui. Já não
+
+
+preciso aqui deste campo. Posso mandá-lo para o
+lixo. Não precisava, mas pronto, é para também
+
+
+para vos mostrar. Eh, e portanto agora, mas este
+acumulado, mais uma vez, quando eu acabei de ler,
+
+
+o campo de data vem como char, não vem como data.
+Portanto, eu aqui vou convertê-lo para data. OK?
+
+
+Agora vou analisar o mínimo e o máximo da data
+para saber qual é o time period com que estamos
+
+
+a trabalhar. Ou seja, quantos intervalos e qual é
+o intervalo de de de em termos de dias que que que
+
+
+estamos que estão contemplados neste ficheiro
+massivo. Já está contemplado aqui 1340 dias.
+
+
+Estão a repararam aí na facilidade com que eu
+tenho aqui tudo visualizado. OK? Estão a ver?
+
+
+Estão a ver o quão o user friendly é este IDE?
+Tá aqui tudo basicamente aqui, como estão a ver,
+
+
+ora, voltei a ter um problema aqui com os meus
+headphones. Estou um bocado desiludido
+
+
+com isto. Ah, se isto está ali está ligado
+com cabo USB, com um carregador de 60 W.
+
+
+Não percebo do que é que ele se está a
+queixar, mas queixou-se outra vez. Foi outra
+
+
+vez abaixo. Deve ser porque eu falo muito, com
+certeza. Então falo muito. Ele fica um bocado
+
+
+cansado. Arrebenta com a bateria do menino.
+Bom, vamos lá tentar continuar a ver se isto
+
+
+se isto se isto vai. Ora, portanto, onde é que
+nós estávamos? Aqui no ficheiro massivo. OK,
+
+
+já converti aqui para para a data. OK, já já
+calculamos aqui o total de dias envolvidos. OK.
+
+
+Eh, agora vamos fazer aqui uma limpeza que é
+assim, OK? Imagina no passado quando eu quando
+
+
+eu construí este ficheiro massivo, como estão a
+ver, isto já já tem muitos dias, 1340 dias, eh,
+
+
+isto ou isto não foi capturado sempre com instant
+data scraping, foi capturado já com múltiplas
+
+
+maneiras, até no início acho que até seria manual,
+depois usei o Microsoft Power Automate, etc,
+
+
+etc. ao longo dos anos já passou por várias
+vários várias formas de carregamento. OK? Eh,
+
+
+e então eh houve um período que eh às vezes
+havia bugs e alguns campos eh bugs às vezes
+
+
+não era bugs de programação, era bugs das
+ferramentas. Às vezes há algum bug de alguma
+
+
+ferramenta que eu usava para carregar isto e às
+vezes e ou porque não trazia ou porque um campo
+
+
+vinha a branco ou qualquer coisa. E então é o que
+vamos fazer aqui? Vamos limpar o datafame, eh,
+
+
+automaticamente rejeitar registos que que tenham
+alguns dos campos a branco ou alguns dos... Sim,
+
+
+dos campos a branco, vamos dizer assim. Eh,
+acho que não há nenhum. Vamos ver aqui. Eu
+
+
+tenho 4422 registos. Eu vou correr aqui esta
+linha. Pronto. E não há não há nenhum neste
+
+
+momento. Não há nenhum. Isto era uma coisa
+antiga que eu tinha para fazer uma limpeza.
+
+
+Agora, há uma coisa assim que eu
+tenho é que eu tenho aqui, cá está,
+
+
+fruto de de de do do das diversas ferramentas
+ao longo dos anos, eu tenho, por exemplo, aqui
+
+
+eh eu vou fazer aqui um unique. Vejam só o poder
+da linguagem R. Unique. Tugastone e tugastone
+
+
+$ que para obter o eu quero o unique
+dos games game. E eu tenho aqui 37 39 jogos.
+
+
+Mas só que mas eu não tenho 39 jogos, eu tenho
+22. É porque há aqui alguns nomes eh que estão
+
+
+no ficheiro massivo que têm, por exemplo, aqui
+alguns brancos atrás, porque isto resulta foi
+
+
+da forma como de acordo com a ferramenta que
+que em tempos eu usei, já não lembro qual foi,
+
+
+já passou por várias fases. Ah, mas é útil agora
+para para fazer este tutorial, ver que eu tenho
+
+
+aqui isto e pá, e eu preciso de limpar isto, eu
+preciso de uniformizar aqui os campos. Então,
+
+
+eu vou fazer aqui a limpeza desta desta coluna. a
+a a fazendo o trim a do white space e, portanto,
+
+
+vou eliminar o excesso de brancos à direita
+e à esquerda. OK, já está. E agora posso
+
+
+confirmar. Posso confirmar aqui no o unique.
+Estão a ver para que é que serve a consola? 
+
+
+tem também tem aqui a memória do dos comandos
+que eu vou dando. OK. E agora sim, que já tenho
+
+
+19 20 21 22. Pronto, já tenho 22. 22, tá correto?
+22 jogos. OK, assim já tenho tudo uniformizado.
+
+
+Eh, OK. E agora o que é que eu quero?
+Agora temos outro problema. Eh, o que
+
+
+acontece é que imagina que houve dias quando
+eu antigamente estava a desenvolver aqui a
+
+
+programação e a fazer os testes e às vezes
+num dia eu fazia mais que uma captura. Eh,
+
+
+e então tenho com uma determinada data eu ficava
+com mais do que uma captura. Ou seja, reparem que
+
+
+este este togastone tem 442 observations, mas
+se eu fizer o o unique unique do tugastone
+
+
+da data, eu não vou ter 442
+datas diferentes, eu vou ter
+
+
+Eu vou Vou ter, eu sei que vou ter menos,
+mas ele agora aqui não me diz que ele está,
+
+
+dá-me o número de registos aqui. Eu então
+vou fazer aqui o length. Deixa ver se eu
+
+
+consigo saber quantos são. Acho que aplico aqui o
+length length de do do unique que me dá um vetor e
+
+
+dá-me 202. OK. Não tá correto. E 200 e não, mas
+aqui não, aqui não mostra o que aqui. P Claro,
+
+
+porque aqui são as observações. É. Só eu aqui
+não, eu aqui não consigo saber se tenho datas
+
+
+repetidas ou não. OK. Ah, é porque claro, cada
+para cada data há vários registros. Há vários,
+
+
+várias linhas com com os jogos. OK. Mas mas na
+verdade eu tenho eu tenho datas repetidas. Eu
+
+
+tenho datas repetidas. Há maneira de ver aqui.
+Não interessa agora, mas eu sei que tenho. Eh,
+
+
+porque por causa disso, porque eu às vezes
+tinha dias em que fazia várias capturas.
+
+
+E eu não me interessa isso. Eu interessa-me
+ter apenas um para cada data uma instância,
+
+
+OK? Uma instância de para para cada data e jogo.
+Eh, e qual instância é que eu hei de aproveitar?
+
+
+Eh, bom, pode ser a última, ou seja, se eu
+num dia fiz várias capturas, eh, eu vou ficar
+
+
+com a última leitura do dia. Pronto, então tenho
+aqui um agregate tugastone by, by data e game. E,
+
+
+aproveitando a a última ocorrência que
+haja para para para esta chave. OK?
+
+
+Pronto. É, o importante é que vocês eh percebam
+o conceito que eu estou a explicar,
+
+
+porque é como vos digo, o resto depois aqui
+no Help, eh, vocês vêm ao Help e podem estudar
+
+
+e depois isso já é o estudar ao pormenor o que é
+que o que é que faz a função. Mas mas penso que
+
+
+a ideia, vocês percebem a ideia get unique by game and date last
+ocorrência. OK, então vamos correr aqui. OK.
+
+
+E ele ele faz isso, mas precisa de eh já não
+lembro porquê que ele cria algumas colunas
+
+
+aqui de trabalho auxiliares. Pronto. Eh, e nós
+não precisamos delas, portanto eu vou limpar. E
+
+
+reparem como diminuiu aqui o número de registros
+porque eliminou esses duplicados e agora dos 4000
+
+
+e tal passamos para 3362. Ah, vou limpar aqui
+estas duas colunas. Eh, já vimos que acrescentar
+
+
+uma coluna era tão simples quando pegar num nome
+de coluna e atribuir-lhe um valor. E limpar uma
+
+
+coluna também é tão simples quando pegar na coluna
+e e assigná-la a NULL o valor nulo. Portanto, aqui
+
+
+limpamos as colunas. Pronto, cá está. E limpámos
+aqui estas duas colunas. OK? Pronto. Então,
+
+
+agora o que é que eu quero fazer? Bom, isto já
+seria o suficiente. Eu podia chegar agora aqui,
+
+
+já posso fazer aqui o gráfico, eh, que é o que
+eu vou querer, que eu vou querer fazer aqui um
+
+
+gráfico da evolução do número de plays ao longo
+do tempo, OK? Porque o primeiro gráfico que nós
+
+
+tínhamos visto aqui era o gráfico, o gráfico
+que está aqui, este gráfico é o é a imagem atual,
+
+
+a imagem de hoje, é o total de hoje. Mas agora
+quero outra coisa. Eu agora quero estudar
+
+
+ao longo do tempo como é que tem estado a ser o
+crescimento das visualizações. OK? Pronto. Então,
+
+
+eh, eu há várias várias formas, mas eu aqui optei
+por fazer aqui por vários passos. Primeiro, optei
+
+
+por inserir as missing dates, eh, OK, que é o
+imputation missing values. Eh, isto também é muito
+
+
+são são conceitos que também são muito usados em
+machine learning. em machine learning isto também
+
+
+é muito usado. Às vezes nós temos um ficheiro
+e nós o eh o às vezes o metodo de machine learning
+
+
+não é compatível com missing values e nós temos
+que preencher e os valores em falta intermédios,
+
+
+não é? Usando algum tipo de interpolação, que é
+o que vamos também usar aqui. Ah, primeiramente
+
+
+é por duas fases. Primeiro, identificar quais as
+datas que estão em falta. Então, portanto, eu vou
+
+
+fazer aqui, eu vou fazer aqui um group by game e vou
+fazer aqui um complete. Eh, agora, pronto, agora
+
+
+vocês dizem assim: "E pá, mas eu não vou estar
+aqui a explicar isto ao pormenor porque isto aqui,
+
+
+eu aqui estou a usar aqui um determinado package.
+Eu às vezes às vezes, por exemplo, aqui eu estou a
+
+
+usar um um determinado package que eu já nem eh
+que eventualmente que eu já não sei com qual o
+
+
+package de cor. Por exemplo, aqui é, por exemplo,
+este esta função, o complete vem de um package
+
+
+que é o tidir. Muitas vezes nós, eu às vezes
+normalmente eu até uso aqui o nome do package,
+
+
+eu ponho aqui atrás quando eu tenho uma função.
+Eh, eu uso aqui o nome do package. Ah, às vezes
+
+
+também costumo fazer isto, fica mais claro,
+mas agora não fiz. Pronto, mas isto para vos
+
+
+dizer que, pronto, que eu estou-vos a dar aqui o
+tutorial que é mais vocacionado aos conceitos. Eh,
+
+
+pronto. E não, mas não não vou estar a explicar,
+senão isto ficaria muito mais. Imaginem que o
+
+
+tempo que demorava, eu não vos queria estar agora aqui
+a explicar todos os packages aqui envolvidos.
+
+
+Eh, mas quero vos chamar a atenção de uma coisa
+desde já, é que realmente agora desde o advento
+
+
+das inteligências artificiais e do chatGPT
+e pá fica simples e fica muito mais simples
+
+
+porque vocês vão ao chatGPT e vocês podem pedir
+um pedaço de código em R e ele recomenda quais os
+
+
+melhores packages de R a usar e portanto e desde
+que vocês saibam explicar o que é que querem. OK?
+
+
+E é esse é o intuito aqui do do também aqui deste
+tutorial, explicar-vos aqui alguns conceitos. O
+
+
+que é que é a imputation of missing values? Eh,
+que que é isto mesmo. Em que é que ele consiste?
+
+
+O que ele vai aqui fazer? Eu vou-lhe dizer assim:
+"Olha, eu quero que me completes o data frame eh
+
+
+para cada game, para cada game, considera que
+para cada game existe faz-me, completa-me eh
+
+
+desde o mínimo da data até ao máximo da data
+e, portanto, que que introduzas os valores,
+
+
+as datas em falta." OK? Pronto. E pá, basicamente
+é isto. Agora não não consigo explicar pormenor a
+
+
+pormenor o que é que é cada um dos passos. OK.
+Eh, mas pronto, também não vou vou estar agora
+
+
+aqui a explicar o que é que é isto, que isto é o
+é o é o isto é um nome, agora não me lembro como
+
+
+é que isto se chama. Isto é um que Mas pronto, mas
+intuitivamente vocês já estão a ver o que é que é.
+
+
+Eh, isto é usado noutras linguagens também de
+programação, que já hoje em dia é muito comum, mas
+
+
+agora está-me eh não me lembro agora o nome que se
+dá isto. Basicamente o que o que diz é pega-me no
+
+
+ficheiro e agora é igual a é igual a o ficheiro.
+Começas do ficheiro daqui, é processado através
+
+
+daqui e depois o resultado, o resultado que adier
+segue segue em frente e é processado através
+
+
+daqui. E depois o resultado que tem aí resultar é
+segue segue mais à frente e e assigna e processa
+
+
+com esta outra função. Portanto, é uma forma de
+encadear um conjunto de funções, OK? Primeiro
+
+
+processa primeiro faz isto, depois a seguir faz o
+outro e depois faz o outro e assim sucessivamente.
+
+
+É uma forma de encadear as as funções. Eh, e
+portanto isto não faz parte do base R. O R de base
+
+
+não traz isto. Isto é introduzido por um destes
+packages que estão ali em cima. OK? Mas pronto,
+
+
+aqui é é pá é como vos digo, eu eu acho que é uma
+aqui o mais importante do que eu, pelo menos o que
+
+
+eu quero é passar-vos o conceito. Eh, e agora
+eu fiz, já fiz isso e ele introduziu, reparem,
+
+
+ficou com 20.000 e tal observações, porque ele
+agora tem aqui, reparem aqui, estão a ver? Olha,
+
+
+por exemplo, este jogo, o 15 puzzle, é aqui onde
+aparece o NA. São as datas para as quais eu nesses
+
+
+dias eu não fiz nenhuma captura de leituras e,
+portanto, ele agora está em branco, ele não sabe,
+
+
+não sabe quantos views ele tinha nesse dia. OK?
+Pronto. E, portanto, isto é, por isso é que isto
+
+
+é feito em duas partes. Primeiro, eh, preenchemos
+as datas em falta e agora na segunda fase eu vou
+
+
+ter que fazer uma interpolação para interpolar
+aqui os valores em falta do número de plays.
+
+
+OK? Penso que está claro. Eh, que é o que vamos
+fazer agora aqui? Interpolate Missing Plays tugastone,
+
+
+eu quero que faças um group by game novamente. E
+agora tem aqui um arrange para cada game e ordena por data.
+
+
+E agora quero que faças um mutate em que eh o plays
+eh é vai ser igual a faz uma aproximação do número
+
+
+de plays. Eh, já não lembro, já não se explicar bem
+isto, sinceramente. Xdate NA remove e quero que
+
+
+faças o remove onde, ou seja, onde está NA remove
+NA remove igual a False. Já, já não sei explicar e
+
+
+bem como é que sinceramente, já não sei explicar
+bem como é que isto funciona, mas pronto. Eh,
+
+
+agora é vocês dizem-me assim: "Ah, mas eu estava
+a elogiar o R, que o R era muito simples". Não,
+
+
+atenção, atenção, eu é o R é muito user friendly.
+O que acontece é que eu muitas vezes hoje em dia
+
+
+vou ao chatGPT e eu peço-lhe uma funcionalidade
+para ele dar de uma forma mais compacta com
+
+
+recurso a uma série de packages. Atenção, o R
+continua a ser muito user friendly e eu consigo fazer
+
+
+tudo isto do que está aqui. Eu consigo fazer com
+muita facilidade usando o base R. OK? Atenção,
+
+
+atenção. O R é muito user friendly. Eu eu faço
+isto sem recorrer a qualquer package. Eu se eu
+
+
+sei fazer isto. Eu não preciso de pacotes nem
+preciso de chatsGPTs para nada. O que acontece é
+
+
+que hoje em dia, pela lei do menor esforço e
+muitas vezes eu digo vou ao chatGPT e digo é pá,
+
+
+dá dá-me isto de tacada, que eu não quero perder tempo a
+fazer isto e ele então ele dá-me um pedacinho de
+
+
+código. OK, são coisas diferentes. E ele dá-me
+então um pedacinho já otimizado com recurso a
+
+
+packages e portanto e eu faço e testo e funciona
+e não se fala mais nisso. OK? Não, não põe em
+
+
+causa que o R continua a ser muito simples e
+muito user friendly se quisermos usar o Base R. OK?
+
+
+Portanto, são coisas diferentes. Aqui estamos
+a aqui estamos a usar tópicos avançados porque
+
+
+com packages avançados porque eu vou eu vou ao
+chatGPT e ele dá-me dá-me aqui uma solução que
+
+
+é baseada no tidyr como já vimos e no 
+e aqui aqui de cor não consigo ver qual é,
+
+
+mas em princípio é o é o tidyr. Por exemplo,
+imaginando aqui o mutate, posso fazer aqui F1 eh
+
+
+ele tem aqui o mutate. Olha, o deve ser o o deve
+ser usado aqui no no no diplyr. Em princípio,
+
+
+acho que estou a usar a solução aqui do diplyr.
+OK? Eh, e portanto o que é que nós temos agora?
+
+
+Agora vou fazer aqui o interpolate. Já está. E
+pronto. E agora já tenho os valores que estavam
+
+
+com NA já estão todos preenchidos. Eh, e reparem
+que tem valores reais, valores com casas decimais,
+
+
+porque claro, ele fez uma interpolação, eh, já
+não posso precisar se a interpolação é linear ou
+
+
+não ou se é alguma aproximação um bocadinho mais
+sofisticada. Não me recordo agora. Não me recordo
+
+
+como é que ela faz. Mas pronto, também aqui para
+o que é chega. Pode ser uma interpolação linear,
+
+
+chega, chega e sobra. Eh, e agora o que é que
+eu tenho aqui? Eu tenho, ele ficou, ele ele
+
+
+modificou aqui a ordem, não sei que alguns aqui
+no, no processamento que ele fez, ele modificou a
+
+
+ordem e portanto agora vamos repor a ordem das
+colunas, OK? Eh, vamos ordenar por data. OK.
+
+
+Eh, e vamos aqui e vamos converter para inteiros
+o número de plays. Pronto, isto também não seria
+
+
+necessário. Bem, ele ficou como número real.
+Eh, cá está aqui, ele está aqui como numérico
+
+
+porque tem casas decimais. Nós vamos arredondar
+para para inteiro. Pronto. E agora ficou aqui
+
+
+como inteiro. Estão a ver? Pronto. Muito user friendly.
+Dá-nos para ver qual a estrutura da coluna. OK.
+
+
+Eh, e agora tenho e agora gravo isto no ficheiro,
+ou seja, este ficheiro massivo processado,
+
+
+eu vou salvá-lo aqui. Eu vou salvá-lo aqui.
+Fica aqui como backup também. Isto eh isto é
+
+
+porque eu já usei um outro produto que que é o é
+o Microsoft Power BI, Business Intelligence, que
+
+
+é um outro produto em que e também permite fazer o
+o processamento de dados e visualização de dados.
+
+
+etc, etc. Eh, e portanto este era um dos ficheiros
+que eu que eu usava para levar até esse produto.
+
+

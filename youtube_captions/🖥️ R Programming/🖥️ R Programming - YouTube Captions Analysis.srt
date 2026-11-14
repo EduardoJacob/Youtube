@@ -1,0 +1,3422 @@
+
+Ora, sejam bem-vindos a mais um tutorial,
+programação em R com RStudio. Parece que
+
+
+foi ontem que comecei a minha esta minha nova
+playlist de programação em R. Já lá vai cerca
+
+
+de dois meses e eis-nos chegados aqui ao 16º
+vídeo. Hoje vai ser dedicado ao YouTube extração
+
+
+de de legendas e posterior processamento
+no modelo de inteligência artificial local.
+
+
+Ora bem, eh hoje quero vos apresentar aqui um
+produto que eu uso, já usava há bastante tempo,
+
+
+agora recomecei a usar, que é o Kanbanflow, o
+qual eu recomendo. No meu vídeo anterior,
+
+
+eu usei um guião, estava num TXT, pronto, e
+agora já fiz um upgrade. Agora passo a usar aqui
+
+
+o Kanbanflow. Portanto, como vocês estão a ver,
+isto é serve para a metodologia Kanbam, que acho
+
+
+que agora já está a sair um bocadinho de moda, mas
+que há uns anos atrás estava bastante na moda. As
+
+
+empresas faziam o quadro branco e depois tinham
+as colunas, tarefas a começar, tarefas em voo,
+
+
+tarefas a terminar, tarefas terminadas e pronto.
+E depois pode-se, podemos atribuir cores para as
+
+
+categorias de tarefas, etc, etc. Pronto, eu estou
+aqui a usar um bocadinho porque eu ponho aqui,
+
+
+como vêem, eu ponho aqui o as tarefas que vou falar
+aqui neste guião. Eu posso mudar aqui a ordem.
+
+
+À medida que for que que as for terminando, eu
+posso posso passá-las aqui para para a coluna do
+
+
+terminado, etc, etc. Pronto. E então vou usar aqui
+o KanbamFlow. Ele sincroniza na cloud, ele também é
+
+
+visível. Também podemos usá-lo em mobile, não tem
+app, mas podemos podemos usar com facilidade eh no
+
+
+browser do mobile porque ele ele o layout já é já
+é flexível e adapta-se, portanto, ao mobile. Eh,
+
+
+eu tenho aqui outros boards, portanto os
+boards é os quadros. Eu uso isto neste momento,
+
+
+estou a usar isto para outras coisas, mas pronto,
+mas aqui está o guião do que vamos seguir hoje. OK?
+
+
+Portanto, e hoje, como está aqui no primeiro
+tópico, que este vai ser o 16º vídeo e,
+
+
+portanto, fala aqui que é uma mudança de paradigma
+pela adesão ao GitHub. Pronto. OK. Então, a partir
+
+
+deste deste tutorial, eu decidi que era tempo de
+voltar a a aderir ao GitHub, no qual este projeto,
+
+
+o projeto que vamos ver hoje aqui, ele vai estar
+disponível para vocês poderem fazer download,
+
+
+assim como os packages, eh, os os meus dois
+packages de R que eu tenho usado sempre em todos
+
+
+os meus tutorials, eles vão estar disponíveis
+também para vocês fazerem o download. OK?
+
+
+Pronto, basicamente é isso. Eu vou pôr aqui, OK,
+este tópico já está tratado. OK. Pronto. Então, qual
+
+
+vai ser hoje o tema do do vídeo, do tutorial? Vai
+ser a programação em R. nós , eu já fiz dois dois
+
+
+tutoriais no passado sobre o YouTube e este vai
+ser o terceiro. Ele também aborda o YouTube. Eh,
+
+
+e portanto nesta neste particular nós vamos aceder
+às legendas, que é um tópico que nunca acedemos
+
+
+nos tutorials anteriores. E depois vamos submeter
+as legendas ao modelo de inteligência artificial,
+
+
+neste caso local LM Studio, como também iremos
+submete-lo ao Gemini. OK? Portanto, isso é o que nós vamos ver
+
+
+no tutorial de hoje. Aqui diz um enquadramento,
+OK? Porque vocês poderiam dizer assim: "Mas porque
+
+
+é que porque é que eu OK, eu para fazer isto, para
+que é que eu preciso de programação em R?" Pronto.
+
+
+É porque simplesmente, por exemplo, o Gemini
+não conseguiu resolver este problema. O Gemini
+
+
+nem sequer me conseguiu listar todos os vídeos
+da minha playlist. Ou seja, a minha playlist
+
+
+de programação em R é aquela que eu vou usar como
+exemplificativo para o processamento que nós vamos
+
+
+ver hoje. O tutorial de hoje vai ser dedicado a
+processar uma playlist inteira e extrair um um
+
+
+summary de de todos os tópicos que são tratados em
+todos os vídeos de uma determinada playlist, OK?
+
+
+E depois o o portanto o mais ou menos sumarizado,
+pois vai depender da prompt que nós passarmos.
+
+
+Pronto, mas o Gemini não conseguiu fazer isto e
+muito menos as outras inteligências artificiais
+
+
+vão conseguir porque as outras nem sequer
+conseguem aceder ao YouTube. Portanto, ainda ontem
+
+
+eu fiz um teste com um amigo meu que tem conta
+premium no no chat GPT e ele não consegue aceder
+
+
+a a um summary de um vídeo de YouTube, porque
+o YouTube como sendo o da Google eh portanto
+
+
+estará de certa forma estar abarrada às outras
+inteligências artificiais. Pronto. E é por isso
+
+
+que eu normalmente também uso o Gemini, porque
+o Gemini sento da Google e eu trabalho muito
+
+
+com YouTube. Pronto, tudo isto depende da dos
+temas com que as pessoas trabalham. Há pessoas,
+
+
+esta pessoa conhecida tem conta premium no chatGPT, mas
+ela praticamente não usa YouTube, não precisa e,
+
+
+portanto, não sente a falta. Pronto, então está
+satisfeita com o chat GPT. Pronto, tudo depende do
+
+
+dos âmbitos em que a pessoa está, das necessidades
+que a pessoa tem na sua inteligência artificial.
+
+
+Mas pronto, eh, o Gemini não consegue. O Gemini 
+não consegue. E e podemos fazer aqui o teste. Eu
+
+
+vou fazer aqui o teste  para vocês verem. Vamos,
+por exemplo, aqui imagina esta cena. Vamos ver
+
+
+aqui, por exemplo, aqui a a minha playlist. OK.
+Ah, vamos ver aqui. Owned, vamos ver aqui. Pronto,
+
+
+cá está a minha playlist de R programming.
+OK. Eh, vamos ver aqui. Ora, aqui, pronto,
+
+
+eu vou eh OK, este é o este é o o o URL da minha
+playlist. OK, pronto. Vamos aqui ao ela, esta
+
+
+playlist já tem 15 vídeos. Eh, e portanto eu vou
+aqui ao ao Gemini e, portanto, eu vou dizer dá-me
+
+
+a lista de vídeos, a lista de vídeos
+
+
+da minha playlist YouTube.
+
+
+OK.
+
+
+Vamos ver se ele consegue. Eu espero
+que estejam a ouvir o som. Bom,
+
+
+o som que eu estou a gravar neste momento também
+
+
+o som que eu estou a gravar e espero que esteja
+melhorado, porque eu investi e comprei um
+
+
+microfone Logitech Blue Yeti. É um modelo famoso,
+já com uns anos, mas acho que continua atual.
+
+
+Pronto. E pus de lado  a forma que eu usava
+anteriormente, que era usando uns Headsets. E
+
+
+realmente a qualidade de gravação
+de som melhorou imenso. Ora bem,
+
+
+o que é que ele diz aqui? Eh, realmente
+ele conseguiu listar-me aqui dois,
+
+
+mas só me deu dois, não sei porquê. Dá-me a
+lista. Eu vou pôr aqui de todos. Eu vou vou
+
+
+vou fazer uma segunda tentativa. Eu estou a usar
+conta free. Ok. Bom, eu também tenho aqui o fast,
+
+
+eu vou usar o deep thinking. OK. Vamos ver
+se ele consegue. Dá-me a lista de todos.
+
+
+Até vou dizer quantos vídeos são de todos
+os 15 vídeos da minha playlist YouTube. OK.
+
+
+Deixa pôr aqui no no thinking. OK.
+Vamos ver se ele consegue listar.
+
+
+Vamos ver. A última vez que eu tinha feito este
+teste, ele não consegue. Pronto, isto é para só
+
+
+verem, para vocês entenderem o enquadramento da
+programação em R. Ou seja, eu estou a recorrer à
+
+
+programação em R para colmatar aquilo, tarefas que
+a inteligência artificial sozinha não consegue
+
+
+fazer. OK? Pronto, eu também compreendo que
+estamos a atravessar hoje em dia momentos de
+
+
+transição em que, provavelmente, muitas das
+coisas que hoje faço aqui em programação em R,
+
+
+futuramente, eventualmente irão cair, irão
+tornar-se redundantes e tornar-se obsoletas
+
+
+à medida que as capacidades da inteligência
+artificial forem aumentando. OK, pronto.
+
+
+Pronto, para já está a demorar bastante tempo.
+Pronto, e empancou. Pronto. OK. Pronto, não vou
+
+
+insistir mais porque ele não ele não consegue.
+São tipo de tarefas exaustivas que ele não,
+
+
+pelo menos na na minha conta free, não sei até
+que ponto é que algum na conta premium talvez
+
+
+ele tenha mais capacidades. OK, pronto, mas vamos
+deixar isto de parte. Portanto, já verificamos que
+
+
+ele não consegue. Portanto, continuando aqui
+o guião. Portanto, esse é o enquadramento. O
+
+
+Gemini não consegue resolver toda uma série de
+tarefas massivas. As inteligências artificiais
+
+
+têm uma certa limitação para tarefas massivas. OK.
+Eh, eu até tenho para aí uns um screen, um
+
+
+screenshot que de um de uma alucinação completa
+que ele me deu no outro dia. Eu daqui a bocado já
+
+
+vamos ver. Vou pôr isto aqui. Vantagens em usar
+o produto KanbamFlow. Acho que já está visível. Vocês
+
+
+estão a ver a facilidade com que eu uso aqui o
+Kanbamflow e para que é que ele serve. Neste caso,
+
+
+eu fiz este Kanbam simples com duas colunas simples, o ToDo e o Done,
+mas é possível fazer Kanbams com vários tipos de
+
+
+colunas, com representando várias etapas de algum
+projeto em que nós estejamos a trabalhar. OK?
+
+
+Pronto, penso que não preciso de explicar muito
+mais, isto é intuitivo, mas se quiserem aprofundar
+
+
+mais, pois investiguem. Metodologia Kanbam, que
+é metodologias usadas em gestão de projetos, OK?
+
+
+Ora bem, eh outra inovação que eu estive
+a fazer nos últimos dias foi realmente a
+
+
+correção das minhas legendas, porque como eu ia
+aceder às legendas, eu disse assim: "Bom, também
+
+
+convém que as legendas dos meus vídeos estejam
+com boa qualidade". E realmente elas estavam
+
+
+com muitos erros ortográficos, porque as legendas
+autogeneradas pelo YouTube, como eu falo muito em
+
+
+português e inglês, OK, que eu tenho essa mania,
+eu falo em tenho estado a falar em português, mas
+
+
+tudo quanto seja termos técnicos, falo em inglês.
+E, portanto, eu penso que por isso a inteligência
+
+
+artificial baralha-se muito e comete muitos erros
+de ortografia. OK? Mas, portanto, eu corrigi e por
+
+
+isso vos recomendo que não deixem de ver todos os
+meus vídeos da minha playlist, ainda mais agora
+
+
+que eu já corrigi as legendas, podem acompanhar
+com as legendas. As legendas eh estão corrigidas
+
+
+e além disso, os meus packages principais que vos
+permitirão acompanhar os meus tutorials, os meus
+
+
+packages pessoais, eles estão disponíveis no GitHub
+para vocês baixarem. Já vamos ver como se faz
+
+
+isso. E se vocês quiserem também nalgum tutorial
+e que queiram eh que eu partilhe esse projeto
+
+
+desse tutorial, o código, a programação desse
+tutorial no GitHub, eu também o poderei fazer. Eh,
+
+
+quando são tutoriais mais pequeninos, como alguns
+que eu fiz no passado, isso não é necessário,
+
+
+porque eu expliquei-vos que até com um simples
+print screen e reconhecimento de caracteres vocês
+
+
+podem fazer isso. OK? Pronto. Mas em todo o caso,
+se alguém fizer um pedido eh em comentário, eu eu
+
+
+poderei pegar num desses projetos e e partilhar
+no GitHub. OK? Já vamos ver como o RStudio integra
+
+
+perfeitamente com o GitHub, que é a forma como
+eu estou a usar o GitHub. Eu estou a usar o GitHub
+
+
+integrado com o RStudio. Já vamos ver como é que
+isso funciona. Portanto, não deixem de ver todos
+
+
+os meus vídeos, todos os meus tutorials, ainda
+ainda para mais agora com legendas corrigidas.
+
+
+de preferência num monitor grande em resolução 4K,
+que é a mesma resolução com que eu estou aqui a
+
+
+gravar. OK? Pronto. Eh, ora bem, outro tópico que
+eu vos queria falar é do Gemini Gems. Pronto,
+
+
+também é um tópico importante. Vocês como sabem
+que a inteligência artificial neste momento está
+
+
+exponencial, está explosiva, não há dúvida
+nenhuma, saem novidades de dia para dia e,
+
+
+portanto, nós hoje temos uma metodologia
+e amanhã estamos a mudar completamente. As
+
+
+coisas têm estado a mudar. É realmente, estamos
+a atravessar realmente um período completamente
+
+
+impressionante a nível de tecnologia. Eh, e eu
+tinha-vos recomendado um addon the browser que
+
+
+era o prompster no meu tutorial anterior que foi
+dedicado, não sei se recordam, podem ver o meu
+
+
+tutorial anterior, foi dedicado a à exploração de
+imagens, portanto imagens eh conversão de imagens
+
+
+para prompets e e conversão de prompts
+para imagens. Pronto, foi basicamente foi
+
+
+um processamento massivo de uma folder de imagens
+no qual eu era capaz de gerar as prompts adequadas
+
+
+para gerar imagens daquela tipologia, digamos
+assim. Pronto, podem ver o meu tutorial anterior.
+
+
+Este tutorial de hoje, portanto, vai ser dedicado
+também a inteligências artificiais ou YouTube e
+
+
+a integração com YouTube. Portanto, eu estava
+indeciso se punha debaixo de uma categoria
+
+
+primária de de de inteligência artificial ou numa
+categoria de YouTube, mas decidi pôr debaixo de
+
+
+categoria de YouTube, uma vez que eu já tinha
+dois dois tutorials de YouTube. E o código
+
+
+que vamos ver aqui praticamente é o mesmo, é a
+continuação daquele que já está nos meus outros
+
+
+tutoriais de YouTube. Então, eu falei-vos
+aqui do Prompster e agora queria-vos falar
+
+
+um bocadinho do Gemini Gems. Pronto, o Promster,
+lembram-se? Era uma forma de guardar prompts que
+
+
+nós os para nós as podermos reutilizar aqui
+nos nos chats de inteligência artificial.
+
+
+Mas eu agora já pus isso de lado e comecei a usar
+intensamente os gemini gems. Portanto, o Gemini
+
+
+Gems, para quem não saiba, é o mesmo que eh,
+por exemplo, por exemplo, no chat GPT temos
+
+
+os eh GPTs, personalized GPTS, onde nós podemos
+instalar alguns GPTs personalizados. Por exemplo,
+
+
+eu tenho aqui este GPT personalizado que é free
+e que podem ser free ou penso que alguns possam
+
+
+possam até ser comprados, não é? Mas este, por
+exemplo, é free. Eu instalei-o aqui e é um GPT
+
+
+que alguém fez, mas este eu não, e ele ele tem por
+detrás uma determinada prompt, mas eu não tenho
+
+
+acesso a essa prompt. Essa prompt está secreta.
+Quem a fez, ela está secreta. Pronto, daí que há
+
+
+pessoas que vendem prompts, não é? Há plataformas
+que vendem prompts complexas, OK? E nós podemos,
+
+
+no caso aqui do GPT, nós podemos ter aqui uma
+nossa biblioteca de prompts personalizadas.
+
+
+Podemos pesquisar aqui por prompts. OK, cá está.
+Nós temos aqui prompts personalizadas que podemos
+
+
+pesquisar aqui no search. Eh, e também poderíamos
+fazer as prompts, as nossas prompts pessoais,
+
+
+os GPTs personalizados pessoais, mas que eu
+não tenho conta premium e não posso fazer. OK?
+
+
+Nesse aspecto, o Gemini leva vantagem porque
+permite-me fazer o equivalente  a personalized
+
+
+GPTs. No Gemini, chama-se Gemini Gems e no
+Claude Code acho que chama-se outra coisa qualquer,
+
+
+projetos ou coisa do género. Eu ainda não
+explorei bem o o Claude code. tenho na minha
+
+
+lista de na minha agenda para tarefas futuras,
+mas ainda não tive tempo porque tenho tenho estado
+
+
+um bocadinho distante do do Claude code. Mas o
+Gemini Gems comecei a usar intensamente e com
+
+
+bastante com bastante sucesso. e tenho estado
+a usar muito para o meu canal aqui do YouTube
+
+
+e para a minha playlist, onde tenho gerado
+os descritivos dos meus vídeos do YouTube,
+
+
+onde tenho gerado os pósters. Pronto. E vou-vos
+dar aqui um exemplo. Pronto. Generate, generate
+
+
+YouTube thumbnail from subtitles, por exemplo. Então
+aqui e aliás eu quero vos mostrar é o o a prompt
+
+
+generate YouTube thumbnail from subtitles. Pronto,
+eu vou-vos mostrar aqui. Eu vou editar. Pronto.
+
+
+Então aqui tenho o título do Gemini Gem. Aqui
+tenho a descrição. No fundo, eu uso como um uma
+
+
+um indicativo. Eu uso para mim como um indicativo,
+umas instruções para dizer como se como é que se
+
+
+usa este Gemini. E eu aqui digo, olha, a forma
+de usar é fazer o paste subtitles na prompt.
+
+
+E depois tenho aqui a prompt propriamente dita,
+que é uma prompt que eu vou aperfeiçoando à
+
+
+medida que eu vou usando o gem e quando deteto
+uma determinada falha, uma determinada limitação,
+
+
+pois eu vou aperfeiçoando a prompt. Por exemplo,
+aqui eu digo: "Olha, eu quero uma imagem thumbnail
+
+
+bastante profissional e tecnológica com esta
+resolução para eu colocar no YouTube Studio
+
+
+do meu novo vídeo. deverás analisar os subtitles
+que eu estou-te a passar do vídeo. Na verdade,
+
+
+ele trabalha com subtitles ou com um descritivo.
+Também pode ser um summary que eu já tenha
+
+
+produzido do vídeo. Não obriga a ser os subtitles
+propriamente dito. Qualquer descrição, subtitles
+
+
+ou descritivo do vídeo, ele usará para saber quais
+são os tópicos abordados do vídeo e ele gera-me,
+
+
+vai-me gerar o thumbnail. Eh, portanto, passados no
+prompt forma a gerares uma imagem adequada para
+
+
+o thumbnail. usa bastantes logotipos. Eu gosto de
+usar os logotipos dos produtos, plataformas e
+
+
+linguagens, que eu que eu falo no durante o meu
+vídeo. Depois eu digo aqui: "Não quero imagens
+
+
+com pessoas". Pronto, OK? Não, não aprecio.
+Não quero logotipos repetidos, que foi um um
+
+
+uma falha que ele me produziu. Num dado momento,
+ele repetia-me logotipos. Portanto, eu tenho que
+
+
+lhe chamar a atenção e tenho que chamar a atenção
+para não cometas erros de sintaxe, porque às vezes
+
+
+ele é um bocadinho desleixado eh e que chegou-me a
+cometer alguns erros de sintaxe e ou de ortografia
+
+
+nos nos descritivos que ele punha no póster. E,
+portanto, eu vou aperfeiçoando aqui a prompt.
+
+
+Depois também tem uma uma tool default, ou seja,
+o gemini gems, ele é mais poderoso do que eu ir
+
+
+simplesmente aqui um chat normal e pôr-lhe esta
+prompte, porque no gemini gems, ele é capaz de fazer
+
+
+uma orquestração com várias inteligências
+artificiais. Por exemplo, eu não posso ir a
+
+
+um chat normal e dizer assim: "Toma o meu vídeo e
+dá-me duas coisas de atacada. Dá-me um descritivo
+
+
+e dá-me um póster". Eu já fiz esse teste e ele
+não é capaz. Ou bem que dá uma coisa ou bem que
+
+
+dá outra. Como são inteligências artificiais
+diferentes, uma coisa é analisar texto,
+
+
+outra coisa é gerar uma imagem, ele não dá duas
+ao mesmo tempo. Mas no Gémini gem ele é capaz,
+
+
+porque o Gemini gems aqui ele tem uma capacidade
+de orquestração e ele é capaz de dizer assim: "Ah,
+
+
+OK, eu primeiro uso isto e agora uso o outro".
+Portanto, pelo menos este é o feeling que eu tenho
+
+
+com que eu fiquei, que é tenho uma capacidade
+maior de orquestração por forma a chamar várias
+
+
+inteligências artificiais, vários modelos
+distintos que ele tem, enfim, todos da Google,
+
+
+não é? Quer seja, por exemplo, o o nano, o o acho
+que é o o flash que se chama, que é o LLM que ele
+
+
+tem de texto, quer seja o nano banana para gerar
+imagem, etc, etc. Outra coisa que nós podemos pôr
+
+
+aqui é qual é o modelo principal que nós queremos
+que ele use. Neste caso, como o objetivo final é
+
+
+gerar uma imagem, eu digo aqui que o modelo que eu
+quero usar aqui, que é o create image por default,
+
+
+mas eu podia não deixar default nenhum, podia
+deixar a branco para ele determinar qual seria
+
+
+o modelo adequado e ele iria determinar consoante
+a prompt se o que eu quero gerar uma música ou ou
+
+
+um modelo tradicional ou etc, etc. Pronto, neste
+caso eu deixei com create image. OK, pronto, eu
+
+
+vou aqui cancelar isto, mas pronto, não vou fazer
+aqui um exemplo para não alongar muito o tutorial,
+
+
+mas vocês podem acreditar que isto funciona. Eu
+tenho que funcione e funciona bem. Eu tenho estado
+
+
+a usar isto bastante. E podem dar aqui uma vista
+de olhos nos gemini gems que eu
+
+
+já tenho. OK. Pronto. Eh, pronto. Recomendo.
+Quem não conhecia, ficou a conhecer e podem
+
+
+explorar. Quem já conhecia e quem já usa, pois é
+melhor ainda. Pronto, deixei de usar aqueles addons
+
+
+de prompts que eu vos estava a recomendar e passei
+a usar. Ah, aqui falo mostrar-vos alguns exemplos
+
+
+concretos. Pronto. Eh, pronto, mostrei-vos
+agora este eh, gerar. Eu gero, por exemplo,
+
+
+este aqui, eu gero ou eu gero a description que
+vai entrar nos meus YouTube vídeos. Eu vou-vos
+
+
+dar aqui um exemplo. Quando eu venho aqui a um
+a um dos meus vídeos, por exemplo, por exemplo,
+
+
+aqui o último dedicado ao LM Studio, eu vou usar,
+eu vou, eu quando vamos aqui e quando eu venho
+
+
+aqui ao description, pronto, esta description cá
+está, ela foi totalmente gerada por um Gemini Gem,
+
+
+onde ele faz-me aqui um resumo com os
+time stamps, gera-me aqui as miniaturas
+
+
+dos capítulos, aqui um um resumo aqui, ou seja,
+está bastante bastante bom, bastante profissional.
+
+
+OK. E dividiu-me em capítulos. Pá, pronto, mais
+ou menos. Ficou mais ou menos, OK? Nunca nunca
+
+
+ficaria tão bem como sendo eu pessoalmente a
+dividir em organizar em capítulos. OK. Mas pronto,
+
+
+mas dá um ar mais profissional. E, portanto, e eu
+tenho aqui toda esta parte dos descritivos eh foi
+
+
+produzida com um gemini gem. OK. as legendas aqui que
+eu tive que aqui tive que corrigi-las manualmente.
+
+
+Pronto, elas já estavam autogeradas, mas tinham
+bastantes erros de ortografia e eu tive que
+
+
+corrigi-las e através do YouTube Studio. Pronto,
+não vale a pena estar agora a demonstrar isso,
+
+
+não. Isto alonga muito o tutorial. Pronto, só
+para vocês terem uma ideia, outra coisa que
+
+
+eu fiz aqui, que aperfeiçoei foi a nível do meu
+canal, View your channel. Portanto, o descritivo
+
+
+do meu canal, eu também tive aqui a customizá-lo
+um bocadinho, mas isso foi uma tarefa aqui manual
+
+
+aqui. Pronto, o descritivo que aparece aqui,
+eu tive, coloquei aqui estes links onde eu não
+
+
+tinha nada. E aqui, se vocês repararem aqui mais
+abaixo, share channel, vocês têm, podem fazer aqui
+
+
+um copy de qualquer canal, podem aceder ao channel
+id que vai ser usado agora na minha programação em R. Pronto,
+
+
+é só para ver, ficam já a ver que, portanto, o
+channel ID é  informação pública. Pronto. E,
+
+
+portanto, podem aceder ao channel ID. Eu posso
+fazer aqui cópia do channel ID. E, portanto,
+
+
+e o channel ID, eh, ele é informação pública e é
+usada nas nas APIs. Aqui, cá está, para aceder a
+
+
+a um determinado canal eh que é o qual este handle
+que eu tenho aqui, o @tugastone, ele é ele é um é
+
+
+chamado o YouTube handle e é um alias ele é mesmo
+é a mesma coisa que eu colocar aqui o channel ID.
+
+
+Eh, só que a nível da APIs, eu experimentei, ele
+não ele não me aceita colocar o handle. Portanto,
+
+
+a nível da APIs, eu tenho que colocar aqui este
+o channel ID, o channel ID por por extenso. Para
+
+
+ele aqui não encontra. Acho que aqui no caso o eu
+tenho que pôr aqui channel igual a qualquer coisa,
+
+
+já não me recordo. Eh, portanto,
+não é exatamente a mesma coisa,
+
+
+mas pronto. Mas o Handle é a mesma coisa. Eh,
+sim, senhora. Vamos continuar aqui no aqui no no
+
+
+guião. OK. Pronto. E aqui há aqui uma área que eu
+tenho, eu subi o meu código para para o GitHub. Ah,
+
+
+eu vou já abrir aqui o meu canal de GitHub. OK.
+Eu vou já abrir aqui o meu canal de GitHub. Ok,
+
+
+pronto, aqui eu tenho os meus packages, já tenho
+os meus dois packages aqui prontos para vocês
+
+
+fazerem download, instalarem, dessa forma podem
+seguir os meus tutorials muito melhor. Tenho o 
+
+
+xfunctions e o minifunctions e tenho o que nós vamos
+ver hoje, o YouTube, que eu pus aqui o projeto
+
+
+YouTube. OK. Eh, e aqui, por exemplo, entrando
+aqui no YouTube, que é o que nós vamos ver hoje,
+
+
+OK? O qual vocês poderão baixar o projeto
+aqui no código, fazer aqui download zip, OK?
+
+
+E pronto, e ficam com todo o código. Eu já fiz
+este teste e funciona perfeitamente. Vocês baixam
+
+
+o zip para uma folder e pronto. E ficam com o
+projeto numa folder pronto a ser pronto a poderem
+
+
+executar o no R com o RStudio. E aqui eu tenho
+o descritivo. E este descritivo também foi feito
+
+
+com um gemini gem. OK? Eu, como eu passei-lhe o
+código, eu passei-lhe o meu código de programação
+
+
+em R ao Gemini GEM, OK? Eu passei, que é o que é o
+que eu tenho aqui, é um dos meus gems aqui. Eh,
+
+
+generate github repositório description. E eu tenho
+aqui as instruções como é que se usa. Diz aqui
+
+
+para fazer o paste do R código. Portanto, eu
+arrasto os meus scripts de programação em R, OK?
+
+
+Ele analisa o código e dá-me o resumo e dá-me
+o summary do que faz o código. Ele identifica o
+
+
+que é o programa principal que está aqui e está
+bastante bom, está bastante rigoroso. E depois eu
+
+
+pedi-lhe no meu Gemini GEM, eu pedi-lhe para me
+dar um summary de cada uma das funções que eu
+
+
+tenho no código. O que ele faz aqui faz bastante
+bem. Fiquei surpreendido. Está, muito poderoso
+
+
+este Gemini GEM, esta capacidade que ele tem. OK. E,
+portanto, como vêem, podemos usar isto também para
+
+
+o para produzir os próprios descritivos, o próprio
+Readme file que é usado nos nos projetos, nos
+
+
+repositórios do GitHub. OK? Muito muito poderoso
+isto, esta parte aqui. Hum. OK. E eu ainda quis
+
+
+ir um passo mais além, mas depois falhou-me. E e
+vou-vos mostrar porquê. Porque eu quis um passo
+
+
+mais além. Eu quis dizer assim: "OK, eu arrastei,
+no caso do projeto, eu vou já abrir aqui o projeto
+
+
+que nós vamos ver hoje, que é o YouTube. Eu ele
+está aqui nas áreas dos projetos. Vou abrir aqui.
+
+
+Pronto. Porque é que eu fiz em projeto? Já agora,
+eu não sou obrigado a trabalhar em projeto e nem
+
+
+eu nem gosto de trabalhar em projeto de um modo
+geral. porque porque não preciso. Eh, e muitas
+
+
+vezes quando nós vemos tutorials na internet e
+muita gente recomenda a utilização de projeto,
+
+
+diz que ah é é melhor trabalhar em projeto porque
+o projeto e especialmente quando está integrado com
+
+
+GitHub faz o version control, etc, etc. Mas eu
+para nível de version control, como já vos falei,
+
+
+eu uso o Megasync, portanto eu não preciso de GitHub.
+Mas neste caso recorri ao GitHub apenas com o
+
+
+objetivo de poder partilhar o código convosco.
+Pronto, então aí sim. OK. Então aí eh decidi
+
+
+que a forma mais simples, eu não era obrigatório.
+Eu poderia eu poderia usar o GitHub por fora do  
+
+
+RStudio e pronto. E eu usava o GitHub no Windows e
+e portanto ia fazer os commits e os pushs e nesse
+
+
+caso não precisava de projeto de linguagem R.
+Só que é mais fácil usar tudo dentro do R, 
+
+
+está tudo integrado e, portanto, e neste caso eu
+preciso de um projeto. Pronto, então por isso eu
+
+
+fiz um projeto e é por essa é por essa a razão
+para poder partilhar de uma forma mais fácil,
+
+
+porque aí eu tenho o GitHub, eu tenho o GitHub
+aqui integrado no projeto. Cá está. Estes
+
+
+são os componentes que estão alterados e
+daqui a bocado já vamos fazer um commit.
+
+
+Eh, e eu tenho aqui e portanto e este este projeto
+aqui usa usa o código R aqui o principal e depois
+
+
+tenho as funções. Vocês já conhecem isto os meus
+tutoriais anteriores. Normalmente eu tenho o
+
+
+programa principal e depois tenho um módulo que
+tem as funções que é aqui o YouTube functions. OK?
+
+
+Pronto, que é o que está aqui com as funções
+aqui. Eh, pronto, cá está aqui as funções. Pronto,
+
+
+e eu arrasto estes dois scripts, arrasto-os
+para o gemini gem e ele deu uma descrição toda aqui
+
+
+das funções. OK? Agora eu quis ir um passo mais
+além, mas não funcionou e ainda não tive tempo de
+
+
+tentar pô-lo a funcionar, que é o que está aqui
+no meu README.R. E qual era a ideia? A ideia era
+
+
+o seguinte, porque imaginem que eu tenho de hoje
+para amanhã até um código bastante grande,
+
+
+que em vez de ter apenas dois módulos como este,
+eu tenho, eh, pá, vamos dizer, 50 scripts. E pá,
+
+
+e não é prático eu estar a arrastar os 50 scripts
+para a prompt do Gemini GEM, não é? Pronto. Então,
+
+
+qual era a ideia? A ideia era, eu fazia aqui
+um script e listava todos os ficheiros da da
+
+
+da Curent directory e eu aglutinava, fazia merge
+e colocava tudo dentro de um temporário,
+
+
+de um de um de um modulozinho temporário e depois
+preparava-lhe aqui uma prompt, até podia ser para
+
+
+o geminai ou para o meu modelo de linguagem,
+de inteligência artificial local e dizia read
+
+
+the following R code and generate a summary in
+markdown format porque a markdown é o formato
+
+
+que é usado no no GitHub no README do GitHub  e
+portanto a inteligência artificial gera, ela ela
+
+
+sabe bem o que é o markdown e gera um um summary
+formatado em Markdown. So, so I can upload it to
+
+
+GitHub readme markdown eh the summary should contain
+paragraph description eh para cada function etc, etc,
+
+
+etc. Pronto. Eh, o que acontece é que porque isto
+rebenta. Porque é que rebenta? Porque nos modelos
+
+
+de inteligência artificial existe uma janela de
+contexto para a prompt. Existe um um um tamanho
+
+
+de contexto da prompt e existe uma um tamanho
+de contexto para para o histórico que são coisas
+
+
+diferentes. E existe um no qual nessa parte do
+histórico, acho que se inclui o os attachments. Ou
+
+
+seja, uma coisa é passar ficheiros por attachment
+e aí ele tem uma capacidade maior. posso passar
+
+
+muitos scripts por attachment e outra coisa é
+passar todo  o código na própria prompt
+
+
+e ele aí esgotou a capacidade porque eu quando eu
+lhe passo dois scripts que que tenham e no total
+
+
+300 ou 400 linhas de programação, OK? Por exemplo,
+aqui as minhas funções, como estão estão a ver,
+
+
+tem aqui quase 400 linhas de programação e,
+portanto, rebentou a capacidade de contexto de
+
+
+de da da prompt. Não sei se me explico. Pronto.
+E por isso está aqui em standby. Pronto,
+
+
+está em standby até que eu seja e eh seja capaz de
+de invocar eh via API, passando-lhe em attachment,
+
+
+código em attachment, que é possível. Eu
+é que ainda não tive paciência para fazer,
+
+
+porque eu já fiz uma função que vos mostrei no
+meu outro tutorial, onde eu era capaz de eh passar
+
+
+em attachment uma imagem e e portanto também vai
+ser possível passar em attachment eh scripts com
+
+
+código. Pronto. Eh, mas eu é que ainda não fiz
+porque não vem na API que eu estava a usar e,
+
+
+portanto, eu tenho que fazer uma função
+personalizada e não tive paciência para a
+
+
+fazer. OK? Pronto, é só para vos mostrar aqui
+um projetozinho que eu tenho em standby. Eh,
+
+
+está aqui, e se eu tiver paciência, vou avançar
+com ele. E a ideia é que vocês já estão a ver
+
+
+qual era. A ideia era a todo momento, eu mandava
+aqui executar um simples run e automaticamente
+
+
+devolvia-me um um README markdown automatizado   para eu
+poder subir para o meu repositório de gitub. E,
+
+
+portanto, dessa forma, estava sempre a atualizar o
+README. e Eu tinha sempre o README atualizado. Pronto.
+
+
+Pronto. Essa é uma faceta. Mas essa faceta, essa
+funcionalidade ficou em standby, que que era
+
+
+esta parte que está aqui. Pronto. Eh, o modelo não
+teve capacidade porque passando toda a todo toda
+
+
+a programação dentro da prompt, obviamente que
+não tem capacidade porque esgota porque a prompt tem
+
+
+um determinado limite. OK? Ora bem, eh, como
+instalar os meus packages de github. Pronto,
+
+
+então vamos agora ver esta parte aqui. Eh, vamos
+começar aqui a a correr o meu código. Pronto,
+
+
+esta parte aqui inicial vocês já sabem o que
+já sabem, já vos tenho falado nisto. O que é
+
+
+que isto faz? Vejam os meus outros tutorials.
+E agora vocês vão ser capazes de de seguir
+
+
+isto de uma forma perfeitamente, porque vocês
+vão ser capazes de instalar os meus packages,
+
+
+o xfunctions e que é usado aqui e o minifunctions,
+OK? E portanto e com isso vocês serão capazes de
+
+
+copiar isto e para além deste mesmo projeto
+e este tal e qual com o YouTube e YouTube
+
+
+functions. Portanto, essas três componentes
+vocês vão ser capazes. O projeto vocês instalam
+
+
+com com o Unzip com download, enquanto que os
+packages vocês instalam aqui com o utilitário,
+
+
+com um package de R que instala instala packages
+de GitHub que estão no GitHub. Ok, pronto. Mas
+
+
+deixa-me aqui correr esta parte. OK. Correr do
+início que eu já não sei onde é que eu estou.
+
+
+OK.
+
+
+OK.
+
+
+Pronto, já agora quero-vos mostrar aqui uma umas
+novidades que eu implementei nesta função no
+
+
+XLibrary, esta função aqui, e gera-me um aqui
+um loaded packages atualizado que está bastante
+
+
+poderoso. Eu fiz aqui umas melhorias bastante
+importantes que são estas aqui. Para já mudei
+
+
+aqui o nome dos campos para ficar igual aqui à
+informação que nós temos aqui neste neste panel
+
+
+de packages. Nós temos aqui aqui no na lista dos
+pacotes instalados na minha máquina, nós temos
+
+
+o package, a description, o source e a version.
+Portanto, eu aqui chamei os mesmos campos aqui,
+
+
+o package, a description, o source e a version. E
+depois tem a new version, OK? E uma das novidades
+
+
+que eu fiz foi aqui a nível do source. Eu tenho
+o base, portanto is são pacotes carregados em
+
+
+memória provenientes do R base. Estes são os
+pacotes que eu instalei manualmente provenientes
+
+
+do repositório Cran, repositório oficial. Existe
+mais um outro ou dois repositórios oficiais de de
+
+
+pacotes e um deles também famoso é o Bioconductor,
+que acho que é usado numa universidade qualquer de
+
+
+medicina. Eh, eu não sei se vocês sabem, mas o
+o R, a linguagem R é muito usado na investigação
+
+
+médica, até deve ser deve dominar, é muito usado
+para para projetos de de estudos de
+
+
+estatística e machine learning na área médica. 
+e portanto, existe um um outro repositório oficial
+
+
+que é o bioconductor, mas como eu não eu não tenho
+aqui nenhum pacote do bioconductor, portanto aqui
+
+
+não não se vê. Eh, depois tenho aqui um pacote
+local, por exemplo, que é o minifunctions. Eh,
+
+
+e portanto que eu carreguei para vocês verem e que
+aqui ele mostra que o pacote é local, ou seja, ele
+
+
+foi compilado aqui localmente. E depois tenho aqui
+um exemplo de um pacote para vocês verem que para
+
+
+eu saber que ele foi feito o download do GitHub,
+que é o que vai acontecer convosco se instalarem
+
+
+os meus dois pacotes, os meus dois packages e ele
+vai vos aparecer depois aqui a dizer que eles são
+
+
+do GitHub. Pronto. E depois aparece quando eu um
+eh um dia eu instalar uma nova versão e depois
+
+
+vocês poderão ver quando aparecer uma nova versão
+e vai vos aparecer aqui. Pronto. E essa foi uma
+
+
+parte difícil, bastante difícil que eu tive que
+fazer porque o R de base ele não acede ao GitHub
+
+
+para para saber se há uma nova versão ou não e se
+é um um tipo de funcionalidade que ele só possui
+
+
+para os pacotes oficiais, para os pacotes que vêm
+de GitHub, ele não tem como saber isso. Portanto,
+
+
+deu-me bastante luta eh para fazer essa parte.
+Não vos vou mostrar agora porque vocês depois
+
+
+quando instalarem os meus pacotes vocês
+poderão investigar isso. Poderão depois
+
+
+poderão aceder ao código com licença, dos meus
+packages e verem como é que isso foi feito. OK?
+
+
+Pronto. No caso dos packages de GitHub, eu
+mostro aqui qual o nome do repositório,
+
+
+obviamente que também aqui é, por exemplo,
+aqui este aqui o o nome do repositório GitHub.
+
+
+Aqui é o diretório da vossa máquina local onde
+estão instalados os packages. Eh, e aqui, deixa
+
+
+pôr isto aqui, acertar isto aqui. E, portanto,
+e aqui  a versão a versão da linguagem R com
+
+
+que os pacotes foram foram compilados. OK? Pronto.
+Portanto, aqui foi melhorias, bastantes melhorias,
+
+
+portanto, que eu fiz aqui neste data frame
+que ele é gerado, é um data frame informativo,
+
+
+como vocês veem, já vos tenho falado. Eu uso
+muitas vezes, imaginem que eu tenho aqui,
+
+
+estou a vou trabalhar aqui com determinados
+packages e eu e automaticamente aqui vou ver,
+
+
+por exemplo, se saiu alguma nova versão de
+algum package. Isso pode ser importante para
+
+
+eu saber se saiu alguma algum, por exemplo, aqui
+eu vamos usar aqui a API que está no package tuber.
+
+
+E por acaso o Tuber saiu uma nova versão agora há
+dias. E portanto eu na altura atualizei e depois
+
+
+até um deu-me um certo trabalho porque mudou até
+muita coisa a nível aqui do package do TuberR,
+
+
+onde antes devolvia listas de R, agora passou
+a devolver data frames. Mudou muita coisa e eu
+
+
+tive que mudar aqui bastante do meu código.
+OK? Mas essa parte já está toda feita. OK.
+
+
+Eh, e agora, como é que vocês vão instalar os
+meus packages pessoais? É simples, têem aqui
+
+
+três alternativas. Devtools install gitub,
+onde vocês põem aqui o repositório. OK. O Eduardo
+
+
+Jacob, aqui pode ser maiúsculas ou minúsculas,
+eu acho que aquele aqui é indiferente. E o nome
+
+
+do package, este e o minifunctions. Ou pode ser
+com o remotes install ou pode ser com o pak::pak.
+
+
+O pak::pak até acho que é a forma agora mais robusta
+e mais recomendada. Acho isto é um novo package e
+
+
+portanto que é o este pak. Eh, e portanto aqui o
+pak::pak eu penso que é é o que eu vos recomendo
+
+
+para instalarem. Vocês instalam Eduardo Jacob xfunctions e instalam Eduardo Jacob minifunctions,
+
+
+os dois pacotes, os meus dois packages. OK?
+Pronto. E assim vocês instalam e instalam os
+
+
+meus packages. OK? Pronto, essa parte aqui já está
+vista. como é que vocês vão instalar. OK. OK. E
+
+
+depois vocês podem dizer assim: "E pá, mas eu vou
+instalar um package e pá, e vocês não me conhecem
+
+
+de lado nenhum e a segurança, etc, etc." E eu
+digo-vos assim, bom, não tenham problema com isso,
+
+
+porque é o seguinte, os pacotes podem ser
+programados em linguagens de programação,
+
+
+por exemplo, o C ou em R nativo. Neste caso,
+os meus pacotes são feitos em R nativo, OK? E
+
+
+quando eu quando eu eh disponibilizo um um pacote,
+portanto, eh no GitHub, eu acho que há uma maneira
+
+
+de forçar a que o código source fique e
+eh visível se, ou seja, o pacote seja distribuído
+
+
+no formato de de código source. Eu acho que , source
+nativo, eu acho que há uma maneira de fazer isso,
+
+
+mas eu não fiz isso. Ele ele é instalado e quando
+ele é instalado é instalado numa forma comprimida,
+
+
+numa forma binária comprimida. Vocês quando forem
+aqui onde aqui e e visualizarem aqui a a a folder
+
+
+onde o pacote é instalado na vossa máquina local,
+OK? Eh, e vocês podem ir lá ver a folder onde
+
+
+vai onde vai aparecer aqui os meus pacotes, por
+exemplo, aqui o minifunctions e vocês vão ver que o
+
+
+código lá está em binário. Eh, só que não tenham
+problemas porque vocês podem aceder ao código,
+
+
+ao código visível. Existe aqui funções
+para para descomprimir aqui o código e e
+
+
+é é bem simples e imediato. E vou vou-vos fazer
+vou-vos vos dar aqui um exemplo. Por exemplo,
+
+
+aqui é esta função aqui, o XLibrary. Vocês quando
+estiverem aqui no na vossa máquina vocês fazem,
+
+
+por exemplo, f igualam aqui a função f
+= à função a x functions x library. Ok.
+
+
+aqui. OK. Pronto. E executam. Portanto, estão a
+fazer uma cópia da função F. E ao fazer a cópia,
+
+
+a função aparece aqui. OK? E agora ao clicarem
+aqui, pronto, cá está. Tem a função nativa. Tem
+
+
+a função nativa que podem aceder à função à função
+completamente nativa, que até usa subfunções que
+
+
+estão lá dentro. OK? Ok, pronto. Pronto, isto é
+só para vocês estarem descansados e não tenham
+
+
+medo de qualquer
+coisa, qualquer código malicioso que eu que eu que
+
+
+eu estivesse a introduzir
+nas funções. OK? Podem estar descansados,
+
+
+completamente descansados. E como estão a ver,
+podem eh visualizar e podem pegar no código,
+
+
+podem pôr na inteligência artificial e e pedir
+para vos dar uma uma explicação, um resumo do que
+
+
+é que do que é que faz. a função, etc, etc. Ou se
+usarem o copilot GitHub Copilot integrado aqui também,
+
+
+como eu estou a usar, também podem fazer isso,
+etc, etc. Portanto, estou-vos a mostrar, como vêem
+
+
+é perfeitamente simples. Vocês podem visualizar
+todo o código nativo da dos meus packages daqui,
+
+
+usando, por exemplo, esta técnica aqui que eu
+vos mostrei. Eh, OK. O que é que temos aqui mais?
+
+
+como visualizar o source de uma de uma função
+de um package qualquer. OK? Desta maneira. Isto
+
+
+porque o o foi foi foi programado em em R nativo.
+Se se vocês usarem isto para um outro package e
+
+
+que tenha sido programado com linguagem C,
+pois não sei se vos mostrará. Penso que não
+
+
+vos mostrará nada, OK? Mas quando o package foi
+programado em linguagem nativa de R, R nativo,
+
+
+pois então é visualizável. Cuidados a fazer
+Cuidados ao fazer upgrade package. Bom, o que vai
+
+
+acontecer é o seguinte. os meus packages, os meus
+packeges que vocês vão instalar, eles internamente
+
+
+usam muito os outros packages, usam dezenas de
+packages. Pronto. E então o que acontece quando
+
+
+uma pessoa vai instalar um package, por exemplo, se
+vocês instalam um dos meus packages, por exemplo,
+
+
+minifunctions, e ele internamente usa uma vintena
+de packages. Ora, o que vai acontecer é se vocês
+
+
+não têm esses outros packages instalados na vossa
+máquina, ele vai instalar os packages. OK? Pronto.
+
+
+Então, à primeira vez na vida que vocês vão
+instalar os meus packages, vai ser bastante
+
+
+moroso porque ele vai instalar todos os outros
+packages. Pronto, existe uma maneira eh mais
+
+
+sofisticada de distribuir os packages e não ter
+que instalar todos os packages à cabeça e de uma
+
+
+forma de ir apenas instalando os packages à medida
+que vocês forem instalando as funções a pouco e
+
+
+pouco. Pronto, existem outras maneiras de fazer
+isso. Eu estive a ver e pá, mas eu não tive para
+
+
+fazer isso porque depois é mais trabalhoso. Eu
+tenho que preparar o meu package para isso. Antes
+
+
+de chamar uma determinada função, eu normalmente
+mandam as boas práticas que eu vou averiguar se
+
+
+o utilizador tem ou não o package necessário, se
+o tem instalado. E se não o tem instalado, dar uma
+
+
+mensagem simpática a dizer: "Olhe, você precisa
+de instalar este package, etc, etc." e pá, dá mais
+
+
+trabalho e eu, portanto, eu não não fiz isso. E,
+portanto, o que vai acontecer é que vocês vão ter
+
+
+que instalar todos os packages acessórios
+que são usados, são chamados nas funções aqui
+
+
+do meu package. OK? Imaginem aqui este package
+aqui, o meu, este, esta minha função que eu que
+
+
+eu vos mostrei aqui do XLibrary, vocês vão ver aqui
+e vocês se começarem aqui a aqui a a visualizar
+
+
+aqui o meu código, eventualmente vão, olhe, por
+exemplo, aqui o package, este, por exemplo, até
+
+
+acho que vem com o vem nativo vocês, mas pronto,
+mas poderão ter invocar aqui outros packages que
+
+
+que são chamados aqui nas minhas funções do do
+daqui do meu package, OK? Pronto. E, portanto,
+
+
+é que vocês vão ser confrontados com isso. Vai
+vos instalar muitos packages e alguns desses
+
+
+packages eles podem precisar de serem compilados
+localmente, porque há packages que se têm de ser
+
+
+compilados localmente. Eh, e portanto eh vocês não
+se esqueçam que podem necessitar de ter instalado
+
+
+o produto RTools. Eu já vos falei isto noutros
+tutorial, mas vocês precisam da linguagem R,
+
+
+vocês precisam do IDE, o RStudio e vocês também
+precisam do componente RTools que contém as
+
+
+livrarias adequadas para poder compilar pacotes,
+os pacotes que precisam de compilações locais.
+
+
+OK? Eu agora não sei de cor, não me recordo, mas
+eventualmente poderá haver alguns pacotes que que
+
+
+que vocês precisem. Portanto, vocês deverão ter
+o RTools também instalado na vossa máquina. OK? OK.
+
+
+Peço desculpa às pessoas que já conheçam bem o que
+eu estou a falar por ser um bocadinho repetitivo,
+
+
+mas pronto. Ora bem, eh vamos então ver o que é
+que vamos seguir aqui. Eh, o que é que temos aqui?
+
+
+Portanto, estes são os cuidados a ter. Portanto,
+não se admirem a primeira vez quando instalarem
+
+
+os meus pacotes de ser um bocado moroso, de de
+instalar muitos outros packages. Não se admirem,
+
+
+que é da maneira como eu fiz os meus packages, OK?
+Devemos desenvolver tudo debaixo de projetos. Bom,
+
+
+isto eu já vos expliquei. Para mim não. Quando
+vocês estão a fazer eh os vossos vossos scripts,
+
+
+estão a desenvolver o vosso código, não vale a
+pena perder tempo a fazer projeto, acho eu. É,
+
+
+eu pelo menos, eu não o faço. Eu só o faço se
+realmente se eu tiver intenções de de vir a
+
+
+distribuir o meu código no GitHub. Ou então, bom,
+ou então para fazer um um package. Um package,
+
+
+sim. Um package é obrigatório para fazer um
+package dentro do R, pois é obrigatório ele
+
+
+estar dentro de um projeto. Portanto, há aqui
+dois tipos de projetos. Pode ser um projeto
+
+
+para um package ou um projeto para um script
+normal. OK? São vários tipos de projetos que
+
+
+há aqui dentro do R. Portanto, OK. Como baixar
+o código deste tutorial no GitHub? Já vimos,
+
+
+já vos mostrei. Pode ser com o pak::pak.
+Novidades da função XLibrary. Já vos mostrei,
+
+
+OK? Já vos mostrei que ele agora identifica bem
+quando um pacote vem do GitHub, identifica se
+
+
+já saiu uma nova versão no GitHub, etc, etc,
+etc. Portanto, está muito mais completa
+
+
+esta função que eu que eu que eu modernizei, o XLibrary. Tenho também novidades, por exemplo, na
+
+
+função do print data frame, que vamos ver agora.
+Vamos começar a executar esta parte aqui. OK.
+
+
+OK. Aqui tenho, eu vou fazer agora o remove
+deste F para não estar aqui a fazer confusão.
+
+
+OK. Pronto, estas são as funções. Agora não vamos
+perder tempo a mostrar-vos o código das funções,
+
+
+nada disso, porque nesta altura do campeonato,
+eh, para já podem dar uma vista de olhos nos meus
+
+
+outros tutoriais do YouTube. E, portanto, para
+ficarem com uma ideia, o que o que é que o que
+
+
+o que acontece é que eu aqui fiz eh modernizei
+aqui muitas destas funções e fiz muitas outras
+
+
+funções. Portanto, tá muito mais complexo agora.
+Está mais completo. Mas uma vez que eu vou-vos
+
+
+distribuir aqui o código, pois não preciso de
+vos estar aqui a mostrar nada. Vocês depois
+
+
+quem quiser depois investigue e dê uma vista
+de olhos no código. OK? Ora bem, vamos vou-me
+
+
+autenticar aqui. Vou-me autenticar dentro da
+API, OK? Eh, este código vai usar duas APIs. Eh,
+
+
+vejam os meus tutoriais anteriores do YouTube,
+onde explico o que são e o que e para que servem.
+
+
+Pronto. Eh, e, portanto, ele aqui
+autenticou, mostra a minha foto,
+
+
+que é uma forma de eu saber se está tudo a
+trabalhar bem, e devolveu-me este data frame,
+
+
+que é o meu profile. Deixa fazer aqui zoom.
+Pronto. E isto são algumas melhorias que eu
+
+
+fiz aqui no Como é que eu faço aqui o Não está
+a aumentar aqui. Eh, zoom. Deixa ver aqui.
+
+
+Não, não me está a fazer zoom aqui propriamente
+dito. Deixa ver aqui se  faz.
+
+
+Não, está fixo. Bom, e então uma das melhorias
+que eu fiz foi esta. Automaticamente todos os
+
+
+URLs que apareçam num data frame, quando eles são
+printados neste pretty print e que é o esta função
+
+
+do print data frame, pois automaticamente os
+links ficam clicáveis. OK? Pronto. Por exemplo,
+
+
+aqui posso clicar e vou imediatamente aqui
+no browser. Eu vou aqui para o meu canal. OK.
+
+
+Pronto. Essa foi uma das melhorias que eu fiz.
+Foi todos os URLs ficam clicáveis. Já não tenho,
+
+
+eu já não tenho que estar a converter manualmente
+a dizer, olha, eu vou querer aquele, eu quero
+
+
+que aqueles URLs sejam clicáveis e eu tinha que
+estar manualmente a a colocá-los dentro de tags,
+
+
+dentro de tags de HTML, etc, etc. Pronto, tudo
+isso ficou foi automatizado. OK. Foi uma melhoria
+
+
+importante que eu fiz. e mais e mais melhorias
+que já vão vir agora mais à frente. Ora bem,  
+
+
+o que é que temos aqui mais
+aqui no guião? Pronto. OK.
+
+
+Como obter o channel ID de um canal? Já
+vos mostrei, mostrei-vos há bocado quando
+
+
+há existe o share lá do descritivo do canal e,
+portanto, vocês conseguem obter o channel ID,
+
+
+que vai ser importante para usar este código e
+vocês poderem aceder a dados de qualquer canal,
+
+
+informação pública de qualquer canal de YouTube
+e qualquer playlist do YouTube vocês. Pronto,
+
+
+nós hoje vamos aqui trabalhar, eu era para
+trabalhar com o Qwen, o Gemma 4, que é o novo,
+
+
+e o Gemini, o Qwen modelo local e o Gemma 4
+também enquanto modelo local. Já vamos ver,
+
+
+mas o Gemma 4 depois acabei por não usar para
+não estar a sobrecarregar aqui o o tutorial.
+
+
+E, portanto, vamos então agora seguir
+rapidamente aqui o resto do código. Eh,
+
+
+portanto, eu tenho aqui o o meu channel ID,
+OK? Cá está ele, que é informação pública. OK,
+
+
+agora vou aceder aos meus vídeos. Esta parte é
+tudo tópicos que eu já vocês, eu já vos falei nos
+
+
+meus outros tutorials. Vos falei que esta função
+aqui tinha bugs, OK? porque tinha algo, trazia
+
+
+alguns vídeos repetidos e esse bug mantém-se, mas
+nós não não praticamente não vamos usar aqui esta
+
+
+parte aqui também. Já eu já vos falei nisto tudo.
+Não deixem de ver os meus dois outros tutoriais
+
+
+anteriores dedicados ao YouTube. Pronto. E agora
+eu tenho aqui vou aceder às minhas playlists,
+
+
+OK? Exceto estas duas. Eu não quero estas
+duas. Portanto, eu digo, dá-me as playlists
+
+
+do do deste channel ID, deste canal, excluindo
+estas playlists. E, portanto, ele deu-me aqui as
+
+
+playlists, são estas aqui. OK, deixa-me aumentar
+aqui um bocadinho para lá. Como é que é isto aqui?
+
+
+OK, deixa-me aumentar aqui um bocadinho e ver-se
+
+
+melhor. Portanto, estas playlists aqui. OK. H. E, portanto, aqui,
+
+
+eh,
+
+
+OK. E agora vídeos. Dá-me todos os vídeos a
+partir das minhas playlists, das minhas ou de
+
+
+outras playlists. Pronto, desde que as playlists
+sejam um data frame com este formato aqui,
+
+
+playlist ID e playlist title, pois dá-me, dá-me os
+vídeos, dá-me os vídeos. Pronto, esta parte aqui.
+
+
+OK. Pronto. Depois eu vou aqui listar. Eu
+interessa-me listar se eu tenho algum vídeo
+
+
+que esteja em mais de uma playlist, o que eu
+não quero. OK, eu vou fazer esta checagem,
+
+
+OK? Eu vamos listar depois o total vídeos.
+
+
+vai ser sempre superior aqui a este valor porque
+este não, o total views, desculpem, o total views,
+
+
+portanto, OK, aqui tenho um total views aqui,
+8747, porque é um summary que que ele mantém
+
+
+umas estatísticas que é que o YouTube mantém
+do meu canal, eventualmente atualiza isto ao dia,
+
+
+uma vez ao dia ou algo assim do género.
+Ora bem, portanto, vídeos duplicados
+
+
+não tem, está correto. Total views 8751, OK? Está
+ligeiramente superior a este valor. E, portanto,
+
+
+ele devolveu-me aqui os vídeos. O que é que eu
+tenho aqui nos vídeos? 201 vídeos, está correto.
+
+
+Depois tenho o playlist title, vídeo
+ID, vídeo title, data de publicação,
+
+
+vídeo thumbnail, vídeo URL, numero
+de views, tenho o ano. OK.
+
+
+E agora tenho aqui uns antijoins. Eu quero listar
+orphan vídeos, orphan all_vídeos not on vídeos.
+
+
+Portanto, da minha lista que dá os vídeos, os meus
+vídeos todos pessoais massivos, eu quero ver se há
+
+
+lá algum vídeo que não tive, que tivesse ficado orphan, que eu não tivesse classificado dentro de uma
+
+
+playlist, dentro de uma destas minhas playlists.
+OK? Não há nenhum. Pronto, está correto,
+
+
+porque todos os meus vídeos eu os classifico,
+os introduzo dentro de playlists. Eu não tenho
+
+
+vídeos órfãos fora de playlists, está correto. E
+depois o contrário, se eu tenho vídeos que estão
+
+
+nas minhas playlists e que não fossem meus, porque
+eu não quero vídeos de outras pessoas dentro das
+
+
+minhas playlists. OK, pronto, mas ele aqui vai
+dizer que tem alguns, só que é bug. É porque ele
+
+
+tem ele falta alguns vídeos que que que devido ao
+bug do vídeos e portanto ele aqui vai- me dizer
+
+
+este que que tem estes vídeos como se não fossem
+meus, mas é mentira, é um falso positivo. Pronto,
+
+
+então aqui eh já não preciso mais do vídeos, eu
+vou fazer aqui o remove, OK? E demais, eu confirmo
+
+
+aqui. Eu confirmo aqui, eu vejo aqui o título dos
+vídeos e vejo, não, estes vídeos são meus. Pronto,
+
+
+não há perigo. Mas se aparecesse aqui um vídeo
+que eu não o não o identificasse, eu dizia: "E pá,
+
+
+este vídeo não é meu e está aqui por engano,
+ficou numa playlist minha e eu não quero. O
+
+
+YouTube permite-me, só que eu não quero. Eu tenho
+as minhas playlists que só podem ter vídeos meus.
+
+
+E depois tenho algumas outras playlists, essas
+sim, por exemplo, aqui a música. Pois, essas sim,
+
+
+pois naturalmente tem vídeos que não são
+meus. Ok, pronto, vamos seguir agora aqui
+
+
+number of vídeos by playlist. Pronto, aqui
+tenho aqui uma pequena e agora aqui temos
+
+
+aqui umas pequenas estatísticas. Pronto,
+agora vamos ter aqui uns gráficos. Pronto,
+
+
+não vamos alongar muito. Acho que isto também
+já foi mostrado nos meus outros tutorials. OK.
+
+
+É só para vocês terem uma ideia. Pronto, dá
+para fazer aqui uns gráficos engraçados, OK?
+
+
+E agora tenho aqui um uma tabela nova, uma eu
+fiz aqui um summary agora mais poderoso eh com
+
+
+que onde vai dar aqui várias estatísticas das
+minhas playlists. Pronto, que eu vos vou mostrar
+
+
+aqui. Vou fazer aqui um este pretty print de
+print data frame. Pronto, este aqui. Pronto,
+
+
+deixa aumentar aqui um bocadinho. Ok, então ah,
+pronto. Então aqui aqui tenho um summary e o que é
+
+
+que ele me mostra aqui? Tenho as minhas playlists,
+o total de vídeos, total views, views e a data
+
+
+de publicação, quando é que eu publiquei, quando
+é que a  playlist nasceu. Pronto. E aqui este
+
+
+playlist atual que eu tenho estado a trabalhar,
+o R programming, é mostra que está como uma boa
+
+
+pujança porque ela ela já tem aqui o aqui eu
+diria que a métrica aqui mais importante é de
+
+
+facto o Average Views, porque é que mostra quantos
+views em média tem cada vídeo da Playlist e, portanto,
+
+
+e neste momento já está em segundo lugar, o que
+é bastante bom porque esta playlist sendo bastante nova,
+
+
+ela só nasceu agora há dois meses como estamos
+aqui a ver, há há pouco mais de 2 meses, nasceu
+
+
+em fevereiro deste ano e ela já está em segundo
+lugar em média de views por vídeo, portanto, OK,
+
+
+eu estou satisfeito. Enfim, o meu canal é um canal
+pequenino, mas esta eu tenho está a ter
+
+
+um bom sucesso esta minha playlist dentro de
+enfim dentro do que é o panorama do meu canal.
+
+
+A minha playlist principal é o Infinyfactory,
+porque eu tenho muitos vídeos e já, mas também
+
+
+já tem muitos anos. nasceu em 2018. Pronto. Então,
+como estão a ver, nós podemos fazer estes quadros,
+
+
+podemos estudar o nosso canal ou outro canal
+também para eu aqui quando falo no meu canal
+
+
+também dá para estudar qualquer outro canal, OK?
+Porque a informação é pública, as playlists, um
+
+
+canal, o as, enfim, as playlists que sejam
+públicas. Um canal também tem playlists privadas,
+
+
+como nós sabemos, mas nós podemos estudar
+as playlists públicas de qualquer canal, OK?
+
+
+eh a informação que seja, eu agora não tenho agora
+aqui de cor toda a informação se é pública ou não,
+
+
+o total de views, etc, etc. Agora não quero estar
+a mentir, mas enfim, toda a informação que seja
+
+
+pública, pois pois pode ser estudada aqui com
+este meu código. OK? Pronto. Então, esta parte
+
+
+aqui que aqui é nova, esta tabela aqui é nova e é
+importante para mim, dá-me esta métrica. Eh, OK.
+
+
+E depois tenho tenho aqui Infinifactory Vídeos que
+eu vos falei no meu tutorial anterior que era um
+
+
+processamento específico que eu fazia só para esta
+minha playlist do Infinifactory, OK? Só que
+
+
+aparecia tudo misturado e agora aparece aqui só
+aparecia misturado com as outras playlists e agora
+
+
+aqui eu separei, isolei esta este processamento
+porque é um processamento específico só para
+
+
+esta minha playlist, que é uma playlist que que
+trata da de otimizar soluções do jogo e, portanto,
+
+
+eh e tem aqui um processamento específico onde
+extrai o número de blocos das minhas soluções
+
+
+do meu puzzle. Pronto. E, portanto, isto é uma
+coisa muito específica só para a playist Infinifactory
+
+
+Se quiserem, vejam os meus outros
+tutorials para entender o que é que eu estou
+
+
+aqui a fazer. E depois tenho a minha evolução de
+views, que é um gráfico que nós também que também
+
+
+já vimos, que eu vou correr aqui. Pronto. E aqui
+usa uma outra API, que também já vimos qual era a
+
+
+problemática de trabalhar com duas APIs ao mesmo
+tempo. Também já foi explicado e já vos mostrei
+
+
+qual é a solução. E aqui, como estão a ver, eu
+trabalho aqui de forma totalmente transparente,
+
+
+com duas APIs ao mesmo tempo, as duas APIs
+abertas, OK? E não tem qualquer problema.
+
+
+vos expliquei que os os HTTR tokens são
+guardados em subfolders diferentes e, portanto,
+
+
+aqui faz um um gráfico, também já vos mostrei nos
+meus outros tutorials, onde mostra e como é que
+
+
+está a ver o andamento do meu número de vídeos
+do meu canal relativamente às views. Portanto,
+
+
+os vídeos é o cumulativo uploads de vídeos é os é
+o laranja. Eu tenho subido agora bastantes vídeos
+
+
+ultimamente e as views. Obviamente que o
+declive, quanto maior for o declive aqui azul,
+
+
+pois é o indicativo que tem estado a haver
+mais views. OK, mas naturalmente que é normal,
+
+
+é compreensível que o declive também aumenta. Se
+se eu aumentar o o número de vídeos, como é óbvio,
+
+
+quantos mais vídeos tenho, pois naturalmente
+também mais à partida mais views haverá.
+
+
+Pronto. Aqui o importante é que o importante é que
+é o azul. O azul eu interessa-me que o azul cresça
+
+
+com um declive cada vez maior, como é óbvio.
+Mas pronto, isto vale o que vale. Enfim, isto
+
+
+eh eventualmente aqui qualquer dia eu começo-lhe
+a truncar aqui os anos mais antigos deixam de
+
+
+ter interesse e depois se calhar interessa-me é
+estudar isto numa janela aqui mais recente. OK?
+
+
+Mas pronto, isso é só para vocês ficarem com uma
+ideia de coisas que se podem fazer e e dar-vos
+
+
+inspiração, OK? E agora então vamos trabalhar com
+a parte propriamente nova que é que é deste deste
+
+
+tutorial que são as captions, as legendas.
+Pronto. Então aqui nós temos aqui, pronto,
+
+
+eu vou, vamos ver isto rapidamente que é como
+vos digo, porque depois o código vocês podem ver,
+
+
+eu vou partilhar o código. Pronto. E nós vamos ver
+aqui, portanto isto vai ser rápido. Eu tenho aqui,
+
+
+eu aqui ponho o a playlist, eu aqui organizei
+aqui o meu código por forma a que eu consiga
+
+
+correr o código a partir daqui, sem vocês
+terem que correr absolutamente nada para trás,
+
+
+exceptuando aqui a parte da autenticação. parte da
+autenticação que vocês têm que se autenticar eh
+
+
+para usarem a API, a API do Tuber, OK? do package
+Tuber. Mas tirando essa parte de autenticação,
+
+
+eu preparei o código por forma que todas estas
+funções sejam independentes. E, portanto,
+
+
+por isso é que tem aqui o vocês têm que pôr aqui
+o o código, porque eu aqui eu poderia aceder a
+
+
+uma das minhas ao código da playlist que está
+aqui na vista das minhas playlists. Eu tenho
+
+
+aqui as minhas playlists e eu poderia pegar aqui
+num código de uma playlist que está no data frame,
+
+
+que era o que eu tinha aqui nesta linha comentada
+e e eu punha. Pronto. Mas eu quis vos chamar a
+
+
+atenção de que vocês podem ir ao YouTube e copiar
+manualmente um o código de uma key de uma
+
+
+playlist e vocês metem aqui a playlist e pronto
+e funciona. Porque é para vos chamar a atenção
+
+
+que desta forma fica independente todo este
+código de de quaisquer outros data frames que
+
+
+vocês tenham para trás, não precisam deles. OK?
+Pronto. Eh, não sei se me explico. Pronto. Aliás,
+
+
+eu até vou fazer mais. Eu até vou limpar
+limpar isto tudo para vocês. Limpar não,
+
+
+as funções não posso limpá-las. Eh, porque
+que as funções aqui eu eu preciso delas.
+
+
+Pronto, pronto. Não vou, não vou, não, pronto, não
+vou limpar agora tudo. Poderia limpar e depois era
+
+
+só carregar aqui as funções. Bom, as funções, sim,
+as pessoas precisam de autenticar-se e precisam de
+
+
+carregar as funções, estão aqui a ser chamadas.
+OK, mas vamos seguir. Ora, captions. Agora eu
+
+
+vou vou buscar as legendas da... com licença,
+as legendas da minha playist. OK. Pronto.
+
+
+Pronto. Que é o que ele está agora a aceder.
+
+
+Então, a minha playlist tem 15 vídeos e tem 30
+legendas. Como é que pode ser 30 legendas? Vamos
+
+
+ver aqui o data frame, onde é que isto está. R
+programming captions. R programming captions. Está
+
+
+aqui. Bom, a questão é que ele tem as legendas, as
+autogenerated, que são estas aqui, o tipo ASR, eh,
+
+
+que está para aí alguras, o que é que significa
+a sigla. E depois tem que eu já corrigi,
+
+
+deixa-me ordenar aqui por video. Eu
+já as corrigi e portanto ele ganha uma nova
+
+
+legenda que é legenda standard, que é legenda
+corrigida pelo utilizador ou ou porque a pessoa
+
+
+tenha feito um upload da legenda, etc, etc.
+Pronto. E então agora ele tem várias legendas,
+
+
+tem as automáticas e tem as as standard que eu que
+eu as corrigi. Pronto, basicamente é isso. E tem
+
+
+a linguagem que é são legendas em português,
+OK? E tem aqui um ID da legenda. Pronto. OK.
+
+
+E agora o que é que eu vou fazer mais? Agora
+eu digo, OK, então eu tenho as legendas,
+
+
+agora eu quero os vídeos. Mais uma vez digo, os
+vídeos eu já os tinha aqui, mas só que eu eu quis
+
+
+independentizar isto e, portanto, eu eu vou voltar
+a aceder aos vídeos desta minha playlist. Pronto,
+
+
+porque eu eu quis tornar isto independente.
+Eu até eu num dado momento pensei fazer um
+
+
+script independente, seria o YouTube 2. Pronto,
+seria uma hipótese. E para tornar totalmente
+
+
+independente da parte de trás, mas depois
+acabou por ficar aqui tudo junto. Pronto,
+
+
+mas portanto eu aqui vai voltar a aceder aos
+meus vídeos rprogramming. Vocês estão a ver aqui
+
+
+que isto nós já tínhamos acedido a isto. Pronto.
+Então tenho aqui e agora eu vou tenho que fazer
+
+
+um merge. Eu quero um merge porque eu tenho 15
+vídeos e informação dos vídeos com as views, etc,
+
+
+etc. E eu quero fazer um merge para cada vídeo.
+Qual a legenda que lhe corresponde. OK? Mas pode,
+
+
+mas um vídeo pode fazer matching com uma ou duas
+legendas. Neste caso vai fazer matching com duas,
+
+
+porque eu tenho duas legendas já para cada vídeo.
+Mas quando eu ainda não tinha corrigido todas as
+
+
+minhas legendas, tinha vídeos que só fazia
+matching com um. E então eu fiz uma função
+
+
+que diz assim: "OK, ele vai fazer matching,
+mas se ele fizer matching com duas legendas,
+
+
+eu vou escolher das duas qual quero". E então lá
+no meu código, depois vocês vejam isso. Vejam o
+
+
+código quando baixarem aqui o projeto do GitHub.
+Depois vocês vão lá estudar o código. Eu vou
+
+
+fazer matchin e vou dizer, no caso de haver
+duas legendas, duas ou mais, vai-me buscar,
+
+
+aproveita-me a legenda standard do tipo standard.
+OK? Pronto, eu tive que lhe dar a prioridade e OK,
+
+
+então ele dá a prioridade à legenda standard, que
+é aquela que já está corrigida. Pronto. Então é o
+
+
+que eu vou fazer agora. Eu vou fazer aqui o merge.
+Pronto, já fiz o merge. E o merge é o que ele ele
+
+
+simplesmente enriquece a informação e coloca novos
+campos aqui no meu data frame do rprogramming,
+
+
+que é o que vamos ver aqui. Então o rprogramming
+aqui ele tem toda a informação que já tinha, os
+
+
+views, o vídeo thumbnail e agora acrescentou-lhe aqui
+no fim informação das legendas. acrescentou-lhe o
+
+
+caption ID, que é o código da legenda, a linguagem
+da legenda em português e o tipo de legenda
+
+
+standard. OK? Eu aqui consigo checar que todas as
+minhas legendas já foram corrigidas. Isto também é
+
+
+importante para vocês. Se vocês têm um canal e se
+vocês querem corrigir as legendas, num dado momento
+
+
+vocês podem a todo momento acompanhar e saber
+quantas legendas já foram corrigidas e e quantas
+
+
+ainda estão por corrigir. OK? Não sei se me
+explico. Isto para mim, pelo menos, está bastante
+
+
+poderoso e é bastante útil para mim, porque eu
+aqui vejo e consigo aferir e ir acompanhando
+
+
+a qualidade de toda a minha playlist. OK?
+Pronto. Então é o que temos aqui. E agora tenho
+
+
+aqui um plot thumbnails, que é uma brincadeira que eu
+também fiz, já vos tinha mostrado, que ele vai
+
+
+fazer o download de todas as imagens que ele está
+aqui a fazer. E depois mostra-me aqui um mostra-me
+
+
+aqui este este quadro. Eh, oi, não, este aqui
+onde ele eh mostra-me aqui um panorama de todos os
+
+
+meus pósters. Eu posso ver aqui os meus pósters.
+Eh, tenho, por exemplo, aqui um póster recente.
+
+
+Tem piada que este aqui eu já o atualizei e ele
+não mostrou porquê. Deve estar na cache ou não
+
+
+foi? Ah, não, não foi este não, não. Eu atualizei.
+Foi o e este aqui foi o our world in data. OK.
+
+
+Este, eu a tua avisar, tá? Alguns pósters que
+não, deixa-me aumentar aqui. Ok, pronto. Eh,
+
+
+e portanto eu aqui tenho uma um panorama
+dos meus posters e eu posso decidir e dizer:
+
+
+"E pá, estes não gosto destes ou estes
+estão com um design que está a ficar um
+
+
+bocadinho um bocadinho simplório e eu quero
+atualizar, etc, etc, etc." É engraçado. OK.
+
+
+Eh, portanto, depois eu tenho aqui um exemplo
+de uma outra playlist para ver vocês verem que
+
+
+também podemos atacar qualquer outra playlist,
+OK? Para vocês verem, não é, não é só a minha,
+
+
+não vai ser só a vossa. E, portanto, eu vou vou
+fazer aqui um exemplo só para vocês verem que
+
+
+isto funciona com outra playlist. Neste caso, fui
+ao canal Pixarroma. Eu não se não sei se já vos
+
+
+apresentei o Pixaroma, mas o Pixaroma, bom, se
+não vos apresentei, tem aqui o código da playlist.
+
+
+O Pixaroma, portanto, é um canal muito
+importante que que é dedicado ao ConfyUI que
+
+
+é o produto que vocês podem usar com modelos de
+inteligência artificial local generativo para
+
+
+gerarem e imagens, vídeos, text to speak,
+etc, etc, etc. Pronto. E então, eh, aqui também
+
+
+podem aceder ao captions. por exemplo,
+aqui, vamos ver aqui, Pixaroma Captions,
+
+
+OK? Ele tem 13 vídeos e 13 captions. Eh, Pixaroma Captions, está aqui. Mas ele aqui ele não
+
+
+corrigiu nenhuma legenda. Ele ele ele confia na
+na qualidade de das legendas autogeneradas e,
+
+
+portanto, ele apenas tem as legendas automáticas.
+Tem legendas automáticas em inglês. OK. Sim,
+
+
+senhor. E agora vamos buscar aqui os vídeos.
+OK. Ele já tem 13 vídeos nesta sua playlist. Eh,
+
+
+e agora faço aqui um merge. Como vêem, é igual,
+funciona tudo por igual. E agora posso fazer
+
+
+aqui o plot thumbnails para mostrar os thumbnails
+do canal dele. Cá está. E ele tem aqui este
+
+
+estes os vídeos que são e dedicados ao confyUI, É um tutorial de 
+confyUI. Isto é só para vocês verem. Portanto,
+
+
+que isto funciona com qualquer, não é
+só com as nossas coisas. OK? Pronto. Eh,
+
+
+então agora que eu já tenho a lista de de todos
+dos meus vídeos e com os IDs do das minhas captions,
+
+
+eu vou fazer o download das legendas propriamente
+ditas, que é o get captions, onde eu passo-lhe um
+
+
+data frame, que é o dataframe  rprogramming,
+o qual lá tem o campo, o rprogramming,
+
+
+ele tem lá o campo do caption ID, que é este. E,
+portanto, ele com este caption ID, ele vai fazer
+
+
+aqui um vetor. A, e esse vetor vai conter as
+legendas, todas as legendagens. OK. Pronto. OK.
+
+
+OK. E ele já downlodou. Se vocês fizerem isto
+repetidamente, é possível que comecem a receber
+
+
+algum warning de de da API a dizer que vocês
+estão a fazer uma utilização intensiva da API.
+
+
+às vezes as APIs não gostam porque isto é free. E,
+portanto, e vocês começarem a baixar uma centena
+
+
+de neste caso
+de legendas. Eh, portanto, não se admirem se
+
+
+começarem a receber alguns warnings ou num dado
+momento serem barrados, porque estamos a usar isto
+
+
+na versão free e, portanto, tem que ter cuidado.
+Neste caso, ele não me deu warning nenhum, que
+
+
+eu eu baixei apenas 15 legendas e eu tenho aqui
+informação as captions, vamos ver aqui que ele está
+
+
+aqui que diz que é um large character e ele baixou
+um vetor de 15 agendas. E eu posso vos mostrar,
+
+
+por exemplo, vamos lhe, vou-vos mostrar aqui uma
+das agendas, por exemplo, captions. Captions,
+
+
+o número um, por exemplo, a primeira legenda
+eh de todas. Cá está. Ora, sejam bem-vindos
+
+
+ao meu primeiro tutorial dedicado à linguagem
+R, etc, etc, etc. E, e, portanto, como vêem,
+
+
+nós temos aqui as legendas, está espetacular. E
+vocês fazem um download massivo das legendas de
+
+
+qualquer video. Não sei se neste momento já vocês
+se começam a aperceber do tremendo poderio que nós
+
+
+estamos aqui a a trabalhar, porque vocês podem
+aceder à legendagem massiva de qualquer playlist
+
+
+com dezenas ou centenas de vídeos. E vocês agora
+a seguir, usando a inteligência artificial,
+
+
+podem sumarizar, que é o que nós vamos fazer,
+dentro da sumarização, eh, a sumarização será ao
+
+
+nível de detalhe que vocês pedirem na prompt,
+maior ou menor, OK? Que é o que nós vamos ver
+
+
+agora. Pronto. E eu agora eu vou-lhe pedir, vou
+preparar aqui uma prompt, que é o que eu vou,
+
+
+que eu vou pedir agora ao modelo de inteligência
+artificial. E a prompt é esta que aqui está.
+
+
+A prompt que está aqui está aqui. Give me the main
+topics of the following text in portuguese with no
+
+
+more than 10 topics. Portanto, eu quero um que
+eu me dê um faça-me um sumário em 10 tópicos,
+
+
+no máximo até 10 tópicos. Eh, como não preciso
+de título e quero que me formates, o resultado
+
+
+as a numbered list. OK. Eh, sim, senhor. Eu vou
+pôr aqui quanto quantas legendas eu tenho. OK. N,
+
+
+15 legendas. E agora vou preparar. Eu agora vou
+atacar o meu modelo local, o qwen qwen vector, OK?
+
+
+que eu vou pôr aqui. Pronto, eu até vou vou atacar
+e OK, o Qwen Vector primeiro, porque vamos atacar
+
+
+aqui dois, um modelo local e um modelo na web,
+que é o Gemini. E também estava aqui preparado
+
+
+para ir ao modelo local do Gemma, mas eu baixei um
+um Gemma 4 bastante grande. Eu fiz mal e ele não me
+
+
+cabe na gráfica e, portanto, ele é um bocado lento
+e pronto, eu agora deixei-o aqui comentado. Bom,
+
+
+agora eu vou vou buscar aqui o LM Studio para
+carregar o modelo local. Isto também são tópicos
+
+
+que eu já vos tinha falado. Onde é que eu tenho
+isto aqui. Ora, eu vou carregar aqui o LM Studio.
+
+
+Ora, deixa puxar aqui o LM Studio
+para aqui para vocês verem. Pronto,
+
+
+eu vou aqui e eu vou carregar aqui um
+modelo. Vou carregar aqui. Cá está que
+
+
+eu já tenho aqui dois, o Qwen e o Gemma
+4. Eu vou carregar aqui o Qwen. OK.
+
+
+Eh, OK.
+
+
+OK. E, portanto, agora vocês já estão a ver o
+que é que vai acontecer. Portanto, eu vou agora
+
+
+fazer um loop e vou passar cada uma das legendas
+aqui ao meu modelo local para ele sumarizar. OK?
+
+
+Pronto. Então, como é que eu faço isso? E além
+disso, eu vou eu que eu quero medir o tempo e,
+
+
+portanto, eu vou fazer aqui um qwen elapsed time e
+vou pôr aqui debaixo de um system time. Há várias
+
+
+maneiras de fazer isto. Esta é uma das maneiras,
+ou seja, de medir, fazer um benchmark para para
+
+
+medir quanto o tempo demora uma função. OK?
+E também poderia submeter isto em background.
+
+
+Nunca fiz isso e apareceria aqui como um
+job aqui em background jobs. OK, pronto,
+
+
+não vamos fazer isso agora, mas isto isso é
+simples. Vocês selecionam um pedaço de código
+
+
+e vão aqui num dos menus aqui e e mandam submeter.
+então e o que é que eu tenho agora aqui? Vou
+
+
+fazer um loop e vou aqui e vou e vou preparar aqui
+um vetor que vai ter a resposta e vai ter aqui
+
+
+gemini concatena o vetor gemini com o resultado
+que me vai dar de minifunctions. Ai não é este,
+
+
+é este aqui igual que é o primeiro. O resultado
+minifunctions::lmstudio. E vou lhe passar a
+
+
+prompt. E a prompt o que é a prompt é uma
+concatenação. Prompt com captions. Ok.
+
+
+Eh, lembram-se que há bocado eu vos falei do
+tamanho da prompt? Pronto, mas ela aqui cabe,
+
+
+porque a prompt, apesar de ser grande,
+umas legendas completas, por acaso coube. OK.
+
+
+Eh, mas poderia dar-se o caso de não caber e
+ter que passar as legendas como attachment, mas
+
+
+ele ele aqui coube. Pronto, não me deu problema
+e os resultados são satisfatórios que ele me deu.
+
+
+Pronto. E e portanto eu aqui vou concatenando um
+vetor de respostas e vou fazendo aqui um vetor.
+
+
+Eu tenho um vetor das legendas e vou obter um vetor
+de respostas com o summary e e estou a encapsular
+
+
+tudo isto aqui no system time, que é por forma e me dar
+o timing. Bom, vamos executar isto aqui. Pronto,
+
+
+cá está. Ele está a fazer o pedido. Olhem, ele
+aqui está a processar. Cá está o pedido. Está a ir
+
+
+aqui à minha máquina local. Pronto. E ele agora
+está a processar. Vamos aguardar aqui a primeira
+
+
+resposta que ela há-de estar aqui a chegar. Pronto. Eh,
+e depois eu vou abortar para não estarmos aqui à
+
+
+espera. Ou então teria que fazer uma pausa, mas eu
+vou abortar. Vocês acreditam que isto funciona.
+
+
+E depois eu tenho aqui um resultado que eu que
+eu Olha, cá está. Ele já tem aqui a primeira.
+
+
+Reparem aqui que está, está bastante satisfatório.
+Eu dá-me aqui um summary de toda a legendagem.
+
+
+Agora vocês dizem assim: "Bom, mas eu estou a
+passar as legendas. Eu também podia passar o vídeo
+
+
+sem as legendas. É possível. Eu posso ir a uma
+inteligência artificial, mas tem que ser o Gemini.
+
+
+Porque porque porque as outras, por exemplo, o
+chat GPT não, como já vos expliquei, não é capaz
+
+
+de ir buscar um summary de um vídeo do YouTube
+porque o YouTube é da Google e provavelmente a
+
+
+Google tem isso barrado. Mas, portanto, através de
+um Gemini, eu aqui para dar atacar com um link de
+
+
+um YouTube, eu não poderia, eu não posso usar
+um modelo local, eu tenho que usar um modelo,
+
+
+o Gemini, para lhe passar, porque que aí sim ele é
+capaz de analisar um vídeo de YouTube. OK? Mas eh
+
+
+depois pode acontecer aquilo que que já vos falei,
+que é na versão free eu esgoto os meus créditos e,
+
+
+portanto, não lhe consigo mandar analisar
+eventualmente 15 vídeos de tacada. OK? Eh,
+
+
+e portanto por isso é que eu tenho aqui
+esta solução, porque eu com esta solução,
+
+
+com as legendas, eu consigo analisar os os 15
+vídeos. Olha, cá está. Ele já comutou aqui,
+
+
+agora já passou para o segundo vídeo e assim
+sucessivamente. E ele vai concatenando aqui
+
+
+no no vetor do Qwen. Eh, neste caso, o qwen, onde é
+que ele está? Ele ele aqui ainda aparece aqui como
+
+
+como empty, mas ele não está empty porque ele está
+aqui dentro. OK. Pronto. E agora vamos fazer aqui
+
+
+vou fazer aqui talvez um stop. Pronto, eu vou
+fazer aqui um stop. Pronto, vocês confiam que
+
+
+isto resulta. Eu vou fazer aqui um stop. Pronto.
+Eh, pronto. E vocês confiam que eu que eu corri
+
+
+isto e depois vocês podem correr na vossa máquina.
+Pronto. E ele dá ele dá-me aí vários minutos. É,
+
+
+eu demora aqui três ou 4 minutos para fazer isto.
+Pronto. E depois fazemos o mesmo com o Gemini.
+
+
+Eu faço outro vetor e o Gemini é mais rápido,
+obviamente vai via web, mas claro que o Gemini
+
+
+é sempre mais rápido usar uma inteligência
+artificial. Eu tenho um computador poderoso,
+
+
+mas não é nenhum supercomputador, como é óbvio,
+e portanto é mais lento do que usar o Gemini.
+
+
+E no fim eu monto essas duas, esses dois
+dataframes, esses dois vetores, digo, e vou-lhes
+
+
+fazer aqui um data frame onde ponho o o os links
+para os tumbnails e juntamente com as duas colunas
+
+
+que que é os summaries que ele devolveu, estes
+summaries que devolveu para os meus dos meus
+
+
+vídeos. e eu faço-lhe um dataframe report e
+depois eu faço um print data frame. E agora
+
+
+aparece aqui uma novidade que eu fiz no print
+data frame, que é o expand image true, ou seja,
+
+
+que quando eu tenho um link para uma imagem, se eu
+quiser digo-lhe: "Olha, eu quero o link da imagem,
+
+
+mas que eu não quero que apareça o link, eu
+quero é que apareça a imagem propriamente dita,
+
+
+que faças o download da imagem". Pronto. E é o que
+ele faz. E depois eu já o salvei. Eu tenho o fiz o
+
+
+datafame e depois o datafame aparece aqui. Eu fiz
+save as  e guardei-o aqui. E depois que vai vos
+
+
+aparecer quando vocês fizerem o download deste
+projeto, que é o que está aqui, o report aqui. Eu
+
+
+vou abrir aqui view em web browser. Pronto. Então
+eu tenho aqui que isto é o que vos vai aparecer.
+
+
+E este é, e como estão a ver aqui o poderio
+disto que eu tenho aqui. Eh, portanto,
+
+
+aqui tenho os meus vídeos. Cá estão eles. E para
+cada um deles eu tenho um summary dos tópicos. E,
+
+
+portanto, vocês já estão a ver o poderio que isto
+tem, porque aqui eu aqui posso pesquisar eh se eu
+
+
+já não me recordo em que vídeo é que eu tratei um
+de um determinado tópico. OK? Imaginem que eu já
+
+
+não me lembrava. Vamos fazer aqui um teste, não é?
+O Steam, deixa ver aqui. Pronto, qualquer coisa.
+
+
+Exportify, o stata, Jason. Pronto, vocês faziam
+aqui um find, qualquer coisa. Eh, pronto. E aqui
+
+
+tem um summary. Imaginem, não é? Vocês querem,
+imaginem que têm uma centena de vídeos para
+
+
+analisar, podem ser podcasts, pode ser qualquer
+coisa. E vocês estão à procura dos tópicos e vocês
+
+
+querem um summary dos tópicos, não é? Pronto. Uma
+coisa é dar ao Gemini um vídeo isolado e outra
+
+
+coisa é obter uma listagem massiva de uma playlist
+completa, que é o que eu tenho aqui. Neste caso,
+
+
+eu tratei desta maneira, mas imaginem, vocês
+podem tratar de outras maneiras. Podiam pegar nos
+
+
+sumaries todos e fazer apenas um texto, produzir
+um produzir um documento concatenado já com os
+
+
+summaries todos. OK? Eu, neste caso, produzi aqui
+este dataframe, mas vocês podem produzir um outro
+
+
+tipo de informação, poderiam exportar para um
+PDF, etc, etc, etc. Pronto, a minha ideia é é
+
+
+dar-vos inspiração para vocês h fazerem depois
+e processarem informação massiva e produzirem
+
+
+depois a informação da da da do formato que vocês
+queiram. Pronto. Eh, então, finalmente, estamos
+
+
+quase a acabar o tutorial. Eu vou apenas atualizar
+aqui o GitHub, já agora. Pronto, eu vou vamos
+
+
+atualizar. Pronto, isto chegou ao fim. Eu vou
+fechar aqui o código. Eh, e agora vamos atualizar
+
+
+o GitHub e o GitHub aqui o projeto. Eu aqui não vos
+expliquei como fazer um projeto aqui no RStudio.
+
+
+Pronto, isso deixo para vocês perguntem no chat
+GPT ou vão à procura de outros tutorials. Pronto,
+
+
+porque o este tutorial já vai com 1 hora
+e meia. Pronto, não dá para explicar tudo,
+
+
+obviamente isto, mas como isto são tópicos mais
+comuns, como fazer um projeto no R Studio, como se
+
+
+como se como integrar com GitHub, etc, etc, são
+coisas mais generalistas, vocês com facilidade
+
+
+encontrarão informação. Portanto, eu aqui vou só
+fazer aqui eh o o commit e e atualizar aqui isto
+
+
+no GitHub. Eu não tenho a certeza se tenho que
+selecionar aqui isto tudo ou sim. Eu eu não tenho
+
+
+muita experiência disto, mas vou deixa-me fazer
+assim. Não sei se se tem que ser se eu tenho que
+
+
+fazer isto ou não. Pronto. E agora tenho que fazer
+aqui um commit. OK. Pronto. E agora tenho que
+
+
+fazer aqui uma nova escrever aqui um descritivo.
+OK. Então vou vou fazer aqui eh OK. atualização.
+
+
+Eh, atualiza
+
+
+atualização no dia do tutorial.
+
+
+Pronto, qualquer coisa. Vou dar commit.
+
+
+OK, correu bem. E agora um
+push. Vou fazer um push. Ok,
+
+
+pronto. Então, penso que esta essa parte já
+está. Vamos aqui ao GitHub. Vamos aqui ao GitHub.
+
+
+Fechar isto aqui. Fechar isto
+aqui. Ora, vamos aqui ao GitHub.
+
+
+Ora, YouTube.
+
+
+Ora, atualização no dia do tutorial. OK,
+já está. Pronto, então aqui está está tudo,
+
+
+Está o projeto inteiro, tem aqui o código todo.
+OK. E já agora vou atualizar também os meus dois
+
+
+packages. Deixa comutar aqui de projeto. Vamos
+aqui para o minifunctions. Vou-vos mostrar só por
+
+
+curiosidade uma compilação aqui do de um package,
+um build, como é que é feito. OK. Eh, já agora
+
+
+vou fazer aqui na description, vou atualizar
+aqui a versão. Vou dizer que isto é a versão 4
+
+
+aqui. Vou dizer que é a versão 1.1,
+
+
+OK? 1.1.
+
+
+Eh, aqui eu tenho aqui há aqui uma checagem
+que normalmente é recomendável fazer,
+
+
+que é uma uma checagem de qualidade,
+de controle de qualidade. Portanto,
+
+
+se houver aqui warnings, algum tipo de warnings
+
+
+enfim, coisas diversas ou faltam ou falta
+documentação de parâmetros de funções,
+
+
+coisas desse tipo. Pronto, isto é só um uma vista
+de olhos rápido. Não, não, não vamos, isto seria
+
+
+tópico para um outro tutorial como fazer pacotes.
+OK? Isto é só para vocês darem uma vista de olhos.
+
+
+Bom, ela agora decidiu decidiu
+ser aqui um bocado lento.
+
+
+Não sei se dá para fazer o install
+enquanto abortar isto. Enfim,
+
+
+isto é aquela lei de Murphy que
+vocês, eu passo a vida a fazer isto.
+
+
+E agora ele agora decidiu ser um
+bocado lento, não sei porquê.
+
+
+Ora lá passou. Enfim.
+
+
+OK. Isto era só para vos mostrar. Pronto, pessoas
+que alguns de vocês nunca tenham visto isto na
+
+
+vida, só para vos mostrar aqui. Eh, normalmente
+quem quem quem tem um quem faz packages como eu,
+
+
+isto aqui é um erro, mas é um falso positivo.
+Ele tem aqui uma nota, a nota, a nota,
+
+
+qual é a nota? Unable to verify current time
+stamp. Bom, vou largar isso agora que não
+
+
+interessa. Pronto. E depois fazemos o install
+propriamente dito. É onde ele faz o o build.
+
+
+O install é que é a compilação propriamente
+dita. OK? neste caso, na minha máquina local,
+
+
+onde ele vai eh compilar a nova versão.
+Pronto. E depois ele faz aqui um teste,
+
+
+ele carrega, carrega com sucesso. Pronto,
+está feito. Pronto. Então vamos aqui ao
+
+
+GitHub. Mais uma vez vou fazer aqui commit
+para subir a última versão no GitHub.
+
+
+Ora, commit.
+
+
+Qual era a versão que eu fiz? Deixa
+ver aqui no description. Portanto,
+
+
+eu fiz a a version 10. OK. Vou pôr aqui o
+descritivo. Version 1.1.0 Commit. OK. Push.
+
+
+Close. OK. E finalmente vamos terminar no meu
+outro package. Pronto, isto é para garantir que
+
+
+vocês têm tudo completamente atualizado, quer o
+código do tutorial, quer os meus dois packages
+
+
+para que vocês possam acompanhar, quer este
+tutorial, quer todos os meus outros tutoriais
+
+
+anteriores com mais facilidade, embora nos nos
+tutorials anteriores eu não o código não não está
+
+
+no GitHub, mas pelo menos estes dois packages estão,
+que é importante que ajuda ajuda a a acompanhar
+
+
+os tutoriais. Ora, deixa-me ir aqui ao código, ao
+description. Que é que eu tenho aqui? 0.1.8. Bom,
+
+
+eu vou eu vou pôr aqui também 1.1.0. Pronto, isto
+não interessa nada. Eu ponho o que eu quiser.
+
+
+Pronto, 1.1.0. Estão a ver aqui a quantidade
+de packages que eu que ou seja, que este
+
+
+meu package ele invoca e usa. Pronto, isto é o
+que vos vai acontecer quando vocês instalarem o
+
+
+meu package xfunctions, pois ele vai vos, ele vai vos dizer que precisa de instalar todos estes
+
+
+packages. São tudo packages oficiais. No qualquer
+deles vocês podem investigar se quiserem. podem
+
+
+dar uma vista de eh pesquisar no no Google o que
+é que eles fazem na na no repositório oficial
+
+
+do CRAN podem podem ver e enfim eh tem pano para
+mangas para vocês investigarem tudo. Estes todos
+
+
+estes packages são packages oficiais, OK? Não há aqui
+nada meu, não há aqui mais nada meu, pessoal. Ora
+
+
+1.1.0 , está OK? Deixa fechar aqui. Pronto,
+agora vou vou vou correr aqui o um build.
+
+
+OK.
+
+
+Vou correr aqui o build.
+
+
+OK, correu bem. Ora, e
+portanto vamos então ao GitHub actualizar
+
+
+commit
+
+
+description 1.1.0. Aqui vou pôr version 1.1.0 commit.
+
+
+OK. Push.
+
+
+E estamos prestes a terminar o tutorial.
+Deixa-me ver aqui a nível de tópicos,
+
+
+já foi tudo falado. Fazer gits, commits e push
+das das funções, fazer um git comit e push deste
+
+
+projeto. E pronto, chegamos ao fim. Acabou por ser
+um bocado mais longo do que do que eu esperava,
+
+
+do que é costume, mas pronto, este também
+foi um marco importante, como vocês viram,
+
+
+foi um tutorial. Eu espero que tenha bastante
+sucesso, porque aqui demos um passo mais além
+
+
+a nível de qualidade, como vocês viram, a partir
+de agora eu vou passar a partilhar todo o código
+
+
+dos meus tutorials no GitHub. Portanto, eh demos um
+passo realmente de qualidade. As legendagens vão
+
+
+estar a passar a ser todas corrigidas, como
+já foram, e este vídeo também. E portanto,
+
+
+e pronto, não deixem de ver todos os meus outros
+tutorials anteriores. Eh, espero que que corra
+
+
+tudo bem quando vocês baixarem e reproduzam este
+vosso este código, se quiserem, no nas vossas
+
+
+instalações locais de RStudio. e despeço-me
+até uma próxima oportunidade e obrigado.
+
+

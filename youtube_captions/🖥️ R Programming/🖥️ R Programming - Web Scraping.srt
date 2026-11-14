@@ -1,0 +1,2263 @@
+
+Ora, sejam bem-vindos a mais um tutorial de
+programação em R com RStudio. Hoje vai ser
+
+
+dedicado finalmente ao tema web scraping puro
+e duro propriamente dito. Eu já vos tinha
+
+
+dito que ainda nunca nunca tinha calhado
+ter ter feito algum tutorial nesta área,
+
+
+porque não tinha calhado. E mas também
+vos tinha dito que é sempre preferível
+
+
+usar APIs. Se nós quisermos aceder a informação de uma
+determinada plataforma, desde que exista APIs,
+
+
+é sempre mais robusto, um processo mais robusto,
+mais fiável. OK? E o web scraping é limitado porque
+
+
+o web scraping, um site que tenha autenticação
+ou um site cuja informação seja dinâmica,
+
+
+eh pode ser bastante complicado
+aceder a essa informação. Hoje
+
+
+vamos aceder a um site bem simples que 
+tem informação está bem visível. Portanto,
+
+
+nós e olhando para o código HTML da das páginas,
+vamos ter ali toda a informação disponível.
+
+
+E, portanto, quando é assim, pois é
+mais fácil, não é? Ora, vamos então,
+
+
+tenho este projeto aqui que irei subir, irei
+subir para o meu GitHub, OK? Projeto web scraping.
+
+
+OK.
+
+
+Ora, temos aqui uma configuração normal que vocês
+também já estão familiarizados, onde eu tenho aqui
+
+
+um setup, já vos expliquei nos outros tutorials,
+faz a orquestração aqui do meu projeto, quer seja
+
+
+um projeto simples, quer seja um package,
+mas eh se for um package é mais complicado,
+
+
+tem mais diretrizes para colocar aqui, porque
+posso ter que usar, por exemplo, o .buildignore
+
+
+da linguagem R, por exemplo. Pronto. Enquanto
+que se for um projeto simples, eh, é mais é é mais
+
+
+é mais simples, não tem não tem tantas diretrizes.
+Eu aqui apenas tive que fazer o o Git para usar
+
+
+o Git, use GitHub. Eh, pronto, tive que fazer
+estas instruções. Pronto, esta parte aqui já vos
+
+
+mostrei, já vos mostrei noutros tutorials. Se eu  quiser arrancar o Claude code neste projeto, não
+
+
+é o caso. Eu não não costumo usar Claude code. Ora,
+e pronto, esta parte já vos já vos falei noutros
+
+
+tutorials. Não deixem de ver os meus outros
+tutorials, porque isto tem tudo um seguimento.
+
+
+Também vos recomendo que vejam sempre os meus
+tutorials num monitor grande, de preferência
+
+
+de 4K de resolução, que é a mesma resolução com
+que eu estou a a gravar este vídeo. OK? Ora bem,
+
+
+então o que é que nós vamos ter aqui? Vamos ter
+aqui, portanto, o normal. Vocês já conhecem a
+
+
+minha filosofia de trabalho. Eu tenho, vou
+ter aqui o script principal e depois tenho
+
+
+um script aqui com funções. Se bem que aqui só só
+houve uma funçãozinha pequenina que eu precisei
+
+
+de colocar aqui, que já vamos ver. O resto é o
+normal. Esta parte aqui, penso que vocês também
+
+
+já estão cansados de saber para que é que serve.
+Agora quando estamos a trabalhar aqui num projeto,
+
+
+nem precisamos praticamente de nada disto
+porque o set current working directory nós
+
+
+não precisamos porque ao trabalhar num
+projeto e portanto ele o RStudio pois
+
+
+já me posicionou aqui automaticamente
+na curent folder que é devida. OK?
+
+
+Portanto, aqui não não há mais nada de especial
+aqui a dizer. Pronto, o resto aqui vai limpar
+
+
+o environ, etc, etc, limpar a consola. São as
+coisas que vocês já estão cansados de ver. Eh,
+
+
+portanto, mas apesar disto não ser necessário, eu
+por norma ponho sempre aqui. Às vezes, de repente,
+
+
+quando estou a desenvolver aqui algum código,
+de repente aparece um package novo que eu quero
+
+
+experimentar. Portanto, eu chego aqui na minha
+função Xlibrary e coloco o package ou repito este
+
+
+este setting todo para para o novo package. Coloco
+ali o package, ele será instalado, automaticamente
+
+
+vai mostrar o Help, etc, etc. Pronto, penso que
+isto já são coisas que já estamos cansados de ver.
+
+
+Pronto. Portanto, aqui não não preciso
+de correr isto. Eh, OK. Vamos então,
+
+
+posso arrancar a partir daqui. OK, já carreguei
+aqui a minha função. Ora bem, então eh este o
+
+
+que vamos ver hoje resultou de um pedido que uma
+pessoa amiga minha me fez e ela disse: "Olha, 
+
+
+vê lá se consegues-me sacar aí todas as lyrics
+que estão neste site eh arranja-me aí um HTML
+
+
+ou um Word ou um PDF ou seja o que for que eu
+que eu preciso dessa informação. Sim, senhora.
+
+
+Foi um foi um bom desafio. Eu fui
+dar uma vista de olhos no site e
+
+
+verifiquei que o site depois tinha tinha
+uma estrutura bem simples, bem tradicional.
+
+
+Eh, e portanto disse logo sim que isto é vai ser
+vai ser fácil fazer isto. Pronto, aqui vamos aqui
+
+
+temos o site. Ora, portanto, aqui está o site e,
+portanto, tem todos estes álbuns, tem todos estes
+
+
+temas. Aqui alguns álbuns têm nome e depois
+aqui há alguns temas que onde diz unreleased,
+
+
+portanto ainda devem ser temas soltos que ainda
+não foram disponibilizados em nenhum álbum.
+
+
+OK. Por acaso esta cantora, salvo o erro, não está
+no Spotify. Daí que também houve o interesse dessa
+
+
+pessoa que me pediu para obter esta para obter
+esta informação. Portanto, nós aqui também já
+
+
+mostrei um lámiré noutros tutorials, como nós
+podíamos abrir aqui o development console, OK?
+
+
+eh no developer tools, mas aqui não sei porque é que
+isto aparece aqui num num formato aqui um bocado
+
+
+compactado, não cheguei bem a perceber. Eh, mas
+a verdade é que não precisamos disto porque é
+
+
+como digo, porque o código é tão simples que basta
+fazer aqui um um page source normal aqui no page
+
+
+source. Pronto. E aqui aumentar aqui um bocadinho.
+Eh, vemos que os links estão aqui. Pronto,
+
+
+os links estão aqui, são, OK? Estão aqui
+debaixo da tag do A, do anchor, OK? Onde
+
+
+temos aqui o o link propriamente dito. Vemos que
+temos aqui a palavra álbum, OK? Depois temos o o
+
+
+resto da path. Ah, temos aqui um número, o número
+do álbum, o nome do álbum. Eh, e também temos aqui
+
+
+o texto que é o que é o nome o nome do álbum. Eh,
+não, o nome do dos temas, digo, que estão debaixo
+
+
+deste álbum. OK? Pronto, etc, etc. Isto, portanto,
+está muito a informação está aqui muito fácil. Temos
+
+
+aqui e depois temos aqui os unreleased. OK. Tudo
+bastante simples. OK. Pronto. Então,
+
+
+sendo assim, sendo assim, eh, nós temos aqui que
+carregamos aqui o URL, vamos usar o package Rvest,
+
+
+que é o package que é, penso que é o
+mais recomendado para este tipo de trabalho. Sim,
+
+
+senhor. Há muitas ferramentas eh para fazer isto.
+Isto é simplesmente ir buscar o código HTML de
+
+
+uma página. Existe o famoso Curl que existe em
+Linux e acho que também existe no Windows. Pronto,
+
+
+existem diversas ferramentas possíveis para
+para trabalhar e para fazer web scraping. OK? Eh,
+
+
+mas neste caso é preferível usar um pacote, um
+package de R, não é? Se estamos a trabalhar com R,
+
+
+depois fica tudo mais simples, mais integrado.
+Pronto. Aqui vamos obter aqui. Então,
+
+
+vamos carregar a página, OK? Main main page, OK? Dá
+uma página algures aqui codificada dentro. Cá está
+
+
+HTML, tem o header, tem o body. Pronto. E certamente
+aqui , por sua vez isto são outras listas,
+
+
+etc, etc. Pronto, mas não precisamos de estar
+a descascar isto aqui. Nós vamos ter as funções
+
+
+do RVEST que nos fazem isso para nós. OK?
+Pronto. Então, uma delas é aqui, HTML elements.
+
+
+Aqui...
+
+
+Pronto. Eu eu gosto sempre de  explicitar aqui
+
+
+com o nome do package que vocês já sabem. Pronto,
+
+
+aqui esqueci-me, às vezes
+esquece-me. Ora, sim, senhora.
+
+
+Portanto, main page, esta parte já está. Ora bem,
+então vamos aqui a dizer, olha, eh, dá agora que
+
+
+agora que eu já carreguei a página, dá-me todos
+os elementos "A", portanto, todos os anchors. OK,
+
+
+cá está. Tem 86 nodes. OK, dá no formato de
+uma lista. Cá estão eles. Pronto. E cá estão os
+
+
+os diversos links. Sim, senhora. Agora
+o que é que eu quero? Bom, agora vou dizer, olha,
+
+
+eu quero um data frame e eu quero com um link
+e um texto porque porque eu quero obter o link
+
+
+propriamente dito, mas também o o texto que está
+dentro que estava aqui nas tags. OK. Pronto. Eu,
+
+
+por exemplo, aqui para para um determinado
+link, eu quero este link aqui, este link que
+
+
+é o meu link relativo, que é um link relativo, mas
+também quero aqui o texto. Neste caso, até o texto
+
+
+poderia ser obtido daqui, porque o texto também
+está aqui no link. Eu tirava-lhe os tracinhos e
+
+
+eu e eu inicialmente até estava a fazer isso e eu
+não vinha buscar aqui o texto. Pronto. Só que aqui
+
+
+o texto é mais rigoroso porque o texto respeita
+as maiúsculas e minúsculas, tal e qual o autor,
+
+
+o artista pretendeu chamar ao nome da das faixas.
+E, portanto, é mais rigoroso vir buscar aqui o
+
+
+texto. E então eu quero o link e o texto que está
+dentro aqui das tags. OK? Pronto. E então é o que
+
+
+eu vou fazer aqui? Eu vou-lhe dizer, olha, o link é
+dá-me os nodes e eh deixa-me aqui explicitar isto
+
+
+aqui também. Rvest dá-me HTML atribute Hreference.
+OK? Portanto, para aqueles nodes que já extraímos,
+
+
+que são os nodes do tipo A, agora dentro do node
+aqui do tipo A, eu estou-lhe a dizer, dá-me o
+
+
+conteúdo do do que está no parâmetro Href. Isto
+é mais ou menos. Eu também não sou um especialista
+
+
+nisto, mas mais ou menos essa a ideia. Dá-me
+o atributo, não se chama parâmetro,
+
+
+chama-se atributos que estão dentro das tags. E
+depois eh quero que passes esse atributo que é
+
+
+um link, mas que transformes em link absoluto,
+porque este link é relativo. E então ele vai
+
+
+saber e vai adicionar o link absoluto, tendo
+em conta o URL de onde ele fez a extração, OK?
+
+
+porque é o que nós vamos precisar depois daqui
+a bocado. Ora, deixa-me pôr aqui também rvest.
+
+
+Pronto. E depois quero o segundo campo
+do data frame. Eh, vou-lhe chamar text.
+
+
+Dá-me o text. Pronto. Dá-me o text deste
+node. Que é que é o node? O A, o anchor Ok.
+
+
+Sim, senhora. Vamos ver se isto funciona. Dá-me
+os links, então. OK. Pronto, cá temos nós. Então,
+
+
+a lista tinha 86 links e o data frame,
+pois, tá correto, tem 86 records com duas
+
+
+variáveis. Vamos vê-las aqui. E cá estão elas.
+Temos os links e temos os textos. Agora sim,
+
+
+temos aqui tudo perfeitinho. OK. Mas agora nós não
+queremos todos estes links. Obviamente que há aqui
+
+
+outros diversos links que não nos interessa para
+nada. Às vezes pode haver coisas publicitárias,
+
+
+pode haver os links mais diversos e nós vamos ter
+que filtrar. Já vamos ver a seguir. Aqui é muito
+
+
+fácil filtrar porque é fácil ver aqui que onde
+aparece a palavra álbum, OK? É certamente que que
+
+
+que já vi que vimos que aponta aponta para para
+um álbum ou ou para um tema. Temos por um lado
+
+
+aparece aqui a palavra álbum com o nome do álbum
+e por outro lado aparece aqui com o nome do álbum,
+
+
+mas mais uma barra. Ou seja, nós vamos conseguir
+identificar os links que nos interessam pelo
+
+
+número de qualificadores que tem o link. Bem bem
+bem simples, como já veremos. OK? E depois temos
+
+
+aqui, pronto, já alguns links aqui que que que que
+são para detar deitar para o lixo porque não tem
+
+
+as palavras chave, nem tem álbum, nem tem unreleased.
+OK? Pronto, penso que é fácil de entender. Agora
+
+
+vou usar uma uma técnica que já tenho
+usado e já tenho explicado. Eu vou construir um
+
+
+data frame e vou definir à cabeça toda a estrutura
+que eu vou querer. OK? Eu vou dizer: "OK, então eu
+
+
+agora vou vou vou trabalhar todos aqueles links
+e a estrutura que eu vou querer é o seguinte:
+
+
+eu quero o datafame das músicas, vai ter o link,
+vai ter um álbum type que vai ser tipo álbum
+
+
+ou tipo unreleased, vai ter um álbum number,
+porque realmente os álbuns têm um number, OK? Por
+
+
+exemplo, este álbum aqui, este álbum é o álbum
+número 7, OK? E os temas que estão aqui deste
+
+
+álbum. Este álbum, por exemplo, aqui, este álbum
+tem cinco temas. Os temas vai ser o tema 1 2 3 4 5
+
+
+cinco faixas. Mas no entanto, eu também tenho aqui
+um número absoluto. Eu não sei se poderei precisar
+
+
+dele ou não, mas eu também o quero carregar, já
+que ele está aqui. Pronto. E muitas vezes quando
+
+
+eu estou a programar é isso que eu faço. Eu ainda
+não sei exatamente tudo o que eu vou precisar,
+
+
+mas à partida depois se tenho uma determinada
+informação, posso guardá-la e depois já mais à
+
+
+frente logo verei se preciso dela ou não. Antes
+guardar a mais do que guardar a menos.
+
+
+Portanto, aqui vou ter o o álbum number,
+o álbum name, o absolute track number,
+
+
+que é o que aparece ali nos links, e o relative
+track number, que não aparece, mas que eu
+
+
+depois eu vou e depois eu vou fazer aqui um loop
+e aqui não está o relativo, mas o relativo vai
+
+
+ser fácil de construir e vou-lhe chamar aqui 1 2
+3 4 5. Portanto, o relative track number, o track
+
+
+name e os lyrics. os lyrics, que já veremos como é
+que vamos fazer, porque os lyrics não estão aqui,
+
+
+mas quando eu clicar aqui, vai-me para uma outra
+página e lá nessa página estarão os
+
+
+lyrics, OK? Quando nós estamos aqui, eu carrego
+aqui num link, portanto eu vou para eu vou eu vou
+
+
+para uma página e nesta página estão os lyrics. OK? OK. Há dois tipos de lyrics. Há
+
+
+os lyrics unsyncronized, OK? Que são estes.
+Porque estes não têm aqui time stamps. E há os
+
+
+lyrics synchronized que são lyrics, é como se
+fosse as legendas de um vídeo synchronized quando
+
+
+tem os timestamps quando tem os minutos e segundos
+em que aparece o texto. Ok? Pronto. Mas
+
+
+aqui não tem minutos e segundos. Portanto,
+aqui vai ser unsyncronized. OK? Mas pronto,
+
+
+que é o que serve, porque a pessoa que me pediu,
+pediu-me simplesmente para gerar para 
+
+
+um texto ou para um documento. OK, pronto. Eh,
+e aqui, mais uma vez, se eu olhar aqui o page
+
+
+source developer, eu estou a usar aqui o browser
+opera, que é o que eu uso, mas isto é similar em
+
+
+qualquer outro browser. Pois vejam como é que
+se vê o page source. Eu vejo aqui o page source.
+
+
+E eu vou ver que os lyrics eles estão aqui, eles
+estão dentro de um parágrafo com a classe lyrics.
+
+
+Pronto. Então eu verifiquei que a estrutura
+realmente das páginas era bem simples e que
+
+
+era bem fácil de identificar onde estavam
+os lyrics. Não havia aqui nenhuma confusão.
+
+
+OK? Pronto. Portanto, era bem simples de
+identificar isto. Sim, senhor. Já lá vamos.
+
+
+Então, uma das coisas que vou precisar de 
+detetar é a quebra de álbum name. Quando há
+
+
+quebra de álbum name é quando eu vou inicializar o
+número da faixa relativo, 1 2 3 4 5, etc. Pronto.
+
+
+E agora vou
+
+
+Ah, isto é porque eu eu isto tinha-me arrebentado
+um dado momento e eu eu recomecei no 74. Pronto,
+
+
+vou  começar no um. Pronto, agora vou
+varrer todos os links, todo o meu data frame.
+
+
+OK? Eh, vou fazer um, vou fazer aqui um para
+vermos antes de fazer o loop. OK? Pronto. Eu
+
+
+quero chamar a atenção que quando fazemos este
+tipo de trabalhos deve haver um bocadinho de
+
+
+de cuidado de sentido ético. OK? É preciso
+ter isso em atenção. Ou seja, nós temos que ter
+
+
+cuidado porque nós vamos fazer um acesso massivo
+e, portanto, e nós não queremos sobrecarregar o
+
+
+site por forma a que pareça algum ataque ao site.
+OK? Portanto, isto é para ser feito com cuidado.
+
+
+Isto não é para ser para andar aqui a carregar
+continuamente e então massacramos o site. OK?
+
+
+É preciso ter um certo cuidado com isso. Pronto,
+mas eu tenho esse esse cuidado. Eu aqui vou fazer
+
+
+agora uma vez, ele vai varrer uma vez e ponto
+final. E a partir de não vai haver problema,
+
+
+mas temos que ter essa responsabilidade ética
+de pronto de ter este tipo de cuidado.
+
+
+Ora bem, portanto, vou fazer aqui o i igual a 1.
+Pronto. E estou a simular que entro aqui no loop,
+
+
+que é uma forma de entrar aqui no loop agora
+e fazer apenas uma iteração para nós vermos.
+
+
+Portanto, então tenho aqui o link. Ora,
+cá está. Eu tenho aqui o o link. Espera aí.
+
+
+Deixa ver aqui se está correto, que é o primeiro
+link. Ah, ok. É o primeiro link. Pronto,
+
+
+que é o nome do link
+da página. Então, este link aqui não,
+
+
+nos interessa. Eu agora, para fazer
+o o exemplo um exemplo claro, eh vou buscar
+
+
+aqui um link significativo, porque este link, o
+link número um, vai ser rejeitado porque não tem a
+
+
+palavra a chave. Eu vou fazer aqui um link
+eh pode ser, por exemplo, aqui o o três. Pronto,
+
+
+o três. O três que já aponta para uma faixa. OK.
+Para testar. Pronto, eu vou fazer aqui o link,
+
+
+o três. Pronto. Então, agora aqui link. Sim,
+senhor. Aqui já tenho aqui o nome da faixa. Agora
+
+
+vou ter aqui original. Agora vou vou precisar aqui
+de um original link. Isto pá, isto agora é agora é
+
+
+programação pura e dura. É ao gosto do freguês. Agora
+já vos tenho dito que não vos costumo explicar
+
+
+programação porque isso não tem interesse. O
+que interessa é passar a ideia do que se está
+
+
+a fazer e quais as as ferramentas fundamentais
+que usamos para um determinado fim. Pronto,
+
+
+agora aqui eu eu já organizei isto ao
+meu gosto. Guardei aqui o original link.
+
+
+Agora saquei aqui o text que também está no data
+frame. Cá está o text que é o nome da faixa. Eh,
+
+
+e agora vou ver, olha, e para o link ser válido,
+tem que conter a palavra  chave ou ou álbum ou 
+
+
+unrelased. OK, pronto. Este é válido porque 
+este tem aqui a palavra álbum. Agora tenho agora
+
+
+faço um string replace. Agora que tive que fazer
+um string replace. quis fazer porque é assim,
+
+
+quando aparecia unrelased, a
+estrutura dos links era diferente. Eh,
+
+
+vou-vos mostrar aqui que quando aparecia aqui o
+o unrelease aqui,  acho que
+
+
+está aqui. Pronto, enquanto aqui nos álbuns tem o
+qualificador álbum, nome de álbum e faixa, OK?
+
+
+Mas no unrelease já não tem nome de
+álbum, já só tem unrelased e faixa. Pronto,
+
+
+então estragava-me a lógica
+porque esta estrutura tem uma estrutura
+
+
+diferente e estragava-me o código que eu tinha
+que estar a fazer dois códigos. Então, para
+
+
+ultrapassar isso de forma mais simples, o que eu
+fiz foi transformar este link em um link fictício,
+
+
+acrescentando-lhe aqui um nome de álbum fictício.
+Pronto, já vamos ver. Pronto, mas para isso tive
+
+
+que preservar o link original para depois eu poder
+linkar e ir lá ao link original. Mas em termos da
+
+
+estruturação da informação que eu quero, eu
+aqui tive que criar aqui um nome de álbum,
+
+
+OK? Mas reparem que o nome do álbum aqui não
+é o primeiro qualificador, é o segundo. Mas
+
+
+aqui o segundo qualificador é a faixa. Portanto,
+aqui vamos ver então que eu eu ponho-lhe aqui,
+
+
+acrescento-lhe aqui um qualificador. Pronto. E
+então é o que eu é o que eu estou aqui a fazer,
+
+
+onde eu tenho aqui eh aqui eu vou fazer o replace
+a dizer: "Olha, se no link tiver unreleased,
+
+
+substitui o unreleased por dois qualificadores. fica
+unreleased e depois fica é como se fosse um álbum,
+
+
+o álbum número 99 chamado álbum unreleased. Pronto,
+este link aqui em particular não tem, mas pronto,
+
+
+mas penso que vocês percebem a ideia. Pronto,
+há sempre várias maneiras de de fazer omeletes,
+
+
+como como é óbvio, eu aqui na altura estava a
+fazer isto e, portanto, tive esta ideia que é
+
+
+para simplificar o código para para o código aqui
+ficar mais robusto, mais centralizado. Pronto. E
+
+
+agora vou partir o link, o o link. Eu vou partir
+o o link em palavras, pronto, que é as partes,
+
+
+que é para ver se este link é válido, porque
+não basta só dizer que tem a palavra álbum ou
+
+
+unreleased, porque pode este aqui, 
+também tem a palavra álbum, este, este, este aqui,
+
+
+mas no entanto não tem as faixas, é apenas o
+título do álbum. E eu não quero, eu eu quero,
+
+
+portanto, que tenha a palavra album, mas que tenha
+o o o número correto de qualificadores. Pronto,
+
+
+para ir diretamente às faixas. É, portanto,
+aqui tenho eu aqui parto, tenho as partes.
+
+
+Pronto, cá estão elas. E aqui para contando o
+número de partes, eu vejo se se me interessa.
+
+
+If length parts, diferente de 7, next. Pronto,
+tem, eu vi, eu verifiquei que isto tinha que ter
+
+
+sete, sete partes, sete qualificadores. OK?
+Então, sendo assim, tenho o álbum type, que é
+
+
+o partes 4. Cá está. Olha, este é do tipo álbum, o
+álbum number, que tá na parte 5, que é o é é este
+
+
+número aqui é o seis. vai ser o seis, neste caso.
+Cá está o seis. Eh, depois tenho o álbum name,
+
+
+eh, o álbum name. Cá está.
+
+
+Eh, e aqui faço a quebra do álbum name,
+que é o caso agora que vai haver quebra
+
+
+porque eu iniciei inicializei o
+preview aqui a branco. Pronto,
+
+
+que isto é para começar a contar
+o relative track number.
+
+
+preview álbum name not found. Eu
+esqueci-me de inicializar aqui. OK,
+
+
+estou aqui. Pronto, então já tem o relative
+track number a zero. Incrementa. Pronto,
+
+
+então vamos começar na faixa. E esta é
+a faixa número um. Cá está ela. Pronto,
+
+
+estamos no início de um álbum. Faixa número um.
+Absoluto. Agora temos o absolute track number,
+
+
+que também está nas partes seis.
+O absolute track number é o 36.
+
+
+Eh, e agora temos o track name
+
+
+track name.
+
+
+Mas eu acho que não estou a usar este track
+name porque eu estou a usar é o text. O track
+
+
+name aqui erin, neste caso é igual, mas eu
+estou a usar é o text. Já vamos ver que já
+
+
+não me recordo exatamente que é o que está aqui.
+O text. Isto é porque eu estava a usar esta parte
+
+
+e depois não a comentei. Pronto, mas não não estou
+a usá-la. Agora faço aqui um data frame temporário
+
+
+com só com uma row, uma linha. Opá, agora
+mandei fazer já o scraping. Pronto,
+
+
+ele já fez o scraping. Tudo bem que eu ainda não
+mostrei a função. Porque o campo do lyrics ele
+
+
+vai à função get lyrics. Já agora, vamos vê-la.
+Pronto, o get lyrics. Então o que é que ele faz?
+
+
+Ele está aqui a função. Ele recebe o URL. aparece
+aqui scraping e ele vai lá fazer um read HTML URL,
+
+
+vai lá fazer o HTML element que é o P Lyrics que
+eu já vos tinha mostrado há bocado, estava dentro
+
+
+de um parágrafo com a classe lyrics. Pronto. E
+portanto dá-me o texto e ponto final. E não tem
+
+
+mais segredos, é o texto que aparece lá dentro
+do parágrafo. Pronto. E ele já carregou. OK.
+
+
+Pronto. E sendo assim, eh, eu tenho aqui o
+DF, que é que para um para um ROW, Pronto,
+
+
+cá está, cá está o data frame e e os lyrics.
+E aqui podemos ver os lyrics. DF lyrics
+
+
+Isto isto só tem um só tem só tem um record.
+Pronto, cá está os lyrics. E os lyrics
+
+
+tem as mudanças de linha porque que são são
+para respeitar. São para respeitar porque porque
+
+
+tem parágrafos, tem mudanças de vinhas, são
+são os versos. OK? Sim, senhora. E portanto,
+
+
+e depois eu eh vou fazer aqui musics rbind
+e portanto e os dataframes individuais,
+
+
+um record de cada vez vou acumulando no total.
+OK? Pronto. Eu até vou saltar agora por cima.
+
+
+Eu não vou fazer o loop todo. Já fiz aqui um e
+vocês viram que funcionou. Pronto. Eh, não vou
+
+
+fazer por dentro da Não, não vale a pena, se não
+estava aqui agora à espera. Isto também demora um
+
+
+bocadinho porque são são 70 e tal temas ou que
+é. Pronto, mas isto funciona, vocês acreditam.
+
+
+E agora aí vem a tal preocupação ética. E agora
+vamos usar aqui uma função que que nunca usamos,
+
+
+que é a primeira vez, que eu quando estava a fazer
+isto disse assim: "OK, eu estou a acumular no data
+
+
+frame total que é o musics, OK? Que eu inicializei
+aqui algures, por acaso, não inicializei, acho que
+
+
+se calhar não corri este código, já não
+me recordo que eu tinha inicializado aqui. Pronto,
+
+
+o musics. Eh, e depois eu acumulo, vou fazer o
+loop. Pronto, não vou fazer agora, não vale a
+
+
+pena. Vocês acreditam que isto funciona? Pronto. E
+quando eu cheguei ao fim, quando eu fiz isto, eh,
+
+
+ainda demora um bocadinho, são 70 e tal links e demora
+aí, ainda demora aí um minuto ou dois ou três,
+
+
+já não me recordo. A, e depois eu disse assim:
+"Bom, eu tenho agora eu fico com o data frame
+
+
+total com toda esta informação, mas agora de
+repente vou-me embora e volto amanhã e quero
+
+
+continuar a trabalhar ou corrigir qualquer coisa
+e entretanto teria que fazer web scraping
+
+
+outra vez." OK? Pronto, eu não quero estar a fazer
+isso de acordo com aquele princípio que vos disse
+
+
+da responsabilidade ética. E então neste caso disse
+não. eu já tenho a informação, eu só lá fui uma vez,
+
+
+então eu vou salvá-la no File system. OK?
+Pronto. E então a maneira de salvar isto, uma
+
+
+das maneiras de salvar, eu poderia salvar o que
+é um dataframe como um CSV, mas isso é perigoso
+
+
+porque o CSV e com as as vírgulas e e aqui as
+lyrics podem ter vírgulas, então é preciso ter
+
+
+cuidado com isso. Então, a maneira mais robusta
+para salvar um objeto de de R, neste caso de R,
+
+
+mas a todas as linguagens de programação
+normalmente têm, é o princípio chamado
+
+
+de serialização. A serialização é uma maneira de
+gravar um objeto de uma linguagem de programação,
+
+
+que a própria linguagem de programação tem
+um padrão para gravar esse objeto no File system
+
+
+e depois o poder recuperar. OK? Pronto. E
+foi o que eu fiz aqui, que eu fiz o save.
+
+
+Pronto. E o save está guardado aqui. Eh, o RDS
+deve ser R de linguagem, data Serialization. Deve
+
+
+ser isso, R data serilization. OK, pronto. Eu
+e eu já salvei. Eu dou o nome do objeto. Não é
+
+
+preciso dizer que tipo de objeto é porque o R vai
+saber e eu gravo no ficheiro que eu quero. OK.
+
+
+Pronto. Seralization interface for single objects.
+Pronto. E, portanto, eu já o tenho aqui gravado.
+
+
+Eh, portanto, musics RDS. Pronto, cá está ele.
+Então agora posso recuperá-lo.
+
+
+Eu vou recuperá-lo aqui. Eu até vou gravar isto
+aqui às vezes para não gravar por cima por engano.
+
+
+Pronto. E agora vou recuperá-lo. Pronto. Então
+faz de conta que eu tinha feito o scraping agora
+
+
+total, que é para ser mais rápido e também para
+vos mostrar como funciona aqui a seralization,
+
+
+quer quer no save, quer no restore. Pronto, eu
+vou eu vou executar esta. Pronto, e cá está. Olha,
+
+
+o Musics ficou aqui totalmente carregado com 72
+variáveis e 72 records. São 72 faixas. Pronto,
+
+
+cá estão elas. Temos os links, temos o álbum type,
+que é álbum ou unrelased, temos o álbum number.
+
+
+Não, não está seguido, não sei porquê, mas isso é
+uma questão do artista. O artista é que definiu.
+
+
+Tem aqui o álbum do um, o dois, mas mas não tem o
+três. Tem o três, mas acho que não tem o quatro.
+
+
+Pronto. E depois aqui o último unreleased eu chamei-lhe
+o álbum 99. Pronto, para ficar tudo estruturado.
+
+
+Pronto. E o nome do álbum chamei-lhe Unreleased.
+Pronto. O resto temos aqui os álbums. Temos
+
+
+aqui um absolute track number que também não
+tá totalmente seguido. Falta há aqui uma uma
+
+
+outra falha pelo meio, mas pronto, mas isto não
+é problema meu. Isso é o artista é que definiu.
+
+
+E depois temos os relative track numbers, está
+correto. Eh, e temos o nome das faixas, OK? E
+
+
+temos as lyrics estão aqui. Pronto, então temos
+tudo. OK. Portanto, nesta parte eu já disse, bom,
+
+
+já tenho toda a informação. A pessoa, minha amiga
+me pediu, pá, mas agora tenho que fornecer isto de
+
+
+alguma forma agradável para essa pessoa consumir.
+Pronto. Então, sendo assim, eu disse assim: "Bom,
+
+
+o que é que eu vou fazer? O HTML. HTML não é não
+é prático porque HTML eh o HTML não tem páginas e
+
+
+por exemplo eu queria fazer um índice e o HTML
+normal achei que não era prático. Então disse:
+
+
+"Bom, não, antes vou fazer um PDF". OK?
+Pronto. Mas antes disso disse assim: "Bom,
+
+
+eu não preciso desta informação toda. Eu não não
+preciso. Esta informação é minha para eu fazer,
+
+
+se eu quiser continuar aqui algum tipo de
+programação, ter toda a informação necessária,
+
+
+tenho aqui no data frame dos musics. Mas eu não
+preciso estar a passar isto tudo à à pessoa que
+
+
+me pediu. Ela não quer saber para nada de qual é
+o álbum number ou qual é o absoluto track number
+
+
+ou isso não interessa para nada ou qual é ou
+o link. Pronto, ela só lhe interessa saber um
+
+
+título da faixa e e as lyrics. Pronto. E então
+eu fiz aqui um segundo data frame, um report,
+
+
+que eu chamei-lhe report, onde eh apenas com
+com dois campos vai ser um título onde eu lhe
+
+
+pus o nome do álbum, o número da faixa e e o track
+name e as lyrics. Pronto, apenas com dois campos. É,
+
+
+é um é um título e é as lyrics propriamente ditas.
+Portanto, eu criei aqui o report. Cá está. Pronto,
+
+
+aqui já estou a filtrar aqui o que eu vou.
+Pronto, construí aqui um campo novo, um title,
+
+
+nome de álbum, o número relativo da faixa, nome
+da faixa, as letras. Cá estão elas. Sim, senhora.
+
+
+Pronto. E agora disse: "OK, agora para não estar
+a sobrecarregar aqui o código ou gerar aqui o
+
+
+código para fazer o PDF, eh, porque porque até não
+dava, porque isso vamos usar uma uma técnica que
+
+
+nós já vimos que é R Markdown. Vejam o meu outro
+tutorial sobre R markdown. E a outra alternativa
+
+
+seria pegar neste código todo e pôr lá dentro do
+R markdown. Mas eu eu não gosto de trabalhar com
+
+
+R markdown. o o R markdown. E neste caso hoje até
+nem vamos ver R markdown, vamos ver uma a versão
+
+
+mais avançada que é chamada o quarto. Pronto,
+porque o quarto é é a nova geração de R markdown,
+
+
+mas onde onde deixa cair e o termo R para mostrar
+que é uma tecnologia que não está só agarrada ao R.
+
+
+OK? No fundo, é como aconteceu com o IDE, o Positron
+para não ficar exclusivamente agarrado
+
+
+e conotado com R, pois criaram o Positron e o
+mesmo a tecnologia quarto, que é uma tecnologia
+
+
+de markdown para linguagens de programação,
+mas para não estar especificamente associada
+
+
+à linguagem R. Pronto. E então eu para fazer
+isso, fiz aqui a mesma coisa. Eu fiz o save rds
+
+
+para eh para fazer a serialização e guardar
+este data frame, que é para depois agora a
+
+
+seguir eu vou gerá-la num vou fazer um report,
+um PDF, mas já fora deste código principal, assim
+
+
+consigo separar as coisas. OK? Posso correr aqui
+outra vez, mas não vale a pena. Eu já já corri,
+
+
+já o tenho aqui guardado. OK. Pronto. Esta
+parte penso que ficou mais ou menos bem clara. Eu
+
+
+depois, se quiserem estudar isto mais ao pormenor,
+depois baixei o projeto do meu canal de GitHub
+
+
+e estudem o código mais ao pormenor. OK? Pronto.
+Então agora vamos para a segunda parte que é 
+
+
+produzir o PDF. Eu num dado momento também produzi
+em HTML que eu tenho aqui webscraping HTML e fiz
+
+
+aqui um um ficheiro QMD que é um Quarto markdown.
+OK? é parecido com aquele R markdown que vimos
+
+
+no meu outro tutorial, mas eu nem gosto nem de um
+nem do outro, eles são parecidos e têm sintaxes
+
+
+similares. Eu sinceramente não gosto e nem domino.
+Tive que pedir ajuda à inteligência artificial
+
+
+para gerar isto porque não, pronto,  não
+é a minha praia. Eu sou um programador de linha
+
+
+dura pura e dura, ah, portanto com linguagens de
+programação estándard e generalistas, não? Pronto,
+
+
+isto aqui já é uma... o markdown não é não
+é tanto uma linguagem de programação, mas mais
+
+
+uma linguagem de parametrização de documentos. OK?
+Pronto. Mas pronto, aqui a parte do HTML eu depois
+
+
+eu deixei-a de lado porque eu depois percebi que
+era melhor produzir um PDF e portanto eu agora
+
+
+carreguei aqui no PDF eh portanto fiz aqui
+o webscraping para PDF, quarto  Marktown.
+
+
+Pronto. Então, pronto, com a ajuda da inteligência
+artificial, mandei-o gerar com table of contents.
+
+
+Tem aqui um único chunk de código. Eh, e o chunk de
+código tem e aqui tem a serialização aqui inversa.
+
+
+Dá-me o dataframe, o report. OK. Eh, e depois faz aqui
+um loop. Eh, esta parte foi com a inteligência
+
+
+artificial, portanto não não vale a pena estar
+muito a explicar isto, eh, que eu também não sei
+
+
+explicar bem, mas pronto, vai ter o título,
+eh, e depois tem aqui os lyrics e pronto,
+
+
+e o resto se tiverem dúvidas perguntem. Depois
+houve um dado momento que eu pedi à inteligência
+
+
+artificial, olha, eu quero um page break a
+seguir a cada música. Sim, senhor. Ele fez. Ok,
+
+
+pronto, isto é simples e a inteligência artificial
+dá-vos uma coisa destas com facilidade. E assim
+
+
+fica bem mais isolado, reparem tão bem estruturado
+que está, porque não tenho que estar que ter a pôr
+
+
+aqui o código e aqui nesta fase, nesta altura do
+campeonato, já não interessa para nada saber de
+
+
+onde é que veio a informação, OK? Não interessa
+se veio por web scraping ou por onde é que ela veio. O
+
+
+que interessa é que eu tenha um data frame, tem
+um conjunto de colunas, tem uma dada estrutura e
+
+
+que eu quero fazer um documento com esse data
+frame. Pronto, é simples assim. OK. Pronto,
+
+
+então, sendo assim, posso correr agora aqui isto.
+Pronto, eu vou fazer aqui o render  on save.
+
+
+Deixa forçar aqui um save. Pronto, posso correr
+porque nunca tinha corrido isto. Eu tinha feito,
+
+
+tinha feito o no em relação ao R markdown,
+mas em relação ao quarto não tinha feito. Eh,
+
+
+cá está, ele tá a fazer aqui rendering PDF.
+Atenção, há vários requisitos para que isto
+
+
+funcione na vossa máquina. Eu penso que eu
+também já vos tinha falado nisto no quando
+
+
+eu fiz o meu outro tutorial. É necessário
+instalar um package, um Tiny text. Portanto,
+
+
+há diversos requisitos que se vocês correrem
+isto também e se vos rebentar à partida vai ser
+
+
+fácil diagnosticarem porque a partida ele vai
+identificar quando rebentar e vai vos dizer que
+
+
+falta um determinado package. Pronto, portanto
+penso que essa parte aí seja pacífica. Ora bem,
+
+
+eh, portanto, ele e já abriu aqui, ele
+depois agora abriu-me aqui no viewer, OK? Eh,
+
+
+mas a verdade é que me gerou me gerou aqui o PDF.
+E agora, pronto, temos aqui um PDF todo bonito,
+
+
+webscraping PDF .pdf, que aliás eu depois eu fiz eu
+eu fiz o rename depois para dar à pessoa,
+
+
+à minha amiga que me pediu e então criei, eu fiz
+só aqui uma simples cópia assim de hoje para amanhã,
+
+
+se por acaso eu esmagar este estiver a correr para
+outra informação. Pronto, para por engano não 
+
+
+esmagar aqui este que fica fica salvaguardado Joanna Newson lyrics. Pronto, aqui foi simplesmente
+
+
+uma cópia. Ah, e portanto e e cá temos aqui
+o índice, OK? Eh, temos um um table of contents.
+
+
+Pronto, temos aqui page up. Pronto, cá está todo
+bonito. E pronto. E temos aqui os álbuns. E
+
+
+temos aqui as letras. Cá estão elas. Uma por cada
+página, pá. E como estão a ver, tá espetacular.
+
+
+E ele manteve aqui os versos, as estrofes, ó lá,
+como é que isto se chama, com as quebras de linha,
+
+
+tudo perfeitinho. Está espetacular. A minha
+amiga ficou impressionada com isto. OK. Sim,
+
+
+senhora. OK. Está esta parte está vista. Pronto. E
+ah, já agora, deixa-me ver aqui o guião, porque eu
+
+
+tinha aqui um guião e eu esqueci-me de vos mostrar
+um guião, que vocês já sabem que eu agora costumo
+
+
+usar aqui um guião. Pronto, então temos aqui
+o RVEST web scraping. Ora, sim, senhora. Temos
+
+
+começar pelo web scraping. Já está. OK. E agora
+vamos para a música, porque eu também fui baixar
+
+
+a música eh no YouTube, como vamos, como vamos
+ver. Eu fui baixar a música, que aliás já vimos
+
+
+porque eu já vos mostrei noutro tutorial. Eh, e
+por exemplo, e na altura até vos disse, mas qual
+
+
+é o interesse de baixar músicas hoje em dia? disse
+que isto era uma questão pouco filosófica, porque
+
+
+há pessoas que gostam de ter a sua própria música
+e não precisa de ser pirateada como nós estamos
+
+
+aqui a fazer um um pouco, verdade seja dita que
+isto é a partir do YouTube, mas há pessoas que
+
+
+compram música de uma forma perfeitamente legal
+em plataformas que vendem as músicas, em formatos
+
+
+digitais, MP3, Flac, etc, etc. Eh, mas há pessoas
+que gostam de ter a sua música. Pronto, mas também
+
+
+podemos querer baixar a música por um outro
+motivo, que é o que eu dei-vos aqui um exemplo,
+
+
+é que estou-vos a dar agora aqui um exemplo, é
+que por vezes eh queremos uma música, ouvir uma
+
+
+música e a música simplesmente não está disponível
+no nas plataformas de streaming. Por exemplo, esta
+
+
+música eu descobri há bocado, esta que está aqui
+de Gandalf Magic Theater, não está no Spotify,
+
+
+está apenas no YouTube. Então, se eu quiser baixar
+para para se eu quiser ouvir no carro ah, como é
+
+
+que eu faço? Bom, se for um carro moderno, talvez
+possa ir ao YouTube ou pronto, mas se eu quiser
+
+
+ouvir algum outro sítio, pois se calhar tenho que
+baixar e ter o MP3, OK? Ah, portanto, pode haver n
+
+
+situações em que em que seja necessário realmente
+baixar as músicas. Eh, este é um exemplo. Há,
+
+
+por exemplo, um exemplo clássico, eh, durante
+muitos anos não esteve disponível no Spotify
+
+
+e agora recentemente já  está disponível. Um
+álbum português do José Cid, 10.000 anos depois
+
+
+entre Vénus e Marte. eh considerado o um dos dos
+maiores álbums de todos os tempos, dos melhores
+
+
+álbuns de todos os tempos de rock progressivo.
+Eh, e era e eu realmente tinha lamentava imenso
+
+
+que ele não estar disponível no Spotify, mas agora
+finalmente já está. Eh, e portanto esse é um dos
+
+
+motivos que às vezes pode ser interessante. Agora
+vamos dar aqui um saltinho aqui até ao YouTube
+
+
+downloads para vos falar de alguns tópicos
+e de algumas melhorias que eu implementei.
+
+
+Ora, para isso vou mudar aqui. Eu
+depois eu vou fazer aqui o vou fazer
+
+
+aqui o upload ou posso já fazer
+aqui. Vou já fazer aqui o upload.
+
+
+Pronto, vou dar isto aqui por completado
+e vou fazer o upload aqui já para o GitHub.
+
+
+OK.
+
+
+Ora,
+
+
+maintenance.
+
+
+OK. Ora, deixa ver se isto ficou bem. Já
+agora, aí está. Vamos aqui ao setup. Já
+
+
+estão a ver para que é que serve o setup para
+toda esta orquestração. E eu simplesmente clico
+
+
+aqui. Ela abre-me diretamente a página do GitHub.
+Pronto. Para eu aferir se ela ficou mais ou menos
+
+
+apresentável. Vamos vê-la aqui. Infelizmente
+está-me a classificar isto como JavaScript. Eh,
+
+
+eu vou ter  que corrigir
+isto porque eu não quero porque isto é um projeto
+
+
+de R. Eh, e portanto e ele existe aqui um membro
+que é o Gitattributs que diz: "Olha, e e rejeita-me
+
+
+estes  types que é para ele ficar bem
+classificado." Mas ele aqui ficou classificado
+
+
+como JavaScript. Mas ok, mas eu depois eu já
+corrijo isso agora para não estar a perder tempo.
+
+
+Mas de resto eu dou aqui uma vista de olhos
+e está OK, está apresentável o projeto. Sim,
+
+
+senhora. Pronto. E aqui está. Ah, eu depois
+a ver se não me esquece, tenho que corrigir
+
+
+esta parte aqui. Vamos agora mudar aqui de
+projeto e vamos aqui para o projeto do YouTube.
+
+
+OK. E fiz aqui algumas melhorias.
+
+
+Eh, fiz aqui, nomeadamente, OK.
+
+
+OK.
+
+
+Ora bem, fiz aqui algumas melhorias. Ora,
+
+
+vamos aqui talvez fazer aqui algum download.
+
+
+Não, não vamos fazer agora download
+para para isto ser mais rápido. Já
+
+
+fiz isso noutro tema. Vou só vos falar
+as melhorias que eu fiz. Eh, vamos aqui,
+
+
+vamos aqui a ver onde é que
+tenho aqui as minhas músicas.
+
+
+Ora,
+
+
+OK. Portanto, tenho aqui as músicas que eu
+ já tenho baixado usando este
+
+
+procedimento. Eh, vou aqui, por exemplo, a um dos
+últimos álbuns que eu aqui baixei, pode ser este
+
+
+aqui. Pronto. Eh, e portanto, uma das melhorias
+que eu fiz foi realmente inserir a metadata toda,
+
+
+porque eu tinha-vos dito, eu não ligo nenhuma
+metadata e é verdade, eu não ligo. A única coisa
+
+
+que gostava de ver era era era a cover, que ela
+está aqui inserida. Só que eu comecei a verificar
+
+
+que realmente que os os players de música
+eles eles eles são muito sensíveis à metadata.
+
+
+Eu se eu, por exemplo, no music bee, se ele não
+tem o track number, ele não vai respeitar a ordem,
+
+
+ele dá uma ordem aleatória. E, portanto,
+eh, e vamos ver aqui um outro produto que
+
+
+é o o produto que que me também que me baixa
+lyrics que que me insere as lyrics dentro  
+
+
+das músicas. Estou-vos a falar disto porque
+eu num dado momento eu baixei um
+
+
+álbum. Eu baixei um daqueles álbuns da Johanna
+Newson. Já agora vamos ver. Pronto, vamos ver
+
+
+este aqui. Eu baixei este álbum aqui. Eh, e eu
+queria, eu que tentei colocar as lyrics,
+
+
+OK? E consegui, eu consegui pôr as lyrics.
+Eh, que uma vez que eu já tinha as lyrics,
+
+
+porque eu baixei-as do site das Lírics, eu
+consegui pôr as lírics aqui dentro. Só que
+
+
+há ali qualquer pormenor que eu não entendo,
+não ficam bem formatadas, bem integradas,
+
+
+bem inseridas e depois o o pelo menos o musicbee não consegue identificar as lyrics. Pronto. E
+
+
+portanto isso ficou em standby. Eu abandonei esse
+processo. Bom, mas agora quero vos mostrar aqui
+
+
+um pouco das melhorias que eu fiz aqui. Esta parte
+eu já tinha. Quando eu tenho aqui uma referência,
+
+
+quando eu baixo um álbum, eu eu guardo aqui a
+referência do link onde eu fui buscar a música
+
+
+para se eu quiser repetir por algum motivo.
+OK? E agora eh temos aqui, eu vou manter
+
+
+autenticar aqui porque ele vai usar a API do
+YouTube. OK? E agora vou pedir aqui informação.
+
+
+Eu dou-lhe o link e ele baixa-me a capa.
+Cá está. Ele agora pede-me o artista porque
+
+
+ele não conseguiu identificar pelo vídeo
+do YouTube. Ele não identificou qual era
+
+
+o qual era o nome do artista. Eh, sim,
+senhora. Portanto, esta esta parte aqui
+
+
+tem que ser manual. Eu tenho que lhe tenho que
+lhe colocar aqui. OK. Tenho que colocar aqui o
+
+
+OK, o nome do álbum ele conseguiu identificar.
+Pronto. E aqui criou a estrutura que já vos
+
+
+expliquei no meu outro tutorial. Tenho aqui toda
+a estrutura com toda a informação que eu preciso.
+
+
+Qual é a folder que é de tipo que é o playlist,
+o álbum eh cover, o álbum folder, output folder,
+
+
+portanto toda a informação. Pronto. E agora
+baixava aqui a música, também já vos mostrei, não
+
+
+vou fazer isso agora. Eh, aqui criava a folder que
+já está criada e ele criava por cima eh e colocava
+
+
+lá o TXT, colocava a capa, eh, baixava os temas,
+fazia os renames e agora fazia o insert metadata.
+
+
+Não vou estar a fazer porque funciona aqui. Posso
+fazer é igual. Ele também não muda. Eu posso
+
+
+fazer qualquer destas funções. Eu posso chamar
+isoladamente porque porque são independentes e
+
+
+passa-lhe a estrutura que é o download quando tem
+toda a informação que ele precisa. Posso posso-lhe
+
+
+passar esta informação aqui independente.
+Cá está. Ele carregou. Só que não muda nada
+
+
+porque é tudo é tudo igual em relação ao que nós
+tínhamos e, portanto, não não mudou nada. OK.
+
+
+Pronto, mas mas mudou foi quando eu não tinha
+esta metadata aqui, eu não tinha o track number,
+
+
+nem tinha o nome do álbum e de artista, etc,
+etc. Eh, e portanto aqui o álbum art, isto,
+
+
+por exemplo, que ele não tinha, estava tudo a
+branco. E depois quando eh portanto alterei aqui
+
+
+a minha função e depois não precisei
+de fazer o download tudo outra vez, foi só para
+
+
+cada álbum. Varri todos os meus álbuns e corri
+esta parte aqui e pronto, inseri a metadata.
+
+
+Eh, e depois esta é a parte onde eu tentei inserir
+as lyrics. Pronto, não vou perder muito tempo aqui
+
+
+a explicar isto, mas basicamente usava aqui uma
+função, usava o FFMPEG. OK? Lembram-se que o FFM
+
+
+PEG estava dentro aqui da da pasta dos tools, OK?
+Mas também podem ter o FFMPEG na vossa máquina e
+
+
+nesse caso, podem chamar aqui o FFMPEG sem
+dar-lhe a path completa aqui para os tools. Ah,
+
+
+e portanto funciona também. Eh, e eu corri
+aqui este código. Eh, eu fui buscar as lyrics,
+
+
+neste caso, eh, fui buscar aqui as lyrics. Ora,
+onde é que isto está? Eh, cá está, está aqui o Read
+
+
+RDS. E eu tinha, e eu tinha Ioanna Newson lirycs RDS,
+eh, portanto, que vinha daquele report RDS que vos
+
+
+mostrei há bocado. E, portanto, com isto eu tinhaas
+lyrics e depois eu ia tinha um determinado álbum
+
+
+que era este álbum. Eu identificava aqui quais
+ as faixas do meu ficheiro
+
+
+massivo que tinha as lyrics que eu queria, que
+era que era da 28 a 32. Eh, e portanto eu seria e
+
+
+insera funciona. Eh, só que é é incompatível com
+o Musicbee. E, portanto, eh, não serve. Pronto,
+
+
+deixei isto aqui em standby e até pus aqui
+um stop para não haver o perigo de executar esta
+
+
+parte aqui. Pronto, mas eh quis-vos mostrar esta
+parte aqui, realmente para vocês verem que as
+
+
+melhorias que eu fiz aqui, nomeadamente a parte de
+preencher a metadata toda, que enfim, 
+
+
+está aqui dentro desta função. Se vocês
+quiserem vão vão ver o código do GitHube vão lá
+
+
+ver a função. Pronto, agora quero vos mostrar
+aqui que também costumo fazer isso a nível de
+
+
+costumos mostrar quais são as novas aplicações com
+que eu tenho trabalhado. Eh, e vou também vou vos
+
+
+mostrar aqui. Ora, a ver se eu me lembro onde é que
+isto está. RStudio Tools acho que está aqui. Ora
+
+
+display media
+
+
+aqui. Então talvez esteja Ora, minifunctions.
+
+
+Devia ter posto isto no guião e esqueci-me. Acho
+
+
+que não está aqui no guião.
+OK. E esqueci-me de pôr isso.
+
+
+Ora,
+
+
+imagegrid.
+
+
+Ora folder. Ora folder.
+Deixa eu ver aqui qual é ela.
+
+
+Ora, onde é que isto está?
+
+
+Onde é que estão aqui os
+jogos? Ora só um momentinho.
+
+
+Ora P.
+
+
+Logos.
+
+
+Esqueci-me de pôr isto.
+
+
+OK.
+
+
+Sim, senhora. pôr isto aqui.
+
+
+Tenho-vos mostrado isto ao longo dos meus
+tutorials. Gosto de vos mostrar esta parte aqui. Eh,
+
+
+sim, senhora. Está aqui. Ora, deixa abrir aqui. Sim,
+senhora. Pronto. E isto porque aqui aqui dá-me por
+
+
+ordem por ordem das novidades. Pronto. Portanto,
+as novidades vamos ver hoje. Vamos ver aqui. Eh,
+
+
+bom, o Power Shell 7 não me lembro se eu tinha
+posto aqui, que também já vos falei dele nos
+
+
+outros tutorials. Esta parte aqui também já vos
+falei. E agora tenho aqui estas duas novidades.
+
+
+Vamos ver. O Musicbee. Eu já vos tinha falado e
+que não tinha gostado muito. É bastante confuso,
+
+
+mas a verdade é que se revelou o melhor para
+mostrar as lyrics. OK. Portanto, agora sim
+
+
+senhor e vou-vos mostrar isso. E depois há esta
+ferramenta aqui espetacular que eu descobri,
+
+
+o One Tagger, também posso vos mostrar que baixa
+as lyrics, realmente de uma forma bastante capaz,
+
+
+OK? Eh, portanto, o One Tagger e o Musicbee
+são as duas novidades aqui para este
+
+
+tutorial de hoje. Ora, sim, senhora. Ora,
+onde é que nós estávamos aqui? Portanto,
+
+
+esta parte aqui já está. Portanto, está tudo
+visto. Penso que aqui está tudo visto. Ora,
+
+
+então vamos então e para o One Tagger. Vamos
+mostrar aqui e vamos estamos quase a terminar
+
+
+o tutorial. O One Tagger quero-vos mostrar,
+está espetacular. E depois o o Musicbee.
+
+
+Ora, o One Tagger. O One Tagger é uma ferramenta
+realmente espetacular que eu descobri.
+
+
+eh muito capaz
+
+
+eh e que nós aqui tem aqui várias várias tem aqui
+quatro tópicos fundamentais, mas nós entramos
+
+
+aqui neste no principal no Autotag. Podemos
+ir por aqui por cima Autotag. Pronto. E aqui
+
+
+e tem as várias sources de informação. Algumas que
+requerem credenciais como o Spotify ou outras e
+
+
+outras que não, que são totalmente livres como o
+Musicxmatch que vai fazer o fetch lirycs. Ok,
+
+
+pronto. Então aqui eh temos aqui o Fetch lyrics. Eh
+sim, senhor. Podemos usar várias, mas aqui para
+
+
+lyrics até penso que esta seja talvez a única que
+está aqui. Pronto. E fazemos agora é só fazer next.
+
+
+Aqui vamos pôr o nome, vamos arrastar a folder que
+nós queremos. Ora, OK. Deixa-me arrastar aqui a
+
+
+folder. Deixa-me arrastar. Ó, tenho aqui este
+exemplo. Pronto, vamos usar aqui este exemplo
+
+
+que já está. Esta folder aqui é a última que eu
+fiz. Pronto. E aqui pomos os campos. Quer dizer,
+
+
+consoante aquelas fontes de informação, assim as
+tags com que essa fonte de informação trabalha.
+
+
+Neste caso, como estes estas tags estão todas
+inibidas e só estas duas de lyrics é que estão desinibidas,
+
+
+que eu as pude selecionar. Pronto. E então, e isso
+é automático consoante as sources de informação
+
+
+que nós selecionamos. E eu aqui quero ir buscar
+os dois tipos de lyrics, as sincronizadas, que
+
+
+são as melhores, claro, e as unsyncronized. OK?
+Pronto. E, portanto, vamos buscar as duas. Next.
+
+
+Eh, aqui se houver alguma parametrização que ele
+necessite ainda intermédia aparece aqui que não
+
+
+aqui não há mais. Pronto, aqui
+overwrite tags. Eu agora vou dizer que não
+
+
+porque é que ele já tem.
+
+
+Ok. Eh, e mais nada de especial.
+Vamos fazer override tags. Pronto,
+
+
+não há problema. Ora, next. Pronto.
+E agora vai pegar nas. Por acaso, olha,
+
+
+por acaso aqui estão a falhar. Algumas estão
+a falhar e só uma é que funciona. Pronto,
+
+
+por acaso só esta é que funcionou. Não sei porque
+que as outras não, as outras não conseguiu aceder.
+
+
+Mas aquele álbum, por exemplo, da Johanna Newson,
+onde conseguiu aceder a todas as lyrics. Penso
+
+
+talvez por este álbum ser mais antigo, ser
+bastante antigo. Ele talvez por isso ele
+
+
+não tenha estas lyrics todas, mas álbums mais
+recentes à partida ele terá todas as lyrics.
+
+
+No caso da Newon, ele tem. Não vale
+a pena agora aqui fazer o teste. Vocês confiam
+
+
+que ele vai buscar. E pronto. E finalmente
+vamos abrir aqui o musicbee para terminar.
+
+
+MusicBee é um bocado manhoso. Eu não gosto muito
+dele, mas é como vos digo, ele eh realmente ele é
+
+
+bom para mostrar as lyrics. Eh, eu não gosto
+muito dele porque, por exemplo, se eu tenho
+
+
+um álbum e, entretanto, eu corrijo as tags, algum
+tipo de tag desse álbum, eu depois eu não consegui
+
+
+de maneira nenhuma eu fazer forçar o MusicBee a
+fazer o refresh das tags. Não consegui mesmo, por
+
+
+mais que eu procurasse na inteligência artificial
+e nas opções, eu não consegui. sempre se recusou,
+
+
+nem mesmo apagando um álbum e voltando a carregar
+o álbum, ele eh ressuscitava as tags antigas e
+
+
+não carregava as novas tags. Eh, portanto,
+pronto, é como vos digo, não? Aí, nesse caso,
+
+
+eu não tive outra hipótese senão fazer o delete
+total da library, ver onde estava a library,
+
+
+que no caso do Windows está normalmente na
+folder da Music do Windows, eh, limpar a library
+
+
+completamente, porque depois também reconstruir
+a library é simples. Eh, basta arrastar as
+
+
+folders aqui para dentro e ele reconstrói. Vou
+arrastar agora aqui uma folder para vocês verem.
+
+
+Ora, deixa ver aqui music. Vou arrastar
+precisamente esta que foi o tema de hoje,
+
+
+a Joanna Newon e OK, cá está as tracks numeradas,
+devidamente numeradas e cujas lyrics ele foi
+
+
+buscar com o One Tagger. Pronto, eu tentei, eu tentei
+carregá-las eu mas é sempre melhor, 
+
+
+é sempre melhor ir buscar a uma plataforma do que
+estarmos a carrega-la nós, como é óbvio, porque é
+
+
+sempre será sempre mais robusto e mais fiável pois
+usar uma plataforma de maior envergadura do que
+
+
+estarmos a carregar nós à partida por carolice,
+não é? Eh, mas pronto, mas pode haver um caso
+
+
+que eh, vamos que tenham que a base de dados a
+plataforma não tem as lyrics. Então, seria bom se
+
+
+nós pudermos encontrar nós mesmos as lyrics
+nalgum outro local e nós termos a possibilidade
+
+
+de carregar as lyrics por nós, por nós mesmos.
+Isso seria sempre útil, mas a verdade é que eu
+
+
+não consegui porque deu-me aquela falha pelo menos
+a serem lidas por este player. Atenção, porque as
+
+
+lyrics elas ficam carregadas, isso não há dúvida,
+porque eu olhei, analisei a metadata da música e
+
+
+as lyrics estavam lá dentro e com o nome do campo
+correto à partida parecia tudo correto. Mas há ali
+
+
+algum pormenor, algum tipo de formatação que 
+para o MusicBee, o MusicBee não pegou nas lyrics.
+
+
+Pronto, aqui sim, aqui pega. Aqui pega. Eh, vou
+só baixar aqui o... Vou só cortar aqui o tema, o som.
+
+
+Eh, vamos só ver aqui, pôr aqui a tocar uma. Eh,
+este player, na verdade, é bastante espetacular
+
+
+do ponto de vista que cá estão as lyrics.
+Eh, aqui está aqui um bocadinho pequenino,
+
+
+não sei se calhar dará para pôr maior, mas não
+sei como. Eh, é muito engraçado. Eu não tinha
+
+
+reparado bem nesta parte em que e ele vai fazendo
+um slide show automático de x em x segundos, vai
+
+
+mostrando fotos de fundo eh relativas à artista
+ao artista que nós estamos a tocar. Portanto, esta
+
+
+parte até fiquei bastante surpreendido. Eu ainda
+não tinha ainda apercebido disto a nível do musicbee
+
+
+Eu tinha-o deitado fora numa dada fase
+até prematuramente, mas agora já fiquei mais
+
+
+fã do musicbee, embora reconhecendo as limitações
+que tem, como essa parte agora que vos falei que
+
+
+ele é péssimo a fazer o refresh da
+metadata. Eh, ora bem, ele aqui não sei se está a
+
+
+usar eh letras sincronizadas ou unsyncronized.
+Aqui parece que são uns syncronized porque eu
+
+
+não vejo ele aqui a seguir. Deixa carregar
+aqui esta. Deixa carregar aqui esta parte.
+
+
+Esta parte até parece que não está qualquer coisa
+aqui que falhou. Falhou nas lyrics. Esta parte
+
+
+aqui falhou nas lyrics. É estranho. Eh, já não
+sei se já não sei porquê, porque eu tinha bom,
+
+
+se calhar, entretanto, já o sujeitei ou já
+tive a fazer testes aqui no meu código R e
+
+
+se calhar estraguei as lyrics. Bom, não sei.
+Pronto, mas vocês confiam que ele mostra lyrics, e eu também já vi 
+
+
+aqui lyrics sincronizadas até noutros álbuns.
+Até vou arrancar, vou arrastar aqui outro 
+
+
+álbum que á partida eu sei que está bom. Ora,
+deixa-me arrastar aqui este aqui. Este aqui
+
+
+que eu tinha também já o tinha testado. Ora,
+deixa ver aqui se se estas são sincronizadas.
+
+
+Penso que não. não
+estou a ver o sincronismo.
+
+
+OK. Eh, pronto, eh, vale o que vale. Eu
+eu acho que já vi isto sincronizado. E ía
+
+
+jurar que foi neste player. Posso estar a fazer
+confusão. Às vezes experimento tanta coisa,
+
+
+mas ia jurar que foi aqui que eu já eu já
+vi aqui algumas lyrics sincronizadas que
+
+
+eu tenho-as sincronizadas. E pronto,
+penso chegamos ao fim deste tutorial
+
+
+e espero que tenham gostado e até
+uma próxima oportunidade. Obrigado.
+
+
