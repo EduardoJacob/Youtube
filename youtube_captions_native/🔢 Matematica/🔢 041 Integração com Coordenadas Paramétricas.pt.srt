@@ -1,0 +1,1688 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Hoje vamos fazer aqui algumas revisões
+em termos de técnicas de integração e
+passagem a coordenadas paramétricas.
+Ora, vamos aqui
+relembrar aqui algumas coisas que nós já
+demos em noutros tutorials.
+OK?
+Vamos ver aqui no sistema de eixos.
+Ora, vamos ver aqui uma curva.
+Ora, entre a e b,
+ora, temos a curva aqui y = f(x).
+Ora, e vamos eh relembrar aqui, que já
+vimos isto noutro tutorial, mas vamos
+relembrar que
+se eu quiser calcular aqui o este
+comprimento,
+comprimento desta curva, OK?
+Então eu preciso do do do do
+elementamento de integração de L. Eu
+preciso de um elemento de de integração
+d OK?
+Ora,
+sim, senhor.
+E vimos também, já vimos isto, que se eu
+fizer o famoso triângulo,
+onde eu sei que
+para um dado ponto
+e esta tangente do ângulo, esta tangente
+deste ângulo alfa
+era a derivada da função f, ou seja,
+seria dx,
+ok?
+Portanto, a tangente de alfa é d y dx,
+que é a derivada da função dfx.
+Vimos que pelo teorema de Pitágoras,
+o efetivamente o elemento DL que nós
+queremos é este elemento. Este é o DL,
+porque são os pequenos troços oblíquos.
+São estes pequenos troços oblículos que
+estão aqui, que eu preciso de integrar
+para somá-los.
+OK? São estes elementos, estes pequenos
+elementos DL.
+Portanto, a integração para obter um
+comprimento de linha é feita com o
+elemento de integração dl.
+OK?
+Tal como a área subordinada na função
+era feita com o elemento de integração
+de DA,
+OK? Da.
+O que acontece é que
+eh o que acontece é que da
+vimos que da em coordenadas cartesianas,
+portanto, são as as quadrícolas dx dy,
+OK?
+Que é um integral duplo, mas que depois
+desenera degenera num
+numa numa simples integração em dx.
+quando nós colocamos aqui f(x),
+porque então então passamos de somar
+quadrícolas para somar retângulos.
+OK?
+Portanto, isto vimos já vimos que era
+igual a isto, tá? OK? Eu podia pôr um
+integral duplo e que depois
+degenerava num integral simples de f(x)
+dx.
+OK? Mas aqui, voltando aqui aos
+comprimentos,
+o integral de linha, portanto, o
+elemento dl
+vai ser aqui para o teorema de Pitágoras
+é dx² + dy².
+OK? Pronto. E, portanto, o comprimento
+da linha,
+o comprimento da linha
+é o integral entre a e b
+dl.
+DL não tem mais.
+O comprimento do linha é isto,
+OK?
+Sempre e quando integrado num num
+determinado intervalo adequado, tal como
+na área.
+Tal como na área, a área era o integral
+múltiplo
+de da, não tem mais. Seja qual for a
+função,
+que eu sempre quando integrado nos
+limites de integração adequados dentro
+de uma determinada área.
+Ora, portanto, é o integral de vinha,
+neste caso é isto, é o integral de dl.
+Portanto, é o integral desta raiz
+quadrada
+de dx² + dy².
+OK? O que acontece agora é que eu o dx²
+eu ponho aqui em evidência, eu extraio
+cá aqui para fora.
+Portanto, ao extrair aqui para fora,
+fica o integral.
+Ponho dx qu em evidência aqui fica 1
+e aqui fica mais dx
+ao quadrado,
+OK? E o dx qu passa para fora e fica dx.
+OK? Portanto, se este dx passar agora
+aqui para dentro, fica dx², fica aqui e
+aqui corta, corta e, portanto, fica a
+expressão de cima. OK? Portanto,
+transformarmos o elemento DL.
+O elemento DL pode ser transformado, uma
+integração de DL pode ser transformada
+em uma integração de dx.
+Aqui integrávamos em dl com dl.
+OK?
+Mas o que se faz é que faz esta esta
+transformação e passamos a integrar em
+dx, que é mais simples,
+porque que aqui faço variar o x,
+portanto, entre a e b.
+Ora bem, e
+vamos ver agora. Vamos imaginar que que
+eu queria realmente o comprimento da
+circunferência.
+Bom, então a circunferência
+tenho y
+uma circunferência de raio r√
+qu
+já sabemos de R2 - X2.
+OK? Sim, senhor. Porque? Porque sabemos
+que a equação da circunferência pode ser
+dada na forma x2 + y2
+= a r2 explicitando em ordem y, pois
+resulta esta expressão.
+Pronto.
+E aqui do o comprimento da linha,
+portanto, temos um integral entre a e b
+1 mais
+f linha.
+fha de x².
+OK? Então aqui f(x)
+r2 -
+x2 = 1/2. E para colocar agora nesta
+forma, pois teria que a derivada desta
+função em ordem x seria 1/2 disto igual
+a -1/2 x -2x, etc, etc. nem vou tentar
+fazer porque isto seria de uma
+complexidade, nem tentei fazer.
+OK? Pronto. Então não é prático, não é
+prático virmos por aqui. Pronto. E então
+agora introduzimos,
+voltamos a introduzir o conceito das
+coordenadas paramétricas que
+já abordamos n alguns outros tutoriais.
+E vamos então agora voltar aqui a usar
+coordenadas paramétricas. Portanto,
+interessa-me arranjar aqui uma uma
+transformação,
+uma parametrização,
+OK? É sempre possível arranjar uma
+parametrização,
+OK? Imaginando, por exemplo, uma uma
+equação de uma reta
+y
+= mx + b, uma reta. É sempre possível
+arranjar uma parametrização
+da forma seja x
+igual a uma função de t.
+Normalmente o parâmetro t é o é o
+parâmetro por convenção que se costuma
+usar quando precisamos de um parâmetro.
+Seja y = g de t.
+É sempre possível parametrizar. sempre,
+sempre possível, nem que seja uma
+parametrização trivial que não faz nada,
+que não, que não adianta nada, que e que
+ou que não serve para nada. Por exemplo,
+aqui olhando para a reta, eu posso
+arranjar a parametrização,
+seja x = t, pronto, que é uma
+parametrização inútil. Não, aqui não
+estou a ganhar nada, estou a só uma
+substituição de um símbolo,
+OK? Mas é só para mostrar que sim, que é
+sempre possível parametrizar. Qualquer
+curva pode ser parametrizada.
+Ora, seja x = t e então sendo assim,
+seja y
+igual a mt
++ b.
+Sim, senhor. Portanto, parametrizar é
+sempre possível parametrizar.
+OK.
+Sim, senhor.
+Mas há várias parametrizações possíveis.
+Há várias parametrizações.
+Imaginando que eu aqui, por algum
+motivo, eu queria fazer, eu eu queria
+fazer
+eu queria fazer aqui dizia: "Não, não
+gosto desta parametrização, quero outra
+parametrização,
+quero, olha, seja x = 2t,
+OK? é uma parametrização.
+Nesse caso, o Y resulta
+eh
+onde está X 2 MT.
+Pronto, outra parametrização possível.
+OK. Sim, senhora. Portanto, então vamos
+aqui na circunferência encontrar uma
+parametrização. E é parametrização muito
+comum quando se trabalha com
+circunferências,
+OK? Seja X
+igual a R
+cosseno de T.
+E então se se x = r coseno de t,
+se eu se eu eu eu eu, não, portanto, tal
+como aqui,
+eu primeiro começo a parametrizar o x e
+depois vejo o que é que resulta para y.
+OK? Pronto.
+Então aqui é a mesma coisa. Eu primeiro
+parametrizo X.
+Esta é a parametrização
+e vai ver escolhido esta parametrização.
+Se eu se eu parametrizo o x, eu vejo
+quanto é que resulta para y.
+OK? Então, se x é isto,
+OK? Então, daqui desta equação, desta
+equação,
+resulta que y2
+é igual a R2 -
+X2 R2 [roncando]
+cosseno quadrado,
+ou seja, R2 em evidência 1 men cosseno
+quadrado, 1 men coseno quad é o seno
+quadrado.
+Portanto, onde implica que Y
+igual a R
+sente X neste caso ou neste caso aqui,
+portanto, Y,
+desculpem, aqui não é, aqui não é X,
+portanto aqui
+eu fiz a substituição
+seja x = rseno t²
+então resulta que y = r sen t. OK?
+Portanto, a parametrização que eu que eu
+arranjo é é esta parametrização do x do
+do qual depois resulta y. Uma vez
+escolhida uma parametrização para x ou
+poderia ser ao contrário escolher uma
+parametrização para y.
+OK? Pronto. Normalmente é quando estamos
+em coordenadas cartesianas, normalmente
+arranja-se uma parametrização para o x.
+Pronto, que é o que eu fiz aqui.
+Então, resulta que o y tem que ser isto.
+OK? Pronto. Então, esta é a
+parametrização muito comum,
+coordenadas paramétricas
+da circunferência.
+OK?
+faz lembrar as coordenadas polares, mas
+não é coordenadas polares. Isto não tem
+nada a ver com coordenadas polares. Tem
+a ver porque é parecido porque porque
+aquas equações de transformação
+entre cartesianas e polares
+faz lembrar esta esta parametrização que
+encontramos aqui. Mas isto não é
+coordenadas polares, OK? Isto é,
+coordenadas cartesianas, porque eu tenho
+X Y.
+No universo das coordenadas polares não
+existe X Y. Isto não existem coordenadas
+polares.
+Coordenadas polares, como já vimos e já
+falei, é um universo onde existe R e
+teta.
+X Y não existe no vocabulário das
+coordenadas polares. OK? Portanto, isto
+não é coordenadas polares, isto são
+coordenadas cartesianas na forma
+paramétrica,
+OK?
+Sim, senhor.
+Eh, quando fazemos uma
+uma substituição
+com com comenas
+paramétricas, uma parametrização,
+pois normalmente também convém dizer,
+ok, o e o parâmetro vai variar entre
+quantos e quantos. Pronto. E aqui também
+convém dizer, olha, o parâmetro t
+neste caso varia entre 0 e 2 pi.
+Portanto, com o parâmetro t a variar
+entre 0 e 2 pi, é o suficiente para
+gerar para gerar a
+a circunferência que eu quero.
+[roncando] Sim, senhor. Pronto. Então
+agora
+vamos calcular o comprimento da
+circunferência
+usando este sistema o sistema de
+coordenadas paramétricas.
+OK? Coisa que aqui vimos que isto era
+tremendamente complicado se nós fôssemos
+com a equação cartesiana tradicional
+para substituir aqui nesta fórmula. OK?
+Portanto, agora vai ser bem mais
+simples. Não precisamos, não
+precisávamos de calcular o comprimento.
+Nós já sabemos o comprimento de uma
+circunferência nunca precisa de ser
+calculado.
+Porque é porque é a definição de pi.
+Também já falei disso, mas pronto, mas
+calculamos na mesma para ver que as
+formas estão corretas e a coerência das
+das formas que temos que estamos a usar.
+OK? Pronto. Então isto funciona como
+lembram-se quando uma das técnicas de
+integração é a integração por
+substituição.
+Pronto, isto é o que nós vamos fazer
+agora. Nós vamos fazer uma integração
+por substituição.
+Qual é a integração que nós queremos? É
+esta aqui inicial.
+A integração que nós vamos fazer é esta
+inicial,
+OK?
+Que é é a integração do comprimento. O L
+é igual ao integral d.
+Pronto, então fizemos uma substituição.
+Portanto, isto é como uma isto é uma
+integração por substituição que nós
+estamos a fazer,
+OK?
+Portanto,
+coordenadas paramétricas é uma forma de
+parametrizar a curva.
+OK? Pronto. Vamos aqui, vamos aqui ao
+Geogebra,
+vamos aqui ao Geogebra.
+[roncando]
+E eu tenho aqui a parametrização,
+tenho aqui a curva, a circunferência
+dada na forma paramétrica.
+Digo aqui c = a curva de cosseno t sen t
+neste caso é para o círculo unitário com
+o parâmetro t a variar entre 0 e d
+entre zer e um determinado emito.
+Pronto, isto permite-me aqui fazer aqui
+uma animação que o Geogebra faz uma
+animação.
+Deixa-me só pôr aqui
+agora traçar aqui a curva. OK.
+Pronto. E nós vemos aqui, pronto, esta é
+a parametrização e ela desenha a
+circunferência, não há dúvida nenhuma.
+OK?
+Pronto. E o parâmetro avança. O
+parâmetro avançou entre 0 e 2 pi e eu
+desenho a circunferência. Pronto. OK.
+Pronto. Aqui é uma parametrização.
+OK.
+Portanto, aqui é uma parametrização e
+não tem mais. Aqui ninguém falou em
+integrais. Aqui não há integrais. Aqui
+não há nada. Aqui é uma curva
+parametrizada.
+OK? Mas eu parametrizo como eu quiser.
+Vamos ver daqui a bocado que há outras
+parametrizações possíveis e que se
+costumam usar para a circunferência.
+OK? A parametrização é aquela que eu
+quiser.
+Claro que nós vamos procurar uma
+parametrização que que faça sentido, uma
+parametrização
+razoável, não é? Sensata, que é o caso
+aqui. Esta parametrização é bastante
+sensata.
+ela fazendo variar o parâmetro t entre 0
+e 2 pi e eu desenho a circunferência de
+uma forma uniforme e contínua. Portanto,
+isto, portanto, esta é uma
+parametrização
+perfeitamente sensata.
+OK?
+Pronto, que é esta parametrização.
+Agora eu quero calcular um integral,
+o integral de linha, OK? Mas tenho uma
+parametrização
+partindo da curva parametrizada.
+Portanto, então isso funciona como uma
+mudança de variáveis. Pronto. Quer
+dizer, então que se eu tenho esta
+transformação
+de mudança de variáveis, eu tenho que
+calcular o dx dy.
+OK? Isto já é tudo coisas que já fizemos
+quando fizemos integração por
+substituição.
+Portanto, aqui é a mesma coisa. dx r
+a derivada do cosseno - seno
+de t dt
+e o mesmo para d y
+ora r
+cosseno de t d
+pronto já tenho aqui portanto já tenho
+eh os elementos dx d y mas agora eu
+preciso do elemento dl
+DL que eu vou, eu quero é calcular o
+comprimento da circunferência.
+E a fórmula é esta.
+Esta é a fórmula.
+Esta é a fórmula DL.
+DL
+para equações, para para para para
+coordenadas cartesianas.
+OK? Este é o elemento
+de integração
+dl.
+para o cálculo de comprimentos de vinhas
+em coordenadas cartesianas
+que dx dy são coordenadas cartesianas.
+OK?
+Portanto, isto é coordenadas
+cartesianas, que é o que nós vamos fazer
+aqui. O que acontece é que fizemos uma
+substituição de variáveis, uma
+parametrização,
+OK? Então temos aqui dl
+é raiz quadrada do dx² + d²
+dx quadrado aqui r²
+sen quad
+dt qu
+e em baixo só com o dt quad vou pô em
+evidência passa para fora fica dt
+pronto r2 e em baixo d qu r2 cosseno
+R2 é evidência. Seno quad mais cseno
+quadrado dá 1 dá R2, cuja raiz é R.
+R
+dt.
+Pronto, eu já tenho aqui o meu elemento
+de integração.
+Após feita esta, usando esta
+transformação de variáveis, esta
+parametrização,
+já tenho aqui.
+Então o integral, então o comprimento da
+circunferência,
+o comprimento da circunferência é o
+integral do parâmetro. Integrando
+após a parametrização que eu fiz, a
+substituição de variáveis é a mesma
+coisa.
+Entre t varia do 0 a 2 pi do elemento
+dl,
+OK? o elemento dl rdt que eu fiz a
+substituição de variáveis
+para t.
+OK?
+Ora, eu fiz a uma substituição de
+variáveis de x para t,
+OK?
+e do qual me resultou o este cálculo
+deste dx dy
+posto na forma aqui dele, o qual resulta
+rdt. E portanto r primitivando em ordem
+tante,
+fica rt
+para t varia entre 0 e 2 pi
+e portanto fica 2 pi r.
+Pronto. Portanto, isto é para ser feito
+como exercício e vemos, ok, que está
+tudo coerente e que que aquela forma
+está coerente e que estas transformações
+estão coerentes,
+OK? E que este elemento tá coerente e
+está tudo coerente.
+Mais uma vez, não precisamos de fazer
+nada disto porque nós não precisamos de
+não não é preciso demonstrar que o
+comprimento da segurança é 2 pi r. É 2
+pi r por definição de pi.
+OK? Mas sim, senhor, mas fazemos isto
+para demonstrar
+que as formas estão coerentes.
+OK?
+OK.
+Portanto, basicamente, eu tenho eh eu
+tenho o que nós vimos aqui é que quando
+eu tenho uma curva,
+uma curva que é uma uma função,
+por exemplo, pode ser considerada uma
+função de duas variáveis, f(x y = c é
+uma constante, portanto isto é uma
+curva,
+OK?
+No caso da circunferência, f(xy) é x² +
+y²
+= a r2.
+OK?
+Isto é uma curva. Isto é uma curva.
+Reencontramos uma uma transformação.
+Aplicamos uma transformação 6 x igual a
+um ft. T.
+Esta é a transformação que nós
+procuramos.
+seja x = ft
+e do qual resulta
+uma vez escolhido x = ft
+resulta que y
+resultará um determinado g de t que
+temos que calcular.
+OK?
+Sim, senhor. Portanto, nós só nós só
+optamos nós só escolhemos uma
+parametrização normalmente para x.
+Normalmente é para X que nós escolhemos
+a parametrização
+e depois resulta e o Y vai resultar, vai
+cair de maduro. OK?
+Pronto. Isto é importante reter porque
+às vezes vê-se
+em tutorial sobre esta matéria e vê-se,
+bom, faz uma transformação, seja x = ft
+e seja y = g de t.
+Não, não, não, não. Isto não, isto não,
+não funciona assim. Não é, não é seja
+um, seja outro. Não é, seja só um, o
+outro, o outro cai de maduro,
+é uma consequência.
+OK? Sim, senhora.
+Vamos agora relembrar. Portanto, aqui
+calculamos um comprimento em coordenadas
+cartesianas. Isto é comprimento em
+coordenadas cartesianas.
+O que acontece é com curva parametrizada
+ou com curva não parametrizada.
+OK?
+com curva na forma e não lembro agora o
+nome que se designa,
+OK?
+Eh,
+ou com ou ou com curva parametrizada ou
+com curva não parametrizada, mas
+comprimento em coordenadas cartesianas,
+foi o que nós vimos aqui, OK? Cuja
+fórmula é esta aqui
+da raiz de dx² d y².
+Se a curva for dada, estiver na forma
+explicitada em ordem y, depois usamos
+esta expressão aqui de baixo.
+1 + dx a derivada da função ao quadrado.
+Se pelo contrário a curva estiver dada
+na forma paramétrica,
+ok? Portanto, eu vou vamos relembrar
+aqui para que não reste dúvidas.
+Portanto, DL,
+curva cartesiana,
+eh, melhor dizendo, L
+é um integral
+dx² + dy². Pronto, ponto final. Isto é,
+coordenadas cartesianas.
+No caso que a curva esteja explicitada
+em ordem y,
+então será
+o integral
+1 +
+dx
+quadrado
+dx. OK? Isto é igual
+no caso em que a curva, pelo contrário,
+ela não tá explicitada em ordem y, mas a
+curva está parametrizada a um parâmetro
+t, então é o integral.
+Aqui temos a integração agora será em dt
+e aqui dentro teremos
+teremos dx dt
+que é o mesmo que dizer dft
+dx dt
+ao quadrado,
+tal como temos aqui
+mais
+y dt
+ao quadrado. Ok? Portanto, isto é tudo a
+mesma coisa. É tudo a mesma coisa. Tudo
+coordenadas cartesianas,
+OK? Tudo é a mesma coisa consoante o a a
+forma com que a curva se apresentar.
+OK? No caso de estar parametrizada, pois
+usamos esta expressão,
+OK? Isso é tudo formas equivalentes,
+estas três. OK? Pronto. Sim, senhor.
+[roncando] Agora vamos voltar a
+coordenadas polares,
+OK? Para calcular o comprimento de curva
+em coordenadas polares, que acho que
+não, acho que isto nunca vimos, apenas
+vimos a área.
+OK? Portanto, agora estamos no universo
+das coordenadas polares. Aqui não há x
+nem y, OK? Isso não existe.
+Já vimos aqui qual era o sistema eixo
+deixos que era um sistema radial em em
+coordenadas polares.
+Ora, portanto, em coordenadas polares
+temos R, por convenção, R F é F de Teta.
+Pronto, isto é coordenadas polares.
+Aqui não há X, nem há Y.
+Sim, senhor.
+Eh, e vimos que,
+portanto, há uma origem, sim, no sistema
+de eixos, no sistema deixos de
+coordenadas polares, existe uma origem,
+OK? [roncando] Existe uma origem e e
+existe um um ângulo de origem, que é
+este ângulo aqui, que é que é o que é o
+ângulo teta igual a 0. Pronto. E não há
+mais nada. Não há x, nem há y e depois
+existe um ângulo que sobe,
+OK? Aqui o teta vai subindo e existe um
+sistema radial.
+Pronto, isto são as coordenadas polares.
+OK? Aqui não há aqui não há eixos
+ortonormados.
+Sim, senhora.
+A,
+e, portanto, vamos considerar, e vimos
+que se este ângulo aqui for um deta
+infinitesimal,
+nós vimos que se eu tiver aqui uma uma
+curva, eu tenho aqui uma determinada
+curva,
+vimos que a área a área era simples de
+deduzir o que era que era
+o um integral de da de um elemento de
+integração de área.
+e o elemento de integração.
+Eh, portanto, eu quero esta área
+[roncando] e, portanto, ela atende para
+um triângulo. Vimos que ela ela atende
+para um triângulo e, portanto, a área do
+triângulo,
+que é o elemento da, a área do triângulo
+é 1/2.
+Vimos que era este comprimento que era o
+R. [limpando a garganta]
+R, que é uma função da teta.
+vezes esta base aqui do triângulo
+que vimos que era proporcional a R,
+portanto que era R d.
+Portanto, isto vimos
+RDA
+e que, portanto, a área fica
+1/io
+de um integral
+entre teta 1 e teta 2 num determinado
+intervalo
+r que o cujo r é a função f de teta ao
+quadrado
+d teta. Pronto, isto é que acho que já
+tínhamos visto isto num tutorial
+anterior, onde inclusive é aplicamos
+para calcular a área da circunferência,
+cuja a área da circunferência
+em coordenadas polares seria 1/2
+entre 0 e 2 pi.
+Equação da circunferência equação
+equação da circunferência
+R = R. Já tínhamos visto isto também
+é uma constante
+e portanto R é uma constante ao quadrado
+d teta, portanto não depende da teta e
+portanto fica 1/2
+R2 2 pi
+2 corta corta pi r² Pronto, isto já
+tínhamos visto.
+Vamos ver agora é o comprimento da curva
+em coordenadas polares. Isto é que nós
+não vimos, OK? O comprimento da curva em
+coordenadas polares.
+E então o que é que acontece agora aqui?
+É mais complexo. É mais complexo e vai
+ter que haver aqui um truque.
+Vai ter que haver aqui um truque.
+Ora, porquê? Porque o comprimento da
+curva em coordenadas polares é são é
+este troço, este troço que está aqui. Ou
+seja,
+vamos dizer assim, vamos dizer que
+aquele aquele deta que eu tenho ali,
+tenho o deta
+e eu tenho aqui um o o este pequeno
+ângulo, este pequeno segmento.
+OK? Pronto. Mas o o segmento pode estar
+assim
+ou pode estar assim com várias
+inclinações.
+Como é um infinitesimal
+em termos da área é é é não é
+significativo, não faz afetar esta área.
+Ou seja, é insignificante esta pequena
+inclinação que possa haver aqui em
+termos de para calcular esta área.
+OK?
+Pronto. Mas para calcular o comprimento
+da linha já é significante,
+é significativo. E eu tenho que eu tenho
+que trabalhar aqui com qual é este
+ângulo de esta inclinação. No fundo, é o
+mesmo que nós vimos aqui nas coordenadas
+cartesianas.
+Nas coordenadas cartesianas vemos que eu
+tenho que levar em conta a inclinação,
+esta inclinação aqui da vinha vermelha
+para calcular o comprimento da vinha
+vermelha. Eu não posso, eu não podia
+dizer que isto era um infinitez
+e que eu partia a curva, eu partia a
+curva em inf infinités e mais, estes
+pequenos infinités e mais. E eu não
+podia dizer então que dizia: "Ah, bom,
+então isto é, isto são pequenos
+segmentos".
+Não, isto seria estúpido.
+[roncando] Então, dava-me, então todas
+as curvas tinham o mesmo comprimento que
+era igual a b - a.
+OK? Pronto. Portanto, não há dúvida
+nenhuma que isto seria estúpido e que e
+que tá errado, obviamente. Por isso, eu
+tive eu tive que levarem para calcular o
+comprimento, eu tenho que levar em conta
+esta inclinação, mas para calcular a
+área, não. Para calcular a área, quando
+eu calculo o integral presidente da soma
+dos retângulos, esta inclinação é
+insignificante
+para área, porque o valor da área é
+muito mais impactante, é de uma ordem
+superior,
+do qual não importa qual a inclinação do
+segmentozinho de cima queimita o
+retângulo.
+OK?
+Pronto, aqui vai ser a mesma coisa.
+Pronto.
+Então, o que acontece? A técnica que eu
+conheço
+é
+converter as coordenadas polares. E
+agora sim, vou convertê-las para
+coordenadas cartesianas.
+Vou convertê-las porque eu em
+coordenadas cartesianas sei calcular o
+comprimento que está aqui, que é a rax2
+dy2.
+Portanto, eu já tenho
+isto está e tá correto e é e é fiável. E
+então o o truque, a técnica que se vai
+usar agora é, OK, eu vou quero calcular
+a área em coordenadas polares,
+OK?
+Mas eu vou pegar nas nas coordenadas
+polares que eu tenho e e e vou eu vou
+transformar a a função que eu tenho em
+coordenadas polares,
+eu vou convertê-la para coordenadas
+cartesianas, OK?
+Pronto, este é o truque. Aqui na área.
+Não preciso, não precisei de fazer nada
+disso porque é foi intuitivo determinar
+determinar aqui a fórmula
+aqui. Foi intuitivo.
+OK. Pronto. É, é como vos digo, existe
+toda uma matéria de de de de matemática,
+uma área das coordenadas curvivíneas que
+ainda não chegamos lá. E se chegarmos lá
+depois veremos que existe [roncando]
+toda uma um processo sistemático para
+tratar estes temas. E aí não há cá não
+há cá mais considerações, nem se é
+intuitivo ou se não é intuitivo.
+Portanto, existe todo um tema, mas
+pronto, mas como ainda não chegamos lá,
+estamos a tratar das coisas de uma forma
+intuitiva. OK?
+Sim, senhora.
+Então, como é que nós vamos fazer? Eu
+tenho aqui a minha função em coordenadas
+polares, r = feta.
+Pronto. E agora quero
+eu quero
+converter,
+vou converter
+uma função que está expressa em
+coordenadas polares.
+Vou converter para o universo para o
+universo das coordenadas cartesianas.
+Eu vou converter.
+OK.
+Sim, senhor.
+Então, como é que como é que isto se
+faz? Bom, eu faço com uma equações de
+transformação
+que são bem simples e conhecidas,
+eh, no qual se diz: "Bom,
+eh, eu vou converter para ir coordenadas
+cartesianas, mas mas na forma
+paramétrica,
+que é ou não, eu depois até poderei
+eventualmente eliminar o parâmetro,
+depende da depende da função específica
+que me que me permite ou não depois com
+facilidade de eliminar o parâmetro. Mas
+pronto, mas a mas a conversão que se faz
+quando se faz quando se passa para
+coordenadas cartesianas é atra
+passando-as para uma forma paramétrica.
+OK? Pronto. E as equações de
+transformação são, portanto, são simples
+e conhecidas. São o seguinte: X, seja X
+ig a
+R cosseno de teta.
+Mas eu eu agora eu agora nem eu nem
+quero eu nem quero usar aqui teta porque
+teta faz confusão e e confunde-se com
+este teta.
+Eh,
+confunde-se com esta teta aqui, com esta
+teta. Pronto, eu não quero usar aqui
+teta. Eu quero usar t para chamar a
+atenção que que isto é um é um outro t,
+mas r é uma função de teta. Portanto,
+então, na verdade, eu vou escrever isto
+é desta forma. Eu vou escrever como
+sendo
+f
+de t
+cosseno de t.
+OK? Pronto. Esta é que é a
+parametrização.
+Y. Então, resulta y resulta resulta y
+ft
+seno de t.
+OK? Pronto. Esta estas são as equações
+de transformação
+para passar de coordenadas polares para
+coordenadas cartesianas.
+[roncando]
+Portanto, de onde é que isto vem? Pois
+isto isto é imediato. Isto significa que
+eu tenho eu tenho em coordenadas
+polares, eu tenho um determinado R.
+Eu tenho um determinado R
+e um determinado teta.
+E e R é uma função. O este comprimento R
+depende de teta.
+Pronto. Então, resulta que isto pode ser
+visto como um triângulo e efetivamente a
+a projeção do do triângulo aqui em X,
+a projeção do triângulo em X aqui em
+baixo, não há dúvida nenhuma, que é o f
+de ta, cosseno de teta.
+Pronto. E a projeção em y,
+OK?
+F de teta,
+cosseno de teta,
+f de teta.
+seno de teta. Sim, senhor. Pronto.
+Estas são as equações de transformação
+que permitem passar de polares para
+cartesianas. Depois existem outras
+funções de transformação inversas que
+permitem passar de cartesianas para
+polares. Pronto, não vamos agora agora
+para isso para não não aumentar a
+confusão. Pronto, ficamos só com estas
+equações. Sim, senhora. Pronto. E agora
+que eu agora já estou a trabalhar no
+universo das cartesian outra vez. Então
+agora já posso calcular o meu elemento
+dl
+que preciso do dx² e do dy². Pronto.
+Então preciso preciso do dx.
+Preciso de dx. Vou pôr aqui.
+Portanto, dx.
+Ora dx. Olhando aqui, isto é é um
+produto. É um produto derivada da
+primeira em ordem t
+vezes a segunda
+cosseno
+mais derivada da segunda vez a primeira.
+Derivada da segunda é men seno.
+Ok?
+Portanto, isto é derivar em ordem t
+a derivada disto, o diferencial deste em
+ordem t dt,
+OK?
+O mesmo para d y
+a derivada desta em ordem t dt.
+Portanto, isto é a técnica da como se
+fosse é uma substituição de variáveis.
+OK? OK.
+[roncando]
+Portanto, eh, derivada da primeira
+vezes a segunda
+mais
+a primeira vez derivada da segunda
+dt.
+Mas eu preciso é do dos quadrados, que
+na forma do meu elemento de integração
+de linha, eu eu tenho o dx quad.
+OK?
+Então tenho
+dx²
+quadrado do primeiro
+mais quadrado do segundo
+menos o dobro do primeiro p o segundo.
+OK.
+dt quad
+dy²
+quadrado do primeiro
+mais quadrado do segundo
+o dobro do primeiro pelo segundo o dobro
+esquecime aqui do do
+2
+FF linha com o seno seno
+dt quad. Pronto. E agora tenho que
+somar.
+OK. É a forma que eu tenho do dl dx dx2
++ dy2.
+Vai haver aqui um corta corta.
+OK?
+E aqui vai ficar.
+Agora reparem este termo
+f linha. fha vai ser posto em evidência
+que o seno quadrado mais seno quad dá 1.
+Falta-me, falta-me aqui um, falta-me
+aqui um, dois, que é ao quadrado
+e, portanto, vai ficar f vinha ao
+quadrado
+e o mesmo aqui,
+F²AD
+dto.
+Pronto. E finalmente o elemento dl.
+Então agora já tenho raiz quadrada,
+portanto dx2 + dy2 dt. O dt2 passa para
+fora, fica dt. E aqui dentro
+f²
++
+f linha ao quadrado, ou seja, f de t f
+linha de t ou f de teta. Pronto, eu
+gosto mais de usar T,
+que é para se fazer uma separação entre
+as coordenadas polares, porque as
+coordenadas polares já ficaram lá para
+trás. Agora estamos em coordenadas
+cartesianas. O que acontece é que
+coordenadas cartesianas parametrizadas
+em em T, num parâmetro. Pronto, este é o
+elemento de integração d, OK?
+Este é o elemento. Então, vamos calcular
+a a circunferência.
+Vamos calcular a circunferência.
+Portanto, o comprimento
+da circunferência
+eh vamos dizer que é igual a,
+vamos experimentar t
+entre 0 e 2 pi.
+E aqui temos a raiz quadrada. E agora
+temos aqui é igual a f da teta ao
+quadrado f da na equação polar é na
+circunferência é uma constante r
+ok r da teta, que é o r da teta igual a
+r
+ao quadrado é uma constante e a derivada
+em ordem é teta. Bom, se é uma constante
+a derivada é zero.
+OK?
+Pronto.
+E então a raiz resulta R.
+É uma constante em termos de t, não
+depende de t. E portanto a primitivação
+aqui vai dar, portanto, aqui então vai
+dar R
+T
+com T entre 0 e 2 pi
+e, portanto, 2 pi r.
+Pronto. Está coerente também, como
+vemos.
+Eh,
+e pronto. E é esta a forma, a forma
+o comprimento em coordenadas polares.
+Portanto, o comprimento em coordenadas
+polares,
+a forma esta, no qual usamos um
+artifício de converter,
+de converter para coordenadas
+cartesianas.
+OK? Pronto. O que acontece é que muitas
+vezes se se não se usa t, usa-se teta e
+então parece que estamos nas coordenadas
+polares em teta. Teta varia de teta 1 a
+teta 2.
+Ok? Mas não é verdade. O que acontece é
+que estamos em coordenadas cartesianas
+com onde foi feita uma transformação
+para coordenadas cartesianas
+paramétricas.
+f de teta
+ao quadrado
+mais fha da teta
+ao quadrado
+d ta. Pronto. Comprimento da curva
+em coordenadas polares.
+OK?
+volumes
+de revolução
+em coordenadas cartianas.
+Nós resolvemos acho
+que eu resolvi um volume da esfera
+com coorden com coordenadas polares.
+Se bem-me lembro, acho que usei
+coordenadas polares, um artifício
+qualquer e depois para cada momento da
+integração em coordenadas polares, eu
+calculava 2 PR e portanto fazia um um um
+um somatório de do turoidales toroides e
+e portanto calculei.
+Mas eh não era preciso ter feito isso,
+porque no no caso, por exemplo, da
+esfera é bem simples, é bem simples e
+não é preciso transformação nenhuma.
+Podemos trabalhar com as coordenadas
+cartesianas puras.
+Portanto, um volume de de revolução é é
+bem simples.
+Eh, se temos uma curva, temos uma curva
+que gira,
+temos uma curva que gira.
+Eh, e portanto aqui temos o sistema de
+eixos,
+coordenadas cartesianas,
+OK?
+E, portanto, queremos o volume entre A e
+B,
+cujo, aliás, já vimos o tiramente papos
+rodinos, que também podemos usar, que é
+uma ferramenta que também podemos usar,
+uma técnica que também podemos usar se
+der jeito. OK,
+pronto. Tiriba de papos rotinos. Eh, é
+uma técnica que que que dá jeito quando
+quando as figuras eh são simétricas e
+podemos intuir de imediato onde está o
+centro. Podemos usar então o teema de
+papos godutinos. OK, pronto. Mas não
+precisamos não não precisávamos de saber
+nada sobre o teorema de papos gudinos.
+Eh, para, eu só o mostrei por
+curiosidade, que acho que é um teorema
+pouco conhecido. Pronto, mas não
+precisamos não precisamos dele para
+nada. Podemos e racionar e fazer as
+integrações normais.
+Portanto, aqui no volume de revolução,
+eh, temos esta superfície, esta
+superfície aqui que que vai girar em
+torno do eixo dos X.
+OK? Pronto. Então, o que é que fazemos?
+Nós o que fazemos é aqui para um dado
+elemento dx,
+da mesma forma que calculamos aqui a
+área, da mesma forma que nós calculamos
+a área como sendo um somatóriozinho de
+retângulos,
+da mesma forma que calculamos a área
+como sendo um um conjunto de retângulos
+f(x)
+dx.
+OK? Então, passar daqui ao volume é é
+verdadeiramente fácil.
+é a mesma integração,
+porque agora
+que cada
+retangulozinho destes ele dá uma volta,
+ele dá dá uma volta e e transforma num
+disco,
+portanto, e o disco tem uma área de de
+pi r quadrado,
+sendo o r este f(x) aqui,
+pi r qu vezes a espessura dx. Portanto,
+calculamos o integral deste volume como
+sendo um um somatório de discos,
+OK?
+A área e o volume, portanto, em
+coordenadas cartesianas.
+Eh, e realmente resulta que para a
+esfera é bem simples. Eu no meu outro
+tutorial fiz em coordenadas polares e
+pá, não sei já porquê,
+mas mas tá bem, foi feito e funcionou e
+OK e ficou visto. Vamos calcular agora
+para aqui para a esfera que resulta que
+é bem simples, porque a esfera tem é
+resulta da da rotação
+a da circunferência
+que é o raiz de
+R2 - X2.
+OK?
+Eh, então podemos fazer uma uma rotação
+da semicircunferência entre 0 e pi. OK?
+Portanto, aqui faz faz sentido,
+faz sentido para calcular o volume.
+Nós não vamos fazer uma integração entre
+0 e 2 pi, isso não faz sentido.
+Faz sentido é calcular
+eh entre 0 e pi.
+OK? Isto é que faz sentido. Eu tenho
+aqui,
+tenho aqui uma semicircunferência.
+Pronto. E esta semircunferência
+entre zer e pi, esta que ao girar
+vai originar o volume da esfera.
+Pronto. Então ficamos que o o volume da
+esfera
+é o integral entre e pi
+entre e não minto
+e eu eu aqui já estava a racionar com
+com coordenadas polares.
+Minto. Esqueçam esqueçam aqui o zer e
+pi.
+Eu vou antes fazer aqui
+o x entre 0 e r.
+Entre 0 e ru
+esta semisfera.
+OK?
+Portanto, x
+entre 0 e r vou obter uma subir,
+portanto tenho que multiplicar por dois
+para obter a esfera.
+OK? Rodando este quarto de círculo
+entre zer e r, eu rodo 1/4 do círculo
+para originar uma semisfera.
+Pronto. Então, o volume da esfera 2. OK.
+O que é que nós temos aqui? Pi
+f(x)².
+Pronto. E aqui assim elimina esta raiz.
+Daí que resulta fácil.
+Ora, dx.
+Sim, senhor.
+Pronto. Então, e agora resulta bem
+simples. 2 pi
+e agora temos integrando para x R2X
+-
+x³/3
+entre
+x = 0.
+X = r. Ora, para zero anula anula e para
+r fica 2 pi. E aqui temos
+r³
+- r³/3.
+Ora, 1 - 1/3 2/3 x 2. Portanto, 4/3 de
+pi ra³.
+O que está correto?
+Pronto, bem simples. Portanto, calcular
+um volume de revolução em coordenadas
+cartesianas, neste caso, para esfera.
+Foi bem simples. OK.
+E vamos relembrar novamente a superfície
+de revolução. Já agora, já não lembro
+como é que eu fiz no outro tutorial, mas
+vamos fazê-la aqui. Eh, a superfície de
+revolução.
+Qual é a fórmula?
+Aqui temos esta, est esta a esta esta é
+a forma do volume.
+Isto em coordenadas cartesianas.
+OK.
+Eh, por acaso, a superfície de revolução
+para em coordenadas polares eu não fiz,
+não me lembrei, mas imagino que
+provavelmente será mais simples
+converter
+para coordenadas cartesianas, tal como
+fizemos ali
+aqui no comprimento da linha em
+coordenadas polares, pois provavelmente
+para uma superfície de revolução será
+similar.
+Mas eu não fiz, não, também não vou
+fazer agora, mas vou fazer o superfície
+de revolução em coordenadas cartesianas.
+Vamos relembrar.
+Portanto, para superfície de revolução,
+nós temos que passar do do nós temos que
+partir do elemento DL,
+OK? Portanto, para volumes, nós partimos
+do elemento de área e o elemento da área
+gira e forma um disco. OK?
+Pronto. Mas [roncando] mas para
+superfícies de revolução, nós não
+partimos do elemento da área, partimos
+do do elemento de comprimento, do
+elemento do comprimento da curva,
+OK?
+Superfícies de revolução.
+OK? Aqui vimos volumes de revolução,
+coordenadas cartesianas, superfícies de
+revolução,
+coordenadas cartesianas.
+Portanto, é muito simples, muito
+simples. Portanto, será a superfície de
+revolução,
+terá que ser um integral,
+OK?
+integral em x
+igual a ab
+eh
+onde eu vou ter
+o meu tinha o o comprimento da linha que
+era que era este que já vimos 1 +
+e dy dx ou f linha em ordem x²
+dx. Pronto, isto este seria o
+comprimento da linha. Portanto, onde eu
+estou a integrar pequenos segmentos para
+calcular o comprimento. Ora, se eu se eu
+pegar agora em cada um destes segmento,
+deste elemento DL,
+OK?
+Eh, como é que eu e daqui passo para um
+elemento DS de de rotação,
+daqui passo e e ele forma uma fita
+quando gira aqui em torno do eixo dos X.
+Portanto, ele vai fazer aqui uma uma
+fita toroidal.
+Toroidal não. Eh,
+até pode ser toroidal. toroidal, não,
+isso toroidal seria se tivesse aqui um
+buraco, pronto, uma fita que gira
+[roncando] e portanto cujo
+cuja superfície será o dl a largura da
+fita que multiplica
+esta distância percorrida que é 2 pi r.
+Portanto, esta distância percorrita que
+se eu tenho aqui um R,
+um R e portanto a distância percorrida é
+2 pi r. Pronto. Então eu tenho que
+multiplicar aqui este é o meu elemento d
+eu tenho que multiplicar por 2 pi r, mas
+o r é o f dex. Portanto, aqui tenho que
+multiplicar por 2 pi
+2 pi
+fx.
+2 pi fx. Pronto, esta é a forma da
+superfície.
+Eh, intuitivamente, como vemos aqui,
+aqui é tudo intuitivo.
+Aqui ainda não chegamos a metodologias
+gerais, como digo, porque isto é a
+teoria de coordenadas curvilíneas, que
+são tópicos mais avançados, OK? Mexe com
+matrizes de transformação, matrizes
+jacobianos, etc, etc, etc. Portanto, não
+chegamos a nada disso. Tudo até agora é
+sempre tudo. Temos que chegar às formas
+de forma de uma forma intuitiva.
+Pronto. E aqui aqui eu cheguei de uma
+forma intuitiva. Portanto, faz sentido
+que seja isto. OK. Pronto. Vamos aplicar
+à à esfera.
+Pronto. Mais uma vez. Então, vamos
+aplicar à superfície esférica.
+y
+raiz
+de R2 -
+X2.
+Sim, senhor.
+Ora,
+temos, vamos, temos o mesmo problema que
+tivemos aqui no comprimento,
+onde eu digo: "E pá, este, isto não,
+isto est esta forma não é não é
+vantajosa. Eu tenho que eu eu eu
+convém-me passar isto, eu convém-me
+passar isto para coordenadas e
+paramétricas,
+OK? É a mesma coisa que fizemos no
+comprimento da esfera.
+Não é, não é, não é vantajoso trabalhar
+com a curva neste formato, porque eu
+agora para ter a derivada disto é uma
+trabalheira.
+Então passamos para paramétricas.
+Pronto. Então para paramétricas temos
+X,
+neste caso específico da esfera
+da circunferência R
+cosseno de T.
+y = r
+seno de t.
+Ora, queremos uma superfície de
+revolução e agora sim podemos aplicar
+para para t entre
+entre zer e pi, por exemplo,
+porque OK, t
+pi porque porque ao girar é que vai ao
+girar uma rolução vai dar uma superfície
+esférica.
+OK? Sim, senhor. Eh, e portanto vimos
+que
+sendo assim a superfície esférica será
+2 pi,
+que é o que está aqui,
+integral entre
+para t entre 0 e pi.
+E [roncando] agora temos aqui o f dex.
+Bom, o f(x) em coordenadas cartesianas,
+mas na verdade o f(x) representa
+o o r, o raio,
+o raio de rotação. E o raio de rotação é
+y.
+É por isso é que era y ig f(x), tá
+correto? Quando dado nas coordenadas
+cartesianas,
+OK? Mas agora que estamos em coordenadas
+paramétricas,
+é o Y.
+OK? Que é o que é o raio.
+Portanto, aquele o raio ali,
+que é o que faz 2 pi r.
+OK? Pronto. E agora precisamos da raiz.
+Pronto.
+E o elemento [roncando] D, o elemento DL
+também já sabemos que é o dx dt² + dt²
+que já fizemos aqui atrás quando
+calculamos o comprimento.
+OK?
+Fizemos alguros aqui para trás que vai
+aqui,
+OK? E que portanto e que dava R, dava R
+quad que depois a raiz dá R.
+Portanto, já fizemos isto
+que aqui dá R quadrado.
+[roncando] Ora, DT.
+Pronto, já fiz, já fiz. OK, já fizemos
+isto ali atrás quando calculamos o o
+comprimento da da circunferência. E
+agora aqui é a mesma coisa, é o mesmo
+elemento de integração.
+Sim, senhora. E, portanto, aqui dá R,
+que é uma constante, e então fica
+2 pi r²
+integral em t0 e pi
+dt.
+Para que, portanto, dá t,
+enganei-me aqui, esqueci-me aqui do do r
+seno, do r seno. Ora, portanto, isto dá
+e isto fica R rr2, portanto, 2 pi r2
+pi r2
+integral do seno. Agora sim, estava me
+esquecer deste seno.
+integral do seno de t ddt
+entre 0 e pi.
+Ora, o integral do seno é o menos
+cosseno,
+portanto 2 pi
+menos cosseno de t0
+e pi.
+OK?
+Ora,
+2 pi
+cosseno de pi é -1.
+Menos por menos dá mais, portanto dá 1
+menos.
+Menos por menos dá mais.
+Cosseno de 0 é 1.
+E pronto. E cá temos o nosso resultado
+correto. 4 pi r2.
+OK.
+Sim, senhora.
+Eh, finalmente
+vamos ver aqui uma outra parametrização
+da circunferência.
+Quando nós dissemos
+que
+eu tenho uma circunferência
+y
+igual a R2 - X2,
+eu digo, bom, eu posso encontrar uma
+parametrização, uma boa parametrização,
+seja x = r
+cseno de t.
+Então, se eu escolher x = ro de t,
+resulta que y tem que ser r seno de t.
+OK? Pronto, esta é uma parametrização
+bastante usada e prática.
+Pronto, mas há outras parametrizações.
+Vamos ver agora um exemplo para que
+fique bem claro que pode haver múltiplas
+parametrizações possíveis,
+OK? con se consoante
+o nosso objetivo, consoante a situação.
+E existe uma uma outra parametrização
+também muito famosa da circunferência,
+que é a parametrização
+chamada a parametrização racional,
+OK? Parametrização racional.
+Na parametrização racional,
+o que se faz?
+Eh, existe várias maneiras de de de
+deduzir e de chegar. E de onde é que
+isso nasceu? Eu eu conheço um método
+de onde de para chegar essa forma que
+que que advém da do cálculo complexo e
+de portanto números complexos, mas
+portanto não vou mostrar agora essa
+parte aqui. [roncando] Pronto, mas
+também não importa agora aprofundar. O
+que importa é só mostrar que existe
+outras parametrizações possíveis. Não
+fazem vocês pensar a dizer: "Ah, vamos
+parametrizar a circunferência." A
+parametrização é esta. OK? Não, para
+ficar bem claro que não. Esta é uma
+parametrização possível.
+Estamos a trabalhar em coordenadas
+cartesianas
+e eu esta forma, esta forma analítica
+original tem uma raiz quadrada. Não é
+prático. Não é prático para calcular
+integrais,
+OK?
+Eh, e pode também não ser prático para
+que para fazer o o grafismo, o grafismo
+e fazer o traçado gráfico da função. Tem
+que estar a calcular raízes. Então,
+existem formas alternativas, existem
+parametrizações,
+OK? Por forma a obter equações
+paramétricas,
+OK? Sempre dentro do espaço das
+coordenadas cartesianas. Pronto, esta é
+uma a parametrização mais comum,
+mas existe outra parametrização também
+bastante comum,
+OK? que é o x
+igual a
+t2 - 1. Deixa ver se eu não me engano.
+Tenho aqui ainda
+não 1 - t2 1 - t2
+1 -
+t2
+sobre 1 +
+t2
+de onde resulta o y? Podes demonstrar,
+não vou agora aqui demonstrar, mas que
+resulta que o y tem que então tem que
+ficar 2t
+sobre 1 + t2. OK? Portanto, a
+parametrização é sempre assim, uma feita
+uma substituição para uma das variáveis,
+a outra a outra
+vai vai cair de maduro. Nós não não
+podemos atribuir duas parametrizações
+arbitrárias, a X e Y. Isso não faz
+sentido nenhum. OK? Então temos aqui
+esta parametrização,
+que é uma parametrização muito sugéis.
+porque o x e o y são funções racionais,
+OK?
+E isto permite, por exemplo, que se eu
+atribuir aqui números inteiros,
+OK?
+Eu tenho os pontos racionais sobre uma
+circunferência.
+Aliás, se bem me lembro, penso que esta
+forma dá todos os pontos racionais que
+existem. Agora não tenho a certeza, não
+quero estar a dizer uma e já estou, já
+estou um bocado estreinado nisso, mas
+pronto, mas não quis deixar de vos
+mostrar esta forma que é chamada a
+parametrização racional da
+circunferência,
+OK?
+Parametrização racional da
+circunferência.
+OK,
+pronto. Eh, aqui
+aqui resulta que também temos que ver os
+intervalos, os intervalos
+da do parâmetro. Aqui resulta que com t
+pertence a 0 a 2 pi,
+OK? Gera a circunferência.
+Gera a circunferência.
+Mas aqui resulta um caso, uma coisa
+curiosa.
+Resulta que aqui o parâmetro
+vai ter que variar entre zero e
+infinito.
+E não gera a circunferência toda, gera
+apenas meia circunferência, como já
+vamos ver.
+Portanto, isto é uma parametrização.
+É, e serve muitas vezes em integrais,
+não precisamos da da equação da
+circunferência toda. Basta-nos meia
+circunferência. Ainda agora vimos, por
+exemplo, para girar meia circunferência
+e obter uma esfera ou obter uma
+superfície esférica, portanto, meia
+circunferência.
+OK?
+[roncando]
+Já vamos ver isto agora no Geogebra.
+Sim, senhor. Para já vamos ver que estas
+parametrizações são válvidas. É muito
+simples de ver porque basta elevar ao
+quadrado o x e o y e resulta aqui
+levando ao quadrado aqui resulta x2 + y2
+= r2. E portanto tá tá tá correto que é
+que é a equação e cartesiana da
+circunferência.
+X2 + Y2
+é igual a R2. Isto é a equação da
+circunferência. Simplesmente aqui no
+caso de cima está explicitado em ordem
+y, ou seja, na forma de uma função f(x).
+Pronto. E aqui está na forma implícita.
+Eu posso dizer que esta forma aqui de
+baixo é a função, tá? É uma função
+implícita de y em função de x.
+Pronto. Então resulta daqui vemos de
+imediato que esta parametrização é
+válida porque porque verifica que x² +
+y² = r². E esta parametrização aqui
+também será válida. também vamos ver que
+x²
+Vamos ver aqui que x² fica 1 + t4
+- 2 t2
+ok x²
+1 + t2
+a quad + y²
+4t
+quad
+so 1
+t2 ao quadrado
+tem que ser igual, terá que ser igual a
+a 1. Neste caso aqui desculpem, neste
+caso aqui e eu faltou-me aqui o R,
+pronto, porque senão seria apenas a
+parametrização para um círculo unitário.
+Pronto, R.
+Eh, e portanto aqui, pois, eu tenho que
+demonstrar que eh eu tinha aqui,
+precisava de o R rr, pronto, aqui vou
+pôr igual a um. e que fica demonstrado
+para o círculo unitário, que é a mesma
+coisa que pôr aqui R, pôr aqui R R r eh,
+e fica ao quadrado R2 R2 R2. OK? Pronto,
+então tenho que demonstrar isto. Ora,
+demonstrar então aqui fica -2 + 4 fica +
+2t2.
+E, portanto, não há dúvida nenhuma que
+isto é 1 + t2
+ao quadrado. Dá quadrado o primeiro + t.
+Cá está o T4 mais o dobro do BMP o
+segundo.
+OK? E portanto tá correto.
+Pronto. Então aqui demonstramos que esta
+parametrização também é uma
+parametrização válida. Ela verifica a
+equação da circunferência. Pronto. E
+vamos só então ver aqui o grafismo no
+Geogebra.
+OK?
+Vimos aqui primeiro vimos aqui esta
+a equação da da parametrização
+tradicional,
+OK? E vemos que numa volta entre 0 e 2
+pi, ela traça a circunferência total.
+OK? Pronto. É uma velocidade constante.
+Sim, senhor. E agora vamos ver a
+parametrização
+com parametrização racional.
+Temos aqui a equação que vocês estão a
+ver no Geogebra, uma curva para x de t,
+y de t como parâmetro t a variar entre 0
+e b. E portanto, e agora ponho aqui o b,
+ok? E vamos ver que eh
+falta mostrar aqui, ativar aqui a curva
+e vamos ver que realmente ela arranca
+rapidamente,
+ao contrário da outra parametrização que
+tem uma velocidade constante. Esta, esta
+longe disso, esta tem uma velocidade que
+é cada vez mais lenta. Ou seja, ela aqui
+quando o t varia entre 0 e 1,
+quando o t varia de 0 e 1, traça 1/4.
+Agora não, não, não estou a conseguir.
+OK. 1/4 de círculo com t entre 0 e 1
+traça 1/4 de círculo. É bastante
+interessante.
+Podem substituir para t = 1 e e
+verificar aqui que dá dá x = a eh hora 1
+dá x = 0 e aqui y = a hora 2 sobre 2 1 y
+= 1. Pronto.
+E agora, por exemplo, quando quando o
+parâmetro varia até dois,
+dá mais um bocadinho, deve dar mais uma
+metade. Portanto, eu penso que isto é
+capaz de avançar de metade em metade.
+Pronto. E então agora começa a avançar
+cada vez mais lento. Cá está. E é
+preciso ir até infinito.
+OK.
+Eh, para para chegar para chegar ali
+abaixo.
+OK. Deixa-me pôr aqui a variar entre
+zero e e 100.
+Entre 0 e 100.
+Ora.
+Ok. Cada vez mais lento. Cada vez mais
+lento.
+Cada vez mais lento.
+Estão a ver a curva avançar lentamente.
+Pronto.
+Eh, e pronto, não vamos aqui aprofundar
+mais. Eventualmente farei um futuro
+tutorial sobre a transformação de de via
+trace
+eh que está relacionado com este sistema
+de coordenadas, com esta parametrização.
+Digo, o sistema de coordenadas é
+cartesiano. A a parametrização é que é
+esta parametrização específica,
+parametrização racional,
+OK? parametrização racional, porque esta
+parametrização aqui é transcendente,
+porque ela usa eh funções transcendentes
+do seno e do cosseno. E esta
+parametrização é uma parametrização
+racional. OK? Pronto. Eventualmente
+farei um um futuro tutorial sobre a
+transformação de vi trass e faremos uma
+tal eventualmente alguma série de de
+integrações trigonométricas.
+Eh, sim, senhor. Mas o importante que
+queria que vocês e
+eh fixassem e ponderassem é isto, que
+realmente uma mudança, uma
+parametrização, mantemos no mesmo
+sistema de coordenadas, OK? Só que as as
+funções, o X e o Y passam a ser funções
+de um parâmetro, OK? Eh, de resto,
+existem múltiplas parametrizações às
+vezes possíveis, consoante os objetivos
+e consoante o que o que der mais jeito.
+OK? Há várias parametrizações possíveis
+que podemos usar e essas parametrizações
+eh pois variam. Por exemplo, aqui eh
+houve uma uma mudança rad aqui
+significativa que enquanto que uma
+parametrização ela ela faz avançar a
+linha a uma velocidade constante, a
+outra, pelo contrário, faz avançar a
+linha a uma a uma velocidade variável.
+OK? E esta parametrização em particular,
+ela só consegue gerar meia
+circunferência, OK? Portanto, penso que
+foi importante ver isto e a diferença em
+como podemos ter várias parametrizações
+possíveis. E pronto, ficamos por aqui.
+Espero que tenham gostado e até uma
+próxima oportunidade.
+

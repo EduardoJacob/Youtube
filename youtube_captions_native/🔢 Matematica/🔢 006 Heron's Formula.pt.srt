@@ -1,0 +1,1480 @@
+0:00:02.280,0:00:05.560
+Ora, sejam bem-vindos a mais um
+
+0:00:03.959,0:00:09.160
+tutorial.
+
+0:00:05.560,0:00:11.599
+Hoje vai ser dedicado à fórmula erons
+
+0:00:09.160,0:00:14.599
+fórmula para calcular a área de um
+
+0:00:11.599,0:00:14.599
+triângulo.
+
+0:00:14.759,0:00:19.560
+Eh, não vou deduzir a forma propriamente
+
+0:00:17.600,0:00:24.519
+dita, vou simplesmente mostrar que ela é
+
+0:00:19.560,0:00:26.560
+a verdadeira, porque estive à procura de
+
+0:00:24.519,0:00:29.199
+de ver se encontrava alguma demonstração
+
+0:00:26.560,0:00:30.720
+que que fosse ao meu gosto, mais ou
+
+0:00:29.199,0:00:33.160
+menos bem simples e intuitiva, mas não
+
+0:00:30.720,0:00:35.239
+encontrei nada de jeito.
+
+0:00:33.160,0:00:36.760
+Se calhar é porque não há, porque não é
+
+0:00:35.239,0:00:38.079
+possível,
+
+0:00:36.760,0:00:39.719
+é porque não há nenhuma demonstração
+
+0:00:38.079,0:00:41.280
+simples.
+
+0:00:39.719,0:00:44.160
+Ah, mas em todo o caso, vou apresentar
+
+0:00:41.280,0:00:45.960
+este tutorial até para mostrar depois
+
+0:00:44.160,0:00:48.640
+mais à frente que não precisamos desta
+
+0:00:45.960,0:00:51.160
+fórmula. Nós e a fórmula existe, é
+
+0:00:48.640,0:00:53.600
+elegante, sim senhor, mas nós não
+
+0:00:51.160,0:00:56.719
+precisamos dela. Nós podemos resolver
+
+0:00:53.600,0:00:58.800
+qualquer problema eh recorrendo apenas à
+
+0:00:56.719,0:01:00.480
+lei dos coscentos. Mas vamos ver. Bom,
+
+0:00:58.800,0:01:03.239
+primeiro vamos demonstrar aqui então a
+
+0:01:00.480,0:01:05.799
+demonstrar ou deduzir ou demonstrar que
+
+0:01:03.239,0:01:07.439
+ela é a verdadeira.
+
+0:01:05.799,0:01:09.840
+Vamos aqui então desenhar aqui um
+
+0:01:07.439,0:01:12.360
+triângulo.
+
+0:01:09.840,0:01:14.000
+OK.
+
+0:01:12.360,0:01:17.640
+Ora,
+
+0:01:14.000,0:01:17.640
+já pôr aqui isto aqui.
+
+0:01:21.799,0:01:27.200
+OK.
+
+0:01:23.840,0:01:27.200
+Vamos então.
+
+0:01:29.280,0:01:33.040
+Sim senhor. Vamos desenhar aqui o nosso
+
+0:01:30.960,0:01:34.920
+triângulo habitual.
+
+0:01:33.040,0:01:37.280
+Ora, A
+
+0:01:34.920,0:01:41.560
+BC.
+
+0:01:37.280,0:01:44.119
+Ora, vamos dizer aqui alfa
+
+0:01:41.560,0:01:47.119
+beta
+
+0:01:44.119,0:01:48.479
+gama.
+
+0:01:47.119,0:01:51.119
+Sim, senhor. Ora bem, então o que é que
+
+0:01:48.479,0:01:55.320
+nós temos? nós e eu quero calcular a
+
+0:01:51.119,0:02:00.079
+área a área do triângulo.
+
+0:01:55.320,0:02:04.320
+Eh, portanto, eh, se nós soubéssemos
+
+0:02:00.079,0:02:06.799
+esta altura h, pois
+
+0:02:04.320,0:02:08.959
+teríamos o problema resolvido, não é?
+
+0:02:06.799,0:02:11.680
+Obviamente,
+
+0:02:08.959,0:02:13.720
+o meio de do comprimento da base vezes a
+
+0:02:11.680,0:02:17.200
+altura.
+
+0:02:13.720,0:02:21.160
+Ora, a altura H nós não conhecemos,
+
+0:02:17.200,0:02:24.040
+mas nós sabemos que ela há de ser igual
+
+0:02:21.160,0:02:26.480
+a à projeção de A,
+
+0:02:24.040,0:02:30.560
+portanto A em função aqui do ângulo
+
+0:02:26.480,0:02:30.560
+beta, pois h
+
+0:02:33.720,0:02:38.640
+= deixa eu apagar aqui.
+
+0:02:39.440,0:02:42.440
+Ora,
+
+0:02:42.480,0:02:49.640
+h
+
+0:02:44.239,0:02:49.640
+é igual a seno de beta.
+
+0:02:50.319,0:02:57.800
+Sim, senhor. E, portanto, e a área
+
+0:02:55.680,0:03:01.040
+é 1/2
+
+0:02:57.800,0:03:01.040
+de C
+
+0:03:01.319,0:03:07.599
+vezes a altura, portanto, Co
+
+0:03:04.599,0:03:07.599
+beta.
+
+0:03:08.519,0:03:13.400
+Sim, senhor. Ora,
+
+0:03:11.720,0:03:16.519
+o que é que nós vamos então aqui fazer?
+
+0:03:13.400,0:03:20.519
+Eu não sei o seno de beta,
+
+0:03:16.519,0:03:23.159
+mas eu conheço a lei dos cossenos. OK? O
+
+0:03:20.519,0:03:26.879
+que me diz a lei dos cossenos?
+
+0:03:23.159,0:03:28.319
+Permite-me calcular o o cosseno da beta.
+
+0:03:26.879,0:03:32.840
+OK?
+
+0:03:28.319,0:03:35.760
+Portanto, ora, sendo se eu quero aqui o
+
+0:03:32.840,0:03:39.480
+cosseno de beta, que está aqui nesta
+
+0:03:35.760,0:03:42.920
+nesta ponta, então a para a lei dos
+
+0:03:39.480,0:03:45.480
+cossenos, eu vou escrevê-la em função de
+
+0:03:42.920,0:03:48.879
+b, OK?
+
+0:03:45.480,0:03:55.680
+Porque eu vou dizer b²
+
+0:03:48.879,0:03:58.840
+é igual a a² + c² - 2ac
+
+0:03:55.680,0:04:01.400
+o cosseno de beta.
+
+0:03:58.840,0:04:05.680
+OK? Pronto.
+
+0:04:01.400,0:04:08.120
+Eh, posso resolver em ordem a beta,
+
+0:04:05.680,0:04:11.519
+OK?
+
+0:04:08.120,0:04:19.000
+O cosseno de beta
+
+0:04:11.519,0:04:19.000
+é igual a a + c2 - b2
+
+0:04:19.320,0:04:23.479
+sobre 2ac.
+
+0:04:21.799,0:04:27.560
+OK?
+
+0:04:23.479,0:04:29.320
+Pronto. Sim, senhor. Ora bem, então, eh,
+
+0:04:27.560,0:04:30.759
+eu aqui na minha forma de área, eu tenho
+
+0:04:29.320,0:04:33.759
+o seno de beta, não tenho cosseno de
+
+0:04:30.759,0:04:33.759
+beta,
+
+0:04:34.440,0:04:37.919
+mas usando a forma fundamental da
+
+0:04:36.400,0:04:40.039
+trigonometria,
+
+0:04:37.919,0:04:43.080
+onde o seno quadrado mais cosseno
+
+0:04:40.039,0:04:46.680
+quadrado igual a 1.
+
+0:04:43.080,0:04:51.440
+Portanto, eu, se eu tenho o cosseno,
+
+0:04:46.680,0:04:53.479
+eu consigo obter o seno. OK? Pronto.
+
+0:04:51.440,0:04:56.160
+Para isso vamos levar vamos elevar aos
+
+0:04:53.479,0:04:57.919
+quadrados. Para não estar a explicitar
+
+0:04:56.160,0:05:00.039
+aqui
+
+0:04:57.919,0:05:02.800
+aqui, para não estar a explicitar aqui o
+
+0:05:00.039,0:05:04.080
+seno em função do cosseno com raiz
+
+0:05:02.800,0:05:06.320
+quadrada, eu vamos trabalhar com
+
+0:05:04.080,0:05:08.360
+quadrados. Eu vou ali na forma da área
+
+0:05:06.320,0:05:13.000
+elevar ao quadrado.
+
+0:05:08.360,0:05:16.800
+OK? Fica mais simples. Área ao quadrado
+
+0:05:13.000,0:05:19.280
+é igual a C2 a2
+
+0:05:16.800,0:05:22.400
+sobre 4
+
+0:05:19.280,0:05:24.400
+e sen²ado de beta. Mas o seno quadrado
+
+0:05:22.400,0:05:26.680
+de beta
+
+0:05:24.400,0:05:30.000
+daqui
+
+0:05:26.680,0:05:32.479
+resulta que seno de beta é igual a 1 men
+
+0:05:30.000,0:05:34.440
+cosseno quad beta.
+
+0:05:32.479,0:05:36.840
+1 men
+
+0:05:34.440,0:05:40.400
+o cosseno quadrado de beta. E, portanto,
+
+0:05:36.840,0:05:43.280
+o cosseno quadrado de beta tenho aqui o,
+
+0:05:40.400,0:05:47.280
+portanto, será a
+
+0:05:43.280,0:05:47.280
++ c2 - b2
+
+0:05:48.520,0:05:53.520
+ao²ad
+
+0:05:51.199,0:05:56.520
+sobre
+
+0:05:53.520,0:05:56.520
+2ac².
+
+0:05:57.919,0:06:00.919
+OK?
+
+0:06:04.240,0:06:09.319
+Ora fica
+
+0:06:06.039,0:06:09.319
+a 2
+
+0:06:11.520,0:06:16.199
+igual a A2C2 sobre 4.
+
+0:06:16.960,0:06:23.000
+Este por este, este por este
+
+0:06:20.479,0:06:26.240
+menos
+
+0:06:23.000,0:06:26.240
+a 2c2
+
+0:06:27.960,0:06:34.759
+sobre 4.
+
+0:06:31.039,0:06:36.800
+Aqui em baixo temos 4
+
+0:06:34.759,0:06:41.360
+A2 C2.
+
+0:06:36.800,0:06:41.360
+OK? Vai haver aqui um corta corta,
+
+0:06:42.840,0:06:45.840
+OK?
+
+0:06:46.080,0:06:49.080
+A2.
+
+0:06:51.960,0:06:57.880
+OK.
+
+0:06:54.880,0:06:57.880
+Ora,
+
+0:06:58.560,0:07:01.560
+fica
+
+0:07:02.360,0:07:07.479
+aqui o o denominador aqui é 4 x 4 16.
+
+0:07:05.599,0:07:09.960
+Portanto, aqui reduzindo ao denominador
+
+0:07:07.479,0:07:12.960
+fica 4
+
+0:07:09.960,0:07:12.960
+a2
+
+0:07:14.199,0:07:19.039
+menos a parêntese. E agora desenvolvendo
+
+0:07:17.120,0:07:21.360
+aqui um quadrado,
+
+0:07:19.039,0:07:23.440
+OK?
+
+0:07:21.360,0:07:25.319
+H
+
+0:07:23.440,0:07:28.639
+desenvolvido no quadrado, podemos fazer
+
+0:07:25.319,0:07:32.160
+aqui um passo intermédio. Fazemos a 2 +
+
+0:07:28.639,0:07:33.879
+c2 - b2
+
+0:07:32.160,0:07:38.240
+a2
+
+0:07:33.879,0:07:40.919
++ c2 - b2 e então vai dar este vez este
+
+0:07:38.240,0:07:43.000
+mais este vezes este mais este vez este
+
+0:07:40.919,0:07:47.360
+mais este vezes este. OK? E assim
+
+0:07:43.000,0:07:49.120
+sucessivamente fazemos todos os passos.
+
+0:07:47.360,0:07:52.440
+Eh,
+
+0:07:49.120,0:07:54.720
+e portanto vai dar
+
+0:07:52.440,0:07:59.240
+a 4
+
+0:07:54.720,0:07:59.240
++ b4 + c4
+
+0:08:00.080,0:08:04.479
++
+
+0:08:02.080,0:08:06.720
+a2
+
+0:08:04.479,0:08:08.879
+-
+
+0:08:06.720,0:08:11.240
+2
+
+0:08:08.879,0:08:16.120
+a2b2
+
+0:08:11.240,0:08:16.120
+- 2 b2c2.
+
+0:08:16.159,0:08:23.199
+OK?
+
+0:08:19.039,0:08:27.440
+E que agora aqui com este 4A2C2, bom,
+
+0:08:23.199,0:08:27.440
+isto isto tudo dera sobre 16.
+
+0:08:28.400,0:08:32.879
+OK? Ora, este 4A2C2,
+
+0:08:33.200,0:08:38.959
+ora vai simplificar aqui com este aqui.
+
+0:08:41.120,0:08:45.240
+Aqui falta aqui um, dois.
+
+0:08:47.440,0:08:52.000
+OK.
+
+0:08:49.519,0:08:54.000
+Sim, senhora.
+
+0:08:52.000,0:08:57.080
+Ora, e pronto. Então, aqui e
+
+0:08:54.000,0:09:01.480
+simplificando fica a fórmula.
+
+0:08:57.080,0:09:01.480
+E agora já posso extrair a raiz quadrada
+
+0:09:05.120,0:09:08.519
+que é 4.
+
+0:09:09.040,0:09:17.760
+Aqui já vai dar a raiz quadrada.
+
+0:09:12.440,0:09:19.600
+Ora, 2 A2C2
+
+0:09:17.760,0:09:22.320
++ 2
+
+0:09:19.600,0:09:25.440
+A2B2
+
+0:09:22.320,0:09:27.839
++ 2 B2
+
+0:09:25.440,0:09:29.360
+C2 -
+
+0:09:27.839,0:09:35.240
+A4
+
+0:09:29.360,0:09:36.720
+- B4 - C4. E pronto. E ficávamos assim e
+
+0:09:35.240,0:09:39.240
+dizíamos: "Olha, pronto, já temos aqui a
+
+0:09:36.720,0:09:41.279
+forma e tá correta. Esta forma dá dá uma
+
+0:09:39.240,0:09:43.279
+área em função dos lados. Pronto. O que
+
+0:09:41.279,0:09:45.959
+acontece é que daqui para passar para a
+
+0:09:43.279,0:09:49.519
+fórmula de eron,
+
+0:09:45.959,0:09:52.040
+onde na fórmula de eron definimos seja s
+
+0:09:49.519,0:09:57.399
+igual ao semiperímetro
+
+0:09:52.040,0:09:57.399
+a + b + c
+
+0:09:57.839,0:10:03.880
+sobre 2. Ok? Isto é muito usado em
+
+0:10:01.519,0:10:06.240
+diversas fórmulas com triângulos em que
+
+0:10:03.880,0:10:08.160
+o s é o semiperímetro.
+
+0:10:06.240,0:10:13.279
+Pronto. E agora o que diz a fórmula de
+
+0:10:08.160,0:10:13.279
+eron é que a área
+
+0:10:15.600,0:10:20.720
+é a raiz quadrada,
+
+0:10:18.200,0:10:26.079
+OK? Tal como eu tenho ali
+
+0:10:20.720,0:10:28.560
+de S multiplica S - A,
+
+0:10:26.079,0:10:30.680
+S - B,
+
+0:10:28.560,0:10:33.040
+S- C. Portanto, é uma forma, como vemos
+
+0:10:30.680,0:10:36.240
+bastante simétrica, bastante elegante.
+
+0:10:33.040,0:10:38.000
+Vemos que ela é do quarto grau,
+
+0:10:36.240,0:10:39.760
+OK? Porque tem aqui quatro quatro
+
+0:10:38.000,0:10:42.000
+termos,
+
+0:10:39.760,0:10:43.560
+quatro monómios ou como é que isto se
+
+0:10:42.000,0:10:45.320
+chama.
+
+0:10:43.560,0:10:47.040
+E, portanto, tá correto que depois
+
+0:10:45.320,0:10:50.519
+expandindo temos aqui potências do do
+
+0:10:47.040,0:10:52.200
+quarto grau. OK? Pronto. E aí é que por
+
+0:10:50.519,0:10:54.399
+isso é que eu disse, eu não sei deduzir
+
+0:10:52.200,0:10:58.200
+esta fórmula de eron, sei é mostrar que
+
+0:10:54.399,0:11:01.120
+ela tá correta. Porque agora se eu eh se
+
+0:10:58.200,0:11:04.880
+eu a expandir, se eu disser, ok, eh se
+
+0:11:01.120,0:11:08.639
+eu calcular agora aqui o S é igual a A +
+
+0:11:04.880,0:11:08.639
+B + C
+
+0:11:08.680,0:11:14.320
+sobre 2 e e multiplica.
+
+0:11:12.480,0:11:16.240
+Ora,
+
+0:11:14.320,0:11:19.560
+a
+
+0:11:16.240,0:11:22.040
++ b
+
+0:11:19.560,0:11:24.560
++ c
+
+0:11:22.040,0:11:26.480
+e, portanto,
+
+0:11:24.560,0:11:31.079
+sobre 2
+
+0:11:26.480,0:11:33.519
+e e e - a, etc, etc. e que, portanto,
+
+0:11:31.079,0:11:38.200
+que isto vai dar
+
+0:11:33.519,0:11:43.079
+a + b + c
+
+0:11:38.200,0:11:43.079
+x b + c - a
+
+0:11:43.440,0:11:46.760
++ b
+
+0:11:53.200,0:11:59.079
+e tudo sobre 16
+
+0:11:55.600,0:11:59.079
+e e portanto a raiz quadrada
+
+0:12:00.360,0:12:06.240
+Pronto. OK. Basicamente, eh, e não vou
+
+0:12:04.279,0:12:08.639
+fazer agora esta esta conta, como é
+
+0:12:06.240,0:12:11.720
+óbvio, mas pronto, fazendo esta conta,
+
+0:12:08.639,0:12:16.680
+pois deverá dar
+
+0:12:11.720,0:12:16.680
+deverá dar efetivamente que isto
+
+0:12:19.440,0:12:23.760
+é igual a isto. OK.
+
+0:12:24.040,0:12:28.399
+Pronto. Sim, senhor. Pronto. Peço
+
+0:12:26.240,0:12:30.560
+desculpa por não demonstrar a forma
+
+0:12:28.399,0:12:32.639
+propriamente dito, mas é como como digo,
+
+0:12:30.560,0:12:34.880
+pronto, não
+
+0:12:32.639,0:12:36.600
+conheço assim nenhum nenhum método.
+
+0:12:34.880,0:12:39.079
+Ainda tive a rever aqui alguns métodos,
+
+0:12:36.600,0:12:41.800
+mas
+
+0:12:39.079,0:12:43.320
+não vi nenhum método que fosse para mim
+
+0:12:41.800,0:12:44.519
+que que eu dominasse, porque eu para
+
+0:12:43.320,0:12:47.040
+estar a explicar alguma coisa tenho que
+
+0:12:44.519,0:12:48.760
+dominar para estar a Portanto, eu não ia
+
+0:12:47.040,0:12:51.120
+reproduzir aqui um método só sem
+
+0:12:48.760,0:12:52.639
+entender, reproduzir aqui a eu ouvri
+
+0:12:51.120,0:12:54.240
+métodos na internet, vocês podem
+
+0:12:52.639,0:12:55.760
+pesquisar
+
+0:12:54.240,0:12:57.320
+a ver se há algum que seja do vosso
+
+0:12:55.760,0:12:58.839
+agrado.
+
+0:12:57.320,0:13:00.880
+Mas pronto, achei por bem demonstrar
+
+0:12:58.839,0:13:02.839
+aqui a forma de Aeron, mas agora vamos
+
+0:13:00.880,0:13:04.800
+resolver um problema para simplesmente
+
+0:13:02.839,0:13:08.600
+para demonstrar que não precisamos da
+
+0:13:04.800,0:13:11.199
+fórmula de Aeron. OK? Se se soubermos e
+
+0:13:08.600,0:13:14.800
+quisermos usar, pois sim senhor. Vamos
+
+0:13:11.199,0:13:16.920
+ver aqui este exemplo. OK. Pronto, aqui
+
+0:13:14.800,0:13:18.480
+temos um exemplo que estava no YouTube.
+
+0:13:16.920,0:13:20.839
+Aparecem muitas vezes problemas de
+
+0:13:18.480,0:13:23.519
+matemáticas recreativas. E, portanto,
+
+0:13:20.839,0:13:24.760
+vamos ver este exemplo. Pronto. Então,
+
+0:13:23.519,0:13:26.720
+de acordo com este exemplo, o que é que
+
+0:13:24.760,0:13:29.720
+nós vamos fazer?
+
+0:13:26.720,0:13:29.720
+Ora,
+
+0:13:30.040,0:13:34.959
+vamos ter aqui, vamos, vamos dizer a
+
+0:13:37.920,0:13:43.800
+A
+
+0:13:40.440,0:13:45.480
+B C.
+
+0:13:43.800,0:13:49.440
+OK.
+
+0:13:45.480,0:13:49.440
+Vamos dizer aqui H.
+
+0:13:55.959,0:13:58.959
+Ora,
+
+0:14:00.480,0:14:03.480
+vamos,
+
+0:14:03.880,0:14:06.880
+nós não conhecemos a H, portanto, vamos
+
+0:14:05.199,0:14:09.199
+fazer o mesmo raciocínio como fizemos
+
+0:14:06.880,0:14:12.160
+ainda há pouco para a forma de OK? Eu
+
+0:14:09.199,0:14:14.880
+não, eu não conheço o H, eu preciso eu
+
+0:14:12.160,0:14:18.800
+preciso de ter aqui algum ângulo, OK? Eu
+
+0:14:14.880,0:14:20.680
+preciso deste ângulo que foi chamar
+
+0:14:18.800,0:14:22.560
+teta.
+
+0:14:20.680,0:14:26.000
+OK?
+
+0:14:22.560,0:14:29.000
+Eh, e portanto eu vou dizer, OK,
+
+0:14:26.000,0:14:29.000
+hh,
+
+0:14:31.920,0:14:34.920
+ora,
+
+0:14:35.120,0:14:38.120
+B²
+
+0:14:39.800,0:14:48.320
+é igual a A² + C²
+
+0:14:43.079,0:14:50.399
+- 2 AC
+
+0:14:48.320,0:14:52.639
+cosseno de teta.
+
+0:14:50.399,0:14:57.440
+Sim, senhor.
+
+0:14:52.639,0:14:57.440
+Ora, cosseno de teta
+
+0:14:57.480,0:15:04.839
+é igual a 2 + c2 -
+
+0:15:01.839,0:15:04.839
+b2
+
+0:15:05.000,0:15:08.320
+sobre 2ac.
+
+0:15:09.680,0:15:12.680
+H,
+
+0:15:13.839,0:15:20.480
+ok. Importante agora
+
+0:15:18.000,0:15:25.199
+não não precisamos
+
+0:15:20.480,0:15:27.560
+de calcular qual o ângulo teta, OK? Nós
+
+0:15:25.199,0:15:29.639
+só precisamos do cosseno de teta, como
+
+0:15:27.560,0:15:31.680
+já vamos ver. Portanto, isto é
+
+0:15:29.639,0:15:35.199
+importante. Portanto, o cosseno de teta,
+
+0:15:31.680,0:15:38.759
+agora vou substituir os valores.
+
+0:15:35.199,0:15:38.759
+Portanto, a
+
+0:15:40.920,0:15:43.920
+mais
+
+0:15:45.920,0:15:48.920
+menos
+
+0:15:52.920,0:15:57.639
+sobre 2
+
+0:15:55.639,0:16:00.079
+a
+
+0:15:57.639,0:16:00.079
+C.
+
+0:16:01.759,0:16:07.880
+OK, fiz aqui uma pequena pausa só para
+
+0:16:04.360,0:16:09.720
+só para calcular aqui
+
+0:16:07.880,0:16:12.480
+calcular em termos de fração exata, que
+
+0:16:09.720,0:16:14.680
+é para não estar a introduzir erros. OK?
+
+0:16:12.480,0:16:16.600
+Portanto, deu-me o cosseno de teta 51.
+
+0:16:14.680,0:16:20.440
+Sim, senhor. Pronto, então eu quero o
+
+0:16:16.600,0:16:22.600
+seno. Eu venho aqui fazer este círculo
+
+0:16:20.440,0:16:25.000
+trigonométrico.
+
+0:16:22.600,0:16:28.480
+OK? Portanto, se o cosseno aqui, o
+
+0:16:25.000,0:16:30.839
+cateto adjacente é 513, portanto o
+
+0:16:28.480,0:16:33.079
+cateto oposto será o seno. Pronto, faço
+
+0:16:30.839,0:16:35.639
+aqui a raiz quadrada, portanto dá 12 13.
+
+0:16:33.079,0:16:39.920
+Sim, senhor. Já tenho 123.
+
+0:16:35.639,0:16:44.279
+Eh, e portanto já tenho
+
+0:16:39.920,0:16:46.880
+eh o ele aqui pergunta qual é o raio do
+
+0:16:44.279,0:16:49.600
+círculo. O que acontece é que eu preciso
+
+0:16:46.880,0:16:54.639
+saber a área do círculo por por forma a
+
+0:16:49.600,0:16:56.440
+usar aquela fórmula. que nós já vimos
+
+0:16:54.639,0:16:58.959
+anteriormente.
+
+0:16:56.440,0:17:01.519
+Portanto, aquela fórmula que nós vimos
+
+0:16:58.959,0:17:03.360
+anteriormente na na lei dos senos
+
+0:17:01.519,0:17:07.880
+estendida,
+
+0:17:03.360,0:17:10.240
+onde vimos que e o raio do do círculo
+
+0:17:07.880,0:17:12.600
+circunscrito,
+
+0:17:10.240,0:17:15.319
+OK? que é o caso deste problema, o
+
+0:17:12.600,0:17:19.160
+circunscrito, portanto, que era igual a
+
+0:17:15.319,0:17:19.160
+ABC sobre 4a.
+
+0:17:22.640,0:17:28.240
+OK? Nós vimos esta fórmula.
+
+0:17:26.160,0:17:29.799
+Sim, senhor. E, portanto, eles estão-nos
+
+0:17:28.240,0:17:31.240
+a perguntar o raio. Por isso é que eu
+
+0:17:29.799,0:17:32.919
+estou a calcular a área, porque eu vou
+
+0:17:31.240,0:17:35.360
+usar a área aqui para depois para obter
+
+0:17:32.919,0:17:38.080
+o, portanto, o raio.
+
+0:17:35.360,0:17:40.240
+Eh, portanto, então,
+
+0:17:38.080,0:17:42.720
+qual é a área então?
+
+0:17:40.240,0:17:44.720
+Portanto, a área
+
+0:17:42.720,0:17:48.080
+será 1/2
+
+0:17:44.720,0:17:51.120
+do comprimento da base. Portanto, 14.
+
+0:17:48.080,0:17:53.880
+1/2 de 14
+
+0:17:51.120,0:17:57.039
+vezes.
+
+0:17:53.880,0:17:59.360
+E portanto o H
+
+0:17:57.039,0:18:01.600
+e o H será, portanto, eu calculei o
+
+0:17:59.360,0:18:08.120
+teta, será
+
+0:18:01.600,0:18:08.120
+13 seno de teta, ou seja, 13 x 12 13.
+
+0:18:14.280,0:18:20.840
+OK? Pronto. Portanto, eu estou a usar
+
+0:18:17.400,0:18:23.960
+aquela fórmula. A área
+
+0:18:20.840,0:18:28.280
+é 1/2
+
+0:18:23.960,0:18:28.280
+do do comprimento da base
+
+0:18:28.400,0:18:35.280
+vezes vezes o H. E o H pode ser obtido
+
+0:18:31.720,0:18:38.240
+como sendo um dos lados seno do seno de
+
+0:18:35.280,0:18:41.960
+teta. Ok?
+
+0:18:38.240,0:18:45.520
+Ora, portanto, isto vai dar,
+
+0:18:41.960,0:18:49.720
+portanto, vai dar área igual a,
+
+0:18:45.520,0:18:49.720
+OK? Vai haver aqui um corta corta
+
+0:18:50.760,0:18:53.760
+84,
+
+0:18:53.919,0:18:57.520
+portanto é a área 84. Então, sendo
+
+0:18:55.880,0:19:00.760
+assim,
+
+0:18:57.520,0:19:02.520
+vai-me dar o raio da circunferência
+
+0:19:00.760,0:19:08.159
+circunscrita,
+
+0:19:02.520,0:19:08.159
+o produto dos lados 13, 14, 15.
+
+0:19:10.720,0:19:15.080
+sobre 4a
+
+0:19:18.240,0:19:22.120
+e, portanto, e vai dar aqui o número
+
+0:19:19.840,0:19:23.799
+exato, 8.
+
+0:19:22.120,0:19:26.120
+125.
+
+0:19:23.799,0:19:28.880
+OK? Pronto. Então, como viram, eu
+
+0:19:26.120,0:19:30.760
+consigo calcular a área dados os três
+
+0:19:28.880,0:19:32.480
+lados. Eu não precisei da fórmula de
+
+0:19:30.760,0:19:34.799
+Ron,
+
+0:19:32.480,0:19:36.480
+eu precisei da fórmula dos da lei dos
+
+0:19:34.799,0:19:37.919
+cossenos para obter um determinado
+
+0:19:36.480,0:19:40.720
+cosseno de um determinado ângulo
+
+0:19:37.919,0:19:43.240
+qualquer. Eu escolhi um ângulo qualquer.
+
+0:19:40.720,0:19:44.720
+A partir do cosseno, consigo aqui com o
+
+0:19:43.240,0:19:46.559
+círculo trigonométrico, a forma
+
+0:19:44.720,0:19:50.480
+fundamental da trigonometria, consigo
+
+0:19:46.559,0:19:55.360
+obter o seno por forma a ir buscar a
+
+0:19:50.480,0:19:57.679
+área em função aqui desta forma do do
+
+0:19:55.360,0:20:00.440
+comprimento da base, 1/ comprimento da
+
+0:19:57.679,0:20:02.720
+base vezes a altura e a altura vou
+
+0:20:00.440,0:20:09.159
+precisar do seno que é a projeção de um
+
+0:20:02.720,0:20:10.559
+dos lados h neste caso igual a a seno de
+
+0:20:09.159,0:20:13.360
+teta.
+
+0:20:10.559,0:20:16.360
+OK? Preciso de um seno.
+
+0:20:13.360,0:20:19.080
+Sim, senhor. Eh, então, finalmente
+
+0:20:16.360,0:20:22.559
+consigo calcular a área, a área do
+
+0:20:19.080,0:20:24.200
+triângulo. E agora, portanto, usei esta
+
+0:20:22.559,0:20:27.840
+fórmula
+
+0:20:24.200,0:20:30.600
+que já tenho os lados e já tenho a área
+
+0:20:27.840,0:20:33.080
+e então me dá medir de imediato o raio
+
+0:20:30.600,0:20:34.440
+da circunferência circunscrita.
+
+0:20:33.080,0:20:36.760
+OK?
+
+0:20:34.440,0:20:40.159
+Pronto. Importante aqui a reter é que
+
+0:20:36.760,0:20:41.720
+não precisamos de calcular o ângulo. Eu
+
+0:20:40.159,0:20:44.039
+eu em momento algum eu precisei de
+
+0:20:41.720,0:20:45.799
+calcular o ângulo. Não preciso de
+
+0:20:44.039,0:20:48.120
+resolver o triângulo e dizer quais os
+
+0:20:45.799,0:20:50.080
+ângulos. Eu precisei apenas de um
+
+0:20:48.120,0:20:51.880
+cálculo intermédio que me dá um cosseno
+
+0:20:50.080,0:20:53.440
+desse ângulo. Eu preciso do cosseno do
+
+0:20:51.880,0:20:55.760
+ângulo e depois o seno do ângulo. Eu não
+
+0:20:53.440,0:20:57.720
+preciso de chegar a calcular o ângulo.
+
+0:20:55.760,0:21:00.120
+OK?
+
+0:20:57.720,0:21:02.320
+Sim, senhora.
+
+0:21:00.120,0:21:05.120
+Eh, e pronto, espero que tenham gostado
+
+0:21:02.320,0:21:07.919
+da forma de Airon.
+
+0:21:05.120,0:21:11.240
+Com isto, eh, quero fazer aqui este
+
+0:21:07.919,0:21:14.360
+ponto de situação. Acabamos uma, digamos
+
+0:21:11.240,0:21:17.799
+que uma primeira fase
+
+0:21:14.360,0:21:19.840
+aqui de de algum do que eu considero de
+
+0:21:17.799,0:21:21.520
+bases das bases que eu que eu queria
+
+0:21:19.840,0:21:23.640
+mostrar.
+
+0:21:21.520,0:21:25.919
+OK. Começamos pel um tirama de
+
+0:21:23.640,0:21:28.000
+Pitágoras.
+
+0:21:25.919,0:21:30.159
+OK. aqui.
+
+0:21:28.000,0:21:32.840
+Eh, depois fomos ver a lei dos senos,
+
+0:21:30.159,0:21:36.240
+muito simples de deduzir a lei dos senos
+
+0:21:32.840,0:21:38.480
+e a lei dos senos estendida, OK? Já não
+
+0:21:36.240,0:21:41.679
+tão simples, mas OK. É importante
+
+0:21:38.480,0:21:43.360
+lembrarmos que esta fórmula existe.
+
+0:21:41.679,0:21:46.720
+Depois passamos para a lei dos cossenos.
+
+0:21:43.360,0:21:48.720
+E a lei dos cossenos, a lei dos cossenos
+
+0:21:46.720,0:21:51.240
+eh resultou da aplicação do teama de
+
+0:21:48.720,0:21:55.400
+Pitágoras. Porque a lei dos cossenos, se
+
+0:21:51.240,0:21:56.919
+se relembram, eu deduzia e calculando a
+
+0:21:55.400,0:21:58.279
+a distância entre dois pontos. E a
+
+0:21:56.919,0:22:00.480
+distância entre dois pontos não é mais
+
+0:21:58.279,0:22:02.039
+do que o teorema de Pitágoras, OK?
+
+0:22:00.480,0:22:05.360
+Portanto, do teorema de Pitágoras
+
+0:22:02.039,0:22:07.360
+chegamos à be dos cossenos, OK? Eh,
+
+0:22:05.360,0:22:10.919
+depois fizemos aqui um interregno para
+
+0:22:07.360,0:22:14.840
+tratar da quadrático fórmula, OK? Tens
+
+0:22:10.919,0:22:17.240
+também é das bases, OK? Que que a pessoa
+
+0:22:14.840,0:22:19.679
+deve deve ter esta forma bem bem bem
+
+0:22:17.240,0:22:22.120
+sabida. Vimos um exemplo como às vezes
+
+0:22:19.679,0:22:23.720
+se pode aplicar a casos que que não
+
+0:22:22.120,0:22:25.039
+aparentam ser equações do segundo grau,
+
+0:22:23.720,0:22:28.080
+mas que podem ser transformadas em
+
+0:22:25.039,0:22:31.400
+equações do segundo grau. OK? Vimos
+
+0:22:28.080,0:22:34.200
+agora a Erons Formula por curiosidade,
+
+0:22:31.400,0:22:36.320
+não precisamos dela, mas OK, é uma forma
+
+0:22:34.200,0:22:39.559
+elegante.
+
+0:22:36.320,0:22:42.320
+Eh, e alguros, pelo meio dos meus
+
+0:22:39.559,0:22:45.400
+tutoriais passados, já vimos aqui estas
+
+0:22:42.320,0:22:49.559
+formas aqui importantes.
+
+0:22:45.400,0:22:53.320
+Portanto, temos a área de de um
+
+0:22:49.559,0:22:56.880
+triângulo em função do do in radius, OK?
+
+0:22:53.320,0:22:57.840
+Do raio da da circunferência inscrita,
+
+0:22:56.880,0:23:01.120
+OK?
+
+0:22:57.840,0:23:03.039
+Portanto, será o semiperímetro a + b + c
+
+0:23:01.120,0:23:08.320
+sobre me
+
+0:23:03.039,0:23:10.760
+vezes o o in radius, OK? E daqui podemos
+
+0:23:08.320,0:23:13.320
+explicitar em ordem ou em radius, OK?
+
+0:23:10.760,0:23:16.600
+Portanto, esta fórmula, esta fórmula
+
+0:23:13.320,0:23:19.240
+aqui, portanto, é a mesma desta aqui. Tá
+
+0:23:16.600,0:23:22.240
+explicitada em em função da área e aqui
+
+0:23:19.240,0:23:24.799
+em função do do raio.
+
+0:23:22.240,0:23:26.880
+Eh, e também já vimos esta forma, ainda
+
+0:23:24.799,0:23:30.600
+agora a usamos.
+
+0:23:26.880,0:23:34.880
+OK? Em função de R maiúsculo, portanto,
+
+0:23:30.600,0:23:39.440
+o círculo de radius, OK? Que é o mesmo
+
+0:23:34.880,0:23:41.520
+que está aqui explicitado aqui em ordem
+
+0:23:39.440,0:23:44.840
+ao circun radius.
+
+0:23:41.520,0:23:47.760
+Eh, e pronto, eh, termino este tutorial
+
+0:23:44.840,0:23:50.000
+e aproveitei para fazer este ponto de de
+
+0:23:47.760,0:23:53.799
+situação, esta síntese de tudo o que já
+
+0:23:50.000,0:23:57.679
+vimos para arrancar este este o pontapé
+
+0:23:53.799,0:24:03.240
+de saída de esta é a minha playlist.
+
+0:23:57.679,0:24:05.360
+Eh, portanto, que a ideia é ajudar a
+
+0:24:03.240,0:24:09.400
+sedimentar bem as bases, aquilo que eu
+
+0:24:05.360,0:24:11.640
+considero ser as bases, os fundamentos
+
+0:24:09.400,0:24:14.400
+para as para matemáticas mais avançadas,
+
+0:24:11.640,0:24:16.000
+OK? E gosto de mostrar que existe uma
+
+0:24:14.400,0:24:17.679
+continuidade.
+
+0:24:16.000,0:24:19.440
+Gosto de mostrar que eu vejo a
+
+0:24:17.679,0:24:21.880
+matemática como um edifício que
+
+0:24:19.440,0:24:23.480
+começa-se a construir por camadas.
+
+0:24:21.880,0:24:25.960
+Reparem que do teorema de Pitágoras
+
+0:24:23.480,0:24:28.200
+fomos levados à lei dos cossenos. Muito
+
+0:24:25.960,0:24:30.200
+importante. E agora, futuramente, num
+
+0:24:28.200,0:24:32.240
+próximo tutorial veremos que da lei dos
+
+0:24:30.200,0:24:35.399
+cocentes vamos ser levados ao produto
+
+0:24:32.240,0:24:37.320
+interno também bastante importante, OK?
+
+0:24:35.399,0:24:39.760
+Para construirmos as ferramentas e
+
+0:24:37.320,0:24:41.720
+alicerces para tópicos mais avançados. E
+
+0:24:39.760,0:24:44.000
+pronto, despeço-me e obrigado pela
+
+0:24:41.720,0:24:44.000
+atenção.
+
+

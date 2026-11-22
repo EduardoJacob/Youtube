@@ -1,0 +1,3166 @@
+0:00:02.360,0:00:05.359
+Ora, sejam bem-vindos a mais um
+
+0:00:03.719,0:00:11.040
+tutorial.
+
+0:00:05.359,0:00:14.480
+Hoje vai ser dedicado e efetivamente às
+
+0:00:11.040,0:00:16.119
+fórmulas trigonométricas.
+
+0:00:14.480,0:00:17.640
+Eh,
+
+0:00:16.119,0:00:19.240
+a partir inicialmente eu não tinha
+
+0:00:17.640,0:00:22.680
+pensado fazer um tutorial sobre esta
+
+0:00:19.240,0:00:25.320
+matéria, mas como começamos as derivadas
+
+0:00:22.680,0:00:28.439
+e de facto [roncando] eu quando quiser
+
+0:00:25.320,0:00:30.480
+deduzir as fórmulas das derivadas das
+
+0:00:28.439,0:00:34.000
+funções trigonométricas, pois eu preciso
+
+0:00:30.480,0:00:35.879
+das fórmulas trigonométricas. OK?
+
+0:00:34.000,0:00:37.800
+Para isto aqui estou-vos a apresentar o
+
+0:00:35.879,0:00:41.239
+produto Geogebra, um produto
+
+0:00:37.800,0:00:45.360
+espetacular, gratuito,
+
+0:00:41.239,0:00:48.719
+eh, que pode ser instalado,
+
+0:00:45.360,0:00:50.960
+OK, no desktop Windows.
+
+0:00:48.719,0:00:53.160
+Eh, não sei se tem versão para Linux ou
+
+0:00:50.960,0:00:55.280
+ou Apple, agora não tenho presente, é
+
+0:00:53.160,0:00:57.879
+porque eu uso Windows.
+
+0:00:55.280,0:01:00.320
+E também tem versão para Android, que é
+
+0:00:57.879,0:01:03.120
+o que eu neste momento eu estou aqui em
+
+0:01:00.320,0:01:05.119
+Android.
+
+0:01:03.120,0:01:07.040
+Eh, e mas aqui estamos no browser e
+
+0:01:05.119,0:01:08.920
+também corre no browser. Pronto. E aqui
+
+0:01:07.040,0:01:11.360
+tenho o meu repositório que está na
+
+0:01:08.920,0:01:13.080
+cloud do Geogebra. Podem ver aqui no
+
+0:01:11.360,0:01:15.280
+endereço que tá o meu meu user, o
+
+0:01:13.080,0:01:17.479
+Eduardo Jacobe.
+
+0:01:15.280,0:01:19.640
+Pronto. E aqui tenho diversos recursos
+
+0:01:17.479,0:01:21.880
+que vocês podem explorar e dar uma vista
+
+0:01:19.640,0:01:23.759
+deos.
+
+0:01:21.880,0:01:26.840
+A geogebra é muito interessante, quer
+
+0:01:23.759,0:01:29.000
+para traçar de funções derivadas, quer
+
+0:01:26.840,0:01:31.600
+para construções, todo o tipo de
+
+0:01:29.000,0:01:33.799
+construções que antigamente fazíamos com
+
+0:01:31.600,0:01:37.200
+régua e compasso
+
+0:01:33.799,0:01:39.320
+eh podem ser feitas aqui neste tipo de
+
+0:01:37.200,0:01:42.479
+ferramenta.
+
+0:01:39.320,0:01:44.399
+Ora bem, eh
+
+0:01:42.479,0:01:46.000
+vamos ver aqui, por exemplo, eu agora
+
+0:01:44.399,0:01:48.960
+quero vos mostrar aqui o círculo
+
+0:01:46.000,0:01:51.479
+trigonométrico. Tenho aqui uma uma uma
+
+0:01:48.960,0:01:53.799
+construção que eu que eu fiz. Cá está.
+
+0:01:51.479,0:01:56.719
+Trigometric circle
+
+0:01:53.799,0:02:00.079
+que eu construí aqui. E, portanto, isto
+
+0:01:56.719,0:02:02.840
+pode ser aberto aqui.
+
+0:02:00.079,0:02:06.640
+Deixa cá ver como é que é isto. Está-me
+
+0:02:02.840,0:02:06.640
+a abrir aqui numa janela
+
+0:02:06.719,0:02:12.360
+em vez de abrir num ecrã inteiro.
+
+0:02:13.160,0:02:17.319
+OK. Carreguei lá numa opção que dá para
+
+0:02:15.680,0:02:20.640
+abrir
+
+0:02:17.319,0:02:23.920
+abrir a aplicação numa app, neste caso
+
+0:02:20.640,0:02:25.560
+eu abriu na na app online.
+
+0:02:23.920,0:02:27.160
+Há várias versões de Geogebra, mas eu
+
+0:02:25.560,0:02:31.280
+normalmente uso esta. É a versão
+
+0:02:27.160,0:02:32.800
+Geogebra Classic. OK? Bom, e pronto,
+
+0:02:31.280,0:02:34.480
+isto agora não vamos fazer um curso de
+
+0:02:32.800,0:02:37.599
+Geogebra,
+
+0:02:34.480,0:02:39.640
+mas basicamente o que eu tenho aqui é o
+
+0:02:37.599,0:02:41.159
+círculo trigonométrico. Portanto, eu
+
+0:02:39.640,0:02:44.120
+tenho um círculo trigonométrico aqui de
+
+0:02:41.159,0:02:47.120
+raio um, como podem ver.
+
+0:02:44.120,0:02:50.120
+e vou traçar três funções, OK? Vou
+
+0:02:47.120,0:02:52.480
+traçar o seno, o cosseno e a tangente.
+
+0:02:50.120,0:02:55.000
+Ou seja, à medida que o raio vetor aqui
+
+0:02:52.480,0:02:58.519
+gira no círculo trigonométrico,
+
+0:02:55.000,0:03:01.040
+já sabemos que o segmento a verde é o
+
+0:02:58.519,0:03:04.799
+cosseno, que ele arranca em um que o
+
+0:03:01.040,0:03:06.879
+cosseno de zer é 1 e o seno será este
+
+0:03:04.799,0:03:09.799
+cateto oposto
+
+0:03:06.879,0:03:12.280
+aqui, oposto aqui ao ângulo alfa.
+
+0:03:09.799,0:03:15.319
+E, portanto, é o seno.
+
+0:03:12.280,0:03:17.959
+Eh, e a tangente não é mais do que o
+
+0:03:15.319,0:03:19.799
+seno sobre o cosseno. OK? Pronto. E
+
+0:03:17.959,0:03:22.640
+então
+
+0:03:19.799,0:03:24.640
+aqui vemos que eu vou andando.
+
+0:03:22.640,0:03:28.239
+Vemos, por exemplo, que o seno é igual
+
+0:03:24.640,0:03:30.040
+ao cosseno neste ponto em 45º.
+
+0:03:28.239,0:03:33.879
+OK?
+
+0:03:30.040,0:03:35.760
+Eh, OK. Isto vai continuar a girar.
+
+0:03:33.879,0:03:37.360
+OK.
+
+0:03:35.760,0:03:39.480
+Continua.
+
+0:03:37.360,0:03:43.959
+Pronto. E aqui dá, vamos dar uma volta
+
+0:03:39.480,0:03:43.959
+completa de 300 360º.
+
+0:03:48.799,0:03:52.959
+OK? Pronto. E então o que é que nós
+
+0:03:50.760,0:03:56.720
+temos? Temos, pronto, de, na verdade,
+
+0:03:52.959,0:03:58.239
+isto é o o cosseno e o seno são lados
+
+0:03:56.720,0:04:00.200
+sobre um círculo trigonométrico, mas que
+
+0:03:58.239,0:04:02.079
+depois em termos de matemática se
+
+0:04:00.200,0:04:05.040
+generalizam para funções reais de
+
+0:04:02.079,0:04:06.640
+variável real. Pronto. E e basicamente
+
+0:04:05.040,0:04:08.360
+porquê? porque o seno e o cosseno vão
+
+0:04:06.640,0:04:10.640
+ser periódicos.
+
+0:04:08.360,0:04:12.840
+OK? Quando eu aqui agora continuo a dar
+
+0:04:10.640,0:04:16.320
+uma uma volta, ele agora aqui começa do
+
+0:04:12.840,0:04:20.840
+início, mas eh na verdade ele ele
+
+0:04:16.320,0:04:22.479
+continuava aqui, OK? E portanto isto são
+
+0:04:20.840,0:04:24.320
+são conselhos que vocês já devem saber.
+
+0:04:22.479,0:04:27.639
+Isto é só neste momento aproveitei isto
+
+0:04:24.320,0:04:29.880
+também para vos mostrar o GeoGebra
+
+0:04:27.639,0:04:33.320
+e como é uma ferramenta poderosa para
+
+0:04:29.880,0:04:35.400
+para para estudarmos funções.
+
+0:04:33.320,0:04:37.800
+E pronto. E basicamente aqui vemos que o
+
+0:04:35.400,0:04:39.479
+seno e coseno as duas funções são
+
+0:04:37.800,0:04:42.199
+sinusoidais. Elas são iguais, elas
+
+0:04:39.479,0:04:46.320
+simplesmente estão desfasadas de 90º.
+
+0:04:42.199,0:04:48.520
+OK? Elas estão elas geometricamente elas
+
+0:04:46.320,0:04:49.680
+elas são iguais.
+
+0:04:48.520,0:04:51.720
+Esta vinha já não me lembro o que é que
+
+0:04:49.680,0:04:54.720
+é.
+
+0:04:51.720,0:04:54.720
+Eh,
+
+0:04:56.600,0:05:00.919
+de resto, não há aqui mais nada de
+
+0:04:58.400,0:05:02.919
+especial. Vemos que o domínio, o domínio
+
+0:05:00.919,0:05:05.680
+do seno e cosseno é r. São funções
+
+0:05:02.919,0:05:07.759
+reais, reais de variável real.
+
+0:05:05.680,0:05:10.080
+Eh, temos aqui o contradomínio entre -1
+
+0:05:07.759,0:05:11.600
+e 1. Pronto, isto é aquela teoria de
+
+0:05:10.080,0:05:14.039
+funções que vocês devem lembrar destas
+
+0:05:11.600,0:05:16.560
+matérias, o domínio, contradomínio.
+
+0:05:14.039,0:05:19.800
+Pronto, já pelo contrário, ah, OK, esta
+
+0:05:16.560,0:05:21.840
+reta era era aqui o do do limite aqui do
+
+0:05:19.800,0:05:23.800
+da tangente. Já, pelo contrário, a
+
+0:05:21.840,0:05:27.160
+tangente, pois, naturalmente é uma
+
+0:05:23.800,0:05:29.600
+função que já não o seu domínio não é r.
+
+0:05:27.160,0:05:32.360
+Ela, na verdade, ela tem pontos onde não
+
+0:05:29.600,0:05:34.199
+está definida. Ora, naturalmente será os
+
+0:05:32.360,0:05:36.960
+geros do cosseno, porque el é o seno
+
+0:05:34.199,0:05:39.199
+sobre o cosseno, o cosseno a verde, os
+
+0:05:36.960,0:05:41.639
+zeros do cosseno, cá está aqui este
+
+0:05:39.199,0:05:43.600
+ponto mais este. Portanto, ela não está
+
+0:05:41.639,0:05:45.400
+definida. Pronto, eu penso que chega.
+
+0:05:43.600,0:05:46.919
+Pronto, isto era só para vos já agora
+
+0:05:45.400,0:05:48.840
+aproveitar para aproveitar para
+
+0:05:46.919,0:05:51.919
+mostrar-vos o Geogebra, uma ferramenta
+
+0:05:48.840,0:05:53.919
+espetacular onde vocês podem pesquisar
+
+0:05:51.919,0:05:57.360
+no site Geogebra, podem pesquisar por
+
+0:05:53.919,0:06:00.960
+por temas, OK? Eh, podem pesquisar por
+
+0:05:57.360,0:06:02.800
+temas ou se
+
+0:06:00.960,0:06:05.240
+quiserem ir ver as minhas construções em
+
+0:06:02.800,0:06:07.840
+particular do meu user também podem
+
+0:06:05.240,0:06:11.360
+pesquisar aqui com este endereço que
+
+0:06:07.840,0:06:14.000
+estava aqui barra user aqui/Eduardo
+
+0:06:11.360,0:06:15.520
+Jacob. Pronto. Eh, eventualmente pode
+
+0:06:14.000,0:06:17.120
+não vos aparecer as coisas estruturadas
+
+0:06:15.520,0:06:20.039
+desta maneira. Eu penso que a vocês não
+
+0:06:17.120,0:06:22.080
+vos aparecerão estas folders, aparecerão
+
+0:06:20.039,0:06:24.000
+as construções todas, todas
+
+0:06:22.080,0:06:26.240
+massivamente.
+
+0:06:24.000,0:06:28.120
+Mas pronto, pronto, investiguem isso.
+
+0:06:26.240,0:06:29.720
+Eh, que isto foi só o pontapé de saída
+
+0:06:28.120,0:06:32.720
+para arrancarmos aqui com o círculo
+
+0:06:29.720,0:06:32.720
+trigonométrico.
+
+0:06:33.720,0:06:38.960
+Ora, estamos de volta então aqui ao à
+
+0:06:36.160,0:06:41.520
+minha aplicação onde eu
+
+0:06:38.960,0:06:44.800
+onde eu faço os tutorials, que é o
+
+0:06:41.520,0:06:46.080
+Samsung Notebook.
+
+0:06:44.800,0:06:48.840
+Samsung Notebook, acho que é assim que
+
+0:06:46.080,0:06:51.039
+se chama ou som, deixa ver, já nem me
+
+0:06:48.840,0:06:56.759
+recordo.
+
+0:06:51.039,0:06:56.759
+Ora, deixa-me ver aqui. Isto é o Samsung
+
+0:06:57.879,0:07:00.879
+aqui.
+
+0:07:01.840,0:07:04.840
+Ora,
+
+0:07:04.919,0:07:08.120
+Samsung. Bom, já não já não já já nem me
+
+0:07:07.120,0:07:10.240
+recordo como é que isto chama, mas
+
+0:07:08.120,0:07:12.160
+pronto.
+
+0:07:10.240,0:07:14.080
+H,
+
+0:07:12.160,0:07:16.000
+e portanto
+
+0:07:14.080,0:07:20.199
+aqui temos as as formas que hoje vamos
+
+0:07:16.000,0:07:23.800
+tratar, mas OK?
+
+0:07:20.199,0:07:27.240
+Então, o que é que nós temos aqui? Bom,
+
+0:07:23.800,0:07:29.400
+e temos aqui coisas triviais, OK? Desde
+
+0:07:27.240,0:07:30.759
+logo, Pythagorean Identities. Eu vou
+
+0:07:29.400,0:07:32.280
+começando a marcar aqui o que nós já
+
+0:07:30.759,0:07:34.160
+sabemos. Pronto, e já estamos cansados
+
+0:07:32.280,0:07:37.560
+de saber.
+
+0:07:34.160,0:07:40.479
+Já estamos cansados de saber. Isto
+
+0:07:37.560,0:07:42.199
+eh,
+
+0:07:40.479,0:07:43.560
+seno quadrado mais cseno quadrado igual
+
+0:07:42.199,0:07:44.639
+a 1. Estamos cansados de saber isto.
+
+0:07:43.560,0:07:46.879
+Isto não é mais do que o teoramento de
+
+0:07:44.639,0:07:49.120
+Pitágoras, OK? Num círculo
+
+0:07:46.879,0:07:51.800
+trigonométrico com hipótusa um
+
+0:07:49.120,0:07:54.319
+facilmente se demonstra.
+
+0:07:51.800,0:07:57.120
+As outras vão vão ser similares, são
+
+0:07:54.319,0:07:59.039
+outras formas de dizer a mesma coisa. É
+
+0:07:57.120,0:08:01.039
+raro aparecer também. Se aparecer uma
+
+0:07:59.039,0:08:03.000
+expressão destas,
+
+0:08:01.039,0:08:05.000
+eu normalmente quando aparece qualquer
+
+0:08:03.000,0:08:06.720
+expressão,
+
+0:08:05.000,0:08:08.039
+eu normalmente acabo por converter
+
+0:08:06.720,0:08:09.360
+sempre para senos e cossenos e eu
+
+0:08:08.039,0:08:10.879
+trabalho sempre com senos e cossenos,
+
+0:08:09.360,0:08:13.639
+que é então fica mais fácil trabalhar
+
+0:08:10.879,0:08:15.280
+sempre da mesma maneira. OK? Já sabemos
+
+0:08:13.639,0:08:17.479
+que as funções trigonométricas elas são
+
+0:08:15.280,0:08:19.080
+seis que estão aqui, seno, cosseno,
+
+0:08:17.479,0:08:21.400
+tangente, cossecante, secante,
+
+0:08:19.080,0:08:24.080
+cotangente. Mas pronto, na prática eu
+
+0:08:21.400,0:08:25.440
+trabalho sempre com seno e cosseno.
+
+0:08:24.080,0:08:27.440
+Vamos ver, por exemplo, esta aqui que
+
+0:08:25.440,0:08:30.319
+diz aqui tangente quadrado. Ora,
+
+0:08:27.440,0:08:31.840
+tangente quadrado, então o que é? Bom,
+
+0:08:30.319,0:08:34.080
+eh,
+
+0:08:31.840,0:08:35.959
+vai ser
+
+0:08:34.080,0:08:38.039
+um a tangente é o seno sobre o cosseno
+
+0:08:35.959,0:08:39.680
+e, portanto, o seno sobre o cosseno, o
+
+0:08:38.039,0:08:43.440
+que está-me aqui a dizer é que diz,
+
+0:08:39.680,0:08:46.440
+olha, sen sobre cosseno ao quadrado
+
+0:08:43.440,0:08:50.279
+mais 1 é igual a secant quadrado. Ora, a
+
+0:08:46.440,0:08:52.839
+secante é o inverso do cosseno,
+
+0:08:50.279,0:08:55.040
+pronto, é igual a secan quadrado.
+
+0:08:52.839,0:08:57.240
+Pronto. E e tá a saber que isto vai ser
+
+0:08:55.040,0:08:59.560
+verdade. Portanto, aqui reduzindo ao
+
+0:08:57.240,0:09:03.600
+mesmo denominador aqui vai ficar seno
+
+0:08:59.560,0:09:03.600
+quadrado sobre cosseno quadrado
+
+0:09:07.040,0:09:13.680
+a min vai ficar cosseno sobre cosseno
+
+0:09:11.120,0:09:16.680
+assim assim.
+
+0:09:13.680,0:09:16.680
+OK?
+
+0:09:17.480,0:09:21.640
+Portanto, aqui era mais 1, portanto 1
+
+0:09:19.160,0:09:23.600
+cosseno quadrado sobre cosseno quadrado.
+
+0:09:21.640,0:09:26.399
+E, portanto, aqui é noeno quadrado aqui
+
+0:09:23.600,0:09:28.120
+em todo o dominador. E, portanto, dá dá
+
+0:09:26.399,0:09:29.856
+seno quad mais cseno quadrado ig.
+
+0:09:28.120,0:09:30.600
+Pronto, como vem isto é trivial.
+
+0:09:29.856,0:09:33.760
+[roncando]
+
+0:09:30.600,0:09:36.959
+Há outras coisas aqui triviais.
+
+0:09:33.760,0:09:38.519
+A periodicidade também é trivial. OK?
+
+0:09:36.959,0:09:41.360
+Nós acabamos de ver ainda agora ali
+
+0:09:38.519,0:09:46.760
+naquele no Geogebra que o seno e coseno
+
+0:09:41.360,0:09:46.760
+tem um período de 2 pi. Sim, senhora.
+
+0:09:47.120,0:09:51.680
+Tá pôr isto aqui mais um bocadinho mais.
+
+0:09:57.000,0:10:01.760
+Eh, vimos que, pronto, vimos que a
+
+0:09:59.839,0:10:04.720
+tangente, não, não chamei a atenção, mas
+
+0:10:01.760,0:10:07.800
+a tangente tem período
+
+0:10:04.720,0:10:13.160
+e pi. Por isso aqui tá tangente de teta
+
+0:10:07.800,0:10:16.279
++ pi = tangente de teta. OK?
+
+0:10:13.160,0:10:19.880
+coscante e secante tem período de 2 pi,
+
+0:10:16.279,0:10:22.120
+que é são os inversos do seno e cosseno
+
+0:10:19.880,0:10:25.880
+e cotangente tem período pi. Sim senhor.
+
+0:10:22.120,0:10:27.519
+Esta parte aqui também é trivial. OK?
+
+0:10:25.880,0:10:29.120
+Ora,
+
+0:10:27.519,0:10:30.320
+vimos a veio dos cossenos, que isto foi
+
+0:10:29.120,0:10:32.600
+logo dos primeiros tutorialis que eu
+
+0:10:30.320,0:10:34.560
+fiz, nós deduzimos a veio dos cossenos
+
+0:10:32.600,0:10:38.079
+através de um triângulo com base no
+
+0:10:34.560,0:10:40.120
+teorema de Pitágoras. Também vimos isso,
+
+0:10:38.079,0:10:42.279
+a lei dos cossenos.
+
+0:10:40.120,0:10:43.880
+Vimos a lei dos senos.
+
+0:10:42.279,0:10:46.880
+E depois vimos até a lei dos cenos
+
+0:10:43.880,0:10:50.422
+estendida, que ela aqui não está,
+
+0:10:46.880,0:10:51.120
+tá? A lei dos cenos básica. OK?
+
+0:10:50.422,0:10:52.519
+[suspirando]
+
+0:10:51.120,0:10:54.600
+Que é que nós temos aqui? Temos aqui
+
+0:10:52.519,0:10:56.720
+também a questão da paridade, da função
+
+0:10:54.600,0:10:58.760
+par e ímpar.
+
+0:10:56.720,0:11:02.560
+Eh, já sabemos que o cosseno é uma
+
+0:10:58.760,0:11:04.600
+função par. E isso é fácil de ver porque
+
+0:11:02.560,0:11:08.279
+num triângulo,
+
+0:11:04.600,0:11:08.279
+quando eu tenho um triângulo,
+
+0:11:08.360,0:11:13.480
+efetivamente
+
+0:11:10.120,0:11:16.000
+eu só tenho aqui o o ângulo alfa e e
+
+0:11:13.480,0:11:18.839
+efetivamente o cosseno é este cateto,
+
+0:11:16.000,0:11:20.519
+este cateto aqui adjacente.
+
+0:11:18.839,0:11:23.519
+Então, naturalmente que o cateto
+
+0:11:20.519,0:11:26.360
+adjacente é o mesmo para o ângulo -
+
+0:11:23.519,0:11:29.680
+alfa.
+
+0:11:26.360,0:11:32.639
+- alfa, pois,
+
+0:11:29.680,0:11:34.160
+OK? O ângulo simétrico pois também vai
+
+0:11:32.639,0:11:36.000
+dar o mesmo cateta adjacente e,
+
+0:11:34.160,0:11:37.399
+portanto, é o mesmo coso. Portanto,
+
+0:11:36.000,0:11:39.360
+vocês podem se convencer disso também
+
+0:11:37.399,0:11:41.320
+podem ver aquele círculo trigonométrico
+
+0:11:39.360,0:11:43.240
+que vimos ainda há pouco ali no
+
+0:11:41.320,0:11:45.760
+Geogebra. E, portanto, para verificarem
+
+0:11:43.240,0:11:48.000
+que efetivamente é uma função par,
+
+0:11:45.760,0:11:50.399
+porque o cosseno é simétrica em relação
+
+0:11:48.000,0:11:53.079
+ao eixo dos y. OK? Pronto. Portanto,
+
+0:11:50.399,0:11:54.720
+isso aí é também é trivial. O cosseno é
+
+0:11:53.079,0:11:56.800
+uma função par.
+
+0:11:54.720,0:12:00.279
+O seno é uma função ímpar, ela é
+
+0:11:56.800,0:12:01.959
+simétrica em relação à origem. OK?
+
+0:12:00.279,0:12:04.360
+Pronto. Também é fácil demonstrar aqui
+
+0:12:01.959,0:12:07.920
+como a construção deste tipo que o seno
+
+0:12:04.360,0:12:09.680
+é uma função ímpar, OK? E a partir daqui
+
+0:12:07.920,0:12:12.040
+vemos que a tangente também é uma função
+
+0:12:09.680,0:12:14.360
+ímpar,
+
+0:12:12.040,0:12:16.079
+OK? Atenção, as funções todas não têm
+
+0:12:14.360,0:12:17.399
+que ser paros ou ímpares. Eu tá aqui a
+
+0:12:16.079,0:12:19.079
+dizer que uma é par, a outra é ímpar.
+
+0:12:17.399,0:12:21.560
+Não, atenção, não vão vocês agora a
+
+0:12:19.079,0:12:23.199
+pensar que todas as funções não, a maior
+
+0:12:21.560,0:12:25.199
+parte das funções nem são pares, nem são
+
+0:12:23.199,0:12:27.880
+ímpares. No caso das funções
+
+0:12:25.199,0:12:33.040
+trigonométricas, sim, verifica-se que
+
+0:12:27.880,0:12:36.160
+elas são ou par ou ímpar. OK?
+
+0:12:33.040,0:12:37.639
+Pronto, esta parte aqui também tá vista.
+
+0:12:36.160,0:12:39.920
+Que a tangente é igual ao seno sobre
+
+0:12:37.639,0:12:41.600
+cosseno. Sim, senhor. E que a
+
+0:12:39.920,0:12:45.279
+cotangente, pois é o inverso da
+
+0:12:41.600,0:12:48.120
+tangente. Sim senhor. Também é trivial.
+
+0:12:45.279,0:12:50.959
+que a coscante é o inverso do sedo.
+
+0:12:48.120,0:12:54.480
+Pronto. E todas as outras relações.
+
+0:12:50.959,0:12:56.880
+Pois também isto tudo isto é trivial.
+
+0:12:54.480,0:13:00.880
+OK.
+
+0:12:56.880,0:13:03.279
+Eh, mais coisas aqui
+
+0:13:00.880,0:13:06.199
+temos aqui outras relações triviais que
+
+0:13:03.279,0:13:08.800
+são estas, as das cofunções. Dizemos o
+
+0:13:06.199,0:13:10.800
+cosseno é a cfunção do seno. Este é um
+
+0:13:08.800,0:13:12.559
+tipo de nomenclatura que eu até já nem
+
+0:13:10.800,0:13:13.839
+lembrava que isto existia. Mas
+
+0:13:12.559,0:13:15.399
+[roncando] o que é importante é que
+
+0:13:13.839,0:13:17.000
+efetivamente para todas as funções
+
+0:13:15.399,0:13:21.079
+trigonométricas, por exemplo, para o
+
+0:13:17.000,0:13:23.199
+seno de 90 - ala ou neste caso 90 - t é
+
+0:13:21.079,0:13:25.800
+igual ao cosseno de alfa. Isto é muito
+
+0:13:23.199,0:13:28.399
+simples de ver. Isto basta ver que se eu
+
+0:13:25.800,0:13:31.959
+tenho um triângulo retângulo,
+
+0:13:28.399,0:13:35.000
+se eu tenho um triângulo retângulo
+
+0:13:31.959,0:13:37.399
+aqui com hipótusa 1, já sabemos que se
+
+0:13:35.000,0:13:40.519
+eu tenho aqui o ângulo alfa,
+
+0:13:37.399,0:13:42.920
+eu já sei que este lado é o cosseno e
+
+0:13:40.519,0:13:46.120
+este lado é o seno.
+
+0:13:42.920,0:13:48.360
+Mas então, se este é o alfa, a soma dos
+
+0:13:46.120,0:13:51.160
+ângulos internos do triângulo é 180 e
+
+0:13:48.360,0:13:54.320
+aqui é 90. E portanto este aqui tem que
+
+0:13:51.160,0:13:56.519
+medir necessariamente 90 men alfa.
+
+0:13:54.320,0:14:00.240
+90 - alfa. [roncando] E se eu agora
+
+0:13:56.519,0:14:02.639
+puser aqui na perspectiva do 90- ala, o
+
+0:14:00.240,0:14:04.440
+cosseno de 90- al passa a ser este
+
+0:14:02.639,0:14:06.000
+cateto aqui adjacente, ou seja, que é o
+
+0:14:04.440,0:14:07.519
+seno
+
+0:14:06.000,0:14:09.800
+que era que era o seno de alfa.
+
+0:14:07.519,0:14:12.000
+Portanto, o seno de alfa é igual ao
+
+0:14:09.800,0:14:13.279
+cosseno de 90 - alfa. Portanto, é muito
+
+0:14:12.000,0:14:16.000
+simples fazendo aqui com esta
+
+0:14:13.279,0:14:19.000
+construção. E, portanto, estas são
+
+0:14:16.000,0:14:21.839
+relações também muito simples,
+
+0:14:19.000,0:14:24.759
+muito úteis.
+
+0:14:21.839,0:14:28.000
+OK? Toda a função trigonométrica tem a
+
+0:14:24.759,0:14:28.000
+sua cofunção,
+
+0:14:28.519,0:14:31.519
+OK?
+
+0:14:33.480,0:14:36.680
+E, portanto,
+
+0:14:37.079,0:14:41.480
+são estas relações aqui.
+
+0:14:39.639,0:14:44.120
+Sim, senhora.
+
+0:14:41.480,0:14:45.519
+Portanto, está, esta parte aqui é toda
+
+0:14:44.120,0:14:47.880
+trivial, já tá vista. Pronto, agora
+
+0:14:45.519,0:14:50.759
+vamos para passar a formulas mais
+
+0:14:47.880,0:14:54.440
+complexas. E então vamos começar com
+
+0:14:50.759,0:14:54.440
+esta fórmula aqui
+
+0:14:55.079,0:15:00.240
+que é o do cosseno da da soma e da
+
+0:14:57.680,0:15:02.560
+diferença. Esta forma aqui que é
+
+0:15:00.240,0:15:05.160
+fundamental e vamos ver que esta forma
+
+0:15:02.560,0:15:06.920
+basicamente a partir desta se deduz
+
+0:15:05.160,0:15:09.360
+praticamente todas as outras formas que
+
+0:15:06.920,0:15:12.880
+aqui falta falta deduzir. Esta é a forma
+
+0:15:09.360,0:15:15.639
+fundamental. Eh,
+
+0:15:12.880,0:15:19.800
+e vamos deduzir, é muito simples, é com
+
+0:15:15.639,0:15:22.759
+base no, na regra do produto interno
+
+0:15:19.800,0:15:24.600
+e
+
+0:15:22.759,0:15:27.600
+vamos passar desde já a deduzir esta
+
+0:15:24.600,0:15:27.600
+fórmula.
+
+0:15:28.480,0:15:32.000
+Ora, vamos então.
+
+0:15:36.399,0:15:40.759
+OK, pronto, isto vai ser bastante
+
+0:15:38.519,0:15:45.560
+simples. Então, o que é que nós temos
+
+0:15:40.759,0:15:45.560
+aqui? Nós vamos aqui ter,
+
+0:15:47.199,0:15:52.600
+vou pôr aqui o círculo trigonométrico,
+
+0:15:54.319,0:15:57.319
+OK?
+
+0:16:01.440,0:16:05.959
+Vou pôr aqui 1/4 de círculo
+
+0:16:02.959,0:16:05.959
+trigonométrico.
+
+0:16:09.040,0:16:14.160
+OK? [roncando] Ora, vou vou considerar
+
+0:16:11.440,0:16:16.880
+raio 1. Raio 1. Já sabemos. Pronto. E
+
+0:16:14.160,0:16:19.880
+agora vou considerar aqui que temos um
+
+0:16:16.880,0:16:19.880
+ângulo
+
+0:16:19.920,0:16:22.920
+alfa
+
+0:16:25.040,0:16:31.319
+alfa
+
+0:16:27.600,0:16:31.319
+e temos um ângulo
+
+0:16:31.920,0:16:38.880
+mais pequeno. Beta.
+
+0:16:35.079,0:16:43.199
+Beta. OK. Agora [roncando] pergunto, eh,
+
+0:16:38.880,0:16:45.279
+quais são as coordenadas deste ponto?
+
+0:16:43.199,0:16:47.600
+Ora, é o círculo trigonométrico. O
+
+0:16:45.279,0:16:50.600
+ângulo é alfa
+
+0:16:47.600,0:16:53.951
+com o seno de alfa. Seno de alfa.
+
+0:16:50.600,0:16:56.759
+E quais são as coordenadas deste ponto?
+
+0:16:53.951,0:17:00.360
+[roncando] E portanto,
+
+0:16:56.759,0:17:02.319
+cosseno de beta, seno de beta. Pronto.
+
+0:17:00.360,0:17:04.679
+OK. Isto é trivial. Então, podemos
+
+0:17:02.319,0:17:06.600
+considerar pontos ou podemos considerar
+
+0:17:04.679,0:17:09.240
+vetores. Posso dizer, OK? Então, este é
+
+0:17:06.600,0:17:11.160
+um vetor.
+
+0:17:09.240,0:17:14.880
+Este é um vetor.
+
+0:17:11.160,0:17:18.199
+Vou-te chamar V1.
+
+0:17:14.880,0:17:22.240
+E este é um vetor,
+
+0:17:18.199,0:17:23.919
+vou-te chamar V2,
+
+0:17:22.240,0:17:25.919
+OK?
+
+0:17:23.919,0:17:27.559
+E eu quero
+
+0:17:25.919,0:17:30.880
+calcular
+
+0:17:27.559,0:17:33.960
+o cosseno de alfa - beta. OK? Eu quero
+
+0:17:30.880,0:17:37.200
+calcular este ângulo aqui,
+
+0:17:33.960,0:17:38.960
+este ângulo que é alfa, que era o ângulo
+
+0:17:37.200,0:17:43.559
+maior menos o ângulo menor. Ala men
+
+0:17:38.960,0:17:43.559
+beta. Mas o o o
+
+0:17:44.400,0:17:50.320
+produto interno dá-nos isso. Recordemos
+
+0:17:47.480,0:17:54.400
+que no produto interno,
+
+0:17:50.320,0:17:54.400
+no produto interno V1
+
+0:17:55.400,0:17:58.880
+interno V2
+
+0:17:59.000,0:18:03.360
+por definição. E nós já vimos isto nos
+
+0:18:00.840,0:18:06.480
+outros tutorials, era a norma de V1
+
+0:18:03.360,0:18:09.000
+vezes norma de V2 vezes o cosseno do
+
+0:18:06.480,0:18:12.640
+ângulo entre o entre eles. Portanto, que
+
+0:18:09.000,0:18:15.840
+neste caso o cosseno de αβa
+
+0:18:12.640,0:18:15.840
+de α-β?
+
+0:18:17.840,0:18:22.960
+Sendo que
+
+0:18:20.120,0:18:24.720
+a norma de V1 é 1 e a norma de V2 é 1.
+
+0:18:22.960,0:18:27.720
+Porque pois é, o comprimento está no
+
+0:18:24.720,0:18:30.480
+círculo trigonométrico. OK? Mas podemos
+
+0:18:27.720,0:18:32.159
+também fazer isto como o produto das
+
+0:18:30.480,0:18:34.120
+coordenadas homólogas de acordo com as
+
+0:18:32.159,0:18:37.640
+regras de acordo com as regras do
+
+0:18:34.120,0:18:41.120
+produto interno que nós deduzimos,
+
+0:18:37.640,0:18:42.880
+OK? Que nós deduzimos que isto é igual
+
+0:18:41.120,0:18:45.120
+calculando o produto aqui das
+
+0:18:42.880,0:18:46.760
+coordenadas homogas.
+
+0:18:45.120,0:18:49.559
+Portanto, este produto interno, cosseno
+
+0:18:46.760,0:18:53.400
+de alfa, cosseno de beta, cosseno de
+
+0:18:49.559,0:18:53.400
+alfa, cosseno de beta
+
+0:18:53.840,0:18:59.240
+mais é o produto interno seno de alfa,
+
+0:18:57.159,0:19:00.440
+seno de beta. Pronto. E aqui temos nós
+
+0:18:59.240,0:19:02.880
+uma daquelas primeiras formas
+
+0:19:00.440,0:19:04.880
+trigonométricas que o cosseno de alfa
+
+0:19:02.880,0:19:08.039
+men beta é cosseno de alfa cosseno de
+
+0:19:04.880,0:19:11.159
+beta mais seno de alfa seno de beta.
+
+0:19:08.039,0:19:15.559
+Então, e que dizer do cosseno
+
+0:19:11.159,0:19:20.400
+de alfa mais beta?
+
+0:19:15.559,0:19:22.159
+é igual a cosseno de alfa men - beta.
+
+0:19:20.400,0:19:24.919
+OK? Portanto, aqui fica cosseno de alfa,
+
+0:19:22.159,0:19:28.120
+não muda? E aqui fica cosseno de - beta,
+
+0:19:24.919,0:19:30.640
+mas como é uma função par, cosseno de -
+
+0:19:28.120,0:19:35.520
+beta é igual a coseno de beta.
+
+0:19:30.640,0:19:38.440
+Ok? Pronto. E a seguir fica, temos aqui
+
+0:19:35.520,0:19:41.600
+mais, é o que diz a forma, e temos o
+
+0:19:38.440,0:19:45.159
+seno de alfa.
+
+0:19:41.600,0:19:48.520
+e temos o seno de - beta, porque que nós
+
+0:19:45.159,0:19:51.799
+estamos aqui a fazer é cosseno de alfa
+
+0:19:48.520,0:19:54.159
+menos - beta. Portanto, aqui onde está
+
+0:19:51.799,0:19:56.799
+este beta, nesta fórmula, eu ponho -
+
+0:19:54.159,0:19:59.159
+beta, mas o seno de beta é função ímpar,
+
+0:19:56.799,0:20:02.840
+então fica menos seno de beta. O menos,
+
+0:19:59.159,0:20:05.559
+portanto, vai passar para aqui
+
+0:20:02.840,0:20:07.840
+e fica menos
+
+0:20:05.559,0:20:11.919
+seno de beta. Pronto. E já temos o
+
+0:20:07.840,0:20:14.679
+cosseno de α + betβa e o cosseno de αβ.
+
+0:20:11.919,0:20:17.200
+E o que dizer do seno
+
+0:20:14.679,0:20:22.080
+de
+
+0:20:17.200,0:20:24.760
+α + beta, por exemplo, o seno
+
+0:20:22.080,0:20:27.640
+de α + beta,
+
+0:20:24.760,0:20:30.520
+eu vou usar aquela regra que é igual a
+
+0:20:27.640,0:20:34.760
+um cosseno de 90 menos qualquer coisa.
+
+0:20:30.520,0:20:40.720
+Então vou dizer que é igual a um cosseno
+
+0:20:34.760,0:20:42.360
+de 90 menos este ângulo - alfa
+
+0:20:40.720,0:20:44.400
+este
+
+0:20:42.360,0:20:46.080
+menos
+
+0:20:44.400,0:20:48.000
+beta.
+
+0:20:46.080,0:20:50.799
+Pronto. Então transforma o seno num
+
+0:20:48.000,0:20:53.400
+cosseno
+
+0:20:50.799,0:20:56.280
+e portanto fica, vamos usar aqui a regra
+
+0:20:53.400,0:20:59.720
+do cosseno de αβ. O cosseno de uma coisa
+
+0:20:56.280,0:21:01.480
+menos outra. fica o cosseno da primeira,
+
+0:20:59.720,0:21:04.760
+mas o cosseno da primeira é igual ao
+
+0:21:01.480,0:21:07.960
+seno de alfa, porque o cosseno de 90 -
+
+0:21:04.760,0:21:10.520
+alfa, seno de alfa,
+
+0:21:07.960,0:21:12.120
+OK? Depois diz que é o cosseno da
+
+0:21:10.520,0:21:15.120
+segunda
+
+0:21:12.120,0:21:18.960
+cosseno de beta.
+
+0:21:15.120,0:21:21.159
+Depois diz que é o sinal de mais.
+
+0:21:18.960,0:21:24.760
+Sinal de mais.
+
+0:21:21.159,0:21:29.720
+Depois diz que é o seno do primeiro,
+
+0:21:24.760,0:21:29.720
+mas o seno de 90 - alfa é coseno de alfa
+
+0:21:30.360,0:21:36.880
+e depois diz que é o seno do segundo.
+
+0:21:34.640,0:21:40.600
+Pronto, e já está. E deixo para vocês
+
+0:21:36.880,0:21:44.240
+como exercício e deduzirem seno de alfa
+
+0:21:40.600,0:21:46.760
+men beta. Portanto, como viram, é
+
+0:21:44.240,0:21:49.360
+imediato, é trivial deduzir estas
+
+0:21:46.760,0:21:52.080
+fórmulas só com a regra do produto
+
+0:21:49.360,0:21:54.400
+interno. Não tem mais segredo. Há outras
+
+0:21:52.080,0:21:57.159
+maneiras de deduzir. Eventualmente eu
+
+0:21:54.400,0:21:59.159
+chegarei a dar essa matéria com números
+
+0:21:57.159,0:22:02.640
+complexos, um tema mais avançado e
+
+0:21:59.159,0:22:05.120
+realmente com a forma
+
+0:22:02.640,0:22:07.600
+eh de números complexos é muito poderosa
+
+0:22:05.120,0:22:09.200
+e com ela deduzimos todas as formas
+
+0:22:07.600,0:22:12.000
+trigonométricas e mais algumas e mais
+
+0:22:09.200,0:22:14.720
+outras que nem sequer estão aqui. OK?
+
+0:22:12.000,0:22:16.360
+Mas pronto, mas aqui o básico que são
+
+0:22:14.720,0:22:19.080
+estas formas fundamentais, formas
+
+0:22:16.360,0:22:20.720
+trigonométricas fundamentais é esta mais
+
+0:22:19.080,0:22:25.679
+esta.
+
+0:22:20.720,0:22:27.799
+deduzem-se efetivamente com isto de a
+
+0:22:25.679,0:22:29.640
+primeira todas foi o cosseno de alfa men
+
+0:22:27.799,0:22:32.320
+beta que foi pelo produto interno e a
+
+0:22:29.640,0:22:34.720
+partir daí deduzimos as outras todas.
+
+0:22:32.320,0:22:37.720
+OK? Vou deixar esta para vocês como
+
+0:22:34.720,0:22:37.720
+exercício.
+
+0:22:37.760,0:22:41.760
+OK?
+
+0:22:39.400,0:22:43.480
+Pronto.
+
+0:22:41.760,0:22:46.720
+Vamos ver agora outras formas também são
+
+0:22:43.480,0:22:50.760
+aparecem muitas vezes que são estas
+
+0:22:46.720,0:22:54.200
+double angal identity. Ok? 2 teta cseno
+
+0:22:50.760,0:22:56.520
+de 2 teta. OK? Bom, estas resultam de
+
+0:22:54.200,0:22:59.240
+imediato. Estas duas primeiras resultam
+
+0:22:56.520,0:23:02.320
+de imediato aqui desta desta forma. Isto
+
+0:22:59.240,0:23:04.400
+é como se fosse o seno de teta + teta.
+
+0:23:02.320,0:23:08.320
+Se eu puser aqui nesta forma, onde está
+
+0:23:04.400,0:23:11.120
+seno de alfa + beta, puser teta + teta,
+
+0:23:08.320,0:23:13.400
+pois fica seno de teta cseno de teta +
+
+0:23:11.120,0:23:15.120
+seno de teta cseno de teta. Pronto, fica
+
+0:23:13.400,0:23:18.159
+2 seno de teta ceno de teta. Portanto,
+
+0:23:15.120,0:23:19.720
+esta é imediato.
+
+0:23:18.159,0:23:22.120
+Na verdade, como é que como vocês estão
+
+0:23:19.720,0:23:23.679
+a ver, praticamente
+
+0:23:22.120,0:23:25.480
+depois destas formas que tínhamos aqui,
+
+0:23:23.679,0:23:27.520
+as triviais
+
+0:23:25.480,0:23:30.559
+e os períodos, a veio dos cosenos, etc,
+
+0:23:27.520,0:23:33.760
+etc. Estas formas mais sofisticadas,
+
+0:23:30.559,0:23:35.960
+todas elas resultam aqui desta. Esta é é
+
+0:23:33.760,0:23:39.480
+a fórmula rainha com o seno de alfa +
+
+0:23:35.960,0:23:42.799
+beta ou com o seno de alfa - beta. A
+
+0:23:39.480,0:23:45.039
+partir desta deduzem-se todas as outras.
+
+0:23:42.799,0:23:47.480
+Portanto, aqui deduzimos o seno de de 2
+
+0:23:45.039,0:23:50.440
+ta. Quanto ao cosseno de 2a? Pois venho
+
+0:23:47.480,0:23:53.240
+aqui à forma do cosseno de alfa + beta.
+
+0:23:50.440,0:23:55.559
+Fazendo alfa a teta, beta igual a teta.
+
+0:23:53.240,0:24:00.159
+Cosseno teta, cosseno de teta dá cosseno
+
+0:23:55.559,0:24:03.480
+quadrado de teta - sen² teta. Ok?
+
+0:24:00.159,0:24:09.279
+Portanto, esta trivial.
+
+0:24:03.480,0:24:09.279
+OK? Pronto. Quanto à seguinte,
+
+0:24:09.640,0:24:15.039
+eh,
+
+0:24:11.320,0:24:17.840
+que cosseno de 2 t = a 2 coseno quad -
+
+0:24:15.039,0:24:19.919
+1. Pronto, isto é trivial também porque
+
+0:24:17.840,0:24:22.159
+vamos usar a forma fundamental da
+
+0:24:19.919,0:24:25.520
+trigonometria. Portanto, vamos dizer
+
+0:24:22.159,0:24:28.200
+aqui, bom, se eu tenho o tenho o
+
+0:24:25.520,0:24:31.840
+cosseno,
+
+0:24:28.200,0:24:35.440
+tenho o cosseno
+
+0:24:31.840,0:24:38.919
+eh, portanto, de 2 ta
+
+0:24:35.440,0:24:41.240
+é igual a cosseno quadrado de teta.
+
+0:24:38.919,0:24:44.200
+Cosseno quadrado de teta. Pô, isto aqui
+
+0:24:41.240,0:24:49.360
+um bocadinho mais fino,
+
+0:24:44.200,0:24:50.720
+OK? Cseno quadrado de teta - seno de
+
+0:24:49.360,0:24:53.760
+teta.
+
+0:24:50.720,0:24:55.600
+Pronto. Eh, e aqui agora tenho uma
+
+0:24:53.760,0:24:58.760
+expressão em função de cosseno de de
+
+0:24:55.600,0:25:02.559
+teta. Então, mas os o o
+
+0:24:58.760,0:25:04.440
+cosseno quadrado + seno² é 1. Então,
+
+0:25:02.559,0:25:09.480
+pelo que este seno quadrado que está
+
+0:25:04.440,0:25:11.720
+aqui é igual a 1 - coseno quadrado.
+
+0:25:09.480,0:25:15.480
+Ora, 1 men cosseno quadrado, portanto
+
+0:25:11.720,0:25:18.600
+vai dar 2 coseno quad - 1. Isto vai dar
+
+0:25:15.480,0:25:20.640
+2 ceno quad - 1, que é a fórmula que
+
+0:25:18.600,0:25:25.600
+temos aqui. Ou se eu exprimse em função
+
+0:25:20.640,0:25:27.200
+de seno, pois daria 1 - seno quad, OK? E
+
+0:25:25.600,0:25:30.880
+deixo esta última forma para vocês
+
+0:25:27.200,0:25:33.080
+fazerem como exercício. Tangente de 2 ta
+
+0:25:30.880,0:25:36.760
+é igual ao seno de 2 t a dividir pelo
+
+0:25:33.080,0:25:39.399
+coseno de 2 ta. OK?
+
+0:25:36.760,0:25:42.360
+Deixo isso para vocês como exercício.
+
+0:25:39.399,0:25:43.919
+Portanto, estas também estão
+
+0:25:42.360,0:25:45.520
+demonstradas. Esta também está
+
+0:25:43.919,0:25:47.320
+demonstrada.
+
+0:25:45.520,0:25:49.720
+OK.
+
+0:25:47.320,0:25:52.679
+Sim, senhora.
+
+0:25:49.720,0:25:54.799
+Falta-nos ver aqui mais algumas formas.
+
+0:25:52.679,0:25:56.320
+Calá, não vamos ver todas. Esta aqui eu
+
+0:25:54.799,0:25:58.520
+nem conhecia, nem estou bem a ver o que
+
+0:25:56.320,0:26:00.919
+é que é isto.
+
+0:25:58.520,0:26:03.679
+Esta por acaso não conheço. A + B sobre
+
+0:26:00.919,0:26:06.320
+C.
+
+0:26:03.679,0:26:07.559
+Não sei o que é que é isto. A B B sobre
+
+0:26:06.320,0:26:10.559
+C. Talvez seja aos lados de um
+
+0:26:07.559,0:26:10.559
+triângulo.
+
+0:26:11.640,0:26:15.640
+Sim, isto tem a ser realmente uma
+
+0:26:13.520,0:26:17.080
+relação qualquer interna dos lados do
+
+0:26:15.640,0:26:20.360
+entre os lados e os ângulos de um
+
+0:26:17.080,0:26:22.159
+triângulo. OK? Mas por acaso não
+
+0:26:20.360,0:26:24.520
+conheço.
+
+0:26:22.159,0:26:26.559
+OK? Portanto, não vamos tratar.
+
+0:26:24.520,0:26:29.559
+Eh, vamos tratar agora aqui da parte que
+
+0:26:26.559,0:26:29.559
+falta.
+
+0:26:30.080,0:26:34.039
+Ora, antes de dzir aquelas formas, vamos
+
+0:26:32.399,0:26:36.760
+ainda te vou descer aqui ainda umas
+
+0:26:34.039,0:26:37.960
+considerações sobre o circunitário.
+
+0:26:36.760,0:26:39.760
+OK?
+
+0:26:37.960,0:26:42.279
+Pronto. Eh, quero serer aqui umas
+
+0:26:39.760,0:26:47.320
+considerações sobre o circunitário.
+
+0:26:42.279,0:26:47.320
+Eh, temos H,
+
+0:26:49.000,0:26:53.720
+ora, temos aqui o círculo unitário.
+
+0:26:51.799,0:26:56.520
+Eh, e já tínhamos, já estamos cansados
+
+0:26:53.720,0:26:58.679
+de ver que, portanto, o cateto
+
+0:26:56.520,0:27:01.039
+adjacente é o cosseno, o cateto oposto é
+
+0:26:58.679,0:27:02.960
+o seno.
+
+0:27:01.039,0:27:04.320
+E agora podemos também acrescentar isto
+
+0:27:02.960,0:27:07.840
+que também já tínhamos visto há bocado
+
+0:27:04.320,0:27:12.360
+ali no Geogebra, que este segmento
+
+0:27:07.840,0:27:15.000
+medido da daqui a do ponto B até cruzar
+
+0:27:12.360,0:27:16.600
+este rai vetor vai ser a tangente e este
+
+0:27:15.000,0:27:19.520
+outro medido do ponto B vai ser a
+
+0:27:16.600,0:27:21.120
+cotangente. Sim senhor. Temos aqui aqui
+
+0:27:19.520,0:27:23.840
+pelo círculo trigonométrico, temos
+
+0:27:21.120,0:27:25.679
+gráfico e graficamente podemos e
+
+0:27:23.840,0:27:28.399
+portanto medir estas estas quatro
+
+0:27:25.679,0:27:30.840
+funções trigonométricas. Ora bem, vamos
+
+0:27:28.399,0:27:33.399
+escrever aqui umas quantas equações do
+
+0:27:30.840,0:27:35.399
+da circunferência, OK? Que vocês já
+
+0:27:33.399,0:27:39.240
+devem conhecer.
+
+0:27:35.399,0:27:43.640
+Eh, vocês já devem conhecer que temos
+
+0:27:39.240,0:27:46.919
+eh equação cartesiana
+
+0:27:43.640,0:27:51.519
+x² + y²
+
+0:27:46.919,0:27:53.519
+= 1. Devem conhecer.
+
+0:27:51.519,0:27:55.720
+Eh, eventualmente, muitos de vocês
+
+0:27:53.519,0:27:59.120
+também já viram
+
+0:27:55.720,0:28:02.600
+eh equações aqui, deixa-me escrever aqui
+
+0:27:59.120,0:28:02.600
+equação cartesiana,
+
+0:28:05.000,0:28:08.760
+OK?
+
+0:28:06.644,0:28:12.399
+[roncando] Equações paramétricas, também
+
+0:28:08.760,0:28:12.399
+já devem ter visto,
+
+0:28:14.240,0:28:18.840
+paramétricas,
+
+0:28:16.799,0:28:21.880
+equações paramétricas.
+
+0:28:18.840,0:28:23.880
+Então temos um x
+
+0:28:21.880,0:28:26.440
+igual a
+
+0:28:23.880,0:28:30.320
+cosseno de teta
+
+0:28:26.440,0:28:32.760
+y = a seno de teta. Estamos a considerar
+
+0:28:30.320,0:28:34.480
+o raio unitário.
+
+0:28:32.760,0:28:36.880
+OK?
+
+0:28:34.480,0:28:41.840
+Equações paramétricas
+
+0:28:36.880,0:28:41.840
+e com aqui com teta varia de 0 a 2 pi,
+
+0:28:45.960,0:28:51.200
+OK?
+
+0:28:47.440,0:28:54.960
+Eh, equação vetorial.
+
+0:28:51.200,0:28:54.960
+Equação vetorial
+
+0:28:56.559,0:29:05.000
+temos é os pontos X, tal que módulo de X
+
+0:29:01.880,0:29:08.640
+é igual a 1. Já está. Reparem só na
+
+0:29:05.000,0:29:12.480
+facilidade disto. Equação vetorial,
+
+0:29:08.640,0:29:15.000
+equação polar em coordenadas polares. Já
+
+0:29:12.480,0:29:17.279
+agora, percusidade,
+
+0:29:15.000,0:29:18.600
+equação em coordenadas polares. Então,
+
+0:29:17.279,0:29:20.799
+não demos nada disso, coordenadas
+
+0:29:18.600,0:29:24.559
+cordilíneas, mas pronto, alguns de vocês
+
+0:29:20.799,0:29:27.919
+já saberão e também se lembrarão em
+
+0:29:24.559,0:29:29.320
+coordenadas polares,
+
+0:29:27.919,0:29:32.440
+pois também é muito simples também a
+
+0:29:29.320,0:29:35.159
+equação do círculo unitário, pois será o
+
+0:29:32.440,0:29:36.720
+r = 1.
+
+0:29:35.159,0:29:39.559
+OK?
+
+0:29:36.720,0:29:42.080
+Eh, e vamos ver agora talvez uma
+
+0:29:39.559,0:29:45.000
+novidade para muitos de vocês. Eh,
+
+0:29:42.080,0:29:46.360
+coordenadas paramétricas racionais que
+
+0:29:45.000,0:29:48.320
+estão relacionadas com os números
+
+0:29:46.360,0:29:50.519
+complexos, mas isso talvez vejamos mais
+
+0:29:48.320,0:29:51.919
+detalhadamente num outro tutorial, mas
+
+0:29:50.519,0:29:53.640
+vou só escrever aqui para que vocês
+
+0:29:51.919,0:29:57.240
+vejam.
+
+0:29:53.640,0:29:57.240
+Coordenadas paramétricas.
+
+0:30:01.240,0:30:06.510
+Estas eram eram estas eram paramétricas,
+
+0:30:03.399,0:30:07.720
+mas com funções transcendentes,
+
+0:30:06.510,0:30:09.760
+[roncando] porque o seno e cosseno são
+
+0:30:07.720,0:30:11.399
+funções transcendentes. Funções
+
+0:30:09.760,0:30:14.399
+transcendentes, funções que não podem
+
+0:30:11.399,0:30:18.159
+ser expressas como uma soma finita de de
+
+0:30:14.399,0:30:20.440
+de monómios ou um polinómio finito. OK?
+
+0:30:18.159,0:30:22.720
+Por isso são funções transcendentes,
+
+0:30:20.440,0:30:25.679
+cuja a expansão em série é uma é uma
+
+0:30:22.720,0:30:27.840
+série infinita de termos.
+
+0:30:25.679,0:30:31.399
+Portanto, nas paramétricas racionais,
+
+0:30:27.840,0:30:31.399
+isto é muito interessante,
+
+0:30:33.960,0:30:40.880
+nós temos x
+
+0:30:36.919,0:30:42.720
+igual a 1 - t
+
+0:30:40.880,0:30:46.159
+sobre
+
+0:30:42.720,0:30:46.159
+1 + t².
+
+0:30:47.600,0:30:53.679
+E temos y
+
+0:30:50.440,0:30:57.600
+= a 2t
+
+0:30:53.679,0:30:59.080
+sobre 1 + t².
+
+0:30:57.600,0:31:02.679
+OK?
+
+0:30:59.080,0:31:04.720
+Eh, e com t varia de menos infinito a
+
+0:31:02.679,0:31:06.760
+mais infinito.
+
+0:31:04.720,0:31:08.440
+T
+
+0:31:06.760,0:31:13.000
+varia
+
+0:31:08.440,0:31:13.000
+de menos infinito a mais infinito.
+
+0:31:13.840,0:31:19.320
+Deixa o vosso cuidado de com algum
+
+0:31:16.559,0:31:20.600
+programa de grafismo ou com alguma
+
+0:31:19.320,0:31:23.519
+linguagem de computador que vocês
+
+0:31:20.600,0:31:25.320
+conheçam ou com o Geogebra, verificarem
+
+0:31:23.519,0:31:28.480
+efetivamente
+
+0:31:25.320,0:31:30.960
+que traçando X e Y, variando o parâmetro
+
+0:31:28.480,0:31:32.799
+de menos infinito a mais infinito que
+
+0:31:30.960,0:31:34.320
+efetivamente resulta à circunferência
+
+0:31:32.799,0:31:36.919
+unitária.
+
+0:31:34.320,0:31:39.519
+E também podem verificar aqui que x² +
+
+0:31:36.919,0:31:41.039
+y² = 1. Ou seja, estas equações
+
+0:31:39.519,0:31:43.919
+verificam
+
+0:31:41.039,0:31:45.760
+que x² + y² = 1, que já sabemos que é a
+
+0:31:43.919,0:31:47.600
+equação da circunferência, tal como
+
+0:31:45.760,0:31:51.720
+estas paramétricas também verificam e
+
+0:31:47.600,0:31:54.039
+todas elas têm que verificar. OK?
+
+0:31:51.720,0:31:55.240
+Pronto. Eh, achei pôr isto. Achei por
+
+0:31:54.039,0:31:59.399
+bem pôr isto aqui, porque isto é
+
+0:31:55.240,0:32:02.799
+interessante, porque efetivamente
+
+0:31:59.399,0:32:05.279
+são várias eh representações que temos
+
+0:32:02.799,0:32:06.919
+para o círculo unitário
+
+0:32:05.279,0:32:08.919
+e, em particular, este formato
+
+0:32:06.919,0:32:12.760
+paramétricas racionais é um é um formato
+
+0:32:08.919,0:32:15.840
+bastante interessante. OK?
+
+0:32:12.760,0:32:18.720
+Eh, vamos ver agora aqui aqui um
+
+0:32:15.840,0:32:21.840
+exercício que é o seguinte.
+
+0:32:18.720,0:32:24.880
+Imaginemos que eu peço uma função
+
+0:32:21.840,0:32:27.720
+trigonométrica, por exemplo, o seno,
+
+0:32:24.880,0:32:32.880
+e digo: "Eu quero
+
+0:32:27.720,0:32:32.880
+que me encontrem uma fórmula para o seno
+
+0:32:33.120,0:32:38.399
+e mas expresso em função de outra de
+
+0:32:36.240,0:32:40.600
+outra forma de outra função
+
+0:32:38.399,0:32:42.519
+trigonométrica.
+
+0:32:40.600,0:32:44.440
+Por exemplo, se eu vos pedisse o seno em
+
+0:32:42.519,0:32:46.799
+função do cosseno, vocês saberiam,
+
+0:32:44.440,0:32:49.440
+porque se efetivamente seno quadrado
+
+0:32:46.799,0:32:51.880
+mais cosseno quadrado igual a 1, até eu
+
+0:32:49.440,0:32:53.720
+consigo encontrar uma forma do seno em
+
+0:32:51.880,0:32:59.200
+função do cosseno. Vou dizer que é igual
+
+0:32:53.720,0:33:01.200
+a 1 men o seno quadrado raiz quadrada.
+
+0:32:59.200,0:33:03.039
+Ok? Pronto, e tá feito. E se eu vos
+
+0:33:01.200,0:33:05.639
+pedir agora outra função trigonométrica,
+
+0:33:03.039,0:33:08.320
+se vos pedir, olha, eu quero o seno em
+
+0:33:05.639,0:33:10.840
+função da tangente,
+
+0:33:08.320,0:33:14.000
+o seno
+
+0:33:10.840,0:33:15.320
+em função da tangente. Pronto, como é
+
+0:33:14.000,0:33:17.960
+que se faz? Vou-vos mostrar aqui uma
+
+0:33:15.320,0:33:20.399
+técnica, OK? onde não é preciso decorar
+
+0:33:17.960,0:33:22.519
+nada, onde nós conseguimos fazer isto
+
+0:33:20.399,0:33:24.960
+com muita facilidade.
+
+0:33:22.519,0:33:28.480
+E e isto às vezes é é às vezes é
+
+0:33:24.960,0:33:32.039
+necessário este tipo de de raciocínio,
+
+0:33:28.480,0:33:33.159
+por exemplo, no cálculo de de integrais.
+
+0:33:32.039,0:33:34.919
+Ora bem, o que é que nós vamos fazer?
+
+0:33:33.159,0:33:37.039
+Nós vamos fazer aqui um círculo, um
+
+0:33:34.919,0:33:39.480
+triângulo retângulo, mas mas desta feita
+
+0:33:37.039,0:33:42.679
+já não é o triângulo retângulo
+
+0:33:39.480,0:33:44.440
+eh unitário. Desta feita é um triângulo
+
+0:33:42.679,0:33:47.200
+retângulo, tem um ângulo alfa. E eu digo
+
+0:33:44.440,0:33:48.799
+assim: "Bom, então o que é que eu quero?
+
+0:33:47.200,0:33:50.320
+Eu quero o seno em função da tangente.
+
+0:33:48.799,0:33:52.440
+Eu vou, então vou assumir que eu tenho a
+
+0:33:50.320,0:33:54.840
+tangente. Eu vou assumir que tenho
+
+0:33:52.440,0:33:57.519
+tangente alfa. Ora, o que é tangente?
+
+0:33:54.840,0:33:59.320
+Cateto oposto sobre cateto adjacente.
+
+0:33:57.519,0:34:02.279
+Então é no cateto adjacente agora que eu
+
+0:33:59.320,0:34:04.720
+vou escolher que começa um, OK? Em vez
+
+0:34:02.279,0:34:06.600
+de dizer que no como no seno e cosseno
+
+0:34:04.720,0:34:10.359
+que era a hipotenusa que eu assumia a
+
+0:34:06.600,0:34:12.240
+hipotenusa para medir um, agora eu vou
+
+0:34:10.359,0:34:14.320
+fazer outra outro outro raciocínio. Eu
+
+0:34:12.240,0:34:17.240
+vou dizer não, agora quero que assumir
+
+0:34:14.320,0:34:19.280
+que o cateto adjacente é que mete um.
+
+0:34:17.240,0:34:21.520
+Então a ser assim o cateto oposto será a
+
+0:34:19.280,0:34:24.639
+tangente de alfa.
+
+0:34:21.520,0:34:26.240
+A tangente de alfa, porque efetivamente
+
+0:34:24.639,0:34:27.760
+este sobre este é a tangente de alfa. E
+
+0:34:26.240,0:34:30.159
+tá certo? Tangente de alfa a dividir por
+
+0:34:27.760,0:34:32.440
+1 é tangente de alfa. E agora pelo
+
+0:34:30.159,0:34:35.440
+teorema de Pitágoras temos que a
+
+0:34:32.440,0:34:38.320
+hipotenusa tem que ser a soma, a raiz da
+
+0:34:35.440,0:34:41.560
+soma dos quadrados. Portanto, aqui vou
+
+0:34:38.320,0:34:42.960
+ter que ter uma raiz
+
+0:34:41.560,0:34:46.280
+e onde vou ter que ter, portanto, 1 ao
+
+0:34:42.960,0:34:48.440
+quadrado é 1 mais a tangente quadrada, a
+
+0:34:46.280,0:34:50.040
+tangente quadrada de alfa. Pronto.
+
+0:34:48.440,0:34:52.960
+Então, basicamente, o que eu fiz foi
+
+0:34:50.040,0:34:55.159
+construir aqui um triângulo retângulo.
+
+0:34:52.960,0:34:57.640
+Eu escolho o lado que me convém a
+
+0:34:55.159,0:34:58.640
+assignar o um
+
+0:34:57.640,0:35:00.040
+e e [roncando]
+
+0:34:58.640,0:35:03.599
+a partir daí depois derivo os outros
+
+0:35:00.040,0:35:05.280
+dois lados. OK? Pronto. Então aqui fiz
+
+0:35:03.599,0:35:07.320
+um triângulo retângulo em função de
+
+0:35:05.280,0:35:09.040
+tangente, expressa em função de
+
+0:35:07.320,0:35:11.480
+tangente,
+
+0:35:09.040,0:35:14.400
+OK? Enquanto o triângulo retângulo que
+
+0:35:11.480,0:35:17.599
+tínhamos visto até hoje,
+
+0:35:14.400,0:35:19.560
+por norma, era expressa em função de
+
+0:35:17.599,0:35:22.920
+seno e coseno porque porque é assim
+
+0:35:19.560,0:35:25.000
+porque é o padrão mais usado. Cseno seno
+
+0:35:22.920,0:35:26.880
+e aqui é um.
+
+0:35:25.000,0:35:28.320
+Ok? Pronto. Mas eu posso arranjar um
+
+0:35:26.880,0:35:30.240
+triângulo retângulo expresso noutras
+
+0:35:28.320,0:35:33.000
+funções trigonométricas. E agora que
+
+0:35:30.240,0:35:35.119
+tenho aqui este, já posso então aqui
+
+0:35:33.000,0:35:38.240
+exprimir o seno em função da tangente.
+
+0:35:35.119,0:35:40.119
+Eu vou dizer o seno é o cateto oposto
+
+0:35:38.240,0:35:43.040
+sobre a hipotenusa. Pronto. Então aqui
+
+0:35:40.119,0:35:45.839
+já tenho o seno de alfa.
+
+0:35:43.040,0:35:48.079
+O seno de alfa é o cateto oposto
+
+0:35:45.839,0:35:53.920
+tangente de alfa.
+
+0:35:48.079,0:35:53.920
+tangente de alfa sobre a hipotenusa.
+
+0:35:54.920,0:36:01.400
+Hipotenusa a ra 1 mais tangente quadrado
+
+0:35:58.880,0:36:04.640
+de alfa. Pronto. E assim consegui
+
+0:36:01.400,0:36:07.599
+exprimir o seno em função da tangente.
+
+0:36:04.640,0:36:09.400
+OK? [roncando] E da mesma forma poderia
+
+0:36:07.599,0:36:11.880
+exprimir o cosseno em função da
+
+0:36:09.400,0:36:15.760
+tangente, pois seria o cosseno o inverso
+
+0:36:11.880,0:36:19.920
+1 sobre esta raiz. OK? Pronto. E o mesmo
+
+0:36:15.760,0:36:22.119
+poderia exprimir o o seno e o cosseno em
+
+0:36:19.920,0:36:24.880
+função de cotangente.
+
+0:36:22.119,0:36:28.160
+OK? Pronto, penso que ficou claro e isto
+
+0:36:24.880,0:36:31.920
+também é uma um método que por vezes
+
+0:36:28.160,0:36:33.480
+pode pode surgir, pode ser importante.
+
+0:36:31.920,0:36:35.240
+Eh,
+
+0:36:33.480,0:36:36.599
+pode ser importante. Eu posso ter, vamos
+
+0:36:35.240,0:36:38.280
+que eu tenho uma uma dada expressão que
+
+0:36:36.599,0:36:40.520
+tem tangentes, está toda ela expressa em
+
+0:36:38.280,0:36:42.880
+tangentes e de repente tem um seno pelo
+
+0:36:40.520,0:36:44.839
+meio e eu posso pegar, dar-me jeito e
+
+0:36:42.880,0:36:47.160
+pego no seno e transformo o seno em
+
+0:36:44.839,0:36:50.160
+função da tangente.
+
+0:36:47.160,0:36:53.800
+OK? Sim, senhora.
+
+0:36:50.160,0:36:57.400
+OK. Vamos agora deduzir estas fórmulas.
+
+0:36:53.800,0:37:00.839
+Eh, podem ser estas aqui,
+
+0:36:57.400,0:37:03.079
+eh, soma, eh,
+
+0:37:00.839,0:37:06.800
+sumities,
+
+0:37:03.079,0:37:08.400
+OK? Transformar
+
+0:37:06.800,0:37:12.920
+eh relaciona [roncando]
+
+0:37:08.400,0:37:16.160
+somas com produtos. OK? Pronto.
+
+0:37:12.920,0:37:16.160
+Vamos aqui
+
+0:37:16.640,0:37:20.400
+traduzir estas fórmulas.
+
+0:37:24.640,0:37:33.440
+OK. Sim, senhora. Ora bem, [roncando]
+
+0:37:28.880,0:37:33.440
+eh, então vamos então.
+
+0:37:36.680,0:37:42.000
+Ora, estas fórmulas aqui,
+
+0:37:40.200,0:37:44.079
+produtos para somas e somas para
+
+0:37:42.000,0:37:46.800
+produtos também são chamadas de formas
+
+0:37:44.079,0:37:48.880
+fórmulas de transformação logarítmica.
+
+0:37:46.800,0:37:51.160
+Cá está.
+
+0:37:48.880,0:37:53.839
+porque faz lembrar aquelas propriedades
+
+0:37:51.160,0:37:56.440
+dos logaritmos cujo o logaritmo do
+
+0:37:53.839,0:37:59.119
+produto é a soma dos logaritmos. OK?
+
+0:37:56.440,0:38:03.680
+Pronto. Então vamos vamos deduzir isto
+
+0:37:59.119,0:38:03.680
+também é fácil. Fórmulas
+
+0:38:05.920,0:38:09.720
+de transformação logarítmica.
+
+0:38:17.480,0:38:22.359
+E tal como o disse que todas estas
+
+0:38:20.000,0:38:25.079
+formas se deduzem com base naquelas
+
+0:38:22.359,0:38:27.319
+formas fundamentais do cosseno da soma e
+
+0:38:25.079,0:38:30.800
+do seno da soma que resultam de um
+
+0:38:27.319,0:38:32.280
+produto interno, OK?
+
+0:38:30.800,0:38:34.839
+E portanto, mais uma vez, aqui também
+
+0:38:32.280,0:38:36.599
+vai ser o caso,
+
+0:38:34.839,0:38:38.240
+OK? Portanto, aqui nós vamos ter, vamos
+
+0:38:36.599,0:38:41.440
+escrever,
+
+0:38:38.240,0:38:45.200
+vamos escrever, por exemplo, aqui o seno
+
+0:38:41.440,0:38:45.200
+de α + beta
+
+0:38:49.720,0:38:55.720
+é igual ao seno de alfa
+
+0:38:52.400,0:38:58.880
+comseno de beta mais
+
+0:38:55.720,0:39:03.359
+seno de beta comseno de alfa, [roncando]
+
+0:38:58.880,0:39:03.359
+OK? e o seno de alfa - beta
+
+0:39:04.839,0:39:10.960
+seno de alfa comseno de beta menos seno
+
+0:39:08.480,0:39:14.960
+de beta cosseno de alfa.
+
+0:39:10.960,0:39:17.200
+E agora não temos mais do que somar
+
+0:39:14.960,0:39:19.337
+seno
+
+0:39:17.200,0:39:20.040
+de alfa + beta.
+
+0:39:19.337,0:39:23.240
+[roncando]
+
+0:39:20.040,0:39:26.880
+seno de alfa + beta
+
+0:39:23.240,0:39:29.520
+eh mais
+
+0:39:26.880,0:39:32.359
+seno de alfa - beta
+
+0:39:29.520,0:39:35.920
+é igual a E agora somando estes dois
+
+0:39:32.359,0:39:40.400
+termos aqui anulam e fica 2 seno de alfa
+
+0:39:35.920,0:39:43.160
+com seno de beta. 2 seno de alfa cosseno
+
+0:39:40.400,0:39:46.599
+de beta. Ok?
+
+0:39:43.160,0:39:49.440
+Eh, e vamos aqui, vamos construir esta
+
+0:39:46.599,0:39:51.720
+esta primeira expressão que está aqui.
+
+0:39:49.440,0:39:53.079
+Pronto. Então, basicamente aqui o que
+
+0:39:51.720,0:39:57.240
+vamos fazer é aqui uma mudança de
+
+0:39:53.079,0:39:59.240
+variáveis. Dizemos, olha, seja α + beta
+
+0:39:57.240,0:40:01.160
+igual a teta 1, um sistema de duas
+
+0:39:59.240,0:40:06.920
+equações,
+
+0:40:01.160,0:40:13.640
+seja ala - beta = teta 2. Pronto. Então
+
+0:40:06.920,0:40:13.640
+aqui somando 2 al = teta 1 + teta 2.
+
+0:40:17.200,0:40:23.480
+E, portanto, α = teta1 + teta 2/ 2.
+
+0:40:24.520,0:40:30.040
+OK?
+
+0:40:26.148,0:40:32.839
+[roncando] E beta, pois,
+
+0:40:30.040,0:40:36.720
+tá-se mesmo a ver o que vai ser. Olhando
+
+0:40:32.839,0:40:41.920
+aqui para a fórmula, vai ser teta 1,
+
+0:40:36.720,0:40:45.079
+teta 1 - teta 2 sobre 2.
+
+0:40:41.920,0:40:47.000
+Ok? Pronto, então obtivemos aqui a
+
+0:40:45.079,0:40:50.119
+expressão,
+
+0:40:47.000,0:40:52.119
+OK? Em vez do alfa e beta, pois pusemos
+
+0:40:50.119,0:40:55.040
+teta 1, teta 2. Agora podemos trocar as
+
+0:40:52.119,0:40:57.359
+letras outra vez, são variáveis mudas.
+
+0:40:55.040,0:40:59.000
+E, portanto, e temos a primeira fórmula.
+
+0:40:57.359,0:41:01.040
+OK?
+
+0:40:59.000,0:41:04.480
+Aqui, em vez de termos somado, se
+
+0:41:01.040,0:41:06.160
+tivermos subtraído,
+
+0:41:04.480,0:41:08.119
+depois teríamos, obteríamos a segunda
+
+0:41:06.160,0:41:11.720
+fórmula.
+
+0:41:08.119,0:41:15.440
+OK? Aqui, se em vez de somar as equações
+
+0:41:11.720,0:41:18.200
+tivéssemos subtrair, obteríamos esta do
+
+0:41:15.440,0:41:21.640
+seno de alfa menos seno de beta.
+
+0:41:18.200,0:41:24.440
+OK? OK. Eu aqui devia ter posto teta 1,
+
+0:41:21.640,0:41:26.960
+teta 2, ficava mais fácil porque aí era
+
+0:41:24.440,0:41:28.880
+era mais era mais fácil de entender. Mas
+
+0:41:26.960,0:41:31.359
+pronto.
+
+0:41:28.880,0:41:34.440
+Eh, e o cosseno e o cosseno tá-se mesmo
+
+0:41:31.359,0:41:36.960
+a ver em vez de usar as equações do seno
+
+0:41:34.440,0:41:38.599
+do da soma e da diferença, depois uso o
+
+0:41:36.960,0:41:41.599
+do cosseno da soma e da diferença e
+
+0:41:38.599,0:41:43.119
+vai-me dar estas outras duas. OK? Sim,
+
+0:41:41.599,0:41:46.240
+senhor.
+
+0:41:43.119,0:41:48.480
+E quanto é esta que está aqui?
+
+0:41:46.240,0:41:51.160
+Bom, esta é fácil.
+
+0:41:48.480,0:41:55.640
+É realmente esta resulta, por exemplo, a
+
+0:41:51.160,0:41:58.079
+primeira, seno de alfa, seno de beta,
+
+0:41:55.640,0:41:59.680
+ou vamos antes olhar para esta, que é
+
+0:41:58.079,0:42:01.280
+que temos aqui que temos um seno e um
+
+0:41:59.680,0:42:04.720
+cosseno.
+
+0:42:01.280,0:42:07.160
+Temos um seno e um cosseno, pois basta
+
+0:42:04.720,0:42:10.839
+passar o dois para este lado. Portanto,
+
+0:42:07.160,0:42:12.480
+esta fórmula pois
+
+0:42:10.839,0:42:14.800
+não é mais nem menos do que esta que
+
+0:42:12.480,0:42:16.880
+temos aqui.
+
+0:42:14.800,0:42:18.599
+Portanto, são equivalentes, como vemos,
+
+0:42:16.880,0:42:20.839
+estas quatro fórmulas são equivalentes a
+
+0:42:18.599,0:42:24.200
+estas outras quatro. Portanto, aqui
+
+0:42:20.839,0:42:28.040
+temos seno de alfa com o seno de beta é
+
+0:42:24.200,0:42:30.000
+igual a 1/2 de seno de α + beta + seno
+
+0:42:28.040,0:42:32.000
+de αβ.
+
+0:42:30.000,0:42:34.880
+OK?
+
+0:42:32.000,0:42:38.680
+Sim, senhora.
+
+0:42:34.880,0:42:38.680
+Eh, e portanto
+
+0:42:39.240,0:42:44.319
+seno
+
+0:42:41.960,0:42:46.760
+seno cosseno. Temos aqui a outra. Em vez
+
+0:42:44.319,0:42:50.520
+de tivéssemos somado
+
+0:42:46.760,0:42:53.839
+esta outra coseno seno resulta.
+
+0:42:50.520,0:42:55.960
+Ora, temos aqui
+
+0:42:53.839,0:42:58.640
+seno de alfa + beta - seno de alfa -
+
+0:42:55.960,0:43:00.559
+beta.
+
+0:42:58.640,0:43:02.520
+Ora,
+
+0:43:00.559,0:43:04.040
+esta resulta em vez de termos somado as
+
+0:43:02.520,0:43:09.040
+expressões, tivéssemos subtraído as
+
+0:43:04.040,0:43:09.040
+expressões, resultaria esta.
+
+0:43:12.079,0:43:15.839
+OK?
+
+0:43:13.599,0:43:20.760
+Pronto. E estas pois é, vai dar a mesma
+
+0:43:15.839,0:43:20.760
+coisa usando as pressões do cosseno.
+
+0:43:21.079,0:43:25.800
+Pronto. Pá, penso como vem isto acho que
+
+0:43:23.319,0:43:27.400
+é é simples. É trivial. É trivial. Agora
+
+0:43:25.800,0:43:28.760
+é assim, eu não sei isto de cor, não é?
+
+0:43:27.400,0:43:30.880
+De repente se aparece uma expressão,
+
+0:43:28.760,0:43:32.960
+pois sei de onde é que isto vem, mas eu
+
+0:43:30.880,0:43:35.359
+não sei de cor. Para isso venho venho
+
+0:43:32.960,0:43:38.280
+ver, venho ver a tabela,
+
+0:43:35.359,0:43:40.240
+OK? Vou à procura de uma tabela se, se
+
+0:43:38.280,0:43:41.960
+precisar e pronto. Mas eu já sei de onde
+
+0:43:40.240,0:43:45.240
+isto vem. Já sei que vem das formas
+
+0:43:41.960,0:43:47.800
+fundamentais. do do cosseno da soma do e
+
+0:43:45.240,0:43:49.960
+da diferença e do seno da da soma e da
+
+0:43:47.800,0:43:52.359
+diferença. OK? Pronto. Portanto, esta
+
+0:43:49.960,0:43:55.200
+parte então tá demonstrada. Vamos voltar
+
+0:43:52.359,0:43:57.720
+aqui à tabela inicial.
+
+0:43:55.200,0:44:01.160
+OK? Vamos ver que OK que esta parte aqui
+
+0:43:57.720,0:44:01.160
+também está demonstrada.
+
+0:44:05.400,0:44:10.559
+Ok. Sim, senhora.
+
+0:44:08.599,0:44:14.280
+Ora,
+
+0:44:10.559,0:44:18.079
+alfanga entities. Deixa-me ver se vou se
+
+0:44:14.280,0:44:18.079
+vou demonstrar isto.
+
+0:44:18.839,0:44:22.720
+Ora, bom, olhando aqui ao que falta,
+
+0:44:20.880,0:44:25.440
+pronto, estas fórmulas aqui, a lei dos
+
+0:44:22.720,0:44:27.599
+tangentes eu não a conhecia. Portanto,
+
+0:44:25.440,0:44:29.400
+ela são relações dentro dos triângulos,
+
+0:44:27.599,0:44:31.720
+tal como a lei dos senos e dos cossenos,
+
+0:44:29.400,0:44:33.400
+que são expressa relações dentro do dos
+
+0:44:31.720,0:44:34.960
+triângulos. Esta aqui, eu não conhecia,
+
+0:44:33.400,0:44:37.480
+não vou agora falar dela. Esta aqui
+
+0:44:34.960,0:44:40.040
+também é similar. uma regra uma forma
+
+0:44:37.480,0:44:41.160
+qualquer das relações entre os lados e
+
+0:44:40.040,0:44:43.720
+ângulos dentro de um triângulo. Também
+
+0:44:41.160,0:44:45.720
+não vou falar, não tenho esta matéria
+
+0:44:43.720,0:44:47.200
+aqui presente. Esta aqui, esta é
+
+0:44:45.720,0:44:49.559
+simples, eu também não tenho isto aqui
+
+0:44:47.200,0:44:51.079
+presente, mas pronto, mas estava aqui a
+
+0:44:49.559,0:44:53.240
+tentar demonstrar e isto é fácil de
+
+0:44:51.079,0:44:56.760
+demonstrar. Portanto, eu levo aqui ao
+
+0:44:53.240,0:44:59.520
+quadrado seno quad de teta me 1 men
+
+0:44:56.760,0:45:02.640
+cosseno sobre 2. E agora faço uma
+
+0:44:59.520,0:45:06.240
+transformação. Digo assim,
+
+0:45:02.640,0:45:07.760
+seja teta igual a um outro teta.
+
+0:45:06.240,0:45:09.559
+OK?
+
+0:45:07.760,0:45:12.680
+E neste caso este teta que aqui está é
+
+0:45:09.559,0:45:17.559
+do passa a ser o novo 2 teta.
+
+0:45:12.680,0:45:19.319
+Então fica e fica aqui que ou um alfa,
+
+0:45:17.559,0:45:23.160
+se quisermos fica aqui, olha, seno
+
+0:45:19.319,0:45:26.359
+quadrado de alfa é igual a 1 men cosseno
+
+0:45:23.160,0:45:30.240
+de 2 al pronto. Sobre 2, o 2 passa para
+
+0:45:26.359,0:45:32.119
+aqui. E agora usamos esta fórmula que
+
+0:45:30.240,0:45:34.480
+que me dá o cosseno de 2 alfa. que o
+
+0:45:32.119,0:45:38.079
+cosseno de 2 al aqui é cosseno quadrado
+
+0:45:34.480,0:45:41.200
+- sen². Pronto. Então isto fica 1 -
+
+0:45:38.079,0:45:44.200
+cosseno quadrado mais mudar o sinal +
+
+0:45:41.200,0:45:44.200
+sen²
+
+0:45:44.240,0:45:51.559
+e portanto fica
+
+0:45:47.280,0:45:53.040
+fica 2 seno quad de alfa
+
+0:45:51.559,0:45:54.599
+ou de teta, não importa, é o que
+
+0:45:53.040,0:45:57.319
+quisermos.
+
+0:45:54.599,0:46:00.800
+e que portanto fica 1, mas 1 é igual a
+
+0:45:57.319,0:46:03.720
+seno mais cseno quadrado e aqui menos
+
+0:46:00.800,0:46:06.800
+cseno + sen quadrado
+
+0:46:03.720,0:46:08.760
+corta corta e dá 2 sen² pronto é trivial
+
+0:46:06.800,0:46:09.880
+como viram pronto eu não tinha isto é
+
+0:46:08.760,0:46:11.680
+claro que eu não tenho uma coisa destas
+
+0:46:09.880,0:46:14.640
+de cor
+
+0:46:11.680,0:46:17.240
+demonstração é trivial sim senhora ok
+
+0:46:14.640,0:46:20.506
+ficamos a saber que há é OK estas duas
+
+0:46:17.240,0:46:25.000
+ao vosso cuidado para demonstrarem
+
+0:46:20.506,0:46:25.000
+[roncando] eh pronto parece estamos
+
+0:46:26.160,0:46:30.760
+Ora, OK. Vou dar mesmo aqui por
+
+0:46:28.160,0:46:34.839
+completado porque, pronto, há tenho aqui
+
+0:46:30.760,0:46:36.920
+mais tópicos para falar, mas e como
+
+0:46:34.839,0:46:38.720
+basicamente cobrimos aqui esta tabela
+
+0:46:36.920,0:46:41.359
+toda,
+
+0:46:38.720,0:46:43.839
+tirando aqui esta parte aqui, leite
+
+0:46:41.359,0:46:47.359
+tangentes e esta forma, pronto, esta
+
+0:46:43.839,0:46:48.720
+parte foi praticamente tudo tratado e,
+
+0:46:47.359,0:46:51.000
+portanto, vou dar por concluída este
+
+0:46:48.720,0:46:53.440
+tutorial. eventualmente haverá uma
+
+0:46:51.000,0:46:55.960
+segunda parte também com tópicos também
+
+0:46:53.440,0:46:57.920
+alguma continuação.
+
+0:46:55.960,0:46:59.440
+Eh,
+
+0:46:57.920,0:47:00.520
+não sei se já disse, mas normalmente
+
+0:46:59.440,0:47:02.280
+quando nós falamos funções
+
+0:47:00.520,0:47:04.440
+trigonométricas,
+
+0:47:02.280,0:47:07.000
+não dizendo mais nada, subentende-se
+
+0:47:04.440,0:47:09.599
+funções trigonométricas circulares, OK?
+
+0:47:07.000,0:47:11.400
+O nome oficial é funções trigonométricas
+
+0:47:09.599,0:47:13.559
+circulares que resultam do círculo
+
+0:47:11.400,0:47:14.640
+unitório, porque existe na matemática
+
+0:47:13.559,0:47:16.599
+outro conjunto de funções
+
+0:47:14.640,0:47:19.319
+trigonométricas que são as funções
+
+0:47:16.599,0:47:21.280
+trigonométricas hiperbólicas. OK? Talvez
+
+0:47:19.319,0:47:23.440
+poss possa ser um tema de um tutorial
+
+0:47:21.280,0:47:25.520
+futuro. E pronto, penso que por aqui
+
+0:47:23.440,0:47:27.920
+vamos ficar por aqui. Estas são as
+
+0:47:25.520,0:47:29.760
+fórmulas. E eu precisava realmente
+
+0:47:27.920,0:47:32.040
+destas fórmulas porque quando for agora
+
+0:47:29.760,0:47:33.599
+fomos dar as derivadas das funções
+
+0:47:32.040,0:47:35.760
+trigonométricas, poois, eu precisava
+
+0:47:33.599,0:47:37.599
+destas fórmulas. E, portanto, então
+
+0:47:35.760,0:47:39.760
+achei por bem a dizer, bom, deixa-me
+
+0:47:37.599,0:47:41.359
+fazer um tutorial sobre as formas
+
+0:47:39.760,0:47:43.599
+trigonométricas
+
+0:47:41.359,0:47:45.480
+e e esta mais ou menos simples, como
+
+0:47:43.599,0:47:48.400
+viram, o fundamental estava aqui era
+
+0:47:45.480,0:47:52.160
+saber usar a forma do produto interno
+
+0:47:48.400,0:47:56.160
+para para deduzir aqui a expressão de um
+
+0:47:52.160,0:47:59.640
+cosseno de de alfa men beta. OK? Então,
+
+0:47:56.160,0:47:59.640
+pronto, espero que tenham gostado.
+
+

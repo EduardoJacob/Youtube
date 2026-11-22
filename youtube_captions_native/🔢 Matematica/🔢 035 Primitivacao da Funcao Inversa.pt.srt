@@ -1,0 +1,514 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial,
+hoje dedicado à primitivação da função
+inversa, OK?
+Portanto,
+vamos relembrar que, por exemplo, a
+função exponencial,
+ela
+a derivada
+é igual a ela própria
+e assim sucessivamente.
+OK? Posso derivar outra vez,
+é sempre igual a ela própria,
+OK?
+e que a função inversa da exponencial, o
+logaritmo,
+o logaritmo de x,
+cuja derivada
+a derivada
+é igual a 1 sobre x.
+E se derivar outra vez?
+Derivar outra vez, depois dará -1 sobre
+x².
+OK?
+E, portanto, agora posso andar para
+trás. Eu posso andar para trás e e dizer
+aqui, por exemplo,
+a primitiva da exponencial
+é igual a ela própria e primitivar outra
+vez também é sempre igual a ela própria.
+OK?
+E aqui posso andar para trás e aqui
+poderia andar para trás outra vez. Posso
+andar para trás outra vez. é sempre
+igual a ela própria.
+Mas aqui temos um problema aqui na no
+logaritmo,
+porque temos que
+eu posso primitivar aqui -1/ x²
+é igual ao invés de x
+e primitivar aqui é igual ao algoritmo.
+Então e agora primitivar aqui?
+OK?
+Sim, senhora. A a primitiva do logaritmo
+X não é não é trivial.
+Nós já vimos isto, acho que já vimos no
+tutorial anterior pela primitivação por
+partes, OK? Que deu para deduzir e hoje
+vamos ver outra técnica que é a
+primitivação da função inversa.
+Ou seja, eu sabendo primitivar a função
+inversa, que é a exponencial, então eu
+vou usar esse no para saber primitivar o
+logaritmo de x. OK?
+Vamos só relembrar aqui a primitivação
+por partes.
+Ora, eu nunca sei de cor, é como já vos
+disse, o que eu faço é sempre
+e deduzo, escrevo a derivação do
+produto.
+Essa sim, essa assim que eu sei de cor
+que é bem simples.
+F linha G mais FG linha.
+Pronto, este é sempre assim que eu
+escrevo e agora aplico
+aplico o o operador de integração. OK?
+E, portanto, daqui resulta que a
+integral de
+f linha G
+é igual a fg
+integral de f linha, OK? Aqui eu
+explicitei F linha G, como poderia ter
+explicitado é F F F linha é a mesma
+coisa, não importa.
+Sim, senhor. E acho acho que já vimos
+num tutorial anterior, eu tenho
+impressão que usamos a a
+primitivação por partes para obter a
+primitiva do algoritmo, mas vamos
+repetir outra vez aqui para relembrar.
+OK? Então será eh eu quero
+primitivar o logaritmo de x,
+OK?
+Eh, o que é que acontece? Eu eu não
+tenho aqui duas funções, só tenho uma,
+mas eu tenho que tenho aqui uma uma
+função que é constante um.
+OK? Pronto. Então, cuja esta função eu
+sei primitivar. Interessa-me primitivar
+o 1
+e interessa-me derivar o logaritmo x,
+que eu também sei derivar. Portanto, OK?
+Então, agora vou olhar para aqui para
+ver qual a função que me interessa
+associar a f linha e a g. OK? Pronto.
+Então, aquela que eu vou derivar é o g
+que que eu vou derivar e vai aparecer
+aqui G linha.
+Pronto. Então vou vou dizer que G,
+pronto, interessa-me que esta seja G
+e a outra que eu vou primitivar,
+interessa-me que seja F linha, que eu
+vou primitivar e vai dar f. Portanto,
+interessa-me que o a constante um seja F
+linha. OK? Pronto. É bem simples. Para
+não é preciso saber nada de corte. Basta
+analisar no momento, ver qual é a função
+que me interessa derivar, qual é aquela
+que eu sei derivar, qual é aquela que eu
+sei primitivar destas duas? Sim,
+senhora. Para me ver o livro do
+logaritmo, porque eu eu não sei
+integrar, eu não sei, eu não faço ideia
+qual é a primitiva do logaritmo. OK?
+Sim, senhor. Por isso usamos este
+artifício da primitivação por partes.
+Pronto. Então, isto vai dar f. Ora, f,
+portanto, a primitiva aqui de 1 é x.
+OK? vezes g
+vezes o logaritmo
+de x,
+OK? E menos o integral de f, esse mesmo,
+esse mesmo f(x)
+vezes a derivada de g. Ora, g logaritmo
+a derivada de g x.
+Pronto. Então, corta corta dá 1 cuja
+primitiva é x. E, portanto, fica x
+e, portanto, em evidência e dá logaritmo
+de x
+- 1.
+Logaritmo de x - 1. OK? [roncando]
+Ora,
+sim, senhora.
+E aqui agora podíamos comprovar a ver se
+não me enganei. Derivando o x
+logaritmo de x - x
+derivada dá pelo produto derivada da
+primeira vez a segunda
+mais derivada da segunda que é 1 sobre x
+a primeira dá 1 e aqui -1 e tá correto.
+OK? Pronto. Sim senhora. Então aqui
+temos nós
+a a primitiva do logaritmo de x. Sim,
+senhor. Mas agora vamos então usar outra
+técnica. Vamos usar pela técnica da
+primitivação da função inversa, OK? Que
+faz lembrar a regra da derivação da
+função inversa.
+Sim, senhora. Bom, então vamos lá ver
+como é que nós vamos fazer isto.
+Portanto,
+OK, vamos deduzir primeiro a fórmula
+geral. A fórmula geral, portanto, a
+forma geral é o seguinte.
+Ora,
+eu quero
+calcular aqui a primitiva
+de uma determinada função,
+OK? de uma determinada função
+e e vou representar essa função por f -
+1, ou seja, como sendo a função inversa
+de uma outra função.
+Neste caso, f - 1 de x seria logaritmo
+de x, mas vamos agora trabalhar na forma
+genérica. Pronto, isto é o que eu quero
+calcular. E por hipótese é o que eu não
+sei, eu não sei, eu não sei integrar
+esta função, esta função aqui, f - 1.
+OK? Pronto. Sim, senhor. Portanto, a
+substituição que nós vamos fazer,
+[roncando] nós vimos, vamos aplicar a
+técnica da da primitivação por
+substituição, o qual nós já vimos num
+tutorial anterior. Vimos que usávamos
+usá as substituições trigonométricas.
+Eh, tínhamos, por exemplo, a raiz
+quadrada de 1 - x² e fazíamos seja x = a
+cosseno de teta. Vocês lembram-se disso?
+Nós fazíamos uma substituição, seja x =
+a cosseno de teta, OK? E depois dava-nos
+que dava-nos que dx
+era igual, por exemplo, a e ou por
+exemplo aqui seja x = a seno de teta.
+Pronto, para ser mais simples. E depois
+dava-nos dx
+cosseno de de teta
+cosseno de teta, deta.
+E depois também resolvemos aqui em ordem
+a teta, que mais para a frente depois
+para substituir no final. E portanto
+dizíamos aqui, OK? Então teta igual a
+arcosseno de x.
+Pronto, isto é o que nós já vimos.
+Vimos
+quando tivermos a ver a primitivação por
+substituição. Pronto, agora vamos fazer
+aqui o mesmo. Pronto, agora vou dizer
+então seja x o quê?
+Ok. Pronto. Eh,
+seja X
+a função f
+eh qual a função? Eu vou escolher a
+função inversa desta que eu não sei
+primitivar. Portanto, f -1, por
+hipótese, eu não sei primitivar.
+OK? Eu não sei primitivar,
+mas por hipótese eu sei primitivar a sua
+inversa, OK? Era o caso do logaritmo. Eu
+o logaritmo não sabia primitivar de
+imediato, mas eu sei primitivar de
+imediato a função inversa, que era a
+exponencial.
+Pronto. Portanto, então aqui
+agora estamos no caso genérico, pois
+agora já vamos depois aplicar ao caso do
+logaritmo e onde faremos a substituição,
+seja x = à exponencial.
+Pronto. Portanto, aqui sei seja x igual
+a f, a função inversa desta aqui. Queria
+pôr agora f de teta, não importa, é uma
+variável muda qualquer. Eh, não
+interessa. As variáveis aqui são mudas.
+Aqui na trigonometria usa-se teta porque
+porque porque normalmente se usa como
+podia usar alfa, mas como podia usar
+outra coisa qualquer. Pronto, as as
+variáveis não não importa, são variáveis
+mudas. Pronto. Aqui vou aqui vou dizer,
+olha, eh, vou dizer aqui e f de u.
+Pronto.
+Seja x = f de u. Eu tenho que fazer uma,
+eu tenho que fazer uma substituição de
+variável. Eu não posso ser seja x = fx.
+Isso não faz sentido nenhum. OK? Pronto.
+Então, e seja x = 1 f de u.
+Pronto. Então, vamos a contrastar aqui
+com esta com esta tabela.
+Vamos contrastar com esta tabela que
+temos aqui.
+OK. Para ver. Sim, senhor. Já tenho
+aqui. Agora preciso de TX
+dx
+igual a finha
+de u.
+Finha de U.
+Ora, e agora preciso de de U.
+U o U.
+Ora, o,
+portanto, se x é f de u, o é f - 1 de x.
+F - 1
+de x.
+OK. Pronto, a função inversa. Pronto,
+aqui temos nós a a correspondência.
+[roncando]
+Sim, senhor. Vamos então continuar aqui.
+Eh, vamos continuar aqui e vamos dizer
+assim: "Ok, se eu fizer esta
+substituição aqui neste neste integral,
+eu vou obter o integral. E agora tenho a
+f - 1 de x,
+tá aqui, tá aqui. É igual a u.
+Sim, senhora. E o dx é igual a f linha u
+du.
+OK, pronto, aqui já fizemos então a a
+primitivação por substituição.
+OK?
+Sim, senhora.
+Ora, e agora
+o que é que nós temos aqui?
+Nós agora temos um caso em que podemos
+aplicar a primitivação por partes.
+Podemos aplicar a primitivação por
+partes. Ou seja, tenho aqui
+são são um produto de dois termos, duas
+expressões.
+[roncando] O que é que me interessa?
+Interessa-me primitivar f lin vinha de u
+e eu e eu também sei derivar u. Pronto.
+Então, olhando aqui ao que nós fizemos
+aqui,
+aqui dissemos: "Bom, aquela função que
+eu vou primitivar, eu chamei f linha".
+Eh, OK. Vou usar aqui verde para não
+confundir esse F linha com este F f F
+linha aqui. OK? Não sei se me explico.
+E agora para usar aqui a mesma
+numaquatura.
+Eh, portanto,
+primitivação por partes. Ora, aquela que
+eu a quero der a que eu quero derivar,
+vou vou chamar G.
+Vou chamar aqui G. Pronto, vou fazer
+aqui uma bolinha para dizer que isto G e
+e aqui e aqui vou chamar aquela que eu
+quero primitivar, vou chamar F linha.
+Pronto, deixa pôr aqui uma bolinha para
+dizer que que que isto é um uma coisa
+simbólica. Não não tem nada a ver este F
+ser igual à aquele F. OK. Pronto, é só
+uma menemónica para para eu agora
+conseguir expandir aqui e pela regra da
+da
+primitivação por partes. OK? Então, o
+que é que isto dá? Primitivação por
+partes. Diz: "Ok, eu vou dar o o fes g.
+Portanto, o o f
+de u que é primitiva,
+portanto, tenho f linha, pois aqui é fez
+g.
+OK? Pronto. E agora fica menos
+a primitiva.
+E agora f que que é que me diz a regra
+do produto aqui da primitivação por
+partes. Ora, menos o a primitiva de
+tenho f, este mesmo f e g linha.
+Portanto, este este mesmo f de u
+e g linha, mas mas g linha é é é é é
+derivar u é igual a 1. Pronto, porque
+nós estamos a trabalhar agora na na
+neste espaço de variáveis de u.
+OK?
+Sim, senhora. E agora chegamos aqui, nós
+não não não resolvemos mais nada, não
+expandimos mais nada. O resultado fica
+assim. OK, este é o resultado. Pitivação
+por partes. Tá aqui. Tá aqui o
+resultado. E agora já podemos voltar
+para trás. Voltar para trás. Portanto,
+usando aqui estas estas fórmulas que
+temos aqui.
+OK. Agora, usando usando aqui este
+conhecimento aqui,
+podemos voltar para trás.
+Sim, senhora. Então, temos, por exemplo,
+olha, u é f - 1 de x.
+OK.
+U aqui onde está u
+é f - 1 de x. Agora já estamos a voltar
+para a variável x,
+OK?
+E por outro lado é f de u. Este f de uu
+que temos aqui é é igual a x.
+Ok? X. Vou pôr aqui x deste lado.
+Sim, senhora.
+Menos.
+E agora temos [roncando] a primitiva de
+f de f de u. A primitiva de f de u. A
+primitiva de fu, mas eu vou eu vou
+representar pelo f,
+não é? Porque se at f, então há de serir
+o o f o f grande de u.
+OK? Mais c. Pronto, vamos ignorar agora
+a constante mais c. Pronto. E fica
+assim. Pronto, a expressão fica assim
+porque depois terá que ser resolvido
+agora que depois caso a caso, consoante
+a a função específica com que estamos a
+trabalhar. OK?
+Pronto, pode parecer um bocado confuso,
+mas não é.
+Não é. E vamos ver agora no caso do
+logaritmo que é fica fica bem simples.
+OK? Pronto. Então vamos lá ver como é
+que aplicamos isto agora ao logaritmo.
+Ora bem, eu então eu quero
+a primitiva
+do logaritmo x, que eu não sei, eu não
+sei quanto é.
+Eu, por acaso, já sei que tá aqui porque
+porque fizemos a primitivação por
+partes, mas agora vamos fazer a
+primitivação pela técnica da função
+inversa.
+Pronto. E eu tenho aqui tenho tenho aqui
+o resultado. Tenho aqui o resultado que
+que é isto que eu vou aplicar. Agora só
+tenho que interpretar bem. Portanto,
+interpretando, diz-me que é x
+multiplica.
+Atenção,
+eh, esta, atenção que esta função, é
+esta função, logaritmo de x aqui, o que
+é que ela representa? De acordo com o
+que nós pusemos aqui, reparem aqui no
+original, foi tal, foi desta forma que
+nós definimos a forma. Nós dissemos que
+f - 1 de x é aquela aquela coisa que nós
+estamos a primitivar. Portanto, este
+logaritmo de x é o f - 1 de x. OK?
+Pronto. Ou seja,
+ah, aqui enganei-me. Enganei-me. Ora,
+aqui tínhamos, portanto, aqui ao
+primitivar u finha de de u aqui deu-me
+ora u f de u. E eu depois substituí
+onde aqui tinha, ora, portanto, u igual
+a f a f - 1 de x. E aqui, em vez de pôr
+f -1, pus f linha. Enganei-me aqui.
+Ora, deixa-me apagar aqui isto. OK.
+Portanto, aqui é, portanto, o U é o é o
+é o f - 1 de x. Sim, é que tá correto.
+OK. Aqui, desculpem lá. Sim, senhora.
+Pronto, esta que é a expressão. E,
+portanto, agora aplicado no logaritmo,
+temos que isto é igual a x e depois a f
+- 1 de x, que é o que está aqui dentro.
+De acordo com a expressão, o f - 1 de x
+é o que nós queremos primitivar, é a
+função inversa de uma outra que nós
+conhecemos. Portanto, aqui é o logaritmo
+logaritmo de x,
+que é o que tá ali dentro,
+logaritmo de x. OK? Portanto, isto e o
+aqui pomos o que está aqui no o que está
+aqui no integral,
+multiplicando por x. E agora pomos E
+agora pomos
+menos menos o quê? A primitiva da função
+inversa,
+OK?
+f maiúsculo. Portanto, se eu tenho aqui
+uma determinada função que é o que eu
+chamei-lhe f -1,
+cuja sua inversa é o f,
+que neste caso é exponencial,
+e agora o f maiúsculo, que é a primitiva
+de dessa função inversa é a primitiva da
+função inversa do logaritmo. Portanto, a
+função inversa do logaritmo é
+exponencial, cuja primitiva é igual a
+ela própria à exponencial. E, portanto,
+fica a exponencial,
+mas deu
+que ainda estamos a trabalhar aqui que a
+forma ficou assim, du. Pronto. E por
+isso é que eu disse que aqui não podemos
+simplificar mais.
+Eu aqui quando obtive este festa
+primitiva f de u, eu não posso
+simplificar mais porque depois isto
+depende
+bom. podia pôr podia pôr ali o
+eh eh mas pronto, normalmente é o é o
+que se é nomenclatura que é usada da
+convenção, é é deixar neste formato,
+segundo eu na altura tive a estudar este
+tema. Pronto. Então agora é eu,
+portanto, já escrevi que é igual a u e
+agora então finalmente posso substituir
+o u aqui
+onde diz que u
+é o o f - 1 de x, mas o meu f -1 é o
+logaritmo.
+Portanto, isto fica x
+logaritmo de x
+- e elevado a é o o logaritmo de x que é
+o u.
+Portanto, aqui diz seja seja seja u
+igual a à à função à tal função f -1 que
+é a função original que tá dentro do do
+integral. Neste caso, o f -1, que é este
+meu algaritmo. Pronto, fica isto. E
+agora, bom, então agora sabemos que
+exponencial e o logaritmo são funções
+inversas uma da outra. A nula-se e
+depois fica x.
+Pronto. E então aqui já temos x
+logaritmo de x
+menos
+x.
+E pronto, então obtivemos x
+logaritmo de x - 1.
+E pronto. E como seria de esperar,
+obtivemos o mesmo valor. É um bocado
+mais trabalhoso esta técnica, obviamente
+que podendo primitivar por partes, vimos
+aqui que é mais simples primitivar por
+partes, mas pronto, eu achei por bem
+apresentar aqui este tema porque este
+tema depois é usado noutras áreas da
+matemática. Eu tive até a ver aqui nos
+meus apontamentos, por exemplo, a função
+a função lbert, uma função famosa,
+importante, talvez, talvez em
+futuramente eu faço um tutorial sobre
+esse tema, a importância da função
+lbert,
+a função W, lambert W.
+Eh, e aí usa-se para calcular derivadas
+integrais da função Lambert. Mas pronto,
+esse é um tópico avançado, ficará,
+mas é uma área onde eu eu vi que se
+aplicava esta técnica. Para calcular a a
+derivada da função lambert, o utiliza-se
+a técnica da a primitiva, digo, para
+calcular a primitiva
+da função lambert, usa-se a técnica da
+primitivação da função inversa.
+Eh, mas pronto, ficamos por ficamos por
+aqui. Hoje fica um tutorial mais curto
+com este tema bem específico. Eh, é
+bastante interessante, bastante
+interessante. É sempre interessante ver
+como é que na matemática eh, às vezes
+por técnicas completamente dispares e se
+chegam aos mesmos resultados, como é
+expectável.
+E pronto, e de facto, eh, pois chegamos
+ao mesmo resultado, como era expectável.
+E é por isso aí a força da matemática.
+Eh, e pronto, ficamos por aqui. Espero
+que tenham gostado e até uma próxima
+oportunidade.
+

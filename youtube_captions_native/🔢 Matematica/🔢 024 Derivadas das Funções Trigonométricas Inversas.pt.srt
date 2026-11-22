@@ -1,0 +1,1258 @@
+0:00:02.560,0:00:05.879
+Ora, sejam bem-vindos a mais um
+
+0:00:03.919,0:00:09.360
+tutorial.
+
+0:00:05.879,0:00:11.280
+Hoje vamos ver deduzir as as formas para
+
+0:00:09.360,0:00:15.040
+as derivadas das funções trigonométricas
+
+0:00:11.280,0:00:16.640
+inversas, OK?
+
+0:00:15.040,0:00:18.080
+As funções trigonométricas circulares,
+
+0:00:16.640,0:00:20.600
+obviamente, que é o que temos estado a
+
+0:00:18.080,0:00:23.760
+tratar.
+
+0:00:20.600,0:00:27.320
+temos, vamos usar
+
+0:00:23.760,0:00:29.640
+efetivamente a regra, uma regra genérica
+
+0:00:27.320,0:00:31.720
+das derivadas,
+
+0:00:29.640,0:00:34.200
+que já vimos numa tutorial sobre regras
+
+0:00:31.720,0:00:37.000
+de derivação.
+
+0:00:34.200,0:00:39.200
+Eh, efetivamente vimos uma regra, a
+
+0:00:37.000,0:00:41.960
+regra da da
+
+0:00:39.200,0:00:45.000
+função inversa, OK?
+
+0:00:41.960,0:00:49.000
+Portanto, nós vimos que e se eu tenho
+
+0:00:45.000,0:00:52.680
+uma a função y
+
+0:00:49.000,0:00:52.680
+y = f(x)
+
+0:00:52.960,0:00:58.920
+e vimos que a derivada d f d y dx,
+
+0:00:59.760,0:01:04.479
+OK?
+
+0:01:01.480,0:01:07.880
+E portanto a derivada
+
+0:01:04.479,0:01:09.920
+da função inversa não era mais do que dx
+
+0:01:07.880,0:01:12.080
+d y,
+
+0:01:09.920,0:01:14.520
+OK?
+
+0:01:12.080,0:01:18.040
+Sim, senhor.
+
+0:01:14.520,0:01:21.320
+Eh, falamos na altura de de do que
+
+0:01:18.040,0:01:23.159
+significava uma função inversa, como uma
+
+0:01:21.320,0:01:24.840
+função e sua inversa eram simétricas,
+
+0:01:23.159,0:01:29.079
+tinham uma simetria em relação ao eixo
+
+0:01:24.840,0:01:30.920
+dos y igual da reta y = x. OK? Pronto.
+
+0:01:29.079,0:01:32.920
+Eh, [roncando] revejam esses temas se
+
+0:01:30.920,0:01:35.600
+for necessário.
+
+0:01:32.920,0:01:38.520
+Vamos começar então.
+
+0:01:35.600,0:01:40.880
+Portanto, eh, a primeira função
+
+0:01:38.520,0:01:42.720
+trigonométrica inversa que nós queremos
+
+0:01:40.880,0:01:46.320
+determinar a derivada, pois será o arco
+
+0:01:42.720,0:01:50.759
+seno, não é? Arcosseno de x. Sim,
+
+0:01:46.320,0:01:54.600
+senhor. Para isso, vamos começar pela
+
+0:01:50.759,0:01:56.719
+derivada do seno. OK?
+
+0:01:54.600,0:02:00.360
+Sabemos que o arco seno é a função
+
+0:01:56.719,0:02:01.840
+inversa do seno. OK? Sim, senhora. Então
+
+0:02:00.360,0:02:05.000
+vamos começar com o seno. Vamos
+
+0:02:01.840,0:02:08.960
+considerar y
+
+0:02:05.000,0:02:08.960
+igual a seno de x.
+
+0:02:09.319,0:02:19.519
+Daqui partimos para d y dx
+
+0:02:15.080,0:02:21.120
+é a derivada do seno cosseno de x.
+
+0:02:19.519,0:02:26.440
+Sim, senhora.
+
+0:02:21.120,0:02:30.000
+a que será igual a derivada do arco
+
+0:02:26.440,0:02:32.920
+arseno de x.
+
+0:02:30.000,0:02:36.400
+OK? Eu vou representar a derivada do
+
+0:02:32.920,0:02:36.400
+arco seno
+
+0:02:36.440,0:02:43.360
+de x
+
+0:02:38.680,0:02:46.480
+será igual a dx dy.
+
+0:02:43.360,0:02:48.800
+dx dy
+
+0:02:46.480,0:02:51.480
+= 1 sobre
+
+0:02:48.800,0:02:53.879
+o cosseno de x.
+
+0:02:51.480,0:02:56.159
+OK?
+
+0:02:53.879,0:02:59.760
+Sim, senhora. Tal como vos expliquei
+
+0:02:56.159,0:03:02.040
+isto na na nas regras, quando vimos as
+
+0:02:59.760,0:03:05.440
+regras de derivação. Portanto, esta é a
+
+0:03:02.040,0:03:07.280
+técnica que eu uso. Agora, a seguir, o
+
+0:03:05.440,0:03:09.319
+que é que eu faço? Faço a mudança de
+
+0:03:07.280,0:03:11.680
+variáveis,
+
+0:03:09.319,0:03:14.840
+porque as as variáveis, portanto, são d
+
+0:03:11.680,0:03:16.799
+variables, OK? Não significam nada. É X,
+
+0:03:14.840,0:03:19.159
+Y, como pode ser A, B, como pode ser
+
+0:03:16.799,0:03:21.799
+qualquer coisa. São símbolos. Pronto. E
+
+0:03:19.159,0:03:24.280
+eu faço a mudança que me que me ajuda a
+
+0:03:21.799,0:03:27.400
+concentrar
+
+0:03:24.280,0:03:30.400
+de forma que agora troco e digo: "OK,
+
+0:03:27.400,0:03:30.400
+dx,
+
+0:03:30.599,0:03:37.000
+onde está x, ponho y, onde está y ponho
+
+0:03:32.599,0:03:40.920
+x." Portanto, é igual ao inverso
+
+0:03:37.000,0:03:45.200
+do cosseno de y. OK? Pronto. Então agora
+
+0:03:40.920,0:03:46.840
+já posso afirmar que a derivada do arco
+
+0:03:45.200,0:03:49.680
+seno
+
+0:03:46.840,0:03:52.560
+de x
+
+0:03:49.680,0:03:55.760
+já sei quanto é. É o inverso do cosseno
+
+0:03:52.560,0:03:55.760
+de y,
+
+0:03:56.040,0:04:03.319
+só que tá expresso em y e eu não quero.
+
+0:03:59.680,0:04:06.000
+Eu quero expresso em x. OK? Eu quero
+
+0:04:03.319,0:04:07.840
+expresso em x.
+
+0:04:06.000,0:04:09.439
+OK?
+
+0:04:07.840,0:04:12.159
+Para isso, temos que nos concentrar e
+
+0:04:09.439,0:04:15.760
+perguntar o que é o y.
+
+0:04:12.159,0:04:18.040
+OK? O y neste momento é a função que eu
+
+0:04:15.760,0:04:22.680
+estou aqui a derivar,
+
+0:04:18.040,0:04:22.680
+OK? Portanto, ou seja, y
+
+0:04:22.919,0:04:32.520
+é a função arco cujo seno é x.
+
+0:04:29.240,0:04:35.120
+OK? é um dado arco e eu quero o cosseno
+
+0:04:32.520,0:04:40.720
+desse arco.
+
+0:04:35.120,0:04:43.199
+Vimos eh já no membrinco tutorial onde
+
+0:04:40.720,0:04:46.080
+eu
+
+0:04:43.199,0:04:49.080
+abordei, dei uma primeira introdução de
+
+0:04:46.080,0:04:51.680
+da da da técnica que iríamos usar, que é
+
+0:04:49.080,0:04:54.000
+desenhar um triângulo retângulo para
+
+0:04:51.680,0:04:56.639
+estes casos.
+
+0:04:54.000,0:05:01.080
+Portanto, no triângulo retângulo
+
+0:04:56.639,0:05:02.759
+tradicional, costumo pôr 1 cosseno seno.
+
+0:05:01.080,0:05:04.880
+OK?
+
+0:05:02.759,0:05:07.880
+quando aqui tenho um determinado ângulo,
+
+0:05:04.880,0:05:10.160
+mas depois expliquei que eu podia
+
+0:05:07.880,0:05:12.280
+explicitar
+
+0:05:10.160,0:05:14.840
+aqui o que eu quisesse
+
+0:05:12.280,0:05:17.600
+ou representar, por exemplo, o lado que
+
+0:05:14.840,0:05:21.919
+eu quisesse com o valor que eu quisesse,
+
+0:05:17.600,0:05:25.639
+não sei se me explico. E os outros vão
+
+0:05:21.919,0:05:27.560
+vão vão vão vão
+
+0:05:25.639,0:05:29.479
+vão resultar daí. Vamos ver aqui o
+
+0:05:27.560,0:05:31.440
+exemplo como é que fica. Ora bem,
+
+0:05:29.479,0:05:35.280
+portanto, o que é que eu tenho aqui?
+
+0:05:31.440,0:05:37.639
+Y é a função, é o arco
+
+0:05:35.280,0:05:41.840
+cujo seno é X. Portanto, o o que é um
+
+0:05:37.639,0:05:43.560
+arco? Portanto, um arco é um ângulo. OK?
+
+0:05:41.840,0:05:48.319
+Sim, senhora. Portanto, eu tenho aqui o
+
+0:05:43.560,0:05:50.639
+o o arco que que é este Y, que é um é
+
+0:05:48.319,0:05:52.639
+isto. Isto é um ângulo que eu tenho
+
+0:05:50.639,0:05:57.400
+aqui. Estou aqui a dizer que Y é o arco
+
+0:05:52.639,0:05:57.400
+seno de X. Ora,
+
+0:05:58.759,0:06:04.479
+qual é o seno deste ângulo?
+
+0:06:00.880,0:06:07.319
+é x porque é o mesmo que está aqui esta
+
+0:06:04.479,0:06:08.880
+função tá a dizer este arco tá a dizer
+
+0:06:07.319,0:06:11.759
+este arco tá a dizer que o seno deste
+
+0:06:08.880,0:06:13.880
+arco é x portanto então se eu tenho aqui
+
+0:06:11.759,0:06:16.400
+o arco,
+
+0:06:13.880,0:06:19.560
+portanto o seno
+
+0:06:16.400,0:06:21.400
+é o cateto oposto sobre a hipotenusa.
+
+0:06:19.560,0:06:24.400
+Portanto, então significa que eu posso
+
+0:06:21.400,0:06:25.680
+pôr aqui x
+
+0:06:24.400,0:06:28.120
+e sobre a hipotenusa. E aqui para a
+
+0:06:25.680,0:06:30.280
+hipotenusa vou escolher 1. Pronto.
+
+0:06:28.120,0:06:32.720
+Porque assim x sobre 1 é x. E, portanto,
+
+0:06:30.280,0:06:37.280
+não há dúvida nenhuma que este arco Y, o
+
+0:06:32.720,0:06:41.800
+Y é o arco cujo o seno é X. E tá
+
+0:06:37.280,0:06:45.840
+correto? Sim, senhor. Y é um arco. E
+
+0:06:41.800,0:06:47.880
+aqui tenho uma expressão na derivada
+
+0:06:45.840,0:06:51.400
+que não me pede o seno de x, porque se
+
+0:06:47.880,0:06:53.479
+me não me pede o seno de desse ângulo,
+
+0:06:51.400,0:06:55.599
+caso contrário, o seno seria o x. Ele
+
+0:06:53.479,0:06:59.680
+pede-me o cosseno desse ângulo, desse
+
+0:06:55.599,0:07:01.599
+arco, o cosseno do y. Eu tenho aqui o y.
+
+0:06:59.680,0:07:05.199
+Então, qual é o cosseno? É o cateto
+
+0:07:01.599,0:07:10.120
+adjacente. Pelo teorema de Pitágoras,
+
+0:07:05.199,0:07:12.960
+temos que este lado tem que medir
+
+0:07:10.120,0:07:16.160
+hipótus ao quadrado 1 ao quadrado menos
+
+0:07:12.960,0:07:18.360
+o cateto oposto - x².
+
+0:07:16.160,0:07:20.000
+Ok? Pronto. Então aqui já tenho pelo
+
+0:07:18.360,0:07:24.120
+teorema de Pitágoras eu construí os três
+
+0:07:20.000,0:07:28.160
+lados correspondentes a um arco
+
+0:07:24.120,0:07:32.960
+cujo seno é x que tá correto?
+
+0:07:28.160,0:07:32.960
+E agora pergunto qual é o cosseno de y
+
+0:07:33.120,0:07:38.800
+para substituir naquela expressão?
+
+0:07:35.080,0:07:42.160
+Então, o cosseno d y
+
+0:07:38.800,0:07:46.400
+sendo y este arco aqui,
+
+0:07:42.160,0:07:46.400
+portanto, é o cateto adjacente
+
+0:07:48.280,0:07:56.039
+1 -
+
+0:07:50.120,0:07:57.840
+x² sobre a hipotenusa 1. OK? E aqui é
+
+0:07:56.039,0:08:00.599
+aqui a derivada
+
+0:07:57.840,0:08:02.080
+do ar cosseno de ximos é 1 sobre o
+
+0:08:00.599,0:08:04.319
+cosseno de y, mas eu tenho aqui o
+
+0:08:02.080,0:08:06.440
+cosseno de y, portanto é o inverso.
+
+0:08:04.319,0:08:09.120
+Pronto, e já tenho tudo. Portanto, a
+
+0:08:06.440,0:08:12.520
+derivada do arco
+
+0:08:09.120,0:08:16.199
+seno de x,
+
+0:08:12.520,0:08:18.800
+OK? A derivada do arco seno de x, que é
+
+0:08:16.199,0:08:21.759
+a função inversa do seno,
+
+0:08:18.800,0:08:26.639
+é igual a 1 sobre cosseno de y. Ou seja,
+
+0:08:21.759,0:08:29.159
+o inverso disto é 1 sobre
+
+0:08:26.639,0:08:32.000
+a raiz
+
+0:08:29.159,0:08:33.880
+de 1 -
+
+0:08:32.000,0:08:36.760
+x².
+
+0:08:33.880,0:08:39.360
+OK? Simples assim.
+
+0:08:36.760,0:08:41.479
+Sim, senhora. Vou só fazer mais uma e
+
+0:08:39.360,0:08:44.399
+depois não faço mais. As outras ficarão
+
+0:08:41.479,0:08:48.000
+para para vocês como exercício. Vou
+
+0:08:44.399,0:08:49.200
+fazer a derivada do arco tangente.
+
+0:08:48.000,0:08:51.839
+OK?
+
+0:08:49.200,0:08:54.959
+Pronto, vamos repetir.
+
+0:08:51.839,0:08:57.080
+Começamos com a função y
+
+0:08:54.959,0:09:00.320
+igual à tangente de x, que é o que eu
+
+0:08:57.080,0:09:05.519
+sei e o que eu já sei derivar.
+
+0:09:00.320,0:09:05.519
+OK? Isto é o que eu já sei derivar.
+
+0:09:05.720,0:09:12.040
+Eh,
+
+0:09:08.480,0:09:12.040
+dy dx
+
+0:09:12.320,0:09:18.240
+dy dx é igual à derivada da tangente.
+
+0:09:18.399,0:09:22.800
+Derivada da tangente, o inverso
+
+0:09:23.600,0:09:30.360
+do cosseno quadrado
+
+0:09:27.399,0:09:32.200
+de x. Pronto, esta é a derivada da
+
+0:09:30.360,0:09:35.399
+tangente.
+
+0:09:32.200,0:09:35.399
+Sim, senhora.
+
+0:09:35.680,0:09:40.800
+Então, a derivada
+
+0:09:37.920,0:09:44.240
+da função inversa
+
+0:09:40.800,0:09:44.240
+dx dy
+
+0:09:44.760,0:09:50.360
+igual a cosseno quadrado
+
+0:09:48.200,0:09:53.240
+de x
+
+0:09:50.360,0:09:55.000
+derivada da função inversa. troco x pelo
+
+0:09:53.240,0:09:59.120
+y
+
+0:09:55.000,0:09:59.120
+e ponho dx
+
+0:10:01.560,0:10:08.399
+é igual ao inverso. Ah, desculpem.
+
+0:10:05.720,0:10:12.800
+Portanto, troco,
+
+0:10:08.399,0:10:16.240
+portanto, dx é igual ao ao cosseno
+
+0:10:12.800,0:10:18.920
+quadrado de y.
+
+0:10:16.240,0:10:22.760
+O que é o y neste momento?
+
+0:10:18.920,0:10:24.720
+O y é o arcotangente
+
+0:10:22.760,0:10:26.320
+neste momento.
+
+0:10:24.720,0:10:30.640
+OK?
+
+0:10:26.320,0:10:33.920
+Tenho d y dx e agora tenho dx dy. É a
+
+0:10:30.640,0:10:37.040
+derivada da função inversa. Este dx dy é
+
+0:10:33.920,0:10:40.320
+a derivada da da do arco tangente, mas
+
+0:10:37.040,0:10:43.720
+troco o y por por x para porque é é é o
+
+0:10:40.320,0:10:46.079
+é o é a minha técnica para para não
+
+0:10:43.720,0:10:48.800
+baralhar. Pronto. Então digo, OK. Então
+
+0:10:46.079,0:10:52.079
+digo que a derivada
+
+0:10:48.800,0:10:55.279
+do arco tangente
+
+0:10:52.079,0:10:57.720
+de x,
+
+0:10:55.279,0:11:01.079
+que é este meu d y dx é igual a coseno
+
+0:10:57.720,0:11:03.880
+quadrado de y.
+
+0:11:01.079,0:11:06.279
+OK? Sim, senhora. Já tenho aqui, mas
+
+0:11:03.880,0:11:09.000
+está expresso em y. Eu não quero, eu
+
+0:11:06.279,0:11:11.040
+quero expresso em x.
+
+0:11:09.000,0:11:14.440
+Ora bem, como é que vamos fazer? A mesma
+
+0:11:11.040,0:11:18.320
+coisa. Vou fazer um triângulo.
+
+0:11:14.440,0:11:18.320
+Vou fazer um triângulo retângulo.
+
+0:11:20.160,0:11:23.160
+OK?
+
+0:11:21.839,0:11:26.639
+E [roncando] vou dizer assim: "Bom, o
+
+0:11:23.160,0:11:26.639
+que é o y?"
+
+0:11:26.839,0:11:33.120
+O o é a minha função.
+
+0:11:31.480,0:11:35.240
+Y
+
+0:11:33.120,0:11:38.639
+é um arco, tal como no problema
+
+0:11:35.240,0:11:41.959
+anterior, é um determinado arco.
+
+0:11:38.639,0:11:43.680
+Arco cuja tangente é x. Portanto, o Y é
+
+0:11:41.959,0:11:48.639
+um arco,
+
+0:11:43.680,0:11:50.519
+OK? E o arco está aqui.
+
+0:11:48.639,0:11:51.639
+O arco está aqui. O arco está sempre
+
+0:11:50.519,0:11:53.480
+aqui, porque este é o triângulo
+
+0:11:51.639,0:11:55.519
+retângulo. Podia estar aqui ao que vá,
+
+0:11:53.480,0:11:58.800
+não vai estar aqui. Aqui é 90º, não faz
+
+0:11:55.519,0:12:03.040
+sentido. Ok? Pronto. Portanto, o arco
+
+0:11:58.800,0:12:07.760
+está aqui. Este arco é o Y.
+
+0:12:03.040,0:12:10.399
+OK? Qual a tangente deste arco? É o arco
+
+0:12:07.760,0:12:13.920
+cuja tangente é X.
+
+0:12:10.399,0:12:17.360
+X e aqui é 1. Pronto. É necessário para
+
+0:12:13.920,0:12:21.079
+que a tangente a tangente de x seja seja
+
+0:12:17.360,0:12:25.399
+a tangente de Y seja X. O arco cuja
+
+0:12:21.079,0:12:27.880
+tangente é X. X sobre 1 X. Tá correto?
+
+0:12:25.399,0:12:29.240
+Pronto. E agora a partir daqui eu vou
+
+0:12:27.880,0:12:31.240
+extrair as outras relações
+
+0:12:29.240,0:12:33.519
+trigonométricas como como sendo o
+
+0:12:31.240,0:12:37.199
+cosseno de y, que é o que eu quero. Pelo
+
+0:12:33.519,0:12:38.800
+te de Pitágoras. Eu tenho aqui
+
+0:12:37.199,0:12:40.959
+a raiz quadrada da soma dos quadrados
+
+0:12:38.800,0:12:43.120
+dos catetos
+
+0:12:40.959,0:12:45.480
++ x².
+
+0:12:43.120,0:12:48.560
+Pronto. OK? Portanto, não há dúvida
+
+0:12:45.480,0:12:51.160
+nenhuma que o cosseno de y, o cosseno
+
+0:12:48.560,0:12:53.320
+deste arco
+
+0:12:51.160,0:12:57.480
+é igual a cateto
+
+0:12:53.320,0:12:57.480
+adjacente 1 sobre
+
+0:12:58.000,0:13:03.800
+a raiz quadrada
+
+0:13:00.199,0:13:03.800
+de 1 + x².
+
+0:13:04.240,0:13:08.920
+Então já tenho o que eu quero, porque a
+
+0:13:06.240,0:13:10.480
+derivada do arco tangente é o cosseno
+
+0:13:08.920,0:13:13.160
+quadrado de y. Tenho aqui o cosseno de
+
+0:13:10.480,0:13:16.320
+y, portanto, é o quadrado deste. Pronto.
+
+0:13:13.160,0:13:18.360
+Finalmente, a derivada
+
+0:13:16.320,0:13:21.160
+do arco tangente
+
+0:13:18.360,0:13:25.600
+de x
+
+0:13:21.160,0:13:28.639
+é igual a 1 sobre
+
+0:13:25.600,0:13:31.279
+1 + x².
+
+0:13:28.639,0:13:34.160
+OK? Pronto.
+
+0:13:31.279,0:13:37.040
+Eh, deixo para vocês
+
+0:13:34.160,0:13:39.399
+as outras, as outras derivadas do arco
+
+0:13:37.040,0:13:42.720
+cosseno, do arco cotangente e se
+
+0:13:39.399,0:13:44.920
+quiserem também das outras arco coscanta
+
+0:13:42.720,0:13:47.920
+e e arco secante.
+
+0:13:44.920,0:13:47.920
+OK?
+
+0:13:48.199,0:13:54.680
+Ora, aqui estamos de volta ao geogebra
+
+0:13:51.199,0:13:59.360
+e tracei aqui, portanto, o seno de x e o
+
+0:13:54.680,0:14:02.199
+arco seno de x. Vemos que o seno de x
+
+0:13:59.360,0:14:05.279
+está definido em todo o r, mas tem o
+
+0:14:02.199,0:14:08.000
+contradomínio de -1 a 1. Portanto, o
+
+0:14:05.279,0:14:11.000
+contradomínio
+
+0:14:08.000,0:14:13.360
+do do seno vai ser o domínio da sua
+
+0:14:11.000,0:14:16.839
+função inversa.
+
+0:14:13.360,0:14:20.040
+Portanto, OK? Portanto,
+
+0:14:16.839,0:14:22.040
+o domínio do arco seno,
+
+0:14:20.040,0:14:25.240
+como estamos aqui a ver, é de -1 a 1. E,
+
+0:14:22.040,0:14:27.079
+portanto, o Geogebra sabe bem disso.
+
+0:14:25.240,0:14:30.560
+E
+
+0:14:27.079,0:14:33.600
+como vos tinha dito, existe uma simetria
+
+0:14:30.560,0:14:37.800
+que podemos ver vê-la aqui.
+
+0:14:33.600,0:14:37.800
+Vou traçar aqui um um segmento.
+
+0:14:38.199,0:14:44.279
+Ora,
+
+0:14:40.279,0:14:46.759
+vou traçar aqui um segmento.
+
+0:14:44.279,0:14:51.360
+Onde é que isto está?
+
+0:14:46.759,0:14:51.360
+Ora, um segmento.
+
+0:14:53.759,0:14:58.560
+OK? E, portanto, o que eu tinha dito que
+
+0:14:56.759,0:15:01.560
+era
+
+0:14:58.560,0:15:01.560
+entre
+
+0:15:02.639,0:15:06.160
+havia uma simetria,
+
+0:15:07.680,0:15:13.920
+OK? que havia uma simetria.
+
+0:15:10.920,0:15:13.920
+Oi,
+
+0:15:15.800,0:15:19.279
+on é que é isto?
+
+0:15:24.040,0:15:27.040
+Ora,
+
+0:15:34.240,0:15:37.240
+ok.
+
+0:15:44.639,0:15:52.880
+OK? Portanto, havia uma simetria, como
+
+0:15:47.160,0:15:55.240
+eu disse, na função e sua função inversa
+
+0:15:52.880,0:15:58.480
+entre,
+
+0:15:55.240,0:16:02.880
+OK? Em duas dimensões
+
+0:15:58.480,0:16:05.360
+em relação à reta y = x. Cá está. Cá
+
+0:16:02.880,0:16:07.759
+está. Como as curvas são iguais.
+
+0:16:05.360,0:16:07.759
+OK?
+
+0:16:07.920,0:16:14.440
+Sim, senhora. Pronto. Daí que
+
+0:16:12.519,0:16:17.199
+temos aqui a tabela das derivadas e
+
+0:16:14.440,0:16:19.240
+realmente tem os seus domínios,
+
+0:16:17.199,0:16:23.040
+OK?
+
+0:16:19.240,0:16:26.440
+que são os domínios da da da os domínios
+
+0:16:23.040,0:16:30.279
+é o domínio, portanto, do arco seno, do
+
+0:16:26.440,0:16:32.079
+domínio do arco seno. Se é entre -1 e 1,
+
+0:16:30.279,0:16:37.319
+portanto a derivada tá definida também
+
+0:16:32.079,0:16:37.319
+entre nesse nesse domínio, entre -1 e 1.
+
+0:16:37.360,0:16:40.360
+OK?
+
+0:16:41.040,0:16:47.959
+Ora, aqui temos uma outra tabela.
+
+0:16:45.560,0:16:50.399
+Sim, senhor. Das derivadas das, cá está
+
+0:16:47.959,0:16:53.519
+das funções inversas, mas agora em vez
+
+0:16:50.399,0:16:58.040
+de ser x, aparece muito
+
+0:16:53.519,0:16:59.519
+e a derivada dessas funções, mas são são
+
+0:16:58.040,0:17:02.759
+expressões que aparecem muito
+
+0:16:59.519,0:17:05.480
+efetivamente no quando quando começamos
+
+0:17:02.759,0:17:07.720
+a trabalhar com integração. São
+
+0:17:05.480,0:17:09.720
+expressões muito comuns que aparecem,
+
+0:17:07.720,0:17:14.240
+OK?
+
+0:17:09.720,0:17:16.439
+eh radicais aqui
+
+0:17:14.240,0:17:19.120
+e frações que acontece muito. Ora, vamos
+
+0:17:16.439,0:17:20.559
+só demonstrar aqui uma delas.
+
+0:17:19.120,0:17:23.880
+Vamos demonstrar, pode ser aqui a
+
+0:17:20.559,0:17:26.280
+primeira, a derivada do arco centr a.
+
+0:17:23.880,0:17:28.079
+OK? Pronto. Portanto,
+
+0:17:26.280,0:17:29.679
+é uma derivação de uma de uma função
+
+0:17:28.079,0:17:33.280
+composta, como já estamos cansados de
+
+0:17:29.679,0:17:37.440
+ver. Portanto, eu tenho uma função, eu
+
+0:17:33.280,0:17:39.840
+vou chamar as arcos.
+
+0:17:37.440,0:17:43.520
+e é uma
+
+0:17:39.840,0:17:48.720
+de em vez de ser de x é x sobre a.
+
+0:17:43.520,0:17:50.760
+OK? Sim senhor. Portanto, derivar
+
+0:17:48.720,0:17:55.000
+é a regra normal da função composta. Eu
+
+0:17:50.760,0:17:56.840
+derivo como se fosse arseno de x normal,
+
+0:17:55.000,0:17:59.360
+sendo que isto que está aqui dentro é
+
+0:17:56.840,0:18:01.840
+tudo isto é um x
+
+0:17:59.360,0:18:03.880
+ou um u com qualquer outra variável.
+
+0:18:01.840,0:18:05.760
+Portanto, então fica derivada do arco
+
+0:18:03.880,0:18:08.559
+seno. Aqui da tabela podemos ver que é o
+
+0:18:05.760,0:18:12.000
+inverso de
+
+0:18:08.559,0:18:12.000
+uma raiz quadrada.
+
+0:18:12.360,0:18:17.440
+Portanto, o t1 menos
+
+0:18:14.880,0:18:22.120
+este argumento ao quadrado.
+
+0:18:17.440,0:18:26.000
+É o x sobre a ao quadrado. Sim, senhora.
+
+0:18:22.120,0:18:28.799
+E agora tenho que multiplicar por
+
+0:18:26.000,0:18:30.559
+Ora, tenho que multiplicar pela pela
+
+0:18:28.799,0:18:34.320
+derivada
+
+0:18:30.559,0:18:37.960
+de u até aqui desta função composta.
+
+0:18:34.320,0:18:41.159
+Ora aqui é 1 sobre a derivada de x sobre
+
+0:18:37.960,0:18:42.840
+a pois é 1 sobre a
+
+0:18:41.159,0:18:45.440
+sim senhora.
+
+0:18:42.840,0:18:47.559
+E, portanto, fica
+
+0:18:45.440,0:18:53.080
+eh,
+
+0:18:47.559,0:18:55.720
+ora, aqui fica a a² - x².
+
+0:18:53.080,0:18:59.200
+OK?
+
+0:18:55.720,0:18:59.200
+Vamos pôr aqui
+
+0:18:59.880,0:19:02.880
+a².
+
+0:19:04.400,0:19:12.960
+Ora, a² - x² tudo sobre a².
+
+0:19:10.840,0:19:15.440
+E este tudo sobre a quadrado passa para
+
+0:19:12.960,0:19:18.360
+fora é 1 sobre a.
+
+0:19:15.440,0:19:21.960
+OK? Pronto.
+
+0:19:18.360,0:19:24.080
+1 sobre a e vai cortar com este um sobr
+
+0:19:21.960,0:19:26.440
+aqui de cima.
+
+0:19:24.080,0:19:29.960
+OK? Aqui tem um um sobr que está a
+
+0:19:26.440,0:19:29.960
+multiplicar aqui.
+
+0:19:34.080,0:19:38.799
+OK?
+
+0:19:35.640,0:19:40.919
+Sim, senhora.
+
+0:19:38.799,0:19:43.039
+Ora,
+
+0:19:40.919,0:19:44.960
+portanto, não confundirem isto aqui está
+
+0:19:43.039,0:19:46.280
+no numerador. Isto aqui é uma quantidade
+
+0:19:44.960,0:19:49.039
+como se tivesse aqui em cima no
+
+0:19:46.280,0:19:51.080
+numerador.
+
+0:19:49.039,0:19:53.320
+OK? Pronto. Por isso é que eu puxei aqui
+
+0:19:51.080,0:19:54.760
+para cima do numerador, porque isto é um
+
+0:19:53.320,0:19:57.559
+número, é uma coisa que está a
+
+0:19:54.760,0:20:00.080
+multiplicar aqui no numerador. E quanto
+
+0:19:57.559,0:20:02.400
+aqui quando eu puxo este um sobrá aqui
+
+0:20:00.080,0:20:04.720
+para fora, isto é uma coisa que está no
+
+0:20:02.400,0:20:07.360
+denominador, que é um sobrá, e,
+
+0:20:04.720,0:20:12.919
+portanto, são iguais e corta. Corta.
+
+0:20:07.360,0:20:12.919
+Pronto, efetivamente fica 1 sobre
+
+0:20:13.640,0:20:18.760
+a raiz
+
+0:20:15.360,0:20:21.280
+de a² - x²,
+
+0:20:18.760,0:20:22.679
+ok? Que é o que está aqui na tabela.
+
+0:20:21.280,0:20:24.240
+Sim, senhor. Deixo para vocês como
+
+0:20:22.679,0:20:26.200
+exercício
+
+0:20:24.240,0:20:28.240
+a derivada das outras funções
+
+0:20:26.200,0:20:30.320
+trigonométricas inversas com quando
+
+0:20:28.240,0:20:36.679
+quando tem realmente estas relações aqui
+
+0:20:30.320,0:20:36.679
+em vez de x sendo x sobre a. Ok?
+
+0:20:37.559,0:20:41.280
+Ora, vamos ficar por aqui. Hoje estava a
+
+0:20:40.080,0:20:43.120
+pensar se fazíamos aqui alguns
+
+0:20:41.280,0:20:45.600
+exercícios, mas mas não, agora não vamos
+
+0:20:43.120,0:20:49.360
+fazer mais exercícios.
+
+0:20:45.600,0:20:52.280
+Eh, e pronto, terminamos parte aqui da
+
+0:20:49.360,0:20:54.679
+da trigonometria e das suas derivadas.
+
+0:20:52.280,0:20:57.320
+Falta deduzir as derivadas da função
+
+0:20:54.679,0:20:59.720
+exponencial e do logaritmo.
+
+0:20:57.320,0:21:01.679
+OK?
+
+0:20:59.720,0:21:05.440
+Depois deveremos passar à função doiler
+
+0:21:01.679,0:21:07.520
+e derivada e e deduzir a fórmula de uma
+
+0:21:05.440,0:21:09.960
+fórmula também
+
+0:21:07.520,0:21:13.440
+de mais alta importância.
+
+0:21:09.960,0:21:17.000
+Mas por hoje é tudo. Obrigado e até à
+
+0:21:13.440,0:21:17.000
+próxima. Amen.
+
+

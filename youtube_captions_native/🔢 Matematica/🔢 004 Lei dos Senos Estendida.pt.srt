@@ -1,0 +1,1321 @@
+0:00:03.040,0:00:08.920
+Ora, hoje vamos ver a veio dos senos
+
+0:00:05.120,0:00:11.360
+estendida, já tínhamos falado, já tinha
+
+0:00:08.920,0:00:13.519
+dito que
+
+0:00:11.360,0:00:16.279
+que tinha que fazer um um tutorial sobre
+
+0:00:13.519,0:00:18.995
+esta matéria.
+
+0:00:16.279,0:00:22.199
+Ora,
+
+0:00:18.995,0:00:26.560
+[roncando] temos aqui
+
+0:00:22.199,0:00:29.759
+a sobre sen alfa
+
+0:00:26.560,0:00:33.520
+é igual a b
+
+0:00:29.759,0:00:35.879
+sobre seno de beta
+
+0:00:33.520,0:00:38.040
+é igual a c
+
+0:00:35.879,0:00:40.120
+sobre seno de gama, que é a lei dos
+
+0:00:38.040,0:00:42.760
+senos que nós já vimos.
+
+0:00:40.120,0:00:46.320
+E hoje vamos ver então que
+
+0:00:42.760,0:00:46.320
+é igual a 2r,
+
+0:00:46.760,0:00:52.320
+sendo r o raio
+
+0:00:50.640,0:00:55.000
+da
+
+0:00:52.320,0:00:58.000
+circunferência
+
+0:00:55.000,0:00:58.000
+circunscrita.
+
+0:01:03.640,0:01:07.840
+OK?
+
+0:01:05.960,0:01:11.920
+Ora bem, para isto precisamos aqui da de
+
+0:01:07.840,0:01:14.600
+alguns teoremas de dos ângulos,
+
+0:01:11.920,0:01:17.080
+OK? Podemos começar pel a soma dos
+
+0:01:14.600,0:01:19.040
+ângulos internos de um triângulo. Nunca
+
+0:01:17.080,0:01:22.680
+vimos, mas é pronto, é básico, mas vamos
+
+0:01:19.040,0:01:25.079
+vamos relembrar. Portanto, nós temos
+
+0:01:22.680,0:01:27.159
+aqui um triângulo. Vamos pôr aqui um
+
+0:01:25.079,0:01:28.799
+triângulo qualquer.
+
+0:01:27.159,0:01:31.560
+OK.
+
+0:01:28.799,0:01:33.759
+Vamos pôr aqui alfa,
+
+0:01:31.560,0:01:35.240
+beta, gama.
+
+0:01:33.759,0:01:39.159
+OK.
+
+0:01:35.240,0:01:41.040
+Nós traçamos aqui esta
+
+0:01:39.159,0:01:43.920
+reta
+
+0:01:41.040,0:01:47.119
+e vamos traçar a paralela aqui neste
+
+0:01:43.920,0:01:49.840
+vértice oposto. OK? Pronto. Então temos
+
+0:01:47.119,0:01:52.840
+aqui agora vamos traçar aqui os
+
+0:01:49.840,0:01:52.840
+prolongamentos,
+
+0:01:53.399,0:01:59.000
+OK?
+
+0:01:55.399,0:02:02.240
+Eh, e portanto, se se este é alfa, este
+
+0:01:59.000,0:02:02.240
+ângulo aqui,
+
+0:02:02.280,0:02:06.079
+portanto, se este é alfa, aqui também
+
+0:02:03.880,0:02:09.000
+temos um alfa,
+
+0:02:06.079,0:02:10.840
+OK? Porque são retas para esta é reta
+
+0:02:09.000,0:02:14.239
+paralela. Esta também, esta aqui é
+
+0:02:10.840,0:02:16.400
+oblíqua, corta as duas paralelas.
+
+0:02:14.239,0:02:18.840
+E, portanto, esta aqui tá em oposição
+
+0:02:16.400,0:02:20.519
+aqui também tem que ser alfa.
+
+0:02:18.840,0:02:22.959
+OK?
+
+0:02:20.519,0:02:25.080
+E pelo mesmo raciocínio,
+
+0:02:22.959,0:02:27.280
+se este aqui é beta, este também tem que
+
+0:02:25.080,0:02:31.760
+ser beta.
+
+0:02:27.280,0:02:36.800
+E então agora temos a soma destes três.
+
+0:02:31.760,0:02:36.800
+Aa + beta + gama, que dá 180.
+
+0:02:37.080,0:02:43.720
+É bem simples, mas pronto. Aqui um
+
+0:02:40.920,0:02:46.640
+recordatório rápido. [roncando]
+
+0:02:43.720,0:02:49.640
+Sim, senhor. Agora vamos ver então o
+
+0:02:46.640,0:02:49.640
+ângulo.
+
+0:02:50.440,0:02:54.560
+Acho que é que conheci pelo teorema de
+
+0:02:52.000,0:02:57.720
+tales, salvo erro.
+
+0:02:54.560,0:02:59.280
+Dentro de um de um círculo, vamos ter
+
+0:02:57.720,0:03:01.959
+aqui
+
+0:02:59.280,0:03:03.920
+um diâmetro.
+
+0:03:01.959,0:03:07.519
+Um diâmetro.
+
+0:03:03.920,0:03:09.560
+Aqui temos o raio. O raio.
+
+0:03:07.519,0:03:11.440
+E qualquer que seja o ponto aqui sobre a
+
+0:03:09.560,0:03:14.080
+circunferência,
+
+0:03:11.440,0:03:17.360
+OK? Temos que
+
+0:03:14.080,0:03:17.360
+o ângulo
+
+0:03:18.720,0:03:23.920
+deste ponto até aos pontos que ficam
+
+0:03:21.760,0:03:26.440
+sobre o sobre o diâmetro, estes
+
+0:03:23.920,0:03:29.959
+vértices, vamos ter que este é um ângulo
+
+0:03:26.440,0:03:31.239
+reto. OK? Pronto. Então temos aqui, como
+
+0:03:29.959,0:03:35.400
+é que vamos demonstrar? Isto é bem
+
+0:03:31.239,0:03:39.200
+simples. Portanto, nós temos aqui,
+
+0:03:35.400,0:03:41.959
+vou traçar aqui um raio.
+
+0:03:39.200,0:03:45.879
+Estou em algum outra cor, talvez.
+
+0:03:41.959,0:03:45.879
+Pronto, eu vou traçar aqui.
+
+0:03:46.400,0:03:53.439
+Aqui temos um raio.
+
+0:03:50.400,0:03:55.079
+OK. [roncando]
+
+0:03:53.439,0:03:59.319
+E
+
+0:03:55.079,0:04:01.040
+portanto, e aqui também temos um raio.
+
+0:03:59.319,0:04:03.519
+OK.
+
+0:04:01.040,0:04:06.519
+E então este triângulo,
+
+0:04:03.519,0:04:12.040
+este triângulo aqui, pois
+
+0:04:06.519,0:04:13.959
+é um e como é que isto se chama? Exósos.
+
+0:04:12.040,0:04:16.199
+Já não me recordo. Portanto, um
+
+0:04:13.959,0:04:18.199
+triângulo aqui com dois lados iguais,
+
+0:04:16.199,0:04:20.639
+portanto, naturalmente tem dois ângulos
+
+0:04:18.199,0:04:24.000
+iguais.
+
+0:04:20.639,0:04:24.000
+chamar aqui,
+
+0:04:24.160,0:04:29.360
+vou chamar aqui
+
+0:04:26.680,0:04:31.520
+K1
+
+0:04:29.360,0:04:33.639
+K1.
+
+0:04:31.520,0:04:36.759
+OK?
+
+0:04:33.639,0:04:41.160
+E da mesma maneira
+
+0:04:36.759,0:04:42.840
+este será K2 e este K2,
+
+0:04:41.160,0:04:45.280
+OK?
+
+0:04:42.840,0:04:48.280
+Porque aqui também temos
+
+0:04:45.280,0:04:50.440
+dois lados iguais,
+
+0:04:48.280,0:04:53.880
+OK?
+
+0:04:50.440,0:04:56.120
+E, portanto, dois ângulos iguais.
+
+0:04:53.880,0:04:57.759
+E, portanto, a soma de todos os ângulos
+
+0:04:56.120,0:05:00.400
+internos deste triângulo, pois tem que
+
+0:04:57.759,0:05:01.639
+dar 180.
+
+0:05:00.400,0:05:05.320
+OK?
+
+0:05:01.639,0:05:08.759
+Este todo este triângulo, a soma
+
+0:05:05.320,0:05:13.600
+temos temos daqui
+
+0:05:08.759,0:05:16.199
+este mais este e, portanto, vai dar
+
+0:05:13.600,0:05:22.000
+k1 + k2,
+
+0:05:16.199,0:05:22.000
+este mais este. E aqui mais k1 + k2
+
+0:05:23.479,0:05:31.560
+tem que dar 180.
+
+0:05:26.280,0:05:35.600
+E, portanto, resulta K1 + K2 tem que dar
+
+0:05:31.560,0:05:38.080
+90. Pronto. E K1 + K2, cá está. É, era
+
+0:05:35.600,0:05:40.720
+aqui o nosso ângulo verde que foi
+
+0:05:38.080,0:05:43.199
+decomposto nestes dois.
+
+0:05:40.720,0:05:48.400
+E, portanto, fica assim demonstrado. É
+
+0:05:43.199,0:05:51.880
+sempre um ângulo reto. Qual aqui? E
+
+0:05:48.400,0:05:53.520
+qualquer ângulo aqui do do triângulo com
+
+0:05:51.880,0:05:56.319
+a hipóenusa sobre o diâmetro de uma
+
+0:05:53.520,0:06:00.880
+circunferência. OK?
+
+0:05:56.319,0:06:03.080
+E agora vamos ver o o outro teorema.
+
+0:06:00.880,0:06:06.280
+Esse não tenho a certeza se também ainda
+
+0:06:03.080,0:06:08.319
+é tals o teorema de tals ou não, mas
+
+0:06:06.280,0:06:09.960
+vamos generalizar agora. Em vez de
+
+0:06:08.319,0:06:12.479
+termos aqui o diâmetro, vamos ter uma
+
+0:06:09.960,0:06:14.599
+corda sobre sobre uma circunferência,
+
+0:06:12.479,0:06:16.919
+OK?
+
+0:06:14.599,0:06:20.120
+Portanto,
+
+0:06:16.919,0:06:22.479
+vamos ter aqui
+
+0:06:20.120,0:06:24.880
+uma circunferência,
+
+0:06:22.479,0:06:27.759
+OK?
+
+0:06:24.880,0:06:32.560
+E agora, em vez de ter um diâmetro, pois
+
+0:06:27.759,0:06:37.000
+vamos ter aqui uma corda. OK? Pronto,
+
+0:06:32.560,0:06:37.000
+temos alguros aqui, temos o centro.
+
+0:06:38.759,0:06:44.120
+Eh, e agora vamos a fazer um raciocínio
+
+0:06:42.120,0:06:45.919
+em tudo similar.
+
+0:06:44.120,0:06:48.639
+Vamos considerar aqui um ponto qualquer
+
+0:06:45.919,0:06:50.160
+para fazer aqui um triângulo.
+
+0:06:48.639,0:06:52.800
+OK? Vamos considerar aqui um ponto
+
+0:06:50.160,0:06:55.960
+qualquer. Sim, senhor. Vamos considerar
+
+0:06:52.800,0:06:58.960
+aqui então este triângulo.
+
+0:06:55.960,0:06:58.960
+OK.
+
+0:07:04.560,0:07:09.720
+OK.
+
+0:07:06.720,0:07:11.360
+Sim, senhora. Vamos ter aqui A,
+
+0:07:09.720,0:07:14.360
+B,
+
+0:07:11.360,0:07:14.360
+C.
+
+0:07:14.680,0:07:19.280
+Ora, o que é que vamos ter? Então
+
+0:07:17.720,0:07:22.280
+aqui é aqui é o centro da
+
+0:07:19.280,0:07:22.280
+circunferência.
+
+0:07:22.520,0:07:25.879
+Portanto, então
+
+0:07:26.599,0:07:30.599
+aqui temos um raio,
+
+0:07:29.080,0:07:33.319
+porque estes estes três estes três
+
+0:07:30.599,0:07:35.560
+pontos estão estão estão sobre
+
+0:07:33.319,0:07:38.639
+a circunferência.
+
+0:07:35.560,0:07:40.319
+Temos aqui um raio, outro raio
+
+0:07:38.639,0:07:43.039
+e
+
+0:07:40.319,0:07:46.039
+outro raio.
+
+0:07:43.039,0:07:46.039
+OK.
+
+0:07:46.919,0:07:50.159
+Ora,
+
+0:07:48.680,0:07:52.759
+vamos fazer um raciocínio em todos
+
+0:07:50.159,0:07:54.520
+similar ao que acabamos de ver.
+
+0:07:52.759,0:07:59.159
+Portanto, o que nós queremos é o que é
+
+0:07:54.520,0:08:03.360
+dado é que esta corda, esta corda,
+
+0:07:59.159,0:08:03.360
+OK, que vinha daqui aqui,
+
+0:08:03.960,0:08:08.400
+OK? E vamos dizer que tem um ângulo
+
+0:08:05.960,0:08:11.879
+alfa, ângulo alfa, ângulo ao centro, ou
+
+0:08:08.400,0:08:13.479
+seja, que este ângulo é alfa.
+
+0:08:11.879,0:08:15.479
+Vamos a subir que este este ângulo aqui
+
+0:08:13.479,0:08:17.680
+é alfa.
+
+0:08:15.479,0:08:21.400
+E o que queremos demonstrar é que este
+
+0:08:17.680,0:08:23.759
+este ângulo aqui vai ser alfa meios.
+
+0:08:21.400,0:08:27.960
+É o que diz o teorema. Portanto, do
+
+0:08:23.759,0:08:27.960
+ângulo aqui do
+
+0:08:29.120,0:08:33.120
+destes destes dois raios aqui até ao
+
+0:08:31.360,0:08:35.560
+aqui sobre o ponto sobre o sobre a
+
+0:08:33.120,0:08:37.320
+circunferência vai ser vai ser metade do
+
+0:08:35.560,0:08:39.080
+ângulo correspondente do aqui do ângulo
+
+0:08:37.320,0:08:42.360
+ao centro,
+
+0:08:39.080,0:08:44.839
+OK? que é o mesmo que vimos aqui. Só que
+
+0:08:42.360,0:08:47.080
+aqui era o caso particular de que o o
+
+0:08:44.839,0:08:49.760
+arco aqui são 180º porque é um
+
+0:08:47.080,0:08:53.120
+semicírculo e, portanto, metade 180 dá
+
+0:08:49.760,0:08:55.040
+90. OK? Agora aqui quando não é um um
+
+0:08:53.120,0:08:57.720
+diâmetro vai ser uma corda qualquer com
+
+0:08:55.040,0:08:59.440
+um ângulo ao centro de alfa e aquela e
+
+0:08:57.720,0:09:03.800
+aquele ângulo ali vai ser alfa meios.
+
+0:08:59.440,0:09:05.040
+OK? Para isso, vamos considerar aqui a
+
+0:09:03.800,0:09:07.440
+mesma coisa. Vamos fazer aqui uma
+
+0:09:05.040,0:09:09.399
+partição K1
+
+0:09:07.440,0:09:11.279
+K2.
+
+0:09:09.399,0:09:13.360
+Portanto, se este é K1, este também é
+
+0:09:11.279,0:09:15.560
+K1.
+
+0:09:13.360,0:09:20.600
+OK?
+
+0:09:15.560,0:09:23.040
+Eh, este K2, este também é K2.
+
+0:09:20.600,0:09:25.320
+E este
+
+0:09:23.040,0:09:28.920
+pela regra do da soma dos ângulos do
+
+0:09:25.320,0:09:28.920
+triângulo, pois 180
+
+0:09:30.760,0:09:35.040
+- 2k2,
+
+0:09:33.160,0:09:39.800
+OK? que é para forma que a soma dos três
+
+0:09:35.040,0:09:42.440
+tá a 180 e aqui 180
+
+0:09:39.800,0:09:44.680
+- 2k1
+
+0:09:42.440,0:09:47.360
+e agora somar estes três ângulos aqui ao
+
+0:09:44.680,0:09:50.360
+centro tem que estar 360
+
+0:09:47.360,0:09:50.360
+ok
+
+0:09:50.640,0:09:53.959
+- 2k2
+
+0:09:54.000,0:09:59.920
++
+
+0:09:56.079,0:10:04.120
+180 - 2k1
+
+0:09:59.920,0:10:08.200
++ α e tudo somado dá
+
+0:10:04.120,0:10:10.519
+360 um círculo completo. Ora, corta,
+
+0:10:08.200,0:10:14.079
+corta, corta.
+
+0:10:10.519,0:10:16.160
+E, portanto, temos que
+
+0:10:14.079,0:10:18.839
+alfa
+
+0:10:16.160,0:10:22.480
+é igual a 2
+
+0:10:18.839,0:10:22.480
+k1 + k2.
+
+0:10:22.680,0:10:26.519
+E, portanto, k1 + k2 era o que nós
+
+0:10:24.760,0:10:29.320
+dizíamos, dissemos aqui, que era este
+
+0:10:26.519,0:10:33.440
+ângulo aqui, K1 + K2,
+
+0:10:29.320,0:10:33.440
+OK? Neste caso, gama.
+
+0:10:34.279,0:10:37.959
+E, portanto, gama,
+
+0:10:38.560,0:10:49.000
+ora, A, B, C, este é gama, certo?
+
+0:10:43.560,0:10:50.839
+E este e este aqui é é chamar-lhe alfa.
+
+0:10:49.000,0:10:52.560
+E, portanto,
+
+0:10:50.839,0:10:54.680
+gama
+
+0:10:52.560,0:10:56.600
+é igual a alfa.
+
+0:10:54.680,0:10:59.079
+OK?
+
+0:10:56.600,0:11:01.560
+Sim, senhora. Portanto, com isto já
+
+0:10:59.079,0:11:05.519
+estamos em condições
+
+0:11:01.560,0:11:11.519
+de eh
+
+0:11:05.519,0:11:11.519
+deduzirmos a lei dos senos estendida.
+
+0:11:13.639,0:11:17.279
+OK? Fiz aqui uma pequena pausa só para
+
+0:11:15.760,0:11:19.680
+não perder muito tempo a fazer aqui o
+
+0:11:17.279,0:11:21.680
+esquema. Ora bem, então o que é que nós
+
+0:11:19.680,0:11:23.680
+temos aqui? Portanto, nós temos um
+
+0:11:21.680,0:11:25.160
+triângulo,
+
+0:11:23.680,0:11:29.160
+OK?
+
+0:11:25.160,0:11:32.600
+temos com com lados A,
+
+0:11:29.160,0:11:35.240
+B, C. Portanto, temos este triângulo, tá
+
+0:11:32.600,0:11:38.279
+inscrito na circunferência.
+
+0:11:35.240,0:11:39.839
+Aqui temos o centro da circunferência.
+
+0:11:38.279,0:11:43.519
+OK?
+
+0:11:39.839,0:11:46.880
+Aqui, mais uma vez traçamos raios,
+
+0:11:43.519,0:11:50.120
+um raio para aqui, um raio para aqui.
+
+0:11:46.880,0:11:51.639
+OK? Sim, senhora.
+
+0:11:50.120,0:11:54.800
+e
+
+0:11:51.639,0:11:57.399
+eh traçamos aqui a perpendicular, esta
+
+0:11:54.800,0:12:00.959
+perpendicular
+
+0:11:57.399,0:12:04.438
+em relação ao lado de C
+
+0:12:00.959,0:12:06.959
+e em que, portanto,
+
+0:12:04.438,0:12:10.480
+[roncando] este este estes ângulos aqui
+
+0:12:06.959,0:12:13.399
+são iguais. Este é igual a este,
+
+0:12:10.480,0:12:15.000
+OK? Por causa destas distâncias aqui, R
+
+0:12:13.399,0:12:16.959
+são iguais. Portanto, estes ângulos aqui
+
+0:12:15.000,0:12:20.199
+também são iguais. Eu chamei alfa mais
+
+0:12:16.959,0:12:24.320
+alfa. Ok?
+
+0:12:20.199,0:12:29.480
+E, portanto, este ponto divide divide C
+
+0:12:24.320,0:12:31.760
+ao meio e origina aqui C meos. OK? Sim,
+
+0:12:29.480,0:12:35.560
+senhora.
+
+0:12:31.760,0:12:38.440
+Deste lado aqui também, CE. OK?
+
+0:12:35.560,0:12:40.360
+Então, agora temos aqui um triângulo
+
+0:12:38.440,0:12:42.800
+retângulo. Temos este triângulo
+
+0:12:40.360,0:12:44.560
+retângulo. OK?
+
+0:12:42.800,0:12:47.279
+Pronto.
+
+0:12:44.560,0:12:51.240
+Eh, esta área aqui não vou precisar
+
+0:12:47.279,0:12:54.880
+dela. Deixa, vamos tirar aqui este a não
+
+0:12:51.240,0:12:58.040
+vou precisar de calcular isto. OK.
+
+0:12:54.880,0:13:01.399
+Vou estabcer esta relação.
+
+0:12:58.040,0:13:03.880
+Esta relação que está aqui.
+
+0:13:01.399,0:13:07.480
+Portanto, vou dizer OK,
+
+0:13:03.880,0:13:09.120
+CEO é o cateto oposto a alfa.
+
+0:13:07.480,0:13:12.199
+Portanto, resulta da projeção da
+
+0:13:09.120,0:13:16.440
+hipotenusa R.
+
+0:13:12.199,0:13:18.399
+no lado oposto, ou seja, R seno de alfa.
+
+0:13:16.440,0:13:22.240
+Portanto, Cos
+
+0:13:18.399,0:13:26.519
+é é igual ao R seno de alfa.
+
+0:13:22.240,0:13:29.880
+Mas o alfa, este alfa, na verdade,
+
+0:13:26.519,0:13:31.839
+este alfa, na verdade é igual a gama por
+
+0:13:29.880,0:13:33.600
+causa desta lei de tales que acabamos de
+
+0:13:31.839,0:13:35.639
+ver aqui,
+
+0:13:33.600,0:13:38.240
+que o ângulo o ângulo sobre a
+
+0:13:35.639,0:13:41.279
+circunferência é metade do
+
+0:13:38.240,0:13:44.720
+correspondente ângulo ao centro.
+
+0:13:41.279,0:13:48.120
+E como aqui temos um ângulo centro,
+
+0:13:44.720,0:13:50.959
+o ângulo centro aqui que é este ângulo
+
+0:13:48.120,0:13:56.680
+aqui, OK?
+
+0:13:50.959,0:13:59.360
+Este ângulo que é 2 alfa, OK?
+
+0:13:56.680,0:14:01.320
+Eh,
+
+0:13:59.360,0:14:03.519
+que está subentendido
+
+0:14:01.320,0:14:06.440
+por estes dois pontos,
+
+0:14:03.519,0:14:09.680
+P1 e P2,
+
+0:14:06.440,0:14:11.519
+OK? deste arco.
+
+0:14:09.680,0:14:13.240
+E, portanto, o correspondente ângulo
+
+0:14:11.519,0:14:16.800
+gama,
+
+0:14:13.240,0:14:20.079
+o correspondente ângulo gama
+
+0:14:16.800,0:14:21.759
+e tem que ser metade
+
+0:14:20.079,0:14:26.120
+metade do correspondente ângulo ao
+
+0:14:21.759,0:14:28.639
+centro 2 alfa. Portanto, gama é 1/2 al
+
+0:14:26.120,0:14:32.279
+OK?
+
+0:14:28.639,0:14:34.639
+E, portanto, gama
+
+0:14:32.279,0:14:38.880
+tem que ser metade do ângulo aqui do
+
+0:14:34.639,0:14:42.720
+argo, ou seja, metade de 2 alfa.
+
+0:14:38.880,0:14:46.560
+Portanto, gama ig alfa.
+
+0:14:42.720,0:14:46.560
+Gama = alfa.
+
+0:14:46.680,0:14:50.880
+OK?
+
+0:14:48.360,0:14:52.600
+E, portanto, e pronto, já temos. Então,
+
+0:14:50.880,0:14:55.959
+voltando aqui para para esta para esta
+
+0:14:52.600,0:14:58.959
+fórmula aqui.
+
+0:14:55.959,0:14:58.959
+Ops.
+
+0:15:02.360,0:15:05.360
+OK.
+
+0:15:05.800,0:15:15.800
+Portanto, voltando a esta fórmula,
+
+0:15:10.160,0:15:18.959
+gama é igual a alfa. Onde resulta C
+
+0:15:15.800,0:15:21.519
+sobre seno de gama,
+
+0:15:18.959,0:15:24.079
+OK?
+
+0:15:21.519,0:15:27.600
+C
+
+0:15:24.079,0:15:30.399
+so seno de gama
+
+0:15:27.600,0:15:32.600
+é igual a 2R.
+
+0:15:30.399,0:15:36.360
+OK?
+
+0:15:32.600,0:15:36.360
+E fica assim demonstrado
+
+0:15:36.480,0:15:41.279
+o
+
+0:15:38.120,0:15:44.279
+a fórmula estendida,
+
+0:15:41.279,0:15:44.279
+OK?
+
+0:15:45.839,0:15:49.399
+A fórmula estendida.
+
+0:15:53.480,0:15:57.839
+a lei do Xeno estendida. OK.
+
+0:16:00.880,0:16:06.160
+Vamos agora ver aqui algumas
+
+0:16:03.720,0:16:08.600
+aplicações
+
+0:16:06.160,0:16:10.319
+desta lei.
+
+0:16:08.600,0:16:12.079
+Vamos ver aqui, por exemplo, uma fórmula
+
+0:16:10.319,0:16:15.880
+para
+
+0:16:12.079,0:16:18.839
+a área de um triângulo. OK? Portanto,
+
+0:16:15.880,0:16:23.279
+nós já tínhamos visto
+
+0:16:18.839,0:16:26.800
+na lei dos senos que a área do triângulo
+
+0:16:23.279,0:16:26.800
+era igual a 1/
+
+0:16:28.959,0:16:33.519
+seno de gama ou ou qualquer outra
+
+0:16:31.279,0:16:37.519
+relação similar.
+
+0:16:33.519,0:16:39.440
+Podia ser BC no D alfa, por exemplo.
+
+0:16:37.519,0:16:41.639
+E, portanto, agora aplicamos, vamos aqui
+
+0:16:39.440,0:16:44.959
+buscar aqui,
+
+0:16:41.639,0:16:44.959
+vamos aqui,
+
+0:16:45.160,0:16:52.000
+OK? E dizemos, OK, mas seno de gama é
+
+0:16:48.920,0:16:53.920
+igual a C sobre 2R.
+
+0:16:52.000,0:16:56.600
+Então, vai dar aqui esta forma muito
+
+0:16:53.920,0:17:01.199
+interessante,
+
+0:16:56.600,0:17:05.086
+OK? uma forma muito elegante, onde área
+
+0:17:01.199,0:17:07.640
+é igual a A B
+
+0:17:05.086,0:17:11.839
+[roncando] C
+
+0:17:07.640,0:17:15.199
+sobre 4 R. Portanto, cá está uma forma
+
+0:17:11.839,0:17:18.079
+muito muito interessante.
+
+0:17:15.199,0:17:20.120
+A área de qualquer triângulo é igual ao
+
+0:17:18.079,0:17:23.720
+produto dos lados a dividir por quatro
+
+0:17:20.120,0:17:27.039
+raios sendo o raio o raio da
+
+0:17:23.720,0:17:28.919
+circunferência circunscrita.
+
+0:17:27.039,0:17:32.880
+OK.
+
+0:17:28.919,0:17:32.880
+Muito interessante desta forma.
+
+0:17:42.000,0:17:46.400
+Ora, OK, estou de volta. Fiz aqui uma
+
+0:17:44.799,0:17:48.640
+pequena pausa só para fazer aqui esta
+
+0:17:46.400,0:17:50.440
+construção.
+
+0:17:48.640,0:17:54.000
+Pronto, esta vai ser a última forma que
+
+0:17:50.440,0:17:55.720
+que vamos ver neste tutorial.
+
+0:17:54.000,0:17:57.520
+Portanto, relaciona o raio da
+
+0:17:55.720,0:18:01.280
+circunferência
+
+0:17:57.520,0:18:04.120
+circunscrita, é R maiúsculo.
+
+0:18:01.280,0:18:07.760
+Este R maiúsculo com
+
+0:18:04.120,0:18:10.360
+o raio R pequeno da da circunferência
+
+0:18:07.760,0:18:12.039
+inscrita no triângulo, OK? Que é esta
+
+0:18:10.360,0:18:15.440
+circunferência aqui, a circunferência
+
+0:18:12.039,0:18:19.840
+inscrita e a grande, a circunferência
+
+0:18:15.440,0:18:21.440
+grande, a circunferência circunscrita.
+
+0:18:19.840,0:18:25.000
+E temos então esta fórmula aqui também
+
+0:18:21.440,0:18:26.480
+bastante elegante que 2Rr é igual a ou o
+
+0:18:25.000,0:18:29.480
+produto dos lados do triângulo é
+
+0:18:26.480,0:18:31.799
+dividido pela soma dos lados. OK? É bem
+
+0:18:29.480,0:18:35.760
+simples esta demonstração.
+
+0:18:31.799,0:18:39.480
+Nós temos aqui o o portanto o triângulo
+
+0:18:35.760,0:18:39.480
+de lados AC.
+
+0:18:39.640,0:18:44.200
+OK?
+
+0:18:41.840,0:18:46.679
+Temos aqui o centro da circunferência
+
+0:18:44.200,0:18:49.240
+inscrita.
+
+0:18:46.679,0:18:51.440
+E, portanto, da circunferência inscrita,
+
+0:18:49.240,0:18:53.000
+ela é tangente nos três lados. Ela tem
+
+0:18:51.440,0:18:57.799
+aqui
+
+0:18:53.000,0:18:59.760
+os raios, OK? Estes raios. Então, isto
+
+0:18:57.799,0:19:03.559
+permite-nos
+
+0:18:59.760,0:19:06.120
+decompor, vamos decompor este todo, este
+
+0:19:03.559,0:19:08.559
+triângulo ou o triângulo ABC em três
+
+0:19:06.120,0:19:11.480
+triângulos mais pequenos. OK? Vamos
+
+0:19:08.559,0:19:14.200
+decompor aqui.
+
+0:19:11.480,0:19:17.400
+Portanto, vamos ter aqui
+
+0:19:14.200,0:19:19.880
+este triângulo,
+
+0:19:17.400,0:19:22.120
+este triângulo,
+
+0:19:19.880,0:19:24.080
+este um triângulo
+
+0:19:22.120,0:19:28.320
+e da mesma maneira teremos o triângulo
+
+0:19:24.080,0:19:30.240
+dois e o triângulo 3. Ok? E se olharmos
+
+0:19:28.320,0:19:33.120
+aqui o triângulo, o primeiro triângulo,
+
+0:19:30.240,0:19:34.679
+este triângulo,
+
+0:19:33.120,0:19:39.080
+portanto,
+
+0:19:34.679,0:19:41.919
+é o que temos aqui. Nós temos a área
+
+0:19:39.080,0:19:45.240
+1/2,
+
+0:19:41.919,0:19:46.840
+o, neste caso aqui, este,
+
+0:19:45.240,0:19:48.600
+1/2,
+
+0:19:46.840,0:19:51.200
+o comprimento da base vezes a altura e a
+
+0:19:48.600,0:19:53.559
+altura é o é o r,
+
+0:19:51.200,0:19:57.720
+é o raio da circunferência inscrita.
+
+0:19:53.559,0:19:59.440
+Portanto, 1/2 de CR. Portanto, somados
+
+0:19:57.720,0:20:01.159
+com os com as áreas dos outros dois
+
+0:19:59.440,0:20:05.640
+triângulos
+
+0:20:01.159,0:20:08.679
+mais 1/ de BR + 1/2 de AR, OK? Tem que
+
+0:20:05.640,0:20:11.880
+ser igual à área de todo o triângulo
+
+0:20:08.679,0:20:13.760
+ABC, que já nós já temos uma forma para
+
+0:20:11.880,0:20:15.480
+ele que acabamos de deduzir aqui em
+
+0:20:13.760,0:20:17.960
+cima.
+
+0:20:15.480,0:20:20.520
+esta forma,
+
+0:20:17.960,0:20:25.240
+a área de um triângulo
+
+0:20:20.520,0:20:28.159
+em função do R, R da circunferência
+
+0:20:25.240,0:20:30.520
+circunscrita.
+
+0:20:28.159,0:20:33.200
+E, portanto, aqui e agora obtivemos esta
+
+0:20:30.520,0:20:36.840
+outra fórmula
+
+0:20:33.200,0:20:41.080
+em função de R pequeno. Igualamos,
+
+0:20:36.840,0:20:41.080
+igualamos aqui as duas fórmulas,
+
+0:20:41.840,0:20:47.960
+duas fórmulas alternativas para a área,
+
+0:20:44.880,0:20:51.760
+OK? em função de R pequeno ou em função
+
+0:20:47.960,0:20:54.760
+de R para nos dar a área.
+
+0:20:51.760,0:20:54.760
+E
+
+0:20:54.960,0:20:59.120
+e portanto e agora igualamos as duas
+
+0:20:56.520,0:21:02.679
+fórmulas,
+
+0:20:59.120,0:21:05.400
+OK? Para obter uma relação entre R
+
+0:21:02.679,0:21:07.280
+maiúsculo e R minúsculo.
+
+0:21:05.400,0:21:09.919
+E pronto. E aqui em cima pomos em
+
+0:21:07.280,0:21:12.120
+evidência aqui o R+.
+
+0:21:09.919,0:21:15.600
+OK?
+
+0:21:12.120,0:21:15.600
+Este 4R,
+
+0:21:16.000,0:21:21.520
+portanto, vai passar,
+
+0:21:19.039,0:21:25.919
+passa para aqui para cima e pronto. E
+
+0:21:21.520,0:21:25.919
+obtemos aqui a nossa forma, finalmente,
+
+0:21:28.640,0:21:34.360
+a nossa forma queríamos demonstrar, OK?
+
+0:21:32.080,0:21:38.559
+Existe uma relação entre os raios das
+
+0:21:34.360,0:21:41.799
+circunferências inscrita e circunscrita
+
+0:21:38.559,0:21:44.360
+e é dado desta maneira. ABC sobre a soma
+
+0:21:41.799,0:21:47.360
+de A + B + C.
+
+0:21:44.360,0:21:50.679
+E pronto, espero que tenham gostado e
+
+0:21:47.360,0:21:50.679
+até uma próxima oportunidade.
+
+

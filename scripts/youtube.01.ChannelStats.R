@@ -46,12 +46,12 @@ YOUTUBE_CHANNEL_ID = Sys.getenv("YOUTUBE_CHANNEL_ID")
 TugaStone = AUTHENTICATE_TUBER()
 minifunctions::printdataframe(TugaStone,expand_images = TRUE)
 
-channel = tuber::analyze_channel(
-  YOUTUBE_CHANNEL_ID,
-  max_videos = 300,
-  include_comments = FALSE
-)
-videos = channel$recent_videos
+# channel = tuber::analyze_channel(
+#   YOUTUBE_CHANNEL_ID,
+#   max_videos = 300,
+#   include_comments = FALSE
+# )
+# videos = channel$recent_videos
 
 # List Subscribers
 # subscribers = tuber::list_subscriptions(channel_id = YOUTUBE_CHANNEL_ID)

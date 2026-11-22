@@ -1,0 +1,1165 @@
+0:00:02.360,0:00:05.240
+Ora, sejam bem-vindos a mais um
+
+0:00:03.679,0:00:07.799
+tutorial.
+
+0:00:05.240,0:00:09.360
+Hoje vamos
+
+0:00:07.799,0:00:12.000
+calcular aqui a interseção de dois
+
+0:00:09.360,0:00:14.160
+planos, naturalmente num num espaço de
+
+0:00:12.000,0:00:20.199
+três dimensões.
+
+0:00:14.160,0:00:20.199
+OK? Portanto, vamos vamos
+
+0:00:22.240,0:00:27.960
+colocar aqui um plano na numa na equação
+
+0:00:24.960,0:00:27.960
+cartesiana.
+
+0:00:35.160,0:00:38.160
+OK.
+
+0:00:39.920,0:00:43.200
+Dois planos.
+
+0:00:50.079,0:00:55.800
+Sim, senhora. Portanto, interseção, em
+
+0:00:53.320,0:00:57.760
+matemática, interseção
+
+0:00:55.800,0:00:59.879
+de dois objetos significa significa
+
+0:00:57.760,0:01:02.199
+sempre resolver um sistema de equações
+
+0:00:59.879,0:01:04.640
+entre esses objetos. E é isso que
+
+0:01:02.199,0:01:08.159
+significa. Portanto, intercetar estes
+
+0:01:04.640,0:01:10.000
+dois objetos é o é resolver o sistema.
+
+0:01:08.159,0:01:12.240
+O que é que acontece? Duas equações para
+
+0:01:10.000,0:01:15.080
+três incógnitas não se pode resolver. é
+
+0:01:12.240,0:01:16.720
+indeterminado e e que e faz sentido
+
+0:01:15.080,0:01:19.720
+porque o indeterminado quer dizer que
+
+0:01:16.720,0:01:21.240
+vai dar uma reta e por isso e por e por
+
+0:01:19.720,0:01:24.640
+isso tem infinitas soluções que são
+
+0:01:21.240,0:01:27.280
+todos os pontos da reta. OK? Sim,
+
+0:01:24.640,0:01:30.200
+senhor. Faz sentido. Portanto, o
+
+0:01:27.280,0:01:33.000
+resultado vai ter que dar uma reta
+
+0:01:30.200,0:01:35.799
+x = x0
+
+0:01:33.000,0:01:38.119
++ k v.
+
+0:01:35.799,0:01:43.119
+Ora,
+
+0:01:38.119,0:01:46.360
+nós já sabemos que temos um um vetor um
+
+0:01:43.119,0:01:50.479
+vetor V1 normal. Aqui à reta, temos a
+
+0:01:46.360,0:01:54.520
+reta, desculpem, o plano P1,
+
+0:01:50.479,0:01:57.159
+temos um plano P1, P2.
+
+0:01:54.520,0:02:00.280
+Portanto, V1 é um é um vetor
+
+0:01:57.159,0:02:03.079
+perpendicular ao plano. Já vimos isto
+
+0:02:00.280,0:02:05.960
+em tutoriais anteriores,
+
+0:02:03.079,0:02:05.960
+OK?
+
+0:02:06.520,0:02:12.200
+Sim, senhora. E V2, deixa-me até
+
+0:02:09.840,0:02:14.000
+representar aqui. Portanto, vou dizer
+
+0:02:12.200,0:02:15.680
+que
+
+0:02:14.000,0:02:20.239
+V1
+
+0:02:15.680,0:02:25.239
+é perpendicular ao plano.
+
+0:02:20.239,0:02:30.800
+V2 é perpendicular ao plano P2.
+
+0:02:25.239,0:02:32.640
+Tem coordenadas A2, B2, C2. Sim, senhor.
+
+0:02:30.800,0:02:35.840
+E, portanto,
+
+0:02:32.640,0:02:38.680
+temos que
+
+0:02:35.840,0:02:40.319
+o produto externo vai-me dar um vetor
+
+0:02:38.680,0:02:42.120
+que é simultaneamente perpendicular a
+
+0:02:40.319,0:02:46.599
+estes dois.
+
+0:02:42.120,0:02:49.599
+Portanto, o produto externo,
+
+0:02:46.599,0:02:49.599
+OK?
+
+0:02:50.239,0:02:54.640
+Vai ser precisamente este vetor V que
+
+0:02:52.480,0:02:56.519
+nós queremos.
+
+0:02:54.640,0:03:00.920
+Este vetor V que nós queremos. Porquê?
+
+0:02:56.519,0:03:02.959
+Porque este vetor V,
+
+0:03:00.920,0:03:05.480
+ele
+
+0:03:02.959,0:03:07.280
+é perpendicular,
+
+0:03:05.480,0:03:10.280
+ele vai ser perpendicular a estes dois
+
+0:03:07.280,0:03:10.280
+vetores,
+
+0:03:12.680,0:03:16.239
+OK?
+
+0:03:14.640,0:03:20.040
+Ele vai ser perpendicular a estes dois
+
+0:03:16.239,0:03:24.440
+vetores simultaneamente.
+
+0:03:20.040,0:03:27.637
+OK? Portanto, é perpendicular
+
+0:03:24.440,0:03:28.640
+a este vetor V1.
+
+0:03:27.637,0:03:30.519
+[roncando]
+
+0:03:28.640,0:03:33.000
+Então, todos os vetores que são
+
+0:03:30.519,0:03:35.120
+perpendiculares a este vetor V1, que é o
+
+0:03:33.000,0:03:36.959
+normal ao plano, estão sobre o plano.
+
+0:03:35.120,0:03:39.720
+Portanto, se V é perpendicular a este
+
+0:03:36.959,0:03:41.599
+vetor, está a sua pertence ao plano. E
+
+0:03:39.720,0:03:43.760
+simultaneamente é perpendicular a este
+
+0:03:41.599,0:03:46.080
+outro, também pertence ao plano P2.
+
+0:03:43.760,0:03:49.959
+Então, vemos que V tem que pertencer
+
+0:03:46.080,0:03:52.599
+simultaneamente aos planos P1, P2.
+
+0:03:49.959,0:03:54.200
+OK? Pronto.
+
+0:03:52.599,0:03:56.439
+Eh, podem convencer-se que isto é
+
+0:03:54.200,0:03:58.319
+verdade. Eh, pode não ser muito
+
+0:03:56.439,0:04:01.480
+intuitivo,
+
+0:03:58.319,0:04:03.799
+mas depois mais à frente vamos resolver
+
+0:04:01.480,0:04:05.079
+por um outro processo. Vamos fazer a
+
+0:04:03.799,0:04:06.360
+interseção por outro processo. Para já
+
+0:04:05.079,0:04:08.439
+vamos resolver aqui pelo produto
+
+0:04:06.360,0:04:12.480
+externo. Portanto, eu vou dizer: "Sim,
+
+0:04:08.439,0:04:15.920
+senhor, o vetor é o produto externo.
+
+0:04:12.480,0:04:15.920
+Este vetor V
+
+0:04:17.880,0:04:21.519
+é o produto externo,
+
+0:04:23.160,0:04:31.280
+OK? E, portanto, depois fica a faltar
+
+0:04:26.479,0:04:34.199
+apenas calcular um ponto x0. OK? Para
+
+0:04:31.280,0:04:37.800
+obter um ponto x0,
+
+0:04:34.199,0:04:37.800
+o que vamos fazer
+
+0:04:38.479,0:04:43.720
+é que, claro que existem infinitos
+
+0:04:41.199,0:04:46.639
+pontos x0 que eu posso pôr aqui, porque
+
+0:04:43.720,0:04:48.080
+se eu quero uma equação de uma reta
+
+0:04:46.639,0:04:50.120
+e se eu já tenho aqui um determinado
+
+0:04:48.080,0:04:51.560
+vetor V,
+
+0:04:50.120,0:04:53.120
+eu agora simplesmente preciso de
+
+0:04:51.560,0:04:54.520
+encontrar um ponto qualquer que esteja
+
+0:04:53.120,0:04:56.840
+sobre a reta. Existem infinitos,
+
+0:04:54.520,0:05:00.120
+portanto existirão infinitas combinações
+
+0:04:56.840,0:05:04.720
+que eu poderei pôr aqui. OK? Pronto, o
+
+0:05:00.120,0:05:07.000
+que vai acontecer é que vamos,
+
+0:05:04.720,0:05:09.240
+tentamos assignar, por exemplo, a um
+
+0:05:07.000,0:05:13.120
+valor Z0, tentamos assignar zero. E se
+
+0:05:09.240,0:05:16.000
+eu fizer Z0 = a 0?
+
+0:05:13.120,0:05:20.360
+Ao vir aqui a este sistema
+
+0:05:16.000,0:05:22.120
+assignando Z = Z0,
+
+0:05:20.360,0:05:24.039
+fica com um sistema que eu à partida
+
+0:05:22.120,0:05:26.919
+poderei resolver
+
+0:05:24.039,0:05:28.880
+duas equações a duas incógnitas.
+
+0:05:26.919,0:05:30.520
+Caso desse um sistema indeterminado,
+
+0:05:28.880,0:05:34.360
+então quer dizer que o z0 não poderia
+
+0:05:30.520,0:05:37.759
+ser zero. Nesse caso, atribuiria y0 = 0
+
+0:05:34.360,0:05:41.440
+ou x0 = 0 ou qualquer outro valor que me
+
+0:05:37.759,0:05:44.639
+permita resolver o sistema. Portanto,
+
+0:05:41.440,0:05:48.479
+eh sabemos que a reta
+
+0:05:44.639,0:05:49.720
+eh vai ter um grau de liberdade. É um
+
+0:05:48.479,0:05:51.400
+objeto de um grau de liberdade. Quer
+
+0:05:49.720,0:05:53.400
+dizer que eu posso assignar um valor
+
+0:05:51.400,0:05:56.600
+qualquer uma determinada variável. Neste
+
+0:05:53.400,0:05:58.880
+caso, eu vou assignar zero e os outros,
+
+0:05:56.600,0:06:01.600
+pois resultam
+
+0:05:58.880,0:06:05.560
+resultam dessa minha primeira escolha.
+
+0:06:01.600,0:06:07.400
+OK? Bom, eh, à partida não vale a pena
+
+0:06:05.560,0:06:09.840
+tentar aqui simplificar mais, obter aqui
+
+0:06:07.400,0:06:11.440
+uma forma mais generalizada.
+
+0:06:09.840,0:06:13.840
+E sendo assim, vamos passar para um
+
+0:06:11.440,0:06:16.319
+problema concreto. Neste caso, vamos
+
+0:06:13.840,0:06:18.800
+resolver aqui um problema concreto. Não
+
+0:06:16.319,0:06:23.199
+me pareceu fácil aqui expandir isto mais
+
+0:06:18.800,0:06:26.120
+para obter alguma fórmula mais genérica.
+
+0:06:23.199,0:06:28.599
+Também não investiguei se haverá ou não
+
+0:06:26.120,0:06:30.280
+essa fórmula, mas vamos resolver um
+
+0:06:28.599,0:06:33.360
+problema concreto. Vamos dizer aqui que
+
+0:06:30.280,0:06:36.639
+temos dois planos.
+
+0:06:33.360,0:06:38.919
+Portanto, vamos dizer P1
+
+0:06:36.639,0:06:41.520
+e X
+
+0:06:38.919,0:06:45.520
++ Y
+
+0:06:41.520,0:06:45.520
++ G = 3.
+
+0:06:45.759,0:06:51.680
+E vamos dizer P2,
+
+0:06:49.160,0:06:54.319
+vamos dizer X
+
+0:06:51.680,0:06:56.400
++ 2Y
+
+0:06:54.319,0:06:59.440
+- 3z
+
+0:06:56.400,0:07:01.680
+= 1. OK? Pronto. Então, sendo assim,
+
+0:06:59.440,0:07:06.440
+vamos ter o V,
+
+0:07:01.680,0:07:06.440
+o produto externo será,
+
+0:07:06.800,0:07:14.240
+ora, o X, o Y,
+
+0:07:10.000,0:07:21.160
+o Z. Temos aqui 1 1 1
+
+0:07:14.240,0:07:26.240
+2 - 3 1 2 - 3 e portanto dá temos aqui
+
+0:07:21.160,0:07:26.240
+-3 - 2 - 5.
+
+0:07:26.280,0:07:33.120
+Temos aqui 1 men -3
+
+0:07:29.800,0:07:33.120
+dá 4
+
+0:07:33.520,0:07:38.520
+e temos aqui 2 - 1 1. Pronto, aqui está.
+
+0:07:37.000,0:07:40.440
+E, portanto, este vetor é
+
+0:07:38.520,0:07:43.080
+simultaneamente
+
+0:07:40.440,0:07:48.080
+perpendicular
+
+0:07:43.080,0:07:51.199
+eh a estes vetores aqui, ó, 1 1 1
+
+0:07:48.080,0:07:52.680
+e ao 1 2 - 3. E podemos fazer um produto
+
+0:07:51.199,0:07:57.639
+interno mentalmente para ver que tá
+
+0:07:52.680,0:08:03.240
+correto. Reparem aqui, -5 + 4 + 1 dá 0,
+
+0:07:57.639,0:08:06.720
+tá correto? E aqui -5 + 4 x 2 8 dá 3. 3
+
+0:08:03.240,0:08:09.080
+- 3 0. Tá correto? Portanto, mentalmente
+
+0:08:06.720,0:08:12.280
+já comprovei que tá correto, que não me
+
+0:08:09.080,0:08:14.960
+enganei, que este vetor é perpendicular
+
+0:08:12.280,0:08:16.800
+a estes dois vetores, cujos estes dois
+
+0:08:14.960,0:08:18.879
+vetores são perpendiculares aos planos.
+
+0:08:16.800,0:08:20.479
+Portanto, este é o é o vetor que nós
+
+0:08:18.879,0:08:25.400
+queremos. Portanto, então já tenho aqui
+
+0:08:20.479,0:08:28.960
+a reta, já tá quase completa, X,
+
+0:08:25.400,0:08:28.960
+eh, Y,
+
+0:08:29.840,0:08:36.959
+portanto, X
+
+0:08:32.200,0:08:40.080
+Y C = X0
+
+0:08:36.959,0:08:44.120
+Y0 C0
+
+0:08:40.080,0:08:46.839
++ K um vetor -5
+
+0:08:44.120,0:08:48.519
+4
+
+0:08:46.839,0:08:50.399
+OK?
+
+0:08:48.519,0:08:51.880
+Ora, então o que é que vamos fazer? Como
+
+0:08:50.399,0:08:54.600
+eu disse, vamos fazer. Bom, agora
+
+0:08:51.880,0:08:56.680
+falta-me falta-me resolver aqui este
+
+0:08:54.600,0:08:59.839
+ponto. Então, o que é que eu vou fazer?
+
+0:08:56.680,0:09:02.959
+Vou fazer, bom, deixa-me assignar, por
+
+0:08:59.839,0:09:05.160
+exemplo, Z = 0. E não foi à toa, foi
+
+0:09:02.959,0:09:07.920
+porque eu vi estas duas equações e vi,
+
+0:09:05.160,0:09:10.279
+bom, aqui em Z tenho três.
+
+0:09:07.920,0:09:13.000
+Eh, portanto, fazendo z = a 0 é é
+
+0:09:10.279,0:09:16.839
+obtenho a melhor simplificação possível.
+
+0:09:13.000,0:09:19.040
+com z = a 0, obtenho ali a melhor
+
+0:09:16.839,0:09:22.200
+simplificação. E agora até resolver este
+
+0:09:19.040,0:09:27.720
+sistema de cabeça, porque eu vejo que x
+
+0:09:22.200,0:09:31.040
+- x dá 0, 2y - y dá y e 1 - 3 dá -2,
+
+0:09:27.720,0:09:34.040
+portanto y = -2. OK?
+
+0:09:31.040,0:09:35.560
+Pronto. Portanto, como vem, sistemas
+
+0:09:34.040,0:09:39.360
+simples, até podemos resolver isto aqui
+
+0:09:35.560,0:09:43.959
+de cabeça. E, portanto, se tenho aqui
+
+0:09:39.360,0:09:47.680
+e este é igual a 0, o z = a 0. Se y =
+
+0:09:43.959,0:09:50.800
+-2, x = 5. Pronto, cá está. Então,
+
+0:09:47.680,0:09:53.120
+obtive aqui um ponto. Pronto, como digo,
+
+0:09:50.800,0:09:55.401
+são possíveis infinitos pontos. Este é
+
+0:09:53.120,0:09:57.421
+um ponto, calhou ser um ponto.
+
+0:09:55.401,0:09:57.421
+[roncando]
+
+0:09:58.160,0:10:02.000
+E tá tá encontrada a reta.
+
+0:10:00.641,0:10:05.279
+[roncando]
+
+0:10:02.000,0:10:07.399
+Vamos ver um outro método. É possível eh
+
+0:10:05.279,0:10:09.320
+fazer interseção
+
+0:10:07.399,0:10:11.160
+dos dois planos sem quaisquer
+
+0:10:09.320,0:10:13.399
+conhecimentos de produto externo? Sim, é
+
+0:10:11.160,0:10:16.120
+possível. Eu aqui fiz pelo produto
+
+0:10:13.399,0:10:18.880
+externo para vocês verem efetivamente
+
+0:10:16.120,0:10:21.800
+que é o produto externo dos dois vetores
+
+0:10:18.880,0:10:24.680
+normais aqui dos planos, pois que me dá
+
+0:10:21.800,0:10:26.160
+o vetor da reta interseção dos dois
+
+0:10:24.680,0:10:29.640
+planos.
+
+0:10:26.160,0:10:31.480
+fiz como como curiosidade, mas é
+
+0:10:29.640,0:10:35.200
+possível resolver isto de uma forma mais
+
+0:10:31.480,0:10:37.320
+simples. É possível chegar aqui e dizer
+
+0:10:35.200,0:10:40.000
+que
+
+0:10:37.320,0:10:42.519
+e se vocês repararem aqui, esta
+
+0:10:40.000,0:10:44.800
+expressão da reta, ela é equival ela é
+
+0:10:42.519,0:10:50.399
+equivalente a a um a um sistema
+
+0:10:44.800,0:10:56.800
+paramétrico no qual eu diga que bom, G
+
+0:10:50.399,0:10:56.800
+é igual a G0 + K, ou seja, G = K.
+
+0:10:58.880,0:11:09.600
+y = y0 + 4k. Portanto, y = -2
+
+0:11:06.320,0:11:11.519
++ 4k
+
+0:11:09.600,0:11:15.680
+e x
+
+0:11:11.519,0:11:15.680
+é ig a 5 - 5k.
+
+0:11:18.680,0:11:23.519
+Ok? Portanto, este é esta é uma forma
+
+0:11:21.560,0:11:26.480
+equivalente de escrever esta esta
+
+0:11:23.519,0:11:28.880
+equação. OK?
+
+0:11:26.480,0:11:31.279
+Aqui tenho a equação.
+
+0:11:28.880,0:11:34.760
+Ora isto aqui straight and estava-me a
+
+0:11:31.279,0:11:34.760
+faltar aqui isto.
+
+0:11:37.839,0:11:41.880
+Sim, senhora. Portanto, esta é uma forma
+
+0:11:39.720,0:11:43.720
+equivalente
+
+0:11:41.880,0:11:45.839
+equações paramétricas. Assim está numa
+
+0:11:43.720,0:11:48.120
+forma vetorial, digamos assim, mais
+
+0:11:45.839,0:11:50.920
+paramétrica também. é meio porque tá ali
+
+0:11:48.120,0:11:53.720
+o parâmetro tá tá expresso.
+
+0:11:50.920,0:11:56.440
+Ora bem, vamos ver outra forma então de
+
+0:11:53.720,0:11:59.240
+resolver isto.
+
+0:11:56.440,0:12:01.639
+Temos o sistema interseção dos dois
+
+0:11:59.240,0:12:07.440
+planos.
+
+0:12:01.639,0:12:10.519
+x + y + g = 3.
+
+0:12:07.440,0:12:12.760
+Temos x
+
+0:12:10.519,0:12:15.760
++ 2y
+
+0:12:12.760,0:12:18.240
+- 3g = 1. Sim, senhor. Então, o que é
+
+0:12:15.760,0:12:20.839
+que nós vamos fazer?
+
+0:12:18.240,0:12:23.839
+Eh,
+
+0:12:20.839,0:12:23.839
+vamos
+
+0:12:26.600,0:12:31.399
+começar a resolver o sistema.
+
+0:12:30.120,0:12:34.639
+Eliminando aqui uma variável, por
+
+0:12:31.399,0:12:37.440
+exemplo, aqui eliminando o x
+
+0:12:34.639,0:12:39.839
+e obtendo aqui, por exemplo,
+
+0:12:37.440,0:12:45.120
+a primeira equação menos a segunda,
+
+0:12:39.839,0:12:47.480
+eliminamos x y - 2y dá - y
+
+0:12:45.120,0:12:51.800
+z
+
+0:12:47.480,0:12:51.800
+- 3z dá + 4z
+
+0:12:52.320,0:12:59.000
+igual a 2. OK?
+
+0:12:55.720,0:13:01.399
+E agora o que é que nós vamos fazer?
+
+0:12:59.000,0:13:03.720
+Vamos,
+
+0:13:01.399,0:13:06.000
+olhando para aqui,
+
+0:13:03.720,0:13:07.959
+vamos
+
+0:13:06.000,0:13:09.519
+escolher, cá está, escolher uma das
+
+0:13:07.959,0:13:13.000
+variáveis
+
+0:13:09.519,0:13:15.120
+e atribuí-la diretamente ao parâmetro.
+
+0:13:13.000,0:13:17.240
+No fundo, é o mesmo que que dizer que
+
+0:13:15.120,0:13:20.040
+estamos a assignar que como g0 sendo
+
+0:13:17.240,0:13:22.240
+igual a zer. Reparem que aqui g0 ig a 0,
+
+0:13:20.040,0:13:25.480
+por isso só aparece aqui K.
+
+0:13:22.240,0:13:28.320
+Sim, senhor. Então eu vamos dizer
+
+0:13:25.480,0:13:34.829
+que aqui
+
+0:13:28.320,0:13:34.959
+seja Z igual a K. Seja Z = K.
+
+0:13:34.829,0:13:42.000
+[roncando]
+
+0:13:34.959,0:13:45.120
+sendo z = k, resulta que y = 4k - 2.
+
+0:13:42.000,0:13:47.040
+y = 4k
+
+0:13:45.120,0:13:48.160
+- 2.
+
+0:13:47.040,0:13:50.440
+Eh, reparem que estamos a obter
+
+0:13:48.160,0:13:51.920
+exatamente os mesmos valores que que eu
+
+0:13:50.440,0:13:54.920
+obtive aqui, mas isso é apenas uma
+
+0:13:51.920,0:13:58.000
+coincidência. Isso resulta da forma como
+
+0:13:54.920,0:14:00.240
+eu aqui optei por subtrair a segunda
+
+0:13:58.000,0:14:02.000
+equação da primeira, portanto, e foi
+
+0:14:00.240,0:14:04.079
+coincidência porque poderíamos obter uma
+
+0:14:02.000,0:14:05.720
+outra expressão qualquer. É como digo, a
+
+0:14:04.079,0:14:08.800
+partir do vetor, não, o vetor será
+
+0:14:05.720,0:14:12.600
+sempre ou este ou um simétrico. Aqui não
+
+0:14:08.800,0:14:15.240
+há forma de variar. - 5 4 1 ou poderia
+
+0:14:12.600,0:14:16.800
+ser o 5 - 4 - 1. Obviamente que também
+
+0:14:15.240,0:14:19.440
+seria um vetor simétrico, também estaria
+
+0:14:16.800,0:14:20.959
+sobre a reta. OK? Agora, a questão das
+
+0:14:19.440,0:14:22.839
+constantes poderia aqui ter dado uma
+
+0:14:20.959,0:14:24.800
+outra constante qualquer, porque são
+
+0:14:22.839,0:14:26.199
+possíveis infinitas soluções, infinitos
+
+0:14:24.800,0:14:29.279
+pontos, desde que os pontos estejam
+
+0:14:26.199,0:14:32.800
+sobre a reta. OK? Atenção, aqui por por
+
+0:14:29.279,0:14:34.920
+coincidência estamos a obter exatamente
+
+0:14:32.800,0:14:36.880
+as mesmas constantes. Aqui para y obtive
+
+0:14:34.920,0:14:37.720
+o -2, tal como aqui para y também tenho
+
+0:14:36.880,0:14:39.519
+o -2, mas isso é [limpando a garganta]
+
+0:14:37.720,0:14:42.759
+coincidência.
+
+0:14:39.519,0:14:45.800
+Portanto, então aqui vemos que, OK, se y
+
+0:14:42.759,0:14:52.639
+4k - 2, agora, substituindo aqui na
+
+0:14:45.800,0:14:54.279
+equação de cima, eh, 4K - 2 + k vai dar
+
+0:14:52.639,0:14:59.839
+5k
+
+0:14:54.279,0:15:03.560
+- 2, passa para este lado, vai dar 5
+
+0:14:59.839,0:15:05.160
+h -5k,
+
+0:15:03.560,0:15:10.440
+ok?
+
+0:15:05.160,0:15:13.920
+X = 5 - 5k, portanto, OK. obtivemos
+
+0:15:10.440,0:15:15.680
+a mesma solução, a equação da reta,
+
+0:15:13.920,0:15:17.720
+sem recorrer ao produto externo.
+
+0:15:15.680,0:15:19.600
+Portanto, aqui seria possível, é
+
+0:15:17.720,0:15:22.480
+possível calcular a interseção da reta
+
+0:15:19.600,0:15:25.720
+sem quaisquer conhecimentos do produto
+
+0:15:22.480,0:15:28.440
+externo. OK? Pronto, chegamos ao mesmo
+
+0:15:25.720,0:15:31.240
+resultado. Neste caso, por coincidência,
+
+0:15:28.440,0:15:34.279
+as expressões paramétricas iguais.
+
+0:15:31.240,0:15:37.720
+Finalmente podemos eh fazer uma
+
+0:15:34.279,0:15:40.680
+contraprova, uma contraprova e comprovar
+
+0:15:37.720,0:15:42.959
+que realmente que esta reta é correta e
+
+0:15:40.680,0:15:44.839
+que ela pertence
+
+0:15:42.959,0:15:46.720
+interceta aos dois planos. Ela tem que
+
+0:15:44.839,0:15:48.399
+estar,
+
+0:15:46.720,0:15:50.319
+portanto, tem que fazer parte dos dois
+
+0:15:48.399,0:15:52.959
+planos em simultâneo. OK? Se olharmos
+
+0:15:50.319,0:15:57.360
+aqui esta expressão das retas, significa
+
+0:15:52.959,0:16:00.920
+que x, OK? Ou seja, 5 - 5k.
+
+0:15:57.360,0:16:00.920
+5 - 5k.
+
+0:16:01.480,0:16:09.639
+Ora, + y.
+
+0:16:04.440,0:16:09.639
+Ora, + y, portanto, -2 + 4k
+
+0:16:10.759,0:16:16.440
++ g
+
+0:16:12.600,0:16:18.680
++ k tem que ser igual a 3. Ok? Portanto,
+
+0:16:16.440,0:16:21.639
+este é o ponto genérico x y z
+
+0:16:18.680,0:16:23.800
+parametrizado com k, portanto, que são
+
+0:16:21.639,0:16:27.000
+pontos ao longo de uma reta.
+
+0:16:23.800,0:16:30.279
+Substituo na equação do plano e tem que
+
+0:16:27.000,0:16:33.880
+validar e dar uma equação certa. 4K 4 e
+
+0:16:30.279,0:16:36.759
+1 5 5 - 5k tá correto? 5 - 2 3 está
+
+0:16:33.880,0:16:39.399
+correto. Tá correto que esta reta,
+
+0:16:36.759,0:16:41.639
+qualquer ponto desta reta pertença a
+
+0:16:39.399,0:16:44.399
+este plano. Qualquer ponto desta reta
+
+0:16:41.639,0:16:46.839
+verifica a equação do plano. OK?
+
+0:16:44.399,0:16:50.000
+Portanto, está correto, está validado.
+
+0:16:46.839,0:16:53.959
+Vamos ver se qualquer ponto desta reta
+
+0:16:50.000,0:16:56.160
+verifica a equação, a segunda esta do
+
+0:16:53.959,0:17:00.319
+deste segundo plano. Portanto, dizemos
+
+0:16:56.160,0:17:09.120
+que x 5 - 5k,
+
+0:17:00.319,0:17:14.559
+que é o x, + 2y, ou seja, + 2y - 4 + 8k,
+
+0:17:09.120,0:17:18.319
+- 3d, ou seja, - 3k tem que dar 1.
+
+0:17:14.559,0:17:21.280
+Ora, 8k - 5k - 3k, corta, corta, corta.
+
+0:17:18.319,0:17:23.360
+5 - 4 1. Tá correto? Pronto, esta, como
+
+0:17:21.280,0:17:25.120
+viram aqui, fizemos uma espécie de prova
+
+0:17:23.360,0:17:28.319
+dos nove, uma contraprova em que
+
+0:17:25.120,0:17:30.640
+verificamos que se está corretíssimo a
+
+0:17:28.319,0:17:33.240
+equação paramétrica da reta. Ela
+
+0:17:30.640,0:17:35.160
+verifica o primeiro plano e verifica o
+
+0:17:33.240,0:17:38.679
+segundo plano. Portanto, é de facto a
+
+0:17:35.160,0:17:41.880
+reta correta, que é interseção dos dois
+
+0:17:38.679,0:17:43.880
+planos, uma vez que satisfaz em
+
+0:17:41.880,0:17:46.559
+simultâneo, uma reta satisfaz em
+
+0:17:43.880,0:17:47.840
+simultâneo dois planos, então só pode
+
+0:17:46.559,0:17:50.480
+ser a reta [limpando a garganta]
+
+0:17:47.840,0:17:52.360
+interseção dos dois planos.
+
+0:17:50.480,0:17:55.320
+Eh, e pronto, vamos ficar por aqui.
+
+0:17:52.360,0:17:59.080
+Penso que isto foi um problema simples.
+
+0:17:55.320,0:18:01.720
+Eh, penso que a seguir
+
+0:17:59.080,0:18:03.679
+vamos entrar num numa outra área da
+
+0:18:01.720,0:18:06.200
+matemática, num outro capítulo que será
+
+0:18:03.679,0:18:08.039
+realmente da derivação.
+
+0:18:06.200,0:18:10.039
+Esta parte das bases penso que já está
+
+0:18:08.039,0:18:11.640
+praticamente tudo visto. Penso que não
+
+0:18:10.039,0:18:13.720
+me esquecia assim de nada de especial.
+
+0:18:11.640,0:18:15.960
+Vimos produto interno, produto externo,
+
+0:18:13.720,0:18:17.679
+triplo produto escalar. Existem sempre
+
+0:18:15.960,0:18:20.120
+outros tópicos, como é óbvio, tá? Eu
+
+0:18:17.679,0:18:23.200
+pensei fazer um tutorial sobre o o
+
+0:18:20.120,0:18:24.880
+triplo produto vetorial, mas a partida
+
+0:18:23.200,0:18:26.880
+não. Agora para já não vejo isso
+
+0:18:24.880,0:18:29.120
+relevante. Claro que isto a matemática
+
+0:18:26.880,0:18:31.480
+não tem fim, não é? Tá sempre múltipos e
+
+0:18:29.120,0:18:34.240
+múltiplos tópicos. OK? Vimos indução
+
+0:18:31.480,0:18:36.840
+matemática, vimos já algum umas formas
+
+0:18:34.240,0:18:39.799
+de somatórias, etc, etc, etc. Pronto,
+
+0:18:36.840,0:18:41.600
+vimos que acho que já cobrimos as bases
+
+0:18:39.799,0:18:43.880
+o suficiente e podemos agora passar à
+
+0:18:41.600,0:18:46.039
+segunda fase, que será a parte da
+
+0:18:43.880,0:18:47.559
+derivação. Penso que será o meu próximo
+
+0:18:46.039,0:18:50.919
+tutorial.
+
+0:18:47.559,0:18:53.480
+Eh, obrigado e até a próxima
+
+0:18:50.919,0:18:53.480
+oportunidade.
+
+

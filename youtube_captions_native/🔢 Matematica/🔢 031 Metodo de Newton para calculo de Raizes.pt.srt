@@ -1,0 +1,802 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Eh, hoje vai ser dedicado ao famoso
+método Newton
+para cálculo de de raízes, das raízes de
+uma função,
+um método de cálculo numérico, portanto,
+um método aproximativo.
+OK?
+Ora, então vamos ver o que é que
+consiste.
+Portanto,
+vou traçar aqui um sistema de eixos.
+OK?
+Portanto, vamos considerar aqui uma
+função,
+imaginando que a função y
+igual a f(x)
+e o qual eu quero calcular esta raiz
+aqui, este valor, OK? O qual eu não eu
+não sei,
+OK? Portanto,
+eh, em que vai consistir o método?
+Portanto, o método vai consistir no
+seguinte,
+um método
+iterativo,
+no qual nós primeiro nós temos que
+manualmente assignar uma primeira
+aproximação.
+OK? Vamos dizer que eu diria que eu
+dizia assim: "Bom, este é a primeira
+aproximação,
+OK? Que eu vou eu vou chamar de X1".
+está está longe deste zero, mas pronto,
+mas é um é um uma primeira aproximação.
+Eu eu
+vou tentar dar a primeira aproximação
+tão perto quanto possível do zero o
+valor da raiz que eu não que eu não sei.
+Depois já veremos num num com um exemplo
+concreto o que é que isso significa.
+Bom, então o que é que consiste?
+Se repararmos
+para esta primeira aproximação,
+eu traçando aqui a vertical,
+OK? Eu consigo as coordenadas deste
+ponto. Portanto, as coordenadas deste
+ponto x1,
+f(x1). OK? Portanto, eu eu conheço a
+expressão da função. Eu conheço a
+função. O que o que eu não conheço é o
+zero. Eu quero eu quero calcular aqui
+esta raiz r. OK?
+Sim, senhor. Portanto, dado um qualquer
+ponto, eu posso calcular x1 f(x1). Sim,
+senhora. Agora o que vamos fazer? Traçar
+a reta tangente. OK? traçar a reta
+tangente.
+Portanto, eu vou vou vamos traçar aqui
+esta esta reta tangente.
+OK? Tá um bocadinho torto, mas vocês
+imaginem que é a reta tangente.
+Portanto, esta reta tangente como vai
+ser? Bom, eu já tenho aqui um ponto que
+pertence à reta.
+Eu já tenho aqui o ponto, um ponto que
+pertence à reta.
+E agora vou ter um vetor que pertence à
+reta.
+um vetor. Portanto, o vetor, o vetor é
+simples, é sempre 1 vírgula e o o
+declive da função no ponto. Portanto,
+portanto, vai ser f linha
+a derivada
+da função
+e neste neste ponto x1.
+OK? Pronto, já tenho um ponto e um
+vetor. Portanto, como vem, este, esse
+método de Newton é um pode ser
+considerado uma das muitas e muitas
+aplicações que existem das derivadas,
+que vocês já devem certamente que já se
+depararam com toda uma série de de
+aplicações das derivadas, como o
+calcular os os extremos das funções, os
+máximos e os mínimos, os pontos de
+infecção, etc, etc., as próprias retas
+tangentes, como estamos aqui a fazer.
+Pronto, este é um exemplo que eu achei
+por bem fazer um tutorial sobre este
+esta situação, sobre esta aplicação
+prática que é o método de Newton. Ora
+bem, então
+eh temos aqui, vou construir a equação
+da reta, portanto, a equação da reta no
+no formato vetorial.
+Ora, a equação da reta no no formato
+vetorial x
+em qualquer número de dimensão de
+dimensões igual a x0 + k v um vetor. OK?
+já vos tinha falado nisto e que este era
+esta era esta era a forma fórmula
+universal para qualquer reta e que é
+sempre a a expressão privilegiada que
+devemos sempre usar porque a reta é
+sempre válida a qualquer a qualquer
+número de dimensões.
+Eh, portanto, então aqui vamos ter,
+neste caso, estamos a trabalhar em duas
+dimensões, pois então o x
+e vai
+reduzir ao ao ponto X y a duas
+dimensões. Portanto, xy vai ser igual a
+x0. Este ponto que temos aqui,
+portanto, que que o que eu designei por
+x1 f(x1)
++ k e o vetor 1
+f lin vinha de x1.
+Sim, senhora.
+Portanto, aqui eliminamos K e fica que X
+-
+X1
+sobre 1,
+que é igual a K e que é igual a Y
+-
+F
+X1
+sobre
+Finha de X1. Pronto, esta é a equação da
+reta. Esta é a equação da reta. Eu podia
+explicitar agora em ordem y e tinha e
+tinha a equação da reta, mas eu não eu
+não preciso da equação da reta, OK? Eu
+não preciso, não preciso nem não quero a
+equação da reta. O que eu vou querer de
+imediato é qual é a interseção desta
+reta
+com o eixo dos X, que é para obter este
+ponto aqui,
+este ponto aqui
+que vai ser o x2. E e o x2, como vem, é
+uma aproximação melhor do que x1, porque
+já me estou a aproximar da raiz. OK?
+Pronto. Então, eu quero o x2.
+Então, para obter o x2,
+a interseção com o eixo do x, o eixo do
+x, já sabemos que é é tem a equação y =
+0. Pronto. Portanto, para para y = 0, eu
+quero fazer aqui o y = 0.
+OK?
+E, portanto, pois fica
+a solução para x, para y = 0, dá dá-me a
+interseção com estes x y = 0 e x = x. É
+este x que eu agora vou vou designar por
+x2.
+E este x2, portanto, fica o x1 passa
+para este lado. X2 = x1
+menos
+f(x1)
+sobre
+finha
+de x1. Pronto. E aqui temos nós. Esta é
+a forma do Newton, no qual ela é
+iterativa porque eu parto de uma
+primeira aproximação X1, o qual eu tenho
+que atribuir manualmente. Eu tenho que
+escolher normalmente de uma forma visual
+ou de alguma maneira. Já vamos ver um
+caso prático. Portanto, eu tenho que e
+eh eu tenho que assignar eu manualmente
+uma primeira aproximação X1. E agora
+eh vou calcular a a uma próxima
+aproximação
+mais forte, mais aproximada, que vai ser
+x2, de acordo com esta forma, o qual
+depois substituindo x2 na forma eu vou
+obter um x3. OK? Pronto. Sim, senhor.
+Portanto, esta esta é a nossa forma do
+método de Newton.
+Vamos ver aqui um caso prático que vê-se
+muito quando nós quando normalmente é
+sempre o caso padrão usado
+e quando há tutorial acerca deste deste
+método que é o
+é o caso de calcular uma aproximação
+para uma raiz quadrada. OK?
+Pronto. Então vamos dizer que se eu
+tenho uma função y
+que é igual a
+vou dizer
+x²
+- k
+e eu quero as raízes desta função.
+Portanto, as raízes desta função eu
+forço igual a zer.
+Pronto. Aqui desta equação.
+Resolvendo esta equação é que eu obtenho
+as raízes da função.
+E, portanto, as soluções aqui são,
+ora que x = a, o k passa para aqui o
+mais ou menos, já sabemos, mas agora vou
+só considerar o mais
+a raiz
+de k, a raiz quadrada de k. OK? Sim,
+senhora.
+Então vemos que
+eh esta é a função consoante o K. Eu
+posso calcular
+os geros dessa função serão sempre a
+raiz quadrada de K. OK? Pronto. E se eu
+disser assim, dá-me a raiz quadrada de
+2, é é é complicado, não é?
+é complicado. E mas este método vaios
+vaios dar um processo iterativo para e
+que e que por acaso converge e que
+converge rapidamente, que é uma
+característica da do método desta desta
+fórmula e deste método é é que converge
+rapidamente para a raiz.
+Caso convirja, caso nalguns casos poderá
+divergir. Eh, mas pronto, mas caso
+convirja, pois à partida vai convergir
+rapidamente.
+Também tá dependente de escolhermos uma
+primeira aproximação que seja razoável,
+não é? que não que não seja muito.
+Imaginem a raiz quadrada de 2. Imaginem
+que eu quero a raiz quadrada 2. Eu já
+sei que há de ser 1 vírgula qualquer
+coisa menor do que 2. 2 qu é 4.
+Portanto, eu não, eu não ia escolher uma
+primeira aproximação 10 ou 100 ou 1000,
+não é? Seria ridículo, mas também dá.
+Também lá chegamos. vai vai ter é mais
+mais passos dentro da iteração. Mas
+vamos ver então este caso concreto aqui.
+Portanto, eu tenho x2 - k e, portanto,
+agora com base nesta função, vou vou
+construir esta esta expressão da forma
+de Newton específica para para esta para
+este y. OK? Pronto, eu tenho este y e
+então vou vou aplicar aqui na fórmula,
+OK? E vou dizer que a aproximação x
+é é de n + 1.
+OK? Então vou vou pôr x2. Pronto, é mais
+mais fácil de perceber. Vou pôr x2 igual
+a um dado x1
+menos o valor da função. O valor da
+função
+x2 - k
+no no ponto x1.
+e a dividir pela derivada
+da da função y que é 2x,
+portanto, no ponto x1. OK?
+Ora, vamos ver um exemplo.
+Eh, em vez de calcular a raiz quadrada
+de 2, que é sempre o o caso mais comum,
+costuma-se ver no exemplo, vamos
+calcular, por exemplo, uma uma raiz
+quadrada da 3. Ok? Pronto. Então,
+reparem.
+√ quadrada de 3. Ora, eu não sei quanto
+é. Sei que tem que ser superior a 1. 1
+quad é 1. 2² é 4.
+Eh, portanto, tem que tem que tem que
+estar entre entre 1 e 2. OK? Eu eu já
+sei que e portanto √ qu
+terá que ser maior que 1 e menor que 2,
+certo? Porque 2² é 4 e 1² é 1. E,
+portanto, algunos aqui tem a raiz
+quadrada até 3. Pronto. Então eu vou dar
+uma primeira aproximação, OK? Pronto.
+Então eu vou dar, vou dizer, olha, x1
+é igual a, vou escolher o 2, por
+exemplo, vou dizer x1 = 2. Sim, senhora.
+OK.
+Agora vamos calcular o x2. A segunda
+aproximação é igual à primeira.
+O primeiro valor aqui pela fórmula vemos
+x1
+menos o valor o valor da da função desta
+função x1²
+4 - k o k é 3 neste caso, ok? Porque eu
+eu quero a raiz quadrada de 3. Este K
+aqui é 3. Sim senhor.
+Sobre
+2 x1. O x1 é 2. OK.
+Pronto. Sim, senhor.
+Ora,
+4 - 3 1 2 - 1 1/4
+e portanto 2 - 1/4 dá dá 7/4 e isto dá
+1,75.
+OK? Pronto, então aqui já tenho.
+Eh, sim, senhor. Então, vamos calcular a
+a terceira aproximação.
+OK. A a primeira foi manual,
+entra na forma. Agora já obtive a
+segunda aproximação,
+175. OK.
+A primeira, a primeira aproximação
+2, a segunda. Agora vamos calcular a
+terceira aproximação.
+Portanto, 175
+menos
+Ora, 175 qu
+- 3
+sobre 2
+x 1 75.
+OK?
+Ora,
+isto dá cerca de
+1
+73 21.
+OK?
+Pronto. E agora se calculasse a a a
+quarta aproximação,
+se eu calculass, não vou calcular, mas
+iria, eu eu veria que já já estava
+convergido,
+iria e porque já iria dar o as primeiras
+casas décima mais iguais.
+OK? Pronto. E que, portanto, não
+interessa calcular.
+e o qual na na na verdade a raiz
+quadrada de 3 pois é aproximadamente
+igual a 1 73 20.
+OK? Portanto, então reparem só com com
+duas iterações, a primeira foi manual e
+as outras duas,
+eu já obtive aqui uma uma solução
+satisfatória,
+um 7321, uma aproximação excelente até
+às milésimas. OK?
+Ora, aqui temos um exemplo em
+programação de linguagem R, que eu gosto
+muito da da linguagem R. E temos um
+exemplo onde eu implementei e programei
+a o a função Newton Method, OK?
+Eh, porventura até haverá pack que fazem
+logo isto direto. Pronto, não, mas eu às
+vezes gosto gosto de programar eu e ser
+eu a fazer as funções para por uma
+questão de de gosto que eu que eu tenho
+em em fazer as coisas. E, portanto, e
+este Newton Method, como estão aqui a
+ver, é genérica. clicou o Newton method
+a qualquer função, porque eu recebo aqui
+como parâmetro uma função qualquer f,
+porque a linguagem de programação R, ela
+ela obedece ao paradigma funcional e,
+portanto, o as funções o conteúdo dos
+das funções podem ser passados como
+parâmetro. E, portanto, esta função
+Newton método, ela recebe uma função f,
+uma primeira aproximação x0 e o número
+de passos que eu quero. OK? aqui eu
+poderia ter implementado automático, eu
+poderia ter implementado e dizer assim:
+"OK, quando vou fazendo as situações e
+quando os novos valores eh já não
+divergem muito, eu conseguia ver a
+convergência. Se eu disser, OK, o a nova
+aproximação já não difere muito da
+anterior ou difere por menos do de uma
+milésima ou de uma 10ª milésimo, eu
+poderia automaticamente e determinar,
+mas pronto, na altura quando implementei
+isto, disse: "Olha, calcula-me n steps".
+Pronto, aqui vemos então que eu tenho o
+x como a primeira aproximação, o x0
+e e depois faço um loop de n steps. E
+aqui tenho a forma de de newtono aqui.
+Aqui x = o próximo x é igual ao x atual
+- f(x) sobre pronto. E aqui o que te
+faço é para calcular a derivada e com a
+função uma função qualquer. OK? Eu então
+eu aqui tive que eh recorrer eh a a um
+package e a uma função que que vem que
+vem da linguagem eh para me fazer uma
+derivação numérica. OK? Eh, portanto,
+que é muito mais simples do que se eu
+tentasse derivar analiticamente, não é?
+embora d partida, também há processos
+para de derivação analítica hoje em dia
+nas linguagens de programação modernas,
+mas eh neste caso, como eu é um é um
+método numérico eu estou a usar, que
+portanto pouco importa se o resultado
+final vai ser uma próprio, uma
+aproximação, eu não estou a trabalhar
+com matemática analítica exata, estou a
+usar um método numérico e, portanto, a
+derivação ela própria também pode ser
+feita como método numérico. E, portanto,
+aqui tenho e - f(x) a dividir pela
+derivada num derive gradiente que é a
+derivada de f no ponto x. Pronto. E
+então depois aqui vou pondo esta
+iteração. Pronto. E depois este é um
+loop. Pronto. E aqui está um exemplo
+onde eu chamei a minha função Newton
+method. Que esta função e por sua vez
+ela faz parte de um package, de um dos
+meus packages de linguagem R. Eh, eu
+tenho uma playlist também no meu canal
+de YouTube dedicado à linguagem R.
+Eh, e portanto, eh, isto, esta, esta
+função, como eu a fiz e como é possível
+de poder ser reutilizada,
+eu integrei num dos meus packages, que é
+o package miniunctions.
+E, portanto, eu aqui chamei e eu aqui
+espaço-lhe a a expressão a a lambda
+function. Portanto, a própria, o próprio
+corpo da função é definido é o próprio
+aqui dentro, porque é uma função
+pequenina, mas também podia ser uma
+outra função externa e passar o nome da
+função. Mas neste caso, como é uma
+função pequenina, e eu não lhe passo o
+nome da função, passo todo o corpo da
+função. Pronto, se vocês conhecerem
+programação, devem entender o que eu
+estou aqui a falar.
+Portanto, ele passa aqui a lambda da
+function de x e x = x² - 3. E então,
+como eu já vos expliquei aqui neste
+tutorial, pois isto vai- me permitir
+calcular a raiz quadrada de 3, os geros
+desta função. Eu aqui dou-lhe a primeira
+aproximação aqui, o dois, tal como é
+neste exemplo eu fiz, onde aqui dei o
+dois, o primeiro valor. Pronto. E depois
+diz: "Olha, calcula-me quatro steps". E,
+portanto, cá está. E eu calculo o
+primeiro step, 1.74999,
+que é 1.75.
+OK? 1.75.
+E a seguir, no próximo, já tem 1.7321,
+cá está. E depois na terceira
+aproximação 1 73 20 508 e a seguir 1 73
+0 50 80. E, portanto, já vemos que aqui
+já não varia muito mais e, portanto,
+conseguimos e uma convergência muito
+rápida. Isto é, de facto, um método
+muito poderoso e é fácil de entender
+porque é que a convergência é rápida.
+Nós vemos isso visualmente porque nós
+vemos que este mé é tão poderoso que
+quando eu traço esta tangente os reparem
+que o x2 já está aqui muito próximo. E
+agora quando eu aplico aqui
+iterativamente
+aplico aqui a o a mesma regra, eu traço
+aqui a vertical para aqui. Tenho este
+ponto. E agora ao traçar aqui a
+tangente, reparem já como a tangente já
+vem aqui quase em cima do do ponto R. Ou
+seja, nós visualmente vemos que o método
+é muito poderoso. É, basta basta fazer
+esta is é inspeção visual para
+imediatamente termos essa perceção. OK?
+E de facto assim é em dois ou em dois ou
+três steps e obtemos já uma precisão
+fantástica para para aquilo que nós
+queremos. OK?
+Sim, senhora.
+OK. Na altura, quando já há muitos anos
+e quando eu estava a ver isto pela
+primeira vez na vida, este método, eu
+perguntei-me assim, eh, e questionei-me
+que, bom, mas eu estou aqui a traçar
+esta esta tangente e de facto eu entendo
+este este eu entendo este método. Eu
+entendo este método porque, OK, porque
+eu tenho aqui, OK, isto no fundo é uma é
+uma é um processo iterativo.
+É um processo, é um processo iterativo,
+OK? Em que no fundo eu estou aqui a
+fazer um zigu-zague. Eu venho daqui
+aqui, daqui aqui. Ag agora daqui tá aa
+tangente e tenho aqui esta segunda
+aproximação e subo daqui aqui. E agora
+outra vez aqui a tangente e subo daqui
+aqui e daqui aqui e assim
+sucessivamente. Ou seja, reparem que
+isto é, ou seja, eu estou a fazer uma
+trajetória em zigue-zague.
+OK? Pronto, é isto que é isto que
+consiste o método de Newton. É um
+zigu-zague que é uma vez e é tão é por
+isso é tão poderoso. OK. Agora e na
+altura quando eu estava a olhar para
+aqui disse-me assim: "E pá, mas isto
+funciona porque eu tenho a concavidade
+de que me dá jeito neste neste sentido."
+OK? Pronto. E na altura eu
+questionava-me e dizia assim: "Mas então
+isso eu tivesse a função com uma
+concavidade?
+com uma concavidade ao contrário. OK?
+Se eu tivesse aqui a função.
+OK.
+Pronto. Se eu tivesse a função
+com a concavidade ao contrário, então aí
+parece que isto já não funciona.
+Parece que isto já não funciona porque
+eu dava-lhe aqui um um primeiro ponto.
+Eu faço aqui a trajetória de
+zigue-zague, mas agora parece que ele
+vai divergir porque vai-se embora para
+aqui. OK. Mas não, mas não funciona na
+mesma, porque agora aqui pela mesma
+regra, ele vem aqui abaixo, OK? E ele
+vai encontrar aqui, ele vai ele vai
+encontrar aqui.
+Pronto. E, portanto, ele ele vai
+encontrar aqui este ponto. OK? Pronto. E
+agora ele faz a tangente.
+OK? Pronto. E e já e já vai encontrar
+aqui este ponto. E e portanto e agora o
+vamos imaginar que isto vinha aqui mais
+porque isto parece que foi um bocado
+forçado. Vamos imaginar que vinha aqui a
+tangente. OK. Pronto. E agora aqui
+aqui já
+fazendo a mesma trajetória e aqui a
+mesma tangente. Pronto. Não se o desenho
+tá um bocadinho mal fleiro, mas pronto.
+Mas vocês entendem. Ou seja, não tem a
+ver com a concavidade. Portanto, ela
+acaba porque o que acontece é que aqui
+as aproximações
+estão todas no mesmo lado até ao voo
+final, enquanto que aqui o que pode
+acontecer é que as aproximações podem
+oscilar em torno da raiz ao qual ela vai
+convergir. Ou seja, pronto, mas é só
+para que você tentar mostrar visualmente
+que não tem a ver com as concavidades.
+O que tem a ver é que ela, o método ou
+vai converger ou não vai. Isso também é
+rapidamente se vê. Porquê? Porque
+efetivamente
+hh
+eu eu posso posso
+fazer aqui uma função automática e que
+me detecto se ele tá a convergir ou se
+está a divergir. OK? Pronto. Se eu tiver
+a convergir, os intervalos entre as
+várias aproximações vão sendo cada vez
+mais pequenos e se tiver a divergir,
+pois à partida serão cada vez maiores e,
+portanto, e será fácil também
+identificar essa situação.
+Ora, aqui temos um exemplo para vocês
+verem o cálculo da mesma raiz quadrada
+de 3,
+mas que agora dava-lhe dava-lhe uma uma
+aproximação ridícula.
+Pronto,
+neste caso é ridíco, mas isto é para
+vocês verem em termos genérico,
+imaginando que eu tenho uma função bem
+mais complexa que esta, que não faço a
+mínima ideia qual seja o zero. OK?
+Pronto. E então eu poderia dar uma
+aproximação ridícula de um valor muito
+distante. Pronto, isto é só um exemplo
+para vocês verem essa analogia.
+Imaginando que eu não fazia a mais
+pequena ideia qual seria a raiz quadrada
+de 3, eu dava-lhe a primeira aproximação
+20,
+e dou-lhe 10 steps. OK? Então reparem
+que ele agora já não aproxima em dois ou
+três steps. Demora mais tes aqui, mas
+acaba por aproximar também. Ao chegar
+aqui ao sexto, sétimo step, a partir do
+sétimo step, pois é, já chegou à
+aproximação bastante rigorosa e e
+pronto, e já fixou. Reparem que a partir
+daqui as aproximações 8, 9, 10 já não
+variam, já aqui já tem um valor
+constante e pronto, e agora já não sai
+daqui. Portanto, teve aqui agora já aqui
+já convergiu totalmente, já não tem mais
+precisão do que isto. OK? Portanto,
+demorou, demorou mais uns quantos steps,
+mas consegue calcular também. Por isso,
+por isso é que este método é é tão
+poderoso e tão robusto, OK? Porque
+normalmente partindo agora imaginem uma
+função, imaginem uma função com várias
+com várias raízes.
+Aí, pronto, aí pode haver o problema. Eu
+terei que procurar uma aproximação, uma
+primeira aproximação visualmente que
+seja próxima da raiz que eu quero. OK?
+Pronto. Então, e caso contrário, pois
+poderá poderá convergir para uma outra
+qualquer raiz. Eu vou encontrar, eu
+posso encontrar uma raiz. Pronto. E
+depois, mas aí, pronto, aí já tem que se
+tem o conhecimento de caso a caso dentro
+da função que eu estou a estudar. eh o
+caso em que possa ter várias raízes e,
+portanto, eh pois terei que ter isso em
+atenção, porque este met à partida irá
+convergir para a raiz mais próxima, mais
+próxima do do valor da primeira
+aproximação que eu que eu lhe atribuí,
+não é?
+Ora, mas nós já tínhamos visto num dos
+meus tutoriais anteriores que, por
+exemplo, para o cálculo de de raízes
+quadradas,
+eh, como poderia ser raízes de outro
+índice, mas foi o no caso concreto, foi
+raízes quadradas e nós tínhamos visto a
+generalização do método de Newton. OK?
+Vamos relembrar aqui.
+Vamos relembrar aqui que
+na altura tinha eu tinha posto o feito a
+expansão em série de potências. de 1 + 1
+elevado a 1/io,
+OK? Usando a generalização do método de
+Newton, do binómio de Newton. OK?
+Pronto. Então agora e vou fazer um caso
+mais genérico. Vou fazer 1 +
+alfa,
+OK? Ele a 1/2.
+Imaginem para alfa igual a 2 e lá do
+meio depois dá a raiz quadrada de 3, que
+é o que eu quero. Isto é para verem que
+o método de Newton é mais poderoso
+porque eu ponho rapidamente uma função
+qualquer e pronto e faço a convergência,
+seja qual for a função. Pronto, este
+método agora aqui é um método para pois
+para para com potências e, portanto, que
+me permite calcular uma uma raiz, uma no
+caso da função de eu querer uma raiz,
+neste caso uma raiz quadrada, pois posso
+usar este método. E eu vou expandir aqui
+os termos, mas depois não vou estar a
+fazer os cálculos, vou-vos só dizer que
+se vocês quiserem podem fazer isso no
+computador e estudar e vão verificar que
+como a convergência é tão mais lenta com
+este método, embora também converge, mas
+é muito mais lenta, converge muito mais
+devagar do do que o método de Newton. O
+método de Newton realmente é muit é
+muito forte. Ora bem, vamos relembrar
+aqui a a forma do binómio do Newton.
+Portanto, a + b
+elevado a n com n inteiro, o qual depois
+a generalização eu passo a poder usar um
+r qualquer, diferente inteiro, mas com n
+inteiro. É um somatório com e de mais 1
+termos, OK? quando o i varia de zero até
+n
+e tenho as potências o a
+e que começa por por n - i e depois
+tenho o as potências do b
+que que começam com aqui com o valor i
+começa por zero e depois vai até n e
+depois tenho a função combinatória
+c
+N i Ok? Pronto. É o binómio Newton,
+sendo que CNI
+é igual ao NN fatorial
+sobre i fatorial
+n - i fatorial. Ok? Pronto. Então agora
+olhando aqui para esta expressão, para
+esta expressão nós vemos que o portanto
+o a é igual a 1. Ok? O a é igual a 1.
+Portanto, então isto vai simplificar.
+Então isto vai dar OK. Portanto, com a
+ig. Portanto, as potências de a vão ser
+sempre um, OK? 1
++ 1
+mais 1,
+mais 1. Depois temos eh as potências de
+B, que é 1/2.
+O primeiro aqui é 1/2 elevado a 0, que é
+1. Aqui será 1/2 elevado a 1.
+Eh, desculpem, é um meio
+as potências. Portanto, o alfa,
+portanto, o alfa igual a 0 aqui é 1.
+Aqui α elevado a 1
+α²
+alfa ao cubo. OK?
+Eh,
+sim, senhora. E, portanto, agora e
+a a expressão combinatória, que é o que
+é o que me falta.
+Então, tenho
+o primeiro termo, já sabemos que é
+sempre um. Lembram-se do triângulo de
+Pascal? Portanto, o primeiro termo é
+sempre um.
+O primeiro termo é sempre um. Lembram-se
+que o segundo termo era sempre o valor
+da potência. Lembra? Lembrem-se do
+triângulo Pascal? OK? E, portanto, o
+segundo termo é sempre 1/2.
+OK? Pronto.
+Ou seja, olhando aqui à expressão da
+função combinatória, nós vemos que
+o primeiro termo é n,
+o primeiro termo é 1. Pronto, mas o
+segundo termo vai ser n fatorial e em
+baixo é sobre n - 1 fatorial que corta
+e, portanto, em cima fica n,
+OK?
+e em baixo o o fatorial de 1 que é 1.
+Pronto. OK? Este é o segundo termo. O
+primeiro termo é 1. O segundo termo é n.
+Cá está.
+O termo seguinte com i = 2 vai haver
+aqui um corta no fatorial e em cima fica
+nn - 1.
+N - 1
+sobre 2 fatorial.
+Pronto. Portanto, esta é que é a
+expressão, esta é que é a sequência que
+nós precisamos.
+e a seguir n
+- 1 n - 2
+sobre 3 fatorial.
+Pronto, esta é a expressão. Pronto,
+então aqui temos temos o 1 o 1/
+1 aqui 1/2 - 1 dá - 1/2, ou seja, dá -
+1/4.
+OK? Pronto, aqui este este o primeiro
+termo é 1 aqui é 1/2
+o n é potência 1/ aqui fica 1/o
+sobre 2 fatorial
+ok e portanto aqui fica 1/4
+- 1/8 portanto aqui - 1/8
+ok
+e portanto a seguir a mesma coisa
+Eh, o 1/
+depois 1/ 2
+eh
+sobre 4 fatorial. Pronto, tudo isto,
+isto vai dar eh
+aqui vai dar positivo, 1
+eh, se não me engano nas contas
+e e assim sucessivamente.
+OK.
+Pronto,
+como podem ver, pronto, é isto, é só
+para contrastarem com o método de
+Newton, uma questão de se dará mais
+trabalho ou menos a programar, não sei,
+por não não programei isto. não me
+lembro que nunca programei uma expansão
+destas,
+mas mas pronto, mas eu já sei que que
+converge muito mais lentamente, OK?
+Neste caso, imaginando que nós queríamos
+a aproximação
+da raiz quadrada de 3,
+então seria fazendo alfa igual a 2,
+portanto seria aproximadamente igual a 1
++
+o alfa = 2. 2/ 2 1.
+O alfa = 2 - 4/8.
+o alfa = 2³ +
+eh 816 avos,
+OK?
+Eh, e assim sucessivamente. O outro
+termo, agora o próximo termo acho que é
+é negativo. Pronto, não vou não vou
+fazer agora mais valores. Isto era só
+para vocês verem, para vocês
+contrastarem um outro método, para verem
+como a matemática às vezes tem tem tem
+tantas maneiras de fazer as coisas.
+Pronto, este é o método que nós já
+tínhamos visto no outro tutorial,
+portanto achei por bem a relembrar aqui
+para contrastar com com esta forma da
+Newton, OK? Forma de Newton é muito mais
+poderosa,
+OK?
+Eh, e pronto, penso que ficamos por aqui
+neste tutorial. Foi uma um caso de de
+aplicabilidade de das derivadas, OK?
+Eh, certamente que vocês já dev já
+deverão ter estudado, como eu disse,
+muitas muitas outros casos. das outras
+situações de aplicações das derivadas.
+E pronto, ficamos por aqui. Espero que
+tenham gostado e até uma próxima
+oportunidade.
+

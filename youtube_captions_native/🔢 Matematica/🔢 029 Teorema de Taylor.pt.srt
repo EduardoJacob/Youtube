@@ -1,0 +1,1343 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Ora, hoje vamos tratar então da do
+famoso teorema de Tor.
+OK?
+Então, eh,
+mesmo antes de entrar no no teorema de
+Taylor, nós vamos ver que
+nós podemos chegar
+por outros métodos,
+podemos deduzir
+a expansão em em série de potências para
+para algumas funções, mesmo sem recorrer
+ao teorema de Tibar. OK?
+E, e também podemos pensar assim, mas de
+onde é que vem, de onde é que vem esta
+ideia? Quem já estudou estatística sabe
+que eu posso ter um conjunto de pontos
+de observações
+e depois posso o o processo de regressão
+linear, eu posso
+fazer passar uma reta, OK? Uma uma reta
+que é uma aproximação aos pontos.
+E se a reta não for adequada, se
+efetivamente repararmos que a reta não
+aproxima
+convenientemente os pontos, então
+podemos procurar um polinómio de grau
+superior, polinómio de grau dois, de
+grau 3, etc, etc, etc. OK?
+Eh, também existe na estatística o
+fenómeno de overfeiting, pelo que se tem
+que tenho que ter cuidado e também não
+posso querer aproximar na com toda a
+precisão
+e os pontos porque, enfim, depois
+investiga e veja o que é o overfitting.
+Ora bem, mas vamos então aqui voltar
+aqui ao nosso tema e vamos ver que, por
+exemplo, imaginem
+que eu tenho
+eh
+eu tenho esta seguinte série,
+vamos dizer 1
+- x
++ x2
+- x3 3,
+etc. Portanto, esta série,
+quando nós estudamos a progressão
+geométrica, quando nós estudamos a
+progressão geométrica, nós vimos que
+isto pode ser considerado uma progressão
+geométrica. Progressão geométrica de
+razão
+de razão igual a -x.
+Cada termo multiplica o anterior por -x.
+Sim, senhora. E vimos que havia até uma
+fórmula do somatório de termos de
+percussão geométrica,
+eh, que que era igual ao primeiro termo
+e multiplicava 1 - r elevado n
+sobre- r
+e e que, claro, e se a razão for módulo
+menor que 1, pois este termo tendia para
+zero.
+E se o 1 igual a 1, que é que até é o
+nosso caso aqui, por exemplo, então
+ficava como sendo 1
+a dividir por 1 sobre R, que é o valor
+deste somatório,
+OK? a que neste caso
+1
+sobre 1 + x
+sendo a razão igual a -x, pois aqui fica
+1 + x.
+Eh, e na verdade não precisamos de
+teoria nenhuma de progressões
+geométricas para demonstrar que isto à
+partida à partida, não é? Tirando a
+questão da convergência, que tos ter
+cuidado,
+eh, pelo menos está garantido que esta
+série converge
+para modo de
+x
+menor que 1.
+Pronto. E nesses casos, nós olhando aqui
+para esta série, eu posso multiplicar
+aqui, passar este 1 men x,
+eu passo
+este 1 - x aqui, aqui para cima,
+OK?
+Eh,
+e portanto 1 - 1 + x, neste caso, 1 + x
+parêntes 1 - x +
+x2 -
+x3.
+Pronto. E o que é que isto vai dar? Ora,
+1 multiplica todos estes termos.
+Sim, senhor. Fica igual. E depois mais
+x. Então o x ao multiplicar por 1 dá x.
+Ao multiplicar por -x dá -x².
+Ao multiplicar por x² dá + x³, etc. E
+portanto vemos que todos os termos
+anulam.
+Todos os termos anulam.
+OK?
+Pronto. E de facto, então tá demonstrado
+que é igual a 1, pelo menos nesta
+situação de convergência.
+OK? Então,
+olhando então ainda esta série que é
+igual a 1 sobre 1 + x,
+eh, podemos eh aplicar aqui integração.
+Claro que ainda não demos integração
+nenhuma, mas para os casos mais simples,
+pois é, vai ser trivial. Portanto, vou
+integrar ambos os lados aqui desta
+expressão e vou dizer dá-me o integral
+com a primitiva, que vai dar é o mesmo.
+A se falamos de de de indistintamente
+primitiva ou integral.
+primitiva quando nos estamos a referir
+apenas à função inversa da derivada
+e e o integral e normalmente quando
+queremos um uma integração específica
+dentro de um intervalo,
+mas mas também se usa integração na
+generalidade, mesmo quando nos estamos a
+nos estamos a a
+a referir à à primitivação. Portanto,
+vamos integrar aqui 1 sobre 1 + x,
+OK? dx. OK. Agora não vou pôr isso para
+poupar para poupar tinta.
+Ora, igual ao integral de
+1 - x + x2 - x3,
+etc. Pronto, estas integrações são
+triviais. Pronto, este é um logaritmo,
+como vocês já sabem, já vimos isto
+noutros tutoriais. Portanto,
+naturalmente isto vai ser o logaritmo
+tipo 1 + x. E porque é que porque é que
+escrevemos a expressão o logaritmo de 1
++ x e e não e não procuramos uma
+construção para nos dar o logaritmo de
+x? Eu penso que isto é uma convenção
+em que efetivamente se eu pusesse o
+logaritmo de x não estaria definido para
+x = a 0 porque o logaritmo é o expoente.
+O expoente para dar zero não existe. Ok?
+Pronto. Então é por isso que se por
+convenção, muitas vezes quando estuda a
+função logaritmos, em vez de estudar o
+logaritmo de x, o que se estuda é
+logaritmo de 1 + x. Porque aí já posso
+pôr x = 0. Posso começar em x = 0, o que
+dá logaritmo de 1 e logaritmo de 1 dá 0
+e, portanto, está definido. OK? Pronto.
+Então aqui fica logaritmo de 1 + x é
+igual a este integral. Ora esta
+integração também é trivial porque isto
+são são polinómios. Portanto, a
+primitiva de 1 é x, cuja derivar x dá 1.
+E assim sucessivamente aqui dá - x²/2
++ x³ ter
+menos aqui
+x
+quart, etc.
+Sim, senhora.
+Eh, e então
+obtivemos
+uma expansão em série de potências
+precisamente do algaritmo, que era o que
+nós estávamos a dizer que íamos obter.
+Ou seja, sem recorrer a teorema de Tor,
+sem recorrer a teorema de Tor,
+consegui obter uma expansão em série de
+potências. Pronto, isto vai ser verdade
+para muitas funções. Vamos ver mais um
+caso ou dois.
+Eh, com mais ou menos artifícios.
+Conseguimos
+e certamente os matemáticos conheciam
+estas expansões em série de potências
+mesmo antes de deduzirem o teorema de
+Taylor. Caixa até que primeiro se
+deduziu o teorema de McLuring, que já já
+vamos ver daqui a bocado, e depois o
+teorema de Taylor. Ora bem,
+podemos, eu posso escrever isto de uma
+forma mais compacta.
+logaritmo priano de 1 + x
+é igual a um somatório.
+Posso dizer quando i varia de 1
+a mais infinito, que é uma série.
+E normalmente não se usa um, usa-se n
+aqui no
+n.
+Eh, e portanto aqui temos isto tem que
+dar, deixa passar isto aqui para baixo.
+Portanto, isto
+eh
+tenho que ter aqui um sinal
+eh alternado entre positivo e negativo.
+Portanto, sempre que é assim, pois
+usamos um -1 elevado a qualquer coisa.
+-1.
+Ora, o primeiro tem que dar positivo,
+então eu vou pôr aqui n + 1, por
+exemplo. Pronto, para dar um número par,
+então o primeiro é positivo e assim vai
+dando alternadamente positivo, negativo.
+Pronto. E a seguir tem x, o x é elevado
+a n, não há dúvida nenhuma.
+sobre n.
+Sim, senhor. Pronto, aqui temos nós a
+expansão em série de potências do
+logaritmo de 1 + x. OK?
+E vamos ver outro exemplo.
+Vamos ver, por exemplo,
+eh,
+um ar, o arco tangente. OK?
+Lembram-se que
+já lá vamos, mas vamos aqui, vamos
+considerar aqui outra outra expansão.
+transpansão. Vamos considerar
+uma uma série de potências 1
+menos
+x²
++
+x/4
+-
+x6.
+OK? Mais uma vez, é uma percussão
+geométrica.
+Percussão geométrica.
+de razão
+- x².
+Portanto, com aquela mesma regra de
+convergência que falamos, iremos ter
+então que o este todo este somatório,
+todo este somatório será 1
+sobre 1 menos a razão, ou seja, 1 +
+x²
+primitiva de 1 + x². Bom, e podemos
+fazer o mesmo raciocínio que fizemos ali
+há bocado. Podemos igualar esta esta
+série a 1 + x², passar 1 + x² para aqui
+e ver que, de facto, tá correto e e dá
+igual. E aplicamos a a primitivação.
+Portanto, 1
++ x²
+é igual a 1 - x² + x/4
+- x6,
+etc.
+Podemos passar um x² para aqui para
+cima. Fazemos a exatamente o mesmo
+raciocínio que fizemos ali e vemos que
+dá certo, que vai dar um. OK? Pronto.
+Então podemos integrar aqui também.
+OK? Vocês ainda não sabem integrar, mas
+é, pois o que vai acontecer é que há
+tabelas de integração, tal como nós
+vimos um conjunto de tabelas de
+derivação. Vimos as tabelas, pronto. E
+se forem à tabela de derivação, vão ver
+que a derivada do arco tangente, que nós
+já demos no outro tutorial, é o inverso
+de 1 + x². Portanto, aqui é o é o arco
+tangente.
+Dá o arco tangente de x.
+expansão em série de potências dá x
+- x c
+terços.
+Oi. Aqui enganei-me. Aqui era aqui era
+um
+um quatro.
+Ora mais
+xa
+qu 5
+menos.
+Lá ver se não estou a enganar. Ora, x
+menos
+e aqui é x
+menos que é mais menos
+x7, OK?
+Sétimos, etc.
+Sim, senhora.
+Ora,
+é igual a um, portanto isto é igual a um
+somatório.
+Ora, mais uma vez podemos pôr n varia de
+1 a infinito.
+Mais uma vez -1
+elevado a n + 1, que é para dar
+alternadamente negativo positivo. E
+agora temos x.
+Eh, mas a potência de x avança de dois
+em dois. Portanto, eu tenho, eu vou ter
+que ter aqui um 2n
+2n.
+E o primeiro para n = 1 tem que dar 1.
+Portanto, vou pôr 2n - 1. Pronto, assim
+avança de dois em dois.
+E sendo que o primeiro dá um, portanto
+tá certo e o segundo dá três, tá
+correto. O sinal tá também tá correto. E
+depois a dividir por
+e aqui 2n - 1 na mesma.
+OK. Sim, senhora.
+O que é que nós podemos tirar daqui um
+resultado espetacular?
+É que nós agora podemos retirar daqui
+uma aproximação para pi. Pronto. E isto
+vai uma é uma há muitas há muitas na
+matemática, muitas expansões, muitas
+aproximações possíveis que nos permitem
+calcular o valor de pi. E esta é uma
+delas. A expansão em série de potências
+do arco tangente permite-me calcular o
+valor de pi. Porquê? Porque eu posso
+perguntar qual é o arco tangente de pi
+quart.
+O arco tangente
+o desculpem, não é o arco tangente de
+pi/4.
+Isso seria a tangente de pi quartos. é o
+arco cuja tangente é 1,
+que eu sei que é igual a pi/4,
+porque eu sei que a tangente de pi
+quart, a tangente de 45º é 1. Ok? No
+cateto oposto sobre o cateto adjacente,
+OK? num ângulo de 45º,
+num triângulo retângulo
+aqui com 45º, ou seja, pi/4,
+pois não há dúvida nenhuma que este lado
+aqui, este cateto C é igual a este C e
+aqui hipotenusa. E, portanto, que a
+tangente de 45º, ou seja, de pi/4,
+é igual a 1. C sobre c, tá correto?
+Portanto, [roncando] o arcotangente de 1
+é pi/4.
+Então, expandindo aqui na série de
+potências fazendo onde x ponho o 1
+- 1
++ 1
+- 1
+etc.
+Pronto, isto é realmente é fantástico
+porque então vejam que agora temos uma
+forma que me que me pode dar a
+aproximação com tanta precisão quanto eu
+queira uma aproximação para pi. OK?
+Basta passar neste caso para pi quart,
+mas basta passar o 4 aqui para cima e e
+portanto terei uma aproximação para pi.
+OK? Sim, senhora.
+Vamos obter outra série,
+a expansão da da função exponencial.
+OK?
+E agora vamos arranjar um raciocínio
+diferente. Vamos dizer assim: "Bom,
+a expansão, a função exponencial é a
+única função cuja derivada é igual a ela
+própria."
+OK?
+Vamos imaginar que
+vamos imaginar que alguros no passado
+um matemático estava a procura
+quando começaram a estorar a derivação
+e e disseram: "Eh, haverá alguma função
+cuja derivada seja igual a ela própria?"
+Então, se houver,
+já sabemos que existe, que é a função
+exponencial, mas vamos imaginar que não
+sabíamos nada sobre função exponencial.
+Se houver,
+eh, terá uma expansão em série em em
+série de potências. Todas as funções têm
+uma expansão em série de potências,
+OK? dentro dos dentro de um determinado
+domínio,
+toda a função é contínua, etc, etc,
+obedece determinados requisitos.
+Portanto, dentro de cert certos
+requisitos, pois há para todas as
+funções haverá uma série de potências.
+Mesmo que a função seja um polinómio,
+então a série de potências é igual a ela
+própria.
+OK? E depois para as funções
+transcendentes,
+tem uma aproximação em série de
+potências com infinitos termos. OK?
+Portanto, então vamos dizer aqui que
+eu vou considerar a função exponencial a
+ter uma expansão em série de potências
+que eu não sei qual é.
+OK? E eu vou escrever aqui. Há de ser
+uma constante C0
+mais um C1X
++ C2X²
++ C3X³, etc.
+Pronto, não há dúvida nenhuma. Esta é a
+forma universal para para qualquer
+expansão em série de potências, seja ela
+qual for. Uma série de potências é isto,
+OK?
+É é o polinómio com com as potências, de
+todos os gos. Depois o que pode
+acontecer, como vimos aqui, é que para
+algumas funções, vai, alguns termos
+anulam-se. OK? Por exemplo, aqui para o
+arco tem, para o arco tangente só tem só
+tem potências de grau ímpar, por
+exemplo. OK? O logaritmo, por exemplo,
+tem potências aqui de todo o grau. OK?
+Pronto. Esse mas de uma forma de uma
+forma genérica, esta é a forma geral
+universal. Agora, o que é que eu vou
+fazer? Vou derivar a série de potências.
+Vou derivar a série de potências
+e vou dizer derivada de C0 é 0. Já
+sabemos.
+Derivada de C1X é C1. Ah, antes de mais,
+eu até vou fazer outra coisa. Vou dizer
+assim: "Bom, eu já sei que a exponencial
+é elevado a zero
+dá 1." Qualquer coisa vada a zero dá 1.
+Pronto. Portanto, na verdade eu já sei
+que ser 0 tem que ser um porque para x =
+0 anula todos estes termos onde há x e
+fica apenas c0, mas0 tem que ser um
+porque é elevado a 0 é 1. Portanto, este
+termo eu sei de certeza que tem que ser
+um.
+Sim, senhora.
+Eh, sendo assim, eu vou derivar. A
+derivada de 1 é 0 e a derivada de C1 X é
+C1. Eu vou pô o aqui,
+OK? Mais a derivada C2
+X2 é 2 C2X.
+2 C2
+X
++
+3C3
+X² 3 C3
+X quosto
+que eu coloquei
+eu quero que a derivada seja igual a ela
+própria. Portanto, eu tenho que igualar
+estas duas expressões.
+Ora, e para igualar estas duas
+expressões, eu vou eu tenho que dizer:
+"Bom, então o C1 é igual a 1." Daqui
+resulta
+este C1 tem que ser igual a 1.
+O C2 2C2 = C1. Ou seja, 2C2 = C1. C2 =
+C1/
+C2 = 1/2.
+3C3
+é igc
+1/2
+C3 = 1/6
+C3 tem que ser 1/6, ou seja, 1 sobre 3
+fatorial.
+Então aqui é 1 sobre 2 fatorial, aqui é
+1 sobre 1 fatorial.
+E pronto. E assim sucessivamente. E
+vemos que efetivamente que x é o
+somatório
+quando n varia de zero em infinito,
+onde temos
+xevado
+a n
+sobre n fatorial.
+[roncando]
+Cá temos nós. E mais uma vez é um
+resultado e espetacular porque nos
+permite obter a aproximação para o
+número de neppar qu tanta precisão
+quanto queiramos.
+Então o número da neppar, tal como
+fizemos para pi, o número de neppar é
+fazendo aqui x = 1, é elevado a 1 é 1.
+Portanto, aqui em x = 1, pois fica o
+número de neper é 1
+mais
+o c1 é ig a 1.
+X é ig a 1.
+1 + 1
++ 1/2
++ 1/ 3 fatorial
+mais 1 sobre 4 fatorial, etc.
+Converge esta série ou não converge?
+converge, converge porque eu posso
+arranjar aqui uma série
+cujos termos eu vou arranjar aqui uma
+série já rapidamente
+porque eu vou dizer assim: "Olha, eh,
+este termo aqui,
+isto que aqui está é igual a 1
++ 1 + 1/2
+e aqui é 1 sobre 2 x 3
++ 1 sobre
+2 x 3 x 4
++ 1 sobre
+2 x 3 x 4 x 5, etc.
+Sim, senhora. Eu quero demonstrar que
+isto converge.
+Se eu arranjar uma série em que todos os
+termos são maiores do que estes, maiores
+e que essa série converge,
+então isto é a teoria de limites, OK? E
+não, neste caso, teoria das séries, das
+séries convergentes, os testes de
+convergência, etc. Nunca fizemos um
+tutorial sobre isso, mas há muitos de
+vocês já que já estudaram séries,
+podem-se lembrar disso.
+Portanto, eu arranjo uma outra série
+cujo seja mais fácil calcular o
+somatório, porque eu aqui eu não sei
+calcular o somatório.
+Eu estou, eu simplesmente estou a supor
+que, ok, se a série for convergente, ela
+há há de dar o número de Neper, mas eu
+não sei porque eu podia começar a
+calcular parcelas e elas realmente
+começava-se a aproximar do número de
+nepper 2.7
+18, etc, etc. Mas
+isto não prova nada, não prova que seja
+convergente, porque se eu posso começar
+a somar parcelas, isto vai- se
+aproximando e eu não sei se isto tendo
+para um valor limite, se tem um
+majorante ou se tende para infinito. OK?
+É preciso ter cuidado com isso.
+Eu aqui simplesmente deduzi, OK, caso
+exista
+uma o número de neper e e caso esta
+série seja convergente, então eu posso
+efetivamente
+usar para obter uma aproximação, mas
+convém demonstrar que a série é
+convergente.
+Ora, eu tenho aqui então este isto que é
+igual ao número de nepper. Agora eu vou
+arranjar aqui uma série e a minha série
+vai ser esta.
+Eu vou começar nesta série aqui porque
+estes estes três estes três termos vou
+deixá-los de parte,
+OK? Vou deixar estes três termos de
+parte que não não interessa.
+Eu agora e e isto é uma isto aqui é é
+2,5 e portanto eu agora só me interessa
+tentar avaliar aqui estes termos.
+Então vou arranjar aqui
+eh uma outra série que vai ser 1,
+por exemplo, sobre 2 x 2, o primeiro
+termo. Ora, aqui é 1/6 e aqui é 1/4.
+Portanto, 1/4 é é maior do que 1/6. Não
+há dúvida nenhuma. Ao arranjar aqui um
+denominador mais pequeno, eu faço com
+que o termo, como é os inversos, com que
+os termos sejam maiores. Portanto, aqui
+eu vou arranjar,
+ora, onde está o 2 3 vou é o 2 2, 2 como
+antes. E agora ele acrescenta ao quatro
+e eu acrescento, por exemplo, 2 2,
+por exemplo,
+que é igual a 4. Portanto, este termo
+continua maior que este, OK?
+Porque aqui tenho 2 2 3 e aqui tenho
+e aqui tenho um denominador mais pequeno
+2 2 2 2.
+Pronto. E e então a fração aqui é maior.
+OK? Pronto. E aqui
+a mesma coisa. Ou seja, eu vou eu vou
+pôr sempre tantos termos quantos tenho
+aqui anteriormente. Neste caso, já tenho
+quatro termos.
+E agora cada novo número aqui ele
+acrescenta ao cinco. Vai acrescentando o
+5, 6, 7, 8, 9, 10, etc, etc, etc. e eu
+acrescento 2 x 2,
+por exemplo. Pronto, eu estou a dizer,
+por exemplo, que este este esta
+demonstração fui eu que a deduzia há
+bocado. is pode ser um bocado grosseira,
+certamente haverá outros testes de
+convergência até mais mais mais robustos
+e que que aproximam melhor, mas este
+[roncando] isto aqui eu há bocado estava
+a fazer os testes e e experimentei fazer
+assim e pronto e penso que funciona e
+que portanto eu para cada número que ele
+aqui acrescenta, eu eu acrescento 2 x 2.
+Pronto. E então isto dá uma progressão
+geométrica
+de razão 1/4. Eu vou multiplicando
+sucessivamente por 1/4.
+Pronto. E o somatório da série de
+infinitos termos. Portanto, com com a
+progressão geométrica de 1/4, pois já
+sabemos que vai dar 1 sobre
+1 men 1/4.
+Pronto. [roncando] E, portanto, esta
+parte converge mais esta parte aqui que
+é 2,5/
+mais
+e que e que e que, portanto, isto vai
+dar e
+aproximadamente aqui 3.8. Pronto. O
+importante é encontrar aqui um limite,
+um limite, uma convergência.
+E, portanto, isto prova que a série do
+do número de Nepar é convergente,
+porque eu arranjei um majorante que é
+3.8, portanto mostra que a série terá
+que haver um determinado valor no máximo
+até 33.8 não passa. OK? Sim, senhor.
+Eh, pronto. Então, aqui terminamos esta
+primeira parte onde onde realmente eh
+para vocês terem a noção que é possível
+eh encontrar expansões em série de
+potências e sem usar o teorema de Tor,
+sem conhecimentos do teorema de Tor.
+Tev-vos aqui várias vários casos que eu
+conhecia, vários exemplos
+e só para vocês terem essa noção, OK? Ou
+seja, que uma coisa é a expansão em
+série de potências, é um tema genérico,
+e outra coisa é o teorema de TER, que é
+uma solução específica e que nos permite
+calcular é precisamente essa essas
+expansões.
+Ora, vamos então tratar agora de deduzir
+o teorema de Tor.
+Ora bem,
+tive a dar uma a relembrar também, a
+relembrar
+e mais ou menos quais seriam as diuções
+do teama tor. Vi algumas coisas na
+internet, há coisas muito complexas,
+pronto, eu procuro procuro aqui na minha
+playlist, como vocês já sabem, encontrar
+a e as demonstrações o mais simples
+possíveis, que sejam intuitivas. OK?
+Pronto, eu vou fazer esta esta
+demonstração. Poderá não ser muito
+rigorosa, mas eu penso que é intuitiva e
+é e é o que eu pretendo. Portanto, dar
+às pessoas e para mim próprio também.
+Portanto, uma forma intuitiva de
+perceber o porquê das coisas. OK?
+Pronto. Então, o que é que nós vamos
+fazer aqui? Portanto, deixa-me traçar
+aqui, portanto, um sistema de eixos, OK?
+Traçar aqui um sistema deixos.
+traçar aqui uma função,
+OK? Y = f(x).
+Sim, senhor. O que vai acontecer aqui
+agora no no teorema de Tor? Portanto, o
+teorema de Tor vai pretende fazer uma
+expansão em série de potências
+que aproxima a função, o valor da
+função, OK?
+mas aproxima a função
+e em em torno de um ponto,
+OK? Em vez de, ou seja, aproxima a
+função
+eh em torno de um ponto específico.
+OK?
+Imaginemos que vocês criam uma
+aproximação,
+por exemplo, aqui
+neste ponto, que é que você, por
+exemplo, aqui que é que vocês faziam?
+faziam, por exemplo, a tangente, que é a
+derivada da função neste ponto, faziam a
+reta tangente,
+a reta tangente e depois diziam: "OK,
+uma reta tangente já é o suficiente para
+aproximar qualquer função.
+É o suficiente
+e desde que eu não me afaste muito deste
+ponto.
+Portanto, já sabemos que,
+OK, para um pequenino intervalo,
+qualquer função num pequenino intervalo,
+fazendo o intervalo pequenino,
+eu eh uma reta basta para aproximar a
+função
+e quanto mais próximo for do deste ponto
+onde eu onde eu do ponto de tangência,
+pois melhor a aproximação.
+Portanto, eu podia deduzir, e vocês
+estudaram geometria analítica.
+eh e traçar a reta, a reta tangente a
+uma função, que é muito simples, que é
+OK, não vou escrever aqui a expressão
+que isso é trivial. E portanto entendem
+o que eu estou aqui a falar. Agora
+imaginem que eu calculei esta reta. Sim,
+senhora. Y = mx
++ b, uma reta
+e digo: "Ok, eu vou usar esta reta para
+aproximar a função". Sim, senhor. Eu
+aproximo em vez de em vez de em vez de
+calcular f(x). Vamos que eu não não
+conseguia calcular f(x), por exemplo,
+f(x) era o seno. Eu sei lá calcular o
+seno de 1 grau, o seno de 2 gra. Isso é
+muito complicado. OK? Então aproximo por
+uma reta. Sim, senhor. Mas
+agora eu digo assim: "OK, agora quero
+com esta reta quero aproximar este valor
+aqui,
+este valor
+um determinado x0.
+OK?
+este valor. Ora, estamos a ver que isto
+seria seria ridículo. Então, o valor da
+reta tá da armaia aqui e e aqui, ou
+seja, aqui o erro começava a ser cada
+vez maior e cada vez cada vez mais
+gritante. OK? Portanto, não pode ser.
+Aqui o que eu teria que fazer era eh
+abandonar aquela reta e e e procurar uma
+outra reta. Agora tangente aqui.
+OK. Pronto. Ou seja, eu estou a fazer a
+aproximação.
+Eu ao fazer isto, o que eu estou a dizer
+é que eu aproximo a função f(x) em torno
+de um determinado ponto.
+Em torno deste ponto, eu tenho bastante
+precisão,
+não me afastando muito do ponto, eu
+tenho precisão para conseguir,
+OK?
+encontrar, fazer uma aproximação.
+Pronto. E e pronto. E essa equação da
+reta é simples. E em torno do do ponto e
+é já sabemos que é y
+igual a seria f(x0)
+f(x0)
+[suspirando]
+e e depois seria o valor da derivada
+f lin vinha
+e no ponto x0.
+o que é o dec x, mas
+eu tenho que ver a ordenada na origem.
+Portanto, então fica y
+fica
+f(x0).
+Eu tenho que acertar qual é a ordenada
+na origem? f(x0)
++
+x - x0. Agora sim, assim é que a função
+tá correta.
+F linha
+de x0. Pronto, aqui tá correta porque eu
+vejo que eu eu
+eu
+vejo que eu tenho que ter quando x = x0
+a aproximação. Esta que isto é uma reta,
+não é? Veja que é um polinómio do
+primeiro grau.
+A aproximação, o decíve é este, não há
+dúvida nenhuma. O decíve em cada ponto é
+é o valor da derivada nesse ponto. Por
+isso já sabemos.
+Para x = x0, anula-me este termo e fica
+y = f(x0). O que o que tá correto? Que
+para x = x0 tem que mudar isto aqui.
+Pronto. OK. Esta é uma primeira
+intuição.
+Porque é que nós vamos
+procurar uma expansão em série de Taylor
+em torno de um ponto X0. Tentei
+demonstrar o porque é que isso faz
+sentido,
+que a aproximação seja sempre definida
+em torno em torno de um determinado
+ponto.
+OK? E porque é que vamos obter? Vamos
+calcular uma série de de uma expansão em
+série de potências.
+eh baseadas nas potências de x - x0.
+OK? Portanto, procur isto aqui dá-vos
+uma uma intuição do porque que vamos
+fazer isso. Ou seja, eu agora vou
+procurar
+procurar uma uma uma série de potências
+universal e vou dizer: "Bom, a série de
+potências universal, lembram-se há
+bocado quando eu coloco esta série de
+potências aqui universal? Eu disse C0 +
+C1X + C2X² + C3X³, etc. Não há dúvida
+nenhuma. É as potências todas e com as
+constantes. Pronto, aqui vai dar a é a
+mesma coisa, só que com este artifício
+e em em vez de ser potências de x, vão
+ser potências de x - x0,
+OK? Que se o x0 for igual a 0, pois é.
+Então é a mesma coisa. Então aí temos é
+chamada aproximação pela série de
+McLurin, que é uma aproximação
+em torno do ponto X0. OK? O que vamos
+ver depois é que eu posso sempre usar a
+forma de Mclowing. Eu depois na prática,
+eu não preciso de me preocupar com qual
+o x0.
+Eu fazendo sempre x0 = 0,
+eu posso obter a aproximação que foi em
+torno do ponto aqui zero
+e eu fazendo subir o grau do polinómio,
+em vez de uma reta, um polinómio de grau
+2, 3, 4, 5, 6, tanto quanto eu queira,
+eu vou poder aproximar qualquer outro
+ponto distante. O que eu vou é precisar
+de mais termos,
+OK? Ou seja, a a série de McLurin também
+serve, mas
+dá, eu preciso de usar mais termos para
+usar para obter precisão. Enquanto que
+se eu usar a série de Tila em torno de
+um determinado ponto mais próximo do que
+aquele que eu quero calcular, então eu
+vou conseguir uma aproximação mais
+poderosa com menos termos. OK? E depois
+já já ficará mais claro, penso. Espero
+eu daqui a bocado. Pronto, aqui vou pôr
+a fórmula universal da expansão em série
+de Tor. Eu vou pôr y = c0
++ c1
+x - x0
++
+c2
+x - x0²
++ c3
+x - x0³,
+etc. Ok? Pronto, esta é a expansão em
+séri de potências que eu quero e
+eh em torno do ponto x0.
+E por isso usi esta expressão que
+intuitivamente aqui vos mostrei o o
+porquê.
+Pronto. Então agora não tenho mais que
+que procurar calcular os xs.
+Como é que eu vou fazer isso? Bom,
+eu vou derivar
+ou eu vou derivar ou ou melhor antes de
+derivar
+eu vou eu vou procurar o aqui e vou
+dizer bom aqui é igual o valor de y no
+ponto x0.
+Ora, no ponto x0 substituo aqui x0 todos
+os os termos se anulam e, portanto, dá
+igual a c0.
+Ó, então já tenho o primeiro termo que
+C0
+é igual a f dex0.
+OK? Sim, senhora. Que é o que temos
+aqui.
+Pronto, esta seria a aproximação mais
+ridícula. Esta seria aproximar uma
+função com uma constante. OK? Esta seria
+esta também poderia ser era uma, esta
+era a aproximação,
+a aproximação e perfeitamente ridícula,
+que seria que seria, olha, eu tenho aqui
+uma função,
+eu tenho aqui uma função
+aqui
+e esta função e aproxima-me aqui neste
+ponto. E eu dizia assim: "Olha, vou
+aproximar por por uma constante, olha,
+vou aproximar aqui.
+É realmente e até tem uma certa
+aproximação e mas tem que ser um
+intervalo muito pequenininho para haver
+uma aproximação com algum interesse.
+Basta afastar um bocadinho,
+imediatamente começamos a ter erros
+gritantes." Pronto, obviamente que isto
+ser isto seria estúpido, não é?
+Como mínimo us como mínimo usamos uma
+uma reta tangente e e não uma constante.
+Pronto, mas aqui temos a constante,
+pronto, que seria a constante uma reta
+horizontal, OK? Seria a aproximação grau
+nível zero.
+[roncando] Ora, a seguir,
+então, vamos fazer a primeira derivada e
+põinha e vamos calcular a primeira
+derivada no ponto x0,
+OK?
+primeira derivada no ponto x0, eu vou
+dizer, bom, é o c0, mas o c0 eu já sei
+quanto é, que eu que eu já calculei, tem
+que ser y de x0
+mais e agora vou derivar aqui c1x,
+OK?
+E depois mais os outros termos todos,
+mas os outros termos todos quando eu
+substituir x por x0, anulam-se todos.
+Portanto, o único termo que vai
+sobreviver é aqui este aqui, C1X,
+que vê-se livre do X0, porque C1X men C1
+X0, mas X0 é uma constante, é um
+determinado ponto fixo em torno do qual
+estamos a fazer a expansão. Portanto,
+sua derivada vai dar zero e fica aqui
+fica apenas C1, desculpem, não é C1x, é
+é
+C1.
+OK? Portanto, aqui aqui fica apenas
+eh C1
+para ver se não me estou a enganar.
+OK. Mais C1, certo?
+Eh, derivando aqui C1. Mas esta, est
+esta também deriva.
+Esta também deriva. 2 C2X
++ 2
+C2X,
+tá correto? E depois as outras cinco vão
+anular,
+OK?
+Porque esta aqui também vai-se vai-se
+ver livre do X0,
+OK? Porque fica 2 C2.
+Deixa-me fazer isto com com mais
+cuidado.
+Portanto, 2c2 aqui baixa ao grau.
+OK.
+OK.
+Sim, senhor. Pronto. Mas quando o x for
+igual a x0, pois esta terma
+e os outros todos também.
+Portanto, resulta que
+[roncando]
+e c1,
+OK? Aqui tem aqui enganei-me, desculpem.
+Portanto, ao derivar,
+portanto, ao derivar se zer uma
+constante. Portanto, a derivada da
+constante é zero. Este termo não entra.
+Pronto. Pronto. O primeiro termo que
+entra é este aqui, C1, que é o único que
+sobrevive.
+OK? Depois o outro dá a 2, c2 x - x0 e e
+depois quando eu substituir x por x0
+anulam-se e anulam-se todos. Pronto. E
+então ficamos com o termo C1.
+OK? Este termo C0 eu já calculei
+o termo C0.
+Este termo aqui eu já calculei que eu
+quero calcular o X.
+A a expansão final vai ser esta. Eu só
+me falta calcular os
+c0 já o calculei.
+O valor da função no ponto x0.
+O c1 já o calculei agora mesmo.
+O valor da derivada no ponto x0.
+Portanto, o c1 já o tenho.
+OK. Pronto, vamos calcular o C2. Vou
+fazer a segunda derivada.
+Eu tenho aqui a primeira derivada. Vou
+calcular a segunda derivada
+no ponto X0.
+Ora, C1 anula porque C1 agora é uma
+constante.
+Ora, aqui fica 2C2.
+2C2.
+Este aqui anulava quando eu substituí
+x0,
+mas não não agora não não substituindo
+x0
+e e faz parte da da expressão da da
+derivada todos estes termos aqui que
+sobreviveram
+3 é3
+x - x0 qu
+etc.
+Ok? E elas anulam-se quando no momento
+em que eu vou calcular o valor
+específico, OK? Substituindo o x por x0.
+Pronto, agora estou a derivar este todo
+este polinómio, toda esta série a
+derivar novamente.
+Derivada de C1 dá 0. Aqui dá 2 C2. Aqui
+vai dar 3 x 2. E cá está a começar a
+aparecer aqui o fatorial.
+3 x 2
+C3
+X - X0.
+Ok.
+Então aqui é igual o C2
+é 1/2
+de
+da segunda derivada de x0.
+Pronto, já já tenho aqui o valor de x2.
+Pronto. De ser de C2.
+Portanto, C2
+é 1/2
+na da segunda derivada do ponto X0.
+Já tenho.
+E pronto. E agora vocês derivavam outra
+vez.
+Aqui vai ficar 3 x 2 6 e depois vai dar
+C3. É 1/6. Pronto.
+C3
+é 1/6.
+da derivada da ordem 3 no ponto x0
+e pronto. Então já temos todos os x.
+Então, e portanto a fórmula de Tor ficar
+bem simples,
+o teorema de Tor, portanto que fica que
+Y
+é um somatório
+de infinitos termos,
+porque a aproximação não tem a
+aproximação não. Bom, infinitos termos,
+mas depois consoante as as
+especificidades da derivada pode ser que
+a partir de um determinado momento andu
+em todos os termos. OK?
+Pronto. Mas de um modo geral serão
+infinitos termos.
+De zero a infinito,
+que temos
+x - x0
+elevado a n, já sabemos, sobre n
+fatorial.
+e
+o valor da o valor da derivada da
+função,
+o valor da derivada da ordem nonto
+x0.
+E pronto, aqui temos nós o teorema de
+Taylor, OK? O desenvolvimento da da
+função f(x) em torno do ponto x0.
+OK? Pronto, penso penso que tenha ficado
+claro. Espero que vocês tenham percebido
+aqui esta ideia.
+que eu
+eu eu não preciso de ir ao ao ponto X
+específico, eu posso fazer num outro
+ponto qualquer,
+OK? Só que eu então aí fica então aí a
+aproximação é mais grosseira.
+Embora aqui, como o polinómio tem muitos
+muitos, muitos graus, quando eu começo a
+pôr mais termos do polinómio, eu eu
+acabo por aproximar na mesma. Eu vou é
+precisar de mais termos. OK? Pronto,
+penso penso que isso, espero que tenha
+ficado mais ou menos claro esse esse
+conceito.
+Ora, aqui temos nós aqui as as formas
+dos teoremas, o teorema de Taylor, como
+acabamos de ver aqui, usam a em vez de
+usar x0, a forma que acabamos de deduzir
+serit mouring,
+OK? Que é quando a igual a 0.
+Temos aqui algumas expansões em série de
+potências,
+OK? Algumas nós já deduzimos e por
+exemplo aqui o logaritmo de x + 1 que
+nem sequer usamos nem sequer usamos
+série de ta para fazer. OK?
+Eh, vamos só fazer aqui como um exemplo.
+Vamos calcular, por exemplo, o seno de
+x, a expansão em série de potências do
+seno. OK? Tá aqui a fórmula e aqui está
+por extenso aqui. X - x c 3 fatorial,
+etc, etc.
+OK?
+Eh, vamos só calcular então aqui o seno,
+OK?
+Vamos, vamos então ver como é que nós
+fazemos isto. Então, o que é que será
+igual o seno de x?
+Eh, vou usar a forma de uma clouduring,
+obviamente. OK? Eu vou eu vou eh
+procurar a expansão, a aproximação em
+torno do ponto x = x0. OK? Já vimos.
+Serve, serve para depois calcular
+qualquer ponto. Não há dúvida nenhuma.
+Eu precisarei é de usar mais termos, mas
+serve. É, é tão bom. É, serve. Não, não
+preciso de usar a forma da table, posso
+posso usar a forma de clouding.
+OK?
+Sim, senhor. Então, v que fica igual o
+seno de x. Bom, ora, pela forma de claur
+fica é o o em torno do ponto zero, OK?
+Em torno do ponto x0 igual a 0.
+Portanto, fica fica o seno de zero,
+o seno de zero
+mais.
+Ora, agora temos eh a primeira derivada,
+que a derivada do seno é o cosseno,
+portanto o cosseno de zero,
+o cosseno de zero.
+Ora,
+portanto, aqui é sobre sobre 0 fatorial.
+aqui sobre 1 fatorial
+mais e agora vamos derivando a derivada
+do cosseno é menos seno
+de 0
+2 fatorial
+mais
+e falta-me os x aqui, desculpem.
+Portanto, aqui ora aqui é o x = a 0.
+Aqui é x
+x x².
+[suspirando]
+Ora, a derivada do seno é cosseno,
+portanto, menos
+cosseno de 0
+sobre 3 fatorial
+x³
+derivada do cosseno - seno aqui muda
+sinal, portanto mais seno de 0
+x4
+sobre 4 fatorial. Pronto, a ver se não
+me enganei. Portanto, ora, os senos de
+zero vão dar sempre zero.
+Pronto, os o cosseno de zero vai dar
+sempre 1 e, portanto, isto vai dar x
+sobre 1 fatorial - x³ sobre 3 fatorial.
+Pronto. E, portanto, a seguirá ser mais
+x, que isto vai de 2 em 2
+sobre 5 fatorial
+e assim sucessivamente. OK?
+Ora,
+vamos ver se isto está certo. Vamos ver
+aqui o seno. Portanto, x - x³ so 3
+fatorial + x5 sobre 5 fatorial. OK? Tá
+certo. Pronto, aqui está. Deixo para
+vocês como exercício calcularem qualquer
+outra das expansões que vocês queiram.
+OK? Agora, aplicações, aplicações disto,
+aplicações do teema tão mais que muitas.
+As aplicações são tremendas.
+Desde logo já já aproximamos o já vimos
+que dava para calcular o pi e calcular o
+de nepper. Eh, podemos usar também o o
+teorema de Taylor em, por exemplo, na
+aplicação ao cálculo de limites. Vamos
+ver aqui, por exemplo, um exemplo.
+Vamos ver, por exemplo, imaginem o
+limite
+quando x tende a 0,
+temos x²
+vezes exponencial
+é dividir por o cosseno de x - 1. O seno
+de x tende cosseno de zero é 1 1 - 1
+aqui dá 0 e aqui também dá zero e e
+portanto isto é uma indeterminação do
+tipo 0 sobre zero. Tipo 0 sobre zero.
+Ora e há regras h regra dopital mas
+agora vamos usar e o teama de tor. Eu
+também posso posso usar o teama de tor
+com certeza
+por porque porque o tiram de tor diz-me
+que que que cada função é é igual à à à
+expansão em série de potências.
+Portanto, o limite quando x tende a
+zero,
+aqui o x quad aqui, aqui a expansão é
+ela própria, ela já é um polinómio,
+portanto aqui não há nada a fazer. E
+agora aqui uso a expansão em em série de
+Ton 1
++ x a expansão em em série de potências
+para a função exponencial
++ x²
+sobre 2 fatorial
++ x³ sobre 3 fatorial, etc.
+Pronto, a dividir por
+e aqui tenho vou usar a expação do do
+cosseno. Se virmos aqui, o cosseno é
+igual a 1 - x²/ 2 fatorial. Portanto, 1
+-
+x²
+sobre 2 fatorial +
+x4
+sobre 4 fatorial menos, etc, etc. E no
+final -1,
+OK? -1. Portanto, aqui vai-me dar um
+corta corta 1 - 1.
+OK?
+Eh, e agora
+e no numerador, no numerador vou vou vou
+vou multiplicar o o x qu aqui para
+dentro. Portanto, isto ficará o limite.
+E, portanto, no numerador tenho x² +
+x³,
+OK?
+X³.
+[roncando]
+Mais
+ora aqui é o x2 x4
+sobre 2 fatorial, etc,
+a dividir por -
+x²/ 2 fatorial
++
+x² 4 sobre 4 fatorial, etc.
+Mas o limite é quando x tende para zero.
+Pronto. E o que acontece quando x tende
+para zero é que todos os termos são
+despríveis, são infinites e mais de
+ordem superior, exceto os de potência
+mais baixa aqui. OK? Portanto, o x tende
+para zero, o x² tendo para zero muito
+mais rapidamente, mas o x cubo tende
+para zero muitíssimo mais rapidamente
+para já não falar do x4 e todos os
+outros. Portanto, todos estes termos
+tendem para zero e só sobrevivem estes
+dois termos aqui. Pronto. E então, qual
+é o limite? Pois o x fica com o x²,
+corta com x²
+e fica
+-2 fatorial
+igual a -2.
+Pronto. E aqui temos nós. OK.
+[roncando]
+[roncando]
+Ora, finalmente Vamos ver aqui
+graficamente
+uma expansão em série de potências para
+para a função seno.
+Temos a vermelho o seno,
+OK? [roncando] E aqui a verde vamos ter
+a aproximação. Esta é a aproximação de
+nível 1.
+[roncando]
+Podia ter começado com o nível zero, mas
+pronto, comecei com o nível 1, que é a
+reta
+tangente. Pronto, isto vai ser a série
+de McLuring. A série de McLuring. OK.
+Eh, eh, reparem que eu agora vou pôr
+aqui o o um um modo automático e ele vai
+calcular sucessivamente as diversas
+aproximações,
+OK? A única diferença aqui é que ele
+também consegue calcular para para ns
+fracionários, ou seja, em vez de um
+termo dois ou três ou quatro, ele
+consegue calcular com n fracionários.
+Eh, já nem lemb bem como é que como é
+que fiz isso, mas pronto, não se
+preocupem agora com isso. Vejam só a
+evolução da da reta verde como vai
+aproximando o seno à medida que o número
+de termos cresce. E aqui, vejam aqui
+aqui a expressão que vai aparecendo
+aqui, que é a expressão, que é o
+polinómio que está a ser traçado no
+momento. Por exemplo, aqui neste momento
+é que é de x = x. OK?
+Pronto. E agora eu vou pôr isto a
+trabalhar. Pronto. E ele tá, reparem
+aqui nos termos x - x³ so sobre 3
+fatorial. OK? Com dois termos, ele já
+faz uma uma aproximação muito poderosa.
+Agora já tá a entrar com o terceiro
+termo, o x5.
+OK? Reparem como ele tá vai aproximar de
+forma cada vez mais forte. OK? Agora já
+está com o X7. OK?
+Reparem já no no podr,
+OK?
+E assim sucessivamente. Isto vai até vai
+até
+até à até ao o 10o termo.
+OK? Pronto. Por isso é como digo,
+imaginem que para já a já me tá a dar
+muita precisão para calcular o seno eh
+de zero a a pi. OK? De zero a pi já
+tenho uma aproximação realmente
+fantástica, como estão aqui a ver. Agora
+daqui para a frente até do até 2 pi,
+ele tá ele tá ainda a aproximar. Claro
+que existe simetria. Imaginem que eu eh
+isto num computador, pois eu bastava,
+aliás, bastava-me calcular de zero a
+pilos, não precisava de mais, porque
+depois reparem que depois existe uma
+periodicidade e e portanto existe uma
+simetria e depois a curva, a sinusoide
+repete-se, não é? Mas pronto, e reparem,
+pronto, ele tá quase a acabar com com 10
+termos. Reparem agora já na complexidade
+deste polinómio já tem já tem aqui
+imensos termos, estão a ver? Já vai com
+x a 17, x a 19. OK? Pronto. Portanto,
+são precisos muitos termos. Portanto,
+isto não é otimizado, obviamente. Por
+isso é que é melhor usar a forma de
+Taylor. Pronto, el já terminou.
+É melhor usar a forma de Taylor porque
+desenvolve em torno de um determinado
+ponto do que a forma de McLaren. A forma
+de McLurin, como estão a ver, eu usei
+aqui uma quantidade de termos, como
+estão a ver, e ainda só vou aqui, ainda
+só tenho aqui uma aproximação boa até
+aqui. Mas se eu continuar com infinitos
+termos, a aproximação da linha verde vai
+aderir à sinusoide vermelha até o
+infinito. OK? Não sei se me explico.
+OK. Pronto. Claro que isso é seria
+borriço. Não, se me pedirem se me
+pedirem o calculam-me o seno de de 7 pi,
+seria borriço estar a calcular aqui uma
+expressão com gigantesca. Eu eu eu
+basta-me calcular as funções
+trigonométricas entre 0 e 2 pi porque
+até depois já sei que existe
+periodicidade. OK? Pronto.
+Eh, pronto. Espero que tenha ficado mais
+ou menos claro. [roncando] Podem
+encontrar esta esta
+construção no na no minha página de do
+Geogebra,
+OK? Pesquisem por
+McLurin
+Siri of ofsceno,
+em inglês, ofsc.
+E, portanto,
+irão encontrar. E pronto, vamos terminar
+este tutorial.
+

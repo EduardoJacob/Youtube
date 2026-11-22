@@ -1,0 +1,625 @@
+0:00:03.199,0:00:10.320
+Sejam bem-vindos à minha nova playlist
+
+0:00:07.600,0:00:13.320
+do YouTube que será dedicada à
+
+0:00:10.320,0:00:13.320
+matemática.
+
+0:00:13.599,0:00:19.920
+Hoje vamos ver uma demonstração
+
+0:00:15.839,0:00:22.920
+analítica do teorema de Pitágoras
+
+0:00:19.920,0:00:22.920
+que
+
+0:00:23.560,0:00:29.640
+fiz um teste no chat G CPT. pedi para
+
+0:00:27.080,0:00:33.760
+ele me dar a demonstração analítica e
+
+0:00:29.640,0:00:36.520
+ele espalhou-se ao comprido. Deu-me um
+
+0:00:33.760,0:00:38.200
+raciocínio circular,
+
+0:00:36.520,0:00:41.320
+o qual ele depois reconheceu porque eu
+
+0:00:38.200,0:00:44.239
+chama-lhe a atenção.
+
+0:00:41.320,0:00:45.520
+Eh, e este método que vamos ver hoje é
+
+0:00:44.239,0:00:48.360
+bastante simples. Acho que é o meu
+
+0:00:45.520,0:00:51.239
+método preferido para demonstrar o tiram
+
+0:00:48.360,0:00:52.920
+de Pitágoras.
+
+0:00:51.239,0:00:54.920
+e
+
+0:00:52.920,0:00:57.440
+fiz também uma pesquisa no YouTube e não
+
+0:00:54.920,0:00:59.760
+é não é fácil encontrar, não se não se
+
+0:00:57.440,0:01:02.559
+encontra esta demonstração. Encontram-se
+
+0:00:59.760,0:01:05.280
+muito muitas outras demonstrações mais
+
+0:01:02.559,0:01:08.240
+complicadas do que do que esta.
+
+0:01:05.280,0:01:10.240
+estranhamente, não sei porquê,
+
+0:01:08.240,0:01:12.720
+esta demonstração fui eu, cheguei a ela
+
+0:01:10.240,0:01:15.000
+por por mim próprio,
+
+0:01:12.720,0:01:17.040
+mas eventualmente, pois como é tão
+
+0:01:15.000,0:01:19.360
+simples, não estou a dizer que fui eu
+
+0:01:17.040,0:01:24.360
+quem inventei,
+
+0:01:19.360,0:01:26.920
+mas vamos verá. Portanto, eu vou aqui
+
+0:01:24.360,0:01:29.880
+desenhar aqui um triângulo retângulo.
+
+0:01:26.920,0:01:33.280
+Para isso, vou fazer aqui um sistema de
+
+0:01:29.880,0:01:33.280
+eixos aqui,
+
+0:01:33.640,0:01:37.840
+OK?
+
+0:01:35.920,0:01:40.840
+Vamos só pôr aqui um um sistema de
+
+0:01:37.840,0:01:40.840
+eixos.
+
+0:01:41.960,0:01:44.960
+Ora,
+
+0:01:55.079,0:01:59.560
+ora, aqui temos um triângulo.
+
+0:01:58.000,0:02:01.960
+Isto ficou ficou de uma outra cor, não
+
+0:01:59.560,0:02:07.159
+sei porquê.
+
+0:02:01.960,0:02:07.159
+Bom, paciência. Não deve ser aqui
+
+0:02:08.381,0:02:10.401
+[roncando]
+
+0:02:11.280,0:02:17.599
+um triângulo retângulo. OK.
+
+0:02:14.276,0:02:17.599
+[roncando] Ora,
+
+0:02:19.319,0:02:24.640
+vamos dizir aqui o lado A,
+
+0:02:22.599,0:02:27.640
+B,
+
+0:02:24.640,0:02:27.640
+C,
+
+0:02:30.239,0:02:33.640
+o ângulo alfa.
+
+0:02:34.720,0:02:41.400
+o ângulo beta.
+
+0:02:38.120,0:02:41.400
+Ora, vamos,
+
+0:02:43.560,0:02:48.680
+vamos desenhar a perpendicular aqui à à
+
+0:02:45.680,0:02:48.680
+hipotenusa.
+
+0:02:52.760,0:02:55.760
+OK?
+
+0:02:57.560,0:03:02.599
+Portanto,
+
+0:02:59.680,0:03:05.840
+vamos agora
+
+0:03:02.599,0:03:09.120
+demonstrar facilmente que estes dois
+
+0:03:05.840,0:03:11.840
+triângulos mais pequenos, portanto, o
+
+0:03:09.120,0:03:15.000
+um,
+
+0:03:11.840,0:03:15.000
+o do
+
+0:03:15.480,0:03:19.760
+são similares ao triângulo retângulo
+
+0:03:18.120,0:03:22.440
+original.
+
+0:03:19.760,0:03:24.760
+Por exemplo, o número um tem um ângulo
+
+0:03:22.440,0:03:28.519
+reto, tem um ângulo beta, logo também
+
+0:03:24.760,0:03:28.519
+tem aqui um ângulo alfa.
+
+0:03:29.439,0:03:33.560
+E o triângulo número dois também tem um
+
+0:03:31.360,0:03:36.680
+ângulo reto,
+
+0:03:33.560,0:03:39.360
+também tem um ângulo alfa, logo, pois o
+
+0:03:36.680,0:03:43.959
+outro só pode ser o beta,
+
+0:03:39.360,0:03:46.599
+OK? A soma dos três ângulos internos é
+
+0:03:43.959,0:03:48.519
+180º.
+
+0:03:46.599,0:03:50.920
+Portanto,
+
+0:03:48.519,0:03:52.480
+aqui vemos então que o um triângulo
+
+0:03:50.920,0:03:54.920
+retângulo
+
+0:03:52.480,0:03:58.760
+subdividido em dois pela altura aqui do
+
+0:03:54.920,0:04:00.560
+do triângulo, esta altura H,
+
+0:03:58.760,0:04:05.959
+portanto, origina dois triângulos
+
+0:04:00.560,0:04:07.920
+retângulos similares mais pequenos. OK?
+
+0:04:05.959,0:04:09.519
+Ora,
+
+0:04:07.920,0:04:10.959
+agora o que é que nós vamos fazer?
+
+0:04:09.519,0:04:12.560
+Portanto, se os triângulos mais pequenos
+
+0:04:10.959,0:04:14.680
+são similares, as suas relações
+
+0:04:12.560,0:04:16.239
+trigonométricas também entre os
+
+0:04:14.680,0:04:18.199
+triângulos mais pequenos e o triângulo
+
+0:04:16.239,0:04:22.199
+grande também têm que ser similares. Ou
+
+0:04:18.199,0:04:25.560
+seja, por exemplo, vamos dizer aqui que
+
+0:04:22.199,0:04:29.919
+e para já vamos dividir aqui o C, o C,
+
+0:04:25.560,0:04:33.680
+este C hipótusa grande, OK?
+
+0:04:29.919,0:04:39.400
+Nós vamos dividir aqui em C1
+
+0:04:33.680,0:04:43.520
+e C2. C1. Portanto, C
+
+0:04:39.400,0:04:43.520
+é igual a C1 + C2.
+
+0:04:44.720,0:04:49.400
+E, portanto, agora vamos dizer, bom, no
+
+0:04:47.039,0:04:51.039
+triângulo número um, o triângulo
+
+0:04:49.400,0:04:54.639
+pequenino,
+
+0:04:51.039,0:04:56.360
+vamos dizer o cateto
+
+0:04:54.639,0:04:59.680
+C1
+
+0:04:56.360,0:05:01.840
+sobre a hipotenusa A,
+
+0:04:59.680,0:05:04.759
+OK?
+
+0:05:01.840,0:05:07.199
+C1
+
+0:05:04.759,0:05:10.440
+sobre A.
+
+0:05:07.199,0:05:13.240
+Ou seja, que no fundo, no fundo o que é
+
+0:05:10.440,0:05:17.360
+o que nós estamos a dizer é
+
+0:05:13.240,0:05:17.360
+o seno de alfa,
+
+0:05:21.160,0:05:25.639
+OK?
+
+0:05:23.080,0:05:28.880
+para o triângulo pequenino e agora para
+
+0:05:25.639,0:05:32.199
+o triângulo original.
+
+0:05:28.880,0:05:35.160
+Portanto, o cateto mais pequeno
+
+0:05:32.199,0:05:40.360
+que é é o A
+
+0:05:35.160,0:05:40.360
+em termos do triângulo grande original,
+
+0:05:40.560,0:05:48.759
+portanto tem de ser igual a A
+
+0:05:44.199,0:05:48.759
+sobre a hipotenusa C.
+
+0:05:49.120,0:05:54.240
+OK? Portanto, isto é pela semelhança de
+
+0:05:51.240,0:05:58.120
+triângulos. O seno de alfa, o seno de
+
+0:05:54.240,0:06:02.000
+alfa medido aqui neste ângulo aqui
+
+0:05:58.120,0:06:04.680
+é o cateto oposto A sobre a pontos C. E
+
+0:06:02.000,0:06:08.720
+medido no triângulo pequenino
+
+0:06:04.680,0:06:11.800
+é o cateto oposto C1 sobre a hipótese A.
+
+0:06:08.720,0:06:13.960
+OK? Pronto, isto em relação
+
+0:06:11.800,0:06:17.360
+ao triângulo um. Agora, em relação ao
+
+0:06:13.960,0:06:20.960
+triângulo do vamos dizer que, da mesma
+
+0:06:17.360,0:06:23.960
+maneira, vamos dizer C2
+
+0:06:20.960,0:06:23.960
+C2
+
+0:06:26.479,0:06:31.720
+sobre a hipotenusa
+
+0:06:28.720,0:06:31.720
+B
+
+0:06:32.720,0:06:39.520
+sobre a hipotenusa B,
+
+0:06:36.720,0:06:42.120
+ou seja,
+
+0:06:39.520,0:06:44.560
+no fundo, estamos a falar do cosseno de
+
+0:06:42.120,0:06:44.560
+alfa.
+
+0:06:48.440,0:06:55.479
+C2 sobre B em relação do do triângulo
+
+0:06:53.160,0:06:58.120
+número 2
+
+0:06:55.479,0:07:01.680
+tem que ser igual
+
+0:06:58.120,0:07:04.199
+ao mesmo de alfa em termos do triângulo
+
+0:07:01.680,0:07:07.680
+originário.
+
+0:07:04.199,0:07:10.520
+Ora, no triângulo origin originário, o
+
+0:07:07.680,0:07:13.919
+triângulo grande temos
+
+0:07:10.520,0:07:13.919
+o cosseno de alfa.
+
+0:07:14.120,0:07:21.199
+é o B, que é o cateto adjacente sobre a
+
+0:07:17.560,0:07:21.199
+hipótese C.
+
+0:07:24.120,0:07:28.039
+OK? Bom, isto não é preciso
+
+0:07:25.520,0:07:29.319
+trigonometria para nada. Atenção, eu
+
+0:07:28.039,0:07:30.840
+simplesmente chamei a atenção que, por
+
+0:07:29.319,0:07:31.919
+acaso, isto é o seno de alfa e por acaso
+
+0:07:30.840,0:07:33.720
+isto é o coseno de alfa, mas nem
+
+0:07:31.919,0:07:35.319
+precisávamos, não precisamos disto para
+
+0:07:33.720,0:07:37.800
+nada.
+
+0:07:35.319,0:07:41.039
+OK? Isto é, é só uma curiosidade dizer
+
+0:07:37.800,0:07:44.240
+que esta relação é o seno de alfa.
+
+0:07:41.039,0:07:45.960
+Aqui basta basta estabelecer por por
+
+0:07:44.240,0:07:47.560
+semelhança de triângulos, basta
+
+0:07:45.960,0:07:49.960
+estabelecer aqui esta relação que que eu
+
+0:07:47.560,0:07:51.720
+estabeleci. Um cateto mais pequeno sobre
+
+0:07:49.960,0:07:53.199
+a hipotenusa é igual ao cateto mais
+
+0:07:51.720,0:07:54.919
+pequeno sobre a hipotenusa. E aqui o
+
+0:07:53.199,0:07:56.919
+cateto maior sobre a hipotenusa é igual
+
+0:07:54.919,0:08:00.639
+ao cateto maior sobre hipotenusa. OK? É
+
+0:07:56.919,0:08:02.120
+só isto. Temos então duas equações.
+
+0:08:00.639,0:08:05.919
+O que é que nós vamos aqui fazer? Ora,
+
+0:08:02.120,0:08:08.039
+portanto, aqui vamos pôr que C1C, este o
+
+0:08:05.919,0:08:11.240
+C passa para [limpando a garganta]
+
+0:08:08.039,0:08:14.479
+Vamos dizer C1C
+
+0:08:11.240,0:08:17.120
+e o A passa para para ali. Estamos a
+
+0:08:14.479,0:08:18.919
+estamos a a converter ao mesmo
+
+0:08:17.120,0:08:26.000
+denominador,
+
+0:08:18.919,0:08:26.000
+OK? É igual a A quadrado, OK?
+
+0:08:26.280,0:08:31.639
+E, portanto, aqui a mesma coisa. Vamos
+
+0:08:28.440,0:08:34.880
+dizer C2C
+
+0:08:31.639,0:08:36.560
+é igual a P².
+
+0:08:34.880,0:08:40.719
+OK?
+
+0:08:36.560,0:08:45.000
+E, portanto, agora vamos somar.
+
+0:08:40.719,0:08:45.000
+Vou até vou escrever aqui.
+
+0:08:47.519,0:08:52.240
+OK. Temos duas equações.
+
+0:08:53.160,0:08:59.560
+Ui,
+
+0:08:55.680,0:09:02.079
+e agora vou somar.
+
+0:08:59.560,0:09:04.680
+Portanto, fica.
+
+0:09:02.079,0:09:11.480
+E ao somar aqui, ponho o C em evidência.
+
+0:09:04.680,0:09:14.120
+C a parêntes C1 + C2
+
+0:09:11.480,0:09:18.160
+igual a A²
+
+0:09:14.120,0:09:18.160
++ b².
+
+0:09:18.440,0:09:24.839
+E C + C1 + C2 = C. Que vinha aqui do
+
+0:09:22.920,0:09:28.519
+início.
+
+0:09:24.839,0:09:31.120
+Nós partimos C = C1 + C2.
+
+0:09:28.519,0:09:33.200
+E, portanto, já temos aqui o nosso
+
+0:09:31.120,0:09:36.079
+tiramento de Pitágoras.
+
+0:09:33.200,0:09:39.160
+C²
+
+0:09:36.079,0:09:41.880
+igual a A²
+
+0:09:39.160,0:09:44.399
++ B².
+
+0:09:41.880,0:09:46.720
+Pronto, é como vos digo, para mim esta é
+
+0:09:44.399,0:09:48.320
+a demonstração mais simples e mais
+
+0:09:46.720,0:09:50.240
+elegante que eu conheço. Demonstração do
+
+0:09:48.320,0:09:53.880
+tiema de Pitágoras.
+
+0:09:50.240,0:09:56.279
+Eh, há outras demonstrações geométricas.
+
+0:09:53.880,0:09:59.440
+Eh, não vou expulas aqui, são muito
+
+0:09:56.279,0:10:02.079
+fáceis de de encontrar. Basta ir ao ao
+
+0:09:59.440,0:10:03.916
+YouTube, à internet e procurar. Mas
+
+0:10:02.079,0:10:06.160
+penso que esta demonstração aqui
+
+0:10:03.916,0:10:08.279
+[roncando] é a mais rara de encontrar.
+
+0:10:06.160,0:10:11.360
+Eu fiz uma, tentei fazer uma pesquisa
+
+0:10:08.279,0:10:16.320
+mesmo no YouTube e não a encontrei.
+
+0:10:11.360,0:10:17.880
+Eh, e pronto, espero que tenham gostado.
+
+0:10:16.320,0:10:21.040
+Eh, e não deixem de seguir os meus
+
+0:10:17.880,0:10:23.640
+próximos episódios, que eu pretendo
+
+0:10:21.040,0:10:25.720
+pretendo agora começar iniciar aqui uma
+
+0:10:23.640,0:10:28.560
+longa jornada
+
+0:10:25.720,0:10:32.880
+de uma playlist dedicada à matemática,
+
+0:10:28.560,0:10:35.360
+OK? sempre na tentativa de mostrar algo,
+
+0:10:32.880,0:10:38.200
+algo novo, alguma vertente menos
+
+0:10:35.360,0:10:40.440
+conhecida.
+
+0:10:38.200,0:10:42.720
+E
+
+0:10:40.440,0:10:45.160
+obrigado pela atenção e até uma próxima
+
+0:10:42.720,0:10:45.160
+oportunidade.
+
+

@@ -1,0 +1,1789 @@
+0:00:03.159,0:00:07.240
+Ora, sejam bem-vindos a mais um
+
+0:00:05.359,0:00:10.360
+tutorial. Hoje vai ser dedicado ao
+
+0:00:07.240,0:00:11.679
+produto interno escalar.
+
+0:00:10.360,0:00:13.080
+Eh, também conhecido por produto
+
+0:00:11.679,0:00:14.759
+interno, também conhecido por produto
+
+0:00:13.080,0:00:18.880
+escalar.
+
+0:00:14.759,0:00:20.840
+Eh, o que acontece é que na álgebra, na
+
+0:00:18.880,0:00:24.160
+álgebra mais avançada, álgebra dos
+
+0:00:20.840,0:00:26.439
+espaços vetoriais, é definido um produto
+
+0:00:24.160,0:00:29.840
+interno como o operador que atua em
+
+0:00:26.439,0:00:33.160
+vetores e e há pode haver vários tipos
+
+0:00:29.840,0:00:35.000
+de produto produto interno, OK? e é
+
+0:00:33.160,0:00:39.200
+definido como sendo um operador que
+
+0:00:35.000,0:00:41.760
+obedece um conjunto de regras, como seja
+
+0:00:39.200,0:00:44.120
+a comutatividade
+
+0:00:41.760,0:00:46.680
+e mais umas quantas outras propriedades.
+
+0:00:44.120,0:00:48.239
+OK? Mas nós não vamos e tratar disso que
+
+0:00:46.680,0:00:49.800
+são tópicos avançados, dá aos para
+
+0:00:48.239,0:00:52.840
+vinear.
+
+0:00:49.800,0:00:56.160
+Eh, vamos só tratar do o também
+
+0:00:52.840,0:00:58.320
+conhecido o produto escalar. No fundo, é
+
+0:00:56.160,0:01:00.840
+um caso particular, aquele produto
+
+0:00:58.320,0:01:04.400
+escalar que nós aprendemos na escola é
+
+0:01:00.840,0:01:07.040
+um caso particular,
+
+0:01:04.400,0:01:10.085
+da situação mais genérica da da da que
+
+0:01:07.040,0:01:10.320
+são os produtos internos. OK?
+
+0:01:10.085,0:01:12.680
+[roncando]
+
+0:01:10.320,0:01:15.240
+Eh, portanto,
+
+0:01:12.680,0:01:17.320
+eh, por isso é que eu pus aqui produto
+
+0:01:15.240,0:01:19.520
+interno escalar, porque se eu disser só
+
+0:01:17.320,0:01:23.200
+produto interno, toda a gente sabe o que
+
+0:01:19.520,0:01:26.119
+é, mas e mas em termos formais não não
+
+0:01:23.200,0:01:29.799
+fica bem bem correto. OK? Eu tenho que
+
+0:01:26.119,0:01:31.600
+dizer que é que é o produto escalar. OK?
+
+0:01:29.799,0:01:34.159
+Sim, senhor. Pronto, o importante é que
+
+0:01:31.600,0:01:37.040
+se perceba o que é que estamos a tratar.
+
+0:01:34.159,0:01:38.680
+Ora bem, portanto, h, para aqueles que
+
+0:01:37.040,0:01:40.360
+já sabem e já conhecem, pois é
+
+0:01:38.680,0:01:42.840
+simplesmente relembrar algumas ideias e
+
+0:01:40.360,0:01:45.119
+ver como vamos deduzir
+
+0:01:42.840,0:01:48.119
+o este produto escalar a partir da lei
+
+0:01:45.119,0:01:49.799
+dos cossenos. OK?
+
+0:01:48.119,0:01:55.439
+Então, o que é que nós temos aqui? Nós
+
+0:01:49.799,0:01:55.439
+temos eh vamos ver aqui.
+
+0:01:57.399,0:02:02.200
+OK. Ora bem, o que é que nós temos?
+
+0:01:59.680,0:02:05.280
+temos dois vetores.
+
+0:02:02.200,0:02:08.039
+Portanto, o produto escalar é um é um
+
+0:02:05.280,0:02:12.080
+operador vetorial. Ela opera em dois
+
+0:02:08.039,0:02:14.560
+vetores e vai nos devolver
+
+0:02:12.080,0:02:20.080
+um escalar, OK? Portanto, um valor
+
+0:02:14.560,0:02:25.200
+numérico. Ora bem, nós temos o vetor A,
+
+0:02:20.080,0:02:26.760
+OK? Nós vamos ter aqui o vetor B, OK? E
+
+0:02:25.200,0:02:29.239
+agora vamos arranjar um operador que
+
+0:02:26.760,0:02:31.200
+opera nestes dois vetores.
+
+0:02:29.239,0:02:36.120
+Portanto, os vetores fazem um ângulo
+
+0:02:31.200,0:02:40.440
+alfa. OK? Pronto. Agora, eh, de onde vem
+
+0:02:36.120,0:02:42.879
+a necessidade de deste operador? eh
+
+0:02:40.440,0:02:44.400
+poderá ter múltip múltiplas
+
+0:02:42.879,0:02:46.959
+interpretações. Por exemplo, na na
+
+0:02:44.400,0:02:49.480
+física tem uma interpretação,
+
+0:02:46.959,0:02:51.200
+há muitas casos em que vamos aplicar o
+
+0:02:49.480,0:02:52.879
+produto escalar, mas na física um
+
+0:02:51.200,0:02:57.280
+exemplo que se costuma dar é o é o
+
+0:02:52.879,0:02:59.840
+trabalho eh o trabalho de uma força. OK?
+
+0:02:57.280,0:03:01.800
+Imaginando que aqui o a era era a força,
+
+0:02:59.840,0:03:04.400
+era o deslocamento.
+
+0:03:01.800,0:03:07.280
+Portanto, aqui aqui o a o A seria igual
+
+0:03:04.400,0:03:11.280
+ao vetor deslocamento
+
+0:03:07.280,0:03:14.360
+e o B seria igual à força. Então o
+
+0:03:11.280,0:03:18.360
+trabalho é igual à componente da força
+
+0:03:14.360,0:03:19.959
+vezes o deslocamento. OK?
+
+0:03:18.360,0:03:21.720
+Pronto. Não vamos agora aqui entrar
+
+0:03:19.959,0:03:24.879
+muito mais por menores, que isso isso
+
+0:03:21.720,0:03:28.080
+isso é do do âmbito da da física.
+
+0:03:24.879,0:03:29.720
+Eh, portanto, aqui o importante é que eh
+
+0:03:28.080,0:03:32.680
+eu
+
+0:03:29.720,0:03:34.640
+o se eu quiser decompor este este B,
+
+0:03:32.680,0:03:38.159
+imaginando imaginando que este que esta
+
+0:03:34.640,0:03:41.280
+era a força, era a força da física, OK?
+
+0:03:38.159,0:03:43.080
+E e aqui seria o deslocamento,
+
+0:03:41.280,0:03:46.280
+o deslojuamento.
+
+0:03:43.080,0:03:50.640
+E, portanto, ao decompor a força em duas
+
+0:03:46.280,0:03:53.840
+componentes, uma na direção
+
+0:03:50.640,0:03:56.319
+do deslojuamento, eu pois vou ter aqui
+
+0:03:53.840,0:04:02.159
+que será b
+
+0:03:56.319,0:04:03.519
+cosseno de alfa, OK? Como já sabemos.
+
+0:04:02.159,0:04:07.680
+Pronto. E então, basicamente, o que
+
+0:04:03.519,0:04:09.680
+temos é que definimos o produto interno
+
+0:04:07.680,0:04:12.400
+de A
+
+0:04:09.680,0:04:18.199
+interno B
+
+0:04:12.400,0:04:20.000
+como sendo o produto do o módulo de A
+
+0:04:18.199,0:04:24.960
+vezes
+
+0:04:20.000,0:04:29.680
+e o módulo da da componente de B aqui na
+
+0:04:24.960,0:04:29.680
+direção de A, ou seja, B
+
+0:04:29.800,0:04:33.840
+cosseno de alfa.
+
+0:04:31.840,0:04:36.800
+E e portanto logo daqui vemos que o que
+
+0:04:33.840,0:04:38.160
+o produto escalar é comutativo.
+
+0:04:36.800,0:04:40.880
+Normalmente representa-se assim por um
+
+0:04:38.160,0:04:42.720
+pontinho entre os vetores, não é? E
+
+0:04:40.880,0:04:44.919
+portanto vemos que é comutativo,
+
+0:04:42.720,0:04:46.840
+portanto que A interno B é igual a B
+
+0:04:44.919,0:04:48.880
+interno A.
+
+0:04:46.840,0:04:51.039
+OK?
+
+0:04:48.880,0:04:53.840
+Porque eu sei, seria a mesma coisa,
+
+0:04:51.039,0:04:58.320
+seria a mesma coisa se eu considerasse
+
+0:04:53.840,0:04:58.320
+esta esta direção,
+
+0:04:58.880,0:05:05.240
+ou seja, se eu considerasse esta como a
+
+0:05:00.639,0:05:09.440
+direção principal e agora ao projetar
+
+0:05:05.240,0:05:12.160
+ao projetar este vetor aqui, eu teria
+
+0:05:09.440,0:05:15.680
+aqui teria o a
+
+0:05:12.160,0:05:15.680
+cosseno de alfa,
+
+0:05:16.120,0:05:23.000
+OK? e que depois multiplicaria aqui pelo
+
+0:05:19.160,0:05:25.199
+pelo B, multiplicaria aqui por este B.
+
+0:05:23.000,0:05:27.120
+OK? Portanto,
+
+0:05:25.199,0:05:29.240
+portanto, o referencial seria outro, mas
+
+0:05:27.120,0:05:32.160
+o o resultado sendo um número escalar é
+
+0:05:29.240,0:05:35.000
+o mesmo. OK?
+
+0:05:32.160,0:05:37.280
+Portanto, o produto interno
+
+0:05:35.000,0:05:39.680
+ou produto escalar, melhor dizendo, é
+
+0:05:37.280,0:05:41.919
+comutativo.
+
+0:05:39.680,0:05:44.800
+Sim, senhor. Ora, como e agora vamos
+
+0:05:41.919,0:05:47.120
+encontrar uma fórmula
+
+0:05:44.800,0:05:49.199
+muito famosa,
+
+0:05:47.120,0:05:52.000
+muito prática para calcular o produto
+
+0:05:49.199,0:05:55.800
+interno de vetores.
+
+0:05:52.000,0:05:58.520
+Eh, e vamos recorrer-nos da da lei dos
+
+0:05:55.800,0:06:00.759
+cossenos, OK?
+
+0:05:58.520,0:06:02.639
+Portanto, nós, ao repararmos, temos aqui
+
+0:06:00.759,0:06:05.960
+um cosseno, nós lembramos-nos da lei dos
+
+0:06:02.639,0:06:09.479
+cossenos. Nós lembramos-nos que
+
+0:06:05.960,0:06:09.479
+eh num triângulo,
+
+0:06:11.479,0:06:16.319
+OK? Tenho aqui o A B,
+
+0:06:19.080,0:06:27.080
+eh, tenho aqui o o lado C,
+
+0:06:23.520,0:06:30.639
+mas o lado C é como se fosse um vetor
+
+0:06:27.080,0:06:30.639
+também. OK?
+
+0:06:32.039,0:06:40.560
+Mas o lado C é como se fosse um o vetor
+
+0:06:37.080,0:06:42.479
+e aqui que que vamos imaginar
+
+0:06:40.560,0:06:44.800
+que que que temos aqui a origem dos
+
+0:06:42.479,0:06:47.800
+eixos.
+
+0:06:44.800,0:06:47.800
+OK?
+
+0:06:52.360,0:06:57.520
+Claro que este produto interno, por
+
+0:06:54.000,0:07:00.639
+acaso, ele é ele é válido em n
+
+0:06:57.520,0:07:02.520
+dimensões, não só em duas dimensões. OK?
+
+0:07:00.639,0:07:07.759
+Nós aqui só vamos fazer a demonstração
+
+0:07:02.520,0:07:09.319
+simples para ter uma uma intuição
+
+0:07:07.759,0:07:13.240
+de onde vem a forma. Vamos demonstrar
+
+0:07:09.319,0:07:15.000
+apenas para duas dimensões, OK?
+
+0:07:13.240,0:07:17.520
+Mas a forma depois é a mesma para na
+
+0:07:15.000,0:07:19.360
+dimensões.
+
+0:07:17.520,0:07:23.160
+Portanto, aqui tenho e então tenho o
+
+0:07:19.360,0:07:28.360
+vetor A, o vetor B e o vetor se
+
+0:07:23.160,0:07:31.400
+considerando que este ponto aqui é o A
+
+0:07:28.360,0:07:35.160
+e este ponto é o é o B, nem preciso de
+
+0:07:31.400,0:07:41.240
+considerar pontos. Eu basta chamar a
+
+0:07:35.160,0:07:45.479
+atenção que o vetor C é igual ao vetor A
+
+0:07:41.240,0:07:49.599
+menos o vetor B. OK?
+
+0:07:45.479,0:07:51.440
+Portanto, relembrando que
+
+0:07:49.599,0:07:53.720
+relembrando que quando eu tenho este
+
+0:07:51.440,0:07:55.879
+vetor
+
+0:07:53.720,0:08:00.840
+a
+
+0:07:55.879,0:08:03.919
+e que se eu quiser somar um vetor P,
+
+0:08:00.840,0:08:06.159
+OK? O que faço é como que partindo da
+
+0:08:03.919,0:08:09.639
+origem
+
+0:08:06.159,0:08:12.639
+desloco-me de A e a seguir desloco-me de
+
+0:08:09.639,0:08:12.639
+B,
+
+0:08:12.800,0:08:24.080
+OK? Desloco-me de B e o resultado é
+
+0:08:18.319,0:08:27.319
+este vetor aqui no meio, OK? Este vetor
+
+0:08:24.080,0:08:28.960
+que é como se eu, a partir da origem me
+
+0:08:27.319,0:08:31.840
+deslocasse diretamente aqui ao ponto
+
+0:08:28.960,0:08:36.680
+final. Portanto, e este será a soma dos
+
+0:08:31.840,0:08:38.360
+dois vetores A + B. OK?
+
+0:08:36.680,0:08:42.719
+Aqui
+
+0:08:38.360,0:08:46.719
+não é A + B, porque se fosse A + B,
+
+0:08:42.719,0:08:46.719
+o resultado estaria aqui,
+
+0:08:46.760,0:08:54.920
+mas sim é A - B. OK?
+
+0:08:51.399,0:09:00.040
+Para vermos que é a - b, consideramos
+
+0:08:54.920,0:09:00.040
+que se eu tenho aqui o a
+
+0:09:03.040,0:09:07.399
+e
+
+0:09:04.720,0:09:09.480
+eu tenho o A e agora vou somar o - b, ou
+
+0:09:07.399,0:09:10.839
+seja, o simétrico de b. Usando esta
+
+0:09:09.480,0:09:12.640
+regra que eu disse agora, é como se eu
+
+0:09:10.839,0:09:17.320
+me deslocasse
+
+0:09:12.640,0:09:20.640
+da origem até aqui ao final.
+
+0:09:17.320,0:09:26.000
+E agora vou somar o - b. Mas, portanto,
+
+0:09:20.640,0:09:30.040
+se este vetor aqui é o B, OK?
+
+0:09:26.000,0:09:36.560
+Portanto, se este é o B,
+
+0:09:30.040,0:09:41.560
+então o - B será o simétrico aqui - B.
+
+0:09:36.560,0:09:45.920
+E, portanto, aqui a E agora somo-lhe
+
+0:09:41.560,0:09:45.920
+o - B, que seria este.
+
+0:09:47.160,0:09:52.680
+OK?
+
+0:09:49.399,0:09:52.680
+- B.
+
+0:09:52.839,0:09:56.079
+OK?
+
+0:09:54.519,0:09:59.839
+E, portanto, acabei de dizer que a
+
+0:09:56.079,0:10:02.600
+regra, a regra é que o resultado,
+
+0:09:59.839,0:10:04.680
+ou seja, de a - b tivesse da origem e me
+
+0:10:02.600,0:10:07.800
+deslocasse diretamente ao final.
+
+0:10:04.680,0:10:14.120
+Portanto, será este aqui,
+
+0:10:07.800,0:10:17.160
+OK? Este vetor é o a men.
+
+0:10:14.120,0:10:19.560
+OK? Aqui tá posicionado na origem. E
+
+0:10:17.160,0:10:21.480
+aqui e e aqui
+
+0:10:19.560,0:10:24.440
+e aqui está posicionado aqui neste outro
+
+0:10:21.480,0:10:27.079
+ponto porque os vetores são livres.
+
+0:10:24.440,0:10:30.519
+Os vetores, todos os vetores eles eles
+
+0:10:27.079,0:10:32.920
+são livres, salvo salvo informação em
+
+0:10:30.519,0:10:35.720
+contrário. Quando sempre que falamos em
+
+0:10:32.920,0:10:38.480
+vetor, o vetor é ele é colocado onde nós
+
+0:10:35.720,0:10:40.240
+quisermos. O vetor representa
+
+0:10:38.480,0:10:42.920
+representa a expressão de um determinado
+
+0:10:40.240,0:10:45.839
+deslocamento. Não não tá agarrada de
+
+0:10:42.920,0:10:47.519
+nenhum ponto fixo. OK?
+
+0:10:45.839,0:10:50.279
+Enfim, mais ou menos. Não sei se me
+
+0:10:47.519,0:10:53.959
+explico. Pronto. E então, portanto, aqui
+
+0:10:50.279,0:10:56.920
+o o C, que é o o este terceiro lado do
+
+0:10:53.959,0:11:00.560
+triângulo, não é mais do que A - B, os
+
+0:10:56.920,0:11:02.440
+vetores A - B. Sim, senhora.
+
+0:11:00.560,0:11:03.519
+Portanto,
+
+0:11:02.440,0:11:05.680
+então o que é que eu vou agora aqui
+
+0:11:03.519,0:11:09.000
+fazer? Eu vou relembrar a lei dos
+
+0:11:05.680,0:11:12.079
+cossenos e vou dizer que o c, que é o
+
+0:11:09.000,0:11:17.320
+lado oposto, o c quad
+
+0:11:12.079,0:11:21.360
+é igual a a² + b²
+
+0:11:17.320,0:11:21.360
+- 2ab,
+
+0:11:21.519,0:11:27.519
+o cosseno de
+
+0:11:24.680,0:11:31.519
+de alfa, eu chamo-lhe alfa. O cosseno de
+
+0:11:27.519,0:11:32.997
+alfa. OK? Aqui alfa.
+
+0:11:31.519,0:11:33.519
+Sim, senhora.
+
+0:11:32.997,0:11:35.519
+[roncando]
+
+0:11:33.519,0:11:39.279
+Mas o C
+
+0:11:35.519,0:11:42.040
+é A - B, OK?
+
+0:11:39.279,0:11:43.279
+E, portanto, o comprimento do C é a raiz
+
+0:11:42.040,0:11:47.279
+quadrada, porque isto é pelo tiramento
+
+0:11:43.279,0:11:49.320
+de Pitágoras. Raiz quadrada da
+
+0:11:47.279,0:11:52.079
+É melhor escrever o C. Vamos por fases.
+
+0:11:49.320,0:11:56.519
+Portanto, o C,
+
+0:11:52.079,0:11:56.519
+o C é igual a A - B.
+
+0:11:56.959,0:12:04.760
+OK? [roncando] Eh, portanto, fica o A.
+
+0:12:02.399,0:12:06.800
+Vamos dizer A1
+
+0:12:04.760,0:12:09.760
+A2
+
+0:12:06.800,0:12:12.953
+menos o B, vamos dizer que tem
+
+0:12:09.760,0:12:16.560
+coordenadas B1, B2,
+
+0:12:12.953,0:12:18.480
+[roncando] OK? E que, portanto, dá A1 -
+
+0:12:16.560,0:12:21.760
+B1,
+
+0:12:18.480,0:12:25.600
+A2 - B2,
+
+0:12:21.760,0:12:29.680
+OK? É o vetor C. Portanto, qual é a
+
+0:12:25.600,0:12:31.760
+norma de C? Portanto, C
+
+0:12:29.680,0:12:35.160
+é é para o teorema de Pitágoras.
+
+0:12:31.760,0:12:35.160
+a raiz quadrada
+
+0:12:36.240,0:12:40.440
+da soma dos quadrados dos catetos.
+
+0:12:43.160,0:12:47.160
+Sim, senhora.
+
+0:12:45.160,0:12:48.920
+Mas nós temos aí c quad, não temos c,
+
+0:12:47.160,0:12:52.120
+nós temos o comprimento ao quadrado,
+
+0:12:48.920,0:12:53.480
+portanto nós temos c qu e, portanto, c²,
+
+0:12:52.120,0:12:55.079
+portanto, é aqui este quadrado. Então
+
+0:12:53.480,0:12:59.199
+fica
+
+0:12:55.079,0:13:02.839
+a1 - b1 quadrado
+
+0:12:59.199,0:13:05.920
++ a2 - b2²
+
+0:13:02.839,0:13:07.760
+é igual a a
+
+0:13:05.920,0:13:10.639
++ b2
+
+0:13:07.760,0:13:13.880
+- 2ab
+
+0:13:10.639,0:13:15.920
+cosseno de alfa.
+
+0:13:13.880,0:13:17.920
+OK?
+
+0:13:15.920,0:13:20.160
+Ora,
+
+0:13:17.920,0:13:25.160
+agora vamos ter aqui, vamos, vamos
+
+0:13:20.160,0:13:30.680
+desenvolver aqui. Ora, a1²
+
+0:13:25.160,0:13:33.440
++ b1² - 2a1 b1
+
+0:13:30.680,0:13:36.839
++ a2²
+
+0:13:33.440,0:13:40.959
++ b2²
+
+0:13:36.839,0:13:45.360
+- 2 a2b2
+
+0:13:40.959,0:13:47.480
+é = a² + b²
+
+0:13:45.360,0:13:50.519
+- 2ab
+
+0:13:47.480,0:13:53.440
+o cosseno de alfa. Ok? E agora vai haver
+
+0:13:50.519,0:13:58.000
+aqui uma série de corta-cortas, porque
+
+0:13:53.440,0:14:01.000
+o a1² + a2² é igual ao a².
+
+0:13:58.000,0:14:01.000
+Ok?
+
+0:14:02.519,0:14:08.320
+Ok? Portanto, eu tir de Pitágoras se se
+
+0:14:05.320,0:14:08.320
+a
+
+0:14:08.800,0:14:16.079
+portanto se A
+
+0:14:12.240,0:14:16.079
+o vetor tem coordenadas
+
+0:14:17.360,0:14:20.720
+A1 A2,
+
+0:14:22.839,0:14:27.639
+então
+
+0:14:24.880,0:14:31.680
+então o A,
+
+0:14:27.639,0:14:31.680
+o comprimento do vetor é a raiz quadrada
+
+0:14:33.320,0:14:40.360
+A1 quadrado pelo tiramento de Pitágoras
+
+0:14:35.320,0:14:44.519
+H2 quad e, portanto, o A²
+
+0:14:40.360,0:14:48.160
+corta a raiz é igual a 1 qu
+
+0:14:44.519,0:14:50.079
+a2². Pronto. Então, por isso aqui temos
+
+0:14:48.160,0:14:55.759
+que
+
+0:14:50.079,0:14:59.279
+corta corta aqui a1² + a2²
+
+0:14:55.759,0:15:03.160
+corta com a².
+
+0:14:59.279,0:15:07.120
+Da mesma forma b1²
+
+0:15:03.160,0:15:09.560
+b2² corta com
+
+0:15:07.120,0:15:12.399
+b².
+
+0:15:09.560,0:15:17.839
+Pronto. E agora vemos que ora isto é
+
+0:15:12.399,0:15:22.079
+tudo é tudo divisível. divisível por -2.
+
+0:15:17.839,0:15:22.079
+Aqui os termos, os termos restantes,
+
+0:15:22.639,0:15:26.835
+os termos restantes são todos divisíveis
+
+0:15:24.480,0:15:27.000
+por -2.
+
+0:15:26.835,0:15:32.079
+[roncando]
+
+0:15:27.000,0:15:32.079
+Então fica aqui que AB cosseno de alfa
+
+0:15:34.920,0:15:40.839
+fica é igual a A1 B1
+
+0:15:38.720,0:15:43.680
++ A2B2.
+
+0:15:40.839,0:15:46.360
+Mas ABseno de alfa era a nossa definição
+
+0:15:43.680,0:15:49.240
+do produto interno que nós definimos.
+
+0:15:46.360,0:15:51.800
+Nós definimos o produto interno escalar
+
+0:15:49.240,0:15:53.360
+como um operador sobre dois vetores e
+
+0:15:51.800,0:15:56.639
+que o resultado é um escalar. E o
+
+0:15:53.360,0:15:58.399
+escalar é este, é o é o produto do dos
+
+0:15:56.639,0:16:01.040
+comprimentos dos dois vetores vezes o
+
+0:15:58.399,0:16:04.000
+cosseno do ângulo entre eles.
+
+0:16:01.040,0:16:06.800
+Nós, esta é a definição, é o produto é é
+
+0:16:04.000,0:16:08.560
+definido assim porque porque assim tem
+
+0:16:06.800,0:16:10.440
+uma tem uma representação. Isto não é
+
+0:16:08.560,0:16:12.120
+definido assim só porque se inventa só
+
+0:16:10.440,0:16:14.319
+para andar aqui a brincar às
+
+0:16:12.120,0:16:16.759
+matemáticas. É, foi o que eu disse, ela
+
+0:16:14.319,0:16:19.880
+ela é definida sim porque ele tem tem um
+
+0:16:16.759,0:16:22.560
+uma interpretação física, portanto,
+
+0:16:19.880,0:16:24.639
+perfeitamente e
+
+0:16:22.560,0:16:26.680
+importante, importantíssima,
+
+0:16:24.639,0:16:28.480
+qual eu dei o exemplo do do trabalho no
+
+0:16:26.680,0:16:31.560
+caso da física e em muitas outras
+
+0:16:28.480,0:16:32.959
+situações, OK? Portanto, as coisas não
+
+0:16:31.560,0:16:35.880
+foram inventadas só para andar aqui a
+
+0:16:32.959,0:16:37.600
+brincar, portanto, o produto, OK? É
+
+0:16:35.880,0:16:39.199
+isso, é importante que se tenha essa
+
+0:16:37.600,0:16:41.720
+noção,
+
+0:16:39.199,0:16:43.800
+OK? Portanto, isto não foi não é não é
+
+0:16:41.720,0:16:46.120
+inventado só porque sim, vamos inventar
+
+0:16:43.800,0:16:49.920
+agora uma uma operação qualquer. Hum.
+
+0:16:46.120,0:16:52.600
+OK. Não, ela tem um tem um significado e
+
+0:16:49.920,0:16:54.319
+e por isso se se definiu porque tem uma
+
+0:16:52.600,0:16:56.519
+interpretação física importante e depois
+
+0:16:54.319,0:16:59.600
+tem muitas aplicações e tem a outra
+
+0:16:56.519,0:17:02.240
+outro tipo de aplicações na geometria e
+
+0:16:59.600,0:17:04.760
+OK, por exemplo, que serve é muito
+
+0:17:02.240,0:17:06.280
+importante para obtermos a vetores
+
+0:17:04.760,0:17:08.439
+perpendiculares. quando precisamos de um
+
+0:17:06.280,0:17:11.240
+vetor perpendicular ou um a um outro
+
+0:17:08.439,0:17:13.919
+vetor ou uma superfície na geometria
+
+0:17:11.240,0:17:17.799
+analítica para construir equações de
+
+0:17:13.919,0:17:19.959
+portanto de de planos, etc, etc, etc.
+
+0:17:17.799,0:17:22.240
+Pronto. E então temos produto escalar. É
+
+0:17:19.959,0:17:24.199
+definido desta maneira,
+
+0:17:22.240,0:17:26.360
+o produto dos comprimentos vezes o
+
+0:17:24.199,0:17:29.240
+cosseno. E agora reparamos e chegamos à
+
+0:17:26.360,0:17:31.120
+conclusão pela veio dos cossenos que
+
+0:17:29.240,0:17:34.039
+esse produto dos comprimentos vezes o
+
+0:17:31.120,0:17:36.000
+cosseno é a soma das das coordenadas
+
+0:17:34.039,0:17:38.919
+homólagas, do produto das coordenadas
+
+0:17:36.000,0:17:44.160
+homólagas. OK? Pronto. Então, chegamos
+
+0:17:38.919,0:17:46.000
+aqui a esta conclusão que a interno b
+
+0:17:44.160,0:17:49.720
+que é igual a abseno de alfa e que é
+
+0:17:46.000,0:17:53.360
+igual a isto. OK? Pronto. E isto também
+
+0:17:49.720,0:17:55.080
+nos permite obter um cosseno de o
+
+0:17:53.360,0:17:58.000
+cosseno de dois ângulos a partir das
+
+0:17:55.080,0:17:59.480
+coordenadas e e dos módulos. OK?
+
+0:17:58.000,0:18:01.760
+Portanto, dá para andar nos dois
+
+0:17:59.480,0:18:03.480
+sentidos.
+
+0:18:01.760,0:18:05.720
+Ora,
+
+0:18:03.480,0:18:08.679
+o que é que se pode tirar aqui também?
+
+0:18:05.720,0:18:10.640
+logo uma um caso particular que é muito
+
+0:18:08.679,0:18:12.400
+usado é quando os vetores são
+
+0:18:10.640,0:18:15.000
+perpendiculares.
+
+0:18:12.400,0:18:18.000
+Portanto, quando os vetores são
+
+0:18:15.000,0:18:18.000
+perpendiculares,
+
+0:18:18.080,0:18:24.880
+ora,
+
+0:18:20.960,0:18:24.880
+quando os vetores são perpendiculares,
+
+0:18:27.559,0:18:35.280
+portanto, o alfa é 90º
+
+0:18:30.919,0:18:36.679
+e o cosseno de de 90º é 0.
+
+0:18:35.280,0:18:38.240
+OK? Vejam isso no círculo
+
+0:18:36.679,0:18:40.039
+trigonométrico.
+
+0:18:38.240,0:18:42.840
+OK?
+
+0:18:40.039,0:18:45.840
+Eh, portanto,
+
+0:18:42.840,0:18:47.679
+cosseno de 90 é zero, portanto, o
+
+0:18:45.840,0:18:51.039
+produto, o produto interno escalar terá
+
+0:18:47.679,0:18:53.480
+que ser zero. E, portanto, esta esta
+
+0:18:51.039,0:18:55.520
+soma aqui, pois, ela ela terá que ser
+
+0:18:53.480,0:18:57.000
+zero também.
+
+0:18:55.520,0:18:59.240
+OK?
+
+0:18:57.000,0:19:04.000
+Vamos ver um exemplo.
+
+0:18:59.240,0:19:07.720
+Um exemplo que um vetor A
+
+0:19:04.000,0:19:12.280
+eh tem coordenadas, por exemplo,
+
+0:19:07.720,0:19:12.280
+vamos lhe dizer AB
+
+0:19:12.760,0:19:18.000
+e um vetor perpendicular a A. É muito
+
+0:19:15.960,0:19:21.000
+fácil encontrar um vetor perpendicular a
+
+0:19:18.000,0:19:21.000
+A.
+
+0:19:22.960,0:19:30.559
+Eh, basta trocar as aqui a ordem das
+
+0:19:27.039,0:19:33.880
+coordenadas B e mudando o sinal de
+
+0:19:30.559,0:19:36.760
+qualquer uma delas. Pronto, aqui
+
+0:19:33.880,0:19:38.559
+facilmente construo. É muito fácil de
+
+0:19:36.760,0:19:41.880
+cabeça construir um vetor perpendicular
+
+0:19:38.559,0:19:44.320
+ao outro desta maneira.
+
+0:19:41.880,0:19:47.000
+E porque isto garante-me que ao fazer o
+
+0:19:44.320,0:19:48.400
+produto interno com esta regra, OK?
+
+0:19:47.000,0:19:51.400
+Vamos, vamos dizer que este era o vetor
+
+0:19:48.400,0:19:51.400
+B.
+
+0:19:52.720,0:19:58.559
+perpendicular A e que, portanto, que A
+
+0:19:55.240,0:20:04.520
+interno B,
+
+0:19:58.559,0:20:07.520
+pois seria A x B, a x B, este com este -
+
+0:20:04.520,0:20:10.640
+B x A, pois seria 0.
+
+0:20:07.520,0:20:12.520
+OK? é muito usado isto, é muito usado o
+
+0:20:10.640,0:20:14.360
+produto interno para testar se vetores
+
+0:20:12.520,0:20:16.159
+são perpendiculares
+
+0:20:14.360,0:20:17.960
+ou para forçar que os vetores sejam
+
+0:20:16.159,0:20:19.559
+perpendiculares.
+
+0:20:17.960,0:20:22.200
+Eh, então, para terminar, vamos só ver
+
+0:20:19.559,0:20:25.240
+um pequeno exemplo
+
+0:20:22.200,0:20:29.600
+e de um problema que é precisamente o
+
+0:20:25.240,0:20:31.400
+teorema de de AON, OK? Portanto, no no
+
+0:20:29.600,0:20:34.320
+teorema de Aon, nós temos temos,
+
+0:20:31.400,0:20:35.520
+portanto, a circunferência,
+
+0:20:34.320,0:20:39.000
+OK?
+
+0:20:35.520,0:20:39.000
+Temos um diâmetro,
+
+0:20:39.280,0:20:44.600
+temos um diâmetro,
+
+0:20:41.440,0:20:48.360
+o centro.
+
+0:20:44.600,0:20:51.200
+E o que nos diz que qualquer ponto
+
+0:20:48.360,0:20:54.120
+sobre a circunferência
+
+0:20:51.200,0:20:57.480
+ao traçar o triângulo
+
+0:20:54.120,0:20:59.440
+em relação a estes extremos do diâmetro,
+
+0:20:57.480,0:21:01.280
+que vai-me dar um triângulo retângulo.
+
+0:20:59.440,0:21:02.640
+Aqui
+
+0:21:01.280,0:21:05.159
+vai-me dar um triângulo retângulo. É o
+
+0:21:02.640,0:21:07.039
+que diz o o teorema de Aeron.
+
+0:21:05.159,0:21:08.600
+Portanto, vamos demonstrar agora com
+
+0:21:07.039,0:21:11.720
+esta regra do produto interno que vai
+
+0:21:08.600,0:21:14.679
+ser bem simples. OK?
+
+0:21:11.720,0:21:17.360
+Para isso, vou considerar
+
+0:21:14.679,0:21:21.400
+um referencial
+
+0:21:17.360,0:21:21.400
+com a origem aqui no centro.
+
+0:21:24.559,0:21:29.279
+OK?
+
+0:21:26.720,0:21:33.360
+Vou considerar
+
+0:21:29.279,0:21:38.279
+o vou considerar um um círculo um
+
+0:21:33.360,0:21:41.840
+círculo unitário para para simplificar
+
+0:21:38.279,0:21:44.840
+porque portanto de raio um,
+
+0:21:41.840,0:21:44.840
+OK?
+
+0:21:46.120,0:21:51.039
+Porque como facilmente se vê, eu para
+
+0:21:49.120,0:21:53.000
+estudar um ângulo, eu não não tenho o
+
+0:21:51.039,0:21:55.000
+ângulo não vai ter nada a ver com o
+
+0:21:53.000,0:22:00.880
+tamanho do círculo. O que interessa é as
+
+0:21:55.000,0:22:03.000
+proporções da figura em termos da OK?
+
+0:22:00.880,0:22:05.440
+Portanto, vou considerar o o círculo
+
+0:22:03.000,0:22:09.600
+unitário.
+
+0:22:05.440,0:22:11.880
+Então, sendo assim, tenho, vou dizer que
+
+0:22:09.600,0:22:14.799
+tenho este ponto.
+
+0:22:11.880,0:22:16.919
+Quais são as suas coordenadas? abcissa 1
+
+0:22:14.799,0:22:19.039
+ordenada zero
+
+0:22:16.919,0:22:23.520
+e outro ponto, portanto, são os extremos
+
+0:22:19.039,0:22:27.000
+do diâmetro. Vou dizer que é absc -1
+
+0:22:23.520,0:22:29.320
+ordenada zero. Pronto.
+
+0:22:27.000,0:22:33.240
+E este ângulo é um ângulo alfa. Este
+
+0:22:29.320,0:22:33.240
+não, eu não quero este.
+
+0:22:38.480,0:22:44.039
+Eu não quero este ângulo aqui, não
+
+0:22:40.279,0:22:47.840
+preciso dele. Eu vou é considerar,
+
+0:22:44.039,0:22:50.840
+eu vou considerar este ponto P, este
+
+0:22:47.840,0:22:54.559
+ponto P e vou dizer quais as suas
+
+0:22:50.840,0:22:56.600
+coordenadas. Elas elas estão
+
+0:22:54.559,0:22:59.320
+relacionadas é com este ângulo aqui,
+
+0:22:56.600,0:23:04.279
+porque no círculo trigonométrico
+
+0:22:59.320,0:23:04.279
+tá aqui um trinado ângulo alfa. OK?
+
+0:23:04.320,0:23:07.320
+Eh,
+
+0:23:07.960,0:23:16.640
+OK. Quais as suas suas coordenadas? É
+
+0:23:11.279,0:23:19.760
+muito simples. É o é um cosseno de alfa,
+
+0:23:16.640,0:23:21.200
+vírgula seno de alfa,
+
+0:23:19.760,0:23:22.919
+certo? Isto tem a ver com o círculo
+
+0:23:21.200,0:23:24.679
+trigonométrico.
+
+0:23:22.919,0:23:25.919
+Lembrem-se que quando eu tenho aqui isto
+
+0:23:24.679,0:23:29.159
+é como isto é como se fosse aqui um
+
+0:23:25.919,0:23:31.919
+retângulo, um triângulo retângulo, digo,
+
+0:23:29.159,0:23:33.640
+que portanto tenho o ponto P que projeta
+
+0:23:31.919,0:23:36.240
+aqui em baixo na abscissa que dá P
+
+0:23:33.640,0:23:38.520
+cosseno de alfa, mas mas o mas o p aqui
+
+0:23:36.240,0:23:42.360
+é tem comprimento um. Portanto, dá aqui
+
+0:23:38.520,0:23:45.440
+dá o o cosseno de alfa
+
+0:23:42.360,0:23:47.799
+e aqui a ordenada dá o seno de alfa. Ok?
+
+0:23:45.440,0:23:50.480
+Portanto, este ponto genérico, um ponto
+
+0:23:47.799,0:23:52.159
+sobre a a circunferência,
+
+0:23:50.480,0:23:55.840
+vai ter vai ter as coordenadas com o
+
+0:23:52.159,0:23:57.640
+seno de alfa seno de alfa, OK?
+
+0:23:55.840,0:24:00.520
+São as coordenadas paramétricas de uma
+
+0:23:57.640,0:24:03.400
+circunferência. OK? Quem se lembra na
+
+0:24:00.520,0:24:05.400
+escola da da da geometria,
+
+0:24:03.400,0:24:07.000
+lembra-se que tínhamos as coordenadas
+
+0:24:05.400,0:24:08.520
+paramétricas de uma circunferência? uma
+
+0:24:07.000,0:24:12.400
+circunferência
+
+0:24:08.520,0:24:17.840
+de ter a equação cartesiana
+
+0:24:12.400,0:24:19.480
+x² + y² = r² centrada na origem, mas que
+
+0:24:17.840,0:24:23.559
+também podia ter uma representação
+
+0:24:19.480,0:24:26.279
+paramétrica x = r
+
+0:24:23.559,0:24:29.080
+cosseno de de alfa
+
+0:24:26.279,0:24:33.039
+y = r
+
+0:24:29.080,0:24:34.279
+seno de alfa. OK? Para quem se lembra,
+
+0:24:33.039,0:24:38.600
+OK?
+
+0:24:34.279,0:24:40.240
+quando o alfa variava entre 0 e 2 pi.
+
+0:24:38.600,0:24:42.520
+OK? Mas não vamos entrar agora por aqui
+
+0:24:40.240,0:24:46.600
+que isto não interessa. Pronto, é só
+
+0:24:42.520,0:24:49.240
+para interiorizar bem que o ponto P é um
+
+0:24:46.600,0:24:52.960
+tem estas coordenadas, seja o alfa qual
+
+0:24:49.240,0:24:54.200
+for. OK? Todos os pontos com estas com
+
+0:24:52.960,0:24:56.600
+estas características estão sobre a
+
+0:24:54.200,0:24:57.720
+circunferência de raio unitário. Ora
+
+0:24:56.600,0:24:59.880
+bem, então o que é que nós estamos agora
+
+0:24:57.720,0:25:02.240
+a fazer? O que eu quero demonstrar que
+
+0:24:59.880,0:25:05.039
+este ângulo azul é um ângulo de 90º.
+
+0:25:02.240,0:25:07.279
+Então eu tenho que demonstrar
+
+0:25:05.039,0:25:12.039
+tenho que demonstrar se que estes estes
+
+0:25:07.279,0:25:14.320
+dois vetores, este vetor aqui
+
+0:25:12.039,0:25:17.559
+V1
+
+0:25:14.320,0:25:20.559
+e que este aqui
+
+0:25:17.559,0:25:20.559
+V2
+
+0:25:20.600,0:25:25.880
+para calcular o produto interno deles
+
+0:25:22.720,0:25:28.200
+terá que dar zero. E então aqui sim,
+
+0:25:25.880,0:25:32.880
+este ângulo aqui será um ângulo reto.
+
+0:25:28.200,0:25:38.159
+OK? Pronto. Então tenho V1
+
+0:25:32.880,0:25:41.120
+aqui é igual a V1 é igual a P
+
+0:25:38.159,0:25:45.120
+menos este ponto. Este ponto aqui
+
+0:25:41.120,0:25:47.679
+ele vai ser P menos este ponto porque é
+
+0:25:45.120,0:25:52.600
+é a diferença destes dois pontos.
+
+0:25:47.679,0:25:55.000
+Portanto, fica que V1 é igual a
+
+0:25:52.600,0:26:00.480
+cosseno de alfa
+
+0:25:55.000,0:26:02.880
+menos este, ou seja, -1 dá + 1, vírgula
+
+0:26:00.480,0:26:05.840
+seno de alfa.
+
+0:26:02.880,0:26:07.919
+V2
+
+0:26:05.840,0:26:11.240
+é igual a isto pode ser nos dois
+
+0:26:07.919,0:26:14.440
+sentidos porque no caso do do de um
+
+0:26:11.240,0:26:15.679
+produto interno e portanto para ver se
+
+0:26:14.440,0:26:17.760
+eles são perpendiculares, pois não
+
+0:26:15.679,0:26:19.679
+importa o sentido. Poderia ser este p
+
+0:26:17.760,0:26:22.440
+menos este ou ou o seu simétrico, não
+
+0:26:19.679,0:26:24.840
+importa. OK? Isso não vai não vai fazer
+
+0:26:22.440,0:26:26.159
+variar o valor. Se se eles são
+
+0:26:24.840,0:26:30.520
+perpendiculares, pois vai ter que dar
+
+0:26:26.159,0:26:33.159
+zero de qualquer maneira. Portanto, V2.
+
+0:26:30.520,0:26:36.760
+Portanto, vou dizer que é cosseno de
+
+0:26:33.159,0:26:36.760
+alfa - 1
+
+0:26:38.159,0:26:43.720
+e seno de alfa - 0 seno de alfa. Pronto,
+
+0:26:41.640,0:26:45.960
+já tenho aqui os dois vetores e agora
+
+0:26:43.720,0:26:50.399
+faço o produto interno.
+
+0:26:45.960,0:26:50.399
+Portanto, v1 interno v2.
+
+0:26:50.559,0:26:56.320
+E já sabemos como é que é a soma
+
+0:26:54.440,0:26:59.679
+a soma dos produtos das das coordenadas
+
+0:26:56.320,0:27:01.919
+homólagas. Portanto, OK? Portanto, este
+
+0:26:59.679,0:27:05.960
+vezes este
+
+0:27:01.919,0:27:05.960
+cseno de alfa + 1,
+
+0:27:06.440,0:27:13.240
+cosseno de alfa - 1, certo? Mais as
+
+0:27:11.279,0:27:16.919
+coordenadas omógas seno de alfa seno de
+
+0:27:13.240,0:27:22.679
+alfa, ou seja, seno de alfa ao quadrado.
+
+0:27:16.919,0:27:25.120
+Ok? E agora aqui aqui é um caso notável
+
+0:27:22.679,0:27:29.200
+que a - b a + b, portanto dá o seno
+
+0:27:25.120,0:27:32.080
+quadrado - 1. Ok?
+
+0:27:29.200,0:27:37.559
+cosseno quadrado de alfa
+
+0:27:32.080,0:27:40.000
+- 1 + seno quad alfa. Mas o cosseno
+
+0:27:37.559,0:27:42.440
+quadrado de alfa
+
+0:27:40.000,0:27:45.080
+mais seno quad alfa a forma fundamental
+
+0:27:42.440,0:27:47.120
+da trigonometria que é igual a 1 e
+
+0:27:45.080,0:27:48.799
+portanto 1 men 1 vai haver o corta corta
+
+0:27:47.120,0:27:50.440
+corta tudo e portanto isto é igual a
+
+0:27:48.799,0:27:53.679
+zero.
+
+0:27:50.440,0:27:56.360
+Ok? Pronto, aqui temos um exemplo.
+
+0:27:53.679,0:27:58.559
+Reparem na simplicidade
+
+0:27:56.360,0:28:01.399
+com que fizemos esta demonstração. Com
+
+0:27:58.559,0:28:03.840
+os conhecimento do produto interno, com
+
+0:28:01.399,0:28:06.440
+a forma, a regra do produto interno
+
+0:28:03.840,0:28:10.000
+simples, acabamos de demonstrar o
+
+0:28:06.440,0:28:11.679
+teorema de Aeron. OK? Acho esta
+
+0:28:10.000,0:28:14.279
+demonstração ocorreu-me no outro dia. Eu
+
+0:28:11.679,0:28:17.279
+nem a vi em lado nenhum, mas quando
+
+0:28:14.279,0:28:18.799
+estava a estudar o o teorema de AON, eu
+
+0:28:17.279,0:28:21.200
+próprio disse assim: "Deixa-me cá fazer
+
+0:28:18.799,0:28:22.720
+este teste". na altura fiz este teste e
+
+0:28:21.200,0:28:26.320
+claro que tinha tinha que bater certo,
+
+0:28:22.720,0:28:28.440
+não é? E pronto. E aqui temos mais um
+
+0:28:26.320,0:28:30.120
+exemplo. Tínhamos demonstrado o teorema
+
+0:28:28.440,0:28:31.200
+de Aeron noutro tutorial por outro por
+
+0:28:30.120,0:28:33.840
+outro método qualquer que já nem me
+
+0:28:31.200,0:28:35.799
+recordo. E agora aqui demonstramos desta
+
+0:28:33.840,0:28:37.320
+outra maneira com recorrendo ao produto
+
+0:28:35.799,0:28:39.880
+interno. [roncando]
+
+0:28:37.320,0:28:42.760
+OK? Eh, isto é só para relembrar, não é?
+
+0:28:39.880,0:28:44.919
+Pronto, espero que as pessoas à partida,
+
+0:28:42.760,0:28:46.240
+como eu disse, estes meus tutoriais são
+
+0:28:44.919,0:28:47.600
+destinados a pessoas que já têm
+
+0:28:46.240,0:28:48.960
+conhecimentos de matemática e que já
+
+0:28:47.600,0:28:50.519
+conhecem mais ou menos todos os temas
+
+0:28:48.960,0:28:53.760
+que eu estou aqui a tratar. Isto é
+
+0:28:50.519,0:28:56.919
+apenas uma forma de de sedimentar
+
+0:28:53.760,0:28:59.159
+sedimentar o as bases para depois então
+
+0:28:56.919,0:29:00.559
+passarmos para tópicos mais avançados.
+
+0:28:59.159,0:29:02.760
+OK?
+
+0:29:00.559,0:29:05.320
+Eh, mas pronto, mas primeiro queria
+
+0:29:02.760,0:29:07.080
+queria construir aqui uma base de
+
+0:29:05.320,0:29:08.840
+sustentação,
+
+0:29:07.080,0:29:11.480
+sedimentando as bases e chamando a
+
+0:29:08.840,0:29:13.840
+atenção todas as formas fundamentais as
+
+0:29:11.480,0:29:16.600
+quais iremos precisar delas para futuros
+
+0:29:13.840,0:29:19.320
+tutoriais. Então, obrigado e até uma
+
+0:29:16.600,0:29:19.320
+próxima oportunidade.
+
+

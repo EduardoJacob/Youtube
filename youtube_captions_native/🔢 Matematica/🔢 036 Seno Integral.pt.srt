@@ -1,0 +1,1044 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial. Hoje vamos tratar aqui do seno
+integral
+e do integral de dirig.
+Ora bem, portanto, nós já vimos várias
+técnicas de primitivação,
+OK?
+Mas efetivamente nem todas as funções se
+conseguem primitivar.
+Pronto, essa é a grande realidade.
+Não se conseguem primitivar
+analiticamente.
+Por exemplo, esta é uma função famosa
+que é o
+o integral ou a primitiva de
+seno de x
+sobre x.
+OK?
+Pronto. Eh,
+se tentarmos primitivar por partes,
+uma vez que sabemos derivar, sabemos
+derivar o seno, sabemos primitivar
+o inverso de x que tá ao logaritmo,
+podemos tentar, mas depois aparece um um
+segundo integral e estamos
+outra vez na mesma. Estamos ficamos com
+um integral similar com
+o integral do de logaritmo coseno
+e
+portanto se integrar
+que não
+que não não conseguimos.
+Eh, pode, podem experimentar.
+Sim, senhor. E, portanto, não se
+consegue não se consegue primitivar.
+Ora bem, eh, no entanto, como isto é uma
+função, acho que esta função é bastante
+importante,
+OK?
+E então, como não se consegue
+primitivar,
+o que se faz é
+definimos
+definimos uma função que é chamado o
+seno integral si,
+uma função de x,
+OK?
+e vou dizer, bom,
+ele é o o valor do integral, ele é o
+valor deste integral que eu não que não
+que eu não consigo primitivar.
+Agora vou usar aqui uma outra variável
+porque já estou a assignar o x aqui, a
+dizer, ok, esta é a função, o seno de
+integral de x é o integral de 0 a x,
+ok?
+Agora já estou a falar do integral, já
+não estou a falar da primitiva, porque
+agora já é uma coisa específica, já
+tenho os intervalos específicos, é de
+zero a x, é o integral entre 0 e x, OK?
+Do seno
+de t. Ponho aqui uma outra variável
+qualquer, uma vez que o x já estou a
+usá-lo aqui. Sen t dt. Sim, senhor.
+Pronto. E este é o seno integral. é uma
+função,
+é uma função o cujo o a expressão da
+função
+é é o el é expressa em função de um
+integral.
+OK?
+Qual a derivada do seno integral? Ó,
+essa é simples.
+A derivada da função o seno integral
+é igual a seno de x sobre x.
+Sim, senhora.
+Ora, aqui fui ao Gogebra
+[roncando] e pus a vermelho o seno de X
+sobre X.
+Sim, senhor. Portanto, a vermelho é a
+função o seno de x.
+[roncando]
+E quando X vai crescendo, portanto, é um
+é um seno de X amortizado,
+uma com uma uma
+amortizado, não, amortecido, desculpem.
+Portanto, amortecido, tem um
+amortecimento.
+Eh, e portanto h nós vemos que a sinoal
+aqui depois começa a amortecer e começa
+a tender para zero. OK? A linha
+vermelha.
+OK?
+Há algum problema nesta função no ponto
+x = 0? Não. No ponto x = 0,
+aparentemente a função estaria definida,
+mas h
+acaba por estar definida porque o limite
+à esquerda e à direita desta função é o
+é o mesmo, existe, é igual a 1. Nós já
+vimos isso. Quando nós deduzimos a
+derivada do seno, apareceu-nos uma
+expressão deste tipo, sen x sobre x.
+E, portanto, h,
+não tem problema. E por isso vemos aqui
+que o no gráfico da linha vermelha ela a
+existe continuidade. Sim, senhor.
+E agora temos o que a azul eu defini uma
+outra função seja g de x igual ao
+integral de f. E efetivamente
+o geceu
+que esta era a função si, o seno
+integral de x. OK? Pronto. Então vemos
+que a linha azul
+é é o integral, portanto é a área é a
+área e debaixo desta vinha vermelha.
+OK?
+Eh, sim, senhor. Não esquecer que a área
+de baixo da vinha vermelha, ela esta
+parte é positiva.
+Se eu calcular calcularmos aqui o
+integral,
+esta depois esta componente aqui é
+negativa.
+OK? Portanto, se eu calculasse o o
+integral,
+OK, da da função f
+entre este entre este ponto e este, pois
+tem tem que dar negativo, OK? E assim
+sucessivamente, mas o o total depois é
+positivo. O total entre zero a partir de
+zero é positivo. Sim, senhor. Então nós
+aqui azul nós temos o seno integral. Não
+há dúvida nenhuma. Esta é a função si.
+o seno integral de x,
+OK?
+E que é o integral desta
+desta função
+sendo x sobre x a vermelho.
+Sim, senhora.
+Nós vemos aqui azul, na linha azul que
+isto tende, tem uma tendência e tem ela
+agora ela vai ficando constante e tende
+no limite o limite do seno integral, nós
+vemos que o o limite
+da função do do seno integral quando x
+tende para mais infinito,
+OK?
+Tá aqui é é cerca de 1,5
+um bocadinho mais que 1,5. Na verdade é
+igual a pios. OK, já veremos isso mais à
+frente. Sim, senhora.
+[roncando]
+E pronto. Quanto ao sino integral, não
+há mais. É isto. Não tem mais. É uma
+definição, é uma função que ela é
+definida em função de um determinado
+integral, ou seja, não tem uma expressão
+analítica própria e, portanto, ela é
+definida.
+com o auxiliar de um determinado
+integral, que é este que vimos aqui.
+Vamos agora, por curiosidade, calcular a
+expansão em série de potências do seno
+integral, que é bastante simples de de
+fazer isso. Portanto, nós sabemos que
+nós quando quando vimos a expansão em
+série de Taylor e nós vimos que o seno
+tínhamos
+o seno de x
+que era igual a x -
+x³
+sobre 3 fatorial
++ x5
+sobre 5 fatorial menos etc. Portanto,
+nós vimos isto na altura
+e, portanto,
+eh, então posso calcular agora seno de x
+so x.
+Portanto, então é simples.
+Seno de x so x,
+OK? E, portanto, dá dá 1 -
+x²
+sobre 3 fatorial, porque eu divido,
+divido cada um destes termos por x
++ x4
+sobre 5 fatorial, etc. Sim, senhora.
+Então agora posso calcular
+posso calcular o seno integral que que é
+o integral desta expressão,
+OK?
+o integral desta expressão. Portanto, o
+seno integral, a função sen integral de
+x
+é
+a primitiva, a primitivação
+desta expressão.
+E, portanto, é fácil de primitivar. A
+primitiva de 1 é x.
+Aqui x c3
+vez o 3 fatorial que já lá estava
+mais
+aqui fica x5
+e etc. Pronto. Aqui temos a expansão
+em série Taylor do seno integral.
+OK? Pronto. [suspirando]
+Eh, agora vamos então calcular o famoso
+limite, também conhecido por integral de
+dirig.
+Portanto, o limite, qual será o limite?
+Quando x tende a infinito
+do sino integral?
+Portanto, qual será o limite?
+OK. Quando x tende a infinito,
+de da função entre 0 e x,
+OK?
+É um, acho que isto é chamado integral
+impróprio, OK? o o integral quando tem
+um quando tem um aqui um dos um um
+destes extremos e e que tende para
+infinito.
+Ora 0 x de agora tenho que lhe mudar
+aqui a variável porque eu agora só tenho
+aqui o limite.
+OK? Agora aqui tenho tenho que usar uma
+outra variável qualquer seno de t sobre
+t
+dt. Ok? Sim, senhora. Vamos então
+calcular este limite para mostrar que é
+igual a p.
+OK?
+Vou basear-me num num método tradicional
+que também se encontra na na internet
+com facilidade,
+eh, que vai ser o usando uma técnica
+que acho que foi o Richard Feinman que
+vulgarizou,
+que se designa por de ou integrais de
+findem ou ou derivação sobre o sinal de
+integração.
+OK?
+Portanto,
+ora,
+sim, senhora.
+Portanto, aqui vai haver um artifício.
+Então, portanto, nós queremos o
+integral.
+Agora para não andar sempre com limite,
+eu ponho diretamente aquilo zero em
+infinito. Pronto, já se subentende que
+isto tem de ser calculado através de um
+limite quando quando o limite x x tende
+para infinito. No resultado final, eu
+terei que calcular o limite quando x
+tende para infinito. Sim, senhor. Isto é
+normal representar assim o integral
+infinito entre zero e infinito? Sim,
+senhora.
+H,
+e posso usar agora, posso usar aqui o X
+outra vez, não tem problema, porque já,
+já, já se já se subentende
+e
+quando X tende a infinito. Exato, tá
+correto. Aqui como estava com o limite
+tinha tinha que usar letras diferentes,
+mas agora como já tá aqui subentendido,
+posso posso voltar a usar o
+o seno de x.
+Sim, senhor. dx, o qual eu não sei
+calcular.
+Já sabemos que eu não sei calcular.
+Pronto. Então, vai haver um um
+artifício. Vai haver um artifício aqui.
+Pronto, agora é assim, mas então como é
+que se descobriu este artifício? Pronto,
+e certamente se experimentou vários
+artifícios, várias funções. Eu tive a
+ver na internet mais ou menos. Pronto.
+Eh, mas a verdade é que o que o que se
+encontrou foi eh o artifício consiste em
+multiplicar aqui por exponencial
+e que eu vou dizer assim: "Bom,
+eu vou dizer exponencial de - ax, depois
+já veremos porque é que é o menos, etc,
+etc."
+Pronto. Bom, o o menos é para que quando
+o x tende para infinito,
+isto convergir, este termo tender para
+zero.
+Porque porque este caso contrário
+porque nós sabemos que o nós sabemos
+isto é ali graficamente nós sabemos é
+aqui graficamente na linha azul eu sei
+que aquele integral vai ter que existir
+porque porque vejo que a linha aqui azul
+visualmente converge portanto eu já sei
+que eu tenho que tenho que existir. OK?
+E aqui tá próximo de 1,5. Eu eu já sei.
+Pronto. E agora já sei que é pios que pi
+3.14 portanto metade é pouco mais de
+1,5. OK? Portanto, tem tem que
+convergir.
+Ora, aqui com uma exponencial positiva
+jamais convergi porque então isto
+tenderia para infinito. OK?
+Sim, senhor. E a exponencial cresce
+muito mais depressa do que o x aqui no
+denominador. Portanto, aqui não há
+dúvida nenhuma, porque se fosse a
+exponencial
+tendia para infinito, pois crescia mais
+depressa que este x aqui no denominador.
+E, portanto, isto tendia para infinito.
+Pronto. Então aqui temos que ter, vou
+pôr aqui - ax. Ora bem,
+e hh
+com isto, o que eu faço é eu construir
+uma função. Eu digo assim: "Bom, ao
+colocar aqui esta exponencial, então é
+como se eu tivesse a fazer o corpo é uma
+nova função. Da mesma forma que o seno
+integral, eu disse que o seno, olha,
+seja o seno integral igual a este
+integral.
+Pronto. Então agora aqui é o mesmo. Seja
+uma função que eu vou pôr aqui I
+e é a função da variável a
+e é é ela é definida em com esta
+expressão, com o integral indefinido
+entre zero e infinito, etc, etc. E
+depois depende do valor, depende do
+valor a, OK? Mas nós queremos calcular.
+Nós o que queremos calcular,
+nós queremos calcular o valor desta
+função que acabamos aqui de definir,
+mas mas no ponto a igual a 0.
+É isso que nós queremos calcular, ou
+seja, de zero, porque quando for a0
+é elevado a 0 é 1 e dá-nos aquilo que
+nós queremos.
+Portanto, eu quero calcular o i de zero.
+OK?
+O que acontece é que aqui
+ao
+ao fazer este artifício e colocar esta
+exponencial, vai- me permitir primitivar
+onde antes onde antes eu não conseguia
+primitivar. Com seno x sobre so x eu não
+conseguia primitivar.
+OK?
+Mas com a exponencial aqui eu já vou
+conseguir primitivar, já vamos ver com
+com a técnica da derivação por por por
+debaixo do integral. OK? Sim, senhora.
+Pronto, este é o artifício. Aqui não há
+muito mais a dizer porque isto, pronto,
+quem inventou esta técnica,
+eh,
+e, e pronto, e inventou este este termo
+que este e depois vem-se a verificar que
+este era o termo que, que realmente que
+que permitia calcular este integral. OK?
+OK. Portanto, não há dúvida nenhuma
+que eu defini aqui uma função.
+Sim, senhora. Porque introduzia
+introduzia este artifício, este termo,
+e verificamos que para a igual a 0,
+se eu conseguir calcular este integral
+para a igu
+que é o a expressão aqui de cima. Esta
+expressão aqui de cima.
+que é o que é o integral de zero a
+infinito,
+sen x sobre x
+dx e que é igual a a pi/.
+Sim, senhora. Ora bem, então para a = 0,
+então, mas eu não vou já pôr aqui o a
+igual a 0, senão não sai daqui. Pronto,
+fica igual, fica igual ao que eu tinha.
+Pronto. Então vamos aqui usar uma
+técnica que é derivar.
+Derivar e depois integrar.
+OK? Portanto,
+eu vou
+eh derivar a esta minha função que eu
+defini este ID. Derivar em ordem a
+porque isto tá definido como sendo uma
+variável de a. OK?
+Sim, senhor. Portanto, o que eu vou é
+fazer a derivada de i em ordem a.
+Sim, senhor. Portanto, é a derivada em
+ordem a toda esta expressão.
+Então, é uma derivada da de uma
+primitivação, digamos assim, que são
+funções inversas.
+Nas funções inversas não importa a
+ordem, a derivada da primitivação, à
+partida é igual à primitiva da derivada.
+Portanto, não importa a ordem, é um
+somar a outra.
+OK? Pronto. E e portanto como não
+importa a ordem, pronto, o que se faz, o
+truque se faz é a derivada que estaria
+aqui, DDA, passa aqui para dentro. DDA.
+Pronto,
+porque aqui estou primeiro a derivar e
+depois a primitivar, que é o mesmo que
+se eu fizesse primeiro primitivar e
+depois derivar.
+Pronto. Mas aqui resulta aqui vamos ver
+que aqui
+e me permite simplificar a expressão que
+depois me me permite primitivar a
+seguir.
+Pronto. Porque aqui ao derivar em ordem
+a
+parte em x é constante, não mexe. É como
+se fosse aqui uma constante que está
+aqui.
+Pronto. E esta função aqui de a sim é é
+a derivada é igual a ela própria, que é
+uma exponencial.
+E a regra da função composta
+e portanto é ordem a portanto o o - x
+baixa para baixa para aqui. Portanto, -
+x.
+Pronto. Sim, senhora.
+Onde que efetivamente agora
+o vai haver aqui um corta corta,
+portanto, e aqui o x corta aqui. Sim,
+senhor.
+E portanto isto dá menos. Este menos
+pode passar cá para fora. Menos
+o integral do zero é infinito.
+Portanto, o seno de x
+seno de x
+é
+- ax
+dx.
+Sim, senhora.
+Pronto. E agora então o que acontece é
+que com este artifício de termos
+derivado, o truque é introduzir uma
+derivação aqui,
+porque ao introduzir agora esta
+derivação, resulta que agora vamos
+conseguir calcular esta primitiva. Estas
+esta função é mais fácil de primitivar
+do que aquela original que tínhamos
+sendo x sobre sobre x, porque não é
+possível. Esta é possível. Esta é
+possível primitivar com primitivação por
+partes. OK? que é o que vamos fazer
+agora.
+Sim, senhora. Portanto, o que vamos
+fazer agora
+é [roncando] aqui um interégno
+em que eu preciso de calcular a
+primitiva desta função. Portanto, eu
+preciso de calcular a primitiva desta
+função aqui.
+Pronto, que é o que me apareceu aqui.
+Agora vou ignorar aqui estes extremos, o
+zero, o infinito, o menos. Vou Não
+interessa isso agora. Não interessa. Eu
+agora faço aqui um a parte onde eu
+preciso de calcular a primitiva desta
+função e vamos fazer uma com uma
+primitivação por partes. OK? Sim,
+senhora. Portanto, uma primitiva são por
+partes.
+Vamos voltar aqui a escrever a
+expressão.
+Ora, onde temos a primitiva de
+F lin vinha G
+é igual a FG
+a primitiva de F
+G linha. Pronto, esta é a expressão.
+Sim, senhora. Pronto. E eu quero
+calcular a primitiva de seno de x e - ax
+em ordem a x.
+O a
+portanto a derivação aqui foi em ordem a
+a porque eu tinha aqui a função di da.
+Pronto, já está.
+O a desapareceu e agora tenho aqui um
+integral em x.
+OK.
+Sim, senhor.
+Eh, portanto, eu vou escrever aqui
+primitiva de seno de x e - ax.
+Ora,
+primitiva
+e - ax
+seno de x.
+Sim, senhor.
+Ora, vamos lá ver então qual é o que é
+que me interessa é derivar e o que é que
+me interessa primitivar. OK?
+Ora bem,
+eh, se calhar tanto faz, não sei, mas
+aqui o que vou fazer é vou vou derivar o
+seno, que é mais simples para derivada
+do seno é cosseno.
+OK? Então vou vou dizer que que aqui
+esta este é o G, este é o meu G
+que eu irei derivar e aqui vou dizer que
+este é o meu f linha que eu irei
+primitivar.
+Sim, senhora. Então fica
+a primitiva
+é - ax
+sobre - a. OK? Já está primitivada
+porque ao derivar o - a corta fica é -
+ax.
+Hora vezes
+seno.
+OK. Vou pôr assim só.
+Menos
+a primitiva
+deste deste f
+sobre - a
+e a derivada do seno que é o cosseno.
+Sim, senhora.
+OK? [roncando] Eh,
+então
+o que é que acontece? Eu parti daqui
+primitivação por partes e agora tenho
+aqui um um um outra primitiva parecida
+com esta. Esta estava com seno e estava
+com cosseno. Pronto. O que o que vai
+acontecer é que vou primitivar por
+partes outra vez este conteúdo aqui. OK?
+E vamos ver que vai vai simplificar.
+Sim, senhora.
+Ora, vou só passar aqui este este
+denominador menos a aqui para fora.
+OK? Isto fica
+orá aqui - e
+- ax o seno
+aqui sobrar a e portanto aqui o menos
+por menos dá mais
+1 sobre a
+1 sobre a pronto e agora tenho
+esta esta primitiva aqui eu vou abrir
+abrir aqui parênteses vou abrir
+parênteses e vou fazer a primitivação
+por partes
+Da mesma maneira como fiz aqui,
+em que a função que eu vou primitivar é
+- ax. Aqui vai dar e - a x
+sobre - a. É a mesma coisa como fiz
+aqui.
+E
+vezes a segunda o cosseno
+menos
+primitiva
+e - a x sobre - a derivada do cosseno -
+seno - seno.
+Ponho aqui o menos passa para aqui
+seno.
+Sim, senhora. Pronto. Então agora o que
+é que acontece?
+Ora,
+o que acontece é que este - a passa aqui
+para fora.
+Este este - a passa aqui para fora.
+OK?
+E agora
+isto que é o que eu quero calcular, eu
+quero calcular
+eu quero calcular esta parte,
+OK? A primitiva disto.
+E, portanto, vou designar por I. Aqui,
+vou desinar por um I. Não tem nada a ver
+com aquele I bocado. OK. Pronto, este é
+agora é é um I.
+Pronto, porque aqui aqui vai aparecer
+outra vez o I.
+E, portanto,
+eu tenho este i
+é igual a - e - ax
+sobre a seno. E este - a passa cá, passa
+aqui para fora. - 1
+sobre a².
+Ok.
+parênteses
+e - ax
+cosseno
+e então aqui fica
+e - ax seno é o i
+é este i + i.
+Pronto. Ou seja, aplicar
+a primitivação por partes duas vezes
+seguidas.
+O que o que fez foi fez renascer a minha
+própria função que eu queria primitivar
+inicialmente. Aparece-me aqui outra vez,
+mas então permite-me resolver que agora
+é uma equação e ponho o i todo para um
+lado e vai e vai- me permitir resolver.
+OK?
+Sim, senhora. Como vou eliminar o
+denominador a quadrado,
+OK? Portanto, vou pôr aqui um a²
+a²
+e vou pôr aqui um a
+ou estou a passar tudo ao mesmo
+denominador a quadrado.
+Então aqui corta a sobre a²
+e este a quadrado passa para aqui. Aqui
+corta.
+Sim, senhora.
+Então aqui temos a² i e aqui temos este
+menos - i. O i passa para este lado,
+então fica e vai ficar a² i + i.
+Portanto, vai ficar a² + 1
+deste lado vezes i
+e portanto igual a.
+E aqui vai ficar, posso pôr o e elevado
+a men ax em evidência
+ou menos e elevado a menx em evidência
+a parênteses.
+E vai ficar aqui, eu aqui acho que me
+enganei em qualquer lado. Deixa-me ver.
+Não, acho que não. Não me enganei porque
+eu tenho aqui, portanto, em evidência
+fica aqui o a seno.
+A seno
+mais cosseno
+mais cosseno
+a seno mais cosseno. Sim, senhora.
+Pronto. Então, sendo assim, o meu i, que
+era o que eu queria inicialmente
+por integração de partes, onde fiz
+integração por partes duas vezes,
+portanto é igual a menos
+e - ax
+o a seno mais cosseno
+sobre 1 + a².
+Sim, senhora.
+Pronto. Então isto já tenho aqui o que
+eu queria
+que é já calculei este este esta
+primitiva aqui de men ax seno de x que
+tá esta expressão aqui.
+OK?
+Sim senhora.
+Portanto, esta expressão é a que vem ver
+agora. Vou voltar aqui ao este problema
+inicial e é que vai vir vai entrar aqui.
+Sim, senhora. Portanto, mas ao entrar
+ali ao entrar, portanto, dia, voltamos
+outra vez atrás. Portanto, isto foi um
+interregno. Toda esta parte aqui é
+verde, foi um interregno
+para fazer
+a primitivação por partes desta
+expressão
+que está aqui. Pronto, agora que já
+tenho, já posso voltar a substituir ali
+para calcular o integral impróprio.
+Agora nestes nestes extremos entre zero
+e infinito, que é o que vamos fazer
+agora. Então, temos DI.
+Ora, di
+da
+di da
+é igual a Ora, tem aqui menos
+aquele integral entre zero e infinito.
+Ora, aquele menos menos menos com com
+este menos aqui corta. Menos por menos
+dá mais. E, portanto, vai ficar integral
+entre zero e infinito.
+Portanto,
+eh, minto, agora o integral já o
+calculamos, é o aquele é aquele
+resultado calculado entre zero e
+infinito.
+OK?
+Portanto, fica,
+já calculamos,
+já calculamos a primitiva. Dá isto.
+A [roncando] seno mais cosseno
+1 + a². E agora calculado entre entre 0
+e infinito,
+OK? Mais c. E aqui o C é fundamental,
+que é o C é que vai ser o truque disto
+tudo.
+Não minto. O C, o C tá dentro da
+primitiva, tá aqui no verde.
+OK. [roncando] O C, o C aqui não, não,
+não importa. O sen não vai entrar aqui,
+entra mais à frente. Já estou um bocado
+cansado.
+Ora, não entra aqui porque, claro,
+depois calculada a diferença, eu eu
+podia pôr aqui um C, mas depois aqui e o
+valor no infinito com mais C menos o
+valor em zero com com o C. Portanto, o
+Corta, corta. Portanto, aqui o C, o C
+aqui é irrelevante. O C não entra aqui,
+o vai entrar a seguir. Portanto, este
+cálculo aqui é simples porque
+efetivamente, portanto, o valor desta
+função infinito com x = a infinito.
+Portanto, aqui tende para zero, não há
+dúvida nenhuma.
+E, portanto, dá zero
+aqui
+menos. E o valor da função no ponto zero
+aqui vai dar e elevado a 0 é 1. O seno
+de 0 é 0, mas o cosseno de zer é 1. E
+portanto fica 1 sobre 1 + a².
+Pronto, agora sim. 1 + 1 + a². Agora é
+que tá correto. Tá assim. Sim, senhor. E
+portanto tenho aqui o di da D.
+Portanto, então
+relembrando, portanto, eu criei um
+artifício, criei uma função ID.
+Sim, senhor. E agora derivei.
+OK. Derivar
+permite-me
+simplificar de alguma forma a expressão
+que que posso primitivá-la.
+OK? Foi o que aconteceu.
+Sim, senhor. Primitivamos.
+E estamos a calcular o D, o D IDA.
+O ID é o integral de ID. OK? Portanto,
+isto é o d. Agora sim, vou voltar para
+trás e calcular o i. O ideal.
+Portanto, o ID de A. E agora sim é a
+primitiva desta desta desta expressão
+aqui que eu tenho aqui e que é um é um
+caso notável conhecido. Vejam, relembrem
+e quando falei do tutorial com as
+tabelas de de derivação, OK? que a
+derivada do arco tangente era 1 sobre 1
++ x² e portanto aqui é o arco tangente
+de é o arco tangente
+o arco tangente de a e agora sim que
+entra o c agora é que é que é importante
+que é que é importante o c
+obtive então então já tenho a minha
+função idea
+ok sim senhora
+portanto o A
+que tem esta expressão, nós criamos um
+IDA com este artifício e disemos seja de
+A isto. Sim, senhor. E para quê? Porque
+uma vez que eu tenho o i de a, agora eu
+quero o i de zero.
+O i de zer vai-me dar o que o que eu
+quero, vai- me dar aquele integral que
+eu não conseguia que eu não conseguia
+calcular,
+que é este aqui.
+Oi.
+Portanto, sim, senhor. Isto é que eu não
+sei calcular,
+não consigo calcular. E por isso criei
+uma função auxiliar quando injetei esta
+exponencial
+de A.
+E agora fizemos um artifício, derivamos,
+simplificou,
+fizemos os cálculos
+e agora no fim volta para trás.
+Integramos outra vez, primitivamos. Uma
+vez que eu se eu derivei ali, agora
+agora volto para trás e portanto tenho
+aqui. Mas agora o que é que eu quero? Eu
+quero ir de zero, porque o que que é o
+que estamos aqui a dizer, eu quero
+calcular, eu fiz este artifício, mas
+quando o a for igual a zer
+vai-me dar o que eu quero, vai-me dar a
+expressão que eu quero calcular. Eu
+quero calcular,
+eu quero calcular i de zero.
+I de zero. É o que eu quero calcular.
+Mas tenho um problema.
+Há de ser o é o arco tangente do 0 + c
+é igual ao arco tangente. Ora, o o arco
+tangente o arco tangente de de zero, o
+arco cuja tangente é zer é zero
+mais c.
+Pronto. E agora o problema agora é que
+não sei, não sei quanto vale o c. Eu vou
+vou ter que arranjar agora um artifício
+para eh tentar concluir quanto qual é o
+valor, qual será o valor específico
+deste C, desta constante,
+OK? Que vai dar pi/, não é? Como já
+sabemos.
+Ora bem, então para calcular o o o para
+calcular o C, quando qual será o C? Vou
+dizer assim, bom,
+eh, não vamos não vamos agora ter parece
+em em substituir pelo no valor
+específico de zero porque o c há de ser
+um determinado C válido, qualquer que
+seja o o valor específico de A. OK?
+Então vou dizer, bom, então tenho aqui
+uma uma função I,
+OK? e de a
+que é igual a menos
+arcotangente de A
++ C,
+mas também é igual que é o que nós
+definimos ali quando criamos a quando
+definimos a função de A, disemos é igual
+a um integral de zer a infinito, sendo x
+sobre so x
+é igual a um integral de zer infinito.
+sen x sobre x
+é - ax
+dx.
+Pronto, isto foi o que nós fizemos
+quando definimos ideia a dissemos seja
+igual a esta função, OK? E depois
+derivamos,
+depois calculamos o integral, depois no
+final andamos para trás, primitivamos.
+Pronto. E chegamos à esta expressão
+menos a arcotangente de a + c. OK? Sim,
+senhor. Ora bem, agora o que é que
+faremos aqui?
+Eh, faremos,
+vamos à procura de um valor A, de um
+valor a
+a ver se se resulta se resulta óbvio,
+por consequência, qual tenha que ser o
+C. OK? Por exemplo, imaginem
+a elevado a = 0.
+Ora, arcotangente
+aqui é zero, não há devido nenhuma. Fica
+c = a
+c = a, mas com a igual a 0 aqui dá 1 e
+fico c igual a este integral, mas este é
+o integral original que eu quero
+calcular e que não consigo.
+OK? Portanto, eh, a tentativa com com
+uma tentativa com a igual a zer para ver
+se se daí resultava alguma trivialidade
+para me determinar o C. Não, não, não,
+não permite. OK, pronto. E agora vai
+haver aqui um então um outro artifício
+que é o seguinte. Então isso se for a =
+a infinito,
+a = a infinito.
+Ora, qual é o qual é o arco
+cuja tangente é infinito?
+Qual é o arco
+cuja tangente é infinito? Ora, a
+tangente é o seno sobre cosseno.
+Esse arco é o pios.
+Esse arco é pios. Portanto, OK.
+a a tangente.
+Portanto,
+portanto, a tangente
+é igual ao seno sobre o cosseno.
+Portanto, a tangente de pi/
+a tangente de pi/ é o seno de pi/
+que é 1
+sobre o cosseno de pi/ que é 0
+1 sobre 0 igual a infinito.
+E portanto a tangente de pi/ tende para
+infinito. Não tá definida em pi/ meios
+mas tendo para infinito.
+Ok? Tendo para mais infinito.
+Ok?
+Portanto, eh, qual é o arco cuja
+tangente é infinito?
+E aqui é é pé.
+Pronto, que o concional de menos vai
+ficar menos.
+Portanto, mais c = a. E agora vamos ver
+se simplifica aqui. Vamos ver se há
+bocado com a = 0 não simplificava nada.
+Simplificava este termo.
+Simplificava este termo, mas ficava com
+o integral de senx sobre x. ficava na
+mesma, que é que é aquele integral que
+eu não consigo calcular. Agora vamos ver
+se com a substituição de a igual a
+infinito me simplifica este integral de
+uma forma que seja trivial.
+OK? Então resulta
+resulta aqui aqui com um bocado de falta
+de espaço integral
+sen x so x
+e aqui é ora a igual a infinito. Não
+importa o valor de x fica e menos
+infinito.
+Mas é menos infinito é é zero
+e com muita força, independentemente
+qual seja o valor dequi de x.
+E, portanto, tudo isto tende para zero.
+Tudo isto tende para zero,
+OK? É um integral, é uma soma de
+infinitésimos
+com o x a variar do zero a infinito.
+O o x varia de zer a infinito.
+Não importa, porque a exponencial
+é muito mais forte do do que qualquer x.
+OK.
+Sim, senhor. Para além de que sendo X
+sobre infinito já já era zero.
+OK? Mas nos valores aqui que que x fosse
+fosse pequeno,
+mas vezes e menos infinito é menos
+infinito é é zero.
+Sim senhor. Então fica zero.
+Pronto. Então resulta resulta que que -
+pi/
+mais a constante c
+é igual a zer.
+Sim, senhora. Eu com esta substituição
+eu consegui a igual a infinito. Esta
+não, esta não dava nada.
+Com esta conseguimos
+determinar que o valor da constante é pi
+senhor.
+que é o valor da constante que está ali
+atrás é igual a pi/.
+OK? Então já temos aqui o valor da da
+função o ID que é pai. Portanto, eu
+agora já tenho eu eu já tenho o meu o
+meu ID todo completo.
+A é igual a menos arco tangente de A.
+Arcotangente de A.
+H.
+Mais pimis.
+Mais piméis.
+Sim senhor, mas no início do problema
+dissemos eu quero calcular e de zero
+e de zero, que dá aquela integral que eu
+não conseguia calcular.
+Pronto, e de zero era era o ponto
+inicial que nós tínhamos,
+OK?
+E, portanto, i de 0 para a igual a 0. O
+arco cuja tangente é zer é zer. Então, i
+de zer
+é igual a pi
+e pronto. E finalmente temos o integral
+de ir calculado que é igual a pi e que
+de nós e que estava de acordo aqui logo
+no início aqui no gráfico.
+OK, o Geogebra já nos dava aqui que isto
+tendia tendia para pi/os.
+OK? O limite do da função sin integral
+quando x tende para infinito é pi/. OK?
+Ora, e que aqui temos nós? Portanto,
+diri a integral. Portanto, o integral do
+seno de x amortecido com x sen x sobre
+x, o integral. O somatório desta área
+verde que está aqui entre zero e mais
+infinito
+dá pios. Obviamente então se for de
+menos infinito é infinito, depois vai
+dar pi, como é óbvio.
+[roncando] Eh, e pronto,
+é a área verde, é o cena, que é o cena
+amortecido. Aqui é o gráfico que eu
+tinha aqui, só que aqui tá com uma
+escala, tá um bocado distorcida, que é a
+linha vermelha, OK? esta vinha vermelha
+aqui que equivale àquela aquela área
+verde que está ali em baixo. Aqui tá um
+bocado destorcido que eu estiquei o
+gráfico.
+OK.
+E pronto, penso que vamos ficar por
+aqui.
+Sim, senhor. Eh, aqui o principal que eu
+decidi fazer este tutorial hoje foi
+efetivamente
+para mostrar preto no branco como a
+primitivação e nem todas as funções
+conseguem primitivar. OK? Foi para
+ficarem bem com essa ideia bem assente
+que primitivação é muito mais complexo
+do que derivar. Derivar à partida.
+Qualquer função se consegue derivar.
+Estou-me a tentar ver se há alguma coisa
+que não se consiga derivar. Penso que
+não. Todas todas as funções são
+deriváveis,
+mas primitivar é é é diferente, mais
+complicado. E realmente este foi um
+exemplo que vos quis mostrar. Tá aqui
+uma função
+que não se consegue primitivar. Reparem
+aqui, ela não se consegue primitivar,
+mas o seu integral consegue-se calcular.
+OK? Eh, pode parecer um bocado
+paradoxal, ou seja, eu não consigo a
+primitiva de seno de x sobre x, OK? Eu
+não consigo, mas eu consigo o integral,
+o integral específico num num específico
+intervalo, ou pelo menos neste
+específico intervalo que consegui se
+calhar, nooutro não consigo, mas neste
+específico de zero a infinito, com esta
+técnica de findement de de criar a
+função auxiliar com aquele artifício do
+exponencial,
+portanto, eu consegui eu consegui
+integrar eu consegui integrar a função,
+apesar de que eu não consigo calcular a
+primitiva.
+OK? Eu resolvi, eu fiz a integração com
+um artifício,
+chamado o artifício com a técnica de
+find.
+OK? Pronto. E isto foi de facto um tema
+um pouco mais complexo do que tem vindo
+a ser habitual, mas pronto, é normal
+isto à medida que vamos avançando, eu
+também vou avançando na playlist, na
+minha playlist, pois a pouco e pouco,
+tenho que começar a introduzir também
+alguns temas um pouco mais complexos do
+do que o habitual, mas pronto. OK. Eh,
+espero que tenham gostado e se quiserem
+aprofundem um pouco mais estes temas.
+Procurem também eh
+com portanto fortalecer as ideias. Podem
+ver no YouTube. Tive a ver que até há
+muitas demonstrações
+destes destes temas que tivemos aqui a
+ver. Eu também eu também me baseei na
+alguns nalguns desses vídeos que eu tive
+a ver.
+Eh, e portanto
+podemse sedimentar aí as ideias
+e espero que tenham gostado e até uma
+próxima oportunidade. Obrigado.
+

@@ -14,37 +14,49 @@ AUTHENTICATE_TUBER = function() {
   setwd("..")
   
   # stats = tuber::get_channel_details(channel_ids=YOUTUBE_CHANNEL_ID,simplify = TRUE)
-  stats = tuber::get_my_channel(simplify = TRUE)
+  stats = tuber::get_my_channel(part = c("snippet", "statistics", "brandingSettings"),simplify = FALSE)
+  stats_full = tuber::get_channel_details(channel_ids=YOUTUBE_CHANNEL_ID,simplify = FALSE)
   
-  profile = c(Avatar      = stats$thumbnail_url,
-              Title       = stats$title,
-              Description = stats$description,
-              ChannelID   = stats$channel_id,
-              Handle      = stats$custom_url,
-              URL         = paste0("https://www.youtube.com/",stats$custom_url),
-              Joined      = as.character( as.Date(stats$published_at) ),
-              CountryCode = stats$country,
-              Country     = countrycode::countrycode(stats$country, "iso2c", "country.name") ,
-              Views       = stats$view_count,
-              Subscribers = stats$subscriber_count,
-              Videos      = stats$video_count
+  Banner      = stats[["items"]][[1]][["brandingSettings"]][["image"]][["bannerExternalUrl"]]
+  Avatar      = stats[["items"]][[1]][["snippet"]][["thumbnails"]][["default"]][["url"]]
+  AvatarHD    = stats[["items"]][[1]][["snippet"]][["thumbnails"]][["high"]][["url"]]
+  Title       = stats[["items"]][[1]][["snippet"]][["title"]]
+  Description = stats[["items"]][[1]][["snippet"]][["description"]]
+  ChannelID   = stats[["items"]][[1]][["id"]]
+  Handle      = stats[["items"]][[1]][["snippet"]][["customUrl"]]
+  URL         = paste0("https://www.youtube.com/",Handle)
+  Joined      = as.character( as.Date(stats[["items"]][[1]][["snippet"]][["publishedAt"]]) )
+  CountryCode = stats[["items"]][[1]][["snippet"]][["country"]]
+  Country     = countrycode::countrycode(CountryCode, "iso2c", "country.name")
+  Views       = stats[["items"]][[1]][["statistics"]][["viewCount"]]
+  Subscribers = stats[["items"]][[1]][["statistics"]][["subscriberCount"]]
+  Videos      = stats[["items"]][[1]][["statistics"]][["videoCount"]]
+  
+  profile = c(Banner=Banner,
+              Avatar=Avatar,
+              Title=Title,
+              Description=Description,
+              ChannelID=ChannelID,
+              Handle=Handle,
+              URL=URL,
+              Joined=Joined,
+              CountryCode=CountryCode,
+              Country=Country,
+              Views=Views,
+              Subscribers=Subscribers,
+              Videos=Videos
               )
   
   profile = data.frame(profile=profile)
   
   # avatarfull = imager::load.image(Avatar) It fails
-  avatarfull = magick::image_read(profile["Avatar",])
-  # avatarfull = magick::image_annotate(avatarfull, Title, 
-  #                                 size = 30,         # Font size
-  #                                 gravity = "north", # Position (top center)
-  #                                 color = "black",   # Text color
-  #                                 location = "+0+10") # Small offset from the top
+  avatarfull = magick::image_read(AvatarHD)
   plot(avatarfull)
   
   # Save Avatar to file
   download.file(
-    url      = stats$thumbnail_url,
-    destfile = file.path("youtube_avatars",paste0(stats$custom_url,".jpeg")),
+    url      = AvatarHD,
+    destfile = file.path("youtube_avatars",paste0(Handle,".jpg")),
     mode     = "wb"
   )
   
@@ -66,7 +78,11 @@ AUTHENTICATE_YTANALYTICS = function() {
 
 CREATE_SUBFOLDERS = function(playlist_title) {
   # Create subfolders for thumbnails and captions
-  subfolders = c("youtube_thumbnails", "youtube_captions", "youtube_summaries", "youtube_summaries_html")
+  subfolders = c("youtube_thumbnails", 
+                 "youtube_captions", 
+                 "youtube_summaries", 
+                 "youtube_tags",
+                 "youtube_summaries_html")
   
   for (subfolder in subfolders) {
     subfolder = file.path(subfolder,playlist_title)
@@ -83,13 +99,19 @@ CREATE_SUBFOLDERS = function(playlist_title) {
 }
 
 
-DOWNLOAD_CAPTIONS = function(videos) {
+DOWNLOAD_CAPTIONS = function(videos,timestamps=FALSE,use_video_titles=TRUE) {
   download_folder = file.path("youtube_captions",videos$playlist_title[1])
   
   # Download each caption
   for ( i in 1:nrow(videos) ) {
-    file_name = videos$video_title[i]
-    file_path = file.path(download_folder,paste0(file_name,".srt"))
+    
+    if ( use_video_titles ) {
+      file_name = videos$video_title[i]
+    } else {
+      file_name = videos$video_id[i]
+    }
+    
+    file_path = file.path(download_folder,paste0(file_name,".",videos$language[i],".srt"))
     if ( file.exists(file_path) ) {
       cat("Caption already exists:", file_path, "\n") 
     } else {
@@ -97,9 +119,63 @@ DOWNLOAD_CAPTIONS = function(videos) {
       captions = tuber::download_caption(
         caption_id = videos$caption_id[i], lang = videos$language[i], format = "sbv", as_raw = F
       )
-      captions = gsub("[0-9]+:[0-9]{2}:[0-9]{2}\\.[0-9]{3},[0-9]+:[0-9]{2}:[0-9]{2}\\.[0-9]{3}", "",captions)
-      captions = gsub("\u00A0", "", captions) # Remove non-breaking spaces
+      
+      if (!timestamps)  {
+        captions = gsub("[0-9]+:[0-9]{2}:[0-9]{2}\\.[0-9]{3},[0-9]+:[0-9]{2}:[0-9]{2}\\.[0-9]{3}", "",captions)
+        captions = gsub("\u00A0", "", captions) # Remove non-breaking spaces
+        captions = gsub("\n+", "\n", captions) # Remove multiple empty lines
+      }
       # captions = gsub("(\r?\n)+", "\r\n", captions, perl = TRUE) # Remove multiple empty lines
+      writeLines(captions, file_path)
+      
+    }
+    
+  }
+  
+}
+
+
+DOWNLOAD_CAPTIONS_WITH_YT_DLP = function(videos,timestamps=FALSE,use_video_titles=TRUE) {
+  download_folder = file.path("youtube_captions",videos$playlist_title[1])
+  
+  # Download each caption
+  for ( i in 1:nrow(videos) ) {
+    
+    if ( use_video_titles ) {
+      file_name = videos$video_title[i]
+    } else {
+      file_name = videos$video_id[i]
+    }
+    
+    file_path = file.path(download_folder,paste0(file_name,".",videos$language[i],".srt"))
+    if ( file.exists(file_path) ) {
+      cat("Caption already exists:", file_path, "\n") 
+    } else {
+      cat("Downloading caption with yt_dlp:", file_path, "\n")
+      
+      command = "./tools/yt-dlp.exe --skip-download --write-subs --write-auto-subs --sub-format srt "
+      #command = "./tools/yt-dlp.exe --skip-download --write-subs --sub-format srt "
+      command = paste0(command,"--extractor-args 'youtube:skip=translated_subs' ")
+      #command = paste0(command,"--sub-langs '",videos$language[i],".*' ")
+      command = paste0(command,"--sub-langs '",videos$language[i],"' ")
+      command = paste0(command,"-P '",download_folder,"' ")
+      command = paste0(command,"-o '",file_name,"' ")
+      command = paste0(command,"'",videos$video_url[i],"'")
+      
+      terminal_id = rstudiotools::terminal(command)
+      
+      if (timestamps) return()
+     
+      captions = readLines(file_path,encoding = "UTF-8", warn = FALSE)
+      
+      # Trim leading/trailing whitespace and carriage returns (\r)
+      captions = trimws(captions)
+      # Drop empty lines, pure numbers (cue indices), and timestamp lines
+      is_blank     = captions == ""
+      is_number    = grepl("^\\d+$",captions)
+      is_timestamp = grepl("-->",captions, fixed = TRUE)
+      captions = captions[!(is_blank | is_number | is_timestamp)]
+      captions = paste(captions, collapse = "\n")
       writeLines(captions, file_path)
       
     }
@@ -318,42 +394,69 @@ DOWNLOAD_FROM_YOUTUBE_MASS_RENAME = function(download) {
 
 DOWNLOAD_SUMMARIES_FROM_LMSTUDIO = function(videos) {
   playlist_title = videos$playlist_title[1]
+  
   folder_captions = file.path("youtube_captions",playlist_title)
   folder_summaries = file.path("youtube_summaries",playlist_title)
   folder_summaries_html = file.path("youtube_summaries_html",playlist_title)
-  prompt = "Give me the main topics of the following text in portuguese, with no more than 10 topics and no title. Format the result as a numbered list: "
+  folder_tags = file.path("youtube_tags",playlist_title)  
+  
+  prompt_summary = paste0(
+    "Give me the main topics of the following text in portuguese,",
+    "with no more than 10 topics and no title.",
+    "Format the result as a numbered list: "
+  )
+  
+  prompt_tags = paste0(
+    "Give me the main tags in english,",
+    "up to 10 tags as comma separated words,",
+    "which best describe the following captions: "
+  )
   
   # Download each summary
   for ( i in 1:nrow(videos) ) {
     file_name = videos$video_title[i]
+    
     path_captions = file.path(folder_captions,paste0(file_name,".srt"))
     path_summaries = file.path(folder_summaries,paste0(file_name,".txt"))
     path_summaries_html = file.path(folder_summaries_html,paste0(file_name,".html"))
+    path_tags = file.path(folder_tags,paste0(file_name,".txt"))
+    
+    captions = paste0(readLines(path_captions, warn = FALSE), collapse = " ")
+    captions = gsub("\\s{2,}", " ", captions) # Remove multiple spaces
     
     if ( file.exists(path_summaries) ) {
       cat("Summary already exists:", path_summaries, "\n") 
     } else {
       cat("Downloading summary:", path_summaries, "\n")
       
-      captions = readLines(path_captions, warn = FALSE)
-      captions = c(prompt,captions)
-      captions = paste(captions,collapse = " ")
-      # minifunctions::editvariable(captions)
-      
-      video_summary = aitools::lmstudio(prompt=captions)
+      # Generate summary using LM Studio
+      prompt = paste0(prompt_summary,captions)
+      video_summary = aitools::lmstudio(prompt=prompt)
       video_summary = paste0(file_name, "\n", video_summary)
       writeLines(video_summary,path_summaries)
       
+      # Write HTML summary with video thumbnail
       Report = data.frame(Video = videos$video_thumbnail[i], Summary = video_summary, stringsAsFactors = F) 
       html = minifunctions::printdataframe(Report,expand_images = T)
       writeLines(html,path_summaries_html)
-      
     }
+    
+    if ( file.exists(path_tags) ) {
+      cat("Tags already exists:", path_tags, "\n") 
+    } else {
+      cat("Downloading tags:", path_tags, "\n")
+        
+      # Generate tags using LM Studio
+      prompt = paste0(prompt_tags,captions)
+      video_tags = aitools::lmstudio(prompt=prompt)
+      writeLines(video_tags,path_tags)
+    }
+    
   }
 }
 
 
-DOWNLOAD_THUMBNAILS = function(videos) {
+DOWNLOAD_THUMBNAILS = function(videos,use_video_titles=TRUE) {
   file_paths = vector()
   
   ncol = ceiling(sqrt(nrow(videos)))
@@ -364,7 +467,12 @@ DOWNLOAD_THUMBNAILS = function(videos) {
   # Download each image and store the file paths
   for ( i in 1:nrow(videos) ) {
     url = videos$video_thumbnail[i]
-    file_name = videos$video_title[i]
+    
+    if ( use_video_titles ) {
+      file_name = videos$video_title[i]
+    } else {
+      file_name = videos$video_id[i]
+    }
     file_path = file.path(download_folder,paste0(file_name,".jpg"))
     if ( file.exists(file_path) ) {
       cat("Thumbnail already exists:", file_path, "\n") 
@@ -536,6 +644,7 @@ GET_CAPTIONS_FROM_PLAYLIST = function(playlist_id) {
 
 
 GET_CHANNEL_PLAYLISTS = function(channel_id,exclude_playlists) {
+  # channel_id = YOUTUBE_CHANNEL_ID
   playlists = tuber::list_playlists(channel_id=channel_id,max_results = 500) 
  
   playlists = data.frame(playlist_id = playlists$playlist_id,playlist_title = playlists$title)

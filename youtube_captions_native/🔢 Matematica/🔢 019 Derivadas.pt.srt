@@ -1,0 +1,949 @@
+0:00:01.480,0:00:06.160
+Ora, sejam bem-vindos a mais um tutorial
+
+0:00:03.439,0:00:10.320
+hoje dedicado às derivadas, a derivação,
+
+0:00:06.160,0:00:13.755
+derivação de funções, OK? A derivada de
+
+0:00:10.320,0:00:17.000
+uma função é outra função.
+
+0:00:13.755,0:00:19.960
+[roncando] Ora,
+
+0:00:17.000,0:00:21.680
+temos aqui a demonstração
+
+0:00:19.960,0:00:23.800
+da forma geral para qualquer derivada. É
+
+0:00:21.680,0:00:25.519
+bem simples.
+
+0:00:23.800,0:00:28.679
+Isto é um tema tribvial. Podemos ver
+
+0:00:25.519,0:00:31.039
+aqui a duas dimensões. [roncando]
+
+0:00:28.679,0:00:35.920
+Podemos ver aqui que temos uma
+
+0:00:31.039,0:00:35.920
+determinada função y = f(x).
+
+0:00:37.335,0:00:40.280
+[roncando]
+
+0:00:38.040,0:00:43.160
+E a derivada trata-se de estudar a taxa
+
+0:00:40.280,0:00:45.000
+de crescimento de uma função. [roncando]
+
+0:00:43.160,0:00:47.879
+Ou seja,
+
+0:00:45.000,0:00:51.745
+por exemplo, aqui neste ponto, neste
+
+0:00:47.879,0:00:52.199
+ponto vamos considerar aqui x0.
+
+0:00:51.745,0:00:54.399
+[roncando]
+
+0:00:52.199,0:00:57.440
+Não há dúvida nenhuma que a taxa de
+
+0:00:54.399,0:00:59.079
+crescimento é dado pela tangente. A reta
+
+0:00:57.440,0:01:00.399
+tangente
+
+0:00:59.079,0:01:03.039
+está aqui. Quer dizer, não é a reta
+
+0:01:00.399,0:01:05.519
+tangente, é a tangente dessa reta
+
+0:01:03.039,0:01:08.560
+tangente. Ou seja, junto a esta reta
+
+0:01:05.519,0:01:11.000
+tangente, se eu traçar aqui um triângulo
+
+0:01:08.560,0:01:16.000
+retângulo aqui,
+
+0:01:11.000,0:01:18.920
+OK? Ele tem um ângulo alfa, OK?
+
+0:01:16.000,0:01:23.960
+Sim, senhora. E, portanto, [roncando] a
+
+0:01:18.920,0:01:26.960
+derivada, eu dizemos que a derivada
+
+0:01:23.960,0:01:30.320
+a derivada
+
+0:01:26.960,0:01:30.320
+de f(x)
+
+0:01:31.320,0:01:34.960
+no ponto x0,
+
+0:01:35.000,0:01:43.079
+a derivada de f(x)
+
+0:01:37.960,0:01:44.920
+no ponto x0 é igual a à tangente de
+
+0:01:43.079,0:01:46.320
+alfa.
+
+0:01:44.920,0:01:48.880
+OK?
+
+0:01:46.320,0:01:50.520
+Vimos em muitas fórmulas passadas
+
+0:01:48.880,0:01:52.680
+produtos internos, produtos externos,
+
+0:01:50.520,0:01:55.040
+que elas eram baseadas em funções
+
+0:01:52.680,0:01:56.759
+trigonométricas com a ajuda da da lei
+
+0:01:55.040,0:01:59.960
+dos senos, com da ajuda da veio dos
+
+0:01:56.759,0:02:05.880
+cossenos. [roncando] OK? Relembramos que
+
+0:01:59.960,0:02:10.239
+num triângulo num triângulo retângulo
+
+0:02:05.880,0:02:12.800
+em que a hipotenusa seja um e este é o
+
+0:02:10.239,0:02:15.360
+ângulo alfa, então este lado, este
+
+0:02:12.800,0:02:19.120
+cateto é o seno de alfa.
+
+0:02:15.360,0:02:22.120
+O cateta adjacente é o cosseno de alfa e
+
+0:02:19.120,0:02:25.400
+o seno sobre o cosseno é a tangente de
+
+0:02:22.120,0:02:27.599
+alfa. OK? Bem simples.
+
+0:02:25.400,0:02:30.360
+O seno sobre o cosseno é a tangente de
+
+0:02:27.599,0:02:34.280
+alfa. E depois existem mais três funções
+
+0:02:30.360,0:02:35.920
+trigonométricas. Existe a cotangente,
+
+0:02:34.280,0:02:39.000
+existe a cotangente, que são três
+
+0:02:35.920,0:02:41.599
+funções menos usadas. cotangente de alfa
+
+0:02:39.000,0:02:44.239
+que é igual ao cosseno sobre o seno.
+
+0:02:41.599,0:02:48.280
+Existe a secante,
+
+0:02:44.239,0:02:50.400
+que é o inverso do cosseno.
+
+0:02:48.280,0:02:53.760
+Existe a cossecante,
+
+0:02:50.400,0:02:56.319
+que é o inverso do seno,
+
+0:02:53.760,0:02:58.599
+não é a função inversa. Atenção, não
+
+0:02:56.319,0:03:01.437
+confundir o inverso com a função
+
+0:02:58.599,0:03:01.480
+inversa. São coisas bem diferentes. OK?
+
+0:03:01.437,0:03:02.720
+[roncando]
+
+0:03:01.480,0:03:04.239
+Já falamos nisso em tutura e é os
+
+0:03:02.720,0:03:07.400
+anteriores.
+
+0:03:04.239,0:03:09.319
+É o inverso. A expressão analítica é
+
+0:03:07.400,0:03:11.879
+dado pelo inverso da outra. Não tem nada
+
+0:03:09.319,0:03:13.519
+a ver com a função inversa.
+
+0:03:11.879,0:03:16.319
+Obviamente que a função inversa do seno
+
+0:03:13.519,0:03:18.440
+é o arco seno, arco cosseno, etc, etc.
+
+0:03:16.319,0:03:22.720
+Tá bom. Mas então a derivada é a
+
+0:03:18.440,0:03:25.000
+tangente. É a tangente, sim senhor.
+
+0:03:22.720,0:03:29.360
+E a tangente,
+
+0:03:25.000,0:03:31.760
+portanto, é o seno sobre o cosseno.
+
+0:03:29.360,0:03:33.760
+E, portanto, não, no caso da tangente,
+
+0:03:31.760,0:03:36.959
+não precisa do triângulo retângulo ter
+
+0:03:33.760,0:03:38.480
+hipotenusa 1. No caso da tangente,
+
+0:03:36.959,0:03:39.959
+qualquer que seja o triângulo retângulo,
+
+0:03:38.480,0:03:41.599
+é o cateto oposto sobre o cateto
+
+0:03:39.959,0:03:44.000
+adjacente,
+
+0:03:41.599,0:03:45.840
+é a tangente. Portanto, a tangente aqui
+
+0:03:44.000,0:03:47.640
+no triângulo vermelho, portanto, o
+
+0:03:45.840,0:03:49.920
+cateto oposto sobre o cateto adjacente.
+
+0:03:47.640,0:03:53.640
+Ora bem, como vamos calcular essa
+
+0:03:49.920,0:03:58.120
+tangente? Bom, [roncando] essa tangente
+
+0:03:53.640,0:04:01.040
+não é mais do que considerar,
+
+0:03:58.120,0:04:03.560
+podemos considerar uma aproximação
+
+0:04:01.040,0:04:06.000
+e dizer assim,
+
+0:04:03.560,0:04:08.120
+imaginando um h
+
+0:04:06.000,0:04:11.640
+pequenino
+
+0:04:08.120,0:04:14.079
+e temos este ponto aqui,
+
+0:04:11.640,0:04:16.079
+x0 + h,
+
+0:04:14.079,0:04:20.759
+ok? Portanto, temos estas duas abcas no
+
+0:04:16.079,0:04:24.199
+eixo dos x, temos o x0 e temos x0 + h.
+
+0:04:20.759,0:04:26.120
+Sim, senhora. Ora bem, aqui consigo
+
+0:04:24.199,0:04:28.440
+construir
+
+0:04:26.120,0:04:30.639
+um triângulo.
+
+0:04:28.440,0:04:33.138
+Temos aqui este triângulo. Deixa até
+
+0:04:30.639,0:04:35.639
+mudar aqui de cor.
+
+0:04:33.138,0:04:38.479
+[roncando] Portanto, temos
+
+0:04:35.639,0:04:42.199
+estes dois pontos, estas duas abscissas
+
+0:04:38.479,0:04:45.800
+e temos estas duas ordenadas, uma, duas,
+
+0:04:42.199,0:04:47.880
+OK? Que são mensuráveis aqui
+
+0:04:45.800,0:04:53.840
+estas duas ordenadas.
+
+0:04:47.880,0:04:53.840
+OK? Sim, senhora. Portanto, que é f0
+
+0:04:54.560,0:04:59.440
+e f
+
+0:04:57.080,0:05:01.800
+x0 + h.
+
+0:04:59.440,0:05:05.120
+Sim, senhor. Então, vamos ter um
+
+0:05:01.800,0:05:07.199
+triângulo. Não há dúvida nenhuma.
+
+0:05:05.120,0:05:10.320
+Vamos ter aqui, eu posso representar
+
+0:05:07.199,0:05:13.400
+aqui este triângulo.
+
+0:05:10.320,0:05:15.000
+Este triângulo, OK? E este triângulo,
+
+0:05:13.400,0:05:17.039
+este triângulo que eu vou puxar aqui
+
+0:05:15.000,0:05:19.479
+para baixo,
+
+0:05:17.039,0:05:22.520
+uma cópia.
+
+0:05:19.479,0:05:24.240
+Portanto, não há dúvida nenhuma que
+
+0:05:22.520,0:05:27.240
+temos
+
+0:05:24.240,0:05:29.160
+quanto mede o este cateto pôr aqui um
+
+0:05:27.240,0:05:31.240
+ângulo alfa. Se bem que não vamos
+
+0:05:29.160,0:05:32.880
+precisar do alfa.
+
+0:05:31.240,0:05:35.440
+H,
+
+0:05:32.880,0:05:37.983
+de modo geral, não precisamos de saber o
+
+0:05:35.440,0:05:38.759
+alfa, só precisamos de saber a tangente.
+
+0:05:37.983,0:05:42.039
+[roncando]
+
+0:05:38.759,0:05:44.120
+Ora, alfa,
+
+0:05:42.039,0:05:48.199
+quanto mede este cateto aqui? Este
+
+0:05:44.120,0:05:50.360
+cateta adjacente mede H, que mede H
+
+0:05:48.199,0:05:52.639
+porque nós assim assim assim o
+
+0:05:50.360,0:05:56.240
+determinamos. Escolhemos um valor de H
+
+0:05:52.639,0:06:00.720
+para fazer aqui uma aproximação.
+
+0:05:56.240,0:06:05.039
+Quanto mede este cateto oposto aqui?
+
+0:06:00.720,0:06:07.800
+Mede aqui esta diferença das ordenadas.
+
+0:06:05.039,0:06:10.000
+mede, portanto,
+
+0:06:07.800,0:06:11.759
+f0
+
+0:06:10.000,0:06:14.960
++ h
+
+0:06:11.759,0:06:16.759
+- fx0.
+
+0:06:14.960,0:06:19.039
+Sim, senhora. Portanto, este é o nosso
+
+0:06:16.759,0:06:20.560
+triângulo. [roncando]
+
+0:06:19.039,0:06:24.479
+E, portanto, a tangente já estamos a ver
+
+0:06:20.560,0:06:27.840
+com a b a tangente de alfa,
+
+0:06:24.479,0:06:29.440
+OK? Que é a derivada, é a mesma coisa.
+
+0:06:27.840,0:06:31.639
+Agora, em vez de escrever tangente, vou
+
+0:06:29.440,0:06:35.280
+passar a escrever a derivada. E a
+
+0:06:31.639,0:06:35.280
+derivada da função,
+
+0:06:35.520,0:06:40.120
+antes de escrever a derivada, deixa-me
+
+0:06:38.280,0:06:41.880
+escrever aqui a expressão da tangente.
+
+0:06:40.120,0:06:44.520
+Não é exatamente a mesma coisa, porque a
+
+0:06:41.880,0:06:47.960
+derivada só vai ser igual à tangente,
+
+0:06:44.520,0:06:50.479
+mas no limite quando h tender para zero,
+
+0:06:47.960,0:06:51.680
+em que quando h tender para zero, este
+
+0:06:50.479,0:06:54.800
+triangulozinho vai ficando mais
+
+0:06:51.680,0:06:56.720
+pequenino e efetivamente aproxima-se da
+
+0:06:54.800,0:06:58.639
+verdadeira tangente, que é este
+
+0:06:56.720,0:07:00.160
+correspondente a esta reta tangente
+
+0:06:58.639,0:07:02.039
+aqui.
+
+0:07:00.160,0:07:04.120
+OK? A verdadeira tangente, que é a
+
+0:07:02.039,0:07:08.520
+verdadeira derivada da função do ponto
+
+0:07:04.120,0:07:11.120
+x0, nós só a atingimos e ela será um
+
+0:07:08.520,0:07:13.520
+limite e é o limite quando a próx quando
+
+0:07:11.120,0:07:14.879
+o h tende para zero e o tamanho do
+
+0:07:13.520,0:07:18.240
+triângulo fica um triângulozinho
+
+0:07:14.879,0:07:21.680
+pequenino e que efetivamente será o
+
+0:07:18.240,0:07:25.599
+valor da da derivada. Portanto, vamos
+
+0:07:21.680,0:07:28.039
+dizer que temos a tangente, a
+
+0:07:25.599,0:07:30.280
+aproximação da tangente,
+
+0:07:28.039,0:07:33.160
+que será,
+
+0:07:30.280,0:07:35.039
+portanto, f0
+
+0:07:33.160,0:07:38.560
++ h
+
+0:07:35.039,0:07:38.560
+- f0 [roncando]
+
+0:07:39.039,0:07:43.240
+sobre
+
+0:07:40.680,0:07:45.840
+h.
+
+0:07:43.240,0:07:49.680
+Sim, senhora.
+
+0:07:45.840,0:07:52.759
+E, portanto, esta é a tangente,
+
+0:07:49.680,0:07:56.720
+uma tangente para uma dada aproximação
+
+0:07:52.759,0:08:00.520
+h, mas a derivada
+
+0:07:56.720,0:08:04.520
+representamos assim f linha de x
+
+0:08:00.520,0:08:04.520
+ou representamos também
+
+0:08:05.080,0:08:10.840
+dx dy
+
+0:08:07.840,0:08:14.360
+ou também representamos d d df dx
+
+0:08:10.840,0:08:16.479
+derivada da função f em ordem X.
+
+0:08:14.360,0:08:19.159
+Representamos nesta forma de cocientes
+
+0:08:16.479,0:08:22.319
+porque de facto a sua definição é um
+
+0:08:19.159,0:08:24.440
+cociente, é uma divisão, é este cociente
+
+0:08:22.319,0:08:27.479
+que aqui está,
+
+0:08:24.440,0:08:31.479
+em que designamos que
+
+0:08:27.479,0:08:34.800
+este lado aqui, o cateto adjacente, é o
+
+0:08:31.479,0:08:38.159
+delta x. Delta x ou quando for muito
+
+0:08:34.800,0:08:40.680
+pequenino é o dx, também chamado o
+
+0:08:38.159,0:08:43.560
+diferencial em x. também é uma
+
+0:08:40.680,0:08:47.839
+nomenclatura que se vê muitas vezes. E
+
+0:08:43.560,0:08:51.160
+aqui o delta Y, este cateto oposto, OK?
+
+0:08:47.839,0:08:53.240
+É o delta y, portanto, também chamado
+
+0:08:51.160,0:08:55.800
+quando quando h é muito pequenino o
+
+0:08:53.240,0:08:58.480
+diferencial de Y.
+
+0:08:55.800,0:09:00.720
+Sim, senhora. E, portanto, eh, a
+
+0:08:58.480,0:09:03.399
+verdadeira derivada
+
+0:09:00.720,0:09:06.640
+é igual a este coeficiente apenas na
+
+0:09:03.399,0:09:10.440
+situação limite, quando h tende para
+
+0:09:06.640,0:09:11.920
+zero. Pronto. Agora isto varnos ia para
+
+0:09:10.440,0:09:13.480
+uma teoria matemática, a teoria dos
+
+0:09:11.920,0:09:16.320
+limites,
+
+0:09:13.480,0:09:18.959
+que não vamos aproçar muito sobre isso,
+
+0:09:16.320,0:09:21.399
+pelo menos para já não tenho previsto.
+
+0:09:18.959,0:09:24.399
+Claro que existe alguns teoremas
+
+0:09:21.399,0:09:27.320
+eh para o cálculo de limites e de
+
+0:09:24.399,0:09:29.640
+indeterminações de limites.
+
+0:09:27.320,0:09:31.920
+A regra o
+
+0:09:29.640,0:09:33.200
+existe um teorema que que é uma regra
+
+0:09:31.920,0:09:35.751
+muito poderosa que eu uso muito, que é a
+
+0:09:33.200,0:09:37.360
+regra dopital,
+
+0:09:35.751,0:09:41.000
+[roncando] mas para já não estamos a
+
+0:09:37.360,0:09:43.320
+precisar disso. Não vamos o não vamos
+
+0:09:41.000,0:09:46.000
+focar-nos nesse ponto, no levantamento
+
+0:09:43.320,0:09:47.920
+de interminações. Vamos apenas focar-nos
+
+0:09:46.000,0:09:51.160
+em situações simples. Vamos imaginar
+
+0:09:47.920,0:09:53.320
+aqui, por exemplo, vamos calcular aqui
+
+0:09:51.160,0:09:56.440
+uma derivada de uma função, OK? Então,
+
+0:09:53.320,0:09:58.920
+vamos dizer, por exemplo, tenho uma
+
+0:09:56.440,0:10:02.120
+função y
+
+0:09:58.920,0:10:03.720
+igual a 2x. Sim, senhora. Que é uma
+
+0:10:02.120,0:10:06.600
+reta.
+
+0:10:03.720,0:10:09.200
+Então, a derivada
+
+0:10:06.600,0:10:12.519
+py dx
+
+0:10:09.200,0:10:16.519
+será igual ao limite
+
+0:10:12.519,0:10:20.720
+quando h tende a 0 de
+
+0:10:16.519,0:10:24.279
+f(x) + h, ou seja, e no lugar do x pomos
+
+0:10:20.720,0:10:24.279
+x + h
+
+0:10:24.600,0:10:31.519
+- f(x), ou seja, 2x
+
+0:10:29.360,0:10:36.160
+tudo sobre h.
+
+0:10:31.519,0:10:39.000
+E vemos que aqui vai dar 2x - 2x corta e
+
+0:10:36.160,0:10:42.079
+vai dar 2h sobre h = 2. Portanto, isto
+
+0:10:39.000,0:10:44.360
+vai ser o limite
+
+0:10:42.079,0:10:45.880
+quando h tenta zero de uma constante 2.
+
+0:10:44.360,0:10:48.200
+Bom, o h nem sequer entra aqui na
+
+0:10:45.880,0:10:51.240
+expressão, portanto é indiferente qual
+
+0:10:48.200,0:10:56.079
+seja o valor de h e portanto isto dá 2 e
+
+0:10:51.240,0:10:59.279
+e de facto a derivada de 2x é 2. OK?
+
+0:10:56.079,0:11:01.160
+Eh, portanto, vamos, isto não tem mais
+
+0:10:59.279,0:11:02.480
+que isto. A derivada é isto. Trata-se de
+
+0:11:01.160,0:11:04.639
+calcular um limite. Só que depois, como
+
+0:11:02.480,0:11:06.440
+existe um conjunto de regras para
+
+0:11:04.639,0:11:09.120
+derivar, na prática, nunca mais na vida
+
+0:11:06.440,0:11:11.360
+calculamos limites. Na prática,
+
+0:11:09.120,0:11:14.480
+aplicamos um conjunto
+
+0:11:11.360,0:11:18.760
+de de regras. Por exemplo, vamos
+
+0:11:14.480,0:11:21.720
+imaginar, por exemplo, e
+
+0:11:18.760,0:11:23.839
+a regra da soma. A regra da soma, uma
+
+0:11:21.720,0:11:26.839
+coisa muito simples. No caso que eu
+
+0:11:23.839,0:11:29.160
+tenha uma expressão que seja dado
+
+0:11:26.839,0:11:31.920
+como uma soma, que eu possa exprimir
+
+0:11:29.160,0:11:34.959
+como uma soma, OK? Imaginemos, por
+
+0:11:31.920,0:11:36.959
+exemplo, 2x +
+
+0:11:34.959,0:11:39.480
+seno de x.
+
+0:11:36.959,0:11:41.560
+Então a derivada
+
+0:11:39.480,0:11:43.360
+y linha
+
+0:11:41.560,0:11:45.079
+eu posso calcular também como soma de
+
+0:11:43.360,0:11:47.920
+derivadas.
+
+0:11:45.079,0:11:50.560
+Eu eu eu particiono a expressão como eu
+
+0:11:47.920,0:11:55.160
+quiser. Eu posso particionar 2x + seno
+
+0:11:50.560,0:11:59.480
+de x ou posso particionar x + x + seno
+
+0:11:55.160,0:12:01.959
+de x. Portanto, eu é que posso
+
+0:11:59.480,0:12:03.279
+aplicar aqui uma associatividade da da
+
+0:12:01.959,0:12:06.040
+forma que eu quiser e, portanto, e
+
+0:12:03.279,0:12:08.560
+depois calcular a soma das derivadas.
+
+0:12:06.040,0:12:11.000
+OK. Pronto. Pronto. Isto é uma regra
+
+0:12:08.560,0:12:15.160
+trivial, praticamente não não necessita
+
+0:12:11.000,0:12:18.120
+demonstração, mas podemos sempre
+
+0:12:15.160,0:12:19.639
+basear-nos basearm-nos na na definição
+
+0:12:18.120,0:12:22.440
+original
+
+0:12:19.639,0:12:25.920
+na definição original
+
+0:12:22.440,0:12:28.360
+de derivada, que é esta, é a definição
+
+0:12:25.920,0:12:30.279
+oficial. Esta é a forma universal da
+
+0:12:28.360,0:12:31.920
+derivada. E podemos sempre basear-nos
+
+0:12:30.279,0:12:34.720
+nesta expressão para para deduzir
+
+0:12:31.920,0:12:37.240
+qualquer regra. Por exemplo, vamos ver a
+
+0:12:34.720,0:12:41.639
+soma. Vamos imaginar, OK? Qual é a
+
+0:12:37.240,0:12:44.040
+derivada da soma de um f + g? OK. Qual a
+
+0:12:41.639,0:12:47.560
+derivada de uma soma? É um limite. É
+
+0:12:44.040,0:12:49.519
+sempre um limite quando h tende a zero
+
+0:12:47.560,0:12:53.079
+de
+
+0:12:49.519,0:12:58.199
+fx + h. Mas esse f dex na verdade é uma
+
+0:12:53.079,0:13:02.519
+soma. Portanto, f de x + h
+
+0:12:58.199,0:13:06.519
++ g de x + h
+
+0:13:02.519,0:13:09.600
+- fx. Mas esse esse f(x), na verdade é
+
+0:13:06.519,0:13:12.120
+uma soma de um dado f mais um g. Então
+
+0:13:09.600,0:13:18.079
+fica - f(x)
+
+0:13:12.120,0:13:21.360
+- g de x sobre h. Pronto, isto é é muito
+
+0:13:18.079,0:13:24.160
+simples. E agora associamos, partimos
+
+0:13:21.360,0:13:27.079
+esta fração em duas frações.
+
+0:13:24.160,0:13:30.519
+Dizemos que é um limite
+
+0:13:27.079,0:13:33.839
+de f(x) + h
+
+0:13:30.519,0:13:35.680
+- f(x)
+
+0:13:33.839,0:13:37.279
+sobre h.
+
+0:13:35.680,0:13:39.079
+E depois cá está, existem teoremas de
+
+0:13:37.279,0:13:41.000
+limites que diz: "Bom, o limite de uma
+
+0:13:39.079,0:13:43.880
+soma também é a soma dos limites. E
+
+0:13:41.000,0:13:45.839
+então também posso partir, também posso
+
+0:13:43.880,0:13:49.279
+partir de um modo geral.
+
+0:13:45.839,0:13:52.240
+como uma soma dos dois limites
+
+0:13:49.279,0:13:53.600
+mais limite aqui é sempre de h tende
+
+0:13:52.240,0:13:55.279
+para zero, mas pronto, eu agora estou a
+
+0:13:53.600,0:13:57.160
+poupar na escrita, mas pronto, tá
+
+0:13:55.279,0:14:01.759
+implícito que é sempre o limite quando h
+
+0:13:57.160,0:14:04.040
+tende para zero. Portanto, limite de g
+
+0:14:01.759,0:14:06.880
+de x + h
+
+0:14:04.040,0:14:08.880
+- g de x
+
+0:14:06.880,0:14:12.720
+sobre h. E, portanto, estamos perante
+
+0:14:08.880,0:14:15.279
+duas expressões que são elas próprias as
+
+0:14:12.720,0:14:18.959
+definições de derivada. Portanto, esta
+
+0:14:15.279,0:14:21.720
+expressão representa a derivada de
+
+0:14:18.959,0:14:24.399
+finha,
+
+0:14:21.720,0:14:25.880
+e esta representa a derivada de g. E
+
+0:14:24.399,0:14:28.199
+pronto. E assim fica demonstrado que a
+
+0:14:25.880,0:14:30.320
+derivada da soma é a soma das derivadas.
+
+0:14:28.199,0:14:30.320
+Oh.
+
+

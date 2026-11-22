@@ -1,0 +1,1822 @@
+0:00:02.360,0:00:08.480
+Ora, hoje vamos ver aqui este tema da
+
+0:00:04.720,0:00:10.320
+distância entre retas paralelas.
+
+0:00:08.480,0:00:14.240
+Ora,
+
+0:00:10.320,0:00:14.240
+eh, é um tema que
+
+0:00:14.519,0:00:20.480
+se testoua um bocado em relação à
+
+0:00:16.880,0:00:23.279
+sequência que temos vindo a a
+
+0:00:20.480,0:00:24.960
+seguir, ou seja, não tem não tem assim
+
+0:00:23.279,0:00:27.000
+muito a ver com nada do que já tínhamos
+
+0:00:24.960,0:00:28.439
+visto.
+
+0:00:27.000,0:00:29.920
+Tirando o facto de que vamos usar aqui o
+
+0:00:28.439,0:00:32.719
+tiramento de Pitágoras, de resto não,
+
+0:00:29.920,0:00:35.840
+aqui não vamos usar mais nada,
+
+0:00:32.719,0:00:38.280
+mas mas em todo o caso fica é um serve
+
+0:00:35.840,0:00:40.520
+como um certo interregno. Vamos aqui
+
+0:00:38.280,0:00:43.360
+resolver este exercício
+
+0:00:40.520,0:00:45.440
+e e também vamos introduzindo e
+
+0:00:43.360,0:00:47.000
+relembrando alguns outros temas que mais
+
+0:00:45.440,0:00:49.039
+futuramente poderemos vir a trabalhar
+
+0:00:47.000,0:00:52.680
+com eles, equações de reta, equações de
+
+0:00:49.039,0:00:55.239
+planos, de curvas, etc, etc.
+
+0:00:52.680,0:00:57.399
+Portanto, eh, decidi colocar agora este
+
+0:00:55.239,0:00:59.680
+exercício aqui na minha sequência, na
+
+0:00:57.399,0:01:03.320
+minha playlista. Ora bem, então o que é
+
+0:00:59.680,0:01:03.320
+que nós vamos ter aqui?
+
+0:01:03.440,0:01:10.119
+Ora, portanto, nós vamos ter, vamos
+
+0:01:05.519,0:01:12.840
+dizer que temos duas retas paralelas.
+
+0:01:10.119,0:01:15.720
+Ah, agora vamos trabalhar no plano, OK?
+
+0:01:12.840,0:01:19.119
+Mais simples. Portanto, este problema
+
+0:01:15.720,0:01:21.759
+vai ser na geometria 2D.
+
+0:01:19.119,0:01:24.159
+Vamos dizer que temos, portanto, uma
+
+0:01:21.759,0:01:26.000
+reta.
+
+0:01:24.159,0:01:29.520
+Eu vou escrever aqui a equação da reta
+
+0:01:26.000,0:01:33.000
+y1 igual a
+
+0:01:29.520,0:01:35.000
+mx + b. Portanto, isto acho que é o a
+
+0:01:33.000,0:01:39.040
+forma da reta na chamada equação
+
+0:01:35.000,0:01:39.040
+reduzida, se bem me recordo,
+
+0:01:40.240,0:01:46.840
+que para retas verticais não não não
+
+0:01:44.719,0:01:48.320
+portanto não não suporta retas
+
+0:01:46.840,0:01:51.600
+verticais.
+
+0:01:48.320,0:01:53.920
+OK? Caso em que o decia infinito.
+
+0:01:51.600,0:01:57.560
+Sim, senhora.
+
+0:01:53.920,0:02:00.479
+E as retas verticais são escritas na
+
+0:01:57.560,0:02:02.560
+forma de x = a qualquer coisa. X = a um
+
+0:02:00.479,0:02:04.399
+determinado x0.
+
+0:02:02.560,0:02:08.399
+OK?
+
+0:02:04.399,0:02:11.120
+temos uma a forma universal que que
+
+0:02:08.399,0:02:12.920
+suporta qualquer reta
+
+0:02:11.120,0:02:16.400
+e a
+
+0:02:12.920,0:02:20.280
+a formulação mais mais poderosa é de
+
+0:02:16.400,0:02:21.800
+facto a a forma vetorial,
+
+0:02:20.280,0:02:24.319
+OK?
+
+0:02:21.800,0:02:26.400
+e também é universal porque porque serve
+
+0:02:24.319,0:02:29.599
+para querer número de dimensões, no qual
+
+0:02:26.400,0:02:32.200
+nós dizemos que, bom, que uma reta é o
+
+0:02:29.599,0:02:35.200
+conjunto de todos os pontos
+
+0:02:32.200,0:02:35.200
+que
+
+0:02:35.360,0:02:41.959
+partindo de um determinado ponto
+
+0:02:37.599,0:02:43.680
+conhecido da reta e
+
+0:02:41.959,0:02:46.440
+partindo de um determinado vetor que tem
+
+0:02:43.680,0:02:49.840
+a direção da reta,
+
+0:02:46.440,0:02:52.440
+então o conjunto de todos os pontos x0
+
+0:02:49.840,0:02:55.280
+mais um múltiplo desse vetor. Portanto,
+
+0:02:52.440,0:02:57.000
+esta é a equação equação vetorial da
+
+0:02:55.280,0:02:59.879
+reta
+
+0:02:57.000,0:03:02.519
+e de um modo geral são as equações
+
+0:02:59.879,0:03:05.159
+vetoriais. Este tipo de formalismo é o
+
+0:03:02.519,0:03:06.959
+mais poderoso, o mais compacto e o mais
+
+0:03:05.159,0:03:08.959
+completo.
+
+0:03:06.959,0:03:10.920
+OK? Mas agora não vamos trabalhar com
+
+0:03:08.959,0:03:12.560
+este formalismo. Vamos trabalhar aqui,
+
+0:03:10.920,0:03:15.879
+vamos voltar aqui como estávamos na
+
+0:03:12.560,0:03:18.400
+equação reduzida, OK?
+
+0:03:15.879,0:03:20.920
+Eh, então,
+
+0:03:18.400,0:03:22.799
+eh, se bem que óbvio que a partir se eu
+
+0:03:20.920,0:03:24.920
+se me derem uma equação vetorial da
+
+0:03:22.799,0:03:26.799
+reta,
+
+0:03:24.920,0:03:29.200
+é como digo, desde que ela não seja
+
+0:03:26.799,0:03:33.879
+concluído vertical, eu posso levá-la até
+
+0:03:29.200,0:03:33.879
+à forma reduzida. OK?
+
+0:03:34.560,0:03:39.159
+Então, temos uma segunda reta e ela é a
+
+0:03:37.720,0:03:43.239
+paralela. Então, quer dizer que tem o
+
+0:03:39.159,0:03:45.879
+mesmo decve, o mesmo m, OK? Tem o mesmo
+
+0:03:43.239,0:03:49.480
+declive.
+
+0:03:45.879,0:03:51.760
+mas uma diferente ordenada na origem,
+
+0:03:49.480,0:03:54.159
+uma reta paralela. OK? Pronto. Então,
+
+0:03:51.760,0:03:56.560
+basicamente o problema é calcular a
+
+0:03:54.159,0:03:59.239
+distância entre as retas paralelas. Como
+
+0:03:56.560,0:04:01.159
+é que nós poderíamos fazer aqui?
+
+0:03:59.239,0:04:04.280
+Poderíamos fazer, eu poderia escolher
+
+0:04:01.159,0:04:07.000
+aqui um ponto qualquer. Eu posso eu
+
+0:04:04.280,0:04:09.560
+posso é fácil calcular um ponto que
+
+0:04:07.000,0:04:12.799
+pertence a esta reta.
+
+0:04:09.560,0:04:17.160
+Depois podia usar aqui, portanto, o
+
+0:04:12.799,0:04:19.560
+decíve perpendicular a m e traçar a reta
+
+0:04:17.160,0:04:22.639
+que passa por aqui.
+
+0:04:19.560,0:04:24.840
+Sim, senhor. Esta reta R.
+
+0:04:22.639,0:04:28.040
+E a partir daí calcular estas
+
+0:04:24.840,0:04:29.600
+interseções, os pontos P1 e P2.
+
+0:04:28.040,0:04:31.320
+E depois calcular a distância entre os
+
+0:04:29.600,0:04:33.840
+pontos. E pronto, e já já tenho a
+
+0:04:31.320,0:04:35.720
+distância entre as retas paralelas.
+
+0:04:33.840,0:04:39.280
+Pronto. E basicamente é isto que vamos
+
+0:04:35.720,0:04:42.960
+fazer, só com uma ligeira um uma uma
+
+0:04:39.280,0:04:45.759
+ligeira nuance que se me ocorreu e que
+
+0:04:42.960,0:04:49.240
+eu fiz essa ligeira essa ligeira
+
+0:04:45.759,0:04:52.080
+variação. Então vamos ver aqui.
+
+0:04:49.240,0:04:56.120
+Portanto, o que disse é o seguinte. Nós
+
+0:04:52.080,0:04:59.240
+vimos no outro dia que tínhamos uma
+
+0:04:56.120,0:05:01.840
+transformação linear de transação.
+
+0:04:59.240,0:05:03.360
+Pronto. E é o que eu vou fazer agora. Ou
+
+0:05:01.840,0:05:05.840
+seja,
+
+0:05:03.360,0:05:09.080
+porque se vai simplificar.
+
+0:05:05.840,0:05:14.600
+Eu vou,
+
+0:05:09.080,0:05:18.840
+eu temos aqui o sistema de eixo, eu vou
+
+0:05:14.600,0:05:21.840
+interessa-me transvadar aqui esta
+
+0:05:18.840,0:05:21.840
+reta
+
+0:05:22.240,0:05:30.440
+de um determinado valor K, um
+
+0:05:25.199,0:05:34.000
+determinado valor K, por forma que ela
+
+0:05:30.440,0:05:36.199
+passe aqui na origem. Pronto, eu vou eu
+
+0:05:34.000,0:05:39.160
+tenho que calcular aqui uma uma
+
+0:05:36.199,0:05:40.960
+transformação da translação. Pronto,
+
+0:05:39.160,0:05:42.919
+vai-me dar jeito porque depois este
+
+0:05:40.960,0:05:46.080
+ponto P1,
+
+0:05:42.919,0:05:48.160
+o ponto P1 depois eu posso colocá-lo
+
+0:05:46.080,0:05:50.720
+aqui
+
+0:05:48.160,0:05:53.000
+com as coordenadas 0 zer e vai me
+
+0:05:50.720,0:05:55.240
+facilitar os cálculos. Pronto, esta foi
+
+0:05:53.000,0:06:00.360
+uma ligeira
+
+0:05:55.240,0:06:02.800
+eh variação que que se me ocorreu e que
+
+0:06:00.360,0:06:05.560
+penso que simplifica um pouco os
+
+0:06:02.800,0:06:08.880
+cálculos. Então vamos já ver. Então
+
+0:06:05.560,0:06:12.080
+vamos fazer a transformação.
+
+0:06:08.880,0:06:14.080
+Seja x
+
+0:06:12.080,0:06:17.199
+igual a xinha
+
+0:06:14.080,0:06:22.199
+mais k. Já sabemos isto, já vimos isto
+
+0:06:17.199,0:06:25.759
+noutro tutorial e, portanto, vou pôr y1
+
+0:06:22.199,0:06:28.199
+é igual a mha
+
+0:06:25.759,0:06:32.319
++ k
+
+0:06:28.199,0:06:35.319
++ b1. Pronto. E eu quero calcular o K
+
+0:06:32.319,0:06:37.880
+por forma que anu a ordenada na origem.
+
+0:06:35.319,0:06:40.680
+Pois já sabemos que uma reta neste
+
+0:06:37.880,0:06:42.720
+formato aqui que passa na origem, pois
+
+0:06:40.680,0:06:45.080
+não. A ordenada na origem é zero.
+
+0:06:42.720,0:06:46.840
+Pronto. Então aqui
+
+0:06:45.080,0:06:49.400
+m
+
+0:06:46.840,0:06:54.039
+x vinha
+
+0:06:49.400,0:06:55.720
++ m k + b1.
+
+0:06:54.039,0:06:59.039
+Pronto. E eu quero que isto seja igual a
+
+0:06:55.720,0:07:01.639
+zero. Então,
+
+0:06:59.039,0:07:04.639
+eh, tem que ser
+
+0:07:01.639,0:07:04.639
+K
+
+0:07:04.960,0:07:08.400
+é igual a
+
+0:07:08.960,0:07:12.879
+- b1 sobre m.
+
+0:07:16.759,0:07:23.280
+Ora, k = - b1 sobre m. Eu venho aqui à
+
+0:07:20.520,0:07:26.599
+reta y1
+
+0:07:23.280,0:07:26.599
+igual a
+
+0:07:27.000,0:07:31.280
+m
+
+0:07:29.080,0:07:36.319
+à parêntes
+
+0:07:31.280,0:07:38.879
+x vinha - b1 sobre m
+
+0:07:36.319,0:07:41.160
++ b1.
+
+0:07:38.879,0:07:43.319
+Portanto, e
+
+0:07:41.160,0:07:45.120
+tirando parênteses
+
+0:07:43.319,0:07:49.039
+y
+
+0:07:45.120,0:07:55.599
+= m x vinha.
+
+0:07:49.039,0:07:57.120
+Aqui o m corta corta fica - b1 - b1 + b1
+
+0:07:55.599,0:08:03.639
+e portanto corta corta que é o que nós
+
+0:07:57.120,0:08:06.639
+queríamos. Pronto, fica e y = mx vinha.
+
+0:08:03.639,0:08:06.639
+OK?
+
+0:08:07.039,0:08:11.440
+Ora, é óbvio que é óbvio que isto é
+
+0:08:09.720,0:08:13.080
+muito simples. Eu já se já sabia isto,
+
+0:08:11.440,0:08:15.360
+portanto não eu não precisava nada. Eu
+
+0:08:13.080,0:08:17.840
+estou só a mostrar.
+
+0:08:15.360,0:08:20.000
+É óbvio que é a reta aqui é é tem o
+
+0:08:17.840,0:08:23.400
+mesmo decí e a ordenada na origem é
+
+0:08:20.000,0:08:27.560
+zero. Pois é óbvio que vai ser y1
+
+0:08:23.400,0:08:29.000
+igual a mx, como é óbvio, mx linha,
+
+0:08:27.560,0:08:31.080
+digamos assim. Mas agora em vez de andar
+
+0:08:29.000,0:08:33.240
+com x linha, vou chamar x na mesma.
+
+0:08:31.080,0:08:36.919
+Pronto. Porque porque depois não vamos
+
+0:08:33.240,0:08:38.120
+andar para trás. OK? Nós eh da outra no
+
+0:08:36.919,0:08:41.320
+outro problema tínhamos uma
+
+0:08:38.120,0:08:42.479
+transformação, usamos uma transformação,
+
+0:08:41.320,0:08:44.000
+OK?
+
+0:08:42.479,0:08:45.920
+E depois no final de um determinado
+
+0:08:44.000,0:08:47.959
+cálculo tivemos que voltar atrás à
+
+0:08:45.920,0:08:50.320
+variável original. Pronto. Mas aqui não
+
+0:08:47.959,0:08:52.399
+vamos precisar isto porque aqui quando
+
+0:08:50.320,0:08:54.399
+eu calcular a distância neste novo
+
+0:08:52.399,0:08:56.080
+referencial, eu não tenho que andar para
+
+0:08:54.399,0:08:58.279
+trás porque a distância é a mesma porque
+
+0:08:56.080,0:09:00.360
+porque o que eu fiz foi uma translação.
+
+0:08:58.279,0:09:02.519
+OK? Não sei se me explico. Pronto, por
+
+0:09:00.360,0:09:04.200
+essa ordem de ideias é que não preciso
+
+0:09:02.519,0:09:06.399
+de andar agora aqui com x minha e agora
+
+0:09:04.200,0:09:09.440
+chamo-lhe x outra vez. indique, OK? Que
+
+0:09:06.399,0:09:12.880
+esta é a nova reta que eu transvadei,
+
+0:09:09.440,0:09:16.200
+translacionei aqui y1 para esta nova
+
+0:09:12.880,0:09:19.079
+aqui y1. OK? Pronto. E no fundo, como é
+
+0:09:16.200,0:09:20.959
+que eu fiz isto? Foi foi subtraindo b1.
+
+0:09:19.079,0:09:22.519
+OK? Portanto, já estamos a ver que a
+
+0:09:20.959,0:09:24.959
+reta número dois também vou fazer o
+
+0:09:22.519,0:09:26.839
+mesmo. Eu vou subtrair B1. Pronto, mas
+
+0:09:24.959,0:09:29.320
+vamos imaginar que que que eu que eu que
+
+0:09:26.839,0:09:31.360
+isso não era intuitivo. Então eu
+
+0:09:29.320,0:09:34.200
+simplesmente tenho que ir à reta Y2 e
+
+0:09:31.360,0:09:36.800
+aplicar a mesma transformação. Portanto,
+
+0:09:34.200,0:09:41.160
+eu vou à reta Y2
+
+0:09:36.800,0:09:41.160
+e vou dizer que é igual a m.
+
+0:09:41.200,0:09:47.440
+O o o x vinha + k, o mesmo x vinha + k,
+
+0:09:47.480,0:09:52.839
+cujo k já determinei - b1 sobre m.
+
+0:09:54.200,0:10:00.240
+OK? Mais B2.
+
+0:09:58.120,0:10:03.680
+E, portanto, isto vai dar MX linha. O m
+
+0:10:00.240,0:10:06.160
+corta corta - b1 + b2. Portanto, fica +
+
+0:10:03.680,0:10:11.160
+b2 - b1. Pronto, é óbvio. Pronto. Então,
+
+0:10:06.160,0:10:15.279
+a segunda reta, ela ela é trans
+
+0:10:11.160,0:10:17.880
+ela é é deslocada para aqui, deslocada
+
+0:10:15.279,0:10:20.480
+para aqui e passa a ser a reta número
+
+0:10:17.880,0:10:23.200
+dois, ela passa a ser então
+
+0:10:20.480,0:10:25.079
+mx
+
+0:10:23.200,0:10:26.680
++
+
+0:10:25.079,0:10:31.519
+b2
+
+0:10:26.680,0:10:34.240
+- b1. OK? Pronto. Pronto. Este foi o
+
+0:10:31.519,0:10:35.800
+passo que eu fiz e que acho que
+
+0:10:34.240,0:10:38.519
+simplifica.
+
+0:10:35.800,0:10:42.320
+Simplifica porque agora eu já tenho aqui
+
+0:10:38.519,0:10:44.079
+um ponto, o ponto vermelho P1.
+
+0:10:42.320,0:10:46.000
+E agora vou ter que traçar uma reta
+
+0:10:44.079,0:10:50.160
+perpendicular que passa aqui na origem,
+
+0:10:46.000,0:10:52.880
+que é para ir cruzar aqui,
+
+0:10:50.160,0:10:56.680
+portanto aqui
+
+0:10:52.880,0:10:58.399
+para calcular este ponto P2. OK? Pronto.
+
+0:10:56.680,0:11:00.600
+Então, como é que nós temos aqui? É isto
+
+0:10:58.399,0:11:04.000
+é bem simples.
+
+0:11:00.600,0:11:06.920
+Nós quando temos um declive M, nós
+
+0:11:04.000,0:11:09.440
+quando temos um declive M,
+
+0:11:06.920,0:11:12.519
+significa que a reta é tal que
+
+0:11:09.440,0:11:16.040
+construindo um triângulo retângulo,
+
+0:11:12.519,0:11:19.760
+construindo um triângulo retângulo
+
+0:11:16.040,0:11:21.399
+e o declive é a tangente. OK? Já falamos
+
+0:11:19.760,0:11:23.240
+de senos e cossenos, mas agora falamos
+
+0:11:21.399,0:11:26.360
+aqui da tangente. Portanto, o declive é
+
+0:11:23.240,0:11:27.760
+a tangente do do ângulo da reta.
+
+0:11:26.360,0:11:29.880
+Portanto, iremos dizer que esta é a
+
+0:11:27.760,0:11:32.959
+reta.
+
+0:11:29.880,0:11:35.959
+Esta é uma dada reta. Tem um dado de CIV
+
+0:11:32.959,0:11:39.720
+M. Significa então que a tangente que
+
+0:11:35.959,0:11:41.880
+aqui este cateto aqui é 1 e aqui é m.
+
+0:11:39.720,0:11:45.120
+Pronto. OK. É isto significa um declive.
+
+0:11:41.880,0:11:48.839
+Um declive significa isto. É a tangente
+
+0:11:45.120,0:11:51.000
+do do ângulo alfa. Ok? Pronto. Agora,
+
+0:11:48.839,0:11:54.360
+qual é a perpendicular?
+
+0:11:51.000,0:11:57.240
+Ok. Pronto. A perpendicular tem que ser
+
+0:11:54.360,0:11:59.880
+um outro triângulo. Da mesma maneira tem
+
+0:11:57.240,0:12:01.519
+que ter aqui um.
+
+0:11:59.880,0:12:03.399
+OK?
+
+0:12:01.519,0:12:05.600
+Mas agora é perpendicular. Vai para
+
+0:12:03.399,0:12:08.120
+baixo
+
+0:12:05.600,0:12:11.160
+aqui. Portanto, a reta perpendicular
+
+0:12:08.120,0:12:14.680
+depois depois será esta. Será esta reta
+
+0:12:11.160,0:12:18.120
+S é perpendicular a R. Portanto, em que
+
+0:12:14.680,0:12:19.800
+aqui e este agora é é o é o ângulo é o
+
+0:12:18.120,0:12:21.800
+ângulo
+
+0:12:19.800,0:12:25.519
+que é perpendicular.
+
+0:12:21.800,0:12:27.240
+Pronto, o ângulo o ângulo teta.
+
+0:12:25.519,0:12:31.079
+Ora,
+
+0:12:27.240,0:12:34.279
+e portanto aqui neste cateto horizontal
+
+0:12:31.079,0:12:36.880
+aqui é 1. E qual é que tem que ser aqui?
+
+0:12:34.279,0:12:39.079
+Tem que ser -1 sobre m.
+
+0:12:36.880,0:12:41.120
+tem que ser que é para que o produto
+
+0:12:39.079,0:12:44.000
+interno dê zero entre os dois vetores
+
+0:12:41.120,0:12:48.320
+perpendiculares. Ora, vejamos, um vetor
+
+0:12:44.000,0:12:54.160
+aqui desta reta, da reta R,
+
+0:12:48.320,0:12:54.160
+será 1 V m.
+
+0:12:54.839,0:12:57.839
+OK?
+
+0:12:58.040,0:13:03.600
+E, portanto, e um vetor desta reta
+
+0:13:01.040,0:13:07.839
+perpendicular será
+
+0:13:03.600,0:13:07.839
+1 V- 1 sobre m.
+
+0:13:08.360,0:13:13.040
+E, portanto, o produto interno dá zero e
+
+0:13:11.639,0:13:14.880
+então tá certo, as retas são
+
+0:13:13.040,0:13:16.959
+perpendiculares. OK? Pronto, isto aqui é
+
+0:13:14.880,0:13:20.600
+o importante
+
+0:13:16.959,0:13:23.399
+e vocês terem presentes que é muito
+
+0:13:20.600,0:13:25.959
+rápido a partir de um declive m obter o
+
+0:13:23.399,0:13:28.920
+declive perpendicular que é -1 sobre m.
+
+0:13:25.959,0:13:32.480
+OK? Pronto.
+
+0:13:28.920,0:13:34.680
+E, portanto, sendo assim, esta reta, a
+
+0:13:32.480,0:13:38.040
+reta vermelha,
+
+0:13:34.680,0:13:41.639
+esta reta vermelha
+
+0:13:38.040,0:13:47.040
+que que passa na origem,
+
+0:13:41.639,0:13:47.040
+esta reta, vamos chamar R,
+
+0:13:47.480,0:13:53.199
+ela
+
+0:13:49.279,0:13:55.240
+vai ser uma reta Y
+
+0:13:53.199,0:14:00.000
+y
+
+0:13:55.240,0:14:01.920
+igual a -x sobre m.
+
+0:14:00.000,0:14:03.959
+mais ordenada na origem que é zero. Nós
+
+0:14:01.920,0:14:07.120
+assim, nós assim o esqu eu estou a
+
+0:14:03.959,0:14:09.519
+posicionar aqui, OK? Seria estúpido se
+
+0:14:07.120,0:14:11.839
+eu pos se eu quisesse fazer num outro
+
+0:14:09.519,0:14:14.839
+ponto qualquer também dava. Eu fazia
+
+0:14:11.839,0:14:16.839
+passar a reta e cruzava noutro sítio
+
+0:14:14.839,0:14:20.519
+qualquer, pois naturalmente queria dar
+
+0:14:16.839,0:14:22.399
+outros dois pontos de interseção e e e
+
+0:14:20.519,0:14:24.680
+garantidamente que a distância teria que
+
+0:14:22.399,0:14:27.160
+dar a mesma, como é óbvio. Pronto. E
+
+0:14:24.680,0:14:29.199
+seria era estúpido, não é? Porque o mais
+
+0:14:27.160,0:14:31.399
+simples é fazer passar uma reta, fica
+
+0:14:29.199,0:14:33.880
+com uma equação mais simples, fazê-la
+
+0:14:31.399,0:14:36.120
+passar aqui na origem e também foi mais
+
+0:14:33.880,0:14:39.639
+simples aplicar uma transformação de
+
+0:14:36.120,0:14:41.240
+transação para levar o y1 a a passar na
+
+0:14:39.639,0:14:44.000
+origem. Portanto, assim fica tudo mais
+
+0:14:41.240,0:14:46.560
+simples. OK? Pronto. Então agora
+
+0:14:44.000,0:14:48.959
+simplesmente tenho que o ponto P1 eu já
+
+0:14:46.560,0:14:51.240
+o tenho. Agora só me falta calcular aqui
+
+0:14:48.959,0:14:55.279
+o ponto P2.
+
+0:14:51.240,0:14:58.360
+O ponto P2. OK? E, portanto, agora é um
+
+0:14:55.279,0:15:03.079
+é um um uma mera interseção de duas
+
+0:14:58.360,0:15:04.759
+retas, OK? A reta R com a reta Y2,
+
+0:15:03.079,0:15:08.800
+OK?
+
+0:15:04.759,0:15:13.120
+Portanto, tenho aqui uma delas é esta
+
+0:15:08.800,0:15:15.639
+reta R vermelha e a outra é o é o Y2.
+
+0:15:13.120,0:15:19.079
+OK? Agora não lhe vou chamar Y2, voulhe
+
+0:15:15.639,0:15:21.440
+chamar Y genérico.
+
+0:15:19.079,0:15:23.079
+Y que é para chamar a atenção que isto
+
+0:15:21.440,0:15:26.120
+vai ser um sistema de duas equações a
+
+0:15:23.079,0:15:34.440
+duas incógnitas que me vai dar a solução
+
+0:15:26.120,0:15:34.440
+o ponto XY. Portanto, Y = MX + b2 - 1
+
+0:15:37.440,0:15:42.880
+- B1. OK? Pronto. Este é o sistema que
+
+0:15:40.680,0:15:45.040
+temos que resolver.
+
+0:15:42.880,0:15:46.680
+Ora, resolver sistemas de equações. É,
+
+0:15:45.040,0:15:49.959
+há tantos métodos, vocês devem estar
+
+0:15:46.680,0:15:52.839
+recordados. Eh, mas aqui é de caras
+
+0:15:49.959,0:15:55.519
+porque eh eu já tenho aqui o y
+
+0:15:52.839,0:15:57.040
+explicitado aqui. Pronto. Então, se eu
+
+0:15:55.519,0:16:00.360
+já tenho o y explicitado, eu posso
+
+0:15:57.040,0:16:06.399
+substituir o y na equação de baixo. OK?
+
+0:16:00.360,0:16:09.800
+Pronto. Então fica - x sobre m
+
+0:16:06.399,0:16:12.680
+é igual a mx
+
+0:16:09.800,0:16:16.839
++ b2 - b1.
+
+0:16:12.680,0:16:19.839
+OK? Pronto. E agora é resolver para X.
+
+0:16:16.839,0:16:21.959
+Ora, resolvendo para X,
+
+0:16:19.839,0:16:27.920
+vem que,
+
+0:16:21.959,0:16:27.920
+Ora, este termo passa para aqui, Fica X.
+
+0:16:29.279,0:16:32.560
+Não, é melhor, é melhor este passar para
+
+0:16:30.959,0:16:34.920
+aqui.
+
+0:16:32.560,0:16:39.959
+É melhor passar este termo para aqui.
+
+0:16:34.920,0:16:43.040
+Portanto, fica fica X M
+
+0:16:39.959,0:16:43.040
+- 1 sobre M.
+
+0:16:43.319,0:16:49.519
+que é igual a e estes dois passam para o
+
+0:16:45.440,0:16:49.519
+outro lado. B1 - B2,
+
+0:16:49.959,0:16:52.959
+OK?
+
+0:16:53.160,0:16:58.600
+Que equivale a
+
+0:16:55.839,0:17:01.600
+fica X
+
+0:16:58.600,0:17:01.600
+1.
+
+0:17:01.680,0:17:06.160
+E eu aqui enganei-me. Espera aí. Aqui
+
+0:17:03.920,0:17:07.679
+enganei-me
+
+0:17:06.160,0:17:11.520
+aqui. Portanto, este passa para aqui,
+
+0:17:07.679,0:17:15.760
+muda sinal. M + 1 sobre M. Tá correto?
+
+0:17:11.520,0:17:15.760
+Portanto, aqui fica fica 1
+
+0:17:15.880,0:17:20.880
+mais reduzindo ao mesmo denominador 1 +
+
+0:17:18.839,0:17:24.160
+m²
+
+0:17:20.880,0:17:24.160
+sobre m
+
+0:17:26.720,0:17:31.799
+igual a b1 - b2.
+
+0:17:29.400,0:17:33.799
+OK? Pronto.
+
+0:17:31.799,0:17:37.960
+H,
+
+0:17:33.799,0:17:40.880
+então eu já tenho,
+
+0:17:37.960,0:17:45.600
+eu já tenho o o do ponto P2, eu já tenho
+
+0:17:40.880,0:17:49.600
+o valor X. Vou explicitar aqui o X.
+
+0:17:45.600,0:17:56.600
+Portanto, ter o ponto B2,
+
+0:17:49.600,0:17:56.600
+cuja coordenada em X vai ser b1 - b2
+
+0:17:57.000,0:18:02.960
+divido por 1 +
+
+0:18:00.760,0:18:05.240
+m2
+
+0:18:02.960,0:18:07.280
+sobre m. Pronto, eu já tenho a
+
+0:18:05.240,0:18:10.200
+coordenada em X
+
+0:18:07.280,0:18:13.120
+e agora a coordenada em Y
+
+0:18:10.200,0:18:16.400
+resulta daqui,
+
+0:18:13.120,0:18:18.159
+resulta aqui desta expressão. Y = - x
+
+0:18:16.400,0:18:22.120
+sobre m.
+
+0:18:18.159,0:18:26.240
+Pronto, então vou pegar nesta.
+
+0:18:22.120,0:18:29.880
+OK? Fica - x. Portanto, aqui o simétrico
+
+0:18:26.240,0:18:29.880
+B2 - B1,
+
+0:18:31.520,0:18:38.000
+o mesmo denominador
+
+0:18:34.520,0:18:38.000
+1 + m2
+
+0:18:41.280,0:18:44.600
+sobre m.
+
+0:18:45.440,0:18:50.520
+OK? Então, sobre mort, corta este com
+
+0:18:48.760,0:18:53.520
+este.
+
+0:18:50.520,0:18:56.360
+Pronto, até eu já tenho aqui o ponto P2.
+
+0:18:53.520,0:18:59.760
+OK? Pronto. Agora a distância de P1 a
+
+0:18:56.360,0:19:03.520
+P2, mas P1 é 0.
+
+0:18:59.760,0:19:07.520
+Pronto. Então, então fica o módulo do do
+
+0:19:03.520,0:19:11.480
+vetor P2. Pronto. Portanto, a distância,
+
+0:19:07.520,0:19:14.919
+vou pô-la aqui, a distância ao quadrado,
+
+0:19:11.480,0:19:18.360
+por exemplo, eu te meto de Pitágoras.
+
+0:19:14.919,0:19:20.520
+Portanto, o quadrado deste
+
+0:19:18.360,0:19:23.679
+B1 - B2
+
+0:19:20.520,0:19:23.679
+ao quadrado
+
+0:19:24.919,0:19:29.559
+e este M que aqui está, vou passá-lo lá
+
+0:19:27.840,0:19:32.720
+para cima.
+
+0:19:29.559,0:19:32.720
+M qu
+
+0:19:35.559,0:19:39.760
+1 + m².
+
+0:19:40.480,0:19:47.600
+o quadrado da primeira coordenada
+
+0:19:43.080,0:19:50.000
+mais e aqui b2 - b1² que por acaso é
+
+0:19:47.600,0:19:51.600
+igual a b1 - b2²
+
+0:19:50.000,0:19:55.480
+é igual posso lhe mudar o sinal eu vou
+
+0:19:51.600,0:19:57.679
+elevar ao quadrado vai ficar positivo.
+
+0:19:55.480,0:20:01.919
+É dividir por
+
+0:19:57.679,0:20:04.039
+1 + m2
+
+0:20:01.919,0:20:05.799
+ao quadrado.
+
+0:20:04.039,0:20:07.919
+OK?
+
+0:20:05.799,0:20:10.200
+Ora, isto tem o mesmo denominador. Posso
+
+0:20:07.919,0:20:14.480
+pôr em evidência,
+
+0:20:10.200,0:20:16.400
+vou pôr em evidência b1 - b2².
+
+0:20:14.480,0:20:19.640
+Portanto, fica
+
+0:20:16.400,0:20:21.760
+B1 - B2
+
+0:20:19.640,0:20:23.600
+ao quadrado
+
+0:20:21.760,0:20:25.919
+a parênteses.
+
+0:20:23.600,0:20:28.919
+E aqui vou ter
+
+0:20:25.919,0:20:28.919
+ora
+
+0:20:31.159,0:20:38.559
+este termo aqui, este
+
+0:20:35.559,0:20:38.559
+um
+
+0:20:39.280,0:20:45.919
+1
+
+0:20:41.039,0:20:50.280
+e este termo aqui + m2
+
+0:20:45.919,0:20:50.280
+tudo sobre o denominador.
+
+0:20:50.720,0:20:55.280
+1 + m2².
+
+0:20:56.720,0:21:02.559
+E então vemos que agora
+
+0:20:59.880,0:21:05.120
+h
+
+0:21:02.559,0:21:07.679
+aqui vai haver um corta corta,
+
+0:21:05.120,0:21:11.120
+OK?
+
+0:21:07.679,0:21:14.520
+Fica apenas o inverso de 1 + m2
+
+0:21:11.120,0:21:17.720
+e depois extraímos a raiz quadrada.
+
+0:21:14.520,0:21:20.559
+OK? Mas cuidado, cuidado ao extrair a
+
+0:21:17.720,0:21:23.320
+raiz quadrada aqui. Agora não posso
+
+0:21:20.559,0:21:25.720
+simplesmente tirar tirar a potência e
+
+0:21:23.320,0:21:28.320
+dizia que é igual a B1 - B2. Não é
+
+0:21:25.720,0:21:30.919
+errado. Até porque houve aqui situações
+
+0:21:28.320,0:21:34.039
+em que trocamos aqui o sinal
+
+0:21:30.919,0:21:36.000
+e eu disse: "Ah, b2 - b1² é ig a b1 -
+
+0:21:34.039,0:21:37.760
+b2². Portanto, cuidado, agora não posso
+
+0:21:36.000,0:21:40.080
+só simplesmente tirar o sinal. E
+
+0:21:37.760,0:21:41.320
+realmente é o que faz sentido. Ou seja,
+
+0:21:40.080,0:21:43.039
+porque eu não posso ter uma distância
+
+0:21:41.320,0:21:45.039
+negativa, eu tou a calcular uma
+
+0:21:43.039,0:21:47.159
+distância, eu não vou. Portanto, eu para
+
+0:21:45.039,0:21:49.360
+garantir, eu tenho que garantir que b1 -
+
+0:21:47.159,0:21:53.200
+b2 ou b2 - b1 que seja positivo.
+
+0:21:49.360,0:21:55.480
+Portanto, então eu vou pôr vou pôr o o
+
+0:21:53.200,0:21:58.240
+valor absoluto.
+
+0:21:55.480,0:22:00.240
+Eu, portanto, eu tiro a raiz quadrada
+
+0:21:58.240,0:22:02.039
+aqui, eu mino a potência 2, mas eu tenho
+
+0:22:00.240,0:22:04.440
+que garantir que é positivo e eu aplico
+
+0:22:02.039,0:22:08.600
+o valor absoluto. Portanto, fica o valor
+
+0:22:04.440,0:22:11.240
+absoluto B1 men b2. Ok,
+
+0:22:08.600,0:22:14.240
+pronto, assim é que tá correto. E por
+
+0:22:11.240,0:22:14.240
+baixo,
+
+0:22:15.520,0:22:20.960
+portanto,
+
+0:22:17.200,0:22:24.360
+este corta ali e fica a raiz quadrada.
+
+0:22:20.960,0:22:29.039
+fica uma raiz quadrada
+
+0:22:24.360,0:22:32.000
+de 1 + m2 que tem sempre solução porque
+
+0:22:29.039,0:22:33.200
+porque obviamente que 1 é positivo, m²
+
+0:22:32.000,0:22:34.400
+também é positivo, isto vai ser sempre
+
+0:22:33.200,0:22:36.400
+positivo e portanto isto vai ser sempre
+
+0:22:34.400,0:22:40.880
+positivo. Isto tem sempre solução.
+
+0:22:36.400,0:22:43.159
+Pronto. E aqui temos nós a fórmula
+
+0:22:40.880,0:22:47.240
+da distância
+
+0:22:43.159,0:22:49.559
+entre duas retas paralelas.
+
+0:22:47.240,0:22:51.440
+Uma
+
+0:22:49.559,0:22:53.720
+variante que pode aparecer deste deste
+
+0:22:51.440,0:22:55.279
+tipo de problemas é em vez de duas retas
+
+0:22:53.720,0:22:58.039
+paralelas a distância de um ponto é uma
+
+0:22:55.279,0:22:59.640
+reta. OK?
+
+0:22:58.039,0:23:04.200
+Pronto. A distância de um ponto é uma
+
+0:22:59.640,0:23:07.279
+reta. E portanto, e atenção que aqui
+
+0:23:04.200,0:23:09.000
+eh nós podíamos resolver este problema
+
+0:23:07.279,0:23:10.279
+sem precisar de decorar estas formas,
+
+0:23:09.000,0:23:12.039
+usando este tipo de raciocínios,
+
+0:23:10.279,0:23:13.159
+calculando os pontos, a reta
+
+0:23:12.039,0:23:14.440
+perpendicular.
+
+0:23:13.159,0:23:16.799
+Estão OK? Estão a perceber? podíamos
+
+0:23:14.440,0:23:20.600
+resolver por passos.
+
+0:23:16.799,0:23:23.799
+OK? Pronto. O que eu desaconselho? Ou
+
+0:23:20.600,0:23:26.400
+seja, eh vemos muitas vezes problemas no
+
+0:23:23.799,0:23:30.360
+YouTube em que são resolvidos com
+
+0:23:26.400,0:23:33.120
+valores concretos, valores específicos.
+
+0:23:30.360,0:23:35.520
+OK? Pronto, vocês fixem sempre em em em
+
+0:23:33.120,0:23:37.559
+no mundo da matemática, vocês fixem
+
+0:23:35.520,0:23:39.919
+sempre o seguinte: nunca resolvam um
+
+0:23:37.559,0:23:42.360
+problema tanto quanto possível com
+
+0:23:39.919,0:23:43.919
+valores concretos.
+
+0:23:42.360,0:23:46.320
+Se virem um problema com valores
+
+0:23:43.919,0:23:48.080
+específicos,
+
+0:23:46.320,0:23:49.799
+vocês
+
+0:23:48.080,0:23:51.760
+generalizem um problema para para um
+
+0:23:49.799,0:23:56.080
+problema genérico
+
+0:23:51.760,0:24:00.440
+e vão descobrir um uma um um um
+
+0:23:56.080,0:24:02.240
+nova realização da matemática, OK?
+
+0:24:00.440,0:24:04.760
+Que não salta à vista se resolverem um
+
+0:24:02.240,0:24:06.120
+problema com específico. Ou seja, se vos
+
+0:24:04.760,0:24:08.640
+aparecesse um problema específico com
+
+0:24:06.120,0:24:10.520
+duas retas específicas,
+
+0:24:08.640,0:24:13.480
+OK? que eu não vou resolver isto aqui
+
+0:24:10.520,0:24:14.760
+porque é o que seria trivial.
+
+0:24:13.480,0:24:16.799
+O que acontece quando as pessoas às
+
+0:24:14.760,0:24:19.279
+vezes resolvem e infelizmente vê-se
+
+0:24:16.799,0:24:21.520
+muitos problemas mesmo
+
+0:24:19.279,0:24:23.840
+professores de matemática, de de malta
+
+0:24:21.520,0:24:26.000
+que tem que faz muitos tutorials na no
+
+0:24:23.840,0:24:28.480
+YouTube. Eu vejo muito esse erro. Esse
+
+0:24:26.000,0:24:30.039
+erro é muito comum as pessoas resolverem
+
+0:24:28.480,0:24:35.399
+um problema específico. Calcula a
+
+0:24:30.039,0:24:38.360
+distância de uma data reta, 3x + 4 e
+
+0:24:35.399,0:24:41.960
+outra reta paralela, etc, etc.
+
+0:24:38.360,0:24:43.919
+E vejo muito esse erro de não passarem,
+
+0:24:41.960,0:24:45.840
+não generalizarem o problema para um
+
+0:24:43.919,0:24:48.240
+problema genérico.
+
+0:24:45.840,0:24:50.240
+Isso a matemática perde toda a bza dessa
+
+0:24:48.240,0:24:53.159
+maneira. Vocês resolvem um problema
+
+0:24:50.240,0:24:55.640
+específico e não se apercebem da
+
+0:24:53.159,0:24:58.240
+existência de uma fórmula, porque ao não
+
+0:24:55.640,0:24:59.640
+resolverem o problema genérico, nunca
+
+0:24:58.240,0:25:02.640
+nunca chegam-se a perceber que existe
+
+0:24:59.640,0:25:05.600
+uma uma fórmula e apreciar apreciar a
+
+0:25:02.640,0:25:08.760
+fórmula, OK? que é este caso aqui.
+
+0:25:05.600,0:25:10.320
+Portanto, esse é sempre o meu conselho,
+
+0:25:08.760,0:25:12.720
+evitar
+
+0:25:10.320,0:25:16.520
+sempre que possível passar um problema
+
+0:25:12.720,0:25:18.799
+que é objetivo com dados concretos, que
+
+0:25:16.520,0:25:21.520
+eu muitas vezes na gíria costumo costumo
+
+0:25:18.799,0:25:24.000
+designar problemas de mercearia
+
+0:25:21.520,0:25:25.320
+que vê-se muito no YouTube, infelizmente
+
+0:25:24.000,0:25:28.640
+com aquilo que eu chamo matemática de
+
+0:25:25.320,0:25:31.039
+mercearia, de meriro, com com problemas
+
+0:25:28.640,0:25:33.320
+concretos. Isso perde toda a beleza à
+
+0:25:31.039,0:25:37.120
+matemática ao não ser resolvido o
+
+0:25:33.320,0:25:38.880
+problema de forma genérica. OK?
+
+0:25:37.120,0:25:40.399
+Pronto. Portanto, como eu estava a
+
+0:25:38.880,0:25:42.799
+dizer,
+
+0:25:40.399,0:25:44.799
+porque claro, podíamos não fazer nada
+
+0:25:42.799,0:25:48.200
+disto, vocês resolviam numa forma
+
+0:25:44.799,0:25:50.600
+específica e pronto, e resolviam e
+
+0:25:48.200,0:25:52.399
+podiam e tinham o resultado e pronto,
+
+0:25:50.600,0:25:54.279
+mas nunca nunca se aperceberiam da
+
+0:25:52.399,0:25:56.960
+existência desta forma se não a
+
+0:25:54.279,0:25:58.559
+deduzirem na, portanto,
+
+0:25:56.960,0:26:00.120
+se não atacarem o problema na forma
+
+0:25:58.559,0:26:01.640
+genérica.
+
+0:26:00.120,0:26:03.159
+Ora bem, portanto, o outro problema que
+
+0:26:01.640,0:26:05.440
+costuma aparecer muitas vezes parecido
+
+0:26:03.159,0:26:06.720
+com este, é a distância de um ponto a
+
+0:26:05.440,0:26:10.080
+uma reta.
+
+0:26:06.720,0:26:12.360
+OK? E que nós vamos resolver da mesma
+
+0:26:10.080,0:26:14.080
+maneira. Nós o que vamos fazer é vamos
+
+0:26:12.360,0:26:16.679
+forçar uma reta paralela a passar por
+
+0:26:14.080,0:26:19.399
+esse ponto e a partir daí pois já temos
+
+0:26:16.679,0:26:22.399
+a forma anterior e resolvemos. OK?
+
+0:26:19.399,0:26:25.240
+Pronto. Então seria uma uma determinada
+
+0:26:22.399,0:26:28.279
+reta. Mais uma vez estamos a trabalhar
+
+0:26:25.240,0:26:33.559
+aqui apenas em duas dimensões
+
+0:26:28.279,0:26:36.200
+e portanto y = mx + b.
+
+0:26:33.559,0:26:38.039
+E agora temos um determinado ponto, um
+
+0:26:36.200,0:26:40.559
+ponto P
+
+0:26:38.039,0:26:43.039
+de coordenadas
+
+0:26:40.559,0:26:44.960
+X0 Y0.
+
+0:26:43.039,0:26:47.360
+OK?
+
+0:26:44.960,0:26:50.840
+E pronto. Portanto, o que é que eu tenho
+
+0:26:47.360,0:26:53.520
+que fazer? Fazer passar fazer encontrar
+
+0:26:50.840,0:26:57.880
+a equação da reta,
+
+0:26:53.520,0:27:02.720
+encontrar a equação desta reta paralela
+
+0:26:57.880,0:27:05.520
+e que passa aqui pelo ponto P. OK?
+
+0:27:02.720,0:27:07.039
+Portanto, vamos ter a reta terá que ser
+
+0:27:05.520,0:27:09.559
+bom, ela é paralela, terá que ter o
+
+0:27:07.039,0:27:12.760
+mesmo decíve. A única coisa que vai
+
+0:27:09.559,0:27:16.240
+mudar é a ordenada na origem, OK? Vai
+
+0:27:12.760,0:27:19.399
+ser um determinado K, tal que X0 y0
+
+0:27:16.240,0:27:23.559
+pertence à reta. OK? Pronto. Então,
+
+0:27:19.399,0:27:27.200
+sendo assim, tal que y0
+
+0:27:23.559,0:27:27.200
+é igual a m0
+
+0:27:27.880,0:27:35.039
++ k. E agora daqui eu extraio o K. O K
+
+0:27:31.720,0:27:35.039
+tem que ser
+
+0:27:35.200,0:27:41.080
+H y0
+
+0:27:37.960,0:27:44.559
+- M X0.
+
+0:27:41.080,0:27:46.240
+OK? Pronto. E então fica a reta, a reta
+
+0:27:44.559,0:27:49.640
+Y
+
+0:27:46.240,0:27:52.360
+igual a mx+
+
+0:27:49.640,0:27:54.159
+parêntes
+
+0:27:52.360,0:27:56.039
+y0
+
+0:27:54.159,0:27:57.640
+- m
+
+0:27:56.039,0:28:00.559
+x0.
+
+0:27:57.640,0:28:02.559
+Ok? Pronto. E pronto. Não tem mais
+
+0:28:00.559,0:28:06.279
+segredos porque agora já tenho uma uma
+
+0:28:02.559,0:28:08.519
+uma reta na forma reduzida
+
+0:28:06.279,0:28:11.320
+e, portanto, aplico a fórmula que eu
+
+0:28:08.519,0:28:13.720
+tinha aqui. Vou dizer, bom, a distância
+
+0:28:11.320,0:28:18.760
+de um ponto a uma reta
+
+0:28:13.720,0:28:18.760
+vai ser o denominador, a raiz quadrada
+
+0:28:21.240,0:28:27.519
+de 1 + m².
+
+0:28:25.039,0:28:30.399
+E em cima vai ser o valor absoluto da
+
+0:28:27.519,0:28:34.279
+diferença das ordenadas na origem. OK?
+
+0:28:30.399,0:28:34.279
+Vou pôr ali o B,
+
+0:28:34.480,0:28:38.360
+o B
+
+0:28:36.279,0:28:40.799
+menos
+
+0:28:38.360,0:28:43.279
+pronto. E agora esta ordenada na origem
+
+0:28:40.799,0:28:45.440
+- y0
+
+0:28:43.279,0:28:49.399
++
+
+0:28:45.440,0:28:52.080
+mx0 o valor absoluto.
+
+0:28:49.399,0:28:55.159
+E pronto, tá terminado. Tá terminado o
+
+0:28:52.080,0:28:58.480
+problema. Não tem mais.
+
+0:28:55.159,0:28:58.480
+E termino aqui este tutorial.
+
+

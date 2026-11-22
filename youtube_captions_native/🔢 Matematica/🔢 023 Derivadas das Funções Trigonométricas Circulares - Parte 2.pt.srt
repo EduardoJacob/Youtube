@@ -1,0 +1,1144 @@
+0:00:01.959,0:00:07.000
+Ora, tínhamos ficado aqui. Houve aqui um
+
+0:00:04.520,0:00:09.240
+problema, um pequeno problema técnico e
+
+0:00:07.000,0:00:11.599
+a gravação interrompeu-se.
+
+0:00:09.240,0:00:13.160
+E assim fica
+
+0:00:11.599,0:00:15.960
+este tutorial ficou ficou partido em
+
+0:00:13.160,0:00:17.240
+duas partes, que é mais rápido para mim
+
+0:00:15.960,0:00:19.960
+do do que depois estar a fazer a
+
+0:00:17.240,0:00:24.640
+montagem e juntar dois vídeos. Fica em
+
+0:00:19.960,0:00:24.640
+duas partes, OK? Não tem problema.
+
+0:00:25.960,0:00:31.320
+Ora, aqui temos uma tabela, portanto, do
+
+0:00:27.840,0:00:33.399
+que nós já já derivamos.
+
+0:00:31.320,0:00:36.079
+Como vem, a derivada do seno é o cosseno
+
+0:00:33.399,0:00:38.800
+e é válido para todo o R.
+
+0:00:36.079,0:00:41.800
+OK?
+
+0:00:38.800,0:00:41.800
+OK.
+
+0:00:43.440,0:00:49.120
+É válvido para todo para todo para todo
+
+0:00:45.480,0:00:51.559
+o R. Domínio da derivada. O cosseno
+
+0:00:49.120,0:00:55.280
+também é bem simples, cuja a derivada é
+
+0:00:51.559,0:01:00.719
+o men seno. Deduzimos também a tangente,
+
+0:00:55.280,0:01:03.160
+que também tem um certo domínio. OK?
+
+0:01:00.719,0:01:04.519
+Eh, sim, senhora.
+
+0:01:03.160,0:01:08.000
+Não vou agora pronunciar sobre o
+
+0:01:04.519,0:01:10.400
+domínio, mas podem ver,
+
+0:01:08.000,0:01:13.240
+podem olhar para, imagino que para que
+
+0:01:10.400,0:01:15.159
+para para as funções para a função da
+
+0:01:13.240,0:01:17.680
+tangente, porque ela era um determinado
+
+0:01:15.159,0:01:19.960
+limite do do em termos do seno sobre
+
+0:01:17.680,0:01:22.880
+cosseno. Imagino que nos geros do
+
+0:01:19.960,0:01:24.400
+cosseno a função tangente não está
+
+0:01:22.880,0:01:26.040
+definida e, portanto, também não pode
+
+0:01:24.400,0:01:29.040
+ter a sua tangente também não pode estar
+
+0:01:26.040,0:01:31.159
+definida. OK? Pronto, suponho que seja
+
+0:01:29.040,0:01:34.079
+isso, mas podem podem podem estudar isso
+
+0:01:31.159,0:01:37.560
+mais ao pormenor se quiserem. Pronto, o
+
+0:01:34.079,0:01:39.600
+mesmo para a derivada da cotangente
+
+0:01:37.560,0:01:42.159
+que é -1 sobre seno quadrado, tal como
+
+0:01:39.600,0:01:44.360
+nós vimos aqui,
+
+0:01:42.159,0:01:45.799
+OK?
+
+0:01:44.360,0:01:48.360
+E as outras duas deixo para vocês
+
+0:01:45.799,0:01:50.719
+fazerem.
+
+0:01:48.360,0:01:52.880
+Eh, aqui tá está expresso em termos de
+
+0:01:50.719,0:01:54.360
+tangentes e secantes. Eh, mas pronto,
+
+0:01:52.880,0:01:55.560
+nós podemos exprimir em termos de, eu
+
+0:01:54.360,0:01:57.560
+não gosto de exprimir em termos de
+
+0:01:55.560,0:02:01.799
+tangentes e secantes. Gosto de exprimir
+
+0:01:57.560,0:02:05.039
+tudo em termos de senos e cossenos. OK?
+
+0:02:01.799,0:02:05.039
+Sim, senhora.
+
+0:02:05.439,0:02:10.239
+Pronto, estas duas pode ficar para vocês
+
+0:02:08.399,0:02:11.800
+deduzirem
+
+0:02:10.239,0:02:13.080
+exatamente da mesma maneira como eu
+
+0:02:11.800,0:02:15.640
+deduzi para a tangente e para a
+
+0:02:13.080,0:02:17.879
+cotangente, que a secante é o inverso do
+
+0:02:15.640,0:02:19.519
+cosseno e que a coscante é o inverso do
+
+0:02:17.879,0:02:22.519
+seno.
+
+0:02:19.519,0:02:22.519
+OK?
+
+0:02:23.120,0:02:27.800
+Vamos agora resolver só aqui uma meia de
+
+0:02:25.280,0:02:30.760
+exercícios,
+
+0:02:27.800,0:02:33.120
+OK?
+
+0:02:30.760,0:02:35.000
+Eh, não é o meu forte aqui do do do dos
+
+0:02:33.120,0:02:37.840
+meus tutoriales, não não são tanto
+
+0:02:35.000,0:02:40.280
+dedicados a a praticar, porque isso cada
+
+0:02:37.840,0:02:42.519
+um de vocês poderá praticar
+
+0:02:40.280,0:02:45.280
+eh ao vosso às vossas necessidades e ao
+
+0:02:42.519,0:02:47.200
+vosso ritmo. Os meus tutores são mais
+
+0:02:45.280,0:02:49.720
+orientados para para demonstração de
+
+0:02:47.200,0:02:52.319
+formas de uma forma intuitiva, não muito
+
+0:02:49.720,0:02:55.159
+rigorosa, mas eu também não sou nenhum
+
+0:02:52.319,0:02:57.120
+matemático, não sou matemático de
+
+0:02:55.159,0:03:00.040
+profissão,
+
+0:02:57.120,0:03:02.840
+simplesmente gosto de matemática e acho
+
+0:03:00.040,0:03:04.599
+que tenho algum acho que tenho algum
+
+0:03:02.840,0:03:06.720
+valor acrescentado a apresentar nestes
+
+0:03:04.599,0:03:08.680
+meus tutoriais, OK? Acho que tenho
+
+0:03:06.720,0:03:11.080
+apresentado já alguns temas e pretendo
+
+0:03:08.680,0:03:13.239
+apresentar mais alguns temas que eh
+
+0:03:11.080,0:03:15.239
+alguns deles são raros de encontrar na
+
+0:03:13.239,0:03:17.280
+internet. algumas demonstrações um pouco
+
+0:03:15.239,0:03:19.159
+mais raras
+
+0:03:17.280,0:03:21.519
+e, portanto, penso que sim, penso que
+
+0:03:19.159,0:03:22.599
+tem algum valor aqui, algum valor
+
+0:03:21.519,0:03:25.319
+acrescentado aquilo que eu estou a
+
+0:03:22.599,0:03:27.840
+fazer, senão não faria de todo. Se fosse
+
+0:03:25.319,0:03:31.239
+para fazer mais do mesmo,
+
+0:03:27.840,0:03:33.920
+não o estaria a fazer, mas vamos
+
+0:03:31.239,0:03:35.959
+resolver só aqui meio do de problemas.
+
+0:03:33.920,0:03:38.480
+Eu tenho aqui na minha coleção, eu tenho
+
+0:03:35.959,0:03:40.400
+uma grande coleção de problemas e
+
+0:03:38.480,0:03:43.159
+demonstrações, coisas que já fui fazendo
+
+0:03:40.400,0:03:44.599
+ao longo do tempo. Portanto, vou vou
+
+0:03:43.159,0:03:46.000
+resolver aqui meio dú de problemas.
+
+0:03:44.599,0:03:48.319
+Vamos ver, por exemplo, aqui tem temos,
+
+0:03:46.000,0:03:51.120
+por exemplo, vamos dizer um cosseno de
+
+0:03:48.319,0:03:52.640
+2x
+
+0:03:51.120,0:03:55.640
+para praticar um bocadinho as derivadas
+
+0:03:52.640,0:03:57.439
+- 2 seno de x.
+
+0:03:55.640,0:04:00.280
+Derivar
+
+0:03:57.439,0:04:03.319
+bem simples. Derivada da soma. O cosseno
+
+0:04:00.280,0:04:04.360
+de 2x é uma função composta.
+
+0:04:03.319,0:04:09.040
+OK?
+
+0:04:04.360,0:04:09.040
+A derivada do cosseno é o men seno,
+
+0:04:10.120,0:04:14.120
+mas é uma função composta porque lá
+
+0:04:11.840,0:04:17.479
+dentro está 2x, então tenho que
+
+0:04:14.120,0:04:19.479
+multiplicar pela derivada de 2x que é 2.
+
+0:04:17.479,0:04:22.639
+Ok?
+
+0:04:19.479,0:04:24.520
+E aqui temos - a derivada do seno é o
+
+0:04:22.639,0:04:31.720
+cosseno de x.
+
+0:04:24.520,0:04:34.720
+Pronto. Portanto, fica - 2 seno de 2x
+
+0:04:31.720,0:04:38.320
+- 2 cosseno
+
+0:04:34.720,0:04:43.120
+de x. OK?
+
+0:04:38.320,0:04:43.120
+Eh, vamos ver aqui, por exemplo,
+
+0:04:43.800,0:04:48.919
+a tangente.
+
+0:04:46.440,0:04:50.759
+OK.
+
+0:04:48.919,0:04:53.600
+A tangente agora não vou não vou colocar
+
+0:04:50.759,0:04:56.039
+de X, não vale a pena quando não puser
+
+0:04:53.600,0:04:59.479
+nada, vocês já sabem, é porque é de X,
+
+0:04:56.039,0:04:59.479
+portanto a tangente,
+
+0:04:59.759,0:05:05.320
+OK?
+
+0:05:01.440,0:05:09.080
+Mais 1/3
+
+0:05:05.320,0:05:11.639
+da tangente ao cubo,
+
+0:05:09.080,0:05:14.720
+OK? Derivar.
+
+0:05:11.639,0:05:17.280
+Temos a derivada da tangente é o inverso
+
+0:05:14.720,0:05:19.160
+do cosseno
+
+0:05:17.280,0:05:22.039
+quadrado.
+
+0:05:19.160,0:05:25.440
+E aqui temos uma potência
+
+0:05:22.039,0:05:29.880
+mais 3 corta com 1/3
+
+0:05:25.440,0:05:33.759
+e fica a potência tangente
+
+0:05:29.880,0:05:37.440
+o o expoente baixa de uma unidade
+
+0:05:33.759,0:05:39.880
+e vezes a derivada da base, a derivada
+
+0:05:37.440,0:05:41.880
+da tangente.
+
+0:05:39.880,0:05:43.479
+para a derivada da tangente, acho que é
+
+0:05:41.880,0:05:45.880
+o inverso do cosseno quadrado, não é?
+
+0:05:43.479,0:05:48.199
+Acho que sim. Exato. Pronto. Derivada da
+
+0:05:45.880,0:05:49.880
+tangente,
+
+0:05:48.199,0:05:52.199
+o inverso
+
+0:05:49.880,0:05:54.199
+do cosseno quadrado.
+
+0:05:52.199,0:05:56.080
+OK?
+
+0:05:54.199,0:05:57.919
+Ora, mas eu não gosto de trabalhar com
+
+0:05:56.080,0:06:00.360
+com tangentes. Eu já vos disse, eu só
+
+0:05:57.919,0:06:03.479
+gosto de trabalhar com senos e cossenos.
+
+0:06:00.360,0:06:05.479
+Então fica 1 sobre cosseno.
+
+0:06:03.479,0:06:06.960
+1 sobre cosseno.
+
+0:06:05.479,0:06:08.840
+Eu também poderia logo aqui na tangente
+
+0:06:06.960,0:06:11.919
+ao cubo e aqui na tangente ter posto
+
+0:06:08.840,0:06:14.240
+senos e cosenos. Eu poderia eh pronto,
+
+0:06:11.919,0:06:16.759
+event vai dar o mesmo resultado, mas
+
+0:06:14.240,0:06:18.199
+eventualmente daria mais trabalho.
+
+0:06:16.759,0:06:20.720
+Portanto, aqui temos 1 sobre cosseno
+
+0:06:18.199,0:06:22.759
+quadrado. Aqui temos mais. Ora, a
+
+0:06:20.720,0:06:26.160
+tangente quadrado é seno quadrado sobre
+
+0:06:22.759,0:06:26.160
+cosseno quadrado
+
+0:06:26.960,0:06:31.560
+1 sobre cosseno quadrado.
+
+0:06:30.039,0:06:34.000
+Reduzindo ao mesmo denominador.
+
+0:06:31.560,0:06:37.440
+Denominador vai ficar o cosseno à qu e
+
+0:06:34.000,0:06:43.599
+aqui cosseno quadado + seno² vai dar 1 e
+
+0:06:37.440,0:06:43.599
+portanto dá 1 sobre o cosseno à qu.
+
+0:06:45.919,0:06:52.960
+Ora vamos ver aqui mais outra.
+
+0:06:49.919,0:06:55.960
+Vamos ver, por exemplo, aqui um cosseno
+
+0:06:52.960,0:06:57.560
+menos 1/3
+
+0:06:55.960,0:06:59.360
+de cosseno ao cubo. Portanto, esta é
+
+0:06:57.560,0:07:01.080
+parecida.
+
+0:06:59.360,0:07:04.240
+A derivada
+
+0:07:01.080,0:07:08.720
+derivada do cosseno é menos seno.
+
+0:07:04.240,0:07:11.840
+Aqui o índice baixo corta menos vou
+
+0:07:08.720,0:07:14.199
+ficar um cosseno quadrado
+
+0:07:11.840,0:07:16.800
+vezes a derivada da base, função
+
+0:07:14.199,0:07:19.160
+composta. Portanto, fica a derivada do
+
+0:07:16.800,0:07:24.199
+cosseno é - seno,
+
+0:07:19.160,0:07:29.280
+OK? E, portanto, fica - seno
+
+0:07:24.199,0:07:31.639
+mais seno cosseno quadrado.
+
+0:07:29.280,0:07:34.639
+Cseno quadrado.
+
+0:07:31.639,0:07:34.639
+Ora,
+
+0:07:37.560,0:07:43.440
+portanto, fica,
+
+0:07:40.599,0:07:47.319
+posso pôr um seno em evidência?
+
+0:07:43.440,0:07:51.080
+Tenho aqui seno, seno seno em evidência
+
+0:07:47.319,0:07:54.080
+com o seno quadrado - 1.
+
+0:07:51.080,0:07:54.080
+OK?
+
+0:07:54.759,0:07:59.960
+Mas o, mas 1 é cosseno quadrado mais
+
+0:07:58.159,0:08:01.520
+seno quadrado.
+
+0:07:59.960,0:08:04.240
+Então, cosseno quadrado menos ceno
+
+0:08:01.520,0:08:07.360
+quadrado corta
+
+0:08:04.240,0:08:11.159
+e depois fica - sen²
+
+0:08:07.360,0:08:11.159
+sen -
+
+0:08:11.680,0:08:15.280
+c.
+
+0:08:13.599,0:08:18.479
+Ok?
+
+0:08:15.280,0:08:18.479
+Sim, senhora.
+
+0:08:21.240,0:08:26.159
+Mais outra.
+
+0:08:22.960,0:08:26.159
+o inverso
+
+0:08:27.520,0:08:34.159
+do cosseno
+
+0:08:30.720,0:08:34.159
+elevado a niv.
+
+0:08:35.919,0:08:41.159
+Ora, portanto, isto é o cosseno elevado
+
+0:08:38.000,0:08:46.320
+a - n derivada
+
+0:08:41.159,0:08:51.080
+fica - n cosseno
+
+0:08:46.320,0:08:55.959
+- n - 1 baixo sempre o índice de 1 vezes
+
+0:08:51.080,0:08:58.560
+a derivada do cosseno é menos seno
+
+0:08:55.959,0:09:03.440
+menos seno menos por menos dá mais e
+
+0:08:58.560,0:09:03.440
+fica n seno
+
+0:09:03.880,0:09:10.480
+sobre O cosseno
+
+0:09:07.000,0:09:10.480
+é de mais 1.
+
+0:09:10.640,0:09:15.519
+OK?
+
+0:09:13.320,0:09:19.360
+E outra,
+
+0:09:15.519,0:09:22.240
+ora, vamos ter aqui seno
+
+0:09:19.360,0:09:25.680
+sobre
+
+0:09:22.240,0:09:25.680
+1 mais cosseno.
+
+0:09:26.120,0:09:29.880
+Pronto, é um cociente.
+
+0:09:28.200,0:09:31.720
+OK?
+
+0:09:29.880,0:09:34.079
+Ora, mas eu não eu não gosto eu não
+
+0:09:31.720,0:09:36.880
+gosto de cocientes. Não gosto de
+
+0:09:34.079,0:09:40.959
+cocientes. Eu gosto de produtos.
+
+0:09:36.880,0:09:45.000
+Portanto, vou pôr seno
+
+0:09:40.959,0:09:46.880
+1 + cosseno a -1.
+
+0:09:45.000,0:09:49.760
+A derivada
+
+0:09:46.880,0:09:52.800
+fica a derivada da primeira. derivada do
+
+0:09:49.760,0:09:56.040
+seno é cosseno sobre a segunda
+
+0:09:52.800,0:09:58.839
+vez a segunda
+
+0:09:56.040,0:10:02.720
+mais a primeira vez a derivada da
+
+0:09:58.839,0:10:06.760
+segunda tenho -1
+
+0:10:02.720,0:10:06.760
++ cosseno elevado a -2
+
+0:10:08.680,0:10:17.560
+1 + cseno elevado a -2 aqui
+
+0:10:13.920,0:10:19.880
+vezes a derivada da base. a derivada da
+
+0:10:17.560,0:10:22.680
+base que é 1 + cosseno, derivada do
+
+0:10:19.880,0:10:25.000
+cosseno é - seno
+
+0:10:22.680,0:10:28.279
+- seno.
+
+0:10:25.000,0:10:32.399
+Portanto, aqui vai ficar
+
+0:10:28.279,0:10:35.079
+a mesmo denominador, portanto cosseno 1
+
+0:10:32.399,0:10:37.519
++ cosseno
+
+0:10:35.079,0:10:41.680
+tudo sobre
+
+0:10:37.519,0:10:47.240
+1 mais cosseno ao quadrado.
+
+0:10:41.680,0:10:49.959
+E aqui fica menos por menos dá mais c²
+
+0:10:47.240,0:10:52.959
++².
+
+0:10:49.959,0:10:52.959
+Ok.
+
+0:10:54.040,0:10:57.320
+Sim, senhora.
+
+0:10:57.639,0:11:01.399
+Ora, aqui fica o cosseno mais cosseno
+
+0:10:59.680,0:11:03.920
+quadrado. Cosseno quadrado + seno²ado é
+
+0:11:01.399,0:11:07.760
+1.
+
+0:11:03.920,0:11:10.200
+Ok? Então fica cosseno + 1, ou seja, 1 +
+
+0:11:07.760,0:11:13.240
+cosseno.
+
+0:11:10.200,0:11:17.560
+1 + cosseno
+
+0:11:13.240,0:11:19.320
+é dividir por 1 + cosseno ao quadrado.
+
+0:11:17.560,0:11:24.040
+Portanto, há aqui um corta e fica o
+
+0:11:19.320,0:11:26.079
+inverso de 1 mais cosseno.
+
+0:11:24.040,0:11:29.240
+OK?
+
+0:11:26.079,0:11:29.240
+E finalmente
+
+0:11:29.720,0:11:35.560
+vamos ver um cosseno quadrado
+
+0:11:33.480,0:11:38.160
+vezes um seno
+
+0:11:35.560,0:11:39.920
+a derivada
+
+0:11:38.160,0:11:44.440
+da primeira
+
+0:11:39.920,0:11:46.760
+2 cosseno derivada da base menos seno a
+
+0:11:44.440,0:11:50.200
+derivada da primeira
+
+0:11:46.760,0:11:50.200
+vez a segunda
+
+0:11:50.360,0:11:54.480
+mais a derivada da segunda vez a
+
+0:11:52.519,0:11:56.519
+primeira
+
+0:11:54.480,0:11:58.200
+derivada da do seno da segunda é
+
+0:11:56.519,0:12:00.839
+cosseno,
+
+0:11:58.200,0:12:02.839
+portanto fica
+
+0:12:00.839,0:12:05.360
+ora
+
+0:12:02.839,0:12:07.600
+-2
+
+0:12:05.360,0:12:10.880
+cosseno
+
+0:12:07.600,0:12:10.880
+seno quadrado
+
+0:12:11.240,0:12:17.240
+- 2 coseno seno² + ceno cubo
+
+0:12:15.440,0:12:19.199
+mais cosseno
+
+0:12:17.240,0:12:22.760
+cubo
+
+0:12:19.199,0:12:24.440
+pronto cseno cubo - 2 ceno seno quad e
+
+0:12:22.760,0:12:27.920
+pronto
+
+0:12:24.440,0:12:29.880
+Penso que vamos ficar por aqui.
+
+0:12:27.920,0:12:34.440
+OK. Ainda tenho aqui mais um tópico que
+
+0:12:29.880,0:12:34.440
+posso falar. Deixa-me. OK.
+
+0:12:35.199,0:12:39.079
+Ora, vamos só ver aqui um outro um outro
+
+0:12:37.639,0:12:40.760
+um outro tipo de exercício que está
+
+0:12:39.079,0:12:43.560
+aqui.
+
+0:12:40.760,0:12:49.160
+Eh, só por curiosidade que poderá
+
+0:12:43.560,0:12:52.519
+aparecer às vezes são derivadas,
+
+0:12:49.160,0:12:55.120
+portanto, de de derivadas sucessivas.
+
+0:12:52.519,0:12:58.160
+OK?
+
+0:12:55.120,0:13:01.839
+derivar derivação múltipla.
+
+0:12:58.160,0:13:04.199
+Então temos eh queremos e vamos
+
+0:13:01.839,0:13:07.399
+encontrar uma fórmula geral para
+
+0:13:04.199,0:13:09.480
+derivadas de ordem n e neste caso do
+
+0:13:07.399,0:13:13.079
+seno de ax.
+
+0:13:09.480,0:13:15.440
+OK? Então vamos dizer, OK, eu quero
+
+0:13:13.079,0:13:18.399
+o seno
+
+0:13:15.440,0:13:22.120
+a x,
+
+0:13:18.399,0:13:25.079
+eu quero a derivação da ordem n. OK?
+
+0:13:22.120,0:13:28.199
+Sim, senhora. Bom, então vou dizer, bom,
+
+0:13:25.079,0:13:32.320
+vamos ter aqui, ora, y,
+
+0:13:28.199,0:13:34.160
+a função, a derivada de ordem zero é
+
+0:13:32.320,0:13:36.480
+igual a ela própria, vou dizer que é
+
+0:13:34.160,0:13:39.880
+seno
+
+0:13:36.480,0:13:43.680
+seno de ax.
+
+0:13:39.880,0:13:46.880
+OK? Agora vou ter aqui a derivada de
+
+0:13:43.680,0:13:48.800
+ordem 1, que é a primeira derivada.
+
+0:13:46.880,0:13:53.040
+Vou dizer que portanto a derivada do
+
+0:13:48.800,0:13:56.720
+seno que é igual a cosseno
+
+0:13:53.040,0:13:56.720
+cosseno de ax
+
+0:13:57.120,0:14:05.360
+função composta vez a.
+
+0:14:01.279,0:14:07.639
+OK? Só que eu não quero eu não quero a
+
+0:14:05.360,0:14:10.560
+estar a alternar entre senos cossenos,
+
+0:14:07.639,0:14:13.959
+senos cossenos. Eu quero tentar arranjar
+
+0:14:10.560,0:14:16.720
+uma forma constante, uma forma geral
+
+0:14:13.959,0:14:19.120
+expressa em termos de senos.
+
+0:14:16.720,0:14:20.720
+Para isso vou vou buscar aqui uma
+
+0:14:19.120,0:14:22.120
+igualdade,
+
+0:14:20.720,0:14:25.160
+onde vamos poder aqui demonstrar
+
+0:14:22.120,0:14:29.920
+rapidamente que
+
+0:14:25.160,0:14:29.920
+vou demonstrar que o cosseno
+
+0:14:30.079,0:14:36.320
+de ax
+
+0:14:32.560,0:14:36.320
+é igual ao seno
+
+0:14:36.360,0:14:40.600
+de ax + pi/.
+
+0:14:44.800,0:14:49.680
+OK? Então vou demonstrar aqui a fórmula
+
+0:14:47.360,0:14:53.800
+da do seno da soma.
+
+0:14:49.680,0:14:56.440
+Portanto, fica seno do primeiro coseno
+
+0:14:53.800,0:15:01.839
+do segundo, cosseno de primeiros,
+
+0:14:56.440,0:15:01.839
+cosseno de 90º. Mas cosseno de 90° é 0.
+
+0:15:02.880,0:15:10.440
+Mais mantém o sinal seno do segundo, mas
+
+0:15:06.040,0:15:10.440
+seno de 90º é 1.
+
+0:15:10.519,0:15:14.720
+Seno de pi/ aqui é 1
+
+0:15:14.800,0:15:20.440
+vezes
+
+0:15:16.480,0:15:23.199
+o cosseno do primeiro, o cosseno
+
+0:15:20.440,0:15:25.160
+de ax.
+
+0:15:23.199,0:15:29.320
+OK? Pronto. Portanto, este, então, este
+
+0:15:25.160,0:15:29.320
+que coseno de ax aqui,
+
+0:15:29.399,0:15:37.319
+pois é igual a seno da Ax + pi/ a
+
+0:15:34.519,0:15:40.240
+seno
+
+0:15:37.319,0:15:41.959
+d x +
+
+0:15:40.240,0:15:46.880
+pi/,
+
+0:15:41.959,0:15:48.880
+ou seja, derivar o seno,
+
+0:15:46.880,0:15:52.959
+puxa
+
+0:15:48.880,0:15:56.800
+este fator para aqui, para fora,
+
+0:15:52.959,0:15:59.519
+e acrescenta p meios.
+
+0:15:56.800,0:16:05.040
+OK? É, é isto que faz derivar um seno.
+
+0:15:59.519,0:16:05.040
+Se eu derivar agora outra vez, Y2,
+
+0:16:07.880,0:16:12.519
+imaginem que esta ax + pi é como se
+
+0:16:10.240,0:16:14.240
+fosse,
+
+0:16:12.519,0:16:15.639
+bom, não dá bem para imaginar porque eu
+
+0:16:14.240,0:16:19.240
+porque não é bem a mesma coisa, porque
+
+0:16:15.639,0:16:21.480
+eu tenho aqui um a. Ok,
+
+0:16:19.240,0:16:23.759
+pronto. Mas deixa o vosso cuidado
+
+0:16:21.480,0:16:26.160
+demonstrar.
+
+0:16:23.759,0:16:27.920
+Façam, façam os cálculos. Podem até
+
+0:16:26.160,0:16:30.040
+derivar aqui o a cosseno de ax se
+
+0:16:27.920,0:16:33.199
+quiserem,
+
+0:16:30.040,0:16:35.800
+OK? Que vai dar - a²
+
+0:16:33.199,0:16:36.920
+seno de ax.
+
+0:16:35.800,0:16:40.600
+OK?
+
+0:16:36.920,0:16:44.040
+Pronto. E que vai dar depois
+
+0:16:40.600,0:16:47.480
+o a quadrado garantidamente
+
+0:16:44.040,0:16:47.480
+e o seno
+
+0:16:47.680,0:16:52.680
+de ax
+
+0:16:50.959,0:16:54.880
++
+
+0:16:52.680,0:16:57.880
+2 vezes
+
+0:16:54.880,0:16:57.880
+pi/.
+
+0:16:58.360,0:17:02.600
+Pronto. Estou mostrar-vos este exercício
+
+0:17:00.240,0:17:04.880
+só para verem que pronto, há isto na
+
+0:17:02.600,0:17:06.679
+trigonometria não tem fim. Há múltiplas
+
+0:17:04.880,0:17:08.799
+e muitas formas e há muitas mais, até
+
+0:17:06.679,0:17:10.720
+outras avançadas,
+
+0:17:08.799,0:17:12.240
+eh, que eventualmente veremos noutros
+
+0:17:10.720,0:17:15.360
+tutoriais.
+
+0:17:12.240,0:17:19.079
+Pronto, neste caso é uma forma geral de
+
+0:17:15.360,0:17:22.199
+de derivações múltiplas. Pronto. E então
+
+0:17:19.079,0:17:26.039
+aqui que que se chega à forma geral que
+
+0:17:22.199,0:17:30.280
+o y igual derivada da ordem n
+
+0:17:26.039,0:17:33.600
+derivada da ordem n do seno de ax
+
+0:17:30.280,0:17:36.840
+é igual a a elevado n
+
+0:17:33.600,0:17:36.840
+do seno
+
+0:17:37.039,0:17:42.919
+ax
+
+0:17:39.960,0:17:45.919
++ n
+
+0:17:42.919,0:17:45.919
+pi/.
+
+0:17:46.039,0:17:51.600
+Ok. Pronto, para verem que isto é
+
+0:17:48.480,0:17:54.320
+possível trabalhar neste neste formato,
+
+0:17:51.600,0:17:57.320
+encontrar fórmulas gerais.
+
+0:17:54.320,0:17:57.320
+OK?
+
+0:18:00.480,0:18:05.640
+Sim, senhora. E ficamos por aqui.
+
+0:18:03.440,0:18:07.480
+Eh, é como vos digo, isto era para ser
+
+0:18:05.640,0:18:09.120
+estar tudo integrado no tutorial
+
+0:18:07.480,0:18:11.159
+anterior, mas como houve um problema
+
+0:18:09.120,0:18:14.360
+técnico e interrompi,
+
+0:18:11.159,0:18:18.320
+ficou em duas partes. E pronto, fica
+
+0:18:14.360,0:18:20.919
+terminado a dedução das das formas da da
+
+0:18:18.320,0:18:23.159
+derivação das funções trigonométricas
+
+0:18:20.919,0:18:26.440
+circulares. Obrigado pela atenção e até
+
+0:18:23.159,0:18:26.440
+à próxima. M.
+
+

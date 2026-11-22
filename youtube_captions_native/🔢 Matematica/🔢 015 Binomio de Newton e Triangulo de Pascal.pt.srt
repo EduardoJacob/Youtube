@@ -1,0 +1,2176 @@
+0:00:02.440,0:00:07.680
+Ora, sejam bem-vindos a mais um
+
+0:00:03.800,0:00:11.240
+tutorial. Hoje será dedicado ao binómio
+
+0:00:07.680,0:00:14.080
+do Newton e triângulo de Pascal. OK?
+
+0:00:11.240,0:00:17.039
+Ora bem, temos o triângulo de Pascal,
+
+0:00:14.080,0:00:18.680
+muito interessante
+
+0:00:17.039,0:00:20.199
+que vai aparecer em muitos fenómenos da
+
+0:00:18.680,0:00:24.119
+natureza. Podem pesquisar no YouTube,
+
+0:00:20.199,0:00:24.119
+aparece muito, muito material.
+
+0:00:24.960,0:00:30.080
+Eh, é importante aqui temos se começamos
+
+0:00:27.840,0:00:32.920
+a construir um um um aqui no nos
+
+0:00:30.080,0:00:34.920
+extremos é sempre um e aqui dos meios é
+
+0:00:32.920,0:00:38.800
+a soma dos dois anteriores. Aqui 2 e 1,
+
+0:00:34.920,0:00:45.520
+3, 2 e 1, 3. Nos extremos aqui é sempre
+
+0:00:38.800,0:00:51.600
+um, OK? 1, 3 e 1, 4 3 e 3, 6, 3 e 1, 4.
+
+0:00:45.520,0:00:56.320
+Ok? e assim sucessivamente. 1 5 10 10 e
+
+0:00:51.600,0:00:58.440
+1 5 1. Ok? Portanto, estes termos on eh
+
+0:00:56.320,0:01:00.960
+vão aparecer
+
+0:00:58.440,0:01:04.839
+no binómio de Newton, ou seja, porque o
+
+0:01:00.960,0:01:09.040
+binómio a + b
+
+0:01:04.839,0:01:09.040
+elevado a 0 é ig a 1.
+
+0:01:09.720,0:01:21.400
+A + b elevado 1 é igual a + b.
+
+0:01:18.320,0:01:23.479
+a + b²
+
+0:01:21.400,0:01:27.400
+é igual a²
+
+0:01:23.479,0:01:32.079
++ 2ab
+
+0:01:27.400,0:01:33.720
++ b². E, portanto, estes termos, estes
+
+0:01:32.079,0:01:37.040
+termos
+
+0:01:33.720,0:01:39.119
+que aparece aqui, este um,
+
+0:01:37.040,0:01:43.200
+OK?
+
+0:01:39.119,0:01:47.240
+Este um corresponde a este um. Aqui
+
+0:01:43.200,0:01:51.520
+temos 1 corresponde a este 1 1. Aqui
+
+0:01:47.240,0:01:53.719
+temos 1 2 1. Corresponde a estes. OK?
+
+0:01:51.520,0:01:56.479
+São os termos que vão aparecer aqui na
+
+0:01:53.719,0:01:58.640
+expansão do binómio.
+
+0:01:56.479,0:02:00.759
+OK?
+
+0:01:58.640,0:02:04.840
+E assim sucessivamente.
+
+0:02:00.759,0:02:08.599
+Por exemplo, então temos aqui o val.
+
+0:02:04.840,0:02:11.599
+Aqui aqui será, por exemplo, AB
+
+0:02:08.599,0:02:15.680
+elevado à qu
+
+0:02:11.599,0:02:18.160
+a à quinta
+
+0:02:15.680,0:02:20.560
+vai ser igual a
+
+0:02:18.160,0:02:23.560
+5
+
+0:02:20.560,0:02:23.560
+a4
+
+0:02:24.000,0:02:28.599
+x b.
+
+0:02:26.720,0:02:30.440
+Ok?
+
+0:02:28.599,0:02:32.280
+mais são os termos que estão aqui agora
+
+0:02:30.440,0:02:34.400
+10
+
+0:02:32.280,0:02:36.720
+a³
+
+0:02:34.400,0:02:39.840
+b²
+
+0:02:36.720,0:02:41.840
++ 10
+
+0:02:39.840,0:02:43.640
+a²
+
+0:02:41.840,0:02:47.120
+p³
+
+0:02:43.640,0:02:47.120
++ 5/4
+
+0:02:48.120,0:02:54.000
++ p.
+
+0:02:51.120,0:02:55.879
+Pronto. Sim, senhor. Portanto, nós temos
+
+0:02:54.000,0:02:56.959
+que, pronto, se fizerem as contas, se
+
+0:02:55.879,0:02:58.760
+expandirem aqui, fazendo as
+
+0:02:56.959,0:03:01.480
+multiplicações, isto é intensivo, não é?
+
+0:02:58.760,0:03:02.680
+Tem que multiplicar a + b x a + b e
+
+0:03:01.480,0:03:05.280
+depois o resultado por a + b.
+
+0:03:02.680,0:03:07.640
+Multiplicando isto cinco vezes, vão vão
+
+0:03:05.280,0:03:08.920
+vão ver que vai dar este resultado. Sim,
+
+0:03:07.640,0:03:10.840
+senhora. Portanto, aqui temos a
+
+0:03:08.920,0:03:13.959
+importância do triângulo do Pascal. E
+
+0:03:10.840,0:03:16.720
+como viram, eu fui capaz e sou capaz de
+
+0:03:13.959,0:03:18.480
+expandir qualquer potência do binómio
+
+0:03:16.720,0:03:20.640
+porque eu sou capaz de gerar o o
+
+0:03:18.480,0:03:22.360
+triângulo de Pascal para obter os até à
+
+0:03:20.640,0:03:24.680
+linha que eu preciso e, portanto, ir
+
+0:03:22.360,0:03:26.239
+rapidamente obter esta expansão. Sim,
+
+0:03:24.680,0:03:27.840
+senhora.
+
+0:03:26.239,0:03:30.680
+Ora bem, existe uma fórmula para a
+
+0:03:27.840,0:03:35.239
+expansão do binómio de Newton. Iste
+
+0:03:30.680,0:03:41.200
+através de um somatório onde dizemos que
+
+0:03:35.239,0:03:43.879
+a + b elevado a n vai ser um somatório
+
+0:03:41.200,0:03:45.920
+em que o i varia de 0 até n. Portanto,
+
+0:03:43.879,0:03:47.920
+vamos saber que ver vamos ver que temos
+
+0:03:45.920,0:03:50.439
+sempre um termo a mais do que n. Por
+
+0:03:47.920,0:03:53.040
+exemplo, aqui vemos que elevar ao
+
+0:03:50.439,0:03:55.040
+quadrado
+
+0:03:53.040,0:03:58.400
+eh
+
+0:03:55.040,0:04:00.720
+vemos que
+
+0:03:58.400,0:04:03.319
+elevar ao quadrado
+
+0:04:00.720,0:04:06.120
+vemos que vai ter três termos, portanto
+
+0:04:03.319,0:04:08.640
+elevado a n vai ter n + 1 termos. Por
+
+0:04:06.120,0:04:11.840
+isso aqui o índice faria de 0 a n. Ok?
+
+0:04:08.640,0:04:15.400
+Pronto. E agora temos vamos ter sempre
+
+0:04:11.840,0:04:17.479
+aqui uma combinação de a x p elevado a
+
+0:04:15.400,0:04:19.720
+qualquer coisa.
+
+0:04:17.479,0:04:22.800
+Portanto, o a
+
+0:04:19.720,0:04:24.680
+eh vai ser
+
+0:04:22.800,0:04:26.080
+ele começa sempre com a potência de n.
+
+0:04:24.680,0:04:28.520
+Por exemplo, se for elevada aqui à
+
+0:04:26.080,0:04:31.680
+quinta, começa a elevado à qu, portanto
+
+0:04:28.520,0:04:34.960
+aqui começa com a elevado a n
+
+0:04:31.680,0:04:37.560
+- i. Quando o primeiro termo é igual a
+
+0:04:34.960,0:04:40.639
+0, pois vai dar a elevado a n e depois
+
+0:04:37.560,0:04:44.039
+multiplica por p, o segundo termo do
+
+0:04:40.639,0:04:45.800
+binómio, e vai ser sempre elevado a i.
+
+0:04:44.039,0:04:48.120
+Portanto, à medida que um vai crescendo
+
+0:04:45.800,0:04:50.639
+de n até zero, o outro vai, a outra
+
+0:04:48.120,0:04:53.199
+potência vai crescendo de zero até n.
+
+0:04:50.639,0:04:54.560
+OK? Pronto. E agora falta-nos aqui o
+
+0:04:53.199,0:04:56.039
+termo que é do termo do triângulo do
+
+0:04:54.560,0:04:59.240
+Pascal.
+
+0:04:56.039,0:05:01.400
+Pronto, o termo do triângulo do Pascal e
+
+0:04:59.240,0:05:03.000
+pode-se escrever
+
+0:05:01.400,0:05:04.800
+e eu essa parte eu não vou aqui
+
+0:05:03.000,0:05:07.360
+demonstrar,
+
+0:05:04.800,0:05:10.199
+talvez no futuro para um tutorial
+
+0:05:07.360,0:05:13.240
+pertence à área do cálculo combinatório
+
+0:05:10.199,0:05:16.639
+e, portanto, é a função combinatória
+
+0:05:13.240,0:05:19.039
+de n elementos escolher i.
+
+0:05:16.639,0:05:20.560
+Pronto, esta é a função combinatória.
+
+0:05:19.039,0:05:22.440
+Por isso, e muitas vezes nas linguagens
+
+0:05:20.560,0:05:25.919
+do computador até costuma haver uma
+
+0:05:22.440,0:05:28.840
+função que é o choose
+
+0:05:25.919,0:05:32.440
+cho onde leva dois parâmetros onde diz
+
+0:05:28.840,0:05:35.199
+shoes dn sho k.
+
+0:05:32.440,0:05:38.759
+Ok? também se representa às vezes em em
+
+0:05:35.199,0:05:43.000
+manuais e tutorials eh da internet
+
+0:05:38.759,0:05:43.000
+também às vezes se representa assim
+
+0:05:43.479,0:05:50.600
+eh NK ou N. Ok, pronto. Mas eu gosto
+
+0:05:48.240,0:05:52.680
+desta nomenclatura aqui, foi aquela que
+
+0:05:50.600,0:05:56.880
+eu aprendi que é o CNI, são as
+
+0:05:52.680,0:06:01.080
+combinações de n elementos e a I. OK?
+
+0:05:56.880,0:06:04.280
+Eh, portanto, nós temos aqui, então,
+
+0:06:01.080,0:06:06.120
+eh, temos e deixa-me aqui puxar aqui
+
+0:06:04.280,0:06:08.880
+este triângulo de Pascal aqui mais para
+
+0:06:06.120,0:06:13.000
+baixo.
+
+0:06:08.880,0:06:19.360
+Ora, deixa puxar isto para aqui.
+
+0:06:13.000,0:06:22.120
+OK, nós temos que, portanto, esta linha,
+
+0:06:19.360,0:06:24.520
+a primeira linha, é a linha de C que
+
+0:06:22.120,0:06:27.960
+começa no C
+
+0:06:24.520,0:06:27.960
+Z0, OK?
+
+0:06:28.440,0:06:34.000
+Eh, e aqui em baixo, pois, só pode
+
+0:06:31.039,0:06:35.960
+variar de zero a zero. Aqui em baixo,
+
+0:06:34.000,0:06:38.080
+pois, temos,
+
+0:06:35.960,0:06:40.400
+até vou
+
+0:06:38.080,0:06:43.440
+vou talvez escrever isto aqui. Portanto,
+
+0:06:40.400,0:06:45.000
+temos o C0
+
+0:06:43.440,0:06:48.680
+0.
+
+0:06:45.000,0:06:51.319
+Embaixo no triângulo de Pascal temos
+
+0:06:48.680,0:06:55.560
+a linha do C1
+
+0:06:51.319,0:06:59.479
+e o elemento o 0 e o 1. Embaixo temos a
+
+0:06:55.560,0:07:02.360
+linha do C2. Eu meto 0
+
+0:06:59.479,0:07:05.720
+C21,
+
+0:07:02.360,0:07:07.759
+C2 2 e assim sucessivamente. A linha do
+
+0:07:05.720,0:07:10.520
+C3
+
+0:07:07.759,0:07:12.959
+0 C31
+
+0:07:10.520,0:07:15.440
+C3
+
+0:07:12.959,0:07:18.080
+[roncando] C3 3. Sim, senhora. Pronto,
+
+0:07:15.440,0:07:20.759
+este é o triângulo do Pascal,
+
+0:07:18.080,0:07:23.039
+tem as combinações.
+
+0:07:20.759,0:07:24.759
+Eh,
+
+0:07:23.039,0:07:26.840
+agora
+
+0:07:24.759,0:07:29.639
+temos aqui a fórmula do binómio do
+
+0:07:26.840,0:07:33.400
+Newton. A fórmula do binómio do Newton,
+
+0:07:29.639,0:07:33.400
+pois é esta aqui,
+
+0:07:34.599,0:07:39.599
+OK? E vamos demonstrá-la já de seguida
+
+0:07:37.400,0:07:42.319
+por indução matemática,
+
+0:07:39.599,0:07:43.680
+OK?
+
+0:07:42.319,0:07:45.240
+Porque claro, aqui não demonstramos
+
+0:07:43.680,0:07:47.800
+nada.
+
+0:07:45.240,0:07:49.599
+Aqui estamos, aqui estamos a assumir,
+
+0:07:47.800,0:07:51.680
+aqui estamos a assumir que a forma é
+
+0:07:49.599,0:07:53.680
+verdadeira, porque
+
+0:07:51.680,0:07:56.120
+imaginem que eu peguei aqui num caso a +
+
+0:07:53.680,0:07:58.240
+b5 e eu expandi e digo: "Ok, a forma é
+
+0:07:56.120,0:08:00.520
+verdadeira, mas eu estou a verificar que
+
+0:07:58.240,0:08:03.840
+ela é verdadeira a vosso. Eu não, isto
+
+0:08:00.520,0:08:05.840
+não tá demonstrado." OK?
+
+0:08:03.840,0:08:08.280
+Sim, senhora. Portanto, iremos
+
+0:08:05.840,0:08:10.159
+demonstrar por indução matemática,
+
+0:08:08.280,0:08:11.910
+iremos demonstrar a forma do binómio de
+
+0:08:10.159,0:08:12.080
+Newton.
+
+0:08:11.910,0:08:13.759
+[roncando]
+
+0:08:12.080,0:08:16.479
+Vamos só chamar atenção aqui para uma
+
+0:08:13.759,0:08:19.159
+propriedade da função combinatória dos
+
+0:08:16.479,0:08:21.680
+termos do triângulo de Pascal que vamos
+
+0:08:19.159,0:08:24.240
+precisar dela. Portanto, e essa fórmula
+
+0:08:21.680,0:08:26.319
+que nós vamos precisar [roncando] é a
+
+0:08:24.240,0:08:28.080
+seguinte, é muito simples. Nós reparamos
+
+0:08:26.319,0:08:31.240
+que
+
+0:08:28.080,0:08:34.919
+eh qualquer elemento, qualquer elemento,
+
+0:08:31.240,0:08:34.919
+por exemplo, este aqui,
+
+0:08:34.959,0:08:39.800
+ora,
+
+0:08:36.519,0:08:39.800
+este aqui.
+
+0:08:40.075,0:08:43.519
+[roncando] É, portanto, como já vimos, é
+
+0:08:41.800,0:08:47.200
+a soma dos dois anteriores da linha de
+
+0:08:43.519,0:08:49.279
+trás. OK? Pronto. Portanto, esta é que é
+
+0:08:47.200,0:08:51.240
+a propriedade fundamental
+
+0:08:49.279,0:08:52.720
+e nós vamos precisar desta forma. Este,
+
+0:08:51.240,0:08:54.839
+o elemento aqui de baixo resulta dos
+
+0:08:52.720,0:08:57.279
+dois de baixo. Ou seja, vamos pôr isto
+
+0:08:54.839,0:09:00.200
+matematicamente e vamos dizer que um
+
+0:08:57.279,0:09:02.320
+elemento CN
+
+0:09:00.200,0:09:05.560
+I,
+
+0:09:02.320,0:09:07.360
+OK? Há de ser igual à soma de dois
+
+0:09:05.560,0:09:12.720
+elementos
+
+0:09:07.360,0:09:14.480
+da linha de trás. n - 1 n - 1
+
+0:09:12.720,0:09:19.920
+e quais são esses elementos? Reparem
+
+0:09:14.480,0:09:23.560
+aqui, por exemplo, o 2 atrás é o 2, o i
+
+0:09:19.920,0:09:27.040
+e o anterior i - 1.
+
+0:09:23.560,0:09:30.160
+OK? Sim, senhor.
+
+0:09:27.040,0:09:32.760
+Ora, vamos então
+
+0:09:30.160,0:09:34.399
+demonstrar por indução matemática.
+
+0:09:32.760,0:09:36.760
+Ora, podemos demonstrar os primeiros
+
+0:09:34.399,0:09:38.519
+valores, um ou dois ou três valores.
+
+0:09:36.760,0:09:41.600
+Vamos ver.
+
+0:09:38.519,0:09:44.720
+Ora, vamos ver, por exemplo,
+
+0:09:41.600,0:09:47.279
+por exemplo, para n = 0,
+
+0:09:44.720,0:09:51.040
+para n = 0,
+
+0:09:47.279,0:09:53.680
+vemos a + b elevado a 0, qualquer coisa
+
+0:09:51.040,0:09:55.160
+elevada a 0 é 1.
+
+0:09:53.680,0:09:57.839
+Qualquer coisa elevada a zero, qualquer
+
+0:09:55.160,0:10:00.120
+coisa é diferente de zero.
+
+0:09:57.839,0:10:02.519
+OK? Eh, caso e qualquer coisa é
+
+0:10:00.120,0:10:05.320
+diferente do infinito, caso contrário,
+
+0:10:02.519,0:10:07.240
+seria uma indeterminação do tipo 0
+
+0:10:05.320,0:10:10.240
+elevado a 0 ou infinito elevado a zer.
+
+0:10:07.240,0:10:12.480
+OK? Mas isso é a teoria de limites e e
+
+0:10:10.240,0:10:14.680
+indeterminados e indeterminantes. Mas
+
+0:10:12.480,0:10:20.560
+pronto, isso não vamos tratar agora. Mas
+
+0:10:14.680,0:10:20.560
+pronto, a + b elevado a 0 dá 1. E
+
+0:10:21.040,0:10:27.480
+vemos aqui pela forma do somatório.
+
+0:10:23.959,0:10:29.720
+Sumatório quando i
+
+0:10:27.480,0:10:32.839
+ora
+
+0:10:29.720,0:10:35.079
+somatório quando i varia
+
+0:10:32.839,0:10:36.839
+de zer a zer.
+
+0:10:35.079,0:10:41.959
+Portanto, é só um termo quando i varia
+
+0:10:36.839,0:10:41.959
+de zer a zer de c0
+
+0:10:42.639,0:10:45.600
+c0.
+
+0:10:45.839,0:10:51.480
+aqui, portanto, 0I,
+
+0:10:48.839,0:10:58.079
+OK? A
+
+0:10:51.480,0:10:59.560
+elevado a n, que é é é 0 - i vez p
+
+0:10:58.079,0:11:01.040
+elevado a i. Portanto, isto só tem um
+
+0:10:59.560,0:11:04.160
+termo e, portanto, o termo aqui é sempre
+
+0:11:01.040,0:11:08.519
+zero. Qualquer coisa elevada a 0 é 1 1.
+
+0:11:04.160,0:11:11.040
+E aqui c 0 também é 1. Ok?
+
+0:11:08.519,0:11:13.360
+E, portanto, dá um, portanto, aqui tá
+
+0:11:11.040,0:11:15.160
+correto. Ah, eu esqueci-me de dizer
+
+0:11:13.360,0:11:18.040
+aqui, portanto, em termos da teoria do
+
+0:11:15.160,0:11:21.920
+cálculo combinatório, nós vemos que esta
+
+0:11:18.040,0:11:24.279
+função combinatória do CNI, ela tem ela
+
+0:11:21.920,0:11:26.160
+ela consegue-se calcular
+
+0:11:24.279,0:11:28.240
+eh em função dos fatoriais. Pronto,
+
+0:11:26.160,0:11:29.680
+esqueci-me de de falar disso também. Não
+
+0:11:28.240,0:11:32.120
+vamos agora demonstrar isso. Portanto,
+
+0:11:29.680,0:11:33.320
+isso ficará talvez um dia para um outro
+
+0:11:32.120,0:11:35.000
+tutorial dedicado ao cálculo
+
+0:11:33.320,0:11:40.079
+combinatório.
+
+0:11:35.000,0:11:41.800
+Eh, e portanto, mas efetivamente C n
+
+0:11:40.079,0:11:43.800
+vocês que já tenham estudado cálculo
+
+0:11:41.800,0:11:48.040
+combinatório e probabilidades poderseam
+
+0:11:43.800,0:11:49.600
+lembrar é igual a n fatorial.
+
+0:11:48.040,0:11:51.600
+OK? Eu espero que vocês se recordem o
+
+0:11:49.600,0:11:55.079
+que é que é o fatorial
+
+0:11:51.600,0:12:00.720
+sobre i fatorial
+
+0:11:55.079,0:12:02.480
+e n - i fatorial. Ou seja, eu com isto
+
+0:12:00.720,0:12:04.160
+consigo calcular todos os valores da
+
+0:12:02.480,0:12:06.120
+função combinatória que me apareciam
+
+0:12:04.160,0:12:07.360
+aqui na forma sem precisar de ir ao
+
+0:12:06.120,0:12:09.360
+triângulo de Pascal. Não preciso de
+
+0:12:07.360,0:12:11.000
+fazer triângulo de Pascal. Mas o
+
+0:12:09.360,0:12:12.160
+triângulo para escala é mais fácil, é
+
+0:12:11.000,0:12:14.519
+mais rápido. Eu, por exemplo, para
+
+0:12:12.160,0:12:16.000
+expandir aqui esta quinta potência, em
+
+0:12:14.519,0:12:18.320
+vez de estar a calcular estas expressões
+
+0:12:16.000,0:12:19.959
+todas fatoriais, pois é mais fácil.
+
+0:12:18.320,0:12:22.399
+Rapidamente faço um triângulo de Pascal
+
+0:12:19.959,0:12:25.600
+e vejo quais são os termos da quinta
+
+0:12:22.399,0:12:26.519
+potência, que é o 1 5 10 10 1. OK?
+
+0:12:25.600,0:12:27.680
+Portanto, é para isso que serve o
+
+0:12:26.519,0:12:29.800
+triângulo para escaler muito mais
+
+0:12:27.680,0:12:31.519
+rápido. Vamos pegar aqui num elemento
+
+0:12:29.800,0:12:34.240
+qualquer e ver que isto bate certo. Por
+
+0:12:31.519,0:12:37.240
+exemplo, deixa pegar aqui e neste aqui
+
+0:12:34.240,0:12:44.320
+no no C5. Este aqui, portanto, este aqui
+
+0:12:37.240,0:12:47.360
+será 0 1 2 3 4 5 é o o C 5 4 0 1 2 3 4
+
+0:12:44.320,0:12:50.880
+C5 4 tem que dar igual a 5. Vamos ver,
+
+0:12:47.360,0:12:54.040
+por exemplo, aqui C
+
+0:12:50.880,0:12:58.800
+ou aqui,
+
+0:12:54.040,0:13:01.560
+OK? C, por exemplo, C5 4 é igual a 5
+
+0:12:58.800,0:13:03.880
+fatorial
+
+0:13:01.560,0:13:07.360
+sobre 4 fatorial
+
+0:13:03.880,0:13:09.399
+sobre 5 - 4 fatorial. E, portanto, 5
+
+0:13:07.360,0:13:11.760
+fatorial sobre 4 fatorial corta, vai dar
+
+0:13:09.399,0:13:13.480
+5 e aqui dá 1 e portanto dá 5 e tá
+
+0:13:11.760,0:13:16.240
+correto.
+
+0:13:13.480,0:13:18.800
+OK? Pronto. Quem não se recorda o o que
+
+0:13:16.240,0:13:20.760
+como é o fatorial, pois vá, isso é uma
+
+0:13:18.800,0:13:22.680
+coisa muito muito muito trivial, muito
+
+0:13:20.760,0:13:25.279
+banal. Portanto, vão recordar, vão
+
+0:13:22.680,0:13:27.560
+procurar qualquer documentação para
+
+0:13:25.279,0:13:29.279
+recordar o que é que é o fatorial. Sim,
+
+0:13:27.560,0:13:31.480
+senhora. Portanto, aqui temos a a função
+
+0:13:29.279,0:13:33.279
+combinatória, que são os termos do
+
+0:13:31.480,0:13:37.120
+triângulo Pascal, tal como eu pus aqui,
+
+0:13:33.279,0:13:39.120
+são é os valores da função combinatória.
+
+0:13:37.120,0:13:41.160
+Sim, senhora. Portanto, nós estávamos
+
+0:13:39.120,0:13:43.839
+aqui então na indução matemática, nós já
+
+0:13:41.160,0:13:46.079
+demonstramos aqui para para n ig OK, é
+
+0:13:43.839,0:13:49.040
+verdade. Vamos demonstrar mais um ou
+
+0:13:46.079,0:13:51.639
+dois valores. Vamos demonstrar para n ig
+
+0:13:49.040,0:13:54.199
+1 para ver se é verdade também.
+
+0:13:51.639,0:13:58.399
+Temos que a + b
+
+0:13:54.199,0:14:02.560
+elevado a 1 é igual a + b. E vamos ver
+
+0:13:58.399,0:14:06.320
+se verificar se é igual a
+
+0:14:02.560,0:14:08.880
+somatório quando i varia de 0 a 1, ok?
+
+0:14:06.320,0:14:14.480
+De c 1 i
+
+0:14:08.880,0:14:16.279
+a 1- i pi. Portanto, o somatório vai ter
+
+0:14:14.480,0:14:17.959
+dois termos.
+
+0:14:16.279,0:14:22.000
+O a função combinatória aos primeiros
+
+0:14:17.959,0:14:22.000
+dois termos aqui vai ser 1
+
+0:14:23.440,0:14:29.079
+e aqui as potências. Portanto, vai ser a
+
+0:14:26.199,0:14:31.440
+elevado a 1 x b elevado a 0 que é 1.
+
+0:14:29.079,0:14:33.639
+Portanto, a
+
+0:14:31.440,0:14:36.279
+e portanto o segundo termo vai ser para
+
+0:14:33.639,0:14:39.240
+igual a 1 a elevado a 0 que dá 1 e b
+
+0:14:36.279,0:14:40.800
+elevado a 1. B. Tá correto também.
+
+0:14:39.240,0:14:42.440
+Pronto. E assim sucessivamente. Agora
+
+0:14:40.800,0:14:44.720
+demonstraríamos, podíamos demonstrar
+
+0:14:42.440,0:14:46.120
+mais um ou dois valores. Sim, senhora.
+
+0:14:44.720,0:14:47.759
+Então, já temos o princípio da indução
+
+0:14:46.120,0:14:49.560
+matemática, já temos um ponto de partida
+
+0:14:47.759,0:14:51.920
+que está demonstrado, foi demonstrado
+
+0:14:49.560,0:14:54.920
+manualmente que é verídico. Agora vamos
+
+0:14:51.920,0:14:56.399
+ver pelo princípio da indução,
+
+0:14:54.920,0:14:57.920
+OK? Pelo método indução matemática,
+
+0:14:56.399,0:14:59.959
+vamos verificar se existe aquilo que eu
+
+0:14:57.920,0:15:01.680
+gosto de chamar a propriedade da
+
+0:14:59.959,0:15:04.079
+hereditariedade.
+
+0:15:01.680,0:15:06.320
+Se no pressuposto
+
+0:15:04.079,0:15:09.240
+de que a forma é verdadeira para um
+
+0:15:06.320,0:15:11.040
+determinado ponto inicial, implica que
+
+0:15:09.240,0:15:12.920
+tem que ser verdadeira para o valor
+
+0:15:11.040,0:15:15.920
+seguinte. Pronto, e é isso que nós vamos
+
+0:15:12.920,0:15:19.639
+fazer, OK? Então vamos ver. OK. Então eu
+
+0:15:15.920,0:15:22.160
+quero demonstrar o valor seguinte,
+
+0:15:19.639,0:15:24.839
+OK? Eu estou a pressupor, eu estou a
+
+0:15:22.160,0:15:26.399
+pressupor por hipótese aqui,
+
+0:15:24.839,0:15:31.199
+eu estou a pressupor por hipótese que
+
+0:15:26.399,0:15:31.199
+esta fórmula é verdadeira
+
+0:15:31.399,0:15:35.079
+por hipótese. Isto consiste o método da
+
+0:15:33.720,0:15:36.839
+indução matemática. Eu já vi que é
+
+0:15:35.079,0:15:39.079
+verdadeira para para uns determinados
+
+0:15:36.839,0:15:42.040
+valores de partida. Então vou supor que
+
+0:15:39.079,0:15:43.680
+que ela é verdadeira e na verdade é
+
+0:15:42.040,0:15:47.600
+verdadeira para alguns ns que eu já
+
+0:15:43.680,0:15:49.600
+demonstrei. E agora vamos ver se esse
+
+0:15:47.600,0:15:52.920
+pressuposto de ser verdadeira implica a
+
+0:15:49.600,0:15:56.279
+hereditariedade. Por hipótese, esta
+
+0:15:52.920,0:15:56.279
+forma é verdadeira.
+
+0:15:56.399,0:16:01.880
+Sim, senhor. Então vamos ver então o o
+
+0:15:59.720,0:16:05.480
+que dizer da do valor seguinte. O que
+
+0:16:01.880,0:16:09.079
+dizer de a
+
+0:16:05.480,0:16:09.079
+eh + bado
+
+0:16:10.519,0:16:16.759
+a n + 1? [roncando]
+
+0:16:13.519,0:16:20.040
+Deixa ver o que podemos concluir sobre
+
+0:16:16.759,0:16:24.040
+esta forma. A forma expressa no valor
+
+0:16:20.040,0:16:25.680
+seguinte, no valor de n + 1 será ou não
+
+0:16:24.040,0:16:30.519
+igual
+
+0:16:25.680,0:16:34.079
+ao somatório quando i varia de i n + 1
+
+0:16:30.519,0:16:37.639
+de c n + 1
+
+0:16:34.079,0:16:43.440
+e de a
+
+0:16:37.639,0:16:45.959
+n + 1 - i x b de i. Ok? Reparem o que
+
+0:16:43.440,0:16:48.240
+que a forma a forma diz que OK que aqui
+
+0:16:45.959,0:16:50.560
+na função combinatória o este expoente
+
+0:16:48.240,0:16:53.680
+aqui de cima é o valor aqui máximo do do
+
+0:16:50.560,0:16:57.199
+do somatório. Portanto, aqui n + 1,
+
+0:16:53.680,0:16:58.720
+porque aqui é n + 1 e aqui n + 1 men i.
+
+0:16:57.199,0:17:00.319
+Ok? Portanto, esta é a forma que
+
+0:16:58.720,0:17:02.560
+pretendemos demonstrar. Portanto, como é
+
+0:17:00.319,0:17:04.199
+que vamos fazer? Vamos fazer aqui, ora
+
+0:17:02.560,0:17:08.559
+bem,
+
+0:17:04.199,0:17:13.799
+aqui nesta potência vamos
+
+0:17:08.559,0:17:13.799
+extrair um p em evidência a + b.
+
+0:17:15.160,0:17:24.959
+OK? E fica aqui a + bado n. A + bn.
+
+0:17:20.319,0:17:24.959
+Sim, senhora. Ora,
+
+0:17:25.280,0:17:28.720
+vou pôr aqui
+
+0:17:29.440,0:17:32.760
+a + b.
+
+0:17:32.880,0:17:40.600
+E agora será igual a isto. Pronto, será
+
+0:17:35.919,0:17:40.600
+igual a isto. Ora,
+
+0:17:44.120,0:17:47.600
+se será ou não igual a esta expressão.
+
+0:17:46.039,0:17:49.280
+Ora, mas esta expressão eu vou vou pô-la
+
+0:17:47.600,0:17:50.880
+aqui um bocadinho por extenso, que é
+
+0:17:49.280,0:17:56.760
+mais fácil fazer a demonstração desta
+
+0:17:50.880,0:18:00.679
+maneira. Portanto, será aqui, ora, o C
+
+0:17:56.760,0:18:02.720
+n + 1 0
+
+0:18:00.679,0:18:05.679
+a
+
+0:18:02.720,0:18:08.640
+n + 1
+
+0:18:05.679,0:18:11.880
++ c
+
+0:18:08.640,0:18:16.600
+n + 1
+
+0:18:11.880,0:18:19.280
+a elevado n x b e assim sucessivamente
+
+0:18:16.600,0:18:21.919
+até ao último termo,
+
+0:18:19.280,0:18:23.840
+o C
+
+0:18:21.919,0:18:26.640
+de + 1
+
+0:18:23.840,0:18:28.960
+N + 1
+
+0:18:26.640,0:18:32.360
+onde aqui o A desaparece
+
+0:18:28.960,0:18:34.880
+que é a elevado a 0 e b
+
+0:18:32.360,0:18:37.200
+elevado a n + 1. Pronto, isto é o que
+
+0:18:34.880,0:18:40.840
+nós queremos demonstrar.
+
+0:18:37.200,0:18:43.600
+Queremos demonstrar se a fórmula
+
+0:18:40.840,0:18:46.559
+do binómio de Newton
+
+0:18:43.600,0:18:48.159
+no com o expoente n + 1 se continuará
+
+0:18:46.559,0:18:51.840
+válida
+
+0:18:48.159,0:18:53.440
+no pressuposto que no valor n ela é
+
+0:18:51.840,0:18:55.280
+válida.
+
+0:18:53.440,0:18:58.039
+Já verificamos que é válida para alguns
+
+0:18:55.280,0:18:59.720
+valores iniciais.
+
+0:18:58.039,0:19:01.559
+Ora bem, é isto é que nós pretendemos
+
+0:18:59.720,0:19:06.640
+demonstrar,
+
+0:19:01.559,0:19:06.640
+OK? Pretendemos demonstrar isto aqui
+
+0:19:06.760,0:19:13.640
+se isto
+
+0:19:10.120,0:19:13.640
+é igual a isto.
+
+0:19:13.679,0:19:18.000
+Então aqui compusemos assim e agora
+
+0:19:16.320,0:19:21.080
+vamos usar a hipótese. Vamos dizer: "Ok,
+
+0:19:18.000,0:19:22.760
+mas isto eu posso usar já como hipótese
+
+0:19:21.080,0:19:24.120
+porque pela hipótese é o binómico do
+
+0:19:22.760,0:19:25.480
+Newton.
+
+0:19:24.120,0:19:27.840
+o que já demonstramos para alguns
+
+0:19:25.480,0:19:30.559
+valores iniciais que é verdade.
+
+0:19:27.840,0:19:32.960
+Portanto, fica
+
+0:19:30.559,0:19:35.200
+a + b
+
+0:19:32.960,0:19:38.640
+a parênteses
+
+0:19:35.200,0:19:41.640
+e agora pelo binómio do Newton.
+
+0:19:38.640,0:19:41.640
+CN0
+
+0:19:41.760,0:19:47.120
+an
+
+0:19:44.120,0:19:47.120
+mais
+
+0:19:47.320,0:19:50.320
+CN1
+
+0:19:51.880,0:19:58.919
+AN - 1 B
+
+0:19:55.600,0:20:01.919
+mais até ao último termo
+
+0:19:58.919,0:20:03.559
+CN N
+
+0:20:01.919,0:20:05.080
+B
+
+0:20:03.559,0:20:07.720
+N
+
+0:20:05.080,0:20:12.159
+Sim senhora.
+
+0:20:07.720,0:20:12.159
+Ora bem, e agora vamos fazer aqui,
+
+0:20:13.480,0:20:18.320
+vamos multiplicar, eu vou multiplicar a
+
+0:20:16.600,0:20:23.080
+aqui por todos os termos aqui dentro de
+
+0:20:18.320,0:20:26.440
+parênteses, portanto, e vai ficar
+
+0:20:23.080,0:20:28.880
+CN 0
+
+0:20:26.440,0:20:32.159
+a
+
+0:20:28.880,0:20:36.039
+N + 1
+
+0:20:32.159,0:20:38.760
++ CN1
+
+0:20:36.039,0:20:40.400
+A n
+
+0:20:38.760,0:20:45.400
+mais
+
+0:20:40.400,0:20:50.559
+até ao último termo CN N
+
+0:20:45.400,0:20:52.120
+a b n. Pronto. E vou fazer o mesmo.
+
+0:20:50.559,0:20:54.480
+Portanto, agora para o B. A multiplica
+
+0:20:52.120,0:20:56.720
+por estes mais B multiplica por estes.
+
+0:20:54.480,0:20:59.720
+Portanto, fica
+
+0:20:56.720,0:20:59.720
+C0
+
+0:21:00.840,0:21:05.400
+A
+
+0:21:02.440,0:21:10.159
+N
+
+0:21:05.400,0:21:10.159
++ CN 1
+
+0:21:11.000,0:21:18.919
+A N
+
+0:21:13.720,0:21:21.080
+P quad mais até ao fim
+
+0:21:18.919,0:21:24.080
+CN
+
+0:21:21.080,0:21:24.080
+N
+
+0:21:25.640,0:21:28.919
+aqui enganei-me.
+
+0:21:30.000,0:21:34.480
+Portanto, aqui aqui aumentou o expoente
+
+0:21:31.840,0:21:39.760
+do n, mas aqui não. Portanto, aqui é an,
+
+0:21:34.480,0:21:39.760
+aqui é an - 1.
+
+0:21:43.400,0:21:49.320
+OK, que é o que é o que está aqui.
+
+0:21:46.880,0:21:51.360
+multiplico por E por B e portanto no
+
+0:21:49.320,0:21:56.799
+final
+
+0:21:51.360,0:22:00.120
+P N + 1. Sim, senhora. Pronto, isto é o
+
+0:21:56.799,0:22:02.400
+que resultou, fazer esta expansão. OK? E
+
+0:22:00.120,0:22:05.720
+agora vamos vamos somar e vamos ver que
+
+0:22:02.400,0:22:05.720
+vai haver simplificações.
+
+0:22:09.080,0:22:14.240
+OK? Vamos ver então se se conseguimos
+
+0:22:11.640,0:22:16.880
+chegar aqui a uma conclusão e fazer esta
+
+0:22:14.240,0:22:19.159
+soma da da forma que que pretendemos. O
+
+0:22:16.880,0:22:21.360
+que é que nós vamos fazer aqui? Nós
+
+0:22:19.159,0:22:24.039
+vamos somar isto aqui na diagonal. Nós
+
+0:22:21.360,0:22:27.600
+vamos somar
+
+0:22:24.039,0:22:29.840
+e vou somar este com este,
+
+0:22:27.600,0:22:31.440
+este com este. Porquê?
+
+0:22:29.840,0:22:35.000
+Porque aqui posso somar porque tem as
+
+0:22:31.440,0:22:37.919
+mesmas potências aqui do A e do B. A NB
+
+0:22:35.000,0:22:39.720
+e o CN0 + CN1. Agora é que vamos usar
+
+0:22:37.919,0:22:41.919
+esta fórmula que eu disse que saia aqui
+
+0:22:39.720,0:22:45.760
+do triângulo de Pascal e que era
+
+0:22:41.919,0:22:47.480
+evidente, OK? que quando eu tenho dois
+
+0:22:45.760,0:22:49.039
+termos
+
+0:22:47.480,0:22:50.720
+aqui
+
+0:22:49.039,0:22:53.440
+seguidos,
+
+0:22:50.720,0:22:56.720
+neste caso, o Cn - 1 vai dar o CN da
+
+0:22:53.440,0:22:59.080
+camada de baixo com o aqui com o índice
+
+0:22:56.720,0:23:02.919
+e aqui o índice aqui mais elevado.
+
+0:22:59.080,0:23:04.960
+Pronto. Portanto, estes dois, o Cn0 +
+
+0:23:02.919,0:23:08.120
+CN1
+
+0:23:04.960,0:23:09.880
+vai dar o C + 1,
+
+0:23:08.120,0:23:12.360
+que é da camada de baixo, estes dois
+
+0:23:09.880,0:23:16.320
+somados, pond evidência ANB, portanto,
+
+0:23:12.360,0:23:23.120
+ele vai dar o CN + 1
+
+0:23:16.320,0:23:26.600
+por aquela regra, 1, o Cn + 1 1, 1
+
+0:23:23.120,0:23:28.960
+com o an
+
+0:23:26.600,0:23:33.200
+B,
+
+0:23:28.960,0:23:36.559
+o N B. OK. Pronto. E vamos somar assim
+
+0:23:33.200,0:23:39.520
+nas vamos somar nas diagonais.
+
+0:23:36.559,0:23:41.760
+Vamos somar nas diagonais.
+
+0:23:39.520,0:23:45.120
+E o que é que vai sobrar? Sobra-me aqui
+
+0:23:41.760,0:23:47.320
+este valor aqui que ficou sozinho.
+
+0:23:45.120,0:23:50.559
+Este valor ficou sozinho, mas nós
+
+0:23:47.320,0:23:52.840
+sabemos quanto vale o CN0. vale 1,
+
+0:23:50.559,0:23:54.960
+porque todos os os valores aqui do
+
+0:23:52.840,0:24:01.159
+triângulo da Pascal
+
+0:23:54.960,0:24:04.760
+são estes os os CN zeros valem sempre 1.
+
+0:24:01.159,0:24:07.919
+Portanto, este Cn0 é igual a CN + 1 0,
+
+0:24:04.760,0:24:10.520
+que também vale 1. Portanto, eu aqui, em
+
+0:24:07.919,0:24:15.720
+vez de escrever Cn0, eu posso vou pôr
+
+0:24:10.520,0:24:15.720
+este valor e posso e posso escrever
+
+0:24:15.919,0:24:23.240
+c N + 1 0, que vale 1, portanto não
+
+0:24:20.760,0:24:25.640
+altero nada.
+
+0:24:23.240,0:24:29.960
+OK? Este valor vem aqui para baixo
+
+0:24:25.640,0:24:34.240
+chamado CN + 1 0
+
+0:24:29.960,0:24:37.440
+an + 1. Ok? Este tem para aqui. Agora
+
+0:24:34.240,0:24:40.240
+estas nas diagonais eu vou somar.
+
+0:24:37.440,0:24:42.000
+Somei estes dois. Agora vou somar estes
+
+0:24:40.240,0:24:46.080
+dois
+
+0:24:42.000,0:24:49.600
+e vai dar, portanto, c
+
+0:24:46.080,0:24:49.600
+N + 1
+
+0:24:50.399,0:24:56.240
+2 que é o é o é o índice mais alto.
+
+0:24:53.559,0:25:00.320
+Portanto, aqui era o CN1 + CN0, dá CN +
+
+0:24:56.240,0:25:04.200
+1 e aqui vai dar CN + 1 2, que é o que
+
+0:25:00.320,0:25:08.520
+aparece aqui a seguir. OK? Sim. Sim,
+
+0:25:04.200,0:25:08.520
+senhora. E, portanto,
+
+0:25:08.720,0:25:14.080
+an - 1
+
+0:25:11.120,0:25:18.120
+b2
+
+0:25:14.080,0:25:21.840
+mais pronto e no final
+
+0:25:18.120,0:25:24.240
+vai sobrar, isto é sobado nas diagonais,
+
+0:25:21.840,0:25:27.440
+no final vai sobrar este último termo
+
+0:25:24.240,0:25:30.752
+aqui também sobra.
+
+0:25:27.440,0:25:30.919
+Este termo também sobra.
+
+0:25:30.752,0:25:35.600
+[roncando]
+
+0:25:30.919,0:25:37.559
+Ora bem, mas este termo, o CNN,
+
+0:25:35.600,0:25:41.120
+é é um último aqui do triângulo de
+
+0:25:37.559,0:25:45.000
+Pascal. Estes são estes são os CNN e
+
+0:25:41.120,0:25:45.000
+valem sempre um.
+
+0:25:45.480,0:25:51.679
+OK?
+
+0:25:47.039,0:25:54.440
+Então posso transformá-lo também e dizer
+
+0:25:51.679,0:25:58.159
+que é igual a
+
+0:25:54.440,0:25:59.840
+CN + 1 N + 1.
+
+0:25:58.159,0:26:03.760
+Ok?
+
+0:25:59.840,0:26:06.840
+que vale 1, portanto não altera nada e
+
+0:26:03.760,0:26:09.600
+bn + 1.
+
+0:26:06.840,0:26:11.360
+OK? Pronto. Eh, eu acho que estão a
+
+0:26:09.600,0:26:13.360
+perceber a ideia. Se se quiserem
+
+0:26:11.360,0:26:15.799
+convencer que isto tá certo, ponham,
+
+0:26:13.360,0:26:18.159
+expandam isto aqui com mais termos, OK?
+
+0:26:15.799,0:26:19.720
+Para ficar mais certinho.
+
+0:26:18.159,0:26:24.080
+Eh, reparem que este último termo aqui,
+
+0:26:19.720,0:26:25.399
+portanto, vai dar o o CN + 1 N.
+
+0:26:24.080,0:26:28.919
+Cá está, que é o termo anterior, tá
+
+0:26:25.399,0:26:31.399
+correto? CN + 1 N de ABN. Portanto, tá
+
+0:26:28.919,0:26:33.120
+correto. Sim, senhor. Portanto,
+
+0:26:31.399,0:26:35.120
+convençam-se que isto tá correto. A soma
+
+0:26:33.120,0:26:37.559
+tá correta.
+
+0:26:35.120,0:26:39.399
+Reparem que nesta soma tivemos um termo
+
+0:26:37.559,0:26:42.279
+a mais,
+
+0:26:39.399,0:26:45.640
+o que tá correto. Ou seja, a expansão
+
+0:26:42.279,0:26:49.080
+aqui, por exemplo, na camada, vamos
+
+0:26:45.640,0:26:51.480
+imaginar esta aqui, 0 1 2 3. A camada C3
+
+0:26:49.080,0:26:55.120
+tem quatro termos,
+
+0:26:51.480,0:26:58.320
+a camada seguinte tem cinco termos.
+
+0:26:55.120,0:27:02.640
+Portanto, aqui temos
+
+0:26:58.320,0:27:04.640
+um um conjunto de termos, somamos
+
+0:27:02.640,0:27:06.080
+e a fazer a soma está-me a dar a
+
+0:27:04.640,0:27:09.279
+expansão da camada seguinte que tem um
+
+0:27:06.080,0:27:12.240
+termo a mais. OK? Reparem que somamos
+
+0:27:09.279,0:27:14.200
+todos estes pares, sobraram estes dois
+
+0:27:12.240,0:27:16.880
+para as pontas e, portanto, no total tem
+
+0:27:14.200,0:27:18.520
+um termo a mais.
+
+0:27:16.880,0:27:20.159
+Ora,
+
+0:27:18.520,0:27:22.120
+e agora então, olhando para esta
+
+0:27:20.159,0:27:23.760
+expressão,
+
+0:27:22.120,0:27:26.200
+vamos comparar com aquilo que nós
+
+0:27:23.760,0:27:29.559
+queríamos demonstrar,
+
+0:27:26.200,0:27:31.840
+que era efetivamente toda esta expansão
+
+0:27:29.559,0:27:35.360
+tinha que dar igual à aquilo que nós
+
+0:27:31.840,0:27:39.159
+queremos provar, a expansão
+
+0:27:35.360,0:27:41.159
+do binómio de Newton para o o índice n+
+
+0:27:39.159,0:27:43.679
+1.
+
+0:27:41.159,0:27:46.640
+E agora comparamos aqui.
+
+0:27:43.679,0:27:49.760
+Comparamos
+
+0:27:46.640,0:27:52.760
+e está correto. Tá igual.
+
+0:27:49.760,0:27:52.760
+OK.
+
+0:27:58.120,0:28:02.720
+Portanto,
+
+0:27:59.919,0:28:10.440
+isto
+
+0:28:02.720,0:28:10.440
+está igual. Cá está o CN + 1 0 an + 1.
+
+0:28:12.799,0:28:17.240
+Esta caneta às vezes aqui no tablet
+
+0:28:14.240,0:28:17.240
+falha.
+
+0:28:17.760,0:28:24.320
+Eh, e pronto. E é assim, eh, não é
+
+0:28:22.360,0:28:26.440
+fácil, não acho que não é assim muito
+
+0:28:24.320,0:28:29.679
+intuitivo ou fácil esta demonstração.
+
+0:28:26.440,0:28:31.919
+Eh, eu aprendi há aqui algures,
+
+0:28:29.679,0:28:33.679
+não a deduzzi por mim.
+
+0:28:31.919,0:28:36.679
+Se bem me lembro, também descobria em
+
+0:28:33.679,0:28:38.000
+algum sítio. Eh, tem alguns truques,
+
+0:28:36.679,0:28:40.159
+obviamente, para a pessoa saber como é
+
+0:28:38.000,0:28:41.720
+que há de pegar nisto, porque se
+
+0:28:40.159,0:28:44.760
+tivéssemos aqui a olhar para a expressão
+
+0:28:41.720,0:28:48.039
+e e se não nos ocorresse esta soma aqui
+
+0:28:44.760,0:28:49.600
+na diagonal para usar esta fórmula, OK?
+
+0:28:48.039,0:28:51.600
+E ficaríamos um bocadinho perdidos, não
+
+0:28:49.600,0:28:52.960
+é? seria não não seria trivial fazer
+
+0:28:51.600,0:28:54.200
+esta demonstração. Portanto, não há
+
+0:28:52.960,0:28:56.640
+dúvida nenhuma que aqui há alguns
+
+0:28:54.200,0:28:58.840
+truques, já vimos outros truques no
+
+0:28:56.640,0:29:01.440
+passado de outras demonstrações, como a
+
+0:28:58.840,0:29:02.679
+forma telescópica e outras que às vezes
+
+0:29:01.440,0:29:03.840
+são boas para fazer determinados
+
+0:29:02.679,0:29:05.159
+truques, mas tem que haver uma certa
+
+0:29:03.840,0:29:07.600
+intuição matemática, não há dúvida
+
+0:29:05.159,0:29:08.919
+nenhuma. Pronto. Ah, isto não é preciso.
+
+0:29:07.600,0:29:11.360
+Obviamente vocês não têm que saber nada
+
+0:29:08.919,0:29:13.480
+disto de core. Eu estou-vos só a mostrar
+
+0:29:11.360,0:29:15.200
+para vocês saberem que OK, que que é
+
+0:29:13.480,0:29:17.480
+possível demonstrar e comprovar que a
+
+0:29:15.200,0:29:20.919
+forma é sempre correta.
+
+0:29:17.480,0:29:23.320
+Ah, sim, senhora. Eh, o importante é
+
+0:29:20.919,0:29:27.559
+terem a noção do que é que é realmente a
+
+0:29:23.320,0:29:30.200
+expansão de um binómio de Newton.
+
+0:29:27.559,0:29:32.760
+Saberem que é bem fácil expandir,
+
+0:29:30.200,0:29:35.080
+saberem que basta construírem
+
+0:29:32.760,0:29:37.600
+rapidamente o de forma manual, constróem
+
+0:29:35.080,0:29:39.200
+um triângulo de Pascal e, portanto, vem
+
+0:29:37.600,0:29:40.679
+quais são os índices, depois como é,
+
+0:29:39.200,0:29:42.519
+quais são as constantes, colocam as
+
+0:29:40.679,0:29:44.120
+constantes e depois colocam aqui as
+
+0:29:42.519,0:29:46.120
+potências. É muito simples. Vai a
+
+0:29:44.120,0:29:48.039
+primeira, o primeiro termo, a potência
+
+0:29:46.120,0:29:51.600
+começa aqui em cinco e vai diminuindo. 5
+
+0:29:48.039,0:29:54.919
+4 3 2 1 0 e a outra vai subindo com 0 1
+
+0:29:51.600,0:29:56.760
+2 3 4 5. Portanto, é trivial. Isto é
+
+0:29:54.919,0:29:59.679
+muito rápido.
+
+0:29:56.760,0:30:01.159
+Nós e eu em tutorial anteriores já tinha
+
+0:29:59.679,0:30:02.880
+feito, já houve exercícios em que
+
+0:30:01.159,0:30:04.200
+precisei de de expandir cubos e na
+
+0:30:02.880,0:30:05.320
+altura disse: "Ó pá, eu estou a expandir
+
+0:30:04.200,0:30:06.440
+este cubo, mas eu ainda não não
+
+0:30:05.320,0:30:08.240
+demonstrei porque é que eu sei fazer
+
+0:30:06.440,0:30:10.799
+isto". Mas pronto, porque eu já tinha eu
+
+0:30:08.240,0:30:13.080
+já tinha de cor, eu já tinha de cor o
+
+0:30:10.799,0:30:16.519
+triângulo de Pascal.
+
+0:30:13.080,0:30:19.519
+Eh, e portanto eu depois rapidamente
+
+0:30:16.519,0:30:19.519
+escrevi
+
+0:30:21.240,0:30:28.120
+e aqui é B quadrado, rapidamente
+
+0:30:23.480,0:30:28.120
+escrevia e escrevo qualquer expansão.
+
+0:30:28.440,0:30:32.320
+OK? Pronto, então, estamos praticamente
+
+0:30:30.159,0:30:35.919
+a terminar, já demonstramos [roncando]
+
+0:30:32.320,0:30:39.159
+eh o triângulo de Pascal.
+
+0:30:35.919,0:30:41.120
+Eh, existe depois o o o existe uma
+
+0:30:39.159,0:30:45.039
+generalização para o binómio do Newton,
+
+0:30:41.120,0:30:50.159
+que é o o a fórmula do multinómio.
+
+0:30:45.039,0:30:53.679
+Ou seja, em vez de ser a + b elevado n,
+
+0:30:50.159,0:30:55.559
+e será um a + b + c, portanto, os termos
+
+0:30:53.679,0:30:58.000
+que se quiser,
+
+0:30:55.559,0:30:59.880
+OK? Mais qualquer coisa elevado a n.
+
+0:30:58.000,0:31:01.799
+Existe uma forma para isto. Não vou pôr
+
+0:30:59.880,0:31:03.559
+lá agora aqui que não vale a pena. É só
+
+0:31:01.799,0:31:06.120
+para vocês saberem que existe, que
+
+0:31:03.559,0:31:07.960
+também existe, que é a forma do
+
+0:31:06.120,0:31:09.440
+multinómio.
+
+0:31:07.960,0:31:12.440
+Em vez de ser binómio de Newton, aí é
+
+0:31:09.440,0:31:12.440
+multinómio.
+
+0:31:14.600,0:31:20.200
+Não vou aqui demonstrar nada disto,
+
+0:31:16.000,0:31:22.519
+talvez num num futuro tutorial.
+
+0:31:20.200,0:31:24.799
+Eh, existe muita coisa, muitas
+
+0:31:22.519,0:31:27.320
+propriedades relacionadas com com o
+
+0:31:24.799,0:31:30.351
+triângulo de Pascal, muitas, imensas,
+
+0:31:27.320,0:31:31.559
+imensas grande muitas propriedades.
+
+0:31:30.351,0:31:33.960
+[roncando] Vou só focar uma que acho
+
+0:31:31.559,0:31:36.039
+muito interessante, mas há muitas
+
+0:31:33.960,0:31:38.000
+pesquisarem no do YouTube e no chat G
+
+0:31:36.039,0:31:39.720
+CPT vão encontrar muita coisa ou na
+
+0:31:38.000,0:31:42.320
+Wikipedia,
+
+0:31:39.720,0:31:44.679
+tremendas propriedades do triângulo de
+
+0:31:42.320,0:31:47.200
+Pascal. Uma, se vou só falar numa que é
+
+0:31:44.679,0:31:51.240
+muito interessante, é que o binómio de
+
+0:31:47.200,0:31:53.320
+de o triângulo de de Pascal aproxima-se
+
+0:31:51.240,0:31:55.200
+da distribuição normal. Pronto, a
+
+0:31:53.320,0:31:56.960
+distribuição normal da estatística, que
+
+0:31:55.200,0:31:58.840
+vocês que já tenham estudado estatística
+
+0:31:56.960,0:32:00.440
+conhecem ou que não tenham estudado, já
+
+0:31:58.840,0:32:03.519
+ouviram falar da distribuição normal,
+
+0:32:00.440,0:32:05.760
+que é aquela distribuição que é em forma
+
+0:32:03.519,0:32:08.679
+de sino invertido e que aparecem muitas
+
+0:32:05.760,0:32:12.399
+muitas distribuições estatísticas do do
+
+0:32:08.679,0:32:15.240
+do mundo de de situações reais.
+
+0:32:12.399,0:32:16.679
+Eh, efetivamente a destruição normal.
+
+0:32:15.240,0:32:18.120
+Não vou pôr aqui agora a forma que eu
+
+0:32:16.679,0:32:20.279
+também não sei a forma de cor, que é com
+
+0:32:18.120,0:32:22.679
+uma exponencial, uma determinada
+
+0:32:20.279,0:32:23.559
+exponencial.
+
+0:32:22.679,0:32:25.960
+Eh, [roncando]
+
+0:32:23.559,0:32:29.679
+e mas pronto, mas o curioso é que estes
+
+0:32:25.960,0:32:32.080
+valores do triângulo de Pascal,
+
+0:32:29.679,0:32:36.159
+quanto mais camadas construímos, aqui,
+
+0:32:32.080,0:32:36.159
+por exemplo, o 1 5 10 10,
+
+0:32:36.240,0:32:44.120
+aqui o o 1 5
+
+0:32:39.720,0:32:46.080
+10 5 1. Quanto mais subirmos aqui na na
+
+0:32:44.120,0:32:50.080
+linha do triângulo pascal, mais se
+
+0:32:46.080,0:32:53.080
+aproxima aqui. 1
+
+0:32:50.080,0:32:53.080
+5
+
+0:32:53.200,0:32:56.200
+10
+
+0:33:00.399,0:33:06.039
+5 1. Portanto, esta a altura aqui dos
+
+0:33:03.919,0:33:09.120
+valores do triângulo de Pascal, quanto
+
+0:33:06.039,0:33:12.080
+mais avançado pusermos aqui é a linha,
+
+0:33:09.120,0:33:14.399
+mais ela se aproxima dos dos valores e
+
+0:33:12.080,0:33:15.600
+da proporção de uma distribuição normal.
+
+0:33:14.399,0:33:18.279
+Pronto, é uma realmente é uma
+
+0:33:15.600,0:33:23.120
+curiosidade muito interessante.
+
+0:33:18.279,0:33:25.240
+Ah, que assim não acho que claramente
+
+0:33:23.120,0:33:26.639
+não seria nada intuitivo, não é? mesmo
+
+0:33:25.240,0:33:28.279
+para quem já tenha estudado as
+
+0:33:26.639,0:33:30.440
+distribuições
+
+0:33:28.279,0:33:33.639
+estatísticas,
+
+0:33:30.440,0:33:35.760
+eh não parece que fosse nada intuitivo
+
+0:33:33.639,0:33:37.399
+entender e perceber uma relação entre o
+
+0:33:35.760,0:33:38.733
+triângulo de Pascal e uma distribuição
+
+0:33:37.399,0:33:39.039
+normal.
+
+0:33:38.733,0:33:42.039
+[roncando]
+
+0:33:39.039,0:33:42.039
+E pronto, penso que sim.
+
+

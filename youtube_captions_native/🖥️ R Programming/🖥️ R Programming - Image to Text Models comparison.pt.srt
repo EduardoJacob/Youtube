@@ -1,2695 +1,900 @@
 
 Ora, sejam bem-vindos a mais um tutorial
-
-
-na área da programação em R, eh, mais
-
-
+na área da programação em R, mais
 direcionado para a inteligência
-
-
 artificial. Faz tempo que não fazia um
-
-
 tutorial.
-
-
-Eh, tenho estado com outros projetos.
-
-
+Tenho estado com outros projetos.
 Ora,
-
-
 hoje vamos fazer aqui uma uma comparação
-
-
-de alguns modelos de text image, uma
-
-
+de alguns modelos de text to image, uma
 coisa simples. Penso que isto hoje vai
-
-
 ser um tutorial simples,
-
-
 rápido,
-
-
 para mostrar algumas coisas que vocês
-
-
 podem fazer.
-
-
 Este tem sido desde há bastante tempo o
-
-
-o site e o canal de YouTube que eu que
-
-
+site e o canal de YouTube que  
 eu tenho acompanhado, onde eu comecei a
-
-
-trabalhar com o Confiant
-
-
+trabalhar com o ComfyUI
 isto é de facto uma plataforma
-
-
-espetacular este Pixar Roma, o cuidado
-
-
-tremendo tremendo profissionalismo com
-
-
-que com que o autor desta plataforma
-
-
-coloca é é de facto impressionante.
-
-
+espetacular este Pixaroma, o cuidado
+tremendo, tremendo profissionalismo com
+que o autor desta plataforma
+coloca é de facto impressionante.
 E ele tem aqui, portanto, aqui o
-
-
 catálogo de
-
-
-de efetivamente os últimos tutorialis
-
-
+efetivamente os últimos tutorials
 que ele tem feito. Cada um deles tem os
-
-
-workflows ou que nos permite fazer o
-
-
+workflows o que nos permite fazer o
 download,
-
-
 OK?
-
-
 E depois podemos aqui fazer uma pesquisa
-
-
 por categorias, por exemplo, geração de
-
-
 imagem, geração de vídeo.
-
-
 Eh, geração de vídeo, acho que é uma
-
-
 área, pronto, que ainda está,
-
-
 pelo menos aqui a nível de open source,
-
-
-acho que ainda está no nos primórdios.
-
-
-Bom, tudo isto, no fundo tá nos
-
-
+acho que ainda está nos primórdios.
+Bom, tudo isto, no fundo está nos
 primórdios, não é? Quando olha, quando
-
-
 pensamos do que é que era estas soluções
-
-
-de inteligência artificial há dois, tr
-
-
-anos atrás, comparando comparando com o
-
-
+de inteligência artificial há dois, três
+anos atrás, comparando com o
 que temos agora, mas de facto as
-
-
 soluções de vídeo, normalmente os
-
-
 workflows o que nos dão são pequenos
-
-
 segundos, dão-nos clips pequenitos
-
-
 ah
-
-
 e de facto para fazer um vídeo maior dá
-
-
 uma trabalheira dos diabos. é preciso
-
-
 fazer uma orquestração bastante extensa
-
-
 ou com um conjunto de imagens fixas que
-
-
 depois, mas enfim, mas isso é um outro
-
-
 tema que eu também não domino, mas eh
-
-
 mas pronto.
-
-
 Eh, depois temos aqui na área do áudio,
-
-
 que eu também já fiz aqui alguns
-
-
-tutorials aqui no meu canal, né, neste
-
-
+tutorials aqui no meu canal, 
 nesta matéria.
-
-
 Ora,
-
-
 depois temos, por acaso, acho que há uma
-
-
 área que não sei se está aqui coberta,
-
-
 que é
-
-
-o o speak to text. OK. O speak to text
-
-
+o speak to text. OK. O speak to text
 não me lembro, mas acho que não está
-
-
-aqui coberto. O que o mais comum é o
-
-
-text,
-
-
+aqui coberto. O mais comum é o
+text to speak,
 OK?
-
-
-Mas eu acabei por precis, eu por acaso
-
-
-eu preciso com frequência de usar essa
-
-
-de trabalhar nessa área do do speak to
-
-
-do text e implementei um workflow
-
-
-e feito por mim, mas bem simples, que
-
-
-que é baseado no modelo do mas ok, isso
-
-
+Mas eu acabei por precisar, eu por acaso
+eu preciso com frequência  
+de trabalhar nessa área do speak to
+text e implementei um workflow
+feito por mim, mas bem simples, que
+é baseado no modelo do whisper. mas ok, isso
 também é outro tópico, não interessa.
-
-
 Agora
-
-
 esta é uma área também que eu não nunca
-
-
 fiz nada nesta área, portanto para
-
-
-motivação 3D.
-
-
+modelação 3D.
 OK. Normalmente, por exemplo, para
-
-
 criar, por exemplo, personagens para
-
-
 gaming e coisas do género. Isto é a área
-
-
 de LLMs, que também pode ser tratada
-
-
-dentro do do confi
-
-
-queira programar nós e fazer os os seus
-
-
+dentro do do ComfyUI
+para quem queira programar nós e fazer os os seus
 próprios nós. Eu nunca fiz nenhum.
-
-
 Eh, nunca fiz nenhum. cá está porque eu
-
-
 acabo por não precisar porque na medida
-
-
 em que eu uso a programação em R, ou
-
-
 seja, portanto, a programação em R acaba
-
-
 por me complementar aquilo que eu iria
-
-
 fazer com nós. Como eu estou à vontade
-
-
 na programação, eu faço na programação
-
-
 em R aquilo que eventualmente se poderia
-
-
 fazer com alguns nós personalizados
-
-
 que normalmente são programados em
-
-
 Python. OK? Mas pronto, eh, e
-
-
 basicamente aqui, eh, recentemente saiu
-
-
-aqui um, um novo modelo que é o Quen
-
-
+aqui um, um novo modelo que é o Qwen
 Image 2.1.
-
-
 E depois eu disse assim: "Bom, olha, não
-
-
 é tarde nem é cedo, vou fazer aqui um
-
-
-novo tutorial e e vamos fazer aqui uma
-
-
-comparação entre entre vários modelos".
-
-
+novo tutorial e vamos fazer aqui uma
+comparação entre vários modelos".
 OK?
-
-
 Ora bem, então, sendo assim,
-
-
 eh, nós temos aqui
-
-
-e o confi pronto, na com a parte do
-
-
-confi terão que ver vocês eh vocês terão
-
-
-que ver eh como instalar. Não, isto
-
-
-trabalasa agora o âmbito aqui do meu
-
-
+e o ComfyUI pronto, com a parte do
+ComfyUI terão que ver vocês eh vocês terão
+que ver eh como instalar. Isso
+estravasa agora o âmbito aqui do meu
 tutorial. Não vou estar a explicar isso,
-
-
 mas aqui no nesta plataforma, se forem
-
-
-desde o vídeo número um, tem um um curso
-
-
+desde o vídeo número um, tem um curso
 exaustivo de como instalar e começar a
-
-
 usar o Confio. OK?
-
-
 Eh, sim, senhora.
-
-
 Portanto,
-
-
 eh, efetivamente aqui estes workflows
-
-
 que eu que eu baixo aqui da plataforma
-
-
-aqui no D fazer download, o que ele
-
-
+aqui fazer download, o que ele
 baixa os workflows e depois eu instalo
-
-
 aqui.
-
-
 Pronto. E agora recentemente eh
-
-
 recentemente instalei
-
-
-instalei agora este último work que fal
-
-
+instalei agora este último workflow  
 aqui, por exemplo, o 36
-
-
 text to image.
-
-
 o novo modelo que acho que é recente
-
-
-do modelo text. OK, pronto, cá está ele.
-
-
+do modelo text to image. OK, pronto, cá está ele.
 OK.
-
-
-Ah, antes disso, até vou fazer mostrar
-
-
+Ah, antes disso, até vou mostrar
 aqui um slide que eu tenho aqui.
-
-
-Ora, deixa mostrar aqui o slide. Acho
-
-
-que tá aqui nos screenshots.
-
-
+Ora, deixa mostrar aqui um slide. Acho
+que está aqui nos screenshots.
 Pronto, este aqui. Pronto, este é uma
-
-
-tabela que eu pedi ao chatt para ele me
-
-
+tabela que eu pedi ao ChatGPT para ele me
 dar uma tabela mais ou menos com os
-
-
-principais modelos textimas que nós
-
-
+principais modelos text to image que nós
 vemos desde os anos mais recentes em que
-
-
 começaram a aparecer estes modelos.
-
-
 OK. Não faço ideia como é que estarão
-
-
 agora estes modelos mais antigos. Nunca
-
-
 trabalhei com eles. Provavelmente até já
-
-
 estarão descontinuados.
-
-
-o dol, o mid journey.
-
-
+o DALL-E, o Midjourney.
 Pronto. Hoje o que nós vamos ver aqui?
-
-
 Vamos ver aqui
-
-
 modelos, vamos ver aqui quatro modelos.
-
-
-O Z turbo,
-
-
-flux 2 Kine, 9 bilhões de parâmetros
-
-
-e o novo que é image 2.1
-
-
-e o Crea Crea 2,
-
-
+O Z-image-turbo,
+flux 2 Kline, 9 biliões de parâmetros
+e o novo que é o Qwen image 2.1
+e o Krea, Krea 2,
 OK? também todos bastantes recentes. É
-
-
 um estes quatro modelos que vamos ver
-
-
 hoje aqui e vamos fazer uma comparação.
-
-
 Isto é, vou-vos mostrar como podem fazer
-
-
 uma comparação, porque eu não vou fazer,
-
-
 eu vou fazer uma comparação, mas eu não
-
-
-vou aqui fazer nenhum verdicto, que nem
-
-
+vou aqui fazer nenhum veredicto, que nem
 tenho capacidade para isso, nem sentido
-
-
 crítico, nem pronto, não. Mas vocês já
-
-
 vão perceber o o âmbito que isto vai ser
-
-
-um tutorial simples, é mostrarmos
-
-
+um tutorial simples, é mostrarvos
 mostrar-vos a vocês como podem fazer
-
-
 essa comparação, OK? Quando quiserem se
-
-
 como podem com a linguagem R, com
-
-
 facilidade comparar vários modelos e os
-
-
 e as gerações de de vários modelos. OK?
-
-
 Ora, portanto, então, voltando aqui,
-
-
 este, por exemplo, isto é o workfow mais
-
-
-bastante recente que trabalha com
-
-
-animais. Pronto, isto são uns workfalls
-
-
+bastante recente que trabalha com o
+Qwen image. Pronto, isto são uns Workflows
 espetaculares, não há dúvida nenhuma,
-
-
 que é que de facto
-
-
-e feitos pelo Pixar Roma, pela
-
-
+e feitos pelo Pixaroma, pela
 plataforma
-
-
 e que tem aqui links onde nos permite
-
-
 fazer imediatamente os downloads dos
-
-
-modelos que que estão em falta. OK,
-
-
+modelos que estão em falta. OK,
 pronto. E carregando aqui, não vou
-
-
 carregar agora aqui porque eu já
-
-
 carreguei, já fiz os downloads. Pronto.
-
-
 E aqui explica tudo, tudo explicadinho.
-
-
 Pronto, ele costuma colocar aqui os
-
-
 modelos, costuma colocar em subfolders
-
-
-dentro da pasta dos modelos do confi eu
-
-
+dentro da pasta dos modelos do ComfyUI eu
 não gosto de trabalhar com subfolders.
-
-
 Eh, e portanto
-
-
-para já tenho tenho tenho tenho aqui
-
-
-tudo tudo junto.
-
-
+para já tenho tenho aqui
+tudo junto.
 Ora, onde é que isto está?
-
-
-Tá aqui. Pronto. Aqui ponho o modelo.
-
-
+está aqui. Pronto. Aqui ponho o modelo.
 Pronto. Eh, e depois o que acontece é
-
-
 que eu trabalho, eu trabalho aqui um
-
-
-bocadinho do workfall porque como eu eu
-
-
+bocadinho do Workflow porque como eu eu
 depois eu como vou salvar isto para um
-
-
-um Jason para colocar na no na minha
-
-
+um JSON para colocar na minha
 plataforma R de programação R, há aqui
-
-
 muitos nós que são informativos e eu
-
-
 esses nós não me interessam. Portanto,
-
-
 eu depois o que acontece é que eu eu
-
-
 começo a apagar os nós. Portanto, vou
-
-
 dizer: "OK, eu já não preciso disto, já
-
-
 não preciso disto".
-
-
 Eh, há muitos nós aqui que eu não
-
-
 preciso. Por exemplo, este aqui, eh, que
-
-
-só me transmite aqui o o tamanho, a a
-
-
+só me transmite aqui o tamanho, a
 largura e a altura. Eu também não
-
-
 preciso disto. Eu não preciso disto e eu
-
-
 coloco aqui as as dimensões que eu
-
-
 quero.
-
-
 Eh, esta parte aqui é um controlador
-
-
-para o se, eu também não preciso. E eu
-
-
-ponho aqui o se aviatório. OK.
-
-
+para o seed, eu também não preciso. E eu
+ponho aqui o seed aleatório. OK.
 Eh, pronto. E assim sucessivamente.
-
-
 Portanto, eu faço alguma limpeza e ele
-
-
 tem aqui um contador de segundos. Também
-
-
 não preciso disto para nada. Se eu
-
-
 quiser contar segundos, eu posso
-
-
-contá-los a dentro da da programação em
-
-
+contá-los dentro da programação em
 R. OK. Pronto, não preciso disto para
-
-
 nada. Eh, esta parte aqui também, isto é
-
-
 informativo. Pronto. Portanto, eu faço
-
-
 aqui alguma limpeza, OK? Eh, e depois,
-
-
 eh, a coisa já está mais ou menos limpa.
-
-
 Eu, eu testo eu testo este workflow, OK?
-
-
 Vou, por exemplo, testar agora.
-
-
 OK, eu testo o workflow.
-
-
 Sim, senhora.
-
-
-Este é o CREA. Este é o Ah, o que é
-
-
-animais. OK. Porque o CREA, o CREA eh
-
-
+Este é o KREA. Este é o Ah, o  
+Qwen image. OK. Porque o Krea, o Krea 
 também é bastante recente e e é um
-
-
 bocado lento. Eu penso que ele agora até
-
-
-tá a demorar um bocadinho porque deve
-
-
+está a demorar um bocadinho porque deve
 ter mudado o modelo na memória.
-
-
-Mas ok, mas eh ok, já tá aqui a aparecer
-
-
+Mas ok, mas eh ok, já está aqui a aparecer
 a imagem.
-
-
 OK, pronto. E esta é a forma como eu
-
-
 faço. Eu testo o modelo. Isto são
-
-
 conceitos. Eu acho que já vos falei
-
-
 destes conceitos nos nos meus outros
-
-
 tutorials, mas como já há muito tempo
-
-
 que não fazia um tutorial, eh estou a
-
-
 relembrar assim os tópicos principais.
-
-
 Pronto. Então, a partir do momento que
-
-
 eu tenho aqui isto já feito, eu digo:
-
-
-"OK, pronto, o workfil tá testado e
-
-
+"OK, pronto, o workflow está testado e
 depois eu venho aqui, eu venho aqui e no
-
-
 file e vou fazer o e exportar em modo
-
-
 API e ele exporta este workflow. OK, eu
-
-
-carreg aqui. Pronto. E agora vou
-
-
-guardá-lo aqui nos meus workfs. Eu eu
-
-
+carrego aqui. Pronto. E agora vou
+guardá-lo aqui nos meus workflows. Eu eu
 coloco aqui. Pronto. Não vou fazer agora
-
-
 isso que já fiz. E e portanto e eu
-
-
 colocaria aqui. Neste caso, eu colocaria
-
-
-este é o modelo do do Quenage e 2.1.
-
-
+este é o modelo do do Qwen image 2.1.
 Portanto, eu colocava aqui. Ora, onde é
-
-
 que onde é que eu tenho isto?
-
-
-Ora, quen quen, o que já está, o quen
-
-
-2.1 text do imag. Pronto, vou fazer
-
-
+Ora, Qwen Qwen, cá está, o Qwen
+2.1 text do image. Pronto, vou fazer
 cancel agora. Pronto. Portanto, esta
-
-
 parte aqui. Pronto. E depois já não
-
-
 preciso disto. Posso fechar
-
-
-eh salvar com os anyway. Não preciso de
-
-
+eh salvar, close anyway. Não preciso de
 salvar. E pronto. Portanto, digamos que
-
-
 esta é então a primeira etapa. A
-
-
-primeira etapa é encontrar um workfow
-
-
+primeira etapa é encontrar um workflow
 que me interesse, que faça aquilo que eu
-
-
 quero. Eh, testar o workflow, dar uma
-
-
 certa limpeza e depois salvar o
-
-
 workflow. Pronto. E uma vez que uma vez
-
-
-que eu tenha então o workfow aqui
-
-
+que eu tenha então o workflow aqui
 salvado aqui,
-
-
 eu eu tenho guardado aqui na minha pasta
-
-
 do workflows, por exemplo, este workflow
-
-
-aqui que acabamos de ver, o text,
-
-
+aqui que acabamos de ver, o text to image,
 pronto, ele está aqui. E agora eu venho
-
-
 aqui, identifico quais quais os entry
-
-
-points eh onde o meu script dr vai ter
-
-
+points eh onde o meu script de R vai ter
 de controlar e vai ter que fazer um
-
-
 replace string. Pronto, que isto são
-
-
-isto são coisas, pronto, isto é um um
-
-
+isto são coisas, pronto, isto é um 
 resumo rápido, mas isto eu já expliquei
-
-
 isto nos meus outros tutoriais, é como
-
-
 digo, agora estou a fazer
-
-
 ah estou a fazer aqui
-
-
 Ora.
-
-
 Ah, ok. Estava a ver se isto tinha
-
-
-acabado de gravar, mas não, ainda tá a
-
-
+acabado de gravar, mas não, ainda está a
 gravar.
-
-
 Eh, portanto,
-
-
 e então o que é que nós temos aqui?
-
-
 Temos, por exemplo, as dimensões.
-
-
 Cá estão elas aqui.
-
-
-[limpando a garganta] OK. Temos aqui as
-
-
+OK. Temos aqui as
 dimensões.
-
-
 Estas não é preciso mexer porque eu vou
-
-
 gerar sempre com a parte das dimensões.
-
-
 Eu não, eu não pretendi parametrizar,
-
-
 portanto não me parametrizei. Agora
-
-
-tenho aqui o se
-
-
+tenho aqui o seed, porque eu quando
 gravei o workflow, ele vem com um seed
-
-
-fixo. OK? O seid é um parâmetro dinâmico
-
-
+fixo. OK? O seed é um parâmetro dinâmico
 que ele é gerado pelos nós quando
-
-
 estamos aqui. Estes nós têm dinamismo,
-
-
 estes nós têm programação por trás, mas
-
-
-ao ao gerar o workflow,
-
-
+ao gerar o workflow,
 OK, este dinamismo perde-se este ao
-
-
-gerar o workflow em Jason, a parte
-
-
-programática que está nos nós perdes e
-
-
+gerar o workflow em JSON, a parte
+programática que está nos nós perde-se e
 fico apenas com uma coisa estática, com
-
-
 com uma descrição estática. Pronto. E
-
-
 agora para para voltar a dar dinamismo
-
-
 ao workflow, neste caso agora vou
-
-
 controlá-la pela programação em R. E
-
-
-então tenho o se que eu vou gerar o se
-
-
+então tenho o seed que eu vou gerar o seed
 é que eu tenho aqui mais vou ter o file
-
-
 name prefix, que é o file name prefix da
-
-
 da imagem de output.
-
-
 Eh, e vou ter o que mais? E vou ter a
-
-
 prompt.
-
-
-Vou ter a promptora. Não estou a ver
-
-
-onde é que tá. Ah, cá está ela. Pronto,
-
-
+Vou ter a prompt. Agora Não estou a ver
+onde é que está Ah, cá está ela. Pronto,
 aqui a prompt. Pronto, isto é tudo
-
-
-explicado nos meus outros tutorial.
-
-
-quiserem detalhar isto mais, não deixem
-
-
-de ir ver os meus outros tutorialis
-
-
+explicado nos meus outros tutorials.
+se quiserem detalhar isto mais, não deixem
+de ir ver os meus outros tutorials
 desta minha playlista. Pronto, isto é só
-
-
 para fazer aqui um para um pequeno
-
-
 recordatório. OK? Pronto.
-
-
 Eh, então aqui tenho
-
-
-os os workflows e agora eh tenho os os
-
-
+os os workflows e agora eh tenho os  
 meus scripts,
-
-
 OK? Tenho aqui os scripts aqui, tenho
-
-
 aqui por categorias. Portanto, e agora
-
-
 vamos usar este que é o mass generator.
-
-
 OK?
-
-
-[roncando]
-
-
+--
 Temos aqui o mass generator. Pronto. E
-
-
 depois quando agora eu vou invocá-lo,
-
-
 ele vai gerar as imagens.
-
-
 E depois essas imagens
-
-
 o que acontece é que eu
-
-
 guardo. Portanto, aqui vamos vamos vou
-
-
 usar quatro workflows.
-
-
 São estes aqui.
-
-
 Aliás, eu já usei agora praticamente
-
-
-vou-vos só mostrar, mas mas eu já
-
-
-pronto, já os usei. Eu eu eu usei estes
-
-
-estes quatro dos meus workfows com estes
-
-
-quatro modelos, o Crea 2,
-
-
-Turbo, FX 2, o Quen 21. Pronto. E depois
-
-
+vou-vos só mostrar, mas  eu já
+pronto, já os usei. Eu usei estes
+estes quatro dos meus workflows com estes
+quatro modelos, o Krea 2,
+Z-Image-Turbo, Flux 2, o Qwen 2.1. Pronto. E depois
 então o que eu faço é que eu tenho um
-
-
-ficheiro de promets que já vou mostrar.
-
-
+ficheiro de prompts que já vou mostrar.
 Acho que podemos começar a executar isto
-
-
 aqui do início. Portanto, primeiro
-
-
-carrega as minhas funções. Não vou
-
-
+carrego as minhas funções. Não vou
 mostrar agora as funções que eu já
-
-
 mostrei noutros tutorials, OK?
-
-
 Eh, esta parte aqui também já mostrei,
-
-
 eh, que é esta tabela
-
-
-com com os modelos.
-
-
-Eh, e depois tenho as promptes,
-
-
+com os modelos.
+Eh, e depois tenho as prompts,
 OK? Tenho aqui esta, tenho aqui as
-
-
-prometes.
-
-
-[roncando]
-
-
-Eh, e agora leio as prometes e tenho eh
-
-
-186 prometes. Pronto. E estas 186
-
-
-promets são coisas que eu já desde há
-
-
+prompts.
+--
+Eh, e agora leio as prompts e tenho eh
+186 prompts. Pronto. E estas 186
+prompts são coisas que eu já desde há
 bastante tempo, há algum tempo que
-
-
-guardei num ficheiro e foi coisas que e
-
-
+guardei num ficheiro e foi coisas que  
 basicamente foram obtidas através de
-
-
 imagens que eu encontrei na net e que
-
-
 encontrei em várias plataformas ou no
-
-
-login face ou portanto foi coisas que eu
-
-
+Hugging-face ou portanto foi coisas que eu
 fui colecionando ou e algumas imagens
-
-
 que eu que eu já tinha. mesmo antes de
-
-
 haver inteligência artificial, que eu
-
-
 que eu colecionava muitas imagens de
-
-
 ficção científica. Pronto, são as mais
-
-
 variadas fontes e que depois num dado
-
-
-momento eu subti todas submeti todas
-
-
+momento eu submeti todas 
 essas imagens eh a um modelo de a um
-
-
 LLM,
-
-
 a um LLM capaz de de processar imagens e
-
-
-pedi-lhe para ele me dar as prometes que
-
-
-descreviam essas imagens. OK? Salve, até
-
-
+pedi-lhe para ele me dar as prompts que
+descreviam essas imagens. OK? Salvo erro até
 fiz isso aqui na na minha máquina local,
-
-
-o usando o LM Studio com isso também tá
-
-
+o usando o LM Studio com isso também está
 descrito nos meus tutorials. OK? Pronto,
-
-
-então tenho esta coleção de promptes.
-
-
+então tenho esta coleção de prompts.
 Eh, e portanto e agora varri todas essas
-
-
-prompets, 186 promets e com estes quatro
-
-
+prompts, 186 prompts e com estes quatro
 modelos e obtive 186 x 4 imagens. OK?
-
-
 E depois essas imagens geradas, o que eu
-
-
-faço é eu guardo uma imagem de de de
-
-
+faço é eu guardo uma imagem de  
 cada workflow,
-
-
 OK? Eu vou guardá-las aqui. Para além
-
-
 dos workflows, eu tenho esta outra esta
-
-
 outra pasta
-
-
 que são os workflows embeded,
-
-
 onde guardo um output de cada workflow.
-
-
 E então o que é que isto vai fazer?
-
-
 Também já vos mostrei isto noutros
-
-
 tutorials. Isto é espetacular. Isto é de
-
-
 facto uma funcionalidade espetacular.
-
-
 Onde
-
-
 ora
-
-
 onde eu tenho aqui abri aqui a folder e
-
-
-portanto e estes workfs, por exemplo,
-
-
-este aqui do quen 21, OK? este 21 que
-
-
+portanto e estes workflows, por exemplo,
+este aqui do Qwen 21, OK? este 21 que
 está aqui, o que eu vou fazer é drag and
-
-
-drop, drag and drop aqui para o confi e
-
-
+drop, drag and drop aqui para o ComfyUI e
 ao fazer o drag and drop
-
-
 ele cá está, ele faz o open do workflow
-
-
 que está que está dentro da imagem. OK?
-
-
 Pronto, isto isto é verdadeiramente
-
-
 espetacular.
-
-
 Portanto, que por isto que isto mostra
-
-
 que eh basta-me uma imagem, basta-me uma
-
-
 imagem para guardar o workflow lá
-
-
 dentro. Só que se eu quiser usar agora o
-
-
 workflow programaticamente, eu tenho que
-
-
 vir aqui extraí-lo. Ou teria que usar
-
-
 alguma funcionalidade, alguma
-
-
 programação que também existe que para
-
-
-extrair o workflow que está na meta data
-
-
+extrair o workflow que está na metadata
 dentro da imagem. OK?
-
-
 Eh, pronto, isso existem alguns packages
-
-
 de R que fazem isso.
-
-
 Eh, como por exemplo o package PNG, que
-
-
 é capaz de atacar uma imagem PNG e
-
-
 extrair a metadata que está. Pronto, mas
-
-
 eu nunca nunca fiz isso esse intuito
-
-
 porque é muito mais simples chegar aqui
-
-
-no próprio confi e fazer o file exportar
-
-
+no próprio ComfyUI e fazer o file exportar
 a API. E, portanto, é muito mais
-
-
 simples, mais robusto e mais seguro para
-
-
 para exportar no com a formatação eh
-
-
 exata e correta para para depois poder
-
-
 usar programaticamente e submeter para o
-
-
-confio. OK? Não sei se eu me explico.
-
-
+ComfyUI. OK? Não sei se me explico.
 Pronto, mas portanto esta é de facto uma
-
-
 funcionalidade espetacular. É a
-
-
 capacidade de ele guardar a metadata, o
-
-
 workflow dentro da metadata da imagem
-
-
 gerada.
-
-
 OK? Pronto. E então imaginem que se
-
-
-vocês baixarem os os estes meus
-
-
+vocês baixarem os estes meus
 workflows,
-
-
 os quais podem encontrá-los no meu canal
-
-
-de Gitub, que isso também já estou
-
-
+de GitHub, que isso também já estou
 cansado de mostrar, de vos mostrar nos
-
-
 meus outros tutorials.
-
-
-E vocês aqui no meu canal de Gitub
-
-
-podem e por exemplo aqui vão ao confi
-
-
+E vocês aqui no meu canal de GitHub
+podem e por exemplo aqui vão ao ComfyUI
 e portanto e aí podem baixar o projeto
-
-
 todo e portanto aqui podem ir aos
-
-
 workflows
-
-
 porque o que o que vai acontecer é que
-
-
-se começarem a usar um workfow vai irá
-
-
+se começarem a usar um workflow vai irá
 dar erro porque vai dizer que vocês não
-
-
 têm os modelos, vocês têm que baixar os
-
-
 modelos. Pronto. E por isso é que é
-
-
 sempre bom primeiro testar o modelo
-
-
-dentro do confio claro que vist vocês
-
-
-terão que ter o confio a instalado, como
-
-
+dentro do ComfyUI claro que isto vocês
+terão que ter o ComfyUI instalado, como
 é óbvio, não é? Vocês têm que ter o
-
-
-confio a instalado, portanto, e depois
-
-
-aí com o confio a instalado, poderão
-
-
-chegar aqui, poderão buscar os workfs
-
-
-embeda daqui dentro e fazer o que eu
-
-
+ComfyUI instalado, portanto, e depois
+aí com o ComfyUI instalado, poderão
+chegar aqui, poderão buscar os workflows
+embeded daqui dentro e fazer o que eu
 acabei de fazer, arrastar uma destas
-
-
-imagens para dentro do confi e ele ele
-
-
+imagens para dentro do ComfyUI e ele ele
 restaura o workflow e depois aí eh
-
-
-dar-vos à erra, dizer que falta os
-
-
+dar-vos-á erro, a dizer que falta os
 modelos. Vocês terão que fazer o
-
-
 download dos modelos, colocar nas pastas
-
-
-corretas do confi da pasta dos models.
-
-
+corretas do ComfyUI da pasta dos models.
 Eh, e pronto, e a partir daí testam o
-
-
-workfow e quando tiver tudo a funcionar
-
-
+workflow e quando tiver tudo a funcionar
 e então aí já poderão partir então para
-
-
 a programação em R. OK? Pronto. Sim,
-
-
 senhor. Penso mais ou menos isto é um
-
-
 recordatório. OK.
-
-
 Eh, portanto, aqui
-
-
 eh, vou só fazer gerar aqui duas
-
-
 imagenzinhas ou três, só para vocês
-
-
 verem isto a trabalhar.
-
-
 Eh, pronto, vou vou só só aqui duas
-
-
 imagens para isto ser rápido.
-
-
 OK. Start 1
-
-
-e and 2.
-
-
+and 2.
 Ok, vou gerar aqui duas imagens. Eh,
-
-
 aqui temos a hipótese. Eu posso ir
-
-
 fazendo, visualizando a imagem uma a uma
-
-
 à medida que vou eh fazendo a geração.
-
-
-Se eu quiser, basta desastriscar aqui
-
-
+Se eu quiser, basta desasteriscar aqui
 esta parte para fazer o display. Agora,
-
-
 quando eu tive a gerar massivamente, eu
-
-
 eu comentei esta linha para isto ser
-
-
 mais rápido. Pronto, agora vou gerar
-
-
 estas duas imagens apenas para vocês
-
-
 verem. OK.
-
-
 Eh, oi, que não carreguei nada disto.
-
-
-Tenho que carregar o workfall. Ora, já
-
-
-tenho aqui as promptes. Ora, OK.
-
-
-Workfow.
-
-
+Tenho que carregar o workflow. Ora, já
+tenho aqui as prompts. Ora, OK.
+Workflow.
 Sim, senhora. Então, vamos embora.
-
-
-Pronto, cá está. Pronto, ele tá a suber.
-
-
-Tá a suber. Se vocês forem ao confi aqui
-
-
-na consola que ele tá a executar.
-
-
+Pronto, cá está. Pronto, ele está a submeter.
+está a submeter. Se vocês forem ao ComfyUI aqui
+na consola que ele está a executar.
 Pronto, podem acompanhar o andamento
-
-
 disto aqui na consola,
-
-
 OK?
-
-
 Eh, ou então esperam, esperam aqui. Este
-
-
 modelo é relativamente lento,
-
-
-OK? Há aqui outros mais rápidos, os text
-
-
-e o o FX 2 são mais rápidos entre 5 a 10
-
-
+OK? Há aqui outros mais rápidos, o z-image
+e o Flux 2 são mais rápidos entre 5 a 10
 segundos.
-
-
 Neste momento eu estou a ouvir o barulho
-
-
-aqui da da minha gráfica que tá a
-
-
+aqui da da minha gráfica que está a
 trabalhar. Isto também pode ser visto
-
-
 aqui. Vemos que aqui a gráfica neste
-
-
-momento tá a 74%
-
-
+momento está a 74%
 de processamento. A temperatura a
-
-
 gráfica agora foi aos 93%.
-
-
 OK.
-
-
 Sim, senhor. E acho que já está, já deve
-
-
 estar a acabar.
-
-
-Deixa ver se eu já já fiz aqui o display
-
-
+Deixa ver se ele já fez aqui o display
 da primeira imagem.
-
-
-[roncando]
-
-
-OK, tá aqui a primeira.
-
-
-Tá aqui a primeira. Ele não faz o switch
-
-
+--
+OK, está aqui a primeira.
+está aqui a primeira. Ele não faz o switch
 automaticamente para este panel aqui.
-
-
 OK, eu tenho que me colocar lá. Pronto,
-
-
-agora tá a gerar a segunda imagem.
-
-
-A colossa Battle
-
-
-Warn Bedal.
-
-
+agora está a gerar a segunda imagem.
+A colossal Battle
+Bepedal.
 Ok.
-
-
-[roncando]
-
-
+--
 Cerca de 44 segundos por imagem.
-
-
 OK. Deve estar a acabar.
-
-
-OK. Tá a fazer o display. Vocês estão a
-
-
+OK. está a fazer o display. Vocês estão a
 ver? o próprio display é um bocado
-
-
-doente, por isso é que quando eu estou a
-
-
-a trabalhar massivamente, eu eu comento
-
-
+lento, por isso é que quando eu estou a
+a trabalhar massivamente, eu comento
 aquela linha. Pronto. OK. E então,
-
-
-basicamente eu gereg
-
-
-que que eu tenho aqui numa numa folder e
-
-
+basicamente eu gerei as imagens
+que eu tenho aqui numa numa folder e
 posso-vos mostrar. Eu gerei aqui.
-
-
 Ora, ele gera ele gera na folder de
-
-
-output do confio A. E depois eh quando
-
-
+output do ComfyUI A. E depois eh quando
 ele está
-
-
-depois eu eu movimento e guardo aqui no
-
-
+depois eu eu movimento e guardo aqui na
 minha folder final.
-
-
 OK? E portanto eu tenho aqui ora uma
-
-
 folder de wallpapers.
-
-
 Pronto. E aqui já tenho 744
-
-
 imagens. E estão a ver que está tudo
-
-
 prefixado, devidamente prefixado e
-
-
-numerado com com o modelo que gerou.
-
-
+numerado com o modelo que gerou.
 OK?
-
-
 Eh, eu também tenho um script. Eh, não
-
-
 vou mostrar agora isto, senão isto eh
-
-
 porque eu quero fazer hoje, quero fazer
-
-
-um um
-
-
+um 
 tutorial mais rápido, mas tenho para aí
-
-
 alguns também um script que ele é capaz
-
-
-de me eh varrer uma folder
-
-
+de me varrer uma folder
 e ler a metadata de cada imagem e
-
-
 pesquisar dentro da metadata o nome do
-
-
 modelo de IA que gerou essa que gerou
-
-
 essa imagem. Pronto. Neste caso aqui não
-
-
 é preciso porque os nomes estão corretos
-
-
 e o nome diz-me o que foi. Diz que foi
-
-
-ox 2. OK. Mas se não fosse o caso, se eu
-
-
+Flux 2. OK. Mas se não fosse o caso, se eu
 tiver uma imagem, desde que tenha a
-
-
 metadata lá dentro, eh, eu tenho um
-
-
 tenho um script que consegue fazer isso.
-
-
 OK? E como vos disse, foi que é com o
-
-
 package, o PNG, o package PNG. carrega o
-
-
-meta metadata e depois faço um um
-
-
+metadata e depois faço um 
 regular expression e faço um find,
-
-
 pesquiso determinadas palavras de chave
-
-
-ou safe tens, o net, etc, etc. São um
-
-
+ou safetensors, unet, etc, etc. São um
 conjunto de palavras chave que eu que eu
-
-
 pesquisei, que é o que eu tenho, que são
-
-
 os nomes, as extensões dos nomes dos
-
-
 modelos. E pronto, então consigo fazer
-
-
 um inventário dos modelos que que
-
-
 geraram as imagens.
-
-
 Eh, portanto, aqui, como estão a ver,
-
-
 isto está tudo devidamente prefixado.
-
-
-Tenho aqui o CRE2, o Quen, etc, etc.
-
-
-H
-
-
+Tenho aqui o KREA2, o Qwen, etc, etc.
+--
 isto não não foi tudo gerado com as
-
-
 mesmas dimensões porque os modelos eh
-
-
-aqui os workfs são diferentes e os
-
-
+aqui os workflows são diferentes e os
 modelos são treinados com dimensões
-
-
 diferentes. Nós isto nós temos que ter
-
-
 isso em cuidado. Os modelos são os
-
-
 modelos diferem entre si, nomeadamente
-
-
 porque são otimizados para determinados
-
-
-tamanhos. Mas hoje eu tenho aqui o
-
-
-workflows que por exemplo o Z+ Turbo
-
-
-mais turbo 2X o que eu faço é que te
-
-
-combina um dois em um. ele ele chama ao
-
-
+tamanhos. Mas hoje eu tenho aqui 
+workflows que por exemplo o Z-image-Turbo
+2X o que eu faço é que
+combina um dois em um. ele ele chama o
 modelo e depois eu faço um upscaling
-
-
 duas vezes. OK? Pronto. Portanto, e
-
-
 todas essas nuances faz com que o os
-
-
 tamanhos aqui variam um bocado. Tenho
-
-
 aqui imagens aqui com 2560, tenho outras
-
-
 com outros tamanhos. Pronto, portanto é
-
-
 isso não é tudo igual. Tenho aqui
-
-
-algumas outras com 2000, tá? Estas são
-
-
+algumas outras com 2000, está? Estas são
 com 2800.
-
-
 Pronto, isso é só para também terem essa
-
-
 atenção que os modelos, uma das
-
-
-características que difer
-
-
-e e as proporções, os tamanhos e as
-
-
+características que diferem
+é as proporções, os tamanhos e as
 proporções.
-
-
-Por caso contrário, não respeitem esses
-
-
+Caso contrário, não respeitem esses
 parâmetros, depois obtém muitas
-
-
 alucinações. OK? Eh, mas pronto, isso
-
-
 são temas que eu também já debati nos
-
-
-meus outros tutorial,
-
-
+meus outros tutorials,
 OK?
-
-
 Sim, senhor.
-
-
 Pronto, que como podem ver, tínhamos
-
-
 aqui as imagens, 700 e tal imagens.
-
-
 OK. Pronto. E então, finalmente,
-
-
 e a parte principal que vos quero
-
-
 mostrar agora é a comparação. Pronto,
-
-
-finalmente. Eh, e isto também querovos
-
-
+finalmente. Eh, e isto também quero-vos
 mostrar este pedacinho de script agora
-
-
-que vos que vos vou mostrar. E isto
-
-
+que vos vou mostrar. E isto
 também pode ser usado eh sempre e quando
-
-
-vocês têm tenham conjuntos de de de
-
-
+vocês têm tenham conjuntos de 
 imagens e que queiram comparar, não é?
-
-
 Pronto. Neste caso, eu vamos supor que
-
-
 eu tenho estas quatro coleções que estão
-
-
 nesta minha folder e eu vou apanhar aqui
-
-
 estas quatro listas que aquelas são e
-
-
 distinguem-se umas das outras pelos
-
-
-perfixos. Pronto. Então eu vou dizer
-
-
+prefixos. Pronto. Então eu vou dizer
 assim, dá-me as imagens que começa por
-
-
-Crea. OK, cá está. Crea 2, 186 imagens.
-
-
-Eles começam por Z, FX 2 e Quen 21.
-
-
+Krea. OK, cá está. Krea 2, 186 imagens.
+As que começam por Zit, Flux 2 e Qwen 21.
 Pronto, tenho quatro coleções. OK,
-
-
 quatro coleções. Eu até vou limpar isto
-
-
 aqui tudo, que isto agora aqui já não já
-
-
-não preciso disto. Pronto. E vou vou
-
-
+não preciso disto. Pronto. E vou 
 começar isto aqui do zero. Pronto. Dá-me
-
-
 estas quatro coleções. Cá estão elas.
-
-
 Sim, senhor. Pronto. E agora, eh,
-
-
 posso listá-las, posso começar do
-
-
 início.
-
-
 Eh, vou só listar aqui umas quantas, mas
-
-
-isto também dá para dá para dá para
-
-
+isto também dá para
 abortar, porque eu pus aqui um Pronto,
-
-
-eu vou vou vou prir enter para avançar e
-
-
+eu vou vou vou premir enter para avançar e
 se se eu premir um um quit, ele ele aqui
-
-
 aborta. E pronto, isto basicamente é
-
-
 uma, pronto, é um pequeno script, mas só
-
-
 para vocês verem o potencial disto neste
-
-
 caso. Portanto, eu vou carregar aqui,
-
-
 vou fazer aqui, vou juntar as imagens às
-
-
 quatro de cada vez, uma de
-
-
-[limpando a garganta] cada modelo, cá
-
-
-está, dos quatro arreis.
-
-
-Eh, depois eu vou vou carregar as
-
-
-imagens num formato pelo o package
-
-
-Magic. vai carregá-las para para um
-
-
-formato interno próprio do Magic, que
-
-
+cada modelo, cá
+está, dos quatro arrays.
+Eh, depois eu vou carregar as
+imagens num formato pelo package
+Magick. vai carregá-las para um
+formato interno próprio do Magick, que
 depois esse formato permite-me, por
-
-
 exemplo, fazer o overlay das imagens com
-
-
-labels. E agora eu carrego, eu eu ponho
-
-
-aqui o o nome da dos ficheiros, vou
-
-
+labels. E agora eu carrego, eu ponho
+aqui o nome da dos ficheiros, vou
 colocar aqui como label em cima das
-
-
 imagens, OK?
-
-
 Eh, sim, senhora. Se quiserem depois
-
-
 estudem isto ao pormenor, perguntem ao
-
-
 chat GPT como é que este código
-
-
 funciona. Pronto, isto é os meus
-
-
-estruturos são sempre assim. O objetivo
-
-
+tutorials são sempre assim. O objetivo
 principal é sempre dar-vos uma
-
-
 inspiração para coisas que vocês podem
-
-
 fazer, mostrar-vos um exemplo de coisas
-
-
 a trabalhar para vocês verem, mas o
-
-
-principal não não é estar-vos a explicar
-
-
+principal não é estar-vos a explicar
 aqui linha a linha porque acho que isso
-
-
 não tem interesse. Hoje em dia, hoje em
-
-
 dia, com o chat GPT, a pessoa consegue
-
-
-pesquisar o que o que o que quiser. O
-
-
+pesquisar o que quiser. O
 fundamental é dar-vos ideias, pronto,
-
-
 dar-vos inspiração.
-
-
 Pronto. E basicamente eu depois eu digo
-
-
 aqui como vou comparar quatro modelos,
-
-
 eu digo olha dá-me aí uma uma grelha de
-
-
-2 por2 usando o Magic I montagem
-
-
+2 por 2 usando o Magick Image montagem
 e portanto digo qual é o tamanho.
-
-
 E pronto. E então isto permite-me aqui
-
-
 comparar. Eu agora vou pôr isto aqui em
-
-
 grande para a gente ver. Vão aparecer
-
-
 aqui quatro imagens às quatro de cada
-
-
 vez. Pronto. Então, basicamente
-
-
 vou colocar aqui.
-
-
 Eh, ora, run.
-
-
 Vamos ver se isto funciona.
-
-
-Acho que é capaz de estar no está no
-
-
+Acho que é capaz de estar no 
 viewer.
-
-
-O que é que tá aqui a acontecer?
-
-
+O que é que está aqui a acontecer?
 Ora, abortou aqui o R. Eu penso que isto
-
-
-abortou porque porque
-
-
-eh hoje já já hoje já já usei bastante
-
-
-aqui o confio A e a memória devia estar
-
-
+abortou porque 
+eh hoje já usei bastante
+aqui o ComfyUI e a memória devia estar
 um bocado esgotada e e então arrebentou
-
-
-aqui o R Stúio. OK. Eh, também já fechei
-
-
-o confi para vibrertar a memória.
-
-
+aqui o RStudio. OK. Eh, também já fechei
+o ComfyUI para libertar a memória.
 Pronto, então cá temos nós, como eu
-
-
 dizia,
-
-
 eh, pronto, esta é a imagem número um, a
-
-
 número um de cada um dos modelos. Aqui
-
-
 está.
-
-
 Eh, estes são os modelos mais novos, o
-
-
-Crea 2 e o e o Qen 21. O Quen 21 é
-
-
+Krea 2 e o e o Qen 21. O Qwen 21 é
 drasticamente diferente dos outros três.
-
-
 Eh,
-
-
 pelo menos para as proporções de imagem
-
-
 que eu gerei. Tão são imagens muito mais
-
-
 de detalhadas. Eh, não sei, mas é como
-
-
 digo, eu não eu não tenho sentido
-
-
 crítico eh para design, nem para artes
-
-
 gráficas, nem para nada. Portanto, eu
-
-
 vou-me abster de fazer comentários
-
-
 porque isto não é a minha praia. Aqui o
-
-
 que eu quero vos mostrar é a mecânica
-
-
 disto, como vocês podem fazer uma coisa
-
-
 destas.
-
-
 Eh,
-
-
 deixa-me dar aqui um enter isto agora
-
-
-para para continuar. Ok, pronto, a ideia
-
-
+para continuar. Ok, pronto, a ideia
 é só esta, mostrar-vos, a dizer que olha
-
-
-como é fácil, como podem usar o R Studio
-
-
-e e rapidamente fazer uma coisa destas e
-
-
+como é fácil, como podem usar o RStudio
+e rapidamente fazer uma coisa destas e
 terem várias coleções de imagens. E
-
-
 olha, por exemplo, este aqui alucinou,
-
-
-alucinou grandemente este com N21, com
-
-
-com aqui uma pata do robô a mais. OK.
-
-
+alucinou grandemente este com Qwen 21, 
+colocou aqui uma pata do robô a mais. OK.
 Eh, mas pronto, vale o que vale.
-
-
-[roncando]
-
-
+--
 Ora,
-
-
 isto também depende dos tamanhos. Eu
-
-
-aqui e eu no 21 acho que lhe pedi um
-
-
+aqui e eu no qwen 21 acho que lhe pedi um
 tamanho um bocadinho maior acima do
-
-
 normal e eventualmente isso não
-
-
 OK. É, é como vos digo, não tive a
-
-
 investigar muito quais, qual a
-
-
 parametrização ideal, porque cada, cada
-
-
 modelo tem a sua parametrização ideal,
-
-
 que deveremos investigar, deveremos
-
-
 investigar para tentar saber qual a as
-
-
 proporções ideais com que o modelo
-
-
 trabalha e depois se quisermos então
-
-
 fazer então um upscaling, OK? E lembrar
-
-
-que há upscalers de dois tipos. Há oer
-
-
+que há upscalers de dois tipos. Há o
 tradicional que simplesmente faz
-
-
-interpelação de de pixeis e há os
-
-
+interpolação de pixeis e há os
 upscalers mais modernos também, eles
-
-
 próprios com inteligência artificial e
-
-
 com modelos modelos específicos de
-
-
-pscaving. OK? São temas que já fal que
-
-
+upscaling. OK? São temas que já falei que
 também já falei nos meus outros
-
-
-tutorial. OK?
-
-
+tutorials. OK?
 Ora,
-
-
-[roncando] e portanto aqui temos aqui
-
-
+e portanto aqui temos aqui
 temos nós.
-
-
 Deixa-me ver aqui, consultar aqui ao
-
-
-lado do meu guião. A ver se já falei
-
-
+lado o meu guião. A ver se já falei
 tudo o que eu, basicamente o que eu
-
-
-queria mostrar. Ora, já mostrei o Pixar
-
-
+queria mostrar. Ora, já mostrei o Pixa
 Roma.
-
-
 OK, já mostrei. Penso que sim, penso que
-
-
 estamos a chegar ao fim do tutorial.
-
-
 OK. Isto é basicamente o que eu queria
-
-
 mostrar. Pronto, é a facilidade com que
-
-
 nós efetivamente podemos
-
-
-eh podemos comparar lado a lado vários
-
-
+eh podemos comparar lado a lado 
 vários modelos, OK? Vários modelos, como
-
-
 poderia ser, imaginem, vários modelos ou
-
-
 um mesmo modelo com parametrizações
-
-
 diferentes, ou imaginem que vocês
-
-
-estavam a trabalhar com os horas, OK? Se
-
-
+estavam a trabalhar com os Loras, OK? Se
 não sabem o que é, investiguem isso. Eh,
-
-
-os tutorios da da Pixar Roma explicam
-
-
+os tutorials da Pixaroma explicam
 isso bastante detalhadamente e estes
-
-
-últimos e eh vídeos que que o Pixar Roma
-
-
+últimos e eh vídeos que que o Pixaroma
 postou eh
-
-
-acho que é o com o CRA, salvo erro, ou
-
-
+acho que é o com o Krea, salvo erro, ou
 com este
-
-
 tem ele tem lá tem lá exemplos,
-
-
 bastantes exemplos onde trabalha com os
-
-
-Loras, eh, e portanto os Loras é os que
-
-
-assigna estilos muito específicos à às
-
-
+Loras, eh, e portanto os Loras é o que
+assigna estilos muito específicos às
 imagens, OK?
-
-
 E portanto, e portanto isto pode ser
-
-
-usado por vocês para esse tipo de de
-
-
+usado por vocês para esse tipo de 
 finalidade, comparar imagens eh diversas
-
-
-categorias, seja el pel o tipo de
-
-
+categorias, seja ele pelo tipo de
 categoria que for. OK?
-
-
 OK.
-
-
 E cá está. Estamos a chegar ao fim.
-
-
 É como vos digo, eh,
-
-
-aqui a parte a parte das prometes é é
-
-
+aqui a parte a parte das prompts é 
 fundamental, não há dúvida nenhuma. Ele
-
-
-há modelos aqui no confio e que também
-
-
+há modelos aqui no ComfyUI e que também
 fazem o a parte chamado prompt
-
-
-enhancement. Portanto, promet significa
-
-
+enhancement. Portanto, prompt enhancement significa
 e eu tenho uma pequena ideia da imagem
-
-
 que eu quero, uma pequena prompt, mas
-
-
 depois eu eu quero subeter a um LLM para
-
-
-fazer o prompt enem dizer: "Olha,
-
-
+fazer o prompt enhancement. dizer: "Olha,
 melhora-me esta prompt e por forma a ser
-
-
-e adequada
-
-
-para um determinado modelo de texto do
-
-
-email". OK? Pronto, neste caso eu não
-
-
-fiz nada disso. Eu já tenho tenho as
-
-
-prontos são são as mesmas, mas não estão
-
-
-otimizadas para para nenhum modelo em
-
-
-particular. OK? As prontos prómetros que
-
-
+adequada
+para um determinado modelo de texto to
+image. OK? Pronto, neste caso eu não
+fiz nada disso. Eu já tenho as
+prompts são as mesmas, mas não estão
+otimizadas para nenhum modelo em
+particular. OK? As prompts que
 eu tenho até são relativamente extensas
-
-
 cada uma delas. E até podemos suspeitar
-
-
 isso ao ver que as imagens são muito
-
-
-parecidas. As imagens modelos totalmente
-
-
-diferentes é são parecidas. Isso
-
-
-significa que a promete deve estar
-
-
+parecidas. As imagens com modelos totalmente
+diferentes são parecidas. Isso
+significa que a prompt deve estar
 bastante detalhada. OK?
-
-
 Eh,
-
-
 portanto,
-
-
-já agora, queros, vou-vos mostrar só
-
-
+já agora, quer-vos, vou-vos mostrar só
 mais uma coisa aqui para terminar.
-
-
 Pronto, já chega desta parte. Agora vou
-
-
 vou vou vou fazer o quit, OK?
-
-
 Vou fazer aqui aqui o quit.
-
-
-OK, já fiz o quit, já já abortei este
-
-
+OK, já fiz o quit, já abortei este
 processo.
-
-
-Eh, já agora, querovos mostrar aqui uma
-
-
-parte das prometes. Pronto, a parte das
-
-
-prometes.
-
-
+Eh, já agora, quero-vos mostrar aqui uma
+parte das prompts. Pronto, a parte das
+prompts.
 E temos aqui,
-
-
-tenho as promptes aqui.
-
-
-OK. Eu tenho aqui as promptes,
-
-
-ó, cá estão elas. Eh, 186 prometes.
-
-
+tenho as prompts aqui.
+OK. Eu tenho aqui as prompts,
+cá estão elas. Eh, 186 prompts.
 Agora, imaginem, queriam fazer aqui uma
-
-
 pesquisa ou um change massivo. Podem
-
-
 fazê-lo aqui com algumas ferramentas,
-
-
-mas imaginem que eh querem fazer algum
-
-
+mas imaginem que querem fazer algum
 tipo de função aqui, que este editor
-
-
 aqui é é bastante limitado, OK? E
-
-
 gostariam de abrir isto no Notepad, OK?
-
-
-Então, uma das dos edins que eu que eu
-
-
+Então, uma das dos addins que eu  
 fiz recentemente, penso que nunca vos
-
-
 mostrei e adicionei aqui no meu package,
-
-
 no meu package R Studio Tools, que é um
-
-
 dos meus quatro packages,
-
-
-eh, que também poderão e encontrar no
-
-
+eh, que também poderão encontrar no
 GitHub. E, portanto, eu fiz aqui um, eh,
-
-
-um edin, um dos meus últimos, que é o
-
-
-Notepad Plus+. efetivamente o que faz é
-
-
+um addin, um dos meus últimos, que é o
+Notepad++. efetivamente o que faz é
 analisa eh o ficheiro que eu tenho de
-
-
 texto que eu tenho aberto aqui eh
-
-
 passa-me, transfere-me para dentro, cá
-
-
-está, para dentro do notepad pelos pus.
-
-
-E aqui posso usar o notepado pelos pus e
-
-
-fazer algum tipo aqui de de manipulação
-
-
-mais mais poderosa que que que não posso
-
-
-que não consigo fazer ali dentro do do R
-
-
-Stúio. OK? Faria aqui a manipulação e
-
-
+está, para dentro do notepad++.
+E aqui posso usar o notepad++ e
+fazer algum tipo aqui de manipulação
+mais poderosa que não posso
+que não consigo fazer ali dentro do 
+RStudio. OK? Faria aqui a manipulação e
 depois salvava,
-
-
 salvava, fechava e etc. OK?
-
-
 Eh, mas pronto, efetivamente, vejam bem
-
-
-e o comprimento aqui da da prót. As
-
-
-prómetes são são bastante longas, tem
-
-
+o comprimento aqui da da prompt. As
+prompts são bastante longas, tem
 este comprimento aqui todo, como estão a
-
-
 ver.
-
-
-OK? E pronto, penso que tá terminado, tá
-
-
+OK? E pronto, penso que está terminado, está
 terminado mais ou menos o que eu queria
-
-
 mostrar. Era um tutorial mais ou menos
-
-
 rápido para vocês verem e relembrarem
-
-
 aqui alguns conceitos
-
-
 eh e dar-vos alguma inspiração, algum
-
-
 eventualmente coisas que vocês possam
-
-
 fazer. parecidas ou ganha algum tipo de
-
-
 inspiração com este tutorial.
-
-
 E pronto, despeço-me, obrigado pela
-
-
 atenção e até uma próxima oportunidade.
-
 

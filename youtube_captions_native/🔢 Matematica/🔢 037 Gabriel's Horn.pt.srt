@@ -1,0 +1,1101 @@
+
+Ora, sejam bem-vindos a mais um tutorial
+da minha playlist de matemática.
+Hoje vamos resolver alguns problemas de
+integração, OK?
+E o primeiro
+que vamos resolver aqui é realmente uma
+coisa simples, o o volume, calcular o
+volume
+de uma pirâmide genérica.
+uma pirâmide genérica
+que também pode ser um cone.
+Pronto, um con é um caso particular do
+de uma de uma pirâmide genérica. É uma
+pirâmide, um con, OK?
+Portanto, eh, seria seria no limite como
+um cono, seria como uma uma base com com
+infinitos lados ou como em vez de OK, um
+polígono com infinitos lados. Sim,
+senhora.
+Ora,
+convém relembrar aqui alguns alguns umas
+umas propriedades geométricas de de de
+comprimentos áreas e volumes, OK? para
+refrescarse
+refrescar as ideias. Portanto, se eu
+tenho uma figura qualquer, se eu tenho
+uma figura qualquer
+plana,
+OK?
+E eu posso encontrar uma dimensão, uma
+dimensão qualquer que caracteriza esta
+figura. Essa dimensão pode ser pode ser
+um raio, um determinado raio, pode ser
+um determinado perímetro, OK?
+este perímetro aqui à volta, OK? Pode
+ser um determinado diâmetro, ou seja,
+qualquer qualquer dimensão que eu queira
+para para caracterizar esta figura de
+partida,
+qualquer que seja essa dimensão,
+essa dimensão D,
+OK? [suspirando][roncando]
+Eh, então não há dúvida nenhuma que se
+eu
+aplicar uma uma transformação da
+ampliação onde eu multiplico essa
+dimensão por c,
+OK?
+Vamos até fazer aqui, vamos dizer que
+OK, esta figura plana tem uma tem as
+seguintes características. Ela tem uma
+determinada dimensão linear, seja o
+perímetro, o raio, o diâmetro, seja o
+que for qualquer que nós queiramos usar
+para caracterizá-la,
+OK?
+E tem uma determinada área,
+OK?
+E caso este objeto fosse não fosse fosse
+a três dimensões, depois teria um
+determinado volume.
+[roncando] OK?
+Portanto, e mas aplicasse exatamente a
+mesma coisa.
+Nesse o o D seria, portanto, uma
+dimensão qualquer linear,
+OK?
+Uma dimensão qualquer linear. A área
+seria uma uma uma
+característica qualquer a duas
+dimensões. Por exemplo, se fosse um um
+um sólido a 3D, esta área poderia ser a
+superfície,
+OK? do sólido, mas também poderia ser um
+corte, uma secção do sólido. OK? É a
+mesma coisa, uma uma
+característica qualquer que eu que eu
+com que eu queira caracterizar o meu
+objeto, desde que seja a duas dimensões,
+desde que desde que aqui seja uma
+dimensão a duas dimensões. Portanto, OK.
+Sim, senhora.
+E aqui a uma é uma dimensão.
+Pronto. Então, qual é a moral da
+história?
+Portanto, se eu pegar neste objeto,
+OK, e aplicar uma ampliação,
+multiplicar
+uma uma constante cap,
+OK?
+Se este objeto ficarado K vezes, OK?
+Imaginando K = 2, K = 3, portanto, OK?
+Esta esta esta figura, portanto, el ela
+ela ela ficaria ampliada,
+OK? K vezes,
+OK?
+E, portanto,
+o que é que acontece à área?
+OK.
+Eh, a área não não é aumentada K vezes.
+A a área é aumentada por K quadrado K
+quadrado xes.
+OK? Portanto, a dimensão linear qualquer
+que ela seja, ela é aumentada K vezes. A
+área é aumentada K quadrado vezes e o
+volume é é aumentado por k cubo vezes.
+OK? Pronto, isto é simples. Imaginem que
+eu tenho aqui esta esta figura um
+quadrado,
+OK? Tem uma determinada dimensão L.
+Imaginem que se eu multiplico o L por
+duas vezes, então a área é aumentada
+para quatro vezes.
+OK? Duas xes k = 2² k. Pronto, eu penso
+que isto isto é simples, mas pronto, às
+vezes para refrescar as ideias e que vai
+ser importante agora no que vamos ver a
+seguir. Portanto, então nós vamos ter e
+uma pirâmide genérica.
+O que é que de altura H. Ok, pronto, de
+altura H. Deixa-me colocar aqui.
+OK. Este babizamento.
+Sim, senhora. Eu aqui com a altura H.
+OK? E, portanto, [roncando] vou colocar
+agora aqui uma uma pirâmide genérica.
+Portanto, aqui na base uma determinada
+figura, uma tem uma uma determinada área
+qualquer
+e, portanto, agora
+uma pirâmide genérica qualquer,
+OK? O que é que é? vai ser uma pirâmide
+genérica qualquer, que significa que tem
+uma base. E em qual em qualquer altura
+que eu faça um corte, uma secção, pois
+tem uma figura que tem que ser
+geometricamente similar à base.
+Portanto, vamos dizer que temos aqui a
+área da base, OK?
+e que tem aqui um determinado vértice
+e que basicamente
+em em qualquer ponto em qualquer ponto
+que eu escolha qualquer ponto que eu
+escolha aqui da da da periferia da base,
+eu posso traçar uma linha reta
+e em relação ao vértice. OK?
+Pronto, isto aqui é um con é um é uma
+pirâmide genérica. OK? Portanto, que
+reparem que os cones, todos os cones e
+todas as pirâmides, eh, têm esta
+característica, tem uma determinada base
+e em qualquer ponto da periferia eu
+posso traçar uma há uma linha reta que
+passa na superfície dessa pirâmide
+genérica e vai até ao vértice. Sim,
+senhor. Pronto. E nós queremos calcular
+o volume de qualquer de qualquer
+pirâmide genérica. Pronto, o volume de
+qualquer pirâmide genérica. Vocês já em
+princípio já saberão qual é o volume o
+volume de uma pirâmide que é 1/3 da área
+da base vezes altura. Pronto, mas vamos
+ver como é simples demonstrar com
+cálculo integral. OK? Pronto. Então o
+que não vou fazer aqui? Eu vou fazer
+aqui, vou dizer que eu eu vou pôr aqui
+no num sistema deixos, vou dizer aqui
+que x = 0 aqui neste ponto e vou dizer
+aqui x = h.
+Pronto, vou vou escolher aqui um um uma
+direção aqui, uma direção de integração.
+Pronto. E agora como é que nós fazemos
+isto? Bom, nós fazemos o integral que é
+um somatório, e vou fazer de fatias.
+Fatias,
+OK? E vou cortar a pirâmide, portanto,
+às fatias. Pronto. Sim, senhor. E,
+portanto, as as fatias têm a espessura é
+dx, que é o o infinitesimal dx que vai
+entrar no integral
+e a
+e a área e, portanto, iso são fatias,
+portanto, é a área da base vezes a
+altura, a altura aqui será dx e a área
+aqui da fatia, pois é uma função de x.
+Esta área varia consoante o x. É uma
+determinada função de x que temos que
+determinar. a de X. OK? Sim, senhor.
+Portanto, aqui temos AB, a área da base,
+e aqui temos AX. Sim, senhor.
+Ora bem, mas
+eh X
+é uma dimensão linear que caracteriza
+esta pirâmide. Reparem que foi o mesmo
+que eu disse aqui, que eu pego num
+objeto, neste caso é um sólido, e eu
+posso ter uma dimensão qualquer linear
+de uma dimensão.
+Posso ter aqui uma uma medida a duas
+dimensões e uma a três dimensões.
+Portanto, a uma dimensão
+eu posso dizer que, portanto, o x,
+OK?
+é uma medida. É, portanto, é uma medida
+a uma dimensão,
+OK? para para um um um determinado valor
+de x. Eu posso dizer, portanto, esta
+área é a área
+no na altura X aqui.
+Sim, senhor.
+E portanto,
+portanto, a área,
+a área
+em função de x, ela tem que ser
+proporcional ao ao quadrado de x.
+Pronto, ela tem que ser proporcional ao
+quadrado de x para este reciinho que
+vimos aqui atrás, porque OK, porque x é
+o fator é o fator linear que que vai
+variar. Isto é um bocado difícil de
+explicar também, não estou a conseguir
+explicar bem, mas pronto, eu espero que
+seja intuitivo para vocês, da mesma
+forma que é intuitivo para mim, OK?
+Eh, é como vos digo, portanto, eh,
+o, vocês sabem, por exemplo, a área de
+um círculo é é pi r².
+Lá está, aparece a eh eh port a área vai
+ser sempre ao quadrado, qualquer coisa
+ao quadrado, sendo o quadrado dessa
+qualquer coisa, essa qualquer coisa é um
+é um parâmetro qualquer linear que
+caracteriza uma figura plana. OK?
+Pronto. E aqui, portanto, aqui é a mesma
+coisa. tem que ser proporcional a x qu
+seria proporcional a r quadrado ou como
+seria proporcional a qualquer coisa ao
+quadrado, sendo essa qualquer coisa com
+qualquer parâmetro linear que eu
+quisesse escolher para caracterizar este
+corte. Pronto, mas eu estou agora a
+escolher como o parâmetro para
+caracterizar este corte, estou a
+escolher este esta esta altura aqui X.
+Pronto, é um parâmetro como outro
+qualquer.
+É um parâmetro como outro qualquer. E,
+portanto, a área
+será sempre e a proporcional ao ao
+quadrado desse desse desse parâmetro.
+OK?
+Eh, este exemplo não até nem não é não é
+um bom exemplo, porque eu quer dizer
+porque isto isto é verdade sempre e
+quando tá a haver aqui um um fator de
+ampensão, uma transformação, não é? Mas
+ok. Bom, então agora não estou a
+conseguir explicar isto melhor. Ora,
+portanto, eu vou pôr aqui um C de uma
+constante.
+Pronto, reparem, da mesma forma que no
+círculo, esse C é o pi. Quando eu digo:
+"Olha, a área de um círculo é pi r²".
+Pronto, é é proporcional ao ao quadrado
+de uma dimensão linear que caracteriza o
+círculo. E depois tem uma constante que,
+por acaso, aqui é o é pi. Então aqui é a
+mesma coisa.
+OK? Não é um círculo. Se fosse um
+círculo era seria pi. Seria pi x qu
+seria pi. E eu poderia até escolher aqui
+o raio ou qualquer outra. Pronto. Mas
+mas como não é um círculo, então a
+constante não será pi, será uma outra
+coisa qualquer.
+Cx².
+OK?
+E e eu eu faço bem em escolher o x = 0,
+escolher esta dimensão aqui, x = 0 aqui
+no vértice e e x = h aqui e realmente
+está eu podia ter escolhido ao
+contrário, mas assim é mais simples. Eu
+podia ter escolhido o x = 0 aqui, dizia
+que era a base a altura e depois eu
+subia como altura h até x = h aqui
+também dava é igual. Pronto. Mas mas
+escolhendo o referencial assim aqui
+invertido, fica mais simples, porque
+desde logo quando o x = a 0 a área é
+zero, tá certo? Que é a área no ponto
+aqui no vértice aqui em cima, pois que
+tem que ser zero, tá? Então tá correto.
+Pronto. E da mesma forma que então eu
+vou agora calcular o c. calcula-se
+facilmente porque eu vou dizer assim:
+"Bom, a área quando quando o x for igual
+a h,
+eu eu quero que me dê a igual a aba área
+da base.
+Pronto. E assim vou conseguir determinar
+qual o valor da constante C.
+Ora, portanto, fica fica C quando o X
+for igual a H h h²
+e, portanto, C é igual à área da base
+sobre h². Pronto. Então, sendo assim que
+tenho a minha área
+em função de x é igual a c. C que é a
+área da base.
+A área da base sobre
+h²
+x².
+Ora, então, vejamos. Quando x = 0 dá 0.
+E quando x = h,
+h² corta, corta e dá a área da base. Tá
+correto? Pronto, no fundo temos aqui é
+uma é uma função aqui.
+Eh,
+pronto, é em em em função em função de
+x. Sim, senhora.
+Pronto. Então, já temos o nosso ax que
+nos faltava e já temos o tx. E agora só
+temos que calcular, portanto, o
+integral. Portanto, vou dizer o o volume
+da pirâmide de qualquer pirâmide ou con
+é a mesma coisa.
+Qualquer pirâmide genérica tem que ser
+um integral
+quando x varia de zero a k altura da
+pirâmide,
+OK? E que tem as fatias ax x dx. Pronto.
+Sendo que ax eu já tenho aqui a área da
+base,
+uma constante sobre h² uma constante
+x²
+dx.
+Pronto. E agora integro facilmente.
+B
+h qu
+o integral aqui x c3 a primitiva x c3 e
+agora integrado entre entre 0 e h e que
+portanto fica para x = 0 aqui é 0 e
+portanto para h h h h h c que vai cortar
+com h qu e portanto fica como já
+estávamos à espera 1/3 da área da base
+vezes h.
+Pronto, é uma coisa bem simples,
+bem simples, mas não sei, eventualmente
+alguns de vocês poderiam nunca ter feito
+este cálculo na vida eh de verificar
+como é simples e comprovar, sim, senhor,
+preto no branco, como o volume de
+qualquer pirâmide ou de qualquer con é
+igual a 1/3 da área da base vezes a
+altura. Pronto. E penso que sim, penso
+que fica fica. Enfim, tentei explicar o
+melhor que eu consigo. Não sei que não
+fique ficou um bocado atabalhoado, mas
+mas pronto.
+Eh, espero que vocês tenham apanhado a o
+fundamental desta demonstração.
+Ora, o segundo problema que nós vamos
+resolver, este é um probleminha também
+bastante engraçado, Gabriel Horn.
+Pronto. Sim, senhora. Portanto, aqui
+trata de, como diz aqui no texto, que
+uma figura
+eh, portanto, a três dimensões, porque
+estamos aqui a calcular um volume.
+Eh, e estamos a calcular também
+o A deve ser a superfície
+a superfície
+de deste deste sólido, pronto. cujo
+volume é finito,
+mas cuja superfície externa é infinito.
+OK?
+Ora, dias infinit para definite volume.
+Ora bem, pronto, estas aparentes
+paradoxos não nos devem estranhar e são
+fáceis de de demonstrar e e de perceber
+porque é que é possível termos e áreas
+ou volumes finitos, de limitados,
+finitos e e no entanto as superfícies
+externas ou os perímetros externos serem
+infinitos. Bem, isto é bem fácil de
+verificar. Por exemplo, imaginem que eu
+tenho aqui um quadrado.
+OK? Pronto. Sim, senhor. Não há dúvida
+nenhuma que o quadrado tem uma
+determinada área a
+Sim senhor. Que é finita. Portanto, faz
+as vezes aqui deste volume que também é
+finito. Aqui é a três dimensões. E agora
+aqui temos aqui a duas dimensões. E,
+portanto, não há dúvida nenhuma que este
+perímetro aqui à volta também é finito.
+Também é finito que vai dar 4L. Ok?
+Quatro lados. Pronto. Agora o que é que
+acontece? Eu posso partir ao meio esta
+figura,
+OK? E vou partindo ao meio e ponho aqui
+lado a lado.
+Sim, senhora. Fica
+dois retângulos.
+Quer dizer, eu aqui não, eu aqui não me
+indireita isto.
+Ora, sim, senhora.
+E o Samsung Notes? Não, em direita. Só
+só só em direita se eu traçar um um um
+um retângulo. OK? Bom, eh portanto fica
+aqui. Ora, não há dúvida nenhuma que eu
+parti em duas partes. A área total tem
+que continuar a ser a, não há dúvida
+nenhuma. Portanto, que aqui tem que ter
+que tem que ficar a meios.
+A meios não há dúvida nenhuma. Eu
+simplesmente parti em dois. Agora o
+perímetro aumentou porque agora o
+perímetro tenho aqui
+dois lados. Aqui tenho aqui quatro
+quatro lados mais mais meio meio. Ele
+aqui aumentou para cinco lados. Aumentou
+para cinco lados. Portanto, o perímetro
+eu aumentei o perímetro mant mantendo a
+área, mantendo a mesma área, não há
+dúvida nenhuma. E agora é fácil de ver
+que posso levar isto até ao infinito.
+Porque porque qualquer que seja a
+espessura aqui, qualquer que seja esta
+espessura H, eu posso sempre dividir ao
+meio. Qualquer número real posso sempre
+dividir o meio. OK? E, portanto, agora
+poderia
+aumentar
+aqui. Ops. Eh, e, portanto,
+aumentar.
+Pronto. E, e, e ficaria a mesma coisa.
+Quatro pedaços com 1/4 de oportunidade
+da área é sempre igual.
+E o perímetro agora já vamos aqui com
+quatro lados em cima, quatro lados em
+baixo, oito. Oito lados mais dois
+pedacinhos. OK? Portanto, o perímetro,
+o perímetro agora já é maior que 8 L.
+Pronto. E esse aqui vai ser maior que 16
+e assim até o infinito. Pronto. Isto é
+só espero que tenha sido intuitivo para
+vocês. Como é bem fácil demonstrar
+como é que podemos ter
+um um
+uma área que é finita, delimitada
+delimitada por
+por uma curva infinita. OK? Mas também
+pode haver outra situação.
+Também posso ter,
+ou seja, quando eu tenho uma uma uma
+área infinita, eu vou ter que averiguar
+se ou melhor o o perímetro infinito, eu
+vou ter que averiguar se a área
+delimitada é infinita ou não. OK? Pode
+pode ser os dois casos. Por exemplo, nós
+temos os casos conhecidos.
+Nós temos aqui os os casos conhecidos,
+por exemplo, por exemplo, o logaritmo
+ou ou melhor o o inverso de x,
+o inverso de x cuja área é o logaritmo,
+OK?
+O inverso de x. E portanto esta área é
+infinita.
+É infinita.
+O integral de zer é infinito de de 1
+sobre x.
+dx é é o logaritmo é o logaritmo de x
+entre zero e infinito e e portanto é
+infinito. Portanto, neste caso, o
+perímetro é infinito claramente porque
+esta esta vinha vermelha vai até ao
+infinito.
+Portanto, aqui o este perímetro é
+infinito
+e a área de limitada também é infinita.
+Pronto. Portanto, aqui
+aqui é tudo infinito.
+OK?
+Mas podíamos ter o caso parecido.
+O caso parecido
+agora, em vez de ser 1 sobre x, é 1
+sobre x².
+Portanto, é a mesma coisa. Uma linha
+infinita, uma linha infinita, mas agora
+é 1 sobre x².
+Pronto. [roncando] E agora? E agora
+resulta que esta área aqui já vai ser
+finita.
+Pronto, isto é só para vos chamar a
+atenção que temos que ver caso a caso.
+Não há aqui nenhuma regra universal de
+dizer que se se a linha é infinita, a
+área subordinada é finita ou infinita.
+Portanto, temos temos que analisar caso
+a caso. E pois aqui seria o integral
+hora de de de x - 2 entre 0 e infinito,
+pois seria
+ora x
+- 3. Ora, -1
+seria x - 1
+sobre
+-1,
+OK?
+entre zero e infinito.
+Ora,
+portanto, isto fica -1 sobre x.
+Ora, eu aqui não não consigo, eu aqui
+não eu não posso calcular a partir daqui
+a partir aqui de infinito, eu não posso
+calcular a partir do zero porque 1 sobre
+zero não tá não tá não tá definido.
+Pronto. Então o que o que se faz é o que
+se faz é calcular a partir aqui de um
+determinado ponto, vamos dizer por
+menor, por exemplo, um. Pronto, é a
+mesma coisa.
+O o raciocínio é o mesmo, mas mas
+permite-me calcular aqui este permite-me
+calcular aqui e aqui também podia fazer
+o mesmo aqui a partir de um. OK?
+Que é o que é o que eu vou fazer. É
+melhor é melhor calcular aqui a partir
+de um. Pronto. Para estarem aqui para
+estar aqui em duas situações em igualdad
+circunstâncias.
+Portanto, de um.
+Pronto. [roncando] E, portanto, aqui o
+logaritmo de de infin aqui de infinito é
+infinito e o logaritmo para dar 1 é
+zero. É assim, sim. Pronto, enquanto que
+o logaritmo para dar zero não tá
+definido.
+OK? Pronto. Então aqui faço a mesma
+coisa. Então aqui se começa aqui em um,
+aqui também começa em um.
+Ora, -1 sobre x.
+Ok.
+Portanto, em em infinito aqui tendo para
+zero,
+tendo para zero
+e menos
+menos
+-1 sobre x
+quando quando x igual a a 1
+menos por menos dá mais e portanto tende
+para um.
+Sim, senhor.
+E, portanto, esta área aqui é um bom, se
+eu não me enganei, se eu não me enganei
+nas contas. OK. [roncando]
+Ora, tá correto. Não me enganei nas
+contas. Eu fui aqui ao alfa pedir o a
+integração de 1 sobre x²
+e from 1 to infinite e deu de facto
+igual a 1. Ok?
+Eh, enquanto que se fosse from zero não
+converge. OK. Sim, senhora. Bom, pronto,
+depois então desta pequenina introdução,
+vamos então calcular então o Gabriel
+Zorn. Pronto, o Gabriel Zorn aqui não tá
+a dizer qual é a curva
+que roda, [limpando a garganta] mas
+pronto, mas pela expressão vemos que é 1
+sobre x. Portanto, vemos que o que nós
+estamos a fazer é a curva 1 sobre x que
+gira, OK? Em torno do eixo dos x.
+[roncando]
+E e a integração é é considerada a
+partir do ponto um.
+Pronto. Sim, senhor. Então, não há
+dúvida nenhuma que
+não há dúvida nenhuma que temos,
+portanto,
+e no ponto um,
+e a integração é feita aqui no ponto um,
+a partir do ponto um, até infinito.
+Até infinito. A curva aqui é y = 1/ x.
+OK? Sim, senhora. E, portanto, o que é
+que vai acontecer? Como isto roda? Vai
+vai gerar fatias circulares,
+vai gerar círculos
+de espessura DX,
+OK? [roncando] E que de a a área
+a área aqui circular, a área do círculo
+será pi r².
+Portanto, aqui a áreas a área em função
+de x, portanto, será pi r². É, portanto,
+mas sendo o o raio, pois é 1 sobre x,
+que é o y.
+Pronto. Sim, senhora. Então fazemos
+então o integral
+entre entre 1,
+o integral entre x = 1 até infinito.
+E fazemos, portanto, pi, que é uma
+constante, pode passar cá para fora.
+Pi
+de x - 2.
+X - 2 é o mesmo que acabamos de integrar
+ainda agora aqui em cima.
+dx
+entre o infinito. Já já vimos que vai
+dar um já cá que resolvemos aqui acima
+e portanto aqui dá 1 e depois vezes pi e
+portanto dá pi. Pronto. Então que nós
+temos então que
+o volume é igual a pi. Cá está que era o
+que dava aqui. O volume de Gabriel Horn
+é igual a pi. Ok. Sim senhora.
+Pronto, vamos ver agora
+a superfície.
+OK, vamos ver a superfície.
+Ora bem, então agora é mais complicado
+para calcular a superfície,
+neste caso, a superfície de revolução.
+Ora bem, como é que eu vou vou explicar
+isto?
+Reparem que, portanto, nós tínhamos o
+Gabriel Horn,
+tínhamos do limitado por uma determinada
+curva, onde
+aqui tínhamos que eu disse que tínhamos,
+isto girava e originava fatias, o qual
+eu calculei o volume, portanto isto
+originava aqui determinadas fatias
+e eu
+calculei este volume, esta DV, o volume
+este volume infinitesimal e eu disse que
+é bom, será dx sendo dx, portanto esta
+largura
+dx
+que é a espessura
+dx
+vezes, portanto, este esta área
+esta área aqui
+área não aqui não é da não. Esta área é
+grande, é esta área, neste caso, de uma
+área de revolução,
+perdão, que aqui então ficou pi
+e r quad sendo r é sendo r² f dex²
+f dex² pronto e portanto
+eh e portanto o o volume um volume de
+revolução um volume de revolução
+não é mais como um não é mais do que um
+integral
+em que x varia de um determinado ponto
+x1 até x2, pode ser até o infinito,
+onde eu tenho de defatias que são
+círculos, pi r² e sendo o rr², portanto
+é o valor da função o y é o é o y²,
+OK? f(x)² dx. Pronto, este é o volume de
+revolução. Sim, senhor. E aqui
+ninguém se preocupou em considerar que
+se isto aqui era inclinado este ou ou se
+era direito ou se era mais inclinado ou
+menos inclinado.
+Porque como o dx é muito pequenino,
+isto vai ser insignificante. Esta
+inclinação, este pedacinho de volume é
+insignificante face
+à dimensão enorme, gigantesca, que é
+este, sim, o volume,
+o volume que nós estamos aqui a
+calcular, este DV.
+Pronto, isto pode não ser um bocado
+intuitivo, mas mas é assim que funciona.
+Ou seja, eu não preciso de fazer nenhuma
+correção
+pelo facto de
+se a curva aqui na superfície está muito
+inclinada ou pouco inclinada.
+Não importa.
+Não importa do ponto de vista de
+calcular o volume com fatias DV.
+Esta inclinação aqui é insignificante.
+OK. Mas o caso muda completamente de
+figura se o que eu quero calcular é este
+perímetro,
+um perímetro
+de uma curva ou uma superfície que que
+resulta da da rotação de deste
+perímetro.
+OK? Portanto, o caso muda completamente
+de figura. Se eu disser assim, isto aqui
+ficou torto,
+se eu disser
+e calcula-me um determinado perímetro,
+OK? Porque porque se eu tenho que se eu
+quero calcular um determinado perímetro,
+OK? Se eu quero calcular aqui um
+determinado perímetro
+e eu vou vou vou contabilizar aqui as
+fatias dx,
+até eu tenho que eu tenho eu tenho que
+calcular eu tenho que calcular este
+pedacinho, este pedacinho
+mais este pedacinho mais este, mais este
+mais este. E agora a inclinação é
+totalmente relevante.
+OK? Porque porque caso contrário eu eu
+não posso dizer que vou somar os
+somatórios de dx. Então somava este com
+este, com este, com este. Então todas as
+curvas tinham o mesmo comprimento que
+era simplesmente o comprimento o
+comprimento em x. OK? Portanto, se se eu
+queria eu queria eu queria eu quero
+calcular, por exemplo, o comprimento
+desta curva entre x1 e x2,
+entre x1 e x2.
+OK? E eu quero e eu quero calcular este
+comprimento aqui a verde.
+OK? Portanto, se eu não fiz, se eu não
+aplicar um fator corretivo
+para levar em linha de conta à
+inclinação, então seria aos pedacinhos
+dx + dx + dx + dx. E então este eu diria
+erradamente que este comprimento em
+verde com o comprimento da curva era x2
+- x1.
+Claro, não podia ser uma perfeita
+estupidez.
+OK?
+Pronto. Então, como é que nós fazemos?
+Vamos fazer isto? Eu agora vou ter que
+levar em linha de conta a inclinação, a
+inclinação da curva. Para o cálculo de
+comprimentos de curvas
+ou ou de superfícies de rotação, eu
+tenho que levar em conta a inclinação da
+curva. Mas mas para o cálculo de
+volumes, não. Isso é desprezível.
+Portanto, isto tem que ser, pronto, is
+são os fundamentos que têm que ficar bem
+bem sedimentados.
+para mim já estão, porque já trabalho
+nisto há muito tempo. Pronto. E e isto
+para mim já ficou intuitivo. Há muitos e
+muitos anos que estes temas já ficaram
+intuitivos para mim.
+Mas e isto temos ter cuidado, temos que
+ter cuidado com isto. Temos que ter
+cuidado quando trabalhamos com
+integrais, ver o que o que é que é
+significativo e o que é que não é.
+Pronto. Então aqui não há dúvida nenhuma
+que eu tenho que levar em linha de conta
+do da inclinação da curva para poder
+calcular o respectivo comprimento.
+Pronto. Então como é que se faz isso?
+Bom, é simples também. E para isso vou
+fazer aqui o triângulo, um triângulo
+similar ao triângulo que eu fiz quando
+estávamos a calcular, quando aprendemos
+as derivadas pela primeira vez. Quando
+aprendemos as derivadas, eu disse que a
+derivada não era mais do que o declive
+do ângulo alfa. o decive
+e que eh correspondia exatamente à
+tangente deste ângulo. Pronto. Ou seja,
+eu tenho aqui aqui vou ter dx.
+OK? Na altura eu até fiz um um triângulo
+diferente. Portanto, eu fiz um triângulo
+[roncando] salvo o erro, em que era
+eh dei-vos um exemplo em que era se eu
+tinha eu tinha aqui uma uma determinada
+curva, eu tinha uma determinada curva
+que passava aqui. OK? Pronto. E eu e eu
+queria a a tangente neste ponto. E,
+portanto, eu dizia que, bom, eu eu
+ponho-lhe aqui um um um retângulo, um
+triângulo retângulo, eu ponho aqui junto
+e, portanto, e esta inclinação aqui,
+este ângulo alfa, eu ponho aqui o ângulo
+alfa e eu escolhi na altura, escolhi
+aqui a base um
+e escolhi a a altura era a derivada da
+função fha de x.
+Pronto. E então dizia, olha, a a
+tangente, a tangente de alfa, a tangente
+deste deste do do do triângulo
+cuja inclinação aqui é é cuja inclinação
+é é tangente é tangente neste ponto,
+neste ponto que eu estou a estudar. E
+portanto a tangente de alfa era este
+cateto sobre este cateto e portanto era
+era e definíamos que era foi mais ou
+menos assim. Pronto, já não me lembro
+bem, mas mas é esta é a ideia. Portanto,
+a e a a derivada de uma função é é a
+tangente do ângulo em cada ponto.
+Pronto. Então aqui vamos ter uma coisa
+similar. Eu, só que agora eu não tenho
+aqui base um.
+Eu agora preciso de considerar a base dx
+porque eu vou ter que fazer um integral
+em na na direção de x, OK? Para para
+para para somar estes segmentos.
+Para somar estes segmentos. Sim,
+senhora. Ora bem, então como é que
+fazemos? Eu tenho aqui dx, eu vou dizer
+que tenho aqui um determinado d y
+correspondente, que ainda não sei quanto
+é. OK? Sim, senhora. Pronto. E aqui, mas
+sendo assim, eu com dx e d y aqui eu
+tenho que ter para o teorema de
+Pitágoras, tenho que ter esta
+hipotenusa, que é o que eu quero. Eu
+quero o somatório destas hipotenusas,
+destes segmentos vermelhos. Portanto,
+então aqui teorema de Pitágoras dx qu +
+dy qu.
+Pronto, que vou dizer, eu vou dizer que
+isto é igual a dl.
+Pronto. E então eu para calcular o
+comprimento vermelho,
+OK, eu eu posso dizer que porque é que
+preciso de fazer um uma integração em em
+DDL
+de DL, OK? Somando os os pequenos dls.
+Pronto, mas eu mas eu agora vou exprimir
+isto a todo. Eu vou ter uma função
+expressa em x, não vou não não tá
+expressa em L. Portanto, eu vou eu
+interessa-me passar para X e não para L.
+Pronto, então vou, o que é que eu vou
+fazer? Bom, eh, portanto, DDL,
+DL é isto que eu acabei de calcular. São
+estes estes troços
+dx qu + d².
+Ok? E agora o que eu faço? O que eu faço
+é que ponho dx qu em evidência aqui
+dentro e passo para fora da raiz e fica
+dx.
+OK? E, portanto, fica o integral,
+OK?
+Ao [roncando] passar dx² para fora, aqui
+fica 1 e aqui fica dx.
+A, ao pôr dx² aqui em evidência, há
+parênteses 1 + dy² sobre dx².
+OK? Pronto. E então o dx agora passou cá
+para fora, tira o quadrado e e e fica
+dx. Pronto. E assim transformei uma
+integração que tinha em DL, que não me
+interessa,
+eh, e transformei numa integração
+onde onde tenho aqui dx, que é o que me
+interessa, onde eu vou integrar em
+função da variável x. Pronto. E o que é
+que eu tenho aqui? DX, mas dx é a
+derivada. Pronto. E, portanto, fica que
+fica então que o comprimento de uma
+curva L
+é o integral em x desde um ponto x1 até
+x2,
+onde tenho a raiz quadrada
+de 1 mais
+a derivada finha x
+dx.
+Pronto. Sim, senhora. Pronto. E isto é
+que nós vamos precisar para calcular o
+Gabriel Horn,
+que é e portanto a, neste caso, a
+superfície de rotação, que é o que é o
+que está aqui.
+Eh, reparem aqui na expressão, é aquela
+raiz
+eh onde tem, eu acho que perdi aqui,
+perdi aqui um quadrado aqui algures.
+Eu perdi aqui o quadrado, desculpem lá,
+portanto, porque fica aqui o dx² em
+evidência d y², portanto aqui é ao
+quadrado
+ao quadrado. E, portanto, a derivada ao
+quadrado, se eu não me enganei. Deixa,
+exatamente, não me enganei porque tá tá
+aqui. Portanto, a derivada -1/ x² e e ao
+quadrado é a derivada ao quadrado. Sim,
+senhora. Pronto.
+Eh, então temos,
+OK, então já temos que
+eh
+nós nós já temos que vamos ter agora
+este este comprimento, este DL,
+OK?
+que faz uma rotação,
+faz uma rotação
+aqui em torno do centro, que é uma que é
+uma uma superfície de rotação.
+E, portanto, que qual vai ser o este
+perímetro aqui de rotação, esta
+superfície de rotação.
+OK?
+OK.
+Eh, portanto, vai ser
+a circunferência 2 pi r,
+portanto, 2 pi
+r,
+que é o f(x)
+2 pi 2 pi r
+vezes
+2 pi r o valor da circunferência vezes
+este pedacinho
+vezes este DL aqui.
+Portanto, é a esta esta largura aqui, o
+este D este DL, este DL que temos aqui
+há um há um multiplicar por por este 2
+r. OK?
+Sim, senhor. Espero que tenha ficado
+mais ou menos claro ou intuitivo.
+Pronto. Portanto, então fica aqui fica 2
+pi
+f(x)
+2 pi f(x)
+e vezes este este d aqui
+1 + f linha de x²ado
+dx.
+Sim, senhora.
+E e vamos calcular entre um e infinito.
+Gabriel Horn.
+OK. Pronto. Então fica
+fica
+fica
+integral entre um infinito
+2 pi, o valor da função 1 sobre x,
+a raiz quadrada
+1
+mais a derivada da função
+- 1 sobre x²
+ao quadrado
+dx.
+OK.
+OK.
+Eh,
+e portanto dá dá esta expressão aqui
+bastante complexa. Pronto, eu já não me
+estava a recordar como é que isto era
+abordado, mas eh eu olhei para aqui,
+fiquei um bocado
+abasbacado, disse: "E pá, o que é que
+vou fazer agora? Uma substituição
+trigonométrica, uma pronto, mas a
+verdade é que o este problema é abordado
+de outra maneira. Pronto. Ou seja, não
+necessitamos não não
+necessitamos de calcular a primitiva
+porque não vamos calcular a não não
+precisamos porque não queremos o
+valorizado porque não tem valorizado.
+Nós só queremos demonstrar que
+efetivamente o integral é infinito, nada
+mais. Pronto. E portanto não precisamos
+de primitivar.
+A primitiva deve ser bastante complexa.
+Agora eu olhei para aqui, fiquei aqui um
+bocado paralisada di pá, o que é que eu
+vou fazer agora aqui? OK. Eh, pronto,
+mas a verdade é que tive a dar aqui uma
+vista de olhos, a relembrar como é que
+isto era abordado. Tive a ver aqui uns
+vídeos na internet. Pronto. E na verdade
+nós nós não precisamos. Nós não
+precisamos porque o que eu só quero
+demonstrar é que isto é que isto vai dar
+infinito. Pronto. E para demonstrar o
+que acontece é que eu [roncando] estou a
+fazer um integral e o integral é um é um
+somatório de fatias. É isso que
+representa o integral. Pronto. E eu
+tenho eu tenho aqui duas fatias. Eu
+tenho aqui a fatia, esta fatia,
+OK? E e tenho também esta esta fatia.
+Tenho aqui duas fatias. Pronto. Mas esta
+fatia, esta fatia
+ela é quais são os seus valores
+possíveis? Bom, no valor mais mais
+eh maior possível aqui é 1
+para x = 1 dá 1 + 1 2 √2. Pronto. √2. Ou
+seja, ela ela varia de √2.
+Ok?
+E depois para x = a infinito, isto tende
+para zero. 1 sobre infinito 0. Aqui é 1,
+√1 é 1. Portanto, isto vai de √2 até 1.
+Pronto. Sim, senhor. Ou seja, qualquer
+que seja este estes valores, isto é
+sempre maior que um. Maior que um.
+Pronto. E este é este aqui é que é o
+truque. Ou seja, então se eu se eu tenho
+aqui no fundo, eu tenho um integral,
+eu tenho um integral.
+OK? Entre 1 e infinito
+de 1 sobre x de qualquer coisa.
+Qualquer coisa e agora multiplica aqui
+por qualquer coisa, que essa qualquer
+coisa é sempre maior que um. Portanto,
+esta qualquer coisa que está aqui,
+OK? Esta esta esta pequena função que
+está aqui,
+este g de x é sempre maior que 1, que é
+o que estamos aqui a ver, porque avaria
+primeiro 2 e depois vai até 1. Seja como
+for, é sempre positiva, maior que 1.
+Pronto. Então, se eu cortar, eu digo
+assim: "Bom, então eu eu desprezo.
+Então, se eu desprezo, vou ter um
+integral mais pequenino,
+porque em vez de tomar as fatias todas e
+que que cada uma dessas fatias
+multiplicava por um número maior que um,
+eu agora tiro esse esse esse este fator
+multiplicador,
+então fico com o integral de fatias mais
+pequeninas, que é o integral de 1 sobre
+x.
+Pronto. Mas o integral de 1 sobre x nós
+já sabemos que é o logaritmo.
+Fica 2 pi logaritmo
+de x entre 1 e infinito
+e e o valor de 1 é zer e portanto fica
+logaritmo de infinito é infinito e
+portanto é igual a infinito. Ou seja, se
+este integral com 1 sobre x ele é
+infinito,
+OK? Então, ainda mais infinito será se
+cada uma das pequeninas fatias dx eu
+tivesse multiplicado aqui por este
+termo. Porque cada cada este fator
+multiplicativo aqui é sempre maior que
+um. Pronto. E portanto é pelo menos esta
+é a abordagem que que eu tive a ver na
+net.
+Eh, e, e pronto, e para mim também serve
+eh para o que se pretende demonstrar,
+porque é o que se pretendia, o que se
+pretende demonstrar é este aparente
+paradoxo, este aparente paradoxo de
+Gabriel Jorn,
+que na verdade h
+enfim, assim paraos para os mais
+distraídos poderá aparecer paradoxos,
+mas para quem já tá habituado a lidar
+com a matemática, já é uma coisa banal,
+como eu vos demonstrei aqui nesta
+analogia dos quadrados. Pronto, aqui na
+internet o que dá-se é um é um pronto,
+dá-se esse aparente paradoxo de que
+efetivamente isto seria, imaginem que
+isto era um um um vasilhame, não é? um
+um aqui um um dispositivo
+em que eu enchia de tinta
+e a tinta era finita porque realmente o
+volume é finito,
+mas depois eu pegava nessa mesma tinta e
+eu tentava pintar o exterior o exterior
+deste vasilhame, deste deste deste
+invólucro.
+E, portanto, eu não conseguia pintar
+porque a superfície é infinita,
+portanto não é impossível pintar o
+exterior do do do objeto. É similar, é
+um raciocínio similar ao que eu fiz
+aqui, esta analogia do quadrado. Cortar
+o quadrado em fatias, as fatias vão até
+ao infinito. O comprimento, o perímetro
+é infinito e mas no entanto a área é
+sempre finita, que é sempre é é sempre
+igual à constante inicial.
+[roncando]
+Eh, penso que vamos ficar por aqui. Eu
+tinha pensado dar aqui algum conjunto
+mais de exercícios, mas vou deixar esses
+exercícios para outra vez. E pronto. E
+aqui ficamos então com dois problemas.
+Já chega que isto vai longo, mas pronto.
+Espero que tenha sido intuitivo para
+vocês. Estas questões aqui são bastante
+importantes. Aparece muito em matemática
+e a pessoa tem que ter isto bem bem
+ciente. Estes fatores aqui
+multiplicativos do K k qu ou k cante o
+que estejamos a falar.
+Eh, o outro fator importantíssimo que
+deduzimos aqui é o fator de DL. Este
+fator aqui, esta parte aqui é
+importantíssimo e ela aparece realmente,
+quer seja no cálculo de comprimentos de
+curvas, quer seja no cálculo de de
+superfícies de revolução.
+OK? Isto é fundamental
+perceber perceber de onde é que de onde
+é que deriva esta fórmula.
+OK? deriva aqui deste triangulozinho
+retângulo, um raciocínio simples.
+E penso que sim, vamos ficar por aqui.
+Espero que tenham gostado e até uma
+próxima oportunidade.
+

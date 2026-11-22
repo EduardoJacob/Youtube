@@ -1,0 +1,1312 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial,
+OK? Da minha playlist de matemática.
+Hoje vai ser dedicado ao ao famoso e
+importante integral de Gus,
+OK? Que vai estar relacionado com a
+curva normal, OK? Que já lá lá
+chegaremos.
+Eh, mas entretanto
+vamos fazer aqui uma introdução às
+coordenadas polares,
+OK?
+Eh, sim senhor. Vocês, muitos de vocês
+conhecerão, certamente estudaram
+as coordenadas curvilíneas
+e polares, cilíndricas, esféricas,
+hiperbólicas, etc. OK? Não vamos agora
+aprofundar isso porque isso é é um tema
+também complexo,
+mas
+vamos ver. Bom, para já, portanto, como
+introdução, vamos considerar aqui este
+círculo,
+este um 1/4 de círculo, o qual nós
+pretendemos eh calcular, portanto, a
+área do circo. Ora bem.
+Portanto, desde logo,
+o perímetro do círculo em si, o
+perímetro, o perímetro,
+não requer demonstração porque porque o
+perímetro do círculo
+é ele ele e o perímetro do círculo ele
+ele é 2 pi r por definição de pi.
+Pronto. Portanto, esta parte aqui está
+clara que o perímetro do círculo
+da circun da circunferência, se
+quiserem, o comprimento da
+circunferência, portanto, é 2 pi r,
+OK? Porque assim foi definido o pi.
+Portanto, o pi o pi é definido como
+sendo a razão entre o perímetro e o
+diâmetro. Sim, senhor. Portanto, esta
+parte não requer demonstração.
+[roncando] Agora, quanto à área do
+círculo,
+quanto a área do círculo,
+ora que vocês sabem que é é pi quadrado.
+OK. Vamos, vamos deduzir, vamos fazer a
+integração. Sim, senhor. Para isso, eu
+vou que vou, para, para ser mais
+simples, vou fazer só aqui a área eh
+aqui aqui de 1/4 de círculo. Portanto,
+este este 1/4 do círculo, OK? E depois
+multiplicamos por quatro. Sim, senhora.
+Eh, de onde vem a como deduzir a equação
+da circunferência? muito simples.
+Eh, portanto, podemos fazer a equação da
+circunferência. Nós podemos
+eh
+considerar a equação vetorial, OK? Que é
+o, portanto, é sempre a forma mais
+poderosa, já vos disse isso noutros
+tutorials,
+OK? Que é a equação vetorial.
+Eh, e o que diz a equação vetorial do da
+circunferência.
+Portanto, para isso, temos que apelar à
+definição do de uma circunferência. O
+que é uma circunferência?
+Uma circunferência é o conjunto de
+pontos X. Conjunto de pontos X,
+tal que é aqui, neste caso, vamos
+trabalhar em duas dimensões. Portanto, o
+conjunto de pontos do plano, OK?
+tal que
+eh eles estão a uma distância
+a uma distância neste caso da origem,
+porque neste caso ou do seria do centro,
+OK? Portanto, do centro,
+eles estão a uma distância.
+Então, uma distância é isto, é X, é o
+comprimento do vetor X, estão a uma
+distância fixa, cuja esta distância é
+igual a um raio. Pronto, neste caso, o
+centro, vamos centrar a circunferência
+aqui na origem do sistema de eixos.
+Portanto, fica que, portanto, o
+comprimento do vetor X é igual a R. E o
+comprimento do vetor X é o teorema de
+Pitágoras, OK? é a raiz quadrada das
+suas coordenadas, pois neste caso
+estamos a só a duas dimensões, portanto
+será isto. [roncando] OK? Terma de
+Pitágoras, o comprimento do vetor é
+igual a R.
+Eh, e normalmente elevamos ao quadrado,
+que é fica uma equação mais elegante,
+OK? E uma forma, portanto, mais elegante
+de apresentar a equação eh da
+circunferência.
+Sim, senhor. Pronto, cá está ela,
+a equação da circunferência. OK.
+Eh, portanto, nós então agora vamos
+calcular aqui o integral. Eh, para
+calcular o integral, pois nós sabemos
+calcular o integral de uma função quando
+quando a função está explicitada em
+ordem y. Portanto, vamos explicitar aqui
+em ordem y e, portanto, fica que esta
+curva à circunferência [roncando] é y é
+igual a raiz quadrada.
+Portanto, R2 - X2. Sim, senhora. R2 -
+X2.
+OK? Sim, senhor. Portanto, então vamos
+dizer que a área que a área que eu quero
+de todo o círculo há de ser quatro
+vezes. Quatro vezes, porque nós vamos
+calcular apenas este quarto de círculo.
+OK? Penso que é mais simples trabalhar
+assim, mas vocês podem fazer como
+exercício trabalhar de outra forma.
+Podem calcular, por exemplo, metade do
+de de um círculo e multiplicar por dois
+ou o círculo todo. Pronto, é uma não sei
+não não fiz agora esse teste. Eh, eu fiz
+uns apenas 1/4 de círculo e, portanto, e
+sendo 1/4 de círculo será o integral
+quando quando o x varia aqui, quando o x
+varia aqui entre zer, OK? O x vai variar
+aqui, OK? Ao longo deste ei te ei texo,
+entre 0 e r. OK? Portanto, o X o X vai
+variar
+entre 0 e R, OK?
+E vamos ter fatias verticais.
+Estas fatias verticais aqui.
+Vamos ter aqui estas fatias verticais,
+portanto, cuja altura é o valor de y.
+É o valor de y,
+OK?
+R2 - X2
+vezes DX. Pronto, estas são as fatias,
+são retângulos de largura dx e com a
+altura que é igual ao f(x), que é igual
+a isto. Pronto. Sim, senhor. Temos este
+integral. Nós já sabemos fazer esta
+integração porque nós estudamos o método
+da da primitivação por substituição, OK?
+E, portanto, na altura vimos que, OK,
+que este tipo de de integrações eh
+faríamos com fazíamos com uma
+substituição trigonométrica.
+Portanto, dizíamos, olha, seja x, na
+altura era x = a seno ou cosseno, tanto
+faz. Pronto, neste caso, como vamos ter
+aqui um aqui um r2, interessa-me fazer
+seja x = a r seno
+seno de teta. OK? X = r seno de teta.
+Porque depois ao elevar ao quadrado
+posso pôr o r quado em evidência, fica
+mais simples. Pronto. E sendo assim que
+dx
+é igual a r uma constante
+o cosseno de teta d teta. Ok? Pronto.
+Sim, senhora.
+Ok.
+Ora, e também vimos na altura da
+primitivação que tem outros que também
+podia pôr aqui em evidência ao teta
+igual ao arco agora não vamos precisar
+para esta integração. Pronto, isto isto
+é o que nos basta aqui a a forma da
+transformação,
+OK? Da mudança de variáveis.
+OK. Sim, senhora. Pronto. Então, sendo
+assim,
+OK,
+sendo assim, vamos ficar aqui com o
+integral.
+Na altura usamos esta técnica para
+primitivação e não para integração.
+Agora vamos usar para integração. E
+então há aqui um outro pormenor. Há aqui
+um outro pormenor porque agora os
+limites de integração têm que ser
+levados em conta.
+Na altura fazíamos apenas este método
+para primitivação, para calcular a
+primitiva,
+OK? Não havia integração. Agora sim.
+Agora precisamos da primitiva, mas
+também vamos depois fazer a integração.
+Então não nos basta esta aqui esta
+expressão. Eu tenho que determinar
+qual a correspondência para os limites
+de integração.
+Ou seja, eu tenho que dizer quando x =
+0, se eu quero fazer a mudança de
+variáveis para teta,
+OK? Qual será o teta correspondente?
+Ponto aqui salta à vista que se eu fizer
+teta igual a 0, sen 0 é 0 e portanto x =
+0. Pronto. Então aqui o correspondente é
+teta igual a 0.
+[roncando]
+Eh, e quando x = r, este limite aqui
+superior,
+OK? Eu tenho que arranjar esta
+correspondência,
+uma correspondência que faça sentido.
+Quando x = r,
+eu vou dizer: "Bom, se eu fizer o teta
+igual a pi/,
+se eu fizer teta = a pi/, eu vejo que
+sen pi/ é 1 e, portanto, dá que x = r e
+tá correto." Ou seja, portanto, esta é a
+correspondência que eu que faz sentido.
+O intervalo de x entre 0 e r. O
+intervalo de x,
+OK?
+O intervalo entre 0 e r,
+após fazer a mudança de variáveis,
+equivale a um intervalo para teta
+entre 0 e pi/2.
+Pronto. Pronto. Aqui este é o trabalho
+extra que nós temos quando estamos a
+integrar, que não tínhamos quando
+estávamos apenas a primitivar.
+OK? [roncando] Portanto, aqui então eu
+vou dizer que este integral em x
+equivale a um integral em teta com teta
+varia de 0 a pi/ meios.
+OK? Aqui vai ficar, portanto, a raiz
+e temos r2
+- x qu
+r2 seno quad
+e agora temos o dx aqui que que o dx é
+igual a r coseno teta d teta.
+R
+cosseno teta d teta.
+OK?
+Pronto, eu faço estas. Eu já vocês já
+conhecem que eu costumo fazer esta esta
+abreviatura. Em vez de estar sempre a
+escrever seno teta, basta-me escrever um
+s e um c. Pronto, aqui não há dúvida
+nenhuma. Estamos a trabalhar com teta,
+portanto é teta. OK? E portanto isto vai
+ficar então o quê? Ora, nesta raiz
+quadrada aqui, eu posso pôr em evidência
+o R2. O R2 passa para fora, fica R. R.
+Portanto, este, este com este passa para
+fora, fica R. Depois com este fica R2.
+R2, uma constante passa para fora do
+integral. Portanto, aqui fica 4r².
+O integral entre 0 e pi/.
+[limpando a garganta]
+Pronto. E aqui vai ficar a raiz quadrada
+de 1 - sen². Ora, 1 - sen² é cosseno.
+1 - seno² é o cosseno quadrado e a raiz,
+portanto, fica cosseno. Portanto, então
+fica cosseno [roncando] e agora com este
+cosseno aqui fica cosseno quadrado
+d teta. Pronto. Sim, senhora. E agora
+precisamos de primitivar o cosseno
+quadrado, mas nós lembramos-nos das
+formas fundamentais da trigonometria.
+Lembramos-nos que o seno de 2 al
+é igual a 2 seno de alfa cosseno de alfa
+e cosseno de 2 alfa é igual a cosseno
+quadrado de alfa men seno quad de alfa.
+Pronto, isto pronto, eu não tenho muitas
+fórmulas trigonométricas de cor, mas
+tenho algumas e estas são algumas das
+fundamentais que eu tenho.
+OK?
+Se não, se eu precisar de mais, tenho
+que ir ver as tabelas, que já não tenho
+que saber as coisas de cor.
+Ora bem, então vamos aqui temos uma
+relação onde aparece o cosseno quadrado.
+Pronto, então isto fica aqui
+o cosseno quadrado menos o seno
+quadrado, mas o seno quadrado é 1 menos
+cseno quadrado.
+1 men cosseno quadrado. Portanto, que
+aqui fica menos por menos dá mais 2 ceno
+quad - 1. onde aqui implica p onde em
+evidência ao cosseno quadrado fica que
+cosseno quadrado é igual ao cseno 2 al
++ 1 e tudo sobre 2.
+Pronto, aqui temos nós a nossa fórmula
+para o cosseno quadrado. Portanto, que
+este integral então fica que 4r²
+4r²
+o integral em teta entre 0 e pi/
+e aqui fica o cosseno de 2 al/ 2
++ 1/2
+integrar em enganei-me aqui que não é
+alfa, é teta.
+OK? o cosseno
+o cosseno 2θ
+sobre 2 mais + 1/2 d. Sim, senhora.
+Pronto. E então fica o integral, fica
+então 4r².
+E agora temos ali a primitiva com o seno
+de 2 t é seno 2 teta. seno 2 teta sobre
+2 e, portanto, o 2 com 2 aqui fica sobre
+4
+e portanto mais 1/ fica mais teta me
+teta me portanto e tudo isto tudo isto
+entre
+0 e pi/2,
+portanto o zero não vai contar porque
+aqui zero dá zero, seno de zer é zero.
+Pronto. E o pi e aqui o pi/2 vai o pi/2
+vai entrar aqui e fica seno de 2 x pi/2
+ou seja seno de pi é 0 então fica aqui
+apenas pi/2 sobre 2 pi/4 pronto então
+finalmente isto fica r 4r2 vezes
+efetivamente pi/4
+e portanto e o o 4 corta corta e
+portanto efetivamente pi r quad como
+estávamos à espera pronto e como vem e
+pronto cá cá está conseguimos integrar
+Eh, mas é trabalhoso, obviamente.
+Pronto, isto é para vos sensibilizar
+para a importância das coordenadas
+polares, para quem ainda não tenha essa
+essa noção. É óbvio que agora vamos
+fazer o mesmo com coordenadas polares,
+OK? Com coordenadas polares o resultado
+é completamente trivial. Sim, senhor.
+Bom, então como é que nós vamos
+trabalhar agora com as coordenadas
+polares? Eu não, eu não quero dar agora
+aqui um curso de coordenadas curvivíneas
+que teria que entrar com com as as
+regras, com as transformações, com as
+derivadas, com a matriz das das
+derivadas parciais, com os jacopianos,
+etc, etc, etc. Não vou agora entrar por
+aí porque não não precisamos. Nós vamos
+chegar de uma forma intuitiva, nós vamos
+chegar de uma forma intuitiva às às
+coordenadas polares. OK? Pronto, para
+isso eu queria eh eh chamar a atenção
+também de uma temática que que
+ainda não apareceu nenhum nenhum exemplo
+aqui nestes tutorialis que que da das
+dos integrais múltiplos. Pronto, os
+integrais múltiplos não tem nada que
+saber. Nós vimos ainda agora que quando
+eu fiz esta integração, eu disse que
+isto representava um somatório, que é um
+integral de de fatias retangulares.
+Pronto. Ou seja, o meu elemento de
+integração era um retângulo. Foi isso
+que eu mostrei aqui neste gráfico.
+Pronto. Mas de um modo geral, de um modo
+geral,
+eu posso ter um outro elemento de
+integração. Eu não sou obrigado a ter o
+elemento de integração, um retângulo. Eu
+posso ter um elemento de integração, um
+quadrado.
+Pronto, eu posso ter aqui uma curva.
+Pronto, e posso dizer assim, bom,
+eu posso dizer que o x varia e, por
+exemplo, por exemplo, aqui, vamos dizer
+aqui,
+por exemplo, entre a e b. E vamos
+imaginar que eu quero integrar aqui.
+[roncando] Aliás, aqui até tá um
+exemplo. Vamos imaginar que eu tenho
+aqui uma função f(x).
+f(x), OK? E tenho aqui uma outra função
+G de X.
+Pronto. Então vamos imaginar que eu
+quero calcular a área
+aqui, esta área.
+Bom, já sabemos, eu poderia calcular
+esta área. Eu poderia calcular esta área
+dizendo, bom, o integral entre a e b de
+fx, o que viria aqui até ao eixo
+f(x) e depois a subtrair o integral de g
+de x
+entre a e b. Sim, senhor. Eu podia, mas
+também posso fazer de outra maneira. Eu
+posso dizer que eu posso fazer só com um
+integral múltiplo.
+Eu posso dizer que eu, em vez de
+considerar aqui estas fatias,
+como temos vindo a considerar até agora,
+eu posso considerar quadrados, porque em
+vez de fatias e retângulos
+infinitésimais, posso considerar
+quadradinhos infinités e mais. E o
+quadradinho tem
+dimensões dx
+e dy. Pronto. E então o integral da área
+passa a ser um integral múltiplo.
+Integral múltiplo porque eu tenho que
+variar.
+Posso posso variar. E agora tanto faz.
+Nor normal tanto faz não. E normalmente
+tanto faz. Depende da forma como depois
+estabelecemos os limites de integração.
+Tanto faz fazer a a integração externa
+em y e interna em x ou vice-versa. Às
+vezes às vezes já dá mais jeito fazer de
+uma maneira ou de outra quando
+estabelecemos os limites de integração.
+OK? Pronto. Então aqui e vamos imaginar
+assim desta forma. Eu vou dizer: "Bom,
+primeiro tenho que integrar internamente
+em x e digo x varia
+x varia de a a b
+x varia de a a b.
+OK?
+H
+e para cada x,
+para cada x,
+imaginemos aqui este x,
+este x para cada x,
+o y. Deixa, deixa-me pôr isto aqui um
+boquinho mais para dentro, senão não,
+não se percebe.
+Ok.
+Para cada eh X aqui,
+o Y varia em quê?
+O y varia desta esta altura aqui.
+Ou seja, o y varia entre este, qual é
+este este ponto aqui para um dado para
+um dado X específico.
+Este ponto aqui é G de X
+e este ponto aqui em cima é F dex.
+Pronto. [roncando] E então aqui digo que
+para cada x aqui o y varia entre
+[roncando] entre G de G g de X,
+OK?
+Entre y
+igual a G de X
+a f dex.
+Pronto. Pronto. E não tem mais nada. E
+fica assim o integral. Ou seja, o
+integral fica assim. é um integral
+duplo,
+OK? É um integral duplo.
+O que e e o que é que eu estou a
+integrar? Eu eu estou a integrar apenas
+o o o os retângulos, os elementos de
+integração, os quadradinhos dx d y. OK?
+Aqui não tem nada. Aqui não tem nada
+porque o que eu estou a integrar é só
+isto.
+Reparem que há bocado quando nós
+estávamos integrar estávamos a integrar
+retângulos.
+Quando quando integrávamos retângulos,
+tínhamos um só integral. E aqui tínhamos
+um f(x) dx que que é um que é o
+retângulo, é o elemento de integração,
+uma altura, um retângulo com a altura
+f(x) e largura dx.
+Este era o elemento de integração, mas
+agora o elemento de integração é dx dy.
+Então aqui dentro não precisa nada, OK?
+Mas quando eu começo a resolver este
+integral, vamos ver que este degenera
+neste e no fundo é a mesma coisa.
+Portanto, não precisamos de integrais
+múltiplos aqui nesta situação. Isto é é
+simplesmente isto é só estou só a
+demonstrar-vos
+como é a mesma coisa.
+Qualquer integral múltiplo deste género
+simples degenera num num integral
+simples destes. Mas há situações mais
+complexas onde efetivamente precisamos
+do integral múltiplo quando queremos
+calcular algo mais. Eh, pronto, que
+eh, por exemplo, um centro de massa ou
+qualquer ou há situações em que
+efetivamente eh não podemos usar um
+integral simples com fatias. Há
+situações em que vamos ser obrigados a
+ter que usar integrais múltiplos.
+Pronto, mas um dia mais tarde, se
+chegarmos a tutoriales desse tipo, onde
+seja necessário, depois logo se vê isso
+para não estar agora aqui a complicar.
+Pronto. Mas este integral múltiplo que
+estamos aqui a ver, eu
+como é que eu resolvo para relembrar ou
+alguns vocês possam estar um pouco mais
+esquecidos. Portanto, eu integro
+primeiro aqui dentro e o integral aqui
+dentro. Aqui não tá nada. Aqui não tá
+nada. É o mesmo que estar um. É o mesmo
+que estar aqui um. É, é um 1. E,
+portanto, a integração em x vai dar x.
+Portanto, aqui não está nada. É o mesmo
+que estar um. E a integrção em x vai dar
+em x. Então este este integral fica o
+integral aqui em y
+igual a g de x.
+Portanto, e aqui dá a
+[suspirando]
+Ora, aqui este este integral não vai dar
+jeito. Este integral aqui para
+simplificar
+eh não depois não não fica intuitivo
+para para chegarmos a esta expressão que
+eu que é o que eu quero.
+Pronto. Então dá dá aqui dá mais jeito
+fazer o integral múltio, mas trocando a
+ordem de integração, integrando, fazendo
+variar externamente o x.
+OK? O X entre A e B. Sim, senhor.
+Eh, e depois internamente para cada X
+fazer variar o Y, que aliás estava
+estava de acordo com o raciínio que eu
+estava aqui a a explicar. Pronto, de
+acordo com o raciínio que eu expliquei,
+na verdade, o que o que eu estava o que
+eu estava a dizer repercute-se neste
+integral aqui. Externamente em x varia
+de a a b e depois internamente
+eh o y varia de
+OK? O y
+o y varia de g de x a f dex.
+Pronto. E aqui vai leva 1 dy dx.
+Pronto. E efetivamente
+aqui internamente aqui integrando em y
+dá em 1 dá y e portanto aqui fica o o
+integral quando x varia de a b
+e aqui dentro e aqui dentro fica o y
+integrado nos limites de integração
+entre g de x e fx.
+OK? Pronto. E depois aqui d x. Pronto.
+Então efetivamente aqui vai dá bom para
+y = fx dá fx - g dex. Pronto. Então fica
+o integral
+fx - g dex
+dx
+com x varia de a a b. Pronto, que tá
+correto, que é o que nós tínhamos aqui
+quando eu escrevi aqui esta expressão,
+que a área era o integral entre a e b,
+que eu que eu posso juntar tudo só num
+integral e pôr o integral de f - g.
+Pronto. OK. Isto é só só um pequeno
+recordatório e para alguns de vocês que
+possam estar um boquinho mais
+destreinados dos sobre os integrais
+múltiplos. OK? Sim, senhor. Foi um uma
+pequena abordagem aos integrais
+múltiplos porque precisamos deles agora
+para introduzir as coordenadas polares.
+OK? Nós vamos então introduzir agora as
+coordenadas polares. Portanto, mais um
+recordatório sobre as coordenadas
+polares e mostrar como nós podemos
+trabalhar com as coordenadas curvivíneas
+sem saber nada da teoria de coordenadas
+curvivíneas. Nós podemos trabalhar por
+intuição, OK? Se tivermos a intuição
+correta, conseguimos fazer e trabalhar,
+OK? O que acontece é que depois há toda
+uma teoria de de dentro da matemática,
+um ramo da matemática, das coordenadas
+curvivinas, como eu falei, com os
+copianos e etc, etc. uma forma
+sistemática de de tratar esses temas.
+Pronto, mas não é obrigatório ter ter
+esse noow para para conseguir trabalhar
+com coordenadas curvivíneas, porque nós
+e o caso das coordenadas polares é é um
+caso exemplificativo porque porque é um
+é um tema bem simples e nós conseguimos
+chegar eh intuitivamente
+ao ao a toda a matéria que precisamos
+sobre coordenadas corvivíneas
+neste caso de coordenadas polares.
+Portanto, para isso, o que é que nós
+vamos fazer?
+Vamos considerar aqui na mesma,
+portanto, o nosso problema inicial, que
+era o cálculo da área do círculo. OK?
+Eh, sim, senhor. Vamos considerar aqui
+e portanto o circo.
+OK? Pronto, um círculo. Vamos considerar
+aqui o circo. Sim, senhora.
+E agora
+e vamos considerar aqui qual é a ideia
+das das coordenadas polares. A ideia é o
+seguinte, OK? Em vez de eu ter o o
+integral, um somatório de fatias
+retangulares,
+portanto eu não vou fazer integração
+retangular, OK?
+Também [roncando] não vou fazer uma
+integração com
+com
+pequenos quadrados
+dx dy. OK? Eu não quero, ou seja, eu não
+quero uma integração com malha
+retangular, nem com malha retangular,
+nem com malha quadriculada.
+Eu quero uma integração diferente, que
+chama-se integração com com coordenadas
+polares. E como funciona essa malha?
+Pronto, essa malha é uma é uma malha
+angular, digamos assim. Ou seja, ela tem
+ela ela é composta aqui
+por um pequeno ângulo.
+Tem um um tem tem é um pequeno setor
+circular,
+é um pequeno, portanto, a malha é
+constituída por um um setor circular.
+Vamos considerar este setor circular
+aqui.
+OK? Pronto. Em que o tem um ângulo,
+tem um ângulo. Eu vou pôr aqui em
+grande.
+Pronto. Esta é a malha. Esta é a malha.
+Pronto. Só que a diferença para a malha
+quadricular
+é que a malha quadricular todos os
+quadradinhos têm têm o mesmo tamanho.
+Não importa onde está o quadradinho,
+enquanto que aqui não, porque este setor
+circular aqui que eu tenho verde,
+ele é maior,
+é maior do do que, por exemplo, este
+este
+setor equivalente que tá aqui é
+vermelho.
+OK? Pronto. Então,
+porque quanto mais longe está da origem,
+maior fica o setor circular,
+este aqui. Pronto. Então, como é que eu
+defino este setor circular? Defino como
+sendo esta parte aqui é linear, esta é
+sempre igual,
+que é um que é dr. Pronto. E é fácil
+entender porquê. Porque porque
+efetivamente este segmento aqui, este
+pequeno segmento tem o mesmo comprimento
+deste, tem o mesmo comprimento deste,
+tem o mesmo comprimento deste. Portanto,
+esta parte é simples. Estas esta esta
+estas estas fatias e estes setores
+circulares tem têm todos a mesma
+espessura que é dr. Portanto, aqui não
+há dúvida nenhuma. OK? Pronto. Agora o
+que consoante a distância consoante a
+distância
+que eu estou da origem, esta distância,
+então vai fazer com que
+este comprimento aqui é que varia. OK?
+Pronto. E então passa a ser, ora temos
+aqui, para já temos aqui subjacente um
+ângulo que é o deta.
+Aqui tá subjacente o ângulo deta que é o
+que é o pequeno ângulo que tá aqui na
+origem.
+E agora este comprimento aqui vai
+depender do deta e e do da distância.
+Portanto, este comprimento,
+este comprimento
+ele ele vai depender da que distância
+está da origem. A que distância R é o
+estado da origem. E este comprimento
+naturalmente que tem que ser r, o valor
+da r que é proporcional à distância rθ
+teta. Sendo deta. Este este pequeno
+ângulo aqui,
+este deta
+deta.
+E se o teta for igual a 2 pi,
+então então este comprimento me dá 2 pi
+r, tá correto? É o comprimento de uma
+circunferência. Portanto, este elemento,
+então, este tá coerente, tá coerente
+aqui,
+tá coerente,
+está coerente que este é
+eh
+o elemento de integração,
+OK? Enquanto que o elemento de
+integração em coordenadas cartesianas
+é dx dy
+ou d y dx consoante a ordem que nos deve
+der mais jeito integrar
+em coordenadas polares, o elemento de
+integração é este pequeno setor
+e e e cujas dimensões ele é curvo, mas
+para para infinites e mais ele
+aproxima-se de uma forma retangular.
+Portanto, eu posso desprezar esta esta
+curvatura aqui e posso considerar como
+isto sendo um retângulo
+e com as dimensões. Então, é o reta
+dr. OK? Portanto, o reta
+dr.
+Pronto. Este é o elemento de integração
+em coordenadas cartesianas. Este é o
+elemento de integração em coordenadas
+polares. Ou seja, nós chegamos a esse
+elemento de integração
+de uma forma intuitiva, desta forma,
+como como eu demonstrei. OK? Sim,
+senhora.
+Eh, e portanto,
+h
+vamos
+com base nisto, consegui calcular agora
+a área então do círculo
+porque eu digo assim: "Bom, eu tenho que
+integrar todos estes pequenos setores
+circulares,
+OK?
+E a área
+vou fazer igual como fizemos há bocado.
+Vou dizer que é quatro vezes e vou dizer
+que tenho aqui
+tenho aqui duas integrações,
+uma em r e uma em teta.
+Vamos ver se se importa a ordem ou não.
+Isso já já veremos.
+O que é certo é que R tem que variar
+entre 0 e R, o raio do círculo,
+OK?
+E depois para cada R,
+para cada R, o teta varia, o teta varia
+entre 0 e pi/,
+OK?
+De quê? eh do elemento de integração,
+que é o R
+d.
+Pronto.
+Pronto. Portanto, quis fazer um pequeno
+recordatório sobre integrais múltiplos
+para não sei. Espero que isto para quem
+esteja um boquinho esquecido, que isto
+seja mais ou menos intuitivo. Pronto,
+mas ok. [roncando]
+A, e portanto
+agora integramos.
+Pronto. Ora, o que é que nós temos aqui?
+Primeiro temos o integração em teta.
+Integração em teta. Porque o o o teta
+está aqui internamente, tem que ser
+integrado primeiro. Ora, integração em
+teta aqui fica rθeta.
+Portanto, fica que a área
+é igual a um integral.
+R faria de zero a a R.
+E, portanto, aqui fica R r teta
+com teta entre entre 0 e pi/ me
+e portanto fica R pi/ me r pi me agora
+falta integrar em em dr.
+Portanto, fica
+a área igual a 4.
+H o este R pode passar aqui para fora.
+Portanto, aqui teta fica pi/,
+portanto, agora integrando em R fica pi/
+meios
+pi/ R.
+Portanto, com com R
+com R entre 0
+e R.
+Ora, o zero anula.
+OK. Deixa-me corrigir isto aqui que isto
+estava aqui uma granda borrada.
+Portanto, aqui o elemento,
+este R aqui, quando eu pus aqui este R,
+este R é o não é o R grande, é o é o R
+pequenino. OK? Deixa-me apagar aqui esta
+porrada.
+OK? O R grande é é o limite de
+integração até onde vai, mas o o este
+cada distância destas é é o R pequenino.
+Portanto, o R pequenino vai até aqui ou
+vai até aqui. Pronto. E e depois no
+máximo vai até aqui até R grande.
+Portanto, OK. Portanto, aqui o o
+elemento aqui, este não era o R grande,
+obviamente. Este é o R pequenino.
+OK. Sim, senhora. Deixa-me apagar aqui
+esta borrada.
+OK.
+OK.
+Pronto, este é o elemento de integração
+que que depende para que para cada R,
+para cada R dá uma dimensão diferente.
+Quanto maior for o R, pois maior o
+elemento de integração. OK? Arredondamos
+para um retângulo. Sim, senhor. Essa
+parte tá correta.
+Essa parte tá correta.
+Ele é curvidinho, mas mas para dimensões
+infinitas e mais é aproximado a um
+retângulo.
+O dr é sempre constante e esta outra
+dimensão, pois depende de cada R no
+momento de integração. Portanto, R. OK?
+Portanto, aqui efetivamente temos aqui o
+R. Sim, senhor. Ora bem, então estamos
+agora a integrar primeiro em teta.
+Ora, em teta, o r será uma constante.
+Sim, senhor. Então aqui fica R.
+OK. R.
+OK.
+Sim, senhora. Ora, R.
+Portanto, integrando em teta, não tá
+aqui teta nenhum, fica teta, fica pi/,
+portanto, fica r pi/2. RP, que é o que é
+o que tenho aqui.
+Ora, este R aqui tá a mais.
+Ora, eh, RP
+me
+deixa fazer isto aqui mais devagar para
+não haver confusão.
+OK, portanto já integrei em teta. Dá
+ros.
+Portanto, 4. Agora integral em R.
+R varia de zero a Re. Agora sim, o R
+grande
+de RP/ me
+r piar
+em R. Ora, integrar em r aqui dá r²
+sobre 2, portanto fica r² sobre 4.
+Pronto. Então fica 4.
+E aqui fica
+r²
+sobre 4 x pi.
+Portanto, tudo isto entre
+entre e r,
+portanto, o 4 corta corta dá o nosso pi
+r quadrado.
+Ok, pronto. Bem mais simples, como
+viram, obviamente não não precisei não
+já não precisei aqui da da transformação
+trigonométrica do método de
+substituição. Portanto, é óbvio que aqui
+bem mais simples. E é para isso que
+servem as coordenadas polares, OK?
+Quando queremos integrar qualquer coisa
+que tenha uma uma geometria circular,
+OK? Pronto. Deixa só agora integrar
+também, mudando a ordem de integração
+para verem que não não muda
+absolutamente nada, OK? Vamos aqui pôr,
+olha, seja a OK. Ora, quatro vezes.
+Agora vou integrar em teta externamente.
+Integrar em teta
+0 a pios.
+Internamente vou integrar em R.
+ria entre 0 e R.
+OK. Elemento de integração
+R. Ora, internamente em R
+e externamente em teta. OK? Pronto,
+agora mudei a ordem de integração. Sim,
+senhor.
+Eh, portanto, obviamente que neste caso
+não deverá ter importância absolutamente
+nenhuma. Vamos ter que chegar ao mesmo
+resultado.
+Ora, portanto, 4
+integrais entre meios. Ora, internamente
+integra em R, tá? R2
+sobre 2
+[roncando]
+entre 0 e r.
+Pronto. E agora d teta.
+Sim, senhor. Ora, portanto, então fica
+ora, 4.
+R2 sobre 2 passa a ser uma constante em
+termos de teta.
+É uma constante r2
+sobre 2.
+E, portanto, agora integrando em teta,
+aqui não tem nada, fica teta.
+teta entre 0 e pi/
+e portanto daqui tá d pi/ meos portanto
+pi qu 4 corta corta corta e portanto pi
+r qu
+pronto sim senhora portanto não importa
+a ordem de integração, usamos
+coordenadas polares, calculamos a área
+do círculo. Pronto, isto tudo isto é uma
+uma um pequeno recordatório e introdução
+que vamos a seguir para resolver o
+integral de Gaus, porque o integral de
+Gaus depois vai ter este artifício, vai
+ser convertido em coordenadas polares.
+OK?
+Ora, sem querer entrar, como eu disse,
+não vamos aprofundar agora nada da
+temática das coordenadas curvivinas, mas
+como estamos a tratar aqui de
+coordenadas polares, já agora, não quis
+deixar de mostrar aqui esta fórmula, que
+esta é a fórmula geral para o cálculo de
+de uma área para uma função, ela própria
+expressa em coordenadas polares, ou
+seja,
+nós, portanto, em coordenadas
+cartesianas, nós sabemos que podemos ter
+uma função
+no qual exprimimos y igual a a função de
+x.
+Pronto, nós sabemos isto e vimos que a
+área debaixo de uma curva
+seria um integral quando x variava
+dentro de um determinado intervalo entre
+a e b de fx
+dx. Pronto. Sim, senhora. Isto é chapa
+5. Isto foi o que nós vimos. Agora em
+coordenadas polares,
+o que acontece? também podemos ter
+funções definidas em coordenadas
+polares, OK? Portanto, podíamos estar a
+trabalhar num universo de coordenadas
+polares
+onde nunca existem x e y. OK? Atenção,
+claro que depois existem equações de
+transformação para passar de de
+cartesianas para polares e viceversa,
+mas eu posso estar a trabalhar no
+universo das coordenadas polares
+e e nunca na vida falar em x ou y.
+No universo das coordenadas polares, eu
+posso definir uma função. Reparem que
+aqui eu posso definir em cartesianas eu
+posso dizer y é função de x porque isso
+é é herbitrário. Mas eu também podia
+dizer, olha, seja x em função de y
+também poderia ser seja seja x uma em
+função de y. Pronto, mas é arbitrário
+que normalmente escolhe x para variável
+independente e y para variável
+dependente. E, portanto, a norma costuma
+ser esta. Quando trabalhamos com
+coordenadas cartesianas, consideramos
+que y é uma função de x quando temos
+funções. Em coordenadas polares é a
+mesma coisa, é arbitrário, mas
+normalmente o que se o que se designa é
+que, reparem que em coordenadas
+cartesianas temos um espaço de dimensões
+formado por duas coordenadas X e Y. Ok?
+Pronto. Em coordenadas polares, nós
+temos um espaço de dimensões formado
+também por duas coordenadas que passa a
+ser R teta. São duas coordenadas também,
+porque estamos são espaços de duas
+dimensões. OK? Agora as coordenadas é
+que são outras.
+E neste espaço de coordenadas polares,
+de forma por por convenção,
+convenciona-se que as funções são
+definidas como sendo seja r uma função
+de teta.
+Uma função de teta. Pronto, esta é a
+convenção
+que as funções são definidas como sendo
+funções de teta. Considera-se teta a
+variável independente e r a variável
+dependente. OK? Mas sim, senhor, mas não
+passa de uma convenção, tal como aqui em
+X y. Pronto. E nesta, então neste
+contexto,
+[roncando] raciinando desta forma, eu
+posso dizer qual será a forma genérica
+para o para o cálculo de uma área. OK?
+Portanto, o equivalente
+o equivalente a esta expressão aqui em
+coordenadas cartesianas,
+em coordenadas polares, vai ser esta
+expressão,
+OK? Esta em coordenadas cartesianas é é
+trivial. Toda a gente entende isto. Já
+que são são é um é um somatório de de
+retângulos. Esta aqui pode não ser
+trivial, mas vamos mostrar como isto é
+faz sentido. Pronto. Então o que
+acontece em coordenadas
+em coordenadas polares? Normalmente às
+vezes faz-se um sistema deixe assim, mas
+isto isto é um abuso. É um é um abuso de
+de de
+OK de linguagem. Nós eh a bom rigor
+nunca deveremos fazer isto. Deveremos
+sempre fazer um sistema radial. Um
+sistema radial.
+[roncando] Ora, este é que é o
+verdadeiro sistema de coordenadas
+eh polar. Aqui não há eixos X Y. Aqui há
+ângulo, um ângulo e uma e uma distância
+e há origem. Pronto. O que acontece é
+que muitas vezes, eu próprio às vezes
+faço isso,
+eh faço um sistema de eixos cartesiano,
+porque muitas vezes o que acontece é que
+a partes de uma equação cartesiana, OK?
+Muitas vezes partes de uma equação
+cartesiana para chegar à à equação
+polar. Por exemplo, eu eu parto de uma
+equação cartesiana, por exemplo, de uma
+circunferência
+x2 + y de
+x y, portanto, estou a trabalhar com
+coordenadas cartesianas igual a R2. E
+depois existe um conjunto de de equações
+de de equações da transformação.
+Eh, já me estou a estender um bocadinho
+mais do que que eu queria, mas pronto.
+E, portanto, existem equações de
+transformação onde diz assim: "Olha,
+para passar de equações cartesianas para
+polares, existe um conjunto de
+transformações e vice-versa para passar
+de polares para cartesianas. E para
+passar de cartesianas para polares,
+portanto, o que temos é que o o R, o R
+das das polares, o o o preciso de um R e
+preciso de um teta. OK? Pronto. Então,
+eu preciso de um de um R
+e que aqui que é igual a à raiz quadrada
+de x2 + y2.
+OK?
+e e e tenho um teta em cada momento. O
+teta eh será igual ao arco tangente
+de y sobre x.
+OK? Sim, senhor. Eh, e portanto,
+e daqui resulta que x2 + y2 a raiz é
+igual a r. E, portanto,
+a a equação de uma circunferência em em
+coordenadas polares, que que é uma
+função de teta, como vimos aqui, R = F
+de teta. Mas no caso de uma
+circunferência f de teta é constante,
+que é uma distância constante que é o r,
+OK? E, portanto, aqui desgenera e em vez
+de dar uma função de teta, dá uma
+constante.
+R = R. Esta é a equação da
+circunferência em coordenadas polares.
+Pronto. OK.
+H, sim, senhor. Que que não, eu não
+precisava nada disto para para concluir
+que a circunferência
+eh era x era r, porque pronto, uma
+circunferência, uma circunferência é
+isto, a sua característica é que é que r
+e isto aqui ficou torto, portanto, que r
+= r
+é a característica da circunferência em
+coordenadas polares. São todos os pontos
+que estão a à distância cuja coordenada
+R é fixa e é igual ao raio das
+circunferências. Sim, senhor. Pronto,
+isto é importante reter para arrumar as
+ideias e e não e não misturar as coisas,
+que às vezes e resulta muita mistura
+quando se trabalha com coordenadas
+polares.
+Porque é que esta fórmula aqui é válida
+da área? Porque em coordenadas polares o
+que nós fazemos é é um somatório de de
+imaginando que eu tenho aqui esta esta
+função, esta função aqui, eu vou
+desenhar aqui um pedaço de uma função.
+Pronto, isto é um pedaço de uma função
+que eu vou considerá-la entre vou
+considerá-la aqui entre o teta 1, teta
+1, e vou considerar aqui entre 2.
+Pronto. e vou considerar que quero
+calcular aqui esta área. OK? Eu quero
+calcular esta área.
+Pronto. Então, tenho esta curva que está
+aqui de limitadora. É, é uma tem que ser
+uma função polar, tem que ser uma função
+que é r = f de teta. F de teta. Pronto,
+aqui estamos a trabalhar em coordenadas
+polares pur e duro. Aqui não há kx nem
+y. OK? Pronto, aqui estamos num universo
+onde sai só existe rs e tetas. Pronto.
+Então assim, eh, eu tenho que para
+calcular esta área é um conjunto de
+triângulos.
+Vimos que em que em coordenadas
+cartesianas era um conjunto de
+retângulos. Aqui é um é um conjunto de
+triângulos.
+Tenho este pequeno triângulo aqui. E
+este triângulo quanto é que mede? Bom, é
+fácil. O o triângulo é sempre é um meio.
+Portanto, a área este elemento aqui,
+este este elemento aqui a vermelho,
+vamos este este elemento de área
+é é um meio porque porque a área de um
+triângulo é um meio. Um meio daqui do
+comprimento da base é comprimento da
+base é o rção
+de teta R. E depois esta altura aqui,
+esta esta pequena altura que é o d teta.
+Portanto, e portanto este é o elemento
+de integração, é remios de teta.
+H, minto porque porque a largura não é
+deteta. Esta esta largura aqui, esta
+largura vou pôr a verde. Esta largura é
+ela ela não é fixa de teta, ela depende
+da distância R. Portanto, ela é ela
+depende do R. Ela é RDA. Assim sim é que
+tá correto. RDA.
+Pronto. E, portanto, aqui efetivamente
+este o o elemento do triângulo será um
+meio de R, este R
+vezes esta altura. Mas esta altura ela
+própria depende do R. Quanto maior o R,
+pois maior. Portanto, que aqui então é R
+d. Pronto. E é por isso que o elemento
+da área passa a ser 1/2 de r² dθ.
+Pronto. E é por isso que está aqui na
+fórmula o integral entre teta 1 e teta 2
+de 1/ de f de teta que que eu aqui
+designei por r. Pronto, é a mesma coisa
+porque porque tá aqui a forma que r é f
+de teta. É, portanto, isto é a mesma
+coisa. 1/2 de f de t quad d teta. Vamos
+aplicar isto agora à circunferência. OK?
+Isto é, isto é na mesma coordenadas
+polares, o mesmo como fizemos aqui, só
+que eu aqui fiz manualmente,
+fiz, deduzir tudo manualmente a partir
+do zero, enquanto que aqui já vamos
+partir. Deduzimos primeiro uma forma
+genérica e partimos da forma genérica.
+OK? Aqui, partindo do zero, eu tive um
+uma integral múltiplo
+e aqui utilizo a forma genérica. Já não
+preciso de integral múltiplo. Tenho já
+tenho um integral simples. OK? Não estão
+não sei se estou a ver a
+correspondência. Da mesma forma que há
+bocado mostrei que em coordenadas
+cartesianas temos um integral simples,
+mas se eu quisesse partia de um integral
+múltiplo que depois desgenera para um
+integral simples. Pronto. E pá, é como
+digo isto, pá, são coisas para mim já já
+são intuitivas, que já há muitos anos
+que já trabalho com isto, mas às vezes
+estou um bocado destreinado, porque às
+vezes estou alguns meses ou anos que não
+não mexo nestes temas, mas pronto, são
+temas que já estou mais familiarizado e
+vocês que estão a assistir, não sei o
+quanta experiência vocês possam ter
+nisto, mas pronto, são um conjunto de
+alertas para vocês estarem atentos.
+Portanto, trabalhando em coordenadas
+polares, polares puro e duro, não há x
+y. E também existe um conjunto de
+fórmulas que se podem deduzir. Esta é
+uma delas. Eu posso partir aqui desta
+fórmula. Tenho a fórmula da área, tenho
+aqui a equação da da circunferência que
+eu não preciso de deduzir de lado
+nenhum, eu simplesmente a defino. Tá
+aqui. O que é que é uma circunferência?
+É R = R. É o conjunto dos pontos que
+estão a uma distância fixa, R maiúsculo
+do centro. Portanto, é a função R = R.
+Não tem mais.
+E, portanto, então aqui posso escrever
+aqui o integral, a área igual a 1/2
+e posso dizer, olha o integral entre e
+aqui posso dizer, olha, entre 0 e 2 pi,
+entre 0 e 2 pi, pronto, aqui já não
+preciso daquela esquema do 4, posso
+dizer direto 0 a 2 pi e agora tenho um
+meio já está aqui, passa para fora que é
+uma constante. E agora tenho f de teta.
+Mas f de teta é r. Então fica r²
+r² d teta. Pronto. E portanto, mas mas
+r² d teta r² é uma constante em termos
+de teta de integração em teta. E
+portanto vai ficar teta entre 0 e 2 pi,
+vai ficar 2 pi. Pronto. Portanto, vai
+ficar 1/2
+de r² 2 pi e, portanto, o 2 corta corta
+e e lá temos o nosso pi r². OK? Pronto.
+Eh, pronto. Penso que isto este dou por
+terminado aqui esta parte da das
+coordenadas polares e para podermos
+passar então ao a integral de Gus. OK.
+Acelorar um bocadinho que isto já vai um
+bocadinho extenso este tutorial e vamos
+passar.
+[roncando]
+[roncando]
+Eu
+standard normal distribution
+Mas por quê?
+[roncando]
+[roncando]
+[roncando]
+Пав дистрибу Что?
+[roncando]
+Ora, pronto. E e efetivamente
+hum
+cá temos a fórmula
+para a normal distribution.
+Eh,
+pronto, digamos que foi ajustada deste
+integral, o e - x2, que é que era o
+fundamental.
+E uma vez que se soube como integrar,
+pronto. Depois a partir daí fez-se um
+ajuste.
+Fez-se um ajuste em que uma distribuição
+genérica normal, que é uma uma
+distribuição com dois parâmetros, tem a
+média e o desvio padrão.
+Eh, pronto, não vamos agora entrar agora
+aqui em estatística, era o que mais
+faltava.
+Eh, mas pronto, e para desvio padrão um
+e a média zero, que é o que é o
+standard.
+Eh, pronto. Depois aparece aqui este 1
+meio. Não percebi bem como é que vem,
+porque é que vem este meio, este meio
+aqui. Mas pronto, o dividir por rap
+percebe-se porque é para por forma que o
+integral dê 1. Portanto, este integral
+aqui, o integral aqui, como vimos,
+da da dá a raiz de pi, mas isso é
+inapropriado para descrever uma
+distribuição probabilística, porque que
+uma distribuição probabilística tem que
+ter uma área de um. É uma distribuição
+probabilística tem que ter uma área de
+um, porque o somatório de todos os casos
+possíveis tem que ter uma probabilidade
+de 100% ou de um. E, portanto, todas as
+distribuições probabilísticas têm sempre
+uma área de um. Daí que aqui a fórmula
+foi corrigida para a área da 1. Pronto.
+Portanto, agora em vez de dividir apenas
+por √ pi, eh, pois, eh, dividiram por √2
+pi e colocaram aqui o termo de 1/2.
+Pronto, essa parte não percebi bem, mas
+deve ter sido uma necessidade qualquer
+para isto bater certo para todas as
+distribuições em termos do desvio padrão
+e e da média. Pronto, não vale a pena.
+Portanto, não vale, porque eu também não
+sei explicar melhor. Ah, agora estou um
+bocado estrinado deste deste tema, mas
+pronto, mas não quis deixar de mostrar
+aqui a forma para ver que isto tem uma
+relação, ou seja, esta, ou seja, a forma
+de Gus não é porque ninguém tinha mais
+nada para fazer senão agora andar a
+inventar integrais. Pronto. E o que se
+vê às vezes na em tutoriais aí no
+YouTube, por exemplo, se forem à procura
+de demonstrações para o integral de Gus,
+eh muitas vezes demonstra-se o integral
+e ponto final e e o tema morre ali, não
+é? não é dado nenhuma contextualização
+do de onde vem as coisas. Pronto, eu
+acho que isso é uma uma vacuna muito
+grande às vezes de quem tá a fazer os
+tutorials, porque porque para mim tá é
+muito mais interessante tentar perceber
+de onde é que as coisas vêm, porque as
+coisas eh tá bem que às vezes há
+matemáticos puros, estão à procura de
+problemas só pelos problemas, mas estes
+temas clássicos e historicamente
+surgiram porque uma determinada
+motivação, uma determinada necessidade.
+E é como vos digo, aqui houve uma
+necessidade porque este tema estava
+relacionado realmente com o estudo que
+os matemáticos faziam das distribuições
+de probabilidade.
+E pronto, ficamos por aqui. Foi só para
+vos mostrar que realmente está aqui a
+relação entre a forma geral da
+distribuição normal. Se nós aqui
+fizermos aqui fizermos eh o o padrão eh
+a média igual a zero e o desvio padrão
+igual a 1, vamos obter a forma mais
+básica da distribuição normal chamada
+também de standar standard standard
+distribution. Pronto, standard
+distribution. Basta chegar aqui na forma
+e substituir o sigma por 1 e aqui o miu,
+o mi por zero.
+E pronto, ficamos por aqui. Espero que
+tenham gostado e até uma próxima
+oportunidade. Obrigado.
+

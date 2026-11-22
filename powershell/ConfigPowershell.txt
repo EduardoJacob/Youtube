@@ -1,0 +1,8 @@
+
+Run the command $PSHOME to find the installation location of pwsh.exe
+Then use that folder on Settings/Global Options/Terminal
+
+PowerShell 7.7.0
+PS C:\Users\eduar> $PSHOME
+C:\Program Files\WindowsApps\Microsoft.PowerShell_7.7.0.0_x64__8wekyb3d8bbwe
+

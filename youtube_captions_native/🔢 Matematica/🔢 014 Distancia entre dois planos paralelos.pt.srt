@@ -1,0 +1,3532 @@
+0:00:01.319,0:00:05.040
+Ora, sejam bem-vindos a mais um
+
+0:00:02.760,0:00:06.279
+tutorial. Hoje vai ser dedicado ao tema
+
+0:00:05.040,0:00:07.919
+da distância entre dois planos
+
+0:00:06.279,0:00:09.719
+paralelos.
+
+0:00:07.919,0:00:11.200
+Relembro que já fiz um tutorial anterior
+
+0:00:09.719,0:00:13.240
+que era a distância entre duas retas
+
+0:00:11.200,0:00:15.839
+paralelas,
+
+0:00:13.240,0:00:18.000
+mas duas retas paralelas no espaço de
+
+0:00:15.839,0:00:19.760
+duas dimensões.
+
+0:00:18.000,0:00:22.400
+Hoje vamos ver dois planos paralelos,
+
+0:00:19.760,0:00:25.119
+mas então os planos têm que vão vão
+
+0:00:22.400,0:00:27.720
+existir num espaço de três dimensões.
+
+0:00:25.119,0:00:29.279
+OK? Mas antes disso, quero aqui
+
+0:00:27.720,0:00:31.679
+relembrar
+
+0:00:29.279,0:00:35.280
+eh um pouco acerca da teoria das
+
+0:00:31.679,0:00:38.079
+equações da reta. OK?
+
+0:00:35.280,0:00:40.719
+Eh, vamos aqui ver a equação vetorial da
+
+0:00:38.079,0:00:45.520
+reta que eu já tinha falado nela,
+
+0:00:40.719,0:00:47.160
+a equação mais poderosa, mais compacta
+
+0:00:45.520,0:00:50.239
+e que, portanto, é válida para para
+
+0:00:47.160,0:00:51.559
+qualquer espaço de dimensões. Uma reta é
+
+0:00:50.239,0:00:54.600
+o conjunto de todos os pontos que
+
+0:00:51.559,0:00:57.079
+partindo de um dado ponto conhecido e
+
+0:00:54.600,0:00:59.440
+somamos um múltiplo de um vetor ao longo
+
+0:00:57.079,0:01:01.239
+da direção
+
+0:00:59.440,0:01:03.920
+da,
+
+0:01:01.239,0:01:06.320
+portanto, de um de um determinado vetor.
+
+0:01:03.920,0:01:08.240
+Ora bem, e tínhamos visto que, por
+
+0:01:06.320,0:01:11.240
+exemplo,
+
+0:01:08.240,0:01:13.720
+isto, se for a duas dimensões, teremos X
+
+0:01:11.240,0:01:18.000
+y
+
+0:01:13.720,0:01:18.000
+será X0
+
+0:01:18.560,0:01:25.360
++ Y0
+
+0:01:21.000,0:01:28.119
+mais um K ou uma constante, um vetor V1
+
+0:01:25.360,0:01:32.000
+V2.
+
+0:01:28.119,0:01:34.720
+Adito chamar que tem aqui AB
+
+0:01:32.000,0:01:37.119
+para seguir adotar uma convenção que
+
+0:01:34.720,0:01:39.200
+vamos seguir. Portanto, AB. Portanto,
+
+0:01:37.119,0:01:43.280
+aqui fica. Então, bom, então que temos
+
+0:01:39.200,0:01:46.280
+que um sistema de duas equações.
+
+0:01:43.280,0:01:46.280
+X
+
+0:01:46.759,0:01:55.680
+é igual a X0 + K.
+
+0:01:51.759,0:01:58.399
+y é igual a Y0
+
+0:01:55.680,0:02:00.920
++ KB.
+
+0:01:58.399,0:02:03.880
+Ora bem, é um sistema
+
+0:02:00.920,0:02:06.960
+duas equações a três incógnitas. As
+
+0:02:03.880,0:02:09.039
+incógnitas são o X, Y e o parâmetro K.
+
+0:02:06.960,0:02:11.360
+Pronto, portanto não se pode resolver. O
+
+0:02:09.039,0:02:12.879
+que vamos fazer é eliminamos o parâmetro
+
+0:02:11.360,0:02:14.840
+K.
+
+0:02:12.879,0:02:19.319
+Portanto, em cima da primeira equação
+
+0:02:14.840,0:02:21.879
+que K é ig x - x0 sobre a.
+
+0:02:19.319,0:02:27.920
+Ok?
+
+0:02:21.879,0:02:30.640
+que k é ig a x - x0 sobre a.
+
+0:02:27.920,0:02:34.640
+E da segunda equação vemos que k é ig a
+
+0:02:30.640,0:02:38.400
+y - y0/ b. Vemos que também é verdade
+
+0:02:34.640,0:02:41.680
+que k tem que ser igual a y - y0 sobre
+
+0:02:38.400,0:02:44.640
+b. Então resulta a equação cartesiana da
+
+0:02:41.680,0:02:46.360
+reta. Portanto, se k é igual a isto e k
+
+0:02:44.640,0:02:48.440
+é igual a isto, então eliminamos k e
+
+0:02:46.360,0:02:51.760
+fica que esta expressão é igual a esta.
+
+0:02:48.440,0:02:54.640
+Então temos a equação cartesiana da reta
+
+0:02:51.760,0:02:58.920
+X
+
+0:02:54.640,0:03:04.840
+e - x0 sobre a
+
+0:02:58.920,0:03:06.599
+e é igual a y - y0
+
+0:03:04.840,0:03:09.640
+sobre a. Pronto, esta é uma equação que
+
+0:03:06.599,0:03:12.360
+nós podemos escrever dado um ponto x0 y
+
+0:03:09.640,0:03:15.799
+0 e o vetor AB. Sim, senhora.
+
+0:03:12.360,0:03:18.280
+Agora, eh, normalmente aqui, eh, o que
+
+0:03:15.799,0:03:21.159
+acontece é que,
+
+0:03:18.280,0:03:23.159
+eh, costumamos passar tudo para um lado
+
+0:03:21.159,0:03:27.280
+aqui da equação
+
+0:03:23.159,0:03:29.959
+e costumamos eh simplificar isto tudo e
+
+0:03:27.280,0:03:31.959
+normalmente este a e b acabou por ser
+
+0:03:29.959,0:03:35.439
+mal escolhido, mas pronto. E esqueçam
+
+0:03:31.959,0:03:40.159
+agora este ai, aqui enganei-me
+
+0:03:35.439,0:03:42.120
+aqui, portanto é y 0 sobre b. Bom,
+
+0:03:40.159,0:03:44.720
+portanto, se passarmos isto tudo para um
+
+0:03:42.120,0:03:46.040
+lado da equação, os termos em x e em y e
+
+0:03:44.720,0:03:48.599
+as constantes para o outro, pronto, o
+
+0:03:46.040,0:03:50.560
+que vai acontecer é que vemos que uma
+
+0:03:48.599,0:03:52.280
+uma equação da reta se pode representar
+
+0:03:50.560,0:03:54.599
+na forma a esta a agora é diferente
+
+0:03:52.280,0:03:56.439
+desta a. OK? Pronto, eu é que vou usar a
+
+0:03:54.599,0:03:58.200
+porque vai é uma convenção que eu quero
+
+0:03:56.439,0:04:00.040
+seguir aqui,
+
+0:03:58.200,0:04:01.920
+mas é um outro lado, não é este. A, isto
+
+0:04:00.040,0:04:04.280
+é só para dizer que se eu agora
+
+0:04:01.920,0:04:06.879
+simplificasse esta expressão, se eu
+
+0:04:04.280,0:04:10.159
+simplificar esta expressão,
+
+0:04:06.879,0:04:13.239
+eu vou obter uma expressão deste tipo,
+
+0:04:10.159,0:04:16.239
+que é um tem um termo em x, tem um termo
+
+0:04:13.239,0:04:17.919
+em y e aqui uma constante. Pronto,
+
+0:04:16.239,0:04:19.639
+digamos que esta é a equação cartesiana
+
+0:04:17.919,0:04:22.960
+da reta,
+
+0:04:19.639,0:04:25.520
+OK? E nós no outro tutorial que eu fiz,
+
+0:04:22.960,0:04:30.000
+nós tínhamos visto a equação reduzida da
+
+0:04:25.520,0:04:33.320
+reta, que era no formato y igual mx +
+
+0:04:30.000,0:04:35.320
+uma ordenada na origem b. OK? Sim,
+
+0:04:33.320,0:04:36.880
+senhor. São equivalentes. Obviamente
+
+0:04:35.320,0:04:38.680
+podemos passar de uma para a outra com
+
+0:04:36.880,0:04:41.160
+facilidade. Eu aqui se explicitar em
+
+0:04:38.680,0:04:43.560
+ordem a y nesta equação, eu vou obter a
+
+0:04:41.160,0:04:44.759
+equação reduzida. Sim, senhora.
+
+0:04:43.560,0:04:46.320
+Portanto, isto não tem aqui mais
+
+0:04:44.759,0:04:48.320
+segredos. Agora, o que é que vai
+
+0:04:46.320,0:04:51.039
+acontecer?
+
+0:04:48.320,0:04:54.160
+Vamos fazer o mesmo para três dimensões,
+
+0:04:51.039,0:04:56.199
+OK? O mesmo que fizemos aqui, vamos
+
+0:04:54.160,0:04:57.800
+fazer para três dimensões. Vamos dizer,
+
+0:04:56.199,0:04:59.400
+bom,
+
+0:04:57.800,0:05:01.400
+h,
+
+0:04:59.400,0:05:03.120
+toda a reta,
+
+0:05:01.400,0:05:04.960
+portanto,
+
+0:05:03.120,0:05:07.039
+em termos da equação vetorial é igual,
+
+0:05:04.960,0:05:08.960
+nada muda. Esta equação vetorial vale
+
+0:05:07.039,0:05:11.680
+para qualquer espaço de dimensões.
+
+0:05:08.960,0:05:14.520
+Pronto. OK. Portanto, temos a equação
+
+0:05:11.680,0:05:18.360
+vetorial.
+
+0:05:14.520,0:05:20.280
+vetorial mais compacta que existe. Temos
+
+0:05:18.360,0:05:23.080
+equação paramétrica, porque ela tem um
+
+0:05:20.280,0:05:25.240
+parâmetro
+
+0:05:23.080,0:05:28.520
+paramétrica.
+
+0:05:25.240,0:05:30.759
+Temos equação cartesiana porque ela só
+
+0:05:28.520,0:05:33.080
+tem as as coordenadas cartesianas, o x e
+
+0:05:30.759,0:05:34.919
+y
+
+0:05:33.080,0:05:37.919
+cartesiana. E aqui temos a equação
+
+0:05:34.919,0:05:37.919
+reduzida.
+
+0:05:38.160,0:05:41.120
+OK?
+
+0:05:39.479,0:05:43.360
+Pronto. Agora, em termos de equação
+
+0:05:41.120,0:05:48.000
+paramétrica a três dimensões, portanto,
+
+0:05:43.360,0:05:51.479
+nós teremos para uma reta X Y Z
+
+0:05:48.000,0:05:51.479
+é igual a
+
+0:05:52.800,0:05:56.720
+Oi, aqui enganei-me também.
+
+0:06:00.639,0:06:09.199
+Portanto, aqui poois, XY igual ao ponto
+
+0:06:04.319,0:06:10.840
+X0 Y0. OK. Sim, senhora.
+
+0:06:09.199,0:06:14.599
+Ora,
+
+0:06:10.840,0:06:18.319
+então teremos a três dimensões
+
+0:06:14.599,0:06:23.720
+X0, Y0, Z0
+
+0:06:18.319,0:06:25.759
++ K, um vetor. Vou chamar agora V1, V2,
+
+0:06:23.720,0:06:28.840
+V3.
+
+0:06:25.759,0:06:31.720
+OK? Pronto.
+
+0:06:28.840,0:06:34.440
+Então, eu vou ficar com três equações.
+
+0:06:31.720,0:06:36.120
+Com três equações,
+
+0:06:34.440,0:06:38.440
+OK?
+
+0:06:36.120,0:06:40.599
+que x
+
+0:06:38.440,0:06:43.680
+- x0
+
+0:06:40.599,0:06:46.599
+é igual a k1
+
+0:06:43.680,0:06:50.479
+que y - y0,
+
+0:06:46.599,0:06:53.479
+ok? É igual a k2
+
+0:06:50.479,0:06:56.960
+que z - g0
+
+0:06:53.479,0:06:59.560
+é igual a k3. OK? Uma situação
+
+0:06:56.960,0:07:04.080
+perfeitamente similar a esta. Só que
+
+0:06:59.560,0:07:07.360
+aqui eu podia eliminar o K.
+
+0:07:04.080,0:07:09.840
+OK? com três incógnitas x, y k eliminei
+
+0:07:07.360,0:07:13.199
+uma delas, mas agora aqui vamos ver que
+
+0:07:09.840,0:07:15.080
+não consigo eliminar o k.
+
+0:07:13.199,0:07:17.599
+Ora, para obter só uma equação não
+
+0:07:15.080,0:07:21.360
+consigo. Pronto. Então o que resulta
+
+0:07:17.599,0:07:24.319
+daqui é que aqui de cima que k é ig x -
+
+0:07:21.360,0:07:27.960
+x0 sobre v1
+
+0:07:24.319,0:07:27.960
+x - x0
+
+0:07:28.199,0:07:34.240
+sobre v1,
+
+0:07:30.160,0:07:36.639
+mas que também é igual a y - y0
+
+0:07:34.240,0:07:42.360
+sobre v2,
+
+0:07:36.639,0:07:42.360
+mas que também é igual a z - g0.
+
+0:07:42.400,0:07:47.039
+sobre V3.
+
+0:07:44.479,0:07:49.919
+Pronto. E esta é a equação cartesiana da
+
+0:07:47.039,0:07:53.680
+reta a três dimensões, que no fundo não
+
+0:07:49.919,0:07:55.400
+é uma equação, são duas equações
+
+0:07:53.680,0:07:58.159
+que eu posso combinar da forma como eu
+
+0:07:55.400,0:08:00.840
+quiser. Eu posso combinar aqui, dizer
+
+0:07:58.159,0:08:03.960
+que esta é uma equação
+
+0:08:00.840,0:08:06.000
+e OK? E a segunda pode ser esta do Y com
+
+0:08:03.960,0:08:08.440
+a do Z
+
+0:08:06.000,0:08:11.199
+ou pode ser qualquer outra combinação.
+
+0:08:08.440,0:08:15.000
+OK? Não sei se me explico. Aqui está
+
+0:08:11.199,0:08:17.039
+subentendido que são duas equações,
+
+0:08:15.000,0:08:19.240
+OK? Nesta nesta expressão com esta
+
+0:08:17.039,0:08:22.520
+múltipla igualdade.
+
+0:08:19.240,0:08:25.840
+Portanto, eu não consigo obter
+
+0:08:22.520,0:08:28.960
+uma única equação cartesiana, tal como
+
+0:08:25.840,0:08:32.519
+obtive aqui.
+
+0:08:28.960,0:08:34.399
+Aqui é aqui é uma reta.
+
+0:08:32.519,0:08:36.440
+Em duas dimensões, eu obtenho uma
+
+0:08:34.399,0:08:39.120
+equação cartesiana no qual elimino o
+
+0:08:36.440,0:08:42.680
+parâmetro.
+
+0:08:39.120,0:08:46.200
+Mas a três dimensões. Esta é uma reta
+
+0:08:42.680,0:08:46.200
+a três dimensões.
+
+0:08:46.800,0:08:51.880
+OK? Não consigo obter. Não existe
+
+0:08:50.160,0:08:54.399
+expressão cartesiana para uma reta a
+
+0:08:51.880,0:08:57.640
+três dimensões.
+
+0:08:54.399,0:09:00.160
+Porque na verdade a reta é de reta a
+
+0:08:57.640,0:09:02.640
+três dimensões é como se fosse uma uma
+
+0:09:00.160,0:09:03.959
+interseção de dois planos. OK? Mas já lá
+
+0:09:02.640,0:09:06.720
+vamos.
+
+0:09:03.959,0:09:08.760
+Então, sendo assim,
+
+0:09:06.720,0:09:11.839
+a que é que corresponde
+
+0:09:08.760,0:09:13.680
+uma expressão do tipo ax
+
+0:09:11.839,0:09:18.600
++ by
+
+0:09:13.680,0:09:21.399
++ cz = d, que é a generalização desta
+
+0:09:18.600,0:09:23.320
+equação aqui. A generalização desta
+
+0:09:21.399,0:09:25.480
+equação
+
+0:09:23.320,0:09:29.000
+que estamos aqui a duas dimensões. Isto
+
+0:09:25.480,0:09:29.000
+é uma reta
+
+0:09:29.560,0:09:35.959
+em duas dimensões.
+
+0:09:33.160,0:09:39.399
+Quando eu generalizo a três dimensões,
+
+0:09:35.959,0:09:43.959
+ela não é uma reta. A três dimensões,
+
+0:09:39.399,0:09:47.920
+isto é um plano,
+
+0:09:43.959,0:09:51.839
+um plano em três dimensões.
+
+0:09:47.920,0:09:55.640
+OK? Portanto, o a generalização da reta,
+
+0:09:51.839,0:09:58.440
+a reta quando passa para três dimensões,
+
+0:09:55.640,0:10:00.160
+ela é promovida para um plano
+
+0:09:58.440,0:10:01.920
+e não para uma reta, mas sim para um
+
+0:10:00.160,0:10:03.640
+plano.
+
+0:10:01.920,0:10:08.360
+Vemos matematicamente porque a expressão
+
+0:10:03.640,0:10:11.399
+é a mesma. OK? Uma reta tem um grau de
+
+0:10:08.360,0:10:13.720
+liberdade sempre.
+
+0:10:11.399,0:10:17.160
+Quer dizer que aqui é duas dimensões eu
+
+0:10:13.720,0:10:20.079
+posso variar o x.
+
+0:10:17.160,0:10:21.760
+E uma vez variando o X, o Y resulta o
+
+0:10:20.079,0:10:23.240
+que resultar. Já não posso variar o Y.
+
+0:10:21.760,0:10:24.920
+Portanto, dizemos que temos um grau de
+
+0:10:23.240,0:10:28.800
+liberdade
+
+0:10:24.920,0:10:30.640
+na reta a duas dimensões.
+
+0:10:28.800,0:10:32.880
+E na reta a três dimensões também temos
+
+0:10:30.640,0:10:34.399
+um grau de liberdade.
+
+0:10:32.880,0:10:36.200
+Portanto, a reta é sempre um grau de
+
+0:10:34.399,0:10:40.680
+liberdade. É um objeto de um grau de
+
+0:10:36.200,0:10:43.680
+liberdade. Aqui, se eu variar o X,
+
+0:10:40.680,0:10:45.560
+resulta ao Y e resulta ao Z.
+
+0:10:43.680,0:10:47.760
+A reta a três dimensões também tem um
+
+0:10:45.560,0:10:51.800
+grau de liberdade,
+
+0:10:47.760,0:10:54.519
+mas o plano a três dimensões é um objeto
+
+0:10:51.800,0:10:57.519
+com 2 graus de liberdade.
+
+0:10:54.519,0:11:00.040
+Eu posso variar o X e o Y, os dois
+
+0:10:57.519,0:11:02.000
+livremente, e depois o Z já não, porque
+
+0:11:00.040,0:11:05.200
+o Z resulta.
+
+0:11:02.000,0:11:08.600
+Portanto, é um objeto, é um objeto com 2
+
+0:11:05.200,0:11:08.600
+graus de liberdade.
+
+0:11:12.480,0:11:19.320
+OK? Pronto. Ora,
+
+0:11:16.760,0:11:21.480
+mais coisas aqui acerca das equações.
+
+0:11:19.320,0:11:23.000
+Para já,
+
+0:11:21.480,0:11:25.440
+o que eu queria dizer sobre as retas é
+
+0:11:23.000,0:11:28.600
+isto. É só para vocês terem cuidado.
+
+0:11:25.440,0:11:31.880
+Cada vez que vejam uma expressão,
+
+0:11:28.600,0:11:34.040
+por exemplo, esta expressão,
+
+0:11:31.880,0:11:35.880
+vocês têm que saber sempre em que espaço
+
+0:11:34.040,0:11:37.839
+de dimensões estão a trabalhar, senão
+
+0:11:35.880,0:11:40.000
+não conseguem resolver um problema. Se
+
+0:11:37.839,0:11:42.880
+se vos derem uma expressão e sem dizer o
+
+0:11:40.000,0:11:45.000
+espaço de dimensões, não serve. Vocês
+
+0:11:42.880,0:11:47.040
+têm sempre que saber
+
+0:11:45.000,0:11:49.480
+porque se me derem esta expressão, se
+
+0:11:47.040,0:11:51.519
+forem duas dimensões é uma reta, mas se
+
+0:11:49.480,0:11:53.800
+forem três dimensões é um plano. Isto é
+
+0:11:51.519,0:11:57.240
+um plano em três dimensões, que por
+
+0:11:53.800,0:12:00.639
+acaso a constante C é zero. E então isto
+
+0:11:57.240,0:12:02.600
+a a três dimensões, isto é um plano. OK?
+
+0:12:00.639,0:12:04.079
+É a mesma equação, mas eu tenho que
+
+0:12:02.600,0:12:05.760
+saber a quantas dimensões queremos
+
+0:12:04.079,0:12:08.480
+trabalhar.
+
+0:12:05.760,0:12:11.040
+OK?
+
+0:12:08.480,0:12:12.519
+OK. Agora vamos passar às equações do
+
+0:12:11.040,0:12:15.000
+plano propriamente dito. Bom, já pus
+
+0:12:12.519,0:12:17.199
+aqui a equação do plano, mas vamos ver
+
+0:12:15.000,0:12:21.199
+eh vamos ver todas as restantes equações
+
+0:12:17.199,0:12:22.839
+de plano que podemos ter. OK? Pronto. E
+
+0:12:21.199,0:12:25.560
+portanto, desde logo, podemos ter uma
+
+0:12:22.839,0:12:26.720
+equação vetorial também. Pronto, vamos
+
+0:12:25.560,0:12:29.600
+ver de que maneira. Portanto, vamos
+
+0:12:26.720,0:12:31.399
+imaginar a três dimensões,
+
+0:12:29.600,0:12:35.199
+não é? E e que temos aqui um um
+
+0:12:31.399,0:12:39.639
+determinado plano, OK?
+
+0:12:35.199,0:12:39.639
+Temos aqui um determinado plano,
+
+0:12:42.000,0:12:49.199
+OK? Temos aqui um determinado ponto x0.
+
+0:12:47.279,0:12:51.079
+OK?
+
+0:12:49.199,0:12:53.600
+Sim, senhora. E agora temos, por
+
+0:12:51.079,0:12:55.279
+exemplo, várias hipóteses.
+
+0:12:53.600,0:12:58.240
+Da mesma maneira que para definir uma
+
+0:12:55.279,0:12:59.680
+reta eu digo,
+
+0:12:58.240,0:13:01.880
+têm que me dar qualquer coisa para
+
+0:12:59.680,0:13:03.639
+definir uma reta. podem-me dar dois
+
+0:13:01.880,0:13:05.240
+pontos
+
+0:13:03.639,0:13:07.600
+e dos quais a diferença entre esses dois
+
+0:13:05.240,0:13:10.440
+pontos eu faço um vetor.
+
+0:13:07.600,0:13:11.880
+E portanto, mas o mais expectável é que
+
+0:13:10.440,0:13:13.839
+para definir uma reta me tem um
+
+0:13:11.880,0:13:15.920
+determinado ponto da reta e um vetor da
+
+0:13:13.839,0:13:21.600
+reta, tal como está aqui na equação
+
+0:13:15.920,0:13:24.240
+vetorial. OK? Pronto, isto é o padrão.
+
+0:13:21.600,0:13:25.959
+O padrão para para
+
+0:13:24.240,0:13:27.560
+alguém me dar uma reta, eu pergunto:
+
+0:13:25.959,0:13:31.480
+"Então, dá-me um ponto e um vetor da
+
+0:13:27.560,0:13:32.720
+reta". OK? Pronto. Ou então podia dizer,
+
+0:13:31.480,0:13:34.199
+olha, dá-me uma equação qualquer,
+
+0:13:32.720,0:13:36.720
+qualquer que ela seja paramétrica ou
+
+0:13:34.199,0:13:39.920
+reduzida. Pronto. Mas em termos de
+
+0:13:36.720,0:13:41.800
+visualização dos objetos e o normal, e
+
+0:13:39.920,0:13:44.920
+como estou-vos a dizer que a equação
+
+0:13:41.800,0:13:48.680
+vetorial é sempre a mais poderosa,
+
+0:13:44.920,0:13:50.320
+eu diria que para
+
+0:13:48.680,0:13:52.880
+pedir
+
+0:13:50.320,0:13:54.720
+e para materializar, portanto, a equação
+
+0:13:52.880,0:13:56.240
+de uma reta, sendo a equação vetorial
+
+0:13:54.720,0:13:58.639
+mais poderosa, é para esta equação
+
+0:13:56.240,0:14:00.639
+vetorial que devemos olhar sempre.
+
+0:13:58.639,0:14:03.120
+é mais compacta, portanto, e olhando
+
+0:14:00.639,0:14:06.639
+para ela, vemos que o que ela pede é um
+
+0:14:03.120,0:14:09.279
+ponto e um vetor. Pronto. Da mesma forma
+
+0:14:06.639,0:14:12.759
+para um plano,
+
+0:14:09.279,0:14:15.240
+a a forma mais compacta que eu tenho
+
+0:14:12.759,0:14:19.800
+para para pedir um plano é o seguinte.
+
+0:14:15.240,0:14:21.600
+Dá-me um dá-me um ponto. Estão a ver a a
+
+0:14:19.800,0:14:24.440
+similaridade, a semelhança que tem com a
+
+0:14:21.600,0:14:28.399
+reta. E dá-me um vetor também. Mas que
+
+0:14:24.440,0:14:32.279
+vetor? um vetor perpendicular ao plano.
+
+0:14:28.399,0:14:34.880
+O vetor perpendicular ao plano N.
+
+0:14:32.279,0:14:37.440
+Pronto. E com isto, estão a ver? É
+
+0:14:34.880,0:14:38.880
+suficiente para definir um plano. Um
+
+0:14:37.440,0:14:41.600
+ponto e um vetor é suficiente para
+
+0:14:38.880,0:14:44.639
+definir um plano. Tal como aqui na reta
+
+0:14:41.600,0:14:47.160
+na na forma vetorial, o ponto e um vetor
+
+0:14:44.639,0:14:49.320
+também era suficiente. OK? E então aqui
+
+0:14:47.160,0:14:51.320
+é a mesma coisa.
+
+0:14:49.320,0:14:54.519
+Então eu vou dizer então qual a equação
+
+0:14:51.320,0:14:58.040
+vetorial do do plano é o conjunto de
+
+0:14:54.519,0:14:58.040
+todos os pontos.
+
+0:14:58.519,0:15:03.360
+Imaginem qualquer ponto aqui que
+
+0:15:00.279,0:15:05.600
+pertence ao plano. É o conjunto de todos
+
+0:15:03.360,0:15:07.399
+os pontos,
+
+0:15:05.600,0:15:11.440
+OK?
+
+0:15:07.399,0:15:15.199
+Tal que se eu fizer a diferença
+
+0:15:11.440,0:15:18.920
+aqui entre x - x0,
+
+0:15:15.199,0:15:21.279
+que isso origina um vetor, é o conjunto
+
+0:15:18.920,0:15:23.920
+de todos os pontos
+
+0:15:21.279,0:15:26.920
+tal que x
+
+0:15:23.920,0:15:26.920
+menos
+
+0:15:27.000,0:15:31.959
+x0.
+
+0:15:29.800,0:15:34.160
+E uma diferença entre dois pontos é um
+
+0:15:31.959,0:15:36.880
+vetor,
+
+0:15:34.160,0:15:38.839
+tal que seja perpendicular.
+
+0:15:36.880,0:15:41.120
+Ou seja, que produto interno com o vetor
+
+0:15:38.839,0:15:42.800
+perpendicular n
+
+0:15:41.120,0:15:46.600
+de zer.
+
+0:15:42.800,0:15:48.639
+Portanto, eu forço a equação a dar zero
+
+0:15:46.600,0:15:50.120
+através do produto interno. Significa
+
+0:15:48.639,0:15:51.560
+que estes dois vetores terão que ser
+
+0:15:50.120,0:15:53.839
+perpendiculares. Quando estes dois
+
+0:15:51.560,0:15:57.040
+vetores forem perpendiculares, então é
+
+0:15:53.839,0:16:02.240
+porque x encontra-se sobre o plano. OK?
+
+0:15:57.040,0:16:02.240
+Esta é a equação vetorial do plano.
+
+0:16:02.319,0:16:07.600
+OK? Mas há outras há outras formas.
+
+0:16:07.680,0:16:12.199
+OK? Eu estou a ver pelo menos mais uma.
+
+0:16:10.000,0:16:14.839
+Eu posso definir um vetor, eu posso
+
+0:16:12.199,0:16:21.720
+definir um plano de outra maneira. Eu
+
+0:16:14.839,0:16:21.720
+posso dizer que tenho este mesmo plano,
+
+0:16:21.839,0:16:25.079
+um plano
+
+0:16:33.720,0:16:38.519
+tenho este mesmo x0,
+
+0:16:37.079,0:16:41.319
+mas agora, em vez de dar um vetor
+
+0:16:38.519,0:16:43.040
+normal, eu posso dar dois vetores do
+
+0:16:41.319,0:16:46.440
+plano.
+
+0:16:43.040,0:16:50.040
+dois vetores do plano,
+
+0:16:46.440,0:16:50.040
+um vetor V1
+
+0:16:50.759,0:16:55.279
+e um vetor V2.
+
+0:16:53.680,0:16:57.519
+dois que estejam sobre o plano. Então,
+
+0:16:55.279,0:17:00.920
+posso também posso definir um plano
+
+0:16:57.519,0:17:02.800
+desta maneira, um ponto e dois vetores.
+
+0:17:00.920,0:17:05.039
+É mais complexo porque aqui na definição
+
+0:17:02.800,0:17:06.959
+anterior bastava-me um ponto e um vetor.
+
+0:17:05.039,0:17:09.480
+Realmente que esta forma é mais simples.
+
+0:17:06.959,0:17:14.520
+Esta é uma outra forma alternativa, mas
+
+0:17:09.480,0:17:17.799
+complexa, porque me parte de um ponto e
+
+0:17:14.520,0:17:21.720
+dois vetores. E agora uma combinação
+
+0:17:17.799,0:17:23.039
+linear entre estes dois vetores. Uma
+
+0:17:21.720,0:17:24.280
+combinação linear. Pronto, isto é uma
+
+0:17:23.039,0:17:26.319
+expressão nova, mas eu penso que vocês
+
+0:17:24.280,0:17:28.960
+se lembram, se estudaram, portanto, é
+
+0:17:26.319,0:17:30.960
+OK. É uma combinação linear com com dois
+
+0:17:28.960,0:17:35.559
+parâmetros.
+
+0:17:30.960,0:17:37.600
+E então essa combinação linear, ela vai
+
+0:17:35.559,0:17:40.919
+estar sempre dentro deste mesmo plano
+
+0:17:37.600,0:17:42.919
+formado pelos dois vetores. Os dois
+
+0:17:40.919,0:17:45.720
+vetores formam sempre um plano em
+
+0:17:42.919,0:17:49.720
+quaisquer dois vetores aplicados no
+
+0:17:45.720,0:17:51.200
+mesmo ponto vão sempre definir um plano
+
+0:17:49.720,0:17:53.840
+dos quais esses dois vetores são
+
+0:17:51.200,0:17:57.120
+coplanares e eles pertencem ao plano.
+
+0:17:53.840,0:17:59.280
+OK? E portanto eu vou dizer: "Bom, aqui
+
+0:17:57.120,0:18:02.600
+a equação vetorial qual é? o conjunto de
+
+0:17:59.280,0:18:05.120
+todos os pontos X que podem ser obtidos
+
+0:18:02.600,0:18:08.720
+a partir de um ponto X0
+
+0:18:05.120,0:18:11.720
+mais uma combinação linear dos dois
+
+0:18:08.720,0:18:11.720
+vetores,
+
+0:18:12.039,0:18:18.240
+uma combinação, um múltiplo de um com um
+
+0:18:14.400,0:18:18.240
+múltiplo de outro qualquer.
+
+0:18:19.360,0:18:23.640
+OK? Pronto. E esta também é outra
+
+0:18:21.440,0:18:26.280
+equação. Esta é também uma forma de
+
+0:18:23.640,0:18:28.720
+equação vetorial.
+
+0:18:26.280,0:18:30.919
+OK? Mas aqui este envolve parâmetros e
+
+0:18:28.720,0:18:33.039
+aqui não envolve parâmetros. Mas aqui
+
+0:18:30.919,0:18:35.039
+podemos eliminar os parâmetros.
+
+0:18:33.039,0:18:37.440
+Poderemos iluminar os parâmetros em
+
+0:18:35.039,0:18:39.559
+princípio, porque porque já sabemos que
+
+0:18:37.440,0:18:41.880
+depois a equação cartesiana vai ter que
+
+0:18:39.559,0:18:43.559
+dar isto que aqui está. Sim, senhora.
+
+0:18:41.880,0:18:46.000
+Mas nós vamos trabalhar só com esta
+
+0:18:43.559,0:18:47.919
+forma porque que esta este é o é o mais
+
+0:18:46.000,0:18:50.520
+comum.
+
+0:18:47.919,0:18:53.720
+Agora vou vamos trabalhar só com esta
+
+0:18:50.520,0:18:55.720
+forma vetorial que é o mais comum e que
+
+0:18:53.720,0:18:58.280
+eu também podia a partir aqui deste
+
+0:18:55.720,0:19:01.280
+deste formato, a partir deste formato,
+
+0:18:58.280,0:19:03.240
+eu posso passar ao ao ao outro formato,
+
+0:19:01.280,0:19:06.960
+porque se eu fizer o produto externo de
+
+0:19:03.240,0:19:08.960
+V1 V2, eu vou obter o vetor N.
+
+0:19:06.960,0:19:11.400
+Relembrem-se que o vetor é um vetor
+
+0:19:08.960,0:19:14.039
+normal
+
+0:19:11.400,0:19:16.760
+com produto externo de dois vetores é
+
+0:19:14.039,0:19:18.919
+perpendicular a ambos os vetores. Já
+
+0:19:16.760,0:19:21.280
+vimos isto no tutorial do produto
+
+0:19:18.919,0:19:23.320
+externo.
+
+0:19:21.280,0:19:25.280
+Pronto. Então, portanto, digamos que
+
+0:19:23.320,0:19:27.919
+este com este formato eu passaria
+
+0:19:25.280,0:19:31.320
+facilmente para o formato de cima. OK?
+
+0:19:27.919,0:19:34.760
+Pronto. E de facto este formato aqui é
+
+0:19:31.320,0:19:37.520
+que é a forma fundamental, a equação
+
+0:19:34.760,0:19:40.240
+mais universal para definir um plano.
+
+0:19:37.520,0:19:42.919
+Sim, senhor. Agora vamos expandir esta
+
+0:19:40.240,0:19:46.159
+mesma equação
+
+0:19:42.919,0:19:47.720
+para obter a equação cartesiana de um
+
+0:19:46.159,0:19:49.320
+plano. E vamos ver que ela dá uma
+
+0:19:47.720,0:19:52.400
+equação cartesiana de um plano.
+
+0:19:49.320,0:19:54.640
+Portanto, e então vai ficar
+
+0:19:52.400,0:19:58.080
+x
+
+0:19:54.640,0:20:01.919
+- x0
+
+0:19:58.080,0:20:03.559
+y - y0 z - z0.
+
+0:20:01.919,0:20:06.440
+OK? Estou aqui a fazer a diferença de
+
+0:20:03.559,0:20:09.520
+dois pontos. O produto interno com um
+
+0:20:06.440,0:20:11.320
+vetor normal que eu vou-lhe chamar a b,
+
+0:20:09.520,0:20:13.400
+ok?
+
+0:20:11.320,0:20:15.919
+E portanto
+
+0:20:13.400,0:20:17.440
+isto vai dar, pois já estamos mesmo a ah
+
+0:20:15.919,0:20:18.760
+e forçando isto igual a zero. Portanto,
+
+0:20:17.440,0:20:21.720
+aqui não há parâmetros, não há nada.
+
+0:20:18.760,0:20:25.120
+Pronto. Então isto vai dar aqui não é
+
+0:20:21.720,0:20:29.840
+não não convém chamar ABC, convém
+
+0:20:25.120,0:20:34.480
+chamar V1 V2 V1 V2 V3.
+
+0:20:29.840,0:20:37.480
+Pronto. E que agora vem que e agora ao
+
+0:20:34.480,0:20:39.679
+fazer o produto interno e simplificar,
+
+0:20:37.480,0:20:41.240
+pois vai ficar uma expressão em X, em Y
+
+0:20:39.679,0:20:43.360
+e em Z e depois com uma constante.
+
+0:20:41.240,0:20:46.679
+Pronto. E, portanto,
+
+0:20:43.360,0:20:51.039
+isto equivale a uma dada equação
+
+0:20:46.679,0:20:53.679
+cartesiana do plano ax
+
+0:20:51.039,0:20:56.919
++ by
+
+0:20:53.679,0:20:56.919
++ c
+
+0:20:58.320,0:21:05.440
+igual a um determinado d. OK?
+
+0:21:02.240,0:21:05.440
+Sim, senhora.
+
+0:21:07.159,0:21:11.360
+Ora bem, vamos então passar à distância
+
+0:21:09.080,0:21:14.440
+entre dois panos propriamente dita. Bom,
+
+0:21:11.360,0:21:16.520
+quando nós demos o tutorial da distância
+
+0:21:14.440,0:21:20.240
+entre duas retas, eu tratei a reta no
+
+0:21:16.520,0:21:24.200
+formato da equação reduzida. OK? Pronto.
+
+0:21:20.240,0:21:27.720
+Agora vamos repetir rapidamente
+
+0:21:24.200,0:21:31.320
+no formato de equação cartesiana.
+
+0:21:27.720,0:21:33.159
+Portanto, vamos voltar ao espaço 2D
+
+0:21:31.320,0:21:35.440
+e rapidamente vamos definir aqui duas
+
+0:21:33.159,0:21:37.799
+retas paralelas,
+
+0:21:35.440,0:21:39.880
+OK?
+
+0:21:37.799,0:21:42.440
+ax
+
+0:21:39.880,0:21:44.520
++ by
+
+0:21:42.440,0:21:46.880
+= a c1
+
+0:21:44.520,0:21:51.799
+e duas retas paralelas tem que ter aqui
+
+0:21:46.880,0:21:55.279
+os mesmos parâmetros ax + by = a c2
+
+0:21:51.799,0:21:59.480
+ok lembram-se que se eu aqui explicitar
+
+0:21:55.279,0:22:01.279
+em ordem y vai ficar aqui o declive aqui
+
+0:21:59.480,0:22:06.279
+o declive
+
+0:22:01.279,0:22:08.559
+aqui vai ficar - a so x e - a sobre b.
+
+0:22:06.279,0:22:10.039
+Portanto, este é o declíbrio se eu se eu
+
+0:22:08.559,0:22:11.760
+transformar esta equação em a equação
+
+0:22:10.039,0:22:13.960
+reduzida. E, portanto, aqui é a mesma
+
+0:22:11.760,0:22:17.720
+coisa, pois o decíve é igual e,
+
+0:22:13.960,0:22:20.919
+portanto, as retas são paralelas.
+
+0:22:17.720,0:22:23.919
+Lembram-se que eu apliquei a a a técnica
+
+0:22:20.919,0:22:25.600
+de de uma transformação da translação.
+
+0:22:23.919,0:22:29.200
+Portanto, vou fazer exatamente a mesma
+
+0:22:25.600,0:22:31.760
+coisa. Agora eu vou fazer aqui,
+
+0:22:29.200,0:22:35.880
+seja x
+
+0:22:31.760,0:22:38.840
+igual a um x linha + k. Eu vou aplicar,
+
+0:22:35.880,0:22:41.159
+pode ser na reta número um.
+
+0:22:38.840,0:22:42.720
+E então que fica
+
+0:22:41.159,0:22:46.200
+a
+
+0:22:42.720,0:22:48.799
+x vinha + k
+
+0:22:46.200,0:22:51.760
++ by
+
+0:22:48.799,0:22:55.080
+igual a c1.
+
+0:22:51.760,0:22:59.320
+OK? E então que fica? E eu quero que c1
+
+0:22:55.080,0:23:01.679
+vá a zero. Ok? E então será uma reta que
+
+0:22:59.320,0:23:08.400
+passa na origem.
+
+0:23:01.679,0:23:08.400
+Ok? Pronto. Então fica a x linha
+
+0:23:08.880,0:23:15.440
++ by
+
+0:23:12.400,0:23:18.679
+é igual a C1 - AK
+
+0:23:15.440,0:23:21.919
+- AK. E portanto AK tem que ser igual a
+
+0:23:18.679,0:23:23.799
+C1 e portanto K tem que ser igual a C1
+
+0:23:21.919,0:23:25.919
+sobre A.
+
+0:23:23.799,0:23:30.760
+para para anular isto, porque eu quero
+
+0:23:25.919,0:23:34.720
+fazer isto igual a zero. Então, daqui
+
+0:23:30.760,0:23:36.400
+extraio que tem que ser igual a C1
+
+0:23:34.720,0:23:38.640
+sobre A.
+
+0:23:36.400,0:23:42.600
+E, portanto, substituindo aqui KC C1
+
+0:23:38.640,0:23:44.520
+sobre A, pois esta equação fica
+
+0:23:42.600,0:23:46.320
+a Xvinha,
+
+0:23:44.520,0:23:48.400
+mas eu agora vou transformar X vinha em
+
+0:23:46.320,0:23:49.799
+X porque como não vamos precisar de
+
+0:23:48.400,0:23:51.480
+andar por trás da transformação, eu
+
+0:23:49.799,0:23:53.679
+expliquei-vos isto no outro tutorial,
+
+0:23:51.480,0:23:55.200
+agora em vez de andar com xvinha, com x
+
+0:23:53.679,0:23:57.159
+vinha, xvinha, xvinha, porque não não
+
+0:23:55.200,0:23:59.080
+não tem não tem importância, e eu
+
+0:23:57.159,0:24:01.440
+transformo outra vez em x, é um novo
+
+0:23:59.080,0:24:03.240
+referencial, houve uma transformação,
+
+0:24:01.440,0:24:04.760
+mas eu agora chamo-lhe outra vez o x,
+
+0:24:03.240,0:24:08.080
+embora este x seja diferente daquele
+
+0:24:04.760,0:24:10.400
+outro x. OK? Penso que me explico e que
+
+0:24:08.080,0:24:12.600
+explique isto no outro tutorial.
+
+0:24:10.400,0:24:17.279
+Portanto, ax
+
+0:24:12.600,0:24:18.840
++ by é igual a 0. Pronto, eu sei
+
+0:24:17.279,0:24:21.080
+apliquei uma uma transformação da
+
+0:24:18.840,0:24:23.279
+translação e fiz esta reta. A reta
+
+0:24:21.080,0:24:25.520
+número um agora passa na origem e a
+
+0:24:23.279,0:24:29.279
+segunda também ser tem que ser
+
+0:24:25.520,0:24:30.600
+translacionada do mesmo valor do OK? do
+
+0:24:29.279,0:24:32.600
+mesmo valor, aplicando a mesma
+
+0:24:30.600,0:24:36.039
+substituição
+
+0:24:32.600,0:24:38.520
+onde está a x e colocar
+
+0:24:36.039,0:24:40.640
+eh x + k
+
+0:24:38.520,0:24:42.200
+aqui. Pronto.
+
+0:24:40.640,0:24:44.760
+Portanto, façam façam essa
+
+0:24:42.200,0:24:47.200
+transformação. Essa transformação, essa
+
+0:24:44.760,0:24:52.600
+substituição e vai dar que a reta número
+
+0:24:47.200,0:24:54.720
+dois é translacionada e origina ax
+
+0:24:52.600,0:24:57.880
++ by
+
+0:24:54.720,0:25:01.360
+é igual a c2 - c1. Pronto, isto seria
+
+0:24:57.880,0:25:03.799
+intuitivo porque no fundo é basta apenas
+
+0:25:01.360,0:25:05.559
+subtrair C1 aqui das duas das duas
+
+0:25:03.799,0:25:07.919
+constantes. Pronto, isto pode ou não ser
+
+0:25:05.559,0:25:10.360
+intuitivo. Pronto, isto depende da da da
+
+0:25:07.919,0:25:12.559
+intuição de cada um. Pronto, há pessoas
+
+0:25:10.360,0:25:15.240
+com mais intuição para a matemática, às
+
+0:25:12.559,0:25:18.120
+vezes olham para uma coisa e e as coisas
+
+0:25:15.240,0:25:20.480
+parecem mais intuitivas e outras
+
+0:25:18.120,0:25:21.919
+pessoas, pois, que é o meu caso, às
+
+0:25:20.480,0:25:24.360
+vezes olho para as coisas, elas não são
+
+0:25:21.919,0:25:26.559
+assim tão intuitivas e preciso de
+
+0:25:24.360,0:25:28.440
+demonstrá-las com com mais detalhe. Sim,
+
+0:25:26.559,0:25:30.559
+senhora. Mas pronto, mas basicamente
+
+0:25:28.440,0:25:34.120
+temos aqui esta estas duas equações,
+
+0:25:30.559,0:25:35.640
+estas duas retas e que, portanto, são
+
+0:25:34.120,0:25:38.039
+estão à mesma distância uma da outra que
+
+0:25:35.640,0:25:39.640
+estavam estas duas originais, só com a
+
+0:25:38.039,0:25:41.080
+vantagem que esta agora passa na origem
+
+0:25:39.640,0:25:43.960
+e, portanto, vai ser mais simples. Vimos
+
+0:25:41.080,0:25:46.080
+isto no outro tutorial. OK? Então, o que
+
+0:25:43.960,0:25:48.320
+é que nós vamos fazer agora? Bom, o que
+
+0:25:46.080,0:25:50.799
+é que nós tínhamos feito da outra vez?
+
+0:25:48.320,0:25:54.360
+Nós tínhamos aqui um referencial, OK?
+
+0:25:50.799,0:25:54.360
+Nós tínhamos um referencial,
+
+0:25:54.440,0:25:59.679
+OK? Sim, senhora.
+
+0:25:56.600,0:26:02.360
+E nós dizíamos: "Bom, esta é a reta R1,
+
+0:25:59.679,0:26:05.080
+esta é a reta R2 e, portanto, a reta R1
+
+0:26:02.360,0:26:08.240
+passa na origem". Sim, senhor. Já
+
+0:26:05.080,0:26:11.720
+sabemos. R1,
+
+0:26:08.240,0:26:15.080
+R1. A reta R2 é paralela. Passa alguros
+
+0:26:11.720,0:26:17.159
+aqui, R2. E agora dizemos: "Bom, agora
+
+0:26:15.080,0:26:20.039
+quero dois pontos. Este ponto que eu já
+
+0:26:17.159,0:26:22.200
+o tenho que é o 00. E agora numa
+
+0:26:20.039,0:26:24.600
+perpendicular,
+
+0:26:22.200,0:26:26.240
+numa perpendicular eu vou obter aqui o
+
+0:26:24.600,0:26:27.760
+ponto P2.
+
+0:26:26.240,0:26:30.760
+P2
+
+0:26:27.760,0:26:33.200
+e P1. Pronto.
+
+0:26:30.760,0:26:36.080
+HH. Sim, senhora.
+
+0:26:33.200,0:26:39.360
+Ora bem,
+
+0:26:36.080,0:26:39.360
+uma das
+
+0:26:40.279,0:26:43.760
+das coisas que nós podemos ver é que é o
+
+0:26:42.360,0:26:46.600
+seguinte, uma seguinte propriedade e
+
+0:26:43.760,0:26:48.399
+chamar a atenção. Quando nós temos uma
+
+0:26:46.600,0:26:51.960
+reta
+
+0:26:48.399,0:26:54.320
+no formato ax + by
+
+0:26:51.960,0:26:56.200
+= a c,
+
+0:26:54.320,0:26:59.200
+isto agora é uma curiosidade, é aqui uma
+
+0:26:56.200,0:26:59.200
+parte.
+
+0:27:01.880,0:27:10.120
+Resulta que implica que o vetor AB
+
+0:27:06.679,0:27:11.799
+é perpendicular à reta.
+
+0:27:10.120,0:27:15.240
+OK? Pronto. Isto podemos ver com
+
+0:27:11.799,0:27:17.880
+facilidade porque se eu escolher dois
+
+0:27:15.240,0:27:21.679
+pontos da reta, um dos pontos pode ser,
+
+0:27:17.880,0:27:24.880
+por exemplo, o ponto para x = 0.
+
+0:27:21.679,0:27:28.520
+E se eu fizer x = 0, resulta que y é
+
+0:27:24.880,0:27:32.840
+igual a c/ b.
+
+0:27:28.520,0:27:36.480
+E outro ponto posso fazer para y = 0.
+
+0:27:32.840,0:27:40.799
+Para y = 0. Então resulta que x é igual
+
+0:27:36.480,0:27:42.200
+a c sobre a. Pronto. E aqui tenho estes
+
+0:27:40.799,0:27:43.640
+dois pontos. E agora se eu fizer a
+
+0:27:42.200,0:27:47.279
+diferença entre dois pontos, tenho o
+
+0:27:43.640,0:27:50.279
+vetor. Pronto. E então o o vetor vai-me
+
+0:27:47.279,0:27:50.279
+dar
+
+0:27:51.519,0:27:54.960
+c/ a
+
+0:27:58.840,0:28:05.880
+ora - c sobre a
+
+0:28:01.640,0:28:08.720
+e c sobre b. Pronto. É, portanto, este
+
+0:28:05.880,0:28:11.320
+é, sem dúvida, um vetor que está sobre a
+
+0:28:08.720,0:28:13.559
+reta porque resultou da diferença entre
+
+0:28:11.320,0:28:15.840
+dois pontos e eu calculei dois pontos
+
+0:28:13.559,0:28:20.120
+aleatórios que estejam sobre a reta. E
+
+0:28:15.840,0:28:21.480
+agora vou demonstrar que este vetor
+
+0:28:20.120,0:28:24.679
+que está sobre a reta, ela é
+
+0:28:21.480,0:28:28.159
+perpendicular a AB. Isto é para vermos
+
+0:28:24.679,0:28:31.519
+que AB nos dá rapidamente
+
+0:28:28.159,0:28:33.519
+um vetor que é perpendicular à reta.
+
+0:28:31.519,0:28:36.519
+Então, vamos testar. Eu vou fazer aqui o
+
+0:28:33.519,0:28:39.200
+produto interno e, portanto, então o o
+
+0:28:36.519,0:28:44.720
+produto interno vai-me dar - c/ a
+
+0:28:39.200,0:28:46.240
+obviamente x a + c sobre bvi b. Corta,
+
+0:28:44.720,0:28:49.799
+corta, corta, corta e portanto é igual a
+
+0:28:46.240,0:28:50.960
+zer. OK? Pronto, isto é fundamental.
+
+0:28:49.799,0:28:52.640
+Eu não precisava disto para fazer o
+
+0:28:50.960,0:28:55.200
+problema, mas é só um à parte e fica de
+
+0:28:52.640,0:28:58.159
+cultura geral. E para a pessoa ter uma
+
+0:28:55.200,0:28:59.760
+uma percepção rápida, que quando olha
+
+0:28:58.159,0:29:01.360
+para uma reta que está nesta forma
+
+0:28:59.760,0:29:05.480
+cartesiana,
+
+0:29:01.360,0:29:07.600
+que que A e B é um vetor perpendicular à
+
+0:29:05.480,0:29:11.159
+reta, não é da reta, é perpendicular à
+
+0:29:07.600,0:29:12.640
+reta. OK? Pronto. Então vamos e fizemos
+
+0:29:11.159,0:29:16.320
+agora este interrego, vamos voltar aqui
+
+0:29:12.640,0:29:19.080
+onde estávamos. Portanto, temos eh que
+
+0:29:16.320,0:29:20.480
+tenho que calcular uma reta ou tenho que
+
+0:29:19.080,0:29:22.880
+calcular aqui uma reta vermelha, uma
+
+0:29:20.480,0:29:24.840
+reta S,
+
+0:29:22.880,0:29:28.679
+OK?
+
+0:29:24.840,0:29:32.240
+Tenho que calcular aqui uma
+
+0:29:28.679,0:29:33.880
+uma reta S. Pronto. Ora bem, então
+
+0:29:32.240,0:29:36.399
+lembram-se do outro problema que nós
+
+0:29:33.880,0:29:41.240
+tínhamos feito, que quando eu tinha um
+
+0:29:36.399,0:29:44.320
+declive m, um determinado declive,
+
+0:29:41.240,0:29:46.720
+o declive da reta perpendicular seria -1
+
+0:29:44.320,0:29:48.960
+sobre m. Portanto, revejam aqui é uma
+
+0:29:46.720,0:29:51.600
+outra tutorial e lá explica isto.
+
+0:29:48.960,0:29:53.080
+Pronto. Portanto, aqui o declive que eu
+
+0:29:51.600,0:29:55.279
+vou querer, eu tenho aqui o declive
+
+0:29:53.080,0:29:58.000
+destas retas - a sobre B. Portanto,
+
+0:29:55.279,0:30:01.320
+agora o declive será B sobre A. Pronto.
+
+0:29:58.000,0:30:03.640
+Então aqui tenho a reta S. A reta S que
+
+0:30:01.320,0:30:05.080
+passa na origem porque eu porque eu
+
+0:30:03.640,0:30:07.799
+estou a forçá-la para passar na origem
+
+0:30:05.080,0:30:11.799
+para ser mais simples. Então a reta S
+
+0:30:07.799,0:30:14.159
+fica com as coordenadas fica Y
+
+0:30:11.799,0:30:21.200
+igual a
+
+0:30:14.159,0:30:22.880
+B so B b a X bob A X. Ok? Simples assim.
+
+0:30:21.200,0:30:25.519
+Ok.
+
+0:30:22.880,0:30:27.679
+Ora.
+
+0:30:25.519,0:30:29.640
+Sim, senhora. Mas posso pô-la agora?
+
+0:30:27.679,0:30:32.120
+Posso pô-la na na forma cartesiana
+
+0:30:29.640,0:30:33.279
+também. Na forma cartesiana, já que
+
+0:30:32.120,0:30:34.720
+estamos a trabalhar tudo na forma
+
+0:30:33.279,0:30:40.120
+cartesiana, vou pôr também na forma
+
+0:30:34.720,0:30:42.960
+cartesiana. E, portanto, fica eh bx - ay
+
+0:30:40.120,0:30:46.440
+= 0.
+
+0:30:42.960,0:30:50.559
+bx - ay
+
+0:30:46.440,0:30:52.480
+0. Sim, senhora. Ora, vamos, então,
+
+0:30:50.559,0:30:55.519
+tem que fazer, tem que fazer a sua
+
+0:30:52.480,0:30:57.799
+interseção com quê? Com a reta R2. com a
+
+0:30:55.519,0:30:59.480
+reta R1, já sabemos que dá o ponto 00
+
+0:30:57.799,0:31:01.440
+com a reta R2. Portanto, vamos fazer
+
+0:30:59.480,0:31:05.279
+aqui a interseção
+
+0:31:01.440,0:31:07.399
+e ponto vou pôr BX
+
+0:31:05.279,0:31:09.279
+- AY
+
+0:31:07.399,0:31:11.840
+= 0.
+
+0:31:09.279,0:31:18.039
+E embaixo vou pôr
+
+0:31:11.840,0:31:22.559
+AX, a reta número 2, ax + by
+
+0:31:18.039,0:31:26.039
+e tem que ser igual a C2 - C1.
+
+0:31:22.559,0:31:28.000
+Sim, senhor. Temos aqui um sistema e de
+
+0:31:26.039,0:31:29.120
+duas equações a duas incógnitas.
+
+0:31:28.000,0:31:32.799
+Portanto, à partida, vamos poder
+
+0:31:29.120,0:31:35.720
+resolvê-lo. OK? Então, o que é que vamos
+
+0:31:32.799,0:31:37.559
+fazer? Vou fazer, por exemplo, vou
+
+0:31:35.720,0:31:41.880
+multiplicar
+
+0:31:37.559,0:31:47.440
+aqui em cima por por B,
+
+0:31:41.880,0:31:49.279
+por B e aqui por A. Pronto. E somar. E
+
+0:31:47.440,0:31:52.279
+dessa porque é para anular este termo em
+
+0:31:49.279,0:31:55.639
+Y. Então fica fica então com uma equação
+
+0:31:52.279,0:31:55.639
+que p qu
+
+0:31:56.279,0:32:01.519
+x + a²
+
+0:31:59.559,0:32:07.080
+x
+
+0:32:01.519,0:32:09.279
+é igual a a c2 - c1. Pronto. E onde aqui
+
+0:32:07.080,0:32:13.360
+eu vou extrair o x.
+
+0:32:09.279,0:32:16.080
+E da mesma maneira, da mesma maneira
+
+0:32:13.360,0:32:18.080
+eu poderia ter multiplicado, em vez de b
+
+0:32:16.080,0:32:19.960
+e a eu poderia ter multiplicado aqui por
+
+0:32:18.080,0:32:23.440
+- a
+
+0:32:19.960,0:32:31.679
+e aqui por b. E nesse caso anula o termo
+
+0:32:23.440,0:32:31.679
+em x - ab b bax anula e fica a² y
+
+0:32:33.600,0:32:44.120
+mais
+
+0:32:36.000,0:32:44.120
+b² y é igual a b c2 - c1.
+
+0:32:44.880,0:32:50.200
+OK?
+
+0:32:47.200,0:32:50.200
+Ora,
+
+0:32:51.039,0:32:55.840
+sim, senhora. Ver se não me enganei.
+
+0:32:52.760,0:32:58.720
+Acho que não.
+
+0:32:55.840,0:33:03.240
+Mais a quad y mais. Ok, pronto. Então
+
+0:32:58.720,0:33:05.080
+aqui vou construir o ponto, o ponto P2.
+
+0:33:03.240,0:33:07.440
+O ponto P2 que eu já tenho as
+
+0:33:05.080,0:33:12.240
+coordenadas.
+
+0:33:07.440,0:33:14.960
+Portanto, será o X, eu extraio daqui a
+
+0:33:12.240,0:33:17.960
+C2 - C1
+
+0:33:14.960,0:33:21.720
+sobre
+
+0:33:17.960,0:33:21.720
+B qu + A²
+
+0:33:24.440,0:33:34.000
+a qu + b qu
+
+0:33:27.440,0:33:36.880
+E o ponto esta o ponto Y aqui ora B
+
+0:33:34.000,0:33:36.880
+C2 - C1
+
+0:33:40.360,0:33:48.919
+a² + b².
+
+0:33:44.360,0:33:51.960
+Ok? Ora, este é o ponto. E agora, qual a
+
+0:33:48.919,0:33:54.279
+distância à origem? É, pois é, é, é, já
+
+0:33:51.960,0:33:56.880
+sabemos, teorema de Pitágoras.
+
+0:33:54.279,0:34:01.279
+Vou trabalhar ao quadrado, que é mais
+
+0:33:56.880,0:34:04.960
+simples. Digo o quadrado deste A²
+
+0:34:01.279,0:34:04.960
+C2 - C1²
+
+0:34:05.880,0:34:12.320
++ B² C2 - C1²
+
+0:34:12.720,0:34:19.960
+e em baixo
+
+0:34:15.000,0:34:21.320
+a² + b² ao quadrado. Pronto. E aqui
+
+0:34:19.960,0:34:23.960
+vemos que vai haver um corta corta
+
+0:34:21.320,0:34:26.879
+porque C2 - C1
+
+0:34:23.960,0:34:29.520
+eu posso pôr em evidência
+
+0:34:26.879,0:34:32.079
+e vai ficar um a + b2, o qual vai cortar
+
+0:34:29.520,0:34:35.119
+aqui com o índice aqui de baixo. E
+
+0:34:32.079,0:34:38.800
+portanto isto fica c2 - c1
+
+0:34:35.119,0:34:42.919
+ao quad sobre
+
+0:34:38.800,0:34:45.000
+a + b2. E agora extraio a raiz quadrada.
+
+0:34:42.919,0:34:46.159
+Já sabemos que para extrair a raiz
+
+0:34:45.000,0:34:48.679
+quadrada em cima eu tenho que lhe
+
+0:34:46.159,0:34:52.560
+aplicar o valor absoluto. E então a
+
+0:34:48.679,0:34:56.240
+distância é o valor absoluto
+
+0:34:52.560,0:34:56.240
+C2 - C1
+
+0:34:56.879,0:35:01.079
+sobre
+
+0:34:58.599,0:35:06.079
+a raiz quadrada
+
+0:35:01.079,0:35:09.040
+de A2 + b2. Pronto. Basicamente eu achei
+
+0:35:06.079,0:35:10.760
+importante fazer isto porque porque e
+
+0:35:09.040,0:35:14.040
+porque agora vamos fazer o mesmo para
+
+0:35:10.760,0:35:16.440
+para planos e portanto e era importante
+
+0:35:14.040,0:35:18.960
+chamar a atenção como como a expressão
+
+0:35:16.440,0:35:21.880
+vai ser perfeitamente igual, mas a três
+
+0:35:18.960,0:35:25.000
+dimensões, só que aqui é para retas e
+
+0:35:21.880,0:35:28.280
+agora vamos ter para planos. OK? Não sei
+
+0:35:25.000,0:35:28.280
+se me explico.
+
+0:35:29.480,0:35:34.680
+Sim, senhora. Reparem que aqui estávamos
+
+0:35:31.839,0:35:37.280
+a trabalhar em 2D.
+
+0:35:34.680,0:35:40.359
+duas dimensões. Estamos a trabalhar com
+
+0:35:37.280,0:35:44.240
+dois duas retas, duas equações
+
+0:35:40.359,0:35:47.240
+cartesianas em 2D. E obtivemos esta
+
+0:35:44.240,0:35:47.240
+expressão
+
+0:35:47.599,0:35:51.680
+para o as equações cartesianas. Nós já
+
+0:35:50.560,0:35:53.640
+tínhamos visto uma expressão no outro
+
+0:35:51.680,0:35:57.480
+dia, mas era para equações reduzidas
+
+0:35:53.640,0:35:59.760
+onde entrava 1 + e m², salvo o erro, em
+
+0:35:57.480,0:36:01.200
+que o m era o de que vive. OK?
+
+0:35:59.760,0:36:03.240
+Obviamente podemos passar de uma para a
+
+0:36:01.200,0:36:04.440
+outra com facilidade.
+
+0:36:03.240,0:36:06.560
+Eu é que não quis fazer isso. Quis estar
+
+0:36:04.440,0:36:09.079
+a repetir aqui os cálculos porque
+
+0:36:06.560,0:36:11.200
+bastava pagar nas no m da equação
+
+0:36:09.079,0:36:13.960
+reduzida e transformar a equação
+
+0:36:11.200,0:36:15.400
+reduzida e eu ou ou vice-versa ou passar
+
+0:36:13.960,0:36:17.359
+de uma para a outra. Seria simples, mas
+
+0:36:15.400,0:36:19.839
+pronto, mas que estar um pouco a repetir
+
+0:36:17.359,0:36:22.640
+os cálculos para vocês verem também. Ora
+
+0:36:19.839,0:36:24.680
+bem, então vamos passar agora em três em
+
+0:36:22.640,0:36:29.359
+3D,
+
+0:36:24.680,0:36:31.599
+OK? Agora em três dimensões outra vez. E
+
+0:36:29.359,0:36:33.440
+então vamos ter a distância entre dois
+
+0:36:31.599,0:36:38.640
+planos paralelos.
+
+0:36:33.440,0:36:41.440
+Bem que o os planos Ax
+
+0:36:38.640,0:36:44.520
++ by + cz
+
+0:36:41.440,0:36:46.520
+é igual a D1
+
+0:36:44.520,0:36:49.680
+ax
+
+0:36:46.520,0:36:52.119
++ by + cz
+
+0:36:49.680,0:36:53.640
+é igual a D2.
+
+0:36:52.119,0:36:56.359
+OK?
+
+0:36:53.640,0:36:58.280
+Ora, o plano e já fizemos aqui a equação
+
+0:36:56.359,0:37:02.240
+do plano
+
+0:36:58.280,0:37:02.240
+e vimos que dava isto.
+
+0:37:02.800,0:37:07.040
+Eh, eu aqui esqueci-me de chamar a
+
+0:37:04.560,0:37:09.200
+atenção, mas aqui e reparem aqui nesta
+
+0:37:07.040,0:37:11.000
+expressão
+
+0:37:09.200,0:37:12.960
+que eu depois é que mudei-lhe mudei as
+
+0:37:11.000,0:37:14.760
+letras para A, B, C para seguir uma
+
+0:37:12.960,0:37:19.319
+convenção. E enquanto aqui tinha V1, V2,
+
+0:37:14.760,0:37:22.560
+V3, mas o termo em X, que é este V1 que
+
+0:37:19.319,0:37:26.040
+vai multiplicar o X e o V2 multiplica o
+
+0:37:22.560,0:37:29.760
+Y. Portanto, ou seja, o A, B e C é o
+
+0:37:26.040,0:37:32.680
+vetor normal ao plano.
+
+0:37:29.760,0:37:35.280
+OK? Portanto,
+
+0:37:32.680,0:37:37.520
+ou o V1, V2, V3 é a mesma coisa. Eu
+
+0:37:35.280,0:37:40.560
+acabei por mudar aqui para vez, mas
+
+0:37:37.520,0:37:42.880
+podia pronto, mas quer seja um, quer
+
+0:37:40.560,0:37:44.400
+seja outro.
+
+0:37:42.880,0:37:46.119
+A
+
+0:37:44.400,0:37:52.640
+BC
+
+0:37:46.119,0:37:52.640
+é um vetor normal ao plano.
+
+0:37:52.839,0:37:58.720
+No fundo, posso dizer que é um vetor
+
+0:37:54.760,0:38:02.160
+não, ou então será paralelo a N.
+
+0:37:58.720,0:38:05.000
+OK? Tal como aqui o AB era um vetor
+
+0:38:02.160,0:38:07.359
+perpendicular à reta. OK? Vamos ter isso
+
+0:38:05.000,0:38:09.800
+em linha de conta.
+
+0:38:07.359,0:38:12.800
+Então temos aqui a interseção de dois
+
+0:38:09.800,0:38:14.960
+planos, OK?
+
+0:38:12.800,0:38:17.000
+H,
+
+0:38:14.960,0:38:19.359
+agora não vamos fazer aqui a a
+
+0:38:17.000,0:38:21.480
+transformação da transação nenhuma para
+
+0:38:19.359,0:38:23.280
+não complicar. Fizemos nas retas, mas
+
+0:38:21.480,0:38:26.240
+aqui não vale a pena. Aqui vamos deixar
+
+0:38:23.280,0:38:30.720
+os planos onde eles estão. E agora vamos
+
+0:38:26.240,0:38:34.079
+buscar uma reta. Uma reta. Imaginem aqui
+
+0:38:30.720,0:38:34.079
+os dois planos.
+
+0:38:35.800,0:38:41.160
+Imagina, tenho aqui um plano
+
+0:38:39.599,0:38:43.160
+e tenho outro plano aqui por baixo
+
+0:38:41.160,0:38:44.720
+paralelo.
+
+0:38:43.160,0:38:48.440
+OK?
+
+0:38:44.720,0:38:52.119
+Ten aqui outro plano paralelo.
+
+0:38:48.440,0:38:53.880
+OK? Mas a equação do plano
+
+0:38:52.119,0:38:57.359
+está implícito aqui que eu posso extrair
+
+0:38:53.880,0:38:59.800
+um vetor perpendicular que é o ABC,
+
+0:38:57.359,0:39:02.079
+OK? que resultou e que demonstramos
+
+0:38:59.800,0:39:03.480
+quando quando simplificamos a expressão
+
+0:39:02.079,0:39:07.079
+vetorial para obter esta expressão
+
+0:39:03.480,0:39:09.319
+cesiana. Portanto, eu aqui tenho, eu
+
+0:39:07.079,0:39:11.680
+conheço aqui um vetor
+
+0:39:09.319,0:39:13.000
+normal. Portanto, se é perpendicular um,
+
+0:39:11.680,0:39:14.720
+é perpendicular ao outro plano, é
+
+0:39:13.000,0:39:17.760
+perpendicular aos dois planos. Então,
+
+0:39:14.720,0:39:19.880
+fazendo passar uma reta
+
+0:39:17.760,0:39:22.680
+com esta direção,
+
+0:39:19.880,0:39:26.920
+intercetando as duas as duas retas, os
+
+0:39:22.680,0:39:29.920
+dois planos, vai-me dar P1 e P2, de onde
+
+0:39:26.920,0:39:34.000
+eu vou calcular a distância. OK? Pronto,
+
+0:39:29.920,0:39:37.560
+bem simples. Então, temos uma reta,
+
+0:39:34.000,0:39:40.359
+temos uma reta e essa reta, mas essa
+
+0:39:37.560,0:39:43.400
+esta reta eu posso pôr eu posso pôr uma
+
+0:39:40.359,0:39:44.920
+reta paralela onde eu quiser.
+
+0:39:43.400,0:39:46.520
+Posso pô-la mais para a direita, mais
+
+0:39:44.920,0:39:49.800
+para a esquerda ou posso pô-la onde eu
+
+0:39:46.520,0:39:51.960
+quiser, desde que seja sempre com esta
+
+0:39:49.800,0:39:54.640
+direção perpendicular aos planos. Então,
+
+0:39:51.960,0:39:57.599
+em particular, eu vou escolher uma reta
+
+0:39:54.640,0:40:00.560
+que passe na origem. alguros aqui na
+
+0:39:57.599,0:40:03.680
+origem. Pronto, porque assim fica uma
+
+0:40:00.560,0:40:06.319
+equação da reta mais simples.
+
+0:40:03.680,0:40:08.160
+OK? Pronto, eu vou escolher uma reta e
+
+0:40:06.319,0:40:11.160
+essa reta
+
+0:40:08.160,0:40:13.520
+vai ter as coordenadas.
+
+0:40:11.160,0:40:14.920
+Já sabemos que em três dimensões, uma
+
+0:40:13.520,0:40:16.680
+reta, eu não posso ter uma única
+
+0:40:14.920,0:40:19.480
+expressão analítica, eu tenho que ter
+
+0:40:16.680,0:40:22.119
+uma expressão paramétrica, OK? ou então
+
+0:40:19.480,0:40:23.359
+seria duas equações.
+
+0:40:22.119,0:40:25.160
+Pronto. Então eu vou pôr aqui uma
+
+0:40:23.359,0:40:28.880
+expressão paramétrica que é uma reta a
+
+0:40:25.160,0:40:31.800
+três dimensões. X YZ passa na origem,
+
+0:40:28.880,0:40:33.760
+portanto o X0 é 0 e depois tem mais K,
+
+0:40:31.800,0:40:36.400
+um parâmetro, um múltiplo do vetor e o
+
+0:40:33.760,0:40:38.960
+vetor é o ABC, que é perpendicular a
+
+0:40:36.400,0:40:42.480
+estes estes dois planos. OK? Reparem
+
+0:40:38.960,0:40:45.640
+nisto, bem simples. Dois planos e uma
+
+0:40:42.480,0:40:49.400
+reta perpendicular aos planos.
+
+0:40:45.640,0:40:53.040
+OK? Pronto. E então de agora agora eu
+
+0:40:49.400,0:40:55.800
+tiro, eu tiro o K. Eu tiro o K. Isto é,
+
+0:40:53.040,0:40:57.560
+vamos, eu tenho que fazer interseção
+
+0:40:55.800,0:40:59.079
+desta reta com um plano e com o outro.
+
+0:40:57.560,0:41:02.680
+Vamos primeiro fazer a interseção com o
+
+0:40:59.079,0:41:04.760
+primeiro plano. OK? Eu aqui estou a
+
+0:41:02.680,0:41:07.160
+dizer que X tem que ser igual a K.
+
+0:41:04.760,0:41:11.040
+Portanto, no no primeiro plano vai ficar
+
+0:41:07.160,0:41:13.040
+que K A².
+
+0:41:11.040,0:41:17.960
+E ali onde está a Y, eu digo, mas a Y
+
+0:41:13.040,0:41:20.240
+tem que ser igual a KB. Então fica mais
+
+0:41:17.960,0:41:22.440
+KB qu
+
+0:41:20.240,0:41:24.440
++ KC²
+
+0:41:22.440,0:41:26.720
+é igual a D1.
+
+0:41:24.440,0:41:31.839
+Pronto. E aqui resulta. Bom, há então o
+
+0:41:26.720,0:41:33.119
+K tem que ser igual a o K, o parâmetro.
+
+0:41:31.839,0:41:35.839
+Aqui é o parâmetro certo que me dá o
+
+0:41:33.119,0:41:38.079
+ponto de interseção.
+
+0:41:35.839,0:41:41.839
+Vamos dizer P1, que é com a reta número
+
+0:41:38.079,0:41:44.960
+1, pois tem que ser igual a
+
+0:41:41.839,0:41:44.960
+a D1.
+
+0:41:45.240,0:41:52.960
+sobre a² + b² + c².
+
+0:41:49.960,0:41:56.520
+OK? Pronto.
+
+0:41:52.960,0:42:00.480
+Eh, da mesma forma
+
+0:41:56.520,0:42:03.240
+e se eu intercetar
+
+0:42:00.480,0:42:04.760
+ah, e min, portanto, eu agora que tenho
+
+0:42:03.240,0:42:06.280
+o K, vou agora já tenho qual é o
+
+0:42:04.760,0:42:09.040
+parâmetro. Agora vou vou saber qual é o
+
+0:42:06.280,0:42:10.920
+ponto. Pronto. Então se se este é o
+
+0:42:09.040,0:42:12.880
+parâmetro, eu para saber qual é o ponto
+
+0:42:10.920,0:42:14.960
+agora com este parâmetro específico,
+
+0:42:12.880,0:42:17.240
+pois substituo
+
+0:42:14.960,0:42:18.560
+aqui na reta, que é onde eu tenho o K.
+
+0:42:17.240,0:42:22.160
+Portanto, ao substituir na reta, vai-me
+
+0:42:18.560,0:42:24.240
+dar o ponto P1. Portanto, o ponto P1 tem
+
+0:42:22.160,0:42:28.119
+de coordenadas,
+
+0:42:24.240,0:42:32.119
+portanto, e é o é o K em evidência. Eu
+
+0:42:28.119,0:42:34.640
+vou pôr aqui eh
+
+0:42:32.119,0:42:37.640
+OK. Portanto, é o K
+
+0:42:34.640,0:42:37.640
+D1
+
+0:42:37.800,0:42:48.119
+A2 + B2 + C2 e ABC.
+
+0:42:44.599,0:42:50.119
+OK? Este é o ponto. Eu pus simplesmente
+
+0:42:48.119,0:42:53.119
+pus esta constante aqui de fora que que
+
+0:42:50.119,0:42:56.400
+é o valor do K. Pronto. Da mesma
+
+0:42:53.119,0:42:58.800
+maneira, se fazendo o mesmo raciocínio
+
+0:42:56.400,0:43:04.280
+para P2, interando intercetando a reta
+
+0:42:58.800,0:43:06.079
+com o segundo plano, eu vou obter o P2,
+
+0:43:04.280,0:43:09.280
+exatamente o mesmo raciocínio e vai-me
+
+0:43:06.079,0:43:09.280
+dar D2
+
+0:43:09.440,0:43:19.960
+A2 + b2 + C2, OK?
+
+0:43:16.599,0:43:21.800
+A B C e eu já tenho aqui os meus dois
+
+0:43:19.960,0:43:24.520
+pontos. Portanto, agora só tenho que
+
+0:43:21.800,0:43:26.800
+fazer a distância entre entre os dois
+
+0:43:24.520,0:43:29.839
+pontos. Portanto, é exatamente sempre a
+
+0:43:26.800,0:43:31.000
+mesma lógica. Então, eu vou trabalho com
+
+0:43:29.839,0:43:32.839
+a distância ao quadrado, que é mais
+
+0:43:31.000,0:43:34.839
+simples, que é para ter os quadrados do
+
+0:43:32.839,0:43:38.079
+teorema de Pitágoras.
+
+0:43:34.839,0:43:39.839
+Ora, então tenho que fazer a a diferença
+
+0:43:38.079,0:43:44.760
+entre estes dois pontos. Portanto, é a
+
+0:43:39.839,0:43:47.280
+distância entre é P2 - P1. A distância
+
+0:43:44.760,0:43:52.200
+P2- A²AD. Eu estou eu estou a fazer ao
+
+0:43:47.280,0:43:56.000
+quadrado, portanto fica P2 - P1. Eh,
+
+0:43:52.200,0:43:57.760
+portanto, vai ficar, reparem aqui, D2A -
+
+0:43:56.000,0:44:00.760
+D1A,
+
+0:43:57.760,0:44:05.119
+D2A - D1A²
+
+0:44:00.760,0:44:08.680
+D2A - D1A
+
+0:44:05.119,0:44:10.640
+ao quadrado, OK?
+
+0:44:08.680,0:44:13.520
+Eh, depois sobre o denominador também ao
+
+0:44:10.640,0:44:18.880
+quadrado que já lvamos.
+
+0:44:13.520,0:44:21.359
+Eh, e pronto. E o mesmo aqui, D2B - D1B
+
+0:44:18.880,0:44:24.599
++ D2B
+
+0:44:21.359,0:44:24.599
+- D1
+
+0:44:26.680,0:44:33.839
+D2B - D1B
+
+0:44:30.200,0:44:38.520
+ao quadrado mais. E aqui vai ficar,
+
+0:44:33.839,0:44:38.520
+portanto, D2C - D1C.
+
+0:44:38.920,0:44:46.960
+D2C - D1 C. ao quadrado
+
+0:44:44.240,0:44:50.160
+e vai ficar tudo sobre
+
+0:44:46.960,0:44:55.240
+o quadrado a 2
+
+0:44:50.160,0:44:57.880
++ b2 + c2 ao quadrado. OK? Pronto. E
+
+0:44:55.240,0:45:00.040
+agora vamos fazer, tenho que expandir os
+
+0:44:57.880,0:45:03.119
+quadrados todos.
+
+0:45:00.040,0:45:04.880
+Portanto, t2²
+
+0:45:03.119,0:45:07.880
+quadrado do primeiro mais o quadrado do
+
+0:45:04.880,0:45:07.880
+segundo
+
+0:45:08.079,0:45:16.280
+mais o dobro do primeiro pelo segundo
+
+0:45:11.839,0:45:18.240
+é menos -2 d1 d2
+
+0:45:16.280,0:45:20.960
+a quad
+
+0:45:18.240,0:45:27.520
++
+
+0:45:20.960,0:45:30.280
+d2 qu b2 + d1 qu
+
+0:45:27.520,0:45:33.920
+B,
+
+0:45:30.280,0:45:37.559
+portanto, B qu
+
+0:45:33.920,0:45:40.040
+menos o dobro de D1 D2
+
+0:45:37.559,0:45:43.359
+B²
+
+0:45:40.040,0:45:46.359
++ D2
+
+0:45:43.359,0:45:46.359
+C²
+
+0:45:47.599,0:45:57.079
++
+
+0:45:49.559,0:46:00.079
+D1² C² - 2 D1 D2 C². Pronto, isto tudo
+
+0:45:57.079,0:46:00.079
+sobre
+
+0:46:00.240,0:46:04.640
+a + b2
+
+0:46:02.559,0:46:06.000
++ c2².
+
+0:46:04.640,0:46:07.359
+Pronto. E então agora o que é que nós
+
+0:46:06.000,0:46:11.079
+temos aqui? Temos aqui alguma coisa que
+
+0:46:07.359,0:46:13.240
+simplifique. Eh,
+
+0:46:11.079,0:46:17.079
+temos alguma coisa que posso pôr em
+
+0:46:13.240,0:46:21.839
+evidência. Posso pôr em evidência
+
+0:46:17.079,0:46:26.920
+aqui, que é precisamente o D1² + D2².
+
+0:46:21.839,0:46:29.319
+OK? Portanto, o d1² + d2²
+
+0:46:26.920,0:46:31.720
+que aparecem todos estes termos aqui,
+
+0:46:29.319,0:46:34.680
+todos estes termos ao quadrado
+
+0:46:31.720,0:46:36.800
+fica t1²
+
+0:46:34.680,0:46:39.800
++ d2
+
+0:46:36.800,0:46:39.800
+quad
+
+0:46:39.920,0:46:49.280
+que multiplica a 2 + b2 + c2. Reparem
+
+0:46:45.680,0:46:54.240
+que isto dá d1² a 2, que é este aqui,
+
+0:46:49.280,0:46:58.839
+mais d² a2, que é o2
+
+0:46:54.240,0:46:58.839
+qu a2 está para aqui.
+
+0:46:59.559,0:47:06.760
+Eh, d2² a a 2 d2
+
+0:47:04.599,0:47:09.599
+a quad que é este aqui. Pronto, os
+
+0:47:06.760,0:47:15.520
+termos, os termos estão todos aqui. São
+
+0:47:09.599,0:47:18.160
+seis termos. São seis termos. 1 2
+
+0:47:15.520,0:47:20.240
+são os quadrados três,
+
+0:47:18.160,0:47:23.640
+4
+
+0:47:20.240,0:47:25.640
+5 e seis. OK? Eu simplesmente os
+
+0:47:23.640,0:47:27.520
+factorizei aqui e agora falta aqui
+
+0:47:25.640,0:47:30.160
+estes. E estes o que é que eles têm aqui
+
+0:47:27.520,0:47:33.520
+para pôr em evidência? 2 d1 d2.
+
+0:47:30.160,0:47:39.200
+Portanto, menos -2
+
+0:47:33.520,0:47:44.440
+- 2 d1 d2 e há parênteses
+
+0:47:39.200,0:47:47.559
+a 2 + b2 + c2. E realmente vemos que vai
+
+0:47:44.440,0:47:53.079
+haver aqui um corta corta
+
+0:47:47.559,0:47:56.880
+onde este e este corta com a potência ao
+
+0:47:53.079,0:47:56.880
+quadrado aqui em baixo
+
+0:47:58.040,0:48:03.920
+com a quadrado. Corta
+
+0:48:00.520,0:48:06.599
+com com este quadrado aqui. Pronto. E
+
+0:48:03.920,0:48:10.480
+então fica apenas em cima. E, mas agora
+
+0:48:06.599,0:48:13.240
+reparem, d1 d1² + d2² - 2 d1 d2 é o
+
+0:48:10.480,0:48:17.359
+quadrado da diferença. Isto é igual a 1
+
+0:48:13.240,0:48:17.359
+quadrado d1 - d2².
+
+0:48:18.480,0:48:22.400
+Bem simples.
+
+0:48:20.319,0:48:25.359
+E aqui a²
+
+0:48:22.400,0:48:27.920
++ b2 + c2.
+
+0:48:25.359,0:48:29.960
+Pronto. Então agora extraio as raízes
+
+0:48:27.920,0:48:32.640
+quadradas para obter finalmente a
+
+0:48:29.960,0:48:37.160
+distância. Já sabemos o valor absoluto
+
+0:48:32.640,0:48:41.440
+em cima d1 - d2
+
+0:48:37.160,0:48:44.319
+o valor absoluto e em baixo a raiz
+
+0:48:41.440,0:48:48.240
+quadrada
+
+0:48:44.319,0:48:50.400
+dá 2 + b2 + c2. Pronto, então isto é que
+
+0:48:48.240,0:48:53.799
+é o extraordinário. Aqui está a beleza
+
+0:48:50.400,0:48:56.040
+da matemática a trabalhar e as e as e a
+
+0:48:53.799,0:48:58.240
+e a simetria da matemática. É isto que
+
+0:48:56.040,0:49:00.319
+eu quero chamar-vos a atenção.
+
+0:48:58.240,0:49:02.559
+Reparem-nos como isto é extraordinário.
+
+0:49:00.319,0:49:05.040
+Portanto, há duas dimensões,
+
+0:49:02.559,0:49:06.599
+nós tínhamos a expressão
+
+0:49:05.040,0:49:08.319
+que a distância entre duas retas
+
+0:49:06.599,0:49:11.200
+paralelas
+
+0:49:08.319,0:49:14.720
+na forma cartesiana.
+
+0:49:11.200,0:49:16.680
+No fundo, esta forma é é preferível. Há
+
+0:49:14.720,0:49:18.240
+outra forma da equações reduzidas que
+
+0:49:16.680,0:49:20.720
+tiv que vimos no outro tutorial, mas
+
+0:49:18.240,0:49:22.160
+calhou. Eu aquilo era uma era uma
+
+0:49:20.720,0:49:24.160
+informação que eu tinha ali que eu tinha
+
+0:49:22.160,0:49:27.160
+no momento nos meus apontamentos e e
+
+0:49:24.160,0:49:29.920
+quando dei o tutorial dei assim, dei na
+
+0:49:27.160,0:49:32.559
+nas equações da forma reduzida. Pronto,
+
+0:49:29.920,0:49:36.200
+mas esta expressão é melhor. Dar o A e B
+
+0:49:32.559,0:49:38.480
+é melhor porque ela é mais simétrica
+
+0:49:36.200,0:49:39.960
+e ela daqui passa diretamente a três
+
+0:49:38.480,0:49:41.839
+dimensões para a distância entre dois
+
+0:49:39.960,0:49:43.760
+panos paralelos
+
+0:49:41.839,0:49:45.280
+numa expressão perfeitamente análoga.
+
+0:49:43.760,0:49:48.720
+Pronto, isto é, como estão a ver, isto é
+
+0:49:45.280,0:49:50.880
+espetacular. OK?
+
+0:49:48.720,0:49:52.599
+Pronto, e estamos quase a acabar. Eh,
+
+0:49:50.880,0:49:55.040
+vamos só ver um exemplo de como seria,
+
+0:49:52.599,0:49:58.599
+por exemplo, uma interseção
+
+0:49:55.040,0:50:00.359
+de uma reta com um plano. OK? Pronto,
+
+0:49:58.599,0:50:01.520
+como exercício.
+
+0:50:00.359,0:50:02.760
+Vamos ver, mas vamos ver na forma
+
+0:50:01.520,0:50:06.119
+genérica. Não vou dar nenhum valor
+
+0:50:02.760,0:50:11.280
+concreto, não, não vale a pena. Mas e
+
+0:50:06.119,0:50:12.680
+como seria? seria um plano. Um plano.
+
+0:50:11.280,0:50:15.160
+No fundo, nós já fizemos, nós já
+
+0:50:12.680,0:50:17.880
+fizemos, acabamos de fazer isso. Nós
+
+0:50:15.160,0:50:20.040
+aqui acabamos por fazer eh quando
+
+0:50:17.880,0:50:21.200
+tínhamos aqui um, tínhamos aqui uma reta
+
+0:50:20.040,0:50:23.200
+e tínhamos um pano e fizemos a
+
+0:50:21.200,0:50:25.200
+interseção e a reta estava na forma
+
+0:50:23.200,0:50:26.960
+paramétrica. Pronto, não foi a mesma
+
+0:50:25.200,0:50:29.319
+coisa. Vou só dar aqui um caso mais
+
+0:50:26.960,0:50:31.319
+genérico, mas vai vai ser exatamente o
+
+0:50:29.319,0:50:33.760
+mesmo tipo de raciocínio. Portanto, aqui
+
+0:50:31.319,0:50:37.160
+tenho uma reta Ax
+
+0:50:33.760,0:50:38.599
++ by + CG. Tenho um plano, desculpem.
+
+0:50:37.160,0:50:42.079
+Portanto, tenho um plano. Estamos a
+
+0:50:38.599,0:50:45.880
+trabalhar em três dimensões.
+
+0:50:42.079,0:50:50.799
+Estamos a trabalhar em 3D. Ax + by + c =
+
+0:50:45.880,0:50:53.000
+d. E vamos e e vamos ter uma reta, mas a
+
+0:50:50.799,0:50:55.760
+mas a reta já sabemos, tem que ser dada
+
+0:50:53.000,0:50:59.720
+na forma paramétrica. Portanto, a reta
+
+0:50:55.760,0:51:02.280
+será sempre numa expressão X
+
+0:50:59.720,0:51:05.280
+Y Z
+
+0:51:02.280,0:51:09.520
+é igual a
+
+0:51:05.280,0:51:09.520
+a X0 y0
+
+0:51:10.079,0:51:17.240
++ k um determinado vetor V1 V2 V3.
+
+0:51:14.640,0:51:19.319
+Pronto, esta é a reta paramétrica.
+
+0:51:17.240,0:51:22.440
+E, portanto, para fazer a interseção, se
+
+0:51:19.319,0:51:23.960
+me disser, olha, faz-me interseção,
+
+0:51:22.440,0:51:25.440
+isto é um caso genérico, mas imaginem
+
+0:51:23.960,0:51:26.880
+que era um caso específico, não é? Eu é
+
+0:51:25.440,0:51:29.240
+que estou a fazer, eu é que estou a
+
+0:51:26.880,0:51:30.520
+trabalhar na forma genérica.
+
+0:51:29.240,0:51:31.839
+Já vos recomendei que sempre que
+
+0:51:30.520,0:51:34.079
+possível, pois trabalhemos na forma
+
+0:51:31.839,0:51:35.799
+genérica.
+
+0:51:34.079,0:51:38.000
+E, portanto, fica, olha, como é a
+
+0:51:35.799,0:51:40.359
+interseção destes dois. É simples.
+
+0:51:38.000,0:51:43.960
+Basta-me pegar aqui na na reta e dizer,
+
+0:51:40.359,0:51:47.119
+olha, se o x é igual a x0 + k v1, então
+
+0:51:43.960,0:51:49.240
+aqui fica que a
+
+0:51:47.119,0:51:52.880
+o x0
+
+0:51:49.240,0:52:00.319
++ k v1
+
+0:51:52.880,0:52:01.839
++ b o y que é y0 + k2
+
+0:52:00.319,0:52:07.960
+mais
+
+0:52:01.839,0:52:12.000
+o c vezes o z que é e g0 0
+
+0:52:07.960,0:52:12.000
++ KV3
+
+0:52:12.240,0:52:17.799
+e isto é igual a D. Então isto é uma
+
+0:52:15.160,0:52:19.359
+equação do primeiro grau a K. K é a
+
+0:52:17.799,0:52:22.520
+única incógnita. Tudo o resto é
+
+0:52:19.359,0:52:24.440
+conhecido. X0 y 0, Z0 é conhecido. Seria
+
+0:52:22.520,0:52:27.480
+um determinado ponto dado. Tal como o
+
+0:52:24.440,0:52:29.240
+vetor V1, V2, V3 também seria conhecido,
+
+0:52:27.480,0:52:31.240
+seria um determinado vetor específico
+
+0:52:29.240,0:52:34.960
+que seria dado e, portanto, a única
+
+0:52:31.240,0:52:36.319
+incógnita é o K. E daqui extraímos
+
+0:52:34.960,0:52:39.040
+que são em K, tal como aqui também
+
+0:52:36.319,0:52:42.559
+extraímos. Lembram-se? Aqui extraímos o
+
+0:52:39.040,0:52:44.920
+K. Aqui, aqui extraímos o K e depois
+
+0:52:42.559,0:52:46.599
+pegamos nesse K e substituímos na
+
+0:52:44.920,0:52:48.559
+equação da reta para obter o ponto o
+
+0:52:46.599,0:52:49.839
+ponto o ponto de solução. Pronto, aqui é
+
+0:52:48.559,0:52:52.160
+a mesma coisa. Portanto, aqui
+
+0:52:49.839,0:52:55.040
+resolveríamos em ordem a cap. Portanto,
+
+0:52:52.160,0:52:58.880
+isto é uma equação
+
+0:52:55.040,0:52:58.880
+equação do primeiro grau
+
+0:52:59.680,0:53:03.960
+em K, que é a única incógnita. não há
+
+0:53:01.640,0:53:06.559
+mais incógnitas, resolveríamos e com
+
+0:53:03.960,0:53:08.599
+esse valor substituiríamos aqui no no
+
+0:53:06.559,0:53:11.280
+paraparâmetro e obteríamos o ponto de
+
+0:53:08.599,0:53:14.319
+solução da interseção da reta com o
+
+0:53:11.280,0:53:16.799
+plano. E pronto, penso ter coberto tudo,
+
+0:53:14.319,0:53:19.240
+todas tudo o que eu queria falar e este
+
+0:53:16.799,0:53:20.680
+o tutorial já vai longo. Pronto, aqui
+
+0:53:19.240,0:53:23.359
+umas ideias importantes para vocês
+
+0:53:20.680,0:53:26.200
+reterem que, como vos disse, é saberem
+
+0:53:23.359,0:53:28.200
+sempre em que espaço estão a trabalhar.
+
+0:53:26.200,0:53:29.760
+muda totalmente de figura se tiverem a
+
+0:53:28.200,0:53:32.079
+trabalhar em duas dimensões ou em três
+
+0:53:29.760,0:53:34.319
+dimensões, onde as equações podem ter
+
+0:53:32.079,0:53:36.200
+significados completamente diferentes.
+
+0:53:34.319,0:53:37.880
+Portanto, esse é um ponto a ter sempre
+
+0:53:36.200,0:53:39.799
+em atenção.
+
+0:53:37.880,0:53:41.760
+O segundo ponto que vos disse foi sempre
+
+0:53:39.799,0:53:44.720
+que possível
+
+0:53:41.760,0:53:46.760
+olhem para os objetos e pensem no no
+
+0:53:44.720,0:53:50.160
+formalismo vetorial. Pensem sempre na
+
+0:53:46.760,0:53:53.000
+equação vetorial, OK? A equação
+
+0:53:50.160,0:53:55.640
+vetorial, as equações vetoriais são
+
+0:53:53.000,0:53:58.160
+espetaculares e muito mais concisas.
+
+0:53:55.640,0:54:00.280
+Aprendam a raciocinar na forma do
+
+0:53:58.160,0:54:09.760
+formalismo vetorial
+
+0:54:00.280,0:54:13.359
+e em que porque é x uma reta x0 + k
+
+0:54:09.760,0:54:15.160
+um plano. É uma reta,
+
+0:54:13.359,0:54:18.640
+um plano
+
+0:54:15.160,0:54:21.799
+x - x0
+
+0:54:18.640,0:54:24.920
+produto interno, um vetor normal igual a
+
+0:54:21.799,0:54:27.319
+zero, um plano
+
+0:54:24.920,0:54:28.280
+e já agora, uma circunferência.
+
+0:54:27.319,0:54:31.920
+Ainda não tratamos nada de
+
+0:54:28.280,0:54:37.760
+circunferências, mas pronto. Os pontos X
+
+0:54:31.920,0:54:40.760
+menos um centro, um centro X0.
+
+0:54:37.760,0:54:40.760
+OK?
+
+0:54:41.319,0:54:46.760
+cuja cuja norma
+
+0:54:44.119,0:54:50.240
+cuja norma
+
+0:54:46.760,0:54:53.720
+é igual a um raio da circunferência.
+
+0:54:50.240,0:54:56.200
+Estão a ver? Reparem nesta simplicidade.
+
+0:54:53.720,0:54:57.280
+Reparem como numa forma tão compacta
+
+0:54:56.200,0:55:00.640
+escrevo uma equação de uma
+
+0:54:57.280,0:55:04.079
+circunferência. OK?
+
+0:55:00.640,0:55:06.160
+Pronto. Em que dimensões? A n dimensões.
+
+0:55:04.079,0:55:07.680
+Aqui é válida n dimensões porque se for
+
+0:55:06.160,0:55:09.079
+a duas dimensões é um é uma
+
+0:55:07.680,0:55:10.799
+circunferência.
+
+0:55:09.079,0:55:12.440
+Mas se for a três dimensões, é uma
+
+0:55:10.799,0:55:14.200
+esfera
+
+0:55:12.440,0:55:17.119
+ou uma superfície esférica e assim
+
+0:55:14.200,0:55:21.280
+sucessivamente. OK? A mais que três
+
+0:55:17.119,0:55:24.280
+dimensões. Portanto, vou dizer aqui uma
+
+0:55:21.280,0:55:24.280
+circunferência.
+
+0:55:26.880,0:55:29.880
+OK?
+
+0:55:30.240,0:55:35.480
+E pronto, aqui me despeço. Espero que
+
+0:55:33.400,0:55:38.359
+tenham gostado e até uma próxima
+
+0:55:35.480,0:55:38.359
+oportunidade.
+
+

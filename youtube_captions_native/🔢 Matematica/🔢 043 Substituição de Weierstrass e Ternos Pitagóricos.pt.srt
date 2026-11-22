@@ -1,0 +1,946 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial. Hoje vai ser dedicado à ao
+método de substituição de vi trass, não
+é? Normalmente usado para calcular
+integrais,
+assim como a sua relação com os términos
+pitagóricos. OK?
+Por acaso este tema dos dos términos
+pitagóricos e é estranho porque eu não
+vejo
+substituição de var. Vê-se muita coisa.
+Basta pesquisarem na internet e no
+YouTube vão ver muitos exemplos, muitos
+integrais resolvidos com este método,
+mas não vi nenhum e efetivamente a
+estabelecer a relação com os términos
+pitagóricos, não sei porquê.
+Ou então fui eu que procurei mal. Bom,
+vamos então
+eh relembrar que nós num tutorial meu
+anterior eu tinha vos mostrado um
+exemplo de uma equação paramétrica
+eh racional do círculo, OK? Portanto,
+que nós tínhamos que x = 1 - t2
+sobre 1 + t2
+y = 2t
+sobre 1 + t2. OK?
+Portanto, nós tínhamos nós tínhamos
+visto isto e até usamos o GeoGebra para
+traçar. Na altura eu disse
+eh
+meti uma pequena gave dizendo que isto
+que só gerava meio círculo. Pronto. E só
+gerava meio círculo porque porque eu eu
+só estava a variar o t entre entre zero
+e infinito.
+OK?
+Pronto. Mas na verdade,
+eh, na verdade é o que consegue gerar o
+círculo todo, à exceção de um ponto, se
+fizermos variar o t menos infinito a
+mais infinito.
+OK?
+Eh, este, portanto, gera toda a
+circunferência. Se se recordam do outro
+tutorial, ele gerava a circunferência,
+mas é uma a velocidade era variável. OK?
+Ele ele começa começa rápido quando
+quando o t igual a zero.
+Eh, e mas depois vaise tornando cada vez
+mais lento. OK? Portanto, a a velocidade
+é variável.
+Ora, sim, senhor.
+Verificamos que efetivamente estas
+equações paramétricas
+são equações paramétricas, OK? Não há
+dúvida nenhuma.
+Nós vimos isto no outro tutorial, OK? E
+até contrastamos
+com a parametrização da circunferência
+mais comum, que é aquela parametrização
+trigonométrica, não é, do cosseno e do
+seno. Estas são equações paramétricas
+racionais do círculo
+ou outra circunferência.
+OK?
+Sim, senhor. Portanto, elas verificam
+que
+x²
++ y² = r qu, mas neste caso é o círculo
+unitário é igual a 1. Se eu quisesse, se
+eu quisesse um r, eu eu poria aqui um r.
+OK?
+Sim, senhor.
+Ora, efetivamente,
+efetivamente, verificam,
+verificam. Se vocês vararem aqui ao
+quadrado
+1 - t²
+1 + t². Podem fazer a conta
+este quadrado mais
+este quadrado
+1 + t²
+= a 1. Sim, senhor. Podem fazer esse
+exercício. Ora bem, então, sendo assim
+aqui desta equação, OK? Eu posso passar
+aqui um t² aqui para a direita, OK?
+Ora,
+e portanto resulta que
+1 - t²
+ao quad
++ 2t
+quad
+= a 1 + t².
+Pronto. E logo aqui já temos uma fórmula
+geradora.
+Uma fórmula geradora.
+para os ternos trigonométricos
+eh pitagóricos. digo
+porque efetivamente temho aqui esta
+relação. Se eu eu se eu igualar 1 - t² a
+um cateto, então tenho que c1² +
+c2² = a uma hipóteseusa ao quadrado.
+Pronto. Então aí não há dúvida nenhuma
+que fazendo variar t, fazendo variar t,
+pronto, o que acontece é que aqui aqui
+não, aqui não fica aqui h bom é igual e
+há dizer que aqui é é é posso pôr na
+forma de t² - 1 elevado ao quadrado é a
+mesma coisa
+h
+mas é realmente é melhor pôr o t²ado -1
+aqui porque
+porque eu Eu quero para para pôr os
+lados dos catetos.
+OK?
+É a mesma coisa. Eu estou vou estou a
+trocar o sinal.
+Eu estou a trocar o sinal elevado ao
+quadrado, depois fica igual.
+OK?
+É só por dizer que é melhor, porque eu
+agora então posso fazer aqui um um
+triângulo retângulo
+com os lados
+t² - 1
+2t
+e 1 + t².
+Ok? Pronto. Agora dando valores a t,
+t = 1, não, porque aqui dá 1 - 1 0,
+portanto não gera nenhum triângulo. Mas,
+por exemplo, para t = 2, vamos ver, para
+t = 2,
+vai gerar o triângulo retângulo. 2 x 2 4
+- 1 3 2 x 2 4 2 x 2 4 e 1 5. Pronto.
+O famoso triângulo retângulo 345. o
+triângulo retângulo de lados inteiros
+mais simples que existe.
+OK? Sim, senhor. Pronto, esta é uma
+fórmula geradora,
+OK?
+[roncando] H, a um parâmetro, mas daqui
+a bocado já vamos ver a outra outra
+forma geradora mais poderosa a dois
+parâmetros que gera todos os triângulos
+retângulos de lados inteiros que
+existem. OK? Mas pronto, isto foi só um
+pequeno recordatório
+em relação a algumas coisas que vimos no
+outro tutorial. Agora vamos passar
+efetivamente para a substituição de var
+e depois já voltaremos ainda aos
+términos pitagóricos.
+Ora bem, então para a substituição de
+vier straç
+o que é que acontece?
+vai nos permitir resolver alguns
+integrais, como já vamos ver um depois
+um exemplo e vamos ver só um exemplo,
+porque é como vos digo, a internet e o
+YouTube tá cheio, tá cheio de exercícios
+resolvidos. Portanto, aí só vou fazer
+aqui um exercício como como
+exemplificativo
+e também tá está tá tá bastante cheio da
+das demonstrações. A demonstração é
+verdadeiramente simples. Bom, só queria
+chamar aqui, portanto, a atenção de uma
+coisa. Portanto, na substituição de var
+trace, quando nós temos hh efetivamente
+uma função y = f(x),
+pronto, o qual imaginando que eu quero
+integrar,
+imaginando que eu estou à procura de
+integrar ou dou calcular a primitiva de
+f dex,
+OK?
+Então, efetivamente,
+eh, já fizemos, já abrimemos o método da
+substituição de variável, onde eu posso
+fazer, onde eu posso dizer x seja x = a
+1 a 1 g de t.
+OK? Sim, senhora. Já, já, já vimos isto.
+Eh, e portanto
+até construímos na altura uma tabela
+onde eu disse: "Bom, se x = g de t,
+então será que t igual a g - 1 à função
+inversa?
+no valor de x e também será que dx pois
+será igual a a dd dg ddt e d
+dq
+dt
+dt
+bom eh já vimos nisto no noutros
+tutorialis ok
+h
+Sim, senhor. Portanto, o que é que aqui
+é importante, portanto, agora
+chamar a atenção que às vezes uma numa
+numa substituição substituição às vezes
+vem expressa em termos de x,
+outras vezes vem expressa em termos de
+t. OK? É a mesma coisa. Imaginem, eu
+podia dar a substituição neste formato
+ou neste, OK? é com conforme
+der mais jeito ou for mais intuitivo.
+Portanto, no caso da substituição de vai
+restrar-se,
+normalmente o que se diz é que a
+substituição é definida por seja t igual
+a tangente de x+. Ou seja, pronto, a
+substituição vem explicitada em ordem t,
+como poderia vir explicitada em ordem x,
+mas em ordem, neste caso, é mais simples
+definir a substituição
+nesta forma do que pela variável, pela
+função inversa e dizer, olha, seja x = 2
+arcotangente de t.
+OK?
+Pronto, por isso é que, pronto, isto é
+para chamar a atenção que às vezes
+quando falamos
+do método de substituição
+e da técnica de substituição, às vezes
+ela pode ser vir expressa explicitada no
+x ou no t na outra variável que nós nós
+queremos. OK? Pronto, acho que isso
+agora vai ficar mais claro. Portanto,
+então não há dúvida nenhuma que a
+substituição de varr
+é é esta substituição.
+Sim, senhora.
+Pronto. E com esta substituição tenho
+que calcular estes estes outros
+elementos que eu tenho aqui e e vou
+também calcular o seno de X. E coso X,
+porque esta substituição ela é usada em
+integrais ou primitivações que envolvem
+senos e cossenos. OK? Pronto. Então,
+sendo assim, vamos fazer o o triângulo
+retângulo, que também já fizemos,
+já estamos cansados de fazer noutros
+tutorials, OK? Eu tenho aqui um
+triângulo retângulo e vou escrever esta
+representação que eu tenho aqui esta
+definição. Vou dizer, bom, o T é P é é
+uma tangente P é uma tangente
+do do ângulo X X.
+Pronto, já vamos ver porque é que se
+escolheu X+. Porque é que, portanto,
+então vou dizer, bom, x+ é um ângulo
+e tangente desse ângulo, portanto, ou
+seja, t dividir por 1, t sobre 1,
+pronto, aqui já tenho a tangente. E,
+portanto, sendo assim p o triângulo
+retângulo,
+portanto, aqui esta hipotenusa tem que
+ser
+t² + 1 raiz. OK? Pronto. Sendo assim,
+daqui já posso extrair o o seno
+o seno
+de x,
+OK? Que é o é o ângulo que nós temos
+aqui. É, estamos estamos a trabalhar com
+x. Portanto, o seno de x/, portanto,
+será o cateto oposto
+t
+sobre a raiz
+t2.
+mais 1. O cosseno de x/
+portanto será o cateto adjacente 1 sobre
+a raiz.
+Sim, senhor. Ora,
+OK.
+Mas o que vai acontecer
+é que esta técnica
+de substituição, ela é usada para
+integrais que que envolvem senos de x e
+cosseno de de x e não e não senos de
+xios. Pronto. Pronto. O que acontece é
+que isto é escolhido porque agora vai
+haver aqui um um um artifício que faz
+eliminar aqui este estas raízes.
+Portanto, relembramos a fórmula,
+relembramos as fórmulas trigonométricas
+do seno de 2 alfa
+que é igual a 2 seno de alfa cosseno de
+alfa
+e que o cosseno de 2 al é igual a
+cosseno quadrado de alfa - seno de alfa.
+Pronto, relembramos estas duas fórmulas
+que também estamos sempre a usá-las.
+E então, sendo assim, o seno de x,
+o seno de x que será substituí
+substituído na quando fomos agora daqui
+a bocado calcular um integral, portanto
+o seno de x será 2 seno de x/ x/
+por esta fórmula.
+[roncando]
+Pronto. Então temos 2 seno de x. Temos
+aqui t,
+OK?
+t qu + 1
+[roncando] vezes o cosseno 1
+t² + 1 e portanto isto tudo multiplicado
+pois dá 2t
+e agora sim eliminamos a raiz fica ao
+quadrado e portanto t qu
+sim senhora
+este então é o seno de x.
+De acordo com a substituição de vai est
+traçal
+onde estiver seno de x eu vou colocar 2
+t² t² + 1 e onde estiver cosseno de x
+eu vou pôr o cosseno quadrado.
+Portanto, 1
+quadrado mais 1 que é este aqui ao
+quadrado. Ou seja, o cosseno quadrado de
+x. OK?
+Aqui é o alfa alfa alfa alfa. Portanto,
+seno 2 alfa 2 seno de alfa coseno de
+alfa.
+Então, seno de alfa 2 seno de alfa com
+seno de alfa. Portanto, aqui aparece o
+ângulo a metade do do que está ali, OK?
+Portanto, cseno de x é o cosseno
+quadrado de x/ que é este aqui, menos o
+seno quadrado de x
+- o seno quad x+
+e, portanto, que dá 1 - t².
+Ora,
+t² + 1. Pronto. E aqui está precisamente
+que isto são as coordenadas paramétricas
+racionais
+que que quando começamos este tutor de
+hoje, cá estão elas. X = 1 - t² 1 + t².
+Pronto. Eh, eu historicamente não sei
+bem como é que as coisas apareceram.
+Não, não, não fui investigar ou o que é
+que apareceu primeiro ou que é que
+apareceu depois.
+Eh, suponho que se calhar primeiro
+inventou-se a substituição de restrass e
+depois reparou-se para chegar a estas
+equações racionais. OK?
+Eh, suponho que tenha sido essa a ordem.
+Ora, e portanto efetivamente aqui temos,
+OK?
+Pronto. Portanto, aqui aqui, portanto,
+aqui já vemos uma relação entre a
+substituição de vares traç e os términos
+pitagóricos, porque aqui nós fomos
+capazes de gerar aqui uma fórmula
+geradora para términos pitagóricos. OK?
+Sim, senhora.
+Ora bem, então, e mas aqui ainda me
+falta definir o quanto é o dx. Também
+será usado, será usado quando formos
+calcular agora um um integral.
+Ora, portanto, aqui será igual dx.
+Ora, vamos olhar aqui para a forma. Eu
+tenho t igual a tangente de x mais bom,
+aqui tenho duas hipóteses. Tenho duas
+hipóteses. Eu posso posso posso derivar
+assim, por exemplo, usando esta relação
+ou ou posso usar a relação inversa,
+portanto, tanto faz. OK? Vamos inclusive
+é ver que tanto faz e obviamente que vai
+ter que dar o mesmo resultado.
+OK? Eu poderia definir a definição de
+vários traços, quer por este, para dizer
+esta substituição ou esta. São as duas
+são equivalentes, só que normalmente é é
+a primeira que que é mais simples
+estar a definir usando uma tangente do
+que estar a definir usando arcotangente.
+OK? Então, definindo na primeira p =
+tangente x.
+Ora bem, portanto,
+temos se se t
+igual a tangente
+de x, então fica que dt
+é igual à derivada da tangente. Ora, a
+derivada da tangente é o inverso do
+cosseno quadrado.
+inverso
+do cosseno quadrado de x/
+de x/ mas como se trata da função
+composta
+multiplica aqui 1/
+dx
+ok dx pronto e então eu preciso de
+explicitar em ordem a dx porque é o que
+me vai aparecer no integral eu ter um
+integral com dx e e portanto eu tenho
+que explicitar dx =
+Portanto, fica que
+eh, portanto,
+aqui vai dar dx
+igual a 2
+cosseno quadrado de x+. Aqui tenho um
+inverso, mas o cosseno passa para este
+lado, passa para cima.
+Portanto, dx = 2 ceno quadrado. Ora, o
+cosseno quadrado de x/u já o calculei
+aqui. Tenho aqui o cosseno de x/
+aqui. E, portanto, o cosseno quadrado de
+x é 1 sobre t² + 1. Portanto, então fica
+2
+sobre t² + 1
+dt.
+OK.
+Ora, sim, senhora. Pronto, então já
+tenho aqui o dx.
+Se eu não tivesse vindo por aqui
+e tivesse antes pegado na função inversa
+a dizer não seja x = 2 arcotangente de
+t, né? Que resulta que x é arcotangente
+e de t e portanto x = 2 arcotangente de
+t. Bom, então assim, se eu tivesse feito
+seja x
+igual a 2 arcotangente
+arcotangente de t, pois
+então seria calculando o diferencial dx
+= 2. Ora, a derivada do arco tangente é
+o inverso
+de di1 + x², neste caso de 1 + t².
+Então aqui fica direto o inverso de 1 +
+t²
+dt.
+Pronto.
+Portanto, obtivemos exatamente a mesma
+forma. Pronto. Como seria disparar
+quando o diferencial através da da forma
+da substituição ou ou pela função
+inversa.
+Ora bem, sim senhor. Eh, portanto,
+substituição de vai estra é isto. E por
+agora vamos só consolidar as ideias aqui
+resolvendo só um problema, OK? Título
+exemplificativo, mas é como vos digo, se
+quiserem depois praticar mais, há
+imensos problemas aí na no YouTube. Ora
+bem, vamos então
+vamos calcular aqui um exemplo. Vamos
+dizer que nós queríamos primitivar, OK?
+Ora, 1 sobre
+2 + ceno x. Pronto, isto vai dar um um
+um resultado eh
+como dizer
+eh bastante complexo e já vamos ver e
+pá, nada simples, mas pronto, também é
+um também é bom às vezes aparecer isto,
+este este tipo de problemas para para
+verem que às vezes a matemática nem
+sempre é nem sempre é como diz nem
+sempre dá resultados harmoniosos, não é?
+às vezes dá resultados completamente
+pronto bizarros, não é? Vai ser aqui o
+caso, uma expressão aparentemente
+simples e vai dar um um resultado
+bastante complexo.
+Desde logo não não tentei resolver isto
+por qualquer outro método que não fosse
+a substituição de vars. OK? Pronto. E
+normalmente é usa-se, portanto, quando
+tenhamos expressões que envolvem
+cossenos e senos. Pronto, que é aqui o
+caso. Ora bem, vamos então para a
+substituição de várias traçes. Então,
+vamos dizer que isto é igual a, eu faço
+a substituição.
+Sim, senhor. Portanto, eu vou ter aqui 1
+sobre 2 + cosseno de x. Agora tenho que
+ver quanto é o cosseno de x que
+calculamos aqui por esta substituição. 1
+- t2/ 1 + t2.
+1 - t2
+sobre 1 + t2.
+Pronto, este é o cosseno de x. OK? Ora,
+e agora quanto é o dx? Portanto, dx
+também temos aqui calculado. 2 dt sobre
+1 + t2
+dt
+sobre 1 + t2. Sim, senhora.
+Ora bem, então o que é que isto vai dar?
+Este dois pode passar aqui para fora do
+integral.
+Pronto. Agora o que é que vamos ter
+aqui? Vamos ter que este 1 + t2,
+OK? Vai multiplicar aqui, multiplica
+aqui. Pronto. Então fica eu este
+denominador aqui de baixo e multiplicar
+aqui por este dois.
+Pronto. Então fica
+aqui em baixo vai ficar 2 + 2 t2
+2 + 2 t2
++ 1 - t2
++ 1 - t2. Pronto, elimina o denominador
+aqui em baixo e pronto, já está
+multiplicado.
+Onde? Portanto, isto agora vai dar
+2 primitivas
+dt de
+eh, portanto, 2 e 1 3
+3 + t²
+3 +
+t². Ora, 3 + t².
+E, portanto, se fosse 1 + t²,
+eh, teríamos um arco tangente, pois da
+derivada é o inverso. Pronto, mas aqui
+não tenho 1 + t², eu tenho 3. Pronto.
+Então, o que eu faço aqui, faço aqui é
+colocar aqui o três em evidência. OK?
+Pronto. Então isto, se eu colocar aqui o
+três em evidência, passo o três aqui
+para fora, fica 2/3
+dt. Pronto. E então aqui já fica um, que
+é o que eu quero, que é para ter o
+inverso de OK?
+Então vou pôr aqui.
+Pronto, porque a derivada do arco
+tangente [roncando] é o inverso de de 1
++ t².
+Pronto. Então já fiquei aqui com um. Só
+que agora aqui já não tenho t², vou ter
+t sobre √3
+ao quadrado. Pronto, onde eu pus o o
+três é em evidência. Sim, senhor.
+Pronto. Então não há dúvida nenhuma que
+isto vai dar,
+pronto, isto vai dar um arcotangente
+de
+t sobre√3.
+Portanto, isto vai dar 2/3
+de um arco tangente
+de t
+sobre √3, mas falta aqui um termo porque
+ao derivar,
+ao derivar dá 1 sobre 1 +
+isto ao quadrado, mas isto é a função
+composta. Depois multiplica por
+1 sobre √3.
+Pronto. Portanto, multiplica por 1 sobre
+√3
+ao derivar.
+Eh, mas eu tenho aqui três. Não, não,
+não, não tenho sobre raiz 3.
+Ok? Então, portanto, tenho que
+aplicar aqui o o√3.
+Pronto, assim é que tá correto. Ou seja,
+portanto, agora aqui ao derivar esta dá
+1 sobre 1 t√3
+x 1 sobre √3 corta aqui e vezes o 2/3
+que é o que eu tenho aqui. Portanto, tá
+tá certo. Sim, senhora. √3 vai cortar
+aqui com este 3 e, portanto, fica 2
+sobre √3.
+o arco tangente
+de t√3
+mais uma constante. Pronto, eu às vezes
+esqueço, mas pronto, é mais uma
+constante. Ora,
+aqui ao chegar aqui,
+h,
+eu tentei e porque agora temos que andar
+para trás, não é? Pronto, quando
+chegamos ao fim, já temos a primitiva,
+mas eu não não quero dar o resultado.
+Ninguém me perguntou qual era qual era a
+primitiva em em variável T, porque isso
+OK, a a pergunta é qual é a a primitiva
+na variável X, ou seja, no universo
+no universo das coordenadas cartesianas
+X Y, não é no universo, num determinado
+universo paralelo
+de coordenadas T. OK?
+Eh, sim, senhora. Portanto,
+eh, eu tenho que andar para trás.
+Pronto. E aqui eu perdi um bocado de
+tempo para ver se conseguia simplificar,
+porque eu agora para andar para trás, o
+que é que eu tenho? Tenho que ir ver.
+Bom, então quando vale o t. Bom, o t o t
+vale aqui na na o t v o t é tangente x.
+Pronto. E andei aqui um bocado às
+voltas, mas acho que não se consegue não
+se consegue simplificar. E de facto eu
+também fui
+ao WAM alfa. Já vou mostrar o resultado
+e à partida pois tá correto e não não se
+consegue simplificar. Pronto. Então o
+resultado agora, portanto, transpondo
+para a variável X novamente. Pois o arco
+tangente,
+o arco tangente t,
+portanto, seja t igual a tangente x/.
+Pronto. Se fosse arco tangente de
+tangente, isso anulava-se.
+Mas não é arco tangente de tangente, é
+arco tangente de tangente sobre √3.
+Pronto, é importante. Então
+cá está. É um resultado bastante
+bizarro,
+mas é o que é. Pronto. E é interessante
+também mostrar-vos isto, porque é para
+mostrar que isto a matemática é mesmo
+assim. Às vezes há resultados bastante
+harmoniosos, espetaculares e outras
+vezes nem tanto. Vou agora pôr-vos aqui
+só o print screen do Alfa.
+Ok.
+Ora.
+aqui copiar. Tenho isto aqui no meu
+desktop e eu copio aqui para o meu
+tablet
+com copy paste. OK?
+E portanto cá está. Isto foi o que eu
+fui ao alfa
+e, portanto, e está correto, como podem
+ver. Portanto, o integral de 1 sobre 2 +
+ceno x, pois dá 2. Cá está o 2 sobre √3.
+que é a função inversa da tangente, ou
+seja, arcotangente de tangente de x
+sobre √3 mais uma constante. Pronto,
+mais uma constante. OK?
+Sim, senhora. Bom, portanto, sobre a
+substituição de vai tráo, estamos
+conversados. Se quiserem calcular, há
+muitos integrais aí para calcular na
+internet. Agora vamos voltar realmente
+aos ternos pitagóricos.
+Ora bem, então nos términos pitagóricos,
+o que acontece? Isto é um tema bastante
+interessante.
+Eh, e
+se nós olharmos aqui esta esta função,
+se nós olharmos aqui esta expressão
+que nós obtivemos,
+nós obtivemos esta fórmula geradora.
+OK. Sim, senhora.
+Nós obtivemos esta fórmula geradora.
+Ora, efetivamente, OK, cá está.
+Portanto,
+esta fórmula
+que vem da substituição de var traço,
+como vimos, a substituição de var traço
+gera as equações paramétricas racionais
+para a circunferência,
+OK?
+E daí podemos sacar uma forma geradora
+paternos de triângulos retângulos de
+lados inteiros.
+Só que esta forma é é limitada, ela não
+gera todos os triângulos.
+[roncando]
+Mas agora com esta substituição, seja t
+= m sobre n, obtemos uma outra fórmula
+geradora, mas com dois parâmetros,
+OK?
+Que por acaso gera todos os triângulos
+retângulos
+que existem de lados inteiros.
+Não vou tentar demonstrar isso, mas vou
+desenvolver aqui um bocadinho mais este
+tema. Ora bem, portanto, aqui temos
+substituindo aqui no t² m²/ n² - 1
+reduzindo ao mesmo denominador.
+Aqui tenho 2t 2m sobre n.
+Ok? Exato. 2m sobre n. Só o que é que
+acontece agora é que o que eu multiplico
+aqui por por n,
+multiplico aqui por n para ficar as
+expressões todas com o mesmo
+denominador.
+Pronto. E já já posso pôr aqui um
+quadrado também.
+E, portanto, aqui t2 + 1, pois m2 o
+mesmo denominador mais n2. OK? Pronto.
+Então agora elimino aqui o mesmo este
+denominador,
+OK? E fico com uma fórmula geradora
+também
+a dois parâmetros.
+OK? Pronto. Eh, no qual posso posso pôr,
+por exemplo, imaginem
+[roncando] para m, há aqui um conjunto
+de regras aos quais m e n devem
+obedecer. Eu já já vou mostrar.
+Eh,
+mas põ, imaginem, por exemplo, para para
+m = 2,
+n = 1
+dá 2 x 2 4 - 1 3
+2 x 2 4
+2 x 2 4 e 1 5. Portanto, cá está. Daqui
+também dá o mesmo triângulo. Pronto. Mas
+em vez de com um determinado tá geradora
+com dois parâmetros.
+OK. Sim, senhor.
+Vamos agora, vamos agora e ver um caso
+curioso.
+Vamos pegar nos números complexos, OK?
+Eu nunca fiz um tutorial de início dos
+números complexos, mas
+vou assumir que vocês conhecem as bases
+dos números complexos, OK?
+Onde Z1 = A + BI. Vocês conhecem isto,
+OK? Pronto. E que na forma polar,
+portanto, G1 = a um determinado módulo é
+igual a I alfa. Pronto. E, portanto, ao
+multiplicar ao multiplicar um dois
+complexos, por exemplo, na forma polar
+e beta.
+E, portanto, H1,
+G2,
+multiplica-se, multiplica-se,
+multiplica-se os módulos
+e
+soma-se os ângulos.
+Sim, senhora. Pronto. Então, o que é que
+acontece aqui?
+Se eu construir, se eu tenho um complexo
+com com as coordenadas inteiras,
+coordenadas inteiras A e B inteiros,
+OK?
+Ora, A e B não são os catetos de um
+triângulo retângulo, naturalmente,
+porque como porque o que o módulo de Z,
+pois será a raiz quadrada pelo tirei de
+Pitágoras
+dá 2 + b2,
+portanto que nem sempre dará um inteiro,
+não é? Como é óbvio,
+imaginem, sei lá, para para a igual a 2
+e b = 3.
+Ok?
+Não, não vai, não vai dar nenhum
+triângulo, não vai dar nenhum triângulo
+retângulo com os catetos 2 3, como é
+óbvio. 3 e 3 9 e 4 13. Pois aqui dá a
+hipótese a raiz quadrada da 13. Não vai
+dar nenhum triângulo retângulo de lados
+inteiros. Sim, senhor. Mas se eu levar o
+[roncando] se eu eu, para, por acaso,
+foi interessante que eu expus este
+problema ao chat GPT para eu me tentar
+explicar intuitivamente porque é que o
+quadrado de um complexo de números
+inteiros ia dar os catetos de de um
+triângulo retângulo de lados inteiros.
+Eh, pronto. E eu até até acho que foi
+foi satisfatório até a resposta dele. Eu
+não há dúvida nenhuma que isto tá cada
+vez mais poderoso as inteligências
+artificiais.
+Portanto, se eu elevar ao quadrado Z,
+OK?
+Portanto, o que acontece? Então, se eu
+elevo ao quadrado, por este princípio
+que estamos aqui a ver, o produto de
+dois complexos multiplica as normas.
+Portanto, obviamente que o a norma de Z
+quadrado há de ser o quadrado desta
+norma aqui e, portanto, há de acabar por
+ser a2 + b2. Portanto, a norma de guar
+vai ser sempre um número inteiro.
+OK? Pronto, este este é que é é o
+resultado interessante. Ora, vejamos.
+Isto é igual a a + bi,
+multiplica a + bi.
+OK? Aqui devia estar a usar MN, que era
+para dar o mesmo que tenho aqui, mas
+pronto, usei a e b. [suspirando] Ora,
+portanto, isto vai dar a qu
+- b².
+Eh, portanto, na parte real e, portanto,
+na parte complexa vai dar
+eh 2ab.
+2ab.
+Pronto. Que é precisamente o que nós
+temos aqui. M2 - n2n.
+Eh, e qual a norma? A norma disto? Pois,
+a norma disto é é o a norma disto é é o
+quadrado a + b2, ou seja, aqui
+equivalente ao m2 + n2.
+Pronto. Então, não há dúvida nenhuma que
+o quadrado
+o quadrado do número complexo
+com números inteiros vai-me dar o
+triângulo retângulo de lados inteiros.
+Mas tem que haver algumas tem que haver
+algumas restrições
+ao A e B, OK? OK? Tem que haver algumas
+restrições.
+Hã, há algumas regras que eu que eu vou
+expor agora a seguir. Obviamente que se
+eu tiver
+eh se eu tiver, por exemplo,
+o,
+por exemplo, os lados, por se eu tiver
+com um com o complexo, o Z,
+portanto o 1,1, obviamente que não que
+não vai dar nada, porque então o 1,1
+aqui a 2 - b2 dá 0, não? Portanto, não
+daria nenhum. OK? Portanto, esse não não
+é válido. OK? Sim, senhora. Vamos ver já
+de seguida então quais são as regras
+que é que deve obedecer o A e o B.
+Ora bem, então cá temos nós então as
+regras. Obviamente que obviamente que n
+e m não podem ser iguais. Obviamente
+então porque os catetos de um triângulo
+retângulo
+e de lados inteiros
+deve ser fácil de demonstrar. Não, não,
+não podem ser, portanto, não podem ser
+iguais,
+como é óbvio. E vimos aqui da forma,
+porque andava aqui, a - b2 daria 0.
+E, portanto, é o que ele está aqui a
+dizer. Portanto, o que é que ele diz
+aqui? Diz que
+[roncando] e o n tem que tem que haver
+um lado maior que outro, portanto eles
+não podem ser iguais. E o mais pequeno
+maior ou igual que um. OK? É o caso que
+nós vimos aqui. Nós vemos aqui um
+exemplo para m = 2, n = 1,
+que que é o que está aqui, este 21 dá o
+triângulo 3 4 5. Depois tem que o tem
+que ser números primos entre si, OK? Por
+isso não podem ter fatores primos
+comuns. Porquê? Porque então seria um
+múltiplo e porque esta tabela aqui ela
+está a gerar são os chamados os os
+primitive
+primitive
+Pitagorian triplos.
+OK?
+Portanto, são os triângulos retângulos
+geometricamente distintos, porque eu não
+me interessa, não me interessa pegar ali
+no no triângulo no 3 4 5 e depois dizer
+que tenho aqui outro que é que é o, por
+exemplo, multiplico por dois e digo
+tenho aqui outro que é o 6 8 10.
+Obviamente que também é triângulo
+retângulo com lados inteiros, mas mas eu
+não me interessa porque porque eu
+interessa-me é os geometricamente
+distintos. Isto é simplesmente uma
+ampliação do outro. Pronto. E é isto que
+esta fórmula aqui me garante. Ela dá-me
+todos os primitiv Pythagorean triples,
+OK? Com estas condições aqui. N maior
+que, maior, igual que 1, números primos
+entre si, e que n + m tem que ser ímpar.
+OK? Sim, senhora.
+Portanto, não podem ser os dois pares
+e não podem ser os dois ímpares,
+OK?
+Eh, não vou tentar demonstrar isso. Acho
+que ainda também nem demonstrei. Não,
+pronto, não tava para aí virado. Não,
+não tinha inspiração para isso. Não não
+fui tentar demonstrar.
+Eh, e efetivamente, quais são os lados
+do triângulo? São estes aqui que nós já
+vimos. Cá está, que é o que é o que
+resulta do quadrado de um número
+complexo.
+OK? E aqui temos uma tabela dos
+primeiros. Portanto, quando começamos a
+dar valores a a n, aqui temos para n = 2
+e depois fazemos variar o m, o mais
+pequeno aqui para n = 3. Por exemplo,
+para n = 4 já temos estas duas
+situações, dois ms possíveis e assim
+sucessivamente. Para n = 5, a 6, a 7.
+Pronto, e assim sucessivamente.
+Ora, aqui temos um um pequenino
+programinha programa em linguagem R.
+Eu gosto bastante de programar em R.
+Eh, podem ver a esse propósito, tenho
+uma playlist no YouTube sobre
+programação em R,
+portanto, na na vertente de APIs e
+inteligência artificial.
+Eh, e pronto, cá está. Esta este
+programinha reproduz esta tabela aqui.
+OK?
+Portanto, aqui aqui há faço faço um
+teste eh para ver se se o
+degrade common divider o máximo divisor
+comum entre eles, portanto são primos
+entre si. Portanto, que eu tenho que ser
+um
+aqui. Vavida é a outra regra que aparece
+a B.
+Eh, e pronto.
+E vou gerar as variáveis.
+Aqui tinha aqui mais variáveis que posso
+também definir. Pode ser interessante
+estudar. Uma delas é o que eu chama o D,
+é a dimensão. A dimensão seria a soma
+dos catetos e da hipotenusa.
+OK? Pois eu poderia eu, portanto, seria
+a soma destes dos dos ternos que estão
+aqui, dos três valores e depois poderia
+ordenar por por esse por esse total.
+Depois também tinha aqui, posso calcular
+a área do retângulo ou do ou do
+triângulo ou a área do do triângulo
+e retângulo e e portanto também ordenar
+por aí e fazer alguns estudos nesse
+sentido, mas que não interessa agora
+aqui para o caso.
+Ora, vou só mostrar aqui o
+Ora, cá temos nós, então, pronto, cá
+temos nós os
+o os mesmos triângulos que eu tenho ali,
+exatamente os mesmos.
+Ah,
+sim, senhor.
+E pronto, penso que vamos ficar por
+aqui. Não, agora não, não vale a pena
+estar a falar mais no R e no R Estúdio.
+Se quiserem, vejam a minha playlist.
+uma um um IDE bastante poderoso para
+trabalhar com com dados massivos e com
+OK e nas áreas de machine learning.
+Eh, e pronto, vamos ficar por aqui.
+Espero que tenha sido interessante.
+É, como vos digo, estranhamente não vi
+não via nenhum tutorial e que
+relacionasse estes temas de
+substituição de vários traços com
+externos pitagóricos.
+É estranho não ter visto porque
+parece-me que faz todo o sentido
+relacionar estes dois temas. OK? E
+pronto, despeçome-me, espero que tenham
+gostado e até uma próxima oportunidade.
+

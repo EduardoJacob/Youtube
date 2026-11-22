@@ -1,0 +1,1 @@
+R programming, Web scraping, RStudio, GitHub, Quarto, Lyrics extraction, Data frames, PDF generation, Music metadata, Tutorial

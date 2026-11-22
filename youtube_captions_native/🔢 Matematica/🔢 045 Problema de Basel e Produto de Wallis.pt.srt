@@ -1,0 +1,953 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial. Hoje vai ser então dedicado ao
+problema de Basel e produto de Vali.
+Ora, nós vimos no tutorial anterior,
+efetivamente nós tínhamos visto a série.
+Ora,
+ora, efetivamente a tínhamos visto a
+série harmónica.
+OK.
+Divers
+e a série harmónica alternada convergia.
+OK. Sim, senhor. Ora, nós hoje vamos ver
+nós aqui, nós aqui, portanto, a série
+harmónica podemos escrever, portanto, a
+série 1 sobre
+e n elevado a 1. OK? Hoje vamos ver 1
+sobre
+n elevado a 2. OK? Que que converge? Que
+converge?
+Ora,
+portanto, põe-se a questão, então, um
+sobre
+elevado a p a série. OK? Estamos a
+falar, estamos a falar de séries de
+infinitos termos, OK?
+Portanto, 1 sobre n = p converge ou
+diverge? OK.
+Ora,
+ora, hoje é muito fácil. Nós rapidamente
+vamos ao chat cpt ou ao gemini, nós
+pedimos uma definição.
+Eh, e ele realmente tem o knowhow de
+matemática, tem o knowhow, isto é, ele
+tem, ele tem o conhecimento
+enciclopédico, digamos assim. Outra
+coisa é resolver um problema específico.
+Não, ele não é talhado. Os LLMs, como
+sabemos, não são talhados para resolver
+problemas de matemática, OK? Mesmo para
+uma simples cálculo de calculadora,
+poois, ele irá chamar uma ferramenta
+externa para fazer esse cálculo. OK?
+Pronto. Agora, o conhecimento
+enciclopédico, sim, ele tem esse
+conhecimento.
+E efetivamente aqui eu fui buscar este
+recordatório
+que a série de 1 sobre n = p, como
+estamos aqui a considerar. Portanto, eh,
+ela vai e convergir sempre que p maior
+que 1. Pronto. Portanto, então,
+efetivamente,
+eh, nós temos aqui, nós temos esta
+série, ela diverge,
+ela diverge e esta converge, OK?
+E efetivamente
+h temos que portanto aqui
+para P maior que 1. Portanto,
+todas estas séries aqui acima de aqui da
+série harmónica convergem e para a
+esquerda divergem. Sim, senhora.
+E aqui está o resultado que vai dar na
+série do inverso dos quadrados, que é o
+que vamos tratar hoje do programa de
+Basel, onde vai dar e pi qu
+Sim senhora.
+Ora, e nós para demonstrarmos aqui esta
+questão de convergência e podemos usar,
+por exemplo, a analogia
+com com os integrais, OK? Portanto, nós
+vamos considerar o integral de 1 sobre x
+elevado a p,
+vamos dizer entre 1, uma vez que a série
+também começa em um, que é o primeiro
+termo, entre 1 e infinito. OK? Sim,
+senhora.
+Ora,
+portanto,
+eh,
+vamos dizer isto, isto é uma potência,
+uma integração de uma potência,
+portanto, OK, isto é linear, portanto dá
+x
+1 - p
+sobre 1 - p.
+1 - p. Ora, vamos ver. derivando 1 - p
+baixa para baixo, corta, subtrai 1 e,
+portanto, fica x elevado - p que tá
+correto, o inverso de x sobre p. Pronto,
+portanto isto é o que dá.
+Ora, entre x = 1 e x = infinito.
+Ora, portanto, isto vai dar,
+temos aqui,
+ora,
+temos que
+temos que desde logo
+vai dar aqui com com para x igual a
+infinito. Ora, vamos ver aqui.
+OK.
+Menos
+menos. E para x = 1, portanto fica 1.
+Ok? E aqui o menos por menos corta e
+fica sobre p - 1.
+Sim, senhora. Então,
+o que é que acontece aqui?
+para p = a 1. Desde logo isto não está
+definido, como se pode ver aqui
+facilmente a dividir por zero, portanto
+não tá definido. Efetivamente para p = a
+1 não está definido, porque então aí o
+integral é o logaritmo, como já sabemos
+e portanto que dá infinito e portanto já
+sabemos que a série harmónica diverge.
+Portanto, p = 1 é o caso o caso
+extraordinário
+em que
+cuja primitiva é o logaritmo.
+Pronto. Restam-nos os valores para p
+maior que 1 ou para p menor que 1. Esses
+sim podemos tratar aqui com esta
+integração.
+Ora, portanto, não há dúvida nenhuma que
+para p maior que 1, para p maior que 1,
+vai dar aqui o x o aqui o infinito
+elevado aqui a um número negativo.
+Portanto, é o mesmo que o infinito passa
+para baixo, fica 1 sobre infinito
+elevado a qualquer coisa, portanto que
+vai dar zero. E então o resultado e que
+fica 1 sobre p - 1. Ok? Sim, senhora.
+Portanto, converge, OK? converge para P
+maior que 1
+e para P menor que 1
+eh podendo o p ser também eh negativo
+P menor que 1 eh portanto desde P menor
+que 1 positivos ou inclusive vouos
+negativos. O que é que vai dar? Vai dar
+aqui obviamente que 1 menos
+eh um pquino ou mesmo negativo vai dar
+menos por menos, dá mais. Portanto, fica
+o infinito fica no numerador e infinito
+elevado a qualquer coisa. Pois, pois dá
+infinito. Pronto. E então a série
+diverge.
+Sim, senhora.
+Portanto, está de acordo aqui com este
+raciocínio aqui do do chat GPT.
+[roncando] Pai maior que um converge.
+Portanto, aqui estamos a ver a analogia.
+Isto aqui, atenção que isto e isto é uma
+intuição. Eu não isto não isto não é
+matemática rigorosa passar de séries
+para integrais. Atenção, para isso temos
+que ir buscar um teorema qualquer que dê
+suporte ao que estamos aqui a fazer
+e que será o teorema do do teste de
+convergência para séries, o teste do
+integral. OK? Sim, senhor. Portanto,
+aqui divers.
+Ora, efetivamente existe isto, existe um
+um teste de convergência de séries, como
+já vos tinha falado no outro tutorial, é
+o que existem imensos testes. Existe um
+teste que é o teste do integral, OK? Eh,
+e portanto diz quando eu tenho aqui uma
+série com o termo geral, OK? uma série
+an, n varia de um infinito.
+Então
+eu posso estudar a convergência da série
+estudando a convergência do integral
+impróprio entre 1 e infinito de f(x).
+OK?
+Eh, efetivamente fazendo f(x) é igual a
+an n substitui o n por x
+desde que,
+portanto, respeitando aqui alguns
+critérios e que alguns requisitos
+e portanto o termo geral tem que ser
+positivo,
+OK? Que é o caso, este caso aqui que
+estávamos a ver aqui, aqui 1 sobre n
+elevado a p são sempre termos positivos,
+frações positivas.
+eh
+contínua, uma função contínua, sim,
+senhor. Quando passa para f(x), uma
+função contínua
+e e decrescente. Uma função decrescente.
+Sim, senhor.
+Ora, que é o caso aqui também.
+OK.
+Sim, senhor. Qualquer destas funções,
+como estamos aqui a ver, eh, 1 sobre x,
+1/ x², etc, etc.
+OK? Sim, senhor. Portanto, está claro
+acerca destas séries
+1 de 1 sobre n elevado a p. OK?
+Ora, vai haver aqui um uma função
+que vai englobar todas as as famílias
+destas destas séries. 1 sobre n elevado
+a p, que é precisamente
+a função z function, pois está ligado a
+um tema bastante avançado da matemática,
+a função riman
+ou z de reman.
+Eh, eventualmente falaremos disso num
+futuramente.
+Sim, senhor. Portanto, isto tá ligado.
+Este, todas estes tipos, todas estas
+séries se lutinam nesta família aqui que
+com S, podendo ser um número complexo.
+OK, pronto, isso é só aqui para
+curiosidade.
+Ora, e agora vamos passar efetivamente
+ao problema de Basel.
+Sim, senhor. Vamos então para o problema
+de Basel.
+E iremos precisar de iremos precisar da
+expansão em em série de potências do
+seno, OK? Não há dúvida nenhuma. Para
+isso, vamos relembrar aqui a série de
+McLuring. E vamos relembrar que eu tenho
+eu tenho o seno
+cuja [roncando] derivada é o cosseno,
+cuja derivada menos seno
+e cuja derivada menos cosseno, cuja
+derivada seno e assim sucessivamente.
+Sim, senhora.
+Portanto,
+eh, aqui tenho o f(x),
+aqui tenho e, portanto, nesta coluna, a
+deriv a derivada
+aqui tenho, vamos dizer aqui,
+OK? Vamos dizer aqui que tenho a
+derivada de ordem n,
+OK?
+x
+que portanto aqui para n = 0
+para n = 1
+= a 2 n = 3 n = 4 sim senhor. Agora o
+valor desta função e no ponto zero, OK?
+Que vai ser a série de McLuring,
+OK?
+o valor da derivada no ponto zero.
+Portanto, onde está seno vai ser sempre
+zero.
+Onde está cosseno? Cosseno de zer é 1 e
+aqui vai dar -1.
+OK? E assim sucessivamente.
+Eh, e que nos dizem? o que nos diz mais
+a série de McLurin. Portanto, vamos
+precisar dos X, obviamente,
+x elevado a 0,
+X elevado a 1,
+x = 2,
+x elevado 3, x elevado 4 e vamos
+precisar do dos fatoriais, OK?
+Portanto, 1
+sobre sobre z0 fatorial.
+Ora,
+1 sobre 1 fatorial,
+1 sobre 2 fatorial
+1 sobre 3 fatorial
+1 sobre 4 fatorial. Sim, senhora.
+Pronto. Então temos eh expansão em em
+série de McLurin do seno. Ora, vai
+sobreviver esta termo.
+Eh vai sobreviver este termo
+e o próximo. OK.
+Sim, senhora.
+Pronto. E então temos que
+o seno de o seno de x série de McLurin
+é igual a X.
+x
+- x³ sobre 3 fatorial
+sobre 3 fatorial
+mais
+x5
+sobre 5 fatorial, etc. Pronto. Sim,
+senhor. Esta é a nossa série de Tor.
+Pronto. Então, agora o que é que vai
+acontecer?
+Como já falei noutros tutorials, existem
+várias expansões em séries de potências
+possíveis
+e possíveis e qualquer pessoa poderá
+encontrar alguma série de potências que
+que faça a aproximação da da função
+transcendente
+que que nós queremos. OK?
+Ora, então nós agora vamos tratar de
+encontrar outra outra expansão em série
+de potências.
+Acho que se chama a expansão de base,
+salvo o erro.
+Ora, o que é que vai acontecer então?
+Qual é qual é aqui a intuição queer teve
+quando resolveu este problema? Foi o
+seguinte.
+Nós sabemos que a função seno tem vários
+várias raízes.
+Nós sabemos que é é uma função
+sinusoidal.
+uma função real de variável real.
+Portanto, um domínio r menos infinito a
+mais infinito, tem infinitos zeros,
+infinitas raízes. Pronto. E em
+particular vai ter as as raízes,
+as raízes, portanto, vai ter
+para x = a a 0
+mais ou menos pi,
+mais ou menos 2 pi, mais ou menos 3 pi,
+etc. OK? Sim, senhor. Infinitas raízes.
+OK. E nós sabemos que quando temos um
+polinómio, tal como temos aqui, isto é
+um polinómio, é ou uma série de
+infinitos termos, OK? Pode ser
+considerado um polinómio.
+Portanto,
+agora vamos
+ignorar agora esta expansão em série de
+Taro, OK? Ignoramos, não vamos usá-la
+mais.
+Vamos imaginar que partíamos do zero e
+queríamos encontrar uma expansão em
+série de potências.
+Então o que é que nós fazíamos? Fazíamos
+assim. Bom, então o seno de x
+se tem estas raízes, será igual a
+x - 0, que é a primeira raiz
+que multiplica
+x - pi,
+x + pi,
+[roncando]
+x - 2 pi
+x + 2 pi, etc. OK?
+E vemos que eh
+tá correto num sentido. É, não há dúvida
+nenhuma que os gos deste polinómio são
+os geros do seno. OK? Sim, senhora.
+Só que isso isso não basta. Esta
+[roncando]
+aproximação aqui por i nomial
+verifica
+que os geros são os os geros do centro.
+Mas isso não basta para fazer uma uma
+boa aproximação em série de potências,
+porque é que aqui apenas apenas verifica
+o requisito dos zeros. Mas mas eu tenho
+que verificar se isto é de facto uma boa
+aproximação ou não, que é o que vamos
+verificar agora.
+Ora, aqui estamos nós então aqui no no
+GGebra.
+Portanto, eu fiz aqui o traçado do seno
+de x e eu agora vou procurar aqui, cá
+está,
+eh, uma série de potências.
+Reparem que eu aqui,
+eu aqui eu tenho a série de Taylor,
+tenho o polinómio, não há dúvida
+nenhuma. E aqui agora estou à procura de
+um outro polinómio.
+Vou imaginando que eu agora não conhecia
+a série de Tor e eu agora eu queria
+fazer um outro polinómio, que é o que é
+o que estamos a fazer aqui. E eu vou à
+procura a ver se consigo,
+mas [roncando] aqui estou a escrever o
+polinómio fatorizado. Mas mas se eu
+depois eu se eu começar a a desembaraçar
+parênteses, começo a fazer todos os
+produtos e eu hei de obter um
+determinado polinómio. Isso já já
+veremos. Pronto. O que eu estou é
+construir este polinómio já na forma
+fatorizada,
+conhecendo as raízes. OK? Sim, senhora.
+E agora eu vou testar.
+Eu vou testar.
+OK. Naturalmente no tempo do não havia
+computadores, nem havia nada para fazer
+grafismos, não havia nada, mas também
+havia pessoas com com inteligências
+completamente fora do comum e, portanto,
+e faziam cálculosante um nível que não
+nem despa cabeça hoje em dia, não é?
+Portanto, mas nós, pronto, hoje em dia
+temos todo este tipo de ferramentas para
+nos ajudarmos a ver as coisas
+intuitivamente. Portanto, eu tenho aqui
+na função g, eu já pus aqui os dois
+primeiros termos, x, x - pi. OK? Ora,
+vou pôr aqui x + pi.
+Ok?
+E agora, até agora, o que é que eu tenho
+aqui? Bom,
+olha, já tenho aqui. Não há dúvida
+nenhuma que ela tá a bater, certo? nos
+nos zeros é bate certo. Estão a ver? E
+este polinómio aqui que é um polinómio
+do terceiro grau, o gá tem as raízes, o
+zero, o pi e o menos pi. Ah, sim,
+senhor. Agora eu pergunto assim, é
+parecido com o seno? Por enquanto não me
+parece nada parecido com o seno, OK? Não
+aproxima, não aproxima o seno, apesar de
+ter as mesmas raízes. OK? Pronto, então
+vamos pôr agora aqui. Vamos ver, vamos
+ver com mais termos. Pode ser que tenha
+poucos termos, não é? Às vezes quando
+fazemos uma expansão em série de Taylor,
+às vezes pois ela só começa a aproximar
+quando quando começamos a a colocar mais
+termos, não é? Pode ser o caso. Deixa
+ver, deix deixa ver se esta função G ela
+se ela converge para o seno com mais
+termos. Vamos procurar ver is ver isso
+intuitivamente. Ora, x men
+ora - 2 pi, ok? x - 2 pi.
+Ora, x + 2 pi.
+OK, vamos ver. Ora,
+e dá uma começa a dar uma perfeita
+aberração.
+Portanto, dá uma uma perfeita aberração
+porque efetivamente
+[roncando] eh quando eu multiplico aqui,
+eu já neste momento já tenho já tenho o
+x
+vezes este vezes este vezes este vezes
+este. Já tenho x à qu. Ora, x5 isto
+tende para infinito com com uma
+velocidade alucinante. OK? X à5. OK?
+Portanto, então penso que fica claro que
+esta aproximação é uma aberração,
+OK? Esta esta aproximação é uma
+aberração. Ela não serve porque apesar
+de verificar os geros, ela não converge
+e não aproxima o seno. OK? Ela não
+aproxima o seno porque aqui logo aqui já
+nos dava um polinómio x5. Reparem que na
+série de Taylor o x5 está a dividir por
+120. Portanto, os termos de maior grau
+de x rapidamente dividem por por um
+número muito grande o fatorial e,
+portanto, vai amortecendo aqui a força
+do X e, portanto, e e dá e dá o seno.
+Por isso, por isso a série de Taylor
+aproxima bastante bem o seno. Pronto,
+então esta aqui não, esta não aproxima.
+Pronto, eu eu tive a ver alguns
+tutorialis sobre este problema de Basel
+e acho que isto é é um pouco mal
+explicado porque chega a um ponto chega
+a um ponto em que quando se diz bom,
+então
+eh esta série não é boa, mas só que não
+se explica bem o porquê, não se explica,
+não se mostra, não é boa porque não
+serve, porque porque diverge,
+diz só: "Ah, esta não dá jeito, vamos
+usar aqui outra parecida".
+E não fica claro o porquê.
+Eu e o porquê é só isto? Porque porque
+esta porque esta porque esta diverge,
+esta não serve, não aproxima, OK? Não
+aproxima porque porque dá um X de uma
+potência alta
+aqui e portanto isto rapidamente vai
+para infinito, embora apesar de ter o G
+de respeitar as raízes. Pronto. Então o
+que se faz é vou encontrar aqui outra
+outra outra outra fatorização
+que eu vou ter aqui o x na mesma.
+E agora vou ter aqui, em vez de x - pi,
+vou ter 1 -
+1 - x sobre pi.
+Ou seja,
+continua a respeitar que quando o x for
+igual a pi também dá aqui zero, também
+dá. Só que agora vou isto, o caso agora
+muda completamente de figura,
+como vamos ver.
+Portanto, e ponho aqui 1 + x
+sobre pi,
+1 -
+x/ 2 pi
+1
++ x/ 2 pi, etc. Portanto,
+para já se vê aqui uma diferença
+e a diferença é esta. Quando eu pego no
+primeiro termo aqui e se eu começar a
+desembaraçar parênteses, o x vai
+multiplicar por este 1 e depois por um
+por um, por um. E, portanto, o primeiro
+termo vai dar x e que está correto
+porque é nós vemos pela série de Taylor
+e a série de Taylor sabemos que é uma
+boa série
+e portanto dá o mesmo X que eu tenho na
+série de Taylor.
+OK? Logo aqui já está uma grande
+diferença. Enquanto aqui nesta que eu
+risquei, o primeiro termo dava x elevado
+a infinito, uma perfeita aberração.
+Porque à medida que eu ia pondo aqui
+mais termos, dá x², à quinta, à sea, à
+7, mas x elevado a infinito, uma
+aberração. Portanto, não pode ser.
+Enquanto que aqui não, aqui tá contido.
+X, este primeiro termo irá dar x x 1 e
+depois x 1 x 1 x 1 x 1 até ao infinito.
+Dá sempre x. OK? Pronto. Portanto, então
+aqui já tenho, e é isto que eu acho que
+é é bastante mal explicado em vários
+tutorialis que eu tive a ver no YouTube.
+Ao explicar porque é que passa daqui
+para aqui, é porque nós temos que
+encontrar uma forma que seja uma
+aproximação que tem as mesmas raízes,
+mas que mas que convirja, OK? E que nós
+depois temos que testar e hoje em dia
+podemos testar com com estas
+ferramentas, OK? Então eu vou aqui
+testar, OK? Eu vou
+vou vou, portanto, vou corrigir aqui
+esta função.
+OK?
+Sim, senhora. Vou corrigi-la.
+E, portanto, fica, ora, 1
+-
+x sobre pi,
+x,
+onde é que tá aqui a divisão?
+sobre pi.
+OK? X sobre pi. OK, tranquilo.
+OK. Já já bate certo aqui nestes nestas
+duas raízes. A outra também batia certo
+nas raízes, portanto não é por aí.
+Ora, 1
++
+x sobre pi.
+Ok?
+E reparem já na diferença. Reparem já na
+agora já tem um já tem um aspecto
+totalmente diferente. OK? Já aproxima,
+já nos começa a convencer que isto
+realmente aproxima,
+embora a série Taylor aproxime com mais
+força. OK?
+Mas esta também aproxima a série de
+Basel.
+Vamos meter aqui mais uns termos. 1
+1 menos
+1 men.
+[roncando][suspirando]
+Ora,
+1 men,
+já não me recordo. Portanto, 1 - x.
+Exato. X sobre 2 pi, os 0.
+Ora aqui, 1-
+x
+sobre
+2p
+1
+- 1 + 1 + x
+sobre 2 pi.
+OK? Pronto.
+Sim, senhor. Bom, então podíamos
+continuar agora e pôr mais termos e
+pronto. E vocês convencer-se iam que de
+facto esta esta aproximação é é válvida,
+é aproxima, de facto o seno. OK?
+Portanto, não se trata só de arranjar,
+como vos digo, não é só uma questão de
+verificar os os zeros e obter uma
+fatorização, mas tem que ser uma uma
+série de potências que que aproxima, OK?
+Nós aqui vemos que aproxima
+intuitivamente, nós não estamos a
+provar, OK? Isto aqui não, mas mas
+intuitivamente agora era uma questão de
+pôr baixo termos, mas pronto, vocês
+podem confiar que aproxima. Sim, senhor.
+E portanto, então voltamos aqui. Pronto.
+Então agora esta é a série com que nós
+vamos com que nós vamos trabalhar, esta
+série de potências.
+OK? Sim, senhora.
+Seno de x.
+OK? Uma vez que temos este polinómio,
+eh, daqui resultou resulta imediatamente
+o produto de vali. OK? Agora não posso
+precisar se o se o produto de vali veio
+daqui ou resultou de um de uma outra
+derivação, qualquer matemática. Não,
+não, não fui investigar isso a fundo,
+mas pronto. Mas daqui resulta o produto
+da Vali quando nós fazemos o seguinte.
+Então, e se eu fizer para x = a pi/? OK,
+que é aqui um caso notável. Bom, se eu
+fizer
+x = pi/2, não há dúvida nenhuma que seno
+de pi/ é 1
+e que, portanto, que é igual a 1 vezes.
+E aqui fica,
+portanto, e x = a pi/2/ fica 1 - 1/2, ou
+seja, fica 1/2.
+OK?
+Ah, aqui onde estava x é aqui é pi/2,
+desculpem.
+Portanto, para x = pi/,
+OK? Portanto, este x aqui
+pi/ meos.
+OK?
+Aqui, portanto, aqui neste segundo termo
+para x = pi/ o pi vai cortar. Corta,
+corta, fica 1 - 1/2 dá 1/2. [roncando]
+Eh, e aqui
+1 + 1/2,
+[roncando] portanto vai dar 3/
+3/
+a seguir.
+Portanto, aqui vai dar 1 - 1/4 3/4.
+Eh, e a seguir,
+ora, aqui um qu um mais 1/4 vai vai dar
+5/4.
+5/4 e assim sucessivamente.
+OK? Sim, senhora. Pronto. E agora ponho
+a evidência pi. Ponho a evidência pi e
+fica que pi
+igual a ora fica 2 2 2.
+Ora, deixa ver se não me estão aqui
+engan. Ok. É que normalmente o produto
+de vi escreve-se nesta forma. Pios. Este
+pi me que aqui está.
+Pronto. E agora passo estes termos todos
+para aquele lado. Pi/ = 2 x 2
+x 4 x 4
+x 6 x 6 etc, etc. Tudo sobre
+[suspirando]
+3 x 3. Tá aqui 1, mas o 1 é elemento
+neutro da multiplicação. Posso pôr nesta
+forma 3 x 3. Normalmente até se põe põe
+põe-se um na mesma. OK. Sim, senhora.
+1
+3 x 3
+5 x 5
+7 x 7, etc. Pronto. E cá temos nós mais
+uma aproximação
+para pi, onde já tínhamos visto
+a regra deis, o a aproximação que vinha
+da expansão em série de potências do
+arco tangente. Agora temos aqui esta.
+Já vamos ter outra daqui a bocado
+que é precisamente esta que é que é que
+resulta que vai resultar do somatório
+dos inversos dos quadrados que é igual a
+a pi qu
+senhora.
+Ora,
+efetivamente,
+efetivamente
+a forma de agnis que nós já tínhamos
+visto, resulta aqui da expansão em série
+de potências do arco tangente,
+OK?
+no qual o arco tangente de pi quartos
+[roncando] eh
+o arco tangente de um digo o arco que já
+tangente é 1 é vai ser pi quart e daqui
+resulta pi/4 igual a o arco cuja
+tangente é um portanto para x = 1.
+OK? Este produto de Vali que que
+acabamos de ver agora
+e é como vos digo, não sei não tenho a
+certeza se se derivou aqui desta desta
+desta série de Basel ou por por outra
+via. Isso agora não não não me recordo.
+Tá aqui expressa como um piatório. H
+nunca tínhamos visto isto. Não sei se
+vocês espero que vocês conheçam. Nós
+temos o somatório para somar termos e
+temos o símbolo do piatório para para
+multiplicar. Portanto, aqui tá como uma
+forma geral, um termo geral aqui. OK.
+Eh, sim, senhora. Pus atitude de
+curiosidade, pus aqui uma outra forma,
+outra aproximação de pi que é bem mais
+poderosa que estas outras. Esta esta de
+de Newton já é muito muito mais
+poderosa,
+OK?
+Ah, bastante mais complexa de
+demonstrar, bastante mais trabalhosa.
+Sim, senhora. E depois há formas muito
+mais modernas, podem pesquisar na
+internet. Há formas hoje em dia modernas
+como uma forma do grande matemático
+Ramuna já,
+mas isso podem procurar na internet. OK?
+Sim, senhor. E agora ainda vamos ter a
+outra forma, como vos digo, que vai sair
+agora do problema de base, ainda vamos
+ter aqui mais uma forma, mas que também
+converge lentamente para pi. OK?
+Sim, senhor.
+Ora, e estamos quase a acabar porque
+isto agora, então, agora vai ser rápido,
+porque uma vez que nós então obtivemos
+esta expressão
+de que está fatorizado este polinómio,
+verificamos no, embora visualmente, não
+é, intuitivamente nos no geo no
+GeoGebra,
+eh,
+no
+verificamos que efetivamente aproximava
+o seno. Sim, senhor. Então agora o que
+nós fazemos é que temos esta este
+polinómio infinito fatorizado
+e o que acontece
+que tá expresso aqui numa forma
+compacta, portanto é x multiplica este
+piatório 1 menos.
+OK?
+Ah, porque aqui agora agora aqui há um
+outro um outro passo intermédio que me
+esqueci de pôr aqui que nós podemos usar
+e simplificar.
+Portanto, podemos compactar esta
+expressão e dizer, olha, porque aqui nós
+temos eh o caso notável do
+dos do dos já como é que se chama,
+daqueles casos notáveis das das
+multiplicações. Nós temos aqui a - b a +
+b,
+ok? E mais uma vez a - b a + b.
+Portanto, dá a² - b². Pronto. Portanto,
+estes isto então isto simplifica,
+simplifica aqui, portanto fica x
+multiplica e, portanto, fica 1 men
+x qu sobre pi qu.
+Pronto. Portanto, compactando estes dois
+termos aqui e os dois termos seguintes,
+1 men
+x qu sobre 2 pi quad.
+Pronto. Sim, senhor. Era o termo que
+faltava, a simplificação que faltava
+aqui. OK? Então, como compactando estes
+termos aqui, então é o que temos temos
+aqui esta forma geral. Portanto, a forma
+geral, então,
+portanto, para a expansão em série de
+potências de base L, tem o X e depois
+tem este piatório, n varia de 1 a K. 1 -
+X qu sobre
+o N.
+ao quadrado, pi quadrado. Sim, senhor.
+Pronto. Então, agora o que é que nós
+fazemos? Nós agora nós agora começamos a
+a desembaraçar parênteses. Nós começamos
+a desembaraçar parêntes. Portanto, por
+exemplo, aqui, se eu multiplico o x aqui
+por este e monómio aqui ou como é que
+isto se chama,
+que é o que está aqui. Portanto, ao
+desembaraçar aqui os primeiros parentes,
+OK? ao multiplicar
+multiplicar aqui, portanto este por este
+mais este por este, depois fica x - x c
+pi². Sim, senhor. [roncando] Pronto, eu
+começo a desembaraçar parênteses.
+OK? Agora, se eu desembaraçar o próximo
+e mais este próximo,
+já tenho um polinómio
+mais eh como mais mais completo, com
+mais termos. Pronto. É curioso que que
+vão surgindo aqui as as mesmas potências
+de X e ímpares que eu tinha na série de
+Taylor do seno. OK? Portanto, há aqui
+uma coerência. Sim, senhora.
+Eh, o que é o os termos constantes
+dessas potências é que são diferentes.
+Aqui estão expressas também em termos de
+pi, enquanto que na série de TER não
+aparece pi em lado nenhum. OK? Portanto,
+é uma outra série que tem as mesmas
+potências de X. mas com as constantes
+são diferentes e, portanto, a
+aproximação é diferente ou é mais fraca
+que a série de Tor. Vai necessitar de
+mais termos para dar a mesma aproximação
+que dá a série de Tor. OK? Sim, senhora.
+Portanto, é o que nós temos agora aqui.
+Ora,
+pronto, o que acontece, o que acontece
+aqui agora é que é o seguinte, é que eh
+começou a prestar atenção
+eh como é que variava o termo em x cubo
+à medida que ia desembaraçando
+parênteses, começou apenas a fixar-se
+nos termos da da potência de x³,
+ignorando os outros. Ignorando os
+outros, porque o X é X e os outros pois
+são de ordem superior e ele ele
+ignorou-os para para o fim. Porquê?
+Porque ele como começou a reparar
+que os termos que apareciam em x c, que
+é o que está aqui,
+que é o que é o é o é o que está aqui.
+Portanto, por exemplo, aqui o primeiro
+termo tem - x³ sobre pi,
+OK? que é o que está aqui.
+E depois começou a reparar que no
+segundo termo feitas as contas, não vou
+fazer eu, não vou fazer eu aqui, podem
+fazer vocês, mas podemos ver que este x
+eh multiplica aqui. Vamos ver os o quais
+são os termos que originam x³. É este
+vezes este - 1 sobre pi
+este que dá -1/ 4 pi². Pronto. E então
+cá está que aparece aqui, aparece aqui o
+-1. Portanto, o -1 tá aqui o sinal de
+menos. Tá aqui o sinal de menos passa
+aqui para fora. E depois aqui temos o 1
+e depois temos o 1/4, OK? Que é o que é
+o 1/4 que aparece aqui. Este quatro aqui
+e aqui é o é o um. OK? Sim, senhora.
+E se formos aqui para baixo, vermos que
+os termos que vão dar x cá este
+multiplica por este, portanto - 1 e
+depois este com este - 1/4 e depois este
+com este -19. Pronto. Sim, senhora. Ou
+seja, porque calhou calhou os termos que
+apareciam aqui efetivamente
+ser os inversos dos quadrados. os
+inversos dos quadrados que resultou aqui
+desta desta expansão quando eu pus a - b
+a + b. OK? Então resultou que era, por
+exemplo, aqui vai aparecer o inverso de
+2² e depois o inverso de 3² e assim
+sucessivamente.
+Sim, senhora. E, portanto, é por isso
+que ele reparou que os termos em x cubo,
+os termos em x cubo seria
+vão aparecer aqui
+nesta expressão,
+OK? Com fazendo as contas dos textos
+três primeiros termos dá -49 36 e assim
+sucessivamente. Agora, incluindo mais
+termos. Pronto. E então, qual foi a
+intuição de Foi muito simples. Ele viu o
+seguinte. Se eu puser o -x³
+sobre pi qu
+sobre pi quad e se agora começar aqui a
+acrescentar mais termos
+e vai haver aqui o termo em x c vai ser
+sempre aqui a aparentes os inversos
+dos quadrados.
+OK? E assim sucessivamente. Pronto. E
+ele depois teve a seguinte intuição. Mas
+o termo em x c desta série de potências,
+ele teve a intuição que
+há de ser o mesmo que na série de Tayor,
+o a constante afeta ao x³.
+Portanto, se a série de Taylor tá
+correta e aproxima bem o seno,
+se tenho em x c
+tenho aqui o inverso do fatorial da 3,
+ou seja, 1/6
+men ou OK? Então este termo dado pela
+série de basel
+há de ser igual ao termo dado pela série
+de Taylor.
+Pronto. E cá está. E foi simplesmente
+aqui igualando estes termos. igualando
+estes termos,
+fazendo aqui o corta a corta aqui do x
+culta
+que
+que resulta o pi quadrado passa para
+aqui para cima então que resulta que o
+pi qu
+há de ser igual ao somatório
+dos inversos de n dos dn²
+quando n varia de 1 a infinito.
+OK?
+Eh, segundo alguns tutorials e vídeos
+que eu tive a ver no YouTube, Oiler já
+sabia que isto que isto era assim. Ou
+seja, Oiler houve uma primeira fase que
+ele fez umas aproximações e intuiu que o
+resultado tinha que ser este numa
+primeira fase e depois numa segunda fase
+vai à procura de de uma prova de algo
+mais consistente, de uma demonstração
+para provar que assim tinha que ser, mas
+ele já sabia. Ela, portanto, pelo que eu
+percebi, ele não descobriu isto aqui por
+acaso. Ela já, ele já sabia este
+resultado,
+mas não tinha ainda uma demonstração e e
+depois andou à procura da demonstração e
+penso que terá chegada aqui esta
+demonstração.
+Sim, senhor.
+E penso que sim. Penso que está mais ou
+menos coberto do que eu queria falar.
+Eh,
+sim, senhor.
+Efetivamente,
+eh, o importante a reter é que há
+podemos ter várias e séries de potências
+diferentes,
+OK?
+eh aproximações diferentes. Portanto,
+reparem que estas aproximações aqui ela
+elas são diferentes.
+Elas elas tendem é uma para a outra no
+infinito.
+OK? [roncando] Esta aproximação, a
+aproximação de Torer é mais forte, com
+menos termos, ela tende mais depressa
+para o seno, aproxima mais depressa do
+que esta de basel. OK? Agora, no
+infinito
+é aquelas as duas séries tendem a ser a
+mesma série. E é por isso que no
+infinito se pode afirmar aqui que então
+o termo de x³ dado por uma série e dada
+pela outra, pois teria que ser igual
+no infinito. Mas até chegar ao infinito
+com menos termos, as séries não são
+iguais, OK? Estes termos só se tornam
+iguais no infinito,
+OK?
+Não sei se me explico, porque no
+infinito com com infinitos termos,
+expandindo todos os parentes na série de
+Basela, pois dá esta série infinita.
+E sim, senhor, e temos aqui esta
+igualdade.
+OK? Pronto, isto é assim um bocado
+confuso visto isto à primeira vez,
+mas
+mas pronto, espero que tenha sido útil e
+mais ou menos claro.
+E vamos ficar por aqui.
+Obrigado pela atenção e até uma próxima
+oportunidade.
+

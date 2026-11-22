@@ -1,0 +1,796 @@
+0:00:03.360,0:00:07.799
+Ora, hoje vamos ver a lei dos senos.
+
+0:00:07.919,0:00:10.919
+Ora,
+
+0:00:11.599,0:00:18.520
+a lei dos senos e e depois futuramente
+
+0:00:15.360,0:00:21.080
+veremos a lei dos cossenos.
+
+0:00:18.520,0:00:23.000
+OK?
+
+0:00:21.080,0:00:25.880
+Eh,
+
+0:00:23.000,0:00:27.880
+e são os fundamentos para depois
+
+0:00:25.880,0:00:30.880
+podermos começar a avançar-nos em
+
+0:00:27.880,0:00:33.960
+tópicos mais avançados. Mas eu quis quis
+
+0:00:30.880,0:00:38.760
+começar esta minha playlist com com
+
+0:00:33.960,0:00:41.399
+aquilo que eu considero as bases. OK?
+
+0:00:38.760,0:00:44.200
+Eh,
+
+0:00:41.399,0:00:45.719
+e portanto eh vamos ver.
+
+0:00:44.200,0:00:49.000
+Ora, a veio dos cenos, vamos construir
+
+0:00:45.719,0:00:49.000
+aqui um triângulo.
+
+0:00:50.960,0:00:56.359
+Está um bocado fininho. Deixa-me mudar
+
+0:00:53.079,0:00:56.359
+aqui isto.
+
+0:01:01.000,0:01:04.000
+OK.
+
+0:01:05.960,0:01:08.960
+Ora,
+
+0:01:13.439,0:01:20.759
+sim, senhora. Um triângulo.
+
+0:01:16.000,0:01:20.759
+Ora, vamos ter aqui os lados A,
+
+0:01:21.000,0:01:24.840
+B,
+
+0:01:22.520,0:01:26.759
+C.
+
+0:01:24.840,0:01:30.159
+Portanto, isto é um é um padrão que nós
+
+0:01:26.759,0:01:34.200
+devemos usar, OK? Normalmente os lados e
+
+0:01:30.159,0:01:34.200
+representa-se por V3 minúsculas.
+
+0:01:34.680,0:01:37.880
+Oposto aos lados temos os ângulos
+
+0:01:36.280,0:01:40.360
+correspondentes. Portanto, aqui vamos
+
+0:01:37.880,0:01:42.840
+ter alfa,
+
+0:01:40.360,0:01:45.840
+beta,
+
+0:01:42.840,0:01:45.840
+gama.
+
+0:01:45.880,0:01:51.320
+E depois também podíamos ter os pontos
+
+0:01:47.960,0:01:53.880
+em que este seria aqui seria o ponto A
+
+0:01:51.320,0:01:56.600
+BC, mas pronto, não precisamos agora de
+
+0:01:53.880,0:02:00.000
+pontos.
+
+0:01:56.600,0:02:02.880
+OK? [roncando] Ora bem, portanto, o que
+
+0:02:00.000,0:02:07.479
+é que nós vamos fazer aqui?
+
+0:02:02.880,0:02:07.479
+Vamos traçar aqui a a perpendicular,
+
+0:02:08.399,0:02:11.959
+OK? H.
+
+0:02:12.319,0:02:17.400
+E
+
+0:02:13.959,0:02:20.440
+eh vamos considerar aqui este triângulo
+
+0:02:17.400,0:02:22.120
+mais pequeno,
+
+0:02:20.440,0:02:25.120
+triângulo número um, que é um triângulo
+
+0:02:22.120,0:02:25.120
+retângulo.
+
+0:02:25.599,0:02:32.440
+E sendo assim, eh, podemos dizer que
+
+0:02:30.200,0:02:34.840
+o H,
+
+0:02:32.440,0:02:37.280
+OK,
+
+0:02:34.840,0:02:40.280
+o cateto oposto em relação ao ângulo
+
+0:02:37.280,0:02:40.280
+gama.
+
+0:02:40.720,0:02:47.599
+É, trata-se de um de um de um o cateto
+
+0:02:44.280,0:02:52.239
+oposto sobre a hipotenusa H é o é o seno
+
+0:02:47.599,0:02:55.560
+de gama. Portanto, ou seja, que H
+
+0:02:52.239,0:02:55.560
+sobre B
+
+0:02:56.159,0:03:00.840
+é o seno de gama
+
+0:03:00.879,0:03:08.920
+ou h é igual a a b seno de gama. OK?
+
+0:03:06.599,0:03:11.280
+Pronto. Então, basicamente,
+
+0:03:08.920,0:03:13.159
+como vem, basicamente em qualquer
+
+0:03:11.280,0:03:16.239
+triângulo
+
+0:03:13.159,0:03:19.920
+retângulo, é muito simples. Nós, quando
+
+0:03:16.239,0:03:22.360
+temos aqui o ângulo e a hipotenusa,
+
+0:03:19.920,0:03:26.040
+projetamos no cateto oposto, dizemos a
+
+0:03:22.360,0:03:29.480
+hipotenusa B,
+
+0:03:26.040,0:03:29.480
+seno de gama
+
+0:03:30.000,0:03:36.760
+e e aqui B
+
+0:03:33.280,0:03:40.000
+cosseno de gama.
+
+0:03:36.760,0:03:42.720
+OK? Sim, senhora.
+
+0:03:40.000,0:03:44.920
+Portanto, a altura do do triângulo é b
+
+0:03:42.720,0:03:49.040
+seno de gama,
+
+0:03:44.920,0:03:54.319
+porque eu partio 1. Se eu fizesse o
+
+0:03:49.040,0:03:54.319
+mesmo raciocínio aqui do do triângulo 2,
+
+0:03:54.720,0:03:58.360
+este triângulo retângulo,
+
+0:03:58.640,0:04:04.680
+OK?
+
+0:04:00.079,0:04:06.200
+Então, seria a mesma altura H a vermelho
+
+0:04:04.680,0:04:11.439
+seria
+
+0:04:06.200,0:04:13.959
+C projetado C seno de beta.
+
+0:04:11.439,0:04:16.120
+Então não há dúvida nenhuma que
+
+0:04:13.959,0:04:20.600
+B
+
+0:04:16.120,0:04:24.520
+seno de gama, que é o H,
+
+0:04:20.600,0:04:27.479
+também tem que ser igual a C
+
+0:04:24.520,0:04:30.479
+projetado aqui no cateto oposto. C não
+
+0:04:27.479,0:04:30.479
+tenta.
+
+0:04:30.759,0:04:33.759
+OK?
+
+0:04:33.800,0:04:37.759
+E, portanto,
+
+0:04:35.800,0:04:42.320
+eh,
+
+0:04:37.759,0:04:45.199
+olhando estas duas expressões, vemos que
+
+0:04:42.320,0:04:48.800
+seno de gama sobre cou
+
+0:04:45.199,0:04:50.120
+c sobre seno de gama é a mesma coisa.
+
+0:04:48.800,0:04:52.360
+Baixo não mudaram fórmulas, mas
+
+0:04:50.120,0:04:58.639
+normalmente acho que representa-se desta
+
+0:04:52.360,0:05:01.520
+forma neste formato, o a lei dos senos C
+
+0:04:58.639,0:05:03.919
+sobre seno do ângulo oposto, seno de
+
+0:05:01.520,0:05:07.440
+gama
+
+0:05:03.919,0:05:07.440
+é igual a b
+
+0:05:07.520,0:05:11.199
+sobre seno de beta
+
+0:05:12.080,0:05:18.919
+e por simetria será igual a a sobre seno
+
+0:05:15.840,0:05:21.319
+de alfa, Mas olhando aqui para o
+
+0:05:18.919,0:05:24.160
+desenho, para a construção não não é
+
+0:05:21.319,0:05:26.080
+óbvio. OK?
+
+0:05:24.160,0:05:27.280
+Então para ver se tornamos isto um pouco
+
+0:05:26.080,0:05:29.720
+mais óbvio, vou fazer aqui uma
+
+0:05:27.280,0:05:31.800
+construção.
+
+0:05:29.720,0:05:36.800
+Eu vou aqui
+
+0:05:31.800,0:05:36.800
+prolongar aqui este lado.
+
+0:05:38.639,0:05:45.440
+OK?
+
+0:05:40.560,0:05:45.440
+E vou aqui prolongar aqui,
+
+0:05:45.560,0:05:50.639
+fazer aqui a perpendicular. OK.
+
+0:05:52.919,0:05:56.720
+ver isto aqui um bocadinho melhor
+
+0:05:56.800,0:06:02.240
+por forma obter aqui,
+
+0:05:59.280,0:06:04.680
+ou seja, estou a construir aqui
+
+0:06:02.240,0:06:07.680
+este grande este grande triângulo
+
+0:06:04.680,0:06:07.680
+retângulo.
+
+0:06:10.919,0:06:15.840
+OK? Pronto, um bocadinho. Vocês estão a
+
+0:06:14.039,0:06:18.840
+perceber a ideia? Faz um um triângulo
+
+0:06:15.840,0:06:21.759
+retângulo grande. OK?
+
+0:06:18.840,0:06:23.479
+Ora bem, eu quero uma relação agora com
+
+0:06:21.759,0:06:26.280
+alfa,
+
+0:06:23.479,0:06:29.479
+OK? Mas não dá jeito porque alfa é maior
+
+0:06:26.280,0:06:31.479
+que 90, neste caso deste triângulo, OK?
+
+0:06:29.479,0:06:35.800
+Calha bem para
+
+0:06:31.479,0:06:35.800
+E, portanto, eh,
+
+0:06:36.520,0:06:40.720
+o que é que nós vamos fazer? E vou vou
+
+0:06:38.120,0:06:43.440
+agora considerar este lado verde. Vou
+
+0:06:40.720,0:06:45.240
+considerar o lado verde e vou considerar
+
+0:06:43.440,0:06:51.400
+aqui, em vez de considerar alfa, vou
+
+0:06:45.240,0:06:51.400
+considerar este ângulo que é 180 - alfa.
+
+0:06:54.840,0:07:00.160
+OK?
+
+0:06:57.360,0:07:02.520
+Sim, senhora. E agora em termos do deste
+
+0:07:00.160,0:07:07.520
+triângulo grande,
+
+0:07:02.520,0:07:09.759
+portanto, a hipótese agora aqui é o A.
+
+0:07:07.520,0:07:14.479
+Então vou dizer
+
+0:07:09.759,0:07:18.400
+que o este lado verde é o é o A,
+
+0:07:14.479,0:07:22.400
+considerando este ângulo beta.
+
+0:07:18.400,0:07:27.800
+Não, o A o A não vou considerar também
+
+0:07:22.400,0:07:31.360
+seria, mas não tá bem. É o A. OK.
+
+0:07:27.800,0:07:33.759
+Ora, considerando o ângulo beta,
+
+0:07:31.360,0:07:36.199
+e, portanto, é o a
+
+0:07:33.759,0:07:38.840
+projetado no cateto oposto, é o a seno
+
+0:07:36.199,0:07:41.840
+de beta.
+
+0:07:38.840,0:07:41.840
+OK?
+
+0:07:42.960,0:07:48.199
+OK. Portanto, em qualquer triângulo
+
+0:07:45.319,0:07:52.080
+retângulo,
+
+0:07:48.199,0:07:52.080
+em qualquer triângulo retângulo.
+
+0:07:53.240,0:07:59.520
+OK? Se eu tenho aqui um ângulo,
+
+0:07:56.919,0:08:02.560
+OK? Teta.
+
+0:07:59.520,0:08:06.360
+Tenho uma hipotenusa H.
+
+0:08:02.560,0:08:10.639
+Pronto, aqui será sempre H seno de teta
+
+0:08:06.360,0:08:12.560
+projetado ali e aqui H cosseno
+
+0:08:10.639,0:08:15.560
+de teta.
+
+0:08:12.560,0:08:17.159
+OK?
+
+0:08:15.560,0:08:18.919
+Os quais verificar o teorema de
+
+0:08:17.159,0:08:21.000
+Pitágoras que já vimos. Se eu somar este
+
+0:08:18.919,0:08:24.680
+a este este ao quadrado mais este ao
+
+0:08:21.000,0:08:27.159
+quadrado vai dar h².
+
+0:08:24.680,0:08:29.759
+OK?
+
+0:08:27.159,0:08:32.680
+Portanto, então temos aqui a seno de
+
+0:08:29.759,0:08:34.719
+beta,
+
+0:08:32.680,0:08:37.000
+mas agora
+
+0:08:34.719,0:08:39.839
+também tem que ser igual em relação a
+
+0:08:37.000,0:08:43.000
+este ângulo de 180 - alfa,
+
+0:08:39.839,0:08:45.279
+no qual agora tenho aqui
+
+0:08:43.000,0:08:47.320
+este triângulo
+
+0:08:45.279,0:08:51.320
+retângulo,
+
+0:08:47.320,0:08:55.320
+este triângulo retângulo aqui
+
+0:08:51.320,0:08:57.600
+e que, portanto, a hipótese é Pjetado
+
+0:08:55.320,0:09:00.959
+no cateto oposto
+
+0:08:57.600,0:09:02.560
+aqui no ângulo 180 men- alfa. E,
+
+0:09:00.959,0:09:05.560
+portanto, é isto é tem que ser igual a
+
+0:09:02.560,0:09:05.560
+pjetado
+
+0:09:06.000,0:09:14.279
+no no cateto oposto é o é o seno
+
+0:09:09.440,0:09:14.279
+o seno de 180 - alfa.
+
+0:09:15.640,0:09:19.399
+OK?
+
+0:09:17.760,0:09:21.839
+Ora,
+
+0:09:19.399,0:09:26.279
+precisamos de
+
+0:09:21.839,0:09:28.839
+de expandir o seno 180- alfa. Claro,
+
+0:09:26.279,0:09:29.959
+existem as formas trigonométricas,
+
+0:09:28.839,0:09:32.720
+mas nem precisamos de formas
+
+0:09:29.959,0:09:34.440
+trigonométricas aqui. Aqui precisamos
+
+0:09:32.720,0:09:37.040
+fazer apenas fazer um boneco do do
+
+0:09:34.440,0:09:39.160
+círculo o círculo trigonométrico.
+
+0:09:37.040,0:09:42.160
+OK? Relembramos o círculo
+
+0:09:39.160,0:09:42.160
+trigonométrico,
+
+0:09:48.079,0:09:54.480
+OK?
+
+0:09:49.320,0:09:58.440
+de raio 1 e que, portanto, para um dado
+
+0:09:54.480,0:10:00.160
+ângulo teta,
+
+0:09:58.440,0:10:03.000
+OK?
+
+0:10:00.160,0:10:06.600
+O cosseno de teta mede-se na abscissa,
+
+0:10:03.000,0:10:11.160
+aqui aqui é o cosseno de teta
+
+0:10:06.600,0:10:14.480
+e o seno de teta mete-se na ordenada.
+
+0:10:11.160,0:10:18.560
+Aqui é o seno de teta.
+
+0:10:14.480,0:10:21.760
+E onde está o ângulo de 180-A?
+
+0:10:18.560,0:10:27.120
+Portanto, aqui é 180
+
+0:10:21.760,0:10:27.120
+menos teta. Pois vai estar aqui.
+
+0:10:27.680,0:10:33.240
+OK.
+
+0:10:29.240,0:10:37.000
+180 para trás menos teta. Portanto, vai
+
+0:10:33.240,0:10:39.200
+estar aqui. Tem a mesma ordenada e e
+
+0:10:37.000,0:10:43.279
+portanto o seno é igual. Pronto, aqui é
+
+0:10:39.200,0:10:45.839
+um o seno de teta
+
+0:10:43.279,0:10:49.160
+é igual ao seno
+
+0:10:45.839,0:10:51.279
+de 180 - teta.
+
+0:10:49.160,0:10:53.360
+Pronto, vemos isto geometricamente com o
+
+0:10:51.279,0:10:54.720
+círculo trigonométrico.
+
+0:10:53.360,0:10:59.200
+Não é preciso estar agora a usar as
+
+0:10:54.720,0:11:01.720
+fórmulas para da trigonométricas do do
+
+0:10:59.200,0:11:06.600
+seno e do cosseno das somas. E,
+
+0:11:01.720,0:11:09.440
+portanto, este é igual ao seno de alfa.
+
+0:11:06.600,0:11:11.480
+E, portanto, aqui resulta
+
+0:11:09.440,0:11:14.279
+a
+
+0:11:11.480,0:11:16.959
+seno de beta
+
+0:11:14.279,0:11:20.320
+é igual a b
+
+0:11:16.959,0:11:23.040
+seno de alfa.
+
+0:11:20.320,0:11:27.399
+E, portanto, é a mesma a mesma a mesma
+
+0:11:23.040,0:11:31.000
+dos senos. B
+
+0:11:27.399,0:11:31.000
+sobre seno de beta
+
+0:11:31.279,0:11:36.680
+é igual a a
+
+0:11:33.959,0:11:39.959
+sobre seno de 9.
+
+0:11:36.680,0:11:42.399
+E pronto. Então temos que os três são
+
+0:11:39.959,0:11:45.320
+iguais.
+
+0:11:42.399,0:11:48.320
+P sobre seno de beta
+
+0:11:45.320,0:11:48.320
+daqui
+
+0:11:50.320,0:11:55.240
+para aqui
+
+0:11:52.920,0:11:59.320
+e que portanto é igual
+
+0:11:55.240,0:11:59.320
+a a so seno de alfa.
+
+0:12:01.120,0:12:07.399
+OK?
+
+0:12:03.920,0:12:07.399
+Ora, sim, senhora.
+
+0:12:10.959,0:12:13.959
+Ora,
+
+0:12:16.040,0:12:20.399
+a veio dos senos.
+
+0:12:18.160,0:12:22.880
+OK.
+
+0:12:20.399,0:12:25.040
+H,
+
+0:12:22.880,0:12:28.040
+quero ver se futuramente,
+
+0:12:25.040,0:12:28.040
+futuramente
+
+0:12:28.240,0:12:35.199
+eh
+
+0:12:30.040,0:12:37.000
+devo fazer um um tutorial dedicado à
+
+0:12:35.199,0:12:40.519
+a chamada extended la oficines,
+
+0:12:37.000,0:12:43.959
+portanto, a lei dos chos estendida.
+
+0:12:40.519,0:12:48.000
+Eh, mas pronto, isto ficará para
+
+0:12:43.959,0:12:50.199
+outro tópico. Já agora, eh, perguntar
+
+0:12:48.000,0:12:52.839
+qual a área deste triângulo, do
+
+0:12:50.199,0:12:55.120
+triângulo original aqui, do um e do do
+
+0:12:52.839,0:12:58.360
+portanto qual a área
+
+0:12:55.120,0:13:00.639
+deste triângulo aqui. OK?
+
+0:12:58.360,0:13:02.600
+Portanto, então já sabemos que a área do
+
+0:13:00.639,0:13:04.800
+triângulo é o comprimento da base vezes
+
+0:13:02.600,0:13:07.040
+a altura é 1/2. Portanto, a área do
+
+0:13:04.800,0:13:11.320
+triângulo,
+
+0:13:07.040,0:13:14.440
+portanto, a área do a área
+
+0:13:11.320,0:13:16.839
+do triângulo,
+
+0:13:14.440,0:13:20.880
+já sabemos que tem que ser 1/io da área
+
+0:13:16.839,0:13:24.040
+da base, que é o A,
+
+0:13:20.880,0:13:27.040
+vezes a altura, que é o o B seno de
+
+0:13:24.040,0:13:27.040
+gama.
+
+0:13:27.320,0:13:33.079
+B
+
+0:13:29.360,0:13:35.000
+seno de gama, OK?
+
+0:13:33.079,0:13:37.480
+Eh, e aqui poderíamos pôr outra outras
+
+0:13:35.000,0:13:39.440
+variáveis em função do A e do C e com
+
+0:13:37.480,0:13:43.639
+outro ângulo, etc, etc., usando estas
+
+0:13:39.440,0:13:46.639
+fórmulas aqui da lei dos centros. OK?
+
+0:13:43.639,0:13:48.160
+Eh, e pronto, futuramente depois veremos
+
+0:13:46.639,0:13:52.399
+que isto está relacionado com o produto
+
+0:13:48.160,0:13:55.680
+externo, OK? futuramente veremos que
+
+0:13:52.399,0:13:57.920
+que é o produto externo de dois vetores
+
+0:13:55.680,0:14:00.839
+eh que nos permite obter a área do do
+
+0:13:57.920,0:14:02.880
+triângulo
+
+0:14:00.839,0:14:06.160
+e que é, portanto, que a forma há de dar
+
+0:14:02.880,0:14:10.160
+esta depois mais tarde. OK? Mas pronto,
+
+0:14:06.160,0:14:10.160
+a ve isto.
+
+

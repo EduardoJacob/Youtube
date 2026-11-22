@@ -1,0 +1,875 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Vamos iniciar uma terceira fase, uma
+terceira etapa aqui dentro da minha
+playlist.
+[roncando]
+Eh, depois de termos as bases, uma
+primeira etapa, de seguida a derivação.
+Eh, e agora vamos eh para a terceira
+etapa da área da integração e
+primitivação.
+Se bem que já
+nalguns casos assim mais triviais e
+elementares já já abordamos um pouco ou
+um ou um ou outro tema de de
+primitivação nalguns tutorios
+anteriores.
+Ora bem, vamos então tratar do do famoso
+método da primitivação por partes, OK?
+Portanto, eh,
+se alguém me disser assim, olha, escreve
+aí a forma da primitivação por partes,
+eu nunca sou capaz de escrever de decor,
+mas eu sei que ela é e simplesmente uma
+consequência imediata da regra da
+derivada do produto. OK? Portanto, não
+há dúvida nenhuma que na derivada do
+produto que nós já vimos,
+quando nós deduzimos, deduzimos as
+regras de derivação
+e, portanto, nós vimos que a derivada do
+produto FQ seria é muito fácil de
+decorar porque é a derivada da primeira
+vez a segunda mais a derivada da segunda
+vez a primeira. OK?
+Sim, senhor. E com base nisto, deduzimos
+agora rapidamente, portanto, a
+a regra da da primitivação por partes.
+Portanto, aplicando aplicando e
+primitivando ambos os lados desta
+equação. A primitiva da soma é que é a
+soma das primitivas. E portanto, e agora
+o que fazíamos é isolar aqui, eh,
+isolamos aqui num dos lados de equação,
+isolamos aqui um destes componentes que
+contém uma derivada.
+Posso isoar este ou posso isoar este
+outro termo é igual
+para forma é é simétrica. Portanto,
+então a primitivação por partes vai-me
+dizer que OK, que a primitiva
+a primitiva de F linha G
+eh será igual a FQ, porque aqui reparem
+que a primitiva é a operação inversa da
+derivação e, portanto, aqui anula-se e
+fica fmo
+passa para ali, muda o sinal menos a
+primitiva de FG. linha. OK. Pronto, aqui
+temos nós então a fórmula da
+primitivação por partes.
+Pronto, onde é que nós vamos aplicar
+isto? Eh, quando queremos eh primitivar,
+normalmente haverá dois termos,
+portanto, assim, nos casos mais
+triviais,
+eh teremos uma expressão, uma função
+matemática que nós queremos primitivar,
+o qual nós vemos que ela é composta por
+dois termos,
+sendo que um deles é fácil de
+primitivar,
+OK? que será este f linha no qual eu
+consiga permitivar e vai dar f
+e que o outro termo pois seja fácil
+fácil e e que seja vantajoso de derivar,
+que será o gual eu irei derivar
+eh para obter aqui o ginha. OK? Pronto,
+isto é é simples. É nos casos mais
+simples e triviais é simples. Vamos ver
+aqui um exemplo. Então, portanto, vamos
+imaginar que eu quero a primitiva
+de x seno de x, OK?
+X
+seno de X. OK? Pronto. Posso pôr aqui o
+dx ou não. Isso agora há pouco não
+importa.
+eh que eu não estou a calcular um
+integral, portanto agora nem pouco
+importa colocar aqui o dx. OK? Tá tá
+subentendido.
+OK?
+Portanto, olhando para esta expressão,
+eu vejo assim, e eu
+hh
+não consigo primitivar de imediato. Eu
+eu não consigo dizer qual é a função que
+imediatamente derivando vai dar esta,
+não é? Pronto.
+Eh, aqui então será um caso de
+aplicabilidade desta desta desta
+fórmula, deste método. Porquê? Eu,
+olhando para aqui, vejo que vejo que vou
+ter aqui dois termos. Portanto, tenho o
+x
+e tenho o seno de x. E agora pergunto
+assim, eh, qual destes dois termos
+seria vantajoso eu derivar?
+Será o x? Porque porque o x, se eu
+derivar, a derivada de x dá 1 e
+desaparece. Portanto, é vantajoso eu
+derivar esta esta parte aqui, o x. E em
+contrapartida terei que ser capaz de
+primitivar a outra parte o sen x, que
+isso que é fácil primitivar. OK? Então,
+sendo assim, olhando esta expressão e
+comparando aqui com a fórmula, eu vou
+ver qual destas funçõ qual destes termos
+vai ser o f e o g. OK? Sim, senhor.
+Então, eu vou dizer o seguinte. Eu vou
+dizer que o G há de ser o X, o qual eu
+vou querer
+eu vou querer derivar.
+E o seno de X vai ser aqui o meu f
+linha,
+o qual eu vou querer primitivar. OK?
+Pronto. Então eu vou dizer então,
+OK? Isto passa a ser igual a f e,
+portanto, f será a primitiva do seno,
+OK? que é fácil, nós já sabemos, nós já
+sabemos que nós já sabemos que a
+derivada do seno dá o cosseno,
+OK?
+Eh, e agora
+e até vou apagar isto aqui, esta parte.
+Pronto. Dizer, OK, a derivada do seno dá
+o cosseno.
+A derivada do cosseno
+eh, portanto, dá o - seno.
+A derivada do do menos seno
+dá o menos cosseno
+[roncando] e a derivada do menos cosseno
+dá outra vez o seno.
+OK?
+Sim, senhor. E depois repete. Portanto,
+temos neste sentido, temos
+neste sentido,
+portanto, interpretando neste sentido,
+temos
+a derivação
+e interpretando no sentido oposto, temos
+a primitivação.
+OK? Então, portanto, aqui podemos dizer
+a primitiva do menos cosseno é o menos
+seno, a primitiva de - seno é o cosseno,
+a primitiva do cosseno é o seno e
+sucessivamente. Pronto. Então aqui temos
+a a primitiva do seno. F linha é o é o
+seno. E eu quero e eu agora a forma
+diz-me que isto é igual a f, então é a
+primitiva aqui. Ora, a a primitiva do
+seno é o menos cosseno, OK? Portanto,
+isto vai dar então menos cosseno
+[roncando] e depois tem o g. Portanto,
+aqui o G não se altera, é o X,
+OK? E depois temos menos. Aqui vou ter a
+primitiva.
+Eh, temos então o f, o meu f que é o
+menos cosseno.
+E agora a derivada do g,
+portanto a derivada é 1. OK? Portanto,
+isto vai dar então -
+x
+cosseno de x menos por menos dá mais a
+primitiva do cosseno.
+Olhando aqui,
+vemos que a primitiva do cosseno é o
+seno
+seno de x. Pronto. E aqui temos nós eh
+concluímos o nosso problema, OK? por
+primitiva são por partes. A primitiva de
+x seno de x é igual a seno de x - x
+cseno de x. OK?
+Ora, aqui temos a
+a confirmação da solução usando esse
+esse site espetacular que é o Oframalfa.
+Eh, e de facto aqui temos aqui temos a
+expressão que eu introduzi de de
+integrate integrate x seno de x
+e tá correto que dá seno de x - x coseno
+de x mais constante. Eu aqui esqueci-me
+da constante. Pronto, normalmente há
+sempre uma constante que nós devemos
+sempre colocar nos resultados. Uma vez
+dizemos que esta função derivada dá
+aquela, mas na verdade esta função mais
+uma constante qualquer.
+Portanto, porque a derivada da constante
+é zero. Portanto, a bom rigor e o que a
+bom rigor o que nós obtemos é uma
+família de funções qualquer. O que nós
+dizemos é que a primitiva
+desta função x seno de x não é uma
+função única, é é vai ser uma família de
+funções que ela essa família é que que
+difere por uma por uma constante. São
+todas as expressões com com este formato
+que seja seno de x - x coseno de x mais
+qualquer coisa. Portanto, na verdade,
+então vemos que há infinitas primitivas
+desta função, todas as que tenham este
+formato. OK? Pronto, daí a questão da da
+constante. Mas pronto, eh, se eu há uma
+vez, se eu me esquecer de pôr a
+constante, vocês não estranhem, acho que
+também também não é grave.
+Eh, mas pronto, tá subentendido assim tá
+mais correto. Sim, senhor. Portanto,
+aqui temos então o Oframalfa e vemos que
+o Oframfa tem aqui um um tópico, tem
+aqui uma opção que é o step by step
+solution, mas o step by step solution é
+para contas premium, OK? Eu nunca tive
+uma conta premium, eu sempre usei na
+forma gratuita [roncando] e, portanto,
+mas pronto, imagino que aqui step by
+step solution, isto deve ser uma
+realmente deve-nos dar todos os passos
+intermédios e como isto é de facto é uma
+ferramenta fabulosa hoje em dia para
+quem quem quer esteja a estudar
+matemática, como estão a ver, não é?
+Temos a possibilidade de de de confirmar
+todos os nossos resultados. OK? Sim,
+senhora.
+Ora,
+vamos passar aqui a um outro exemplo,
+OK? Agora mais complexo. Este foi um
+exemplo trivial, como viram. Este é um
+exemplo simples que nós eh pegamos na
+expressão e vemos imediatamente que tem
+dois termos e, portanto, os dois termos
+e casam, casaram com estes dois termos
+aqui. Eu eu escolhi um g, eu escolhi um
+finha. E, portanto, isto então foi
+tornou-se trivial. Vamos ver agora um
+caso que é o que acontece muitas vezes,
+casos que já não são assim tão triviais
+e que obrigam a aplicar algum tipo de
+artifício. OK? É por isso é que a
+primitivação é tão mais complexa do que
+a derivação. Portanto, não tem nada a
+ver, porque a derivação é mais
+sistemática, é mais trivial. De modo
+geral, conseguimos sempre derivar.
+Portanto, a derivação normalmente não
+requer tantos artifícios. Eh, e portanto
+basta aplicar as regras básicas que nós
+vimos da derivação. Pronto, mas a
+primitivação é diferente. A primitivação
+muitas vezes requer artifícios e outras
+vezes por is simplesmente não se
+consegue primitivar e ponto final. OK? E
+então a partir daí, pois, poois, não há
+hipótese, não se consegue. Ou então
+temos temos que partir para para métodos
+numéricos ou temos que fazer uma
+expansão em em série de Taylor ou temos
+que ou qualquer outro processo numérico
+aproximativo. OK? Portanto, primitivação
+é realmente muitíssimo mais complexo.
+Ora, vamos ver aqui um exemplo de
+primitivação por partes, que já não é
+trivial e que obriga a um determinado
+artifício.
+Eh, vamos ver. E às vezes poderá haver
+vári várias hipóteses, vários tipos de
+artifícios, não é? [roncando] Eh, esta é
+outra das características da
+primitivação, comparando com a
+derivação, porque a derivação à partida
+é determinística. Quer dizer, eu aplico
+as regras da derivação e só há uma
+maneira de derivar à partida, não há
+mais.
+Ah, há ali alguma nuance, por exemplo,
+quando aparece um cociente, onde eu
+posso posso derivar pela regra do
+quociente ou pela regra e da potência,
+que é o que eu faço, que é normalmente o
+que eu uso. Pronto, mas não não tem não
+não há ali muita muita volta a dar. Eh,
+no caso da da primitivação é diferente
+porquê? porque há processos em que eu
+posso optar por várias técnicas de
+primitivação, OK? Primitivação por
+substituição, primitivação por partes,
+etc., etc. E às vezes vários métodos
+alternativos poderão-se aplicar. Ora,
+vamos ver então aqui este caso.
+Portanto, agora já é um caso que já não
+é trivial. Portanto, eu vou ter aqui a
+primitiva e, portanto, eu vou ter aqui o
+inverso de
+ora 1 +
+x².
+Ok?
+Sim, senhora. Ora bem, aqui eh com a
+quando a pessoa depois começa a ganhar
+prática na na primitivação,
+eh o que acontece é que há determinados
+padrões que que nós já conhecemos. E aí
+convém nós termos bem presente e a
+tabela das derivadas. As derivadas são
+fundamentais. Reparem que eu aqui no
+problema anterior eu eu sabia derivar.
+Eu sabia que a derivada do seno era o
+cosseno e a partir daí também no sentido
+oposto eu obtenho a primitivação.
+Portanto, aqui é a mesma coisa. Ou seja,
+aqui eu eu vou-me basear no facto de de
+conhecer a derivada do arco tangente,
+OK? Que nós já vimos na altura e
+deduzimos quando tratamos do arco
+tangente
+e cuja a derivada do arco tangente x,
+portanto, era igual a 1 sobre 1 + x².
+Pronto. E isto é fundamental porque é
+isto é que nos agora nos vamos utilizar
+este facto para para obter o caminho
+inverso. Portanto, aqui olhando para
+aqui para a expressão que queremos
+primitivar, nós temos aqui o denominador
+ao quadrado, portanto não se encaixa.
+Pronto. E é aí que é agora que vai
+vai aparecer aqui um artifício, OK? e
+vai aparecer um artifício. Portanto, eu
+aqui não posso aplicar diretamente e
+[roncando] passar ao arco tangente. Não
+se aplica.
+A poderia ser uma potência, pergunto a
+poderia ser uma função que eu tivesse 1
++
+x2 elevado a -1 e que e que eu tivesse
+derivado e que eu tivesse derivado esta
+expressão e ela ela ela daria ela daria
+efetivamente
+e -1 baixava aqui o o expoente em baixo
+aqui ficava elevado a -2, portanto que é
+o mesmo que passar isto cá para baixo.
+ao quadrado. E aqui teria a derivada da
+base pela função composta. Aqui teria
+2x. Pronto, cujo eu não tenho aqui 2x.
+OK? Pronto. Então, eh, temos aqui um um
+um dilema em que eu não tenho, se eu
+tivesse aqui 2x, seria simples. Ou se
+não tivesse aqui esta potência aqui de
+dois também seria simples, seria o arco
+tangente. Pronto, mas eu não tenho
+nemhuma coisa nem outra. Pronto. E é
+agora que vai aparecer um artifício para
+transformar esta expressão numa
+combinação destas expressões. OK?
+Pronto. Então, o que é que eu vou fazer?
+Eu vou fazer
+pronto. E aqui aqui não há volta a dar.
+Aqui eh em matéria de artifícios não há
+volta a dar porque a pessoa ou tem a
+sensibilidade [roncando] e ou não tem.
+Portanto, quando já tem experiência, se
+a pessoa tiver a praticar muito
+primitivação, a pessoa ganha experiência
+e tem essa sensibilidade.
+Eu não é uma coisa que eu faça todos os
+dias. Eu, portanto, eu agora tive tive a
+fazer aqui algumas revisões, um
+bocadinho para preparar este tutorial,
+mas é assim, às vezes posso estar meses
+ou até mesmo alguns anos sem fazer
+nenhuma primitiva, nem nem sempre estou
+dedicado à matemática.
+E agora, de repente se eu tivesse
+destreinado e se me aparecesse esta
+primitiva, provavelmente não se me
+ocorreria como resolvê-la. OK? Pronto.
+Portanto, isto é sempre assim, é sempre
+um tema. Se começarmos a praticar, se
+começarmos a dedicar, depois começamos a
+relembrar, eh, começamos a, isto é como
+é comandado de bicicleta, OK? Nunca
+esquece, mas se a pessoa tá destreinada,
+pois não é a mesma coisa que que estar
+que estar rotinada e estar treinada. OK.
+Sim, senhora. Então, qual o artifício
+que vamos aplicar aqui? Portanto, eu vou
+aplicar aqui o seguinte artifício. Vou
+dizer, olha, isto é igual ao integral e
+em cima do numerador eu vou colocar 1 e
+vou somar e subtrair 1 + x²
+- x².
+Pronto. OK.
+Pronto. E já vamos ver porquê, porque é
+que isto faz sentido,
+OK? Porque agora me permite separar
+aqui em duas frações
++ x qu de um lado e - x qu do outro. OK?
+Pronto. Então temos e aqui temos 1 + x
+qu
+sobre 1 + x quad. Então aqui fica
+1 sobre 1 + x²,
+OK? E depois fica menos
+a primitiva de
+x²
+1 + x²
+ao quadrado. Sim, senhora.
+Pronto. E aqui, de facto,
+dizemos assim, este termo agora eu já
+consigo primitivar de imediato porque é
+o arco tangente,
+o arco tangente de x.
+E agora fic com este termo. E à partida
+pode parecer assim, e pá, mas este
+termo, então, olhando ao que eu tinha,
+este termo parece que ainda é mais
+complexo.
+Eu tinha, eu eu queria primitivar aqui
+o inverso de 1 + x2 ao quadrado e agora
+tenho x² a dividir por isto parece que é
+mais complexo, mas não é porque agora eu
+posso partir aqui
+este x2 e e vou vou
+vou forçar uma expressão deste tipo com
+com 2x com 2x aqui no numerador, OK?
+Porque então vou conseguir primitivar de
+imediato, mas depois sobra-me um x.
+Sobra-me um x. Mas então aí sobra-me um
+x, posso aplicar uma primitivação por
+partes onde eu vou derivar esse x. Ok?
+Pronto. Então agora eu vou fazer agora
+para simplificar o que o que eu vou
+fazer é o seguinte.
+Vou fazer. Ora bem, eu já tenho aqui
+esta parte que eu já primitivei.
+Arcotangente X
+mais qualquer coisa. Pronto. Eh, ou
+menos qualquer coisa que eu tenho a ver
+o sinal de menos.
+OK.
+Pronto. E agora o que eu vou fazer?
+Então, agora vou
+me debroçar sobre esta primitiva agora.
+Pronto. OK.
+Pronto. Então, digamos que eu
+transformei esta expressão inicial
+[roncando] com este artifício e obtive o
+arco tangente menos qualquer coisa. E
+agora tenho esta expressão. E esta
+expressão eu vou atacar esta expressão
+com a técnica da primitivação por
+partes. OK? Sim, senhora.
+Eh, eu até vou fazer o seguinte, vou pôr
+aqui mais, vou pôr aqui o menos. Pronto,
+porque eu já sei que aqui vai aparecer o
+sinal de menos e até eu já tenho aqui o
+sinal de menos.
+Sim, senhora. Pronto, então vamos. E
+agora vou-me debruçar só com esta
+expressão que está na circunferência.
+OK?
+Ora, primitiva.
+E, portanto, tenho este -2x aqui que me
+interessa isolar.
+- 2x.
+Então tenho que pôr aqui 1/2 para cortar
+com o 2. Então eu estou a introduzir um
+2. Pronto. - 2x
+x. Pronto. - 2x².
+Ok.
+Eh, e portanto em baixo 1 + x2 e
+quadrado. Eu vou pôr aqui neste lado
++ x2
+ao quadrado. Pronto. Sim, senhora.
+Porque agora então já posso aplicar a
+primitivação por partes, porque já tenho
+aqui uma uma expressão que eu consigo
+primitivar de imediato e tenho aqui esta
+outra que eu também consigo derivar de
+imediato. OK? Pronto. Então, olhando à
+primitivação por partes, OK? Eu vou
+escolher qual a função que eu quero
+derivar. É o g.
+Portanto, o meu gai aqui.
+Qual a função que eu quero primitivar e
+que eu sei primitivar? É, é o outro
+termo que vai ser o meu f linha.
+Portanto, aqui vai ser o meu f linha.
+Pronto. Sim, senhora.
+Então, o que me dá a forma da
+primitivação por partes.
+Ora, vou ter aqui um meio,
+OK?
+Eh, e agora
+a primitivação por partes, o que me diz?
+Vai-me dar FG. Ora bem, então f a
+primitiva aqui é imediata.
+Portanto, já vimos que era daqui.
+Sim, senhora. Portanto, vai dar eh o
+inverso de 1 + x2.
+mais x2. Pronto, vai dar esta expressão.
+Uma vez que se eu derivar fica 2x, ou
+melhor, fica - 2x
+e
+sobre o + x quad. OK. Sim, senhora.
+Ora,
+sim, senhor. Então, sim, senhor. Eu
+primitivei vezes g,
+OK? Menos
+menos a primitiva.
+OK. aqui pela fórmula.
+Ora menos a primitiva F que linha
+F
+que é esta aqui
+G linha e G linha derivando X, depois
+fica 1.
+Pronto, cá estamos. Sim, senhora.
+Eh, então fica
+1/2
+x
+sobre uma x²
+menos
+o arco tangente de x.
+OK?
+Eh, portanto, então agora
+esta parte vou substituir aqui nesta
+circunferência
+que vem aqui. Então fica aqui um arco
+tangente de x vai ficar menos 1/o de
+arco tangente de x. Portanto, então o
+resultado final,
+o resultado final fica
+1/
+Tarco que tem jeito de X,
+OK?
+mais
+1/2
+dx
+sobre 1 + x²
++ c. Pronto, agora não me vou esquecer.
+Pronto. E esta então é a primitivação
+que nós queríamos da função original,
+desta função aqui original. OK?
+Sim, senhora. Pronto, aqui está um
+exemplo em que efetivamente
+uma primitivação por partes, que já não
+é tão trivial, porque antes que eu
+tivesse podido fazer a primitivação por
+partes, eu eu tive que arranjar aqui um
+artifício e para passer este rearranjo e
+até obter uma expressão
+a propícia para para aplicar o método da
+primitivação por partes. OK.
+Sim, senhor.
+Vamos ver outro exemplo
+eh também onde temos que aplicar
+sucessivamente a primitivação por
+partes. OK? Vimos há bocado que nós
+primitivamos
+e x seno de x.
+OK? Então isso quisermos agora
+primitivar x² seno de x.
+OK? Pronto, vai ser a mesma coisa. Eu
+vou querer derivar x² porque eu
+derivando sucessivamente
+dará 2x e depois dará 2 [roncando]
+enquanto que consigo primitivar
+sucessivamente o seno. O seno posso
+primitivar sucessivamente que não que
+não que não estou a aumentar a
+complexidade. OK?
+Sim, senhor. Então, este é um caso em
+que teremos que aplicar a a regra da
+primitivação por partes, mas
+sucessivamente.
+OK? Pronto. Eh, neste caso, pois
+aplicaremos duas vezes a primitivação
+por partes. Eh, e por, e agora podem já
+imaginar que fosse x³ ou x elevado a n,
+pois teríamos que aplicar n vezes a
+primitivação por partes. E existe um
+método sistemático ou existe uma uma
+forma, um
+como se dizer, não não é bem um
+algoritmo, mas o
+algoritmo, vamos dizer assim, que é o é
+o método
+di. Existe um um o método DI, mas eu não
+vou mostrar aqui que isto não vale a
+pena. É uma forma sistemática de abordar
+este tipo de problemas quando quando uma
+primitivação se resolve com uma
+aplicação sucessiva de primitivações por
+partes.
+É o momento de se quiserem podem
+investigar. Não vale a pena estar a
+entrar nisso.
+Nem eu sei de cor como se faz. Sei que
+existe e posso, mas não não o sei de
+cor. Isto seria pronto, isto seria para
+um uma pessoa que tivesse a trabalhar
+com isto todos os dias e todos os dias
+ter que fazer. Sabe o que é? Quer dizer,
+isto isto hoje em dia na era moderna em
+que estamos de computação já isto também
+já não faz sentido. Nós
+se precisarmos de de integrar qualquer
+coisa, vamos vamos ao ao Wamalfa,
+integramos e ponto final, não é? Pronto,
+isto é mais o interesse académico de
+mostrar de onde é que as coisas
+surgiram, como é que as coisas surgiram,
+porque hoje em dia para para o dia- a
+dia, pois isto já não já não é
+necessário. Nós vamos a vamos ao offrafa
+e resolvemos. OK.
+Sim, senhor. Pronto, o método de não não
+vamos ver.
+Pronto, vamos aplicar aqui manualmente
+para vocês verem uma primitivação por
+partes, onde eu vou precisar de aplicar
+sucessivamente o método para resolver
+esta primitiva.
+Ora, vamos então relembrar que eu não
+consigo decorar isto. Portanto, eu
+preciso aqui de de uma função de um G e
+de um F linha. Sim, senhor. Então, eu
+vou ter aqui o G
+e vou ter aqui o F linha.
+Pronto. Então aqui vai-me dar vai-me dar
+o o
+Gzes
+o F. Portanto, o F, a primitiva do seno
+que é o que é o menos cosseno.
+OK?
+E depois já dá menos a primitiva. E
+agora derivo o G 2x
+vezes o F que é o que é o menos cosseno.
+Vou mudar aqui o sinal e fica cosseno.
+Sim, senhora. ver se não me engano.
+Pronto. Então agora temos
+novamente aqui
+a primitiva.
+O meta primitiva são por partes. Vou ter
+aqui um G
+e vou ter aqui um fininha.
+Pronto. Isto vai dar tudo. Vai dar menos
+x qu
+cosen x
++ 2 à parênteses. E agora?
+aplicar a primeiração por partes aqui.
+Ora, temos
+primitivando o coseno é o seno, portanto
+fica xente
+x menos a primitiva. Derivando aqui o x
+dá 1
+a seno de x.
+Pronto, se não me enganei é isto.
+[roncando] E portanto, e portanto isto
+vai dar aqui
+- x²
+x
++ 2 x
+seno x. [roncando] E, portanto, a
+primitiva do seno
+é o cosseno,
+é o menos cosseno, OK?
+Sim, senhora. E, portanto, aqui muda o
+sinal mais cosseno de x,
+cuja derivada do cosseno é o - c. Tá
+correto? Ora + c. Pronto, não esquecer
+mais a constante.
+Sim, senhora.
+Ora, penso que não me enganei. Não. Ah,
+enganei. Esqueci-me aqui deste 2.
+Portanto, 2x e 2 passa para aqui. 2 ceno
+x. OK.
+Sim, senhor. Penso que não me enganei. E
+cá está. Portanto, foi uma aplicação
+sucessiva
+duas vezes da primitivação por partes.
+OK.
+Vamos ver outro exemplo.
+Ora,
+primitivação por partes também.
+E o que é que nós vamos ter aqui agora?
+Vamos ter aqui primitivar o arco
+tangente de X.
+OK?
+Eh, e então o que é que acontece aqui?
+Bom, mas e eu digo assim: "Bom, mas
+agora eu não tenho dois termos, como é
+que eu vou aplicar a primitivação por
+partes?" Se nós temos estado a ver que a
+primitivação por partes é quando quando
+eu tenho uma aqui uma função que tem
+dois termos, o qual eu derivo um e
+primitivo o outro, mas agora não tenho,
+eu só tenho aqui um termo.
+OK? Pronto. Mas na verdade posso forçar
+como sendo em dois termos. Eu eu posso
+colocar aqui um vezes. Pronto. OK. E
+agora posso dizer então que tenho duas
+funções. Tenho duas funções. Ou seja,
+tenho uma função cujo se eu primitivar
+que a função é é o a constante um que se
+eu primitivar dará o x. Ok? É. OK. E
+portanto, e tenho outra função que eu
+quero derivar, que é o arco tangente,
+porque eu eu sei derivar o arco tangente
+de x. Ok?
+Pronto. Então eu faço aqui este
+artifício. Portanto, vamos olhar aqui a
+fórmula e vou dizer: "Bom, portanto,
+aquela que eu quero derivar é o G."
+Reparem aqui que eu queria derivar o X
+qu eu agora eu eu vou querer derivar o
+arco tangente [roncando] e aquela que eu
+vou querer primitivar é eu é o f linha.
+Pronto, é isto. E aqui aplico, aplico
+agora a primitivação por partes. Então
+temos fica o f, qual é o primitivo? Que
+é o x, cuja a derivada é 1 vezes o arco
+tangente
+menos o integral,
+portanto, do do do f, que é o x.
+E agora derivar derivar o g linha cujo
+eu sei derivar
+1 sobre
+1 + x².
+Ok? Pronto. E este caso agora é trivial.
+Este caso é trivial, que é um logaritmo.
+É um logaritmo porque lembrem-se,
+lembrem-se que a derivada do logaritmo,
+a derivada do logaritmo de u regra da
+função composta,
+portanto é 1 sobre u é sempre 1 sobre u
+e vezes linha.
+Exatamente. Portanto, que a derivada
+de
+de 1 mais + mais x²
+vai ser sempre o inverso,
+mas como é uma função composta em cima
+de 2x, o qual eu tenho aqui o x, não
+tenho o 2, mas portanto é uma constante,
+eu vou eu vou ali forçar. Pronto. E,
+portanto, isto fica x
+o arco tangente.
+OK? Menos. E agora tenho 1/io. Tenho
+tenho que introduzir aqui 1/io porque
+depois tenho ali o para introduzir ali o
+dois. Portanto, tenho que pôr aqui 1/2
+para pôr aqui um 2. Pronto. E assim já
+tenho aqui direto que esta expressão é
+esta. Portanto, é o logaritmo de 1 + x²,
+logaritmo de periano
+de 1 +
+x².
+Ora, deixa ver se eu não me enganei.
+Deixa-me aqui olhar os meus
+apontamentos. Ora, x, arcot tangente de
+x - 1/2 do logaritmo + x² mais a
+constante. É sempre assim.
+Pronto. Pronto. Aqui temos então este
+exemplo. É interessante porque à
+primeira vista nós não víamos aqui
+nenhum duas funções, mas na verdade
+podemos forçar uma segunda função que
+seria um a constante um. E por esta via,
+como vemos conseguimos conseguimos
+primitivar também com primitivação por
+partes. OK? Muito poderosa, como estão a
+ver este método. Primitivação por
+partes. É muito poderoso. OK.
+Ora, estamos com a mão na massa. Vamos
+resolver aqui mais um caso.
+Vamos resolver, por exemplo, X
+é X.
+Ora bem, o que é que eu quero aqui? Eu
+eu aqui tanto sei, tanto sei sei derivar
+o exi derivar o x, mas eu eu
+interessa-me derivar o x porque
+derivando o x, pois simplifica.
+Simplifica porque a derivada de x é 1.
+Portanto, à partida, eu eu vou querer
+derivar o x. Portanto, se eu quero
+derivar o x, olhando aqui a expressão, o
+meu x vai ser a a função g
+e o meu e o meu ex vai ser o f linha.
+Pronto. Então assim fica simples que
+a primitivação por partes é igual a GF
+igual a G F que é igual a ela própria,
+cuja a derivada
+da da função exponencial é igual a ela
+própria,
+menos
+o integral.
+[roncando] E agora vou derivar o g que é
+1
+vezes o f, que é a função exponencial.
+e que portanto agora fica de imediato
+que x
+é x menos a primitiva que é igual a ela
+própria menos e x
+e portanto que fica e x em evidência
+e x - 1
+e portanto e mais c no final.
+OK? Sim senhora.
+E penso que ficamos por aqui. Pronto.
+Eh,
+é dentro dentro de como vos digo, dentro
+do
+quando dentro do
+da da do formato que o que eu quero para
+a minha playlist é como já vos disse
+várias vezes, não se trata de estar
+agora aqui a resolver. Agora podíamos
+estar a resolver aqui uma centena de
+problemas de de de primitivação,
+mas não é esse o intuito da minha
+playlist. Existem outras playlistas que,
+como já o disse, que se pesquisarem vão
+encontrar. Fazem grandes maratonas e
+bom, e ainda bem que existem e são úteis
+para a pessoa praticar. Pronto, aqui o
+intuito desta da minha prevista não é a
+pessoa chegar aqui, olha, assistiu aos
+meus vídeos e agora vai fazer um exame e
+tem nota alta. Não, isso não é assim,
+não é esse o intuito, nem resulta,
+porque não é a matemática, como sabemos,
+eh, para a pessoa dominar e estar
+completamente à vontade e resolver as
+coisas com confiança e com velocidade, é
+preciso muitíssima prática. Portanto,
+não é não é o intuito da minha playlist.
+minha playsta e é dar fazer uma uma
+revisão de matéria à pessoa que já deu
+estes temas há um há uns há bastante
+tempo, que já não se lembra bem, fazer
+uma uma revisão sempre eh com o intuito
+de tentar explicar de forma intuitiva de
+onde de onde vem as formas fundamentais
+que nós usamos. OK? Pronto. E imaginando
+que a pessoa, por exemplo, lembrava-se
+de uma primitivação por partes, mas já
+não se lembrava bem de onde é que ela
+vinha. E eu aqui relembrei, olha, ela
+vem, ela não é mais do que o resultado
+da da regra da derivada do produto.
+Pronto. Eh, e depois dar aqui alguns
+umas nuances sobre sobre as técnicas,
+não é? como nós vimos aqui, saber partir
+em dois componentes a função, eh, por
+vezes a a aplicação sucessiva do método
+e este outro exemplo onde a partir onde
+não tínhamos dois termos, mas que
+conseguimos forçar o aparecimento ali do
+da da da segunda função constante.
+E pronto, então simplesmente é isto, dar
+um um lamiré,
+recordatório
+deste método.
+E penso que sim, vamos ficar por aqui.
+Espero que tenham gostado e até uma
+próxima oportunidade. Obrigado.
+

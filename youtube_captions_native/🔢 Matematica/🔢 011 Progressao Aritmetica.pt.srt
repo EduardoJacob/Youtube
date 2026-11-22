@@ -1,0 +1,1210 @@
+0:00:02.440,0:00:06.240
+Ora, sejam bem-vindos a mais um
+
+0:00:03.840,0:00:08.639
+tutorial. Hoje vai ser dedicado à
+
+0:00:06.240,0:00:11.360
+progressão aritmética.
+
+0:00:08.639,0:00:13.120
+Ora, nós vimos a indução matemática no
+
+0:00:11.360,0:00:16.920
+meu tutorial anterior e vimos que
+
+0:00:13.120,0:00:20.199
+aproveitamos para somar e para calcular
+
+0:00:16.920,0:00:23.439
+a fórmula do do somatório
+
+0:00:20.199,0:00:25.320
+eh dos primeiros naturais. OK? Portanto,
+
+0:00:23.439,0:00:28.279
+ora, então o que é que acontece? Que os
+
+0:00:25.320,0:00:30.400
+primeiros naturais são uma progressão
+
+0:00:28.279,0:00:32.480
+aritmética. Dizemos que temos uma
+
+0:00:30.400,0:00:34.120
+progressão aritmética
+
+0:00:32.480,0:00:37.600
+muito simples quando tem um primeiro
+
+0:00:34.120,0:00:40.280
+valor, o um, e uma determinada razão.
+
+0:00:37.600,0:00:43.719
+OK? Então, sendo que a progressão
+
+0:00:40.280,0:00:46.879
+aritmética de o valor inicial 1 e razão
+
+0:00:43.719,0:00:50.719
+1 são os números naturais 1 e a seguir 1
+
+0:00:46.879,0:00:54.559
++ 1, dá 2 3 e assim sucessivamente, em
+
+0:00:50.719,0:00:56.960
+que efetivamente a diferença entre dois
+
+0:00:54.559,0:00:58.760
+números sucessivos é fixo e é igual à
+
+0:00:56.960,0:01:00.760
+razão. OK? Esta é a progressão
+
+0:00:58.760,0:01:03.280
+aritmética
+
+0:01:00.760,0:01:04.920
+de razão R, OK? Esta é, neste caso, de
+
+0:01:03.280,0:01:07.920
+razão 1, que é igual aos números
+
+0:01:04.920,0:01:11.759
+naturais, como sabemos. OK? Sim,
+
+0:01:07.920,0:01:15.200
+senhora. E vimos também e a fórmula e
+
+0:01:11.759,0:01:20.360
+demonstramos por indução matemática
+
+0:01:15.200,0:01:20.360
+a a fórmula eh
+
+0:01:21.159,0:01:27.479
+do do somatório dos primeiros e
+
+0:01:25.400,0:01:33.280
+números naturais. OK? Nós vimos que o
+
+0:01:27.479,0:01:39.600
+somatório de i igual a 1 até n era igual
+
+0:01:33.280,0:01:39.600
+a n + 1 sobre 2. Nós vimos e demonstró
+
+0:01:42.920,0:01:47.200
+simplesmente e eh quer dizer nós
+
+0:01:45.200,0:01:49.840
+deduzimos, usamos aquele método que o
+
+0:01:47.200,0:01:53.280
+Gaus teria teria visto. foi por
+
+0:01:49.840,0:01:56.840
+intuição, porque nós vimos por intuição
+
+0:01:53.280,0:01:58.640
+que realmente o o primeiro com o último
+
+0:01:56.840,0:02:01.119
+e e o segundo com o penúltimo e assim
+
+0:01:58.640,0:02:05.360
+sucessivamente. OK?
+
+0:02:01.119,0:02:07.960
+Mas vamos eh já agora, vou falar aqui eh
+
+0:02:05.360,0:02:09.879
+da famosa propriedade telescópica
+
+0:02:07.960,0:02:12.440
+e provavelmente irei fazer um um
+
+0:02:09.879,0:02:15.400
+tutorial no futuro e mais específico,
+
+0:02:12.440,0:02:16.959
+mais focado com com aplicações mais
+
+0:02:15.400,0:02:18.160
+avançadas da propriedade telescópica,
+
+0:02:16.959,0:02:19.560
+mas posso já introduzir aqui a
+
+0:02:18.160,0:02:24.000
+propriedade telescópica, que ela é
+
+0:02:19.560,0:02:27.920
+fabulosa para o cálculo de de fórmulas e
+
+0:02:24.000,0:02:30.239
+de séries deste tipo. Ou seja, vamos
+
+0:02:27.920,0:02:33.560
+imaginar que eu queria calcular, eu
+
+0:02:30.239,0:02:36.000
+queria calcular de facto este somatório.
+
+0:02:33.560,0:02:38.440
+Eu queria calcular este somatório, mas
+
+0:02:36.000,0:02:40.080
+não fazia ideia, não fazia ideia qual
+
+0:02:38.440,0:02:42.599
+era o resultado, porque eu não tinha
+
+0:02:40.080,0:02:45.120
+aquela intuição. Eu não sabia, eu não
+
+0:02:42.599,0:02:47.000
+sabia e, portanto, eu não, eu eu não
+
+0:02:45.120,0:02:49.599
+sabia que que este seria o resultado.
+
+0:02:47.000,0:02:52.959
+OK? Pronto, vamos imaginar que era este
+
+0:02:49.599,0:02:54.519
+o objetivo. Pronto. Então, em que vai,
+
+0:02:52.959,0:02:56.200
+em que consiste a propriedade
+
+0:02:54.519,0:02:59.319
+telescópica?
+
+0:02:56.200,0:03:00.959
+Bom, a propriedadecópica consiste o
+
+0:02:59.319,0:03:04.799
+seguinte:
+
+0:03:00.959,0:03:08.840
+eh construir um somatório que tenha um
+
+0:03:04.799,0:03:10.519
+termo geral, um termo geral,
+
+0:03:08.840,0:03:13.120
+OK?
+
+0:03:10.519,0:03:15.000
+eh e cujo termo geral tem que ter uma
+
+0:03:13.120,0:03:16.519
+diferença. Ele ele tem que ter aqui uma
+
+0:03:15.000,0:03:18.640
+diferença. Esta é a propriedade
+
+0:03:16.519,0:03:21.159
+teloscópica
+
+0:03:18.640,0:03:23.120
+e e a e a diferença tem que ser a
+
+0:03:21.159,0:03:26.519
+diferença entre dois outros termos
+
+0:03:23.120,0:03:28.319
+gerais, duas outras fórmulas,
+
+0:03:26.519,0:03:30.879
+OK?
+
+0:03:28.319,0:03:33.720
+Por forma que
+
+0:03:30.879,0:03:37.040
+eh
+
+0:03:33.720,0:03:38.760
+por forma que ao ao expandir estas duas
+
+0:03:37.040,0:03:39.840
+fórmulas,
+
+0:03:38.760,0:03:43.200
+OK?
+
+0:03:39.840,0:03:44.720
+me vá aquilo que que aquilo que eu quero
+
+0:03:43.200,0:03:48.200
+que eu quero calcular. Por exemplo,
+
+0:03:44.720,0:03:50.280
+neste caso, o somatório de i. OK? E vai
+
+0:03:48.200,0:03:52.120
+ficar mais claro agora que com este
+
+0:03:50.280,0:03:53.920
+exemplo que nós vamos ver. Portanto, eu
+
+0:03:52.120,0:03:57.200
+quero calcular o somatório de i, mas eu
+
+0:03:53.920,0:04:00.040
+não sabia, eu não sabia chegar aqui.
+
+0:03:57.200,0:04:04.319
+Eu não sabia, eu não sabia. E então eu
+
+0:04:00.040,0:04:07.360
+queria, eu quero deduzir a fórmula. OK?
+
+0:04:04.319,0:04:09.000
+Eh, então, eh, como é que nós fazemos? O
+
+0:04:07.360,0:04:10.920
+que vamos fazer aqui é o seguinte.
+
+0:04:09.000,0:04:13.879
+truque, eu pego aqui no I. Eu sei que
+
+0:04:10.920,0:04:16.639
+tenho aqui uma fórmula em i. Então, o
+
+0:04:13.879,0:04:19.079
+que eu vou fazer é vou considerar dois
+
+0:04:16.639,0:04:25.280
+termos consecutivos. Eu vou considerar,
+
+0:04:19.079,0:04:25.280
+por exemplo, pode ser o i + 1, o i + 1
+
+0:04:25.440,0:04:31.680
+e o e aqui o i. OK? Eu vou considerar
+
+0:04:29.880,0:04:33.199
+estes dois termos.
+
+0:04:31.680,0:04:37.199
+Pronto.
+
+0:04:33.199,0:04:41.680
+Mas se eu considerar tal como está aqui,
+
+0:04:37.199,0:04:44.120
+dá 1 e portanto istoa, é um caso trivial
+
+0:04:41.680,0:04:46.440
+e ficou o somatório de um e portanto não
+
+0:04:44.120,0:04:48.000
+me diz nada sobre o sumatório de i.
+
+0:04:46.440,0:04:50.800
+Portanto, então o que vamos fazer aqui é
+
+0:04:48.000,0:04:52.960
+o seguinte truque. Eu vou elevar aqui
+
+0:04:50.800,0:04:55.360
+aos quadrados.
+
+0:04:52.960,0:04:58.160
+Aos quadrados. Pronto. Esta é a
+
+0:04:55.360,0:05:02.400
+propriedade telescópica. Ela tem uma
+
+0:04:58.160,0:05:06.360
+diferença e ela tem um termo geral
+
+0:05:02.400,0:05:08.919
+que é o mesmo aqui e que é o mesmo aqui,
+
+0:05:06.360,0:05:11.039
+diferindo apenas aqui num desfasamento
+
+0:05:08.919,0:05:14.039
+de normalmente é mais 1, mas pode ser
+
+0:05:11.039,0:05:16.120
+mais do mais 3 ou consoante der jeito.
+
+0:05:14.039,0:05:19.360
+Mas o caso mais comum é um termo geral
+
+0:05:16.120,0:05:23.240
+aqui que difere porque aqui tem mais um.
+
+0:05:19.360,0:05:25.520
+Pronto. E o porquê é que isto funciona?
+
+0:05:23.240,0:05:27.080
+Reparem que o objetivo que vamos agora
+
+0:05:25.520,0:05:31.280
+aqui construir com esta propriedade
+
+0:05:27.080,0:05:33.600
+telescópica, o objetivo é calcular
+
+0:05:31.280,0:05:35.440
+calcular este somatório. Vemos que por
+
+0:05:33.600,0:05:40.280
+hipótese que eu não sabia que era esta
+
+0:05:35.440,0:05:42.400
+fórmula. OK? Portanto, eh, reparem que
+
+0:05:40.280,0:05:46.840
+aqui,
+
+0:05:42.400,0:05:46.840
+se eu expandir aqui o i²,
+
+0:05:47.120,0:05:53.440
+vai dar i² e depois corta com este i² e
+
+0:05:50.199,0:05:55.400
+vai ficar 2i + 1.
+
+0:05:53.440,0:05:58.840
+2i + 1. Então eu tenho um somatório de
+
+0:05:55.400,0:06:00.440
+2i + 1. OK? Então vamos recapitular.
+
+0:05:58.840,0:06:03.160
+Portanto, eu tenho a minha incógnita,
+
+0:06:00.440,0:06:05.919
+vou chamar S. S é o somatório que eu
+
+0:06:03.160,0:06:07.800
+quero calcular, o somatório de que eu
+
+0:06:05.919,0:06:11.720
+não sei,
+
+0:06:07.800,0:06:14.240
+OK? Mas eu, pela propriedade telescópica
+
+0:06:11.720,0:06:20.000
+aqui,
+
+0:06:14.240,0:06:21.680
+eu digo que esta somatória que aqui está
+
+0:06:20.000,0:06:25.440
+expandindo
+
+0:06:21.680,0:06:28.440
+é igual a dois somatórios de I, ou seja,
+
+0:06:25.440,0:06:28.440
+2S
+
+0:06:28.560,0:06:35.280
+mais isto é assim
+
+0:06:32.680,0:06:37.960
+mais um somatório de 1. Ora, um
+
+0:06:35.280,0:06:40.160
+somatório de 1 é 1 + 1 + 1 + 1, ou seja,
+
+0:06:37.960,0:06:43.919
++ n.
+
+0:06:40.160,0:06:45.440
+OK? Pronto. Sim, senhora. E vocês dizem:
+
+0:06:43.919,0:06:48.120
+"Bom, mas eu continuo sem saber qual o
+
+0:06:45.440,0:06:50.440
+somatório de qual é o s, que é o que eu
+
+0:06:48.120,0:06:53.240
+quero, é o que eu quero descobrir. Eu
+
+0:06:50.440,0:06:57.599
+quero encontrar uma fórmula,
+
+0:06:53.240,0:06:59.520
+uma fórmula para o somatório de I.
+
+0:06:57.599,0:07:02.199
+Apliquei a propriedade teloscópica.
+
+0:06:59.520,0:07:04.160
+Pronto. Só que a propriedade teloscópica
+
+0:07:02.199,0:07:08.039
+tem precisamente esta propriedade que
+
+0:07:04.160,0:07:10.039
+vamos ver, é que se eu não expandir, em
+
+0:07:08.039,0:07:11.680
+vez de simplificar como simplifiquei
+
+0:07:10.039,0:07:14.120
+aqui,
+
+0:07:11.680,0:07:16.680
+eu vou dizer que isto também é igual. Eu
+
+0:07:14.120,0:07:19.520
+vou agora
+
+0:07:16.680,0:07:22.000
+expandir o somatório sem simplificar os
+
+0:07:19.520,0:07:24.440
+textos termos gerais. Então, o que é que
+
+0:07:22.000,0:07:29.560
+me vai dar? Bom, para e igual a 1 vai me
+
+0:07:24.440,0:07:31.919
+dar 2² - 1 quad.
+
+0:07:29.560,0:07:34.440
+Este é o primeiro termo. No termo
+
+0:07:31.919,0:07:36.800
+seguinte vai-me dar para igual a 2 2 e 1
+
+0:07:34.440,0:07:39.000
+3. 3²
+
+0:07:36.800,0:07:41.680
+- 2².
+
+0:07:39.000,0:07:47.159
+Ok? Pronto. E assim sucessivamente até
+
+0:07:41.680,0:07:49.159
+ao último termo que me vai dar n + 1
+
+0:07:47.159,0:07:51.400
+ao quadrado
+
+0:07:49.159,0:07:53.400
+-
+
+0:07:51.400,0:07:57.080
+n²
+
+0:07:53.400,0:07:59.120
+- n². Pronto. E se olharmos agora aqui,
+
+0:07:57.080,0:08:04.159
+vemos que existe uma coção de cortas
+
+0:07:59.120,0:08:07.520
+cortas em que este do quadrado
+
+0:08:04.159,0:08:09.560
+corta com este,
+
+0:08:07.520,0:08:11.360
+este 3²
+
+0:08:09.560,0:08:14.759
+irá cortar com este que vinha agora a
+
+0:08:11.360,0:08:19.400
+seguir. Ou seja, e e cortam todos os
+
+0:08:14.759,0:08:21.319
+termos, menos o mais pequenino deles e o
+
+0:08:19.400,0:08:23.400
+maior deles. São os únicos que não
+
+0:08:21.319,0:08:26.159
+cortam, porque todos os termos
+
+0:08:23.400,0:08:28.759
+intermédios cortam. Portanto, é isto que
+
+0:08:26.159,0:08:31.680
+consiste a propriedade telescópica por
+
+0:08:28.759,0:08:33.719
+causa dos termos, os estes dois termos
+
+0:08:31.680,0:08:35.839
+gerais
+
+0:08:33.719,0:08:38.959
+serem similares e desfasados apenas aqui
+
+0:08:35.839,0:08:41.599
+de uma unidade. OK? Pronto, não sei se
+
+0:08:38.959,0:08:43.399
+me explico. Eh, isto é, como digo, isto
+
+0:08:41.599,0:08:44.720
+à partida é para pessoas que já viram
+
+0:08:43.399,0:08:46.399
+estas matérias e simplesmente aqui
+
+0:08:44.720,0:08:48.880
+estamos a relembrar e a sedimentar as
+
+0:08:46.399,0:08:50.800
+ideias, OK? À partida, espero que todos
+
+0:08:48.880,0:08:53.519
+já tenham ouvido falar da propriedade
+
+0:08:50.800,0:08:55.839
+teloscópica e se relembrem disto quando
+
+0:08:53.519,0:08:58.600
+andavam na escola. OK?
+
+0:08:55.839,0:09:00.240
+Pronto. E, portanto, sendo assim,
+
+0:08:58.600,0:09:02.079
+eh,
+
+0:09:00.240,0:09:04.880
+significa que isto vai dar, agora
+
+0:09:02.079,0:09:07.519
+expandindo, vai dar, vou expandir aqui
+
+0:09:04.880,0:09:10.200
+n²
+
+0:09:07.519,0:09:16.720
++ 2n + 1
+
+0:09:10.200,0:09:19.399
+- n² - 1 - 1. E reparem que aqui corta,
+
+0:09:16.720,0:09:22.839
+corta e fica igual a 2n
+
+0:09:19.399,0:09:25.880
+2n. Pronto. Então,
+
+0:09:22.839,0:09:29.000
+reparem que aqui
+
+0:09:25.880,0:09:31.600
+então que significa que este que aqui
+
+0:09:29.000,0:09:34.160
+está vindo por este lado, vindo através
+
+0:09:31.600,0:09:37.680
+de simplificar o termo geral, deu que
+
+0:09:34.160,0:09:39.079
+tem que dar 2s + n e pela forma
+
+0:09:37.680,0:09:42.440
+alternativa. Portanto, o que nós temos
+
+0:09:39.079,0:09:44.120
+aqui é é uma forma alternativa de
+
+0:09:42.440,0:09:46.160
+resolver.
+
+0:09:44.120,0:09:50.160
+E é sempre nisto que consiste a
+
+0:09:46.160,0:09:52.079
+propriedade telescópica. Eu resolvo,
+
+0:09:50.160,0:09:54.640
+aliás, a propriedade teloscópica
+
+0:09:52.079,0:09:56.839
+consiste pela parte de baixo em obter o
+
+0:09:54.640,0:09:59.560
+corta, corta, corta, corta e fica sempre
+
+0:09:56.839,0:10:02.279
+o último valor e menos o primeiro, o
+
+0:09:59.560,0:10:05.079
+valor maior menos o mais pequeno.
+
+0:10:02.279,0:10:08.839
+Eh, o que acontece é que aqui uso para
+
+0:10:05.079,0:10:11.200
+chegar até uma fórmula. OK? Sim,
+
+0:10:08.839,0:10:15.320
+senhora.
+
+0:10:11.200,0:10:15.320
+Eh, e portanto fica
+
+0:10:15.760,0:10:23.000
+2s + n, pois tem que ser igual a 2n.
+
+0:10:20.000,0:10:23.000
+2
+
+0:10:24.399,0:10:28.320
+2s + n.
+
+0:10:34.120,0:10:41.360
+OK. Enganei-me aqui. Desculpem lá. Ora,
+
+0:10:37.519,0:10:42.800
+porque aqui ficava só o n + 1² - 1. Este
+
+0:10:41.360,0:10:45.440
+não, porque este aqui, este, este aqui
+
+0:10:42.800,0:10:48.720
+também, também entra no corta corta com
+
+0:10:45.440,0:10:51.959
+o termo aqui de trás. OK,
+
+0:10:48.720,0:10:55.680
+pronto, aqui enganei-me. Sim, senhora.
+
+0:10:51.959,0:10:55.680
+E, portanto, fica
+
+0:10:55.800,0:11:00.560
+fica ora,
+
+0:10:58.282,0:11:05.839
+[roncando] eh,
+
+0:11:00.560,0:11:07.560
+n + 1 e n + 2, n [limpando a garganta]
+
+0:11:05.839,0:11:11.399
++ 2.
+
+0:11:07.560,0:11:14.200
+OK? Sim, senhora. E agora sim. Ora,
+
+0:11:11.399,0:11:16.839
+vamos ver. 2s
+
+0:11:14.200,0:11:21.560
++ n
+
+0:11:16.839,0:11:23.839
+é igual a, vou pôr aqui outra vez, n²
+
+0:11:21.560,0:11:25.880
++ 2n
+
+0:11:23.839,0:11:29.440
+em que este n passa passa para este
+
+0:11:25.880,0:11:32.399
+lado, fica n² + n tudo sobre 2. Pronto.
+
+0:11:29.440,0:11:34.880
+Portanto, aqui implica que S
+
+0:11:32.399,0:11:36.880
+é igual a
+
+0:11:34.880,0:11:39.800
+n²
+
+0:11:36.880,0:11:43.360
++ n
+
+0:11:39.800,0:11:46.519
+sobre 2, ou seja, n
+
+0:11:43.360,0:11:49.200
++ 1 sobre
+
+0:11:46.519,0:11:52.760
+2. Pronto, fica assim demonstrado. Ou
+
+0:11:49.200,0:11:55.360
+seja, aqui chegamos à fórmula,
+
+0:11:52.760,0:11:58.200
+OK? que o Gaus viu intuitivamente qual
+
+0:11:55.360,0:12:00.040
+era, viu que somando o último termo, o
+
+0:11:58.200,0:12:02.240
+primeiro termo com o último, OK? Tudo
+
+0:12:00.040,0:12:04.959
+aquilo que nós vimos no tutorial
+
+0:12:02.240,0:12:07.399
+passado. E aqui estamos a demonstrar
+
+0:12:04.959,0:12:08.839
+como é que
+
+0:12:07.399,0:12:11.079
+para uma pessoa que não tivesse essa
+
+0:12:08.839,0:12:13.639
+intuição conseguiria, usando a
+
+0:12:11.079,0:12:15.760
+propriedade telescópica, deduzir a
+
+0:12:13.639,0:12:17.199
+fórmula. Pronto. E a propriedade
+
+0:12:15.760,0:12:18.720
+telescópica, como digo, eventualmente
+
+0:12:17.199,0:12:21.160
+irei fazer um tutorial só sobre a
+
+0:12:18.720,0:12:23.639
+propriedade telescópica, onde vamos ver
+
+0:12:21.160,0:12:27.120
+aplicações mais avançadas, como podemos
+
+0:12:23.639,0:12:31.880
+chegar e e deduzir e fórmulas para para
+
+0:12:27.120,0:12:33.639
+expressões mais complexas. OK?
+
+0:12:31.880,0:12:35.399
+Mas pronto, isso fica ficará para um
+
+0:12:33.639,0:12:37.360
+futuro tutorial, mas aqui foi só uma
+
+0:12:35.399,0:12:40.600
+pequena introdução e um pequeno amiré.
+
+0:12:37.360,0:12:43.240
+OK? Pronto. Mas agora, posto isto, vamos
+
+0:12:40.600,0:12:45.320
+continuar com a progressão aritmética e
+
+0:12:43.240,0:12:49.000
+vamos dizer, OK? Portanto, a progressão
+
+0:12:45.320,0:12:50.760
+aritmética tem o primeiro termo,
+
+0:12:49.000,0:12:55.600
+o 1,
+
+0:12:50.760,0:12:59.639
+e a seguir o 1 + r,
+
+0:12:55.600,0:13:02.920
+OK? E a seguir o 1 + 2r isto é a
+
+0:12:59.639,0:13:07.680
+progressão aritmética. OK? Pronto. E os
+
+0:13:02.920,0:13:12.360
+primeiros n termos, o 1 +
+
+0:13:07.680,0:13:15.600
+n - 1 de r com de r. OK? Pronto. Isto é
+
+0:13:12.360,0:13:18.560
+é a sequência dos dos primeiros n termos
+
+0:13:15.600,0:13:21.560
+da progressão aritmética.
+
+0:13:18.560,0:13:21.560
+OK?
+
+0:13:22.320,0:13:25.560
+Sim, senhora.
+
+0:13:26.560,0:13:31.440
+Ora, daqui temos um termo geral.
+
+0:13:29.680,0:13:33.440
+Portanto, qual é o termo geral para para
+
+0:13:31.440,0:13:36.720
+a progressão aritmética? Neste caso,
+
+0:13:33.440,0:13:40.279
+qual é o termo o o n?
+
+0:13:36.720,0:13:44.760
+Bom, é isto, é o 1
+
+0:13:40.279,0:13:46.920
++ n - 1 dr. Pronto, este é o termo
+
+0:13:44.760,0:13:50.440
+geral.
+
+0:13:46.920,0:13:53.000
+Este é o termo geral. OK? [roncando] Pá,
+
+0:13:50.440,0:13:55.959
+para n = 1,
+
+0:13:53.000,0:13:58.800
+pois aqui dá zero e fica o 1 igual a o
+
+0:13:55.959,0:14:01.880
+1. Tá correto? OK. Pronto, esta é a
+
+0:13:58.800,0:14:04.839
+expressão do termo geral e agora
+
+0:14:01.880,0:14:07.199
+falta-nos a expressão do somatório.
+
+0:14:04.839,0:14:08.959
+Do somatório. [roncando] Ora, eh, em
+
+0:14:07.199,0:14:12.600
+questão em que será então vamos só temos
+
+0:14:08.959,0:14:14.480
+que somar isto, portanto, para obter a
+
+0:14:12.600,0:14:16.600
+expressão do somatório dos primeiros n
+
+0:14:14.480,0:14:18.880
+termos.
+
+0:14:16.600,0:14:21.399
+Eh, portanto, temos, vemos que o 1
+
+0:14:18.880,0:14:24.720
+aparece n vezes
+
+0:14:21.399,0:14:26.680
+o 1 n
+
+0:14:24.720,0:14:29.320
+e depois vemos que o r aparece quantas
+
+0:14:26.680,0:14:35.360
+vezes? Pom o r aparece, ponho r em
+
+0:14:29.320,0:14:38.440
+evidência aqui e é 1 + 2 +
+
+0:14:35.360,0:14:42.920
+mais até n - 1.
+
+0:14:38.440,0:14:46.959
+Ok? Portanto, é o 1 aparece
+
+0:14:42.920,0:14:49.440
+o o r aparece aqui é e é de men-1 vezes
+
+0:14:46.959,0:14:51.120
+oi para que isto aqui tá
+
+0:14:49.440,0:14:54.720
+OK?
+
+0:14:51.120,0:14:58.880
+Sim senhora. Então, portanto, isto fica
+
+0:14:54.720,0:15:02.839
+o 1 n +
+
+0:14:58.880,0:15:04.959
+r. E agora isto já nós sabemos calcular.
+
+0:15:02.839,0:15:09.160
+É, é pela fórmula aqui do do somatório
+
+0:15:04.959,0:15:12.160
+dos ns. É o é o primeiro termo mais o
+
+0:15:09.160,0:15:12.160
+último
+
+0:15:12.440,0:15:18.240
+vezes o número de termos
+
+0:15:14.920,0:15:18.240
+sobre 2.
+
+0:15:19.120,0:15:30.240
+Ok? Pronto. E, portanto, fica igual a
+
+0:15:26.079,0:15:32.440
+o 1 n +
+
+0:15:30.240,0:15:34.639
+n
+
+0:15:32.440,0:15:38.959
+de - 1
+
+0:15:34.639,0:15:43.240
+sobre 2 r. OK?
+
+0:15:38.959,0:15:45.560
+Ora, agora vou pôr n me em evidência.
+
+0:15:43.240,0:15:48.959
+N me em evidência.
+
+0:15:45.560,0:15:51.560
+n meios
+
+0:15:48.959,0:15:54.560
+e aqui fica
+
+0:15:51.560,0:15:54.560
+eh
+
+0:15:54.639,0:16:02.839
+aqui fica o 1, aqui fica 2 o 1, não é?
+
+0:15:58.319,0:16:07.279
+Mas eu vou separar em o mais o um. Vou
+
+0:16:02.839,0:16:09.519
+pôr assim neste formato, o 1 + o 1
+
+0:16:07.279,0:16:13.880
+mais
+
+0:16:09.519,0:16:16.319
+eh e portanto aqui fica
+
+0:16:13.880,0:16:18.839
+eh
+
+0:16:16.319,0:16:20.839
+este este n aqui este n aqui foi posto
+
+0:16:18.839,0:16:22.959
+em evidência.
+
+0:16:20.839,0:16:25.680
+Este com este foi posto em evidência,
+
+0:16:22.959,0:16:28.959
+veio para aqui. Pronto. E portanto ali
+
+0:16:25.680,0:16:31.160
+fica n- 1 r.
+
+0:16:28.959,0:16:33.680
+n - 1
+
+0:16:31.160,0:16:37.279
+r. OK? O 2 também foi posto em
+
+0:16:33.680,0:16:39.519
+evidência, então fica isto. OK? Mas
+
+0:16:37.279,0:16:41.440
+agora reparem,
+
+0:16:39.519,0:16:43.360
+é que esta expressão é o é o é a
+
+0:16:41.440,0:16:47.040
+expressão do termo geral o n. Portanto,
+
+0:16:43.360,0:16:49.120
+o 1 + n - 1 r é o un n.
+
+0:16:47.040,0:16:53.000
+Então, obtemos a forma como seria de
+
+0:16:49.120,0:16:54.759
+esperar, como seria de esperar que que
+
+0:16:53.000,0:16:57.040
+um somatório
+
+0:16:54.759,0:16:59.240
+um somatório
+
+0:16:57.040,0:17:04.399
+de um dado
+
+0:16:59.240,0:17:04.399
+e de uma de uma progressão aritmética,
+
+0:17:04.839,0:17:08.480
+vou vou vou representar aqui no outro
+
+0:17:06.480,0:17:12.000
+formato para não fazer confusão. Vou
+
+0:17:08.480,0:17:14.880
+dizer, OK, o somatório
+
+0:17:12.000,0:17:17.319
+de uma progressão aritmética
+
+0:17:14.880,0:17:20.160
+com o valor U1
+
+0:17:17.319,0:17:23.439
+e uma dada razão,
+
+0:17:20.160,0:17:29.799
+portanto, é igual a o primeiro termo
+
+0:17:23.439,0:17:32.240
+mais o último termo, OK? O n
+
+0:17:29.799,0:17:34.960
+vezes o número de termos sobre 2. Como
+
+0:17:32.240,0:17:37.200
+seria de esperar? É a mesma lógica, a
+
+0:17:34.960,0:17:39.960
+mesma lógica que vimos para a série dos
+
+0:17:37.200,0:17:41.360
+números naturais e e acabamos de deduzir
+
+0:17:39.960,0:17:42.799
+aqui para qualquer progressão
+
+0:17:41.360,0:17:46.120
+aritmética. Portanto, para qualquer
+
+0:17:42.799,0:17:48.440
+progressão aritmética de razão R, posso
+
+0:17:46.120,0:17:50.320
+escrever nesta forma aqui com R em
+
+0:17:48.440,0:17:52.520
+evidência ou posso escrever nesta. Vai,
+
+0:17:50.320,0:17:56.559
+vai dar o mesmo. Se eu quiser escrever
+
+0:17:52.520,0:17:59.720
+assim, fica apenas evidenciado o o 1 um
+
+0:17:56.559,0:18:01.120
+e o r. E pronto, se eu quiser escrever
+
+0:17:59.720,0:18:03.919
+em função do último termo, se eu
+
+0:18:01.120,0:18:08.159
+conhecer o último termo, fica fica
+
+0:18:03.919,0:18:10.760
+explicitado em ordem o 1 e o n mais fez
+
+0:18:08.159,0:18:12.919
+n sobre 2. Pronto. E penso que não há
+
+0:18:10.760,0:18:14.360
+mais porque são linhas aritmética.
+
+0:18:12.919,0:18:15.880
+Realmente é só isto, é uma coisa bem
+
+0:18:14.360,0:18:18.480
+simples.
+
+0:18:15.880,0:18:19.760
+Eh, mas pronto, aproveitei para
+
+0:18:18.480,0:18:22.039
+introduzir aqui a proprietade
+
+0:18:19.760,0:18:24.679
+telescópica para vos relembrar. é uma um
+
+0:18:22.039,0:18:27.360
+tema muito poderoso, é uma técnica muito
+
+0:18:24.679,0:18:29.559
+poderosa e eventualmente irei fazer um
+
+0:18:27.360,0:18:32.919
+tutorial sobre ela.
+
+0:18:29.559,0:18:35.120
+Eh, e não há mais a por realmente aqui
+
+0:18:32.919,0:18:38.760
+eh o que o que demonstramos foi
+
+0:18:35.120,0:18:41.480
+realmente que eh a forma de chegar
+
+0:18:38.760,0:18:48.200
+através da propriedade telescópica
+
+0:18:41.480,0:18:51.240
+eh de chegar até ao somatório de I. OK?
+
+0:18:48.200,0:18:52.919
+Eh, sim, senhora. E, e por acaso e
+
+0:18:51.240,0:18:55.720
+também vai ser válvida a propriedade
+
+0:18:52.919,0:18:59.159
+telescópica para chegar até ao somatório
+
+0:18:55.720,0:19:02.120
+de qualquer potência de i, OK? O
+
+0:18:59.159,0:19:05.080
+somatório do dos quadrados de i, dos
+
+0:19:02.120,0:19:07.840
+cubos, etc, etc, etc. Uma das técnicas
+
+0:19:05.080,0:19:09.919
+de obter as fórmulas é usando realmente
+
+0:19:07.840,0:19:11.720
+a propriedade teloscópica. Mas há outro,
+
+0:19:09.919,0:19:14.280
+há outra há outras, há há várias
+
+0:19:11.720,0:19:16.919
+técnicas. Eventualmente no futuro também
+
+0:19:14.280,0:19:20.919
+voltaremos a falar desse, desse tema.
+
+0:19:16.919,0:19:20.919
+E pronto, espero que tenham gostado.
+
+

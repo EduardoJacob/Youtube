@@ -1,0 +1,1615 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Hoje vamos tratar da regra de NITS para
+integrais.
+Para isso, vamos olhar aqui para
+relembrar o teorema fundamental do
+cálculo,
+o qual eu já abordei
+num tutorial anterior.
+Pronto, onde nós vimos que efetivamente
+um integral entre a e b,
+OK? de uma função f(x),
+OK? Seria a primitiva
+F no valor B
+men f no valor A. OK? Pronto, isto é o
+que nós vimos. Efetivamente
+eu chamei a atenção que uma área, isto
+normalmente tem uma interpretação
+geométrica como sendo uma área, mas pode
+ser os integrais, pois não são só para
+áreas, antes pelo contrário,
+pois para volumes, para para trabalho,
+para para 100 situações.
+OK?
+E, portanto, chamei a atenção que, por
+exemplo, no caso da área e que a
+primitiva não não nos dá a área, a área
+só existe quando temos uma uma diferença
+do valor das primitivas num determinado
+intervalo. OK?
+Sim, senhor.
+Eh, então o que acontece é que eh o
+teorema fundamental do cálculo
+normalmente e aparecem duas duas
+fórmulas,
+OK? que é esta
+expressão
+eh bem como
+esta expressão,
+OK?
+Eh, e há quem chame é à primeira aqui o
+teorema fundamental do cálculo parte um
+e aqui à segunda parte dois, mas mas
+também vi ao contrário, também vi quem
+chama esta parte um e parte dois.
+Pronto, não sei, não tenho no suficiente
+para opinar sobre esse tema,
+mas não há dúvida nenhuma que a
+expressão mais importante
+e mais usada
+é esta esta expressão aqui. OK?
+Sim, senhor.
+Olhamos então aqui para esta outra para
+esta outra expressão, para esta outra
+variante que eles chamam a parte um do
+teorema fundamental do cálculo, onde nos
+diz que, bom, o que é que nos diz?
+Diz que se
+eu tenho aqui o integral entre a e b são
+duas constantes e dá-me aqui a diferença
+das primitivas,
+OK?
+Portanto,
+então o que é que acontece se eu
+em vez de de A e B puser um A e agora
+aqui puser uma variável? Vamos chamar X.
+OK?
+Mas se se eu ponho aqui um x no limite
+superior agora agora não posso usar aqui
+X porque porque este X que eu quero pôr
+aqui não tem nada a ver com este X aqui.
+Este X aqui é uma é uma variável agora
+muda.
+Então vou vou mudar a letra. E
+normalmente usa-se t ft dt. Pronto. E
+portanto isto vai ser igual.
+[roncando] Eh, reparem que não não
+importa qual a letra X. mesmo que aqui
+na expressão de cima quando usamos x
+se eh no caso da da primitivação importa
+porque porque a primitiva de de f(x) é
+uma uma outra função que é primitiva e
+portanto se está na variável x
+primitivando
+em ordem a xoois dá uma função de x.
+Pronto. Aí, aí sim que interessa a
+letra, mas quando eu calculo o integral
+não interessa qual a letra, qual o
+símbolo,
+porque ao substituir o símbolo por
+constantes,
+eu já não tenho função nenhuma.
+Portanto, isto que aqui está em cima,
+isto representa um constante, que é uma
+constante que que que seria a a área a
+área subordinada debaixo da função.
+Portanto, isto que aqui está, é
+importante reter bem esta noção. Isto
+aqui não é nenhuma função, isto é uma
+constante. O integral é uma constante, a
+primitiva é uma função. Por isso, por
+isso é que eu gosto de fazer essa
+distinção e fiz vários tutorials
+chamados de prim técnicas de
+primitivação
+e não de integração.
+OK? E aqui está uma diferença. O porquê
+a a primitiva de uma função é uma
+função, tal como a derivada de uma
+função é uma função, mas o integral de
+uma função não é função nenhuma.
+o integral com com valores específicos
+nos limites de integração, o integral é
+uma constante,
+OK? De um modo geral.
+Portanto, aqui aqui aqui é uma
+determinada constante que é o valor da
+área.
+OK? E, portanto, e nesse contexto não
+importa qual o símbolo que usamos aqui
+para x, porque agora ao fim e ao cabo no
+final vai dar uma constante.
+O x é é um símbolo intermédio. OK?
+Pronto. Portanto, aqui então agora aqui
+em baixo, por isso usamos aqui o T. Eh,
+e portanto vai dar F.
+E agora aqui, em vez de ser f de b, pois
+vai dar f dex, que é o limite superior
+de integração, men f de a.
+E agora?
+Agora de repente isto já é uma função,
+já não é uma constante.
+Em cima é uma constante, porque os
+limites de integração são constantes,
+mas em baixo é uma função.
+Embaixo é uma função que eu posso
+designar por f(x).
+é uma função porque porque vai-me dar os
+valores da da diferença das primitivas,
+mas que um dos limites superiores é
+variável. E então se é variável passa a
+ser uma função porque varia em função do
+x, em função de qual o limite superior
+que eu uso. OK?
+Sim, senhora. Portanto, dá-me isto é uma
+função e se eu derivar essa função
+dfx,
+uma vez que é igual a estas primitivas,
+então vai dar a derivada da primitiva é
+claramente a função original f(x).
+E a seguir f de a é uma constante,
+é um valor de uma função primitiva, mas
+agora num num ponto específico a,
+portanto é uma constante, então a
+derivada da constante é zero.
+Pronto. E assim fica demonstrado,
+fica demonstrado esta parte,
+a forma fundamental do do cálculo que
+eles designam por parte um. Fica aqui
+demonstrado que que a derivada
+do integral
+que é uma função porque porque tem o
+limite superior variável, então é uma
+função de x,
+OK?
+E portanto cuja derivada é f dex,
+também chamada de antiderivativo em
+inglês. OK?
+Pronto. E penso que fica claro e que
+pelo menos para mim parece intuitivo.
+Eh, esta esta outra forma no outro
+tutorial que eu abordei era intuitivo e
+demonstrei que era fiz um gráfico com a
+área debaixo de uma curva e chegamos à
+conclusão, pois que teria que ser isto.
+E agora esta outra forma, pois deriva
+daqui, deriva desta outra,
+desta outra.
+Eh, talvez por isso é que eu tive a ver
+na net encontramos muitas vezes que esta
+esta forma é que é chamada à parte
+número um e esta outra é chamada da
+parte número dois.
+OK? Parece que não há consenso sobre
+isso.
+Sim, senhor. Portanto, e para mim é
+intuitivo e parece trivial. Parece
+trivial que efetivamente não há dúvida
+nenhuma, que a derivada do integral
+de um integral quando o extremo superior
+é é o x, então é igual a f(x).
+OK? Porque por aqui por esta regra, o
+segundo termo não importa, ou seja, não
+importa qual é o a.
+Eu à primeira vez que vi isto também
+eu ficava um bocado confuso, mas então e
+o A? O A não conta para nada?
+Efetivamente não conta, porque nós
+queremos é obter uma expressão analítica
+de uma função aqui. OK?
+E, portanto, sendo assim, o A não conta,
+não interessa para nada. O a não não
+aqui aqui não conta
+porque porque este termo aqui de f de a
+é uma constante e com os da derivada é
+zero.
+OK? Bom, penso que tenha ficado mais ou
+menos claro. Ora, vamos fazer aqui
+alguns exercícios
+para ver então o que é que em em que é
+que isto se usa
+e e e como se aplica. Vamos imaginar
+então, por exemplo, uma função,
+seja esta função,
+é descrita como um como um integral.
+OK? Nós já vimos isto num tutorial
+anterior quando definíamos definimos o
+seno integral
+porque nós não conseguimos integrá-lo
+analíticamente e então definimos como
+uma função.
+Olha, seja o seno integral um integral
+entre zero e infinito.
+OK?
+Eh, minto
+e isto isto era o integral de dirigant
+entre zero e x. OK? Exatamente a mesma
+coisa como estamos aqui a ver. Então,
+então aqui, então aqui não pode, não
+posso usar X, tenho tenho que usar T.
+Sen T sobre T.
+OK.
+DT. Sim, senhor. Nós vimos isto no outro
+tutorial sobre o ser integral.
+Sim, senhora. Então, posso definir uma
+função,
+uma função,
+posso posso defini-la como como um
+integral. Desde que haja aqui uma
+componente variável, é uma função. Se
+não houver componente variável, não é
+função nenhuma. Então, é uma constante.
+Mas como aqui, efetivamente temos esta
+componente aqui que é variável, então é
+uma função de x. OK? Então, seja, por
+exemplo, este exemplo,
+por exemplo, t²
+dt.
+OK? Como é que eu poderia calcular? Eu
+poderia primitivar
+primitivar t c
+eh entre 1 e x e depois derivar outra
+vez. Pronto. Mas não é não é não é não é
+esse o intuito desta deste teorema. O
+teorema serve precisamente para
+substituir de imediato.
+E aí é que está o poder desta forma,
+desta forma que diz aqui da forma
+fundamental o teema do cálculo parte um.
+O o poderio está precisamente em poder
+derivar de imediato sem precisar de
+primitivar, sem precisar do passo médio
+da primitivação.
+Então vou dizer que dx
+é imediatamente o que está aqui dentro,
+substituindo o t por x, x qu e ponto
+final já está feito, ok? é direto.
+Sim, senhora.
+Vamos ver outro caso.
+Vamos dizer y
+igual a um integral.
+HH E agora vamos pôr ao contrário, vamos
+pôr entre x e 0.
+entre x e z0, por exemplo. Ou seja, o
+agora a variável vem aqui para baixo e
+em cima uma constante qualquer. Já
+sabemos que não importa a constante, que
+o termo da constante, uma vez que eu vou
+derivar, vai-se anular o a contribuição
+da constante.
+Ora, vamos pôr aqui, por exemplo, 3t
+dt.
+Então, eu quero derivar.
+Qual é a derivada? dy dx.
+OK. Ora, o que é que acontece? Estão a
+ver aqui esta fórmula que nós deduzimos
+aqui? Fx - f de a e depois derivávamos,
+fica aqui o f(x) - 0. Então isso for ao
+contrário, se a constante tiver aqui,
+fica aqui o zero e depois fica menos
+f(x).
+Portanto, aqui simplesmente muda o
+sinal,
+ou seja,
+h
+fica menos. Eu posso em qualquer
+integral, então eu posso
+para qualquer integral posso mudar aqui
+a ordem dos limites de integração e
+mudar aqui. Em vez de ser de x a 0,
+posso pôr de zer a x. Basta para isso
+mudar o sinal
+3t dt.
+E, portanto, p o teorema que fundamental
+do cálculo nesta variante, nesta nesta
+formulação,
+portanto é direto - 3x.
+Basta substituir onde está o t, ponho o
+x, ponto final. OK? Sim, senhora. Agora
+vamos ver que vamos vamos precisar da
+função composta. Vamos ver aqui um outro
+exemplo.
+Vamos ver aqui. OK. Y é uma função
+entre 2 e x².
+Ora, t,
+por exemplo,
+dt.
+Sim, senhor. Calculo dx
+dx. Ora bem.
+Agora [roncando]
+a coisa é é pi mais fino, OK? Porque nós
+aqui
+dissemos diretamente que
+se eu tiver um x,
+então se eu tenho a primitiva f(x)
+derivando é o é o é o f dex. Pronto,
+isso é é intuitivo e é direto. Pronto,
+mas agora não tenho. Eu agora tenho como
+que uma função composta.
+E então onde está x quad eu vou fazer a
+substituição e vou dizer u.
+OK? Então eu vou dizer,
+eu vou dizer aqui
+eh 2 a u
+2 a u
+t3
+dt. Eu vou considerar aqui este
+integral,
+OK?
+Eh, e portanto vou dizer que
+eu vou dizer que reparem aqui,
+eu ao fazer y = a, eu estou a considerar
+é uma função, seja uma função y de x
+que é dado por aqui. Agora, ao fazer a
+substituição de variável, então agora
+tenho y de u.
+Y de u, sendo que u = x², OK? porque eu
+fiz esta substituição de variável,
+portanto tenho y de u. Então aqui
+cumpro-se os requisitos deste do teorema
+e, portanto,
+eh, calcular a derivada aqui é direto.
+Calcular d.
+Portanto, aqui cumpre os requisitos, é
+direto u
+ponto final. Mas nós não queremos d nós.
+A pergunta inicial era: calcul d y dx.
+Portanto, o dx
+pela regra da da derivação da função
+composta é igual a dz
+dx.
+Na altura e quando vimos as regras da
+derivação, vimos a derivação da função
+composta e pronto. E eu apresentei este
+resultado como sendo um resultado
+intuitivo, porque aqui intuitivamente
+era como se houvesse aqui um corta
+corta, OK? E o produto destas destes
+dois termos era como se houvesse corta
+corta e, portanto, dava dy dx. Pronto,
+como muitas outras demonstrações que eu
+fiz, são demonstrações à apelara, à
+intuição e não não tem muito rigor
+matemático, mas pronto, mas isso eh quem
+quiser depois aprofundar mais e ver as
+demonstrações com mais rigor, terá que
+procurar outras fontes.
+Mas eh a minha P está orientada nesse
+sentido. Normalmente tento apelar à
+intuição para para
+percebermos o o o porquê da da das
+coisas. Ora bem, portanto aqui temos eh
+o dy du aqui.
+Então aqui vou pôr OK. Então o dy dx que
+eu quero é igual a este d y du.
+O primeiro termo que já tenho tá aqui. D
+y du é u c
+vezes du dx. Mas o meu u eu disse que
+era igual a x qu. Foi a substituição que
+eu fiz. Portanto, o d o d d dx é 2x.
+2x.
+Pronto. E agora é basta substituir e
+converter tudo em termos de x. Ora, se
+sendo o x², o a cu é x6.
+x 2x.
+E, portanto, tudo isto dá 2 x à s. OK?
+Sim, senhora.
+Vamos ver agora um outro caso então
+ainda mais complexo, onde vamos ter onde
+vamos ter eh
+y y
+de x
+igual a um integral.
+E vamos ter aqui uma função, neste caso
+é x.
+Reparem que o caso mais simples aqui, o
+caso elementar na forma quando aparece o
+limite superior de integração igual a x,
+eu também podia considerar como sendo
+uma função. É uma função trivial.
+É uma função trivial
+como se fosse u = x. OK?
+Portanto, posso aplicar na mesma esta
+regra da função composta,
+sendo que o dx é igual a 1.
+Ok? Pronto. Ou seja, eu posso
+generalizar e dizer que mesmo o próprio
+x é uma função de x. OK? É isso que eu
+quero dizer. Por exemplo, aqui temos
+então y x = x
+e até cosseno de x,
+OK?
+T
+DT. Sim, senhor. Então, eh, vamos dizer
+que vamos imaginar que eu que eu dizia
+assim: "E pá, não sei, não sei como é
+que ataca este problema, porque aqui a
+fórmula, a fórmula é do os limites de
+integração é uma constante e uma função.
+E agora, e agora tenho aqui duas
+funções. Então, não, não, eu diria, eu
+diria assim, olha, não sei. Então,
+pronto, olha, se não sei, vou vou vou
+resolver isto pelos métodos
+tradicionais.
+Vou vou primitivar
+t qu
+t a variar entre x e t a variar entre
+cosseno de x.
+Portanto, fica cosseno
+de x²
+sobre 2 -
+x²
+sobre 2. E agora quero
+dx,
+que é o que nós estamos a pedir em todos
+estes exercícios, é calcular uma
+derivada de uma função quando a função é
+expressa em termos do integral.
+Então,
+ora, dx,
+então agora derivar aqui em ordem x,
+portanto ali fica 2
+cseno de x
+derivada da base - seno de x
+sobre 2
+e ali fica - 2 x
+sobre 2. Portanto, tudo isto dá menos
+o cseno de x seno de x
+- x. Pronto, mas não é este o intuito e
+nem é assim que devemos fazer. OK? Isto
+é só para demonstrar que também podemos
+fazer assim, mas mas não assim não
+estamos a tirar proveito do teorema. OK?
+E aqui [roncando] consegui porque eu por
+acaso consigo primitivar,
+mas isto podia ser uma função não
+primitivável
+e eu conseguiria na mesma resolver,
+portanto, que o o poder desta fórmula
+está em conseguir derivar
+a derivada de uma função que está
+expressa em termos de um integral,
+eu consigo derivá-la sem ter sem
+precisar de primitivar.
+que já sabemos que muitas funções não
+são primitiváveis.
+OK? Portanto, eu resolvi aqui desta
+maneira para verem, mas agora vamos
+contrastar como é que isto se deve
+resolver.
+Portanto, a forma como devemos resolver
+isto é partir um este integral que está
+entre x e cociente de x em duas partes.
+Ou seja, porque que todo o integral,
+imaginem todo o integral,
+imaginem
+a analogia, portanto, com a com a área.
+Quando nós vimos aqui uma função e que
+eu vou integrar entre a e b,
+claramente que que o o integral de f(x)
+entre a e b
+naturalmente, se eu encontrar aqui um
+ponto intermédio C, pois naturalmente
+tem que ser a soma
+entre A e C.
+mais
+entre C e B. Pronto, este parece que é
+bastante intuitivo. Eu posso encontrar
+qualquer valor
+intermédio e posso partir um um integral
+em duas partes ou em três ou em quatro
+ou o que for, cortando as considerando
+as fatias que eu quiser. Pronto. Então,
+sendo assim,
+a forma correta de resolver aquele
+aquele integral
+y de resolver, não, de de de calcular a
+derivada da função, que é o que nós
+queremos.
+Portanto, y de x
+é igual a o integral
+de x
+cosseno de x
+t dt. Portanto, a forma correta é
+considerar uma soma de dois integrais.
+Isto é igual a dois integrais de,
+portanto, entre x e um determinado C
+mais entre o C
+e cosseno de X.
+E este primeiro termo agora mudo a ordem
+de integração,
+os limites, digo, entre em vez de X e C
+passa de C X X e então muda o sinal.
+E, portanto, isto fica
+um integral de c a cosseno de x
+dt menos
+o integral
+de c a x
+tdt.
+OK? No fundo é o que estaríamos aqui.
+Aqui
+e nesta forma que eu disse e damos estas
+duas primitivas e depois ao derivar dá
+f(x) e depois aqui é uma constante dá
+zero. Portanto, agora é um caso mais
+genérico onde ali não é uma constante.
+OK? Pronto. Então tenho
+tenho, portanto, é é este estes dois
+integrais. Então agora vamos derivar
+usando aqui o teorema. E, portanto,
+usamos duas vezes. Usamos duas vezes,
+aplicamos o teorema aqui e aplicamos o
+teorema aqui.
+Portanto, então derivando dx
+igual a, Pronto, este segundo, o segundo
+termo é imediato
+porque é uma é uma é o limite superior é
+o x normal e, portanto, é igual a -x.
+Portanto, o segundo termo é imediato que
+é o - x.
+E o primeiro termo, pois é uma é uma é
+uma derivação
+eh com a a função composta. Portanto, o
+t substituo por cosseno de x,
+onde está t, ponho ponho diretamente
+cseno de x. E agora tenho que derivar
+derivar em ordem a x o cseno de x,
+portanto que dá - sen x
+- sen de x.
+E pronto. E portanto, portanto, que deu
+o mesmo resultado, como seria
+expectável, mas não precisei de
+primitivar. Eu não eu aqui nunca cheguei
+a primitivar nada. OK?
+Portanto, é muito mais poderoso resolver
+a a derivada de uma função que é
+expressa [limpando a garganta] num num
+integral resolver desta maneira. OK?
+Ops.
+Portanto,
+deu o menos csen x - x. O mesmo que
+tínhamos obtido aqui.
+Só que aqui primitivei. Primitivei para
+obter o cosseno quadrado x. Pronto. E e
+aqui para obter o x qu, etc, etc. Não
+vale a pena.
+OK?
+Ora, então agora vamos diretamente aqui
+para a fórmula de debnit,
+OK?
+Eh,
+é o que estamos aqui a ver,
+é uma generalização do que do que vimos
+aqui.
+O que o que o que vimos aqui, portanto,
+eh para mim é é intuitivo porque é que
+resulta da forma fundamental aqui do
+cálculo, como vimos. OK? E desta forma
+aqui agora aqui é introduzido um fator
+mais de complexidade,
+OK? Porque temos na mesma uma isto é uma
+determinada função de x, é a mesma coisa
+no qual nós pretendemos derivar, OK?
+Portanto, esta parte aqui é a mesma
+coisa. Temos duas funções aqui no nos
+limites, portanto tem aqui nada de novo.
+Só que agora temos também
+a a função que nós nós queremos
+integrar.
+que está aqui, ela agora também depende
+aqui do X. Portanto, o aqui está a
+novidade, aqui tá o aumento de
+complexidade, está aqui. OK. [roncando]
+Eh, pronto. E então o que é que
+acontece?
+H
+não vou demonstrar, não vou fazer a esta
+demonstração
+porque
+é assim, pronto, está, se eu fosseer
+fazer a demonstração, eu simplesmente ia
+repetir uma série de passos que estão na
+internet. Vocês podem pesquisar, há
+várias demonstrações, há possíveis, mas
+mas h
+neste caso não vou fazer, é um bocado
+trabalhoso e como não é uma coisa muito
+intuitiva para mim, então prefiro não
+fazer.
+OK?
+Vou só chamar aqui a atenção, portanto,
+aqui do seguinte, que estão aqui dois
+termos
+que que são o que vimos aqui
+anteriormente,
+ou seja, pegar na expressão diretamente
+do f e substituir o limite aqui.
+Isto foi o que nós já vimos. Nós
+pegávamos, só que a função era só de t e
+onde estava de t, nós pínhamos p de x.
+Pronto. Agora, como a função é uma
+função de x e de t, portanto, é, mas é
+igual onde está o t, pomos o b dex e
+depois precisamos, por causa da regra da
+função composta, a derivação de bx em
+ordem a x. Pronto, isto é o que vimos
+aqui nos exemplos anteriores, OK?
+Pronto, menos
+a mesma coisa aqui.
+Pronto, esta parte aqui, esta já está
+demonstrada. Agora, a novidade que
+aparece aqui é este terceiro termo, por
+isso é que deixo para vocês, se quiserem
+vão à procura da demonstração.
+Eh, é trabalhoso e envolve muita
+manipulação de de integrais e com as
+expressões, as definições da da deriva
+da derivada, a expressão da da
+com o limite, o limite quando h tende a
+zero de f(x) + h - f(x), etc, etc, etc.
+É trabalhoso. Pronto, vou optar por não
+pôr aqui, não pôr aqui a demonstração.
+Eh, e efetivamente aparece aqui este
+termo, este termo que é o novo termo,
+onde, OK, onde efetivamente a função que
+está aqui dentro, ela ela também depende
+de x. Eu preciso de calcular este este
+termo extra, onde vou ter que fazer a
+integração e aqui dentro a derivada
+parcial desta função que é pode ser
+considerada como uma função de duas
+variáveis e portanto a derivada parcial
+em ordem x de f dex e t. Ok? Pronto.
+Este este é o novo termo. Ok?
+Sim, senhora.
+Eh, se no caso efetivamente que a função
+não tivesse x, que fosse apenas uma
+função de t,
+nesse caso, derivar em ordem x, a
+derivada parcial em ordem x esta função,
+se ela não tivesse x, é, portanto, seria
+zero, o termo anula e estamos de volta,
+estamos de volta ao que já vimos
+anteriormente, que é um simples
+aplicação do teorema fundamental do
+cálculo, OK?
+Eh, por outro lado, também se no caso de
+A e B serem constantes,
+eh,
+A e B serem constantes, então não não se
+aplica não se aplica A e P serem
+constantes, não se aplica este esta
+teorema fundamental do cálculo que
+tivemos aqui a aplicar,
+OK?
+Porque porque se A e B são constantes,
+não não eh o o resultado de um integral
+é uma constante e, portanto, não é não
+há função nenhuma aí e aí a derivada é
+zero.
+Portanto, se a e bem constantes, pois
+este primeiro termo, a derivada de bx
+seria zero. Isto dava zero, aqui dava
+zero. Ficávamos apenas com o segundo
+termo, entre a e b eram constantes.
+e portanto tinha uma tinha e então tinha
+uma e então eu quero derivar e em ordem
+x
+e então posso passar a derivação para
+dentro da função, que é o que eu também
+já abordei num outro tutorial. Quando
+disse, bom, a derivação é o oposto da da
+primitivação, então posso a derivada da
+primitiva à partida é igual à primitiva
+da derivada. Posso trocar a ordem. Eu
+quando que vos disse num outro tutorial
+que eu pegava na derivada e a derivada
+passava para dentro do integral, OK? Eh,
+sempre e quando os limites
+de integração fossem constantes,
+OK? Não sendo constantes, então a coisa
+já não é, já não funciona assim. Não
+sendo constantes é esta forma que temos
+aqui, onde entram estes três termos. OK?
+Pronto, isso é um bocado
+um bocado trabalhoso ou um bocado
+pronto, imagino quem veja isto pela
+primeira vez é um bocado é um bocado
+confuso.
+Ora bem, vamos fazer então só aqui um
+exercício.
+OK?
+Ora,
+vamos fazer um exercício. Vamos dizer,
+olha, seja esta função,
+uma função i x,
+tal como anteriormente,
+vamos ter um integral.
+Ora, vamos ter
+entre dois limites também e as próprias
+duas funções entre x e x².
+E vamos ter efetivamente aqui uma aqui
+uma função aqui dentro que depende
+também da x
+e de t.
+Pronto. Sim senhor. Estamos nas
+condições para aplicar a a regra da
+nits, que é esta regra aqui para
+integrais.
+Sim, senhor. Bom, então vamos aplicar
+diretamente. Vamos olhar, vamos olhar
+aqui para a expressão e vamos aplicar.
+Temos o primeiro termo. E portanto, onde
+está t, colocamos o b de x, colocamos x
+qu. Portanto, então, então vai ficar o
+seno
+de x c
+sobre,
+portanto, onde está t x².
+vezes a derivada x qu em ordem a x 2x
+ok
+menos
+ora onde está t e vamos aplicar aqui a a
+função limite aqui inferior que é o x
+portanto fica o seno de x²
+sobre
+x
+a derivada de x em ordem x que é 1.
+Ok? E finalmente precisamos de um outro
+um outro termo onde temos o integral
+entre x e x²,
+onde temos que a derivada parcial
+desta expressão aqui de dentro é em
+ordem a x. Portanto, em ordem a x, o t é
+uma constante e, portanto, o a derivada
+do seno é um coseno, fica o cosseno
+cosseno de xt
+em ordem x, onde o t passa aqui para
+fora
+e que, portanto, vai cortar com o t aqui
+debaixo.
+OK? Corta, corta.
+DT.
+OK.
+Ora,
+e portanto
+agora chegamos. Portanto, fica ora
+simplificando aqui, ora aqui fica 2.
+Aqui fica o o seno
+de x c
+sobre x.
+Aqui fica menos o seno
+x²
+sobre x.
+E agora aqui fica bom. Ora, integrando
+em ordem t direto.
+Integrando em ordem t.
+Eu aqui, eu aqui enganei. Eu aqui, aqui,
+eu aqui só enganei-me porque este é o, é
+o y de X e aqui é o dx.
+Pronto. Atenção. OK. Portanto, este é o
+y de x.
+Pronto. E agora estamos a calcular dx.
+dy dx.
+Pronto. Sim, senhor. E aí sim
+que aparece estes os três termos. 1 2 3.
+São três termos que nos dá esta regra da
+vib.
+Ok?
+Sim, senhora.
+Ora, então, continuando.
+Ora aqui e primitivar aqui, portanto vai
+dar aqui um seno
+seno
+de xt.
+Portanto, em ordem a t, então vai ter um
+x, um x aqui em baixo.
+Pronto. a primitiva em ordem deu em
+ordem a t porque agora derivando dá o
+cosseno de x de de xt. O x passa para
+fora, x corta corda. OK? Pronto. E então
+temos aqui nos limites de integração
+entre entre t = x e t = x².
+Sim, senhor. Que vai, portanto, isto vai
+dar dois termos.
+Ora, 2
+seno x³
+so x
+- sen
+x²
+sobre x - a parêntes
+e, portanto fica aqui para x² fica sen x
+c
+sobre x e aqui fica menos o seno de x²
+sobre x.
+E agora aqui vai haver simplificações.
+Ora, o eixo de seno x³ 2 - 1, portanto
+dá 1. Isto vai dar seno
+x³
+sobre x. E o termo x². Ora aqui menos
+por menos dá mais.
+Ora, enganei-me aqui. Não sei onde é que
+eu vou inventar este sinal aqui de
+menos, portanto aqui é mais, obviamente
+tá aqui na fórmula.
+Ora, mais, mais mais.
+OK.
+Não sei onde é que eu vou inventar
+aquilo. Ora, portanto, aqui 2, 2 e 1, 3.
+Aqui dá 3 senos de x³,
+OK? E, portanto, aqui dá -2
+- 2 sen de x²
+sobre x. Pronto, agora é que tá certo.
+Eh, e pronto, é isto. Regra deits.
+OK.
+Ora, vamos ver. Agora, aproveito,
+aproveito e junto tudo neste tutorial.
+Para além da regra de Lint, vamos falar
+com da famosa técnica de de de findem
+para cálculo de
+de integrais, OK? Que no fundo vai usar
+a regra da Libit, OK? Pronto, o que a
+técnica de findem o que faz, e nós vimos
+isso quando calculamos o integral de
+dirig, a técnica definement o que faz é
+encontrar o fator encontrar a
+parametrização
+a parametrização adequada.
+para transformar um integral
+introduzindo um parâmetro. Mas vamos
+ver, é melhor, é melhor ver do do que
+falar.
+Ora bem, portanto, a técnica de findan,
+OK?
+O que vai fazer? Nós nós vimos isso no
+integral de dirixê,
+OK?
+Mas o integral de é um bocado complexo
+porque nós encontramos o a forma de
+parametrizar com a exponencial e depois
+temos que aplicar a primitivação por
+parte, etc, etc. É trabalhoso, é
+bastante trabalhoso. Vamos rever essa
+matéria agora num caso mais simples.
+Pronto. OK. Então vamos considerar que
+queremos calcular um um integral
+um [roncando] integral
+de x - 1
+sobre o logaritmo de x. OK? Pronto, nós
+queremos calcular este integral
+eh entre 0 e 1. Por isso é que é um
+integral.
+Ora bem, portanto, o que é que acontece?
+Não sabemos, não sabemos integrar assim
+de uma maneira assim e simplista, não
+não se consegue integrar.
+OK?
+Então,
+eh, portanto, a regra de esta técnica de
+findement
+permite e calcular integrais quando eu
+disse que não sabemos integrar, não
+minto, não, não sabemos. É primitivar,
+que é diferente. Integrar, vamos saber.
+Vamos agora aplicar a regra de
+definement para integrar. Nós não
+sabemos é primitivar,
+OK? Que seria a forma
+eh seria a forma direta para para
+resolver, não é? Um integral, é
+primitivar e OK, mas nós não sabemos
+primitivar,
+OK? E, portanto, o que esta técnica de
+find o que nos vai permitir fazer
+é conseguir calcular o um integral aqui
+com o artifício
+sem chegarmos a precisar de primitivar
+estas esta função específica. Como, se
+como é que se faz isso? Eh,
+parametrizando esta esta função é o acho
+que chama-se o integrando ou que é
+parametrizando a função
+normalmente com um parâmetro t,
+o problema é escolher qual o t e onde
+onde colocar o t. OK? Pronto, essa que é
+a pergunta do 1 milhão do milhão de
+dólares. Pronto, vamos ver neste
+exemplo.
+Então, o que nós fazemos é o seguinte.
+Isto é um número. Um integral é um
+número, é uma constante. OK? E o que a
+técnica de findem diz é: OK, então eu
+vou definir uma função.
+Uma função normalmente representa-se por
+i e vou dizer uma função, mas uma função
+de t, não é de x,
+porque x é uma variável da mi variable.
+O x é um símbolo que que já vimos que
+num integral específico com limites
+específicos, o símbolo não importa.
+O resultado é uma constante. O x não
+importa para nada, não importa qual a
+letra. OK? Portanto, o que faz esta
+técnica de findement é definir uma
+função, mas uma função de t. O
+parâmetro, eu vou injetar um parâmetro t
+aqui dentro
+e que definindo uma função,
+onde é que vai entrar o t? Pois essa é
+que essa é que é a questão.
+Essa é que é a questão que eu também não
+consigo responder de uma forma
+simplista. Eu sei qual é o intuito, é
+para que depois ao derivar em ordem a
+tiga simplificar a expressão que está
+dentro do integral. OK? Isso é é fácil
+de entender o intuito. Agora depois na
+na prática é que pode já não ser tão
+fácil. Pronto, porque para quem não teja
+muita muita prática, e eu agora também
+não tenho muita prática porque ou seja,
+não não não passa a vida agora a
+calcular integrais todos os dias, não é?
+Pronto. Mas basicamente então o que é
+aqui neste caso concreto o que vai
+acontecer? Eu defino a função e a função
+expressa como um integral, OK? Tal e
+qual o que vimos aqui na regra de
+Libits,
+OK?
+Eh, e portanto eu vou definir, OK? É
+entre 0 e 1. Entre 0 e 1.
+E agora onde é que eu vou parametrizar?
+Eh, no integral de Irix B, nós vimos que
+introduzíamos, eu injetava uma
+exponencial dentro da expressão e
+pronto. E e ficava porque eu posso eu
+posso eu posso fazer a transformação que
+eu quiser, eu posso injetar o parâmetro
+onde eu quiser,
+não importa, porque eu estou a definir
+uma função nova,
+não tem nada a ver com o integral de que
+partimos. tem a ver que para depois para
+um determinado valor do parâmetro tem
+tem que tem que me dar a a a o integral
+que eu quero calcular.
+OK? Pronto. Portanto, agora eu o
+parâmetro eu vou eu vou colocá-lo onde
+eu quiser.
+Portanto, agora, por exemplo, eu vou eu
+vou colocá-lo aqui
+e aqui x elevado t.
+Ok?
+Pronto. X elevado a t - 1
+logaritmo x
+dx,
+onde o x é uma variável muda, o que
+conta é o t e por isso é uma função de
+t. Portanto, aqui eu defino o que eu
+quiser.
+Eu sou livre de definir uma função como
+eu quiser.
+OK? Não tem nada a ver com isto. À
+partida não tem nada a ver com isto
+porque eu def, eu posso definir a função
+que eu quiser. Eu defino uma função
+e de t expresso em termos de um
+integral,
+como tem o para o tem o parâmetro t aqui
+e portanto então é uma função de t.
+Eh,
+e agora chama a atenção do seguinte.
+esta função que eu estou a definir, o i
+de t,
+no momento em que eu puser o t = 1,
+no momento em que eu puser o t = 1,
+então ela degenera no integral que eu
+quero calcular o valor da função i no no
+ponto t = 1, dar-me a o integral
+específico, que é uma constante,
+que é o que eu quero calcular e não sei.
+OK? Portanto, aqui nós temos sempre que
+encontrar este o seguinte, temos sempre
+que arranjar uma maneira de de de de
+introduzir um parâmetro, uma
+parametrização,
+por forma que depois a derivada em ordem
+a t que que me venha a simplificar a
+expressão
+e também tenho que definir qual é o
+valor de t que depois me permite
+regenerar o o integral inicial que eu
+que eu queria calcular.
+Neste caso será para t = 1. Sim, senhor.
+Agora, pronto, agora diz assim: "Bom,
+então, mas para t ig aqui t ig." Não,
+isso não não adianta nada disso. Não,
+não ganho nada, que então [roncando] e
+voltávamos ao ponto de partida. Pronto.
+Agora o que eu vou querer fazer é
+calcular o di dt. DI DT. OK? Pronto. DI
+DT. Agora o artifício é, mas agora é a
+regra de E.
+de minto, portanto, a regra da benit da
+derivação,
+OK? E aqui a tá simplificada porque
+tenho constantes nos limites de
+integração, tenho constantes.
+Portanto, aqui pela forma geral, os dois
+primeiros termos vão a zero e fica
+apenas com o último termo, que
+[roncando] é onde a derivada parcial
+passa para dentro do integral. OK? É
+para vos mostrar e chamar a atenção como
+esta técnica de findement
+eh e no caso dos dos limites de
+integração serem constantes, pois é um
+caso particular da regra de de libit,
+OK? Que também designada por a regra da
+derivação debaixo do integral. OK?
+Sim, senhor. Portanto, então aqui, ora,
+dt,
+pois, é, é derivar em ordem t o
+integral, a derivação passa para dentro,
+fica o integral de 0 a 1.
+E agora a expressão aqui dentro, eu vou
+derivá-la em ordem t,
+OK? Mas agora convém relembrar as regras
+da derivação das exponenciais.
+Lembrem que lembrando que quando vimos
+as regras da derivação, eu vou pôr aqui
+de outra cor, vou pôr aqui a vermelho.
+Convém lembrar que quando vimos as
+regras da derivação,
+na altura revimos que a derivada da
+exponencial, mas de base a
+era igual a a mantém sempre a
+exponencial vezes o logaritmo de a.
+Portanto, na altura nós deduzimos esta
+esta fórmula. OK? Portanto, o que o x
+aqui é é um é um é um símbolo qualquer,
+é variável qualquer. Aqui posso pôr a
+elevado a t,
+a derivada é igual a a elevado a t
+logaritmo de a.
+E agora em vez do a posso pôr X, posso
+pôr o aqui os símbolos não importa, é os
+simples que eu quiser. X elevado a t
+derivada
+x elevado a t logaritmo de x. Ok?
+Pronto. Isto é que que é importante para
+agora sabermos derivar x elevado a t.
+Ora, derivar x elevado a t em ordem a x.
+Então é uma é uma é uma
+em ordem t minto, se fosse em ordem x
+seria uma potência. Em ordem t
+exponencial. Pronto. Então a derivada em
+ordem a t de x elevado a t, tudo o resto
+é constante. X x é uma constante.
+Do ponto de vista da derivada parcial em
+ordem t, o x é constante.
+OK? E portanto aqui só tenho que derivar
+o x e o vado a t. Dá o mesmo x e o vado
+a t.
+vezes o logaritmo de x
+menos a derivada de 1 que é zero. O aqui
+embaixo do denominador é uma constante
+e portanto corta. Corta. Pronto. E aqui
+está a simplificação.
+Aqui está a simplificação.
+Pronto.
+Que agora, agora já agora já torna-se
+fácil de integrar em ordem X.
+dá x
+elevado a t + 1
+sobre porque agora derivando em ordem x
+é uma potência e integrando digo em
+ordem x é uma potência em ordem at era
+uma exponencial em ordem x é uma
+potência
+ora
+OK.
+Quais os limites de integração?
+Ora,
+x = 0, x = 1.
+OK? Eu gosto sempre de pôr aqui o x para
+que as duas pertenças. A pessoa já não
+se lembra se está a variar o t, se está
+a variar o x. Pronto, a integração em
+ordem a x, os limites de integração
+entre x = 0 e x = 1. Ok? Pronto. E a
+expressão aqui, x elevado t é uma
+potência, portanto x t + 1 sobre t + 1.
+Tá correto? Pronto. Então isto vai dar.
+Ora, para no ponto x = a 0 vai dar 0
+elevado a qualquer coisa é zero. 0 sobre
+qualquer coisa é zero. Pronto. Então
+fica só no ponto x = 1 dá 1 e elevado a
+qualquer coisa é 1.
+1 sobre t + 1. Ok? Então, pronto, já
+calculei, já calculei que o o d o d e dt
+dt
+é é o inverso t + 1. Então agora
+primitiva em ordem e em ordem t para
+calcular a minha função i de t. Pronto,
+é um logaritmo
+de t + 1
++ c. Agora sim que vai ser importante o
+c.
+OK.
+Agora aqui é agora aqui sim que tem um C
+porque eu estou a calcular aqui uma
+primitiva. Aqui na integração não entra
+C nenhum porque depois na na diferença
+entre os
+entre estes dois termos o C anulava.
+Portanto, aqui não interessa o C. Agora
+aqui sim, eu aqui não me posso esquecer
+de introduzir o C, cujo C nós temos que
+calcular, que é o mesmo que nós já
+tínhamos visto no outro dia no no
+integral de B. Pronto. Só que este
+exemplo é um exemplo mais simples, por
+isso estou a revê-lo outra vez
+e para ajudar as ideias a ficarem mais
+claras. Pronto, agora vou dizer que i de
+t vou buscar a expressão inicial que eu
+encontrei que eu que eu defini que é
+esta,
+porque eu agora tenho que determinar
+quanto vale o t o c, a constante
+-1
+logaritmo de x,
+portanto tx.
+Sim, senhor. Ora, eu agora quero quero
+calcular quanto quanto vale o C. Eh,
+para isso, o que é que eu vou fazer? Eu
+vou
+experimentar aqui valores. Eu vou eu vou
+experimentar,
+vou mudar aqui de cor e vou
+experimentar,
+por exemplo, seja t ig a 0 para para t
+ig a 0. Para t ig a 0.
+Pronto, eu vou eu eu tenho que eu tenho
+que
+garantir esta igualdade.
+Eu tenho que garantir esta igualdade. O
+este logaritmo de t + 1 + c eu tenho tem
+que ser sempre igual a este integral.
+OK?
+O integral eu defini como sendo a função
+i
+e depois apliquei o artifício, o
+artifício definement.
+eh a derivação debaixo do integral,
+depois andando para trás, primitivando.
+OK?
+Sim, senhor. Portanto, eu isto isto tem
+que ser igual.
+Portanto, em particular tem que ser
+igual para t ig
+fica o logaritmo para dar 1 é 0.
+O logaritmo para dar 1 qu é zero porque
+qual qualquer a exponencial elevada a
+zero é 1.
+Portanto, o logaritmo que é o expoente,
+lembram sempre, eu gosto sempre de
+racionarem que o logaritmo é um
+expoente.
+Portanto, o expoente qualquer coisa eh
+para dar um é zero. Portanto, aqui fica
+0 + c
+integral entre 0 e 1. Ora, para t = a 0,
+olha para t = 0, x elevado a 0 é 0
+é 0
+fica menos -1 e minto e xevado a 0 é 1.
+x 0 é 1 1 - 1 0
+0 sobre qualquer coisa.
+Então isto é, isto é um integral de
+zero. Integral de zero é zero.
+Pronto. Portanto, igual a zer. Então
+daqui implica que efetivamente c = a 0.
+C = 0. Pronto. Bem simples. Então c = 0.
+Então a minha função de tá calculada.
+e de t
+é o logaritmo
+de t + 1
+aqui com módulo t + 1. Sim, senhor. Mas
+nós queríamos calcular o integral
+inicial, este integral e e definimos e
+concluímos que ele seria igual à função
+i no ponto t = 1. Portanto, então o
+integral inicial
+o integral inicial
+a
+integral entre 0 e 1 x - 1.
+x - 1 so logaritmo x
+é igual à função no esta função i no
+ponto t ig a 1. Portanto, é igual ao
+logaritmo de 2.
+Logaritmo de 2. Ok?
+Portanto, nós conseguimos calcular um
+integral
+se passando por cima da necessidade
+primitivar a função. Pronto, está é o
+poder é o poder desta técnica.
+Ora, este é o o este é a função que nós
+integramos,
+que está debaixo aqui da curva da curva
+verde.
+OK?
+Portanto, aqui o este Y, este Y aqui,
+eh, portanto,
+a curva verde é o x - 1
+sobre o logaritmo de x, o qual nós
+queríamos, portanto, o integral, o
+integral entre entre 0 e 1, OK?
+Portanto, aqui entre 0
+e 1,
+OK?
+Eh, e muitas vezes quando eu tenho estes
+integrais, gosto de ir ao Geogebra,
+traçar o gráfico da função para ter uma
+ideia, ter uma ideia efetivamente se se
+este pedaço se faz sentido ou se há
+singularidades ou se não há. Pronto,
+aqui poderia haver aqui o problema do
+zero no ponto zero. Eh, e eu também fui
+ao formal confirmar que existe o limite
+quando esta quando a função y tende para
+zero, existe e é zero. Pronto, portanto
+à partida a função está é contínua e
+está bem comportada em todo o intervalo
+de integração e, portanto, aqui não
+havia aqui não haveria truques nem
+surpresas. OK? Pronto.
+H,
+eu nunca nunca nunca nunca fiz nenhum
+tutorial sobre teoria de limites, mas
+assim as coisas mais simples às vezes
+são são intuitivas, não é aqui o caso,
+porque aqui o o x tende para zero. Eh,
+isto aqui o logaritmo para dar zero é
+menos infinito.
+Eh, e aqui x = 0 e - 1 sobre menos
+infinito. Eh, portanto, dá dá zero, muda
+o sinal menos por menos. Neste caso até
+parece que é é simples
+de calcular este limite, mas pronto,
+isto é só para vocês para vos mostrar
+muitas vezes com com o meu trabalho. Às
+vezes gosto de confirmar as coisas.
+Ah,
+e efetivamente também fui ao Ramal
+confirmar
+a ver se não me tinha enganado aqui nos
+cálculos para para calcular este este
+integral.
+OK.
+E efetivamente
+e tá correto ele, o alfa deu-me que tá
+tá correto que dá aquele integral entre
+0 e um dá o logaritmo de 2. Ok?
+Eh, e sim senhor. Pronto, este é o poder
+da técnica de findement. Permite
+calcular um integral
+sem nunca chegar a precisar de calcular
+a primitiva da função que nós queremos
+integrar. OK? Sim, senhor. Vamos ainda
+ver mais um tema.
+Vamos ainda ver mais um tema
+aqui rapidinho, eh,
+onde vamos eh
+voltar aqui à primitivação por partes
+revisitada. OK? Pronto, porque tive a
+ver aqui alguns exemplos e na altura eu
+não abordei esta temática eh quando
+tratamos da primitivação por partes e
+acho que é um aspecto importante a reter
+e e e é uma técnica muito poderosa
+para para calcular as primitivas.
+Portanto, nós vamos aqui eh voltar aqui
+ao tema da primitivação
+[roncando]
+por partes
+revisitada.
+OK. Então, qual é qual [roncando] é aqui
+o o pormenor que na altura não abordei
+ou não se me ocorreu? [roncando] E é um
+pormenor importante que convém ter em
+conta.
+Eh, vamos ver aqui, por exemplo,
+uma primitivação por partes de X,
+arcotangente
+arcotangente de X.
+[roncando]
+Ora, vamos ver esta primitivação.
+Pronto. Então, o que é que nós vamos
+dizer?
+Vamos dizer, olha, eu vou primitivar o
+x²/
+2
+x²/ 2
+e
+vezes
+o arco tangente
+menos
+a primitiva
+menos a primitiva
+e de
+x2/ 2
+e a derivada do arco tangente, que já
+sabemos que é 1 sobre
+1 + x².
+Sim, senhor. E agora teríamos calcular
+aqui. Imagino que aqui eh caímos dentro
+daquela temática das frações parciais.
+iria fazer aqui a divisão e iríamos ver
+o que é o que é que iria dar que o que
+mas mas eu não fui não não eu não fui.
+Portanto, nós não vamos por aí.
+Portanto, o que o nós vamos usar aqui um
+truque que é o seguinte.
+O truque é o seguinte. Reparem, eu aqui
+tenho x².
+Por pouco, por pouco o x² cortaria aqui
+em baixo. Se eu ti, em vez de x², se eu
+tivesse x² + 1.
+Ok? Pronto. Então agora é que vai
+aparecer aqui o truque. Eu eu não
+conhecia muito este truque, sou sincero.
+E calhou, eu vi um vídeo e apareceu,
+apareceu este truque e realmente é uma
+ideia genial [roncando] e que dá vai
+enriquecer bastante aqui o nosso
+arsenal.
+eh e enriquecer bastante esta técnica da
+primitivação por partes. Pronto, o que
+acontece é que quando nós dizemos assim:
+"Bom,
+eh, eu, eh, a primitivação por parte, eu
+vou primitivar esta função e primitivei,
+dá x² sobre 2." Sim, não há dúvida
+nenhuma. OK? Porque derivando,
+derivando, OK? Dá dois, passa cá para
+baixo, corta, corta, dá x, OK? Só que
+esta não é a única primitiva que existe,
+OK? Existem infinitas primitivas.
+Existem infinitas primitivas
+eh variando de de uma constante.
+E nós podemos usar a primitiva que nós
+quisermos. Na regra da primitiva são por
+partes, nada diz que tem que ser usada
+esta primitiva mais imediata. Eu uso uma
+primitiva qualquer.
+OK? E, portanto, aqui, em vez de
+escolher esta primitiva, que é a mais
+imediata, eu vou escolher outra
+primitiva,
+OK? Eu vou escolher,
+eu vou escolher e vou dizer que é igual
+a, em vez de escolher x² sobre 2, eu vou
+escolher x²
++ 1
+sobre 2,
+cuja derivada dá na mesma x.
+baixa e depois mais 1/i a derivada de 1/
+é zer. Então eu escolho esta outra
+primitiva e faz toda a diferença agora.
+Permite-me agora simplificar aqui de
+imediato,
+poupando-me o trabalho que eu agora,
+caso contrário, eu teria que fazer agora
+aqui as frações parciais e depois OK, e
+obter. Imagino que também seria fácil
+primitivar, mas era mais trabalhoso.
+Aqui é é imediato, é muito mais rápido,
+porque agora fica aqui e a primitiva de
+[roncando] E agora aqui fica o x² + 1
+sobre 2
+vezes e a derivada do arco tangente que
+é 1 sobre
+x² + 1. Só que então agora já estão a
+ver o que acontece, porque agora já
+posso cortar x² + 1,
+OK? E então fica finalmente fica
+x² + 1
+sobre 2.
+[roncando]
+Portanto, o arco tangente
+e portanto aqui fica aqui fica 1/2
+e portanto menos
+x
++ c não esquecer. às vezes esquece-me.
+Eh, OK. Muito, muito interessante esta
+técnica e realmente eh, tem um tremendo
+potencial. Eh, e é uma coisa que eu não
+não me lembro de usar isto. Eh,
+normalmente é sempre a primitivação por
+partes, era sempre o básico.
+Eh, é uma coisa que, pronto, agora
+depois de ver é uma coisa, é parece
+trivial e mas que traz um grande
+potencial aqui, acresce um grande
+potencial para a técnica da primitivação
+por partes. Vamos ver aqui mais um
+exemplo dois.
+Vamos ver, [roncando] por exemplo, aqui
+nós já vimos por eh nós já fizemos a
+primitivação do logaritmo de x, fizemos
+por por por primitivação por partes.
+Vamos ver agora a primitiva do logaritmo
+de de x + 2, por exemplo,
+x + 2. Nós já fizemos a primitivação por
+partes, porque que eu disse que aqui
+havia um.
+Phamos, pínhamos aqui o um, cuja a
+primitiva era x. Pronto. E agora é a
+mesma coisa. Eu vou pôr x, mas eu vou
+pôr x mais uma constante.
+Aqui é que está o o poder da técnica tá
+nisto. Em vez de colocar a primitiva
+genérica X, que é o mais que é a
+primitiva de 1, o mais imediato, eu vou
+pôr
+a primitiva mais uma constante x + c
+vezes o logaritmo
+menos a primitiva
+de x + c
+vezes a derivada
+1 sobre
+x + 2. Então, está-se mesmo a ver o que
+é que eu, qual é o c que eu preciso. É c
+= 2.
+Então fica x + 2
+logaritmo de x + 2.
+E aqui fica menos.
+Ora, corta, corta. Para ser igual a 2
+irá corta a corta -1 e portanto - x - x
++ c.
+OK?
+muito poderosa est esta esta este
+pequeno truque que é simplesmente
+pronto.
+Eh, é como vos digo,
+vamos eh só resolver mais um caso que um
+pouco mais mais complexo,
+um pouco mais trabalhoso. [roncando]
+Vamos ter aqui um integral
+de um arco tangente
+arco tangente
+de uma raiz.
+ra x + 1.
+Ora, primitivação por partes. Vou
+considerar aqui um.
+Portanto, vou primitivar esta primeira
+parte.
+x + c
+x a segunda
+arco tangente
+x + 1
+menos
+primitiva
+[roncando]
+x + c
+a derivada do arco tangente 1 sobre
+1
+o argumento ao quadrado que é x + 1.
+Regra da função composta derivada aqui.
+Ora isto vai dar 1/2
+x + 1
+a - 1/2. OK? Pronto, se não me enganei
+nas contas.
+[roncando] Ora,
+sim, senhora.
+E então temos aqui,
+aqui vai dar x + 2. Então qual é o c que
+eu que me interessa? É 2.
+Interessa-me aqui porque estamos a ver
+que aqui aqui faço um corte direto x + c
+com este x + 2 aqui. Este não, porque
+este vai dar o 1 sobre uma raiz.
+Portanto, aqui não não há corta corta
+nenhum. Mas aqui sim posso um corta a
+corta se eu escolher o c adequadamente c
+= 2. Então sim senhor. Eu vou escolher c
+= 2. Fica x + 2.
+X + 2.
+Parco tangente
+da raiz
+de x + 1
+menos a primitiva.
+x + 2 cortas x + 2 1/2 pode passar cá
+para fora
+e aqui tenho x
++ 1
+elevado a - 1/2
+dx
+e cuja primitiva é imediata que vai ser
+o o o vai ser o 1/ x + 1 elevado a 1/o
+[roncando]
+então isto fica
+x + 2,
+arcotangente
+√x + 1
+- 1/2.
+Eh, portanto, aqui há de ficar x + 1
+elevado a 1/2
+e cujo então um um 1/ posso apagar aqui
+este 1/2.
+Pronto, porque ao derivar o meio baixa
+eh mais C.
+Pronto, mas se não me enganei nas contas
+é isto. Deixa-me pôr aqui a raiz. Já, já
+aqui está tudo expresso em termos de
+raiz
+raiz
+x + 1.
+Ah,
+e pronto,
+dou para terminar este tutorial.
+Eh, aqui varremos várias áreas. Eu
+também não tenho, é, como vos digo, o de
+não tenho um domínio total, espero não
+desta desta desta deste desta desta
+temática. áreas da matemática onde eu
+estou mais à vontade. Estas áreas, esta
+área aqui e a regra de abin é uma coisa
+que eu trabalhei pouco, não me lembro de
+fazer grandes exercícios com isto.
+Portanto, esta é uma área onde eu estava
+um bocado mais verde. Também serviu para
+eu relembrar aqui ideias. Espero não ter
+cometido aqui grandes gafes.
+[roncando] Eh, mas pronto, espero que
+tenha sido útil para vocês.
+Eh, esta parte aqui inicial parece-me
+bastante intuitiva,
+não é coisa que esteja já a aparecer
+todos os dias, não é? Mas ajuda ajuda
+depois a compreender a forma mais geral,
+a forma mais geral da regra de libete.
+Estes dois primeiros termos são
+imediatos.
+O último termo também é imediato sempre
+e quando os limites de integração são
+constantes, porque então é uma coisa
+trivial, que é a primitiva da derivada é
+igual à derivada da primitiva.
+Mas pronto, vale o que vale. Esta é a
+regra de Bitos completa, OK?
+Cuja demonstração eu não a fiz aqui, mas
+poderão pesquisar na internet.
+Sim, senhor. Depois falamos então na na
+técnica de de Feman.
+Sim, senhor. Não, não, não, não vos
+posso dar um conselho específico de como
+determinar, como introduzir o um
+parâmetro T e onde introduzir. Eh,
+pronto, não é como vos digo, o objetivo
+sabemos qual é. Eu falamos nele aqui,
+mas
+confesso que não me parece assim uma
+coisa trivial. Não sei se haverá alguma
+regra, alguma tabela
+eh dos valores recomendados, não sei,
+seria uma questão a investigar, mas
+pronto, relembramos aqui um pouco a
+técnica de findement
+e finalmente abordamos aqui, fizemos
+esta
+revisitação
+à primitivação por partes, este pormenor
+bastante importante e que realmente dá
+muita mais potência à primitivação por
+partes. OK? podermos usar a primitiva
+com o C e depois escolher um C adequado.
+E pronto, despeço-me, espero que tenham
+gostado e até uma próxima oportunidade.
+Muito obrigado.
+

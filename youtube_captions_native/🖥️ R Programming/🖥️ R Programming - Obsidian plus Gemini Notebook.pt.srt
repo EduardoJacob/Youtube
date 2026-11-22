@@ -1,0 +1,3943 @@
+0:00:04.200,0:00:11.599
+Ora, sejam bem-vindos a mais um tutorial
+
+0:00:07.520,0:00:13.880
+de programação em R com R Studio.
+
+0:00:11.599,0:00:15.519
+Eh, hoje vou continuar aqui o tema do
+
+0:00:13.880,0:00:20.119
+Obsidian
+
+0:00:15.519,0:00:23.279
+eh integrando com o G Gemini Notebook.
+
+0:00:20.119,0:00:25.599
+OK? Vale lembrar que este produto aqui
+
+0:00:23.279,0:00:27.359
+mudou de nome. Ele era o antigo notebook
+
+0:00:25.599,0:00:29.920
+LM
+
+0:00:27.359,0:00:32.520
+e este ano mudou de nome para Gemini
+
+0:00:29.920,0:00:36.440
+Notebook. OK?
+
+0:00:32.520,0:00:41.719
+Há muitos tutoriais na
+
+0:00:36.440,0:00:44.800
+internet e no YouTube que tratam de
+
+0:00:41.719,0:00:47.160
+integrar as notas do Obsidian com
+
+0:00:44.800,0:00:52.079
+ferramentas de inteligência artificial,
+
+0:00:47.160,0:00:54.039
+como seja Cloud Code ou diversas outras.
+
+0:00:52.079,0:00:55.680
+OK?
+
+0:00:54.039,0:01:00.399
+Ora,
+
+0:00:55.680,0:01:00.399
+estamos aqui no no R Stúio.
+
+0:01:01.480,0:01:04.839
+Ora,
+
+0:01:03.039,0:01:07.799
+deixa-me olhar aqui para o meu guião
+
+0:01:04.839,0:01:10.280
+para ver os tópicos.
+
+0:01:07.799,0:01:12.439
+Ora bem, então primeiro quero mostrar
+
+0:01:10.280,0:01:14.799
+aqui um,
+
+0:01:12.439,0:01:17.880
+deixa-me abrir também aqui o o Obsidian.
+
+0:01:14.799,0:01:20.439
+Temos aqui o Obsidian.
+
+0:01:17.880,0:01:22.720
+OK.
+
+0:01:20.439,0:01:25.079
+Portanto, isto é a continuação do meu
+
+0:01:22.720,0:01:27.840
+outro tutorial que eu fiz sobre sobre o
+
+0:01:25.079,0:01:29.880
+Obsidian,
+
+0:01:27.840,0:01:32.520
+OK? Sempre dentro de de uma vertente da
+
+0:01:29.880,0:01:34.159
+da programação R, onde já vamos ver onde
+
+0:01:32.520,0:01:35.560
+é que o R é onde é que o R vai entrar,
+
+0:01:34.159,0:01:41.280
+mas não deixem de ver o meu outro
+
+0:01:35.560,0:01:44.439
+tutorial inicial sobre o Obsidian, OK?
+
+0:01:41.280,0:01:45.880
+Ora, sim, senhora.
+
+0:01:44.439,0:01:48.079
+Portanto, a primeira coisa que quero
+
+0:01:45.880,0:01:53.399
+mostrar aqui
+
+0:01:48.079,0:01:56.600
+é a nível de addons de browser. OK.
+
+0:01:53.399,0:01:59.119
+Ora, deixa puxar para aqui. Este é o
+
+0:01:56.600,0:02:00.439
+guião que
+
+0:01:59.119,0:02:03.079
+mais ou menos para não me esquecer dos
+
+0:02:00.439,0:02:05.000
+tópicos que eu quero falar,
+
+0:02:03.079,0:02:07.439
+onde eu uso o canfow, também é um
+
+0:02:05.000,0:02:09.399
+produto que eu já apresentei
+
+0:02:07.439,0:02:11.200
+free.
+
+0:02:09.399,0:02:13.440
+Portanto, vamos ver aqui a nível de
+
+0:02:11.200,0:02:16.440
+edads.
+
+0:02:13.440,0:02:16.440
+Ora,
+
+0:02:16.480,0:02:23.640
+a nível de edons temos
+
+0:02:20.319,0:02:27.080
+eu tinha usava um edon específico para
+
+0:02:23.640,0:02:29.319
+que era um chattorter.
+
+0:02:27.080,0:02:32.160
+OK.
+
+0:02:29.319,0:02:36.840
+Ora, eu usava um chat GPT Exported e
+
+0:02:32.160,0:02:40.879
+ainda uso que exporta para markdown,
+
+0:02:36.840,0:02:42.680
+mas eh quando eu s
+
+0:02:40.879,0:02:44.959
+quando eu clico aqui, quero exportar
+
+0:02:42.680,0:02:48.120
+para Mark, pois tenho que confirmar a
+
+0:02:44.959,0:02:51.400
+folder onde eu quero guardar, etc, etc.
+
+0:02:48.120,0:02:55.360
+OK? Tenho que tenho que guardar o este
+
+0:02:51.400,0:02:57.760
+markdown no na minha folder de Obsidian.
+
+0:02:55.360,0:03:00.599
+OK? Portanto, vale relembrar que eu uso
+
+0:02:57.760,0:03:02.680
+o browser opera, mas que uma das
+
+0:03:00.599,0:03:04.959
+vantagens do Opera é que ele é
+
+0:03:02.680,0:03:08.080
+compatível de modo geral com todos os
+
+0:03:04.959,0:03:10.319
+edons do Chrome, OK? Do Google Chrome.
+
+0:03:08.080,0:03:14.080
+Portanto, aí é muito versátil. Nós
+
+0:03:10.319,0:03:16.440
+quando procuramos um edu
+
+0:03:14.080,0:03:19.360
+na store
+
+0:03:16.440,0:03:22.000
+do próprio Opera, pois podemos
+
+0:03:19.360,0:03:25.640
+procurá-lo no
+
+0:03:22.000,0:03:27.519
+na no Chrome. OK.
+
+0:03:25.640,0:03:29.480
+Ora, qual é o novo edon que eu vos quero
+
+0:03:27.519,0:03:31.599
+aqui apresentar? É um edon da própria
+
+0:03:29.480,0:03:32.920
+Obsidian. Eu não conhecia isto, portanto
+
+0:03:31.599,0:03:35.400
+também comecei a trabalhar agora com o
+
+0:03:32.920,0:03:38.280
+Obsidian há pouco tempo. E, portanto, é
+
+0:03:35.400,0:03:43.159
+o o Obsidian, o Clipper, OK? Que está
+
+0:03:38.280,0:03:43.159
+aqui. Pronto. Este obsidian, o Clipper,
+
+0:03:43.840,0:03:48.840
+oo mais aqui na nestes chats, OK?
+
+0:03:47.239,0:03:51.480
+inteligência artificial, mas serve para
+
+0:03:48.840,0:03:53.879
+qualquer outro qualquer outra
+
+0:03:51.480,0:03:56.319
+outro site
+
+0:03:53.879,0:03:58.640
+onde eu vou fazer aqui uma demonstração.
+
+0:03:56.319,0:04:01.799
+Vamos imaginar que para já deixa mostrar
+
+0:03:58.640,0:04:04.159
+aqui a parte de configuração.
+
+0:04:01.799,0:04:07.000
+Ora, options.
+
+0:04:04.159,0:04:09.519
+OK. Portanto, aqui a parte
+
+0:04:07.000,0:04:12.159
+a parte de configuração,
+
+0:04:09.519,0:04:13.519
+nós temos nós usamos aqui uns templates.
+
+0:04:12.159,0:04:16.519
+Portanto, eu tenho aqui um template no
+
+0:04:13.519,0:04:19.040
+qual eu posso exportar HTML ou MarkD.
+
+0:04:16.519,0:04:20.600
+Normalmente tenho usado sempre markd.
+
+0:04:19.040,0:04:22.600
+OK.
+
+0:04:20.600,0:04:25.440
+Eh,
+
+0:04:22.600,0:04:28.680
+create new note.
+
+0:04:25.440,0:04:31.000
+OK, pronto. E aqui vai dizer
+
+0:04:28.680,0:04:33.639
+efetivamente qual é o volt de obsidian
+
+0:04:31.000,0:04:35.639
+que eu quero. Pois eu só tenho um volt
+
+0:04:33.639,0:04:37.600
+em todo o caso, por isso eu ponho aqui o
+
+0:04:35.639,0:04:39.919
+o nome do meu volt ou poderia ser o
+
+0:04:37.600,0:04:42.000
+lastet. Pronto, mas eu ponho o nome do
+
+0:04:39.919,0:04:44.320
+meu Volt.
+
+0:04:42.000,0:04:46.160
+Eh, e aqui ele pode gerar
+
+0:04:44.320,0:04:49.039
+automaticamente, cada vez que eu faça
+
+0:04:46.160,0:04:51.039
+uma captura aqui de uma nota,
+
+0:04:49.039,0:04:53.440
+eh, cada vez que eu exporto um markdown,
+
+0:04:51.039,0:04:55.840
+ele pode gerar automaticamente uma série
+
+0:04:53.440,0:04:58.280
+de properties que se que vai constituir
+
+0:04:55.840,0:04:59.840
+um yamel front, que também já vimos
+
+0:04:58.280,0:05:02.320
+isso, não deixem de ver o meu outro
+
+0:04:59.840,0:05:04.440
+tutorial. Eh, mas eu aqui não estou a
+
+0:05:02.320,0:05:07.560
+usar porque eu vou eu vou gerar esse
+
+0:05:04.440,0:05:10.000
+Yamal front usando a programação em R,
+
+0:05:07.560,0:05:13.000
+OK? Portanto, eu aqui apaguei tudo, mas
+
+0:05:10.000,0:05:15.240
+ele tem ele tem aqui um conjunto de de
+
+0:05:13.000,0:05:17.120
+properties.
+
+0:05:15.240,0:05:20.000
+Eh, deixa ver aqui. Não vejo onde é que
+
+0:05:17.120,0:05:22.360
+ele tá aqui o índice.
+
+0:05:20.000,0:05:23.440
+Eh, OK, agora não estou a ver onde é que
+
+0:05:22.360,0:05:26.080
+isso está, mas está alguns na
+
+0:05:23.440,0:05:28.720
+documentação. Dá para ver quais as
+
+0:05:26.080,0:05:30.639
+propties que ele tem na documentação do
+
+0:05:28.720,0:05:34.560
+próprio Obsidian, porque isto é um é um
+
+0:05:30.639,0:05:36.199
+é um edon oficial do Obsidian. OK. Sim,
+
+0:05:34.560,0:05:37.800
+senhor.
+
+0:05:36.199,0:05:40.080
+Eh,
+
+0:05:37.800,0:05:42.560
+ora bem,
+
+0:05:40.080,0:05:46.400
+então, imaginando que eu estou aqui, eu
+
+0:05:42.560,0:05:48.479
+estou aqui, o que acontece é que este
+
+0:05:46.400,0:05:50.560
+Adon tem temme dado problemas com o chat
+
+0:05:48.479,0:05:52.400
+CPT. Acho que não é bem compatível com o
+
+0:05:50.560,0:05:55.479
+chat CPT.
+
+0:05:52.400,0:05:57.840
+Eh, e portanto eu tenho usado mais aqui
+
+0:05:55.479,0:06:01.319
+com o Google Gemini,
+
+0:05:57.840,0:06:04.319
+OK? Por isso, vamos para aqui. OK. Vamos
+
+0:06:01.319,0:06:06.039
+fazer um exemplo. Vamos imaginar que eu
+
+0:06:04.319,0:06:09.919
+vou fazer aqui uma pesquisa e eu vou
+
+0:06:06.039,0:06:09.919
+dizer, olha, explain
+
+0:06:10.039,0:06:17.360
+explain e mixture
+
+0:06:14.000,0:06:17.360
+of experts.
+
+0:06:17.440,0:06:21.360
+Normalmente gosto mais, normalmente
+
+0:06:19.440,0:06:23.000
+trabalho sempre em inglês quando quando
+
+0:06:21.360,0:06:27.080
+estou a trabalhar em tecnologia ou a
+
+0:06:23.000,0:06:29.639
+fazer apontamentos. De um modo geral,
+
+0:06:27.080,0:06:31.080
+eh, trabalho sempre com tudo em inglês.
+
+0:06:29.639,0:06:34.080
+OK, então vamos ver o que é que ele faz
+
+0:06:31.080,0:06:34.080
+aqui.
+
+0:06:34.520,0:06:40.039
+OK. Sim, senhor. Pronto, aqui tem deu-me
+
+0:06:38.080,0:06:43.319
+aqui um determinado resultado mixer of
+
+0:06:40.039,0:06:45.960
+experts. Sim, senhor. Que é um conceito,
+
+0:06:43.319,0:06:47.560
+um conceito de inteligência artificial.
+
+0:06:45.960,0:06:49.840
+Ele aqui tá a falar is a machine
+
+0:06:47.560,0:06:51.319
+learning architect.
+
+0:06:49.840,0:06:53.280
+Ok.
+
+0:06:51.319,0:06:54.720
+Ora,
+
+0:06:53.280,0:06:56.879
+o que é que eu vou fazer? Então, eu vou
+
+0:06:54.720,0:06:59.440
+exportar. Ora, para exportar, podemos
+
+0:06:56.879,0:07:00.840
+exportar realmente toda esta nota. Ou
+
+0:06:59.440,0:07:03.360
+imaginando que eu queria apenas uma
+
+0:07:00.840,0:07:06.199
+seleção, eu poderia exportar, eu ao, se
+
+0:07:03.360,0:07:09.080
+eu selecionar aqui uma porção aqui, eu
+
+0:07:06.199,0:07:11.000
+posso exportar e ao clicar aqui, cá
+
+0:07:09.080,0:07:14.400
+está, que a parte que eu selecionei será
+
+0:07:11.000,0:07:18.479
+o que eu vou exportar. OK? Portanto, eu
+
+0:07:14.400,0:07:22.199
+posso eh exportar apenas uma seleção.
+
+0:07:18.479,0:07:24.639
+Eh, eu posso também eh o que é que eu
+
+0:07:22.199,0:07:28.479
+posso fazer aqui mais?
+
+0:07:24.639,0:07:30.520
+Posso chegar aqui e ver onde é que tá
+
+0:07:28.479,0:07:33.280
+isto aqui. Acho que é o highlighter. Eu
+
+0:07:30.520,0:07:34.879
+posso usar um highlighter, eu posso
+
+0:07:33.280,0:07:38.160
+fazer o highlight de algo de algumas
+
+0:07:34.879,0:07:40.240
+áreas, que isto também é espetacular.
+
+0:07:38.160,0:07:44.160
+Ok, pronto.
+
+0:07:40.240,0:07:44.160
+E agora acho que posso exportar.
+
+0:07:45.199,0:07:51.120
+OK, ele vai exportar tudo. Sim, senhor.
+
+0:07:47.919,0:07:52.879
+Então aqui eu vou
+
+0:07:51.120,0:07:56.720
+antes de exportar, deixa-me deixa-me
+
+0:07:52.879,0:07:56.720
+selecionar aqui o nome.
+
+0:07:58.800,0:08:01.800
+Ora,
+
+0:08:03.039,0:08:10.120
+deixa-me tirar aqui o highlighter, que o
+
+0:08:04.560,0:08:10.120
+highlighter agora ficou selecionado. OK.
+
+0:08:20.000,0:08:24.240
+OK, deixa-me. Ora, o que é que eu faço
+
+0:08:22.319,0:08:25.919
+então? Eu coloco o título. O título
+
+0:08:24.240,0:08:29.520
+normalmente, o título da nota gosto de
+
+0:08:25.919,0:08:31.800
+ser eu a especificar. OK?
+
+0:08:29.520,0:08:33.560
+Pronto, neste caso vou usar mixture of
+
+0:08:31.800,0:08:35.479
+experts.
+
+0:08:33.560,0:08:39.159
+Sim, senhor.
+
+0:08:35.479,0:08:40.880
+Eh, depois tenho aqui o é o volt, tenho
+
+0:08:39.159,0:08:43.599
+aqui o o template. É o template
+
+0:08:40.880,0:08:46.919
+markdown, como estamos a ver. OK. Mark
+
+0:08:43.599,0:08:46.919
+down HTML.
+
+0:08:46.959,0:08:51.600
+OK. O volta. Depois tenho aqui a a
+
+0:08:48.959,0:08:53.920
+folder default. Pronto, agora vou usar
+
+0:08:51.600,0:08:55.320
+aí. Pronto, aí eu tenho que conhecer
+
+0:08:53.920,0:08:57.519
+quais as folders que eu tenho no
+
+0:08:55.320,0:08:59.360
+Obsidian, não é? São que estão aqui que
+
+0:08:57.519,0:09:02.120
+nós estamos aqui a ver.
+
+0:08:59.360,0:09:03.480
+Ora, é to obsidian. Pronto. E, portanto,
+
+0:09:02.120,0:09:05.560
+aqui tem a vantagem que ele
+
+0:09:03.480,0:09:09.800
+automaticamente
+
+0:09:05.560,0:09:11.480
+ele e pois exporta diretamente, abre-me
+
+0:09:09.800,0:09:12.920
+o obsidian, se for caso disso, se o
+
+0:09:11.480,0:09:15.079
+obsidian tiver fechado, ele abre-me logo
+
+0:09:12.920,0:09:17.399
+o obsidian e mostra-me aqui o resultado.
+
+0:09:15.079,0:09:19.279
+OK? Pronto. Portanto, esta parte aqui é
+
+0:09:17.399,0:09:20.839
+espetacular. Portanto, é muito mais
+
+0:09:19.279,0:09:22.640
+rápido do que do que estar a usar
+
+0:09:20.839,0:09:25.320
+qualquer outro edadon, no qual eu tenha
+
+0:09:22.640,0:09:28.320
+que dizer um 610, não é? Pronto, aqui é
+
+0:09:25.320,0:09:31.519
+direto porque aqui já grava diretamente
+
+0:09:28.320,0:09:34.040
+no no sítio correto. OK. Sim, senhora.
+
+0:09:31.519,0:09:35.519
+Pronto, este era o edon que que vos
+
+0:09:34.040,0:09:37.079
+queria mostrar e que eu tenho comecei a
+
+0:09:35.519,0:09:38.880
+usar.
+
+0:09:37.079,0:09:41.320
+OK.
+
+0:09:38.880,0:09:44.880
+Ora, deixa-me ver aqui no guião o que é
+
+0:09:41.320,0:09:44.880
+que temos aqui mais.
+
+0:09:52.360,0:09:55.800
+OK.
+
+0:09:54.240,0:09:58.279
+Pronto. Sim, senhor. Deixa-me ver o que
+
+0:09:55.800,0:10:01.200
+é que vamos aqui ver mais. O pronto,
+
+0:09:58.279,0:10:04.160
+agora vamos tratar de eh como exportar
+
+0:10:01.200,0:10:06.519
+para PDF. Notas. Como exportar notas
+
+0:10:04.160,0:10:10.320
+para PDF. OK. Esta parte também porque
+
+0:10:06.519,0:10:12.720
+depois isso vai vai ser vai ser usado no
+
+0:10:10.320,0:10:14.040
+Gemini Notebook.
+
+0:10:12.720,0:10:16.320
+Portanto, o que é que nós temos aqui?
+
+0:10:14.040,0:10:19.760
+Então, ele tem, por exemplo, esta nota
+
+0:10:16.320,0:10:22.880
+que acabamos de gerá-la aqui. OK. Eu
+
+0:10:19.760,0:10:24.880
+posso exportar eh
+
+0:10:22.880,0:10:28.040
+aqui, acho que é aqui, eu posso
+
+0:10:24.880,0:10:30.839
+exportá-la aqui para PDF.
+
+0:10:28.040,0:10:33.760
+OK, pronto. Mas aqui será uma nota uma a
+
+0:10:30.839,0:10:35.600
+uma. Eh, portanto, tal como vem nativo
+
+0:10:33.760,0:10:38.440
+no produto do Obsían, pelo que eu
+
+0:10:35.600,0:10:42.120
+percebi, ela só traz nativamente, só
+
+0:10:38.440,0:10:43.720
+traz só permite exportar nota uma a uma.
+
+0:10:42.120,0:10:45.360
+O que acontece é que eu, entretanto, já
+
+0:10:43.720,0:10:49.160
+instalei um plugin que me permite
+
+0:10:45.360,0:10:53.240
+exportar eh uma folder completa de de
+
+0:10:49.160,0:10:54.959
+uma assentada. OK. Pronto. Eu aqui eu eu
+
+0:10:53.240,0:10:57.279
+posso exportar aqui esta nota só como
+
+0:10:54.959,0:11:00.639
+exemplo.
+
+0:10:57.279,0:11:02.000
+Ora, mixture ofs. Ok,
+
+0:11:00.639,0:11:04.320
+pronto. E eles exporta e abre
+
+0:11:02.000,0:11:05.600
+automaticamente aqui no no Adobre. OK.
+
+0:11:04.320,0:11:07.480
+Pronto, isto é bastante bastante
+
+0:11:05.600,0:11:09.600
+bastante útil, bastante prático,
+
+0:11:07.480,0:11:11.959
+bastante poderoso, mas é só uma nota.
+
+0:11:09.600,0:11:13.600
+Pronto, portanto não não serve os meus
+
+0:11:11.959,0:11:17.959
+interesses.
+
+0:11:13.600,0:11:20.000
+Pronto, o que acontece é que eh podemos
+
+0:11:17.959,0:11:22.240
+usar aqui
+
+0:11:20.000,0:11:25.720
+um plugin
+
+0:11:22.240,0:11:28.519
+eh para exportar uma folder inteira.
+
+0:11:25.720,0:11:30.440
+Pronto. E então temos aqui eh nas
+
+0:11:28.519,0:11:33.480
+options,
+
+0:11:30.440,0:11:36.480
+nós temos aqui a nível dos community
+
+0:11:33.480,0:11:36.480
+plugins
+
+0:11:36.519,0:11:41.800
+e o que eu já instalei
+
+0:11:39.639,0:11:45.320
+e portanto e essa parte que eu já
+
+0:11:41.800,0:11:48.680
+instalei aqui é o badge PDF Exporter.
+
+0:11:45.320,0:11:52.519
+OK? Pronto. Então, o B PDF exporta
+
+0:11:48.680,0:11:54.040
+permite-me que eu possa chegar aqui,
+
+0:11:52.519,0:11:56.240
+eh, vamos imaginar aqui, por exemplo,
+
+0:11:54.040,0:11:59.040
+aqui no AI
+
+0:11:56.240,0:12:02.920
+export folder do PDF,
+
+0:11:59.040,0:12:05.240
+OK? One combined, ele pode exportar one
+
+0:12:02.920,0:12:07.959
+combined ou one pdf per note. Eu vou
+
+0:12:05.240,0:12:12.360
+usar one combined.
+
+0:12:07.959,0:12:16.720
+Includo subfolders, note
+
+0:12:12.360,0:12:20.920
+alfabétic order. Ok.
+
+0:12:16.720,0:12:24.240
+Advance adopt most users. Ok. 32 notas.
+
+0:12:20.920,0:12:26.800
+Ok. Vamos exportar.
+
+0:12:24.240,0:12:29.800
+Ora, exportar para a OK, vou exportar
+
+0:12:26.800,0:12:29.800
+aqui.
+
+0:12:30.959,0:12:37.320
+Sim, senhor. Ele tá aqui a processar.
+
+0:12:34.680,0:12:38.839
+OK.
+
+0:12:37.320,0:12:42.079
+Isto porque agora daqui a bocado quando
+
+0:12:38.839,0:12:46.040
+formos para o Gemini Notebook nós vamos
+
+0:12:42.079,0:12:48.480
+ter duas abordagens. Portanto, nós ou eu
+
+0:12:46.040,0:12:50.399
+poderia, eu posso importar as notas a
+
+0:12:48.480,0:12:52.959
+nível de markdown
+
+0:12:50.399,0:12:55.240
+ou eu posso importá-las a nível de PDF.
+
+0:12:52.959,0:12:58.519
+E eu optei por PDF. Eu depois eu já vou
+
+0:12:55.240,0:13:01.279
+explicar. Pronto. Sim, senhor. Eu aqui,
+
+0:12:58.519,0:13:04.720
+então ele já exportou. Show in folder ou
+
+0:13:01.279,0:13:07.920
+open PDF. Portanto, OK.
+
+0:13:04.720,0:13:09.320
+Pronto, ela tem aqui, tem aqui o índice.
+
+0:13:07.920,0:13:12.240
+Sim, senhor. Portanto, como estão a ver,
+
+0:13:09.320,0:13:16.240
+esta este plugin é bastante poderoso,
+
+0:13:12.240,0:13:18.800
+onde efetivamente ele
+
+0:13:16.240,0:13:21.800
+exportou aqui as notas todas. Sim,
+
+0:13:18.800,0:13:21.800
+senhor.
+
+0:13:22.079,0:13:26.040
+Ora, mais coisas.
+
+0:13:27.079,0:13:34.480
+Obsidian. Deixa ver aqui o guião que eu
+
+0:13:30.519,0:13:37.199
+tenho aqui. Obsidian plugin, notebook
+
+0:13:34.480,0:13:39.000
+navigator e folder notes. OK.
+
+0:13:37.199,0:13:41.560
+Então, eu comecei a usar aqui um um
+
+0:13:39.000,0:13:43.320
+plugin que é do dos plugins mais
+
+0:13:41.560,0:13:44.880
+conhecidos do Obsidian, que é o Notebook
+
+0:13:43.320,0:13:47.440
+Navigator.
+
+0:13:44.880,0:13:52.160
+Portanto, o notebook esta, esta aqui é a
+
+0:13:47.440,0:13:53.720
+visão padrão nativa que vem do produto.
+
+0:13:52.160,0:13:55.360
+E eu comecei a usar o Notebook
+
+0:13:53.720,0:13:57.240
+Navigator.
+
+0:13:55.360,0:14:00.959
+Pronto. O notebook Navigator divide-me
+
+0:13:57.240,0:14:02.800
+aqui isto aqui em duas secções, onde eu
+
+0:14:00.959,0:14:06.240
+tenho aqui
+
+0:14:02.800,0:14:12.120
+a as folders e ele abre-me aqui esta
+
+0:14:06.240,0:14:14.759
+esta coluna onde tem as notas, OK?
+
+0:14:12.120,0:14:16.199
+E
+
+0:14:14.759,0:14:18.160
+posso ordenar aqui as notas de várias
+
+0:14:16.199,0:14:20.040
+maneiras. Posso só ver, por exemplo, as
+
+0:14:18.160,0:14:22.360
+últimas que eu consultei ou as notas
+
+0:14:20.040,0:14:24.000
+mais recentes.
+
+0:14:22.360,0:14:27.600
+Ora, por exemplo, aqui, deixa ver se eu
+
+0:14:24.000,0:14:31.519
+me remo como é. Ora,
+
+0:14:27.600,0:14:31.519
+show from subfolders.
+
+0:14:32.360,0:14:35.279
+Ora,
+
+0:14:34.040,0:14:38.279
+mas agora não me estou a recordar como é
+
+0:14:35.279,0:14:43.040
+que se faz isto.
+
+0:14:38.279,0:14:43.040
+Como é que se reordena aqui por outra?
+
+0:14:43.440,0:14:46.440
+Ora,
+
+0:14:47.920,0:14:53.279
+bom, agora não me recordo como é que se
+
+0:14:49.600,0:14:55.440
+faz isso, mas pronto. Mas e eu comecei a
+
+0:14:53.279,0:14:57.839
+usar este plugin
+
+0:14:55.440,0:15:00.040
+e gostei dele porque, por exemplo, o que
+
+0:14:57.839,0:15:02.880
+ele faz é que quando eu vejo aqui a
+
+0:15:00.040,0:15:05.399
+lista das notas, ele apanha-me uma
+
+0:15:02.880,0:15:07.120
+imagem que está dentro, a primeira
+
+0:15:05.399,0:15:09.160
+imagem que esteja dentro da nota e eu
+
+0:15:07.120,0:15:10.959
+coloca aqui como como este thumbnail.
+
+0:15:09.160,0:15:12.480
+Portanto, eu gostei aqui deste realmente
+
+0:15:10.959,0:15:14.120
+este visual.
+
+0:15:12.480,0:15:15.720
+Isto permite-me ver, por exemplo, que eu
+
+0:15:14.120,0:15:18.240
+tenho aqui uma nota nova, que é esta
+
+0:15:15.720,0:15:20.440
+aqui, que ainda não tem aqui o
+
+0:15:18.240,0:15:22.720
+thumbnail, porque eu ainda não processei
+
+0:15:20.440,0:15:26.320
+isto na minha linguagem R, OK? Que já
+
+0:15:22.720,0:15:28.800
+vamos ver a seguir onde eh realmente me
+
+0:15:26.320,0:15:32.680
+ele e faz um processamento sobre todas
+
+0:15:28.800,0:15:35.120
+as notas. OK? Pronto. Sim, senhor. Mas
+
+0:15:32.680,0:15:37.079
+este, portanto, este é outra coisa que
+
+0:15:35.120,0:15:39.880
+eu usava, se vocês virem o meu tutorial
+
+0:15:37.079,0:15:43.560
+antigo, eu usava um índice que ainda
+
+0:15:39.880,0:15:45.240
+uso, mas o índice eu tinha, eu tinha
+
+0:15:43.560,0:15:49.120
+antigamente. Por exemplo, vamos imaginar
+
+0:15:45.240,0:15:51.839
+aqui, por exemplo, no no knowledge aqui,
+
+0:15:49.120,0:15:55.600
+eu usava um índice que era um underscore
+
+0:15:51.839,0:15:58.920
+knowledge para ficar aqui à cabeça.
+
+0:15:55.600,0:16:01.319
+O que acontece é que agora retirei este
+
+0:15:58.920,0:16:03.480
+eu tenho aqui o índice,
+
+0:16:01.319,0:16:05.959
+tenho aqui o índice aqui que eu posso
+
+0:16:03.480,0:16:07.120
+navegar por este índice onde tem estes
+
+0:16:05.959,0:16:09.160
+summaries que foram gerados por
+
+0:16:07.120,0:16:11.959
+inteligência artificial que vejam vejam
+
+0:16:09.160,0:16:14.519
+o meu tutorial anterior.
+
+0:16:11.959,0:16:17.360
+A, mas agora eu vi que esta
+
+0:16:14.519,0:16:20.120
+funcionalidade já estava
+
+0:16:17.360,0:16:23.120
+mais ou menos coberta neste plugin do
+
+0:16:20.120,0:16:25.920
+notebook naigator, onde
+
+0:16:23.120,0:16:28.440
+ele usa por default, se existir uma nota
+
+0:16:25.920,0:16:30.600
+com o mesmo nome da folder, o que é aqui
+
+0:16:28.440,0:16:32.639
+o caso, então ele já trata essa nota
+
+0:16:30.600,0:16:34.959
+automaticamente como sendo um índice. Cá
+
+0:16:32.639,0:16:37.399
+está aqui o índice para a folder, por
+
+0:16:34.959,0:16:40.199
+isso é que eu aqui precisei de tirar o
+
+0:16:37.399,0:16:44.040
+underscore e agora pois passei a usar
+
+0:16:40.199,0:16:46.680
+como índice e este o padrão o padrão que
+
+0:16:44.040,0:16:49.959
+é adotado por este plugin do notebook
+
+0:16:46.680,0:16:51.880
+naigator. OK? Não sei se eu me explico.
+
+0:16:49.959,0:16:55.199
+Ok?
+
+0:16:51.880,0:16:58.639
+Ora, que é o que ele chama o folder
+
+0:16:55.199,0:17:01.040
+notes. O folder notes é a a nota da
+
+0:16:58.639,0:17:04.120
+folder. E por isso é que a folder fica
+
+0:17:01.040,0:17:05.839
+aqui. A folder, a folder fica aqui
+
+0:17:04.120,0:17:08.120
+clicável
+
+0:17:05.839,0:17:10.760
+sempre e quando contém uma nota lá
+
+0:17:08.120,0:17:13.120
+dentro da folder que tem o mesmo nome da
+
+0:17:10.760,0:17:15.280
+própria folder. OK? Pronto, são que são
+
+0:17:13.120,0:17:17.120
+os índices. Por isso eu tenho aqui os
+
+0:17:15.280,0:17:19.520
+índices das minhas foldas, como vocês
+
+0:17:17.120,0:17:22.240
+estão a ver, tudo devidamente
+
+0:17:19.520,0:17:24.959
+classificado com os logotipos.
+
+0:17:22.240,0:17:27.319
+OK? Pronto. Onde estão os logotipos?
+
+0:17:24.959,0:17:30.760
+Pronto, os logotipos, tá? é um padrão
+
+0:17:27.319,0:17:33.919
+que eu adotei que que onde eu tenho os
+
+0:17:30.760,0:17:37.640
+os pequenos thumbnails. Podemos ver aqui
+
+0:17:33.919,0:17:43.360
+show in system explorer. Portanto, e eu
+
+0:17:37.640,0:17:46.480
+aqui tenho nos attachments, eu tenho eh,
+
+0:17:43.360,0:17:49.520
+portanto, estes pequenos thumbnails que
+
+0:17:46.480,0:17:52.440
+têm o mesmo nome da folder,
+
+0:17:49.520,0:17:54.760
+então serão usados automaticamente
+
+0:17:52.440,0:17:56.960
+como um thumbnail dentro da própria
+
+0:17:54.760,0:17:59.799
+folder. Por exemplo, aqui no knowledge,
+
+0:17:56.960,0:18:02.640
+eu tenho aqui este thumbnail.
+
+0:17:59.799,0:18:05.120
+OK? Pronto. Sim, senhor. Isso são tudo
+
+0:18:02.640,0:18:07.840
+convenções que eu adotei equipamentei na
+
+0:18:05.120,0:18:09.840
+programação em linguagem R. OK? Vejam o
+
+0:18:07.840,0:18:14.159
+meu tutorial anterior e e vamos voltar
+
+0:18:09.840,0:18:15.799
+agora na Já num momento. Vamos voltar a
+
+0:18:14.159,0:18:17.840
+relembrar esse esse tema. Já vamos para
+
+0:18:15.799,0:18:22.080
+o R Stúio.
+
+0:18:17.840,0:18:23.360
+OK. Sim, senhor. Ora,
+
+0:18:22.080,0:18:26.200
+penso que esta parte então aqui tá
+
+0:18:23.360,0:18:28.280
+coberta. Pronto, isso. Vejam agora,
+
+0:18:26.200,0:18:30.320
+vejam tutorials se quiserem explorar
+
+0:18:28.280,0:18:32.080
+mais este
+
+0:18:30.320,0:18:35.240
+plugin do notebook naveigator que é
+
+0:18:32.080,0:18:35.240
+muito famoso.
+
+0:18:35.280,0:18:40.559
+Sim, senhor. Vamos então agora passar
+
+0:18:36.919,0:18:42.720
+para dentro da linguagem R.
+
+0:18:40.559,0:18:44.679
+Ora, dentro da linguagem R já já tenho
+
+0:18:42.720,0:18:47.480
+aqui
+
+0:18:44.679,0:18:50.159
+já tenho aqui aberto o projeto
+
+0:18:47.480,0:18:51.840
+o projeto Obsidian.
+
+0:18:50.159,0:18:55.000
+OK.
+
+0:18:51.840,0:18:56.559
+Não se esqueçam que
+
+0:18:55.000,0:18:58.240
+eh
+
+0:18:56.559,0:19:00.240
+estes projetos quando eu os apresento
+
+0:18:58.240,0:19:03.799
+aqui no YouTube, eles têm sempre uma
+
+0:19:00.240,0:19:06.360
+página de Gitubar o código. Neste caso,
+
+0:19:03.799,0:19:08.240
+vou-vos mostrar aqui.
+
+0:19:06.360,0:19:11.000
+Browse Gitub. Ele abre aqui a minha
+
+0:19:08.240,0:19:12.559
+página de Gitub. OK, cá está ela.
+
+0:19:11.000,0:19:15.360
+Portanto, podem ir buscar aqui todo o
+
+0:19:12.559,0:19:17.600
+código em programação em R.
+
+0:19:15.360,0:19:21.000
+OK.
+
+0:19:17.600,0:19:22.960
+Eh, e se não se não gostam de R, pois
+
+0:19:21.000,0:19:24.520
+paciência. Podem tirar daqui as ideias e
+
+0:19:22.960,0:19:25.840
+implementar na n alguma outra de
+
+0:19:24.520,0:19:28.200
+linguagem de programação que vocês
+
+0:19:25.840,0:19:30.559
+gostem mais, como seja o Python ou
+
+0:19:28.200,0:19:33.240
+qualquer outra. OK? Pelo menos as ideias
+
+0:19:30.559,0:19:34.799
+que eu vou aqui partilhar e que tenho
+
+0:19:33.240,0:19:36.240
+partilhado os meus tutoriais podem
+
+0:19:34.799,0:19:38.960
+poderão ser implementar de outra
+
+0:19:36.240,0:19:40.520
+maneira, de alguma outra forma. OK? É
+
+0:19:38.960,0:19:42.039
+como eu digo, já tenho dito várias
+
+0:19:40.520,0:19:45.880
+vezes, o mais importante aqui é passar
+
+0:19:42.039,0:19:48.799
+os conceitos e passar-vos a inspiração,
+
+0:19:45.880,0:19:50.480
+OK? para vocês poderem implementar estas
+
+0:19:48.799,0:19:53.080
+ideias ou tirar daqui ideias e
+
+0:19:50.480,0:19:54.880
+implementar à vossa maneira.
+
+0:19:53.080,0:19:57.880
+Ora bem,
+
+0:19:54.880,0:19:59.760
+o que é que nós temos então aqui?
+
+0:19:57.880,0:20:01.200
+Eh, isto já vimos no meu outro tutorial,
+
+0:19:59.760,0:20:04.440
+agora está as coisas estão um bocadinho
+
+0:20:01.200,0:20:05.960
+aqui mais foram aperfeiçoadas. Portanto,
+
+0:20:04.440,0:20:08.080
+eu carrego aqui as minhas as minhas
+
+0:20:05.960,0:20:10.919
+funções.
+
+0:20:08.080,0:20:13.120
+OK, cá estão elas.
+
+0:20:10.919,0:20:15.480
+carrega as funções. Mais uma vez, não
+
+0:20:13.120,0:20:17.039
+vou perder aqui muito tempo a a mostrar
+
+0:20:15.480,0:20:19.720
+código porque não, isso não é o objetivo
+
+0:20:17.039,0:20:22.159
+do tutorial, não é ensinar a linguagem R
+
+0:20:19.720,0:20:23.280
+em si, é apenas mostrar os exemplos,
+
+0:20:22.159,0:20:24.880
+mostrar os conceitos, as
+
+0:20:23.280,0:20:26.559
+funcionalidades.
+
+0:20:24.880,0:20:28.679
+Depois quem quiser aprofundar isto, pode
+
+0:20:26.559,0:20:32.159
+ir ao à minha página de Gitub e pode
+
+0:20:28.679,0:20:33.280
+pode analisar o código mais detalhe.
+
+0:20:32.159,0:20:35.240
+Portanto, eu tenho aqui tenho que
+
+0:20:33.280,0:20:39.760
+indicar onde está a minha pasta do meu
+
+0:20:35.240,0:20:42.640
+volt de Obsidian. OK? Sim, senhor.
+
+0:20:39.760,0:20:44.880
+Eh, e agora digo, OK, eu quero processar
+
+0:20:42.640,0:20:46.520
+todas as folders,
+
+0:20:44.880,0:20:48.520
+as subfolders que estão dentro do meu
+
+0:20:46.520,0:20:51.360
+volt,
+
+0:20:48.520,0:20:53.480
+eh, mas removendo as folders de
+
+0:20:51.360,0:20:55.960
+trabalho, as que começam por ponto ou as
+
+0:20:53.480,0:20:58.000
+ou as que começam por underscore. Sim,
+
+0:20:55.960,0:20:59.559
+senhor.
+
+0:20:58.000,0:21:01.520
+Pronto. Agora, o que é que eu tenho?
+
+0:20:59.559,0:21:05.200
+Tenho aqui uma área onde quando eu
+
+0:21:01.520,0:21:07.480
+preciso de remover o front matter, eu
+
+0:21:05.200,0:21:09.919
+removo aqui, não é? Agora o caso, eu não
+
+0:21:07.480,0:21:11.480
+preciso, eu não vou fazer isto. OK?
+
+0:21:09.919,0:21:14.240
+Vejam o meu tutorial anterior. Mais uma
+
+0:21:11.480,0:21:16.480
+vez eu explica isso ao pormenor.
+
+0:21:14.240,0:21:19.240
+O que eu vou agora aqui fazer? Porque é
+
+0:21:16.480,0:21:21.039
+que eu vou fazer agora? Porque quando se
+
+0:21:19.240,0:21:24.720
+eu venho aqui ao Obsidian e eu venho ver
+
+0:21:21.039,0:21:26.799
+aqui o estado da minha tri, OK? Eu vejo
+
+0:21:24.720,0:21:31.279
+que tenho
+
+0:21:26.799,0:21:33.679
+eh tenho aqui as minhas folders eh
+
+0:21:31.279,0:21:35.720
+mas tenho aqui alguns algumas notas que
+
+0:21:33.679,0:21:37.760
+estão desgarradas que são notas novas e
+
+0:21:35.720,0:21:39.200
+portanto ainda não e vejo que eu tenho
+
+0:21:37.760,0:21:41.520
+que tenho colocado aqui algumas notas
+
+0:21:39.200,0:21:43.279
+novas mas que estão desgarradas, ainda
+
+0:21:41.520,0:21:46.240
+não foram processadas e ainda não estão
+
+0:21:43.279,0:21:48.960
+devidamente analisadas e e agregadas
+
+0:21:46.240,0:21:50.600
+dentro do índice dos índices. OK?
+
+0:21:48.960,0:21:53.760
+Pronto, é o caso destas notas aqui
+
+0:21:50.600,0:21:56.600
+soltas. Tá aqui mais esta, mais esta
+
+0:21:53.760,0:22:00.679
+aqui. OK, são notas notas soltas que eu
+
+0:21:56.600,0:22:02.559
+tenho aqui. Pronto. Então, eh, o meu
+
+0:22:00.679,0:22:04.960
+modos operand é o seguinte, portanto, de
+
+0:22:02.559,0:22:10.799
+vez em quando eu venho aqui à linguagem
+
+0:22:04.960,0:22:12.240
+R e vou reprocessar todo o meu volt. OK?
+
+0:22:10.799,0:22:15.600
+Portanto, então, a primeira coisa, eu
+
+0:22:12.240,0:22:18.360
+vou gerar o Yama front, onde ele ainda
+
+0:22:15.600,0:22:21.600
+não tenha sido gerado. Para isso, eu
+
+0:22:18.360,0:22:24.720
+tenho aqui, tenho aqui o meu template.
+
+0:22:21.600,0:22:26.559
+Já vos mostrei isso. Eh, o que,
+
+0:22:24.720,0:22:29.520
+portanto, aqui o template, onde vai ter
+
+0:22:26.559,0:22:32.120
+aqui uma tag default, vai carregar aqui
+
+0:22:29.520,0:22:34.919
+o thumbnail, o thumbnail dinâmico, como
+
+0:22:32.120,0:22:37.159
+vocês estão a ver, folder name. Eh,
+
+0:22:34.919,0:22:39.279
+depois adotei aqui este este esta
+
+0:22:37.159,0:22:42.080
+convenção. Coloquei aqui uma um
+
+0:22:39.279,0:22:45.080
+comentário de de Markdown
+
+0:22:42.080,0:22:47.679
+porque é uma forma mais simples de
+
+0:22:45.080,0:22:51.120
+quando eu quero remover
+
+0:22:47.679,0:22:53.840
+os se eu quiser remover os fronts eu,
+
+0:22:51.120,0:22:55.360
+portanto, eu começo a pesquisar o Fiz o
+
+0:22:53.840,0:22:57.559
+meu scrit em R, onde eu vou vou
+
+0:22:55.360,0:22:59.960
+pesquisar e quando encontra este este
+
+0:22:57.559,0:23:02.360
+marcador, portanto, ele já sabe que é o
+
+0:22:59.960,0:23:06.600
+fim e ele retira retira toda esta parte
+
+0:23:02.360,0:23:08.600
+dentro da nota. Pronto. Sim, senhora.
+
+0:23:06.600,0:23:11.080
+E, portanto, este este é o template
+
+0:23:08.600,0:23:12.919
+default, o qual depois gera os templates
+
+0:23:11.080,0:23:15.440
+específicos. Imaginem, por exemplo, este
+
+0:23:12.919,0:23:16.960
+template específico de knowledge.
+
+0:23:15.440,0:23:18.960
+Portanto, aqui já é um template
+
+0:23:16.960,0:23:20.520
+específico, já tem a tag e já tem aqui o
+
+0:23:18.960,0:23:23.240
+nome.
+
+0:23:20.520,0:23:26.279
+OK? Pronto, está mais ou menos explicado
+
+0:23:23.240,0:23:28.720
+no meu outro tutorial, mas aqui e
+
+0:23:26.279,0:23:30.919
+efetivamente
+
+0:23:28.720,0:23:32.120
+tem um implement estas melhorias e estas
+
+0:23:30.919,0:23:35.480
+alterações. Portanto, aqui o que eu vou
+
+0:23:32.120,0:23:39.520
+fazer agora é vou gerar aqui, vou
+
+0:23:35.480,0:23:43.240
+inserir o front matter. Pronto, cá está.
+
+0:23:39.520,0:23:44.520
+Ou melhor, vou gerar os os fronts.
+
+0:23:43.240,0:23:46.120
+Neste caso, não fazia falta porque eles
+
+0:23:44.520,0:23:47.799
+já estavam todos gerados, mas pronto,
+
+0:23:46.120,0:23:49.720
+não há problema. Ele gerou-os aqui todos
+
+0:23:47.799,0:23:52.679
+outra vez, como vocês estão a ver aqui,
+
+0:23:49.720,0:23:54.279
+um para cada folder, OK? Não houve
+
+0:23:52.679,0:23:56.440
+alterações, mas como isto é rápido,
+
+0:23:54.279,0:23:59.159
+muito rápido, portanto aqui não, ele
+
+0:23:56.440,0:24:01.320
+aqui ele aqui eh gera sempre por cima e
+
+0:23:59.159,0:24:04.000
+esmaga sempre.
+
+0:24:01.320,0:24:07.360
+OK? Pronto. Eh, agora o que é que eu
+
+0:24:04.000,0:24:08.960
+tenho aqui? Tenho as as sumarizations
+
+0:24:07.360,0:24:10.880
+as sumarizations com inteligência
+
+0:24:08.960,0:24:13.440
+artificial, onde neste caso eu vou usar
+
+0:24:10.880,0:24:15.400
+o Gemini porque porque é porque é mais
+
+0:24:13.440,0:24:16.720
+rápido. Também poderia usar um modelo
+
+0:24:15.400,0:24:18.760
+local.
+
+0:24:16.720,0:24:20.440
+Mas sempre e quando eu posso usar um
+
+0:24:18.760,0:24:21.880
+modelo na cloud, eu opto por usar o
+
+0:24:20.440,0:24:25.399
+modelo na cloud porque porque é mais
+
+0:24:21.880,0:24:27.399
+rápido. OK? Y e portanto eu uso e só
+
+0:24:25.399,0:24:31.279
+quando é um processo muito massivo, que
+
+0:24:27.399,0:24:33.120
+eu veja que eh vou esgotar os créditos
+
+0:24:31.279,0:24:36.760
+ou não vou ter créditos suficientes para
+
+0:24:33.120,0:24:39.640
+usar um serviço gratuito na cloud.
+
+0:24:36.760,0:24:41.480
+Então, nesse caso, eu recorro aqui a uma
+
+0:24:39.640,0:24:47.279
+IA local que eu tenho na minha máquina,
+
+0:24:41.480,0:24:50.360
+seja no seja no Olama ou no LM Studio.
+
+0:24:47.279,0:24:53.679
+OK? Pronto. Então aqui vamos vou gerar
+
+0:24:50.360,0:24:55.600
+as sumarizations onde elas faltam.
+
+0:24:53.679,0:24:58.240
+Aqui tenho como é que o como é que eu
+
+0:24:55.600,0:25:00.200
+sei as sumarizations que faltam. Tenho
+
+0:24:58.240,0:25:02.520
+aqui uma folder de sumarizations. Cá
+
+0:25:00.200,0:25:04.080
+estão elas. E onde tenho as
+
+0:25:02.520,0:25:05.520
+sumarizations?
+
+0:25:04.080,0:25:08.799
+Cá está.
+
+0:25:05.520,0:25:10.640
+onde tenho para para cada nota tenho uma
+
+0:25:08.799,0:25:12.399
+sumarization, tá aqui, que é que é,
+
+0:25:10.640,0:25:15.960
+portanto, é o resumo gerado por
+
+0:25:12.399,0:25:18.039
+inteligência artificial, é um summary.
+
+0:25:15.960,0:25:20.440
+Há aqui um summary onde eu tenho aqui,
+
+0:25:18.039,0:25:23.279
+por exemplo, Maxwords
+
+0:25:20.440,0:25:25.760
+e com 40 palavras, que é o default.
+
+0:25:23.279,0:25:28.640
+Portanto, o summary vai ser com o
+
+0:25:25.760,0:25:30.559
+tamanho que eu quiser. OK? Pronto. Neste
+
+0:25:28.640,0:25:35.440
+caso, vou usar o default no máximo até
+
+0:25:30.559,0:25:38.080
+40 palavras. Pronto, cá está. E ele,
+
+0:25:35.440,0:25:39.760
+ele tá aqui a chamar o Gemini. Cá está.
+
+0:25:38.080,0:25:41.880
+Pronto. E já terminou. Como vem, foi
+
+0:25:39.760,0:25:45.240
+rápido. Portanto, onde já havia
+
+0:25:41.880,0:25:46.840
+sumarizations, ele não esmagou.
+
+0:25:45.240,0:25:50.840
+Eh,
+
+0:25:46.840,0:25:54.039
+e onde não havia, ele chamou o Gemini e
+
+0:25:50.840,0:25:56.279
+gerou as novas sumarizations. OK? Por
+
+0:25:54.039,0:25:59.520
+exemplo, aqui o que é um polymate.
+
+0:25:56.279,0:26:02.679
+Pronto, ele gerou essa sumarization.
+
+0:25:59.520,0:26:04.320
+Sim, senhora.
+
+0:26:02.679,0:26:07.000
+Eh, portanto, isto é uma técnica que eu
+
+0:26:04.320,0:26:09.440
+tenho agora usado sempre nestes nos meus
+
+0:26:07.000,0:26:12.240
+projetos de linguagem R, estes projetos
+
+0:26:09.440,0:26:13.720
+que tratam com dados massivos e com
+
+0:26:12.240,0:26:16.360
+inteligência artificial. Eu tenho usado
+
+0:26:13.720,0:26:19.520
+muito esta técnica de ir guardando as
+
+0:26:16.360,0:26:22.640
+coisas, ir obtendo as coisas e guardando
+
+0:26:19.520,0:26:24.320
+eh em pastas,
+
+0:26:22.640,0:26:26.640
+porque dessa forma posso ir sempre
+
+0:26:24.320,0:26:28.399
+trabalhando de uma forma incremental,
+
+0:26:26.640,0:26:30.600
+OK?
+
+0:26:28.399,0:26:32.960
+Porque a alternativa que eu usava
+
+0:26:30.600,0:26:36.120
+antigamente quando comecei a a trabalhar
+
+0:26:32.960,0:26:37.919
+com estas metodologias foi que o
+
+0:26:36.120,0:26:41.120
+processo era sempre massivo e nascia do
+
+0:26:37.919,0:26:43.279
+zero. Ou seja, eu pegava aqui nas minhas
+
+0:26:41.120,0:26:44.919
+notas e eu gerava as sumarizations todas
+
+0:26:43.279,0:26:46.919
+e portanto e cada vez que pegava no
+
+0:26:44.919,0:26:48.360
+projeto gerava tudo outra vez do zero.
+
+0:26:46.919,0:26:50.559
+Pronto, obviamente que isso começou a
+
+0:26:48.360,0:26:52.559
+tornar-se incomfortável, que as coisas
+
+0:26:50.559,0:26:55.240
+vão ganhando dimensão e, portanto, tive
+
+0:26:52.559,0:26:58.240
+que adotar agora esta metodologia
+
+0:26:55.240,0:27:00.840
+eh neste projeto OBSD e noutros projetos
+
+0:26:58.240,0:27:03.240
+que eu tenho, como do YouTube e outros,
+
+0:27:00.840,0:27:06.000
+comecei a adotar esta metodologia em que
+
+0:27:03.240,0:27:08.720
+incremental, onde eu vou vou buscando as
+
+0:27:06.000,0:27:11.080
+coisas e automaticamente só vou gerando
+
+0:27:08.720,0:27:13.640
+eh as novas informações que estão em
+
+0:27:11.080,0:27:16.520
+falta, OK?
+
+0:27:13.640,0:27:18.559
+A menos que eu tenha alguma feg para
+
+0:27:16.520,0:27:21.159
+forçar um overridge. Por exemplo, aqui
+
+0:27:18.559,0:27:22.799
+no generate sumarization eu tenho, se eu
+
+0:27:21.159,0:27:25.159
+quiser forçar um override, eu posso
+
+0:27:22.799,0:27:27.520
+dizer override true e então ele gera-me
+
+0:27:25.159,0:27:30.159
+por cima. OK?
+
+0:27:27.520,0:27:31.880
+Ou se eu apagar as notas aqui das
+
+0:27:30.159,0:27:33.120
+respectivas folders, pois então a nota
+
+0:27:31.880,0:27:35.360
+também vai ficar em falta, o
+
+0:27:33.120,0:27:37.520
+summarization vai ficar em falta e,
+
+0:27:35.360,0:27:40.600
+portanto, também vai ser gerado de novo.
+
+0:27:37.520,0:27:42.200
+OK? Sim, senhora.
+
+0:27:40.600,0:27:44.600
+O que é que temos aqui mais? Agora vou
+
+0:27:42.200,0:27:47.440
+gerar os índices. Os índices posso
+
+0:27:44.600,0:27:50.760
+sempre esmagá-los, não tem problema. E
+
+0:27:47.440,0:27:52.559
+como é bastante rápido, eu aqui
+
+0:27:50.760,0:27:55.200
+eu tenho, aliás, eu tenho que esmagar os
+
+0:27:52.559,0:27:56.760
+índices porque os índices e ele os
+
+0:27:55.200,0:27:58.679
+índices vão incluir as novas
+
+0:27:56.760,0:28:01.360
+sumarizations que entretanto possam ter
+
+0:27:58.679,0:28:05.799
+sido geradas. Portanto, aqui o default
+
+0:28:01.360,0:28:08.080
+para os índices é sempre de esmagar.
+
+0:28:05.799,0:28:10.240
+Pronto, isto também é bastante rápido.
+
+0:28:08.080,0:28:12.399
+Vou fazer um índice, ele ele
+
+0:28:10.240,0:28:14.640
+simplesmente pega nas sumarizations e
+
+0:28:12.399,0:28:18.240
+encapsua as sumarizations dentro aqui do
+
+0:28:14.640,0:28:21.240
+dos índices. Pronto. E, portanto, e ele
+
+0:28:18.240,0:28:24.679
+gera os índices diretamente aqui na nas
+
+0:28:21.240,0:28:27.519
+folders do Obsidian. OK?
+
+0:28:24.679,0:28:30.159
+Mais coisas. Agora vamos gerar os fronts
+
+0:28:27.519,0:28:33.440
+onde eles mais uma vez onde não existem.
+
+0:28:30.159,0:28:36.919
+OK. Sim, senhora. Ele aí vai varrer as
+
+0:28:33.440,0:28:39.640
+folders do Obsidian uma a uma e daí vai
+
+0:28:36.919,0:28:41.840
+tem aquele marcador que é o comentário o
+
+0:28:39.640,0:28:45.320
+comentário de de de markdown onde ele
+
+0:28:41.840,0:28:48.559
+vai ver se e se não tem marcador então é
+
+0:28:45.320,0:28:51.559
+para inserir o yal front matter que é o
+
+0:28:48.559,0:28:53.840
+que ele vai fazer aqui. Pronto, cá está.
+
+0:28:51.559,0:28:56.039
+E ele insere o insere o front matter
+
+0:28:53.840,0:28:59.760
+onde onde não existe.
+
+0:28:56.039,0:29:02.600
+OK. Sim, senhora.
+
+0:28:59.760,0:29:06.000
+Ora mais coisas. Agora fiz também esta
+
+0:29:02.600,0:29:11.039
+função aqui, é um insertline, porque eh
+
+0:29:06.000,0:29:13.039
+existe situações em que o o Obsidian e
+
+0:29:11.039,0:29:14.799
+tem a tendência a guardar imagens em
+
+0:29:13.039,0:29:18.000
+Cas.
+
+0:29:14.799,0:29:20.679
+Eh, e às vezes quando eu mudei ou
+
+0:29:18.000,0:29:24.880
+alterava o thumbnail, muitas vezes ela
+
+0:29:20.679,0:29:28.080
+não refrescava o thumbnail eh do da das
+
+0:29:24.880,0:29:29.320
+notas e portanto dentro do obsidian. e
+
+0:29:28.080,0:29:32.320
+muitas vezes o que eu tinha que fazer
+
+0:29:29.320,0:29:36.840
+era forçar uma uma alteração dentro das
+
+0:29:32.320,0:29:38.559
+notas para eh efetivamente fazer forçar
+
+0:29:36.840,0:29:40.320
+esse refrescamento. Portanto, agora acho
+
+0:29:38.559,0:29:43.080
+que não é preciso porque não como não
+
+0:29:40.320,0:29:44.760
+mudei nenhum nenhum thumbnail,
+
+0:29:43.080,0:29:48.039
+portanto, mas pronto, mas criei aqui
+
+0:29:44.760,0:29:51.200
+esta função que varre cada nota, insere
+
+0:29:48.039,0:29:53.679
+uma linha em branco no final da nota por
+
+0:29:51.200,0:29:55.640
+forma a forçar um refrescamento.
+
+0:29:53.679,0:29:57.600
+E finalmente tenho esta esta função
+
+0:29:55.640,0:30:01.039
+muito interessante
+
+0:29:57.600,0:30:03.919
+onde eu posso recomendar novos tópicos.
+
+0:30:01.039,0:30:05.519
+Ou seja, eu estou a dizer assim: "OK,
+
+0:30:03.919,0:30:08.200
+vou à inteligência artificial e digo:
+
+0:30:05.519,0:30:09.559
+"Olha, estes são os meus tópicos, os
+
+0:30:08.200,0:30:11.320
+temas que eu estou a estudar. Tenho
+
+0:30:09.559,0:30:13.640
+este, já tenho estas notas e
+
+0:30:11.320,0:30:15.320
+recomenda-me o que é que eu quais são os
+
+0:30:13.640,0:30:18.840
+novos tópicos para eu estudar dentro
+
+0:30:15.320,0:30:20.399
+deste destas temáticas. OK? Pronto, isto
+
+0:30:18.840,0:30:23.399
+também é relativamente rápido. Ele vai
+
+0:30:20.399,0:30:25.919
+ao Gemini. Pronto, e ele para todas
+
+0:30:23.399,0:30:27.039
+estas minhas folders, ele tem, por
+
+0:30:25.919,0:30:30.679
+exemplo, a nível de inteligência
+
+0:30:27.039,0:30:32.480
+artificial, ele eu digo-lhe aqui, eh,
+
+0:30:30.679,0:30:36.080
+passo esta prometa, dizer: "Olha, eu já
+
+0:30:32.480,0:30:38.919
+tenho estes tópicos, estas notas e dá-me
+
+0:30:36.080,0:30:40.679
+uma lista de de de temas, novos temas
+
+0:30:38.919,0:30:44.679
+para eu estudar". Pronto, e ele dá-me
+
+0:30:40.679,0:30:46.440
+aqui estes temas. Attention mecanisme.
+
+0:30:44.679,0:30:47.720
+F shot prompting. Olha, isto por exemplo
+
+0:30:46.440,0:30:50.240
+é engraçado isto, nunca ouvi falar
+
+0:30:47.720,0:30:53.120
+disto. Ok.
+
+0:30:50.240,0:30:54.480
+F shot few shot prompting. Olha, por
+
+0:30:53.120,0:30:57.320
+exemplo, eu vou ver o que é que é o few
+
+0:30:54.480,0:30:59.559
+shot prompting, mas ok, já vamos ver.
+
+0:30:57.320,0:31:01.960
+Eh, e assim sucessivamente. Tenho aqui
+
+0:30:59.559,0:31:04.480
+para as minhas outras folders.
+
+0:31:01.960,0:31:06.120
+Eh, isto é na área de information
+
+0:31:04.480,0:31:08.600
+technologies,
+
+0:31:06.120,0:31:11.639
+OK? O que é que é cloud computing, o que
+
+0:31:08.600,0:31:13.000
+é que é digital nomadisma, etc, etc.
+
+0:31:11.639,0:31:14.960
+Pronto, e assim sucessivamente. Isto é
+
+0:31:13.000,0:31:17.320
+bastante interessante.
+
+0:31:14.960,0:31:19.159
+Eh, aqui pode-me, portanto, dar essas
+
+0:31:17.320,0:31:21.039
+dicas. E, por exemplo, eu aqui vou vou
+
+0:31:19.159,0:31:23.480
+ver assim, olha, estou curioso em ver o
+
+0:31:21.039,0:31:25.600
+que é que é shot prompting. OK, então
+
+0:31:23.480,0:31:27.960
+vamos aqui,
+
+0:31:25.600,0:31:29.559
+criei esta função onde posso gerar
+
+0:31:27.960,0:31:32.279
+diretamente a partir daqui da linguagem
+
+0:31:29.559,0:31:35.200
+R. Ou seja, é mais rápido do que agora
+
+0:31:32.279,0:31:37.159
+eu ia agora ao Gemini, eu fazia copy
+
+0:31:35.200,0:31:40.360
+paste aqui da da prompt, explica-me o
+
+0:31:37.159,0:31:42.120
+que é que é isto, eh, etc, etc.
+
+0:31:40.360,0:31:45.240
+Portanto, então é mais rápido, eu posso
+
+0:31:42.120,0:31:46.639
+fazer fazer isso logo aqui.
+
+0:31:45.240,0:31:47.880
+E depois não é só por uma questão de ser
+
+0:31:46.639,0:31:51.080
+mais rápida, é porque de hoje para
+
+0:31:47.880,0:31:53.519
+amanhã, se eu quiser automatizar e dizer
+
+0:31:51.080,0:31:55.480
+vai buscar automaticamente todas estas
+
+0:31:53.519,0:31:58.120
+recomendações, pois eu posso fazer aqui
+
+0:31:55.480,0:31:59.799
+um processo massivo. Eh, e vejam o
+
+0:31:58.120,0:32:02.159
+podrio disto. Isto é ter um podrio
+
+0:31:59.799,0:32:04.440
+brutal, não é? Porque imaginem, imaginem
+
+0:32:02.159,0:32:06.600
+que agora eu aqui podia ir buscar
+
+0:32:04.440,0:32:08.679
+automaticamente para todas estas
+
+0:32:06.600,0:32:11.639
+folders, imaginem para seis folders,
+
+0:32:08.679,0:32:13.639
+cinco novas notas para para cada folder.
+
+0:32:11.639,0:32:16.600
+E portanto eu aqui de uma assentada eu
+
+0:32:13.639,0:32:18.159
+ia buscar, OK, uma quantidade de notas
+
+0:32:16.600,0:32:21.720
+novas, não é? Imaginem um estudante que
+
+0:32:18.159,0:32:24.279
+tá a estudar, tem uma uma série de temas
+
+0:32:21.720,0:32:29.840
+eh e portanto automaticamente pode ir
+
+0:32:24.279,0:32:32.679
+buscar e novas notas. OK? Sim, senhor.
+
+0:32:29.840,0:32:36.360
+Eh, então vou fazer aqui.
+
+0:32:32.679,0:32:40.360
+Ora, tenho aqui a função explain.
+
+0:32:36.360,0:32:42.600
+Explain and save new note to obsidian.
+
+0:32:40.360,0:32:44.480
+Pronto. E aqui ponho explain. Eu agora
+
+0:32:42.600,0:32:47.480
+quero que ele me diga o que é shot
+
+0:32:44.480,0:32:47.480
+prompting.
+
+0:32:47.840,0:32:56.080
+Ora, explain shot prompting
+
+0:32:52.960,0:32:58.000
+in the context of AI. Pronto. E aqui o
+
+0:32:56.080,0:33:00.639
+nome, o nome tem que ser sempre eu a
+
+0:32:58.000,0:33:02.760
+dizer para já. Eu aqui podíamos fazer
+
+0:33:00.639,0:33:05.120
+uma coisa de uma forma massiva, mas para
+
+0:33:02.760,0:33:08.080
+já como ainda não
+
+0:33:05.120,0:33:10.240
+eh está manual. E então aqui pois e de
+
+0:33:08.080,0:33:12.639
+um modo geral eu gosto de ser eu a
+
+0:33:10.240,0:33:14.200
+escolher o nome,
+
+0:33:12.639,0:33:17.880
+OK? porque às vezes gosto de afinar o
+
+0:33:14.200,0:33:20.240
+nome. Eh, pronto. Portanto, esta parte
+
+0:33:17.880,0:33:22.120
+tá aqui ainda, ainda, como estão a ver,
+
+0:33:20.240,0:33:25.399
+ainda sem manual, mas e semia
+
+0:33:22.120,0:33:27.639
+automática, mas eh pronto, mas seria
+
+0:33:25.399,0:33:29.279
+fácil isto automatizar completamente se
+
+0:33:27.639,0:33:31.120
+eu quisesse e fazer aqui um processo
+
+0:33:29.279,0:33:35.559
+massivo, mas para já não tenho. Para já
+
+0:33:31.120,0:33:37.880
+é nota a nota quando eu digo OK, então
+
+0:33:35.559,0:33:40.600
+vai-me lá buscar, explica-me o que é f
+
+0:33:37.880,0:33:43.159
+shot prompting e depois guarda-me o
+
+0:33:40.600,0:33:47.399
+resultado automaticamente no aqui no fio
+
+0:33:43.159,0:33:50.639
+shot prompting md. OK.
+
+0:33:47.399,0:33:50.639
+Sim, senhor.
+
+0:33:52.039,0:33:56.919
+Ó, eu aqui enganei-me. Eu acho que
+
+0:33:53.679,0:33:58.919
+carreguei, carreguei. Eh,
+
+0:33:56.919,0:34:00.960
+e devo deve ter carregado aqui em tudo
+
+0:33:58.919,0:34:03.360
+ao mesmo tempo. Devme ter enganado. OK,
+
+0:34:00.960,0:34:04.960
+mas pronto, mas ele fez o o new node
+
+0:34:03.360,0:34:07.039
+created
+
+0:34:04.960,0:34:09.919
+e f shot prompting. Ok, vamos então ao
+
+0:34:07.039,0:34:11.720
+obsidian ver como é que isto ficou. Ora,
+
+0:34:09.919,0:34:16.000
+está tudo organizado, como estão a ver
+
+0:34:11.720,0:34:18.599
+aqui. Já não há notas soltas.
+
+0:34:16.000,0:34:20.240
+OK, tirando esta, que esta acabou de ser
+
+0:34:18.599,0:34:22.040
+gerada agora mesmo, que é o fio shot
+
+0:34:20.240,0:34:24.960
+prompting.
+
+0:34:22.040,0:34:27.240
+OK, esta ficou desagregada.
+
+0:34:24.960,0:34:29.040
+Vamos abri-la.
+
+0:34:27.240,0:34:32.079
+Esta, esta não tem, esta não tem, esta
+
+0:34:29.040,0:34:34.679
+não tem o o logotipo
+
+0:34:32.079,0:34:36.440
+porque acabou de ser gerada agora mesmo.
+
+0:34:34.679,0:34:38.159
+Ok? Portanto, como não foi processada,
+
+0:34:36.440,0:34:40.280
+não tem.
+
+0:34:38.159,0:34:43.679
+Ok. F shot prompting. Mas eu posso vir
+
+0:34:40.280,0:34:48.359
+aqui agora e reprocessá-la.
+
+0:34:43.679,0:34:48.359
+OK. Eu vou fazer isso agora.
+
+0:34:54.280,0:35:00.920
+Ora.
+
+0:34:57.040,0:35:00.920
+Oi. O que é que se passa aqui?
+
+0:35:04.320,0:35:11.280
+OK, eu posso vir aqui e reprocessar isto
+
+0:35:08.920,0:35:14.560
+aqui. Ora, generate front. Eu posso
+
+0:35:11.280,0:35:17.560
+correr aqui este código.
+
+0:35:14.560,0:35:17.560
+OK.
+
+0:35:19.839,0:35:25.880
+Sim, senhor. Como é que ficou?
+
+0:35:23.200,0:35:31.200
+Ora,
+
+0:35:25.880,0:35:34.119
+ok, pronto, já já não há notas. OK.
+
+0:35:31.200,0:35:35.520
+Sim, senhor.
+
+0:35:34.119,0:35:37.960
+Tenho aqui um tema que eu também tive a
+
+0:35:35.520,0:35:39.520
+estudar um bocadinho, que é as bases, as
+
+0:35:37.960,0:35:40.920
+bases, que é uma espécie de bases dados
+
+0:35:39.520,0:35:44.280
+com que o obsidian trabalha, mas agora
+
+0:35:40.920,0:35:50.320
+não vamos abordar essa esse tema.
+
+0:35:44.280,0:35:50.320
+Eh, e pronto, aqui temos nós,
+
+0:35:51.520,0:35:57.319
+aqui temos nós tudo tudo devidamente
+
+0:35:53.920,0:35:58.599
+integrado. OK. Sim, senhor. F shot
+
+0:35:57.319,0:36:00.960
+prompting foi a última que nós
+
+0:35:58.599,0:36:02.520
+integramos aqui.
+
+0:36:00.960,0:36:04.000
+Ora, vamos então, penso que é então
+
+0:36:02.520,0:36:06.640
+chegada à altura de passar finalmente
+
+0:36:04.000,0:36:10.599
+para o Obsidian. Deixa-me ver aqui o meu
+
+0:36:06.640,0:36:13.440
+guião. A ver se não se não escapou nada.
+
+0:36:10.599,0:36:15.200
+Ora, pronto, já demos então uma uma um
+
+0:36:13.440,0:36:16.720
+recordatório sobre as funcionalidades
+
+0:36:15.200,0:36:18.839
+que eu tenho ali na programação em R
+
+0:36:16.720,0:36:20.400
+para vocês relembrarem
+
+0:36:18.839,0:36:21.920
+para que é que eu uso o R aqui neste
+
+0:36:20.400,0:36:25.680
+contexto,
+
+0:36:21.920,0:36:27.640
+OK? para reprocessar e homogeneizar toda
+
+0:36:25.680,0:36:30.920
+a minha base de dados de conhecimento do
+
+0:36:27.640,0:36:32.280
+Obsidian, como vocês viram. OK? Então
+
+0:36:30.920,0:36:34.599
+posso explorar o que é que eu tenho,
+
+0:36:32.280,0:36:37.359
+posso pedir informações, sumarizar, etc,
+
+0:36:34.599,0:36:41.800
+etc, etc. OK, vamos então passar para o
+
+0:36:37.359,0:36:43.720
+Obsidian. Ah, ah, agora vamos, antes de
+
+0:36:41.800,0:36:45.319
+passar para o notebook LM, eu tive a
+
+0:36:43.720,0:36:49.640
+investigar e também existe um um
+
+0:36:45.319,0:36:51.760
+conjunto eh de plugins que integram com
+
+0:36:49.640,0:36:56.280
+a inteligência artificial e que podemos
+
+0:36:51.760,0:36:58.160
+instalar diretamente no Obsidian. OK,
+
+0:36:56.280,0:37:00.400
+pronto, é aqui o caso. Vamos ver aqui um
+
+0:36:58.160,0:37:04.160
+exemplo
+
+0:37:00.400,0:37:05.880
+onde posso ir aqui ao community plugins,
+
+0:37:04.160,0:37:08.640
+brow,
+
+0:37:05.880,0:37:10.079
+posso pesquisar aqui quiz.
+
+0:37:08.640,0:37:13.440
+Pronto, eu tive a instar, tive a testar
+
+0:37:10.079,0:37:13.440
+dois ou três.
+
+0:37:22.040,0:37:27.440
+Quiz deve estar deve estar aqui a
+
+0:37:24.200,0:37:29.359
+escrever isto mal, só pode
+
+0:37:27.440,0:37:32.280
+quiz.
+
+0:37:29.359,0:37:35.640
+Ah, sim, aqui é com u.
+
+0:37:32.280,0:37:37.800
+Ora, quiz, quiz generator. OK, este foi
+
+0:37:35.640,0:37:40.160
+um dos que eu testei.
+
+0:37:37.800,0:37:45.119
+Quiz Generator.
+
+0:37:40.160,0:37:45.119
+OK, eu vou instalá-lo para vocês verem.
+
+0:37:46.040,0:37:49.599
+Eu penso que este, eu penso que há muita
+
+0:37:47.960,0:37:51.480
+coisa destas. E está a aparecer de dia
+
+0:37:49.599,0:37:53.520
+para dia,
+
+0:37:51.480,0:37:55.119
+obviamente, todos estes sistemas de
+
+0:37:53.520,0:37:56.720
+inteligência artificial. Portanto, nós
+
+0:37:55.119,0:37:59.000
+sabemos, estamos a atravessar um período
+
+0:37:56.720,0:38:03.200
+exponencial
+
+0:37:59.000,0:38:03.200
+eh options.
+
+0:38:04.480,0:38:08.480
+Ora, show notepad.
+
+0:38:09.960,0:38:13.800
+Ora, o que é que temos aqui? O provider
+
+0:38:11.839,0:38:15.359
+open AI.
+
+0:38:13.800,0:38:17.680
+Eh,
+
+0:38:15.359,0:38:20.760
+eu vou usar o Alama.
+
+0:38:17.680,0:38:23.920
+Vou usar o Alama.
+
+0:38:20.760,0:38:25.440
+Eh, olama not running.
+
+0:38:23.920,0:38:28.200
+Ora, deixa-me arrancar. Vou arrancar
+
+0:38:25.440,0:38:29.960
+aqui o meu alama. Vou usar o alama
+
+0:38:28.200,0:38:31.520
+porque é o que é o que ele integra.
+
+0:38:29.960,0:38:33.040
+Porque
+
+0:38:31.520,0:38:36.640
+porque
+
+0:38:33.040,0:38:39.000
+ele não integra com o com o LM Studio.
+
+0:38:36.640,0:38:44.440
+Eu prefiro o LM Studio,
+
+0:38:39.000,0:38:45.880
+mas realmente o o Alama é que tem mais.
+
+0:38:44.440,0:38:47.599
+Portanto, deixem-me arrancar aqui o
+
+0:38:45.880,0:38:50.599
+Alama.
+
+0:38:47.599,0:38:50.599
+Ok,
+
+0:38:52.160,0:38:57.800
+já arranquei. Deixa ver se é o refresca
+
+0:38:54.800,0:38:57.800
+aqui.
+
+0:38:59.640,0:39:03.680
+OK.
+
+0:39:01.200,0:39:06.760
+Generation model.
+
+0:39:03.680,0:39:09.000
+Deixa-me usar aqui o este modelo.
+
+0:39:06.760,0:39:10.599
+Pronto.
+
+0:39:09.000,0:39:13.520
+Ok.
+
+0:39:10.599,0:39:16.079
+Embeding model for evaluating short and
+
+0:39:13.520,0:39:17.520
+long answer questions.
+
+0:39:16.079,0:39:18.920
+Ok.
+
+0:39:17.520,0:39:20.839
+Tive que instalar também este outro
+
+0:39:18.920,0:39:24.880
+modelo aqui. Sim, senhora. Pronto, já
+
+0:39:20.839,0:39:27.079
+tenho o alama configurado. Pronto. Eh, o
+
+0:39:24.880,0:39:29.119
+que é que acontece agora? Agora ele aqui
+
+0:39:27.079,0:39:31.720
+diz-me o tipo de de de questionários que
+
+0:39:29.119,0:39:34.000
+eu quero. True ou false,
+
+0:39:31.720,0:39:35.560
+multiple choice,
+
+0:39:34.000,0:39:38.119
+f the bank maching. E depois tem aqui
+
+0:39:35.560,0:39:41.200
+dois últimos onde nós podemos escrever
+
+0:39:38.119,0:39:42.400
+uma resposta por por extenso, OK? e
+
+0:39:41.200,0:39:48.160
+quando é inteligência artificial vai
+
+0:39:42.400,0:39:49.839
+avaliar a resposta. Eh, e portanto,
+
+0:39:48.160,0:39:51.720
+eh,
+
+0:39:49.839,0:39:55.240
+sim, senhor. Portanto, tem todas estas
+
+0:39:51.720,0:39:56.760
+opções. OK. Pronto, eu não vou eu vou
+
+0:39:55.240,0:39:59.280
+tirar agora estas que eu não não quero
+
+0:39:56.760,0:40:01.520
+estas. Pronto, isto é só para demonstrar
+
+0:39:59.280,0:40:05.200
+como o plugin em si é fraquinho para
+
+0:40:01.520,0:40:07.760
+depois podermos contrastar com o
+
+0:40:05.200,0:40:09.359
+notebook, o Gemini notebook, que é
+
+0:40:07.760,0:40:11.400
+bastante, obviamente que é bastante mais
+
+0:40:09.359,0:40:14.079
+poderoso, né?
+
+0:40:11.400,0:40:15.480
+Pronto. Sim, senhora.
+
+0:40:14.079,0:40:16.839
+Eh, então, o que o que estou aqui a
+
+0:40:15.480,0:40:18.200
+dizer, olha, quando me gerares um
+
+0:40:16.839,0:40:19.680
+questionário, vais-me gerar com cinco
+
+0:40:18.200,0:40:22.200
+perguntas. É apenas uma de cada uma
+
+0:40:19.680,0:40:25.119
+destas categorias. Cinco perguntas. OK.
+
+0:40:22.200,0:40:27.560
+Pronto, eu vou vou fechar. Pronto.
+
+0:40:25.119,0:40:30.480
+Então, agora vou
+
+0:40:27.560,0:40:33.599
+eh ele ele pôs aqui este este icon open
+
+0:40:30.480,0:40:35.760
+generator. Pronto. Então, aqui eu vou
+
+0:40:33.599,0:40:38.480
+vou eu vou gerar vou gerar aqui. Ora,
+
+0:40:35.760,0:40:41.520
+add folder. Vou dizer, olha, eh, eu
+
+0:40:38.480,0:40:43.200
+escolho o tema os o tema da knowledge
+
+0:40:41.520,0:40:46.880
+knowledge,
+
+0:40:43.200,0:40:48.240
+OK? Eh, e portanto, e agora digo, olha,
+
+0:40:46.880,0:40:50.760
+generei-te um questionário que eu vou
+
+0:40:48.240,0:40:53.119
+carregar aqui. OK, ele tá a gerar, vão
+
+0:40:50.760,0:40:55.040
+ser cinco questões.
+
+0:40:53.119,0:40:58.760
+Sim, senhora. Ele tá a recorrer ao meu
+
+0:40:55.040,0:41:01.440
+ao ao lama aqui, ao meu modelo local.
+
+0:40:58.760,0:41:06.079
+Ok,
+
+0:41:01.440,0:41:07.760
+pronto. Então já está aqui eh as cinco,
+
+0:41:06.079,0:41:11.040
+cinco que por acaso aqui aparecem 10,
+
+0:41:07.760,0:41:11.040
+não sei porquê.
+
+0:41:12.440,0:41:18.560
+Bom, what is the primary purpose of
+
+0:41:16.400,0:41:20.040
+casted method? Olha, estão a ver? Estão
+
+0:41:18.560,0:41:22.160
+a ver? Logo aqui, logo aqui tá uma
+
+0:41:20.040,0:41:23.480
+alucinação.
+
+0:41:22.160,0:41:24.880
+Tão a ver isto? Portanto, isto tem
+
+0:41:23.480,0:41:27.160
+falhas. Eu já tinha testado isto. Eu
+
+0:41:24.880,0:41:28.680
+testei dois ou três plugins aqui e
+
+0:41:27.160,0:41:29.960
+realmente depois desinstalei-os todos
+
+0:41:28.680,0:41:32.319
+porque vi que ainda estavam bastante
+
+0:41:29.960,0:41:34.280
+fraquinhos.
+
+0:41:32.319,0:41:37.280
+Pronto, errado. Pronto, esta pergunta
+
+0:41:34.280,0:41:38.560
+aqui ela elucinou.
+
+0:41:37.280,0:41:40.680
+Ó, este aqui nem dá nada. Eu penso que
+
+0:41:38.560,0:41:44.040
+ele aqui, eu vou abortar isto. Eu penso
+
+0:41:40.680,0:41:44.040
+que ele aqui
+
+0:41:44.119,0:41:49.800
+aqui qualquer coisa que ele aqui falhou.
+
+0:41:48.240,0:41:51.400
+Pá, até calha bem isto aparecer no
+
+0:41:49.800,0:41:53.599
+tutorial. Neste tutorial. Pronto, para
+
+0:41:51.400,0:41:56.480
+vocês verem que isto ontem tinha testado
+
+0:41:53.599,0:42:00.920
+isto e tinha funcionado bem. Eh, mas
+
+0:41:56.480,0:42:02.880
+tinha uma série de lacunas e entre elas
+
+0:42:00.920,0:42:05.880
+não sei porque é que ele aqui tá está a
+
+0:42:02.880,0:42:05.880
+falhar.
+
+0:42:07.040,0:42:12.200
+E uma das vacunas que eu tinha é que
+
+0:42:09.160,0:42:15.240
+efetivamente eh até por exemplo no final
+
+0:42:12.200,0:42:17.000
+do questionário nem sequer me dava o
+
+0:42:15.240,0:42:19.559
+resultado quando quantos acertos e
+
+0:42:17.000,0:42:23.000
+quantos falhos. OK.
+
+0:42:19.559,0:42:24.800
+Eh, depois eu permitiria gravar o
+
+0:42:23.000,0:42:29.920
+questionário para para a posteridade se
+
+0:42:24.800,0:42:29.920
+eu se eu pusesse aqui, não é o caso.
+
+0:42:36.160,0:42:39.160
+Malta,
+
+0:42:40.880,0:42:45.920
+sinceramente não sei o que é que estará
+
+0:42:42.640,0:42:45.920
+aqui a falhar.
+
+0:42:48.440,0:42:53.000
+Vou só fazer mais uma tentativa e
+
+0:42:54.760,0:42:57.760
+folder.
+
+0:43:03.640,0:43:06.119
+OK.
+
+0:43:04.960,0:43:08.680
+Ele aqui também não me permite
+
+0:43:06.119,0:43:11.800
+introduzir uma prompt, coisa que no no
+
+0:43:08.680,0:43:14.720
+Gemini notebook nós podemos introduzir
+
+0:43:11.800,0:43:16.520
+uma determinada promete para afinar e
+
+0:43:14.720,0:43:18.640
+acerca do do tipo de questionário que
+
+0:43:16.520,0:43:21.880
+nós queremos. OK? E tem muito mais
+
+0:43:18.640,0:43:26.839
+parametrização. Já vamos ver.
+
+0:43:21.880,0:43:26.839
+Ora, folder já está. Ora generate.
+
+0:43:33.880,0:43:36.800
+Ok. Which of the fall? Ok, agora já
+
+0:43:35.599,0:43:38.319
+parece que já tá melhor. Which of the
+
+0:43:36.800,0:43:40.839
+following is an example. Mas continua
+
+0:43:38.319,0:43:44.720
+como 10 questões, não sei porquê. Of
+
+0:43:40.839,0:43:44.720
+psychological phenómana.
+
+0:43:44.760,0:43:47.760
+errado.
+
+0:43:48.760,0:43:51.839
+Bom, isto tá cheio, tá cheio, tá, tá
+
+0:43:50.359,0:43:55.400
+realmente cheio de falhas. Bom, eu vou
+
+0:43:51.839,0:43:56.920
+abortar isto, mas pronto. Eh, mas
+
+0:43:55.400,0:43:59.760
+pronto, isto é só para vos dizer que
+
+0:43:56.920,0:44:02.480
+também existem este tipo de plugins, eh,
+
+0:43:59.760,0:44:04.079
+que podem integrar e eu experimentei
+
+0:44:02.480,0:44:06.880
+dois ou três. Este acho que já não é uma
+
+0:44:04.079,0:44:10.359
+mexida há bastante tempo. OK, até vou já
+
+0:44:06.880,0:44:15.640
+desinstalá-lo antes que me esqueça.
+
+0:44:10.359,0:44:15.640
+Ok. Ora, community plugins.
+
+0:44:16.400,0:44:19.960
+Plugins instalados.
+
+0:44:20.079,0:44:24.200
+Quiz generator uninstall.
+
+0:44:24.440,0:44:28.559
+Ok. Sim, senhora. Podem dar aqui uma
+
+0:44:26.880,0:44:31.000
+vista de olhos nos que eu tenho. Tenho o
+
+0:44:28.559,0:44:33.280
+PDF Exporter
+
+0:44:31.000,0:44:35.720
+e tenho um importador também que permite
+
+0:44:33.280,0:44:37.440
+importar notas provenientes de de outros
+
+0:44:35.720,0:44:39.240
+formatos.
+
+0:44:37.440,0:44:41.400
+O Notebook Navigator que acabei de vos
+
+0:44:39.240,0:44:43.400
+falar. OK, são os principais que eu
+
+0:44:41.400,0:44:46.319
+tenho aqui. Sim, senhor. Bom, vamos
+
+0:44:43.400,0:44:50.880
+então passar para o Obsidian.
+
+0:44:46.319,0:44:53.720
+Obsidian, não, para o Gemini Notebook.
+
+0:44:50.880,0:44:56.480
+OK, cá está ele.
+
+0:44:53.720,0:44:58.559
+Sim, senhor. Bom, então
+
+0:44:56.480,0:45:01.920
+aqui temos,
+
+0:44:58.559,0:45:04.280
+eu tenho aqui dois dois dois notebooks.
+
+0:45:01.920,0:45:07.680
+O primeiro que eu fiz
+
+0:45:04.280,0:45:10.000
+foi um notebook onde eu eh importo as
+
+0:45:07.680,0:45:13.880
+notas individualmente.
+
+0:45:10.000,0:45:16.119
+OK? Mas logo aí temos uma lacuna porque
+
+0:45:13.880,0:45:18.280
+é assim, porque aqui as imagens eu não
+
+0:45:16.119,0:45:21.480
+eu não importei aqui as imagens porque
+
+0:45:18.280,0:45:24.160
+porque as imagens ela elas vivem elas
+
+0:45:21.480,0:45:25.640
+vivem noutra folder, elas vivem na
+
+0:45:24.160,0:45:28.000
+folder aqui dos atachements, embora
+
+0:45:25.640,0:45:29.920
+também poderiam viver juntos das notas.
+
+0:45:28.000,0:45:33.599
+Eu é que não gosto dessa dessa
+
+0:45:29.920,0:45:36.720
+metodologia e gosto de manter,
+
+0:45:33.599,0:45:39.720
+portanto, as imagens aqui
+
+0:45:36.720,0:45:41.559
+nos attachments. OK?
+
+0:45:39.720,0:45:43.160
+Pronto, logo aí eu essa parte aí não
+
+0:45:41.559,0:45:45.400
+testei, não sei como é que ele se
+
+0:45:43.160,0:45:48.599
+comportaria se eu também importasse as
+
+0:45:45.400,0:45:51.599
+imagens, como é que ele aqui agrega e os
+
+0:45:48.599,0:45:53.200
+links e as referências às imagens, se
+
+0:45:51.599,0:45:55.000
+como é que elas se comportariam aqui
+
+0:45:53.200,0:45:57.119
+dentro. Pronto, não testei. Não testei
+
+0:45:55.000,0:45:59.559
+porque também depois eu desisti desta
+
+0:45:57.119,0:46:02.400
+metodologia e passei a usar. Eu prefiro
+
+0:45:59.559,0:46:04.720
+usar um PDF porque é muito, é muito mais
+
+0:46:02.400,0:46:07.800
+rápido importar aqui um PDF que agrega
+
+0:46:04.720,0:46:09.680
+toda esta informação do que do que estar
+
+0:46:07.800,0:46:11.240
+a importar múltiplas notas. Imaginem
+
+0:46:09.680,0:46:14.359
+hoje para amanhã se eu tiver uma centena
+
+0:46:11.240,0:46:17.520
+de notas. Eh, inclusive é o aqui o
+
+0:46:14.359,0:46:19.000
+importador do aqui no Gemini, ele tem um
+
+0:46:17.520,0:46:22.359
+limite, eu não sei qual é o limite, mas
+
+0:46:19.000,0:46:25.000
+ele tem um limite de de número de de
+
+0:46:22.359,0:46:27.319
+referências de de notas
+
+0:46:25.000,0:46:29.119
+eh de inputs que que ele pode processar.
+
+0:46:27.319,0:46:30.720
+OK? Mas pronto, sim, senhor, ele gerou
+
+0:46:29.119,0:46:33.760
+aqui.
+
+0:46:30.720,0:46:35.280
+Eh, depois aqui podemos gerar aqui toda
+
+0:46:33.760,0:46:37.400
+uma série de de tópicos. Não vou
+
+0:46:35.280,0:46:39.800
+aprofundar isto. Vocês vejam tutorials
+
+0:46:37.400,0:46:43.680
+sobre
+
+0:46:39.800,0:46:45.480
+o Gemini Notebook.
+
+0:46:43.680,0:46:48.520
+Eh, Gemini Notebook é de facto uma
+
+0:46:45.480,0:46:50.880
+ferramenta espetacular para estudantes,
+
+0:46:48.520,0:46:52.720
+onde nós podemos juntar aqui inputs de
+
+0:46:50.880,0:46:54.960
+toda uma série de formatos, quer seja as
+
+0:46:52.720,0:46:57.559
+nossas notas pessoais, quer seja links
+
+0:46:54.960,0:47:00.559
+para o YouTube, links para a cloud, eh,
+
+0:46:57.559,0:47:02.680
+depende de PDFs, páginas HTML, etc, etc,
+
+0:47:00.559,0:47:04.119
+etc. Portanto, é muito rico nós
+
+0:47:02.680,0:47:06.760
+introduzirmos todas as nossas
+
+0:47:04.119,0:47:09.599
+referências. todas as nossas fontes e à
+
+0:47:06.760,0:47:13.200
+partida a inteligência artificial irá
+
+0:47:09.599,0:47:16.880
+trabalhar apenas restrita às nossas
+
+0:47:13.200,0:47:20.119
+fontes. Portanto, esse é o conceito do
+
+0:47:16.880,0:47:22.640
+Gemini Notebook, é que ele fica restrito
+
+0:47:20.119,0:47:25.640
+às nossas fontes. Dessa forma, temos uma
+
+0:47:22.640,0:47:30.200
+determinada garantia de que se pedirmos
+
+0:47:25.640,0:47:31.960
+qualquer informação, ele eh ele nunca
+
+0:47:30.200,0:47:35.839
+irá alucinar, porque, ou seja, porque
+
+0:47:31.960,0:47:38.119
+ele nunca vai sair dentro desta sunbox
+
+0:47:35.839,0:47:39.880
+das fontes que nós que nós e
+
+0:47:38.119,0:47:43.480
+introduzimos. OK? Portanto, esse esse é
+
+0:47:39.880,0:47:46.200
+o conceito do Gemini Notebook, é esse, é
+
+0:47:43.480,0:47:49.240
+estar restrito
+
+0:47:46.200,0:47:50.800
+unicamente, exclusivamente às fontes que
+
+0:47:49.240,0:47:52.359
+nós lhe demos. OK? Portanto, isso é
+
+0:47:50.800,0:47:54.520
+muito bom para um estudante, porque
+
+0:47:52.359,0:47:56.400
+imaginem, ele dá as referências, ele
+
+0:47:54.520,0:47:58.200
+depois ele vai vou fazer um questionário
+
+0:47:56.400,0:48:00.720
+e ele tem a garantia que os o
+
+0:47:58.200,0:48:03.520
+questionário apenas vai cobrir os temas
+
+0:48:00.720,0:48:05.359
+que estão eh efetivamente dentro do
+
+0:48:03.520,0:48:08.400
+programa de estudos que que ele
+
+0:48:05.359,0:48:10.280
+apresentou. OK? Pronto. Portanto, é esse
+
+0:48:08.400,0:48:12.800
+o caso aqui. Por exemplo, eu aqui gerei
+
+0:48:10.280,0:48:16.040
+aqui um slide deck. Eu gera-me aqui um
+
+0:48:12.800,0:48:18.160
+slide deck que cobre os temas aqui do do
+
+0:48:16.040,0:48:20.480
+meu aqui da da minha folder aqui de
+
+0:48:18.160,0:48:25.000
+knowledge e, portanto, gera aqui uns
+
+0:48:20.480,0:48:27.160
+slides. Eh, e portanto isto é podemos
+
+0:48:25.000,0:48:30.000
+aproveitar estes slides ou alguns deles
+
+0:48:27.160,0:48:32.839
+para fazer alguma apresentação.
+
+0:48:30.000,0:48:35.760
+OK. Sim, senhor. Vale o que vale. Eh, e
+
+0:48:32.839,0:48:37.480
+depois tem aqui os quizes onde nós
+
+0:48:35.760,0:48:40.000
+podemos, por exemplo, este questionário
+
+0:48:37.480,0:48:42.000
+aqui foi específico sobre uma das notas
+
+0:48:40.000,0:48:44.760
+cognitivan.
+
+0:48:42.000,0:48:48.160
+OK? Onde ele me gerou aqui?
+
+0:48:44.760,0:48:51.000
+Eh, porque a a promete a prompt aqui
+
+0:48:48.160,0:48:55.400
+porque a prompt aqui pedia
+
+0:48:51.000,0:48:57.720
+para eh focar apenas naquele tema da
+
+0:48:55.400,0:48:59.799
+dissonância cognitiva.
+
+0:48:57.720,0:49:01.400
+OK?
+
+0:48:59.799,0:49:03.240
+Eh,
+
+0:49:01.400,0:49:05.960
+tem aqui o resultado aqui onde eu
+
+0:49:03.240,0:49:08.559
+acertei as cinco questões.
+
+0:49:05.960,0:49:10.920
+Tem aqui onde eu posso fazer o retake do
+
+0:49:08.559,0:49:13.880
+questionário. Pronto. Uma das dúvidas
+
+0:49:10.920,0:49:17.079
+que eu tinha aqui era se eu fizesse o
+
+0:49:13.880,0:49:19.119
+retake do questionário, se eu gerava
+
+0:49:17.079,0:49:20.960
+perguntas novas ou se eram as mesmas
+
+0:49:19.119,0:49:22.880
+perguntas. Pronto, efetivamente são as
+
+0:49:20.960,0:49:24.440
+mesmas perguntas. Portanto, o
+
+0:49:22.880,0:49:27.119
+questionário é gerado uma vez e depois é
+
+0:49:24.440,0:49:28.960
+fixo. Pronto. Eh, para eu gerar novas
+
+0:49:27.119,0:49:31.880
+perguntas, eu tenho que gerar um novo
+
+0:49:28.960,0:49:35.079
+questionário, OK? Ou eventualmente
+
+0:49:31.880,0:49:37.319
+clicar aqui e já generate new quiz, make
+
+0:49:35.079,0:49:40.079
+me a follow-up quiz. Portanto, penso que
+
+0:49:37.319,0:49:41.640
+aqui ele irá gerar um novo questionário
+
+0:49:40.079,0:49:44.000
+com os mesmos pressupostos, com as
+
+0:49:41.640,0:49:47.960
+mesmas prometes. OK?
+
+0:49:44.000,0:49:50.720
+Sim, senhor. Pronto. E depois eh tive
+
+0:49:47.960,0:49:53.920
+fiz aqui um outro questionário, então,
+
+0:49:50.720,0:49:55.440
+onde acertei oito de 10 perguntas,
+
+0:49:53.920,0:49:57.640
+OK?
+
+0:49:55.440,0:50:00.200
+Onde aqui já fiz uma promo diferente.
+
+0:49:57.640,0:50:02.319
+Using all 24 selected source, generate
+
+0:50:00.200,0:50:04.720
+10 10 question, multiple choice quiz,
+
+0:50:02.319,0:50:07.200
+etc, etc, etc. Pronto. Mas pronto, mas é
+
+0:50:04.720,0:50:11.880
+como vos digo, eu eh abandonei esta
+
+0:50:07.200,0:50:14.200
+metodologia aqui eh em prol de
+
+0:50:11.880,0:50:17.680
+começar a trabalhar com PDF, porque o
+
+0:50:14.200,0:50:20.760
+PDF é mais robusto, porque o PDF ele ele
+
+0:50:17.680,0:50:23.920
+foi exportado e inclui to todas as
+
+0:50:20.760,0:50:26.319
+imagens. OK? Portanto, aí e portanto
+
+0:50:23.920,0:50:28.400
+fica mais simples porque eu aqui posso,
+
+0:50:26.319,0:50:30.359
+se eu agora quiser aqui eh integrar com
+
+0:50:28.400,0:50:33.119
+outras fontes, como páginas de de
+
+0:50:30.359,0:50:36.240
+YouTube, eh links de YouTube ou ou
+
+0:50:33.119,0:50:38.119
+conteúdos da net, eh portanto fica fica
+
+0:50:36.240,0:50:41.200
+mais simples porque à maneira que a
+
+0:50:38.119,0:50:44.839
+minha eh o meu obsidian vá crescendo,
+
+0:50:41.200,0:50:47.480
+pois eu escuro ter aqui tantas notas e
+
+0:50:44.839,0:50:49.040
+posso ter simplesmente aqui um agregado
+
+0:50:47.480,0:50:50.760
+de uma vez só. Pronto. Portanto, à
+
+0:50:49.040,0:50:53.160
+partida, penso que este método é mais
+
+0:50:50.760,0:50:55.040
+robusto e a importação de uma fonte sol
+
+0:50:53.160,0:50:59.400
+aqui também é mais robusta. Pronto. E,
+
+0:50:55.040,0:50:59.400
+portanto, eu aqui gereá
+
+0:51:01.240,0:51:07.480
+eh onde acertei seis de 10 perguntas.
+
+0:51:04.440,0:51:09.200
+OK, pronto. Vamos só gerar aqui um
+
+0:51:07.480,0:51:11.480
+questionário de novo para vocês darem
+
+0:51:09.200,0:51:13.079
+uma vista de olhos aqui como é que é.
+
+0:51:11.480,0:51:14.640
+Portanto, ele aqui, reparem, isto é
+
+0:51:13.079,0:51:16.520
+muito, realmente é muito mais poderoso
+
+0:51:14.640,0:51:19.040
+do que aqueles plugins que nós tínhamos
+
+0:51:16.520,0:51:20.680
+no Obsidian. el aqui tenho tenho o
+
+0:51:19.040,0:51:22.400
+número o número de questões. Eu posso
+
+0:51:20.680,0:51:25.280
+aqui dizarou agora vou fazer uma uma
+
+0:51:22.400,0:51:28.839
+demonstração. Feer questions level
+
+0:51:25.280,0:51:30.319
+dificuldade easy incluir imagens. Sim,
+
+0:51:28.839,0:51:32.000
+se bem que ele não mostrou nenhuma
+
+0:51:30.319,0:51:35.920
+imagem, não usou nenhuma imagem para o
+
+0:51:32.000,0:51:38.000
+questionário. Pronto. OK. Não calhou. Ou
+
+0:51:35.920,0:51:40.119
+imagino que se eu forçar aqui na na
+
+0:51:38.000,0:51:43.359
+prompt.
+
+0:51:40.119,0:51:46.119
+Ora, temas a ser usados pode ser
+
+0:51:43.359,0:51:48.319
+multiple choice, multiple select, fing
+
+0:51:46.119,0:51:51.079
+the blank. que eu não vou usar short
+
+0:51:48.319,0:51:52.799
+answer, ele também tem short answer. O
+
+0:51:51.079,0:51:56.599
+source, vou usar apenas uma source, que
+
+0:51:52.799,0:51:58.440
+eu também só tenho uma source. OK? E
+
+0:51:56.599,0:52:00.559
+depois eu também tenho aqui que onde eu
+
+0:51:58.440,0:52:02.680
+posso gerar um questionário sobre um
+
+0:52:00.559,0:52:05.000
+tema específico. Ele ele propõe-me aqui
+
+0:52:02.680,0:52:07.720
+alguns temas específicos. Pronto, mas eu
+
+0:52:05.000,0:52:10.240
+quero eh eu vou-lhe dizer: "OK, olha,
+
+0:52:07.720,0:52:14.240
+cover
+
+0:52:10.240,0:52:14.240
+all the topics
+
+0:52:15.880,0:52:19.319
+in all.
+
+0:52:17.119,0:52:20.720
+de sources.
+
+0:52:19.319,0:52:26.119
+Obviamente só tenho uma source neste
+
+0:52:20.720,0:52:28.680
+momento, mas pronto. OK. Generate now.
+
+0:52:26.119,0:52:31.359
+Ok.
+
+0:52:28.680,0:52:34.040
+Tá generating the quiz based on one
+
+0:52:31.359,0:52:36.040
+source.
+
+0:52:34.040,0:52:38.520
+Ok. Eu estou a usar os meus créditos
+
+0:52:36.040,0:52:40.160
+free. Atenção, eu eu não uso, não tenho
+
+0:52:38.520,0:52:42.880
+qualquer subscrição com inteligências
+
+0:52:40.160,0:52:46.079
+artificiais, OK?
+
+0:52:42.880,0:52:47.760
+eh nunca precisei e também é um uma
+
+0:52:46.079,0:52:50.160
+questão de honra, digamos assim, à
+
+0:52:47.760,0:52:52.799
+partida, como eu não uso nada disto para
+
+0:52:50.160,0:52:57.079
+fins profissionais e, portanto, à
+
+0:52:52.799,0:52:58.680
+partida, pois tento sempre se eu
+
+0:52:57.079,0:53:00.720
+precisar uso as minhas inteligências
+
+0:52:58.680,0:53:04.880
+artificiais locais, como tenho um
+
+0:53:00.720,0:53:06.839
+computador e bastante poderoso.
+
+0:53:04.880,0:53:09.119
+OK, ele já acabou.
+
+0:53:06.839,0:53:14.119
+Vamos ver então.
+
+0:53:09.119,0:53:17.280
+Ora, seis perguntas. OK.
+
+0:53:14.119,0:53:20.839
+Eh, OK. Cognitivo diz não só cures na
+
+0:53:17.280,0:53:20.839
+parte. Ok.
+
+0:53:24.920,0:53:29.559
+Ok, deixa-me arriscar. Ok, acertei. Esta
+
+0:53:27.119,0:53:31.319
+tá correta.
+
+0:53:29.559,0:53:32.920
+Ora, next. database design and
+
+0:53:31.319,0:53:35.000
+architecture
+
+0:53:32.920,0:53:38.680
+which database model is primarily
+
+0:53:35.000,0:53:38.680
+created by business.
+
+0:53:39.160,0:53:47.559
+Ora,
+
+0:53:42.040,0:53:47.559
+type of data mod is primary created p
+
+0:53:47.640,0:53:51.319
+what a system contains. Ora, isto é
+
+0:53:49.400,0:53:53.799
+capaz de ser o conceptual data model.
+
+0:53:51.319,0:53:55.599
+Ok, acertei.
+
+0:53:53.799,0:53:58.119
+Ora, which of the following figures of
+
+0:53:55.599,0:54:00.520
+speak are correctly matched with a
+
+0:53:58.119,0:54:03.079
+standard definition and example.
+
+0:54:00.520,0:54:07.680
+Cile
+
+0:54:03.079,0:54:07.680
+comparing to unlike things explicity.
+
+0:54:08.559,0:54:13.079
+Penso que tá correto. O oximoron
+
+0:54:15.440,0:54:23.240
+metaphor equating one. S
+
+0:54:19.960,0:54:24.559
+não aritation. Bom, eu não estou bem
+
+0:54:23.240,0:54:26.000
+dentro deste assunto agora. Pronto, vou
+
+0:54:24.559,0:54:29.720
+vou pôr aqui qualquer coisa, não
+
+0:54:26.000,0:54:32.359
+importa. Ok, aqui errei esta.
+
+0:54:29.720,0:54:33.400
+Ora, o statement. Pronto, eu agora vou
+
+0:54:32.359,0:54:35.520
+vou vou escolher agora uma coisa
+
+0:54:33.400,0:54:38.720
+qualquer só para não para ser mais
+
+0:54:35.520,0:54:41.799
+rápido, para não perder mais tempo. OK.
+
+0:54:38.720,0:54:43.760
+Este aqui eu conheço. negative
+
+0:54:41.799,0:54:46.720
+expert
+
+0:54:43.760,0:54:48.400
+software infrastructure
+
+0:54:46.720,0:54:52.799
+redesign
+
+0:54:48.400,0:54:54.920
+an example of consulting ok
+
+0:54:52.799,0:54:57.480
+next which of the following actions are
+
+0:54:54.920,0:54:59.720
+key steps in applying definement
+
+0:54:57.480,0:55:03.079
+technique
+
+0:54:59.720,0:55:05.319
+definition refine and simplify
+
+0:55:03.079,0:55:08.480
+in analog
+
+0:55:05.319,0:55:10.119
+s penso que é este aqui
+
+0:55:08.480,0:55:13.400
+Ok.
+
+0:55:10.119,0:55:16.920
+Ah, eram estas, eram várias. Ok. Ora,
+
+0:55:13.400,0:55:19.880
+pronto. Done. Acertei quatro em seis.
+
+0:55:16.920,0:55:21.559
+Ok. E [roncando] pronto. Eh, penso que
+
+0:55:19.880,0:55:23.440
+estamos, estamos a acabar o nosso
+
+0:55:21.559,0:55:26.280
+tutorial.
+
+0:55:23.440,0:55:28.119
+Eh, efetivamente eu já eu já eu já
+
+0:55:26.280,0:55:30.200
+conhecia o Notebook LM antes de ter
+
+0:55:28.119,0:55:32.920
+mudado de nome. Ele agora é Gemini
+
+0:55:30.200,0:55:34.200
+Notebook. Eu já tinha usado, por
+
+0:55:32.920,0:55:35.640
+exemplo, havia aqui uma feature que eu
+
+0:55:34.200,0:55:37.599
+usei bastante que era o vídeo
+
+0:55:35.640,0:55:39.319
+generation, que é bastante útil. ele
+
+0:55:37.599,0:55:41.680
+pode gerar uma apresentação em vídeo de
+
+0:55:39.319,0:55:45.280
+um determinado tema.
+
+0:55:41.680,0:55:47.359
+OK? Eh, portanto, é uma área que eu já
+
+0:55:45.280,0:55:50.280
+tinha explorado,
+
+0:55:47.359,0:55:52.440
+está em constante desenvolvimento.
+
+0:55:50.280,0:55:55.119
+Acho que ele agora até permite permite
+
+0:55:52.440,0:55:58.079
+gerar sites de HTML e tudo também aqui
+
+0:55:55.119,0:56:01.599
+dentro. Ainda não exporei essa parte,
+
+0:55:58.079,0:56:03.559
+mas pronto, é uma área que
+
+0:56:01.599,0:56:05.119
+acho que tá hoje muito poderosa,
+
+0:56:03.559,0:56:06.559
+realmente,
+
+0:56:05.119,0:56:08.599
+eh, para estudantes, para estudantes,
+
+0:56:06.559,0:56:09.799
+acima de tudo, uma pessoas que querem
+
+0:56:08.599,0:56:11.839
+estudar um determinado tema,
+
+0:56:09.799,0:56:13.760
+autodidatas,
+
+0:56:11.839,0:56:16.000
+efetivamente.
+
+0:56:13.760,0:56:19.559
+Eh, e o Obsidian é uma ferramenta
+
+0:56:16.000,0:56:21.520
+realmente que tá tá tá muito forte. O
+
+0:56:19.559,0:56:23.599
+obsidian. Eu tenho, como já vos disse,
+
+0:56:21.520,0:56:25.400
+tenho visto muitos tutorials onde
+
+0:56:23.599,0:56:28.079
+pessoas que abandonam outras ferramentas
+
+0:56:25.400,0:56:31.000
+à partida mais poderosas, como a Notion,
+
+0:56:28.079,0:56:34.359
+ainda em em e migram para o Obsidian,
+
+0:56:31.000,0:56:36.799
+porque o Obsidian sendo e mais simples,
+
+0:56:34.359,0:56:38.640
+mas na simplicidade é que tá o ganho,
+
+0:56:36.799,0:56:41.039
+portanto mais simples porque
+
+0:56:38.640,0:56:43.640
+simplesmente é um simples agregador de
+
+0:56:41.039,0:56:46.000
+markdowns, de ficheiros de markdown, mas
+
+0:56:43.640,0:56:49.280
+depois tem realmente
+
+0:56:46.000,0:56:51.559
+uma coleção, uma biblioteca de plugins
+
+0:56:49.280,0:56:55.480
+muito poderosa. que permite customizar o
+
+0:56:51.559,0:56:57.119
+obsidian ao nosso gosto. OK? E pronto,
+
+0:56:55.480,0:56:58.880
+penso que vamos ficar por aqui. Acho que
+
+0:56:57.119,0:57:01.200
+cobri mais ou menos tudo o que eu queria
+
+0:56:58.880,0:57:03.160
+para vos mostrar.
+
+0:57:01.200,0:57:06.000
+Eh, é realmente é um tema muito
+
+0:57:03.160,0:57:09.400
+poderoso. Portanto, eu vou vou passar a
+
+0:57:06.000,0:57:11.079
+usar esta tema, esta metodologia aqui de
+
+0:57:09.400,0:57:14.039
+vez em quando, quando se eu quiser
+
+0:57:11.079,0:57:19.839
+testar os meus conhecimentos, pois gero
+
+0:57:14.039,0:57:22.440
+eh refresco refresco o o PDF. Eu não sei
+
+0:57:19.839,0:57:25.319
+se exato, eu já acho que já mostrei-vos
+
+0:57:22.440,0:57:27.799
+aqui no tutorial como se faz isso. OK,
+
+0:57:25.319,0:57:30.280
+acho que sim. Aqui, portanto, a partir
+
+0:57:27.799,0:57:33.480
+aqui de uma de uma nota aqui onde
+
+0:57:30.280,0:57:36.920
+podemos eh aqui exportar a folder do
+
+0:57:33.480,0:57:39.920
+PDF. OK, acho que vos mostrei isso.
+
+0:57:36.920,0:57:39.920
+OK.
+
+0:57:40.039,0:57:46.880
+E pronto, despeço-me.
+
+0:57:44.319,0:57:51.319
+Espero que tenham gostado e até uma
+
+0:57:46.880,0:57:51.319
+próxima oportunidade. Obrigado.
+
+

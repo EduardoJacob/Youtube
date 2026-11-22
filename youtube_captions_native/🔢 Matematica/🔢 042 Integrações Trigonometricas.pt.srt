@@ -1,0 +1,1317 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Hoje vamos tratar de integrações
+trigonométricas diversas.
+Ora,
+vamos aqui
+tratar desta de deduzir esta fórmula
+recursiva.
+OK.
+todos.
+OK. Vamos deduzir esta fórmula do seno.
+Eh,
+as outras podem ficar para vocês
+tentarem fazer como exercício.
+Esta do tangente e da secante, eu também
+acho que nunca nunca deduzi,
+não sei o quão similar deve ser a fazer
+essa dedução.
+[roncando]
+Ora, eu estava na dúvida se
+esta expressão se ficava mais correto
+chamar esta expressão
+e recorrente
+recorrente
+ou recursivo,
+porque efetivamente aqui para calcular o
+integral ou a primitiva, neste caso que
+é a primitiva
+e do seno da potência do seno,
+[roncando] nós vamos
+ter que recorrer
+a
+ao conhecimento do desse mesmo integral,
+mas para um grau aqui inferior de de n -
+2.
+Mas realmente eu estava na dúvida qual
+seria o termo mais correto, mas penso
+que o termo mais correto seja
+recorrente.
+corrente
+porque recorre a termos similares, mas
+de uma ordem inferior.
+Se correr se recorresse a um termo
+igual,
+então seria recursivo, OK? Como existe
+muito na programação, a função chama-se
+ela a própria
+recursiva, mas aqui é esta função não se
+chama ela própria, ela chama-se a uma
+similar da ordem inferior. Mas é como
+vos digo, e não tenho bem a certeza
+aqui. Vou vou pôr aqui um ponto de
+interrogação porque não tenho bem a
+certeza, não fiquei completamente
+convencido qual seja a a melhor a melhor
+maneira de
+OK, de classificar uma forma deste tipo,
+OK? Mas vamos dizer que são fórmulas
+recorrentes,
+OK? Para calcular aqui o integral do
+seno. Bom, estas esta dedução, pelo
+menos estas duas primeiras são simples.
+As outras duas eu nunca fiz.
+Acho que também não vou fazer agora,
+tá-me a faltar paciência, mas as
+primeiras são bem simples e, portanto,
+vamos ver aqui como se resolve
+facilmente
+com recurso à
+à primitivação por partes. OK? Sim,
+senhora. Portanto, então nós vamos
+simplesmente considerar, ora bem, nós
+sabemos derivar o seno,
+que é igual ao cosseno,
+e sabemos derivar o cosseno, que é igual
+a - seno. Sim, senhora.
+Portanto, a partir daqui,
+então, calculamos as primitivas e vamos
+dizer: "Ok, então a primitiva do seno
+pois tem que ser igual o menos cosseno,
+porque ao derivar o cosseno dá menos,
+seno, menos por menos dá mais". OK?
+A primitiva do cosseno tem de ser igual
+ao seno. Sim, senhora. Pronto. Esta
+parte aqui,
+isto é o ponto de partida.
+OK?
+Ponto de partida.
+Agora vamos ver. Bom, então is se eu
+tiver a primitiva do seno quadrado
+e do cosseno quadrado. OK?
+Ora, a primitiva do seno quadrado.
+Pronto.
+Ora, eu não posso dizer que ah, bom, a
+primitiva do seno quadrado, então seria
+o seno cubo.
+Não, não posso dizer isso não faz
+sentido nenhum, porque ao derivar daria
+ao derivar daria 3 seno quadrado
+e
+derivada da base pela função composta
+coseno. OK? Isto sim.
+Portanto, eu não posso dizer
+e então eu não posso dizer, ah, bom,
+então a primitiva do seno quadrado seria
+seno cubo e agora divido, divido por
+cosseno
+para cortar aqui. Não, obviamente isto
+não faz sentido nenhum, OK? E para ver
+que não faz sentido, pois basta depois
+derivar uma qualquer um uma destas
+expressões para vermos que ao derivar
+não não obtemos o seno quadrado. OK?
+Sim, senhora.
+Portanto, temos que ir para outra via.
+Para calcular as primitivas de seno
+quadrado e cosseno quadrado é bem
+simples, porque nós conhecemos umas
+expressões.
+Nós conhecemos as expressões
+das fórmulas do seno e do cosseno da
+soma e da diferença. Então, as as formas
+também das mais fundamentais da
+trigonometria e que também já derivamos
+num dos meus tutoriales, vá mais para
+trás
+e que efetivamente derivamos na altura
+que o seno de derivamos o seno de alfa +
+beta e seno de alfa - beta em particular
+o seno de 2 alfa 2 seno de alfa cosseno
+de alfa e o cosseno de 2 alfa
+cosseno quadrado de alfa men seno quad
+alfa. Portanto, nós derivamos isto lá
+para trás.
+E por sinal, essas formas
+do seno e do cosseno da sua medida
+diferença, elas eram uma expressão
+imediata do cocino interno. Pronto, aí
+está realmente um aspecto bastante
+curioso
+que [roncando]
+na altura quando eu deduzi num dos meus
+tutoriais anteriores, onde mostrei que
+essas formas não era mais nem menos do
+que a forma do conceito interno do do
+produto interno, OK?
+Sim, senhora. Pronto. E, portanto, agora
+nós vamos usar este esta fórmula.
+Pronto. Sim, senhor. O que é que nós
+vamos fazer aqui? Ora, então posso
+exprimir isto aqui como sendo o cosseno
+quadrado menos e o seno quadrado, nós
+sabemos é 1 men cosseno quadrado, porque
+isto é a forma fundamental da
+trigonometria,
+OK? Cuja forma fundamental da
+trigonometria não é mais nem menos do
+que o teorema de Pitágoras, é sem tirar
+nem pôr, é 100% igual. OK? Também já
+estamos cansados de ver isto nos outros
+tutorials. OK. Sim, senhor. Cada vez que
+cada vez que alguém escreva seno
+quadrado + cseno quadrado igual a 1,
+isto é o teorema de Pitágoras, sem tirar
+nem pôr,
+OK? Expresso numa numa nomenclatura
+trigonométrica, OK? Mas é exatamente a
+mesmíssima coisa que o teorema de
+Pitágoras.
+Sim, senhor. Portanto, aqui
+obtemos
+ora por menos dá mais. Vai, portanto,
+vai dar 2 coseno quad - 1. Onde implica
+que o cosseno quadrado
+fica
+1 +
+1 + o cosseno de 2 al
+sobre 2.
+Ok? Pronto. E, portanto, então, isto
+permite-nos
+eh calcular aqui a primitiva do cosseno
+quadrado como sendo a primitiva desta
+expressão. Ou seja, 1/2
+primitivando, portanto, fica teta meios.
+Cosseno 2 al sobre cosseno 2 al ou cseno
+2θ/ 2. Portanto, fica mais
+seno de 2θ.
+E aqui sobre 4, que ao derivar o 2 se
+passa cá para fora, corta para ficar o
+cosseno de 2 t/ sobre 2. Ok? Mais c
+obviamente. Pronto, não tenho que andar
+agora aqui sempre a escrever mais coois
+está subentendido. OK.
+OK.
+Primitiva do cosseno quadrado.
+OK.
+Ora,
+mais C. Pronto, para sermos um bocadinho
+mais rigrosos.
+E quanto ao seno quadrado,
+o seno quadrado
+tínhamos aqui nesta fórmula aqui
+igual a cosseno quadrado. E agora onde
+está cosseno quadrado, vou escrever 1 -
+sen².
+1 - 100 qu
+e aqui - sen qu fica 1 - 2 sen qu
+okanto
+então é explicitando para seno quadrado,
+portanto vai resultar que
+seno quadrado igual a vai resultar 1
+menos o cosseno de 2 alfa
+sobre 2. Pronto. Dond primitiva aqui do
+seno quadrado, pois fica teta meios
+menos
+seno 2θ
+sobre 4.
+Sim, senhor.
+Até aqui foi direto.
+Agora,
+h,
+e o resto e o seno cubo,
+sen³, sen a quarta, etc.
+Pronto.
+E o sen³.
+OK? Pronto. E então agora aqui é que
+temos que deduzir estas fórmulas. Bem,
+eu podia calcular o do sen³ em
+particular, mas o que acontece é que eu
+vou calcular o do do do seno e elevado a
+n.
+calculo e fica já e fique já com a forma
+geral. OK? Pronto, eu já sei que o
+resultado é é esta fórmula. Eu já sei,
+portanto, já sei que existe uma fórmula
+e, portanto, não já escuso estar a a
+tentar calcular uma determinada potência
+qualquer que ela seja em particular.
+Pronto, então vou preocupar em tentar
+calcular o integral de seno elevado a n.
+Pronto. E, portanto, é pelo método da
+primitivação por partes. Por partes.
+Então, eu preciso de duas partes. Eu
+aqui só tenho uma parte. Pronto. Então,
+o que acontece é que nós já vimos isto
+noutros estrutura. Às vezes o que
+acontece é que eu fazia, às vezes havia
+um truque
+de para obter duas partes. Às vezes
+forçava-se aqui uma das partes a ser
+igual a um, OK?
+fazia um vezes qualquer coisa.
+Pronto, não vai ser esse agora o truque.
+Portanto, o truque agora aqui para
+forçar duas partes, onde só temos uma, é
+de compor aqui a potência a multiplicar
+seno multiplica seno n - 1. Pronto. OK?
+Cu então dá sen elevado a n. Ora bem,
+vamos então relembrar a a primitivação
+por partes que eh pronto, eu na verdade
+eu acabo por já ser já já a ter decor,
+mas nunca se esqueçam que é muito
+simples de deduzir a primitivação por
+partes. Basta lembrarem-se da derivação
+do produto.
+A derivação do produto é mais simples
+porque a derivada de f+
+fg vai dar derivada da primeira vez a
+segunda mais derivada da segunda vez a
+primeira. Pronto, a derivação do
+produto, essa é, acho que é bem mais
+simples de de fixar. E agora a
+primitivação por partes, pois é
+imediata. Basta aplicar aqui primitivas
+em ambos os lados,
+OK? Onde aqui a nula primitiva da
+derivada nula fica com FG.
+Pronto, igual a esta parte,
+OK?
+Mais FG linha.
+E agora basta explicitar aqui uma destes
+dois integrais quais quaisquer. Posso
+explicitar o que eu quiser. Posso
+explicitar aqui f linha G
+para dizer que é igual a FG
+a primitiva de FG linha. Pronto, cá
+está.
+Portanto,
+primitivação por partes.
+E sim, senhora.
+é um resultado direto da derivada do
+produto. Também já estamos cansados de
+ver isto. Ora bem, portanto, eu agora
+olho para aqui. Eu vejo que a
+primitivação por partes tem aqui duas
+funções. Tenho que olhar aqui para a
+minha expressão e tenho que escolher
+quais as qual a assignação destas
+funções que eu quero. Bom, olho para
+aqui e digo qual destas duas eu vou
+querer derivar.
+Qualquer das duas eu sei derivar, mas a
+que eu vou querer derivar, a que
+interessa derivar [limpando a garganta]
+é esta.
+Porquê? Porque ao derivar, sendo uma
+potência, ao derivar vai baixando o grau
+da potência. Portanto, ao ir baixando o
+grau da potência, pois eu vou
+simplificando a expressão e eu parto e
+vou obter uma expressão mais simples à
+medida que vou baixando a potência.
+Portanto, esta é que me interessa
+derivar. Portanto, esta vai ser a minha
+função aqui g que pela forma é que irá
+ser derivada. Sendo assim, esta minha
+outra função aqui será a finha.
+a qual eu sei primitivar.
+E é verdade, eu sei primitivar o seno,
+cuja primitiva é o menos que o seno.
+Sim, senhora. Pronto, então sendo assim,
+ora,
+vamos então pela fórmula. O que é que
+isto me dá? Dá-me f a primitiva do seno.
+Ora, a primitiva do seno é menos coseno.
+OK?
+primitiva do seno é menos cosseno.
+Exatamente. Tá correto.
+Vezes g vezes
+seno n - 1. Sim, senhora.
+Agora menos
+menos
+a primitiva do f.
+Ora, o f agora é o é este aqui, é o
+menos cosseno.
+Então o menos por menos vai dar mais
+primitiva do cosseno
+do cosseno vezes a derivada de seno n -
+1. Ora, a derivada de seno n - 1 será
+seno
+n - 2.
+Regra da potência.
+é dividir por n - 2 vezes a derivada da
+base. A derivada do seno é o cosseno.
+Pronto. Vezes a derivada da base. Então
+a derivada da base cosseno vai ficar
+aqui comseno quadrado.
+Pronto. Bem simples. Sim, senhora.
+Pronto. Então agora o que é que nós
+vamos fazer? Pronto, agora é que tá o
+truque, o artifício, não é? Pronto,
+porque agora eu na altura até estava a
+tentar deduzir isto
+e do zero de cabeça, já não lembrava das
+formas. E a partir daqui até estava-me a
+perguntar, então será que eu agora
+continuo com uma primitivação por
+partes? Ainda pus essa essa hipótese,
+voltar a primitivar aqui por partes.
+Pronto, às vezes há formas que há formas
+que resultam de uma aplicação sucessiva
+da primitivação por partes. OK?
+Mas aqui não. Aqui tem que haver um
+truque, tem que haver um artifício. Se
+nós não virmos o artifício, pois não
+conseguimos deduzir a forma. E o
+artifício está aqui. Portanto, onde eu
+tenho o cosseno quadrado, eu tenho que
+converter para senos. Cosseno quadrado é
+igual a 1 - sen². Pronto. Então isto vai
+dar
+menos cosseno seno n - 1
+mais primitiva
+1 - seno quad
+seno n - 2 e o n - 2 pode passar aqui
+para fora.
+Pode passar para aqui
+n - 2. OK? É uma constante porque que
+nós estamos a primitivarem em relação a
+uma função seno de teta.
+OK?
+Sim, senhora.
+E, portanto, agora, pois, este
+multiplica por multiplica por aqui,
+multiplica por aqui e, portanto, vai dar
+menos cosseno
+seno n - 1
++ 1 sobre
+n - 2.
+Ora,
+ora enganei-me aqui. Ora, enganei-me
+aqui. Portanto, ora aqui, enganei-me.
+Ora, tinha aqui,
+ora tinha que primitivar o seno n - 1.
+Eh, derivar, digo, eu tinha que derivar.
+O que eu fiz foi foi primitivei,
+enganei-me, tava distraído. Portanto, eu
+tinha que derivar o seno n - 1.
+Portanto, derivar o seno n - 1. Ora, é
+uma regra da potência n - 1 seno n - 2.
+Pronto, desculpem lá que enganei-me.
+Seno n - 2. Ok.
+Primitivei. Ao em vez de derivar,
+primitivei.
+Sim, senhora. Portanto, aqui vai dar
+OK. Isto aqui vai cortar.
+Pronto. A ver se isto agora tá correto.
+Portanto, o n - 1 posso passá-lo aqui
+para fora.
+Agora sim.
+Ora, portanto, aqui é da derivei. Ora, n
+- 1. sen n - 1. Deriv derivada da base é
+o cosseno. OK. Esta parte aqui tá acho
+que está correta.
+Sim, senhora.
+Eh, portanto, dá menos cseno seno n - 1
++ n - 1
+primitiva. E, portanto, agora tenho seno
+n - 2
+menos e agora este por este - seno n.
+Pronto.
+OK. E agora aqui é que vai aparecer a
+recorrência, porque nós agora vamos ver
+que eu tenho aqui, eu estou a calcular
+o integral de sen elevado a n e agora
+obtive aqui do lado direito uma
+expressão que tem aqui o próprio
+integral de civ n. OK? Pronto. Então,
+muitas vezes o que se faz aqui para
+simplificar a expressão é considera-se
+considera-se o seguinte, considera-se i
+igual ao integral de sido elevado a n.
+Pronto, arranja-se, encontra-se,
+adopta-se esta nomenclatura para obter
+umas expressões mais compactas. E então
+vai ficar,
+portanto, então vai ficar aqui, bom,
+então i que é o que temos estado a
+calcular é igual a menos
+coseno seno n - 1
++ n - 1.
+E aqui vai nos dar
+e há parênteses. E eu posso aqui partir
+este integral em dois, portanto, OK?
+Isto é uma soma ou uma diferença.
+Portanto, fica o integral de seno n - 2
+e menos o integral de sen no n. Ora, o
+integral de sen no n vou pôr - i, que é
+numa equatura que, pronto, aqui fica
+mais simples identificar que
+dizer, ah, bom, então eu tenho aqui um i
+e tenho aqui um i. Pronto, então posso
+explicitar em ordem a I, porque eu quero
+calcular é o i. Eu quero uma expressão
+para o i, que é o a perguntar qual é a
+primitiva da potência do do seno.
+Pronto. Então, sim, senhora. Posso
+explicitar paraou passar o i todo aqui
+para o lado esquerdo.
+E, portanto, vai dar aqui o i
+à parênteses. Tenho 1 e aqui tenho n -
+1. Tenho tenho menos passa para cá, fica
+mais. Portanto, + n - 1.
+Sim, senhora. Igual a
+- coseno seno
+n - 1
++
+n - 1
+primitiva do seno
+n - 2.
+Ora, corta, corta.
+E, portanto, agora passo o n aqui para
+baixo.
+Portanto, então, finalmente, o integral
+que eu quero, o i, que é o integral do
+seno elevado a n,
+é igual a menos cseno
+seno n - 1 tudo sobre n
++
+n - 1
+sobre n
+primitiva seno
+n - 2.
+Ora,
+deixa lá ver se não me enganei na
+fórmula.
+Menos cosseno seno n - 1
+sobre n + n - 1 sobre n seno n - 2.
+Pronto, acho que tá correto. Pronto. E
+daí que, portanto, é uma fórmula então
+recorrente como estava aqui no início,
+é menos seno n - 1 x o cosseno,
+OK?
+tudo sobre n + n - 1 sobre n e seno n -
+2. Portanto, então forma recorrente
+que eu posso calcular o o a primitiva de
+uma potência do seno em função desde que
+eu saiba a primitiva de dessa potência
+com uma diferença do grau de de 2. OK?
+Pronto. Ora, portanto, então aqui calha
+bem, calha bem, porque eu eu tenho eu
+tenho que ter sempre dois duas potências
+já calculadas, que é aqui o caso. Eu sei
+calcular o seno elevado a 1,
+eu sei calcular o o o seno elevado a 2,
+eu sei calcular estes integrais do seno
+elevado a 1, do seno elevado a 2.
+Pronto. Então agora estou pronto a
+calcular o integral, por exemplo, do
+seno igual igual a 3, do seno elevado a
+3. Portanto, vamos usar esta fórmula.
+Portanto, vamos dizer então qual será a
+primitiva da potência do
+do seno ao cubo. Pois, olhando aqui para
+a fórmula, pois será menos o cosseno de
+teta
+vezes o seno, o grau de 2, portanto,
+menos o seno quadrado
+sobre 3.
+Ok? O meu n agora é 3
+3 [roncando] é portanto mais 2/3,
+OK? Mais
+2/3
+da primitiva do seno. Ora, 3 - 2 dá 1 da
+primitiva do seno neste caso. Ora,
+portanto, a primitiva do seno
+é o menos cosseno, se não estou em erro.
+OK. Sim, senhora.
+Ora, efetivamente, eu fui eu fui aofa.
+Fui aofa pedir para ele me dar a
+integração do Cubo e dá um resultado
+que é é aparente, quer dizer, é expresso
+de outra forma, mas é mas é o mesmo
+resultado, mas em vez de ser expresso
+com potências de senos e cossenos, aqui
+o alfa depois deu-me resultado com,
+neste caso, por exemplo, cosseno de 3x,
+em termos de cosseno de 3x. OK? Pronto.
+Ora nós, como é que eu vou ver se estas
+expressões são iguais? Nós já vimos num
+outro tutorial que os cossenos
+e senos de nxula de nós conseguíamos
+exprimir,
+OK? Usando a fórmula Doiler.
+Eh, portanto, aqui dizendo assim, bom,
+eh, por exemplo, o e elevado a 3x
+é igual a coseno 3x. + i3x a fórmula de
+mas por outro lado também podemos
+considerar e elevado a 3x como sendo o
+cubo de e elevado a x, ou seja, a forma
+de e elevado a x = coseno + seno elevado
+ao cubo
+e que agora aplicamos
+o aplicamos aqui. Portanto, a forma do
+binómio do Newton para o cubo, o cubo da
+primeira
++ 3, que é o triângulo de Pascal.
+Portanto, o o primeiro termo ao quadrado
+vezes o segundo termo + 3. O primeiro
+termo a 1, o segundo termo ao quadrado e
+ao quadrado dá -1. tá aqui o menos
+seno quadrado.
+Eh, e portanto finalmente mais o cubo da
+terceira i cubo dá a - i seno cubo.
+Pronto, tenho aqui a expressão.
+Eh, e eu agora quero demonstrar que
+efetivamente um 12 do cseno 3x - 9 x é
+igual à aquele resultado que eu obtive.
+Tem, eu tenho que eu quero demonstrar
+que esta que estas expressões são estas
+duas expressões são idênticas.
+OK? Estas duas são
+idênticas, que é o que eu quero
+demonstrar e que são e de facto são.
+Ora, portanto, então eu tenho eu quero
+usar aqui o cosseno de 3x. Ora, então o
+cosseno de 3x
+é é a parte real desta expansão aqui,
+porque eu tenho aqui o cosseno de 3x,
+que é a parte real e o seno de 3x
+aparece junto da parte imaginária.
+Portanto, nesta expressão que eu obtivo
+aqui, eu aproveito a parte real e sei
+que a parte real aqui será igual ao
+cseno 3x, que é a parte real, e desprezo
+a parte imaginária aqui, que seria igual
+ao seno de 3x.
+Pronto. E então tenho aqui a minha
+expressão 11.
+E agora substituo o cosseno de 3x
+por aquilo que eu obtive aqui. Por
+substituo por um cosseno cubo. Este
+cosseno cubo mais - 3 cosseno seno
+quadrado. Pronto. Substituo. Já
+substituí aqui o cosseno 3x e depois
+aparece aqui -9 cossenos, tá correto? E
+tenho que demonstrar se isto será igual
+à expressão que eu obtive.
+[limpando a garganta] Menos cseno seno
+quad
+- 2 coseno
+ter. Pronto. E vamos ver que é igual.
+Portanto, o 12 passo aqui para cima para
+simplificar. 12/ 3 4. 12 x 2 24/ 3 8.
+Eh, e agora vejo que tenho aqui termos
+similares. Para simplificar, eu vejo que
+tenho aqui -3 cosseno seno quadrado, é
+similar a este. Portanto, este passa
+para o lado esquerdo.
+Fica 4 - 3 1, fica coseno seno quad
+aqui. 9 cseno passa para este lado
+positivo, passa 9 - 8 1, que é este
+termo aqui.
+E finalmente o cosseno cubo para este
+lado menos cosseno cubo. Ponho aqui um
+cosseno em evidência
+e fica 1 men cosseno quadrado aqui que
+sabemos que é igual ao seno quadrado e
+tá correto. Pronto.
+Pronto. Isto é só para verem que
+realmente temos sempre
+a
+o excelente site da da WRAM Alfa. dá-nos
+resultados às vezes, como neste caso, dá
+um deu um resultado, mas o resultado
+eh
+é veio expresso numa forma diferente e
+nós podemos demonstrar se é igual. ORFA
+tem uma capacidade, mas penso que é só
+com subscrição, que eu não tenho
+subscrição, [roncando] é que ele é capaz
+de, portanto, fazer dedução da das
+expressões, a expansão das expressões eh
+passo a passo. Ele tem um step by step
+solution,
+eh, mas como eu não tenho subscrição,
+não consigo ver. Portanto, eu não
+consigo ver que método é que ele aplicou
+para para chegar a este resultado.
+Pronto, eu apliquei este outro, apliquei
+a fórmula que nós deduzimos e
+efetivamente pois eh depois demonstrei
+que que tá tá tá certo, que as duas
+expressões são equivalentes. OK?
+Ora, vamos resolver aqui alguns
+exercícios agora
+de de integrações trigonométricas,
+OK?
+Eh,
+normalmente não é não é bem o âmbito
+aqui do dos meus tutorials
+resolver resolver problemas.
+Normalmente eu os meus tutorios estão
+mais vocacionados para para fórmulas,
+paração de fórmulas. OK? [roncando] Mas
+mesmo assim vamos resolver aqui alguns
+exercícios.
+Ora, por exemplo, vamos ver aqui,
+temos o integral
+da tangente de 2x
+- 1².
+OK? O que é que nós vamos fazer? Pronto,
+normalmente,
+normalmente eu gosto sempre de passar
+tudo a senos e cossenos. Trabalho sempre
+com senos e cossenos de um modo geral.
+OK? Portanto, aqui vou dizer, OK? Então
+aqui vou fazer
+o quadrado do primeiro.
+Vou expandir aqui o quadrado, mas
+passando a tangente a senos e cossenos.
+OK? Então fica o quadrado do primeiro,
+portanto o seno quadrado
+de 2x sobre o cosseno quadrado.
+Pronto. Portanto, é a tangente quadrada.
+Ora, mais o quadrado do segundo
+menos o dobro do primeiro pelo segundo.
+OK?
+Ora, menos. Mas passando já a senos e
+cossenos,
+seno de 2x
+sobre cosseno de 2x. OK? Sim, senhora.
+Pronto, agora poderíamos ser tentados a
+passar tudo ao mesmo denominador, ao
+mesmo denominador, mas não penso que
+talvez também consigamos resolver, mas
+não vale a pena, porque nós o que nós
+temos aqui é
+passar ao mesmo denominador, este aqui
+apenas.
+OK? Pronto. Porque? Porque este termo,
+este termo aqui, a primitivação é
+imediata, porque isto é um logaritmo.
+Vai dar o logaritmo. OK? Pronto. Então,
+então o primeiro termo vai dar,
+passando ao mesmo denominador, vai ficar
+seno quadrado mais coseno quadrado de 2x
+em cima. Portanto, vai ficar um.
+Portanto, vai ficar
+a primitiva do inverso do cosseno
+quadrado.
+Pronto. E [roncando] aqui vai ficar um
+logaritmo, como eu disse, e aqui vai
+ficar um logaritmo diverso.
+Eh, portanto, um logaritmo
+porque aqui é imediato,
+que é o logaritmo do cosseno de 2x.
+OK?
+Pronto, porque derivando o logaritmo de
+qualquer coisa é o inverso dessa
+qualquer coisa 1 sobre cosseno 2x. Neste
+caso, função composta vezes a derivada
+do cosseno 2x ou a derivada do cosseno é
+um menos senos
+- seno de 2x.
+E por sua vez ainda a função composta
+novamente sendo 2x vezes a derivada de
+2x que é 2. Pronto. Portanto, não há
+dúvida nenhuma que aqui
+o logaritmo cosseno 2x pois dá
+a derivada dá esta parte que aqui está.
+E agora resta nos primitivar 1 sobre o
+cosseno quadrado 2x. Pronto. Mas esta é
+uma primitivação imediata também.
+Pronto. Portanto, aqui convém eh termos
+recordarmos, há algumas primitivas que
+são imediatas, OK?
+Que se resultam das primitivas,
+nomeadamente, nomeadamente das funções
+trigonométricas
+básicas, OK? Portanto,
+a primitiva do do cosseno quadrado é
+igual à tangente. Pronto, aqui não há
+não há outra hipótese. Temos que saber,
+te convém saber, portanto, estas
+primitivas mais básicas ou ter uma
+tabela sempre
+de de ou de derivadas ou de ou de de de
+primitivas. Uma tabela trigonométrica
+sempre à mão, não é? Portanto, aqui
+resulta que isto é é a tangente.
+OK?
+Portanto, isto é a tangente,
+porque a a derivada da tangente é o
+inverso do cosseno quadrado.
+Portanto, a tangente
+de 2x
+e portanto ao derivar o inverso do
+cocente quadrado, mas seja a derivada a
+derivada aqui do do da função composta
+tá a 2. E, portanto, aqui tenho que
+aplicar 1/2,
+portanto 1/2
+da tangente de 2x
+mais então logaritmo
+do cosseno de 2x
++ c. Pronto, se quisermos ser rigorosos.
+OK.
+Ora, aqui temos nós a tabela e
+efetivamente
+e a derivada da tangente
+é a secante quadrada. A secante é o
+inverso do cosseno. Eu não gosto de usar
+secantes, portanto é 1 sobre o cosseno
+quadrado.
+OK?
+Sim, senhora. Pronto. E foi, por,
+portanto, a partir daí que quando me
+apareceu aqui o inverso do cosseno
+quadrado, pois temos que ver de imediato
+que a sua primitiva seria a tangente.
+OK?
+Sim, senhora.
+Por exemplo,
+por exemplo, a uma primitiva imediata,
+uma primitiva de um x qu
+sobre um cosseno quadrado
+de x³.
+Então isto é uma primitiva imediata
+porque é 1 sobre cosseno quadrado é uma
+tangente
+de x³, cuja a derivada vai dar um x² e
+eu tenho aqui o x². Então tá certo?
+Portanto, aqui é imediato uma tangente,
+uma tangente de x c,
+OK?
+E portanto que depois ao derivar dá 3x²,
+eu preciso pôr aqui 1/3
+de x². X² já o tenho aqui, portanto tá
+correto. Portanto, mais c. Pronto, isto
+é uma primitivação imediata.
+Ora, vamos ver, por exemplo, uma
+primitiva do seno
+e em baixo vamos ter,
+por exemplo, uma raiz quadrada,
+uma raiz quadrada de um do cosseno cubo.
+OK?
+Ora, portanto, uma raiz quadrada de
+cosseno cubo é é um é um cosseno elevado
+a 3/plica
+1 cosseno a -3/
+OK? Então isto é uma primitiva imediata
+também porque isto é uma potência. Isto
+foi isto resultou que eu derivei uma
+potência alguros uma potência de cosseno
+e que depois vezes a derivada da base
+que me aparece o seno. Portanto, isto
+tem que ser uma potência cosseno
+de qualquer coisa mais 1, não é? porque
+abaixei o grau de um,
+portanto,
+ora mais 1,
+portanto fica - 1/2
+porque ao derivar
+aqui baixo ao grau 1 fica com o seno -
+3/2.
+Veja a derivada da base - seno. O seno
+já já tenho aqui, só tenho que pôr aqui
+um sinal de menos. Mas o sinal de menos
+já está quando eu ponho -1/ aqui. OK.
+Eh,
+ora, portanto, mas falta-me pôr aqui um
+do
+OK?
+Mais C.
+OK. Em caso de dúvida, derivamos.
+Derivar é tipo fazer a prova dos nove.
+Portanto, derivando aqui para ver se vai
+dar aqui o que nós temos aí, pois fica
+ora 2 aqui, hora abaixo de baixo ao grau
+- 1/2
+cosseno vado a isto -1, portanto - 3/2
+vezes a derivada da base do cosseno que
+é - seno
+e portanto o 2 corta corta menos por
+menos corta corta e então dá-me o seno
+vezes o cosseno - 3
+Pronto, vemos que está correto.
+[roncando]
+Ora, vamos ver aqui, por exemplo,
+primitiva
+seno quadrado
+cosseno cubo.
+Ora, isto seria seria uma potência de um
+cosseno
+derivada da base da armia aparecia um
+seno, mas eu não tenho aqui um seno,
+tenho um seno quadrado,
+portanto não pode ser.
+poderia aplicar aqui que faz uma
+primitivação por partes, talvez
+experimentando, não experimentei, mas
+isto tem aqui um artifício
+em que eu e vou pôr,
+ora,
+vou pôr aqui um seno quadrado.
+Reparem, eu podia pôr seno quadrado
+igual a 1 -
+1 - cosseno quadrado.
+Poderia 1 men cosseno quadrado poderia
+dar-me um um coseno cubo - cosseno
+quinta e depois usava então usava depois
+aquelas fórmulas recorrentes da das
+potências,
+portanto dava uma trabalheira porque ia
+ter um cosseno de quinta
+e que seria expresso em termos do cseno
+de cubo, etc, etc. Pronto, dava uma
+trabalheira, mas mas também dava.
+Pronto. Mas neste caso, em vez de
+converter seno quadrado para 1 men
+cosseno quadrado, que nós vamos fazer é
+é o contrário converter aqui um cosseno
+quadrado que está aqui. Portanto, aqui
+fica,
+ora
+fica o seno, deixo estar aqui o seno
+quadrado, não mexo, ponho aqui um
+cosseno também não mexo. E depois
+resta-me um cosseno quadrado onde ponho
+1 - seno quad.
+Ok? Pronto. Desta, esta é a forma ideal
+e mais simples porque então agora vai-me
+dar um cosseno seno quadrado
+que eu já sei primitivar direto, que é o
+que é uma potência de um seno
+menos 1 coseno seno qu
+e eu também sei primitiva direto. Uma
+potência que é uma potência também.
+Pronto. E então aqui fica fica 1 seno c
+sobre 3
+sen² 3 corta derivada do seno cosseno tá
+correto?
+E aqui fica - 1 seno à qu
+5.
+Ora,
+um sen
+penso que tá certo, se não me enganei.
+Mais uma constante.
+OK.
+um cezinho pequenino para não se não se
+confundir com um cosseno. OK?
+Ora,
+vamos aqui primitiva de um seno quadrado
+com o seno quadrado.
+[roncando] Portanto, mais uma vez, se eu
+expandir aqui 1- cosseno quadrado,
+eh, vai-me dar potências de cosseno, o
+qual eu já sei calcular com as formas
+recorrentes, mas vamos tentar resolver
+com com outros artifícios mais simples.
+Portanto, aqui o que fazemos é que, ora,
+sempre que temos um seno cosseno
+e vado à mesma potência, vamos nos
+lembrar da fórmula
+do seno de 2x,
+que é igual a 2 seno xeno de x.
+OK? Pronto. Então aqui e aqui tenho ao
+quadrado.
+Tenho aqui um quadrado
+porque eu tenho aqui um quadrado.
+Ora ao quadrado,
+isto vai dar 2 x 2 4
+seno quadrado coseno quadrado.
+Pronto, aparece aqui um 4, mas eu não
+tenho aqui 4. Portanto, vou dizer que
+isto é igual à primitiva. Eu tenho que
+meter aqui 1/4
+porque eu não tenho.
+Ora, para pôr o seno de 2x
+ao quadrado.
+Ora, portanto, agora primitivar um,
+portanto um seno quadrado.
+Primitivar um seno quadrado. Ora,
+primitivar um seno quadrado, eu já sei,
+foi logo no início nós vimos as formas.
+Ora, as formas de primitivar um seno
+quadrado, portanto, estavam aqui.
+OK. Deixa-me copiar aqui.
+OK.
+Pronto. Ora, primitivar um seno
+quadrado.
+OK.
+Sim, senhora.
+Mas aqui não é, mas aqui era o seno
+quadrado de de de x ou de teta e até
+aqui tenho um seno de 2x.
+OK? Então vamos lá ver.
+Ora bem, então temos a primitiva,
+portanto isto vai ficar 1/4.
+E portanto a primitiva do seno quadrado,
+mas é de 2x. Portanto, e aqui o que é
+que aparece aqui? O ângulo é dividido
+por 2. Portanto, 2x sobre 2 dá x.
+OK?
+Ora,
+ora, isto isto está errado, de facto.
+Isto está errado. É preciso ter cuidado,
+OK? Porque esta era a fórmula para o
+seno quadrado primitiva de seno quad x.
+Mas nós temos seno quad 2x. OK? E aí a
+coisa a coisa muda de figura. OK?
+Sim, senhor. Pronto, nós temos que ir
+ali atrás buscar
+buscar não esta forma, porque esta é a
+primitiva para ser no quadrado de x, OK?
+H,
+o qual resultou de primitivar
+esta expressão aqui do do seno quadrado.
+OK? Resultou de primitivar esta
+expressão.
+Pronto, eu agora estava ali a meter os
+pés para as mãos.
+OK.
+Sim, senhora. Portanto, esta expressão,
+esta sim, esta
+sim, esta expressão
+é a que nós temos. É a que nós temos.
+Ora, que resultou de de quando nós
+expandimos o cosseno de 2 al igual a
+coseno quadrado - sen². Sim, senhora.
+Portanto, nós agora esta é a expressão,
+OK? Seno quadrado de alfa de alfa.
+Pronto. Mas eu agora tenho o seno de 2x,
+o seno quadrado de 2x. Portanto, o seno
+quadrado
+de 2x,
+pois será igual a 1, o mesmo 1 men o
+cosseno de
+4x.
+Aqui sim, agora é que tá correto.
+Preciso ter cuidado. Às vezes há
+pequenas armadilhas na matemática.
+Ora, portanto, e agora sim posso
+primitivar
+e, portanto, a primitiva do seno
+quadrado de 2x,
+pois, pois é o mesmo xe. Pronto, eu
+estava a querer meter ali um x em vez de
+x. Não, o x não altera. X men
+[roncando] seno de 4x.
+de 4x
+e enquanto antes era se fosse o seno de
+2x
+punha 1 2 aqui ficava aqui 4 sobre 4 e
+portanto agora tem que ser sobre 8 ok
+portanto a forma muda completamente
+sobre oit agora sim ok
+senora
+agora é que está correto portanto
+derivando aqui 1/io e derivando aqui com
+o seno 4x o 4 passa Passa para fora,
+corta, fica dois. Pronto, agora é que
+está correto.
+OK. Muito cuidado, muito cuidado com as
+fórmulas.
+Normal, às vezes a pessoa distrai-se
+e [roncando] comete uma gave. Ora bem,
+então sim. Então agora tenho
+efetivamente aqui na expressão final 1/4
+a parênteses e a primitiva
+x
+menos
+ora x - seno [roncando]
+4x
+sobre
+mais C.
+Sim, senhor. Agora é que espero não me
+ter enganado. Agora é que está correto.
+Ora, para acabar então este tutorial,
+vamos ver aqui mais algumas formas
+trigonométricas.
+Ora, nomeadamente,
+deixa passar aqui esta tabelinha.
+OK.
+Ora, vamos ver aqui
+estes estas integrações.
+Ora, eh, hoje hoje em dia podemos
+recorrer ao chat CPT
+e realmente estes estes LMs vão tendo
+cada vez mais capacidade e hoje em dia
+eles já são mais precisos a dar
+informação, especialmente a dar
+informação mais do que a resolver
+problemas. resolver problemas é é
+concretos, é perigoso porque podem-se
+espalhar ao comprido e e não é o seu
+âmbito e portanto não é para isso que
+osms foram criados.
+OK? Para isso nós vamos ao
+Mas e são bons para as vezes para pedir
+para para pedir para pedir fórmulas e
+efetivamente estas fórmulas
+ele eh deixa-me copiar aqui.
+Ora deixa-me copiar. Vou copiar aqui que
+tenho aqui o o chat a resposta do chatt
+aberta aqui.
+Ora, efetivamente,
+ora,
+efetivamente temos aqui
+que
+eh, por exemplo, para o produto de dois
+senos,
+nós temos as isto resulta,
+eu acho que já vimos Isto alguns n algum
+meu tutorial lá para trás, porque isto
+resulta das formas do cosseno da soma e
+da diferença,
+OK? Quando nós temos as formas do
+cosseno de de a + b, pronto, e depois
+manipulando du essas formas, nós
+conseguimos explicitar e obter uma
+expressão para seno de AB. OK?
+Eh, pronto. E que efetivamente que dá
+este resultado aqui seno de nx seno de
+mx e cuja primitivação é imediata e pode
+ser escrita nesta forma, nesta forma
+aqui. OK?
+Sim, senhor.
+Eh, efetivamente as outras fórmulas,
+OK? Portanto, isto é para um um produto
+de senos,
+esta expressão aqui,
+sem duas outras fórmulas, vou copiá-las
+aqui.
+Ora, vou copiá-las aqui, as outras duas
+fórmulas.
+Ora, sim, senhora.
+Sim, senhora. Agora vou resolver um
+problema destes, mas eu não vou usar
+estas formas. Pronto, não vou usar estas
+receitas. Vou usar os números complexos.
+Nós já vimos e ainda agora há pouco, eu
+resolvi ainda há pouca resolvi ali um
+problema onde com a forma dólar. E
+realmente vamos mais uma vez aplicar a
+forma de para resolver um problema deste
+tipo. E pronto, para ver uma
+alternativa.
+OK?
+E portanto
+vamos imaginar, por exemplo,
+primitiva de
+primitiva de seno 2x coseno 2x. Ou seja,
+no no fundo tenho seno de 2x
+cosseno de x primitiva ou então sem ser
+primitiva, simplesmente exprimir esta
+este produto em termos de uma soma de de
+senos e cossenos. OK?
+Pronto. É o é o que temos aqui.
+Exatamente. O que temos aqui são
+produtos, formas pósprodutos, mas que
+agora vamos usar números complexos. Eu
+nunca dei um tutorial especial de
+números complexos a partir do zero.
+Pronto, depreendo que vocês t tenham
+alguns conhecimentos, mas eventualmente
+no futuro
+quando chegar à altura de começar a
+trabalhar que com integrais integrais
+com análise complexa, etc, etc. Depois e
+e voltaremos aos números complexos. Bom,
+mas a forma doer é fundamental
+e efetivamente
+vamos lembrar aqui, portanto, e elevado
+a x
+é igual ao cosseno + seno
+e, portanto, então é elevado a - ix,
+pois será igual a coseno de - x, que é
+uma função par, e aqui fica - i seno.
+Sim, senhor. Pronto, isto permite-me
+agora
+ao somar
+a permite-me aqui dizer bom que este
+corta corta e fica dois cossenos
+é igual a e x
+e x +
+e-x.
+E, portanto, que fica o cosseno
+é igual a e
+e x
++ e -x
+sobre 2.
+OK? E o seno seria aqui, portanto, em
+vez de somar, subtrair, subtrair aqui
+estas duas expressões
+e, portanto, dar-me i a que o seno
+é igual a e
+-
+e - ix
+e, portanto, sobre 2i. Pronto. E estas
+são as expressões efetivamente que
+permite exprimir cossenos e senos em
+função aqui de análise complexa. OK?
+Ora, portanto, então onde é que nós
+vamos aplicar agora isto? Bom, é
+simples. Então, se eu tenho aqui, por
+exemplo, o produto do seno de 2xeno 2x,
+cosseno de x, digo, então eu vou pôr,
+bom, aqui é igual a um seno, vou
+trabalhar aqui com análise complexa.
+Bom, o seno tá aqui, então o seno de 2x,
+pois é
+2x.
+Vem, vejo aqui -
+e - 2x
+sobre 2
+e multiplica o cosseno. E o cosseno vejo
+que é igual a ex
++ e -x.
+OK?
+sobre 2.
+Sim, senhora. Eh, e portanto,
+oi, esqueci-me aqui de algum i.
+Portanto, o seno, o seno é sobre 2i.
+Pronto. Sim, senhora.
+Ora, então fica,
+ora, portanto, vai ficar aqui
+1 sobre 4i
+à parênteses.
+Ora, e agora tenho ora este por este.
+Ora, é
+3x.
+Sim, senhora.
+Ora, este por este.
+Ora, 2x - ix dá
+mais e
+x.
+Ora, este por este.
+Ora, - 2x +x é, mas cuidado com este
+sinal de menos. Portanto, é,
+então vai dar menos
+e
+-x.
+E finalmente estes dois aqui, portanto
+menos
+e -
+x.
+E agora simplesmente tenho que
+rearranjar estes termos por forma a
+obter expressões deste tipo.
+OK? Pronto. Ora, mas eu agora vou obter
+expressões do seno porque eu tenho aqui
+o i no denominador.
+Portanto, eu tenho que procurar
+expressões aqui do seno a dividir por
+2i. OK? Sim, senhora. Portanto, eu vou
+pôr aqui,
+eu vou pôr igual isto aqui, isto é igual
+a 1/2,
+OK? E o 2i passa cá para dentro, que é
+para ficar aqui qualquer coisa sobre 2i.
+OK? Pronto, dessa forma vou obter eh vou
+obter
+qualquer um seno, expressões do seno.
+Pronto. E realmente o que é que eu tenho
+aqui? Tenho que juntar este termo com
+este
+e os outros dois. Portanto, e
+3x
+- e
+- 3x
+e os outros dois termos e e x
+- e
+-x.
+E, portanto, isto dá, ora, olhando a
+forma do aqui do seno, está nas nas na
+na na forma correta para para me dar o
+seno. E, portanto, isto é um seno de 3x,
+OK? Portanto, então tudo isto vai-me dar
+1/2
+um seno de 3x.
+OK?
+Ora, e a seguir,
+ora, e x - é menos isto, portanto, 1
+seno de x,
+OK? Mais
+1 seno de x,
+OK?
+Eh, e portanto vamos confirmar.
+Vamos confirmar.
+Aqui resolvemos com análise complexa.
+E agora vamos resolver com estas
+fórmulas,
+estas receitas. Portanto, vamos buscar
+aqui a receita para o seno.
+Ora, a receita para o seno, um seno de
+de
+Ora, deixa-me, deixa-me copiar aqui a
+fórmula.
+OK.
+Vamos,
+vamos pôr aqui a receita. Vamos ver se
+isto bate certo.
+Eu copiou tudo outra vez. Não percebo.
+Não percebo porquê. Bom, OK.
+Ora, portanto,
+seno de
+seno de 2x cosseno de x
+é igual a
+agora o que é que nós temos aqui? 1/2
+tem piada que ele aqui vai vai- me dar o
+resultado em em em termos de
+seno em termos de seno de cosseno e eu
+tenho em termos de seno.
+Ó, desculpem, enganei. Esta esta forma
+era do seno seno vezes cosseno. Eu já
+estava já estava a achar isto estranho.
+Estava-me aqui a enganar. Isto já está a
+chegar a hora de acabar este tutorial.
+Ora, portanto, seno cosseno é o que eu
+tenho, não é? Seno cosseno. Portanto,
+qual é a forma do seno cosseno?
+Ora, seno, cosseno é este aqui. OK.
+OK. Eu aqui não consegue apanhar a
+imagem. Ok.
+Ok. Seno, cosseno. Estava-me a enganar.
+OK.
+Ora.
+Sim, senhora. Portanto, eu estava-me
+aqui a enganar.
+seno cosseno.
+Ora, seno cosseno,
+OK? Cá está. Igual a 1/es
+um seno da soma, portanto, seno de 3x
+mais um seno da diferença. 2 - 1 1.
+Portanto, seno de x. Pronto, cá está,
+deu correto. Meio do seno 3x + senx, que
+era o que nós obtivemos aqui.
+[suspirando]
+OK, vou ficar por aqui. Já tá o timing
+mais ou menos normal que eu costumo para
+os meus tutorials. Ainda há mais temas
+que em princípio vamos ter que ver, como
+a substituição de vi trass, que eu já
+falei. Pronto, hoje não deu tempo, fica
+fica para outra vez.
+Eh, ficamos por aqui, obviamente que há
+haveria termasia
+integrações, há integrações
+trignométricas muito mais complexas,
+onde é preciso usar a a técnica da
+substituição, etc, etc. Mas pronto, mas
+isso é, como já vos tenho dito várias
+vezes, há vários canais de YouTube
+bastante bons, onde te resolvem
+problemas de forma intensiva, baterias
+de problemas. Pronto, não é bem o âmbito
+aqui do meu do meu tutorial, dos meus
+tutoriais.
+Aqui é mais numa vertente de mostrar
+fórmulas e e normalmente deduzir as
+fórmulas. OK? Sim, senhora. Portanto,
+ficamos por aqui. Espero que tenham
+gostado e até uma próxima oportunidade.
+

@@ -1,0 +1,1192 @@
+0:00:00.760,0:00:05.759
+Sejam bem-vindos a mais um tutorial.
+
+0:00:03.959,0:00:08.519
+Hoje vai ser dedicado ao triplo produto
+
+0:00:05.759,0:00:09.920
+escalar. Também é muito famoso.
+
+0:00:08.519,0:00:12.120
+É bem simples e é bem simples de
+
+0:00:09.920,0:00:15.679
+demonstrar.
+
+0:00:12.120,0:00:15.679
+Eh, nós temos
+
+0:00:15.960,0:00:23.920
+nós, o que nós vamos querer é
+
+0:00:20.840,0:00:26.439
+eh calcular o volume de um paralelo
+
+0:00:23.920,0:00:29.759
+epípedo,
+
+0:00:26.439,0:00:33.359
+ao qual OK, no qual nós temos aqui um um
+
+0:00:29.759,0:00:33.359
+determinado plano,
+
+0:00:33.960,0:00:38.520
+OK?
+
+0:00:36.320,0:00:40.480
+Eh, portanto, e nós vamos dizer que
+
+0:00:38.520,0:00:43.480
+temos
+
+0:00:40.480,0:00:47.360
+temos aqui
+
+0:00:43.480,0:00:47.360
+um determinado vetor
+
+0:00:48.760,0:00:51.760
+A,
+
+0:00:53.359,0:00:58.039
+B.
+
+0:00:56.120,0:01:01.760
+E temos um determinado vetor que não
+
+0:00:58.039,0:01:04.760
+precisa de ser perpendicular, é oblíquo
+
+0:01:01.760,0:01:04.760
+C.
+
+0:01:05.159,0:01:09.479
+Pronto. E queremos
+
+0:01:07.280,0:01:11.040
+calcular,
+
+0:01:09.479,0:01:15.240
+portanto,
+
+0:01:11.040,0:01:15.240
+este paralelepípedo.
+
+0:01:22.799,0:01:26.119
+OK.
+
+0:01:24.479,0:01:28.640
+Eh, sim, senhor. É um tema muito, muito,
+
+0:01:26.119,0:01:30.840
+muito conhecido e uma aplicação muito
+
+0:01:28.640,0:01:32.880
+conhecida do chamado triplo produto
+
+0:01:30.840,0:01:34.640
+escalar. triplo produto escalar porque
+
+0:01:32.880,0:01:36.960
+devolve um escalar.
+
+0:01:34.640,0:01:42.040
+Bom, ora bem, então nós já tínhamos
+
+0:01:36.960,0:01:44.799
+visto que a externo B num outro tutorial
+
+0:01:42.040,0:01:46.680
+e que e deduzimos a forma e deduzimos e
+
+0:01:44.799,0:01:49.719
+dissemos quais eram as suas propriedades
+
+0:01:46.680,0:01:53.880
+que dava a área
+
+0:01:49.719,0:01:56.360
+a área do paralelogramo a externo b dava
+
+0:01:53.880,0:01:58.600
+a área deste deste paralelogramo aqui.
+
+0:01:56.360,0:02:00.320
+Portanto, a área da, vamos dizer, da da
+
+0:01:58.600,0:02:02.200
+base deste deste polihédro, deste
+
+0:02:00.320,0:02:06.079
+paralelepípedo.
+
+0:02:02.200,0:02:08.399
+OK? Então, nós tínhamos o A externo B
+
+0:02:06.079,0:02:10.920
+e tínhamos visto que podia ser calculado
+
+0:02:08.399,0:02:12.760
+em termos das coordenadas. Agora também
+
+0:02:10.920,0:02:16.080
+pode ser calculado com a expressão AB
+
+0:02:12.760,0:02:16.080
+seno de alfa
+
+0:02:16.120,0:02:21.319
+em termos do módulo, só OK? em termos do
+
+0:02:18.560,0:02:23.560
+módulo, porque na verdade vimos que se
+
+0:02:21.319,0:02:26.160
+definia o produto externo como sendo um
+
+0:02:23.560,0:02:28.560
+vetor e, portanto, então esse vetor e
+
+0:02:26.160,0:02:31.440
+que era perpendicular a A e B e cujo
+
+0:02:28.560,0:02:34.519
+módulo era AB seno de alfa
+
+0:02:31.440,0:02:37.360
+e que vimos que as coordenadas se podia
+
+0:02:34.519,0:02:40.560
+representar
+
+0:02:37.360,0:02:42.640
+e calcular rapidamente nesta memónica
+
+0:02:40.560,0:02:45.440
+aqui através desta matriz, mas que como
+
+0:02:42.640,0:02:47.319
+eu disse que não era preciso saber nada
+
+0:02:45.440,0:02:49.879
+sobre matrizes, bastava, podíamos
+
+0:02:47.319,0:02:53.400
+entender Isto como umaónica dizer que
+
+0:02:49.879,0:02:56.239
+estava aqui A1, A2, A3,
+
+0:02:53.400,0:02:58.599
+OK? B1,
+
+0:02:56.239,0:03:00.280
+B2, B3
+
+0:02:58.599,0:03:03.720
+e que, portanto, que e o primeiro
+
+0:03:00.280,0:03:06.519
+elemento do vetor
+
+0:03:03.720,0:03:08.400
+era traçando aqui, cortando a primeira
+
+0:03:06.519,0:03:11.840
+coluna e a primeira linha, fica esta
+
+0:03:08.400,0:03:16.720
+submatriz A2B3
+
+0:03:11.840,0:03:19.040
+A2B3 - A3B2.
+
+0:03:16.720,0:03:22.879
+E vimos que o segundo elemento desse
+
+0:03:19.040,0:03:26.680
+vetor era cortando aqui,
+
+0:03:22.879,0:03:28.560
+portanto, centrando-me aqui no nesta
+
+0:03:26.680,0:03:30.120
+neste
+
+0:03:28.560,0:03:32.760
+versor
+
+0:03:30.120,0:03:35.360
+do da base ortonormada
+
+0:03:32.760,0:03:38.360
+e que, portanto,
+
+0:03:35.360,0:03:40.599
+ia dar a um b3
+
+0:03:38.360,0:03:44.879
+minto, porque aqui muda o sinal, o
+
+0:03:40.599,0:03:48.400
+segundo muda o sinal, portanto ia dar a
+
+0:03:44.879,0:03:48.400
+3b1 1
+
+0:03:49.200,0:03:54.400
+A3
+
+0:03:50.840,0:03:56.319
+B1 - A1 B3
+
+0:03:54.400,0:03:57.840
+e finalmente a terceira coordenada do
+
+0:03:56.319,0:04:01.120
+vetor
+
+0:03:57.840,0:04:04.480
+que ia dar
+
+0:04:01.120,0:04:04.480
+a A1B2
+
+0:04:05.120,0:04:10.599
+- A2B1.
+
+0:04:07.799,0:04:14.000
+OK? Pronto. E vimos as propriedades
+
+0:04:10.599,0:04:15.680
+deste vetor que era eh que era
+
+0:04:14.000,0:04:17.479
+perpendicular aos dois vetores dados e
+
+0:04:15.680,0:04:22.120
+demonstramos
+
+0:04:17.479,0:04:24.520
+e cuja norma era igual à área do do par
+
+0:04:22.120,0:04:25.919
+daqui do do este paralelogramo.
+
+0:04:24.520,0:04:27.400
+Depois há mais propriedades, mas há mais
+
+0:04:25.919,0:04:29.960
+propriedades depois há múltiplas
+
+0:04:27.400,0:04:31.720
+propriedades que não vimos, mas já já
+
+0:04:29.960,0:04:35.600
+agora há uma propriedade famosa é que
+
+0:04:31.720,0:04:39.440
+realmente efetivamente a externo b ele é
+
+0:04:35.600,0:04:42.600
+anticomutativo, é igual a menos
+
+0:04:39.440,0:04:44.320
+b externo a enquanto que no produto
+
+0:04:42.600,0:04:48.120
+interno tínhamos visto que ele era
+
+0:04:44.320,0:04:49.720
+comutativo. A interno b que era um
+
+0:04:48.120,0:04:55.639
+escalar
+
+0:04:49.720,0:04:56.919
+é igual a b interno a ok? Sim, senhora.
+
+0:04:55.639,0:04:58.919
+Ora bem, o que é que nós vamos fazer
+
+0:04:56.919,0:05:00.600
+agora? Imaginando então que eu calculava
+
+0:04:58.919,0:05:02.440
+o produto externo A e B, eu já tenho a
+
+0:05:00.600,0:05:05.280
+área e nós sabemos qual é o volume de um
+
+0:05:02.440,0:05:08.560
+paralelopípedo. A área da base.
+
+0:05:05.280,0:05:11.800
+Portanto, o volume o volume
+
+0:05:08.560,0:05:11.800
+do paralelpípedo,
+
+0:05:12.960,0:05:17.080
+a área a área da base
+
+0:05:18.120,0:05:22.160
+vezes a altura.
+
+0:05:19.919,0:05:25.319
+Pronto, nós já sabemos isto. Ora,
+
+0:05:22.160,0:05:27.400
+supondo que eu tenho aqui este vetor que
+
+0:05:25.319,0:05:31.280
+é o C,
+
+0:05:27.400,0:05:34.240
+OK? o vetor C. [suspirando]
+
+0:05:31.280,0:05:36.240
+Mas eu preciso de saber a altura,
+
+0:05:34.240,0:05:39.639
+a altura
+
+0:05:36.240,0:05:42.919
+que é esta altura aqui,
+
+0:05:39.639,0:05:42.919
+esta altura,
+
+0:05:43.000,0:05:48.440
+esta altura alguros aqui uma determinada
+
+0:05:45.479,0:05:50.880
+altura medida na perpendicular em em
+
+0:05:48.440,0:05:52.919
+relação à base. Pronto, que esta é a
+
+0:05:50.880,0:05:56.400
+altura. OK?
+
+0:05:52.919,0:05:58.160
+Pronto. Então, se eu traçar aqui uma
+
+0:05:56.400,0:06:01.160
+paralela a esta altura, aqui neste
+
+0:05:58.160,0:06:01.160
+ponto,
+
+0:06:02.880,0:06:11.720
+OK?
+
+0:06:04.880,0:06:11.720
+Vemos que a projeção de C,
+
+0:06:13.720,0:06:19.479
+tendo em conta aqui um ângulo teta, a
+
+0:06:16.120,0:06:21.199
+projeção aqui nesta vertical que vai dar
+
+0:06:19.479,0:06:23.800
+cseno
+
+0:06:21.199,0:06:26.919
+de teta. é precisamente a à altura que
+
+0:06:23.800,0:06:31.080
+eu quero.
+
+0:06:26.919,0:06:34.360
+H, OK? Sim, senhora.
+
+0:06:31.080,0:06:37.560
+Eh, então se eu tiver aqui alguros um um
+
+0:06:34.360,0:06:41.400
+vetor nesta vertical
+
+0:06:37.560,0:06:43.919
+e que eu tenho que é o produto externo
+
+0:06:41.400,0:06:45.960
+A externo B, olha, eu já tenho um vetor
+
+0:06:43.919,0:06:48.000
+que por acaso até é perpendicular à
+
+0:06:45.960,0:06:49.280
+base.
+
+0:06:48.000,0:06:52.599
+Portanto, eu já tenho aqui um vetor
+
+0:06:49.280,0:06:52.599
+nesta direção
+
+0:06:52.880,0:06:58.400
+e que é representa aqui a área da base,
+
+0:06:55.440,0:06:59.800
+este valor aqui.
+
+0:06:58.400,0:07:03.160
+E agora tenho que multiplicar pela
+
+0:06:59.800,0:07:05.120
+altura que é o valor, o módulo do outro
+
+0:07:03.160,0:07:06.440
+vetor vezes o cosseno. Ou seja, o que eu
+
+0:07:05.120,0:07:08.960
+estou aqui a dizer é que eu tenho que
+
+0:07:06.440,0:07:12.000
+tenho aqui dois valores, tenho aqui
+
+0:07:08.960,0:07:14.879
+determinados dois valores, V1, V2 e um
+
+0:07:12.000,0:07:17.759
+coseno. E portanto isto é um é um é um
+
+0:07:14.879,0:07:20.599
+produto interno. Pronto. Portanto, não
+
+0:07:17.759,0:07:21.800
+sei, não sei se fica explícito. Tá-me a
+
+0:07:20.599,0:07:23.160
+ser difícil explicar um bocadinho
+
+0:07:21.800,0:07:25.840
+melhor, mas penso que isto seja
+
+0:07:23.160,0:07:30.120
+intuitivo. Portanto, este produto
+
+0:07:25.840,0:07:32.680
+externo A externo B, que é um vetor,
+
+0:07:30.120,0:07:34.759
+ao fazer o oo fazer o produto interno
+
+0:07:32.680,0:07:38.479
+aqui com C,
+
+0:07:34.759,0:07:38.479
+vai-me dar precisamente
+
+0:07:40.080,0:07:45.720
+o vai-me dar o o a componente de C aqui
+
+0:07:43.840,0:07:47.479
+na vertical, ou seja, que é a altura que
+
+0:07:45.720,0:07:49.360
+eu quero
+
+0:07:47.479,0:07:51.400
+e que multiplica o módulo da A externo
+
+0:07:49.360,0:07:52.840
+B, seja el qual for, e que e que já
+
+0:07:51.400,0:07:55.159
+sabemos que é a área da base. Então,
+
+0:07:52.840,0:07:57.520
+portanto, dá-me aqui o que eu quero.
+
+0:07:55.159,0:08:00.360
+Portanto, eu tenho aqui,
+
+0:07:57.520,0:08:03.120
+aqui tenho que
+
+0:08:00.360,0:08:06.240
+pegar no vetor C, C1,
+
+0:08:03.120,0:08:08.360
+C2, C3
+
+0:08:06.240,0:08:10.000
+e fazer o produto interno com este
+
+0:08:08.360,0:08:13.520
+produto externo aqui que já tinha que já
+
+0:08:10.000,0:08:15.639
+tinha acabado de calcular.
+
+0:08:13.520,0:08:19.360
+OK? Pronto, é isto que eu que eu
+
+0:08:15.639,0:08:22.479
+preciso. Então, o que é que se verifica?
+
+0:08:19.360,0:08:24.639
+Verifica-se que
+
+0:08:22.479,0:08:26.159
+podemos encontrar aqui uma representação
+
+0:08:24.639,0:08:27.759
+aqui
+
+0:08:26.159,0:08:31.319
+em termos de um determinante. Para quem
+
+0:08:27.759,0:08:32.680
+já estudou determinantes e matrizes,
+
+0:08:31.319,0:08:34.080
+para quem não estudou, pronto, não
+
+0:08:32.680,0:08:35.959
+precisam de se preocupar muito com isso,
+
+0:08:34.080,0:08:39.200
+mas é funciona como se fosse uma
+
+0:08:35.959,0:08:42.200
+menónica mais onde aqui no lugar dos
+
+0:08:39.200,0:08:43.519
+versores, estes versores aqui, pronto,
+
+0:08:42.200,0:08:44.839
+quem não sabe o que é os versores ou não
+
+0:08:43.519,0:08:48.680
+se recorda também, não se preocupem com
+
+0:08:44.839,0:08:51.839
+isso agora se é daja para linear.
+
+0:08:48.680,0:08:56.080
+e espaços vetoriais.
+
+0:08:51.839,0:08:59.839
+Eh, aqui neste lugar eu vou pôr o vetor
+
+0:08:56.080,0:09:03.920
+C. Eu posso pôr ali o vetor C. E,
+
+0:08:59.839,0:09:06.920
+portanto, eu posso dizer que
+
+0:09:03.920,0:09:06.920
+se
+
+0:09:07.279,0:09:12.800
+ao fazer o produto interno
+
+0:09:10.399,0:09:16.200
+com o produto externo, que é o vetor que
+
+0:09:12.800,0:09:18.640
+resulta da A externo B,
+
+0:09:16.200,0:09:20.959
+OK? cuja expressão é esta aqui, esta
+
+0:09:18.640,0:09:22.760
+expressão longa
+
+0:09:20.959,0:09:26.000
+que é C1 que multiplica a primeira
+
+0:09:22.760,0:09:29.040
+coordenada mais, etc, etc, que vai dar
+
+0:09:26.000,0:09:32.200
+um escalar, eu posso representar da
+
+0:09:29.040,0:09:35.399
+forma compacta
+
+0:09:32.200,0:09:36.920
+com um chamado um determinante,
+
+0:09:35.399,0:09:39.560
+que é também aqui como se fosse uma
+
+0:09:36.920,0:09:42.160
+matriz,
+
+0:09:39.560,0:09:45.040
+que enquanto esta matriz ela representa
+
+0:09:42.160,0:09:46.959
+um vetor, esta outra matriz agora vai
+
+0:09:45.040,0:09:49.440
+representar um escalar.
+
+0:09:46.959,0:09:51.880
+OK? Pronto. Portanto, isto as coisas têm
+
+0:09:49.440,0:09:53.800
+que ser entendidas num contexto. Da
+
+0:09:51.880,0:09:58.560
+mesma forma que se eu escrever assim uns
+
+0:09:53.800,0:10:01.959
+parênteses A, B, C, poderá ser um ponto,
+
+0:09:58.560,0:10:04.240
+não sei, poderá representar um ponto
+
+0:10:01.959,0:10:06.000
+ou poderá representar um vetor. Eu não
+
+0:10:04.240,0:10:07.839
+sei. Eu eu tenho que saber, eu tenho que
+
+0:10:06.000,0:10:10.120
+ter o contexto. Alguém me tem que dar
+
+0:10:07.839,0:10:12.240
+esse contexto.
+
+0:10:10.120,0:10:15.519
+Por acaso eu vi e vê-se algum estrutura
+
+0:10:12.240,0:10:17.040
+e havia alguma documentação e manuais de
+
+0:10:15.519,0:10:20.040
+matemática. atrás às vezes vê-se os
+
+0:10:17.040,0:10:22.839
+vetores representados desta forma.
+
+0:10:20.040,0:10:25.959
+Um vetor ABC,
+
+0:10:22.839,0:10:28.800
+enquanto que se for um ponto, será um
+
+0:10:25.959,0:10:31.480
+ponto ABC. Pronto, eu não estou
+
+0:10:28.800,0:10:34.880
+habituado a usar esta nomenclatura,
+
+0:10:31.480,0:10:36.839
+não a uso. Eh, e até perguntei ao chat
+
+0:10:34.880,0:10:39.839
+CPT se havia alguma recomendação, algum
+
+0:10:36.839,0:10:43.760
+padrão e eu não não foi claro. Disse que
+
+0:10:39.839,0:10:45.480
+isso depende das das diversas eh
+
+0:10:43.760,0:10:50.399
+subdisciplinas dentro da matemática. N
+
+0:10:45.480,0:10:53.320
+algumas é usado mais um uma metodologia.
+
+0:10:50.399,0:10:56.079
+Há determinadas áreas da matemática onde
+
+0:10:53.320,0:10:58.000
+se onde se usa mais este método, outros
+
+0:10:56.079,0:11:00.760
+usa-se mais este método. Portanto, acho
+
+0:10:58.000,0:11:02.800
+que não não foi conclusivo. Pronto, eu
+
+0:11:00.760,0:11:05.680
+pessoalmente estou não eu pessoalmente
+
+0:11:02.800,0:11:07.480
+não costumo não costumo usar esta
+
+0:11:05.680,0:11:09.360
+nomenclatura.
+
+0:11:07.480,0:11:11.760
+Não costumo não costumo usar, não. Nunca
+
+0:11:09.360,0:11:14.760
+uso. Eu nunca nunca uso esta
+
+0:11:11.760,0:11:16.560
+nomenclatura.
+
+0:11:14.760,0:11:18.639
+Normalmente não preciso porque
+
+0:11:16.560,0:11:20.399
+normalmente eu consigo saber sempre pelo
+
+0:11:18.639,0:11:22.600
+contexto se estou se tenho um ponto ou
+
+0:11:20.399,0:11:24.600
+se tenho um vetor e uso sempre esta
+
+0:11:22.600,0:11:26.959
+nomenclatura, não preciso estar a
+
+0:11:24.600,0:11:28.880
+destrinçar.
+
+0:11:26.959,0:11:31.040
+Ora bem, e aqui passa-se uma coisa
+
+0:11:28.880,0:11:32.680
+semelhante. Nós podemos ver aqui uma
+
+0:11:31.040,0:11:34.800
+matriz
+
+0:11:32.680,0:11:36.399
+e nós temos que ter a noção do que é.
+
+0:11:34.800,0:11:38.399
+Nós temos que ter a noção se num dado
+
+0:11:36.399,0:11:40.760
+momento
+
+0:11:38.399,0:11:42.360
+estaremos a falar de um vetor, depende
+
+0:11:40.760,0:11:44.600
+do contexto, ou estaremos a falar de um
+
+0:11:42.360,0:11:46.480
+escalar. Neste caso aqui estamos a falar
+
+0:11:44.600,0:11:48.440
+de um escalar
+
+0:11:46.480,0:11:50.440
+que e e aliás por isso chamamos
+
+0:11:48.440,0:11:52.000
+determinante porque um determinante é um
+
+0:11:50.440,0:11:57.480
+escalar.
+
+0:11:52.000,0:11:59.519
+Então colocamos aqui C1, C2 C3 produto
+
+0:11:57.480,0:12:03.440
+interno com
+
+0:11:59.519,0:12:06.240
+AB e representamos desta forma compacta,
+
+0:12:03.440,0:12:09.639
+bem compacta, como vocês estão a ver. E
+
+0:12:06.240,0:12:11.440
+qual é a regraónica para calcular isto?
+
+0:12:09.639,0:12:13.079
+é a mesma que aplicamos no produto
+
+0:12:11.440,0:12:14.800
+externo.
+
+0:12:13.079,0:12:17.160
+OK? Portanto, existe toda uma teoria de
+
+0:12:14.800,0:12:20.160
+matrizes, mas pronto, quizás um dia eu
+
+0:12:17.160,0:12:23.199
+farei alguns tutorios sobre isso. Eh, e
+
+0:12:20.160,0:12:24.760
+que depois e ensina o cob e o porquê se
+
+0:12:23.199,0:12:26.760
+calculam determinantes de maior
+
+0:12:24.760,0:12:28.519
+dimensão, de ordem dois, de ordem 4,
+
+0:12:26.760,0:12:31.360
+etc, etc, etc. Pronto, há toda uma
+
+0:12:28.519,0:12:33.800
+teoria de matrizes e determinantes e que
+
+0:12:31.360,0:12:35.360
+explica o porquê das coisas, mas nós
+
+0:12:33.800,0:12:37.760
+chegamos
+
+0:12:35.360,0:12:40.560
+a esse porquê e a essa memónica quando
+
+0:12:37.760,0:12:43.083
+nós deduzimos a forma do produto
+
+0:12:40.560,0:12:44.120
+externo. OK? Portanto, resultou
+
+0:12:43.083,0:12:46.600
+[limpando a garganta] que a forma do
+
+0:12:44.120,0:12:47.839
+produto externo era esta que aqui está.
+
+0:12:46.600,0:12:50.079
+OK?
+
+0:12:47.839,0:12:53.120
+Não sei se eu me explico. E, portanto,
+
+0:12:50.079,0:12:55.920
+automaticamente fica fica determinado
+
+0:12:53.120,0:12:58.440
+qual a regra para calcular
+
+0:12:55.920,0:13:03.120
+eh um determinante
+
+0:12:58.440,0:13:06.639
+aqui de dimensão 3. Então, temos
+
+0:13:03.120,0:13:09.240
+temos começo aqui por este ponto,
+
+0:13:06.639,0:13:12.440
+OK? [roncando] E é a mesma regra que
+
+0:13:09.240,0:13:17.680
+aplicamos aqui. Eu eu este ponto tá para
+
+0:13:12.440,0:13:17.680
+a primeira coninha e vai ser a 2b3.
+
+0:13:19.440,0:13:25.720
+A2
+
+0:13:21.519,0:13:28.600
+P3 - A3 P2. Só que agora, em vez de
+
+0:13:25.720,0:13:30.040
+colocar como coordenada de um vetor, eu
+
+0:13:28.600,0:13:32.240
+agora coloco aqui entre parênteses e
+
+0:13:30.040,0:13:34.279
+multiplico por C1.
+
+0:13:32.240,0:13:36.600
+Pronto.
+
+0:13:34.279,0:13:38.639
+Mais
+
+0:13:36.600,0:13:41.880
+C2
+
+0:13:38.639,0:13:41.880
+que multiplica
+
+0:13:42.240,0:13:45.240
+A3B1.
+
+0:13:46.839,0:13:50.480
+- A1 B3.
+
+0:13:51.120,0:13:55.920
+E finalmente o terceiro o terceiro valor
+
+0:13:53.680,0:13:57.839
+aqui
+
+0:13:55.920,0:14:02.279
+C3
+
+0:13:57.839,0:14:05.600
+a parênteses A1 B2
+
+0:14:02.279,0:14:05.600
+- A2B1.
+
+0:14:06.000,0:14:11.560
+E pronto. E efetivamente este valor
+
+0:14:09.519,0:14:15.040
+dá-nos
+
+0:14:11.560,0:14:17.680
+e o volume do paralelepípedo
+
+0:14:15.040,0:14:21.399
+que está
+
+0:14:17.680,0:14:23.600
+delimitado por três vetores. OK? Pronto,
+
+0:14:21.399,0:14:26.120
+não tem mais. Penso que vamos verificar
+
+0:14:23.600,0:14:29.519
+por aqui. Há aqui algumas propriedades
+
+0:14:26.120,0:14:34.519
+do do triplo produto escalar que A
+
+0:14:29.519,0:14:38.920
+interno B externo C.
+
+0:14:34.519,0:14:43.399
+é igual a a B interno
+
+0:14:38.920,0:14:45.839
+interno C externo A
+
+0:14:43.399,0:14:48.279
+e é igual a C
+
+0:14:45.839,0:14:50.759
+interno
+
+0:14:48.279,0:14:53.519
+A externo B.
+
+0:14:50.759,0:14:55.680
+Eh, quem quem estudou matrizes e
+
+0:14:53.519,0:14:58.199
+determinantes, e eu também estudei,
+
+0:14:55.680,0:15:01.320
+embora estou um bocado esquecido de
+
+0:14:58.199,0:15:03.680
+várias temáticas, mas e acontece que
+
+0:15:01.320,0:15:06.920
+quando nós trocamos
+
+0:15:03.680,0:15:08.880
+duas linhas ou duas colunas,
+
+0:15:06.920,0:15:11.600
+o determinante final, ele mantém o
+
+0:15:08.880,0:15:14.600
+valor, mas muda de sinal, OK? E,
+
+0:15:11.600,0:15:18.079
+portanto, aqui, se eu fizer este A
+
+0:15:14.600,0:15:21.320
+interno B externo C,
+
+0:15:18.079,0:15:23.839
+se olharmos aqui em termos da matriz,
+
+0:15:21.320,0:15:26.600
+o que eu estou a provocar é a troca. O A
+
+0:15:23.839,0:15:29.600
+vem aqui para cima
+
+0:15:26.600,0:15:31.319
+e depois fica BC. Ou seja, troquei duas
+
+0:15:29.600,0:15:33.959
+linhas. Eu não troquei, eu não troquei
+
+0:15:31.319,0:15:36.360
+só o A com o C, porque se eu pusesse, se
+
+0:15:33.959,0:15:39.600
+eu pusesse
+
+0:15:36.360,0:15:44.440
+o A interno,
+
+0:15:39.600,0:15:44.440
+o A vinha para cima e depois CB,
+
+0:15:45.639,0:15:51.279
+então é é igual a menos isto, porque já
+
+0:15:49.000,0:15:52.680
+acabamos de de dizer também há bocado
+
+0:15:51.279,0:15:54.880
+que o produto externo era
+
+0:15:52.680,0:15:57.440
+anticomutativo. Portanto, o B externo C
+
+0:15:54.880,0:16:00.040
+é igual ao menos de C externo B. Pronto.
+
+0:15:57.440,0:16:02.759
+E assim sucessivamente para os outros.
+
+0:16:00.040,0:16:05.959
+Eh, o que acontece é que eh este
+
+0:16:02.759,0:16:09.040
+determinante às vezes também pode ser
+
+0:16:05.959,0:16:10.519
+eh negativo, OK? poderá dar negativo,
+
+0:16:09.040,0:16:13.199
+tal como um produto interno também pode
+
+0:16:10.519,0:16:16.160
+dar negativo. [roncando] E, portanto, o
+
+0:16:13.199,0:16:17.839
+que eh devemos ter cuidado com isso, mas
+
+0:16:16.160,0:16:20.519
+também se tivéssemos a calcular um
+
+0:16:17.839,0:16:22.440
+volume e desse negativo, poisíamos
+
+0:16:20.519,0:16:24.160
+que tínhamos que tomar o valor absoluto.
+
+0:16:22.440,0:16:26.240
+Portanto, a bom rigor, nós devemos tomar
+
+0:16:24.160,0:16:27.920
+o valor absoluto disto. Portanto, então,
+
+0:16:26.240,0:16:32.279
+basicamente,
+
+0:16:27.920,0:16:32.279
+eh, existe uma
+
+0:16:32.440,0:16:37.920
+uma representação compactada para
+
+0:16:34.399,0:16:40.240
+representar o triplo produto, que é A,
+
+0:16:37.920,0:16:42.079
+B, C,
+
+0:16:40.240,0:16:43.600
+OK? E põe-se assim este símbolo que é
+
+0:16:42.079,0:16:45.720
+como se fosse o símbolo determinante. E
+
+0:16:43.600,0:16:48.959
+assim diz que é o um determinante de
+
+0:16:45.720,0:16:51.279
+três vetores A, B, C, que é um triplo
+
+0:16:48.959,0:16:55.000
+produto escalar.
+
+0:16:51.279,0:16:58.440
+Eh, e portanto que é igual a, eu aqui
+
+0:16:55.000,0:16:59.680
+vou pôr o valor absoluto, OK? é bom
+
+0:16:58.440,0:17:02.160
+rigor, acho que se deve pôr, embora
+
+0:16:59.680,0:17:05.600
+muitas vezes vemos em tutorials e não se
+
+0:17:02.160,0:17:07.640
+põe e as pessoas esquecem-se de pôr, mas
+
+0:17:05.600,0:17:09.880
+a bom rigor acho que se deve pôr porque
+
+0:17:07.640,0:17:11.880
+o o produtos
+
+0:17:09.880,0:17:15.400
+interno o resultado poderá poderá vir
+
+0:17:11.880,0:17:18.559
+negativo. E portanto isso isto no caso
+
+0:17:15.400,0:17:20.880
+no caso de que de estarmos e no contexto
+
+0:17:18.559,0:17:23.120
+de calcular um volume um volume, não é?
+
+0:17:20.880,0:17:25.439
+um volume de um paralelo píipto, que
+
+0:17:23.120,0:17:26.839
+acho que é a maior parte das situações,
+
+0:17:25.439,0:17:29.080
+não me estou a lembrar agora uma outra
+
+0:17:26.839,0:17:30.679
+situação em que isto possa ser usado o
+
+0:17:29.080,0:17:33.080
+triplo produto escalar que não seja com
+
+0:17:30.679,0:17:34.840
+esse fim. Bom, agora não me recordo, mas
+
+0:17:33.080,0:17:37.000
+pronto. Mas se for para calcular o
+
+0:17:34.840,0:17:40.120
+volume de um paralelo pip, depois temos
+
+0:17:37.000,0:17:43.120
+que efetivamente aplicar o valor
+
+0:17:40.120,0:17:43.120
+absoluto.
+
+0:17:48.559,0:17:53.679
+É bem simples e é só isto.
+
+0:17:51.360,0:17:56.679
+Espero que tenham gostado. Aqueles que
+
+0:17:53.679,0:17:57.840
+já se lembram disto, certamente, pois
+
+0:17:56.679,0:18:00.320
+relembraram aqui um bocadinho da
+
+0:17:57.840,0:18:04.120
+matéria. Também não faz mal nenhum.
+
+0:18:00.320,0:18:04.120
+Eh, e até a próxima.
+
+

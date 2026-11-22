@@ -1,0 +1,4678 @@
+0:00:02.240,0:00:06.720
+Ora, sejam bem-vindos a mais um
+
+0:00:03.959,0:00:08.320
+tutorial.
+
+0:00:06.720,0:00:11.639
+Vamos tratar das derivadas do logaritmo
+
+0:00:08.320,0:00:13.360
+e da exponencial. E já sabemos que essa
+
+0:00:11.639,0:00:16.279
+estas duas funções são inversas uma da
+
+0:00:13.360,0:00:19.199
+outra. Historicamente
+
+0:00:16.279,0:00:21.160
+o logaritmo apareceu primeiro. Logaritmo
+
+0:00:19.199,0:00:22.240
+de x. Já sabemos o que é o logaritmo.
+
+0:00:21.160,0:00:24.119
+Pelo menos de acordo com a minha
+
+0:00:22.240,0:00:26.960
+interpretação e que eu já a dei. O
+
+0:00:24.119,0:00:30.400
+logaritmo é o expoente. Não tem mais.
+
+0:00:26.960,0:00:32.759
+OK? Mas pode ser definido de muitas
+
+0:00:30.400,0:00:37.600
+outras maneiras e pode ser definido como
+
+0:00:32.759,0:00:39.520
+a área debaixo da curva do inverso de x,
+
+0:00:37.600,0:00:41.520
+OK?
+
+0:00:39.520,0:00:44.039
+E a função inversa do logaritmo,
+
+0:00:41.520,0:00:46.199
+portanto, é a exponencial
+
+0:00:44.039,0:00:48.520
+de base e nepriana,
+
+0:00:46.199,0:00:51.239
+OK? Quando o logaritmo é de base e
+
+0:00:48.520,0:00:53.079
+quando é o logaritmo natural,
+
+0:00:51.239,0:00:56.079
+OK?
+
+0:00:53.079,0:00:56.079
+Eh,
+
+0:00:57.280,0:01:00.920
+foi inclusive dada uma definição, a
+
+0:00:59.120,0:01:04.960
+definição oficial do logaritmo em função
+
+0:01:00.920,0:01:08.400
+de um de um integral e a função
+
+0:01:04.960,0:01:11.880
+oficial do da exponencial em função de
+
+0:01:08.400,0:01:14.159
+um limite. OK? Pronto, eu historicamente
+
+0:01:11.880,0:01:16.680
+não não sei exatamente
+
+0:01:14.159,0:01:18.759
+eh como foi ou como não foi. Suponho que
+
+0:01:16.680,0:01:20.560
+estas coisas foram foram sendo
+
+0:01:18.759,0:01:22.159
+descobertas a pouco e pouco e as
+
+0:01:20.560,0:01:24.680
+propriedades das funções foram sendo
+
+0:01:22.159,0:01:26.680
+descobertas a pouco e pouco. Há um
+
+0:01:24.680,0:01:28.680
+exemplo que eu acho útil, costuma-se dar
+
+0:01:26.680,0:01:31.360
+sobre a exponencial, que tem a ver com a
+
+0:01:28.680,0:01:34.000
+taxa de juro, que tem essa analogia com
+
+0:01:31.360,0:01:36.680
+a taxa de juro bancária.
+
+0:01:34.000,0:01:39.799
+OK? Imaginando que
+
+0:01:36.680,0:01:41.680
+eu tenho uma quantidade Q,
+
+0:01:39.799,0:01:46.479
+OK?
+
+0:01:41.680,0:01:48.719
+e que eu ponho no banco e a uma dada
+
+0:01:46.479,0:01:51.360
+taxa de juro
+
+0:01:48.719,0:01:54.040
+T.
+
+0:01:51.360,0:01:56.240
+Então, ó, e a taxa de juro é vencida
+
+0:01:54.040,0:01:59.560
+anualmente. Então, ao fim de 1 ano eu
+
+0:01:56.240,0:02:02.159
+vou ter a quantidade de Q1 +
+
+0:01:59.560,0:02:03.759
+T.
+
+0:02:02.159,0:02:06.360
+OK? Por exemplo, se a taxa de juro for
+
+0:02:03.759,0:02:10.360
+10%, ao fim de 1 ano, eu vou ter Q
+
+0:02:06.360,0:02:13.319
+multiplicado por 1.1. OK? E se for ao
+
+0:02:10.360,0:02:17.280
+fim de 2 anos,
+
+0:02:13.319,0:02:19.480
+então isto equivale a
+
+0:02:17.280,0:02:21.760
+cada cada fim de um período eu
+
+0:02:19.480,0:02:24.920
+multiplico por 1 + t, OK? Portanto, gera
+
+0:02:21.760,0:02:27.800
+aqui esta potência, OK?
+
+0:02:24.920,0:02:29.760
+Ora bem, agora vamos considerar que q =
+
+0:02:27.800,0:02:31.840
+1, portanto, porque eu não me interessa
+
+0:02:29.760,0:02:34.360
+a quantidade inicial, já vimos que não
+
+0:02:31.840,0:02:36.040
+não importa, não afeta a fórmula, é
+
+0:02:34.360,0:02:38.480
+apenas um fator de escala que aparece
+
+0:02:36.040,0:02:40.440
+aqui multiplicado. Pronto, portanto vou
+
+0:02:38.480,0:02:42.280
+ignorar agora o quê? E vamos estudar
+
+0:02:40.440,0:02:44.440
+apenas
+
+0:02:42.280,0:02:47.879
+o o crescimento, o fato, o fator de
+
+0:02:44.440,0:02:49.680
+crescimento propriamente dito.
+
+0:02:47.879,0:02:51.280
+OK?
+
+0:02:49.680,0:02:53.879
+E agora para simplificar ainda vou fazer
+
+0:02:51.280,0:02:57.120
+mais. Eu vou considerar
+
+0:02:53.879,0:02:59.800
+eh te
+
+0:02:57.120,0:03:02.800
+igual a, imaginem uma taxa de juro
+
+0:02:59.800,0:03:07.560
+hipotética de 100%, 100% ao ano.
+
+0:03:02.800,0:03:09.280
+Portanto, 100% é 1. OK?
+
+0:03:07.560,0:03:10.879
+Ora,
+
+0:03:09.280,0:03:13.400
+e agora põe-se esta pergunta: o que é
+
+0:03:10.879,0:03:15.879
+que se o que é que é melhor?
+
+0:03:13.400,0:03:19.319
+Seria melhor pôr
+
+0:03:15.879,0:03:22.200
+o dinheiro no banco a render a 100% ao
+
+0:03:19.319,0:03:25.000
+ano, com juros vencidos ao ano?
+
+0:03:22.200,0:03:27.879
+E ao fim do ano, então, eu tinha
+
+0:03:25.000,0:03:33.799
+o crescimento 1
+
+0:03:27.879,0:03:36.840
++ 1, tal como está aqui, 1 + t, t = 1.
+
+0:03:33.799,0:03:40.439
+Ou o que será melhor, ter uma taxa de
+
+0:03:36.840,0:03:44.000
+juros 50%,
+
+0:03:40.439,0:03:46.120
+mas os juros vencidos ao semestre,
+
+0:03:44.000,0:03:48.239
+então significa que vai haver dois
+
+0:03:46.120,0:03:51.720
+períodos ao fim do ano para comparar com
+
+0:03:48.239,0:03:55.040
+este valor aqui. Eu tenho o
+
+0:03:51.720,0:03:59.920
+mais e agora a taxa de juro, vou dizer
+
+0:03:55.040,0:04:02.480
+bom, em vez de ser 100% é 50%, 1/5.
+
+0:03:59.920,0:04:07.200
+OK? E quantos períodos tenho? Dois
+
+0:04:02.480,0:04:10.360
+períodos. Dois períodos. OK? Pronto.
+
+0:04:07.200,0:04:12.720
+Então, e se fizerem esta conta, vão ver
+
+0:04:10.360,0:04:15.439
+que compensa
+
+0:04:12.720,0:04:18.000
+compensa
+
+0:04:15.439,0:04:19.880
+que os juros sejam contabilizados ao
+
+0:04:18.000,0:04:22.440
+semestre.
+
+0:04:19.880,0:04:24.520
+OK? Rende mais do que juros
+
+0:04:22.440,0:04:26.600
+contabilizados anualmente. Enfim, para
+
+0:04:24.520,0:04:28.720
+uma taxa de juro equivalente, não é?
+
+0:04:26.600,0:04:30.880
+Neste caso aqui 100%. Claro que ao
+
+0:04:28.720,0:04:34.080
+semestre não pode ser 100%, isso seria
+
+0:04:30.880,0:04:37.520
+ridículo. 100% ao semestre. Digamos que
+
+0:04:34.080,0:04:40.199
+um equivalente a 100% anual seria 50% ao
+
+0:04:37.520,0:04:43.360
+semestre. OK?
+
+0:04:40.199,0:04:46.120
+OK. E, portanto, se aqui taxa de juro
+
+0:04:43.360,0:04:48.800
+anual, isto dá-me dois, portanto, ao fim
+
+0:04:46.120,0:04:54.400
+do ano eu dobrava o meu capital.
+
+0:04:48.800,0:04:56.520
+Aqui façam as contas, vai dar 225.
+
+0:04:54.400,0:04:59.479
+225,
+
+0:04:56.520,0:05:02.479
+OK? O que é melhor. OK?
+
+0:04:59.479,0:05:05.120
+Então, e agora se continuarmos a a
+
+0:05:02.479,0:05:07.199
+reduzir o número de praz de de de
+
+0:05:05.120,0:05:08.919
+períodos,
+
+0:05:07.199,0:05:10.960
+em vez de ser ao semestre, agora era ao
+
+0:05:08.919,0:05:14.520
+mês
+
+0:05:10.960,0:05:17.520
+com uma taxa de juro, um 12avos,
+
+0:05:14.520,0:05:17.520
+pequenina,
+
+0:05:17.720,0:05:24.240
+mas
+
+0:05:20.319,0:05:24.240
+contabilizado ao mês
+
+0:05:24.883,0:05:29.319
+[roncando]
+
+0:05:26.080,0:05:29.319
+dá dois
+
+0:05:29.759,0:05:34.400
+61
+
+0:05:31.680,0:05:37.000
+aproximadamente.
+
+0:05:34.400,0:05:39.680
+Então agora vocês já estão a ver, eu
+
+0:05:37.000,0:05:42.520
+pergunto então e se se os juros foram
+
+0:05:39.680,0:05:44.000
+contabilizados continuamente?
+
+0:05:42.520,0:05:46.520
+OK? Não conheço nenhum banco que faça
+
+0:05:44.000,0:05:48.199
+isso porque obviamente porque isso seria
+
+0:05:46.520,0:05:50.440
+até daria para fazer, daria para para
+
+0:05:48.199,0:05:52.639
+computar, mas não, mas norma ninguém
+
+0:05:50.440,0:05:55.759
+faça isso. Seria muito complicado,
+
+0:05:52.639,0:05:57.560
+porque se as pessoas depois podiam eh
+
+0:05:55.759,0:05:59.639
+olhar para o seu dinheiro de cinco em 5
+
+0:05:57.560,0:06:01.080
+minutos e pretender ver o seu dinheiro a
+
+0:05:59.639,0:06:03.639
+crescer de cinco em 5 minutos, portanto
+
+0:06:01.080,0:06:07.800
+isso seria computacionalmente impensável
+
+0:06:03.639,0:06:10.599
+para para o banco, não é? À partida.
+
+0:06:07.800,0:06:13.160
+Pronto. Mas em termos teóricos, qual a
+
+0:06:10.599,0:06:15.160
+expressão que aqui obteríamos?
+
+0:06:13.160,0:06:16.840
+Obteríamos
+
+0:06:15.160,0:06:19.520
+o que nós estamos a perguntar-nos aqui é
+
+0:06:16.840,0:06:20.880
+qual é o limite?
+
+0:06:19.520,0:06:23.880
+Quer vou vou escrever isto aqui em
+
+0:06:20.880,0:06:23.880
+baixo,
+
+0:06:24.400,0:06:29.560
+OK? O que nós estamos a questionarnos é
+
+0:06:26.479,0:06:31.319
+qual é o limite
+
+0:06:29.560,0:06:32.800
+quando o n tende a infinito, quando o
+
+0:06:31.319,0:06:35.479
+número de períodos tende a infinito, ou
+
+0:06:32.800,0:06:37.080
+seja, é contínuo,
+
+0:06:35.479,0:06:42.039
+contínuo
+
+0:06:37.080,0:06:45.199
+de 1 + 1
+
+0:06:42.039,0:06:47.240
+sobre n. Exatamente o que fizemos aqui.
+
+0:06:45.199,0:06:50.160
+Isto, isto é uma analogia com a taxa de
+
+0:06:47.240,0:06:52.560
+juro elevado a n. Pronto. E o que
+
+0:06:50.160,0:06:55.240
+acontece é que isto realmente tem e tem
+
+0:06:52.560,0:06:58.160
+um limite, existe esse limite e esse
+
+0:06:55.240,0:07:01.479
+limite é o número de nepper,
+
+0:06:58.160,0:07:02.960
+OK? É exponencial.
+
+0:07:01.479,0:07:05.479
+Eh, isto está muita determinação, não há
+
+0:07:02.960,0:07:07.479
+dúvida nenhuma, porque 1 mais um
+
+0:07:05.479,0:07:10.160
+infinitésimo,
+
+0:07:07.479,0:07:12.479
+1 elevado a infinito. Se um fosse um
+
+0:07:10.160,0:07:15.240
+exato, então 1 elevado a infinito, pois
+
+0:07:12.479,0:07:17.479
+era 1.
+
+0:07:15.240,0:07:19.240
+Por outro lado,
+
+0:07:17.479,0:07:22.039
+se este infinitésimo não fosse
+
+0:07:19.240,0:07:24.000
+suficientemente infinitésimal,
+
+0:07:22.039,0:07:26.039
+daria aqui 1 vírgula qualquer coisa
+
+0:07:24.000,0:07:27.400
+suficientemente grande para que elevado
+
+0:07:26.039,0:07:30.645
+a infinito desse infinito. Portanto,
+
+0:07:27.400,0:07:31.879
+isto era isto é uma indeterminação.
+
+0:07:30.645,0:07:34.080
+[suspirando]
+
+0:07:31.879,0:07:36.160
+Acho que é do tipo 1 a infinito, salvo o
+
+0:07:34.080,0:07:38.800
+erro.
+
+0:07:36.160,0:07:41.039
+Ah, enfim, agora não estou certo, não me
+
+0:07:38.800,0:07:44.199
+recordo. Mas pronto, o que não há dúvida
+
+0:07:41.039,0:07:46.599
+nenhuma é que é uma indeterminação
+
+0:07:44.199,0:07:48.879
+e cujo valor poderia dar entre um e
+
+0:07:46.599,0:07:51.680
+infinito.
+
+0:07:48.879,0:07:54.919
+OK? O que acontece é que é que na
+
+0:07:51.680,0:07:56.800
+prática quando os matemáticos ou
+
+0:07:54.919,0:08:00.319
+começaram a fazer estes cálculos que eu
+
+0:07:56.800,0:08:01.800
+fiz agora aqui 2 225 261, etc. Começaram
+
+0:08:00.319,0:08:03.840
+a ver que isto gerava uma curva ver o
+
+0:08:01.800,0:08:05.720
+que é que a curva tendia para um limite
+
+0:08:03.840,0:08:09.560
+e logo aí começaram a desconfiar que que
+
+0:08:05.720,0:08:12.159
+existiria limite. OK?
+
+0:08:09.560,0:08:13.560
+Eh, e pronto, e é o facto que existe
+
+0:08:12.159,0:08:16.199
+limite, que é o que é o número de
+
+0:08:13.560,0:08:18.080
+nepper. Pronto, e já tínhamos dado esta
+
+0:08:16.199,0:08:20.879
+fórmula,
+
+0:08:18.080,0:08:23.479
+eh, mas aqui demos uma analogia, demos
+
+0:08:20.879,0:08:24.960
+um o porquê que este existe esta fórmula
+
+0:08:23.479,0:08:27.080
+porque nós tínhamos, eu tinha mostrado
+
+0:08:24.960,0:08:29.080
+esta forma num outro tutorial, mas as
+
+0:08:27.080,0:08:30.440
+pessoas perguntar-se iam: "E pá, mas de
+
+0:08:29.080,0:08:33.120
+onde é que isto vem? As pessoas andam a
+
+0:08:30.440,0:08:35.200
+inventar fórmulas. Pronto, eu não tenho
+
+0:08:33.120,0:08:38.120
+a certeza se vem daqui da taxa de juro,
+
+0:08:35.200,0:08:39.959
+mas sei que daqui é uma boa analogia que
+
+0:08:38.120,0:08:43.800
+demonstra o porquê de surgir esta
+
+0:08:39.959,0:08:45.680
+fórmula. OK? Tem a ver com taxas de juro
+
+0:08:43.800,0:08:47.080
+ou taxas de crescimento de outro tipo de
+
+0:08:45.680,0:08:49.080
+fenómenos similares, não é? Não tem
+
+0:08:47.080,0:08:52.120
+necessariamente a ver com a banca, mas
+
+0:08:49.080,0:08:53.720
+pode ser o populações, populações de
+
+0:08:52.120,0:08:55.399
+bactérias ou que que crescem
+
+0:08:53.720,0:08:58.000
+continuamente, que se reproduzem
+
+0:08:55.399,0:09:01.200
+continuamente, etc, etc.
+
+0:08:58.000,0:09:01.200
+Sim, senhora.
+
+0:09:02.346,0:09:04.640
+[roncando]
+
+0:09:02.399,0:09:07.279
+Então, e aqui nestes cálculos, eu
+
+0:09:04.640,0:09:10.440
+considerei, para simplificar, considerei
+
+0:09:07.279,0:09:13.279
+uma taxa de juro que seria de 100%, que
+
+0:09:10.440,0:09:15.440
+é este um aqui. E o 100% é dividir por
+
+0:09:13.279,0:09:17.800
+2, o 100% é dividir por 12 meses, etc,
+
+0:09:15.440,0:09:20.760
+etc. Pronto. E vai, aparece aqui o este
+
+0:09:17.800,0:09:23.399
+um. OK? [suspirando]
+
+0:09:20.760,0:09:25.720
+E então agora isso então isso se for um
+
+0:09:23.399,0:09:30.320
+em vez de 100% se fosse um determinado
+
+0:09:25.720,0:09:32.240
+um determinado T. OK? Pronto. Então
+
+0:09:30.320,0:09:34.880
+queremos calcular
+
+0:09:32.240,0:09:37.839
+o limite.
+
+0:09:34.880,0:09:40.560
+O limite
+
+0:09:37.839,0:09:43.000
+quando n tende para infinito, a forma
+
+0:09:40.560,0:09:46.640
+que obteríamos seria 1 mais. Agora aqui
+
+0:09:43.000,0:09:49.399
+em vez de 100% seria o t.
+
+0:09:46.640,0:09:51.279
+Essa taxa de juro inicial anual.
+
+0:09:49.399,0:09:54.240
+Inicialmente ela é a taxa, é a taxa de
+
+0:09:51.279,0:09:56.279
+juro anual, mas depois ao dividir por n
+
+0:09:54.240,0:09:58.880
+obtemos uma taxa de juro equivalente ao
+
+0:09:56.279,0:10:03.200
+período, ao período considerado. Então
+
+0:09:58.880,0:10:06.440
+nós queremos este limite. OK? Pronto.
+
+0:10:03.200,0:10:08.839
+Ora bem, então o que vamos fazer aqui é
+
+0:10:06.440,0:10:10.640
+o seguinte.
+
+0:10:08.839,0:10:14.000
+E
+
+0:10:10.640,0:10:14.000
+vamos dizer,
+
+0:10:15.360,0:10:19.519
+ora bem, então aqui vamos fazer o
+
+0:10:17.600,0:10:23.399
+seguinte.
+
+0:10:19.519,0:10:27.120
+uma substituição de variáveis. OK?
+
+0:10:23.399,0:10:27.120
+Dizemos seja
+
+0:10:27.519,0:10:35.040
+a mim interessa-me fazer 1
+
+0:10:30.560,0:10:38.360
+sobre u nova variável
+
+0:10:35.040,0:10:42.920
+igual a t
+
+0:10:38.360,0:10:46.120
+sobre. Pronto, interessa-me porque
+
+0:10:42.920,0:10:47.920
+neste caso este limite fica
+
+0:10:46.120,0:10:50.120
+o limite
+
+0:10:47.920,0:10:52.279
+quando o n tende para infinito, olhando
+
+0:10:50.120,0:10:54.120
+aqui nesta expressão,
+
+0:10:52.279,0:10:55.920
+é igual, é o mesmo que dizer que u tende
+
+0:10:54.120,0:10:57.760
+para infinito.
+
+0:10:55.920,0:10:59.320
+É a mesma coisa. n tende para infinito,
+
+0:10:57.760,0:11:01.279
+a fração tende para zero, portanto o
+
+0:10:59.320,0:11:04.839
+próprio U também tende para infinito.
+
+0:11:01.279,0:11:09.959
+Portanto, aqui a substituição fica u
+
+0:11:04.839,0:11:15.680
+tende para infinito e fica 1 + t/ n é
+
+0:11:09.959,0:11:15.680
+igual a 1 sobre u 1 sobre u
+
+0:11:15.839,0:11:23.079
+e agora elevado a n. Olhando aqui à à à
+
+0:11:19.399,0:11:25.480
+substituição, aqui é igual o n. N passa
+
+0:11:23.079,0:11:26.800
+aqui para cima. Portanto, n é igual a
+
+0:11:25.480,0:11:29.880
+tu.
+
+0:11:26.800,0:11:31.800
+Portanto, isto equivale a dizer n é
+
+0:11:29.880,0:11:36.399
+igual a
+
+0:11:31.800,0:11:39.320
+tu. Portanto, aqui em cima fica tu,
+
+0:11:36.399,0:11:45.160
+OK? Tu.
+
+0:11:39.320,0:11:45.160
+Mas tuu eu posso pôr u.
+
+0:11:46.320,0:11:53.800
+E agora tudo isto elevado a t. Pronto.
+
+0:11:49.920,0:11:53.800
+Tudo isto elevado a t.
+
+0:11:55.760,0:11:58.760
+OK?
+
+0:12:00.000,0:12:07.000
+É a mesma coisa. Nó sabemos que é e
+
+0:12:03.279,0:12:09.440
+portanto aqui uma um expoente,
+
+0:12:07.000,0:12:11.839
+OK? Um expoente qualquer coisa vale a um
+
+0:12:09.440,0:12:16.160
+expoente, portanto posso multiplicar os
+
+0:12:11.839,0:12:18.880
+expoentes. OK? Não há dúvida nenhuma.
+
+0:12:16.160,0:12:21.079
+Imaginem 2
+
+0:12:18.880,0:12:24.000
+elevado ao quadrado
+
+0:12:21.079,0:12:26.880
+e agora tudo isto elevado ao cubo,
+
+0:12:24.000,0:12:30.880
+portanto é 2 x 2 e depois tudo isto três
+
+0:12:26.880,0:12:33.920
+vezes, portanto é 2 à se
+
+0:12:30.880,0:12:36.839
+portanto é o mesmo que 2 elevado a 2 x
+
+0:12:33.920,0:12:40.040
+3. Portanto, aqui como nos tinhas dado o
+
+0:12:36.839,0:12:42.160
+tu é o mesmo que elevar a u e por sua
+
+0:12:40.040,0:12:43.480
+vez elevado a tia ser o contrário. el
+
+0:12:42.160,0:12:47.360
+derivado a t e por sua vez elevada a
+
+0:12:43.480,0:12:50.040
+uis. Mas dá-me mais jeito assim.
+
+0:12:47.360,0:12:52.519
+Dá-me mais jeito porque assim
+
+0:12:50.040,0:12:54.040
+eu tenho aqui no interior tenho a
+
+0:12:52.519,0:12:57.160
+expressão
+
+0:12:54.040,0:12:59.120
+do limite que eu já conheço
+
+0:12:57.160,0:13:01.839
+este limite porque o u é uma variável
+
+0:12:59.120,0:13:05.079
+muda e é igual a este limite que eu
+
+0:13:01.839,0:13:07.120
+tenho aqui, OK? É o limite o elevado a
+
+0:13:05.079,0:13:08.839
+t, mas eu agora posso tirar o t para
+
+0:13:07.120,0:13:11.120
+fora,
+
+0:13:08.839,0:13:13.399
+OK?
+
+0:13:11.120,0:13:14.760
+e dizer que o resultado, isto agora já
+
+0:13:13.399,0:13:15.880
+tem a ver com a teoria de limites, isto
+
+0:13:14.760,0:13:19.959
+pode não ser já agora já muito
+
+0:13:15.880,0:13:23.040
+intuitivo, mas pronto, em que o tese
+
+0:13:19.959,0:13:27.959
+passar para fora e fica ao limite lá
+
+0:13:23.040,0:13:31.720
+dentro quando u tende a zero a infinito.
+
+0:13:27.959,0:13:34.360
+1 + 1 sobre u
+
+0:13:31.720,0:13:36.040
+elevado a u. Pronto. E tudo isto elevado
+
+0:13:34.360,0:13:38.160
+a t. Então, mas este limite aqui dentro
+
+0:13:36.040,0:13:40.720
+já sabemos. E aqui, por definição, é o
+
+0:13:38.160,0:13:43.440
+número de neper é o e, portanto, fica e
+
+0:13:40.720,0:13:45.959
+elevado a t.
+
+0:13:43.440,0:13:47.480
+Sim, senhor. Pronto, isto foi só uma uma
+
+0:13:45.959,0:13:49.079
+um pequeno enquadramento, porque nós
+
+0:13:47.480,0:13:51.079
+vamos precisar destas fórmulas e e
+
+0:13:49.079,0:13:54.440
+destes limites. [roncando]
+
+0:13:51.079,0:13:57.440
+H, vamos precisar
+
+0:13:54.440,0:14:00.199
+agora para para deduzir as derivadas,
+
+0:13:57.440,0:14:01.680
+OK? Há muitas outras formas alternativas
+
+0:14:00.199,0:14:03.839
+que às vezes também se vem e também se
+
+0:14:01.680,0:14:05.839
+usam. Por exemplo, aqui às vezes também
+
+0:14:03.839,0:14:07.440
+se vê nesta expressão aqui do número de
+
+0:14:05.839,0:14:10.480
+neperarmos
+
+0:14:07.440,0:14:13.079
+os lados a 1 sobre ner,
+
+0:14:10.480,0:14:17.000
+por exemplo, e
+
+0:14:13.079,0:14:17.000
+elevado a 1 sobre n,
+
+0:14:17.040,0:14:22.079
+OK?
+
+0:14:19.440,0:14:25.720
+Eh,
+
+0:14:22.079,0:14:25.720
+é igual ao limite
+
+0:14:26.399,0:14:31.199
+ou ou os ou os ou agora já não lembro se
+
+0:14:29.680,0:14:33.800
+aqui também entrou ao vimido. Bom, é
+
+0:14:31.199,0:14:35.440
+melhor apagar isto.
+
+0:14:33.800,0:14:37.759
+Se essas formas se nos aparecerem, logo
+
+0:14:35.440,0:14:39.199
+logo já veremos.
+
+0:14:37.759,0:14:40.720
+Ora bem, vamos então começar aqui a
+
+0:14:39.199,0:14:43.519
+derivada.
+
+0:14:40.720,0:14:45.680
+Portanto, não há dúvida nenhuma que eu
+
+0:14:43.519,0:14:48.199
+posso apenas deduzir a forma da derivada
+
+0:14:45.680,0:14:50.639
+do de uma destas funções e depois a
+
+0:14:48.199,0:14:53.160
+outra usar a técnica da função inversa.
+
+0:14:50.639,0:14:56.160
+É verdade.
+
+0:14:53.160,0:14:56.160
+Hu
+
+0:14:56.360,0:14:59.800
+ou posso deduzir as duas
+
+0:14:58.040,0:15:01.880
+independentemente.
+
+0:14:59.800,0:15:04.839
+Existem várias fórmulas. Existem várias
+
+0:15:01.880,0:15:07.720
+formas. Se pesquisarmos no YouTube, há
+
+0:15:04.839,0:15:10.720
+várias técnicas. Eh, eu sinceramente não
+
+0:15:07.720,0:15:13.680
+encontrei nenhuma que me satisfizesse do
+
+0:15:10.720,0:15:16.320
+ponto de vista de ser uma forma bem
+
+0:15:13.680,0:15:17.600
+intuitiva ou ou que me parecesse tão tão
+
+0:15:16.320,0:15:19.480
+rigorosa como fizemos, por exemplo, para
+
+0:15:17.600,0:15:22.320
+o ceno. O seno fizemos uma construção
+
+0:15:19.480,0:15:24.120
+geométrica e convenceu-me. Ou seja, para
+
+0:15:22.320,0:15:25.440
+mim, se eu tivesse a ver aquela
+
+0:15:24.120,0:15:28.279
+demonstração para eu a primeira vez na
+
+0:15:25.440,0:15:30.600
+vida, convencer-me ia.
+
+0:15:28.279,0:15:32.839
+Agora, nas deduções que vamos fazer, já
+
+0:15:30.600,0:15:35.000
+não é assim, porque aparecem eh
+
+0:15:32.839,0:15:36.959
+artifícios matemáticos que para mim já
+
+0:15:35.000,0:15:39.639
+não são tão intuitivos, como por trocar
+
+0:15:36.959,0:15:41.639
+a ordem do limite do do limite do
+
+0:15:39.639,0:15:44.319
+logaritmo igual ao logaritmo do limite,
+
+0:15:41.639,0:15:49.120
+por exemplo. Mas pronto, seja como for,
+
+0:15:44.319,0:15:51.800
+vamos fazer vamos tentar aqui eh e vamos
+
+0:15:49.120,0:15:53.440
+começar pela derivada do logaritmo,
+
+0:15:51.800,0:15:55.199
+OK? penso que faz mais sentido, até
+
+0:15:53.440,0:15:57.399
+porque o logaritmo foi uma função que
+
+0:15:55.199,0:15:59.720
+foi estudada primeira do primeiro antes
+
+0:15:57.399,0:16:05.079
+do exponencial. Portanto, nós vamos aqui
+
+0:15:59.720,0:16:07.920
+estudar então a derivada do logaritmo.
+
+0:16:05.079,0:16:10.600
+Pronto. E então já sabemos e ora o
+
+0:16:07.920,0:16:12.240
+limite por definição, quando h tendo a
+
+0:16:10.600,0:16:15.079
+zero.
+
+0:16:12.240,0:16:18.959
+E aqui temos, portanto, o logaritmo
+
+0:16:15.079,0:16:21.399
+de x + h
+
+0:16:18.959,0:16:23.959
+menos o logaritmo
+
+0:16:21.399,0:16:26.680
+de x
+
+0:16:23.959,0:16:28.600
+sobre h. Ora bem, e mais nós já sabemos
+
+0:16:26.680,0:16:31.800
+as regras dos logaritmos. que o
+
+0:16:28.600,0:16:33.600
+logaritmo é um expoente e que, portanto,
+
+0:16:31.800,0:16:36.519
+o logaritmo
+
+0:16:33.600,0:16:38.319
+de um produto é a soma dos logaritmos e
+
+0:16:36.519,0:16:39.680
+o logaritmo de um cociente, pois é a
+
+0:16:38.319,0:16:41.240
+mesma coisa, é a diferença dos
+
+0:16:39.680,0:16:43.240
+logaritmos, porque isto é o mesmo que
+
+0:16:41.240,0:16:44.360
+este menos passar aqui para dentro e
+
+0:16:43.240,0:16:45.720
+então passa a ser uma soma de
+
+0:16:44.360,0:16:47.920
+logaritmos, que é o logaritmo do
+
+0:16:45.720,0:16:50.480
+produto. Pronto. E portanto isto vai dar
+
+0:16:47.920,0:16:53.560
+o logaritmo do cociente. Pronto, até
+
+0:16:50.480,0:16:56.199
+aqui não há aqui nenhum artifício. Isto
+
+0:16:53.560,0:16:57.800
+é linear.
+
+0:16:56.199,0:17:00.519
+limite
+
+0:16:57.800,0:17:03.319
+quando h tende para zero. E aqui posso
+
+0:17:00.519,0:17:07.120
+escrever um único logaritmo
+
+0:17:03.319,0:17:07.120
+de x + h
+
+0:17:07.199,0:17:13.760
+sobre x,
+
+0:17:10.520,0:17:16.559
+isto sobre h.
+
+0:17:13.760,0:17:19.640
+OK? Pronto. Continuo com uma
+
+0:17:16.559,0:17:22.039
+indeterminação de 0 sobre 0. Aqui não,
+
+0:17:19.640,0:17:25.760
+para já, aparentemente, não ganhei nada.
+
+0:17:22.039,0:17:27.959
+O h tende a 0, x/ x dá 1 e o logaritmo
+
+0:17:25.760,0:17:29.679
+para dar 1 é 0 porque qualquer coisa, o
+
+0:17:27.959,0:17:31.880
+expoente para dar 1 é zero, porque
+
+0:17:29.679,0:17:33.880
+qualquer coisa elevado a zero depois vai
+
+0:17:31.880,0:17:36.200
+dar 1. Portanto, isto continuamos com
+
+0:17:33.880,0:17:39.039
+uma indeterminação do tipo 0 sobre zer.
+
+0:17:36.200,0:17:40.200
+Portanto, por aqui
+
+0:17:39.039,0:17:42.080
+ainda não mudamos o tipo de
+
+0:17:40.200,0:17:46.799
+indeterminação em relação à aqui à
+
+0:17:42.080,0:17:49.200
+definição original da derivada. OK? Ora
+
+0:17:46.799,0:17:52.360
+bem, o que é que vai acontecer agora?
+
+0:17:49.200,0:17:56.080
+Isto fica
+
+0:17:52.360,0:17:57.960
+aqui, fica aqui dentro fica 1
+
+0:17:56.080,0:18:02.720
+eh
+
+0:17:57.960,0:18:07.760
++ h so x 1 + h so x. Sim, senhor. Então
+
+0:18:02.720,0:18:10.360
+posso escrever isto na forma. Limite
+
+0:18:07.760,0:18:13.159
+quando h tende a zero, aqui fica 1 sobre
+
+0:18:10.360,0:18:14.640
+h,
+
+0:18:13.159,0:18:17.640
+ok? que é este H que está aqui no
+
+0:18:14.640,0:18:17.640
+denominador.
+
+0:18:17.880,0:18:23.520
+Eh, multiplica,
+
+0:18:21.280,0:18:27.240
+multiplica
+
+0:18:23.520,0:18:27.240
+e aqui fica o logaritmo
+
+0:18:28.400,0:18:35.320
+e, portanto, 1 +
+
+0:18:31.679,0:18:35.320
+h so x
+
+0:18:35.480,0:18:40.440
+1 + h so x. Sim, tá correto.
+
+0:18:40.640,0:18:45.159
+Sim, senhora. Ok,
+
+0:18:45.720,0:18:49.480
+agora vai haver uma uma transformação de
+
+0:18:47.480,0:18:51.159
+variáveis,
+
+0:18:49.480,0:18:52.400
+OK? Uma transformação de variáveis um
+
+0:18:51.159,0:18:55.600
+pouco diferente daquela que fizemos
+
+0:18:52.400,0:18:59.200
+aqui, porque aqui fiz aqui fiz uma uma
+
+0:18:55.600,0:19:03.440
+mudança de variáveis, mas mas linear,
+
+0:18:59.200,0:19:06.000
+OK? Onde estava n, eu meti o tu. OK?
+
+0:19:03.440,0:19:07.559
+Agora é é um bocadinho diferente. Agora
+
+0:19:06.000,0:19:13.159
+vamos fazer uma mudança de variáveis
+
+0:19:07.559,0:19:13.159
+onde eu vou dizer seja n = 1 sobre h.
+
+0:19:17.320,0:19:22.120
+OK, pronto.
+
+0:19:19.440,0:19:25.559
+Sim, senhora. Isso faz mudar aqui o
+
+0:19:22.120,0:19:27.280
+sentido do limite. Ou seja, se o h tende
+
+0:19:25.559,0:19:28.960
+a zero,
+
+0:19:27.280,0:19:30.200
+isto dá isto tende para infinito. Então,
+
+0:19:28.960,0:19:34.520
+se eu para fazer esta mudança de
+
+0:19:30.200,0:19:36.840
+variáveis, eu tenho que transformar e e
+
+0:19:34.520,0:19:39.679
+construir um novo limite onde diga que o
+
+0:19:36.840,0:19:42.120
+limite onde n tende para infinito.
+
+0:19:39.679,0:19:44.520
+OK? para para ficar os limites
+
+0:19:42.120,0:19:46.720
+equivalentes. Portanto, isto vai dar o
+
+0:19:44.520,0:19:48.880
+limite
+
+0:19:46.720,0:19:51.520
+quando o n tende para infinito. Ou seja,
+
+0:19:48.880,0:19:53.600
+se h tende a zero, n tende a infinito.
+
+0:19:51.520,0:19:55.200
+Se eu faço esta mudança de variáveis,
+
+0:19:53.600,0:19:56.043
+então onde antes tinha um h a tender
+
+0:19:55.200,0:19:56.760
+para zero, agora tenho um
+
+0:19:56.043,0:19:59.320
+[limpando a garganta] n a tender para
+
+0:19:56.760,0:20:01.240
+infinito. OK? É o que eu tenho aqui.
+
+0:19:59.320,0:20:04.000
+Aqui tenho agora aqui 1 sobre h é
+
+0:20:01.240,0:20:08.559
+portanto é igual a n.
+
+0:20:04.000,0:20:11.320
+Ok? E agora tenho um logaritmo
+
+0:20:08.559,0:20:14.440
+1 +
+
+0:20:11.320,0:20:16.960
+OK? E aqui tenho o H.
+
+0:20:14.440,0:20:20.400
+Portanto, o H,
+
+0:20:16.960,0:20:22.400
+o H é
+
+0:20:20.400,0:20:24.159
+um sobre N.
+
+0:20:22.400,0:20:26.000
+OK?
+
+0:20:24.159,0:20:28.520
+Portanto,
+
+0:20:26.000,0:20:32.000
+ou seja, também posso escrever na forma
+
+0:20:28.520,0:20:32.000
+1 sobre x
+
+0:20:34.039,0:20:38.080
+sobre n.
+
+0:20:36.039,0:20:40.760
+OK?
+
+0:20:38.080,0:20:44.480
+Portanto, o h é 1 sobre n, fica 1 sobre
+
+0:20:40.760,0:20:47.159
+nx. Isto que aqui está é 1 sobre nx. OK?
+
+0:20:44.480,0:20:50.840
+Só que puxo puxo puxo o 1 sobre x aqui
+
+0:20:47.159,0:20:53.600
+para cima e isolo o aqui o 1 sobre x.
+
+0:20:50.840,0:20:56.200
+Sim, senhora. Pronto. E agora vai
+
+0:20:53.600,0:20:59.080
+aparecer a tal troca
+
+0:20:56.200,0:21:00.440
+de limite com logaritmo, que é uma coisa
+
+0:20:59.080,0:21:02.200
+que não é assim muito intuitiva. Também
+
+0:21:00.440,0:21:04.520
+ainda nunca fiz um tutorial sobre teoria
+
+0:21:02.200,0:21:07.120
+do limites. Pronto, esta parte depois
+
+0:21:04.520,0:21:08.600
+terá que ficar assim. Vocês que já
+
+0:21:07.120,0:21:09.919
+tenham mais experiência sobre isto, para
+
+0:21:08.600,0:21:12.400
+alguns de vocês poderá ser mais
+
+0:21:09.919,0:21:14.240
+intuitivo, para outros não tanto, mas
+
+0:21:12.400,0:21:17.840
+OK, ficam já com a ideia que de modo
+
+0:21:14.240,0:21:20.279
+geral eh o limite do logaritmo é igual
+
+0:21:17.840,0:21:23.080
+ao logaritmo do limite. E portanto aqui
+
+0:21:20.279,0:21:25.080
+troco a ordem e vou dizer isto é igual a
+
+0:21:23.080,0:21:27.744
+logaritmo
+
+0:21:25.080,0:21:30.080
+logaritmo
+
+0:21:27.744,0:21:35.360
+[roncando] e passo o limite aqui para
+
+0:21:30.080,0:21:35.360
+dentro onde fica limite.
+
+0:21:35.440,0:21:39.679
+Ora, quando n tende a infinito,
+
+0:21:40.279,0:21:46.279
+ora o limite logaritmo.
+
+0:21:43.720,0:21:48.720
+OK. Antes disso, esqueci-me aqui de um
+
+0:21:46.279,0:21:53.039
+passo. Portanto, antes disso, o que nós
+
+0:21:48.720,0:21:56.039
+vamos fazer é que este n, este n que
+
+0:21:53.039,0:21:59.799
+está aqui pode passar para dentro aqui
+
+0:21:56.039,0:22:02.679
+para o expoente. Já sabemos que o
+
+0:21:59.799,0:22:04.120
+logaritmo de qualquer coisa
+
+0:22:02.679,0:22:06.320
+elevado a qualquer coisa, seja o
+
+0:22:04.120,0:22:08.279
+logaritmo de que base for, nós já
+
+0:22:06.320,0:22:12.080
+sabemos um logaritmo, seja de que base
+
+0:22:08.279,0:22:15.039
+se for, de qualquer coisa de a elevado a
+
+0:22:12.080,0:22:16.760
+b, já demonstramos que isto, o expoente
+
+0:22:15.039,0:22:19.400
+passava, este expoente aqui passava para
+
+0:22:16.760,0:22:23.960
+baixo b
+
+0:22:19.400,0:22:26.360
+logaritmo de A. OK? Se se necessário,
+
+0:22:23.960,0:22:30.440
+revenjam os o o tutorial que eu fiz
+
+0:22:26.360,0:22:32.559
+sobre as logaritmos exponenciais.
+
+0:22:30.440,0:22:34.799
+Sim, senhor. Portanto,
+
+0:22:32.559,0:22:36.919
+aqui
+
+0:22:34.799,0:22:39.480
+temos que o n pode passar ali para
+
+0:22:36.919,0:22:41.919
+dentro. Pronto. E depois então sim,
+
+0:22:39.480,0:22:45.159
+limite do logaritmo. Troco logaritmo do
+
+0:22:41.919,0:22:47.120
+limite. Logaritmo
+
+0:22:45.159,0:22:50.960
+do limite
+
+0:22:47.120,0:22:50.960
+quando n tende a infinito
+
+0:22:51.080,0:22:59.440
+de e aqui fica 1 +
+
+0:22:55.880,0:22:59.440
+1 sobre x
+
+0:22:59.960,0:23:05.760
+sobre n
+
+0:23:02.240,0:23:08.039
+elevado a n. Pronto. E por isso é que
+
+0:23:05.760,0:23:11.919
+aqui era fundamental eu ter feito esta
+
+0:23:08.039,0:23:14.279
+pequena enquadramento aqui e mostrar que
+
+0:23:11.919,0:23:18.600
+por definição este limite é o número de
+
+0:23:14.279,0:23:23.240
+nepper, OK? E que também
+
+0:23:18.600,0:23:26.120
+sendo assim isso resulta
+
+0:23:23.240,0:23:27.480
+implica que este outro limite parecido,
+
+0:23:26.120,0:23:30.480
+onde eu tenho aqui um t aqui no
+
+0:23:27.480,0:23:33.480
+numerador e demonstramos que então tem
+
+0:23:30.480,0:23:35.320
+que ser igual a e elevado a t.
+
+0:23:33.480,0:23:37.679
+E, portanto, vemos que é exatamente o
+
+0:23:35.320,0:23:42.021
+que nós temos aqui, que este limite tem
+
+0:23:37.679,0:23:44.600
+que dar e elevado a 1 sobre x.
+
+0:23:42.021,0:23:48.279
+[roncando] OK? Portanto, então fica o
+
+0:23:44.600,0:23:50.919
+logaritmo de e o limite tem que dar
+
+0:23:48.279,0:23:53.159
+por definição, porque esta forma foi
+
+0:23:50.919,0:23:55.080
+adotada com a definição do número de
+
+0:23:53.159,0:23:56.720
+neper.
+
+0:23:55.080,0:23:58.880
+OK?
+
+0:23:56.720,0:24:00.400
+É uma é podes dizer que é uma é uma
+
+0:23:58.880,0:24:02.880
+convenção, mas é uma convenção que
+
+0:24:00.400,0:24:06.120
+depois ao longo da história foi sendo
+
+0:24:02.880,0:24:07.760
+comprovada várias vezes e quer seja quer
+
+0:24:06.120,0:24:09.960
+seja por por métodos de cálculo
+
+0:24:07.760,0:24:11.480
+numérico, de de aproximação, assim assim
+
+0:24:09.960,0:24:12.799
+ou por outros ou por outro tipo de
+
+0:24:11.480,0:24:15.520
+técnicas que eu que eu não até nem
+
+0:24:12.799,0:24:17.640
+conheço. OK? De várias maneiras isto foi
+
+0:24:15.520,0:24:20.360
+sendo demonstrado e comprovado ao longo
+
+0:24:17.640,0:24:23.840
+do tempo que é este que este limite
+
+0:24:20.360,0:24:25.320
+estava exato, estava corretíssimo. OK?
+
+0:24:23.840,0:24:27.399
+Pronto. E a partir daí ficou assim,
+
+0:24:25.320,0:24:29.919
+ficou esta definição.
+
+0:24:27.399,0:24:31.240
+Ficou, enfim, uma das definições também
+
+0:24:29.919,0:24:32.360
+podes definir de outras maneiras, também
+
+0:24:31.240,0:24:34.919
+podes definir que é simplesmente a
+
+0:24:32.360,0:24:37.120
+função inversa do logaritmo. OK?
+
+0:24:34.919,0:24:39.440
+Portanto, há vários tipos de definições,
+
+0:24:37.120,0:24:41.159
+mas esta é uma delas.
+
+0:24:39.440,0:24:43.039
+E, portanto, aqui usamos essa essa
+
+0:24:41.159,0:24:46.080
+definição para chegar aqui e dizer, OK,
+
+0:24:43.039,0:24:48.080
+este é é elevado a 1 sobre x.
+
+0:24:46.080,0:24:50.360
+Pronto. E sendo assim o logaritmo da
+
+0:24:48.080,0:24:51.840
+exponencial são funções inversas, é
+
+0:24:50.360,0:24:54.080
+igual ao exponencial do logaritmo e,
+
+0:24:51.840,0:24:56.840
+portanto, pois isto tem que dar 1 sobre
+
+0:24:54.080,0:25:00.679
+x.
+
+0:24:56.840,0:25:05.200
+OK? Pronto. E, portanto, vemos que a
+
+0:25:00.679,0:25:08.320
+derivada do logarito é 1 sobre x. OK?
+
+0:25:05.200,0:25:11.960
+Pronto. Portanto, vou escrever aqui a
+
+0:25:08.320,0:25:11.960
+derivada do logaritmo
+
+0:25:13.360,0:25:19.360
+é 1 sobre x.
+
+0:25:16.559,0:25:20.960
+Sim, senhora.
+
+0:25:19.360,0:25:22.960
+Com isto já posso calcular aqui a
+
+0:25:20.960,0:25:25.512
+derivada da exponencial usando a técnica
+
+0:25:22.960,0:25:26.640
+da derivada da função inversa.
+
+0:25:25.512,0:25:28.399
+[roncando] Vamos calcular como
+
+0:25:26.640,0:25:30.640
+exercício, embora depois também venhamos
+
+0:25:28.399,0:25:32.200
+a calcular também, vamos tentar calcular
+
+0:25:30.640,0:25:35.120
+também por uma outra via de uma forma
+
+0:25:32.200,0:25:38.919
+independente. Mas para já só nesta base
+
+0:25:35.120,0:25:42.320
+vou derivar, deduzir a derivada da
+
+0:25:38.919,0:25:46.200
+exponencial. Ora bem, então temos que a
+
+0:25:42.320,0:25:50.080
+técnica que eu já tenho aplicado, seja y
+
+0:25:46.200,0:25:52.080
+igual a logaritmo de x
+
+0:25:50.080,0:25:55.000
+y
+
+0:25:52.080,0:25:57.360
+dx. Já sabemos a derivada do logaritmo é
+
+0:25:55.000,0:26:01.960
+1 sobre x.
+
+0:25:57.360,0:26:05.279
+Então, derivada da função inversa
+
+0:26:01.960,0:26:08.520
+será dx
+
+0:26:05.279,0:26:08.520
+d y
+
+0:26:08.559,0:26:13.520
+é igual a x.
+
+0:26:10.960,0:26:18.279
+Troco as letras
+
+0:26:13.520,0:26:21.080
+e agora digo, tenho uma nova função y
+
+0:26:18.279,0:26:23.120
+que é exponencial, a função inversa.
+
+0:26:21.080,0:26:25.520
+dy
+
+0:26:23.120,0:26:27.600
+dx
+
+0:26:25.520,0:26:29.240
+é igual a y.
+
+0:26:27.600,0:26:33.399
+Portanto, então agora tenho que o meu
+
+0:26:29.240,0:26:36.559
+novo y, a minha nova função,
+
+0:26:33.399,0:26:38.880
+porque eu troquei aqui os símbolos,
+
+0:26:36.559,0:26:42.880
+a minha nova função y é neste momento
+
+0:26:38.880,0:26:45.480
+aqui, neste momento, é a exponencial.
+
+0:26:42.880,0:26:48.039
+É a exponencial.
+
+0:26:45.480,0:26:51.919
+E a derivada da exponencial
+
+0:26:48.039,0:26:51.919
+está aqui a dizer que é y.
+
+0:26:52.799,0:26:59.640
+E pronto, tá demonstrado. Não tem mais a
+
+0:26:55.600,0:27:03.200
+derivada. Ali diz que a derivada ddx
+
+0:26:59.640,0:27:06.279
+d y, mas este meu y agora é é a função
+
+0:27:03.200,0:27:08.840
+inversa daquilo que era o logaritmo.
+
+0:27:06.279,0:27:11.440
+OK? Pronto, já vimos esta técnica nos
+
+0:27:08.840,0:27:13.039
+meus tutoriais anteriores e, portanto, a
+
+0:27:11.440,0:27:16.039
+derivada
+
+0:27:13.039,0:27:17.799
+da exponencial
+
+0:27:16.039,0:27:20.520
+é y é igual a ela própria, é a
+
+0:27:17.799,0:27:23.520
+exponencial.
+
+0:27:20.520,0:27:23.520
+OK,
+
+0:27:24.068,0:27:26.088
+[roncando]
+
+0:27:27.919,0:27:31.480
+vamos usar outra técnica. Estou a ver
+
+0:27:29.799,0:27:33.279
+aqui, tenho nos meus apontamentos muita,
+
+0:27:31.480,0:27:36.120
+muita informação.
+
+0:27:33.279,0:27:38.520
+Eh, e tem aqui uma outra demonstração
+
+0:27:36.120,0:27:40.480
+também muito interessante.
+
+0:27:38.520,0:27:43.159
+Vamos dizer o seguinte. Portanto, já
+
+0:27:40.480,0:27:46.120
+sabemos a derivada do do logaritmo e,
+
+0:27:43.159,0:27:49.120
+portanto, com base nisso, vamos derivar
+
+0:27:46.120,0:27:51.960
+vamos deduzir a derivada da exponencial.
+
+0:27:49.120,0:27:54.760
+OK? Então vamos fazer o seguinte.
+
+0:27:51.960,0:27:58.559
+Portanto, partimos do conhecimento
+
+0:27:54.760,0:28:01.600
+que a derivada do logaritmo de x
+
+0:27:58.559,0:28:03.720
+é igual a 1 sobre x. Partimos deste
+
+0:28:01.600,0:28:06.320
+conhecimento. Então agora vamos
+
+0:28:03.720,0:28:07.919
+considerar o seguinte.
+
+0:28:06.320,0:28:09.880
+Sabemos que o logaritmo e exponencial
+
+0:28:07.919,0:28:12.080
+são funções inversas por definição. É
+
+0:28:09.880,0:28:15.039
+assim elas foram escolhidas.
+
+0:28:12.080,0:28:18.159
+E, portanto, dizemos que
+
+0:28:15.039,0:28:20.720
+qualquer que seja o x
+
+0:28:18.159,0:28:23.720
+é igual a
+
+0:28:20.720,0:28:23.720
+logaritmo
+
+0:28:24.440,0:28:29.600
+da exponencial de x. É óbvio.
+
+0:28:27.799,0:28:31.120
+Qualquer que seja o x, estou a aplicar
+
+0:28:29.600,0:28:32.440
+duas funções inversas uma da outra. O
+
+0:28:31.120,0:28:34.440
+logaritmo da exponencial é igual ao
+
+0:28:32.440,0:28:36.919
+exponencial do logaritmo. Portanto, aqui
+
+0:28:34.440,0:28:39.200
+não há dúvida nenhuma. Sim, senhor.
+
+0:28:36.919,0:28:40.799
+Então, sendo assim, posso derivar ambos
+
+0:28:39.200,0:28:44.720
+os lados.
+
+0:28:40.799,0:28:46.760
+Derivo aqui e derivo aqui.
+
+0:28:44.720,0:28:49.760
+Ora, então a derivada de x é 1, já
+
+0:28:46.760,0:28:49.760
+sabemos,
+
+0:28:49.919,0:28:56.760
+é 1. E a derivada do logaritmo já
+
+0:28:52.919,0:28:58.399
+sabemos que tá aqui, é o inverso de x.
+
+0:28:56.760,0:29:01.640
+Portanto,
+
+0:28:58.399,0:29:03.640
+fica fica que 1 é igual a, ou seja, a
+
+0:29:01.640,0:29:07.360
+derivada do logaritmo é o inverso desta
+
+0:29:03.640,0:29:07.360
+coisa que está aqui dentro.
+
+0:29:10.279,0:29:15.960
+OK? Mas é uma função composta. Eu não
+
+0:29:13.120,0:29:17.679
+estou a derivar o logaritmo de x, eu
+
+0:29:15.960,0:29:19.799
+estou eu estou a derivar um logaritmo de
+
+0:29:17.679,0:29:21.640
+uma coisa que é uma função composta.
+
+0:29:19.799,0:29:24.559
+Então fica o inverso dessa coisa vezes a
+
+0:29:21.640,0:29:28.200
+derivada dessa coisa
+
+0:29:24.559,0:29:29.600
+que eu ainda não sei qual é,
+
+0:29:28.200,0:29:31.799
+mas sei que pela regra da função
+
+0:29:29.600,0:29:33.840
+composta, pois será qualquer coisa, será
+
+0:29:31.799,0:29:37.039
+a derivada dessa coisa, que por acaso é
+
+0:29:33.840,0:29:40.200
+o que eu quero deduzir o que é. OK? Ora,
+
+0:29:37.039,0:29:42.840
+este passa para este lado de equação e
+
+0:29:40.200,0:29:46.240
+então eu fico com esta expressão.
+
+0:29:42.840,0:29:50.480
+Então eu fico que bom, então a derivada
+
+0:29:46.240,0:29:50.480
+este esta derivada da exponencial
+
+0:29:50.880,0:29:53.880
+o
+
+0:29:54.679,0:29:59.279
+é igual a e = a x.
+
+0:29:57.519,0:30:02.080
+Pronto, uma demonstração muito
+
+0:29:59.279,0:30:04.360
+interessante também que me permitiu
+
+0:30:02.080,0:30:06.159
+dizer que calcular a derivada da
+
+0:30:04.360,0:30:08.559
+exponencial
+
+0:30:06.159,0:30:10.320
+sabendo a derivada do logaritmo, sabendo
+
+0:30:08.559,0:30:12.240
+primeiro que a derivada do logaritmo é é
+
+0:30:10.320,0:30:14.559
+o inverso. Pronto, uma demonstração
+
+0:30:12.240,0:30:16.799
+engraçada. Alternativa.
+
+0:30:14.559,0:30:21.159
+Alternativa é esta técnica da derivada
+
+0:30:16.799,0:30:21.159
+da função inversa. OK?
+
+0:30:25.240,0:30:30.600
+Ora bem.
+
+0:30:27.440,0:30:33.760
+Mas falta-nos aqui algo mais,
+
+0:30:30.600,0:30:35.559
+porque deduzimos a derivada
+
+0:30:33.760,0:30:37.279
+do logaritmo de priando, mas agora falta
+
+0:30:35.559,0:30:39.159
+derivar,
+
+0:30:37.279,0:30:42.559
+deduzir a derivada de um logaritmo de
+
+0:30:39.159,0:30:44.840
+outra base qualquer. OK?
+
+0:30:42.559,0:30:46.720
+Pronto, sendo assim,
+
+0:30:44.840,0:30:49.840
+vamos considerar
+
+0:30:46.720,0:30:49.840
+o logaritmo
+
+0:30:49.960,0:30:58.440
+logaritmo
+
+0:30:52.039,0:31:02.000
+na base a de x. OK? Vimos que
+
+0:30:58.440,0:31:04.720
+nós queremos derivar, não é?
+
+0:31:02.000,0:31:06.840
+Eh, vimos quando eu fiz o meu tutorial
+
+0:31:04.720,0:31:10.840
+de logaritmos exponenciais, que
+
+0:31:06.840,0:31:10.840
+exprimíamos um logaritmo
+
+0:31:11.639,0:31:17.440
+em qualquer base, exprimíamos em função
+
+0:31:14.679,0:31:18.840
+de uma outra qualquer base, que
+
+0:31:17.440,0:31:21.880
+normalmente essa outra qualquer base
+
+0:31:18.840,0:31:23.440
+normalmente e costumava ser o logaritmo
+
+0:31:21.880,0:31:25.880
+de priano. Portanto, eu exprimo este
+
+0:31:23.440,0:31:28.320
+logaritmo na base a no logaritmo
+
+0:31:25.880,0:31:30.799
+nepriano. E é muito simples de de
+
+0:31:28.320,0:31:34.799
+recordar essa forma porque eu tenho aqui
+
+0:31:30.799,0:31:36.880
+o x em cima, ponho aqui o x
+
+0:31:34.799,0:31:40.279
+a dividir por
+
+0:31:36.880,0:31:42.880
+logaritmo de a. OK? Pronto. Então, sendo
+
+0:31:40.279,0:31:45.039
+assim, portanto, esta derivada que nós
+
+0:31:42.880,0:31:48.240
+queremos saber
+
+0:31:45.039,0:31:50.720
+passa a ser simples, é esta derivada.
+
+0:31:48.240,0:31:53.880
+Mas nesta nesta derivada o logaritmo de
+
+0:31:50.720,0:31:56.000
+a constante
+
+0:31:53.880,0:31:57.600
+e portanto e o logaritmo de a derivada
+
+0:31:56.000,0:31:59.399
+do logaritmo de x é 1 sobre x, portanto
+
+0:31:57.600,0:32:02.000
+já sabemos. E portanto tudo isto fica 1
+
+0:31:59.399,0:32:05.880
+sobre
+
+0:32:02.000,0:32:09.279
+1 sobre logaritmo de a
+
+0:32:05.880,0:32:11.559
+deriva, o logaritmo da base vezes x.
+
+0:32:09.279,0:32:14.440
+Pronto. Sim, senhor.
+
+0:32:11.559,0:32:18.919
+Fórmula da derivada de um logaritmo de
+
+0:32:14.440,0:32:18.919
+uma base genérica. OK?
+
+0:32:21.120,0:32:25.000
+Ora, da mesma maneira, precisamos de
+
+0:32:23.399,0:32:26.760
+calcular
+
+0:32:25.000,0:32:29.720
+a derivada de uma função exponencial
+
+0:32:26.760,0:32:31.399
+genérica. Vamos dizer
+
+0:32:29.720,0:32:34.200
+uma uma exponencial genérica em vez de
+
+0:32:31.399,0:32:37.919
+ser base nepriana,
+
+0:32:34.200,0:32:42.279
+vamos dizer de base a
+
+0:32:37.919,0:32:44.960
+elevado a x. OK? Bom, suponho que também
+
+0:32:42.279,0:32:47.960
+poderia ser resolvido
+
+0:32:44.960,0:32:51.679
+como é a função inversa desta do
+
+0:32:47.960,0:32:54.080
+logaritmo de base a, a função inversa do
+
+0:32:51.679,0:32:57.639
+logaritmo de base a é exponencial de
+
+0:32:54.080,0:33:00.440
+base a, OK? E, portanto, eu usaria a
+
+0:32:57.639,0:33:01.960
+técnica da derivada da função inversa.
+
+0:33:00.440,0:33:03.880
+Deixo isso para vocês como exercício.
+
+0:33:01.960,0:33:06.919
+Vamos aqui aplicar uma outra técnica,
+
+0:33:03.880,0:33:12.320
+portanto, OK? Sim, senhor. Portanto, eu
+
+0:33:06.919,0:33:15.679
+quero calcular esta derivada.
+
+0:33:12.320,0:33:19.399
+OK? Para isso, vamos considerar esta
+
+0:33:15.679,0:33:22.880
+igualdade que é muito útil,
+
+0:33:19.399,0:33:27.360
+em que a elevado x, qualquer que seja o
+
+0:33:22.880,0:33:30.480
+a, a ser igual à exponencial
+
+0:33:27.360,0:33:32.720
+de x logaritmo
+
+0:33:30.480,0:33:34.559
+de a. OK? Isto é muito importante. Isto
+
+0:33:32.720,0:33:37.320
+é uma forma,
+
+0:33:34.559,0:33:41.399
+é uma transformação muito importante que
+
+0:33:37.320,0:33:43.360
+a que em muitas situações isto dá jeito.
+
+0:33:41.399,0:33:45.399
+Eh, e para demonstrar isto é simples. Eu
+
+0:33:43.360,0:33:48.480
+aplico um logaritmo qualquer aqui,
+
+0:33:45.399,0:33:51.039
+porque isto são duas exponenciais
+
+0:33:48.480,0:33:53.039
+de base a e de base de nepper. Então eu
+
+0:33:51.039,0:33:54.760
+vou preciso demonstrar que sim senhor
+
+0:33:53.039,0:33:58.200
+que isto é verdade, que isto é verdade.
+
+0:33:54.760,0:34:01.039
+Aplico dois logaritmos em aqui a ambos
+
+0:33:58.200,0:34:04.799
+os lados da equação.
+
+0:34:01.039,0:34:07.760
+Pode ser o
+
+0:34:04.799,0:34:10.760
+pode ser o logaritmo que eu vou aqui
+
+0:34:07.760,0:34:10.760
+aplicar.
+
+0:34:12.800,0:34:17.480
+Ora, o logaritmo nepriano é o que me dá
+
+0:34:15.599,0:34:19.919
+jeito aqui. Portanto, ao aplicar aqui o
+
+0:34:17.480,0:34:22.200
+logaritmo nepriano,
+
+0:34:19.919,0:34:23.720
+fico que
+
+0:34:22.200,0:34:27.079
+já sabemos este expoente passa para
+
+0:34:23.720,0:34:30.599
+fora. Então fica que x
+
+0:34:27.079,0:34:33.480
+logaritmo de a.
+
+0:34:30.599,0:34:35.639
+E aqui ao aplicar o logaritmo de periano
+
+0:34:33.480,0:34:37.200
+ao número de neper,
+
+0:34:35.639,0:34:40.079
+pois são funções inversas de uma da
+
+0:34:37.200,0:34:44.320
+outra. anula e fica este expoente aqui
+
+0:34:40.079,0:34:46.800
+igual a x logaritmo de a. Pronto. Sim,
+
+0:34:44.320,0:34:49.000
+senhor. Fica, fica então provado.
+
+0:34:46.800,0:34:52.200
+Fica então provado que podemos aplicar
+
+0:34:49.000,0:34:52.200
+esta transformação.
+
+0:34:52.399,0:34:57.079
+Esta esta igualdade está validada
+
+0:34:55.280,0:34:59.960
+e ela vai nos servir porque nós já
+
+0:34:57.079,0:35:03.440
+sabemos derivar a função exponencial de
+
+0:34:59.960,0:35:05.800
+bases de neper e queremos é derivar de
+
+0:35:03.440,0:35:09.640
+uma outra base qualquer.
+
+0:35:05.800,0:35:14.280
+Sim, senhor. Então vamos derivar aqui.
+
+0:35:09.640,0:35:14.280
+Então fica a derivada,
+
+0:35:15.800,0:35:22.119
+a derivada disto é uma função composta,
+
+0:35:19.599,0:35:24.800
+portanto fica
+
+0:35:22.119,0:35:26.960
+a derivada da exponencial é igual a ela
+
+0:35:24.800,0:35:29.520
+própria. Imaginem uma mudança, uma
+
+0:35:26.960,0:35:31.560
+mudança de variáveis. Imaginem seja u
+
+0:35:29.520,0:35:35.800
+igual a x logaritmo de a. Portanto,
+
+0:35:31.560,0:35:38.800
+então fica ela própria
+
+0:35:35.800,0:35:40.800
+e elevado a x logaritmo de a que por
+
+0:35:38.800,0:35:43.800
+esta fórmula aqui é igual a a elevado a
+
+0:35:40.800,0:35:43.800
+x.
+
+0:35:44.920,0:35:51.280
+OK? Só que eu não tenho, eu aqui não
+
+0:35:47.119,0:35:53.079
+tenho exponencial e elevado a x.
+
+0:35:51.280,0:35:56.800
+Eu tenho uma função composta. A função
+
+0:35:53.079,0:35:59.560
+composta sempre se apresenta quando eu
+
+0:35:56.800,0:36:01.359
+estava à espera de encontrar uma função
+
+0:35:59.560,0:36:04.119
+onde eu estava à espera de encontrar o
+
+0:36:01.359,0:36:06.520
+x. Em vez do x, encontro uma outra
+
+0:36:04.119,0:36:07.880
+coisa. Encontro uma função de x, neste
+
+0:36:06.520,0:36:10.720
+caso, uma função de x, que é uma
+
+0:36:07.880,0:36:13.240
+constante logaritmo de a x. Portanto,
+
+0:36:10.720,0:36:15.760
+sempre que eu estava à espera de
+
+0:36:13.240,0:36:17.760
+encontrar o x, em vez do x, encontro
+
+0:36:15.760,0:36:19.280
+outra coisa, então é uma função
+
+0:36:17.760,0:36:22.480
+composta.
+
+0:36:19.280,0:36:24.000
+Pronto. Então aqui
+
+0:36:22.480,0:36:25.760
+é a derivada da exponencial que é igual
+
+0:36:24.000,0:36:28.200
+a ela própria, que é igual a a elevado a
+
+0:36:25.760,0:36:31.599
+x.
+
+0:36:28.200,0:36:33.520
+Mas vezes a derivada da função composta,
+
+0:36:31.599,0:36:35.160
+que a função composta é em vez de x, eu
+
+0:36:33.520,0:36:37.640
+tenho x logaritmo de a, portanto, cuja
+
+0:36:35.160,0:36:39.119
+derivada derivada de x logaritmo de a,
+
+0:36:37.640,0:36:41.520
+logaritmo de a uma constante, depois é
+
+0:36:39.119,0:36:43.520
+logaritmo de a.
+
+0:36:41.520,0:36:45.720
+Pronto,
+
+0:36:43.520,0:36:46.920
+logaritmo de a.
+
+0:36:45.720,0:36:49.680
+OK?
+
+0:36:46.920,0:36:52.280
+Portanto, reparem aqui na semelhança,
+
+0:36:49.680,0:36:54.880
+deriv derivada do logaritmo numa outra
+
+0:36:52.280,0:36:59.760
+base é o inverso de x a dividir pelo
+
+0:36:54.880,0:37:02.079
+logaritmo da base. E a exponencial,
+
+0:36:59.760,0:37:06.040
+a derivada de a elevado a x é igual a
+
+0:37:02.079,0:37:08.800
+ela própria a elevado xes logaritmo da
+
+0:37:06.040,0:37:12.680
+base,
+
+0:37:08.800,0:37:14.200
+logaritmo nepariano da base.
+
+0:37:12.680,0:37:16.119
+No caso em que o a fosse o número de
+
+0:37:14.200,0:37:17.960
+nepper, pois então aí o logaritmo
+
+0:37:16.119,0:37:19.640
+nepariano do número de nepper é um.
+
+0:37:17.960,0:37:22.000
+Seria aqui um, seria aqui um. E portanto
+
+0:37:19.640,0:37:25.000
+estas fórmulas estão coerentes.
+
+0:37:22.000,0:37:25.000
+OK?
+
+0:37:25.400,0:37:29.480
+Vamos agora voltar à derivada da
+
+0:37:26.920,0:37:32.760
+exponencial. Já sabemos que é igual a
+
+0:37:29.480,0:37:32.760
+ela própria,
+
+0:37:32.800,0:37:37.480
+porque deduzimos de várias maneiras,
+
+0:37:35.000,0:37:39.000
+nomeadamente a partir da da regra da da
+
+0:37:37.480,0:37:41.240
+derivada da função inversa, mas vamos
+
+0:37:39.000,0:37:42.680
+tentar aqui fazer uma uma derivação
+
+0:37:41.240,0:37:44.319
+autónoma.
+
+0:37:42.680,0:37:47.319
+OK.
+
+0:37:44.319,0:37:50.359
+Sim, senhor. Vamos tentar.
+
+0:37:47.319,0:37:52.960
+Eh, há muitos métodos também. Há muitos
+
+0:37:50.359,0:37:54.839
+métodos. Se procurarem na internet, eu
+
+0:37:52.960,0:37:57.119
+também procurei, encontrei métodos
+
+0:37:54.839,0:38:00.560
+diversos, similares.
+
+0:37:57.119,0:38:02.119
+Eh, é como digo, não
+
+0:38:00.560,0:38:03.560
+ainda não encontrei nenhum método
+
+0:38:02.119,0:38:06.160
+verdadeiramente satisfatório que me
+
+0:38:03.560,0:38:08.520
+dissesse: "OK, este método é é o ideal,
+
+0:38:06.160,0:38:10.839
+é perfeitamente intuitivo, etc, etc."
+
+0:38:08.520,0:38:12.160
+Pronto, não encontrei. Encontrei aqui
+
+0:38:10.839,0:38:14.520
+alguns métodos como este que já vimos
+
+0:38:12.160,0:38:18.160
+aqui, mas envolvem alguns artifícios
+
+0:38:14.520,0:38:20.640
+como a troca do algaritmo e do limite.
+
+0:38:18.160,0:38:22.280
+OK? Mas também encontramos alguns falsos
+
+0:38:20.640,0:38:27.520
+métodos que eu já encontrei também na
+
+0:38:22.280,0:38:29.520
+internet e raciocínios circulares em que
+
+0:38:27.520,0:38:32.440
+se baseiam na expansão em série de
+
+0:38:29.520,0:38:35.640
+potências do teorema de Taylor
+
+0:38:32.440,0:38:37.680
+para demonstrar eh qual é a derivada.
+
+0:38:35.640,0:38:40.760
+Ora, isso é uma um raciocínio circular,
+
+0:38:37.680,0:38:43.079
+uma vez que da série de do teama de
+
+0:38:40.760,0:38:45.400
+Taylor para para expandir em série de
+
+0:38:43.079,0:38:47.280
+potências uma função, a precisamos à
+
+0:38:45.400,0:38:49.839
+partida de de conhecer as regras de
+
+0:38:47.280,0:38:51.520
+derivação dessa função. Portanto, não
+
+0:38:49.839,0:38:53.599
+podemos
+
+0:38:51.520,0:38:55.359
+podemos depois,
+
+0:38:53.599,0:38:56.680
+ou seja, comprovar que a série TER tá
+
+0:38:55.359,0:38:57.960
+coerente e que a derivada tá coerente,
+
+0:38:56.680,0:39:01.800
+que tudo está coerente. Agora o que não
+
+0:38:57.960,0:39:04.640
+podemos é demonstrar uma uma derivada.
+
+0:39:01.800,0:39:06.640
+Não podemos demonstrar nenhuma derivada
+
+0:39:04.640,0:39:09.280
+com base no teorema de TER. O teorema de
+
+0:39:06.640,0:39:11.319
+TER é super poderoso, irá servir para
+
+0:39:09.280,0:39:14.400
+deduzir imensas formas e demonstrar
+
+0:39:11.319,0:39:17.800
+fórmulas, mas derivadas não. Porque
+
+0:39:14.400,0:39:19.400
+porque porque o teorema de T para para
+
+0:39:17.800,0:39:21.200
+usá-lo, nós temos que conhecer as
+
+0:39:19.400,0:39:24.960
+derivadas. Portanto, não posso não posso
+
+0:39:21.200,0:39:27.280
+depois fazer o raciocínio circular de de
+
+0:39:24.960,0:39:34.480
+usar o teorema de Taylor para demonstrar
+
+0:39:27.280,0:39:37.280
+derivadas. OK? Sim, senhora. Ora, então
+
+0:39:34.480,0:39:41.040
+seja então y
+
+0:39:37.280,0:39:41.040
+igual à função exponencial.
+
+0:39:41.240,0:39:45.359
+OK? Já se sabe quando não se diz nada.
+
+0:39:43.520,0:39:47.359
+Se eu dizer função exponencial é sempre
+
+0:39:45.359,0:39:49.280
+de número de neper. o mesmo para o
+
+0:39:47.359,0:39:51.880
+logaritmo quando não se diz nada, não se
+
+0:39:49.280,0:39:56.880
+diz qual a base, pois será sempre a
+
+0:39:51.880,0:40:00.440
+exponencial normal do número de nepper.
+
+0:39:56.880,0:40:02.160
+Ora, e portanto temos dy dx que
+
+0:40:00.440,0:40:04.079
+pretendemos calcular, vamos tentar então
+
+0:40:02.160,0:40:05.440
+calcular aqui a partir do zero de forma
+
+0:40:04.079,0:40:07.079
+autónoma, independentemente do
+
+0:40:05.440,0:40:11.079
+logaritmo.
+
+0:40:07.079,0:40:13.760
+Sim, senhora. Eh, e vamos,
+
+0:40:11.079,0:40:15.520
+já sabemos o limite quando h tende a
+
+0:40:13.760,0:40:19.680
+zero,
+
+0:40:15.520,0:40:21.720
+e x + h
+
+0:40:19.680,0:40:24.440
+- e
+
+0:40:21.720,0:40:27.839
+de x
+
+0:40:24.440,0:40:30.040
+sobre h. Sim, senhora. Aqui pomos aqui
+
+0:40:27.839,0:40:32.079
+já sabemos que
+
+0:40:30.040,0:40:34.079
+uma uma exponencial podemos desdobrar de
+
+0:40:32.079,0:40:36.280
+que é um produto e elevado a x e elevado
+
+0:40:34.079,0:40:38.400
+a h. O e elevado a x posso pôr em
+
+0:40:36.280,0:40:42.040
+evidência
+
+0:40:38.400,0:40:43.560
+limite de e elevado a x, OK? E vai ficar
+
+0:40:42.040,0:40:46.200
+aqui
+
+0:40:43.560,0:40:49.960
+um limite notável que vai ficar aqui
+
+0:40:46.200,0:40:52.040
+evidenciado é igual a h - 1
+
+0:40:49.960,0:40:54.119
+sobre h.
+
+0:40:52.040,0:40:56.119
+Pronto, este é um limite notável, tal
+
+0:40:54.119,0:40:57.640
+como aquele limite que vos falei, sendo
+
+0:40:56.119,0:41:00.208
+de x sobre so x, também são alguns
+
+0:40:57.640,0:41:02.599
+limites notáveis e bastante famosos.
+
+0:41:00.208,0:41:04.680
+[roncando] E esta também já sabemos que
+
+0:41:02.599,0:41:06.359
+isto vai ter que tender a para um.
+
+0:41:04.680,0:41:08.040
+Já porque já sabemos qual é a derivada e
+
+0:41:06.359,0:41:09.720
+o que é que isto vai dar. Ora bem, em
+
+0:41:08.040,0:41:12.800
+termos do limite quanto h tendo para
+
+0:41:09.720,0:41:15.359
+zero, não há dúvida nenhuma que x é uma
+
+0:41:12.800,0:41:17.160
+constante, porque aqui em x não o não,
+
+0:41:15.359,0:41:19.800
+aqui já não envolve h. Portanto, este x
+
+0:41:17.160,0:41:23.400
+eu já posso tirar para fora do limite e
+
+0:41:19.800,0:41:26.319
+dizer que isto é igual a e elevado a xes
+
+0:41:23.400,0:41:30.720
+e agora tenho o limite
+
+0:41:26.319,0:41:33.480
+quando h tende a 0 e agora tenho
+
+0:41:30.720,0:41:37.200
+e elevado a h - 1 sobre h.
+
+0:41:33.480,0:41:40.319
+Pronto, que é um limite notável.
+
+0:41:37.200,0:41:42.640
+OK. Sim, senhora.
+
+0:41:40.319,0:41:46.713
+Ora, portanto, agora agora há várias
+
+0:41:42.640,0:41:46.920
+técnicas, OK? Há várias técnicas.
+
+0:41:46.713,0:41:48.720
+[roncando]
+
+0:41:46.920,0:41:51.800
+Eh,
+
+0:41:48.720,0:41:54.720
+uma delas consiste no seguinte, vamos
+
+0:41:51.800,0:41:59.480
+pôr aqui, consiste no seguinte, dizer
+
+0:41:54.720,0:42:02.480
+assim: "Bom, eu sei que é igual o e
+
+0:41:59.480,0:42:05.079
+vimos no início deste tutorial que era
+
+0:42:02.480,0:42:06.960
+um limite,
+
+0:42:05.079,0:42:10.839
+vimos naquela analogia com a taxa de
+
+0:42:06.960,0:42:13.560
+juro, que era era também uma das formas
+
+0:42:10.839,0:42:17.040
+pelas quais nasceu o exponencial
+
+0:42:13.560,0:42:17.040
+limite quando o n t infinito
+
+0:42:17.480,0:42:23.200
+de
+
+0:42:19.240,0:42:23.200
+1 + 1 sobre n
+
+0:42:23.920,0:42:29.400
+elevado a n. E crescendo assim, eu posso
+
+0:42:26.800,0:42:32.680
+tirar este elevado a nvando estes ambos
+
+0:42:29.400,0:42:32.680
+estes lados
+
+0:42:32.920,0:42:39.240
+aqui a 1 sobre n.
+
+0:42:35.559,0:42:39.240
+OK? Sim, senhor.
+
+0:42:39.280,0:42:45.960
+Eh, eu até acho que posso pôr aqui, Ora,
+
+0:42:44.280,0:42:48.200
+eu realmente não gosto muito deste este
+
+0:42:45.960,0:42:49.559
+método, não me parece assim tão tão
+
+0:42:48.200,0:42:51.119
+intuitivo, mas pronto, eu tenho aqui
+
+0:42:49.559,0:42:53.760
+esta demonstração. Vou vou vou fazer
+
+0:42:51.119,0:42:56.640
+agora esta. Pronto, há outras
+
+0:42:53.760,0:42:58.319
+demonstrações, mas pronto, é como digo
+
+0:42:56.640,0:43:00.440
+também já não precisava disto porque eu
+
+0:42:58.319,0:43:02.400
+já já sei qual é a derivada porque a
+
+0:43:00.440,0:43:05.359
+deduzir pel o processo da derivada da
+
+0:43:02.400,0:43:06.720
+função inversa, portanto, mas ok,
+
+0:43:05.359,0:43:08.839
+vou-vos só mostrar um exemplo que há
+
+0:43:06.720,0:43:12.520
+outras deduções [roncando] alternativas
+
+0:43:08.839,0:43:14.160
+e autónomas, mas h é como vos digo, a
+
+0:43:12.520,0:43:15.720
+mim não me parece nada intuitivo, mas
+
+0:43:14.160,0:43:19.240
+pronto, vou seguir aqui com esta com
+
+0:43:15.720,0:43:21.280
+esta com esta demonstração aqui. Ora
+
+0:43:19.240,0:43:23.000
+bem, então agora o que se vai fazer aqui
+
+0:43:21.280,0:43:28.520
+é uma uma mudança de variáveis. Eu vou
+
+0:43:23.000,0:43:32.960
+dizer, OK, aqui seja o o h onde está h,
+
+0:43:28.520,0:43:35.359
+eu vou pôr igual a 1 sobre n,
+
+0:43:32.960,0:43:38.520
+OK? Pronto. E sendo assim, este limite
+
+0:43:35.359,0:43:40.599
+aqui de H transforma-se num limite
+
+0:43:38.520,0:43:43.240
+quando n tende para infinito. Portanto,
+
+0:43:40.599,0:43:45.680
+não há dúvida nenhuma que
+
+0:43:43.240,0:43:47.359
+se h tendo a zero
+
+0:43:45.680,0:43:51.640
+e se eu faço uma mudança de variáveis de
+
+0:43:47.359,0:43:54.160
+1 sobre h = 1 sobre n, h t h t a zero, o
+
+0:43:51.640,0:43:59.760
+n tem de tender a infinito. Sim, senhor.
+
+0:43:54.160,0:44:03.119
+Pronto. E aqui fica, vai-me ficar e
+
+0:43:59.760,0:44:06.359
+igual a 1 sobre n - 1 sobre
+
+0:44:03.119,0:44:10.520
+1 sobre n.
+
+0:44:06.359,0:44:13.760
+1 sobre n. Sim, senhora. E agora é que
+
+0:44:10.520,0:44:18.200
+vai entrar aqui este esta
+
+0:44:13.760,0:44:20.480
+este este truque onde eu digo assim:
+
+0:44:18.200,0:44:24.400
+em termos de limite, quando n tende para
+
+0:44:20.480,0:44:26.800
+infinito de de 1 + 1 sobre n é igual a e
+
+0:44:24.400,0:44:28.920
+elevado a 1 sobre n.
+
+0:44:26.800,0:44:31.839
+Portanto, e aqui
+
+0:44:28.920,0:44:35.440
+vamos fazer esta substituição
+
+0:44:31.839,0:44:38.720
+e vamos dizer, bom, em termos de limite,
+
+0:44:35.440,0:44:41.319
+onde está e elevado a 1 sobre n é o
+
+0:44:38.720,0:44:43.880
+limite de 1 + 1 sobre n, ou seja, é é 1
+
+0:44:41.319,0:44:45.599
++ 1 sobre n
+
+0:44:43.880,0:44:48.480
+onde está e elevado a 1 sobre n é igual
+
+0:44:45.599,0:44:50.880
+a 1 + 1 sobre n em termos de limite
+
+0:44:48.480,0:44:52.160
+quando o n tende para infinito,
+
+0:44:50.880,0:44:53.319
+que é o facto que é porque aqui estamos
+
+0:44:52.160,0:44:54.880
+a trabalhar em termos de limite, eu
+
+0:44:53.319,0:44:55.760
+tenho aqui o limite quando n tn para
+
+0:44:54.880,0:44:59.720
+infinito.
+
+0:44:55.760,0:45:05.400
+Pronto. Daí que aqui, OK, é feita esta
+
+0:44:59.720,0:45:05.400
+substituição aqui. 1 + 1 sobre nimite
+
+0:45:05.880,0:45:10.839
+é igual a à exponencial de 1 sobre n. E
+
+0:45:09.119,0:45:12.720
+eu como eu tenha aqui a exponencial de 1
+
+0:45:10.839,0:45:14.720
+sobre n,
+
+0:45:12.720,0:45:16.920
+através desta transformação, desta
+
+0:45:14.720,0:45:19.200
+mudança de variáveis que eu fiz aqui,
+
+0:45:16.920,0:45:22.000
+onde está 1 sobre n, poois eu substituí
+
+0:45:19.200,0:45:23.640
+1 + 1 sobre n.
+
+0:45:22.000,0:45:26.800
+OK?
+
+0:45:23.640,0:45:29.119
+Pronto. E isto sobre
+
+0:45:26.800,0:45:32.640
+1 sobre N.
+
+0:45:29.119,0:45:36.319
+Aqui 1 corta
+
+0:45:32.640,0:45:37.440
+e aqui 1 sobre n sobre 1 sobre n dá 1.
+
+0:45:36.319,0:45:41.280
+E, portanto, é uma constante. E,
+
+0:45:37.440,0:45:42.720
+portanto, este limite é igual a 1.
+
+0:45:41.280,0:45:45.079
+Este limite é igual a 1. Pronto. E tá
+
+0:45:42.720,0:45:49.200
+assim demonstrado porque então vimos que
+
+0:45:45.079,0:45:50.400
+a derivada de y = x era igual a ex vezes
+
+0:45:49.200,0:45:52.040
+este limite, que este limite era
+
+0:45:50.400,0:45:54.920
+notável. E agora já demonstramos então
+
+0:45:52.040,0:45:57.839
+que este limite
+
+0:45:54.920,0:46:00.280
+na verdade tende para um.
+
+0:45:57.839,0:46:03.559
+Sim, senhora. Pronto, é um processo
+
+0:46:00.280,0:46:05.520
+alternativo. É como vos digo, hã, não,
+
+0:46:03.559,0:46:06.839
+não me satisfaz muito este método que
+
+0:46:05.520,0:46:10.119
+gostava de encontrar uma coisa mais
+
+0:46:06.839,0:46:12.559
+intuitiva, mas ainda não encontrei.
+
+0:46:10.119,0:46:16.079
+OK.
+
+0:46:12.559,0:46:16.079
+Eh, sim, senhora.
+
+0:46:16.920,0:46:20.119
+Ora, vamos resolver aqui alguns
+
+0:46:18.240,0:46:22.400
+problemas avançados de derivadas. Agora
+
+0:46:20.119,0:46:25.480
+que já temos um arsenal,
+
+0:46:22.400,0:46:27.480
+temos um arsenal, sabemos derivar tudo à
+
+0:46:25.480,0:46:29.599
+partida, tanto quanto me lembro, claro
+
+0:46:27.480,0:46:32.599
+que há funções que ainda não demos, como
+
+0:46:29.599,0:46:35.000
+as funções hiperbólicas, mas
+
+0:46:32.599,0:46:38.119
+elas também quando aparecerem logo se vê
+
+0:46:35.000,0:46:40.240
+e também elas à partida são são fáceis
+
+0:46:38.119,0:46:42.079
+porque são expressas em função da função
+
+0:46:40.240,0:46:43.960
+exponencial.
+
+0:46:42.079,0:46:45.920
+Vamos. Eh, derivação é uma coisa
+
+0:46:43.960,0:46:49.720
+relativamente simples, logo que se saiba
+
+0:46:45.920,0:46:52.280
+as regras de de derivação.
+
+0:46:49.720,0:46:56.920
+H, portanto, acaba por ser um um
+
+0:46:52.280,0:46:59.440
+bocadinho simples, como vamos ver agora.
+
+0:46:56.920,0:47:01.240
+Ora, primeiro mostrar aqui uma uma
+
+0:46:59.440,0:47:02.800
+tabela de derivações, com tudo mais ou
+
+0:47:01.240,0:47:06.359
+menos o que já vimos. Temos a derivada
+
+0:47:02.800,0:47:10.359
+da constante aqui é zero. No início
+
+0:47:06.359,0:47:13.319
+temos uma derivada a derivada da soma.
+
+0:47:10.359,0:47:15.839
+Eh, temos a derivada de uma constante
+
+0:47:13.319,0:47:17.280
+vezes uma função. Que a constante passa
+
+0:47:15.839,0:47:19.200
+para fora, a derivada do produto, a
+
+0:47:17.280,0:47:21.760
+derivada do cociente.
+
+0:47:19.200,0:47:24.800
+Aqui temos a a derivada
+
+0:47:21.760,0:47:27.480
+do inverso de uma função, mas isto é é o
+
+0:47:24.800,0:47:31.000
+mesmo que o derivar uma potência, mas
+
+0:47:27.480,0:47:33.720
+ok, dá isto.
+
+0:47:31.000,0:47:35.240
+A segunda derivada de um produto aqui é
+
+0:47:33.720,0:47:37.119
+como se fosse um quadrado. Reparem,
+
+0:47:35.240,0:47:40.240
+também vimos isto que é a fórmula de
+
+0:47:37.119,0:47:42.520
+Libo ao binómio de Newton. O mesmo para
+
+0:47:40.240,0:47:45.000
+aqui para o cubo, o mesmo para aqui. A
+
+0:47:42.520,0:47:48.920
+derivada a derivada da ordem n de um
+
+0:47:45.000,0:47:52.440
+produto aqui tá numa forma extensa, mas
+
+0:47:48.920,0:47:54.520
+isto equivale à à forma do do binómio
+
+0:47:52.440,0:47:56.960
+deit que que é a mesma coisa que o
+
+0:47:54.520,0:47:59.599
+binómio de Newton, que em vez de levar
+
+0:47:56.960,0:48:03.000
+às potências, o que eleva é às derivadas
+
+0:47:59.599,0:48:05.640
+de ordem n. O resto é tudo igual.
+
+0:48:03.000,0:48:08.920
+Eh, sim, senhora. Aqui temos a derivada
+
+0:48:05.640,0:48:11.079
+de x de de de x quad. Temos, pronto, e
+
+0:48:08.920,0:48:12.839
+os restantes casos já nossos conhecidos
+
+0:48:11.079,0:48:15.079
+e que acabamos de deduzir agora. Sim,
+
+0:48:12.839,0:48:16.839
+senhora. Vamos então passar aqui algumas
+
+0:48:15.079,0:48:19.760
+derivadas.
+
+0:48:16.839,0:48:23.839
+Vamos, por exemplo, derivar
+
+0:48:19.760,0:48:26.960
+5 elevado ao seno de x.
+
+0:48:23.839,0:48:29.200
+OK? Portanto, nunca separalhem se
+
+0:48:26.960,0:48:31.720
+estamos perante uma potência ou uma
+
+0:48:29.200,0:48:33.319
+exponencial. Portanto, se a variável
+
+0:48:31.720,0:48:36.000
+está no aqui no expoente, é sempre uma
+
+0:48:33.319,0:48:38.079
+exponencial. Isto é uma exponencial,
+
+0:48:36.000,0:48:40.359
+mas é uma exponencial com função
+
+0:48:38.079,0:48:42.880
+composta, onde eu estava à espera de
+
+0:48:40.359,0:48:44.240
+encontrar x 5 elevado a x, na verdade
+
+0:48:42.880,0:48:46.640
+encontro uma função, portanto é uma
+
+0:48:44.240,0:48:48.359
+função composta. Portanto, a derivada
+
+0:48:46.640,0:48:50.079
+das, mas é uma exponencial, não deixa de
+
+0:48:48.359,0:48:51.720
+ser, portanto, uma exponencial. E a
+
+0:48:50.079,0:48:54.319
+derivada da exponencial é sempre igual a
+
+0:48:51.720,0:48:57.440
+ela própria.
+
+0:48:54.319,0:49:02.040
+OK? Pronto. Mas como se trata de uma
+
+0:48:57.440,0:49:03.680
+função composta, a derivada do expoente,
+
+0:49:02.040,0:49:06.440
+a derivada daqui onde eu esperava
+
+0:49:03.680,0:49:08.000
+encontrar o x, aqui esperava encontrar o
+
+0:49:06.440,0:49:10.160
+x. É isto, é aí que está a função
+
+0:49:08.000,0:49:12.160
+composta. É como se fosse um u igual a
+
+0:49:10.160,0:49:14.880
+seno x. E agora a derivada do em ordem é
+
+0:49:12.160,0:49:16.880
+x. Pronto. Derivada do seno é o cosseno
+
+0:49:14.880,0:49:19.880
+de x.
+
+0:49:16.880,0:49:19.880
+OK?
+
+0:49:20.160,0:49:24.839
+Eh, mas eh
+
+0:49:25.240,0:49:28.240
+falta.
+
+0:49:29.880,0:49:33.960
+Ora,
+
+0:49:31.400,0:49:37.599
+vamos ver aqui outro exemplo. Portanto,
+
+0:49:33.960,0:49:37.599
+a derivada de
+
+0:49:40.359,0:49:46.400
+2 elevado a x
+
+0:49:43.480,0:49:49.480
+sobre x.
+
+0:49:46.400,0:49:51.920
+Parece complicado, mas é bem simples.
+
+0:49:49.480,0:49:53.400
+Eu não gosto de trabalhar com cocientes,
+
+0:49:51.920,0:49:57.520
+gosto de trabalhar com produtos. E então
+
+0:49:53.400,0:49:57.520
+digo a derivada de um produto
+
+0:49:57.760,0:50:02.160
+mais simples. A regra é mais simples, é
+
+0:50:00.440,0:50:03.480
+a derivada da primeira, mas a derivada
+
+0:50:02.160,0:50:05.839
+da primeira acabamos de ver agora logo
+
+0:50:03.480,0:50:08.520
+aqui atrás como era a derivada de 2
+
+0:50:05.839,0:50:10.480
+elevado a x. a derivada da primeira 2
+
+0:50:08.520,0:50:15.119
+elevado x
+
+0:50:10.480,0:50:15.119
+logaritmo de 2 x a segunda
+
+0:50:15.480,0:50:20.000
+mais a derivada da segunda vez a
+
+0:50:17.000,0:50:20.000
+primeira
+
+0:50:20.200,0:50:26.559
+derivada da segunda -1
+
+0:50:24.000,0:50:31.160
+sobre x qu
+
+0:50:26.559,0:50:31.160
+igual a p 2x em evidência
+
+0:50:31.599,0:50:37.920
+à parênteses
+
+0:50:33.799,0:50:37.920
+logaritmo de 2 so x
+
+0:50:38.359,0:50:44.040
+menos o inverso de x².
+
+0:50:44.960,0:50:50.559
+OK, tá feito.
+
+0:50:47.880,0:50:53.880
+Ora,
+
+0:50:50.559,0:50:58.599
+vamos ver aqui um outro exemplo.
+
+0:50:53.880,0:51:01.760
+Vamos ver a derivada de um logaritmo,
+
+0:50:58.599,0:51:01.760
+um logaritmo
+
+0:51:02.280,0:51:09.960
+de uma raiz quadrada.
+
+0:51:05.799,0:51:09.960
+de x² + 3.
+
+0:51:10.200,0:51:14.079
+OK?
+
+0:51:12.319,0:51:17.240
+Sim, senhora.
+
+0:51:14.079,0:51:20.240
+Às vezes, quando, por exemplo, aqui é
+
+0:51:17.240,0:51:21.760
+vai ser uma derivada da função composta
+
+0:51:20.240,0:51:23.400
+e eu tenho estado a fazer aqui deriv
+
+0:51:21.760,0:51:26.440
+derivadas de funções compostas de
+
+0:51:23.400,0:51:29.000
+cabeça, mas às vezes se quisermos fazer
+
+0:51:26.440,0:51:31.119
+por partes de uma forma mais pausada,
+
+0:51:29.000,0:51:34.079
+então usamos a a técnica da função
+
+0:51:31.119,0:51:39.480
+composta. Eu digo assim, OK, seja o,
+
+0:51:34.079,0:51:41.079
+portanto, se este é y, eu digo seja
+
+0:51:39.480,0:51:44.119
+u
+
+0:51:41.079,0:51:48.799
+igual a
+
+0:51:44.119,0:51:53.040
+x2 + 3 elevado 1/2.
+
+0:51:48.799,0:51:56.839
+Pronto. E então caso em que
+
+0:51:53.040,0:52:01.559
+caso em que nesse caso que y
+
+0:51:56.839,0:52:06.480
+sendo assim y é logaritmo de u.
+
+0:52:01.559,0:52:09.400
+Sim senhora. Sendo que d y
+
+0:52:06.480,0:52:13.319
+du a derivada do logaritmo é o inverso
+
+0:52:09.400,0:52:17.240
+de u. e ponto final, fim de história.
+
+0:52:13.319,0:52:20.680
+Mas eu não quero d, eu quero eu quero
+
+0:52:17.240,0:52:24.520
+calcular dy dx.
+
+0:52:20.680,0:52:30.280
+E sendo assim, dx,
+
+0:52:24.520,0:52:30.280
+pois será igual a dx.
+
+0:52:35.720,0:52:42.680
+OK? E, portanto, sendo assim, dá tenho
+
+0:52:39.119,0:52:44.680
+que é igual a 1 sobre u, mas u é isto
+
+0:52:42.680,0:52:46.760
+que aqui está. Portanto, então fica 1
+
+0:52:44.680,0:52:50.920
+sobre
+
+0:52:46.760,0:52:55.599
+este u aqui, que é a raiz quadrada
+
+0:52:50.920,0:52:58.440
+x² + 3. Sim, senhora. E agora multiplico
+
+0:52:55.599,0:53:01.079
+por du dx. Pronto. E agora, olhando aqui
+
+0:52:58.440,0:53:02.640
+a U, multiplicando em ordem x, é uma
+
+0:53:01.079,0:53:05.640
+potência
+
+0:53:02.640,0:53:05.640
+1/2
+
+0:53:06.400,0:53:09.400
+de
+
+0:53:09.520,0:53:15.760
+x² + 3
+
+0:53:12.920,0:53:16.880
+elevar a - 1/2,
+
+0:53:15.760,0:53:19.839
+mas [roncando] que por sua vez é uma
+
+0:53:16.880,0:53:22.520
+função composta. Nova outra vez u por
+
+0:53:19.839,0:53:23.599
+sua vez é uma função composta,
+
+0:53:22.520,0:53:26.280
+OK? Porque eu aqui não tenho uma
+
+0:53:23.599,0:53:29.240
+potência simples x elevado a 1/osta que
+
+0:53:26.280,0:53:32.520
+é x2 + 3. Pronto, podia fazer uma outra
+
+0:53:29.240,0:53:35.000
+substituição, não vale a pena. E
+
+0:53:32.520,0:53:39.400
+portanto seria pronto. E então aqui faço
+
+0:53:35.000,0:53:39.400
+de cabeça que xes 2x.
+
+0:53:40.200,0:53:47.160
+OK? Pronto. Imaginem que eu fazia tudo
+
+0:53:42.839,0:53:50.079
+por extenso. Então seria dizia, olha,
+
+0:53:47.160,0:53:53.280
+dx
+
+0:53:50.079,0:53:56.640
+é igual a d,
+
+0:53:53.280,0:53:58.040
+mas u é uma função composta. Então du
+
+0:53:56.640,0:54:01.839
+isso seria uma outra variável
+
+0:53:58.040,0:54:04.720
+intermédia, qualquer coisa ds. Mas ds é
+
+0:54:01.839,0:54:08.200
+uma função composta. DS
+
+0:54:04.720,0:54:10.160
+dx. Pronto. E, portanto, na altura
+
+0:54:08.200,0:54:11.839
+mostrei-vos que intuitivamente era como
+
+0:54:10.160,0:54:13.839
+se houvesse aqui um corta, corta, corta,
+
+0:54:11.839,0:54:16.799
+corta e no final obtemos o que nós
+
+0:54:13.839,0:54:19.400
+queremos da YTX. Pronto. Então aqui já
+
+0:54:16.799,0:54:22.680
+tenho a expressão. Ora, este dois aqui
+
+0:54:19.400,0:54:24.920
+corta aqui. Esta este passa para baixo,
+
+0:54:22.680,0:54:29.720
+fica ao quadrado. Então visto fica x
+
+0:54:24.920,0:54:34.400
+sobre x2 + 3. Portanto,
+
+0:54:29.720,0:54:41.319
+x fica a derivada final. x sobre
+
+0:54:34.400,0:54:44.640
+x2 + 3. Sim, senhora.
+
+0:54:41.319,0:54:47.240
+Ora, vamos ver agora outro caso.
+
+0:54:44.640,0:54:50.319
+H,
+
+0:54:47.240,0:54:52.640
+sim, senhor. Vamos derivar aqui
+
+0:54:50.319,0:54:55.520
+x
+
+0:54:52.640,0:54:57.040
+elevado a seno de x. Este é um caso mais
+
+0:54:55.520,0:55:00.400
+complicado. Temos que ter aqui muito
+
+0:54:57.040,0:55:03.240
+cuidado. Temos ter aqui muito cuidado.
+
+0:55:00.400,0:55:05.880
+Seja y igual a isto e eu quero derivar.
+
+0:55:03.240,0:55:08.760
+E porquê o cuidado? Porque agora temos
+
+0:55:05.880,0:55:11.200
+aqui uma situação crítica.
+
+0:55:08.760,0:55:12.799
+Isto não é nem uma potência nem uma
+
+0:55:11.200,0:55:15.599
+exponencial
+
+0:55:12.799,0:55:17.119
+porque temos a variável independente
+
+0:55:15.599,0:55:18.319
+quer no expoente, quer na base.
+
+0:55:17.119,0:55:20.559
+Portanto, isto é uma potência
+
+0:55:18.319,0:55:23.599
+exponencial. é um híbrido, os dois ao
+
+0:55:20.559,0:55:25.799
+mesmo tempo. E nós não sabemos, nós
+
+0:55:23.599,0:55:30.039
+nunca nunca derivamos uma função deste
+
+0:55:25.799,0:55:32.799
+tipo, OK? Sendo um híbrido
+
+0:55:30.039,0:55:35.559
+destas duas coisas. Pronto, aqui temos
+
+0:55:32.799,0:55:37.880
+que aplicar um truque. Temos que aplicar
+
+0:55:35.559,0:55:40.640
+aqui um truque. Nós temos que dizer
+
+0:55:37.880,0:55:44.920
+assim: "Eu vou querer a derivada do y,
+
+0:55:40.640,0:55:49.680
+OK? que eu não sei calcular isto.
+
+0:55:44.920,0:55:52.319
+Então, antes de derivar o y, eu vou
+
+0:55:49.680,0:55:55.319
+aplicar uma transformação
+
+0:55:52.319,0:55:58.440
+que é o logaritmo de y.
+
+0:55:55.319,0:56:00.440
+Pronto, porque o logaritmo de y.
+
+0:55:58.440,0:56:02.119
+Portanto, eu, antes de tentar calcular a
+
+0:56:00.440,0:56:06.280
+derivada, antes disso, eu vou aplicar
+
+0:56:02.119,0:56:08.160
+logaritmos à função e vou dizer: "Bom,
+
+0:56:06.280,0:56:10.559
+seja
+
+0:56:08.160,0:56:13.319
+logaritmo de y,
+
+0:56:10.559,0:56:15.359
+não há dúvida nenhuma que é
+
+0:56:13.319,0:56:18.160
+seno de x
+
+0:56:15.359,0:56:20.960
+logaritmo de x."
+
+0:56:18.160,0:56:24.359
+Pronto, até aqui apliquei esta
+
+0:56:20.960,0:56:26.160
+transformação e ainda não derivei nada.
+
+0:56:24.359,0:56:29.160
+OK.
+
+0:56:26.160,0:56:29.160
+Ora,
+
+0:56:31.400,0:56:36.400
+OK.
+
+0:56:33.559,0:56:39.079
+E agora vamos agora vamos e eu quero
+
+0:56:36.400,0:56:41.160
+derivar derivar d y dx. Portanto, o que
+
+0:56:39.079,0:56:44.359
+eu quero,
+
+0:56:41.160,0:56:46.079
+que é o meu problema original, d y dx. E
+
+0:56:44.359,0:56:48.799
+agora vamos aplicar aqui uma técnica da
+
+0:56:46.079,0:56:52.200
+função implícita que nós vimos. Nós
+
+0:56:48.799,0:56:52.200
+vimos que
+
+0:56:53.079,0:56:58.960
+quando eu tenho y igual a qualquer
+
+0:56:54.559,0:57:00.599
+coisa, o y está explicitado.
+
+0:56:58.960,0:57:02.599
+OK?
+
+0:57:00.599,0:57:05.079
+Mas aqui o y, que é a minha função, não
+
+0:57:02.599,0:57:08.079
+está explicitada. O que está é logaritmo
+
+0:57:05.079,0:57:11.920
+de y e não o y.
+
+0:57:08.079,0:57:13.960
+Portanto, isto é uma função implícita
+
+0:57:11.920,0:57:15.960
+de y.
+
+0:57:13.960,0:57:17.599
+que porque o y não está explicitado.
+
+0:57:15.960,0:57:19.640
+Claro que eu aqui aplicava exponenciais
+
+0:57:17.599,0:57:21.880
+em ambos os lados e explicitava que era
+
+0:57:19.640,0:57:24.480
+o original aqui. O y estava explicitado,
+
+0:57:21.880,0:57:27.559
+só que eu não sei derivar.
+
+0:57:24.480,0:57:29.960
+Eu não sei derivar enquanto função
+
+0:57:27.559,0:57:31.839
+original porque eu não sei. Eu não sei
+
+0:57:29.960,0:57:34.839
+derivar a potência exponencial que é o
+
+0:57:31.839,0:57:34.839
+híbrido.
+
+0:57:35.520,0:57:39.039
+Mas eu vou saber derivar enquanto função
+
+0:57:37.319,0:57:41.480
+implícita. Enquanto função implícita
+
+0:57:39.039,0:57:43.680
+consigo derivar. E na altura, quando dei
+
+0:57:41.480,0:57:46.319
+o no meu outro tutorial falei-vos que
+
+0:57:43.680,0:57:48.440
+havia a técnica do diferencial. Pronto.
+
+0:57:46.319,0:57:50.079
+Mas aqui, como isto é tão simples aqui,
+
+0:57:48.440,0:57:52.480
+porque aqui tenho a função, uma função
+
+0:57:50.079,0:57:54.160
+implícita, mas de variáveis separadas,
+
+0:57:52.480,0:57:57.280
+tenho os y para um lado, o x para o
+
+0:57:54.160,0:57:59.920
+outro, fica mais fácil. Pronto, eu quero
+
+0:57:57.280,0:58:01.640
+calcular de y dx. Pronto, eu vou derivar
+
+0:57:59.920,0:58:04.240
+aqui,
+
+0:58:01.640,0:58:07.119
+eu vou derivar
+
+0:58:04.240,0:58:09.440
+esta função implícita. Função implícita
+
+0:58:07.119,0:58:12.920
+de y. y é a função implícita. Neste
+
+0:58:09.440,0:58:15.000
+caso, eu vou derivar em ordem x,
+
+0:58:12.920,0:58:18.039
+portanto, então derivo, derivo tudo em
+
+0:58:15.000,0:58:21.079
+ordem x, derivo deste lado da equação em
+
+0:58:18.039,0:58:23.920
+ordem x. Ora, um logaritmo em ordem a x
+
+0:58:21.079,0:58:26.520
+é sempre o inverso de qualquer coisa do
+
+0:58:23.920,0:58:29.359
+que está aqui do argumento vezes, mas é
+
+0:58:26.520,0:58:35.119
+uma função composta, certo? Porque y é
+
+0:58:29.359,0:58:35.119
+uma função de x, portanto, vezes dx.
+
+0:58:38.440,0:58:44.359
+E aqui derivar em ordem x neste caso é é
+
+0:58:42.559,0:58:46.480
+imediato. É aqui não aqui não há
+
+0:58:44.359,0:58:49.520
+segredos. Aqui é uma é uma função de x
+
+0:58:46.480,0:58:55.480
+simples [roncando] e portanto é um
+
+0:58:49.520,0:58:55.480
+produto derivada da primeira cos x
+
+0:58:56.079,0:59:02.079
+mais derivada da segunda vez a primeira.
+
+0:58:59.240,0:59:04.359
++ seno de x derivada da segunda é o
+
+0:59:02.079,0:59:08.079
+inverso de x.
+
+0:59:04.359,0:59:10.240
+Pronto, então eu já fiz, eu já derivei,
+
+0:59:08.079,0:59:13.480
+agora simplesmente tenho que explicitar
+
+0:59:10.240,0:59:16.079
+d y dx se eu conseguir.
+
+0:59:13.480,0:59:18.960
+Neste caso consegue-se, então fica aqui
+
+0:59:16.079,0:59:21.480
+d y dx
+
+0:59:18.960,0:59:25.000
+d y dx,
+
+0:59:21.480,0:59:27.599
+que é o que eu quero, é igual ao y que
+
+0:59:25.000,0:59:30.599
+passa para este lado da equação. Mas o y
+
+0:59:27.599,0:59:33.200
+eu tenho é aqui,
+
+0:59:30.599,0:59:36.160
+é a potência exponencial.
+
+0:59:33.200,0:59:37.720
+função híbrida,
+
+0:59:36.160,0:59:41.280
+a potência exponencial. E agora
+
+0:59:37.720,0:59:44.640
+multiplica por
+
+0:59:41.280,0:59:47.160
+cosseno de x
+
+0:59:44.640,0:59:48.786
+logaritmo de x
+
+0:59:47.160,0:59:52.760
++
+
+0:59:48.786,0:59:52.760
+[roncando] seno de x
+
+0:59:52.880,0:59:58.039
+sobre x.
+
+0:59:56.160,1:00:01.280
+OK?
+
+0:59:58.039,1:00:01.280
+Sim, senhora.
+
+1:00:02.440,1:00:05.440
+Ora,
+
+1:00:06.520,1:00:10.599
+deixa-me apagar aqui isto que estava
+
+1:00:07.839,1:00:13.240
+aqui a fazer um determinado cálculo.
+
+1:00:10.599,1:00:14.520
+Ora bem, hoje em dia há tantas
+
+1:00:13.240,1:00:17.520
+ferramentas, há inteligências
+
+1:00:14.520,1:00:20.520
+artificiais, há tudo. E mas para este
+
+1:00:17.520,1:00:24.280
+tipo de de cálculos e para vocês poderem
+
+1:00:20.520,1:00:26.079
+validar al algum cálculo matemático, tem
+
+1:00:24.280,1:00:29.039
+uma ferramenta poderosíssima hoje em dia
+
+1:00:26.079,1:00:31.119
+que é o site do Ofromalfa.
+
+1:00:29.039,1:00:34.119
+Por exemplo, aqui neste caso eu fui ao
+
+1:00:31.119,1:00:38.160
+Ofrompa para confirmar.
+
+1:00:34.119,1:00:41.200
+Pesquisem o Ofrom alfa é gratuito. E
+
+1:00:38.160,1:00:45.319
+aqui pus aqui a derivada
+
+1:00:41.200,1:00:49.480
+de x elevado a seno de x. Ok?
+
+1:00:45.319,1:00:52.680
+E pronto, cá está. Deu x seno de x
+
+1:00:49.480,1:00:55.160
+- 1, mas este -1 é é o mesmo que
+
+1:00:52.680,1:00:56.720
+multiplicar para o inverso de x. Pronto,
+
+1:00:55.160,1:00:58.400
+e que o inverso de x passa aqui para
+
+1:00:56.720,1:01:02.520
+dentro, portanto é igual ao que temos
+
+1:00:58.400,1:01:05.359
+aqui. OK? Aqui simplesmente deu no outro
+
+1:01:02.520,1:01:08.079
+formato, deu o seno de x aqui. É o mesmo
+
+1:01:05.359,1:01:10.760
+que puxar o inverso de x aqui para fora.
+
+1:01:08.079,1:01:13.920
+Pronto, mas está correto. Log x cossente
+
+1:01:10.760,1:01:17.200
+x. Sim, senhora.
+
+1:01:13.920,1:01:19.599
+Eh, o Fromalfa é realmente uma
+
+1:01:17.200,1:01:24.119
+ferramenta poderosíssima.
+
+1:01:19.599,1:01:26.039
+Ora bem, h, e também tem o Geogebra, mas
+
+1:01:24.119,1:01:28.880
+o Geogebra não sei para coisas assim tão
+
+1:01:26.039,1:01:30.200
+complexas, eu não experimentei, não fui
+
+1:01:28.880,1:01:32.680
+experimentar, mas suponho que ele não é
+
+1:01:30.200,1:01:34.920
+capaz. O From Alfa é muito mais
+
+1:01:32.680,1:01:36.760
+sofisticado para isso. Aqui o importante
+
+1:01:34.920,1:01:38.960
+era chamar-vos a atenção de realmente
+
+1:01:36.760,1:01:41.559
+desta dificuldade aqui, da dificuldade
+
+1:01:38.960,1:01:43.319
+do da da potência exponencial. Nem é
+
+1:01:41.559,1:01:46.280
+potência, nem é exponencial. é um
+
+1:01:43.319,1:01:48.480
+híbrido, OK? E aí mostrar-vos como há
+
+1:01:46.280,1:01:50.079
+que ter esse este cuidado, há que
+
+1:01:48.480,1:01:51.359
+aplicar algum tipo de transformação
+
+1:01:50.079,1:01:55.799
+porque senão não não conseguimos
+
+1:01:51.359,1:01:55.799
+derivar. OK?
+
+1:01:57.000,1:02:02.319
+Vamos calcular agora também outra
+
+1:01:59.839,1:02:05.760
+derivada parecida no fundo que é o é o é
+
+1:02:02.319,1:02:09.160
+o é o o protótipo da da da potência
+
+1:02:05.760,1:02:12.240
+exponencial é o x e elevado a x.
+
+1:02:09.160,1:02:15.119
+Pronto, até devíamos ter devíamos ter
+
+1:02:12.240,1:02:17.119
+começado por esta, mas pronto. Eh,
+
+1:02:15.119,1:02:20.079
+portanto, este é o protótipo. Este é a
+
+1:02:17.119,1:02:21.520
+potência exponencial purura.
+
+1:02:20.079,1:02:23.880
+Ora, então, como vamos derivar? Vamos
+
+1:02:21.520,1:02:26.359
+aplicar a mesma técnica. Eu não sei
+
+1:02:23.880,1:02:29.760
+derivar.
+
+1:02:26.359,1:02:33.920
+Eh, mas então vou dizer, OK, então seja
+
+1:02:29.760,1:02:39.440
+y = x elevado x,
+
+1:02:33.920,1:02:43.520
+caso em que logaritmo de y é igual a x
+
+1:02:39.440,1:02:47.000
+logaritmo de x. Pronto. E agora aplico a
+
+1:02:43.520,1:02:50.279
+mesma regra. Eu vou derivar em ordem x.
+
+1:02:47.000,1:02:53.279
+Aqui fica 1 sobre y
+
+1:02:50.279,1:02:53.279
+dx.
+
+1:02:55.720,1:03:01.680
+E aqui temos o produto derivada da
+
+1:02:57.480,1:03:05.359
+primeira que é 1 vezes a segunda
+
+1:03:01.680,1:03:08.200
+mais derivada da segunda vez a primeira.
+
+1:03:05.359,1:03:11.400
+derivada da segunda.
+
+1:03:08.200,1:03:16.319
+Pronto, o y praça passa para este lado.
+
+1:03:11.400,1:03:16.319
+E então, finalmente, temos que o dy dx
+
+1:03:16.640,1:03:22.720
+é igual ao y a x elevado a x
+
+1:03:20.880,1:03:27.400
+parênteses.
+
+1:03:22.720,1:03:29.400
+E aqui temos 1 + logaritmo de x. 1 +
+
+1:03:27.400,1:03:31.279
+logaritmo
+
+1:03:29.400,1:03:32.720
+de x.
+
+1:03:31.279,1:03:35.920
+OK.
+
+1:03:32.720,1:03:35.920
+Sim, senhor.
+
+1:03:41.969,1:03:49.640
+[roncando] Ora, queremos H,
+
+1:03:44.559,1:03:54.240
+temos aqui esta função y = x² + x
+
+1:03:49.640,1:03:55.760
+e eu quero a derivada da função inversa,
+
+1:03:54.240,1:03:57.680
+OK?
+
+1:03:55.760,1:03:59.599
+Portanto, a derivada da função inversa
+
+1:03:57.680,1:04:01.440
+eu teria que explicitar em ordem x. Se
+
+1:03:59.599,1:04:05.520
+eu conseguir explicitar em ordem x, eu
+
+1:04:01.440,1:04:10.079
+obtenho. Só que só que eu não consigo,
+
+1:04:05.520,1:04:11.440
+não consigo obter x = a, OK? Não
+
+1:04:10.079,1:04:13.920
+consigo. Seria uma equação do segundo
+
+1:04:11.440,1:04:17.000
+grau em x. Se calhar até se poderia, mas
+
+1:04:13.920,1:04:19.279
+pronto, não é simples.
+
+1:04:17.000,1:04:23.680
+Pela técnica da derivada da função
+
+1:04:19.279,1:04:26.599
+inversa, se eu derivar aqui d y dx
+
+1:04:23.680,1:04:28.920
+dá-me 2x + 1.
+
+1:04:26.599,1:04:31.440
+A derivada da função inversa será 1
+
+1:04:28.920,1:04:37.440
+sobre 2x + 1. Agora troco troco aqui a
+
+1:04:31.440,1:04:38.680
+simbologia. Será d/ dx = 1 sobre 2y + 1.
+
+1:04:37.440,1:04:40.720
+Mas eu agora que o quê? Eu quero
+
+1:04:38.680,1:04:42.720
+exprimir a derivada da função inversa em
+
+1:04:40.720,1:04:45.400
+termos de x.
+
+1:04:42.720,1:04:48.279
+E eu tenho aqui em termos de y.
+
+1:04:45.400,1:04:50.079
+OK? Pronto. Portanto, também não
+
+1:04:48.279,1:04:52.440
+consigo.
+
+1:04:50.079,1:04:54.200
+Não consigo porque nós conseguimos
+
+1:04:52.440,1:04:56.039
+noutros casos, por exemplo, no seno e no
+
+1:04:54.200,1:04:58.760
+arco seno, nós conseguimos porque nós
+
+1:04:56.039,1:05:01.720
+quando tínhamos a função inversa,
+
+1:04:58.760,1:05:04.799
+quando eu considerava, eu dizia: "OK,
+
+1:05:01.720,1:05:07.775
+agora o que é que é o y?" O y é o meu
+
+1:05:04.799,1:05:07.880
+arco seno. OK?
+
+1:05:07.775,1:05:11.359
+[roncando]
+
+1:05:07.880,1:05:12.799
+E eu e eu conseguia eu conseguia
+
+1:05:11.359,1:05:14.319
+entender o que é que era o y e
+
+1:05:12.799,1:05:16.760
+representava no triângulo retângulo, se
+
+1:05:14.319,1:05:18.319
+vocês se lembram, e depois a partir a
+
+1:05:16.760,1:05:19.760
+partir daí calcular o cosseno desse
+
+1:05:18.319,1:05:22.079
+ângulo, etc, etc, etc. Mas aqui não
+
+1:05:19.760,1:05:24.599
+consigo fazer nada porque aqui dá uma
+
+1:05:22.079,1:05:26.760
+expressão. Pronto, aqui entrávamos na
+
+1:05:24.599,1:05:29.359
+nova numa nova área de matemática que é
+
+1:05:26.760,1:05:31.160
+da teoria das equações diferenciais,
+
+1:05:29.359,1:05:33.839
+OK? Bastante avançada, que ainda estamos
+
+1:05:31.160,1:05:35.359
+bem longe de de lá chegar. Pronto,
+
+1:05:33.839,1:05:37.559
+existência. Então isto seria uma equação
+
+1:05:35.359,1:05:39.160
+diferencial. qualquer equação que
+
+1:05:37.559,1:05:40.799
+envolve a própria função e as suas
+
+1:05:39.160,1:05:42.279
+derivadas é uma equação diferencial.
+
+1:05:40.799,1:05:44.400
+Portanto, como não demos, não vamos
+
+1:05:42.279,1:05:48.480
+aqui, não vamos avançar mais. Portanto,
+
+1:05:44.400,1:05:51.160
+então vamos resolver pela e a derivada
+
+1:05:48.480,1:05:53.279
+da da função inversa
+
+1:05:51.160,1:05:54.640
+desta função y, eu não quero a derivada
+
+1:05:53.279,1:05:59.200
+de y, eu quero a derivada da função
+
+1:05:54.640,1:06:01.279
+inversa. Vamos resolver pel diferencial,
+
+1:05:59.200,1:06:03.400
+que já vimos e é bom até para consolidar
+
+1:06:01.279,1:06:06.440
+aqui as ideias do diferencial. Portanto,
+
+1:06:03.400,1:06:09.319
+no diferencial, consideramos que que
+
+1:06:06.440,1:06:12.319
+existe uma determinada função fictícia,
+
+1:06:09.319,1:06:14.760
+que é uma função de x e de y
+
+1:06:12.319,1:06:16.279
+igual a, normalmente igual a uma
+
+1:06:14.760,1:06:18.920
+constante,
+
+1:06:16.279,1:06:20.240
+OK? ou pode ser igual a zero, vai dar o
+
+1:06:18.920,1:06:22.279
+mesmo se eu puxar a constante para este
+
+1:06:20.240,1:06:27.319
+lado. Pronto. Então, neste caso, eu
+
+1:06:22.279,1:06:27.319
+considero que 6 f(xy)
+
+1:06:27.520,1:06:32.039
+igual, olhando aqui para a equação,
+
+1:06:29.359,1:06:37.680
+igual a y -
+
+1:06:32.039,1:06:39.160
+x² + x. Pronto. E agora igualou a zero.
+
+1:06:37.680,1:06:41.400
+Pronto, aqui tenho a minha função
+
+1:06:39.160,1:06:44.400
+implícita.
+
+1:06:41.400,1:06:44.400
+Eh,
+
+1:06:44.559,1:06:49.160
+é uma função implícita porque porque eu
+
+1:06:46.480,1:06:51.880
+posso é implícita em y x, depende do que
+
+1:06:49.160,1:06:56.160
+do do que eu queira explicitar.
+
+1:06:51.880,1:06:58.279
+OK? Agora vamos calcular o diferencial,
+
+1:06:56.160,1:06:59.799
+OK?
+
+1:06:58.279,1:07:02.400
+eh
+
+1:06:59.799,1:07:04.520
+o diferencial exato.
+
+1:07:02.400,1:07:09.440
+Então, o diferencial exato trata-se de
+
+1:07:04.520,1:07:11.039
+eu pego aqui na na expressão e derivo em
+
+1:07:09.440,1:07:13.000
+ordem a uma variável, considerando a
+
+1:07:11.039,1:07:14.960
+outra constante
+
+1:07:13.000,1:07:16.160
+e depois em ordem a outra variável,
+
+1:07:14.960,1:07:17.760
+considerando a outra constante.
+
+1:07:16.160,1:07:20.079
+Portanto, vamos derivar primeiro em
+
+1:07:17.760,1:07:21.880
+ordem
+
+1:07:20.079,1:07:25.559
+pode ser
+
+1:07:21.880,1:07:27.240
+em ordem a a x, considerando y
+
+1:07:25.559,1:07:28.680
+constante.
+
+1:07:27.240,1:07:31.039
+Portanto, se y é constante aqui, a
+
+1:07:28.680,1:07:34.640
+derivada de y em ordem x é 0, não conta.
+
+1:07:31.039,1:07:37.440
+E, portanto, fica - 2x
+
+1:07:34.640,1:07:41.319
++ 1. Estou a derivar em ordem x,
+
+1:07:37.440,1:07:41.319
+considerando y constante,
+
+1:07:41.480,1:07:49.079
+e depois multiplico por dx. Mais
+
+1:07:46.039,1:07:51.960
+mais agora a derivada em ordem e y
+
+1:07:49.079,1:07:53.960
+considerando x constante. Aqui x
+
+1:07:51.960,1:07:56.720
+constante a derivada de uma constante é
+
+1:07:53.960,1:08:02.599
+zero em ordem y derivada de y em ordem y
+
+1:07:56.720,1:08:02.599
+é 1. Portanto, dá 1 x
+
+1:08:02.720,1:08:08.400
+igual a 0. Pronto. E aqui temos o
+
+1:08:05.599,1:08:10.200
+diferencial. O diferencial exato. Sim,
+
+1:08:08.400,1:08:12.240
+senhora.
+
+1:08:10.200,1:08:16.159
+H,
+
+1:08:12.240,1:08:19.480
+o diferencial. Exato. Agora aqui, se eu
+
+1:08:16.159,1:08:22.480
+explicitar em ordem eh
+
+1:08:19.480,1:08:22.480
+dx,
+
+1:08:23.560,1:08:26.560
+OK?
+
+1:08:29.359,1:08:34.920
+Ora, enganei-me aqui, desculpem lá.
+
+1:08:33.040,1:08:39.040
+Portanto, isto quando passa tudo para
+
+1:08:34.920,1:08:42.040
+este lado, y - x² - x.
+
+1:08:39.040,1:08:42.040
+OK?
+
+1:08:44.279,1:08:48.359
+Sim, senhora.
+
+1:08:46.040,1:08:50.960
+- x
+
+1:08:48.359,1:08:53.839
+e, portanto, aqui - 2x. Agora sim.
+
+1:08:50.960,1:08:55.759
+Pronto. E agora?
+
+1:08:53.839,1:08:57.520
+Hum.
+
+1:08:55.759,1:09:01.520
+Sim, senhor.
+
+1:08:57.520,1:09:04.640
+A derivada d y dx.
+
+1:09:01.520,1:09:06.719
+Pois vai dar
+
+1:09:04.640,1:09:09.239
+2x + 1. Tá correto? Isto passa para este
+
+1:09:06.719,1:09:11.679
+lado, dx passa para baixo. E a derivada
+
+1:09:09.239,1:09:14.239
+da função inversa
+
+1:09:11.679,1:09:17.920
+dx dy.
+
+1:09:14.239,1:09:21.359
+E agora já tá expresso em termos de x,
+
+1:09:17.920,1:09:22.839
+já não tá expresso em termos de y.
+
+1:09:21.359,1:09:26.359
+OK?
+
+1:09:22.839,1:09:30.679
+Portanto, h,
+
+1:09:26.359,1:09:30.679
+ora, dy
+
+1:09:32.440,1:09:36.520
+= 2x + 1
+
+1:09:37.159,1:09:43.960
+dx,
+
+1:09:40.040,1:09:43.960
+portanto dx dy
+
+1:09:51.199,1:09:55.480
+a derivada da função inversa
+
+1:09:58.520,1:10:03.000
+é igual a 1/ 2x + 1.
+
+1:10:11.440,1:10:15.560
+Ora, eu decidi ficar por aqui. Já chega.
+
+1:10:14.080,1:10:17.120
+tentava fazer aqui uma bateria de
+
+1:10:15.560,1:10:20.239
+derivadas
+
+1:10:17.120,1:10:22.080
+eh sofisticadas, mas eh pronto, isto
+
+1:10:20.239,1:10:24.080
+também depois faz prolongar muito o
+
+1:10:22.080,1:10:25.600
+tutorial.
+
+1:10:24.080,1:10:30.440
+Eh, e também não é bem o âmbito, já vos
+
+1:10:25.600,1:10:33.800
+expliquei o âmbito de da minha playlist,
+
+1:10:30.440,1:10:36.360
+OK? Não, não é
+
+1:10:33.800,1:10:38.760
+não é estar a trabalhar intensivamente
+
+1:10:36.360,1:10:40.920
+construir baterias. Há há outros há
+
+1:10:38.760,1:10:43.600
+outros eh outras playlists na internet
+
+1:10:40.920,1:10:45.239
+que se encontra que fazem com com que
+
+1:10:43.600,1:10:47.560
+encontra-se com facilidade, que que
+
+1:10:45.239,1:10:51.040
+trabalham nessa área,
+
+1:10:47.560,1:10:53.120
+fazem maratonas de calcular as centenas
+
+1:10:51.040,1:10:54.840
+de derivadas.
+
+1:10:53.120,1:10:56.360
+Pronto, mas não é bem o âmbito da minha
+
+1:10:54.840,1:10:59.600
+playlist, portanto eu vou vou parar por
+
+1:10:56.360,1:11:02.880
+aqui. OK? até já me estiquei um bocado.
+
+1:10:59.600,1:11:05.560
+Pronto, a ideia é da minha paista é mais
+
+1:11:02.880,1:11:08.360
+sintetizar as as formas fundamentais, as
+
+1:11:05.560,1:11:10.199
+sintetizar a teoria, tentar dar um
+
+1:11:08.360,1:11:11.719
+enquadramento para para a teoria, o
+
+1:11:10.199,1:11:14.280
+porquê das coisas e como é que as coisas
+
+1:11:11.719,1:11:16.080
+vão derivando de umas para as outras.
+
+1:11:14.280,1:11:18.679
+Sim, senhor.
+
+1:11:16.080,1:11:23.239
+Ficamos por aqui. Espero que tenham
+
+1:11:18.679,1:11:23.239
+gostado e até uma próxima oportunidade.
+
+

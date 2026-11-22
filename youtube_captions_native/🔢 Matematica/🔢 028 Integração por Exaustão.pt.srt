@@ -1,0 +1,682 @@
+
+Ora, sejam bem-vindos então a mais um
+tutorial. Portanto, hoje vamos tratar do
+tema integração para exaustão, que foi
+abordado no tutorial anterior.
+calculamos uma área debaixo de uma curva
+usando o integral e dissemos que, bom,
+se nós não conhecêssemos, não
+soubéssemos integrar ou se não
+conseguirmos integrar, poderemos tentar
+calcular pelo método de exaustão, que
+não é mais do que calcular manualmente
+aqui um somatório, em vez de uma
+integração, como estamos aqui a ver
+nesta fórmula.
+Este integral, no fundo, ele vai ser
+igual a a um somatório
+em que eu divido em n fatias
+retangulares.
+E, portanto, se for no intervalo entre a
+e b, pois a largura o h, a largura da
+catafatia, pois b - a sobre n, tá
+correto? que faz sentido
+e
+e portanto e o valor da altura de cada
+fatia que é que é dada aqui. Ora esta
+forma é conhecida muitas vezes por
+reman em inglês.
+OK.
+Ora,
+OK.
+Ora, acho que é com dois zeros no fim,
+salvo erro.
+Sim, senhor. OK. Portanto, não há dúvida
+nenhuma que fazer aqui um gráfico,
+OK?
+Não há dúvida nenhuma que entre A e B,
+vamos considerar a
+A e B,
+que é uma função,
+OK? f(x)
+entre A e B.
+OK? Queremos calcular esta área.
+Portanto, o que é que nós vamos fazer?
+Vamos fazer, OK? dividir
+este dividir este intervalo em n fatias
+n fatias
+portanto então a largura de cada
+intervalo,
+vamos dizer o dx a largura de cada
+intervalo, pois em n fatias será p - a
+sobre n.
+Sim, senhor. Faz sentido.
+Pronto. E agora para cada um desses
+intervalos, vamos considerar aqui um
+pequeno intervalo,
+OK?
+Portanto, este intervalo [roncando] eh
+vamos considerar qual é a altura dele.
+Bom, eh posso medir por aqui, posso
+medir por aqui esta altura.
+OK?
+Eh, sim, senhora. Portanto, se eu tiver
+aqui um um determinado ponto x0,
+ou posso medir por aqui, logo aqui em
+cima, logo aqui a seguir, ou posso medir
+pela altura de f(x0) + h.
+OK? Pronto. No limite, quando o n tende
+para infinito, estas alturas depois
+ficam iguais, OK? Fica de largura
+infinito decimal, portanto tanto faz.
+Portanto, isso mostra que aqui nesta
+forma de riman sum aqui tenho um
+somatório i = a 0 até n - 1, ou seja,
+são n fatias. Isso sim tem que estar
+correto, tem que ser n fatias. Estas n
+fatias aqui tem que bater certo com este
+n, que é o tamanho da fatia. E aqui
+também tem que bater certo aqui
+aqui este n porque temos para i = a 0
+vemos que isto dá zero e a primeira
+fatia é f de a. Portanto, aqui estamos a
+contabilizar com as alturas aqui à
+esquerda.
+Se mas é é exato. Tem que dar exatamente
+a mesma coisa se eu considerar.
+Portanto, i
+varia
+de de de 0 a n,
+de 0 a n - 1,
+OK? Tem que ser igual a se eu fizer o
+somatório com i a variar de 1 a n. OK? É
+exatamente a mesma coisa. Em ambos os
+casos tenho n fatias. [roncando]
+A única diferença que aqui contabilizo
+com o valor da função do lado esquerdo
+de cada fatia e aqui do lado direito de
+cada fatia. Podemos ver que se eu
+começar aqui com i = 1,
+então a primeira fatia aqui é calculada.
+Ora com i = 1 no valor a mais
+o primeiro pedacinho, o primeiro dx.
+Portanto, é calculada à direita. Pronto.
+OK. Pronto, isto é importante a reter
+porque consoante nos der mais jeito,
+podemos usar aqui o somatório com com 0
+n - 1 ou podemos usar de 1 a n. É, vai
+dar, tem que dar exatamente a mesma
+coisa no limite quando o n tende para
+infinito, OK? São vão ser ambas
+aproximações, OK? [roncando] Pronto. Eh,
+também eu falei um bocadinho de cálculo
+numéico no no outro tutorial. e falei
+que havia métodos de otimização. Agora,
+portanto, imaginem que eu ia pôr isto
+num computador e realmente calcular as
+fatias. Pronto. Aí sim. Antigamente
+havia métodos de otimizar em que se
+calhar eh em vez de usar aqui o o valor
+de de de f de de x0 ou de x0 + h, se
+calhar era usada a média, se calhar
+seria usada aqui a média e dizer: "Bom,
+é mais eficaz, é mais preciso calcular
+aqui a a a média, ou que seja nem à
+direita, nem à esquerda, mas aqui no
+meio." Pronto, isso são preciosismos da
+da de cálculo numérico. para já não
+vamos entrar nisso e portanto isso não
+para já não interessa ou chega-se a um
+computador e com facilidade se se faz
+este cálculo. OK? Pronto. [roncando]
+Eh, portanto, eu agora, consoante a
+função, consoante a complexidade da
+função, eu posso também não ser não ser
+capaz de simplificar esta expressão. E
+então eu chego ao computador, chego ao
+computador e ponho ele a fazer um
+somatório eh
+um somatório destes com a maior das
+facilidades e eu faço o cálculo, pronto.
+E calcula-me uma área. Pronto. Mas por
+vezes é é possível é conseguirmos
+calcular este limite, este limite que
+aqui está, porque o a área é o o é o
+limite, é o cálculo do somatório, mas
+num limite quando n o número de fatias
+tende para infinito. É claro que num
+computador não vamos pôr infinitas
+fatias. Vamos fazer uma aproximação,
+colocamos 1000 fatias, colocamos o que
+for. Eh, normalmente podemos considerar
+1000 fatias, depois podemos considerar
+10.000 fatias e e depois avaliamos
+o se houve um uma uma grande diferença
+no resultado ou não. Enfim, isso é como
+digo, poois, há vários há vários tipos
+de critérios para para avaliar e para
+para tratar disso, mas isso já entramos
+na área de computação que não interessa
+agora aqui. Ora bem, então agora vamos
+calcular um exemplo concreto. Vamos
+fazer aqui um exemplo. Pronto, porque
+claro, é a complexidade dependerá agora
+de cada função específica. Pronto. Então
+vamos fazer calcular aqui um exemplo.
+Vamos calcular uma integração por
+exaustão. Faz de conta que eu não sabia
+integrar, não sabia derivar, não sabia
+nada disso. Pronto. Então diziam-me
+assim: "Olha, calcula a área. Eu quero
+que me calcules a área,
+portanto, entre 0 e l, entre 0 e l da
+função x². Pronto, a área debaixo da
+parábola.
+Pronto, estou a usar esta nomenclatura
+moderna para se entender o que se está a
+pedir, mas pronto, imaginemos que isto
+alguros no passado e que nem não sabia
+nada sobre integrais, portanto isto era
+era o o enunciado era dado textualmente.
+Calcula uma área debaixo da função entre
+0 e l. Pronto. Então, naturalmente,
+olhando aqui para a forma do somatório,
+pois isto ficará um somatório.
+OK? Agora vou usar a convenção do i
+entre um e n. Parece mais mais simples,
+mais usar friendly entre um e n. Pronto.
+E agora vou considerar aqui o quê? Bom,
+o que é que nós temos aqui? O tamanho da
+fatia b - a sobre n. Neste caso, como é
+entre 0 e l, l - 0 sobre n. Portanto,
+cada fatia tem a largura l sobre n.
+E atenção, isto tem que ser o limite
+limite quando o n tende a infinito do
+este somatório.
+Ora, l e agora o valor da função x²
+e portanto o valor vai ser qualquer
+coisa aqui ao quadrado garantidamente
+e de quê? De ff dex + ora b/ a sobre n é
+o tamanho da fatia. Portanto, a fatia
+tem largura LN, portanto é ln x i.
+Portanto, aqui será, portanto, de
+ora,
+o valor de f de f de x, portanto, o x,
+ah, ok. É o é o a, mas o a é zero,
+portanto o a é zer. OK.
+Neste caso, neste caso específico, eu
+fiz assim para simplificar, para ser
+mais fácil. Portanto, o A é 0. Portanto,
+0 mais
+o B é igual ao L. Portanto, L
+sobre N X I. Pronto.
+L
+sobre N X I. Pronto. Este é o o meu X².
+Pronto. E já tenho o f(x)².
+OK? Neste caso específico em que o A é
+zero, que é mais simples neste integral
+entre 0 e l.
+Ora, portanto, vai-me ficar aqui um
+limite,
+um limite. E agora o que é que vou ter
+aqui? L quadrado com L. É L cu. Isto
+isto é uma constante. Posso passar aqui
+para fora. OK.
+E o o N também é o N também é uma
+constante,
+é um determinado n. Portanto, n qu
+também n cubo. OK? A mesma coisa passa
+aqui. N c. E a única coisa que varia é o
+i.
+É o i varia de 1 é n de i quad que i ao
+quadrado. OK? Mas isto já nós sabemos
+calcular a expressão do somatório de i
+quadrado. Nós vimos isto quando tratamos
+dos somatórios da propriedade
+telescópica, OK? E dos somatórios das
+das progressões aritméticas, etc, etc.
+Portanto, nós vimos tudo isso e na
+altura deduzimos a fórmula, se se bem me
+lembro, acho que deduzimos. E, portanto,
+isto fica o limite,
+o limite
+quando o n tende a infinito. E aqui
+tenho l³
+sobre n³. E este somatório, portanto,
+nós vimos qual era a forma.
+Vimos que a forma era n
++ 1,
+2n + 1, se não se recordam, pois vão
+ver, vão ver o vão procurar esse
+tutorial
+sobre, acho que é o da propriedade
+telescópica, salvo o erro,
+vão procurar a estrutura ou vejam na
+internet qual a forma ou vejam, pronto,
+relembrem essa matéria como se calcula a
+forma para calcular o um somatório de i
+quadrado.
+OK? Lembrem, lembrem-se que a forma do
+somatório de ira
+igual a n + 1
+sobre 2, OK? Um polinómio do segundo
+grau em nma de i quadrado é um polinómio
+do terceiro grau em n. Portanto, isto
+foi tudo. Eu falei sobre todos esses
+temas e o grau do polinómio vai sempre
+subindo. Um somatório de i cubo, pois
+será um polinómio de grau 4. Pronto.
+Então agora aqui o que é que nós vamos
+ter? Eu vou expandir esta expressão, OK?
+Eu vou expandir,
+OK? Mas não preciso de expandir tudo.
+Ah, vamos sair porquê?
+L c.
+Portanto, ao expandir esta expressão, dá
+um polinómio do do deg de grau 3 em n em
+em em n. Fica. Reparem que aqui o n cubo
+fica 2n³
+2n³
+sobre 6. Pronto. E agora a seguir não
+preciso de expandir o resto, não me
+interessa. Vai dar um determinado a
+N²
+mais um determinado B N mais uma
+constante qualquer C eventualmente e
+algum deles poderá ser zero. Pronto, não
+me interessa. Vão, já vão ver que não
+precisamos, não preciso de calcular
+tudo. Só preciso saber que é um
+polinómio do terceiro grau e preciso
+saber aqui o termo aqui do do de n cubo.
+Pronto. Porquê? Porque agora este n cubo
+ao passar aqui para dentro
+fica efetivamente n cubo.
+OK? ao passar aqui para dentro aqui a
+dividir por n cubo
+a dividir por n cubo e a dividir por n
+cubo e efetivamente o limite quando o n
+tende para infinito, pois aqui
+claramente que dá zero.
+N² corta fica n no denominador n tendo
+para infinito, isto tende para zero.
+Portanto aqui não, aqui não há
+indeterminação nenhuma. Aqui é direto
+que tende para ser a única
+indeterminação é que é aqui infinito
+sobre infinito, mas n³ corta com n³ e dá
+2/6 é 1/3. E portanto este limite, como
+vem é fácil de calcular e dá L³
+ter
+l. Pronto. E aqui está como calculamos a
+área debaixo da parábola pelo método de
+da de integração por exaustão,
+consumatórios, mas como viram é bastante
+trabalhoso. Temos que ter temos que
+conhecer neste caso, temos tínhamos que
+conhecer as estas formas aqui do do
+somatório. Depois temos que conhecer a
+teoria de limites, etc, etc. Portanto, é
+bastante trabalhoso. Enquanto que, se
+recordam,
+pois estes estes reistos era
+simplesmente igual a integrando e a
+primitiva de x² que era x c3,
+OK? Entre 0 e l
+e portanto ficava l terç
+o 0 cubo o 0/3.
+Portanto, fica com ter.
+OK? Pronto. E é assim. Ainda não não
+vamos fazer mais exercícios e sobre
+isto. Isto foi só um exemplo. Isto é
+pouco pouco usado. É pouco é pouco
+usado, obviamente, porque
+também já hoje em linguagens de
+programação eh existem em em funções que
+já fazem integração
+em em termos de cálculo numérico, ou
+seja, nós já nem sequer precisamos de
+andar lá a programar o somatório. E eu
+só dei isso em termos didáticos. Pode
+ser interessante às vezes alguém fazer
+um programa desses, mas na prática
+ninguém faz isso. Existem existem em
+linguagens de programação já eh
+livrarias que já têm tudo isso embutido
+[roncando] eh para fazer derivação
+numérica, integração numérica, etc, etc.
+Já não é preciso programar nada, já está
+tudo feito. OK?
+H,
+vamos ver agora aqui um outro problema
+também muito interessante,
+OK? que é o é o é o o contrário o
+contrário do que acabamos de fazer aqui.
+Ou seja, eu aqui disse assim: "Bom, eu
+tenho um integral, eu não consigo, não
+sei calcular o integral por hipótese,
+então em vez de calcular o integral,
+eu expando em função de um somatório,
+que será sempre um limite,
+um limite de um somatório com infinitos
+termos. Pronto, a ver se eu consigo
+calcular e consegui. Neste caso
+concreto, temos um exemplo e eu
+fiz,
+consegui calcular aqui o somatório, o
+limite do somatório quando o número de
+termos de termos tende para infinito e
+consegui calcular. Pronto. Então parti
+do integral para o somatório. Pronto.
+Agora também pode acontecer o oposto,
+que é o que vamos ver agora. O oposto é
+o seguinte. ser é me dado um somatório
+é me dado um somatório
+com infinitos termos.
+OK? Porque porque o somatório tem que
+ser tem que ter sempre infinitos termos,
+OK? E então assim,
+porque esta forma o que relaciona é um
+somatório com infinitos termos
+tem uma equivalência para um integral.
+OK? Pronto. Então agora aqui é o
+contrário. Alguém me dava um somatório
+com infinitos termos. OK?
+Vamos dizer assim: "Olha, eu tens aqui
+este somatório.
+Eu quero calcules, olha, 1
+sobre 1 + n
++ 1
+sobre 2 + n.
+mais
+e a última parcela 1
+sobre n + n. OK? Portanto, quantas
+parcelas temos aqui? N parcelas.
+N parcelas. Tá correto? Tá tá tá de
+acordo com
+tá de acordo. N parcelas.
+Então eu quero este somatório. Isto aqui
+é um somatório, mas eu quero estudar o
+limite quando n tende para infinito. OK?
+Então estamos a reunir todos os todos os
+requisitos para poder transformar isto
+num integral.
+Tenho que ter um somatório
+com o número de parcelas tende para para
+infinito.
+N parcelas.
+OK?
+Eh, sim, senhora. Então, transformar
+isto num integral
+poderia aparecer assim, poderia
+aparecer. Ah, bom, então, mas é tendo
+para infinito aqui. Aqui tendo para
+zero. Sim, é verdade. Quando cada um
+destes termos tendo para zero, 0 + 0 + 0
++ 0 + 0 = 0. Não errado. Porque são
+infinitos termos, são infinitésimos,
+cada um deles tendo para zero. Mas e pá,
+mas como é que eu vou somar infinitos,
+um somatório de infinito, infinitos
+infinitésimos fica uma indeterminação.
+Portanto, OK. Então, portanto, não pode
+não posso dizer que isto é igual a zero.
+Seria um erro grosseiro.
+OK? Vamos ter vamos ter que calcular.
+Pronto. Então, o que é que nós vamos ter
+que fazer aqui? Tentar arranjar aqui.
+Agora vamos, portanto, ao contrário,
+agora vamos tentar arranjar qual o
+integral
+e qual o intervalo. Eu preciso saber
+qual é o integral.
+X varia de A a b. Preciso saber qual é a
+função, a expressão da função dx. Agora
+preciso saber isto.
+Agora preciso saber qual é o meu a, o
+meu b e qual é a expressão da função.
+OK? O que é que eu tenho aqui? Tenho um
+somatório de um limite quando o número
+de parcelas tende para infinito, tá
+correto? E tenho que obter isto aqui.
+Ora bem, então o que é que nós vamos
+fazer aqui?
+Vamos, eventualmente poderia haver aqui
+vários intervalos, constante os
+intervalos que eu que eu que eu
+escolhesse, assim determinava a função.
+OK? Eu haverá eventualmente haverá aqui
+infinitas soluções porque lembram-se
+quando eu tinha uma função e eu aplicava
+uma uma transformação de translação,
+tinha uma função perfeitamente igual,
+mas simplesmente transvadada no no
+sistema deixos, OK? E portanto um
+integral é como uma área. Portanto, se
+eu se eu transvadar a função no no
+sistema deixa em dire na direção do eixo
+dos x, o o [roncando] a área
+subordinada, pois será a mesma, OK?
+Portanto, aqui haverá infinitos valores
+possíveis que eu possa dar para a e b
+sendo que em em cada em função de cada A
+e B, eu assim resultará uma uma
+determinada expressão para f. OK? Não
+sei se isso é parece intuitivo, mas mas
+é isso. OK? Então o que eu vou fazer
+aqui é eh bom um uma situação simplista.
+Vou dizer assim, bom, seja a igual a 0,
+eu vou escolher aqui um intervalo
+qualquer,
+eh, um intervalo simplório entre olha,
+entre entre zer e 1. Pronto, mas é como
+digo, podia ser qualquer coisa, entre 1
+e 10, entre o que eu quisesse. E depois
+em função desse intervalo, tenho que
+ajustar a função. Pronto, assim escolho
+entre 0 e 1 e vou tentar encontrar a
+função que entre 0 e 1, de acordo com
+aquela com aquela forma que vimos do do
+de do somatório de RAN que me estabeleça
+aqui a correspondência. OK? Pronto.
+Então, sendo assim, eh, isto, este
+integral, de acordo com a soma de Ran,
+será o limite
+quando n tende para infinito de um
+somatório. Já sabemos quando o i varia
+de 1 a n,
+OK? Ou de 0 a n - 1, mas eu gosto mais
+de usar aqui de 1 a n. Sim, senhor.
+[roncando] OK. Vamos ter n fatia, está
+correto.
+Eh, qual é o tamanho de cada fatia? Bom,
+o intervalo entre 0 e 1 sobre n,
+portanto, o o tamanho de cada fatia, a
+largura é 1 sobre n correto. Aqui tenho
+a fatia. Sim, senhor. E agora, qual é o
+valor de de f?
+Qual é o valor agora que tá lá na soma
+de riman? Qual é o valor de f? Eu tenho
+lá f de a
+mais p - a i
+sobre n. Isto é o que eu tenho na forma
+de RAN. como a = 0 e b = 1. Portanto,
+isto fica na forma de rente, fica f de
+i sobre n. Pronto. Portanto, aqui fica
+f de
+i sobre n, que eu ainda não ainda não
+determinei qual a expressão de f, OK?
+Mas olhando aqui ao somatório,
+OK? Olhando ao somatório,
+vemos que cada um destes termos vemos
+que 1 sobre n
+f
+de i
+sobre n cada um destes termos. Portanto,
+olhando aqui, ele vai ter que ser igual
+aqui a
+1 sobre
+tem aqui um n, tem aqui um n e depois
+mais o 1 2 3 até n, portanto ou + i.
+OK? Pronto. Ok.
+Ok. E eu eu só me falta só me falta
+calcular qual será a expressão do f, que
+é o que me falta. Quando eu tiver a
+expressão do f, venho aqui ao integral e
+faço a integração. Portanto, a expressão
+do f. Então, agora o que é que eu vou
+fazer? Bom, este n passa para aqui, fica
+bom. F
+I sobre N é igual a n
+sobre n + i. Ok? Portanto, então eu já
+tenho aqui a expressão
+d f de i sobre n, mas eu não não quero f
+sobre n, eu preciso da expressão d f
+dex.
+OK? Então, seja x
+seja x = a i sobre n.
+Portanto, então fica-me que f(x)
+é igual a bom, então a que é igual o n?
+O o olhando aqui esta substituição, n é
+igual a i sobre x, portanto i
+sobre x
+e em baixo
+I sobre x
++ i.
+[roncando] OK. Pronto. Então fica
+I sobre X.
+E aqui reduzindo ao mesmo denominador i
++ IX
+sobre X.
+Ok? Pronto. E aqui posso pôr o I
+evidência
+e depois corta com aquele I lá de cima.
+Fica 1 sobre X.
+e evidência cortou. E aqui fica 1 +
+x
+sobre x. E este x aqui vai fazer corta
+corta este com este
+e portanto finalmente 1 sobre 1 + x.
+Pronto. Podem-se convencer que esta que
+é a verdadeira expressão de f(x).
+OK?
+[roncando]
+E, portanto, então agora então já tenho
+então o limite do somatório que eu
+quero. Eu quero calcular que é o
+somatório de infinito. Eu queria
+calcular aquele somatório de infinito,
+infinitos termos. E já sei que então ele
+equivale a um integral desta função.
+Portanto, aquele somatório que eu tinha
+ali com infinitos termos será o integral
+entre 0 e 1 de 1
+sobre 1 + x
+dx.
+Então, bom, ainda não ainda não demos
+aqui nenhum tutorial especial sobre
+integrações, mas pronto, mas isto é
+fácil de ver que é o logaritmo, porque
+vocês lembrem, lembrem-se que quando
+derivávamos o logaritmo, o logaritmo, a
+derivada do logaritmo de x era igual a 1
+sobre x, OK? Lembrem-se que, portanto,
+derivar o logaritmo de x
+era igual a 1 sobre x
+e derivar logaritmo
+de 1 + x,
+OK? Era era igual a 1 sobre
+1 + x vezes a derivada desta função
+composta, mas desta função composta é 1,
+portanto 1. Portanto, aqui é é fica
+assim. E, portanto, então já sabemos.
+Bom, então agora ao contrário, portanto
+integrar, primitivar esta função
+fica o logaritmo preano de 1 + x
+calculado no intervalo entre 0 e 1.
+Portanto, que vai dar o logaritmo de 2
+menos o logaritmo de 1.
+Ora, o logaritmo para dar 1, qual é o
+expoente que dá 1? É zero. Qualquer base
+elevada a zero dá 1, é zero. E,
+portanto, fica logaritmo de 2.
+Logaritmo de 2. OK?
+Isto é extraordinário.
+É extraordinário porque efetivamente
+h
+efetivamente
+vem que podemos usar isto no nos dois
+sentidos.
+um integral, posso calculá-lo como um
+limite de um somatório e o contrário, se
+me aparecer um somatório,
+poderei, mediante alguns irreiarranjos,
+transformar um um somatório de infinitas
+parcelas. Nunca se esqueçam disso. Um
+somatório de infinitas parcelas, uma
+série, acho que é o que matematicamente
+normalmente se designa por uma série.
+Então, eh, posso calcular em função de
+um integral. Foi aqui o caso, deu-me
+logaritmo de 2.
+Importante notar como o alfa consegue
+calcular isto. O alframa alfa, vejam
+aqui a expressão que nós introduzimos no
+alfa no site. Escrevemos limite quando n
+tende a infinity i e pomos do do
+somatório,
+pomos a expressão 1 sobre n + i com i
+variando de 1 a n. Ok? E vejam, vejam
+isto é realmente fabuloso. Como é que o
+RAM alfa, o Framalfa tem um podrio
+brutal a nível de matemática. OK? Não
+confiem em chats para fazer este tipo de
+coisas. da tensão.
+A tensão, embora vão ficando cada vez
+mais poderosos também, porque os as
+inteligências artificiais sabem invocar
+determinadas ferramentas, tools que para
+fazer estes cálculos, mas eh nunca se
+esqueçam que os LMs nunca foram
+inventados para isto, OK? Os LMs foram
+inventados para para a linguagem
+natural, OK? Coisas mais de ciências
+humanas. Portanto, tenham muito cuidado
+com chat CPTS, porque às vezes
+espalham-se ao comprido em problemas
+diversos de matemática. OK?
+Sim, senhora.
+Aqui temos considerações sobre aquilo
+que eu tinha dito há bocado, que era
+indiferente calcular o somatório
+entre 0 e n- 1
+ou
+entre 1 e n, OK?
+Sim, senhora.
+Eh, e pronto, aqui tá algumas
+considerações de matemática teórica, mas
+que eu não não entro. Isto é areia
+demais para a minha caminete, porque
+pronto, eu não eu não entro em temas de
+matemática pura
+e demonstração exaustiva de de de de
+formas e teoremas. OK?
+Mas mas pronto, vamos então ficar por
+aqui. Espero que isto tenha sido útil
+para vocês,
+OK? Imaginarem e perceberem que mesmo
+antes de se terem inventado os
+integrais, conseguia-se,
+conseguia-se antes de se terem inventado
+os integrais.
+Eh, esta demonstração, por exemplo, que
+fizemos aqui era bem simples. Certamente
+já se tinha inventado há muito tempo, já
+se tinha calculado qual era um somatório
+de di ao quadrado para esta forma e,
+portanto, conseguia-se calcular com este
+este método integração para exaustão.
+OK?
+E pronto, espero que tenham gostado e
+até uma próxima oportunidade.
+

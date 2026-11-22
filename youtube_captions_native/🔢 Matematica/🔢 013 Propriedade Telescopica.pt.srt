@@ -1,0 +1,2038 @@
+0:00:02.360,0:00:06.680
+Ora, sejam bem-vindos a mais um
+
+0:00:03.800,0:00:09.040
+tutorial. Hoje vai ser então dedicado à
+
+0:00:06.680,0:00:10.759
+propriedade telescópica, que nós já
+
+0:00:09.040,0:00:12.320
+vimos e já falamos e mais ou menos já
+
+0:00:10.759,0:00:15.240
+expliquei, mas vamos hoje fazer aqui
+
+0:00:12.320,0:00:18.279
+alguns exercícios mais
+
+0:00:15.240,0:00:20.320
+ver aqui n alguns temas mais avançados.
+
+0:00:18.279,0:00:23.080
+Portanto, nós
+
+0:00:20.320,0:00:26.240
+aplicamos a propriedade telescópica
+
+0:00:23.080,0:00:28.199
+para deduzir a fórmula a fórmula do
+
+0:00:26.240,0:00:32.079
+somatório,
+
+0:00:28.199,0:00:36.399
+o somatório de i, OK?
+
+0:00:32.079,0:00:36.399
+Que era igual a nn + 1
+
+0:00:37.520,0:00:42.840
+sobre 2.
+
+0:00:39.879,0:00:45.879
+Vamos agora fazer como exercício,
+
+0:00:42.840,0:00:47.559
+vamos e deduzir a fórmula do somatório
+
+0:00:45.879,0:00:49.760
+de i².
+
+0:00:47.559,0:00:52.840
+Vamos fazer como exercício,
+
+0:00:49.760,0:00:56.680
+OK? Portanto, nós vamos querer calcular
+
+0:00:52.840,0:00:58.559
+a somatório de de i dos quadrados.
+
+0:00:56.680,0:01:00.920
+Ora,
+
+0:00:58.559,0:01:02.480
+como é que nós vamos então fazer? Se se
+
+0:01:00.920,0:01:04.360
+lembram,
+
+0:01:02.480,0:01:07.759
+vamos dizer que isto é S. Vamos querer
+
+0:01:04.360,0:01:10.360
+calcular agora este S.
+
+0:01:07.759,0:01:12.360
+Eh, e então vou usando a propriedade
+
+0:01:10.360,0:01:14.680
+telescópica, tal igual como fizemos aqui
+
+0:01:12.360,0:01:17.560
+para o caso de I.
+
+0:01:14.680,0:01:23.360
+Lembram-se? No caso i pusemos i + 1².
+
+0:01:17.560,0:01:28.960
+Portanto, agora poremos i + 1 ao cubo
+
+0:01:23.360,0:01:31.799
+- i ao cubo. OK? Pronto. E, portanto,
+
+0:01:28.960,0:01:35.320
+isto aqui vai dar que,
+
+0:01:31.799,0:01:38.439
+ora, tenho que expandir o cubo. Para
+
+0:01:35.320,0:01:41.960
+expandir o cubo tem a ver com o com o o
+
+0:01:38.439,0:01:45.719
+binómio de Newton, que será
+
+0:01:41.960,0:01:47.680
+tema para um próximo tutorial, o
+
+0:01:45.719,0:01:49.920
+triângulo de Pascal e binómio de Newton.
+
+0:01:47.680,0:01:58.680
+Mas pronto, agora já que apareceu aqui o
+
+0:01:49.920,0:01:58.680
+o cubo, eh, portanto, é o i³ + eh, 3i²
+
+0:02:01.119,0:02:12.760
++ 3i + 1. Ok? E agora menos este i³,
+
+0:02:07.840,0:02:14.840
+OK? Pronto. E o i i cubo corta.
+
+0:02:12.760,0:02:16.920
+Corta.
+
+0:02:14.840,0:02:22.200
+E, portanto, eu vou eu vou até aqui
+
+0:02:16.920,0:02:25.640
+designar este como sendo o S3, que é o o
+
+0:02:22.200,0:02:27.360
+ou S2, melhor dizendo,
+
+0:02:25.640,0:02:29.640
+S2,
+
+0:02:27.360,0:02:33.360
+o somatório dos I quadrado. Aqui vou
+
+0:02:29.640,0:02:33.360
+designar aqui S1.
+
+0:02:33.599,0:02:42.800
+Eh, e portanto
+
+0:02:36.959,0:02:42.800
+nós temos aqui que isto fica
+
+0:02:45.959,0:02:54.879
+eh 3s2
+
+0:02:49.560,0:02:54.879
+3 porque é três somatórias de i² 3s2
+
+0:02:55.440,0:03:05.159
++ 3s + 1 + 3s
+
+0:03:01.400,0:03:08.920
++ 3s S1 e mais um. Isto é, deixa chegar
+
+0:03:05.159,0:03:08.920
+isto aqui um bocadinho para o lado.
+
+0:03:14.799,0:03:20.879
+Ora, e portanto o somatório de 1 é n,
+
+0:03:20.959,0:03:26.120
+OK?
+
+0:03:22.239,0:03:26.120
+E, portanto, aqui temos
+
+0:03:29.599,0:03:32.599
+OK,
+
+0:03:35.840,0:03:40.360
+OK. Desculpem, fiz aqui a jneira. Isto
+
+0:03:39.120,0:03:42.120
+aqui não é igual coisa nenhuma.
+
+0:03:40.360,0:03:44.360
+Portanto, nós queremos calcular o S2. E
+
+0:03:42.120,0:03:46.519
+agora vamos é assim aplicar a
+
+0:03:44.360,0:03:48.840
+propriedade telescópica
+
+0:03:46.519,0:03:51.640
+para que que resulte uma expressão que
+
+0:03:48.840,0:03:54.439
+me dê o S2. OK?
+
+0:03:51.640,0:03:58.560
+Pronto. Vamos sim, portanto, aplicar
+
+0:03:54.439,0:04:01.560
+aqui. Agora sim, tá correto.
+
+0:03:58.560,0:04:01.560
+Portanto,
+
+0:04:03.239,0:04:07.519
+deixa-me aqui apanhar aqui isto.
+
+0:04:13.040,0:04:17.519
+OK. Pronto, nós queremos, nós queremos,
+
+0:04:14.959,0:04:19.639
+portanto, esses dois.
+
+0:04:17.519,0:04:23.600
+E agora eu crio a propriedade
+
+0:04:19.639,0:04:26.160
+telescópica aqui com o i cubo,
+
+0:04:23.600,0:04:30.240
+simplifico
+
+0:04:26.160,0:04:30.240
+e que me dá 3s2
+
+0:04:30.680,0:04:37.840
+3s2 + 3S + certo e tínhamos visto,
+
+0:04:35.120,0:04:40.240
+reveja o meu outro tutorial
+
+0:04:37.840,0:04:43.400
+que OK, mas que isto por outro lado
+
+0:04:40.240,0:04:47.440
+também é igual a
+
+0:04:43.400,0:04:49.000
+OK. Por outro lado,
+
+0:04:47.440,0:04:51.120
+sem
+
+0:04:49.000,0:04:52.720
+sem expandir aqui o cubo, agora
+
+0:04:51.120,0:04:56.840
+aplicando a propriedade telescópica
+
+0:04:52.720,0:04:58.960
+diretamente, irá ficar o termo o o maior
+
+0:04:56.840,0:05:02.919
+de todos,
+
+0:04:58.960,0:05:04.080
+portanto n + 1³,
+
+0:05:02.919,0:05:07.400
+porque todos os outros termos
+
+0:05:04.080,0:05:10.320
+intermédios irão cortar -1.
+
+0:05:07.400,0:05:12.360
+OK? Pronto.
+
+0:05:10.320,0:05:14.720
+E e portanto isto tem que ser igual a
+
+0:05:12.360,0:05:18.000
+isto.
+
+0:05:14.720,0:05:20.400
+E, portanto, aqui isto
+
+0:05:18.000,0:05:22.319
+tem que ser igual.
+
+0:05:20.400,0:05:26.400
+Pronto. E é agora daqui que resolvemos a
+
+0:05:22.319,0:05:26.400
+equação em ordem S2.
+
+0:05:26.440,0:05:33.919
+Ora,
+
+0:05:29.440,0:05:38.919
+sim, senhora. Portanto, isto vai ficar,
+
+0:05:33.919,0:05:42.160
+ora, vamos expandir aqui, n³
+
+0:05:38.919,0:05:42.160
++ 3n²
+
+0:05:42.479,0:05:48.560
++ 3n + 1 - 1
+
+0:05:48.600,0:05:56.280
+é igual a 3 s2 + 3s1. E agora s1, vamos
+
+0:05:54.319,0:06:00.319
+usar a forma nossa conhecida. Portanto,
+
+0:05:56.280,0:06:03.560
++ 3 S1 N
+
+0:06:00.319,0:06:03.560
++ 1
+
+0:06:03.639,0:06:09.400
+sobre 2
+
+0:06:05.720,0:06:11.360
+e mais n. Sim, senhora.
+
+0:06:09.400,0:06:14.319
+Ora, corta,
+
+0:06:11.360,0:06:16.919
+corta.
+
+0:06:14.319,0:06:20.520
+Ora,
+
+0:06:16.919,0:06:22.919
+posso dividir aqui tudo por três.
+
+0:06:20.520,0:06:24.840
+Três.
+
+0:06:22.919,0:06:27.360
+Corta.
+
+0:06:24.840,0:06:27.360
+Corta.
+
+0:06:29.360,0:06:35.960
+Aqui fica dividir por três. Aqui corta.
+
+0:06:32.400,0:06:38.880
+Corta. OK. E portanto agora é explícito
+
+0:06:35.960,0:06:40.919
+o S2. S2
+
+0:06:38.880,0:06:42.479
+é igual a
+
+0:06:40.919,0:06:45.479
+n³
+
+0:06:42.479,0:06:45.479
+ter
+
+0:06:45.680,0:06:48.919
++ n²
+
+0:06:48.960,0:06:58.680
++ n² + n.
+
+0:06:52.759,0:06:58.680
+Ok. E agora aqui vai ter - n²/
+
+0:07:01.560,0:07:04.919
+- n/
+
+0:07:05.759,0:07:09.120
+- n/3.
+
+0:07:09.280,0:07:16.800
+Ok? Verê se não me enganei. Ok.
+
+0:07:13.160,0:07:21.160
+Ora, portanto, fica ora n² - n². Isto
+
+0:07:16.800,0:07:21.160
+vai dar n³/3
+
+0:07:21.759,0:07:25.599
++ n²/
+
+0:07:26.440,0:07:34.960
+e agora n - n/2 dá n/2 - n/3.
+
+0:07:32.199,0:07:38.360
+Ora que vai dar n
+
+0:07:34.960,0:07:40.319
+se eu não me enganei. Portanto, aqui n -
+
+0:07:38.360,0:07:45.280
+n ter
+
+0:07:40.319,0:07:45.280
+3 - 2 1 3 x 2 6 n
+
+0:07:46.240,0:07:50.599
+seos. Agora vamos reduzir tudo aqui ao
+
+0:07:48.360,0:07:53.360
+denominador ao 6.
+
+0:07:50.599,0:07:55.680
+aqui 1 2
+
+0:07:53.360,0:07:58.199
+3 3
+
+0:07:55.680,0:08:00.919
+portanto fica
+
+0:07:58.199,0:08:03.639
+2n³
+
+0:08:00.919,0:08:06.120
++ 3n²
+
+0:08:03.639,0:08:09.520
++ n
+
+0:08:06.120,0:08:12.520
+sobre 6. OK?
+
+0:08:09.520,0:08:12.520
+Eh,
+
+0:08:12.800,0:08:17.479
+e isto vai dar
+
+0:08:15.360,0:08:19.120
+fatorizando,
+
+0:08:17.479,0:08:20.720
+ponho o n em evidência. Se eu puser aqui
+
+0:08:19.120,0:08:23.360
+um n evidência, fica uma equação de
+
+0:08:20.720,0:08:26.280
+segundo grau em n²,
+
+0:08:23.360,0:08:28.400
+ou quais vocês poderão fatorizar.
+
+0:08:26.280,0:08:33.039
+Eh, deixe isto para exercício, para
+
+0:08:28.400,0:08:33.039
+vosso exercício e fica n
+
+0:08:33.479,0:08:40.440
++ 1
+
+0:08:36.599,0:08:40.440
+2n + 1
+
+0:08:41.279,0:08:47.360
+sobre 6. OK? Vamos ver se isto está
+
+0:08:43.680,0:08:50.720
+correto. Ora, 2n³.
+
+0:08:47.360,0:08:53.720
+Ora, OK.
+
+0:08:50.720,0:08:55.279
+Ora, N.
+
+0:08:53.720,0:08:57.240
+OK. Deixa-me, deixa-me ver se isto está
+
+0:08:55.279,0:08:59.000
+correto.
+
+0:08:57.240,0:09:01.240
+Já agora, vou fazer, vou, vou fazer por
+
+0:08:59.000,0:09:04.240
+extenso. Pronto.
+
+0:09:01.240,0:09:07.959
+Tá também uma um um se necessário a
+
+0:09:04.240,0:09:11.040
+aplicar o a fatorização com
+
+0:09:07.959,0:09:12.560
+com o a
+
+0:09:11.040,0:09:18.160
+forma resolvente das equações do segundo
+
+0:09:12.560,0:09:20.279
+grau. Então isto, portanto, isto fica n
+
+0:09:18.160,0:09:23.519
+parênteses
+
+0:09:20.279,0:09:25.560
+fica 2n²
+
+0:09:23.519,0:09:28.240
+2n²
+
+0:09:25.560,0:09:32.399
++ 3n
+
+0:09:28.240,0:09:32.399
++ 6
+
+0:09:32.600,0:09:36.360
+e mais eh
+
+0:09:40.680,0:09:46.720
+2n² + mais +
+
+0:09:43.720,0:09:46.720
+OK?
+
+0:09:46.959,0:09:52.440
+Pronto. E agora aqui fatorizamos dizendo
+
+0:09:50.120,0:09:54.399
+que que
+
+0:09:52.440,0:09:57.680
+n
+
+0:09:54.399,0:10:01.000
+tem de ser igual a são os geros, as
+
+0:09:57.680,0:10:04.040
+raízes para depois fatorizar
+
+0:10:01.000,0:10:07.480
+igual a - b
+
+0:10:04.040,0:10:07.480
+mais ou menos
+
+0:10:09.680,0:10:14.399
+aqui sobre 2a
+
+0:10:11.959,0:10:16.600
+b qu
+
+0:10:14.399,0:10:18.800
+- 4
+
+0:10:16.600,0:10:23.839
+C.
+
+0:10:18.800,0:10:23.839
+Portanto, aqui dá 1 - 3 mais ou men 1
+
+0:10:25.600,0:10:30.440
+sobre 4. Portanto, as raízes vão dar -1
+
+0:10:32.360,0:10:37.760
+e
+
+0:10:34.480,0:10:37.760
+- 1/2.
+
+0:10:41.720,0:10:45.200
+OK? Pronto. Então, portanto, fatorizando
+
+0:10:43.480,0:10:48.000
+fica
+
+0:10:45.200,0:10:48.000
+n6.
+
+0:10:49.360,0:10:53.639
+e fica n + 1
+
+0:10:55.760,0:11:03.760
+e fica aqui fica 2
+
+0:10:59.240,0:11:03.760
+e fica n + 1/2.
+
+0:11:05.519,0:11:10.800
+Ok? Pronto. Então parece que tá correto
+
+0:11:08.399,0:11:14.480
+que portanto aqui este este entra entra
+
+0:11:10.800,0:11:16.760
+aqui dentro e fica 2n + 1. Pronto. Sim,
+
+0:11:14.480,0:11:20.680
+senhora. Pronto, tá correto.
+
+0:11:16.760,0:11:20.680
+Portanto, chegamos à fórmula,
+
+0:11:20.920,0:11:24.200
+OK? Viram? Com a propriedade
+
+0:11:22.240,0:11:26.920
+teloscópica.
+
+0:11:24.200,0:11:28.800
+Com a propriedade teloscópica.
+
+0:11:26.920,0:11:32.040
+Portanto,
+
+0:11:28.800,0:11:33.519
+expandimos por aqui.
+
+0:11:32.040,0:11:35.959
+Aqui sem aplicar a propriedade
+
+0:11:33.519,0:11:39.440
+teloscópica, aqui simplesmente
+
+0:11:35.959,0:11:41.079
+e simplificando e expandindo. E depois
+
+0:11:39.440,0:11:43.440
+sim aqui em baixo aplicando a
+
+0:11:41.079,0:11:45.880
+propriedade telescópica. Portanto, por
+
+0:11:43.440,0:11:48.560
+estes dois, por estas duas vias,
+
+0:11:45.880,0:11:51.560
+portanto, aqui sem aplicar a propriedade
+
+0:11:48.560,0:11:51.560
+teloscópica
+
+0:11:52.920,0:12:00.160
+e em baixo a propriedade telescópica.
+
+0:11:57.480,0:12:04.200
+Pronto. E igualando as duas, pois
+
+0:12:00.160,0:12:07.600
+chegamos à solução S2.
+
+0:12:04.200,0:12:11.600
+Ora, deixo para vocês como exercício
+
+0:12:07.600,0:12:14.279
+calcular S3,
+
+0:12:11.600,0:12:16.519
+cuja forma também já vimos, mas não a
+
+0:12:14.279,0:12:19.279
+deduzimos e vimos no meu tutorial
+
+0:12:16.519,0:12:20.920
+anterior,
+
+0:12:19.279,0:12:25.800
+eh,
+
+0:12:20.920,0:12:28.519
+que é igual a à forma S1².
+
+0:12:25.800,0:12:31.519
+Vimos isto
+
+0:12:28.519,0:12:36.000
+na indução matemática, mas não dímimos
+
+0:12:31.519,0:12:38.560
+S3 e que, portanto, é igual a n
+
+0:12:36.000,0:12:40.639
++ 1
+
+0:12:38.560,0:12:42.440
+sobre 2
+
+0:12:40.639,0:12:47.880
+ao quadrado. Pronto, deixo isto como
+
+0:12:42.440,0:12:50.199
+exercício para vocês fazerem por eh
+
+0:12:47.880,0:12:51.720
+pela propriedade telescópica e depois se
+
+0:12:50.199,0:12:52.959
+quiserem provar qualquer destas formas
+
+0:12:51.720,0:12:55.480
+com a introdução matemática, pois também
+
+0:12:52.959,0:12:58.440
+podem fazer. Mas agora vamos mostrar um
+
+0:12:55.480,0:13:00.839
+outro método ainda antes de entrar na na
+
+0:12:58.440,0:13:02.480
+propriedade teloscópica aplicada a outro
+
+0:13:00.839,0:13:06.839
+tipo de problemas. Aqui foi aplicada
+
+0:13:02.480,0:13:09.600
+apenas para dedugir fórmulas. OK?
+
+0:13:06.839,0:13:12.279
+Eh,
+
+0:13:09.600,0:13:14.720
+vou-vos mostrar como obter qualquer
+
+0:13:12.279,0:13:16.399
+qualquer fórmula,
+
+0:13:14.720,0:13:19.360
+imaginando que vocês queriam obter esta
+
+0:13:16.399,0:13:21.199
+fórmula aqui e que não sabiam. Esta
+
+0:13:19.360,0:13:22.639
+forma é complicada e vocês, pronto,
+
+0:13:21.199,0:13:23.959
+teriam que fazer um cálculo similar a
+
+0:13:22.639,0:13:26.639
+este, mas naturalmente que vai ser mais
+
+0:13:23.959,0:13:28.880
+complexo. Reparem que este cálculo aqui
+
+0:13:26.639,0:13:30.760
+para calcular S2,
+
+0:13:28.880,0:13:34.160
+eu tive que me recorrer aqui de um passo
+
+0:13:30.760,0:13:36.519
+intermédio e substituir o S1, porque a
+
+0:13:34.160,0:13:38.279
+forma depois vai dar em função de S1. Da
+
+0:13:36.519,0:13:41.600
+mesma maneira, vocês agora se forem
+
+0:13:38.279,0:13:43.720
+calcular o S3
+
+0:13:41.600,0:13:46.320
+aparecerá aparecer-vos há termos
+
+0:13:43.720,0:13:47.959
+intermédios em S2 e S1. Portanto, a for
+
+0:13:46.320,0:13:49.560
+as formas vão ficando cada vez mais
+
+0:13:47.959,0:13:51.720
+complexas e têm que manipular aqui
+
+0:13:49.560,0:13:53.639
+polinómios cada vez mais complexos. OK?
+
+0:13:51.720,0:13:56.320
+Mas chegam lá. Agora vou-vos mostrar
+
+0:13:53.639,0:13:58.959
+outra outra maneira. Vamos que vocês
+
+0:13:56.320,0:14:00.639
+queiram queiram. É claro, isto é isto é
+
+0:13:58.959,0:14:02.800
+só como exercício, porque se for
+
+0:14:00.639,0:14:06.279
+necessário qualquer destas formas, basta
+
+0:14:02.800,0:14:10.279
+ir a um site, um oam alfa,
+
+0:14:06.279,0:14:11.920
+um bom site e pedir pedir uma forma de
+
+0:14:10.279,0:14:13.199
+de um de uma de um somatório. E,
+
+0:14:11.920,0:14:15.320
+portanto, todas estas coisas estão
+
+0:14:13.199,0:14:20.199
+perfeitamente documentadas. Inclusive,
+
+0:14:15.320,0:14:21.600
+existe uma forma geral geral para Ssk.
+
+0:14:20.199,0:14:24.360
+Não, não vou pôr agora aqui a forma
+
+0:14:21.600,0:14:26.680
+porque também não a deduzi,
+
+0:14:24.360,0:14:30.000
+eh, mas existe uma forma completamente
+
+0:14:26.680,0:14:33.920
+universal para qualquer somatório SK
+
+0:14:30.000,0:14:36.880
+igual ao somatório de dos I elevado a
+
+0:14:33.920,0:14:38.680
+capas. OK?
+
+0:14:36.880,0:14:40.320
+Sim, senhora.
+
+0:14:38.680,0:14:41.519
+Ora, mas agora vamos ver outro outra
+
+0:14:40.320,0:14:43.959
+forma.
+
+0:14:41.519,0:14:47.880
+Reparem que, como já vos tinha chamado a
+
+0:14:43.959,0:14:51.000
+atenção, o somatório de n
+
+0:14:47.880,0:14:53.320
+era um polinómio do segundo grau, OK? é
+
+0:14:51.000,0:14:57.000
+que está aqui.
+
+0:14:53.320,0:14:58.680
+S1 é um polinómio do segundo grau,
+
+0:14:57.000,0:15:01.720
+S2
+
+0:14:58.680,0:15:03.639
+é do terceiro grau
+
+0:15:01.720,0:15:07.440
+e S4
+
+0:15:03.639,0:15:09.519
+e e S3 vai ser do quarto grau. Este,
+
+0:15:07.440,0:15:10.839
+portanto, este somatório aqui, S3 vai
+
+0:15:09.519,0:15:14.120
+ser do quarto grau. Cá está que está
+
+0:15:10.839,0:15:15.959
+aqui. É do quarto grau. Pronto. Então,
+
+0:15:14.120,0:15:18.320
+reparem que eu posso resolver de outra
+
+0:15:15.959,0:15:22.079
+maneira. Sabendo isto, a partir do
+
+0:15:18.320,0:15:23.880
+momento em que eu reparo pela lógica,
+
+0:15:22.079,0:15:26.519
+pela, pela pela coerência da matemática,
+
+0:15:23.880,0:15:29.360
+pela simetria da matemática, eu vejo que
+
+0:15:26.519,0:15:31.880
+existe este padrão. OK? Eu não provo,
+
+0:15:29.360,0:15:34.600
+mas eu por isso é que mas é intuitivo. É
+
+0:15:31.880,0:15:37.720
+intuitivo que seja assim. Outra coisa
+
+0:15:34.600,0:15:39.279
+diferente é provar, mas pronto, mas é o
+
+0:15:37.720,0:15:42.319
+dentro do âmbito aqui da minha playlist
+
+0:15:39.279,0:15:44.839
+é é puxar pela intuição. Portanto, é
+
+0:15:42.319,0:15:46.920
+intuitivo que S3 teria que ser um
+
+0:15:44.839,0:15:49.319
+polinómio do quarto grau. Então, se é um
+
+0:15:46.920,0:15:52.040
+polinómio do quarto grau, eu podia
+
+0:15:49.319,0:15:57.040
+escrever S3
+
+0:15:52.040,0:16:00.279
+é igual a a n
+
+0:15:57.040,0:16:02.079
++ a + b
+
+0:16:00.279,0:16:04.519
+n³
+
+0:16:02.079,0:16:06.680
++ c
+
+0:16:04.519,0:16:09.440
+n²
+
+0:16:06.680,0:16:13.360
+ab d
+
+0:16:09.440,0:16:18.560
++ e. OK? Pronto, este é este é o meu
+
+0:16:13.360,0:16:20.680
+problema e tenho eh cinco incógnitas,
+
+0:16:18.560,0:16:22.759
+cinco incógnitas. Então, se eu construir
+
+0:16:20.680,0:16:24.920
+cinco equações,
+
+0:16:22.759,0:16:28.880
+as cinco incógnitas,
+
+0:16:24.920,0:16:32.519
+eu vou ficar com um sistema de equações
+
+0:16:28.880,0:16:34.120
+linear e que nós resolvemos. Se vocês
+
+0:16:32.519,0:16:36.519
+aprenderam na escola a resolver sistemas
+
+0:16:34.120,0:16:38.560
+de equações por diversos métodos, pelo
+
+0:16:36.519,0:16:40.399
+método da da
+
+0:16:38.560,0:16:42.120
+e como é que se chama? o método de G ou
+
+0:16:40.399,0:16:44.759
+o método das matrizes ou o método,
+
+0:16:42.120,0:16:46.279
+enfim, há múltiplos métodos ou ir mais
+
+0:16:44.759,0:16:47.680
+uma vez a algum site ou alguma
+
+0:16:46.279,0:16:49.880
+calculadora de sistemas de equações
+
+0:16:47.680,0:16:52.680
+lineares e resolver. OK? É só para
+
+0:16:49.880,0:16:55.440
+chamar a atenção como podem ter esta
+
+0:16:52.680,0:16:57.880
+outra abordagem e com esta abordagem
+
+0:16:55.440,0:16:59.959
+resolvem e determinam qualquer fórmula.
+
+0:16:57.880,0:17:01.920
+OK?
+
+0:16:59.959,0:17:05.480
+Eh, sim, senhora. Então, como é que
+
+0:17:01.920,0:17:07.480
+fazemos? Bom, temos aqui um sistema,
+
+0:17:05.480,0:17:13.559
+eu vou pôr aqui o, eu vou pôr aqui no
+
+0:17:07.480,0:17:18.160
+formato de matriz A, B, C, D.
+
+0:17:13.559,0:17:18.160
+Eu vou pôr aqui no formato de matriz.
+
+0:17:19.799,0:17:22.799
+OK.
+
+0:17:29.440,0:17:33.080
+Sim, senhora.
+
+0:17:31.840,0:17:34.760
+E, portanto, agora o que é que eu vou
+
+0:17:33.080,0:17:35.919
+dizer? Vou ter que arranjar aqui cinco
+
+0:17:34.760,0:17:38.440
+equações. Portanto, eu vou ter que
+
+0:17:35.919,0:17:40.799
+arranjar cinco valores para s. Eu vou
+
+0:17:38.440,0:17:44.120
+dizer, por exemplo, assim, olha, para n
+
+0:17:40.799,0:17:44.120
+= 1,
+
+0:17:44.880,0:17:56.080
+para n = 1, vai ter que ser verdade, vai
+
+0:17:49.120,0:18:02.120
+ter que verificar que a, ou seja, 1 + b
+
+0:17:56.080,0:18:05.600
++ c + d + e vai ter que dar o quê? Bom,
+
+0:18:02.120,0:18:09.600
+vai, ela vai ter que dar o o somatório
+
+0:18:05.600,0:18:13.039
+para n = 1 do dos cubos
+
+0:18:09.600,0:18:14.799
+dos cubos, que é o S3.
+
+0:18:13.039,0:18:17.799
+S3
+
+0:18:14.799,0:18:20.320
+é o somatório dos cubos
+
+0:18:17.799,0:18:24.520
+quando i varia de 1 a n. Portanto, para
+
+0:18:20.320,0:18:26.200
+n = 1 dá 1.
+
+0:18:24.520,0:18:31.919
+Ok?
+
+0:18:26.200,0:18:37.600
+para n = 2, para n = 2
+
+0:18:31.919,0:18:37.600
+vai ter que dar aqui 2 x 2 4 x 4 16
+
+0:18:37.640,0:18:45.720
+ok aqui 8
+
+0:18:42.200,0:18:45.720
+e aqui 4
+
+0:18:46.600,0:18:53.320
+e aqui 2
+
+0:18:49.919,0:18:56.159
+2D e aqui um
+
+0:18:53.320,0:18:56.159
+e aqui vai ter que
+
+0:18:56.200,0:19:02.000
+Eh, portanto,
+
+0:18:58.520,0:19:04.080
+1 + o cubo de 2 8 e 1 9 vai ter que dar
+
+0:19:02.000,0:19:05.000
+9. Bom, isto agora começa a gerar
+
+0:19:04.080,0:19:06.760
+números muito grandes, eu não vou
+
+0:19:05.000,0:19:11.919
+continuar. Era só para vocês verem a
+
+0:19:06.760,0:19:13.720
+ideia. Aqui faria para n = 3, para n = 4
+
+0:19:11.919,0:19:15.880
+e para n = 5. Mas isto é um, como estão
+
+0:19:13.720,0:19:17.559
+a ver, é um é é um é um método que se
+
+0:19:15.880,0:19:20.320
+presta facilmente para ser implementado
+
+0:19:17.559,0:19:22.440
+em programação. OK? Imaginem que em
+
+0:19:20.320,0:19:24.080
+programação, se em programação eu
+
+0:19:22.440,0:19:25.640
+tivesse que gerar, para já podia usar a
+
+0:19:24.080,0:19:27.720
+forma geral, porque existe uma forma,
+
+0:19:25.640,0:19:30.840
+uma fórmula geral, mas também podia usar
+
+0:19:27.720,0:19:32.679
+esta. Eu posso fazer um um um pequeno
+
+0:19:30.840,0:19:35.880
+programa de computador para resolver um
+
+0:19:32.679,0:19:38.600
+um um pequeno sistema e com isto posso
+
+0:19:35.880,0:19:41.360
+deduzir todas as formas, todos os SS, os
+
+0:19:38.600,0:19:42.840
+os SK caps que eu que eu queira que eu
+
+0:19:41.360,0:19:45.360
+queira que eu queira determinar, como
+
+0:19:42.840,0:19:46.520
+estão a ver. E e acaba por ser uma forma
+
+0:19:45.360,0:19:48.240
+mais simples do que fazer esta
+
+0:19:46.520,0:19:50.200
+manipulação aqui de polinómios com a com
+
+0:19:48.240,0:19:51.520
+a telescópica.
+
+0:19:50.200,0:19:53.240
+Pronto, aqui não vou fazer as outras
+
+0:19:51.520,0:19:55.360
+equações, mas pronto, vocês entendem que
+
+0:19:53.240,0:19:58.320
+daria aqui cinco equações, um sistema de
+
+0:19:55.360,0:20:02.200
+cinco equações a cinco incógnitas.
+
+0:19:58.320,0:20:04.159
+OK? Eu teria aqui, teria aqui a terceira
+
+0:20:02.200,0:20:07.559
+equação,
+
+0:20:04.159,0:20:09.360
+quarta equação, cinco equação,
+
+0:20:07.559,0:20:12.600
+eh,
+
+0:20:09.360,0:20:14.919
+OK? E, portanto, construí aqui o
+
+0:20:12.600,0:20:16.280
+sistema. Pronto, esta parte aqui fica
+
+0:20:14.919,0:20:17.960
+arrumada. É só para vos chamar a atenção
+
+0:20:16.280,0:20:20.039
+disto, chamar a atenção deste ponto de
+
+0:20:17.960,0:20:22.440
+vista que podemos podemos atacar um
+
+0:20:20.039,0:20:24.159
+problema destes com esta com esta com
+
+0:20:22.440,0:20:25.799
+esta perspectiva de um sistema de
+
+0:20:24.159,0:20:27.080
+equações.
+
+0:20:25.799,0:20:29.000
+Eh, vamos agora para a propriedade
+
+0:20:27.080,0:20:32.240
+teloscópica propriamente dita, aplicada
+
+0:20:29.000,0:20:34.000
+a casos mais complexos. Portanto, vamos
+
+0:20:32.240,0:20:36.400
+para isso, vou vou vou vamos dar aqui
+
+0:20:34.000,0:20:38.600
+alguns exemplos. Por exemplo, vamos
+
+0:20:36.400,0:20:41.440
+vamos obter aqui, imaginando que eu
+
+0:20:38.600,0:20:44.280
+queria calcular o somatório
+
+0:20:41.440,0:20:46.320
+de 1 sobre
+
+0:20:44.280,0:20:48.320
+K
+
+0:20:46.320,0:20:49.480
+- 1. Pronto, pode não ser evidente olhar
+
+0:20:48.320,0:20:52.799
+para aqui e dizer, mas como é que eu vou
+
+0:20:49.480,0:20:57.000
+calcular aqui com a telescópica aqui
+
+0:20:52.799,0:20:58.240
+para k = 2 é n? Tem que ser 2. K = 1
+
+0:20:57.000,0:21:00.919
+havia uma divisão por zero, não faz
+
+0:20:58.240,0:21:03.400
+sentido. Pronto. Então o que é que nós
+
+0:21:00.919,0:21:05.679
+vamos fazer aqui? Entra uma um tema,
+
+0:21:03.400,0:21:07.520
+existe um tema da matemática, não sei se
+
+0:21:05.679,0:21:09.480
+se se recordam, se já estudaram, já não
+
+0:21:07.520,0:21:11.080
+me recordo se isso dá-se no 12º ou a
+
+0:21:09.480,0:21:12.840
+nível universitário, agora não me
+
+0:21:11.080,0:21:15.520
+recordo, que é de composição em frações
+
+0:21:12.840,0:21:17.760
+parciais. Pronto, esse é um tema que
+
+0:21:15.520,0:21:19.559
+futuramente até poderei eh fazer um
+
+0:21:17.760,0:21:21.240
+tutorial mais detalhado sobre ele, até
+
+0:21:19.559,0:21:23.000
+justifica, que é um tema muito
+
+0:21:21.240,0:21:24.440
+importante e isto é muito usado, por
+
+0:21:23.000,0:21:26.000
+exemplo, na quando chegarmos à
+
+0:21:24.440,0:21:27.760
+primitivação,
+
+0:21:26.000,0:21:30.039
+onde para calcular a primitivas de de
+
+0:21:27.760,0:21:32.039
+funções racionais, teremos que aplicar
+
+0:21:30.039,0:21:33.919
+essa técnica da decomposição em frações
+
+0:21:32.039,0:21:37.159
+parciais para para obter uma
+
+0:21:33.919,0:21:39.440
+primitivação por partes, OK? Eh, isso é
+
+0:21:37.159,0:21:40.760
+muito usado aí na área da primitivação,
+
+0:21:39.440,0:21:43.360
+mas pronto, mas agora também pode ser
+
+0:21:40.760,0:21:45.000
+usada aqui para calcular um somatório
+
+0:21:43.360,0:21:46.480
+usando uma propriedade telescópica. Como
+
+0:21:45.000,0:21:48.440
+é que fazemos isso? Portanto,
+
+0:21:46.480,0:21:51.000
+simplesmente olhar para esta expressão e
+
+0:21:48.440,0:21:52.960
+decompô em frações parciais. Pronto,
+
+0:21:51.000,0:21:54.559
+mesmo que uma pessoa não se lembre da
+
+0:21:52.960,0:21:56.080
+teoria das frações parciais, e eu também
+
+0:21:54.559,0:21:57.720
+não me lembro agora de repente todas as
+
+0:21:56.080,0:22:00.960
+regras, que aquilo é um conjunto meia de
+
+0:21:57.720,0:22:05.880
+regras, mas eh mas neste caso, como é
+
+0:22:00.960,0:22:08.279
+simples, eh isto vai dar isto vai dar,
+
+0:22:05.880,0:22:10.840
+pronto, intuitivamente que eu para
+
+0:22:08.279,0:22:13.000
+decompor isto em em frações parciais,
+
+0:22:10.840,0:22:15.240
+neste caso em duas frações, vai ter que
+
+0:22:13.000,0:22:18.559
+ser igual a qualquer coisa a alguma
+
+0:22:15.240,0:22:20.600
+constante a sobre K mais uma constante b
+
+0:22:18.559,0:22:22.960
+sobre k -
+
+0:22:20.600,0:22:25.279
+OK? Pronto. E que, portanto, para
+
+0:22:22.960,0:22:29.520
+reduzir ao mesmo denominador comum, ele
+
+0:22:25.279,0:22:34.320
+vai ter que em cima dará a k - 1.
+
+0:22:29.520,0:22:36.080
+A - 1 + bk tem que dar igual a 1, que é
+
+0:22:34.320,0:22:38.520
+o valor que eu tenho no numerador.
+
+0:22:36.080,0:22:41.679
+Pronto. E agora expandindo aqui,
+
+0:22:38.520,0:22:47.440
+expandindo vai ter que dar que
+
+0:22:41.679,0:22:50.159
+a K + B K.
+
+0:22:47.440,0:22:53.799
+Ora, tem que tem que dar zero porque eu
+
+0:22:50.159,0:22:55.360
+não tenho K nenhum no numerador.
+
+0:22:53.799,0:22:58.120
+OK?
+
+0:22:55.360,0:23:02.080
+Eh, e portanto e em termos do do valor
+
+0:22:58.120,0:23:05.440
+constante vai dar aqui que - a = 1.
+
+0:23:02.080,0:23:08.840
+- a = 1. Portanto, de onde implica que,
+
+0:23:05.440,0:23:11.120
+portanto, que o a tem que ser -1
+
+0:23:08.840,0:23:14.360
+e o b daqui depois tem que ser o
+
+0:23:11.120,0:23:18.080
+simétrico do A e o B tem que ser 1. OK?
+
+0:23:14.360,0:23:20.279
+Pronto. Então vemos que esta decompõe-se
+
+0:23:18.080,0:23:25.360
+em frações parciais
+
+0:23:20.279,0:23:28.360
+aqui igual a b = 1. Ou seja 1 sobre k -
+
+0:23:25.360,0:23:28.360
+1
+
+0:23:29.520,0:23:34.760
+- 1
+
+0:23:32.520,0:23:36.360
+sobre k.
+
+0:23:34.760,0:23:38.080
+Ok?
+
+0:23:36.360,0:23:42.400
+Ora, deixa ver se eu não me enganei.
+
+0:23:38.080,0:23:45.720
+Portanto, aqui dá K - K corta e menos 1
+
+0:23:42.400,0:23:47.640
+dá 1. Certo. Pronto. E é aqui que surge
+
+0:23:45.720,0:23:50.080
+a proprietade telescópica, ou seja, é
+
+0:23:47.640,0:23:52.080
+ela surge porque tivemos sorte e surgiu.
+
+0:23:50.080,0:23:54.000
+Poderia não surgir e então este m iria
+
+0:23:52.080,0:23:57.159
+para para o lixo.
+
+0:23:54.000,0:23:58.880
+Mas ela ela surge por sorte ao fazer a
+
+0:23:57.159,0:24:01.760
+decomposição em frações parciais que me
+
+0:23:58.880,0:24:03.679
+aparece aqui o sinal de menos que é o
+
+0:24:01.760,0:24:05.880
+trigger, o gatilho, para repararmos que
+
+0:24:03.679,0:24:08.159
+temos uma propriedade teloscópica.
+
+0:24:05.880,0:24:11.400
+E tendo em conta que o o este termo
+
+0:24:08.159,0:24:14.440
+geral, como vem é similar a este, apenas
+
+0:24:11.400,0:24:16.640
+difere, tá desfasado ali de uma unidade.
+
+0:24:14.440,0:24:19.159
+Portanto, esta é a pura propriedade
+
+0:24:16.640,0:24:21.279
+telescópica que ela apareceu aqui,
+
+0:24:19.159,0:24:24.600
+surgiu quando eu fiz a decomposição em
+
+0:24:21.279,0:24:25.760
+frações parciais. OK? Pronto. Então,
+
+0:24:24.600,0:24:29.279
+portanto, isto fica-me que este
+
+0:24:25.760,0:24:32.799
+somatório é igual, vai ser igual ao
+
+0:24:29.279,0:24:35.039
+somatório de
+
+0:24:32.799,0:24:39.960
+1
+
+0:24:35.039,0:24:42.159
+sobre K - 1 - 1 sobre K.
+
+0:24:39.960,0:24:44.640
+Pronto. E agora já sei, olhando para
+
+0:24:42.159,0:24:46.399
+isto, já estou confiante que vou chegar
+
+0:24:44.640,0:24:49.320
+ao resultado rapidamente porque vai
+
+0:24:46.399,0:24:52.520
+haver cortas, cortas infinitos
+
+0:24:49.320,0:24:54.840
+e fica apenas o o primeiro e o último
+
+0:24:52.520,0:24:58.760
+termo. Ora, vejamos.
+
+0:24:54.840,0:24:58.760
+Então, temos para k igir
+
+0:25:03.200,0:25:08.120
+para k ig fica mais 1/3.
+
+0:25:11.159,0:25:15.559
+para k = 4
+
+0:25:13.679,0:25:18.240
++ 1/3
+
+0:25:15.559,0:25:24.679
+- 1/4. Pronto. E então já estamos a ver
+
+0:25:18.240,0:25:26.720
+a regra. Corta, corta, corta, corta e
+
+0:25:24.679,0:25:31.279
+fica
+
+0:25:26.720,0:25:35.159
+1 - 1 sobre
+
+0:25:31.279,0:25:37.279
+n, ou seja, o valor de n. Pronto. Então
+
+0:25:35.159,0:25:40.039
+fica
+
+0:25:37.279,0:25:44.080
+fica aqui o resultado final que este
+
+0:25:40.039,0:25:46.720
+somatório é igual a 1
+
+0:25:44.080,0:25:48.720
+- 1
+
+0:25:46.720,0:25:51.720
+sobre n.
+
+0:25:48.720,0:25:51.720
+Ok?
+
+0:25:53.520,0:26:00.480
+Ora vamos ver outro exercício.
+
+0:25:56.840,0:26:04.679
+OK? Vamos ver agora uma coisa similar.
+
+0:26:00.480,0:26:04.679
+temos um somatório,
+
+0:26:06.919,0:26:12.120
+vamos ter aqui três três termos aqui no
+
+0:26:10.440,0:26:16.240
+no denominador. Ora, vamos ter, por
+
+0:26:12.120,0:26:16.240
+exemplo, k + 1,
+
+0:26:16.279,0:26:22.440
+k + 2.
+
+0:26:18.600,0:26:25.880
+Pronto. Ora, se decompusermos em em
+
+0:26:22.440,0:26:25.880
+frações parciais,
+
+0:26:26.360,0:26:31.039
+vamos ter
+
+0:26:28.559,0:26:35.840
+eh
+
+0:26:31.039,0:26:38.480
+que isto se decompõe em três termos.
+
+0:26:35.840,0:26:40.520
+K + 1. Podem usar a mesma técnica que
+
+0:26:38.480,0:26:43.559
+fizemos aqui.
+
+0:26:40.520,0:26:49.320
+Pronto. Para determinar o A B C.
+
+0:26:43.559,0:26:51.760
+Neste caso dá K, dá isto mais 1 sobre
+
+0:26:49.320,0:26:55.480
+2,
+
+0:26:51.760,0:26:55.480
+o K + 2
+
+0:26:56.279,0:27:00.159
+e
+
+0:26:57.919,0:27:05.240
+1 sobre
+
+0:27:00.159,0:27:08.240
+2K. Pronto, dá isto. Só que aqui não
+
+0:27:05.240,0:27:10.240
+obtivemos não obtivemos a propriedade
+
+0:27:08.240,0:27:13.600
+telescópica porque não tá aqui nenhum
+
+0:27:10.240,0:27:16.200
+sinal de menos. OK. Pronto, mas podemos
+
+0:27:13.600,0:27:18.039
+obtê-la. Existe aqui um truque e o
+
+0:27:16.200,0:27:20.000
+truque consiste
+
+0:27:18.039,0:27:24.679
+em vez
+
+0:27:20.000,0:27:27.840
+em vez de eh
+
+0:27:24.679,0:27:29.960
+em vez de de fazer a decomposição em
+
+0:27:27.840,0:27:33.480
+frações parciais na totalidade, fazemos
+
+0:27:29.960,0:27:36.360
+uma decomposição parcial.
+
+0:27:33.480,0:27:38.279
+Pronto. Aqui
+
+0:27:36.360,0:27:41.399
+reparamos aqui nesta nesta neste
+
+0:27:38.279,0:27:44.080
+problema anterior onde tínhamos o k -1,
+
+0:27:41.399,0:27:46.799
+tínhamos um desfasamento,
+
+0:27:44.080,0:27:49.840
+um desfasamento aqui entre este k e k -
+
+0:27:46.799,0:27:52.399
+1 de 1, ok? É o caso ideal, mas também
+
+0:27:49.840,0:27:55.200
+podia ser um desfazamento de dois ou de
+
+0:27:52.399,0:27:57.039
+três. Também podia ser nesse caso.
+
+0:27:55.200,0:27:58.799
+Depois aqui no corta corta, em vez de
+
+0:27:57.039,0:28:01.840
+sobrarem só dois termos, sobraria mais
+
+0:27:58.799,0:28:04.240
+do que dois termos. OK? Pronto, isso
+
+0:28:01.840,0:28:06.120
+seria igual.
+
+0:28:04.240,0:28:07.840
+Então aqui aqui a questão é que eu
+
+0:28:06.120,0:28:10.039
+preciso ter um sinal de menos. Senão não
+
+0:28:07.840,0:28:13.080
+posso aplicar a propriedade telescópica
+
+0:28:10.039,0:28:14.640
+e não vai haver corta corta nenhum. OK?
+
+0:28:13.080,0:28:17.840
+Eu preciso de encontrar um sinal de
+
+0:28:14.640,0:28:20.519
+menos. E então o que eu vou fazer é uma
+
+0:28:17.840,0:28:22.200
+decomposição em frações parciais. Uma
+
+0:28:20.519,0:28:26.039
+decomposição parcial. Eu não vou fazer
+
+0:28:22.200,0:28:28.840
+na totalidade, eu vou à procura de de
+
+0:28:26.039,0:28:32.399
+compor
+
+0:28:28.840,0:28:34.760
+k + 1
+
+0:28:32.399,0:28:38.039
+k + 2.
+
+0:28:34.760,0:28:39.519
+OK? Em vez de dizer a + b + c sobre os
+
+0:28:38.039,0:28:43.600
+10 termos, eu vou à procura de uma
+
+0:28:39.519,0:28:45.840
+decomposição apenas em dois termos. A +
+
+0:28:43.600,0:28:50.679
+b.
+
+0:28:45.840,0:28:50.679
+E aqui eu vou pôr
+
+0:28:50.760,0:28:56.440
+K
+
+0:28:53.240,0:28:56.440
++ 1
+
+0:28:57.519,0:29:04.880
+e aqui
+
+0:29:00.559,0:29:04.880
+K + 1, K + 2.
+
+0:29:06.039,0:29:10.960
+Pronto. Ou talvez desse também K + 2.
+
+0:29:08.880,0:29:12.960
+Não sei, não experimentei.
+
+0:29:10.960,0:29:17.640
+Era uma era uma questão de experimentar,
+
+0:29:12.960,0:29:20.679
+mas pronto. A ideia é experimentar,
+
+0:29:17.640,0:29:22.679
+OK? E verificar
+
+0:29:20.679,0:29:26.039
+se consigo obter uma decomposição em
+
+0:29:22.679,0:29:29.799
+frações parciais
+
+0:29:26.039,0:29:31.440
+com o sinal de menos. OK?
+
+0:29:29.799,0:29:33.960
+Aqui, aqui se houvesse mais um termo no
+
+0:29:31.440,0:29:37.440
+denominador,
+
+0:29:33.960,0:29:40.480
+poderia acontecer eu obter
+
+0:29:37.440,0:29:43.080
+quatro termos e até podia acontecer
+
+0:29:40.480,0:29:46.039
+obter dois sinais de menos. Imaginem
+
+0:29:43.080,0:29:47.600
+aqui nestes termos aqui,
+
+0:29:46.039,0:29:51.120
+OK?
+
+0:29:47.600,0:29:54.120
+Imaginem estes termos,
+
+0:29:51.120,0:29:54.120
+OK?
+
+0:29:57.000,0:30:03.000
+Vamos que eu até tinha quatro termos.
+
+0:29:59.880,0:30:05.159
+Esses termos poderia calhar ser
+
+0:30:03.000,0:30:08.279
+t1 - t2
+
+0:30:05.159,0:30:12.320
+e, por exemplo, mais t - t4. Pronto. E
+
+0:30:08.279,0:30:13.760
+aí e aí fazia duas telescópicas. OK?
+
+0:30:12.320,0:30:15.320
+Pronto, isto tem que ser visto caso a
+
+0:30:13.760,0:30:18.360
+caso. Pronto, neste caso que eu vou
+
+0:30:15.320,0:30:20.159
+fazer esta decomposição,
+
+0:30:18.360,0:30:22.919
+eh,
+
+0:30:20.159,0:30:25.760
+pronto. E, e façam vocês as contas para
+
+0:30:22.919,0:30:29.360
+fazer a decomposição e vai dar, é
+
+0:30:25.760,0:30:31.720
+possível e vai dar 1/2
+
+0:30:29.360,0:30:34.080
+sobre
+
+0:30:31.720,0:30:37.440
+K
+
+0:30:34.080,0:30:40.640
++ 1 menos. E agora sim, aparece o sinal
+
+0:30:37.440,0:30:40.640
+de menos.
+
+0:30:42.120,0:30:46.720
+K + 1,
+
+0:30:44.240,0:30:49.799
+K + 2.
+
+0:30:46.720,0:30:51.840
+OK, pronto.
+
+0:30:49.799,0:30:53.480
+Eh, não vou não vou calcular agora o o
+
+0:30:51.840,0:30:55.639
+somatório, não vale a pena. Isto foi só
+
+0:30:53.480,0:30:57.440
+é só para ver que forçamos o
+
+0:30:55.639,0:30:59.000
+aparecimento da propriedade teloscópica.
+
+0:30:57.440,0:31:01.880
+E agora a partir de agora, pois calcular
+
+0:30:59.000,0:31:04.440
+qualquer somatório aqui e varia de 1 a
+
+0:31:01.880,0:31:06.720
+n, pois já é trivial, já sabemos como se
+
+0:31:04.440,0:31:11.200
+faz, vai haver uma série de corta-cortas
+
+0:31:06.720,0:31:11.200
+e, portanto, fica fica fácil, OK?
+
+0:31:11.240,0:31:15.320
+Deixo-vos como exercício
+
+0:31:13.760,0:31:17.279
+mais um problema para fazerem com a
+
+0:31:15.320,0:31:20.360
+propriedade telescópica. Vamos dizer,
+
+0:31:17.279,0:31:22.519
+por exemplo, o somatório.
+
+0:31:20.360,0:31:26.320
+Eh,
+
+0:31:22.519,0:31:26.320
+vamos dizer quando
+
+0:31:26.919,0:31:29.919
+i
+
+0:31:30.720,0:31:35.200
+varia de 1 a 100 a 100.
+
+0:31:35.480,0:31:40.440
+OK.
+
+0:31:37.000,0:31:40.440
+de 1 sobre
+
+0:31:41.279,0:31:48.159
+I
+
+0:31:43.559,0:31:50.760
+ao quadrado + I.
+
+0:31:48.159,0:31:52.279
+OK?
+
+0:31:50.760,0:31:53.399
+Pronto. Mesma coisa que podem
+
+0:31:52.279,0:31:56.399
+experimentar pela propriedade
+
+0:31:53.399,0:31:56.399
+telescópica.
+
+0:31:57.559,0:32:01.840
+Eh,
+
+0:31:59.679,0:32:03.679
+OK. Então, vou ter que fatorizar aqui,
+
+0:32:01.840,0:32:06.360
+vão ter que usar a decomposição em
+
+0:32:03.679,0:32:07.760
+frações parciais, etc, etc, etc. E,
+
+0:32:06.360,0:32:10.519
+portanto, isto há de vos dar, se eu não
+
+0:32:07.760,0:32:13.240
+me engano, nas contas,
+
+0:32:10.519,0:32:16.720
+e há de vos dar 100
+
+0:32:13.240,0:32:16.720
+101 avos.
+
+0:32:17.000,0:32:21.480
+OK? Pronto, deix como vocês para para
+
+0:32:19.919,0:32:23.240
+exercício.
+
+0:32:21.480,0:32:27.159
+Eh, e pronto, penso que tá tudo o que eu
+
+0:32:23.240,0:32:28.840
+queria dar. Já vimos como a temática da
+
+0:32:27.159,0:32:32.039
+decomposição em frações parciais é
+
+0:32:28.840,0:32:33.760
+fundamental, é usada muitas vezes para
+
+0:32:32.039,0:32:36.080
+provocar o aparecimento da propriedade
+
+0:32:33.760,0:32:38.320
+telescópica.
+
+0:32:36.080,0:32:40.960
+Eh, vimos esta questão, vimos como
+
+0:32:38.320,0:32:43.399
+conseguimos e calcular todos os
+
+0:32:40.960,0:32:44.840
+somatórios de uma forma sequencial,
+
+0:32:43.399,0:32:47.880
+partindo dos anteriores, vamos
+
+0:32:44.840,0:32:49.519
+calculando os os seguintes, ou como
+
+0:32:47.880,0:32:51.440
+alternativa,
+
+0:32:49.519,0:32:52.919
+com um sistema de equações, conseguimos
+
+0:32:51.440,0:32:55.600
+calcular qualquer forma de qualquer
+
+0:32:52.919,0:32:58.600
+somatório, sem precisar dos anteriores.
+
+0:32:55.600,0:32:58.600
+OK?
+
+0:33:00.399,0:33:06.159
+E pronto, penso que cobri mais ou menos
+
+0:33:02.200,0:33:08.960
+tudo o que eu queria dar neste tutorial.
+
+0:33:06.159,0:33:12.279
+Espero que tenham gostado e até uma
+
+0:33:08.960,0:33:12.279
+próxima oportunidade.
+
+

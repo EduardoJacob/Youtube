@@ -1,0 +1,1281 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Ora, tive aqui um problema técnico. Eu
+já estava a fazer o vídeo, isto
+perdeu-se e agora vou, já tinha aqui
+algumas coisas escritas e pronto, eu vou
+vou recomeçar a ver se
+Ora, hoje estou a fazer aqui uma técnica
+bem diferente. Eu hoje estou a projetar,
+estou a projetar o ecrã do tablet aqui
+no Windows, OK?
+Eh, como se pode ver aqui e depois vamos
+temos aqui alguma, estou aqui no Windows
+e depois tenho aqui o
+o R Studio onde vamos fazer aqui alguma
+programação em R daqui a bocado.
+OK. Para isto eu uso um software aqui da
+Samsung que é o Samsung Flow, portanto o
+Samsung Flow que eu já estava a usar
+para partilhar o clipboard, enviar print
+screens do Windows para o tablet e agora
+estou a usar este Smart View e que
+efetivamente ele projeta o ecrã.
+aqui no Windows. OK. Este é o tablet que
+eu que eu uso, o Samsung Tab S8 Ultra.
+Ora, e que vou usar agora, onde eu vou
+aqui escrever, só que estou a projetar
+aqui o ecrã.
+OK. Pronto. Então, hoje vamos ver aqui
+somas de potências
+que nós já tínhamos visto noutros
+noutros tutoriais antigos meus e mas
+hoje vamos ver isto de uma forma mais
+exaustiva. OK?
+Vamos relembrar aqui esta fórmula que o
+somatório de 1 a n é o primeiro termo
+com o último vezes o número de termos
+sobre 2 e que isto é um polinómio de
+grau 2. E por exemplo o somatório dos
+quadrados nós podemos intuir ou podemos
+suspeitar que seja um polinómio de grau
+3, OK? que é este aqui. Nós podemos nós
+podemos suspeitar, nós podemos ir agora
+à procura de resolver quais são os
+termos e e depois podemos comprovar e
+demonstrar por indução matemática e
+ponto final. OK? Portanto, isto não é
+uma questão de adivinhar, é uma questão
+de intuir
+eh e de testar. E claro que nós já
+sabemos isto tudo, não é? Eu estou a
+supor que estou a supor que nos
+primórdios das primeiras pessoas que
+abordaram estes temas, como é que eles
+como é que eles fizeram e como é que
+eles eh terão chegado à conclusão que,
+portanto, que havia essa lógica
+e que
+e qual era e qual era realmente esta
+estas soluções. Mas há várias formas
+para para chegar a estas a estas
+fórmulas. OK?
+H, [roncando]
+sim, senhor. Mas uma das formas que eu
+raramente vejo tratado nos tutorials
+é simplesmente resolver um sistema de
+equações.
+Ou seja, imaginando, por exemplo, aqui a
+soma dos dos n primeiros números,
+imaginando que eu queria resolver
+este caso que eu tenho aqui, esta
+tabelinha preta,
+OK? E eu dizia assim: "Bom, eu quero um
+polinómio do do segundo grau em n
++ bn + cn²".
+Pronto. Então, como é que eu vou saber?
+Eu tenho três incógnitas a b. Então, eu
+vou saber, vou dizer o seguinte. Bom,
+para n = 1,
+se eu fizer n = 1, eu vou somar o
+primeiro termo,
+tem que dar 1. Portanto, para n = 1, eu
+fico aqui com a equação que a + b + c
+tem que dar 1. Ok?
+Eh, para n = 2, a soma de dois termos é
+1 + 2, tem que dar 3.
+E por esta fórmula será a
++ 2b
++ 4c.
+Pronto. [roncando] E para n = 3, eu
+preciso de três equações, porque eu
+tenho três incógnitas. Eu eu preciso de
+construir aqui três equações.
+Portanto, a + 3 b + 3² + 9 c eh tem que
+dar 6, que é a soma dos primeiros
+termos, 1 + 2 + 3. Pronto. E como vem
+este, ficamos com este pequenino sistema
+que que tenho aqui na tabela preta, onde
+eu fui ao alfa, ele resolveu e dá-nos o
+pronto, dá-nos a solução já a nossa
+conhecida. B = 1/2, C = 1/2. Tá correto?
+OK? Portanto, que dá dá-me que,
+portanto, fica n²
+meos, que efetivamente é a forma que nós
+já conhecemos. Sim, senhora.
+Aqui em baixo tenho o sistema de
+equações
+para o somatório dos dos quadrados.
+Pronto. E como estamos a ver, isto está
+numa forma sistemática que eu vou ter
+sempre isto, OK? É sempre 1, 2, o 3, o
+4. Aqui as potências a crescer.
+OK? Vocês verifiquem, verifiquem e
+convençam-se que isto está correto. E
+aqui eu eu tenho que calcular
+manualmente os totais.
+Aqui, por exemplo, aos quadrados tenho
+que calcular qual é a soma do primeiro
+quadrado. É 1. Dos dois primeiros
+quadrados é 1 + 4. A seguir 1 + 4 + 9. E
+a seguir 1 + 4 + 9 + 16. Pronto. E,
+portanto, tenho aqui o sistema.
+E e pronto, e resolve. Pronto. Este ache
+é importante mostrar isto porque
+efetivamente
+é uma forma simples. Isto é, posso usar
+isto em n situações. Futuramente veremos
+na série de Fibonáci que também podemos
+usar sistemas de equações e e e é uma
+uma técnica muito versátil para
+descobrir fórmulas. OK. Sim, senhora.
+Eh, desde que as formas sejam
+polinomiais.
+OK. Sim, senhor. Ora bem,
+mas eh uma das técnicas que não que
+vimos nos meus tutoriais passados foi
+realmente a propriedade telescópica. OK?
+Lembram-se da propriedade telescópica?
+Pronto, vamos imaginar,
+vamos imaginar esta fórmula aqui.
+Eh, para já, vamos aqui estabelecer aqui
+uma nomenclatura.
+Vamos estabelecer a nomenclatura que S0
+é a soma
+das potências de grau zero, ou seja, 1
+elevado a 0 + 2 elevado 0 +
+n elevado a 0. E efetivamente isto é 1 +
+1 + 1 + 1, portanto dá n vezes e
+portanto isto é igual a n. Sim senhor.
+Depois temos o que é um polinómio? é um
+polinómio de grau 1.
+Sim, senhora. Depois temos S1
+que é igual a 1 elevado 1 + 2 elevado 1
++
+n elevado a 1 e que, portanto, já
+sabemos que é que dá n + 1
+sobre 2 e que, portanto, isto é um
+polinómio de grau 2.
+OK? Sim, senhor. Pronto, então vai ser
+esta. Vamos usar aqui esta esta
+nomenclatura.
+E nós vimos num outro tutorial que nós
+podíamos determinar estas formas usando
+a propriedade telescópica. Por exemplo,
+para calcular S1, imaginando que eu não
+sabia S1, o que é que eu ia fazer? Eu ia
+considerar
+eh o somatório,
+ia considerar o somatório
+e eu tinha posto k + 1
+ao quadrado
+porque vou usar aqui vou usar aqui o
+expoente a potência um mais do que do
+que o o índice que eu do que a potência
+que eu estou aqui a considerar. OK?
+Portanto, se eu quero considerar aqui o
+um, eu aqui vou considerar aqui o dois,
+porque
+e vou fazer aqui, vou forçar aqui uma
+propriedade telescópica, OK? E então vou
+diz, portanto, isto para calcular
+para calcular o somatório de N.
+Portanto, o somatório, vamos dizer, de
+K,
+quanto o K varia de 1 a N. Isto é o que
+eu o que eu quero calcular.
+OK? Pronto. Para isso vou vou construir
+aqui uma propriedade telescópica aqui.
+E qual é a vantagem disso? A vantagem é
+que quando k varia de 1 a n,
+que pela propriedade teloscópica eu
+consigo calcular rapidamente porque os
+termos vão-se cancelar todos. Vai ficar
+aqui para k = a 1 vai ficar 2²
+- 1²
+e depois para k = 2 + 3²
+- 2² ou seja e vai haver aqui cortas
+cortas e no final vai sobreviver apenas
+o o número mais pequeno e o maior.
+Pronto. Portanto, neste caso,
+e vai sobreviver aqui pela propriedade
+telescópica. o n + 1²,
+o n + 1²
+e menos
+o termo mais pequeno de todos, que é o
+k, portanto -1.
+Sim, senhora. Então, já tenho, já tenho
+aqui. Eh, por outro lado,
+eu também posso expandir, em vez da de
+aplicar a propriedade telescópica,
+posso expandir aqui o quadrado.
+K qu
++ 2k
++ 1 - k².
+Corta, corta.
+OK.
+E, portanto, isto fica dois somatórios
+de K
+mais um somatório de 1, um somatório de
+1,
+que é o mesmo que dizer um somatório de
+K elevado a 0. Pronto. E, portanto, e
+isto é, usando esta nomenclatura aqui
+dos SS, isto é 2
+S1,
+porque é o somatório de K elevado a 1. E
+aqui o somatório de k elevado a 0 +
+S0
+é igual a
+n² + 2n
++ 1 - 1
+corta
+corta
+e eu quero resolver para S1
+aqui
+S0 é igual a N, que já sabemos
+está aqui.
+S1 também já sabemos, mas faz conta que
+não sabíamos, por isso é que estamos
+aqui a resolver. Para determinar quanto
+vale o S1,
+usando a propriedade telescópica,
+S1
+é igual a fica n²
++ 2n. S0 paraça para cá - n tudo sobre 2
+e portanto fica a nossa conhecida forma
+n
++ 1
+sobre 2. Sim senhor. Eu acho que isto
+era o que nós já tínhamos visto no outro
+tutorial. Ora, agora o que vamos fazer
+aqui uma ligeira alteração
+que de acordo com os tutorial que eu
+tive a ver na internet e que fica bem
+mais simples.
+[roncando] Em vez de usar a
+propriaridade telescópica neste formato
+k + 1 - k,
+nós vamos usar aqui num formato
+parecido. Nós vamos usar.
+Ora, deixa-me ver aqui para não me
+enganar. Portanto, nós vamos usar
+eh k - k - 1. Portanto, nós vamos usar
+k² -
+k - 1². OK? Portanto, é parecido, mas
+vai fazer aqui bastante diferença, vai
+simplificar bastante,
+porque agora, pela propriedade
+telescópica, sobrevive o termo maior, já
+sabemos,
+sobrevive o termo maior, que será este
+aqui, quando o k
+= n e, portanto, fica
+n²
+menos o termo menor, mas o termo menor
+para k = a 1, 1 - 1 dá 0, fica 0.
+Portanto, então como estão a ver,
+simplifica simplifica bastante. Fica
+aqui n²
+em vez de
+em vez de n + 1 ao quad - 1 fica
+diretamente n quad fica mais simples.
+Ok?
+[roncando]
+E aqui dentro agora expandindo
+K qu
+menos
+e aqui temos K qu
+- 2k
++ 1. Ok?
+Que portanto fica o somatório de
+este aqui vai haver corta corta menos
+por menos dá mais vai dar 2 k.
+2k - 1
+- 1 que, portanto, que vai ser 2s1
+- s0
+que é igual a n².
+Pronto, como vem dá uma equação
+ligeiramente diferente desta.
+OK? Aqui deu 2s1 + s0, aqui dá 2s1 - s0,
+mas que o resultado terá que ser igual.
+Agora, quando resolvermos para S1,
+portanto, então fico que S1
+é igual a
+n² + S0
+é N sobre 2. Ok? Portanto, como vem,
+há uma ligeira diferença
+entre usarmos a propriedade telescópica
+neste formato ou neste. Eu só estou a
+usar neste formato porque parece-me que
+é efetivamente é mais simples e e porque
+é o é o padrão, é o standar, segundo eu
+vi nos tutorial, que eu já vos vou
+mostrar no YouTube. E, portanto, a
+desta forma é o padrão porque vai ficar
+sempre aqui n quad e se for para os
+cubos vai ficar n cub e fica mais
+simples. Sim, senhora. Pronto. Portanto,
+a propriedade telescópica permite-nos
+determinar todas estas fórmulas e a
+seguir [roncando] eh podia fazer a
+propriedade telescópica para ir calcular
+o S2 e depois o S3, etc, etc, etc. OK?
+Pronto, vamos aqui
+eh fazer aqui um print screen.
+Deixa-me fazer aqui um print screen.
+OK.
+Pronto. E vamos aqui pôr então cá está
+as primeiras formas que nós que nós já
+conhecemos.
+Sim, senhora.
+Ora.
+Sim, senhora. Pronto, esta é as
+primeiras formas que nós efetivamente
+nós já as conhecemos.
+Ora, deixa-me chegar isto aqui um
+boquinho para a direita.
+S. senhora e que, portanto, estamos a
+dizer que isto é passa a ser S0,
+S1, desta forma,
+S2, S3.
+Sim, senhor. Ora bem.
+Ora,
+pronto. O que vai acontecer aqui?
+Reparem que
+aqui
+nós aplicamos o binómio de Newton,
+OK? do quadrado. E se for para a
+próxima, se avançamos a o próximo passo
+[limpando a garganta] para calcular S2,
+pois vai ser a mesma coisa, vai ser o
+binómio do Newton aqui elevado ao cubo.
+E portanto nós vamos ter basicamente
+sempre um binómio Newton com k - 1 aqui
+o vado a n, onde o k maior depois vai
+cortar,
+mas basicamente vamos ficar com aqui com
+todos os termos do binómio do Newton.
+OK? Pronto, já isso já já vai se tornar
+evidente daqui a bocado.
+OK.
+Sim, senhora.
+Vamos imaginar que queríamos resolver
+S4.
+Vamos imaginar. Tem aqui de S0 a S3. Eu
+agora queria queria S4.
+OK? Portanto, então, usando aquela
+receita da propriedade telescópica,
+nós vamos ter, portanto, o somatório
+K varia de 1 a N. Portanto, vamos usar
+aquela receita.
+Portanto, se é S4, vou usar aqui o grau
+maior. Vou usar K5
+- K - 1 à qu.
+Usando aquela receita, já sabemos que dá
+n à qu,
+OK? Que é o termo maior menos o mais
+pequeno, mas o mais pequeno 1 men 1 dá 0
+e que é igual a o somatório.
+E expandindo aqui o binómio do Newton, K
+k vai cortar.
+OK?
+Eh, vamos fazer por partes para ser mais
+simples.
+OK? Menos a parênteses. E agora tenho o
+binómio do Newton à quinta. preciso dos
+termos do triângulo de Pascal.
+OK? Temos 1 1 1 2 1 1 3 1.
+Portanto, isto é a a 2vado
+a 2 ao cubo
+e vado à quarta 1 4 6
+1
+e elev elevado à quinta 1 5 10 10
+senhor. Portanto, aqui vai dar k à
+quinta.
+aqui vai a seguir cinco, mas como tenho
+o sinal de menos e portanto isto é
+alternado menos
+e k - 5
+- 5
+ora
+k4
++ 10 k c - 10 k qu
++ 5 k - 1. Sim, senhor. Dá o corta.
+Corta.
+Pronto. E, portanto, vai dar somatório
+5
+k quarta
+-².
+OK? E, portanto, usando esta nossa
+anotação, vai dar 5s
+qu, que é a nossa incógnita. Nós
+queremos explicitar em ordem S4
+- 10 S 3
++ 10 S2 - 5 5s1
++ S 0. OK?
+Portanto, tudo isto é igual a n.
+Pronto. E agora explicitamos para S4.
+OK? Em S0, S1, S2 e S3, substituímos as
+formas que nós já temos aqui,
+as formas que nós já calculamos, que já
+conhecemos, S0, S1,
+S2 e S3. OK? Pronto. E assim vai.
+Portanto, assim vemos que de forma eh
+recursiva conseguimos ir calculando as
+as formas seguintes.
+Sim, senhora.
+Pronto, agora vou pôr aqui um print
+screen.
+Vou pôr aqui um print screen
+de h
+[limpando a garganta]
+do tutorial que eu tive a seguir.
+O tutorial que eu tive a seguir no
+YouTube,
+que muitos de vocês reconhecerão, que é
+um site super famoso de matemática. Há
+vários, há vários muito bons. Há vários
+sites muitíssimo bons.
+OK.
+[música]
+Sim, senhora.
+Pronto, que é este aqui. Obviamente que
+eu vou tentar aportar aqui qualquer
+coisa de novo, qualquer coisa de também
+aportar algum valor acrescentado, porque
+senão não valia a pena. Se eu fosse
+fazer só para ser igual, dizia: "Olha,
+vejam este vídeo e já está, não é?"
+Pronto, mas assim eu vou tentar aportar
+qualquer coisa, nomeadamente vou-vos
+mostrar um pouco de programação em R,
+como trabalhamos com estas temáticas
+como programação.
+OK? Mostrei-vos aquele tema ali dos
+sistemas de equações, que não é nada de
+especial, mas que, apesar de tudo, é um
+tema que não é falado.
+Eh, e mesmo este tutorial aqui, pronto,
+que é do Mat Loger,
+ele é espetacular, naturalmente.
+No entanto, não fica bem claro esta
+questão da propriedade telescópica, a
+forma como como ele acaba por resolver,
+mas eu convido vocês a verem o tutorial.
+Pronto, aqui está a expressão a que ele
+chegou aqui, que é esta que nós chegamos
+agora aqui. O 5S4 - 10S3
++ 10S2 - 5S1 + S0 é igual a N à qu
+pronto de onde substituindo
+substituindo pois e simplificando vai
+dar aqui um o polinómio de de grau de
+grau 5, OK?
+e que depois podemos usar o amalfa e
+podemos fatorizar, podemos fatorizar
+onde dá este resultado aqui.
+Pronto. É engraçado depois que aqui
+começa a aparecer padrões. Aqui aqui
+repete o padrão n + 1 2n + 1, que é o o
+padrão aqui de dois,
+OK? De dois dois elementos para trás.
+Portanto, em S4 repete aqui um padrão de
+S2, da mesma forma que S3. repetiu aqui
+o padrão de S1 com o NN + 1. OK? É
+curioso. OK. Sim, senhora. Não deixem de
+ver este canal Mat Loger.
+Ora bem,
+eh,
+agora o que é que vai, o que é que vamos
+ter aqui?
+Ora, deixa-me olhar aqui para os meus
+apontamentos.
+Pronto, agora o que acontece?
+O que acontece é que se repetirmos, se
+se usarmos esta técnica aqui da
+propriedade telescópica, esta mesma
+técnica agora para N5. Agora, sem
+explicitarmos, não vamos explicitar
+nada, deixamos neste formato.
+Deixamos neste formato e vamos construir
+aqui uma uma tabela. Deixa-me fazer aqui
+o print screen que isto é mais simples.
+É mais simples de de ver do que do que
+de explicar.
+Ora,
+sim, [música] senhora. Portanto, isto é
+mais simples, é mais simples de ver do
+que estar a explicar.
+OK. Pronto. Portanto, nós temos aqui
+esta tabela.
+Pronto. E esta é a tabela que resulta
+diretamente à aplicação da propriedade
+telescópica, como fizemos aqui, como
+reparem, como eu fiz aqui, obtive o n o
+n. Pronto, aqui é a mesma coisa onde
+estamos a obter o n a 1, a 2, a 3, a 4,
+a 5. Pronto. Portanto, aqui estamos a
+construir estas relações sem nos
+preocuparmos em a explicitar os Ss.
+Pronto. E isto aqui é para chamar a
+atenção de que efetivamente os termos
+que aqui temos são os termos do
+triângulo de Pascal. 1 5 10 10 5 pronto,
+exceto o último, o último termo não
+entra, que é que seria o último a última
+unidade. OK? Sim, senhor. Como estão a
+ver,
+sim, senhor. Portanto, são os termos do
+triângulo do Pascal, mas com os sinais
+alternados, positivo, negativo,
+positivo, negativo e em que o último
+termo não entra. Por exemplo, os termos
+do triângulo para a escala aqui de de
+ordem dois, sabemos que é 1 2 1.
+Portanto, estamos aqui o 1 2 e o último
+termo não entra. Sim, senhor. Portanto,
+reparem que então com isto é simples. Eu
+posso, por exemplo, agora calcular o n6
+direto. Já nem perco tempo a ir fazer a
+propriedade telescópica. No fundo, é
+isto que nos está a mostrar. Se eu
+quisesse calcular agora o N6,
+o N6 e o S6 eventualmente, OK? Então o
+que isto nos está a dizer é que isto é o
+padrão é tão sistemático, o padrão é tão
+sistemático que eu já nem perco tempo a
+ir expandir a propriedade teloscópica.
+Eu chego aqui e escrevo diretamente n6
+igual a menos OK menos s0
+ok
+termos do do do do triângulo de Pascal
+de ordem seis. Ora os termos do
+triângulo Pascal. Ora, deixa-me ver
+aqui. Portanto, há de ser o
+eh, o 6,
+o 15,
+o 20,
+o 15,
+o 6 e o 1. OK? 4 5 6 7. Pronto, penso
+que esteja bem. Ora, portanto, - S0
++ 6S1
+- 15 S2
++ 20
+S3
+menos
+que eu ter enganado aqui e ora S0 S1 S2
+S3 - 15 S4
++
+6s2
+1 2 3 4 5. Isto isto engana. Aqui é o
+S5.
+Ora,
+e o e o o último não entra. Exato.
+Tínhamos visto que isto era era os
+termos do triângulo Pascal, exceto o
+último. Portanto, o último não entra.
+Exatamente. Pronto. E os sinais
+alternam. Menos mais, menos, mais menos
+mais. Ok? Pronto. Então, como viram,
+rapidamente construir construí aqui a
+expressão que me permitiria agora se eu
+explicitasse em ordem S5, como vem é
+direto, uma forma sistemática
+e que já nem sequer perco
+[limpando a garganta] tempo com a fazer
+cálculos de telescópicas e consigo
+efetivamente obter todas estas relações.
+OK? Sim, senhor.
+Ora, pronto. E agora o que é que
+acontece?
+Bom, agora deixa-me construir aqui,
+deixa-me copiar aqui
+uma série de de print screens.
+Ora,
+deixa-me copiar aqui uma série de print
+screens. OK.
+Sim, senhor. Deixa-me pôr aqui isto.
+OK. Então vamos lá ver o que é que nós
+temos aqui.
+Sim, senhora. Ora bem,
+então o que nós temos aqui? Temos o
+seguinte. Portanto, estas são equações
+que resultam [roncando] da propriedade
+teloscópica, como vimos, aplicando a
+propriedade teletroscópica uma vez e,
+portanto, sucessivamente obtemos estas
+expressões.
+Pronto. E aí poderíamos ir calculando
+sucessivamente. Primeiro calculamos o
+S0, uma conhecido o S0, calculamos o S1
+e assim sucessivamente calculamos todos.
+Pronto, agora o que vamos ver é que nós
+podemos calcular todos os S de tacada
+sem precisarmos de saber os SOS
+anteriores. OK? Nós podemos calcular
+tudo de uma só vez. E no fundo é isso
+que nos explica este tutorial aqui que
+está no YouTube do Mat Log. Porque isto
+é um sistema de equações
+cujas incógnitas é o S0, S1, S2, S3, S4
+e assim sucessivamente até ao nível que
+nós queiramos.
+Tudo o resto é conhecido em função dos
+ns, em função das potências do n aqui. E
+portanto, e é isso que está aqui
+expresso, nós temos aqui o sistema de
+equações,
+onde as incógnitas são os SS, OK? e
+temos na no formato matricial e temos
+aqui a matriz com os termos do triângulo
+Pascal alternados, com o sinal
+alternado. Pronto. E agora o que ele tá
+a dizer aqui é que OK, agora para
+resolver para S, eu nunca dei um
+tutorial de
+aravinear com com resolução de matrizes
+e determinantes, etc, etc. Mas pronto,
+paciência. Vou supor que vocês, maior
+parte de vocês, saiba, saiba o que é
+isto é e saiba resolver sistemas de
+equações com com eh com o conceito da da
+matriz inversa. OK? Pronto. Então, claro
+que há várias formas de resolver esses
+sistemas. Vocês se recordam o método o
+método de de Gordon Jordan [roncando]
+Gus, salvo o erro. Enfim, há muitas
+maneiras de resolver, mais ou menos
+sistematizadas
+e há a forma talvez mais poderosa, que é
+calcular a inversa da matriz. E,
+portanto, aplicamos aqui a matriz
+inversa e dá-nos de imediato as
+soluções. Pronto, e é o que está aqui.
+Claro que temos que calcular a matriz
+inversa. Não vou agora calcular isso,
+não vale a pena. Isso seria outro tema,
+mas vamos a um sítio qualquer
+computacional ou faramf calculamos a
+matriz inversa. Pronto.
+Eh, e portanto aqui é o que está aqui.
+Portanto, aqui temos esta matriz passa
+para aqui
+e é a inversa.
+Pronto. Sim, senhor. Desta forma, desta
+forma conseguimos
+h temos a matriz inversa
+e então agora fazendo o produto da o
+produto,
+obtemos detacada obtemos detacada
+todas as expressões
+todas as expressões,
+todas as soluções para os Ss. Aqui temos
+o nosso S0 que já conhecíamos, o nosso
+S1, o S2.
+o S3 e o S4. OK? Pronto, está ordenado
+por ordem crescente da potência de N.
+Sim, senhor. OK.
+E agora
+temos aqui um rearranjo. Aqui nesta
+outra tabela. Nesta tabela aqui,
+nós temos um rearranjo em que agora
+reordenamos e ordenamos aqui primeiro
+por ordem crescente DN.
+Pronto. Sim, senhor. Porquê? Porque
+desta forma e salta à vista um padrão.
+Eh, deixa-me aqui aumentar isto aqui um
+bocadinho.
+Deixa-me aqui aumentar aqui um
+bocadinho.
+OK.
+OK?
+Portanto, desta forma,
+sim, senhor. Reordenando desta forma,
+salta à vista.
+O padrão aqui fica mais forte,
+OK? Porque agora o padrão fica aqui
+efetivamente
+aqui é igual a n seguir 1/2,
+ou seja, sim senhor. Na segunda coluna
+fica sempre 1/io, na terceira fica um
+termo que também existe uma forma para
+ela. OK?
+Depois fica sempre zeros. E agora a
+partir de agora dá-se uma propriedade
+curiosa que ficam os zeros ficam
+alternados. Coluna sim, coluna não,
+aparece tudo a zero. Sim, senhor. Bom,
+isto na altura isto foi estudado, foi
+estudado
+e por um matemático Bernubi, penso que é
+o Iolan Bernubi, se se não me engano.
+Acho que é, acho que eram dois irmãos
+já. Acho que era havia o Jacob Bernubi e
+e ao Bernubi.
+Pronto. E agora não quero estar a errar,
+mas pronto, investiguem isso. E
+portanto, este matemático descobriu
+que havia um determinado padrão
+e que esses números que aparecem aqui
+nesta diagonal, este 1, o 1/, o 1/6, o
+0, -130, etc. E ele chamou-lhe números
+de Bernubi.
+Chamou-lhe números de Bernubi. OK.
+Porque eu descobriu que dessa forma
+uma coisa que a nós não saltaria aqui à
+vista.
+Portanto, para o comum dos mortais, isto
+não não claramente que não saltaria à
+vista, mas ele saltou-lhe à vista que
+havia uma relação para todas estas
+colunas. Imaginem aqui esta esta coluna
+1/6, 1/4, 1/3, 51. Isto à partida nós
+não vemos aqui nenhum padrão assim à
+primeira vista não é uma coisa assim
+trivial
+reparou que
+nesta relação que aqui está
+que pondo em evidência aqui este este
+fator aqui o a primeira coluna, o 1 1/25
+OK?
+Então, fazendo isso, ele reparou que
+todos os outros elementos que estavam na
+coluna, por exemplo, este aqui de 1/6,
+pondem evidência aqui o 1/3,
+eh, fica aqui,
+fica ele podia exprimir este 1/6 em
+função do do número de Bernuli.
+O, portanto, o número de Bernuli aqui é
+1/6,
+OK? que é o que é o é o é o B2.
+Onde é que ela está? Portanto, ela está
+aqui. É este aqui.
+Este aqui. Vamos nos focar, por exemplo,
+aqui neste.
+Este aqui. Pronto. Temos número de Bern
+2. É 1/6.
+Pronto. E este 3 corta com aquele 1/3 e
+fica 1/6 e e tá correto que é o 1/6 que
+eu tenho aqui.
+Ok? Pronto. E assim sucessivamente. Ou
+seja, estes números que pareciam não ter
+lógica nenhuma, por exemplo, esta coluna
+1/6, 1/4, 1/3, etc.,
+ganha ganha um padrão
+quando expressos em termos de do número
+de Berni. Neste caso 1/6 que tá no topo
+da coluna. Quando expressos em termos de
+1/6,
+explicitando aqui 1/6,
+vai aparecer aqui
+estes fatores que são os fatores do
+triângulo de Pascal a multiplicar o
+número de Bernubi.
+Pronto, convençam-se que isto é verdade
+ou vejam vejam o este vídeo na internet
+e vai ficar claro. Pronto. E a verdade é
+que efetivamente estas colunas que
+pareciam não ter lógica nenhuma, têm uma
+lógica.
+Estas, todas estas sequências obedecem
+um padrão desde que é explicitando o
+número de Bernubi e sendo que o número
+de Bernub é o primeiro. Pronto, agora
+dizem: "Bom, e depois há alguma fórmula
+para o número de Bernubi?"
+Eh, eu penso que o o penso que não
+existe nenhuma fórmula.
+Eh, o que o que existe, já vamos ver a
+seguir, o que existe é que eles podem
+ser todos resolvidos também de atacada
+através de um sistema de equações, OK?
+Eventualmente também podem ser
+calculados de uma forma recursiva, com
+base nos anteriores, já não me recordo.
+Pronto, mas é o que é os números de
+Bernubi, porque quando nós olhamos aqui
+para os números de Bernubi, para a
+partida não tem lógica nenhuma, não é?
+Repara, aparece uns numéricos, depois
+aparece uns gerersos, depois a onda a
+onda aparece um negativo, depois aparece
+outra vez um geros. Quer dizer, isto
+não, à partida não tem lógica nenhuma,
+mas a verdade é que são números muito
+muito poderosos que aparecem em muitas
+áreas da matemática, OK? E toda uma
+série de formas, como por exemplo estas
+dos somatórios, quando expressas em
+termos dos números de Bernubi, pois
+todas as formas de repente que pareciam
+caóticas ganham e passam a ter um padrão
+perfeitamente sistemático. OK? Reparem
+aqui a primeira coluna, número de Bern
+1, o 2, o 3, o 4 e assim sucessivamente.
+E aqui com os números de Pascal 1 3 o 1
+4 6 4. Pronto. Sim senhor. Pronto. De
+agora como é que calculamos os números
+de Bernubi? Pronto, vamos dizer assim:
+"Bom, estas formulas são universais e
+estão corretas. São os números, são as
+formas para os somatórios, OK?
+Então, em particular, elas são corretas
+se eu calcular os somatórios apenas com
+um termo, ou seja, para n = 1. Se eu
+calcular para n = 1,
+OK? É, é o que vamos ver agora a seguir.
+Vou fazer aqui um print screen,
+OK?
+E, portanto, vai-me dar aqui.
+Ora,
+deixa-me fazer aqui um print screen.
+OK. Sim, senhora.
+Então, o que é que nós temos aqui
+para n = 1, por exemplo, s
+dá 1. Pronto. E então fica aqui com a
+equação
+B0 = 1, que tá correto que [roncando]
+que que B0 = 1.
+Para n = 1 aqui em s1
+fica os ns, os n as potências de n fica
+sempre um. Então ficou
+a 1/2 de B0
++ 2b1
+é igual a
+para n igual para n = 1.
+Portanto, para n = 1,
+vamos ver ali. Ora bem, portanto fica
+para n = 1 tem a segunda equação.
+Ora,
+S1,
+S1
+para N = 1.
+Ah, OK. Já estou a ver o que é que tá
+aqui a acontecer. Portanto, estes termos
+aqui, o o passou para aqui, o dois
+passou para aqui, portanto fica 2s1.
+2s1.
+OK?
+Sim, senhora.
+Mas o o os SS é sempre um
+porque o S1 para n igual 1 o primeiro
+termo é sempre 1 e 1 quadrado é 1 e 1³ é
+1 e 1 à qu portanto aqui é sempre 1 para
+n = 1 todos estes ss têm que dar um
+pronto e estes denominadores passam para
+a portanto isto fica
+a equação fica que 2
+é igual a b0
++ 2b1.
+Pronto. E a terceira equação ficará que
+3
+é igual a b0
++ 3b1
++ 3b2.
+Sim, senhor. Pronto. Então são as
+equações que nós temos aqui. Aqui temos
+esta. Esta aqui é este dois. Portanto,
+esta, esta é esta.
+Este 2 é igual aqui, ó, 1 e este 2 e
+aqui o 3 é 1 3 1 3 3. Pronto. Portanto,
+dá este sistema
+e cuja resolução para os números de
+Bern, portanto, é será calcular a matriz
+inversa aqui,
+multiplicando aqui. OK? Pronto, é como
+digo, vejam o vídeo que isso é muito
+mais bem explicado no vídeo e isto
+permite calcular os números de
+Bernubacada. OK? Sim, senhora.
+Ora bem, h,
+números de Bernubi, como vos disse, vão
+aparecer em n situações. Em n situações.
+Eu vou só vouvos só mostrar aqui um
+exemplo
+que que nós vimos no meu tutorial
+anterior, era o problema da basel, OK?
+Pronto, onde nós calculamos a soma dos
+inversos dos quadrados. OK?
+Então, vou só pôr-vos aqui um print
+screen,
+OK?
+Pronto. Onde temos que efetivamente
+efetivamente o problema de base é
+revisitado,
+OK?
+Que nós tínhamos visto no tutorial
+anterior esta expressão,
+OK? das expansões em série, série de
+Baseb e série de Taylor. Pronto,
+estouvos só mostrar isto agora aqui por
+curiosidade, não vou tentar neste nem
+não vou tentar demonstrar isto,
+[roncando] mas
+efetivamente é só para um exemplo como
+os números de Bernui aparecem em n
+situações
+e realmente também aparece aqui porque
+para as vimos que isto estava
+relacionado com a função Z de Rman
+e efetivamente para potências pares
+potências pares o inverso os quadrados,
+o inverso das quartas potências, etc,
+etc. Existe uma fórmula, existem fórmula
+e e existe uma uma forma genérica, OK? E
+essa e essa forma genérica é [roncando]
+esta que está aqui.
+Pronto, onde vai aparecer aqui um número
+de Bernubi.
+Aqui aparece aparece uma coisa
+aparentemente paradoxal que aparece aqui
+um sinal de menos. Então, como é que uma
+soma de coisas positivas de vez em
+quando pode dar menos? Pronto, mas é que
+este menos é para anular o caso em que o
+número de Bernubi dá negativo. Alguns
+números de Bernubi dão negativos. E,
+portanto, que é este exemplo que eu fiz
+aqui, eu calculei para K igual a 2. E
+vamos calcular este pi qu 90 avos.
+Pronto. Em que e aqui dá negativo, mas o
+o número de Bernubi
+e B4, o quarto número de Bernubi,
+efetivamente aqui vemos que B4 = -1/30.
+Pronto. E, portanto, menos por menos tem
+que dar mais. E, portanto, isto dá
+correto. Dá o pi qu 90. OK. Bom, sim,
+senhor.
+Ora,
+mas eu tinha aqui uma fórmula. Eu devo
+devo ter perdido essa fórmula porque eu
+eu tinha uma fórmula.
+OK. Eu vou tentar fazer aqui pausa para
+tentar recuperar essa forma que é a
+forma geral para qualquer somatório de
+qualquer ordem. OK?
+Ora,
+fazer aqui uma pausa a ver se descobro
+onde é que eu pus isso.
+OK?
+São, sem dúvida existem várias formas,
+mas não não vale a pena.
+Eh,
+deixa-me espelhar aqui isto.
+Pronto. Não, não, não vale a pena porque
+nós nós já temos aqui as fórmulas. As
+fórmulas são estas que eu vou usar. E
+vamos agora vou-vos mostrar isto
+implementado computacionalmente aqui na
+linguagem R. Pronto, a forma que vamos
+usar é esta.
+Portanto, para que a forma já está aqui.
+Portanto, uma forma para um somatório de
+potências de ordem k vai ser vai dar 1
+sobre k + 1. E depois tem uma sequência
+de produtos que são os os números de
+Pascal, do triângulo de Pascal,
+os números de Bernubi e as potências de
+N. OK? São três termos a dividir por k +
+1. Pronto, é isto. E portanto vamos ver
+agora.
+Vamos passar aqui agora para terminar
+este tutorial. Vamos passar aqui um
+bocadinho à linguagem R.
+Eh, não deixem de ver a minha playlist
+de programação em R, se bem que a minha
+playlist é mais vocacionada para as
+áreas de de de inteligência artificial.
+Eh, mas em todo o caso, é como vos digo,
+eh, para mim a linguagem R é a mais user
+friendly hoje em dia da atualidade.
+Gosto muito mais de trabalhar em RRA do
+que do que em Python. Mas pronto, mas
+isto é aspectos que vejam a minha
+playlist linguagem R e verão e ficarão
+mais atualizados sobre isso. Bom, mas
+aqui vou-vos só mostrar, portanto, o
+seguinte. O que é que eu tenho aqui? Eu
+tenho, eu tenho aqui uma função, eu
+tenho aqui um, para já tenho aqui o meu
+package
+que é o que, que que é o miniunctions.
+Deixa-me aqui aumentar isto aqui um
+bocadinho. OK, pronto, eu criei um
+package das minhas funções.
+O package é mini functions. Tenho lá uma
+função que é o get function polynom.
+Portanto, o que é que isto faz? Isto faz
+se eu der um conjunto de xs,
+se eu der um conjunto de valores, por
+exemplo, eh, para x = 1, 2 e 3,
+e
+h der o as somas,
+eu vou eh obter
+o polinómio. Vou-vos mostrar aqui, já
+agora, vou-vos mostrar aqui um exemplo.
+Pronto, eu vouvos mostrar aqui um
+exemplo, imaginando.
+Pronto. E esta função esta função ela
+devolve uma função. Vou pôr aqui f ela
+devolve uma função.
+OK?
+Isto é uma das da das potencialidades da
+linguagem R. Paradigma funcional. Ela
+pode devolver uma função.
+Pronto. Então tenho aqui. O que é que eu
+vou dizer assim? Olha, imaginem,
+imaginem que eu queria, lembram-se há
+bocado quando eu disse que tinha que
+tinha um sistema
+logo aqui no início para calcular uma
+fórmula.
+Por exemplo, imaginem que eu queria
+calcular esta fórmula,
+OK? É um é um é um polinómio de grau
+dois, tem três incógnitas. Pronto, então
+eu preciso de três equações. Pronto.
+Então, o que é que eu vou fazer? Eu vou
+fazer assim, olha, eu quero, se eu puser
+os os x de 1 a 3, eu estou à procura de
+um polinómio
+em que
+para n = 1, 2 ou 3, para n = 1,
+vai ter que me dar
+um porus. Isto é espetacular, mas é
+ele pensa que
+ora um, ele pensa que isto é os
+quadrados. OK.
+Portanto, para n = 1 vai ter que dar 1.
+Para n = 2 vai ter que dar 3.
+Eu pensa que eu quer que eu quero
+calcular os quadrados, o copilot que tá
+integrado aqui
+e e com n = 3 vai ter que me dar a soma
+de 1 + 2 + 3, portanto vai ter que me
+dar 6. Pronto,
+mas isto não é só válido para para power
+sums. Isto é válido para para qualquer
+função. Eu posso eu eu poderia criar
+aqui uma função qualquer. Se eu tivesse
+uma função mistério, se eu tivesse aqui
+uma função mistério, pronto, não vale a
+pena agora estar a fazer e x5 mais +
+mais + 3x² + 10. qualquer função,
+qualquer, desde que seja polinomial,
+eu posso, desde que eu conheça, um um
+uns quantos
+umas quantas relações, uns valores de x
+e quais os outputs que me dá, até eu
+posso resolvendo o sistema de equações,
+ir determinar qual a função polinomial
+que gera aqueles valores. Pronto.
+Pronto, vamos, vamos ver isto aqui que é
+mais fácil ver do que Pronto, eu aqui
+devolve uma função, eu vou ver.
+Eh, e efetivamente é a função já nossa
+conhecida, o n² me + n. Pronto, é isto
+aqui. Pronto, portanto, este é o get
+function polynome, é a função que eu
+tenho e que não serve só para power
+sums, serve para qualquer coisa. Pronto.
+O que eu agora fiz aqui é que criei aqui
+esta função aqui de mais alto nível, get
+power sum, que internamente recorre ao
+get function polinóm e eu próprio
+construo os primeiros valores e as e as
+primeiras somas. Pronto,
+não vou dar agora aqui um curso de
+linguagem R, não importa, mas é só para
+vocês darem um amiré e verem as
+potencialidades disto. Pronto, a
+primeira coisa que vou criar aqui é o
+S0. Olha, dá-me a função S0, get power
+sum. da ordem zero. OK? E ele dá
+e o S0 quanto vale? É igual a n, já
+sabemos. Pronto, cá está aquele n que
+nós já vimos aqui hoje no tutorial.
+Dá-me s de 100. É, portanto, dá n é
+igual a 100. É 1 + 1 + 1 + 1 100 vezes.
+Pronto.
+Pronto. Agora dá-me o power sum de 1.
+É o E agora dá-me a soma dos primeiros
+números inteiros.
+50 50 que tá correto e assim
+sucessivamente. Dá-me o power sum de 2,
+OK? E de três, OK? Pronto. Sim, senhor.
+Agora é, portanto, isto foi usando o
+sistema de equações, OK? E agora vamos
+usar o meta alternativo, que é esta
+forma que vimos no tutorial com os
+números de Bernubi.
+Portanto, para calcular os números de
+Bernubi, eu uso e os e para calcular os
+os números de Pascal, eu uso aqui um
+package. Não vale a pena estar a
+reinventar a pólvora. O
+portanto o a linguagem R é muito rica,
+tem imensos packages onde já tem tudo e
+um par de botas, onde permite fazer tudo
+e mais alguma coisa. E, portanto,
+naturalmente que já teria aqui os
+números de Bernubi. OK.
+Eh, e portanto eu aqui tenho
+números de do número de Bernubi. E agora
+digo, olha, eh, deixa testar a ver se
+isto está correto. Dá-me o número de
+Bernubi de 0 até 10. Portanto, já
+sabemos que os os números de Bern,
+portanto, eles começam em zero.
+Exatamente.
+Então, dá-me aqui os números de Bern de
+de 0 até 10.
+Pronto, cá estão eles. Portanto, ele
+dá-me aqui. Pronto, tá correto. 1 1/2 1
+0 - 1 30. OK. Eu aqui eu aqui uso uma
+uma técnica que é o é big big rational.
+Pronto, isto é uma técnica para ele
+manter os os valores intermédios em
+racionais e não tentar e não tentar
+fazer a divisão, porque se tentar fazer
+a divisão introduz erro. Ficamos com
+dízimas e, portanto, introduz erro.
+Pronto, o R é, como vos digo, é
+tremendamente poderoso e o Python
+eventualmente também será, é como, mas
+eu que não conheço muito Python e,
+portanto, gosto mais de trabalhar com R
+e portanto e o R permite tudo, tudo e
+mais alguma coisa a nível de podemos
+trabalhar com números que da de
+altíssima precisão, tanta quanto
+queiramos. OK? Pronto. Então temos aqui,
+sim senhor. Tenho aqui os números de
+Bernubi. Agora tenho aqui os números de
+Pascal.
+Tenho aqui o Pascal Triangle.
+Eh, e deixa estar. Ora, dá-me, por
+exemplo, e os números de Pascal Triangle
+de ordem 2, que é o 1 2 1,
+tá correto? O 1 2 1. E de ordem 3
+1 3 1. Pronto, tá correto. E aqui tenho
+os números de Pascal. Pronto. Então
+agora a partir daqui eu construí a a
+power sum universal que é esta de acordo
+com de acordo com esta fórmula que
+estávamos aqui a ver, o power su
+universal divido por k + 1 e depois é o
+somatório destes produtos. Pronto. Então
+é o que temos aqui.
+Eu tenho um total. Eu acumulo o total.
+como o total e depois no final eu divido
+por k + 1. Pronto, eu no total eu
+devolvo o total a dividir por power mais
+1, que é o é o k + 1.
+E portanto aqui tenho o somatório e
+pronto, acrescento o número o número de
+Pascal, o número de Bernub
+e multiplica pela potência de n elevado
+a power mais 1 men i. Ok. Pronto. Sim,
+senhor.
+Eh, então já tenho aqui a função power
+sum e agora então já posso fazer
+detacada
+eh e mais rápido qualquer power sum. Por
+exemplo, o power sum de de potências de
+grau zero, os 100 primeiro elementos,
+portanto, vai- me dar 100.
+A seguir o power sum de 1 vai- me dar
+5050.
+A seguir 338 350, que tá correto? que
+era igual ao que eu obtive aqui. 338 350
+aqui algur já não sei onde
+aqui 338 35 e o power su 3.
+Sim senhor.
+OK. Eh, portanto, penso que vamos ficar
+por aqui nesta tutorial.
+Eh, foi o aqui foi consegui hoje algo
+realmente de de original que nunca tinha
+feito. Foi integrar aqui, integrar tudo
+aqui no Windows. E, portanto, posso,
+isso vai me permitir fazer tutoriais
+mais poderosos onde eu posso escrever no
+tablet
+e ao mesmo tempo posso usar e
+nomeadamente aqui o IDE da programação
+R, uma vez que não existe para Android.
+É pena. Eu já tentei várias vezes à
+procura a ver se eles disponibilizavam
+para Android, mas à partida não se
+consegue.
+Ainda, quer dizer, ainda não existe
+disponível, não é? E portanto, aliás, o
+Android tem essa lacuna. Pronto, o
+Android eh, e o quem diz o Android diz o
+do equivalente da Apple. Portanto, a
+nível de tablets, são muito limitados
+para na área da programação. Os IDs de
+programação não não existem.
+O mais que poderá existir é na cloud,
+não é? Alguma coisa, ideias na cloud,
+mas pronto, quis mostrar aqui um
+mostrar-vos aqui um bocadinho da
+programação
+e para vos também dar-vos um bocado de
+inspiração em como isto é espetacular.
+Efetivamente
+podem explorar, vocês podem estudar
+qualquer matéria. E isto é uma técnica
+que eu uso muito, muito, muito, muito.
+Eu tenho só para vos dar aqui um láiré,
+por exemplo, só na área da matemática.
+Eu tenho aqui nt, mas deixa-vos mostrar
+aqui, por exemplo, na área da
+matemática, eu tenho aqui
+eh tudo e um par de botas, como estão
+aqui a ver, desde desde cálculo
+combinatório
+e base ao problem,
+OK? desde eh bases binárias e e outro
+tipo de bases.
+Eh, pronto, toda uma série de de de
+problemas de matemática,
+OK?
+Análises complexas,
+plots toda a maneira efetivo,
+cálculo combinatório de arrangements,
+equações diofantinas.
+Eh, sim senhor.
+Grafos, teoria de grafos, séries de
+Fibonacci e outras simbares.
+OK. A naves de Forrier.
+Ok.
+Metos de Monte Caro,
+simulações,
+etc, etc, etc.
+Eh, portanto,
+vamos ficar por aqui. Espero que tenha
+sido inspirador para vocês. E mas eu
+tinha que falar nos números de Bernubi,
+porque agora haverá temas e tutoriais
+futuros onde efetivamente os números de
+Bernub depois poderão aparecer mais
+vezes. E, portanto, eu tinha que que de
+alguma forma tinha que vos dar esta
+introdução. Eu também não tinha muita
+experiência nisto, sou sincero. Eu não,
+já tinha ouvido falar nisto, mas não,
+pronto, não tinha e ainda não tenho.
+Isto são temas muito complexos os
+números de Berni.
+Ah, e de facto, mas pronto, mas não há
+dúvida nenhuma que eles aparecem em anes
+situações.
+Vimos aqui o caso do problema de Basel,
+onde eles aparecem nas formas
+e vão aparecer agora futuramente que eu
+vou fazer mais tutorial.
+E e pronto, despeço-me, espero que
+tenham gostado e até uma próxima
+oportunidade.
+

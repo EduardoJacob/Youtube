@@ -1,0 +1,1543 @@
+0:00:02.280,0:00:05.799
+Ora, sejam bem-vindos a mais um
+
+0:00:03.679,0:00:07.319
+tutorial.
+
+0:00:05.799,0:00:11.639
+Ora, hoje vamos então ver o teorema
+
+0:00:07.319,0:00:13.920
+fundamental do cálculo, OK?
+
+0:00:11.639,0:00:16.119
+H, portanto, como as derivadas
+
+0:00:13.920,0:00:19.199
+praticamente já
+
+0:00:16.119,0:00:21.080
+acabamos tudo, enfim, e matemática não
+
+0:00:19.199,0:00:23.599
+tem fim, acabamos tudo assim, o
+
+0:00:21.080,0:00:26.960
+fundamental da derivação, há muitas
+
+0:00:23.599,0:00:28.920
+áreas e também não resolvemos problemas
+
+0:00:26.960,0:00:32.000
+de otimização, não entramos na nessa
+
+0:00:28.920,0:00:33.840
+área mais prática, mas pronto, mas hoje
+
+0:00:32.000,0:00:37.360
+vamos ver aqui o o teorema fundamental
+
+0:00:33.840,0:00:40.360
+do cálculo, OK? e vai ser o uma
+
+0:00:37.360,0:00:42.520
+introdução à primitivação e à e à
+
+0:00:40.360,0:00:45.520
+integração.
+
+0:00:42.520,0:00:48.280
+OK? [roncando] Ora bem, então o que é
+
+0:00:45.520,0:00:51.520
+que nós temos aqui?
+
+0:00:48.280,0:00:51.520
+Vamos ter
+
+0:00:53.399,0:00:58.559
+vamos ter aqui, vou vou vou fazer aqui
+
+0:00:55.000,0:00:58.559
+um sistema de eixo
+
+0:01:00.359,0:01:03.359
+XY.
+
+0:01:03.680,0:01:08.680
+OK.
+
+0:01:05.119,0:01:12.360
+E vamos considerar aqui uma uma função
+
+0:01:08.680,0:01:12.360
+y = f(x).
+
+0:01:12.759,0:01:17.920
+Sim, senhor.
+
+0:01:14.920,0:01:17.920
+Ora,
+
+0:01:18.479,0:01:21.759
+sim, senhora.
+
+0:01:22.280,0:01:26.759
+O que é que isto significa?
+
+0:01:24.680,0:01:28.640
+Significa que num ponto não dá do ponto
+
+0:01:26.759,0:01:31.640
+A, eu posso perguntar qual o valor da
+
+0:01:28.640,0:01:35.880
+função dado do ponto A,
+
+0:01:31.640,0:01:35.880
+que OK? Que que é igual a F de A?
+
+0:01:37.520,0:01:44.840
+Sim, senhor.
+
+0:01:40.680,0:01:46.560
+E num dado ponto B.
+
+0:01:44.840,0:01:50.040
+Sim, senhor.
+
+0:01:46.560,0:01:54.840
+Ora bem, vamos imaginar
+
+0:01:50.040,0:01:54.840
+agora que eu quero calcular a área
+
+0:01:55.360,0:02:02.000
+subentendida debaixo desta curva y =
+
+0:01:57.719,0:02:05.119
+f(x) entre a e b. OK?
+
+0:02:02.000,0:02:05.119
+Sim, senhora.
+
+0:02:06.759,0:02:09.520
+OK,
+
+0:02:08.381,0:02:12.966
+[roncando]
+
+0:02:09.520,0:02:14.879
+vamos. Eu quero calcular esta área.
+
+0:02:12.966,0:02:16.879
+[limpando a garganta]
+
+0:02:14.879,0:02:18.640
+Para isso, vou imaginar, mas eu quero
+
+0:02:16.879,0:02:20.920
+isto de uma forma genérica, não é? Entre
+
+0:02:18.640,0:02:24.080
+um A e B específico.
+
+0:02:20.920,0:02:26.599
+Ou seja, o que eu quero é,
+
+0:02:24.080,0:02:28.599
+vamos imaginar,
+
+0:02:26.599,0:02:30.440
+para já convém chamar a atenção do
+
+0:02:28.599,0:02:32.120
+seguinte.
+
+0:02:30.440,0:02:35.879
+Eu
+
+0:02:32.120,0:02:37.920
+tenho aqui, por exemplo, no ponto A, eu
+
+0:02:35.879,0:02:40.760
+posso perguntar qual o valor da função f
+
+0:02:37.920,0:02:43.360
+no ponto A? Sim, senhor. É a ordenada.
+
+0:02:40.760,0:02:44.840
+OK, faz sentido.
+
+0:02:43.360,0:02:49.920
+Mas se eu tiver aqui um determinado
+
+0:02:44.840,0:02:49.920
+ponto, um determinado ponto x0
+
+0:02:51.400,0:02:56.319
+x0,
+
+0:02:53.760,0:02:59.040
+eu não faz sentido nenhum. Eu não vou
+
+0:02:56.319,0:03:02.920
+perguntar qual é a área
+
+0:02:59.040,0:03:02.920
+a área em x0.
+
+0:03:03.319,0:03:09.760
+OK? Isso não existe obviamente porque
+
+0:03:06.599,0:03:12.599
+não não a área não faz sentido uma área
+
+0:03:09.760,0:03:14.000
+de um ponto.
+
+0:03:12.599,0:03:16.959
+Pronto, esta é a primeira nuance que nós
+
+0:03:14.000,0:03:19.799
+temos que ter essa noção
+
+0:03:16.959,0:03:23.159
+que se eu quero falar de uma área, a
+
+0:03:19.799,0:03:25.200
+área só faz sentido num intervalo.
+
+0:03:23.159,0:03:27.280
+Portanto, a área será sempre uma área
+
+0:03:25.200,0:03:29.000
+num intervalo. A área de um ponto não
+
+0:03:27.280,0:03:30.599
+existe.
+
+0:03:29.000,0:03:32.000
+OK?
+
+0:03:30.599,0:03:35.120
+Sim, senhor. Portanto, tendo em conta
+
+0:03:32.000,0:03:36.519
+essa essa esse cuidado, então o que vai
+
+0:03:35.120,0:03:39.319
+acontecer agora é que eu vou dizer
+
+0:03:36.519,0:03:43.000
+assim, eu vou imaginar que existe uma
+
+0:03:39.319,0:03:45.920
+função que me dá a área
+
+0:03:43.000,0:03:50.120
+em função aqui deste x0,
+
+0:03:45.920,0:03:50.120
+uma função de x. Portanto,
+
+0:03:50.239,0:03:55.879
+eu vou imaginar que existe uma função a
+
+0:03:56.920,0:04:01.239
+e que essa função, por exemplo, se eu
+
+0:03:58.439,0:04:03.000
+aplicar a x0, o que é que significa? Não
+
+0:04:01.239,0:04:04.360
+é a área de x0, que isso não faz sentido
+
+0:04:03.000,0:04:06.840
+nenhum.
+
+0:04:04.360,0:04:08.680
+É, vai ser a área. Eu vou considerar que
+
+0:04:06.840,0:04:10.400
+é a área desde um determinado ponto
+
+0:04:08.680,0:04:11.840
+inicial,
+
+0:04:10.400,0:04:13.360
+porque a área só faz sentido num
+
+0:04:11.840,0:04:16.040
+intervalo.
+
+0:04:13.360,0:04:17.440
+Portanto, eu vou dizer, eu vou imaginar
+
+0:04:16.040,0:04:20.040
+que existe uma função. Eu não sei se
+
+0:04:17.440,0:04:23.720
+existe, mas mas vamos deduzir e vamos
+
+0:04:20.040,0:04:27.720
+demonstrar que sim, que existe.
+
+0:04:23.720,0:04:30.680
+Já há uma função, a função de x, que me
+
+0:04:27.720,0:04:34.199
+dá a área desde um ponto arbitrário
+
+0:04:30.680,0:04:39.199
+algures inicial num intervalo.
+
+0:04:34.199,0:04:43.039
+Portanto, a dex0 é será igual à área
+
+0:04:39.199,0:04:45.639
+a área no intervalo
+
+0:04:43.039,0:04:48.440
+no intervalo
+
+0:04:45.639,0:04:50.320
+entre um ponto
+
+0:04:48.440,0:04:52.240
+arbitrário,
+
+0:04:50.320,0:04:54.000
+pode ser um um ponto qualquer inicial,
+
+0:04:52.240,0:04:57.280
+pode ser menos infinito, supondo que o
+
+0:04:54.000,0:04:59.360
+domínio df seja de menos infinito é é a
+
+0:04:57.280,0:05:03.080
+mais infinito.
+
+0:04:59.360,0:05:05.479
+o domínio da função f,
+
+0:05:03.080,0:05:07.560
+porque eu quero a a função área vai
+
+0:05:05.479,0:05:09.840
+estar relacionada com f, porque eu quero
+
+0:05:07.560,0:05:11.600
+a área subordinada debaixo da curva f.
+
+0:05:09.840,0:05:14.120
+Por isso é que eu estou a dizer que
+
+0:05:11.600,0:05:18.319
+então ela ela está subordinada também ao
+
+0:05:14.120,0:05:20.080
+domínio df, OK? Se o domínio df começa
+
+0:05:18.319,0:05:21.639
+num ponto inicial, pois eu só posso
+
+0:05:20.080,0:05:24.000
+calcular a área começando nesse ponto
+
+0:05:21.639,0:05:26.360
+inicial. Portanto, vamos imaginar que o
+
+0:05:24.000,0:05:29.160
+domínio de f é R.
+
+0:05:26.360,0:05:31.080
+Então eu digo assim, seja há uma função
+
+0:05:29.160,0:05:34.000
+que me dá a área no intervalo entre
+
+0:05:31.080,0:05:37.319
+menos infinito e x0. Assim sim que isso
+
+0:05:34.000,0:05:41.240
+já isto já faz sentido.
+
+0:05:37.319,0:05:43.080
+Isto já faz sentido. Portanto, seja há
+
+0:05:41.240,0:05:47.199
+uma função que me dá uma área num
+
+0:05:43.080,0:05:49.600
+intervalo. OK? Sim, senhora.
+
+0:05:47.199,0:05:52.240
+Vamos imaginar que, por exemplo, a área,
+
+0:05:49.600,0:05:54.440
+essa função calculada aqui no ponto x0
+
+0:05:52.240,0:05:56.680
+da armaia,
+
+0:05:54.440,0:05:59.840
+da armia aqui
+
+0:05:56.680,0:06:02.600
+a área, pronto, desde um menos infinito
+
+0:05:59.840,0:06:07.400
+aqui toda toda esta área até ao ponto
+
+0:06:02.600,0:06:10.560
+x0. Sim, senhor. Faz sentido.
+
+0:06:07.400,0:06:14.039
+Portanto, a fase seguinte é vamos
+
+0:06:10.560,0:06:16.720
+calcular qual seria a derivada
+
+0:06:14.039,0:06:18.919
+desta função a. Portanto, qual seria a
+
+0:06:16.720,0:06:21.840
+derivada caso exista essa função?
+
+0:06:18.919,0:06:24.000
+Existe, já sabemos que existe, que vai
+
+0:06:21.840,0:06:27.160
+ser a primitiva,
+
+0:06:24.000,0:06:29.880
+a primitiva de f.
+
+0:06:27.160,0:06:32.440
+Aí convém convém dizer o que é que é uma
+
+0:06:29.880,0:06:34.840
+primitiva. Pronto, a primitiva é a
+
+0:06:32.440,0:06:37.720
+função a a primitivação é a função
+
+0:06:34.840,0:06:40.840
+oposta da derivação.
+
+0:06:37.720,0:06:40.840
+A primitivação,
+
+0:06:43.840,0:06:50.639
+a primitivação
+
+0:06:46.440,0:06:50.639
+é operação inversa
+
+0:06:55.639,0:06:59.800
+inversa da derivação.
+
+0:07:01.479,0:07:05.400
+Podemos pensar na derivação
+
+0:07:06.120,0:07:10.000
+que como sendo uma função.
+
+0:07:10.840,0:07:13.840
+OK,
+
+0:07:14.919,0:07:21.720
+podemos pensar.
+
+0:07:17.960,0:07:23.879
+E a primitivação seria a função inversa,
+
+0:07:21.720,0:07:25.960
+OK? Portanto, a primitivação após
+
+0:07:23.879,0:07:29.599
+derivação
+
+0:07:25.960,0:07:29.599
+é igual à identidade.
+
+0:07:29.720,0:07:35.680
+Sim, senhora.
+
+0:07:32.000,0:07:38.560
+Portanto, vamos derivar
+
+0:07:35.680,0:07:41.039
+a função a
+
+0:07:38.560,0:07:43.960
+dx.
+
+0:07:41.039,0:07:48.280
+É o é vamos usar a definição de de
+
+0:07:43.960,0:07:51.360
+derivação limite quando h tende a zero
+
+0:07:48.280,0:07:55.440
+de a
+
+0:07:51.360,0:07:57.960
+de x + h
+
+0:07:55.440,0:08:00.720
+- a
+
+0:07:57.960,0:08:04.479
+de x
+
+0:08:00.720,0:08:08.360
+sobre h. Pronto. Sim, senhora.
+
+0:08:04.479,0:08:10.280
+Então o que é que isto vai ser
+
+0:08:08.360,0:08:12.120
+para um dado X?
+
+0:08:10.280,0:08:16.560
+qualquer. Vamos considerar para um dado
+
+0:08:12.120,0:08:18.400
+X0. Neste ponto X0 que temos aqui no
+
+0:08:16.560,0:08:20.960
+gráfico, vamos considerar um
+
+0:08:18.400,0:08:26.639
+intervalozinho pequenino, infinitésimo,
+
+0:08:20.960,0:08:26.639
+h, portanto, vou dizer este H aqui.
+
+0:08:29.080,0:08:34.240
+OK? Pronto. Então, esta fatia é uma
+
+0:08:31.919,0:08:37.800
+fatia,
+
+0:08:34.240,0:08:41.880
+esta fatia é uma fatia
+
+0:08:37.800,0:08:44.880
+que tem a a largura H.
+
+0:08:41.880,0:08:44.880
+OK.
+
+0:08:46.360,0:08:51.519
+Sim, senhora.
+
+0:08:49.200,0:08:56.880
+Portanto,
+
+0:08:51.519,0:08:59.360
+o que é que eu disse? Seja a função área
+
+0:08:56.880,0:09:02.320
+desde menos infinito, desde menos
+
+0:08:59.360,0:09:04.920
+infinito até x0.
+
+0:09:02.320,0:09:07.360
+Então aqui a de x + h é a área desde
+
+0:09:04.920,0:09:10.079
+menos infinito até aqui ao ponto. Este
+
+0:09:07.360,0:09:13.160
+ponto aqui
+
+0:09:10.079,0:09:16.279
+x0 + h.
+
+0:09:13.160,0:09:19.040
+Então aqui é igual a diferença.
+
+0:09:16.279,0:09:21.120
+A área desde menos infinito até x0 + h
+
+0:09:19.040,0:09:23.839
+menos a área que vai de menos infinito
+
+0:09:21.120,0:09:26.800
+até x0. Pois a diferença vai ser esta
+
+0:09:23.839,0:09:29.920
+área aqui laranja.
+
+0:09:26.800,0:09:32.800
+OK? Portanto, então aqui eu já sei, vai
+
+0:09:29.920,0:09:34.800
+dar esta diferença aqui no numerador. É
+
+0:09:32.800,0:09:38.560
+esta barrinha laranja. É uma barrinha
+
+0:09:34.800,0:09:40.079
+que tem de largura medângulo.
+
+0:09:38.560,0:09:44.600
+É um retângulo. Quando H for pequenino,
+
+0:09:40.079,0:09:46.959
+tende para um retângulo. H e a altura.
+
+0:09:44.600,0:09:49.440
+Bom, a altura é aqui, tenho aqui x0 é f
+
+0:09:46.959,0:09:51.800
+dex0.
+
+0:09:49.440,0:09:55.360
+ou neste caso genérico, temos x em vez
+
+0:09:51.800,0:09:55.360
+de x0, f(x).
+
+0:09:56.839,0:10:03.720
+Pronto, que é este retângulo,
+
+0:10:00.040,0:10:06.320
+é o área área é a base vezes a altura, a
+
+0:10:03.720,0:10:10.360
+base h vezes a altura f(x),
+
+0:10:06.320,0:10:13.120
+OK? Que eu tenho X aqui f(x), portanto
+
+0:10:10.360,0:10:17.720
+dividir por h
+
+0:10:13.120,0:10:19.560
+corta, corta e, portanto, dá f dex.
+
+0:10:17.720,0:10:21.240
+OK? Pronto. Então, o que nós estamos a
+
+0:10:19.560,0:10:25.760
+dizer,
+
+0:10:21.240,0:10:28.519
+OK? É que a área
+
+0:10:25.760,0:10:31.320
+é uma função. Eu estou à procura dessa
+
+0:10:28.519,0:10:34.000
+função a ver se existe. E o que eu estou
+
+0:10:31.320,0:10:35.680
+a deduzir é que, OK, essa função, caso
+
+0:10:34.000,0:10:38.279
+exista,
+
+0:10:35.680,0:10:41.639
+caso exista, a sua derivada há de ser
+
+0:10:38.279,0:10:43.200
+igual a f.
+
+0:10:41.639,0:10:46.480
+OK?
+
+0:10:43.200,0:10:49.680
+Portanto, caso exista a função área,
+
+0:10:46.480,0:10:53.399
+então se existir
+
+0:10:49.680,0:10:56.800
+dx, eu derivando essa função há há de me
+
+0:10:53.399,0:11:00.320
+dar a a curva f,
+
+0:10:56.800,0:11:02.240
+que é a curva f que que está a deimitar
+
+0:11:00.320,0:11:04.160
+a área.
+
+0:11:02.240,0:11:05.880
+Então agora o que é que acontece? Mas eu
+
+0:11:04.160,0:11:07.480
+ainda não tenho a. Eu tenho é a derivada
+
+0:11:05.880,0:11:09.160
+de a dizer que a derivada, mas eu quero
+
+0:11:07.480,0:11:11.920
+a.
+
+0:11:09.160,0:11:14.160
+Então tenho que aplicar a operação
+
+0:11:11.920,0:11:18.360
+inversa da derivação,
+
+0:11:14.160,0:11:22.839
+que é a primitivação, também chamada por
+
+0:11:18.360,0:11:22.839
+de integração indefinida.
+
+0:11:23.600,0:11:29.279
+E e eu posso aplicar assim,
+
+0:11:26.360,0:11:31.079
+também chamado de integral indefinido
+
+0:11:29.279,0:11:33.320
+ou também chamado em inglês
+
+0:11:31.079,0:11:36.720
+antiderivativo,
+
+0:11:33.320,0:11:38.680
+OK? Ou primitivação, ou seja o que for.
+
+0:11:36.720,0:11:41.680
+Normalmente primitivação
+
+0:11:38.680,0:11:45.040
+é quando queremos obter a expressão da
+
+0:11:41.680,0:11:47.279
+primitiva. E integração normalmente
+
+0:11:45.040,0:11:48.720
+aplica-se quando queremos calcular um
+
+0:11:47.279,0:11:50.720
+integral específico num determinado
+
+0:11:48.720,0:11:54.000
+intervalo.
+
+0:11:50.720,0:11:56.839
+Portanto, então aqui fica
+
+0:11:54.000,0:11:58.680
+a integração com a derivação. São as
+
+0:11:56.839,0:12:02.240
+operações inversas anulam-se. Então fica
+
+0:11:58.680,0:12:02.240
+aqui a de x
+
+0:12:03.839,0:12:09.200
+é igual
+
+0:12:06.320,0:12:11.440
+a primitiva de f(x)
+
+0:12:09.200,0:12:13.000
+que muitas vezes se representa por f
+
+0:12:11.440,0:12:14.639
+maiúsculo
+
+0:12:13.000,0:12:17.000
+f(x).
+
+0:12:14.639,0:12:19.519
+Pretendente representar que f maiúsculo
+
+0:12:17.000,0:12:22.959
+é a primitiva de f(x).
+
+0:12:19.519,0:12:25.279
+OK? Sim, senhora.
+
+0:12:22.959,0:12:27.880
+Portanto,
+
+0:12:25.279,0:12:31.000
+essa área que eu vos disse, que é uma
+
+0:12:27.880,0:12:32.800
+área desde menos infinito até um ponto
+
+0:12:31.000,0:12:37.199
+X,
+
+0:12:32.800,0:12:38.959
+é dado, esse valor é dado por aqui.
+
+0:12:37.199,0:12:40.959
+Vamos ver um exemplo concreto que fica
+
+0:12:38.959,0:12:44.680
+fica mais claro.
+
+0:12:40.959,0:12:44.680
+Vamos imaginar f(x)
+
+0:12:45.199,0:12:49.633
+igual a x².
+
+0:12:47.680,0:12:50.120
+Sim, senhora.
+
+0:12:49.633,0:12:51.839
+[roncando]
+
+0:12:50.120,0:12:54.079
+E agora quero estudar a área debaixo da
+
+0:12:51.839,0:12:57.279
+parábola.
+
+0:12:54.079,0:12:58.720
+Bom, então a primitiva,
+
+0:12:57.279,0:13:01.160
+nós ainda não demos nenhum tutorial
+
+0:12:58.720,0:13:03.079
+sobre primitivação, portanto
+
+0:13:01.160,0:13:05.839
+quem já sabe sabe, quem não sabe, pois
+
+0:13:03.079,0:13:08.959
+não não sabe primitivar. Pronto, mas eu
+
+0:13:05.839,0:13:11.360
+vou já vou escrever aqui quanto é. E,
+
+0:13:08.959,0:13:13.440
+portanto, e depois que é fácil comprovar
+
+0:13:11.360,0:13:16.160
+que é que é isso, é x, portanto, a
+
+0:13:13.440,0:13:18.079
+primitiva vai ser x³.
+
+0:13:16.160,0:13:20.120
+Pronto.
+
+0:13:18.079,0:13:22.240
+Eh, é fácil de demonstrar porque se eu
+
+0:13:20.120,0:13:25.079
+derivar f
+
+0:13:22.240,0:13:26.199
+dá o três baixa aqui, corta e fica x².
+
+0:13:25.079,0:13:29.560
+Portanto, não há dúvida nenhuma que a
+
+0:13:26.199,0:13:32.320
+primitiva de x² é x³.
+
+0:13:29.560,0:13:33.959
+OK? Portanto, isto representa a área?
+
+0:13:32.320,0:13:36.480
+Não, isto não, isto não representa a
+
+0:13:33.959,0:13:38.040
+área nenhuma.
+
+0:13:36.480,0:13:40.920
+É aquilo que eu vos disse, não não
+
+0:13:38.040,0:13:43.320
+existe a área de um ponto. Eu não vou
+
+0:13:40.920,0:13:46.240
+dizer, olha, a área a área de de no
+
+0:13:43.320,0:13:48.160
+ponto um é 1/, não, isso não faz sentido
+
+0:13:46.240,0:13:50.199
+nenhum.
+
+0:13:48.160,0:13:52.519
+OK? E portanto, é por isso é que eu
+
+0:13:50.199,0:13:54.880
+queria chamar a atenção dessa nuance.
+
+0:13:52.519,0:13:57.320
+Esta esta primitiva vai me permitir
+
+0:13:54.880,0:14:00.800
+calcular a área sempre e quando eu
+
+0:13:57.320,0:14:03.160
+calculo sobre um intervalo,
+
+0:14:00.800,0:14:05.000
+porque só assim faz sentido, porque não
+
+0:14:03.160,0:14:09.680
+há área de um ponto, isso não faz
+
+0:14:05.000,0:14:11.360
+sentido. Há área sempre de um intervalo.
+
+0:14:09.680,0:14:13.320
+Portanto, o que acontece é que quando eu
+
+0:14:11.360,0:14:15.279
+quero calcular a área debaixo da curva
+
+0:14:13.320,0:14:16.920
+f, por exemplo, quando eu quero calcular
+
+0:14:15.279,0:14:18.959
+a área
+
+0:14:16.920,0:14:21.759
+debaixo desta função, desta parábola
+
+0:14:18.959,0:14:25.399
+f(x), represente desta maneira, calcula
+
+0:14:21.759,0:14:26.800
+a área debaixo desta função entre os
+
+0:14:25.399,0:14:29.600
+pontos, por exemplo, vamos dizer entre o
+
+0:14:26.800,0:14:31.120
+ponto 1 e 2, OK? Aí sim que já vai fazer
+
+0:14:29.600,0:14:33.920
+sentido,
+
+0:14:31.120,0:14:36.600
+OK? E representa-se aqui com dx. E
+
+0:14:33.920,0:14:40.040
+porque é que se representa assim?
+
+0:14:36.600,0:14:43.800
+É fácil porque o porquê da da convenção
+
+0:14:40.040,0:14:45.880
+desta nomenclatura, porque antes de da
+
+0:14:43.800,0:14:48.040
+descoberta do dos integrais e das
+
+0:14:45.880,0:14:51.240
+primitivas, o que acontecia era que se
+
+0:14:48.040,0:14:53.279
+eu quisesse calcular esta área e eu não
+
+0:14:51.240,0:14:55.720
+não conhecia a teoria nem de derivadas,
+
+0:14:53.279,0:14:58.440
+nem de primitivas, nem de nada, o que se
+
+0:14:55.720,0:15:00.320
+fazia era uma aproximação
+
+0:14:58.440,0:15:02.120
+com pequenas fatias, com pequenos
+
+0:15:00.320,0:15:04.720
+retângulos.
+
+0:15:02.120,0:15:07.600
+Eu para calcular a área entre A e B,
+
+0:15:04.720,0:15:09.920
+entre A e B, eu, se eu quisesse calcular
+
+0:15:07.600,0:15:12.800
+a área,
+
+0:15:09.920,0:15:15.480
+a área,
+
+0:15:12.800,0:15:18.920
+a área de f(x),
+
+0:15:15.480,0:15:22.440
+de f(x), subordinada debaixo de f(x), no
+
+0:15:18.920,0:15:26.160
+intervalo entre a e b, o que eu ia fazer
+
+0:15:22.440,0:15:30.110
+era um somatório. Eu fazia um somatório,
+
+0:15:26.160,0:15:30.839
+OK? destas pequenas fatias
+
+0:15:30.110,0:15:34.759
+[roncando]
+
+0:15:30.839,0:15:38.399
+cujo cujo eh a base é h, mas que também
+
+0:15:34.759,0:15:40.040
+posso representar por dx porque porque
+
+0:15:38.399,0:15:41.240
+dx também é um infinito deimal.
+
+0:15:40.040,0:15:43.480
+Portanto, neste caso funciona como se
+
+0:15:41.240,0:15:47.360
+fosse h
+
+0:15:43.480,0:15:53.240
+um pequeno intervalinho dx, OK?
+
+0:15:47.360,0:15:55.920
+Eh, e portanto isto seria vezes
+
+0:15:53.240,0:15:59.279
+a altura f(x)
+
+0:15:55.920,0:16:01.959
+para cada x, OK?
+
+0:15:59.279,0:16:06.560
+E eh
+
+0:16:01.959,0:16:08.519
+quando os o x variava entre a e b,
+
+0:16:06.560,0:16:10.160
+OK?
+
+0:16:08.519,0:16:11.639
+E e portanto seria um conjunto de
+
+0:16:10.160,0:16:14.040
+fatiazinhas. Aqui não vou desenvolver,
+
+0:16:11.639,0:16:17.600
+mas cá no futuro faço faço algum
+
+0:16:14.040,0:16:19.920
+tutorial Oscar, até mesmo hoje e e faço
+
+0:16:17.600,0:16:22.880
+aqui um exemplo concreto de um de um de
+
+0:16:19.920,0:16:24.160
+um cálculo com um somatório.
+
+0:16:22.880,0:16:25.759
+Pronto, não interessa agora pôr aqui os
+
+0:16:24.160,0:16:27.240
+pormenores porque porque depois é a
+
+0:16:25.759,0:16:29.800
+variável muda e depois tenho tenho que
+
+0:16:27.240,0:16:31.800
+pôr aqui e tenho que desenvolver. Mas
+
+0:16:29.800,0:16:33.959
+pronto, mas isto só para vocês verem que
+
+0:16:31.800,0:16:36.560
+é porque efetivamente se eu quisesse
+
+0:16:33.959,0:16:39.000
+calcular uma área eu eu fazia um
+
+0:16:36.560,0:16:41.079
+somatório de retângulos e depois quanto
+
+0:16:39.000,0:16:43.279
+mais estreitinhos fossem os retângulos
+
+0:16:41.079,0:16:45.519
+que mais precisão me ia dar a área, como
+
+0:16:43.279,0:16:49.279
+vocês possam imaginar.
+
+0:16:45.519,0:16:51.240
+OK? Sim senhora.
+
+0:16:49.279,0:16:53.440
+Ora, e é por isso que este símbolo de
+
+0:16:51.240,0:16:56.160
+somatório, que é um sigma, depois
+
+0:16:53.440,0:16:57.720
+derivou para este outro sigma, porque
+
+0:16:56.160,0:17:00.519
+representa a mesma coisa, representa um
+
+0:16:57.720,0:17:03.160
+somatório, um somatório do valor da
+
+0:17:00.519,0:17:05.799
+função no intervalo entre 1 e 2, neste
+
+0:17:03.160,0:17:09.360
+caso, que isto representa uns pequeninos
+
+0:17:05.799,0:17:12.959
+retângulos, retângulos de largura dx e
+
+0:17:09.360,0:17:14.959
+cuja altura é f(x), que neste caso é x².
+
+0:17:12.959,0:17:17.799
+Pronto. Então isto é igual a,
+
+0:17:14.959,0:17:20.319
+primitivando, já sabemos que é igual a x
+
+0:17:17.799,0:17:22.919
+c
+
+0:17:20.319,0:17:24.439
+sobre 3.
+
+0:17:22.919,0:17:27.120
+Ok?
+
+0:17:24.439,0:17:28.480
+Mas agora tenho que calcular,
+
+0:17:27.120,0:17:32.400
+porque eu quero entre 1 e 2, eu tenho
+
+0:17:28.480,0:17:35.280
+que calcular o valor de f
+
+0:17:32.400,0:17:40.480
+entre entre 1 e 2,
+
+0:17:35.280,0:17:43.120
+ou seja, que me vai dar aqui 8/3
+
+0:17:40.480,0:17:45.960
+- 1/3.
+
+0:17:43.120,0:17:49.160
+Pronto, isto sim que faz sentido. Eu
+
+0:17:45.960,0:17:51.000
+calculei a área num intervalo. Reparem
+
+0:17:49.160,0:17:54.120
+que eu defini aqui a área como se fosse
+
+0:17:51.000,0:17:56.120
+de menos infinito até um dado ponto,
+
+0:17:54.120,0:17:58.720
+OK? Que é uma é uma é uma coisa
+
+0:17:56.120,0:18:04.159
+abstrata, não é verdade porque não é de
+
+0:17:58.720,0:18:06.720
+menos infinito, mas é é uma abstração.
+
+0:18:04.159,0:18:10.520
+OK?
+
+0:18:06.720,0:18:14.080
+Eh, portanto,
+
+0:18:10.520,0:18:16.720
+na verdade, eu não sei qual é a área.
+
+0:18:14.080,0:18:19.960
+O que eu quero chamar a atenção é que a
+
+0:18:16.720,0:18:24.320
+de X não dá a área. Eu a área eu não
+
+0:18:19.960,0:18:26.960
+sei, eu nunca sei qual é a área,
+
+0:18:24.320,0:18:30.520
+que só faz sentido falar em área se eu
+
+0:18:26.960,0:18:33.080
+tiver um num intervalo.
+
+0:18:30.520,0:18:35.559
+Portanto, a primitiva
+
+0:18:33.080,0:18:37.880
+permite-me calcular a área sempre e
+
+0:18:35.559,0:18:40.600
+quando eu eu considerar um intervalo,
+
+0:18:37.880,0:18:46.280
+apenas isso, nada mais. E então dá uma
+
+0:18:40.600,0:18:46.280
+área naquele intervalo 8/3 - 1/3 dá 7/3.
+
+0:18:46.840,0:18:50.559
+Pronto. OK.
+
+0:18:51.280,0:18:55.600
+Ah, enfim. Pronto, eu penso que todos
+
+0:18:53.960,0:18:58.640
+vocês tenham esta noção, todos que
+
+0:18:55.600,0:19:00.120
+tenham estudado eh primitivação e
+
+0:18:58.640,0:19:03.280
+integração, portanto, devem ter esta
+
+0:19:00.120,0:19:06.640
+noção. Pronto. Eh, só queria chamar a
+
+0:19:03.280,0:19:09.120
+atenção, OK, de onde é que isto vem?
+
+0:19:06.640,0:19:11.679
+Isto resulta aqui deste limite e que se
+
+0:19:09.120,0:19:13.960
+demonstra, OK, que,
+
+0:19:11.679,0:19:15.400
+portanto, que dx seria igual a f(x).
+
+0:19:13.960,0:19:17.240
+Pronto, esta é a expressão que temos
+
+0:19:15.400,0:19:19.000
+aqui realmente na forma fundamental do
+
+0:19:17.240,0:19:22.440
+cálculo.
+
+0:19:19.000,0:19:24.600
+O que está-me a dizer que o integral
+
+0:19:22.440,0:19:26.880
+que é a área
+
+0:19:24.600,0:19:29.520
+é é enfim, é a área porque f(x) neste
+
+0:19:26.880,0:19:31.120
+caso e [limpando a garganta] representa
+
+0:19:29.520,0:19:33.600
+uma curva, uma linha, portanto é uma
+
+0:19:31.120,0:19:35.799
+geometria, então é a área. Mas se se f
+
+0:19:33.600,0:19:37.520
+representasse qualquer outra coisa,
+
+0:19:35.799,0:19:40.080
+então o integral representaria outra
+
+0:19:37.520,0:19:42.919
+coisa. apresentaria um trabalho ou um
+
+0:19:40.080,0:19:44.600
+espaço percorrido ou se estivéssemos a
+
+0:19:42.919,0:19:47.480
+trabalhar na física ou portanto ou seja
+
+0:19:44.600,0:19:49.039
+o que for. OK? Pronto. Mas na geometria,
+
+0:19:47.480,0:19:51.840
+que é que é a analogia mais simples,
+
+0:19:49.039,0:19:53.919
+representa uma área.
+
+0:19:51.840,0:19:55.320
+E, portanto,
+
+0:19:53.919,0:19:57.480
+que está-me a dizer aqui, olha, para
+
+0:19:55.320,0:20:01.520
+calcular a área num intervalo entre a e
+
+0:19:57.480,0:20:03.400
+b da função f,
+
+0:20:01.520,0:20:06.480
+eu não tenho mais do que primitivar a
+
+0:20:03.400,0:20:09.000
+função f e calcular o f maiúsculo, que
+
+0:20:06.480,0:20:11.720
+seja a primitiva, a função cuja derivada
+
+0:20:09.000,0:20:13.720
+irá dar o f, e calcular a diferença do
+
+0:20:11.720,0:20:16.679
+valor dessa função primitiva entre os
+
+0:20:13.720,0:20:19.520
+extremos do intervalo, entre b a.
+
+0:20:16.679,0:20:23.200
+Pronto, é só isto, a forma fundamental
+
+0:20:19.520,0:20:23.200
+do cálculo, OK?
+
+0:20:24.120,0:20:27.200
+Ora, e penso que vamos ficar por aqui.
+
+0:20:25.840,0:20:28.720
+Eu estava a pensar se punha aqui alguns
+
+0:20:27.200,0:20:31.559
+exercícios, mas não vou deixar para um
+
+0:20:28.720,0:20:33.799
+outro tutorial. Noutro tutorial iremos
+
+0:20:31.559,0:20:36.600
+eventualmente tratar efetivamente do
+
+0:20:33.799,0:20:39.080
+método mais primitivo que é chamada
+
+0:20:36.600,0:20:41.640
+integração por exaustão, que é aquela
+
+0:20:39.080,0:20:43.400
+que realmente me permite calcular com
+
+0:20:41.640,0:20:45.880
+com
+
+0:20:43.400,0:20:48.080
+uma soma de de com um somatório de de
+
+0:20:45.880,0:20:51.159
+pequenos retângulos.
+
+0:20:48.080,0:20:54.240
+Eh, e é interessante também.
+
+0:20:51.159,0:20:55.760
+Eh, e pronto, e poderá haver situações.
+
+0:20:54.240,0:20:59.240
+Imaginem que eu tenho uma área sobre uma
+
+0:20:55.760,0:21:01.799
+curva e eu não consigo integrar.
+
+0:20:59.240,0:21:04.200
+OK? Há que chamar a atenção que integrar
+
+0:21:01.799,0:21:06.679
+é muito mais difícil do que derivar.
+
+0:21:04.200,0:21:08.840
+Atenção, vocês vocês que já tenham
+
+0:21:06.679,0:21:12.200
+estudado cálculo, pois saberão isso, não
+
+0:21:08.840,0:21:13.640
+é? Derivar é muitíssimo mais fácil.
+
+0:21:12.200,0:21:16.480
+Praticamente todas as funções são
+
+0:21:13.640,0:21:20.000
+derivadas, são deriváveis.
+
+0:21:16.480,0:21:23.480
+OK? de uma outra maneira, eh, são todas
+
+0:21:20.000,0:21:26.480
+elas são deriv deriváveis e algumas das
+
+0:21:23.480,0:21:29.200
+mais difíceis que nós vimos, como a a
+
+0:21:26.480,0:21:30.840
+potência exponencial,
+
+0:21:29.200,0:21:32.520
+eh, e mesmo assim também conseguimos
+
+0:21:30.840,0:21:35.039
+derivar,
+
+0:21:32.520,0:21:37.240
+mas o contrário, a primitivação, não, a
+
+0:21:35.039,0:21:40.159
+primitivação pode ser muitíssimo mais
+
+0:21:37.240,0:21:42.480
+difícil e seguramente há muitas funções
+
+0:21:40.159,0:21:46.159
+que não se conseguem primitivar,
+
+0:21:42.480,0:21:49.400
+OK? Portanto, haverá situações em que eu
+
+0:21:46.159,0:21:52.480
+não conseguindo primitivar, poderei usar
+
+0:21:49.400,0:21:55.120
+o método da da primitivação por por
+
+0:21:52.480,0:21:56.799
+exaustão. OK? Claro que hoje com
+
+0:21:55.120,0:21:58.799
+computadores não já não há problema
+
+0:21:56.799,0:22:00.600
+nenhum ou já há 1 técnicas de cálculo
+
+0:21:58.799,0:22:02.640
+numérico e fazem tudo e mais alguma
+
+0:22:00.600,0:22:06.039
+coisa com toda a precisão que que que
+
+0:22:02.640,0:22:07.760
+seja necessário. OK? O cálculo numérico
+
+0:22:06.039,0:22:09.880
+hoje, hoje tá um pouco a cair em desuso.
+
+0:22:07.760,0:22:11.880
+O cálculo numérico eram técnicas
+
+0:22:09.880,0:22:14.240
+antigamente quando não havia
+
+0:22:11.880,0:22:17.039
+computadores, mas era necessário fazer
+
+0:22:14.240,0:22:18.200
+um um determinado cálculo numérico
+
+0:22:17.039,0:22:20.400
+porque não se conseguia resolver um
+
+0:22:18.200,0:22:22.960
+problema analíticamente. Eh, e então
+
+0:22:20.400,0:22:26.440
+havia toda uma teoria, pois, para
+
+0:22:22.960,0:22:28.600
+permitir fazer a aproximação numérica eh
+
+0:22:26.440,0:22:30.320
+usando um conjunto de de algoritmos
+
+0:22:28.600,0:22:33.320
+otimizados para para fazer essa
+
+0:22:30.320,0:22:33.320
+aproximação.
+
+0:22:33.919,0:22:36.679
+Agora até nem me estou a lembrar dos
+
+0:22:35.240,0:22:38.880
+nomes das técnicas, mas havia havia um
+
+0:22:36.679,0:22:41.600
+conjunto de técnicas, havia toda uma
+
+0:22:38.880,0:22:42.960
+teoria que era da área dos da disciplina
+
+0:22:41.600,0:22:44.799
+da matemática chamada do cálculo
+
+0:22:42.960,0:22:48.400
+numérico.
+
+0:22:44.799,0:22:52.000
+H e portanto métodos otimizados para
+
+0:22:48.400,0:22:54.240
+permitir fazer o fazer os cálculos
+
+0:22:52.000,0:22:56.360
+quando quando não se conseguia resolver
+
+0:22:54.240,0:22:58.320
+analiticamente um problema.
+
+0:22:56.360,0:22:59.600
+Eh, isso hoje já caiu muito em desuso,
+
+0:22:58.320,0:23:02.360
+porque hoje com o advento dos
+
+0:22:59.600,0:23:04.559
+computadores, eu já não preciso de estar
+
+0:23:02.360,0:23:07.200
+a pensar num método otimizado. O método,
+
+0:23:04.559,0:23:09.919
+mesmo que não esteja otimizado,
+
+0:23:07.200,0:23:12.600
+eh, pois com com a bruta força dos
+
+0:23:09.919,0:23:15.480
+computadores, resolve-se qualquer coisa.
+
+0:23:12.600,0:23:18.000
+OK? Mas pronto, vamos ficar por aqui.
+
+0:23:15.480,0:23:20.240
+Arrumamos aqui este tema.
+
+0:23:18.000,0:23:23.760
+Espero que tenham gostado e até à
+
+0:23:20.240,0:23:23.760
+próxima. Obrigado.
+
+

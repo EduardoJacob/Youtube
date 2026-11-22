@@ -1,0 +1,4132 @@
+0:00:02.159,0:00:05.240
+Ora, sejam bem-vindos a mais um
+
+0:00:03.560,0:00:08.320
+tutorial.
+
+0:00:05.240,0:00:10.519
+Regras de derivação.
+
+0:00:08.320,0:00:13.440
+A partir da
+
+0:00:10.519,0:00:16.279
+isto estaria contido no meu tutorial
+
+0:00:13.440,0:00:20.439
+anterior, mas tive um problema técnico
+
+0:00:16.279,0:00:21.600
+e, portanto, o meu tutorial anterior
+
+0:00:20.439,0:00:23.480
+teve que ser terminado um pouco
+
+0:00:21.600,0:00:25.279
+abruptamente.
+
+0:00:23.480,0:00:26.880
+OK. Por isso, isto é vai ser a
+
+0:00:25.279,0:00:30.320
+continuação.
+
+0:00:26.880,0:00:33.360
+Ora, nós tínhamos visto
+
+0:00:30.320,0:00:35.480
+tínhamos visto realmente o que é uma uma
+
+0:00:33.360,0:00:39.960
+derivada por por definição, que é um é
+
+0:00:35.480,0:00:39.960
+um limite, uma derivada
+
+0:00:40.120,0:00:44.760
+d fdx,
+
+0:00:43.000,0:00:48.120
+OK?
+
+0:00:44.760,0:00:51.640
+Derivada de f(x).
+
+0:00:48.120,0:00:54.879
+Ora, tínhamos visto que seria um limite
+
+0:00:51.640,0:00:58.559
+quando h tende a 0
+
+0:00:54.879,0:01:00.800
+de f(x) + h
+
+0:00:58.559,0:01:03.879
+- f(x)
+
+0:01:00.800,0:01:08.159
+sobre h.
+
+0:01:03.879,0:01:10.400
+OK? Pronto. Eh, e
+
+0:01:08.159,0:01:15.640
+este
+
+0:01:10.400,0:01:18.240
+limite é ele próprio, ele é uma
+
+0:01:15.640,0:01:21.640
+indeterminação.
+
+0:01:18.240,0:01:21.640
+Ele é uma indeterminação
+
+0:01:25.799,0:01:33.240
+indeterminação do do tipo 0 sobre 0.
+
+0:01:30.479,0:01:35.640
+Porque nós vemos aqui h tende para zero
+
+0:01:33.240,0:01:37.159
+no denominador e no numerador. H tende
+
+0:01:35.640,0:01:39.960
+para zero, depois o numerador tende para
+
+0:01:37.159,0:01:42.360
+zero também. OK? Portanto, aí entramos
+
+0:01:39.960,0:01:45.240
+na teoria dos limites e como levantar em
+
+0:01:42.360,0:01:46.960
+determinações. Pronto. O que acontece é
+
+0:01:45.240,0:01:48.840
+que vai haver um conjunto de regras de
+
+0:01:46.960,0:01:51.920
+derivação que nós vamos ver agora. E
+
+0:01:48.840,0:01:53.880
+depois na prática de derivar é é muito
+
+0:01:51.920,0:01:56.200
+simples. De um modo geral é sempre
+
+0:01:53.880,0:01:58.159
+possível derivar.
+
+0:01:56.200,0:01:59.880
+OK?
+
+0:01:58.159,0:02:02.560
+E
+
+0:01:59.880,0:02:04.360
+e na prática já
+
+0:02:02.560,0:02:05.799
+praticamente nunca temos que calcular
+
+0:02:04.360,0:02:08.440
+limites. Aplicamos as regras da
+
+0:02:05.799,0:02:11.160
+derivação para derivar qualquer função.
+
+0:02:08.440,0:02:13.520
+OK? Tínhamos visto no tutorial anterior,
+
+0:02:11.160,0:02:16.360
+vimos já uma das regras da derivação, a
+
+0:02:13.520,0:02:20.040
+derivada da soma.
+
+0:02:16.360,0:02:24.400
+OK? Há outras coisas triviais.
+
+0:02:20.040,0:02:24.400
+Portanto, nós vimos a derivada da soma.
+
+0:02:28.239,0:02:34.920
+Eh,
+
+0:02:31.160,0:02:37.360
+não vimos a derivada da da constante
+
+0:02:34.920,0:02:42.720
+da de uma constante que é de uma função
+
+0:02:37.360,0:02:42.720
+constante que que é zero. OK?
+
+0:02:49.080,0:02:54.040
+derivada de uma de uma constante, uma
+
+0:02:51.879,0:02:55.760
+função constante. Se for a duas
+
+0:02:54.040,0:02:59.280
+dimensões, uma função constante é uma
+
+0:02:55.760,0:03:02.080
+reta horizontal. OK?
+
+0:02:59.280,0:03:04.680
+Portanto, se tivermos a duas as duas
+
+0:03:02.080,0:03:05.959
+dimensões,
+
+0:03:04.680,0:03:08.120
+quando estou a falar de uma função
+
+0:03:05.959,0:03:09.879
+constante, significa
+
+0:03:08.120,0:03:13.959
+f(x),
+
+0:03:09.879,0:03:16.360
+imaginem, por exemplo, f(x) = 2, esta
+
+0:03:13.959,0:03:18.400
+reta aqui horizontal.
+
+0:03:16.360,0:03:20.720
+Portanto, qual é o declive da reta? Que
+
+0:03:18.400,0:03:24.360
+é a tangente? também já tinha dito, a
+
+0:03:20.720,0:03:26.799
+derivada não é mais do que a tangente,
+
+0:03:24.360,0:03:28.120
+a tangente do ângulo.
+
+0:03:26.799,0:03:33.480
+E, portanto, quando o ângulo aqui é
+
+0:03:28.120,0:03:35.239
+zero, porque é uma reta horizontal,
+
+0:03:33.480,0:03:37.319
+eh, e portanto a tangente é zero. A
+
+0:03:35.239,0:03:41.560
+tangente de zero é zero, a derivada é
+
+0:03:37.319,0:03:41.560
+zero. Sim, senhor.
+
+0:03:42.799,0:03:46.519
+Temos, por exemplo, a derivada
+
+0:03:47.680,0:03:51.519
+de uma constante vezes uma função, ou
+
+0:03:49.840,0:03:56.280
+seja, a derivada, por exemplo, uma
+
+0:03:51.519,0:03:56.280
+constante c vezes uma função f(x).
+
+0:03:56.680,0:04:01.560
+E também facilmente se demonstra que a
+
+0:03:59.120,0:04:06.720
+constante salta para fora e é igual à
+
+0:04:01.560,0:04:06.720
+constante vezes a derivada
+
+0:04:07.000,0:04:11.319
+a derivada de f(x).
+
+0:04:11.519,0:04:18.199
+OK? Estão coisas triviais.
+
+0:04:15.840,0:04:20.400
+Eh, vamos ver agora a regra da derivada
+
+0:04:18.199,0:04:23.759
+do produto.
+
+0:04:20.400,0:04:25.320
+OK? Portanto, então temos a derivada do
+
+0:04:23.759,0:04:27.560
+produto. Vamos imaginar, temos uma
+
+0:04:25.320,0:04:30.240
+função que é ela própria. A função é o
+
+0:04:27.560,0:04:33.759
+produto de duas funções. Portanto, então
+
+0:04:30.240,0:04:35.400
+a derivada será o limite
+
+0:04:33.759,0:04:36.840
+quando h tende para zero. Agora vai
+
+0:04:35.400,0:04:40.320
+estar sempre subentendido o discurso
+
+0:04:36.840,0:04:41.639
+estar sempre a escrever. E então temos f
+
+0:04:40.320,0:04:47.800
+também não vou escrever parênteses para
+
+0:04:41.639,0:04:47.800
+poupar, mas entenda-se f dex + h
+
+0:04:48.039,0:04:54.000
+g x + h
+
+0:04:51.720,0:04:56.240
+menos
+
+0:04:54.000,0:05:00.639
+f(x)
+
+0:04:56.240,0:05:03.960
+g de x, ou seja, é a definição da
+
+0:05:00.639,0:05:06.520
+definição f(x) + h, mas o mas o f como é
+
+0:05:03.960,0:05:10.520
+um produto, pois é um produto.
+
+0:05:06.520,0:05:13.240
+OK? Portanto, esta é a definição,
+
+0:05:10.520,0:05:15.320
+OK? Sobre H.
+
+0:05:13.240,0:05:17.160
+Eh, e portanto,
+
+0:05:15.320,0:05:21.160
+eh, e o que é que eu quero? Eu quero
+
+0:05:17.160,0:05:24.960
+sempre tentar obter uma expressão
+
+0:05:21.160,0:05:27.960
+deste tipo. Eu quero sempre
+
+0:05:24.960,0:05:27.960
+tentar
+
+0:05:28.280,0:05:33.560
+rearranjar os termos aqui deste desta
+
+0:05:30.639,0:05:35.080
+desta desta fração
+
+0:05:33.560,0:05:36.680
+por forma a obter uma expressão deste
+
+0:05:35.080,0:05:39.560
+tipo deste tipo, porque se eu obter uma
+
+0:05:36.680,0:05:42.840
+expressão deste tipo
+
+0:05:39.560,0:05:44.160
+aqui, então já sei que é, neste caso
+
+0:05:42.840,0:05:45.800
+aqui, por exemplo, a derivada deve.
+
+0:05:44.160,0:05:49.440
+Pronto. Portanto, aqui aqui vamos fazer
+
+0:05:45.800,0:05:51.680
+um truque. Aqui vamos fazer
+
+0:05:49.440,0:05:54.680
+igual ao limite.
+
+0:05:51.680,0:05:54.680
+OK.
+
+0:05:54.880,0:05:59.479
+Ora, e vamos fazer aqui
+
+0:05:57.720,0:06:02.160
+f
+
+0:05:59.479,0:06:05.560
+x + h,
+
+0:06:02.160,0:06:09.560
+g de x + h
+
+0:06:05.560,0:06:12.080
+menos f(x)
+
+0:06:09.560,0:06:15.440
+g de x. Isto aqui não não não me vai
+
+0:06:12.080,0:06:15.440
+caber aqui.
+
+0:06:18.319,0:06:23.759
+OK. E o que vamos fazer aqui? Eu vou
+
+0:06:20.680,0:06:25.919
+somar e subtrair um mesmo termo.
+
+0:06:23.759,0:06:29.960
+OK?
+
+0:06:25.919,0:06:29.960
+Portanto, eu vou somar aqui.
+
+0:06:31.199,0:06:35.479
+Ora, f
+
+0:06:35.560,0:06:42.440
+de x + h,
+
+0:06:39.000,0:06:42.440
+que é de x
+
+0:06:43.319,0:06:50.479
+e, portanto, somar e subtrair. Então,
+
+0:06:46.599,0:06:50.479
+não altera a expressão.
+
+0:06:51.000,0:06:55.199
+F
+
+0:06:52.599,0:06:57.800
+x + h.
+
+0:06:55.199,0:07:01.440
+G de X. Pronto. Portanto, eu aqui eu
+
+0:06:57.800,0:07:03.919
+somei e subtraí um a mesma quantidade,
+
+0:07:01.440,0:07:05.919
+portanto não alterei nada. [roncando]
+
+0:07:03.919,0:07:07.400
+Mas agora permite-me rearranjar aqui os
+
+0:07:05.919,0:07:09.479
+termos.
+
+0:07:07.400,0:07:11.680
+permite-me
+
+0:07:09.479,0:07:14.759
+rearranjar,
+
+0:07:11.680,0:07:18.879
+por exemplo,
+
+0:07:14.759,0:07:21.199
+eh, vamos dizer aqui, por exemplo,
+
+0:07:18.879,0:07:23.720
+este aqui, por exemplo, vou rearranjar
+
+0:07:21.199,0:07:26.400
+este termo
+
+0:07:23.720,0:07:28.960
+e com este.
+
+0:07:26.400,0:07:33.199
+Vou juntar estes dois.
+
+0:07:28.960,0:07:36.639
+OK? Pronto. E então fica
+
+0:07:33.199,0:07:36.639
+fica limite
+
+0:07:37.000,0:07:43.440
+e ao juntar estes dois posso pôr f(x) +
+
+0:07:40.039,0:07:43.440
+h em evidência.
+
+0:07:46.199,0:07:52.000
+E há parênteses
+
+0:07:48.240,0:07:52.000
+gx + h
+
+0:07:52.199,0:07:56.360
+menos
+
+0:07:54.080,0:07:59.639
+gx
+
+0:07:56.360,0:07:59.639
+sobre h.
+
+0:08:02.000,0:08:06.080
+OK?
+
+0:08:04.120,0:08:09.120
+E da mesma forma estes outros dois
+
+0:08:06.080,0:08:12.120
+termos que ficam aqui, estes outros dois
+
+0:08:09.120,0:08:12.120
+termos
+
+0:08:12.520,0:08:19.319
+e também posso juntá-los
+
+0:08:14.800,0:08:19.319
+e pôr o g de x em evidência
+
+0:08:19.360,0:08:23.400
+mais limite
+
+0:08:21.360,0:08:25.919
+limite de uma soma será igual à soma dos
+
+0:08:23.400,0:08:27.919
+limites. Posso separar desta maneira
+
+0:08:25.919,0:08:30.199
+mais limite e ponho em evidência aqui G
+
+0:08:27.919,0:08:33.240
+de X
+
+0:08:30.199,0:08:36.959
+e ponho à parênteses
+
+0:08:33.240,0:08:36.959
+f(x) + h
+
+0:08:38.519,0:08:44.039
+-
+
+0:08:40.200,0:08:44.039
+f(x)/bre h.
+
+0:08:45.640,0:08:49.480
+OK?
+
+0:08:47.640,0:08:51.880
+Mas agora eu tenho as expressões que eu
+
+0:08:49.480,0:08:56.240
+quero.
+
+0:08:51.880,0:08:59.760
+Esta é a definição da derivada de G
+
+0:08:56.240,0:08:59.760
+e esta é
+
+0:08:59.920,0:09:05.440
+por definição, a derivada de f.
+
+0:09:03.240,0:09:08.680
+E, portanto,
+
+0:09:05.440,0:09:11.680
+temos que, finalmente, a derivada do
+
+0:09:08.680,0:09:11.680
+produto.
+
+0:09:13.000,0:09:18.560
+Reparem, quando h tende para zero, este
+
+0:09:15.200,0:09:20.240
+f(x) + a fica f(x).
+
+0:09:18.560,0:09:24.120
+Portanto, esta esta primeira expressão
+
+0:09:20.240,0:09:26.959
+aqui, ela é igual a f(x) f(z)
+
+0:09:24.120,0:09:30.440
+e aqui tenho um limite que é por
+
+0:09:26.959,0:09:32.240
+definição a derivada de g.
+
+0:09:30.440,0:09:34.040
+Por isso fica a primeira, normalmente
+
+0:09:32.240,0:09:35.920
+costuma-se representar a derivada da
+
+0:09:34.040,0:09:39.920
+primeira vez a segunda, que é esta parte
+
+0:09:35.920,0:09:41.959
+aqui, a esta segunda parte
+
+0:09:39.920,0:09:44.720
+mais
+
+0:09:41.959,0:09:47.000
+a primeira vez a derivada da segunda.
+
+0:09:44.720,0:09:50.760
+Pronto,
+
+0:09:47.000,0:09:55.480
+basicamente é isto.
+
+0:09:50.760,0:09:55.480
+E pronto, está mais ou menos demonstrado
+
+0:09:55.640,0:10:02.160
+que a derivada do produto,
+
+0:09:59.519,0:10:03.519
+já agora também se pode generalizar,
+
+0:10:02.160,0:10:05.880
+deixo isto para vocês fazerem como
+
+0:10:03.519,0:10:07.959
+exercício, que se for um produto com
+
+0:10:05.880,0:10:12.760
+três termos,
+
+0:10:07.959,0:10:15.720
+por exemplo, F, G, H,
+
+0:10:12.760,0:10:17.600
+a derivada do produto
+
+0:10:15.720,0:10:30.200
+será,
+
+0:10:17.600,0:10:31.880
+teremos F G H + F G H + F G H E aqui
+
+0:10:30.200,0:10:34.600
+derivada da primeira, derivada da
+
+0:10:31.880,0:10:37.040
+segunda, derivada da terceira. OK? Uma
+
+0:10:34.600,0:10:39.160
+regra muito simples. Deixo para vocês
+
+0:10:37.040,0:10:41.800
+como exercício.
+
+0:10:39.160,0:10:44.120
+É muito fácil, muito fácil demonstrar
+
+0:10:41.800,0:10:47.680
+isto. Basta considerar, por exemplo, que
+
+0:10:44.120,0:10:50.000
+gh é uma função una.
+
+0:10:47.680,0:10:51.639
+E, portanto, aqui utiliza a regra da
+
+0:10:50.000,0:10:53.800
+derivada do produto de duas funções.
+
+0:10:51.639,0:10:55.720
+Será a derivada da primeira fez a
+
+0:10:53.800,0:10:59.000
+segunda e a segunda é por sua vez, é um
+
+0:10:55.720,0:11:01.600
+produto. E depois no final expando
+
+0:10:59.000,0:11:04.560
+expando a derivada da segunda novamente
+
+0:11:01.600,0:11:07.560
+aplicando a regra do produto. OK?
+
+0:11:04.560,0:11:07.560
+Pronto,
+
+0:11:07.639,0:11:11.760
+deixo isso para vocês como exercício.
+
+0:11:12.279,0:11:15.800
+Ora, vamos ver agora a derivada da
+
+0:11:13.600,0:11:17.720
+potência,
+
+0:11:15.800,0:11:20.800
+OK?
+
+0:11:17.720,0:11:22.680
+Ora, vamos então
+
+0:11:20.800,0:11:26.399
+derivar
+
+0:11:22.680,0:11:26.399
+x elevado a p,
+
+0:11:27.040,0:11:30.040
+ok?
+
+0:11:34.600,0:11:39.480
+Portanto, o limite
+
+0:11:37.079,0:11:43.959
+quando h tende a zer,
+
+0:11:39.480,0:11:43.959
+vamos ter f(x) + h.
+
+0:11:46.320,0:11:51.000
+elevado a p
+
+0:11:48.880,0:11:54.320
+menos
+
+0:11:51.000,0:11:57.040
+x elevado a p
+
+0:11:54.320,0:11:58.440
+sobre h.
+
+0:11:57.040,0:12:01.519
+Ora bem, e agora o que é que nós vamos
+
+0:11:58.440,0:12:02.880
+fazer aqui? Vamos aplicar, expandir este
+
+0:12:01.519,0:12:06.680
+binómio de acordo com a fórmula do
+
+0:12:02.880,0:12:08.240
+binómio de Newton. Cá está.
+
+0:12:06.680,0:12:11.519
+Cá está que vamos ter aqui uma aplicação
+
+0:12:08.240,0:12:13.160
+do binómio de Newton.
+
+0:12:11.519,0:12:17.639
+Ora, se se recordam do binómio de
+
+0:12:13.160,0:12:17.639
+Newton, fica
+
+0:12:17.839,0:12:21.079
+o desenvolvimento aqui do binómio do
+
+0:12:19.399,0:12:22.880
+Newton. Não sabemos quanto é P, mas nós
+
+0:12:21.079,0:12:28.320
+sabemos que o o primeiro termo tem que
+
+0:12:22.880,0:12:28.320
+ser x elevado a p, ok?
+
+0:12:28.399,0:12:36.120
+Eh, e depois temos vezes aqui é vezes h
+
+0:12:31.240,0:12:41.160
+elevado a 0. E depois temos mais
+
+0:12:36.120,0:12:43.320
+x = p - 1 x h.
+
+0:12:41.160,0:12:45.160
+OK?
+
+0:12:43.320,0:12:48.720
+E tem aqui o termo que é da da função
+
+0:12:45.160,0:12:52.360
+combinatória do triângulo de Pascal, em
+
+0:12:48.720,0:12:57.079
+que o primeiro valor aqui é sempre P.
+
+0:12:52.360,0:12:59.120
+Este valor aqui é P. OK?
+
+0:12:57.079,0:13:01.680
+E depois agora vamos ter aqui outros
+
+0:12:59.120,0:13:03.240
+termos,
+
+0:13:01.680,0:13:04.959
+só que os outros termos vão ter a
+
+0:13:03.240,0:13:07.040
+característica
+
+0:13:04.959,0:13:08.639
+de que a potência em H é vai ser
+
+0:13:07.040,0:13:12.079
+superior. Portanto, aqui vai ser
+
+0:13:08.639,0:13:15.720
+qualquer coisa. vezes
+
+0:13:12.079,0:13:18.720
+vezes h quadrado,
+
+0:13:15.720,0:13:18.720
+OK?
+
+0:13:19.000,0:13:26.399
+E depois h³, etc, até h elevado a p.
+
+0:13:24.440,0:13:28.920
+OK? Portanto, isto é o desenvolvimento
+
+0:13:26.399,0:13:33.800
+do binómio de Newton.
+
+0:13:28.920,0:13:33.800
+E depois aqui por fim - x elevado a p
+
+0:13:34.760,0:13:41.199
+e é o limite sobre h. Ok?
+
+0:13:40.000,0:13:44.880
+Pronto. E o que é que vai acontecer
+
+0:13:41.199,0:13:48.240
+agora? Ora, x elevado a p - x elevado a
+
+0:13:44.880,0:13:48.240
+p vai cortar.
+
+0:13:49.079,0:13:55.240
+OK? Pronto. E agora temos temos que eh
+
+0:13:52.920,0:13:57.759
+invocar alguns conceitos da teoria do
+
+0:13:55.240,0:14:02.399
+limites, mas que acho que isto vai ser
+
+0:13:57.759,0:14:04.160
+intuitivo. É que, portanto, este H é o
+
+0:14:02.399,0:14:06.320
+infinitésimo
+
+0:14:04.160,0:14:08.000
+que aparece aqui no numerador e
+
+0:14:06.320,0:14:10.440
+denominador,
+
+0:14:08.000,0:14:13.639
+tende para zero.
+
+0:14:10.440,0:14:15.839
+Mas como o segundo termo é h quad, termo
+
+0:14:13.639,0:14:19.680
+tende para zero muito mais rapidamente
+
+0:14:15.839,0:14:21.360
+do que h. OK? Imaginem,
+
+0:14:19.680,0:14:24.240
+him,
+
+0:14:21.360,0:14:25.920
+h² é uma centª.
+
+0:14:24.240,0:14:29.959
+O que vai acontecer é que estes
+
+0:14:25.920,0:14:33.480
+infinitésimos de ordem superior, h², h³,
+
+0:14:29.959,0:14:35.759
+h² até chegar a h elevado a p, eles
+
+0:14:33.480,0:14:38.279
+tendem para zero muito mais rapidamente
+
+0:14:35.759,0:14:41.000
+e, portanto, eles são desprezáveis.
+
+0:14:38.279,0:14:44.360
+E, portanto, este limite
+
+0:14:41.000,0:14:49.639
+é igual a um limite em que apenas fica
+
+0:14:44.360,0:14:52.240
+este termo, este segundo termo aqui, o p
+
+0:14:49.639,0:14:56.240
+elevado p - 1
+
+0:14:52.240,0:14:58.959
+x h, o limite disto sobre h, porque os
+
+0:14:56.240,0:15:01.120
+outros termos h², h³, h, são
+
+0:14:58.959,0:15:02.759
+desprezáveis, são minúsculos,
+
+0:15:01.120,0:15:05.040
+insignificantes, são infinitésimos de
+
+0:15:02.759,0:15:07.320
+ordem superior.
+
+0:15:05.040,0:15:09.040
+OK?
+
+0:15:07.320,0:15:10.720
+Eh, pronto, é assim, isto para mim é
+
+0:15:09.040,0:15:12.920
+intuitivo, como vos disse, estas provas
+
+0:15:10.720,0:15:14.759
+não são provas rigorosas e eu apenas
+
+0:15:12.920,0:15:17.000
+pretendo demonstrar mais ou menos de
+
+0:15:14.759,0:15:18.920
+forma intuitiva o porque é que as coisas
+
+0:15:17.000,0:15:20.440
+são assim.
+
+0:15:18.920,0:15:22.399
+Se isto para vocês não vos parecer
+
+0:15:20.440,0:15:25.079
+intuitivo, pois terão que praticar mais,
+
+0:15:22.399,0:15:29.000
+vão terão que vão procurem mais
+
+0:15:25.079,0:15:31.560
+documentação, procurem mais e praticar
+
+0:15:29.000,0:15:34.839
+mais na, nomeadamente aqui nesta área da
+
+0:15:31.560,0:15:37.959
+da teoria dos limites, OK? recorram a
+
+0:15:34.839,0:15:41.360
+manuais ou tutorial de de cálculo de
+
+0:15:37.959,0:15:44.199
+cálculo matemático. OK? Mas pronto, para
+
+0:15:41.360,0:15:46.000
+mim à partida isto é intuitivo.
+
+0:15:44.199,0:15:47.560
+E agora que fica com esta expressão
+
+0:15:46.000,0:15:49.759
+final,
+
+0:15:47.560,0:15:52.959
+eu aqui consigo fazer corta corta porque
+
+0:15:49.759,0:15:55.759
+é o corta corta e portanto ele fica
+
+0:15:52.959,0:16:01.319
+apenas o p
+
+0:15:55.759,0:16:04.120
+x p - 1. Ok? Pronto, bem simples. É uma
+
+0:16:01.319,0:16:07.680
+regra da potência bem simples, em que,
+
+0:16:04.120,0:16:10.920
+por exemplo, se eu quiser derivar x²,
+
+0:16:07.680,0:16:13.800
+por exemplo, pasta, o índice passa
+
+0:16:10.920,0:16:16.720
+sempre para baixo, fica e o valor do
+
+0:16:13.800,0:16:22.079
+índice diminui de uma unidade. Neste
+
+0:16:16.720,0:16:23.920
+caso, x elevado a 1. Ok? Sim, senhora.
+
+0:16:22.079,0:16:26.440
+E pode demonstrar-se que isto é válido
+
+0:16:23.920,0:16:28.120
+para qualquer p, inclusive é ps
+
+0:16:26.440,0:16:32.560
+negativos.
+
+0:16:28.120,0:16:35.639
+Por exemplo, imaginem x elevado -2
+
+0:16:32.560,0:16:35.639
+a derivada
+
+0:16:35.759,0:16:41.600
+ou x elevado a -1 também não preciso p x
+
+0:16:38.199,0:16:41.600
+elevado -2.
+
+0:16:41.639,0:16:50.199
+Por exemplo, x = -1, que é o inverso de
+
+0:16:44.639,0:16:55.000
+x. O -1 passa para baixo, fica menos
+
+0:16:50.199,0:16:59.440
+x elevado a -2. OK? Ou seja, que a
+
+0:16:55.000,0:16:59.440
+derivada do inverso de x,
+
+0:16:59.560,0:17:06.600
+OK? É igual a menos o inverso
+
+0:17:03.880,0:17:08.319
+x qu.
+
+0:17:06.600,0:17:11.039
+Ok? Pronto. Esta é a regra da derivada
+
+0:17:08.319,0:17:15.079
+da potência. bem simples
+
+0:17:11.039,0:17:15.079
+de fixar e bem importante.
+
+0:17:16.360,0:17:22.319
+A derivada da função composta.
+
+0:17:20.319,0:17:24.520
+Ora bem, eh, portanto, o que é que é a
+
+0:17:22.319,0:17:27.199
+função composta?
+
+0:17:24.520,0:17:31.679
+A função composta é quando aplicamos uma
+
+0:17:27.199,0:17:34.039
+função, uma a seguir à outra, OK?
+
+0:17:31.679,0:17:36.160
+Imaginando que temos
+
+0:17:34.039,0:17:40.400
+eh
+
+0:17:36.160,0:17:40.400
+temos uma função f,
+
+0:17:43.919,0:17:48.640
+temos uma função f(x)
+
+0:17:48.679,0:17:54.640
+e temos uma função g de x. Temos duas
+
+0:17:51.520,0:17:58.039
+funções. Eu posso aplicar uma a seguir à
+
+0:17:54.640,0:18:01.600
+outra, OK? Eu posso aplicar, por
+
+0:17:58.039,0:18:01.600
+exemplo, f
+
+0:18:02.840,0:18:08.480
+ao resultado que resulta de aplicar G de
+
+0:18:05.760,0:18:12.320
+X. Portanto, primeiro aplico o G,
+
+0:18:08.480,0:18:15.760
+primeiro aplico o G e depois aplico o F.
+
+0:18:12.320,0:18:20.640
+OK? Pronto. Então, o que acontece
+
+0:18:15.760,0:18:20.640
+é que [roncando] eh
+
+0:18:20.960,0:18:28.120
+o que acontece é que para derivar esta
+
+0:18:23.559,0:18:29.720
+função que é a função composta
+
+0:18:28.120,0:18:31.120
+que muitas vezes também se pode
+
+0:18:29.720,0:18:36.360
+representar, também se vê muito
+
+0:18:31.120,0:18:40.760
+representado assim f após g
+
+0:18:36.360,0:18:42.360
+f apó g de x,
+
+0:18:40.760,0:18:44.960
+OK?
+
+0:18:42.360,0:18:48.200
+Para derivar esta função
+
+0:18:44.960,0:18:52.559
+também eu vou vou puxar pela pela
+
+0:18:48.200,0:18:55.240
+intuição de uma forma intuitiva, em que
+
+0:18:52.559,0:18:58.400
+o que eu faço é uma uma substituição de
+
+0:18:55.240,0:19:01.600
+variável. Eu digo assim: "Bom,
+
+0:18:58.400,0:19:03.760
+imaginemos que o u
+
+0:19:01.600,0:19:08.159
+é uma nova variável em vez de x e vou
+
+0:19:03.760,0:19:09.679
+dizer que u é igual a g de x.
+
+0:19:08.159,0:19:12.240
+E [roncando] sendo assim esta derivada
+
+0:19:09.679,0:19:14.200
+que eu quero calcular,
+
+0:19:12.240,0:19:18.480
+OK?
+
+0:19:14.200,0:19:18.480
+Esta derivada da função composta,
+
+0:19:18.960,0:19:22.880
+eu vou dizer que é
+
+0:19:23.640,0:19:30.000
+a derivada da função em ordem u.
+
+0:19:28.039,0:19:31.480
+Eu
+
+0:19:30.000,0:19:32.720
+vou eu vou escrever nesta forma que
+
+0:19:31.480,0:19:36.960
+também já tínhamos visto no tutorial
+
+0:19:32.720,0:19:38.520
+anterior que que escrever uma derivada
+
+0:19:36.960,0:19:40.960
+também matematicamente poderíamos
+
+0:19:38.520,0:19:42.679
+escrever como sendo o o cociente do dos
+
+0:19:40.960,0:19:44.919
+diferenciais
+
+0:19:42.679,0:19:47.320
+e tínhamos [roncando] visto que era a
+
+0:19:44.919,0:19:52.320
+derivada de f que poderíamos representar
+
+0:19:47.320,0:19:52.320
+na forma de by dx
+
+0:19:52.559,0:19:56.760
+que representa aqui limite. No fundo,
+
+0:19:54.360,0:19:58.640
+isto é uma expressão
+
+0:19:56.760,0:20:00.320
+do numerador e do denominador daquele
+
+0:19:58.640,0:20:02.280
+limite. Isto representa o limite.
+
+0:20:00.320,0:20:04.679
+Portanto, isto é é ela, isto é ele
+
+0:20:02.280,0:20:07.240
+próprio a derivada,
+
+0:20:04.679,0:20:10.600
+OK? mas agora escrita na forma da
+
+0:20:07.240,0:20:14.080
+daquele limite, daquele cociente.
+
+0:20:10.600,0:20:16.159
+Portanto, eu aqui
+
+0:20:14.080,0:20:19.600
+vou derivar esta função composta em
+
+0:20:16.159,0:20:22.480
+ordem u e vou dizer: "Ok, então isto é
+
+0:20:19.600,0:20:24.520
+df
+
+0:20:22.480,0:20:28.000
+du,
+
+0:20:24.520,0:20:31.039
+OK? Pronto, df du.
+
+0:20:28.000,0:20:35.320
+Só que eu não quero derivar em ordem u,
+
+0:20:31.039,0:20:37.679
+eu quero derivar em ordem a x. Eu quero
+
+0:20:35.320,0:20:39.799
+derivar em ordem a X. Pronto. Então, o
+
+0:20:37.679,0:20:43.760
+que vai acontecer,
+
+0:20:39.799,0:20:46.799
+o que vai acontecer é que
+
+0:20:43.760,0:20:50.159
+intuitivamente eu digo assim:
+
+0:20:46.799,0:20:53.919
+"E se eu multiplicar aqui pela derivada
+
+0:20:50.159,0:20:56.440
+de de g em ordem a x, ou seja, mas mas g
+
+0:20:53.919,0:21:00.919
+eu disse que era igual a u,
+
+0:20:56.440,0:21:00.919
+ou seja, a derivada de u
+
+0:21:01.000,0:21:04.679
+em ordem é x
+
+0:21:05.520,0:21:11.360
+intuitivamente,
+
+0:21:07.360,0:21:14.159
+Nós estamos a ver aqui este produto,
+
+0:21:11.360,0:21:16.279
+OK? É como se eu fizesse um corta corta
+
+0:21:14.159,0:21:20.400
+aqui
+
+0:21:16.279,0:21:22.760
+e e resulta o coeficiente d f dx ou d y
+
+0:21:20.400,0:21:25.240
+dx, que é a mesma coisa, que é o que eu
+
+0:21:22.760,0:21:27.880
+quero. Eu quero uma derivada em ordem x.
+
+0:21:25.240,0:21:30.520
+Pronto. Eh, é assim. Pronto, é como vos
+
+0:21:27.880,0:21:32.120
+digo, eh, isto é só mais ou menos uma
+
+0:21:30.520,0:21:33.760
+memónica
+
+0:21:32.120,0:21:36.159
+para que vocês fixem a regra da da
+
+0:21:33.760,0:21:38.200
+derivada da função composta. Eu sei que
+
+0:21:36.159,0:21:40.159
+estas discussões que eu estou aqui a
+
+0:21:38.200,0:21:43.799
+fazer não são rigorosas, nem eu nem eu
+
+0:21:40.159,0:21:45.159
+sei fazê-las de forma rigorosa. OK? Eu
+
+0:21:43.799,0:21:46.400
+para mim não sinto essa necessidade
+
+0:21:45.159,0:21:48.200
+porque pronto, porque eu para mim é
+
+0:21:46.400,0:21:49.799
+intuitivo. Há resultados que para mim
+
+0:21:48.200,0:21:51.440
+são intuitivos e por isso eu não sinto a
+
+0:21:49.799,0:21:54.240
+necessidade de dizer isto para mim
+
+0:21:51.440,0:21:56.880
+basta. Sempre me bastou e isto para mim
+
+0:21:54.240,0:21:58.840
+é intuitivo, porque esta dedução que eu
+
+0:21:56.880,0:22:00.080
+fiz aqui, ela é intuitiva para mim e,
+
+0:21:58.840,0:22:01.640
+portanto, é uma demonstração que para
+
+0:22:00.080,0:22:03.320
+mim serve. satisfaz-me esta
+
+0:22:01.640,0:22:05.440
+demonstração,
+
+0:22:03.320,0:22:07.000
+mas compreendo que para outras pessoas
+
+0:22:05.440,0:22:10.080
+para as quais isto possa não parecer tão
+
+0:22:07.000,0:22:11.880
+intuitivo. Pois então, ó, tentem
+
+0:22:10.080,0:22:14.840
+investigar e tentem aprofundar mais
+
+0:22:11.880,0:22:16.480
+alguma definição mais rigorosa.
+
+0:22:14.840,0:22:18.760
+Ora bem, vamos ver um caso prático. Onde
+
+0:22:16.480,0:22:20.919
+é que isto, por exemplo, se aplica?
+
+0:22:18.760,0:22:23.200
+Vimos há bocado a derivada, por exemplo,
+
+0:22:20.919,0:22:26.440
+de uma de uma potência
+
+0:22:23.200,0:22:26.440
+x qu
+
+0:22:30.279,0:22:36.440
+eh
+
+0:22:32.760,0:22:38.440
+que o o índice baixava aqui
+
+0:22:36.440,0:22:40.640
+e aqui baixa baixo baixa o expoente e
+
+0:22:38.440,0:22:42.200
+fica assim. OK? Vamos ver agora um
+
+0:22:40.640,0:22:43.840
+exemplo. Vamos ver, por exemplo, uma
+
+0:22:42.200,0:22:47.520
+derivada de um quadrado, mas o quadrado,
+
+0:22:43.840,0:22:49.600
+em vez de ser o x, em vez de x é uma uma
+
+0:22:47.520,0:22:53.279
+função.
+
+0:22:49.600,0:22:53.279
+Imaginemos, por exemplo,
+
+0:22:53.760,0:22:59.080
+2x + 1
+
+0:22:56.760,0:23:02.080
+ao quadrado.
+
+0:22:59.080,0:23:04.880
+OK? Pronto, cá está. Este é um exemplo
+
+0:23:02.080,0:23:07.200
+da derivada da função composta. Ela é
+
+0:23:04.880,0:23:09.559
+uma potência, mas não é uma potência de
+
+0:23:07.200,0:23:12.400
+x. é uma potência, por sua vez, de uma
+
+0:23:09.559,0:23:16.640
+dada função. OK? Pronto, aqui é como se
+
+0:23:12.400,0:23:18.840
+eu tivesse duas funções, o f e o g. OK?
+
+0:23:16.640,0:23:23.600
+Primeiro aplico o g de x, o que faz o g
+
+0:23:18.840,0:23:26.000
+de x? 2x + 1. E a seguir aplica o f(x),
+
+0:23:23.600,0:23:27.600
+o que faz o f(x)². Portanto, isto é uma
+
+0:23:26.000,0:23:29.480
+composição.
+
+0:23:27.600,0:23:32.679
+Isto é uma composição onde primeiro se
+
+0:23:29.480,0:23:35.559
+aplica que de x
+
+0:23:32.679,0:23:38.679
+é igual a 2x + 1
+
+0:23:35.559,0:23:41.960
+e a seguir se aplica f(x)
+
+0:23:38.679,0:23:45.000
+que é igual a x². Portanto, isto é uma
+
+0:23:41.960,0:23:47.760
+função composta. OK? Como é que eu
+
+0:23:45.000,0:23:51.640
+derivo esta função composta?
+
+0:23:47.760,0:23:51.640
+Ora, é muito simples.
+
+0:23:52.080,0:23:56.919
+É tremendamente simples. A derivada da
+
+0:23:54.360,0:24:00.120
+função composta. Eu derivo como se fosse
+
+0:23:56.919,0:24:03.120
+a função simples, ou seja, o dois passa
+
+0:24:00.120,0:24:05.440
+para baixo e aqui baixa o índice, como
+
+0:24:03.120,0:24:07.360
+se isto fosse um x.
+
+0:24:05.440,0:24:09.559
+como se isto fosse um x, que é o que o
+
+0:24:07.360,0:24:12.640
+que eu fiz aqui, dfdu, como se isto
+
+0:24:09.559,0:24:16.799
+fosse um u, como se isto fosse uma uma
+
+0:24:12.640,0:24:19.679
+variável u e até eu derivo. Pronto, fica
+
+0:24:16.799,0:24:21.760
+assim. Mas no fim tenho que derivar du
+
+0:24:19.679,0:24:25.120
+dx. No fim eu tenho que derivar esta
+
+0:24:21.760,0:24:27.559
+expressão que ela não é x, mas é é ela é
+
+0:24:25.120,0:24:29.520
+uma função por ela própria. Eu tenho que
+
+0:24:27.559,0:24:32.080
+derivar em ordem x. E a derivada desta
+
+0:24:29.520,0:24:34.880
+função em ordem de x temos é uma soma. A
+
+0:24:32.080,0:24:38.200
+derivada de 1 é 0 e a derivada de 2x é
+
+0:24:34.880,0:24:40.159
+2. Portanto, e aqui fica x 2. OK?
+
+0:24:38.200,0:24:44.159
+Pronto. Isto é um exemplo simples da
+
+0:24:40.159,0:24:44.159
+derivada da função composta.
+
+0:24:44.559,0:24:51.120
+Ora, a derivada do quociente.
+
+0:24:48.600,0:24:52.679
+Pronto. Ora, a derivada do cociente.
+
+0:24:51.120,0:24:54.200
+Pois, há bocado vimos a derivada do
+
+0:24:52.679,0:24:56.880
+produto. Agora vamos ver a derivada do
+
+0:24:54.200,0:24:58.240
+cociente.
+
+0:24:56.880,0:25:02.840
+Agora vamos ver aqui. Portanto, a
+
+0:24:58.240,0:25:05.320
+derivada df a dividir por q.
+
+0:25:02.840,0:25:07.520
+OK. É por definição, é o limite. Vamos à
+
+0:25:05.320,0:25:12.399
+procura de qual é a fórmula.
+
+0:25:07.520,0:25:14.360
+Temos f ( x + H
+
+0:25:12.399,0:25:16.919
+sobre G
+
+0:25:14.360,0:25:19.919
+X + H -
+
+0:25:16.919,0:25:19.919
+FX
+
+0:25:20.360,0:25:25.480
+sobre
+
+0:25:23.039,0:25:28.279
+que X
+
+0:25:25.480,0:25:30.880
+sobre H. Pronto, é isto. Agora vamos
+
+0:25:28.279,0:25:34.679
+aplicar uma regra.
+
+0:25:30.880,0:25:37.480
+Eh, vamos eh primeiro reduzir ao mesmo
+
+0:25:34.679,0:25:39.000
+denominador aqui em cima.
+
+0:25:37.480,0:25:41.559
+Portanto, e vamos dizer que isto fica ao
+
+0:25:39.000,0:25:45.000
+limite.
+
+0:25:41.559,0:25:48.520
+E aqui temos G,
+
+0:25:45.000,0:25:51.640
+vem aqui para cima vez F
+
+0:25:48.520,0:25:54.919
+x + h,
+
+0:25:51.640,0:25:59.679
+OK? Menos
+
+0:25:54.919,0:26:01.640
+F. E aqui fica vezes G
+
+0:25:59.679,0:26:03.559
+X + H. Pronto, reduzimos aqui ao mesmo
+
+0:26:01.640,0:26:05.679
+denominador
+
+0:26:03.559,0:26:09.760
+e aqui este denominador comum passa aqui
+
+0:26:05.679,0:26:14.559
+para baixo. G
+
+0:26:09.760,0:26:17.799
+x gx + h e aqui vezes h. Sim, senhores.
+
+0:26:14.559,0:26:21.720
+Pronto, aqui está. Ora, OK. Mas ainda
+
+0:26:17.799,0:26:23.399
+não está na forma eh da definição da
+
+0:26:21.720,0:26:25.399
+derivada. Daqui ainda não tiro nada.
+
+0:26:23.399,0:26:26.919
+Pronto, agora vou aplicar o mesmo
+
+0:26:25.399,0:26:29.480
+rachixínio que aplicáamos quando era a
+
+0:26:26.919,0:26:31.960
+regra do produto. Lembram-se da regra do
+
+0:26:29.480,0:26:34.919
+produto? chegamos no numerador,
+
+0:26:31.960,0:26:37.720
+somamos e subtraímos a mesma quantidade,
+
+0:26:34.919,0:26:39.880
+OK? Para partir isto em em duas frações,
+
+0:26:37.720,0:26:43.279
+em dois limites. Portanto, é o que vamos
+
+0:26:39.880,0:26:46.679
+fazer agora aqui. O limite. Portanto,
+
+0:26:43.279,0:26:51.360
+nós vamos fazer aqui, ora vamos fazer
+
+0:26:46.679,0:26:53.760
+e temos f(x + hg.
+
+0:26:51.360,0:26:57.720
+Este, este o primeiro termo,
+
+0:26:53.760,0:26:57.720
+temos aqui o primeiro termo.
+
+0:27:01.840,0:27:10.000
+OK? E agora vou subtrair, vou subtrair
+
+0:27:07.520,0:27:14.240
+h
+
+0:27:10.000,0:27:14.240
+um produto FQ.
+
+0:27:14.679,0:27:21.120
+Pronto, aqui está o truque. Então, tenho
+
+0:27:16.520,0:27:21.120
+que somar outra vez o produto, certo?
+
+0:27:22.200,0:27:29.039
+OK? Então vou pôr aqui menos a
+
+0:27:25.320,0:27:32.000
+parênteses e vou pôr este segundo termo.
+
+0:27:29.039,0:27:33.799
+Este segundo termo
+
+0:27:32.000,0:27:36.000
+f
+
+0:27:33.799,0:27:38.440
+g
+
+0:27:36.000,0:27:40.880
+x + h. [roncando]
+
+0:27:38.440,0:27:42.519
+E agora menos
+
+0:27:40.880,0:27:46.799
+porque aqui menos por menos dá mais e
+
+0:27:42.519,0:27:49.360
+portanto no aqui - fg.
+
+0:27:46.799,0:27:51.200
+Ok? Portanto, estes dois termos, eles
+
+0:27:49.360,0:27:53.559
+estão aqui,
+
+0:27:51.200,0:27:58.039
+este
+
+0:27:53.559,0:28:00.679
+e este. OK? E, portanto, eu somei e
+
+0:27:58.039,0:28:03.880
+subtraí FG,
+
+0:28:00.679,0:28:07.279
+portanto não alterei nada. Pronto. E
+
+0:28:03.880,0:28:11.159
+agora vai- me permitir partir
+
+0:28:07.279,0:28:14.519
+em dois dois limites.
+
+0:28:11.159,0:28:18.440
+Pronto. E o que é que nós temos aqui?
+
+0:28:14.519,0:28:21.360
+Pois, já sabemos. GZE a derivada de F. G
+
+0:28:18.440,0:28:24.640
+em evidência e a expressão por definição
+
+0:28:21.360,0:28:26.880
+da derivada de F. Portanto, então isto é
+
+0:28:24.640,0:28:28.240
+G.
+
+0:28:26.880,0:28:32.840
+Ah, esqueci-me aqui de uma coisa, porque
+
+0:28:28.240,0:28:35.039
+em baixo tínhamos G x GX + H. Ok?
+
+0:28:32.840,0:28:39.240
+Pronto, o que vai acontecer é que agora
+
+0:28:35.039,0:28:43.600
+o o gx + h aqui não não aqui não há
+
+0:28:39.240,0:28:46.600
+indeterminação nenhuma e vai ficar gado
+
+0:28:43.600,0:28:46.600
+g²
+
+0:28:47.240,0:28:52.320
+g²
+
+0:28:49.440,0:28:55.960
+pronto e aqui e portanto aqui em cima
+
+0:28:52.320,0:28:59.640
+vimos que temos g vezes a derivada de f
+
+0:28:55.960,0:29:04.559
+portanto g ve x vezes a derivada de f
+
+0:28:59.640,0:29:07.559
+ok aqui eu ponho f em evidência fica -
+
+0:29:04.559,0:29:07.559
+fez
+
+0:29:07.960,0:29:13.919
+a derivada de g.
+
+0:29:11.120,0:29:16.120
+Pronto. E tudo sobre
+
+0:29:13.919,0:29:18.799
+g.
+
+0:29:16.120,0:29:21.399
+OK? Pronto.
+
+0:29:18.799,0:29:23.080
+Ora,
+
+0:29:21.399,0:29:25.080
+é assim, muitas vezes eu quando estou a
+
+0:29:23.080,0:29:29.080
+resolver e preciso da derivada do
+
+0:29:25.080,0:29:32.360
+quociente, eu não aplico esta regra. Eu
+
+0:29:29.080,0:29:37.760
+nem sei esta regra de cor. Não apo
+
+0:29:32.360,0:29:39.919
+dela. Porquê? Porque eu posso eu posso
+
+0:29:37.760,0:29:42.480
+resolver
+
+0:29:39.919,0:29:45.519
+chegar a mesmo resultado
+
+0:29:42.480,0:29:48.440
+pela regra do produto. E a regra do
+
+0:29:45.519,0:29:51.159
+produto é tão mais simples de decorar.
+
+0:29:48.440,0:29:53.360
+Como eu vou dizer que isto aqui em vez
+
+0:29:51.159,0:29:59.840
+de ser um coeficiente
+
+0:29:53.360,0:30:01.840
+F sobre G, eu vou dizer que é F vees
+
+0:29:59.840,0:30:04.640
+e aqui tenho
+
+0:30:01.840,0:30:06.640
+uma potência, ou seja, é um fzes uma
+
+0:30:04.640,0:30:09.120
+outra função. E então eu aqui eu posso
+
+0:30:06.640,0:30:11.480
+já posso derivar pela regra do produto
+
+0:30:09.120,0:30:15.240
+que é bem mais simples. derivada da
+
+0:30:11.480,0:30:15.240
+primeira vezes a segunda
+
+0:30:16.679,0:30:22.919
+mais
+
+0:30:19.399,0:30:25.039
+a derivada da segunda vez a primeira.
+
+0:30:22.919,0:30:29.519
+E o que é a derivada da segunda? Ela é
+
+0:30:25.039,0:30:31.799
+uma potência. Portanto, baixa aqui o um,
+
+0:30:29.519,0:30:33.679
+o índice,
+
+0:30:31.799,0:30:36.559
+baixa o
+
+0:30:33.679,0:30:40.279
+diminui aqui o índex. Portanto, fica -1
+
+0:30:36.559,0:30:42.760
+x g - 2 vezes a derivada de g, porque
+
+0:30:40.279,0:30:44.799
+isto é uma função composta aqui. Eu não
+
+0:30:42.760,0:30:46.600
+estou a derivar um x, não estou a fazer
+
+0:30:44.799,0:30:49.720
+a derivada de x elevado a -1, estou a
+
+0:30:46.600,0:30:51.120
+fazer derivada de uma função
+
+0:30:49.720,0:30:53.480
+que que portanto que é uma função
+
+0:30:51.120,0:30:55.240
+composta. É uma função composta.
+
+0:30:53.480,0:30:56.919
+Primeiro apliquei o g e depois apliquei
+
+0:30:55.240,0:31:00.200
+uma potência
+
+0:30:56.919,0:31:04.000
+- g a -2 e agora tenho que multiplicar
+
+0:31:00.200,0:31:07.519
+vezes derivada de g. OK? E, portanto,
+
+0:31:04.000,0:31:10.880
+isto é igual a f linha
+
+0:31:07.519,0:31:10.880
+sobre q-
+
+0:31:11.320,0:31:15.279
+f
+
+0:31:13.080,0:31:16.320
+g linha
+
+0:31:15.279,0:31:18.799
+sobre [roncando]
+
+0:31:16.320,0:31:20.279
+g. Portanto, isto é o que eu faço na
+
+0:31:18.799,0:31:21.960
+prática. Isto é o que eu faço quando
+
+0:31:20.279,0:31:25.000
+preciso
+
+0:31:21.960,0:31:26.880
+eh de calcular uma derivada eh de um
+
+0:31:25.000,0:31:29.480
+coeficiente. Eu eu uso normalmente uso
+
+0:31:26.880,0:31:31.720
+sempre esta regra aqui e desenvolvo esta
+
+0:31:29.480,0:31:33.200
+expressão aqui. Estou só a demonstrar
+
+0:31:31.720,0:31:34.600
+que vai dar o mesmo resultado que tá
+
+0:31:33.200,0:31:36.799
+aqui. Agora, reduzindo ao mesmo
+
+0:31:34.600,0:31:39.240
+denominador,
+
+0:31:36.799,0:31:41.480
+f linha
+
+0:31:39.240,0:31:43.480
+G
+
+0:31:41.480,0:31:45.639
+- F
+
+0:31:43.480,0:31:47.799
+G linha
+
+0:31:45.639,0:31:50.720
+sobre G².
+
+0:31:47.799,0:31:54.279
+Ok? Pronto. Então, como viram, na
+
+0:31:50.720,0:31:56.720
+verdade, eu não preciso da da da regra
+
+0:31:54.279,0:31:59.600
+da derivada do cociente e na verdade eu
+
+0:31:56.720,0:32:01.440
+não aceito cód e pronto, porque
+
+0:31:59.600,0:32:04.639
+normalmente cada vez que is aparece um
+
+0:32:01.440,0:32:06.559
+coociente, eu deduzo a partir daqui com
+
+0:32:04.639,0:32:08.120
+este formato, eu deduzo pela regra do
+
+0:32:06.559,0:32:12.679
+produto.
+
+0:32:08.120,0:32:12.679
+OK? Sim, senhora.
+
+0:32:14.760,0:32:21.600
+Vamos agora ver a derivada da função
+
+0:32:18.159,0:32:23.200
+inversa, OK? Não é a derivada do
+
+0:32:21.600,0:32:25.639
+inverso, porque o inverso é uma
+
+0:32:23.200,0:32:27.960
+potência, qualquer coisa elevada a -1,
+
+0:32:25.639,0:32:29.559
+não. Agora é a derivada da função
+
+0:32:27.960,0:32:31.840
+inversa.
+
+0:32:29.559,0:32:35.320
+OK? Vamos lá ver
+
+0:32:31.840,0:32:35.320
+se isto é intuitivo.
+
+0:32:36.519,0:32:42.679
+Ora bem, vamos lá ver o seguinte.
+
+0:32:39.120,0:32:45.039
+Portanto, nós vemos que
+
+0:32:42.679,0:32:46.760
+nós para já temos que ter uma noção que
+
+0:32:45.039,0:32:50.799
+graficamente o que é que é a função
+
+0:32:46.760,0:32:53.799
+inversa. Graficamente
+
+0:32:50.799,0:32:55.960
+vocês podem usar qualquer software que
+
+0:32:53.799,0:32:59.159
+para para traçar funções. Eu, por
+
+0:32:55.960,0:33:02.159
+exemplo, costumo usar o Geogebra,
+
+0:32:59.159,0:33:02.159
+OK?
+
+0:33:03.519,0:33:07.760
+Graficamente, a função inversa
+
+0:33:08.880,0:33:13.960
+e a função inversa o quê? Quando eu
+
+0:33:11.279,0:33:15.919
+tenho uma expressão
+
+0:33:13.960,0:33:18.600
+y, que é uma função, por exemplo, igual
+
+0:33:15.919,0:33:21.120
+a x²,
+
+0:33:18.600,0:33:23.840
+eu digo é uma função
+
+0:33:21.120,0:33:26.600
+e é em a variável independente é o x, a
+
+0:33:23.840,0:33:30.000
+variável dependente é o y, OK? é uma
+
+0:33:26.600,0:33:30.000
+função f(x).
+
+0:33:30.080,0:33:35.519
+A função inversa resulta, se eu agora
+
+0:33:33.840,0:33:38.760
+explicitar
+
+0:33:35.519,0:33:43.360
+x e considerar que tinha uma função x em
+
+0:33:38.760,0:33:44.880
+função do y, neste caso daria
+
+0:33:43.360,0:33:48.279
+x
+
+0:33:44.880,0:33:52.519
+=√ qu y.
+
+0:33:48.279,0:33:54.039
+E agora o que se faz é trocar
+
+0:33:52.519,0:33:55.200
+estes dois símbolos, as duas variáveis,
+
+0:33:54.039,0:33:57.200
+porque isto são variáveis mudas.
+
+0:33:55.200,0:33:59.679
+Obviamente que ainda tanto faz eu usar X
+
+0:33:57.200,0:34:02.120
+como Y, A, B, batatas e cebolas. Não
+
+0:33:59.679,0:34:03.679
+importa. São duas variáveis mudas, são
+
+0:34:02.120,0:34:05.440
+convenções.
+
+0:34:03.679,0:34:07.039
+Isto exprime uma, isto é uma convenção
+
+0:34:05.440,0:34:10.960
+que exprime uma função e aqui exprime
+
+0:34:07.039,0:34:14.320
+outra. Eu aqui explicitei
+
+0:34:10.960,0:34:17.280
+em ordem x nesta desta expressão. Agora,
+
+0:34:14.320,0:34:18.800
+ao trocar que são variáveis mudas, eu
+
+0:34:17.280,0:34:21.800
+posso trocar, usar os símbolos que eu
+
+0:34:18.800,0:34:24.599
+quiser. E eu tenho esta expressão.
+
+0:34:21.800,0:34:26.839
+Pronto. E aqui assim eu posso dizer que
+
+0:34:24.599,0:34:29.960
+esta função e esta função são as funções
+
+0:34:26.839,0:34:33.119
+inversas uma da outra. A função inversa
+
+0:34:29.960,0:34:36.599
+de ao quadrado é a raiz quadrada.
+
+0:34:33.119,0:34:41.760
+OK? Pronto. E então
+
+0:34:36.599,0:34:43.960
+o que resulta que graficamente
+
+0:34:41.760,0:34:46.639
+eh
+
+0:34:43.960,0:34:50.079
+as funções inversas elas são simétricas
+
+0:34:46.639,0:34:52.040
+em relação a este eixo aqui, à reta y =
+
+0:34:50.079,0:34:54.800
+x.
+
+0:34:52.040,0:34:58.240
+E podemos ver isso neste caso aqui
+
+0:34:54.800,0:35:02.160
+trivial da função x².
+
+0:34:58.240,0:35:05.160
+OK? Porquê? Porque a função x²
+
+0:35:02.160,0:35:07.000
+é esta parábola,
+
+0:35:05.160,0:35:10.760
+OK?
+
+0:35:07.000,0:35:13.440
+E a sua função inversa
+
+0:35:10.760,0:35:15.359
+é esta parábola aqui simétrica. Isto,
+
+0:35:13.440,0:35:18.560
+isto aqui tá um bocadinho torto, que
+
+0:35:15.359,0:35:22.480
+esta reta passaria por aqui. Ah,
+
+0:35:18.560,0:35:22.480
+deixa-me apagar isto aqui.
+
+0:35:27.920,0:35:32.839
+Pronto, é isto. Porque este aqui, este
+
+0:35:29.359,0:35:36.240
+ponto seria o o 1 1. 1
+
+0:35:32.839,0:35:41.200
+ao quadrado é 1√ qu 1 é 1.
+
+0:35:36.240,0:35:41.200
+Este ponto aqui seria o 1 1.
+
+0:35:47.040,0:35:55.119
+OK? Eh, e portanto esta
+
+0:35:51.599,0:35:56.960
+é a função inversa.
+
+0:35:55.119,0:35:58.920
+OK? O que acontece é quando falamos de
+
+0:35:56.960,0:36:02.160
+funções, normalmente para um, por
+
+0:35:58.920,0:36:04.359
+definição, para um dado X
+
+0:36:02.160,0:36:06.319
+só pode haver um dado Y. E, portanto, o
+
+0:36:04.359,0:36:08.520
+que acontece é que este ramo
+
+0:36:06.319,0:36:12.319
+normalmente, pois não se considera como
+
+0:36:08.520,0:36:14.560
+fazendo parte da função. E quando se nos
+
+0:36:12.319,0:36:18.319
+pedem o traçado da da raiz quadrada,
+
+0:36:14.560,0:36:21.119
+pois eh por convenção só se costuma
+
+0:36:18.319,0:36:23.800
+traçar este esta este ramo aqui de cima.
+
+0:36:21.119,0:36:26.280
+Pronto. OK. Pronto. Portanto, gostava
+
+0:36:23.800,0:36:29.839
+que ficassem com esta ideia da função
+
+0:36:26.280,0:36:31.599
+inversa. Pronto. Então,
+
+0:36:29.839,0:36:33.839
+agora vou apelevar à vossa intuição para
+
+0:36:31.599,0:36:39.040
+o seguinte.
+
+0:36:33.839,0:36:39.040
+Em cada momento, em cada momento,
+
+0:36:39.480,0:36:44.720
+num dado ponto,
+
+0:36:41.760,0:36:47.240
+eu tenho um determinado triângulo
+
+0:36:44.720,0:36:49.760
+aqui, determinado triângulo retângulo,
+
+0:36:47.240,0:36:54.960
+cuja tangente é a derivada naquele
+
+0:36:49.760,0:36:58.480
+ponto. Portanto, num dado ponto x0,
+
+0:36:54.960,0:37:01.560
+num dado ponto x0,
+
+0:36:58.480,0:37:03.560
+eu tenho
+
+0:37:01.560,0:37:07.280
+e que a derivada da primeira função que
+
+0:37:03.560,0:37:07.280
+é dy dx,
+
+0:37:09.960,0:37:16.400
+este ponto aqui x0
+
+0:37:14.319,0:37:21.359
+vai ser equivalente aqui a este outro
+
+0:37:16.400,0:37:21.359
+ponto. Reparem aqui na simetria.
+
+0:37:21.920,0:37:26.200
+E, portanto,
+
+0:37:23.640,0:37:28.359
+vai ser,
+
+0:37:26.200,0:37:34.319
+reparem, quando aqui eu pus aqui a a
+
+0:37:28.359,0:37:34.319
+função inversa, fica x em função de y,
+
+0:37:34.839,0:37:40.160
+portanto, vai ser equivalente
+
+0:37:40.960,0:37:45.480
+a
+
+0:37:42.760,0:37:47.079
+dx dy.
+
+0:37:45.480,0:37:51.760
+OK?
+
+0:37:47.079,0:37:52.960
+no ponto y0, num dado ponto y0. Pronto,
+
+0:37:51.760,0:37:54.319
+isto é assim um bocado difícil de
+
+0:37:52.960,0:37:56.760
+explicar também. Não sei bem explicar
+
+0:37:54.319,0:37:58.119
+isto, mas pronto, este é mais um
+
+0:37:56.760,0:38:02.240
+daqueles casos, OK? que para mim é
+
+0:37:58.119,0:38:05.520
+intuitivo que na função inversa,
+
+0:38:02.240,0:38:08.319
+na função inversa,
+
+0:38:05.520,0:38:12.119
+eh,
+
+0:38:08.319,0:38:14.440
+esta é a derivada da primeira da função
+
+0:38:12.119,0:38:17.160
+e esta é a derivada
+
+0:38:14.440,0:38:19.359
+e esta é a derivada
+
+0:38:17.160,0:38:24.160
+da função inversa,
+
+0:38:19.359,0:38:26.079
+OK? é é o é o inverso do aqui do
+
+0:38:24.160,0:38:28.839
+deste cociente. [roncando] Isto fica
+
+0:38:26.079,0:38:30.119
+mais simples resolvendo um caso prático.
+
+0:38:28.839,0:38:32.560
+Penso que ficará mais simples de
+
+0:38:30.119,0:38:35.359
+entender. [roncando] E vamos usar
+
+0:38:32.560,0:38:38.440
+precisamente esta função x².
+
+0:38:35.359,0:38:40.440
+OK? Sim, senhora.
+
+0:38:38.440,0:38:42.880
+Vamos imaginar que eu tenho a função x²
+
+0:38:40.440,0:38:45.480
+que por acaso sei derivar
+
+0:38:42.880,0:38:48.680
+que dá 2x. E vamos imaginar que eu
+
+0:38:45.480,0:38:51.000
+queria a derivada da função inversa, OK?
+
+0:38:48.680,0:38:53.359
+esta esta aqui e por hipótese eu não
+
+0:38:51.000,0:38:54.880
+saberia eu não sabia derivar. Vamos
+
+0:38:53.359,0:38:58.520
+imaginar que eu não sabia derivar esta
+
+0:38:54.880,0:39:00.520
+função e portanto e e eu mas eu sei
+
+0:38:58.520,0:39:02.880
+derivar esta que é a sua função inversa.
+
+0:39:00.520,0:39:04.680
+Então a partir desta,
+
+0:39:02.880,0:39:08.040
+se eu tenho, se eu sei derivar a função
+
+0:39:04.680,0:39:09.560
+inversa, eu vou saber derivar esta. OK?
+
+0:39:08.040,0:39:11.240
+Vamos dar um exemplo. Portanto, eu vou
+
+0:39:09.560,0:39:15.160
+dizer, OK?
+
+0:39:11.240,0:39:15.160
+A derivada de x qu
+
+0:39:16.240,0:39:20.640
+é igual a 2x,
+
+0:39:18.839,0:39:24.680
+já sabemos,
+
+0:39:20.640,0:39:24.680
+ou seja, é igual a dx.
+
+0:39:26.119,0:39:30.560
+dx.
+
+0:39:28.520,0:39:33.560
+Então, qual será a derivada da função
+
+0:39:30.560,0:39:33.560
+inversa?
+
+0:39:38.280,0:39:45.359
+A derivada da função inversa será, é só
+
+0:39:41.040,0:39:47.880
+trocar aqui, será 1
+
+0:39:45.359,0:39:50.079
+sobre 2x.
+
+0:39:47.880,0:39:51.760
+1 sobre 2x.
+
+0:39:50.079,0:39:53.280
+Mas
+
+0:39:51.760,0:39:56.000
+eu vou usar agora a técnica que eu uso
+
+0:39:53.280,0:39:57.839
+sempre quando sou eu a fazer isto. O que
+
+0:39:56.000,0:39:59.760
+eu faço sempre para para não fazer
+
+0:39:57.839,0:40:02.920
+confusão, senão isto aqui torna-se muito
+
+0:39:59.760,0:40:04.480
+confuso, é trocar aqui as variáveis
+
+0:40:02.920,0:40:07.440
+mudas. Agora que eu já tenho a
+
+0:40:04.480,0:40:10.960
+expressão,
+
+0:40:07.440,0:40:14.480
+as variáveis mudas x y, eu inverto-as. E
+
+0:40:10.960,0:40:18.119
+agora vou dizer, ah, OK, a variável, a
+
+0:40:14.480,0:40:20.200
+derivada dy dx
+
+0:40:18.119,0:40:22.079
+da função inversa, que é a rax que eu
+
+0:40:20.200,0:40:24.760
+quero,
+
+0:40:22.079,0:40:26.920
+eu troca o x pelo y e vou dizer é igual
+
+0:40:24.760,0:40:28.920
+a 1 sobre
+
+0:40:26.920,0:40:32.680
+2y.
+
+0:40:28.920,0:40:32.680
+Portanto, a derivada
+
+0:40:33.119,0:40:38.839
+da rax
+
+0:40:35.640,0:40:40.599
+é 1/ 2y.
+
+0:40:38.839,0:40:43.400
+Mas eu não quero em função do y, eu
+
+0:40:40.599,0:40:46.280
+quero em função de x. Portanto, eu tenho
+
+0:40:43.400,0:40:48.400
+que ter uma expressão
+
+0:40:46.280,0:40:52.960
+do do que é
+
+0:40:48.400,0:40:55.520
+do que é o do que é o y. OK?
+
+0:40:52.960,0:40:58.520
+Mas o y é a minha função, é a minha nova
+
+0:40:55.520,0:40:58.520
+função.
+
+0:40:58.839,0:41:04.960
+Ou seja, o y
+
+0:41:01.880,0:41:08.560
+é é esta função
+
+0:41:04.960,0:41:11.760
+porque é o y, é o meu novo y
+
+0:41:08.560,0:41:16.000
+que é a minha função inversa.
+
+0:41:11.760,0:41:19.000
+E, portanto, a derivada da rax é 1 sobre
+
+0:41:16.000,0:41:19.000
+2√x,
+
+0:41:20.359,0:41:24.480
+OK?
+
+0:41:22.560,0:41:26.440
+Eh, pronto, isto pode ter sido um bocado
+
+0:41:24.480,0:41:27.800
+confuso. Isto tem que ser feito com
+
+0:41:26.440,0:41:30.280
+cuidado. Eu já tenho um bocado de
+
+0:41:27.800,0:41:31.800
+prática e, portanto, costumo dar bem com
+
+0:41:30.280,0:41:34.280
+esta técnica. Eu gosto de trabalhar
+
+0:41:31.800,0:41:36.960
+desta maneira, como vocês viram, eu
+
+0:41:34.280,0:41:38.800
+gosto de obter esta expressão, inverter
+
+0:41:36.960,0:41:41.079
+a expressão, trocar as variáveis. Eu
+
+0:41:38.800,0:41:43.599
+gosto de trabalhar desta forma, para mim
+
+0:41:41.079,0:41:46.400
+resulta mais simples. E depois já tenho
+
+0:41:43.599,0:41:47.960
+um novo y, mas o Y é aquilo que eu quero
+
+0:41:46.400,0:41:50.760
+calcular, é a função inversa que eu
+
+0:41:47.960,0:41:52.160
+quero calcular. Pronto. É claro que aqui
+
+0:41:50.760,0:41:54.599
+não precisávamos da função inversa
+
+0:41:52.160,0:41:57.079
+porque nós sabemos derivar a raiz de x.
+
+0:41:54.599,0:41:58.720
+Nós sabemos derivar
+
+0:41:57.079,0:42:00.599
+x elevado a 1/, portanto não
+
+0:41:58.720,0:42:02.200
+precisávamos de ir pela regra da função
+
+0:42:00.599,0:42:07.720
+inversa.
+
+0:42:02.200,0:42:12.160
+E a derivada aqui, pois é igual a 1/2
+
+0:42:07.720,0:42:16.880
+de x. Ora este -1 - 1/2. Pronto. E
+
+0:42:12.160,0:42:19.520
+portanto resulta 1.
+
+0:42:16.880,0:42:25.400
+Oi. Onde é que eu me enganei aqui?
+
+0:42:19.520,0:42:25.400
+Aqui não é x, é, portanto, é o 1/
+
+0:42:27.160,0:42:31.000
+x - 1/2.
+
+0:42:32.400,0:42:38.960
+OK? Muito importante também, portanto,
+
+0:42:34.599,0:42:40.920
+como vem a derivada da função inversa.
+
+0:42:38.960,0:42:42.319
+Futuramente vamos ver outros tutoriais
+
+0:42:40.920,0:42:45.520
+quando tivermos a derivar as funções
+
+0:42:42.319,0:42:48.000
+transcendentes, onde isto vai ser
+
+0:42:45.520,0:42:50.440
+bastante aplicado para calcular as, por
+
+0:42:48.000,0:42:52.000
+exemplo, as as derivadas das funções
+
+0:42:50.440,0:42:54.040
+inversas, das das funções
+
+0:42:52.000,0:42:57.119
+trigonométricas, por exemplo, derivada
+
+0:42:54.040,0:43:01.559
+do arcoeno, etc, etc. Veristo, portanto,
+
+0:42:57.119,0:43:01.559
+volta voltaremos a este tema no futuro.
+
+0:43:02.000,0:43:06.480
+Ora bem, então, finalmente, vamos agora
+
+0:43:03.440,0:43:08.559
+ver um tópico mais avançado,
+
+0:43:06.480,0:43:10.800
+OK? Vamos ver um tópico aqui mais
+
+0:43:08.559,0:43:15.359
+avançado dentro da derivação, que é o
+
+0:43:10.800,0:43:15.359
+tema da da derivada da função implícita
+
+0:43:18.319,0:43:23.880
+derivada
+
+0:43:20.200,0:43:23.880
+da função implícita.
+
+0:43:30.160,0:43:36.520
+Ora bem, para isso temos que definir o
+
+0:43:32.839,0:43:36.520
+que é a função implícita.
+
+0:43:37.160,0:43:43.400
+Eh, nós temos visto aqui várias funções
+
+0:43:39.640,0:43:46.040
+e e temos visto várias funções f(x)
+
+0:43:43.400,0:43:48.240
+quando nós somos capazes de representar
+
+0:43:46.040,0:43:51.559
+analíticamente e dizer y igual a
+
+0:43:48.240,0:43:56.000
+qualquer coisa em função de x.
+
+0:43:51.559,0:44:00.559
+Pronto, isto é uma função explícita. Ela
+
+0:43:56.000,0:44:00.559
+está explicitada em ordem y
+
+0:44:00.960,0:44:04.760
+função explícita.
+
+0:44:07.440,0:44:11.960
+Mas também existem outras funções. São
+
+0:44:09.280,0:44:14.839
+funções implícitas, são funções que não
+
+0:44:11.960,0:44:16.400
+conseguem ser explicitadas.
+
+0:44:14.839,0:44:18.839
+OK?
+
+0:44:16.400,0:44:21.520
+Vamos imaginar o seguinte. Vamos
+
+0:44:18.839,0:44:23.040
+imaginar esta expressão.
+
+0:44:21.520,0:44:25.119
+Por vezes, quando vemos uma expressão,
+
+0:44:23.040,0:44:28.720
+nós não sabemos se podemos explicitar ou
+
+0:44:25.119,0:44:31.920
+não. OK?
+
+0:44:28.720,0:44:35.280
+Vamos imaginar, por exemplo, y
+
+0:44:31.920,0:44:38.240
+- 2x = 0.
+
+0:44:35.280,0:44:40.480
+OK? Isto é uma expressão,
+
+0:44:38.240,0:44:42.319
+é uma equação,
+
+0:44:40.480,0:44:44.480
+é uma reta.
+
+0:44:42.319,0:44:47.119
+é uma reta, mas eu posso consigo
+
+0:44:44.480,0:44:51.319
+explicitar em ordem y
+
+0:44:47.119,0:44:51.319
+escrevo y = 2x
+
+0:44:51.640,0:44:57.559
+e, portanto, consigo consigo
+
+0:44:55.280,0:45:00.559
+e definir isto como sendo uma função e
+
+0:44:57.559,0:45:03.440
+dizer: "OK, então isto é uma função
+
+0:45:00.559,0:45:05.440
+f(x)
+
+0:45:03.440,0:45:09.766
+é igual a 2x".
+
+0:45:05.440,0:45:11.559
+OK? Portanto, aqui nós temos uma função
+
+0:45:09.766,0:45:13.760
+[roncando] e ela a função foi nos dada
+
+0:45:11.559,0:45:16.079
+inicialmente no formato de implícito.
+
+0:45:13.760,0:45:17.760
+Ela estava aqui implícita.
+
+0:45:16.079,0:45:20.040
+Ela não estava explicitada, mas eu fui
+
+0:45:17.760,0:45:21.960
+capaz de a explicitar. Portanto, eu
+
+0:45:20.040,0:45:24.760
+posso ter uma expressão de função
+
+0:45:21.960,0:45:27.240
+implícita e se eu conseguir explicitar,
+
+0:45:24.760,0:45:30.720
+pois tanto melhor fica explicitada e eu
+
+0:45:27.240,0:45:32.920
+obtenho a expressão da função. OK?
+
+0:45:30.720,0:45:35.040
+Pronto. Mas eu posso não conseguir
+
+0:45:32.920,0:45:37.920
+explicitar.
+
+0:45:35.040,0:45:39.359
+Vamos ver, por exemplo, aqui
+
+0:45:37.920,0:45:41.079
+uma expressão mais complexa. Vamos
+
+0:45:39.359,0:45:42.720
+imaginar
+
+0:45:41.079,0:45:44.839
+x
+
+0:45:42.720,0:45:49.160
+ao quadrado
+
+0:45:44.839,0:45:49.160
+x y à queno
+
+0:45:51.079,0:45:56.119
+de y = a 1.
+
+0:45:54.440,0:46:00.599
+Eu posso dirigir assim, eu tenho uma
+
+0:45:56.119,0:46:02.640
+função de y em função de x. Ela é dada
+
+0:46:00.599,0:46:05.200
+por esta expressão.
+
+0:46:02.640,0:46:08.480
+Sim, senhor. É dada por esta expressão.
+
+0:46:05.200,0:46:10.960
+Eu não consigo é explicitar.
+
+0:46:08.480,0:46:13.760
+Então eu digo que eu considero que tenho
+
+0:46:10.960,0:46:16.200
+uma função implícita aqui.
+
+0:46:13.760,0:46:19.920
+OK?
+
+0:46:16.200,0:46:22.760
+Eh, e portanto e eu posso derivar essa
+
+0:46:19.920,0:46:25.760
+função. Posso, posso. Há várias técnicas
+
+0:46:22.760,0:46:28.079
+para derivar a função implícita.
+
+0:46:25.760,0:46:30.040
+regras de função composta, regras de de
+
+0:46:28.079,0:46:32.359
+métodos de derivadas parciais, etc, etc.
+
+0:46:30.040,0:46:34.119
+Eu gosto de usar um método que é o
+
+0:46:32.359,0:46:35.839
+método do diferencial da função
+
+0:46:34.119,0:46:38.520
+implícita.
+
+0:46:35.839,0:46:40.079
+Ou seja, se eu tenho uma expressão
+
+0:46:38.520,0:46:42.520
+normalmente na função implícita, o que
+
+0:46:40.079,0:46:45.559
+vai acontecer é que
+
+0:46:42.520,0:46:47.640
+é como se eu tivesse uma função f
+
+0:46:45.559,0:46:50.800
+maiúsculo, [roncando] que é a função de
+
+0:46:47.640,0:46:52.640
+duas variáveis, de x e de y, que é o que
+
+0:46:50.800,0:46:55.160
+eu tenho aqui, uma expressão com x e com
+
+0:46:52.640,0:46:57.200
+y.
+
+0:46:55.160,0:47:00.160
+igual a uma dada constante. Normalmente
+
+0:46:57.200,0:47:02.480
+representa-se assim a a função
+
+0:47:00.160,0:47:04.760
+implícita.
+
+0:47:02.480,0:47:07.839
+Pronto. Então eu posso dizer esta é a
+
+0:47:04.760,0:47:10.440
+expressão genérica que representa uma
+
+0:47:07.839,0:47:13.680
+função implícita
+
+0:47:10.440,0:47:16.040
+de y em função de x
+
+0:47:13.680,0:47:17.960
+normalmente, a menos que seja dito o
+
+0:47:16.040,0:47:19.240
+contrário e alguém nos diga que é x em
+
+0:47:17.960,0:47:22.599
+função de y. Mas pronto, mas
+
+0:47:19.240,0:47:25.119
+normalmente, pois consideramos que
+
+0:47:22.599,0:47:28.440
+exprime uma função implícita de y em
+
+0:47:25.119,0:47:31.480
+função de x. Poderei ou não explicitar o
+
+0:47:28.440,0:47:35.599
+y? Não sabemos. Só vendo a expressão,
+
+0:47:31.480,0:47:37.200
+poderemos tentar explicitar o y. OK? Mas
+
+0:47:35.599,0:47:41.520
+vamos trabalhar nesta nesta neste
+
+0:47:37.200,0:47:43.440
+formato, no formato da função implícita.
+
+0:47:41.520,0:47:45.280
+E vamos considerar o que é que é o
+
+0:47:43.440,0:47:48.240
+diferencial
+
+0:47:45.280,0:47:50.839
+eh da função implícita.
+
+0:47:48.240,0:47:53.640
+É uma coisa muito simples. Vamos dizer o
+
+0:47:50.839,0:47:56.720
+diferencial
+
+0:47:53.640,0:47:59.520
+de f maiúsculo
+
+0:47:56.720,0:48:01.359
+é igual a E agora vai entrar o conceito
+
+0:47:59.520,0:48:03.640
+derivada parcial. Não é nenhum bicho de
+
+0:48:01.359,0:48:06.079
+sete cabeças. É uma coisa muito simples.
+
+0:48:03.640,0:48:08.559
+Olhar uma expressão
+
+0:48:06.079,0:48:11.280
+e derivar em ordem uma variável,
+
+0:48:08.559,0:48:13.280
+considerando como sendo a função dessa
+
+0:48:11.280,0:48:15.520
+variável e como que a outra variável é
+
+0:48:13.280,0:48:17.839
+uma constante e, portanto, não entra
+
+0:48:15.520,0:48:20.920
+nesta guerra. Então eu digo, OK, eu
+
+0:48:17.839,0:48:22.599
+derivo a função maiúscula f, a função
+
+0:48:20.920,0:48:24.119
+implícita,
+
+0:48:22.599,0:48:26.079
+mas como é uma função de várias
+
+0:48:24.119,0:48:27.880
+variáveis e eu só quero derivar em ordem
+
+0:48:26.079,0:48:30.200
+uma, eu uso o símbolo, este símbolo
+
+0:48:27.880,0:48:32.079
+aqui, que é o [roncando] símbolo da
+
+0:48:30.200,0:48:34.640
+derivada parcial. E eu até eu digo,
+
+0:48:32.079,0:48:38.800
+olha, é a derivada de f da função
+
+0:48:34.640,0:48:38.800
+implícita em ordem x,
+
+0:48:39.119,0:48:45.559
+OK? vezes
+
+0:48:42.640,0:48:47.079
+o diferencial dx
+
+0:48:45.559,0:48:50.000
+mais
+
+0:48:47.079,0:48:54.440
+a derivada parcial
+
+0:48:50.000,0:48:54.440
+de f em ordem a y
+
+0:48:55.880,0:49:01.720
+vezes o diferencial dy.
+
+0:48:59.599,0:49:03.880
+Pronto, esta é a expressão, este é o
+
+0:49:01.720,0:49:05.440
+diferencial da função implícita f
+
+0:49:03.880,0:49:06.720
+maiúsculo.
+
+0:49:05.440,0:49:10.760
+OK?
+
+0:49:06.720,0:49:13.760
+Pronto, como vem, é é intuitivo.
+
+0:49:10.760,0:49:16.359
+É intuitivo.
+
+0:49:13.760,0:49:18.280
+Eh, no fundo é como se houvesse aqui um
+
+0:49:16.359,0:49:20.359
+corta, corta, corta, corta e é como se
+
+0:49:18.280,0:49:22.520
+fosse, portanto,
+
+0:49:20.359,0:49:24.760
+a soma do das das derivadas parciais e
+
+0:49:22.520,0:49:28.040
+dava o diferencial total.
+
+0:49:24.760,0:49:31.000
+Sim, senhor. Vamos aplicar agora este
+
+0:49:28.040,0:49:33.880
+caso a um caso concreto.
+
+0:49:31.000,0:49:36.200
+Este, precisamente este caso aqui.
+
+0:49:33.880,0:49:38.839
+Vamos aplicar aqui este caso. Pronto.
+
+0:49:36.200,0:49:42.000
+Então eu vou dizer assim: "Bom,
+
+0:49:38.839,0:49:45.760
+o diferencial total desta desta função
+
+0:49:42.000,0:49:48.880
+f, eu vou considerar aqui, seja f
+
+0:49:45.760,0:49:51.839
+de xy
+
+0:49:48.880,0:49:55.319
+é igual a
+
+0:49:51.839,0:49:59.279
+x qu y.
+
+0:49:55.319,0:49:59.839
+mais o cosseno de y
+
+0:49:59.279,0:50:02.839
+[roncando]
+
+0:49:59.839,0:50:02.839
+eh
+
+0:50:03.920,0:50:11.440
+mais o ceno de y - 1. Pronto. Ou então
+
+0:50:08.319,0:50:13.319
+posso dizer, pronto, neste nesta forma,
+
+0:50:11.440,0:50:16.559
+ou posso pôr o um para este lado e dizer
+
+0:50:13.319,0:50:20.720
+igual a zero. Ou então vou deixar assim
+
+0:50:16.559,0:50:24.720
+e vou dizer OK e que
+
+0:50:20.720,0:50:24.720
+eu vou pôr aqui o aqui
+
+0:50:26.200,0:50:30.160
+não vamos aqui trabalhar isto com
+
+0:50:29.079,0:50:34.240
+cuidado para não haver confusão.
+
+0:50:30.160,0:50:36.799
+Portanto, eu defino este fim senhor.
+
+0:50:34.240,0:50:40.400
+Mas agora defin agora escrevo a
+
+0:50:36.799,0:50:42.760
+expressão a expressão
+
+0:50:40.400,0:50:44.640
+da função implícita.
+
+0:50:42.760,0:50:47.240
+OK?
+
+0:50:44.640,0:50:51.760
+OK? É como se eu dissesse assim, é como
+
+0:50:47.240,0:50:53.520
+se eu dissesse: "Ah, tenho aqui x quado
+
+0:50:51.760,0:50:55.960
+não é nada, é uma expressão. Aqui não há
+
+0:50:53.520,0:50:58.880
+função nenhuma. Ela só se transforma em
+
+0:50:55.960,0:51:00.559
+em em função quando eu quando eu escrevo
+
+0:50:58.880,0:51:03.280
+um sinal de igual, quando eu digo:
+
+0:51:00.559,0:51:06.280
+"Olha, seja y e então aqui ela é
+
+0:51:03.280,0:51:07.880
+materializada numa função primeiro, x²
+
+0:51:06.280,0:51:10.880
+não é nada, não é função, não é uma
+
+0:51:07.880,0:51:12.559
+expressão, não significa nada.
+
+0:51:10.880,0:51:14.880
+Quando eu represento no formato de
+
+0:51:12.559,0:51:17.799
+equação, então ela sim ganha vida e
+
+0:51:14.880,0:51:20.839
+agora agora sim representa uma função
+
+0:51:17.799,0:51:23.280
+que f(x) = x². OK? Portanto, aqui é a
+
+0:51:20.839,0:51:26.000
+mesma coisa. Aqui consideramos uma
+
+0:51:23.280,0:51:29.000
+expressão, mas que não representa nada.
+
+0:51:26.000,0:51:33.079
+Isto não é nada. Ela ganha vida quando
+
+0:51:29.000,0:51:37.520
+eu igualo a qualquer coisa, que é o que
+
+0:51:33.079,0:51:41.000
+temos aqui. Neste caso, igualo a um. OK?
+
+0:51:37.520,0:51:42.799
+Sim, senhora. Pronto. E agora? Eu vou
+
+0:51:41.000,0:51:44.960
+usar esta regra. Eu vou dizer assim,
+
+0:51:42.799,0:51:46.640
+olha,
+
+0:51:44.960,0:51:48.880
+eh,
+
+0:51:46.640,0:51:50.960
+eu vou dizer e e aqui aqui também tá um
+
+0:51:48.880,0:51:52.319
+bocadinho mal porque por aqui OK, mas já
+
+0:51:50.960,0:51:54.440
+lá vamos.
+
+0:51:52.319,0:51:57.240
+Portanto, eu vou
+
+0:51:54.440,0:52:00.440
+olhando esta expressão aqui, olhando
+
+0:51:57.240,0:52:00.440
+esta expressão,
+
+0:52:04.280,0:52:08.720
+olhando esta expressão, que é esta é que
+
+0:52:06.680,0:52:12.640
+contém a função implícita, é aqui é que
+
+0:52:08.720,0:52:14.599
+está a função implícita aqui embotida.
+
+0:52:12.640,0:52:16.160
+Eu simplesmente usei esta definição aqui
+
+0:52:14.599,0:52:20.280
+como cálculo auxiliar para dizer o que é
+
+0:52:16.160,0:52:22.319
+que é o meu f. OK? E agora vou calcular
+
+0:52:20.280,0:52:25.119
+aqui o diferencial.
+
+0:52:22.319,0:52:27.319
+aqui com esta regra que é bem simples,
+
+0:52:25.119,0:52:32.359
+a derivada aqui é em ordem a x
+
+0:52:27.319,0:52:32.359
+considerando o y constante fica fica 2x
+
+0:52:32.680,0:52:41.480
+y à quer
+
+0:52:35.640,0:52:41.480
+mais que o seno de y portanto é OK
+
+0:52:42.920,0:52:49.200
+mais com mais com o seno de y não mais
+
+0:52:46.520,0:52:50.680
+em ordem a x isto é considerado que o
+
+0:52:49.200,0:52:52.400
+sen y é considerado uma constante a
+
+0:52:50.680,0:52:55.559
+derivada é zero. A derivada da constante
+
+0:52:52.400,0:52:55.559
+é zero.
+
+0:52:56.000,0:53:02.400
+OK? E, portanto, fica apenas isto 2x 2x
+
+0:53:00.359,0:53:05.400
+y
+
+0:53:02.400,0:53:05.400
+OK?
+
+0:53:07.839,0:53:12.680
+Portanto, esta é a derivada parcial
+
+0:53:09.720,0:53:14.040
+vezes dx.
+
+0:53:12.680,0:53:17.720
+OK?
+
+0:53:14.040,0:53:21.920
+E agora mais.
+
+0:53:17.720,0:53:21.920
+E agora derivar em ordem y.
+
+0:53:22.520,0:53:31.880
+Ora, x² é como sendo uma constante 4 y c
+
+0:53:30.160,0:53:34.599
+e a derivada do cosseno nós ainda não
+
+0:53:31.880,0:53:37.480
+demos, mas a derivada do cosseno resulta
+
+0:53:34.599,0:53:40.480
+que é o - seno
+
+0:53:37.480,0:53:45.400
+- seno de y. Pronto, aqui está.
+
+0:53:40.480,0:53:48.440
+derivando em ordem y x d y
+
+0:53:45.400,0:53:51.160
+igual a e aqui temos uma constante deste
+
+0:53:48.440,0:53:54.640
+lado cuja derivada é zero e portanto
+
+0:53:51.160,0:53:56.559
+igual a zero. Pronto. E esta é que é a
+
+0:53:54.640,0:53:59.440
+expressão. Aqui está o a expressão do
+
+0:53:56.559,0:54:01.520
+div do diferencial.
+
+0:53:59.440,0:54:05.839
+Este é o diferencial. E esta é a
+
+0:54:01.520,0:54:08.760
+expressão que eu estou a calcular
+
+0:54:05.839,0:54:11.440
+a derivada da função implícita usando
+
+0:54:08.760,0:54:13.799
+esta expansão do diferencial nesta
+
+0:54:11.440,0:54:16.960
+equação e que portanto aqui deste lado
+
+0:54:13.799,0:54:19.400
+fica zero e agora tenho uma equação e
+
+0:54:16.960,0:54:22.799
+agora se diz assim ok então é a função
+
+0:54:19.400,0:54:24.520
+implícita de y de uma função y em função
+
+0:54:22.799,0:54:25.799
+de x
+
+0:54:24.520,0:54:27.880
+e então o que é que eu tenho que fazer
+
+0:54:25.799,0:54:30.760
+já sei que a derivada de y em função de
+
+0:54:27.880,0:54:33.240
+x é é d y dx
+
+0:54:30.760,0:54:35.799
+E eu tenho aqui d
+
+0:54:33.240,0:54:39.240
+e tenho aqui dx. Portanto, não tenho
+
+0:54:35.799,0:54:42.680
+mais do que explicitar d y dx.
+
+0:54:39.240,0:54:46.720
+OK? Este passa para este lado
+
+0:54:42.680,0:54:46.720
+e então fica dx.
+
+0:54:49.079,0:54:55.480
+A derivada da função implícita
+
+0:54:52.680,0:54:57.440
+de y em função de x
+
+0:54:55.480,0:54:59.280
+é igual a
+
+0:54:57.440,0:55:03.280
+-2
+
+0:54:59.280,0:55:03.280
+x y4
+
+0:55:03.319,0:55:10.000
+dividir por e este passa para baixo
+
+0:55:07.559,0:55:14.720
+x
+
+0:55:10.000,0:55:14.720
+4x qu y c
+
+0:55:16.839,0:55:22.640
+menos
+
+0:55:18.359,0:55:22.640
+seno de y.
+
+0:55:26.240,0:55:34.720
+Ou seja, se na função implícita
+
+0:55:30.319,0:55:38.240
+não consigo explicitar o y,
+
+0:55:34.720,0:55:40.359
+mas consigo calcular a derivada,
+
+0:55:38.240,0:55:42.760
+mas a derivada de uma função é ela
+
+0:55:40.359,0:55:44.760
+própria, é outra função.
+
+0:55:42.760,0:55:46.920
+Portanto, a derivada de y é ela própria,
+
+0:55:44.760,0:55:49.119
+é outra função que está aqui, sendo essa
+
+0:55:46.920,0:55:51.319
+função também uma função implícita.
+
+0:55:49.119,0:55:53.599
+Também não conseguia explicitar o y aqui
+
+0:55:51.319,0:55:54.920
+na função implícita.
+
+0:55:53.599,0:55:57.280
+Portanto, eu parto de uma função
+
+0:55:54.920,0:55:59.720
+implícita, calculo a sua derivada,
+
+0:55:57.280,0:56:01.000
+obtenho outra outra função implícita,
+
+0:55:59.720,0:56:04.839
+porque aqui também não conseguia
+
+0:56:01.000,0:56:07.039
+explicitar o y. OK? Pronto, este é um
+
+0:56:04.839,0:56:11.039
+tópico um bocado mais avançado. Eh, pode
+
+0:56:07.039,0:56:13.280
+ser que futuramente apresentemos alguns
+
+0:56:11.039,0:56:16.039
+problemas e
+
+0:56:13.280,0:56:18.680
+mais concretos, mais específicos usando
+
+0:56:16.039,0:56:21.240
+esta temática. Mas ok. Mas não quis
+
+0:56:18.680,0:56:22.680
+deixar também de vos mostrar já isto.
+
+0:56:21.240,0:56:25.520
+Alguns de vocês que já tenham dado esta
+
+0:56:22.680,0:56:27.680
+matéria para relembrarem um pouco
+
+0:56:25.520,0:56:31.119
+estes conceitos e o conceito de derivada
+
+0:56:27.680,0:56:31.119
+parcial também.
+
+0:56:33.079,0:56:36.359
+Vamos fazer mais um exercício aqui, não
+
+0:56:34.880,0:56:38.880
+com as funções implícitas. Vamos
+
+0:56:36.359,0:56:42.680
+considerar aqui, ora vamos considerar a
+
+0:56:38.880,0:56:42.680
+equação de uma de uma circunferência
+
+0:56:43.720,0:56:48.119
+x2
+
+0:56:45.480,0:56:51.119
++ y2 r2. uma circunferência centrada na
+
+0:56:48.119,0:56:53.119
+origem de raio R, já sabemos.
+
+0:56:51.119,0:56:56.280
+Eh, e portanto vamos dizer, eu quero a
+
+0:56:53.119,0:56:58.760
+derivada, a derivada de y. Ora bem,
+
+0:56:56.280,0:57:01.520
+neste caso, eu posso explicitar em ordem
+
+0:56:58.760,0:57:07.319
+y, não há dúvida nenhuma.
+
+0:57:01.520,0:57:10.640
+OK? Ora, fica r2 - x2
+
+0:57:07.319,0:57:15.039
+ra quad.
+
+0:57:10.640,0:57:18.280
+Pronto. Então posso dizer dx
+
+0:57:15.039,0:57:19.960
+d y dx é igual a
+
+0:57:18.280,0:57:23.720
+E posso dizer, bom, isto é uma potência
+
+0:57:19.960,0:57:27.400
+1/2 e portanto fica 1/2
+
+0:57:23.720,0:57:29.839
+de isto elevado a -1/2.
+
+0:57:27.400,0:57:32.559
+Ora isto elevado a -1/2, isto passa aqui
+
+0:57:29.839,0:57:35.720
+para baixo.
+
+0:57:32.559,0:57:38.559
+R2 - X2
+
+0:57:35.720,0:57:43.760
+vezes a derivada da função composta
+
+0:57:38.559,0:57:43.760
+disto aqui que é men - 2x.
+
+0:57:44.720,0:57:50.480
+OK? Pronto, esta é a derivada.
+
+0:57:47.880,0:57:52.480
+Agora vamos usar a técnica da função
+
+0:57:50.480,0:57:56.240
+implícita.
+
+0:57:52.480,0:57:56.240
+Vamos olhar para aqui.
+
+0:57:56.520,0:58:02.119
+Vamos olhar para aqui e dizemos: "Ok,
+
+0:57:59.280,0:58:04.039
+isto é uma função implícita.
+
+0:58:02.119,0:58:06.280
+Eu não se não é explícita e o y,
+
+0:58:04.039,0:58:07.799
+portanto, é uma função implícita".
+
+0:58:06.280,0:58:09.079
+Então, eu vou calcular o diferencial
+
+0:58:07.799,0:58:13.480
+total.
+
+0:58:09.079,0:58:15.119
+Fica derivando em ordem x 2x
+
+0:58:13.480,0:58:19.640
+dx
+
+0:58:15.119,0:58:24.079
+mais derivando em ordem y 2y
+
+0:58:19.640,0:58:24.079
+d ig,
+
+0:58:24.200,0:58:32.440
+portanto fica o 2 e o 2 corta o 2 é em
+
+0:58:27.280,0:58:34.400
+evidência e agora fica
+
+0:58:32.440,0:58:36.960
+y dy
+
+0:58:34.400,0:58:41.920
+= - x [roncando]
+
+0:58:36.960,0:58:41.920
+dx x e, portanto, dx
+
+0:58:42.640,0:58:49.079
+dy
+
+0:58:44.880,0:58:51.440
+dx fica - x/ y.
+
+0:58:49.079,0:58:53.799
+- x
+
+0:58:51.440,0:58:56.039
+sobre y, ou seja, é exatamente o que
+
+0:58:53.799,0:58:58.640
+temos aqui. Aqui o dois corta, corta.
+
+0:58:56.039,0:59:00.920
+Portanto, isto isto é no formato
+
+0:58:58.640,0:59:03.640
+explícito e é exatamente o que temos
+
+0:59:00.920,0:59:06.359
+aqui no formato implícito. Temos o - x
+
+0:59:03.640,0:59:10.920
+em cima e em baixo temos o y. Mas o y
+
+0:59:06.359,0:59:13.119
+como vemos é este aqui. Y é este.
+
+0:59:10.920,0:59:18.200
+Portanto, tá correto. Portanto, aqui
+
+0:59:13.119,0:59:22.799
+então a derivada da circunferência
+
+0:59:18.200,0:59:25.799
+na forma implícita é igual a -x sobre y.
+
+0:59:22.799,0:59:25.799
+Ok?
+
+0:59:27.000,0:59:30.839
+Bom, estamos caso a acabar todas as
+
+0:59:28.760,0:59:33.520
+regras de
+
+0:59:30.839,0:59:36.119
+eh fundamentais de derivação, sem entrar
+
+0:59:33.520,0:59:38.920
+muito agora em
+
+0:59:36.119,0:59:40.280
+eh não vamos entrar aqui muito em nem em
+
+0:59:38.920,0:59:41.839
+funções de múltiplas variáveis,
+
+0:59:40.280,0:59:43.520
+obviamente que isso é um tema mais
+
+0:59:41.839,0:59:48.440
+avançado,
+
+0:59:43.520,0:59:51.200
+nem nem em derivadas eh de segunda ordem
+
+0:59:48.440,0:59:53.640
+ou muito, mas eh mas vamos ver aqui um
+
+0:59:51.200,0:59:56.920
+bocadinho de derivadas de segunda ordem
+
+0:59:53.640,0:59:58.480
+de de múltipla ordem para mostrar aqui
+
+0:59:56.920,1:00:00.880
+uma forma muito interessante que é a
+
+0:59:58.480,1:00:02.720
+forma de libit.
+
+1:00:00.880,1:00:06.359
+OK?
+
+1:00:02.720,1:00:10.160
+Portanto, nós vimos que
+
+1:00:06.359,1:00:10.160
+a derivada do produto,
+
+1:00:10.400,1:00:13.440
+OK?
+
+1:00:11.920,1:00:16.520
+Nós vimos a derivada do produto e vimos
+
+1:00:13.440,1:00:18.319
+a sua expressão. Pronto. Naturalmente
+
+1:00:16.520,1:00:20.319
+que a derivada de qualquer função é uma
+
+1:00:18.319,1:00:22.680
+função, isto significa que pode ser
+
+1:00:20.319,1:00:24.280
+derivada novamente. Portanto,
+
+1:00:22.680,1:00:26.480
+normalmente quando queremos derivar, por
+
+1:00:24.280,1:00:27.720
+exemplo, uma segunda vez, quando
+
+1:00:26.480,1:00:30.520
+queremos derivar duas vezes, o que
+
+1:00:27.720,1:00:32.000
+costuma-se representar é nomenclatura em
+
+1:00:30.520,1:00:34.440
+pequeninos parênteses e depois aqui
+
+1:00:32.000,1:00:35.880
+dois, por exemplo. Isto significa a
+
+1:00:34.440,1:00:37.599
+derivada de segunda ordem. Significa
+
+1:00:35.880,1:00:40.680
+derivar uma vez e depois derivar a
+
+1:00:37.599,1:00:44.319
+segunda vez. OK?
+
+1:00:40.680,1:00:46.359
+Pronto. Então, e o que temos é, vamos,
+
+1:00:44.319,1:00:49.280
+vou pôr aqui a expressão da da forma de
+
+1:00:46.359,1:00:51.400
+Lit, muito interessante,
+
+1:00:49.280,1:00:53.319
+OK? Que [roncando] vai ser igual à forma
+
+1:00:51.400,1:00:55.319
+do binómio de Newton, OK? Isto é uma
+
+1:00:53.319,1:00:58.039
+coisa extraordinária na matemática, como
+
+1:00:55.319,1:00:59.760
+tem esta simetria em que dois temas,
+
+1:00:58.039,1:01:02.440
+aparentemente não têm nada a ver um com
+
+1:00:59.760,1:01:05.079
+o outro, vai dar exatamente a mesma
+
+1:01:02.440,1:01:07.359
+expressão. Isto é como se fosse a forma
+
+1:01:05.079,1:01:10.480
+do binómio do Newton,
+
+1:01:07.359,1:01:15.480
+uma derivada de ordem n de um produto,
+
+1:01:10.480,1:01:17.400
+OK? Então vai dar um somatório,
+
+1:01:15.480,1:01:19.760
+OK?
+
+1:01:17.400,1:01:22.119
+Um somatório aqui quando o i varia de 0
+
+1:01:19.760,1:01:23.799
+a n,
+
+1:01:22.119,1:01:25.480
+OK?
+
+1:01:23.799,1:01:29.119
+Reparem que quando era a derivada da
+
+1:01:25.480,1:01:30.720
+ordem um dava dois termos. Derivada da
+
+1:01:29.119,1:01:31.760
+primeira vez a segunda mais derivada da
+
+1:01:30.720,1:01:34.079
+segunda vez a primeira. Ou seja,
+
+1:01:31.760,1:01:36.680
+derivada da ordem 1 n = 1 dava dois
+
+1:01:34.079,1:01:39.480
+termos. Portanto, para um n genérico,
+
+1:01:36.680,1:01:43.160
+vai sempre dar n + 1,
+
+1:01:39.480,1:01:48.799
+OK? E o que se verifica é que vai dar
+
+1:01:43.160,1:01:52.359
+aqui o f a derivada elevada de f
+
+1:01:48.799,1:01:54.599
+de ordem n - i é como se fosse a
+
+1:01:52.359,1:01:58.079
+potência, só que aqui ponho em
+
+1:01:54.599,1:02:03.200
+parênteses para dizer que é a derivada
+
+1:01:58.079,1:02:05.240
+vezes a derivada de g de ordem i.
+
+1:02:03.200,1:02:07.799
+OK? E agora leva a mesma função
+
+1:02:05.240,1:02:10.640
+combinatória que leva
+
+1:02:07.799,1:02:12.319
+a forma de Newton. C.
+
+1:02:10.640,1:02:14.000
+CNI.
+
+1:02:12.319,1:02:17.000
+Pronto. Isto é isto é realmente
+
+1:02:14.000,1:02:18.880
+fantástico.
+
+1:02:17.000,1:02:20.880
+Como é que a matemática nos dá estes
+
+1:02:18.880,1:02:24.160
+estas surpresas?
+
+1:02:20.880,1:02:26.319
+OK. Pronto. Aqui temos a forma de de
+
+1:02:24.160,1:02:28.400
+deit.
+
+1:02:26.319,1:02:29.799
+Eh, vamos ver um exemplo. Vamos ver, por
+
+1:02:28.400,1:02:33.480
+exemplo, imaginemos que eu queria
+
+1:02:29.799,1:02:34.640
+calcular a exponencial.
+
+1:02:33.480,1:02:36.480
+Ainda não vimos a derivada da
+
+1:02:34.640,1:02:39.160
+exponencial, mas veremos em tutoriais
+
+1:02:36.480,1:02:40.200
+futuros.
+
+1:02:39.160,1:02:42.920
+Em todo o caso, a derivada da
+
+1:02:40.200,1:02:46.799
+exponencial é igual a ela própria,
+
+1:02:42.920,1:02:46.799
+vezes o seno de x
+
+1:02:47.440,1:02:53.480
+e queremos a quarta derivada.
+
+1:02:51.240,1:02:55.160
+Imaginem o trabalho que isto daria.
+
+1:02:53.480,1:02:56.799
+teria que aplicar a regra do produto uma
+
+1:02:55.160,1:02:58.559
+vez, dava uma expressão, depois derivar
+
+1:02:56.799,1:03:01.880
+outra vez, derivar outra vez, outra vez,
+
+1:02:58.559,1:03:04.000
+direitinho, derivar quatro vezes. OK?
+
+1:03:01.880,1:03:07.960
+Quando eu posso fazer fazer isto tudo de
+
+1:03:04.000,1:03:10.640
+uma assentada só num único cálculo, OK?
+
+1:03:07.960,1:03:12.640
+Eu posso então dizer que isto vai ser
+
+1:03:10.640,1:03:16.440
+cinco termos, uma derivada de ordem
+
+1:03:12.640,1:03:18.559
+quarta vai ser cinco termos, OK? Então,
+
+1:03:16.440,1:03:22.920
+vai dar aqui primeiro os termos do do
+
+1:03:18.559,1:03:27.000
+triângulo de Pascal. Portanto, temos um.
+
+1:03:22.920,1:03:29.760
+Isto é, ora, isto dois aqui, 3
+
+1:03:27.000,1:03:33.920
+e 4.
+
+1:03:29.760,1:03:40.359
+Pronto, aqui v ter os termos. 1
+
+1:03:33.920,1:03:43.520
+4 6 4 e 1. Pronto, aqui temos os termos.
+
+1:03:40.359,1:03:48.480
+E agora as expressões temos
+
+1:03:43.520,1:03:50.160
+é x eh derivada da ordem eh quarta
+
+1:03:48.480,1:03:52.039
+é igual a ela própria porque a derivada
+
+1:03:50.160,1:03:54.000
+é sempre da exponencial é sempre igual a
+
+1:03:52.039,1:03:55.559
+ela própria.
+
+1:03:54.000,1:03:59.880
+OK?
+
+1:03:55.559,1:04:03.599
+E aqui a mesma coisa derivada
+
+1:03:59.880,1:04:06.960
+de terceira ordem
+
+1:04:03.599,1:04:06.960
+e de segunda
+
+1:04:07.839,1:04:11.279
+e de primeira.
+
+1:04:11.520,1:04:16.200
+e de ordem zero é ela própria que não
+
+1:04:14.160,1:04:19.279
+chegou a derivar.
+
+1:04:16.200,1:04:22.720
+OK? Sim, senhora.
+
+1:04:19.279,1:04:24.920
+Eh, o mesmo se aplica aqui no seno de x.
+
+1:04:22.720,1:04:27.880
+Aqui temos
+
+1:04:24.920,1:04:29.520
+seno de x derivada da ordem zero é igual
+
+1:04:27.880,1:04:31.760
+à própria função que não não chegou a
+
+1:04:29.520,1:04:34.559
+derivar.
+
+1:04:31.760,1:04:36.880
+seno de x.
+
+1:04:34.559,1:04:38.880
+Aqui
+
+1:04:36.880,1:04:40.520
+a derivada da ordem 1 do seno, a
+
+1:04:38.880,1:04:45.359
+derivada do seno é o cosseno. Pronto,
+
+1:04:40.520,1:04:45.359
+ainda não demos isto, mas é é o cosseno.
+
+1:04:45.480,1:04:51.160
+E agora sucessivamente derivada do
+
+1:04:47.319,1:04:51.160
+cosseno é menos seno.
+
+1:04:51.960,1:04:56.200
+Derivada do seno é cosseno, portanto
+
+1:04:53.880,1:04:59.640
+menos cosseno.
+
+1:04:56.200,1:05:00.799
+Derivada cosseno men. E aqui seno,
+
+1:04:59.640,1:05:02.480
+OK?
+
+1:05:00.799,1:05:04.920
+Pronto.
+
+1:05:02.480,1:05:09.200
+Eh, e agora verificam-se alguns
+
+1:05:04.920,1:05:11.880
+corta-cortas. Aqui este 4
+
+1:05:09.200,1:05:13.920
+menos este corta.
+
+1:05:11.880,1:05:17.599
+OK?
+
+1:05:13.920,1:05:19.440
+Eh, e agora fico é x
+
+1:05:17.599,1:05:23.839
+em evidência
+
+1:05:19.440,1:05:23.839
+e fico com 6
+
+1:05:23.920,1:05:31.760
+e ou seja, -6 + 1 mais outro, ou seja,
+
+1:05:28.799,1:05:36.240
+fica -4. E, portanto, o total disto tudo
+
+1:05:31.760,1:05:38.079
+é - 4
+
+1:05:36.240,1:05:41.119
+e x
+
+1:05:38.079,1:05:43.599
+seno. OK? Pronto. Então, reparem a
+
+1:05:41.119,1:05:46.960
+facilidade e rapidez com que fizemos uma
+
+1:05:43.599,1:05:49.400
+derivada de ordem múltipla
+
+1:05:46.960,1:05:51.559
+de um produto, usando aqui a forma de
+
+1:05:49.400,1:05:53.960
+LNIT.
+
+1:05:51.559,1:05:56.160
+Eh, e penso que sim, não vou resolver
+
+1:05:53.960,1:06:00.880
+mais problemas. Já chega. No futuro,
+
+1:05:56.160,1:06:03.400
+talvez se se vier a propósito,
+
+1:06:00.880,1:06:05.559
+haverá outras oportunidades.
+
+1:06:03.400,1:06:07.880
+Eh, mas pronto, também a minha playlista
+
+1:06:05.559,1:06:09.839
+não é dedicada às pessoas praticarem.
+
+1:06:07.880,1:06:12.079
+Eh, isso é cada um terá que praticar ao
+
+1:06:09.839,1:06:15.760
+seu ritmo e às suas necessidades. A
+
+1:06:12.079,1:06:17.839
+minha PBIS está orientada para mostrar
+
+1:06:15.760,1:06:20.359
+formas e deduzir muitas vezes de forma
+
+1:06:17.839,1:06:21.920
+intuitiva, as formas fundamentais da
+
+1:06:20.359,1:06:23.640
+matemática.
+
+1:06:21.920,1:06:28.880
+OK?
+
+1:06:23.640,1:06:28.880
+Eh, e penso que sim. Ficamos por aqui.
+
+

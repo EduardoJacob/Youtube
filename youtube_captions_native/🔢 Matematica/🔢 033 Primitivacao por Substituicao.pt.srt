@@ -1,0 +1,462 @@
+
+Ora, sejam bem-vindos a mais um tutorial
+e desta minha empreitada em que eu em
+que eu me lancei. Empreitada de uma
+playlist dedicada à matemática.
+Vai-se fazendo aos poucos e poucos.
+Vamos ver onde é que isto vai dar.
+[roncando]
+Eh, vimos no tutorial anterior eh o
+método de de de primitivação por partes.
+Quando digo primitivação é o mesmo que
+integração por partes, OK? vocês poderão
+encontrar integração por partes ou
+integração por substituição.
+É isto, é é a mesma coisa, mas eu gosto
+de de distinguir um pouco e eu gosto de
+chamar primitivação
+só quando queremos obter a primitiva,
+mas não estamos a calcular nenhum
+integral específico dentro de nenhum
+intervalo específico. OK?
+Portanto, a primitivação enquanto a
+função inversa da derivação.
+Ora bem,
+aqui tá uma tabela
+e dá algumas e
+técnicas de de substituição, algumas
+substituições que já estão padronizadas,
+substituições trigonométricas para
+resolver alguns integrais ou fazer
+algumas primitivações. OK?
+Vimos que no outro tutorial anterior,
+eh, e eu falei que era a regra da
+derivada do produto
+levava-nos ao método do da primitivação
+por partes.
+E aqui é uma coisa similar, é a regra da
+derivada da função composta, OK? E a
+abordagem da derivada da função composta
+está relacionada com o método da da da
+primitivação por substituição.
+OK? [roncando]
+Eh, sim, senhora.
+Porque quando nós tínhamos a derivada, a
+regra da da função composta era com como
+da derivada da função composta era como
+eh ativar eh no fundo era como se fosse
+uma uma uma substituição de variável.
+OK? Mas pronto, mas isso vejam os os
+meus tutoriais antigos sobre as regras
+da derivação.
+[roncando] Ora bem, vamos este deve ser
+um tutorial rápido. Vamos só resolver
+aqui um um exercício, um ou dois
+exercícios.
+OK?
+Sim, senhor. E vai ser precisamente
+usando usando este usando estas
+substituições que já estão padronizadas.
+OK?
+Ora, vamos aqui
+então resolver aqui um exemplo.
+Vamos ver aqui o integral ou a
+primitiva. Pronto, isto é chamado é
+indistintamente.
+Quando o seu, se se eu calcular o
+integral num determinado intervalo,
+então aí sim, aí já tenho que chamar
+integração, não vou chamar primitivação,
+mas essa integração, ela é feita como?
+Como se faz uma integração?
+Recorrendo
+à primitivação, calculando a a o valor
+da primitiva. OK? Vimos isto no teorema
+fundamental do cálculo, o integral de
+f(x)
+dx, portanto, seria a primitiva f
+eh no valor b
+a primitiva no valor a. OK? Pronto.
+Eh, não sei se f na altura, mas que o
+símbolo do integral que é é como se
+fosse o é o é o sigma
+eh que que que representa um somatório,
+OK? de partes infinitas e mais e que
+essas partes infinit infinitas e mais
+elas são representadas aqui por este
+produto. Elas representam que eh fatias,
+no fundo, isto representa que nós
+estamos a integrar ou seja fazer um
+somatório de quantidades infinitas e
+mais como se fosse pequenos retângulos,
+OK? Cuja cuja largura é dx, este dx aqui
+e cuja altura h é o é o f dex. OK?
+Pronto. Ou seja, isto é a analogia. A
+analogia disto é como se eu tive, eu
+estou a fazer no fundo, um somatório
+de de quantias infinitas e mais de
+retângulos infinitez e mais. E estes
+retângulos são estes são dados aqui por
+por esta fórmula. É a altura vezes a
+base. E a base é realmente este
+diferencial aqui dx. Eu já não me
+recordo se falei muito disto ou não, na
+Mas pronto, mas a analogia é essa.
+E [roncando] portanto e o integral é
+calculado, pois calculando a primitiva
+da função f e depois aqui neste
+intervalo. OK?
+Eh, vamos ver então aqui um exemplo.
+Vamos que eu quero primitivar
+e vamos dizer a raiz quadrada
+de 1 - x².
+Ok?
+Sim, senhora.
+Ora,
+de acordo aqui com a tabela, podemos
+usar a substituição
+e x = seno de teta,
+como também poderia ser x = cosseno de
+teta. Portanto, se posso deixar para
+vocês como exercício porque vai ser a
+mesma coisa, vai dar a vai dar um um
+processo similar, mas vamos usar aqui a
+receita. Vamos usar a receita. Vamos
+usar a substituição x = seno de teta.
+OK?
+E
+vocês podem perguntar, mas por que é
+isto? Bom, isto não é não não é por
+acaso. É porqueê é porque efetivamente a
+raiz quadrada de de de 1 menos uma coisa
+ao quadrado faz lembrar a trigonometria
+quando nós temos que eh 1 - 1 com seno
+quadrado é igual ao seno quadrado que
+então eu posso anular completamente a
+raiz e fico com uma expressão mais
+simples. OK? Portanto, isto vem do
+teorema fundamental da da forma
+fundamental da trigonometria. OK?
+Pronto. Portanto, não, isto não nasce
+por acaso ou não, não, não calhou assim,
+por um mero acaso. Calha porque
+realmente esta raiz raiz tem uma
+analogia com a forma fundamental da
+trigonometria. OK? Pronto, que aliás
+vamos ver agora ao desenvolver. Pronto.
+Então, quando eu estabeleço, então estas
+esta substituição, eu digo assim: "OK,
+seja x = seno de teta,
+agora eu tenho que [roncando] eh
+calcular quanto é o dx. O dx eu tenho
+que também fazer a substituição, ou
+seja, eu não posso chegar aqui e fazer a
+substituição onde está o x apenas e
+dizer: "Olha, onde está o x, ponho o
+seno de teta". Não vale. Eu tenho que
+substituir onde está o x, mas também
+tenho que substituir onde está o dx.
+Onde está o dx eu também tenho que
+substituir, OK? Tenho que substituir nas
+duas partes. E, portanto, e como é que
+eu vou substituir?
+[roncando] Eh, efetivamente, então, vou
+fazer o o a derivação aqui da expressão
+x = seno de teta, onde eu derivo. Ora, a
+derivada de x é 1 1 ponto dx. No fundo,
+isto isto é como se eu fizesse é como se
+eu fizesse aqui
+ah,
+digamos assim, é como se eu fizesse
+d y dx em que o y é a função x,
+ok?
+Eh, [roncando] portanto, como se eu
+fizesse de ddx a derivar em ordem x de
+seno de teta. Mas mas se eu estou a
+derivar em ordem x, a função seno de
+teta não tá expressa em termos de x.
+Então é a regra da derivada da função
+composta que é igual a cosseno de teta
+vezes e depois a derivada da teta em
+maior dx d teta dx pelo qual o dx agora
+passa para passa para aqui para este
+lado. Isto está um bocado, eu vou apagar
+isto que isto isto isto deve estar aqui
+um bocado agora engatado. Eu agora estou
+estou-me baralhar aqui um bocado. Mas
+pronto, mas não vale a pena nada disto
+porque isto é muito simples. Isto basta
+diferenciar esta expressão em ambos os
+lados. E a derivada de x, portanto, é 1,
+mas vezes dx.
+OK? [roncando] E, portanto, e a derivada
+de seno de teta em ordem a teta é com o
+seno de teta e depois multiplico por
+deta. OK? Pronto. Então, basicamente o
+que eu tenho, o que eu obtenho é isto
+aqui. Portanto, que o diferencial deste
+x
+é igual ao cosseno de teta deta. Sim,
+senhora. Pronto. E depois mais à frente,
+depois de fazer a substituição e
+resolver, fazer a primitivação, eu terei
+que voltar outra vez para trás para
+variável original
+expresso em termos de x, pelo qual eu
+precisarei depois de substituir aqui a
+função inversa x = seno de teta. Eu irei
+precisar de da expressão de que teta é
+igual
+ao arco seno
+de x. Pronto, eu também irei precisar
+disto. Ou seja, OK,
+isto é, eh, quase certamente que irei
+precisar. Já veremos se irei precisar ou
+não. [suspirando]
+Eh, sim, senhora.
+Pronto. Portanto, aqui, como estão a
+ver, simplesmente usamos esta
+esta receita esta receita.
+Neste caso, o a é igual a 1. Portanto, a
+substituição é esta. OK? Pronto. Então,
+sendo assim,
+esta primitiva fica.
+Ora, 1 men o x é, portanto, é o seno. 1
+men seno quadrado, a raiz é cosseno
+cosseno de teta
+vezes o dx. E, portanto, o dx cosseno de
+teta deta.
+Portanto, fica a primitiva
+do cosseno quadrado de teta deta. OK.
+Sim, senhora.
+Ora, o que é que vamos fazer agora? o
+cosseno de teta, cosseno quadrado. Vamos
+usar as formas trigonométricas. Vamos
+usar aqui as formas trigonométricas.
+vocês relembrem só que é daquelas formas
+das mais famosas,
+por exemplo, que o seno de 2 de 2 ta
+é igual a 2 seno de teta cseno de teta e
+que o cosseno de 2θ
+é igual ao cseno quadrado de teta - seno
+quad.
+Sim, senhor. Então o que é que acontece?
+Portanto, ora, se eu tenho aqui,
+se eu tenho aqui a minha primitiva, este
+meu integral, expressa em cosseno
+quadrado de teta. E eu tenho aqui esta
+fórmula onde eu tenho o cosseno quadrado
+de teta, onde eu vou conseguir exprimir
+cosseno quadrado de teta em função de
+cosseno de teta. Pronto. E então assim
+vou eliminar a via potência. Ora, como é
+que isto fica? Para já vamos pôr tudo em
+termos de aqui de cossenos cossenos
+eliminando o seno quadrado. Portanto,
+fica
+o cosseno quadrado menos. E o seno
+quadrado o que é? É 1 menos o cosseno
+quadrado.
+Forma fundamental da trigonometria.
+Pronto. Aqui então já consigo exprimir
+tudo. 2 tá
+fica aqui 2
+coseno quadrado de teta.
+-1. Sim, senhor. Agora vou explicitar
+aqui o cosseno quadrado de teta.
+Cosseno quadrado de teta,
+que é igual a 1
+mais o cosseno de 2θ.
+E, portanto, o 2 passa para aqui fica
+1/2.
+Pronto, já tenho aqui a minha expressão.
+Então, realmente o aquele integral de
+cosseno quadrado de de de teta é,
+portanto, o cosseno quadrado de teta é é
+igual a isto é igual a 1/
+de cosseno 2θ. OK? Fica então a
+primitiva
+de 1/2
++
+1/2 do cosseno 2θ.
+Pronto. E, portanto, isto fica ora teta
+meios.
+OK? E, portanto, e aqui, aqui é
+imediato. Ora, portanto, a a primitiva
+do do de do cosseno será o menos seno.
+O menos seno
+será o seno minto, porque deriva derivar
+seno é igual a coso. Portanto, será um
+seno de 2θ
+cujo si eu derivar dá cseno 2θ x 2
+x 2. Mas eu não tenho aqui dois, tenho
+1/2, então tenho que tenho tenho que
+multiplificar aqui por 1/4.
+Pronto, porque assim ao derivar o 2
+passa para fora. 2 sobre 4 dá 1/2, tá
+correto? É 1/2 e cosseno de 2 t. Pronto,
+então já tenho aqui e e mais a
+constante. Pronto, sempre aquela regra
+que às vezes me esquece. Pronto, já
+primitivei e já tenho aqui. Pronto, o
+resultado tá aqui. OK.
+O resultado
+da primitivação já está aqui. Sim,
+senhora.
+E agora fazer a substituição inversa.
+OK? Substituição inversa. Pronto. Então
+agora aqui vai agora então olhar aqui
+para para estas duas formas aqui.
+Portanto, esta,
+esta aqui
+e
+OK. Vamos olhar então para aqui
+e para aqui.
+Sim, senhor. Então, o que é que nós
+temos aqui? Temos um teta.
+Então, portanto, é o arco seno, é o arco
+seno de x. OK? Portanto, isto fica o 1/
+do arco seno de x.
+Sim, senhor.
+Mais 1/4.
+OK? E agora temos um seno de 2 ta.
+Mas o mas o seno de 2 ta é é aqui por
+esta fórmula é 2 seno de teta coseno de
+teta.
+Pronto. Então fica fica 2 e e vai cortar
+com o quatro. Aqui vai ficar 1/io.
+Aqui vai ficar 1/
+e vai ficar o seno de teta
+com o seno de teta. OK?
+Vamos passar o o teta para para x.
+Portanto, isto fica 1/2
+à parênteses. E aqui temos o arco seno.
+E, portanto, agora temos um o seno e o
+cosseno. Portanto, o seno é x. Tá aqui.
+É a substituição que nós usamos. X =
+seno de teta. Então fica mais x.
+O seno é x. E o cosseno? Bom, o o
+cosseno p pela forma fundamental da
+trigonometria
+é 1 - x².
+OK?
+Sim, senhora. Pronto.
+Eh, se isto parece-vos um bocado
+confuso, quando fazem esta estas
+simplificações, lembrem sempre de do
+triângulo retângulo. ponh ponham sempre
+aqui um triângulo retângulo e digam
+assim: se eu, se eu, se eu tenho um seno
+que é x,
+se eu tenho um seno que é x de um
+determinado ângulo alfa, o seno é o
+cateto oposto xó
+sobre a hipotenusa um e no círculo
+trigonométrico e é é aqui a hipótese e
+um no círculo unitário.
+Eh, e pronto, é isto que resulta. E o
+teorema de Pitágoras
+resulta 1 ao² = x² + este cateto ao
+quadrado e resolvendo para aqui, pois
+vai dar este.
+OK?
+E pronto. E
+e terminamos
+1/ arceno de x mais 1/ x 1 - x² e depois
+mais uma constante.
+E assim terminamos o o primeiro
+exercício,
+OK? Cujo está correto e que eu confirmei
+no RAM alfa que está correto.
+OK?
+Usem sempre o alfa também quando tiverem
+a trabalhar com matemática,
+podem sempre
+confirmar os resultados no alfa.
+Vamos só resolver mais um mais um
+exercício.
+Ora primitiva
+1 sobre
+a ra 1 - x² dx.
+Ora, nós vamos à receita e vemos, olha,
+quando vires uma raiz a² - x², podes
+usar esta esta substituição,
+OK? X = seno de teta, mas também podes
+usar x ig cosseno de teta.
+É igual
+a partir será sempre igual. E agora vai
+vou usar pronto para para para ser
+diferente. Portanto, e seja x
+igual a cosseno de teta.
+[roncando] Sendo assim que tx
+igual a a derivada do cosseno é menos
+seno de teta
+deta.
+E sendo que teta
+será o arco
+cosseno
+o arcoeno de X.
+Sim, senhor. Pronto, que isto é que
+temos que ter isto em conta.
+OK?
+Pronto. Então, esta nossa primitiva fica
+primitiva.
+E aqui vai ficar, portanto, em cima é o
+dx.
+menos
+sen teta deta
+e em baixo é a raiz de 1 - x quad, ou
+seja, 1 men cosseno quadrado
+dá seno quadrado raiz dá o seno o seno
+de teta
+seno de teta. Então isto fica acaba por
+ser um integral, uma primitivação mais
+mais simples do do que do que a
+anterior.
+Embora a expressão aqui aparenta que é
+mais complexa, mas na verdade acaba por
+ser mais simples.
+OK?
+H
+se calhar até daria para resolver também
+pelo meto a primitivação por partes. OK?
+Mas pronto, deixo isso para vocês como
+exercício, porque imagino que aqui há
+uma potência
+eh -1 e aqui aqui falta um termo 2x, mas
+lembram-se que na primitiva são por
+partes. Se faltasse um termo de x, eu
+poderia considerar que que uma das
+funções [roncando] era era o x e que era
+era um a constante um que eu iria
+primitivar e iria dar x. OK? Mas pronto,
+não vou fazer isso agora.
+Ora, vamos continuar aqui. Portanto,
+então aqui corta corta,
+corta, corta e, portanto, fica -1. E,
+portanto, a primitivação é - ta
++ c. Pronto, já tenho aqui, já tenho
+aqui o resultado. E agora simplesmente e
+andando para trás, portanto, teta vemos
+que é o arco seno de x,
+portanto fica menos
+o arco cosseno
+de x
++ c. Pronto, acabou por dar uma
+expressão até bem mais simples do do que
+do que a anterior.
+OK?
+E penso que sim, penso que vamos ficar
+por aqui.
+Eh, um tutorial simples.
+Eh, pronto, é só para só para realmente
+abordar esta esta técnica. Pronto,
+digamos assim. É, como vos digo, não
+isto agora não dava pano para mangas,
+como já vos tenho dito. Agora existem 1
+substituições possíveis, é, mas é como
+vos digo, não, de momento não vamos não
+vou procurar aqui mais exemplos, não é o
+bem o âmbito do da minha playlist,
+OK? E pronto, ficamos por aqui.
+

@@ -1,0 +1,1498 @@
+0:00:03.040,0:00:08.200
+Ora, sejam bem-vindos.
+
+0:00:05.359,0:00:11.000
+Hoje vamos ver
+
+0:00:08.200,0:00:12.920
+eh deduzir a forma resolvente da equação
+
+0:00:11.000,0:00:14.599
+do segundo grau.
+
+0:00:12.920,0:00:16.160
+OK?
+
+0:00:14.599,0:00:18.400
+Ora,
+
+0:00:16.160,0:00:20.880
+nós temos,
+
+0:00:18.400,0:00:23.240
+há vários métodos,
+
+0:00:20.880,0:00:25.840
+eh, haverá múltiplos métodos, eu conheço
+
+0:00:23.240,0:00:28.199
+alguns.
+
+0:00:25.840,0:00:29.640
+Temos o
+
+0:00:28.199,0:00:32.840
+método, acho que normalmente que é o que
+
+0:00:29.640,0:00:38.800
+se ensina na escola,
+
+0:00:32.840,0:00:38.800
+o método do como com
+
+0:00:39.280,0:00:42.280
+tratamento
+
+0:00:42.920,0:00:48.200
+do quadrado. [roncando]
+
+0:00:45.200,0:00:48.200
+OK?
+
+0:00:48.440,0:00:54.520
+OK. Portanto, nós temos a equação
+
+0:00:51.520,0:00:54.520
+ax²
+
+0:00:54.800,0:01:00.480
++ bx
+
+0:00:57.160,0:01:03.840
++ c = 0. OK? E o compatamento
+
+0:01:00.480,0:01:06.600
+completamento do quadrado eh tem a ver
+
+0:01:03.840,0:01:09.240
+com
+
+0:01:06.600,0:01:11.200
+um daqueles casos notáveis da da das
+
+0:01:09.240,0:01:15.960
+potências
+
+0:01:11.200,0:01:18.720
+em que se é sabido que a + b² é o
+
+0:01:15.960,0:01:21.119
+quadrado do primeiro mais
+
+0:01:18.720,0:01:24.040
+o dobro
+
+0:01:21.119,0:01:25.600
+do primeiro pelo segundo
+
+0:01:24.040,0:01:29.920
+mais o quadrado do segundo. Tem a ver
+
+0:01:25.600,0:01:34.000
+com isto. E depois a ideia é transformar
+
+0:01:29.920,0:01:34.000
+transformar esta equação
+
+0:01:35.119,0:01:39.960
+neste formato. OK? Pronto. Mas não vou
+
+0:01:38.159,0:01:41.240
+expandir agora isto porque isto é é como
+
+0:01:39.960,0:01:43.640
+digo, este é o método mais conhecido
+
+0:01:41.240,0:01:45.320
+dá-se na escola.
+
+0:01:43.640,0:01:51.200
+Eh, depois temos outros métodos. Temos,
+
+0:01:45.320,0:01:54.840
+por exemplo, o método da derivada.
+
+0:01:51.200,0:01:57.240
+Pronto, também não vou demonstrar aqui,
+
+0:01:54.840,0:01:58.880
+usar aqui esse método, porque também
+
+0:01:57.240,0:02:01.759
+apela a conhecimentos da derivada, que é
+
+0:01:58.880,0:02:03.680
+um um bocadinho mais avançado, tendo em
+
+0:02:01.759,0:02:06.000
+conta o
+
+0:02:03.680,0:02:08.039
+o a ordem a sequência, porque eu estou a
+
+0:02:06.000,0:02:12.560
+fazer estes tutorials.
+
+0:02:08.039,0:02:12.560
+Portanto, o o método da derivada
+
+0:02:13.440,0:02:20.800
+que resulta que, OK, e tenho a a equação
+
+0:02:18.040,0:02:22.360
+do segundo grau, que tem uma
+
+0:02:20.800,0:02:25.000
+representação parabólica, como nós
+
+0:02:22.360,0:02:27.760
+sabemos, e, portanto, os geros da
+
+0:02:25.000,0:02:31.280
+derivada vai vão vai-me dar aqui o o
+
+0:02:27.760,0:02:32.640
+mínimo, o mínimo ou máximo, o extremo,
+
+0:02:31.280,0:02:34.840
+OK?
+
+0:02:32.640,0:02:37.959
+E, portanto, a derivada
+
+0:02:34.840,0:02:42.519
+a derivada da da da
+
+0:02:37.959,0:02:45.920
+equação vai dar o o 2ax
+
+0:02:42.519,0:02:48.760
++ b = 0.
+
+0:02:45.920,0:02:51.480
+Pronto. E daí vou vou extrair o o o zero
+
+0:02:48.760,0:02:54.599
+aqui da o extremo da parábola. E depois
+
+0:02:51.480,0:02:57.519
+as raízes terão que ser equidistantes
+
+0:02:54.599,0:03:00.760
+equidistantes
+
+0:02:57.519,0:03:05.920
+do desse desse ponto. OK? Deixo para
+
+0:03:00.760,0:03:05.920
+vocês fazerem como exercício. OK?
+
+0:03:06.560,0:03:10.799
+Ora, sim, senhora.
+
+0:03:12.080,0:03:16.000
+Outros métodos temos
+
+0:03:16.400,0:03:21.360
+temos, por exemplo, o método da
+
+0:03:18.040,0:03:23.200
+fatorização da poion law.
+
+0:03:21.360,0:03:26.200
+também vou vou deixar para vocês como
+
+0:03:23.200,0:03:26.200
+exercício,
+
+0:03:29.000,0:03:32.879
+investigarem se quiserem.
+
+0:03:46.632,0:03:51.080
+[roncando]
+
+0:03:47.439,0:03:53.560
+Ora, tem a ver com OK.
+
+0:03:51.080,0:03:55.439
+Vamos supor que já conhecemos as raízes,
+
+0:03:53.560,0:04:00.720
+as duas raízes da equação do segundo
+
+0:03:55.439,0:04:02.840
+grau, R1 e R2. Então, e a equação do
+
+0:04:00.720,0:04:05.680
+segundo grau poderá ser escrita na forma
+
+0:04:02.840,0:04:08.200
+de a
+
+0:04:05.680,0:04:10.879
+x
+
+0:04:08.200,0:04:14.799
+- r1
+
+0:04:10.879,0:04:18.519
+x - r2
+
+0:04:14.799,0:04:20.400
+igual a 0. Pronto, também não vou aqui
+
+0:04:18.519,0:04:22.360
+não vou demonstrar este método também
+
+0:04:20.400,0:04:24.880
+não. Pronto, deixo para vocês como
+
+0:04:22.360,0:04:26.639
+exercício. Pronto. E o meu método,
+
+0:04:24.880,0:04:28.759
+penso, o método que eu vou demonstrar
+
+0:04:26.639,0:04:31.600
+agora para é o meu preferido. Penso que
+
+0:04:28.759,0:04:35.400
+seja o mais simples e o o mais
+
+0:04:31.600,0:04:35.400
+engraçado, o mais intuitivo.
+
+0:04:35.560,0:04:38.919
+é um método
+
+0:04:39.400,0:04:43.560
+que
+
+0:04:41.759,0:04:46.160
+eu também cheguei a ele, eu cheguei a
+
+0:04:43.560,0:04:47.400
+ele por mim próprio, por intuição, mas
+
+0:04:46.160,0:04:49.400
+claro que não não estou a dizer que o
+
+0:04:47.400,0:04:51.479
+inventei
+
+0:04:49.400,0:04:54.680
+simplesmente eu eu também cheguei a ele
+
+0:04:51.479,0:04:56.720
+por mim próprio, mas é mais um método
+
+0:04:54.680,0:04:58.800
+dentre tantos outros métodos. Portanto,
+
+0:04:56.720,0:05:02.000
+vai ser o método da transformação da
+
+0:04:58.800,0:05:05.000
+transação. OK?
+
+0:05:02.000,0:05:05.000
+Ora,
+
+0:05:06.320,0:05:09.320
+método
+
+0:05:11.479,0:05:16.280
+da transformação, da transação.
+
+0:05:24.880,0:05:31.160
+Então, o que é que consiste? [roncando]
+
+0:05:28.560,0:05:34.708
+Ora, consiste no seguinte. Quando
+
+0:05:31.160,0:05:35.280
+olhamos para aqui para a equação
+
+0:05:34.708,0:05:38.720
+[roncando]
+
+0:05:35.280,0:05:42.880
+ax² + bx
+
+0:05:38.720,0:05:44.199
++ c = 0. E vamos assumir que nós não não
+
+0:05:42.880,0:05:45.560
+nós não conhecíamos a fórmula
+
+0:05:44.199,0:05:48.463
+resolvente, nós não sabemos como
+
+0:05:45.560,0:05:49.360
+resolver, mas nós dizemos assim: "Bom,
+
+0:05:48.463,0:05:53.039
+[roncando]
+
+0:05:49.360,0:05:54.919
+que pena ou que bom seria se o termo em
+
+0:05:53.039,0:05:56.759
+B fosse zero?"
+
+0:05:54.919,0:05:59.600
+Que bom seria, porque então seria uma
+
+0:05:56.759,0:06:02.319
+uma equação do segundo grau, mas que não
+
+0:05:59.600,0:06:04.720
+tendo todos os termos
+
+0:06:02.319,0:06:09.479
+e seria
+
+0:06:04.720,0:06:16.759
+poderes ir a resolver de imediato. OK?
+
+0:06:09.479,0:06:18.720
+Seria e então teríamos ax² + c = 0. OK?
+
+0:06:16.759,0:06:21.800
+é uma equação do segundo grau, portanto
+
+0:06:18.720,0:06:23.840
+não completa neste formato.
+
+0:06:21.800,0:06:25.759
+Neste formato, pois a resolução é
+
+0:06:23.840,0:06:30.160
+imediata.
+
+0:06:25.759,0:06:34.400
+Portanto, então resulta que x é igual a,
+
+0:06:30.160,0:06:38.120
+temos - sobre a,
+
+0:06:34.400,0:06:43.479
+temos a raiz quadrada
+
+0:06:38.120,0:06:46.160
+eh mais ou menos √² - c sobre a.
+
+0:06:43.479,0:06:49.039
+Sim, senhora.
+
+0:06:46.160,0:06:51.919
+Ora,
+
+0:06:49.039,0:06:54.039
+ou seja, que isso seria duas raízes,
+
+0:06:51.919,0:06:55.879
+estas duas soluções são simétricas, é o
+
+0:06:54.039,0:06:58.919
+mais ou menos, mais ou menos qualquer
+
+0:06:55.879,0:07:02.000
+coisa. E são simétricas porquê? Porque
+
+0:06:58.919,0:07:05.240
+porque esta função é uma função par, OK?
+
+0:07:02.000,0:07:08.160
+Uma função par
+
+0:07:05.240,0:07:11.720
+que verifica que f(x)
+
+0:07:08.160,0:07:16.440
+é igual a f de - x.
+
+0:07:11.720,0:07:18.000
+OK? Pronto. E as funções pares, elas são
+
+0:07:16.440,0:07:22.479
+simétricas
+
+0:07:18.000,0:07:25.080
+em relação ao eixo das ordenadas,
+
+0:07:22.479,0:07:27.680
+OK? E, portanto, a função quer dizer que
+
+0:07:25.080,0:07:30.400
+a parábola vai ser vai estar aqui ou
+
+0:07:27.680,0:07:33.039
+virada para cima ou para baixo,
+
+0:07:30.400,0:07:35.639
+mas simétrica.
+
+0:07:33.039,0:07:39.160
+Ela será simétrica
+
+0:07:35.639,0:07:42.319
+aqui em relação ao eixo vertical
+
+0:07:39.160,0:07:44.440
+das ordenadas. E, portanto, e portanto
+
+0:07:42.319,0:07:48.120
+as raízes
+
+0:07:44.440,0:07:50.759
+elas vão ser simétricas, elas serão, que
+
+0:07:48.120,0:07:54.240
+é o que nós temos aqui, x = a mais ou
+
+0:07:50.759,0:07:57.639
+menos qualquer coisa, OK? Portanto, x =
+
+0:07:54.240,0:08:01.759
+a um mais ou menos r, uma determinada
+
+0:07:57.639,0:08:05.039
+raiz. OK? Portanto, seria bom, seria
+
+0:08:01.759,0:08:08.639
+mais fácil que a equação do segundo grau
+
+0:08:05.039,0:08:13.280
+ela não tivesse o termo em B, o termo em
+
+0:08:08.639,0:08:15.080
+X aqui. OK? Seria mais fácil. Então
+
+0:08:13.280,0:08:16.759
+agora entra a transformação da
+
+0:08:15.080,0:08:18.680
+translação,
+
+0:08:16.759,0:08:20.680
+OK?
+
+0:08:18.680,0:08:23.440
+Porque eu posso fazer uma uma
+
+0:08:20.680,0:08:25.759
+substituição de variáveis ou uma
+
+0:08:23.440,0:08:27.879
+transformação.
+
+0:08:25.759,0:08:31.639
+Eu vou dizer, bom,
+
+0:08:27.879,0:08:34.279
+se eu fizer uma transformação, vou dizer
+
+0:08:31.639,0:08:37.399
+seja x
+
+0:08:34.279,0:08:39.200
+seja x
+
+0:08:37.399,0:08:41.360
+e
+
+0:08:39.200,0:08:45.800
+igual a
+
+0:08:41.360,0:08:49.720
+x linha- k. Por exemplo, onde está x, eu
+
+0:08:45.800,0:08:52.080
+vou pôr x vinha - k. - k ou + k, não
+
+0:08:49.720,0:08:54.640
+importa.
+
+0:08:52.080,0:08:56.399
+Este, esta é uma transformação linear.
+
+0:08:54.640,0:09:01.279
+Isto é uma transformação de variáveis,
+
+0:08:56.399,0:09:04.959
+uma transformação linear. Onde está x?
+
+0:09:01.279,0:09:08.240
+A equação em x, num referencial em x, em
+
+0:09:04.959,0:09:14.120
+x y. OK?
+
+0:09:08.240,0:09:17.399
+Portanto, se esta equação esta equação
+
+0:09:14.120,0:09:19.560
+ela ela ela
+
+0:09:17.399,0:09:21.240
+tem um determinado traçado que é uma
+
+0:09:19.560,0:09:23.920
+parabólica,
+
+0:09:21.240,0:09:25.720
+portanto num referencial ortonormados x
+
+0:09:23.920,0:09:28.601
+y.
+
+0:09:25.720,0:09:28.601
+OK? [roncando]
+
+0:09:29.320,0:09:35.279
+Sim, senhora.
+
+0:09:31.920,0:09:38.600
+E ao fazer esta transformação,
+
+0:09:35.279,0:09:42.240
+uma transformação linear,
+
+0:09:38.600,0:09:45.640
+eu vou obter uma nova equação,
+
+0:09:42.240,0:09:48.480
+uma nova equação ou uma nova função. OK?
+
+0:09:45.640,0:09:50.839
+Aqui em cima a equação é o mesmo que eu
+
+0:09:48.480,0:09:53.880
+ter uma função. Isto é tudo a mesma
+
+0:09:50.839,0:09:56.519
+coisa. Posso dizer y
+
+0:09:53.880,0:09:58.519
+ig f(x).
+
+0:09:56.519,0:10:01.720
+OK? E depois o que eu estou é a calcular
+
+0:09:58.519,0:10:05.120
+as raízes do y.
+
+0:10:01.720,0:10:08.399
+y = 0, f(x) = 0, que é a equação do
+
+0:10:05.120,0:10:09.720
+segundo grau. OK?
+
+0:10:08.399,0:10:12.720
+Portanto, eu vou aplicar esta
+
+0:10:09.720,0:10:12.720
+transformação
+
+0:10:13.360,0:10:18.519
+e e qual o valor do K que eu vou
+
+0:10:15.320,0:10:23.680
+escolher? Eu irei depois procurar o K,
+
+0:10:18.519,0:10:27.000
+qual é o K ideal que me permita eliminar
+
+0:10:23.680,0:10:30.560
+o termo em X, que é o que eu quero para
+
+0:10:27.000,0:10:33.079
+poder, porque o que eu vou querer como
+
+0:10:30.560,0:10:35.560
+resultado da transformação
+
+0:10:33.079,0:10:38.399
+é que a transformação me gere esta
+
+0:10:35.560,0:10:40.880
+equação degenerada do segundo grau que
+
+0:10:38.399,0:10:43.560
+não tem termo em x, cujo então as
+
+0:10:40.880,0:10:45.639
+soluções resultam aqui de imediato.
+
+0:10:43.560,0:10:48.839
+OK?
+
+0:10:45.639,0:10:53.320
+Vamos então fazer isso. Portanto, fica
+
+0:10:48.839,0:10:54.920
+vai ficar a onde está x, ponho x vinha -
+
+0:10:53.320,0:10:58.760
+k
+
+0:10:54.920,0:11:01.279
+ao quadrado + b
+
+0:10:58.760,0:11:06.079
+x vinha - k
+
+0:11:01.279,0:11:07.880
++ c = 0. Ok?
+
+0:11:06.079,0:11:10.320
+Sim, senhora.
+
+0:11:07.880,0:11:16.399
+Ora, vamos
+
+0:11:10.320,0:11:21.079
+desenvolver isto. a xin quad
+
+0:11:16.399,0:11:23.399
++ a k²
+
+0:11:21.079,0:11:24.920
+- 2
+
+0:11:23.399,0:11:29.680
+k
+
+0:11:24.920,0:11:29.680
+a x vinha
+
+0:11:30.120,0:11:40.480
++ b
+
+0:11:32.519,0:11:41.513
+xvinha - b k + c = 0.
+
+0:11:40.480,0:11:42.200
+Ok?
+
+0:11:41.513,0:11:45.440
+[roncando]
+
+0:11:42.200,0:11:47.240
+Portanto, agora transformei uma equação
+
+0:11:45.440,0:11:48.839
+do segundo grau em X. Agora fiz a
+
+0:11:47.240,0:11:53.120
+transformação e agora tenho uma equação
+
+0:11:48.839,0:11:55.959
+do segundo grau em x linha. OK? Eu já,
+
+0:11:53.120,0:11:58.360
+portanto, estou noutro referencial,
+
+0:11:55.959,0:12:02.639
+OK? Mudei de referencial e nesse outro
+
+0:11:58.360,0:12:04.440
+referencial eu vou procurar o K
+
+0:12:02.639,0:12:06.800
+parábola
+
+0:12:04.440,0:12:10.000
+seja como esta, esteja seja uma função
+
+0:12:06.800,0:12:11.800
+par e portanto o B seja zero. Portanto,
+
+0:12:10.000,0:12:16.079
+eu vou olhar aqui e digo onde estão os
+
+0:12:11.800,0:12:17.480
+termos em X. Eh, é este e é este.
+
+0:12:16.079,0:12:19.760
+Pronto, eu quero que estes dois se
+
+0:12:17.480,0:12:22.360
+anulem.
+
+0:12:19.760,0:12:25.959
+Portanto, se anuem por forma a ficar
+
+0:12:22.360,0:12:29.839
+apenas com ficar apenas aqui com o termo
+
+0:12:25.959,0:12:32.680
+em x qu e e os termos constantes
+
+0:12:29.839,0:12:35.920
+e e os termos constantes. OK? Portanto,
+
+0:12:32.680,0:12:39.920
+para que estes dois se anulem, eu tenho
+
+0:12:35.920,0:12:42.639
+que ser que b = 2k a. Estamos a ver
+
+0:12:39.920,0:12:47.360
+aqui, para que estes dois termos se
+
+0:12:42.639,0:12:49.160
+anulem, eu terei que ter o k tal que b.
+
+0:12:47.360,0:12:51.760
+Vemos daqui, ele terá que ser igual a
+
+0:12:49.160,0:12:55.000
+2k, que é para haver um corta corta e
+
+0:12:51.760,0:12:56.880
+eles anulam-se. Ou seja, que k = a b
+
+0:12:55.000,0:13:00.760
+sobre 2a.
+
+0:12:56.880,0:13:03.959
+Pronto, aqui encontrei o k. Qual é o k
+
+0:13:00.760,0:13:06.880
+ideal? O qual é a transformação de
+
+0:13:03.959,0:13:09.240
+translação ideal?
+
+0:13:06.880,0:13:14.920
+A que a a que a que me dá mais jeito é
+
+0:13:09.240,0:13:17.480
+esta? é uma é uma translação no com um k
+
+0:13:14.920,0:13:21.279
+de b sobre 2a
+
+0:13:17.480,0:13:25.120
+porque esta transforma-me a equação
+
+0:13:21.279,0:13:27.959
+original no numa função par eliminando o
+
+0:13:25.120,0:13:31.160
+termo b. Então sendo assim como é que
+
+0:13:27.959,0:13:34.800
+fica? Bom, então sendo assim estes
+
+0:13:31.160,0:13:39.040
+termos anula. Se eu escolher o K igual a
+
+0:13:34.800,0:13:40.880
+este valor b/ 2A. estes termos aqui,
+
+0:13:39.040,0:13:43.920
+como vocês veem, se eu substituir o K
+
+0:13:40.880,0:13:49.040
+aqui, portanto, vai estes dois termos
+
+0:13:43.920,0:13:54.759
+anunos. Então, vou ficar com uma equação
+
+0:13:49.040,0:13:57.199
+eh que e vou
+
+0:13:54.759,0:14:01.320
+vou aproveito já para dividir aqui por
+
+0:13:57.199,0:14:03.480
+a, OK? Então fica [roncando]
+
+0:14:01.320,0:14:05.759
+ora,
+
+0:14:03.480,0:14:08.279
+xinha quadrado,
+
+0:14:05.759,0:14:09.800
+OK?
+
+0:14:08.279,0:14:12.680
++
+
+0:14:09.800,0:14:14.959
+k quad
+
+0:14:12.680,0:14:17.519
+- b
+
+0:14:14.959,0:14:20.480
+sobre a. Aqui, desculpem, mas eu já
+
+0:14:17.519,0:14:23.759
+tenho eu já tenho o valor do k quadrado,
+
+0:14:20.480,0:14:27.160
+portanto, mais k²
+
+0:14:23.759,0:14:27.160
+que está aqui.
+
+0:14:33.800,0:14:36.079
+OK.
+
+0:14:35.089,0:14:38.279
+[roncando]
+
+0:14:36.079,0:14:45.160
+Ora,
+
+0:14:38.279,0:14:45.160
+- bob a, eu estou a dividir por a K
+
+0:14:49.759,0:14:53.880
++ C
+
+0:14:52.040,0:14:57.279
+sobre a
+
+0:14:53.880,0:14:57.279
+igual a 0.
+
+0:14:57.440,0:15:01.880
+Ora, vamos reduzir isto tudo ao mesmo
+
+0:15:00.199,0:15:04.839
+denominador. Portanto, aqui tem até
+
+0:15:01.880,0:15:07.000
+tenho em baixo 2 2a². Portanto, eu
+
+0:15:04.839,0:15:09.720
+preciso de meter aqui também mais um do
+
+0:15:07.000,0:15:13.399
+e ponho aqui 1 2.
+
+0:15:09.720,0:15:15.480
+E aqui preciso de multiplicar por 4a.
+
+0:15:13.399,0:15:18.079
+Preciso de multiplicar aqui por 4a. Vai
+
+0:15:15.480,0:15:20.360
+ficar 4a², que é o denominador comum, e
+
+0:15:18.079,0:15:22.639
+em cima também 4a.
+
+0:15:20.360,0:15:26.160
+OK?
+
+0:15:22.639,0:15:28.480
+Pronto. Então, sendo assim, fica
+
+0:15:26.160,0:15:31.480
+temos
+
+0:15:28.480,0:15:31.480
+x².
+
+0:15:32.240,0:15:41.440
+Aqui tenho b² - 2b² fica - b² - b²
+
+0:15:43.720,0:15:47.000
++ 4ac.
+
+0:15:51.600,0:15:54.880
+sobre 2a²,
+
+0:15:57.160,0:16:02.920
+ou seja, vai ficar
+
+0:16:00.639,0:16:04.920
+x
+
+0:16:02.920,0:16:07.199
+é igual a isto passa para para o outro
+
+0:16:04.920,0:16:11.199
+lado
+
+0:16:07.199,0:16:12.920
+e depois eu extraio a raiz quadrada
+
+0:16:11.199,0:16:16.360
+2a
+
+0:16:12.920,0:16:16.360
+e portanto vai ficar mais ou
+
+0:16:19.800,0:16:23.720
+b² - 4ac.
+
+0:16:25.519,0:16:29.880
+OK?
+
+0:16:27.040,0:16:32.880
+Eh, e pronto. Então, como veram, como
+
+0:16:29.880,0:16:35.839
+viram, portanto, super simples.
+
+0:16:32.880,0:16:39.040
+Eu escolhi aquele capa e eu tenho duas,
+
+0:16:35.839,0:16:40.720
+tenho aqui as duas raízes simétricas,
+
+0:16:39.040,0:16:43.639
+caso existam, não é? Já sabemos que isto
+
+0:16:40.720,0:16:45.319
+tem que ser maior ou igual que zero,
+
+0:16:43.639,0:16:47.160
+OK? Caso contrário, serão raízes
+
+0:16:45.319,0:16:50.040
+complexas. OK? Já sabemos todos esses
+
+0:16:47.160,0:16:53.079
+pressupostos. Pronto. E agora vou eu vou
+
+0:16:50.040,0:16:56.560
+andar para trás. Aqui é xvinha, OK?
+
+0:16:53.079,0:16:58.399
+Xvinha. Xvinha. Pronto, eu já tenho no
+
+0:16:56.560,0:17:01.639
+referencial Xvinha, eu já tenho as
+
+0:16:58.399,0:17:05.079
+soluções. Agora eu vou andar para trás
+
+0:17:01.639,0:17:07.480
+até à transformação original.
+
+0:17:05.079,0:17:09.679
+Pronto, que a transformação aqui então
+
+0:17:07.480,0:17:11.439
+que me vai dizer, ok, se eu tenho o x
+
+0:17:09.679,0:17:15.039
+vinha,
+
+0:17:11.439,0:17:19.480
+então o x é igual a x vinha men k, ou
+
+0:17:15.039,0:17:21.120
+seja, - k + x vinha. Portanto, o x,
+
+0:17:19.480,0:17:23.319
+agora ando para trás e vou obter as
+
+0:17:21.120,0:17:25.079
+soluções para x.
+
+0:17:23.319,0:17:29.120
+O x
+
+0:17:25.079,0:17:29.120
+é igual a - k
+
+0:17:29.240,0:17:33.440
++
+
+0:17:31.720,0:17:41.400
+x linha.
+
+0:17:33.440,0:17:43.120
+Pronto. E então fica o o - k - b/ 2a.
+
+0:17:41.400,0:17:46.200
+Eu já tenho o valor do k. Aqui é o valor
+
+0:17:43.120,0:17:49.919
+k que eu escolhi. E e mais x v linha
+
+0:17:46.200,0:17:54.200
+mais x lin vinha mais ou menos
+
+0:17:49.919,0:17:57.720
+as raízes que do x linha
+
+0:17:54.200,0:17:57.720
+da raiz quadrada
+
+0:17:57.919,0:18:03.679
+de b qu
+
+0:18:01.280,0:18:05.520
+- 4ac.
+
+0:18:03.679,0:18:07.760
+E pronto, aqui temos então nós a nossa
+
+0:18:05.520,0:18:11.242
+solução.
+
+0:18:07.760,0:18:13.262
+X = - b mais ou menos
+
+0:18:11.242,0:18:13.262
+[limpando a garganta]
+
+0:18:14.960,0:18:19.880
+b²
+
+0:18:16.600,0:18:19.880
+- 4ac
+
+0:18:20.440,0:18:26.320
+sobre 2a. Pronto. Por entanto e eu gosto
+
+0:18:23.360,0:18:29.360
+mais desta desta desta forma, deste
+
+0:18:26.320,0:18:32.960
+deste método. Penso que é mais elegante,
+
+0:18:29.360,0:18:36.320
+é elegante racionar com neste formato
+
+0:18:32.960,0:18:40.960
+com uma transformação da translação,
+
+0:18:36.320,0:18:42.720
+eh porque é mais elegante, é mais útil e
+
+0:18:40.960,0:18:45.840
+chamar a atenção das pessoas, quem
+
+0:18:42.720,0:18:48.679
+esteja um bocadinho já destreinado e
+
+0:18:45.840,0:18:53.559
+relembrar como uma simples transformação
+
+0:18:48.679,0:18:57.159
+linear a vai provocar simplesmente uma
+
+0:18:53.559,0:19:00.640
+uma transação da curva, OK? ao longo do
+
+0:18:57.159,0:19:04.520
+eixo dos X. OK?
+
+0:19:00.640,0:19:07.720
+Pronto. Eh, finalmente, para acabar,
+
+0:19:04.520,0:19:11.120
+para acabar vamos eh resolver aqui um um
+
+0:19:07.720,0:19:11.120
+simples problema.
+
+0:19:12.280,0:19:15.280
+Ora,
+
+0:19:15.840,0:19:19.720
+vamos ver um exemplo, um exemplo. Vamos
+
+0:19:18.440,0:19:22.200
+resolver aqui uma equação do segundo
+
+0:19:19.720,0:19:23.720
+grau num caso não trivial. [roncando]
+
+0:19:22.200,0:19:26.000
+Eh,
+
+0:19:23.720,0:19:29.240
+onde vamos ter aqui
+
+0:19:26.000,0:19:29.240
+uma equação,
+
+0:19:30.559,0:19:34.480
+uma equação
+
+0:19:32.760,0:19:36.200
+eh exponencial, acho que são assim que
+
+0:19:34.480,0:19:38.600
+se chamam, onde a variável aparece no
+
+0:19:36.200,0:19:41.600
+expoente, a incógnita aparece no
+
+0:19:38.600,0:19:41.600
+expoente.
+
+0:19:45.600,0:19:52.000
+Pronto, aqui temos esta equação.
+
+0:19:48.600,0:19:55.159
+A, e portanto é, isto é uma equação
+
+0:19:52.000,0:19:57.559
+realmente não trivial, onde, e pá, e
+
+0:19:55.159,0:20:00.159
+escolhi este exemplo
+
+0:19:57.559,0:20:03.280
+para que vocês vejam bem e tenham
+
+0:20:00.159,0:20:05.080
+cuidado que às vezes muitas muitas
+
+0:20:03.280,0:20:06.679
+equações onde nós não esperamos podem
+
+0:20:05.080,0:20:08.159
+ser transformadas em equações do segundo
+
+0:20:06.679,0:20:09.559
+grau. É o caso desta aqui vai ser
+
+0:20:08.159,0:20:11.880
+transformada numa equação do segundo
+
+0:20:09.559,0:20:15.200
+grau, OK? Embora não pareça, vamos ver
+
+0:20:11.880,0:20:18.600
+como. Portanto, o que é que eu vou fazer
+
+0:20:15.200,0:20:23.240
+aqui? Eu eu vou dividir esta equação por
+
+0:20:18.600,0:20:25.720
+por por por 4 e elevado a x. OK?
+
+0:20:23.240,0:20:29.559
+E então vou dizer, OK, isto é
+
+0:20:25.720,0:20:29.559
+equivalente a 1
+
+0:20:29.840,0:20:36.280
+mais e isto, portanto, 6 a dividir por 4
+
+0:20:33.000,0:20:38.799
+dá 3/
+
+0:20:36.280,0:20:41.880
+3/
+
+0:20:38.799,0:20:45.559
+elevado a x
+
+0:20:41.880,0:20:45.559
+igual igual a
+
+0:20:47.960,0:20:50.760
+ora igual
+
+0:20:52.360,0:21:00.320
+E, portanto, 9 dividir por 4, 3 x 3, 2 x
+
+0:20:56.880,0:21:00.320
+2 é 3/2².
+
+0:21:04.120,0:21:08.440
+Eu posso posso escrever nesta fórmula.
+
+0:21:08.480,0:21:12.120
+Posso pôr o quadrado onde eu quiser.
+
+0:21:09.919,0:21:15.320
+Posso pôr 3 + a quad e por sua vez
+
+0:21:12.120,0:21:17.880
+elevado a x. Ou posso pôr 3 + elevado a
+
+0:21:15.320,0:21:19.240
+x e por sua vez ao quadrado. OK? Não
+
+0:21:17.880,0:21:20.840
+importa.
+
+0:21:19.240,0:21:26.440
+O que importa é que isto é o mesmo que,
+
+0:21:20.840,0:21:26.440
+portanto, 3/ elevado a 2x. OK?
+
+0:21:29.709,0:21:35.760
+[roncando]
+
+0:21:31.480,0:21:39.960
+OK. Sim, senhora. [roncando]
+
+0:21:35.760,0:21:39.960
+Portanto, isto é o mesmo que 3/
+
+0:21:40.840,0:21:46.279
+elevado a 2x. OK?
+
+0:21:44.600,0:21:48.520
+E, portanto, é uma equação do segundo
+
+0:21:46.279,0:21:50.880
+grau
+
+0:21:48.520,0:21:52.640
+em 3/ elevado a x. Ou seja, é uma
+
+0:21:50.880,0:21:56.919
+equação do segundo grau quando se eu se
+
+0:21:52.640,0:22:00.039
+quando eu faço a transformação seja x
+
+0:21:56.919,0:22:02.760
+igual a 3/
+
+0:22:00.039,0:22:05.919
+elevado a x.
+
+0:22:02.760,0:22:10.039
+OK? Então, com esta com esta
+
+0:22:05.919,0:22:12.320
+transformação, eu tenho 1
+
+0:22:10.039,0:22:14.480
++ x
+
+0:22:12.320,0:22:17.120
+igual a
+
+0:22:14.480,0:22:19.200
+x².
+
+0:22:17.120,0:22:21.640
+E, portanto, tenho equação do segundo
+
+0:22:19.200,0:22:23.640
+grau
+
+0:22:21.640,0:22:28.320
+x qu
+
+0:22:23.640,0:22:33.760
+- x - 1 ig 0.
+
+0:22:28.320,0:22:37.200
+E, portanto, tenho que x é igual a - b 1
+
+0:22:33.760,0:22:37.200
+mais ou menos
+
+0:22:37.480,0:22:44.400
+1 quad - 4
+
+0:22:40.360,0:22:44.400
+a c
+
+0:22:46.240,0:22:52.840
+sobre 2a, portanto 1
+
+0:22:49.440,0:22:55.640
+mais ou menos
+
+0:22:52.840,0:22:57.520
+√5
+
+0:22:55.640,0:23:01.159
+sobre
+
+0:22:57.520,0:23:01.159
+ou aqui o a ig
+
+0:23:01.679,0:23:07.559
+e portanto se senhora,
+
+0:23:04.480,0:23:10.720
+então tenho
+
+0:23:07.559,0:23:14.511
+agora substituo para trás, portanto,
+
+0:23:10.720,0:23:15.480
+então tenho o meu x grande é 3/
+
+0:23:14.511,0:23:19.000
+[roncando]
+
+0:23:15.480,0:23:19.000
+ig a x
+
+0:23:19.760,0:23:23.240
+é igual a
+
+0:23:23.640,0:23:26.640
+1
+
+0:23:27.039,0:23:34.360
+mais ou menos √5
+
+0:23:31.080,0:23:36.080
+sobre 2.
+
+0:23:34.360,0:23:40.200
+Ah, bom, aqui vamos ter que aplicar
+
+0:23:36.080,0:23:42.159
+logaritmos. Portanto, isto é
+
+0:23:40.200,0:23:43.480
+extravaza um pouco aqui o âmbito dos
+
+0:23:42.159,0:23:45.919
+meus tutorios, porque ainda não chegamos
+
+0:23:43.480,0:23:47.440
+lá, mas mas pronto, [roncando]
+
+0:23:45.919,0:23:49.799
+quem já tenha conhecimentos pode
+
+0:23:47.440,0:23:52.159
+acompanhar.
+
+0:23:49.799,0:23:56.520
+Eh, portanto, aplicando aqui logaritmos,
+
+0:23:52.159,0:23:56.520
+vou ficar com x logaritmo 3/,
+
+0:24:00.440,0:24:06.440
+OK?
+
+0:24:02.919,0:24:06.440
+igual a logaritmo
+
+0:24:07.440,0:24:15.360
+de 1 mais ou menos
+
+0:24:12.360,0:24:15.360
+√5
+
+0:24:15.720,0:24:20.559
+sobre 2,
+
+0:24:17.760,0:24:23.440
+sendo que destas duas soluções há uma
+
+0:24:20.559,0:24:25.640
+que é inválida, que aquele 1 - √5 vai
+
+0:24:23.440,0:24:28.559
+dar um número negativo. Logaritmo
+
+0:24:25.640,0:24:32.320
+logaritmo de número negativo
+
+0:24:28.559,0:24:36.520
+é undefined. Ok? Pronto. E, portanto, na
+
+0:24:32.320,0:24:39.399
+verdade, isto fica, isto fica que eu só
+
+0:24:36.520,0:24:43.159
+posso aproveitar a solução positiva.
+
+0:24:39.399,0:24:46.159
+Fica logaritmo de 1 +
+
+0:24:43.159,0:24:46.159
+√5
+
+0:24:46.240,0:24:49.600
+sobre 2.
+
+0:24:50.600,0:24:57.279
+Eh, e pronto. E agora
+
+0:24:53.480,0:25:00.159
+é explicito em ordem a X. X
+
+0:24:57.279,0:25:01.720
+é o logaritmo
+
+0:25:00.159,0:25:04.320
+deste número, que por acaso este número
+
+0:25:01.720,0:25:07.039
+é o fi, que é essa a secção a secção
+
+0:25:04.320,0:25:10.039
+áurea, muito famosa da série de
+
+0:25:07.039,0:25:10.039
+fibonacci
+
+0:25:11.760,0:25:16.200
+é dividir por logaritmo 3+.
+
+0:25:18.559,0:25:21.559
+OK?
+
+0:25:28.520,0:25:31.799
++ √5
+
+0:25:32.640,0:25:36.000
+sobre 2.
+
+0:25:40.919,0:25:45.000
+OK? Pronto, não faltam exemplos de
+
+0:25:43.120,0:25:46.279
+problemas com equações do segundo grau.
+
+0:25:45.000,0:25:49.799
+Vocês poderão encontrar muita coisa
+
+0:25:46.279,0:25:51.919
+dessas na internet se quiserem praticar.
+
+0:25:49.799,0:25:54.640
+Eh, pronto, eu pus só aqui este exemplo
+
+0:25:51.919,0:25:57.440
+que tinha aqui na minha coleção, só como
+
+0:25:54.640,0:25:59.120
+sendo um exemplo não trivial, que assim
+
+0:25:57.440,0:26:01.640
+à primeira vista a pessoa poderia não
+
+0:25:59.120,0:26:03.440
+reparar que que podia atacar este
+
+0:26:01.640,0:26:05.679
+problema com a forma resolvente o
+
+0:26:03.440,0:26:08.360
+segundo grau. Pronto, só por isso é que
+
+0:26:05.679,0:26:10.520
+optei e optei por mostrar aqui este
+
+0:26:08.360,0:26:14.760
+exemplo. E pronto, espero que tenham
+
+0:26:10.520,0:26:14.760
+gostado e até uma próxima oportunidade.
+
+

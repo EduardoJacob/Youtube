@@ -1,0 +1,692 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial. Hoje vamos tratar aqui deste
+tema de maximizar um produto de uma
+partição. Já vamos ver o que isso é, mas
+entretanto queria falar aqui de algumas
+pontas soltas que ficaram em relação a
+alguns tutorios anteriores. OK?
+Ora, o primeiro tema que queria falar,
+alguns temas, eh, queria clarificar
+alguns temas que vimos nos em tutoriais
+anteriores e o primeiro tem a ver,
+portanto, com as as expansões em série,
+OK? Eh, e pode não ter ficado bem claro,
+mas eh quando falamos do teorema de
+Taylor,
+que nos dá uma expansão em série, pode
+não ter ficado bem claro que dá-nos uma
+expansão em série, mas pode haver várias
+expansões em série.
+Há outros diversos teoremas e pode haver
+outros diversos métodos métodos para nos
+dar expansões em série. As expansões em
+série de potências, no fundo, vão ser
+aproximações da função. OK? Portanto, o
+TI dá-nos uma dá-nos uma metodologia
+para fazer isso, mas pode haver outras.
+OK? Por exemplo, aqui temos o seno
+eh
+aqui o seno aqui marcado a vermelho.
+Vocês estão a ver aqui a curva do seno,
+OK? Temos a série Taylor, alguns alguns
+dos primeiros termos que estão aqui a
+laranja.
+E já sabemos que a série Taylor dá uma
+aderência
+e excecional. OK. aqui perto do ponto
+expansão em série perto do ponto X = 0
+que é a série de McLuring. OK? Mas
+depois temos aqui uma uma um outro
+método, uma outra expansão em série de
+potências que é chamado o método da
+fatorização.
+OK? Então, basicamente nós sabemos que
+quando temos, por exemplo, um polinómio,
+se nós encontrarmos se nós encontrarmos
+as raízes do polinómio, OK? Nós sabemos
+que se que se que se eu tiver um um
+determinado polinómio
+eh
+OK, se eu tiver um determinado y,
+OK? E que vamos dizer, se eu tiver eh
+por ex, OK, é um polinómio qualquer
+x³ mais +
+bx² + cx + d. Portanto, se eu conseguir
+encontrar as raízes, então eu eu poderei
+fatorizar este polinómio, OK? E ficará
+qualquer coisa do tipo. X men a primeira
+raiz, OK?
+Eh, x - a segunda raiz,
+etc. OK? Pronto, nós já sabemos isto.
+Então,
+o que é que acontece? Eu, por exemplo,
+no caso do seno, eu não tenho nenhuma
+expressão polinomial,
+OK? Mas eu conheço as raízes porque
+porque nós conhecemos os os zeros do
+seno, OK? E então podemos partir para o
+polinómio
+eh conhecendo aqui os zeros e e fazendo
+uma construção como estamos aqui a
+fazer. OK? Pronto. Então, basicamente
+eh quais são os geros do CO? Nós já os
+conhecemos. é é o é o é o zero e depois
+é o pi, o 2 pi e assim sucessivamente.
+Eh, - pi, - 2 pi, etc. OK? Portanto, os
+geros do seno que vou posso marcá-los
+aqui, então eles estão aqui, tá aqui o
+pi, tá aqui o - pi, - 2 pi, 2 pi.
+Pronto, então, com base nisto, podemos
+fazer uma aproximação. OK? Pronto. Agora
+eu poderia fazer, eu poderia fazer, OK?
+x e depois poderia fazer x - pi,
+x + pi. OK? Eu poderia fazer isto, x - 2
+pi, x + 2 pi. Bom, o que acontece é que
+eh depois haveria que estudar a a
+convergência o ou haveria que estudar se
+realmente
+se em torno de um determinado ponto e
+isto se converge ou não ou não converge.
+OK. Ok,
+pronto. Mas o que acontece é que este
+polinómio diverge. Basta, se nós
+fizermos, vamos fazer o gráfico disto,
+vamos ver que realmente não eh não dá
+uma aproximação para o seno. OK? Mas
+rearranjando os termos tal como está
+aqui nesta função h dex, OK?
+Eh, aqui sim, vemos que é uma forma
+equivalente. Vemos que efetivamente a
+função se anula quando x = pi, quando x
+= 2 pi, etc. Portanto, aqui temos uma
+uma forma, uma fatorização possível, OK?
+H,
+e pronto. E funciona. Funciona. E temos
+a curva azul, OK? Esta curva azul, OK?
+vemos que não é não é tão precisa como
+como a série Taylor. A série a série de
+Taylor, neste caso dá-nos uma
+aproximação mais poderosa. Isto é isto é
+uma aproximação mais precisa com menos
+termos. Eu preciso de menos termos
+para para obter esta aproximação. OK?
+Se formos ao ramo alfa, nós colocamos,
+por exemplo, esta expressão aqui que é
+chamado a fatorização do seno.
+OK? é uma uma forma de de obter uma
+expansão em série de potências,
+OK?
+E tal como está aqui, mas agora se eu
+quiser transformar num polinómio é é
+bastante trabalhoso, tenho que expandir
+estes termos todos. E pronto, e eu aqui
+recorri recorri ao WAM alfa para fazer
+isso. Dei-he aqui os primeiros termos,
+pronto, e ele fez os cálculos e cá está
+e deu-me aqui uma um polinómio,
+OK?
+E vemos que os termos em x, x³ e x têm
+realmente o mesmo sinal, tal como na
+série de Taylor, mas o o que varia são
+os pesos. Portanto, aqui aqui se eu
+fizer o 4 pi qu é dividir por 5 no termo
+x c e pois
+vai dar similar
+a 3 fatorial, mas mas não não tão
+preciso. OK?
+Hum.
+OK. Pronto. Isto é, penso que isto era
+só para vos chamar a atenção desse facto
+que não existe apenas a série Tiger.
+Existem vários tipos de séries
+que nos dão vários tipos de polinómios
+que conseguem aproximar a mesma a mesma
+função. OK? Pronto.
+Eh, naturalmente que porque, por
+exemplo, quando nós falamos do
+eu não sei se isto é válvido
+universalmente para todo o tipo de
+funções, para o seno, estamos a estamos
+a ver que temos aqui duas séries
+possíveis e aí haverá mais. E há mais
+garantidamente, que eu eu sei que há
+mais, há há outros métodos para obter
+aproximações polinomiais. Eh, já no caso
+da exponencial, eh, não sei até que
+ponto é que haja várias, porque porque,
+por exemplo, a exponencial, uma vez que
+a sua derivada tem que ser igual a ela
+própria,
+eh, não sei até que ponto possa haver
+mais que uma expressão. Penso que
+eventualmente não deverá haver. OK.
+Ora, outro tema que queria falar também
+para clarificar alguma coisa que vimos
+em tutoriais anteriores acerca da
+expansão em série e da exponencial.
+que quando eu disse, quando eu obtive a
+expansão em série,
+fui à procura de uma série de potências
+cuja derivada fosse igual a ela própria.
+OK? Pronto, mas isso é um é um bocadinho
+de raciocínio circular porque claro,
+porque na altura quando se determinou a
+expansão em série, não se sabia que ela
+ia dar uma função cuja derivada era
+igual a ela própria.
+Pronto. Então vamos ver aqui um outro
+método de obter a expansão em série, OK?
+Que é e de facto baseado no no binómio
+de Newton. Ou seja, nós já vimos que
+acho que foi Jacó Bernuli, o matemático,
+que teve a estudar a analogia da da
+função exponencial com taxa de juro
+composta, OK? Para um sistema bancário,
+já vimos e já vos mostrei isto no
+tutorial. E, portanto, em que a partir
+daí que se determinou que se definiu que
+o limite
+quando n tendia para infinito
+de 1 +
+x elevado a sobre n
+elevado a n e que isto é definiu-se que
+era igual a à função exponencial.
+Pronto. Portanto, a função exponencial
+foi definida desta maneira
+porque e quando x era igual a 1, pois
+dava o número de nepper.
+Neper foi o matemático que basicamente
+que desenvolveu os logaritmos. Por isso
+também ficou o seu nome bastante
+associado
+aqui ao ao número e
+o número doiler.
+Eh,
+e portanto
+e foi assim, foi assim que foi definido
+o número, o número de nepra, mas não se
+sabia qual era o seu valor. A única
+coisa que se conseguia fazer era obter
+aproximações.
+E na altura
+a imediatamente se se comprovou que este
+limite existia, porque também haveria
+que provar se este limite convergia ou
+não, se esta série convergia. OK?
+Eh, portanto, e assim foi, eh, penso que
+faz facilmente se determinou que ela
+convergia, que havia um majorante que
+era o três e, portanto, tinha que o
+limite teria que existir. OK. OK. Bom,
+agora o que nós vamos fazer é obter a
+expansão em série de potências da da
+função exponencial usando o binómio de
+Newton. OK? Acho que foi o que usou este
+método. Relembremos o binómio do Newton,
+que também já demonstramos num tutorial
+passado por indução matemática. A + b
+elevado a n é um somatório
+de n + 1 termos.
+OK?
+Esses termos têm as potências de A, que
+começa na potência n
+e vai decrescendo as potências de P que
+começa em zero e vai até N. E depois tem
+a função combinatória
+CNI.
+Pronto. Então, basicamente o que o que
+vamos fazer é aplicamos aqui este
+binómio,
+este 1 + x sobre n.
+Portanto, tá nas condições possíveis de
+ser aplicado o binómio de Newton. OK?
+Então, isto vai dar
+pelo binómio de Newton.
+Isto vai ser igual a, temos o um, as
+potências de um pois vão ser sempre um,
+OK?
+Vão ser sempre um,
+OK? Depois temos as potências de x
+elevado a n, que no primeiro caso é x
+sobre n, digo, portanto, as potências de
+x sobre n
+primeira elevada a zero e agora vai
+crescendo.
+X sobre n elevado a 1,
+x sobre n elevado a 2. Pronto. E assim
+sucessivamente. E agora temos a função
+combinatória. OK? Relembremos que a
+função combinatória
+CNI
+é igual ao ao n fatorial
+sobre i fatorial
+n - i fatorial.
+OK? Pronto. Então, sabemos que já
+sabemos sempre também que o o primeiro
+termo é um. Portanto, aqui é 1.
+O segundo termo já sabemos que é n
+porque é o n fatorial sobre n - 1
+fatorial fica n sobre 1 fatorial.
+Portanto, aqui é n.
+Já sabemos a seguir será n
+- 1
+sobre 2 fatorial.
+OK? e a seguir n - 1, n - 2 sobre 3
+fatorial, etc. Pronto. Então, o que
+acontece agora ao olhar para estes
+termos?
+Expansão,
+isto é a expansão em termos do binómio
+do Newton, mas qual é o n? O o n tende
+para infinito. Portanto, serão infinitos
+termos, OK? Infinitos termos. Agora,
+quando olhamos para aqui, este é igual a
+1. Qualquer coisa elevada a zer é 1.
+Portanto, aqui o primeiro termo dá 1.
+Aqui o n corta corta dá x.
+E aqui temos este valor. Ora, o que é
+que vai dar aqui?
+Aqui vai dar n² no denominador e aqui n
+- 1. Mas agora o que é que acontece?
+Sabemos que n tende para infinito. Se n
+tende para infinito, o n é igual a n -
+1. Imaginem é infinito, eu tiro 1,
+continua o mesmo n. Portanto, o 1 é
+desprezível e o nn - 1 tende para n²
+quando o n tende para infinito.
+E, portanto, n² corta corta com este n²,
+OK? E, portanto, fica x² sobre 2
+fatorial.
+Quando o n tende para infinito,
+x² sobre 2 fatorial e assim
+sucessivamente,
+x³ sobre 3 fatorial.
+Pronto. E esta é a aproximação. Pronto.
+E assim obtivemos pelo binómio do
+Newton, não obtivemos a expansão em
+série de potências que corresponde à
+série de table. OK?
+Sim, senhora.
+E daqui resulta, pois já sabemos que se
+derivarmos aqui temos que obter a mesma
+a mesma série que nós já sabemos.
+Derivada de 1 é 0, a derivada de x é 1.
+Aqui a derivada 2 corta vai dar x
+aqui vai dar x² sobre 2 fatorial.
+Pronto.
+E as sucessivas derivadas
+vão sempre ser iguais a elas próprias.
+Portanto, é um polinómio em que podemos
+derivar infinitamente
+e a nova derivada que se obtém é sempre
+igual a ela própria.
+OK? Pronto. Eh, basicamente não quis
+deixar de mostrar esta
+demonstraçãozinha.
+Eh, pronto, que é mais é mais robusta e
+mais precisa do que aquilo que eu fiz,
+porque o que eu fiz noutro tutorial foi
+andar ao contrário, foi ir à procura de
+uma série genérica e ir à procura de que
+forçar a que se a derivação era igual a
+ela própria. Pois eu também cheguei a
+esta expressão em que a expansão em
+série de potências.
+Portanto, o somatório
+quando i varia de zero a n é infinito
+neste caso.
+E portanto de x elevado a i
+sobre i fatorial.
+OK.
+Sim, senhora.
+Ora,
+ora, já que falamos no binómio do
+Newton,
+eh, vou apresentar aqui a generalização
+para a chamada a série binominal
+binomial, OK?
+Portanto, basicamente que nós vemos aqui
+o binómio do Newton para n inteiro,
+tem n + 1 termos,
+OK?
+Eh,
+aqui temos uma generalização
+para o caso em que R não seja inteiro.
+OK?
+Portanto, vemos que a fórmula é a mesma,
+OK?
+É exatamente a mesma fórmula.
+OK? A função combinatória pode não estar
+definida para para números para não
+inteiros, mas nós por analogia, como
+vimos ainda agora aqui atrás
+que quando eu coloco aqui um número,
+OK? Ele ficava n n - 1, n - 2, cortava
+com a parte de baixo e em baixo um um um
+n fatorial.
+OK? Pronto. Portanto, é o mesmo que nós
+estamos aqui a ver. Portanto, é o que
+nós estamos aqui a ver.
+OK? Vai dar um R r - 1. R r - 1. Ou
+seja, é como se fosse a função
+combinatória, mas agora o R não é um
+número inteiro.
+OK? Sim, senhor.
+E aqui tínhamos n termos, agora temos
+infinitos termos. Temos infinitos
+termos. Ou seja,
+agora esta série poderá convergir ou
+divergir, não é isso? Haverá que ter
+esse essa essa atenção.
+Que aplicações é que isto pode ter? São
+mais que muitas, como vou mostrar-vos
+agora aqui um exemplo,
+por exemplo, para para obter uma
+aproximação, por exemplo, para cálculos
+de de raízes de raízes quadradas.
+Imaginem que
+Imaginem que eu quero uma aproximação
+para a raiz quadrada de 2
+e√ quadrada de 2 é 1 + 1
+elevado a 1/2.
+OK? Portanto, aqui temos aqui temos uma
+aplicação do binómio do Newton, mas
+agora o n é um número fracionário.
+Eu aplico a a série binomial,
+OK?
+série binomial.
+Ora,
+então o que é que isto vai ficar?
+Ora, o que é que nós temos aqui?
+Portanto, o x aqui é igual a 1. O y
+também é igual a 1. Ok?
+Portanto, aqui o 1 elevado a qualquer
+coisa vai dar sempre um. OK?
+Portanto, aqui o 1
+é elevado a r elevado a qualquer coisa
+vai dar sempre 1
+mais o r que é igual a 1/2.
+X elevado a qualquer coisa vai dar 1. O
+y elevado a qualquer coisa também é 1.
+Ok?
+Mais
+aqui temos 1/2.
+Ora 1/
+2 fatorial,
+OK?
+os x e os y elevado ao que é que seja
+vai dar sempre um porque o x é igual a
+1,
+e portanto fica apenas estes termos aqui
+da da função combinatória.
+1/2
+- 1, ou seja, - 1/2
+- 2 - 3/2
+sobre 3 fatorial.
+OK? Ora, isto vai dar
+1 + 1/2.
+OK? Aqui vai dar - 1/8. 2 x 2= 4. 4 x 2
+8.
+- 1/8.
+Aqui vai dar mais um 16 avos.
+Depois dará -5 128, se não me engano.
+OK?
+E isto vai aproximar, portanto, a raiz
+de 2.
+1 4 1 4 2.
+Ok,
+pronto, achei isto é só uma uma pequena
+introdução. Achei oportuno falar-vos
+daqui da série binomial,
+já que estávamos aqui com a mão na
+massa, com o binómio de Newton. Sim,
+senhora. E pronto, penso que vamos
+passar então agora, finalmente ao ponto
+principal aqui deste tutorial, que é o
+maximizar o produto de uma partição.
+Ora, maximizar o produto de uma
+partição. Isto é um problema engraçado
+que
+consiste em dizer assim, por exemplo,
+imaginem que eu tenho o número 10
+e eu quero dividir em partes. Por
+exemplo, 5 + 5 são 10.
+e o produto dá 25.
+OK?
+E mas eu também podia fazer 10 = 2
++ 2
+ou por exemplo 2 + 3
+e + 5
+e o produto 5 x 2 10 x 3
+ok é melhor.
+E qual será o máximo?
+Por exemplo, 10.
+E se eu puser 2 + 2 + 2 c vezes?
+OK.
+O produto 2 à5 vai dar 32.
+Ainda é melhor.
+E qual é o máximo? O máximo é é 3
++ 3
++
+2 + 2. Deixá ver. 3 e 3 6 7 8 9 10
+e o produto vai dar 2 x 2 4.
+9 9 x 9 x 4 36.
+é o máximo.
+Ora bem, eh pronto, na verdade, eh o que
+o que vamos demonstrar é que a a
+partição que maximiza
+um produto é quando cada uma das
+parcelas, cada uma das parcelas se
+aproxima do número de nepper.
+OK?
+Se pusermos a restrição de que as
+parcelas têm que ser números inteiros,
+pois então será o três. Então o o três
+será sempre
+a melhor partição possível.
+Claro que aqui poderíamos ter feito 3 +
+3 + 3 + 1
+porque sobra 1 e então daria 27 que é
+melhor que 36. Pronto, o que acontece é
+que nestes casos, pois
+cada vez, se obtivermos um em vez de ter
+o 3 + 1, pois substituímos por 2 + 2.
+Pronto, mas isto é só na na finalização,
+mas todos os outros termos, de facto,
+eh, colocamos a três. OK? Isto se
+quisermos uma partição de inteiros, se
+quisermos uma partição em reais, pois é
+como vos digo, vamos ver que é é o a
+partição em números de nepper será
+aquele que maximizou o produto. OK?
+Vamos ver então como como se demonstra
+isso.
+Temos, portanto, um número n, um número
+n.
+Queremos e dividir em x partes iguais.
+X partes iguais
+dividir por X. Não sabemos quantas
+partes. Imaginem X = 5. Vou dividir por
+cinco partes. Então, neste caso, pois
+vou fazer o produto das partes, que é
+que é x, esse número de partes. OK?
+Pronto. Então, temos uma função f(x).
+Ok,
+pronto. Ora, já sabemos como é que se
+mais já sabemos isto é, nunca dei nenhum
+tutorial sobre isso, mas vocês devem-se
+lembrar do pá e do 12º ano, que é aí que
+se dá, ou do 11º, 12º, acho eu.
+Portanto, os geres da derivada vão dar
+os extremos, OK? Vocês lembram-se dessa
+dessa teoria.
+Eh, e portanto eu tenho que calcular os
+geres da derivada.
+Eh, mas derivar esta função não é fácil,
+porque eu quando abordamos as derivadas
+já vos falei da da potência exponencial,
+que é aqui o caso. Nós temos um x aqui
+na base e temos um x no expoente.
+Portanto, isto é uma potência
+exponencial. OK? Pronto. Então,
+basicamente o que eu vou fazer é vou e
+aplicar
+o logaritmo de df.
+Vou dizer, OK, logaritmo de f
+é igual a x
+logaritmo
+de n
+sobre x.
+OK? E, portanto, agora vou então agora
+derivo o logaritmo de f,
+o logaritmo de f
+a derivada.
+OK? Portanto, eu não sei derivar f, mas
+eu sei derivar o logaritmo de f.
+Portanto, derivada, isto é a regra do
+produto, a derivada da primeira vezes a
+segunda
+mais derivada da segunda vez a primeira.
+Ora, a derivada da segunda já sabemos, é
+o inverso do do
+o inverso aqui do do argumento,
+portanto, x sobre n,
+mas é uma função composta.
+Então fica. Deixa-me passar isto aqui
+para baixo.
+Ora, então, se não me engano, pois deve
+ficar
+e a função composta aqui.
+Ora, portanto, vai dar n
+ora, x - 1, x - 2
+e muda aqui o sinal.
+OK? Sim, senhor.
+Ora, portanto, fica
+logaritmo de n
+so x.
+E aqui, reparem, x² x - 2 corta, n/ n
+corta. E, portanto, fica -1 -1. E agora
+quero igualar a zero para obter os os
+geros da derivada.
+Agora quero forçar a criar uma equação
+igualando a zero
+para obter os geros da equação, que
+serão os extremos.
+Ora, logaritmo de n so x = 1.
+Ora, um expoente, qual é o expoente?
+Qualquer que seja a base para dar um.
+OK? ou dito de outra maneira. Pronto,
+dito de outra maneira. Vamos pôr aqui o
+o -1 naquele lado. Vamos dizer, olha,
+logaritmo
+n
+sobre x é igual a 1.
+Então agora tiro o logaritmo, anula o
+logaritmo aplicando exponenciais. função
+inversa aqui.
+Portanto, então isto equivale a dizer
+que n so x
+é igual a e
+n so x = e.
+Ok?
+Sim, senhor.
+Portanto, aqui já temos o nosso
+resultado, como eu estava a dizer, ou
+seja, a otimização,
+a otimização obtém-se quando eu tenho um
+número e divido em x partes, sejam elas
+quais forem, tal que cada uma das partes
+dá o número de nepper. Portanto, é as
+partes igual ao número de nepper que vai
+maximizar o produto.
+OK? Sim, senhora.
+Quantas partes são essas? Quantas partes
+são?
+Ora, portanto, o número de partes x
+é igual a n sobre e.
+OK?
+Ora, por exemplo, para o número 10,
+vejamos. Ora, 10.
+10.
+sobre E.
+Ora,
+10 sobre vai dar 3.3.7,
+OK? 3.7 partes.
+Portanto, então o que é que eu vou ter
+aqui? Vou ter é
+a partição do 10.
+Vou ter e
++ e + e
+3.7 partes.
+Eh, e aqui suponho que ora 3.7. Suponho
+que o ú o último pedaço vou vou juntá-lo
+aqui,
+OK? Vou juntá-lo aqui.
+OK? Portanto, suponho que este seja de
+facto o máximo e + E + 10 - 2E.
+Portanto, tudo somado é 10. Pronto. Eu
+suponho que seja o produto desta parti
+realmente maximiza,
+que que vai maximizar o produto
+e x E.
+E e depois a parte restante. A parte
+restante
+como não dá para dividir por quatro e
+pois a última parte tem tem que agarrar
+o resto.
+OK?
+E efetivamente não este este esta
+partição não é a ótima. Portanto, o
+melhor é dividir a última parte. O a
+parte que sobra é melhor dividir por
+aqui nestas duas partes iguais.
+OK?
+Tal como fizemos aqui em cima, que a
+parte que sobrava dividimos em
+dois e dois.
+OK?
+Aqui deu 36, o produto aqui deu 36 e
+este produto e este produto aqui dá
+38.47.
+OK? Pronto, achei interessante mostrar
+este este problema
+que
+é um é uma curiosidade matemática
+e
+e de facto pronto, para números inteiros
+é simples de fixar. Para números
+inteiros será sempre dividir em partes
+de três.
+Eh, e sendo que no final o resto, pois
+se sobrar um, então temos que juntar ao
+outro três e partir 2 + 2. OK? Esta será
+sempre a forma que vai maximizar o
+produto das partes.
+E pronto, penso que ficamos por aqui
+hoje neste tutorial.
+Eh,
+abordamos aqui alguns temas, portanto,
+ajudar a clarificar algumas coisas que
+vimos no passado,
+portanto, as expansões em série.
+Portanto, OK, para vocês terem essa
+noção que existem vários métodos. A
+série T não é o único método que existe.
+Há vários tipos de expansões em série.
+OK.
+Eh, sim, senhor. Falamos no binómio do
+Newton e na série binominal também tem
+muitas aplicações, que é uma
+generalização do binómio do Newton para
+aqui para para potências e reais. OK.
+Sim, senhor. Vimos aqui um um exemplo de
+uma aplicação para cálculo de raízes
+quadradas
+e depois vemos este exemplo engraçado,
+OK? Como fazer uma partição e e como
+mais uma vez como derivar aqui a uma
+potência exponencial.
+Ora, e é tudo. Espero que tenham gostado
+e até uma próxima oportunidade.
+

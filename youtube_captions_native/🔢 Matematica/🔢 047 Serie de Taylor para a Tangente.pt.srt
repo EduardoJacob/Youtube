@@ -1,0 +1,652 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Hoje vai ser dedicado
+efetivamente aqui à série de Taylor ou
+série de McLurin para a tangente de X.
+OK?
+Ora,
+nós já vimos várias vezes e várias vezes
+já deduzimos, não vou deduzir agora aqui
+outra vez. Efetivamente a série, por
+exemplo, para o seno de X,
+OK?
+É, tem uma
+tem aqui uma uma uma regra, uma uma
+lógica bem bem clara, bem definida.
+OK?
+Sim, senhora.
+Pronto. E e nós com isto depois
+facilmente eh
+intuímos quais são os próximos termos.
+Portanto, é fácil, é fácil olhar para
+aqui e entender,
+OK? E perceber qual é a lógica.
+Portanto, é uma uma expansão em série
+bastante certinha.
+O mesmo se passa para o cosseno de x,
+OK?
+E, portanto,
+1 -
+x2
+sobre 2 fatorial
++ x4
+sobre 4 fatorial.
+OK?
+e vimos e outras expansões em série,
+vimos para o logaritmo de x + 1, vimos
+para a exponencial,
+eh, mas não vimos, por exemplo, para a
+tangente. OK? Pronto, agora vamos ver
+para a tangente e vamos ver como a
+tangente é realmente um tema bem muito
+mais complexo do do que isto que aqui
+temos. OK? Sim, senhora.
+Então, digamos que eh uma das técnicas
+vamos então usar para deduzir a a série
+de macarange. Portanto, os mesmos
+raciocínios que fizemos aqui. Nós vamos
+precisar de uma tabela das sucessivas
+derivadas. OK? Pronto. Então, o que é
+que acontece? Se eu disser assim, OK,
+seja a tangente,
+vou representar por t, OK?
+Ora, t de 0 = t.
+que é ela própria.
+Vou representar aqui por um T minúsculo
+para ficar aqui mais mais coerente com
+umas tabelas que vamos mostrar a seguir.
+Sim, senhor. E vamos ter a primeira
+derivada.
+Primeira derivada. Portanto, ora, isto é
+o a derivada do seno sobre o cosseno.
+OK? Já vimos isto várias vezes.
+Ora, portanto, a derivada da primeira
+vez a segunda
+mais a primeira vez a derivada da
+segunda. Ora, a derivada da segunda
+baixa ao índice -1
+cosseno - 2. Derivada da base do cosseno
+é - seno.
+Portanto, isto dá 1 sobre.
+Ora, aqui dá, portanto, sen quadrado
+sobre cosseno quadrado, seno quadrado
+sobre cosseno quadrado.
+Pronto. E que muitas vezes, portanto, se
+reduzindo ao mesmo denominador e,
+portanto, se representa como, portanto,
+a primeira derivada é o inverso do
+cocente de quadrado. Sim, senhora.
+Eh, e agora teríamos a segunda derivada.
+a segunda derivada.
+Eh, e, portanto, derivando o inverso do
+cosseno quadrado, pois iria dar eh, se
+não me engano, iria dar 2 senos sobre
+cosseno cubo,
+OK?
+Eh, e a terceira derivada,
+portanto, iria dar 2
+sobre cosseno quadrado + 6
+seno quadrado sobre cosseno quarta e
+etc, etc, etc. Ou seja, qual é a moral
+da história? Isto é o isto é o completo
+caos. é o completo do caos, mas dá dá
+para cálculo sucessíveis derivades na
+série de McLuring, portanto para x = 0 e
+vou ver quais são os valores.
+Eh, reparem que aqui, felizmente temos
+sempre o cosseno no denominador e,
+portanto, o cosseno de zero é 1,
+portanto menos mal. E, portanto, vai-me
+dar
+eh vai-me dar os os termos. Aliás, eu já
+tenho aqui os primeiros termos.
+Já tenho aqui os primeiros termos.
+Eh, portanto, cosseno zero, onde vai-me
+aparecer aqui o um,
+depois vai-me aparecer aqui o, não,
+este, este aqui dá zero, este aqui dá
+zero
+porque é sen
+aqui vai vai-me aparecer o dois.
+Eh, OK.
+Eh,
+sim, senhor. Mas pronto, isso isso agora
+não importa. Nós,
+este método é é caótico para obter as
+sucessivas derivadas.
+Então, vai haver agora aqui um truque
+mais simples para obter isto de uma
+forma mais sistematizada.
+OK?
+E vamos, eu vou vou fazer aqui um print
+screen, copiar aqui uma tabelazinha.
+Ora,
+ora vou copiar aqui uma tabelazinha.
+Pronto, cá está ela. Pronto, aqui tem as
+sucessivas derivadas e depois tem aqui a
+a expansão em série da tangente.
+Desde logo vemos que a expansão em série
+da tangente, efetivamente não dá para
+prever o o valor seguinte. É uma série
+que caótica não tem nada a ver com o
+seno e seno. OK? O seno e coseno é uma
+expressão, uma expressão bem simples,
+OK?
+Eh, que é fácil escrever aqui a regra
+geral aqui, quer para o centro, quer
+para o cosseno com com o formato de um
+somatório, é bastante fácil de escrever,
+mas aqui não. Aqui vemos que para a
+tangente isto é perfeitamente caótico.
+Isto é aqui 1/3 posto de 215 17 sobre
+315, etc, etc. Bom, mas antes de chegar
+lá, vamos olhar aqui para as para as
+para as tabelas das sucessivas
+derivadas. E, portanto, e aqui o que nós
+temos aqui é efetivamente
+a derivada de ordem zero.
+Sim, senhora. Que é ela própria, a
+tangente. Pronto. E a segunda derivada.
+Então, a segunda derivada, o artifício
+que vamos fazer aqui é o seguinte. Nós
+aqui quando estávamos a calcular a
+primeira derivada, nós aqui tínhamos
+aqui nesta posição tínhamos 1 + seno
+quad sobre cosseno quadrado que é o
+inverso do cosseno quadrado. Em vez de
+converter para cossenos e senos, nós
+vamos manter tudo sobre com tangentes.
+Fica bem mais simples, porque aqui o
+seno quadrado sobre o cosseno quadrado é
+igual à tangente ao quadrado. Pronto. E
+é por isso que temos aqui que a primeira
+derivada é 1 mais a tangente quadrado, o
+que está correto, que é igual ao inverso
+do seno quadrado. Portanto, mas desta
+forma fica mais simples. Eliminamos
+todos os denominadores, deixamos de ter
+aqui frações com denominadores
+e ficamos apenas com polinómios de t,
+polinómios da tangente. Portanto, as
+expressões ficam mais simples. Reparem
+como eu vou eh, por exemplo, calcular
+agora a segunda derivada. que é a
+derivada aqui da primeira, OK? Então
+fica aqui a derivada de 1 + t2,
+portanto fica
+2t
+2t derivada de t. Mas a derivada de tá
+eu sei, eu vou sempre usar aqui esta
+regra que a derivada de t + t2.
+1 + t2.
+Portanto, isto dá
+2 t + 2 t3. Pronto. OK. Tá correto? Que
+é o que eu tenho aqui. Pronto. E agora
+continuava.
+E agora continuava.
+Eh, é claro que depois
+os valores destas derivadas vão ser
+calculados na série de McLarin para para
+x = 0 e a tangente de zero é zero. E,
+portanto, mas isso já lá vamos e os
+únicos termos que vão sobreviver vai ser
+aqui o f1 que tem o 1, este outro que
+tem o o que tem aqui o f3 que tem aqui o
+2 e fant
+as potências ímpares de x. Essa parte
+aqui tá correta, que são os únicos
+termos que vão sobreviver, que têm aqui
+uma determinada constante. OK? Agora
+queria-vos mostrar aqui um pequenino
+algoritmo que eu fiz
+que permite eh calcular que eu poderia
+usar isto computacionalmente para
+calcular todas estas derivadas. Na
+altura até estava a pensar fazer esse
+algoritmo, implementar em linguagem R,
+mas depois não cheguei a implementar.
+Pronto. Mas como acho que há uma coisa
+engraçada, vou-vos mostrar aqui. Eu vou
+fazer aqui uma tabela,
+OK? Ponho aqui 0 1 2 3 4 5 6 7 e assim
+sucessivamente. Já chega.
+E, portanto,
+vou fazer aqui uma tabela, uma matriz
+e vou dizer aqui que aqui estas estas
+colunas aqui, eu vou dizer que que é a
+posição
+a posição que é o que nós temos aqui, a
+primeira, o 0 1 2 etc, à medida que
+avança para a direita. OK? E aqui vou
+pôr a ordem da derivada. A derivada de
+grau zero, de grau 1, 2, 3, 4, 5,
+6, 7, etc. Portanto, aqui é a derivada.
+Sim, senhora. Pronto. E agora, como é
+que isto trabalha? Eu vou dizer assim.
+Bom,
+portanto, eh, a tangente de a derivada
+de grau zero é a própria tangente
+e a própria tangente é o t, ou seja,
+aqui tem o zero, não tem valor constante
+e aqui é o t. Portanto, basicamente aqui
+é é o é o t elevado a 0,
+aqui é o é o t elevado a 1.
+Aqui é o t elevado a 2, t elevado a 3,
+etc. Portanto, é as potências de t.
+Portanto, a derivada de grau zero é
+representado por 01. OK? Pronto. Sim,
+senhora. E agora o que nós vamos fazer é
+que
+quando eu pego aqui em em na derivada de
+grau zero, portanto aqui tenho a
+derivada de grau z0 t0 e a seguir t1.
+Como é que eu passo t0 para t1? É fácil.
+vai ser que
+nós sabemos qual é a derivada
+que que dá onde está o t dá 1 + t2. Ou
+seja, vai haver aqui uma uma regra que
+que vai vai- me dizer que na matriz onde
+eu tenho um por baixo vou pôr 1 0 1, OK?
+E portanto eu vou pôr aqui 1 0 1
+OK? que, portanto, que é
+a derivada de t que é igual a 1 à
+constante + t2. OK? E tá correto.
+Pronto. E agora como é que eu passo aqui
+para baixo? Pronto. Então vai ser eu vou
+olhar a cada local, a cada ponto aqui,
+eu vou dizer um.
+Só que eu agora vou ter um
+multiplicador.
+E o multiplicador vai ser sempre o
+elemento que tá no topo da coluna com o
+elemento que tá na célula. Este com
+este,
+este com este e este com este. Porque eu
+quando tenho aqui,
+quando eu tenho aqui t2, quando eu
+derivar vai dar 2 vezes qualquer coisa,
+que é o que me deu aqui quando eu baixei
+aqui do expoente e deu 2t. Pronto. Então
+o que vai acontecer,
+OK? [roncando] É que aqui tenho o
+multiplicador 0 x 1, 0. Portanto, aqui
+vai dar zero.
+Aqui tenho um multiplicador. 1 x 0 0
+vai dar 0. OK? Mas aqui tenho o
+multiplicador. 2 x 1 2.
+E o 2, portanto, seja é 2 vezes
+a regra da derivação, que é baixar um
+01. Portanto, então vezes 2 fica fica
+202. 202. Ou seja, é o pegar a regra
+sempre onde está o 1 baixa na matriz
+aqui 10 1 vezes o multiplicador,
+portanto dá 202. Portanto, este que
+daqui está 1 202 soma com o que tiver
+aqui. Aqui tá zero, fica 202.
+Pronto, eu tá um bocado confusa a
+explicação, mas espero que estejam a
+acompanhar. 2 0 2 que tá correto, que é
+segunda derivada que eu tenho aqui, que
+tem o zero na constante, tem o 2, depois
+0 no quadrado, 2 0 2. Ok, pronto, agora
+vamos ver a próxima como fica mais
+simples. Portanto, multiplicador 0 x 0 0
+aqui dá sempre zero.
+tá sempre zero, a menos que venha agora
+uma coisa do valor seguinte, que vai ser
+aqui o caso. Aqui tenho o multiplicador
+2 x 1 2. Então dá 2 a somar ao que já
+tenho aqui. Tenho aqui 0 + 2 02 dá 202.
+Portanto, vou pôr aqui 2 0 2. A seguir
+na terceira coluna, o multiplicador 2 x
+0 não dá nada. E a seguir o
+multiplicador 3 x 2 6. 3 x 2= 6. Então
+eu vou somar 606.
+Portanto, eu vou somar aqui neste 202
+que tení aqui, aqui baixa aqui baixa
+para dar 606,
+onde soma com o que já lá tenho e
+portanto dá 20806.
+OK? Penso que esteja mais ou menos
+claro.
+Portanto, dá
+e seja dá 8 0 6. Tá correto? São os
+coeficientes que tenho aqui. Constante o
+2 8 6. Vou só fazer mais uma. Portanto,
+aqui tenho o multiplicador zer. OK.
+Ora, só acertar aqui uma coisa no PC.
+Ok,
+pronto. A seguir,
+1 x 0, multiplicador 0.
+A seguir 8 x 2 16 multiplicador 16.
+Então, o multiplicador maior que 0,
+então dá-me 16 0 16
+0 16
+0 16.
+A seguir, multiplicador 3 x 0, não dá
+nada. A seguir multiplicador 6 x 4 24.
+Então vai dar 24 0 24
+0 24 e que, portanto, somando ao que já
+lá tenho aqui, vai dar e 404.
+Pronto, 40 0 24,
+que efetivamente são as constantes que
+eu tenho aqui, o 16, o 40 e o 24. OK, já
+chega. Pronto, isto é para verem que eh
+se eu quisesse calcular isto
+computacionalmente, eu estava a olhar
+para isto e eu próprio deduzi,
+evidentemente deve haver outras
+maneiras, classe que após que deve haver
+alguma forma recursiva também ao eh se
+de exprimir uma uma derivada de ordem
+superior em em função das anteriores.
+Pronto. Mas aqui eu com este regrazinha,
+com este pequeno algoritmo, eu se fosse
+implementar isto num computador, pois
+seria capaz com este pequeno algoritmo
+de construir esta matriz e, portanto,
+obter os coeficientes todos para as
+derivadas. Sim, senhor. Pronto. Agora,
+então, como é que fica, como é que fica
+a expansão em série? Bom, é simples.
+Então, eu já vi que os termos que vão
+vão sobreviver são os que têm as
+constantes, porque a tangente de zero é
+zero. Estes não. Portanto, sobrevive
+aqui o o 1, o 2, o 16. Portanto, vai
+sobreviver aqui o 1, o 2, o 16.
+OK?
+Eh, e quais as potências aqui? Ora, o é
+o é o é o x
+elevado a 1 x.
+E aqui é o x c
+e aqui é x5.
+OK?
+Eh, e finalmente com os fatoriais,
+portanto aqui temos o 1 fatorial,
+aqui temos o 3 fatorial
+e aqui temos o 5 fatorial. Pronto. E
+assim sucessivamente. E, portanto,
+eh, vamos olhar aqui para a série e
+vemos está correto. Portanto, aqui o 2
+corta com 3 x 2, portanto fica 1/3. Aqui
+o o 5 fatorial é 120. Portanto, 16/ 120.
+Ora, 2 x 2 x 2 x 2 dá 16. Sobre 120 que
+dá 5 x 4
+x 3
+eh x 2. Portanto, corta, corta, corta e,
+portanto, dá 21/15,
+tá correto? Que é o que está aqui, 215 e
+assim sucessivamente. OK? Pronto. Então
+vimos que eu consigo computacionalmente
+consigo tenho aqui o algoritmo.
+Eh, e depois é só uma questão de dividir
+pelo fatorial, simplificar a fração,
+coisa que, por exemplo, na linguagem R,
+isso também existe com facilidade.
+Reduzir uma fração à fração, converter a
+fração para fração irredutível, etc,
+etc. E eu construiria esta fórmula e e
+case closet. OK? Pronto. Sim, senhora.
+Eh, como curiosidade, vouvos mostrar a
+fórmula geral,
+a fórmula geral
+que
+é possível deduzir que efetivamente isto
+parece caótico, que eu consigo obter
+aqui com o algoritmo de forma
+recursivamente, mas que existe de facto
+uma forma geral. Cá está ela e baseada
+nos números de Bernão
+em série para a tangente.
+OK?
+Eh, mais uma vez aparece aqui o -1. Vai
+sempre aparecer um -1 quando tenho
+números de ber noi, porque há números de
+ber noi negativos e, portanto, tenho que
+anular aqui, porque efetivamente os
+termos aqui são todos positivos.
+OK? Reparem que enquanto o seno e
+cosseno têm termos alternados positivos
+e negativos, na tangente é sempre tudo
+positivo,
+OK? Mas efetivamente a forma geral ela
+ela trabalha aqui com os números de
+Bernuli. Depois tem aqui as potências as
+potências de expoente ímpar. OK? Eh, e
+pronto, eu não deduzi esta forma nem
+pouco mais ou menos. Estou só com o cá
+aqui para que vocês vejam. Mas é como
+vos digo, eu também não precisava da da
+forma porque eu consigo, se eu
+precisasse de fazer uma expansão em
+série, para já bastava-me estes números
+iniciais. Isto já é mais que suficiente.
+Suponho que isto dependente do quanto a
+aproximação nós queiramos, não é? Mas eh
+já temos aqui termos suficientes, não é?
+Ora bem,
+eh vamos agora ver uma outra técnica que
+também se vê muito
+e
+para calcular a série, a série de
+potências da tangente, que é usar a
+divisão dos polinómios infinitos, a
+divisão das séries. OK? É uma coisa
+engraçada também. Podíamos ver, porque
+nós já vimos que quando temos uma série,
+nós já vimos, imaginem, imaginem esta
+série aqui
+do seno. Imaginem esta série.
+OK. Deixa-me ver se eu consigo copiar
+isto para aqui. Copy.
+Deixa ver se eu consigo.
+Não consigo porque ele tá-me a copiar.
+Ele está-me a deve-me estar a copiar
+para o PC. OK. A, portanto, nós temos o
+seno de x,
+o seno de x,
+ora, é igual a x
+- x³
+sobre 3 fatorial.
+OK?
+ist, deixa ver se não me enganei, que
+isto às vezes a pessoa tá distraída e
+engana-se. OK.
+x - x c x
+nós acho que já vimos algunos no passado
+noutros tutoriais como nós podemos
+quando temos uma série,
+nós podemos derivar,
+nós podemos
+primitivar ou integrar.
+E nós vamos ver hoje que também podemos
+dividir.
+Bom, no fundo podemos fazer tudo, tudo o
+que quisermos, como se fosse uma uma
+quantia fixa,
+tendo em conta apenas estamos a
+trabalhar com infinitos termos. Temos
+que levar isso em cuidado e em
+consideração.
+Eh, portanto, se eu derivar, o que é que
+nós vamos obter? Eu já sei que a
+derivada do seno é o cosseno.
+Derivar
+derivar a derivada do seno tem que vai
+ter que me dar o cosseno e efetivamente
+derivando a série. Aqui dá a derivada de
+x é 1.
+Aqui vai dar menos o 3 baixa corta aqui
+fica - x qu
+sobre 2 fatorial porque o 3 cortou
+mais o 5 baixa fica x4
+o 5 corta a i fica sobre 4 4 fatorial e
+e bate certo efetivamente eh aqui
+derivando o termo a termo, pois passamos
+de uma série para a outra série. Pronto,
+não há dúvida nenhuma. Pois que isto
+tinha que ter certo, tinha que estar
+coerente. Portanto, podemos derivar
+termo a termo. Derivamos uma série para
+obter outra série. Podemos primitivar e
+podemos fazer outra qualquer outra coisa
+que queiramos. OK?
+Sim, senhor. Então agora vamos dividir.
+Nós vamos dizer assim, mas então se a
+tangente, sabendo que a tangente,
+sabendo que a tangente é igual ao seno
+sobre o cosseno, então se eu dividir as
+séries, o que é que me vai dar? Nós já
+tratamos aí alguns num num tutorial
+passado, nós já tratamos
+a da divisão inteira de polinómios. Já
+não me lembro atitude que, mas já fiz,
+já fizemos isso. Então vamos dividir.
+Eu vou ter aqui, eu vou ter o seno
+x
+- x c x³ sobre 3 fatorial
++ x5
+sobre 5 fatorial
+menos, etc. E, portanto, eu vou dividir,
+fazer
+uma divisão normal é dividir pelo
+cosseno
+x2.
+Claro que eu ponho tantos mais termos
+quantos eu queira.
+Pronto, é engraçado pôr isto porque
+nunca tinha mostrado isto em nenhum
+tutorial e, portanto, agora veio a
+propósito. Sim, senhor. Eu posso dividir
+isto. Ora, como é que eu divido? Ora, em
+x, quantas vezes cabe 1? Cabe x.
+Cabe x. Então, temos x 1 x -
+x.
+X este dá - x³, tal, tal, tal. Portanto,
+aqui fica + x³. sobre 2 fatorial
+e x5. Portanto, aqui fica - x5
+sobre 4 fatorial.
+OK? Pronto. Agora vou somar. Portanto,
+este corta corta. Pronto. Então agora
+aqui fica x³
+eh sobre 2 - x³ sobre 3.
+E portanto isto vai dar
+ora
+x³
+1/ 2 - 1/6 que é o 3 fatorial.
+Ora, 6 - 2 e 4/1. Portanto, isto vai dar
+41/1.
+Ora, 4 x 3. Portanto, isto vai dar 1/3.
+Pronto. Então aqui fica
+x³
+ter.
+Da mesma forma aqui, x5
+e portanto x5
+isto vai dar
+ora
+1/ 5 fatorial.
+Ora 1
+sobre 5 fatorial - 1 sobre 4 fatorial.
+Ora, isto vai dar,
+eu preciso de multiplicar aqui por 5
+para isto ficar igual. Ora, isto vai dar
+1 menos 5
+sobre 5 fatorial. Isto, portanto, isto
+vai dar
+- 4 [roncando]
+sobre 5 fatorial.
+Ora, o 5 fatorial é 5 4 3 2. O quarto
+corta. 3 x 2 6 x 5 30. Fica -1 30
+- x/5
+30. OK?
+Não há mais porque eu não estou a usar
+com mais precisão. Agora vamos ver aqui
+x c3 quantas vezes cabe 1? Cabe x c3.
+Portanto, mais
+x³
+x 1
+men
+x c3.
+Deixa apagar aqui estes cálculos
+auxiliares.
+Sim, senhora.
+Ora, x5
+3 x 2 6 x 6.
+Portanto, xin sexos.
+OK?
+Ah, pronto. E assim sucessivamente. Não
+vou não vou calcular mais. Vocês já
+estão a ver que isto isto é uma
+trabalheira. é uma trabalheira o pronto,
+só obtive aqui os dois primeiros termos
+da série, que é o x + x³/3, que é o
+resultado da divisão da série do seno a
+a dividir pela série do cosseno, obtive
+os dois primeiros termos, que é o x +
+x³,
+eh, portanto, que tá correto aqui em
+função da da série da tangente.
+Ora, estamos quase a chegar ao fim,
+portanto aqui não há muito mais, mas eu
+era importante ter dado o tutorial
+anterior onde eu introduzi os números de
+Bern
+porque de facto eles aparecem agora aqui
+também e eles aparecem em antes
+situações. Vou-vos só pôr aqui o caso da
+da série da cotangente que essa é ainda
+mais difícil é a cotangente porque a
+cotangente não está definida para x = 0.
+Então, portanto, a série de macur ela é
+desenvolvida em torno do ponto x = 0.
+Eh, então, efetivamente, eh,
+vouvos só pôr, vou só pôr aqui um print
+screen. Não vou dar grandes explicações
+sobre isto, que isto é um tema mais,
+mais complexo.
+Eh, efetivamente,
+isto deve ter sido o chatpt que me deu
+isto. Existe aqui uma expressão, mas
+existe depois um uma outra família de
+séries que são as séries do Aurante.
+Penso que isto é uma generalização das
+séries Taylor para números complexos. Eu
+já estou um bocado estreinado nisto. Não
+não me recordo do que do que é isto, mas
+pronto. Mas só p-vos aqui o resultado só
+por curiosidade.
+Portanto, que a diferença que tem
+fundamental é que aparece aqui um termo
+de 1 sobre x,
+OK? E que faz e permite deixar
+sobressair que de facto não está
+definido para x = 0, pois 1 sobre x, 1
+sobre 0.
+Eh, o resto da ordem de complexidade é
+mais ou menos similar,
+tem uma expansão em série também,
+envolve os números de Bernubi.
+Eh, e pronto, penso que vamos ficar por
+aqui, que era só o que eu vos most
+queria mostrar, queria-vos mostrar que
+efetivamente
+eh se o seno e o seno eram triviais,
+já o mesmo não se pode dizer da
+tangente, OK? A tangente tem uma
+expansão em série,
+mas é muito mais complexa. Nós olhando
+para os termos, nós não nós não
+conseguimos intuir qual é o termo
+seguinte,
+como estamos aqui a ver. Quer dizer,
+isto não tem lógica nenhuma, tem aqui
+uma determinada lógica, mas nós não
+conseguimos intuir de cabeça qual é o
+próximo termo. Ele é dado por esta
+fórmula e envolve os números de Bern. E
+penso que sim. Vamos só ficar, vamos
+ficar por aqui. Isso é mais ou menos
+tudo o que eu vos queria mostrar hoje.
+

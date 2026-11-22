@@ -1,0 +1,1001 @@
+
+[roncando] Ora, sejam bem-vindos a mais
+um tutorial. Hoje vai ser dedicado à
+série harmónica. Penso que agora irei
+começar um
+uma nova coleção de tutorials dedicada
+às séries. OK.
+Ora,
+então, efetivamente
+nós temos, existe um
+conceitos de nomenclatura em que,
+basicamente se costuma chamar uma
+sequência,
+uma sequência,
+por exemplo, 1
+1/2
+um sobre
+e costuma-sear chamar uma série
+quando somamos estes elementos.
+Portanto, a soma de de 1
++ 1/2 + 1/ etc.
+OK? at até ao infinito.
+Sim, senhor.
+Portanto, nós temos a série harmónica,
+é o somatório.
+Eh, vamos ao ou podemos dizer o limite.
+OK.
+Ora,
+não vou pôr aqui, não vou pôr, não vou
+escrever limite, escreve somatório aqui
+com limite em cima que já se subentende.
+Ora, n varia de
+1
+a mais infinito
+de 1 sobre n.
+OK? Sim, senhora. Série harmónica.
+E eu tive a perguntar no chat GPT,
+efetivamente, porque se chamava série
+harmónica, porque
+e ele diz-me que tem a ver com a música.
+Portanto, alguros, alguros no tempo
+quando se estudou a música,
+acho que já vem do tempo dos gregos
+e, portanto, e havia as relações
+entre as notas
+e os comprimentos das cordas, onde se
+tocava a música.
+tinha-se uma unidade, tinha-se um meio,
+tinha-se um terço e assim surgia às
+frequências musicais.
+Eh, e penso que tem a ver com isso. E o
+nome, de facto, o nome assim assim o
+indica. Portanto, série harmónica deve
+ter a ver com a harmonia, a harmonia
+musical, porque eu também já conhecia a
+média harmónica, como vocês sabem,
+existe uma média aritmética que é a mais
+conhecida, mas também existe uma média
+harmónica, OK?
+E, portanto, a média harmónica
+é usada, por exemplo, na para calcular
+as resistências equivalentes em
+eletricidade.
+OK? É usado depois muita outra série de
+problemas. Portanto, média harmónica,
+por exemplo, entre dois números é o
+inverso da soma dos inversos. OK?
+Sim, senhora. De dois ou mais números.
+Ora,
+isto aqui acho que é com H.
+Sim, senhor.
+Ora bem,
+eh,
+então, quando nós temos uma série, uma
+das questões que se põe é saber se a
+série converge ou diverge, ou seja, se
+este somatório dá um número finito ou
+infinito. OK?
+Neste caso, dá dá um número infinito.
+É um número infinito.
+E é fácil entender porquê? Porque porque
+existe uma relação entre somatórios e
+integrais. Nós vimos isso quando quando
+vimos num dos meus tutorials, portanto,
+integração por exaustão. E nós vimos que
+o integral podia ser expresso como um
+somatório, OK?
+E, portanto, nós já sabemos que o
+integral de 1 sobre n
+é o logaritmo.
+OK?
+Ora, e portanto,
+eh, portanto, por exemplo, entre 1 e
+mais infinito.
+Ora, e o logaritmo, portanto, aqui vai
+dar o logaritmo de,
+portanto, entre infinito e 1. [roncando]
+E, portanto, o logaritmo de infinito é
+igual a infinito, OK? Portanto,
+intuitivamente já vemos que este
+somatório, a série harmónica, [roncando]
+ela diverge. OK?
+Sim, senhor.
+Eh,
+vamos fazer aqui um teste rápido e vamos
+demonstrar que a série harmónica
+diverge, OK? Sem sem usar este artifício
+aqui, esta comparação aqui com o
+integral, OK? Esta comparação com o
+integral
+apenas nos dá
+dá-nos uma intuição. Na verdade, existe
+um
+um um teorema sobre um um critério de
+convergência
+[roncando] que tem a ver com o integral.
+Existem várias vários
+vários critérios de convergência.
+Eventualmente iremos agora
+nestes neste tutorial e nos próximos
+iremos abordar alguns desses critérios.
+Ora bem, portanto, vamos agora esquecer
+agora os integrais e vamos demonstrar de
+uma forma simples que a série harmónica
+divers. Portanto, então vamos considerar
+que as chamadas somas parciais, as somas
+parciais de uma série são as somas que
+nós obtemos quando quando e apenas vamos
+em consideração um um conjunto finito de
+termos. Pronto. Então, dizemos assim,
+olha, a soma parcial número um é só o
+primeiro termo. Dizemos que é o primeiro
+termo é 1. É 1 sobre 1, portanto é 1.
+Ok? Sim, senhora.
+E dizemos que é maior ou igual que 1.
+Não há dúvida. Por exemplo, a soma
+parcial 2, ela será 1 mais 1/
+1 + 1/2.
+E dizemos que ela é maior ou igual que 1
++ 1/2.
+Sim, senhor. Soma parcial parcial 3.
+Eh, três não vale a pena considerá-la.
+Vamos, passamos para quatro.
+Soma parcial 4. Já vou, já vão ver
+porquê. Portanto, soma parcial 4. OK?
+Portanto, na verdade, nós vamos
+considerar aqui apenas as somas parciais
+e com o uma potência de dois aqui no no
+número de termos. Portanto, s
+eh soma parcial
+de 2 elevado a n. OK? Para assim
+consideramos o 2, o 4, o 8. OK? Estamos
+a considerar estas somas parciais.
+Portanto, S4 vai ter quatro termos. 1 +
+1/2
++ 1/3 + 1/4. OK? Pronto. E agora, qual é
+o artifício que nós fazemos?
+Ora, nós agora vamos aqui associar,
+levar em consideração estes dois últimos
+termos
+e dizemos que, bom,
+isto
+eh é maior ou igual
+do que se eu tivesse 1 + 1/2
+mais E agora aqui em vez de 1/3 1/4
+1/4 + 1/4 1/4 + 1/4 é maior igual,
+porque não há dúvida que 1/3 é maior do
+que 1/4. Portanto, eu aqui estou a pôr
+um termo mais pequenino. Portanto, isto
+aqui não há dúvida nenhuma
+que este é S4 é maior ou igual que esta
+expressão. Pronto. E aqui já estamos a
+ver o que é que isto vai dar, porque
+então tenho aqui 1 + 1/2 + 1/2,
+OK? Então tenho aqui 1 + 2 vezes de 1/2.
+Pronto. Da mesma forma, o S8,
+o S8
+[roncando] e vai dar 1 + 1/2.
+E agora tenho mais dois termos,
+OK? Que é o 1/3 + 1/4.
+Mas eu vou já vou já associar, vou já
+aqui dizer
+S8 é maior ou igual que
+1 + 1/2. E agora vou pôr aqui 1/4 + 1/4,
+onde estaria 1/3 + 1/4.
+1/3 + 1/4 é maior do que 1/4 + 1/4
+mais.
+E agora vou pôr os outros termos.
+Os outros quatro. Reparem que S8 tem
+oito termos, vai até 18,
+OK? Ele vai até 1/8.
+E, portanto, aqui teria 1/5, 1/6, 1/7.
+Mas agora vou arredondar e vou vou pôr
+tudo estes quatro termos iguais a 1/8.
+Eu, portanto, eu estou a pôr termos mais
+pequenos,
+OK? termos, estes termos são mais
+pequenos do que se eu tivesse aqui 1/5 +
+1/6 + 1/7 + 1/8.
+OK? Pronto. Então eu estou a levar em
+consideração as potências de dois.
+Aqui tenho aqui tenho dois termos,
+potência de dois. Aqui tenho 4, a
+potência de 2. E a seguir
+e pois teria
+oito oito termos, portanto, OK?
+Portanto, a seguir, ora, portanto, seria
+aqui é 2³, 2 à4 seria S16.
+S16.
+Portanto, eu teria estes oito termos
+iniciais mais um 16,
+portanto, oito vezes. OK? Mas mas este
+chega-nos aqui o S8. Portanto, isto
+mostra [limpando a garganta] que se que
+eu tenho aqui 1/io,
+tenho aqui 1/io
+e tenho aqui 1/io. Portanto, S8
+é igual a 1 +
+3 vezes
+1/2, sendo que este 3, este 3 é a
+potência aqui do 2 ao ao cubo que dá 8.
+OK?
+Pronto. Então, basicamente
+vemos que se eu considerar a soma
+parcial
+com o número de termos da potência 2
+elevado a n, [limpando a garganta]
+eu acabei de demonstrar que vai ser
+sempre maior ou igual
+do que 1
++ n x 1/2.
+é o que nós demonstramos aqui. Portanto,
+isto mostra que eu consigo sempre
+encontrar uma soma parcial,
+qualquer que seja n vezes 1/2. E reparem
+que
+1 + n x 1/2 estende para infinito.
+Quando o n é grande, não há dúvida
+nenhuma, porque estou a somar 1/,
+OK? Portanto, isto vai tender para
+infinito. Eu estou a somar estas
+quantias positivas,
+OK? Que são fixas. 1/2 + 1/2 + 1/
+não há dúvida nenhuma que isto isto
+tende para infinito.
+OK? Pronto. Qualquer que seja o número
+que eu queira,
+eu consigo arranjar o número n, n 1/2 +
+1, que seja maior do que esse número que
+eu queira, esse limite que eu que eu
+queira.
+E a partir daí com Sn
+2 elevado a n é maior ou igual que esse
+limite.
+OK? Bom, não sei se ficou mais ou menos
+claro, eu não consigo explicar melhor,
+mas para mim está claro e e também já
+estava claro antes, não precisava nada
+disto porqueê porque eu já sabia por
+esta esta correlação aqui com o
+integral, já sabia que isto tinha que
+divergir.
+OK? É, como vos digo, depois existe o o
+teorema que que aplica um teste de
+convergência, mas que não não
+o tenho agora aqui presente,
+mas mas pronto. E, portanto,
+efetivamente,
+a série harmónica
+diverge.
+Sim, senhora.
+A série harmónica diverge.
+OK? Portanto, não há dúvida nenhuma
+que o somatório de de 1 sobre n
+tutorial futuro,
+iremos ver que um somatório de 1 sobre n
+[limpando a garganta] sobre os n
+quadrados conver, que é o famoso
+problema de Basel, bem mais complexo do
+que isto que estamos aqui a tratar hoje.
+E, portanto,
+vemos com duas expressões similares, mas
+efetivamente 1 sobre nvers, mas 1 sobre
+n² converse.
+OK?
+Isto veremos num tutorial futuro.
+Ora, portanto, basicamente sobre a série
+harmónica não há muito mais a dizer, ela
+diverge. E fim de história,
+fim de história, acabou. Agora, eh,
+ficava um tutorial muito pequenino,
+só para mostrar que a série harmónica
+diverge.
+E, portanto,
+vamos falar aqui um pouco mais e
+nomeadamente vamos falar da série
+harmónica, as séries harmónicas
+alternadas, que são estas aqui. Em vez
+de ser sempre com o sinal positivo,
+depois passa a ser com o sinal
+alternadamente positivo negativo. OK?
+Pronto. Então, temos aqui temos estas
+duas variantes, estas estas duas séries
+alternadas.
+que são assimétrica uma da outra. OK?
+Portanto, estas estas são as séries
+séries harmónicas
+harmónicas alternadas,
+OK? E que convergem, pois já está aqui
+até o próprio valor que elas têm, que
+esta válvula de logaritmo 2 e esta é
+simétrica. Portanto, portanto aqui já
+está expresso que elas convergem, como
+vamos demonstrar que convergem.
+OK? Eh, portanto, eh,
+temos aqui
+pré N igual a 1. Aqui tá positivo.
+Portanto, o primeiro termo é positivo.
+Portanto, esta série é 1. Depois - 1/2
++ 1/3 - 1/4, etc.
+E, portanto,
+esta é simétrica.
+Esta começa com esta começa aqui com e
+portanto n = 1 começa com o sinal de
+menos. Portanto, esta é -1
++ 1/2
+- 1/3. Portanto, é simétrica desta desta
+outra. Pronto, não há dúvida nenhuma que
+se esta dá o resultado logaritmo do esta
+tem que dar o valor simétrico. Pronto,
+fim de história. Portanto, nós vamos
+apenas vamos apenas tratar desta, vamos
+demonstrar esta e, portanto,
+[limpando a garganta] porque
+efetivamente esta outra é simétrica e
+vamos apenas tratar desta desta série.
+Ora bem,
+então, efetivamente
+aqui não há muita volta a dar,
+porque aqui a forma mais simples que nós
+teríamos para ver isto [roncando]
+seria
+e percebermos que isto era a expansão em
+série da Taylor do do logaritmo. OK?
+Sim, senhor. É claro que eh pronto, uma
+pessoa com com pouca prática podia agora
+ficar aqui a olhar para isto,
+não é? eternamente e já não já não sabia
+como pegar nisto para para calcular esta
+soma, mas efetivamente
+eh vou buscar aqui a a fórmula da série
+de Taylor e da série de McLurin.
+Para relembrar.
+Ora, deixa buscar aqui um print screen.
+Sim, senhor. Pronto, aqui temos nós para
+relembrar onde já vimos isto no
+tutoriais anteriores.
+Ora, e portanto temos
+a série de tablor, a expansão em série
+de potências de uma função.
+Eh, e vocês dizem assim: "Má, mas aqui
+não tem série de potências nenhumas.
+Aqui não há x, [roncando] OK? Mas já lá
+vamos, já lá vamos depois quando
+substituirmos o x pel o valor adequado.
+Portanto, a série de Taylor,
+desenvolvimento em série de potências em
+torno da trinidade, valor a e quando
+esse valor a é igual a zero, pois
+eh pois degenera aqui neste nesta forma
+mais simples a série de McLaren, que é o
+que vamos usar agora. Sim, senhora.
+Pronto. Então o que é que nós vamos
+precisar aqui? Vamos, precisamos das das
+sucessivas eh
+das sucessivas derivadas,
+as derivadas das funções no ponto zero.
+OK? Pronto. Então vamos eh isto é, eu
+agora vou de vou de fazer a expansão em
+série Tor do logaritmo, só para
+relembrar, isto é um tema que já vimos
+anteriormente, mas eu faço outra vez.
+Agora não me recordo na altura se o o
+quão detalhadamente fizemos isso. Acho
+que fizemos até apenas para o C e não
+fizemos para mais nenhuma outra função
+transcendente. Por isso calha bem agora
+e e fazemos agora aqui a expansão para
+para o para o logaritmo. [roncando]
+Portanto, não há dúvida nenhuma. Se eu
+pegar aqui no logaritmo,
+OK?
+E eu vou dizer, olha, eu vou precisar da
+da primeira derivada e também vou da
+derivada de ordem zero. A derivada de
+ordem zero aqui será é igual a ela
+própria a função. OK? E mas logo aqui já
+temos um problema porque porque quero o
+valor da função no ponto zero logaritmo
+para dar zero, já estamos perante aqui
+um um valor que não está definido, que é
+um infinito. OK? Portanto, já temos aqui
+um problema.
+[roncando]
+Eh, e da mesma maneira a derivada, da
+mesma maneira a primeira a primeira
+derivada que é 1 sobre x,
+a derivada do logaritmo e portanto no
+ponto zero, porque a Mclaurin McLarin
+series é estamos a expandir entre em
+torno do ponto zero para ser mais
+simples e portanto também não está
+definido. Pronto. Então, por isso é que
+por convenção
+o que o que nós usamos sempre é o
+logaritmo de x + 1. Pronto, logaritmo x
++ 1 já ultrapassa esses esses
+condicionalismos.
+OK? Pronto. E, portanto, é então que
+sendo assim, eh,
+portanto, sendo assim que eu tenho aqui
+a minha função.
+Ora,
+portanto, f dex
+e, portanto, f de 0, f no ponto zero é o
+logaritmo para dar um que é zero. O
+logaritmo é o índice, um índice para
+qualquer coisa elevado a este índice dar
+um, portanto tem que ser zero.
+Depois teremos a primeira derivada.
+A primeira derivada
+que vai ser
+1
+e sobre x + 1.
+O conjunto no ponto zero, pois
+pois dará 1. OK? Finha no ponto zero
+depois vai dar um.
+Depois precisaremos da segunda derivada.
+Ora, derivando aqui a primeira,
+portanto, que dá -1
+sobre x + 1²
+e que, portanto, no ponto zero,
+que no ponto zero vai dar -1.
+OK? Já começa aqui a alternância. Agora
+aqui começa a mais 1, -1, como vocês
+estão a ver.
+Eh, e depois temos aqui a terceira
+derivada
+que baixa aqui -2 menos por menos dá
+mais, portanto vai dar 2
+sobre x + 1³
+e que, portanto, no ponto zero
+terceira derivada no ponto zero
+e que portanto dá 2.
+Bom, e vocês já estão a ver o resto
+assim o não sei, é melhor fazer aqui
+mais um termo, OK? Porque porque o
+próximo não é o próximo não é três.
+O próximo da derivada à quarta derivada.
+Portanto, vai dar aqui - 3 x 2 6 - 6
+sobre x + 1 à 4
+e que, portanto,
+a quarta derivada no ponto zero
+pois vai dar -6,
+ou seja, que que -6
+[roncando] é 3 x 2 6, portanto é é é
+menos o fatorial de 3. E, portanto, aqui
+é o fatorial de 2 e aqui é menos o
+fatorial de 1.
+E, portanto, aqui é o fatorial de zero.
+Pronto. Sim, senhor. Ora, então já temos
+aqui as derivadas que nós precisamos
+para a forma de McLuring. E, portanto,
+agora
+eh, pois vamos aqui escrever para
+extenso logaritmo
+x + 1,
+x + 1
+pela forma de macorum, portanto é o é o
+f
+de0.
+Ora, f de 0, onde é que el está? é zero
+f 0
+mais
+temos o a primeira derivada no ponto
+zero sobre 1 fatorial ora a primeira
+derivada
+está aqui é o 1 1 fatorial é 1 x elevado
+1 é x portanto mais x
+ok
+portanto seguir a segunda derivada é -1
+1
+aqui x²
+eh sobre 2 fatorial,
+portanto
+eh -
+x²
+sobre 2 fatorial, que é 2.
+De seguida, teremos
+a terceira derivada aqui, que é que é 2
+2 fatorial
+positivo. Portanto, nós teremos aqui o
+x³
+sobre 3 fatorial,
+mas como no número num numerador a
+derivada deu 2 fatorial, corta 2
+fatorial em baixo com 3 fatorial e fica
+sobre 3.
+Cá está a seguir menos.
+Ora, a quarta derivada
+é o -3 fatorial. A quarta derivada no
+ponto 0 - 3 fatorial
+e em baixo sobre 4 fatorial.
+Portanto, vai fica sobre menos
+sobre 4 em cima x4
+- x4
+sobre 4. Pronto, então já chega e
+pronto. E cá está, cá temos nós a
+expansão em série de Tayor
+e ou de McLurin. Pronto, vai dar a mesma
+coisa. É a mesma coisa. é a macor é
+igual é é a de Tor em torno do ponto
+zero. Portanto, expansão em série de Tor
+eh
+da função logaritmo de x + 1. Sim,
+senhora. Então não há dúvida nenhuma
+que para x = 1,
+OK? Para x = 1,
+claro que para x = 0 dá 0. Já sabemos,
+porque nós já sabíamos que o logaritmo
+de 1 é zero e tá tá coerente para x = 0
+dá tá tudo 0 0 0 0 0. Pronto. Mas agora
+o logaritmo de 2,
+o logaritmo de 2
+obtemos quando x = 1. Portanto, é igual
+a 1
+menos,
+obviamente 1/2
++
+1/3
+menos
+1/4 e assim sucessivamente. Ou seja, é a
+série harmónica alternada.
+É sérieónica alternada.
+A série harmónica alternada.
+OK.
+Eh, [roncando]
+sim, senhor. Pronto. E tá demonstrado
+que a série harmónica alternada, tal
+como está aqui o resultado,
+ela vale logaritmo de 2.
+[roncando]
+Eh, agora vamos imaginar, vocês não
+não se lembravam ou não conheciam a
+expansão em série de Taylor. OK,
+então podemos chegar por outra via,
+podemos com progressões geométricas. OK?
+Portanto, vamos chegar a este mesmo
+resultado,
+não imaginando que não sabemos
+absolutamente nada sobre série table,
+sabemos apenas que queremos
+somar,
+OK?
+Queremos
+eh somar aquela série harmónica,
+mas mas para isso convém
+vamos usar o conhecimento das das
+percussões geométricas. E vamos eh
+relembrar que, como também já vimos no
+tutorial anteriores, é para progressão
+geométrica,
+OK? Com razão R.
+Com razão R.
+E, portanto, o somatório dava,
+OK?
+O somatório
+desta progressão geométrica,
+se vocês se recordam, dava o primeiro
+termo
+1 - r
+elevado a n
+sobre- r. Pronto, podem podem relembrar
+esta matéria. Tenho uma tutorial sobre
+as progressões geométricas. E, portanto,
+e
+no limite quando n tende para infinito,
+quando n tende para infinito, que é o
+que temos aqui na série, porque a série
+são infinitos termos,
+desde que o módulo de R menor que 1,
+OK?
+H,
+ora, deixa-me coloquei aqui este print
+screen para não me enganar. Portanto,
+isto é a expansão em série de tablor.
+Aqui, em vez de usar X, o Jed é a mesma
+coisa.
+H,
+e pronto. E aqui é bem avisa que,
+atenção, isto converge para n menor ou
+igual que 1 maior que -1. OK? Pronto.
+[roncando] Sim, senhora. E olhando aqui
+esta expressão da da progressão
+geométrica, efetivamente vemos que ela
+converge para
+termos modo menor menor ou igual que 1.
+O o 1 um também posso posso obter 1
+aqui o 1 1 men ok vamos 1 1 - 1 1 - 1 dá
+0 isto é min determinação.
+Bom, na verdade nós nem nem e nem
+precisamos nem precisamos de o método
+que vamos usar. Nem sequer precisamos
+deste noow de percussões geométricas
+que acho que é melhor pôr menor que um.
+Pronto, nós não precisamos. Pronto, aqui
+o que o aqui existe existe um artifício.
+Pronto, não há dúvida nenhuma. Isto
+existe um artifício para nós não
+quisermos usar ou não sabíamos usar aqui
+esta expansão em série tor
+existe aqui um um artifício que é o
+seguinte.
+Consideramos um
+sobre 1 + n.
+1 sobre 1 + n.
+E vamos demonstrar que é igual a 1 -
+n + n² - n³ + ok?
+E é e é igual por por duas razões. É
+igual porque esta expressão
+é a expressão de uma progressão
+geométrica, que é o que que é o que nós
+temos aqui. Quando o primeiro termo o 1
+é igual a 1 e a razão módulo menor que
+1. Então
+para r elevado a n este vai tender para
+zero.
+E mas aqui tenho o sinal de menos e aqui
+tenho o sinal de mais.
+OK? Então,
+mas isto é o mesmo que menos menos.
+Portanto, esta é uma expressão para uma
+progressão geométrica. 1 sobre 1 + n
+é o somatório da progressão geométrica
+para a razão, neste caso, igual a - n
+termo igual a 1, que já vimos o 1 = 1. E
+tá correto porque temos aqui o primeiro
+termo o 1 = 1 e a seguir que multiplica
+por - n dá - n e a seguir multiplica por
+- n dá n² e assim sucessivamente.
+Pronto. OK? Portanto, não há dúvida
+nenhuma que
+esta é a progressão geométrica.
+Sim, senhor. Cuja soma dá 1 sobre 1 + n.
+Progressão geométrica
+de razão igual a - n.
+E
+podemos demonstrar também facilmente
+passando este 1 + n aqui para cima e
+multiplicando
+e portanto e e mostrando que um este
+numerador é igual a 1 + n multiplicar
+aqui em cima dá 1 vezes isto tudo.
+Portanto, é igual a isto.
+E depois
+mais n também multiplica isto tudo. fica
+n x 1 n
+x - n - n²
+e assim sucessivamente.
+E de facto vamos a ver, vamos ver que há
+infinitos corta corta
+e que portanto 1 igual a 1 e tá
+demonstrado,
+OK? E, portanto, fica demonstrado que tá
+correto. Tá correto pela definição de
+produção geométrica. E também tá correto
+fazendo aqui esta construção aqui
+algébrica que passo o mais n aqui para
+cima, corta tudo e, portanto, fica com
+um igual a 1. E, portanto, é verdade.
+Sim, senhor. Pronto. Então,
+aqui partimos deste artifício. Temos que
+ter este artifício para escrever esta
+expressão.
+E agora podemos podemos integrar.
+Podemos integrar.
+Se eu já demonstrei que isto está
+correto,
+então posso integrar aqui
+ou integrar aqui igual a integrar aqui.
+Sim, senhora. Integrar ali já sabemos, é
+um logaritmo.
+Normalmente costuma-se pôr aqui o módulo
+à cautela
++ n
+e, portanto, igual ao integral ali que
+fica
+n
+- n² me
++ n³/3
+- n4 etc.
+Sim, senhor. E então agora estamos mesmo
+a ver que efetivamente o logaritmo do
+para n = 1
+- 1/2
++ 1/3
+- 1/4 e fica demonstrado. OK? Portanto,
+como vem, fica demonstrado, pode-se
+demonstrar de várias maneiras
+que efetivamente a série harmónica
+alternada ela dá logaritmo de 2.
+Demonstrões
+geométricas e integrais
+e integração. Demonstramos com a
+expansão em série de Taylor.
+Sim, senhora.
+E estamos quase a chegar ao fim deste
+tutorial.
+Ora, já agora, mostrar-vos aqui esta
+constante,
+a constante de de Oiler Maeroni,
+que vai aparecer em fórmulas, em temas
+de matemática avançados.
+Eh, e o que é que ela ela o que é que
+ela nos diz? Ela nos diz que
+efetivamente
+aqui em cima que eu vos disse que
+fazer uma integração vai-me dar
+vai- me dar portanto uma uma intuição
+sobre qual o valor da série.
+OK?
+Portanto,
+portanto, nós temos,
+nós temos o inverso de x,
+nós temos o inverso de x
+aqui. E a partir de 1,
+nós queremos este integral
+entre um infinito,
+OK? que é igual ao logaritmo de x
+e que, portanto, x tende para infinito é
+igual a infinito
+e que é aproximado
+por
+um conjunto de
+retângulos.
+Um conjunto de retângulos
+é aproximado,
+ou seja, por 1
+mais 1/2 + 1/3.
+Porque o valor de f(x), f(x) para x = 1
+é 1. Portanto, aqui para x = 1,
+aqui é 1. Vamos dizer que era aqui.
+OK?
+Ora, para para x = 2
+e que aqui vai dar? Vai dar 1/2. Isto
+aqui não está mal desenhado, não tá à
+escala, mas pronto, vocês percebem.
+Seria 1 meio de altura e assim
+sucessivamente.
+Aqui seria 1/3,
+OK?
+E, portanto, não há dúvida nenhuma que
+dá uma aproximação. Dá uma aproximação.
+Eh, e portanto aí, quer dizer, mas dá
+uma aproximação, mas isto não tem rigor
+matemático nenhum, não é?
+Isto aqui podíamos ficar na dúvida.
+poderia uma curva convergir e a outra
+divergir. É como vos digo, há um teorema
+sobre isso. Eu não tenho agora aqui
+presente o o enunciado do teorema e que
+permite aferir e comparar o integral com
+a série. Pronto. Mas em todo o caso, o
+que tenho aqui, o que tenho aqui já é o
+resultado desta constante. E esta
+constante diz-nos que quando o n tende
+para infinito,
+a
+diferença entre calcular o valor do do
+sub da série da série
+que que di que diverge, já sabemos é a
+série harmónica que diverge,
+mas ao subtrair para o logaritmo,
+OK? para
+para um dado n e
+isto tende para uma constante. Portanto,
+há uma aproximação muito forte entre o
+logaritmo e a série. OK? Sim, senhora.
+E, portanto, eh, muitas vezes até se
+escreve aqui esta constante de
+Macharoni.
+Podem ir ao chat GPT, pesquisar.
+Ora, gama
+e, portanto, igual a o limite
+quando n tende para infinito.
+E eu gosto mais desta notação. Portanto,
+HN, ou seja, a série harmónica H da
+série harmónica
+de n valores menos
+o logaritmo de n.
+Portanto, a série harmónica é maior e
+faz sentido. Reparem que estes
+retangulozinhos verdes estão aqui por
+cima.
+OK? Aqui já dava uma intuição que a soma
+das das fatias verdes é maior do que o
+integral.
+E assim é o caso. A série harmónica é
+ligeiramente superior.
+Eh, e quando tende para infinito, depois
+isto tende para uma constante,
+constante do Macharoni
+057
+215, etc.
+Sim, senhor. Pronto, isto é só uma parte
+já um tópico, um tópico bastante
+avançado para aqui, mas pronto, só para
+só a título de curiosidade.
+Ora, aqui temos um conceito de que
+também se vê muitas vezes, convergência
+absoluta versus a convergência alternada
+ou condicional, melhor.
+Pronto. Então, o que é que diz? Eh, diz
+que
+se, por exemplo, aqui, se eu tenho uma
+determinada série,
+OK?
+Se eu tomar os valores absolutos dos
+elementos dessa série, que é o que está
+aqui,
+portanto, que é o que está aqui na
+primeira na primeira linha, ou seja, se
+eu tomar o valor absoluto dos elementos
+da série A da An
+e essa série convergir, então então
+também muito mais converge a série, a
+série de que partimos. A série de que
+partimos poderia ter elementos
+alternados, tal como vimos aqui na série
+harmónica alternada,
+mas se a dos valores absolutos convergir
+que estou a somar mais com mais com mais
+valores positivos,
+então muito mais converge dos valores
+alternados, potencialmente alternados.
+Aqui não diz que são alternados ou não,
+mas pronto, aqui só diz, mas à partida
+serão alternados, pois por isso é que eu
+estou a aplicar aqui o valor absoluto.
+Portanto, neste caso, diríamos que
+teríamos convergência absoluta da série,
+OK? O que não é o caso da série
+harmónica alternada. É a série harmónica
+alternada. Ela converge, mas não
+converge absolutamente,
+porque se eu tomar os valores absolutos
+da da série armónica alternada, como já
+vimos, dá a série armónica original que
+não converge. OK? Este é são conceitos
+eh são
+eh conceitos. Isto até nem nem acho
+grande interesse nisto, mas pronto, trá
+é como digo, a área da matemática pura e
+que que é um bocadinho areia demais para
+a minha caminete e eu tendo a procurar
+mais os aspectos práticos da matemática.
+Mas pronto, mas como isto é muito,
+ouve-se falar muito disto às vezes
+quando trabalhamos com séries, OK? Pus
+aqui este este recordatório,
+OK? Portanto, a série a série, o que é
+que ele diz aqui? o teste para a
+convergência condicional,
+que é o caso da da série harmónica
+alternada. Tenho uma série que converge,
+mas se eu tomar os valores absolutos
+divers efetivamente.
+OK.
+Sim, senhora.
+Ora, então, antes de acabar,
+eh, existem muitos testes de
+convergência.
+Teste da comparação, teste da potência,
+teste da progressão geométrica, teste da
+raiz, teste da razão, teste do integral,
+teste do limite. Pronto. Eh, neste caso
+agora vem a propósito mostrar aqui o
+teste das séries alternadas,
+efetivamente, porque tivemos a tratar
+aqui da série harmónica alternada.
+Então, existe um teste de convergência
+para para as séries alternadas, OK?
+Séries alternadas que alteram alternam o
+sinal entre positivo e negativo.
+Sim, senhor. E o que diz o teste?
+Ora, efetivamente, aqui temos nós,
+portanto, o teste ou o critério das
+séries alternadas. Pronto, basicamente o
+que está aqui a dizer, uma série
+alternada,
+OK? Tal como acabamos de ver, a série
+armódica alternada.
+[roncando]
+Eh, portanto, pode ser dada nestas duas
+formas. Não importa. O teste é válido em
+ambas as formas. Quer começo com o valor
+positivo, quer começo com o valor
+negativo. É o que isto significa.
+Tal e qual como vimos agora na série
+harmónica alternada.
+E efetivamente tem um sinal de -1
+elevado a n -1 e ok? E temos aqui o
+termo o termo geral a n. E o que diz
+então este teste? Portanto, o termo
+geral tem que ser positivo. Pronto,
+temos que estar, senão, se por sua vez o
+termo geral também tivesse positivos e
+negativos, depois gerava aqui uma
+confusão com positivos e negativos.
+Pronto, com o termo geral positivo, é,
+portanto, era o caso aqui da série
+alternada da da série harmónica
+alternada. Portanto, a série harmónica
+alternada
+HA, vamos dizer, eh, portanto, que era o
+somatório
+de -1 elevado a n.
+Aqui, usando aqui este critério, nça em
+1 de 1 em infinito.
+Eh, portanto aqui vou dizer o primeiro
+termo seja o primeiro termo positivo.
+Portanto, aqui começa n + 1 e, portanto,
+multiplicava aqui o termo geral 1 sobre
+n.
+Pronto, série harmónica alternada. Ora,
+então temos o termo geral an, neste
+caso,
+an é 1 sobre n, é sempre positivo, não
+há dúvida nenhuma. Pronto, os n são
+números inteiros, portanto isto é sempre
+positivo. Pronto, as duas critérios de
+convergência, então, são que o an é
+sempre positivo, OK? Verifica.
+Depois temos que o limite do termo geral
+tem que tender para zero quando n tende
+para infinito. Tá correto? Tá correto o
+limite de 1 sobre n de 1 sobre n tende
+para infinito,
+tende para zero. Tá correto? É simples
+de ver. OK.
+[roncando]
+Eh, e depois ainda coloca aqui um outro
+critério
+que também vamos agora aqui demonstrá
+que e o termo geral tem que ser
+decrescente. OK? Pronto, o termo geral
+tem que ser decrescente. Portanto, o
+termo o sucessor an + 1 tem que ser
+menor que o termo anterior. Pronto.
+Então, significa que temos que
+demonstrar que o sucessor,
+portanto, do an + 1, ou seja, um dado n
++ 1, ele tem que ser menor que 1 sobre
+n. Pronto, o que também é óbvio.
+É óbvio que que que também é verdade que
+posso passar aqui o n aqui para cima. n
+menor ou igual que n + 1
+e que, portanto, corta, corta que 0 é
+menor ou igual que 1 que tá correto e
+pronto, e estão verificados
+e portanto estão verificados todos os
+critérios pelos quais nós poderíamos
+afirmar desde logo que a série harmónica
+alternada ela tinha que convergir. Não
+sabíamos era qual era esse valor. OK?
+São coisas diferentes. O ela convergir,
+nós demonstrávamos aqui de caras que a
+série harmónica alternada, ela teria que
+convergir. Agora outra outra coisa bem
+diferente é saber, mas então converses
+para quê? E que efetivamente
+demonstramos que converses para o
+logaritmo de 2. OK?
+Sim, senhor. Pronto, então penso que
+ficamos por aqui. Penso que tá mais ou
+menos tudo coberto o que eu queria
+mostrar.
+Eventualmente outros critérios. Vimos
+agora este critério de convergência para
+as séries alternadas. muitos outros,
+como como vos disse, OK?
+OK, mas ficará talvez para outras outra
+oportunidade para não agora não
+prolongar muito muito isto porque é como
+vos digo, há muitos testes, há muitos
+testes, como vos falei agora, teste da
+raiz, teste da razão, teste pronto,
+[roncando] mas ok, vamos ficar por aqui.
+Espero que tenham gostado e até uma
+próxima oportunidade. Obrigado.
+

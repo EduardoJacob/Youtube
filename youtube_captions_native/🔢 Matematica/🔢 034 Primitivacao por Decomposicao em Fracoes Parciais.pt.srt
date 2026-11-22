@@ -1,0 +1,760 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial.
+Eh, temos estado a ver alguns métodos de
+primitivação
+e, portanto, agora chegamos a outro
+método também muito comum,
+h, muito conhecido, primitivação por
+decomposição decomposição em frações
+parciais. OK? Portanto, isto aplica-se
+quando temos que primitivar [roncando]
+eh uma função, imaginemos esta que está
+aqui na nesta nesta tabela
+e, portanto, uma função racional que tem
+um polinómio,
+OK? Que tem um polinómio
+eh no numerador e um polinómio no
+denominador. OK?
+Ora, temos como requisitos que
+o que eu tenho aqui, estes apontamentos,
+o grau do numerador tem de ser menor do
+que o grau do denominador,
+[roncando]
+porque se não for esse o caso, vamos
+fazer a a divisão de de polinómios,
+OK? Já vamos fazer aí um exercício para
+relembrar que é simples fazer uma
+divisão de polinómios
+e temos que ter também o denominador já
+tem de estar fatorizado,
+OK?
+Eh, e para isso existem vários teoremas
+ou podemos usar ferramentas como como eu
+uso com frequência da WFRAM alfa para
+fatorizar polinómios. OK?
+Ora bem, vamos ver este exemplo aqui,
+por exemplo, que eu fui ao Framalfa e
+pedi-lhe e dá-me de a decomposição em
+parcial fractions desta desta expressão
+aqui, o qual ele deu ele deu e
+transformou nesta soma destes três
+termos, os quais são, portanto,
+primitiváveis de imediato, porque isto
+são são vai dar três logaritmos. OK?
+Sim, senhora. Mas vamos fazer este
+exemplo manualmente como exercício, OK?
+Vamos dizer então que eu tinha
+Ora, portanto, 1 sobre
+k
++ 1 k + 2
+e eh vou dizer que isto é igual a a
+sobre k
++ p
+sobre k + 1
++ c
+sobre k mais dois. E porquê? Porquê esta
+decomposição? Pronto, existe todo um
+trabalho. Eu não sei demonstrar agora
+todos os os princípios disto, mas existe
+depois algum conjunto de regras e uma
+tabela que eu já vou colocar aqui a
+tabela que nos dá umas orientações para
+para como, de que forma é que se são de
+componíveis est as est as funções
+racionais em parcial fractions. OK?
+Pronto, já vamos ver isso para já. Vamos
+só ver como se resolve um problema
+destes e como isto é se vai resolver com
+um sistema de equações. OK? Pronto.
+Então, digamos que se eu quero decompor
+decompor esta função racional aqui
+nestes três termos, OK?
+O denominador ele já está fatorizado
+exatamente como portanto este requisito
+aqui já está satisfeito.
+O grau do numerador é menor do que o
+grau do denominador. Sim, senhor. Também
+este requisito também já está
+satisfeito. OK? Então podemos aplicar. E
+então como é que vai ficar? Agora vamos
+reduzir ao mesmo denominador. OK? Vamos
+imaginar que tínhamos esta expressão e
+queríamos agora fazer andar ao
+contrário. Portanto, OK.
+Eh, queríamos andar, portanto, daqui
+para aqui, OK? E então, para reduzir ao
+mesmo denominador, iríamos ficar que o a
+e multiplica por k + 1
+k + 2
+mais o b multiplica por k + 2
+e mais o c multiplica por k + 1.
+Ok?
+Pronto. Então agora isto vai dar aqui.
+Ora a
+K²
++ K 2K + 3k + 2
++ B
+K + 2K
+OK + C²
+K. Ok. E e olhando para aqui, vemos que
+isto agora vai dar, portanto, aqui um
+polinómio do segundo grau com capas
+quadrados, com capas e com os os a
+constante. E nós vemos que a constante,
+a soma aqui dos termos de constante vai
+ter que dar um porque porque era o que
+tínhamos aqui. Então podemos escrever
+aqui e olhamos para aqui qual é os
+termos que nos vão dar a constante, que
+é este com este. E, portanto, vemos que
+2a é tem que ser igual a 1.
+2a tem que ser igual a 1 pelo que a ig.
+OK? Já temos o nosso primeiro valor e de
+facto é o que temos aqui na solução, OK?
+Que o termo daqui do do o a é igual a
+1/2. [suspirando][roncando]
+Ora, agora vamos ver os termos em K. o
+tem que dar zero e os termos em k
+quadrado têm que dar zero.
+OK?
+Ora aqui vejo os termos em c quais são?
+são 3a.
+Ora,
+3a daqui + 2B
++ C
+e
+tem que dar zero. Tem que dar zero. Mas
+o A é 1/2, então aqui aqui tem que dar -
+3/2.
+OK? Ver, se não me engano.
+Portanto,
+o os termos em K. Exato. 3a.
+Ora, o A é 1/2 3/ - 3/ Portanto, 2b + C,
+tá correto?
+E os termos em K quadrado também tem que
+dar zero, porque é o que nós temos aqui
+no numerador. Nós só temos a constante.
+Nós não temos termos em K, nem termos em
+K quadrado.
+OK? Sim, senhora.
+Portanto,
+aqui os termos em k quadrado vai dar a
+que é 1/2
++ b + c
++ b + c,
+ou seja, b + c = - 1/2.
+OK?
+Sim, senhora.
+Portanto, ficamos agora aqui com um
+sistema de de duas equações simples.
+Ora, vamos, por exemplo, aqui subtrair
+para dizer 2b - b dá é ig a b. C - c é 0
+e, portanto, fica - 3/ menos por menos
+dá mais 1/2.
+E portanto, se eu não me engano, dá -1.
+O b dá o o b dá men o b dá -1. Exato.
+Ora, eh, e cá está ele aqui. O b é o
+termo do k + 1 e tá correto. É este -1
+aqui.
+É este -1.
+OK, tá correto. [suspirando]
+Portanto, b = -1.
+Eh, b + c
+e é - 1/2.
+OK? Portanto, aqui fica
+eh fica, portanto, aqui o B é
+o B é -1
++ C
+= -1/
+e, portanto, 1 - 1/ C = 1/2.
+C = 1/2.
+Ora, o C é o termo do K + 2. K + 2, 1/,
+tá correto também? Portanto, cá está
+1/2. Pronto. OK. Eh, como viram, viram,
+é fácil. Eh, é fácil. É, é, são sistemas
+de equações.
+H,
+e, portanto, agora, se me aparecer um
+problema destes
+no dia- a dia, eu não não vou estar com
+este trabalho. Eu vou ao Ofrfa e e peço
+e peço-lhe para eu fazer a decomposição
+em parcial fractions. OK. Sim, senhora.
+Pronto, aqui fizemos um exercício. Eh,
+vamos ver então aqui agora generalizar
+um pouco quais as regras.
+As regras, mostrando-vos aqui uma
+tabela.
+Ora, e aqui temos nós a tabela. Pronto,
+o que é que nos diz aqui? Dá, dá-nos um
+exemplo. Diz-nos efetivamente que a
+função racional, o denominador aqui já
+está fatorizado.
+O grau do numerador tem que ser menor do
+que o grau do denominador. Tá correto?
+Sim, senhora. Com a diferente de B,
+certo? Raizes diferentes. Então,
+decompões-se nesta forma. Esta é a forma
+mais simples, com frações parciais, OK?
+Em que o os numeradores aqui todos vão
+ser constantes, OK? Pronto. Depois
+surge, portanto, esta é situação um, OK?
+situação um. Na situação dois é uma
+situação em que temos raízes múltiplas
+no denominador. Portanto, com raízes
+múltiplas, a decomposição é é neste
+formato. Continuamos aqui com
+constantes.
+[roncando][suspirando]
+Eh,
+e
+a na nos denominadores vamos ter aqui o
+x - a e no outro termo o x - a² igual ao
+que temos aqui. OK?
+Sim, senhor. Depois temos outra
+situação. Esta situação
+eh é similar. Portanto, se temos três
+três três raízes no denominador, pois
+vai dar três termos, três frações
+parciais. OK?
+Em cima temos um um polinómio
+que podia ser podia ser grau zero, grau
+1 ou grau 2, não importa. Desde que seja
+grau menor do que o denominador, vai dar
+sempre este formato com constantes nos
+numeradores.
+OK? Pronto. [roncando] Eh, embaixo, no
+ponto quatro temos um exemplo e com uma
+raiz múltipla
+e, portanto, vai dar uma decomposição
+neste desde neste formato. [roncando] O
+x - a² vai dar duas frações parciais, o
+x - a, x - a² [roncando]
+e portanto e e depois o x - b.
+E finalmente temos aqui um caso em que
+eh
+a composição
+do denominador
+temos e uma parte do do polinómio que
+não não tem raízes, não tem raízes
+reais. Pronto, aqui é o caso, tá? aqui o
+este pedaço polinómio de grau dois e e
+não não tem raízes. Pronto. Então, neste
+caso, o numerador, como vai ser um grau
+a menos, então agora já passa a ser aqui
+um polinómio de grau 1
+porque que é o é é um menos do que o
+degrau dois que está no dominador.
+Portanto, nos casos que nós estávamos a
+ver em cima, eram eram constantes,
+porque as constantes é de grau um menos
+do que o termo do estava no denominador
+à parte aqui desta regra quando temos
+raízes múltiplas. OK? Pronto, até como
+vem é um é um conjunto de de regras. Eu
+não vou tentar demonstrar, eu também não
+sei demonstrar.
+Acho que nem nunca nunca aprofundei
+isto, mas mas pronto, é o que é isto.
+Normalmente, se eu preciso, vou ao dama
+de composição
+e e pronto. E com base nisto, depois é
+torna-se mais fácil e cálculo o cálculo
+de integrais, não é? Com as parcial
+fractions. Vamos ver agora um exemplo
+com com de divisões de polinómios. Vamos
+imaginar que recebemos uma função
+racional [roncando]
+que efetivamente eh não respeita este
+requisito aqui, o grau do do numerador
+que tem que ser menor do que o grau do
+denominador.
+Bom, antes de de fazer antes de fazer
+aqui uma uma umas divisões de
+polinómios, vamos só ver aqui uns
+exemplos de como seria a decomposição em
+em frações parciais. OK?
+Sim, senhora.
+Eh,
+vamos ver aqui alguns exemplos.
+Portanto, teríamos, por exemplo, 3x²
+- 5x
++ 3.
+Reparem que o denominador tem que estar
+fatorizado, mas o numerador não precisa.
+Não preciso estarme a preocupar a
+fatorizar o numerador.
+OK? Portanto, aqui o denominador já já
+está fatorizado.
+Pronto. Então aqui temos todos os os
+requisitos reunidos, o denominador
+fatorizado, o aqui o numerador é de grau
+do denominador é de grau 3. Pronto,
+então tá OK. E portanto isto vai dar
+uma decomposição em três frações
+parciais. x - 1
++ b
+x + 5
++ c
+x + 2. Ok, pronto. E agora era com a
+técnica que vimos ainda há instantes,
+portanto determinávamos o a, b, ok?
+Eh, vamos ver aqui um outro exemplo
+agora, por exemplo, com uma raiz
+múltipla, OK?
+eh um mesmo um mesmo numerador qualquer
+3x2 - 5x
++ 3. E agora vamos dizer que no
+denominador teríamos e por exemplo o o x
+- 1
+e agora teríamos, por exemplo, o x + 2³.
+OK? Agora já não é aqui estava um
+exemplo ao quadrado, uma raiz múltipla,
+multiplicidade 2 e agora aqui ao cubo,
+por exemplo. Então o que é que isto vai
+dar? E portanto vai dar aqui o termo
+fração parcial com x - 1. E agora vamos
+ter três frações parciais
+aqui com o x + 2. OK? Vamos ter B C D
+com
+eh X + 2
+X + 2²
+X + 2 C.
+OK?
+Sim, senhora.
+Outro exemplo,
+[roncando] outro exemplo,
+vamos dizer, por exemplo, x2.
+OK?
+Ora, x2 + 2x + 1. Ok?
+x - 1
+x² + 1. OK, já está fatorizado.
+Eh, mas agora tenho aqui um termo, este
+polinómio de grau dois. Pronto, então
+isto vai dar, tem que dar duas frações
+parciais.
+a
+sobre x - 1
+mais e agora com 1 grau menos do que do
+que aqui, portanto tem que dar aqui um
+polinómio de grau 1 bx + c
+sobre
+x2 + 1.
+Ok?
+Pronto. Outro exemplo.
+Outro exemplo,
+por exemplo,
+3x2
++ 1.
+Ora, por exemplo, x + 1 e um polinómio
+de grau 2,
+OK? que não é mais de já não é de
+componível, mas por sua vez é aqui, por
+exemplo, ao quadrado. OK? Então temos o
+termo de x + 1
+e agora dois termos. Dois termos, porque
+aqui aplica-se a mesma regra, como vimos
+aqui neste exemplo,
+OK?
+Vamos ter dois termos,
+mas aqui este este
+polinómio aqui é de grau 2. Portanto,
+aqui no numerador de grau 1.
+Bx + C
+DX + E
+baixo, portanto, de grau 2, x2 + 1,
+x2 + 1².
+OK?
+Eh, e pronto, desta parte
+e penso que não há muito mais a dizer.
+Penso que daqui dá para exemplificar
+quais são as regras, quais são os
+cuidados que temos que ter. Sim,
+senhora. Agora vamos ver o caso e então
+efetivamente que nos aparecer uma função
+racional em que temos que o numerador é
+é maior ou igual o grau é maior ou igual
+ao grau do denominador. OK?
+Ora, vamos então tratar então do tema
+eh long division para polinómios, OK?
+Divisão de polinómios.
+OK?
+Divisão de polinómios. Vamos ver aqui um
+exemplo. Por exemplo, x + 1
+divido por x + 2.
+Ora bem,
+como é que eu resolvo isto? resolvo
+com o o um o mesmo tipo de algoritmo que
+nós aprendemos na escola primária para
+para para div para divisões. Ponho aqui
+x + 1 a dividir por x + 2.
+Pronto. E agora só tenho que olhar aqui
+ao primeiro ao ao termo aqui maior. O
+termo em x. O termo em x. Portanto, aqui
+quantos cabe? Quantos daqui cabe aqui?
+Cabe 1.
+OK. X.
+Então agora multiplica e fica 2 x 1 2 e
+vou pôr aqui -
+x x x 1 x - x.
+Pronto.
+Somando dá x - x corda dá aqui -1.
+Pronto. E terminou. Terminou a divisão
+porque agora o -1 já é menor.
+É é menor do que o grau já é menor do
+que este polinómio aqui. Pronto, acabou.
+É importante então que x + 1 sobre x + 2
+é igual a dá deu 1 no cociente
+1 e o resto - 1 - 1 sobre
+x + 2.
+Pronto. E depois podemos confirmar aqui
+x + 2 - 1. X + 1. Ok. Tá correto.
+Pronto. Que está um exemplo em que
+efetivamente e neste caso já não havia
+decomposição nenhuma em frações parciais
+que já estava decomposto de porc só. OK?
+Pronto. Então, imaginem que se imaginem
+que se eu quisesse primitivar isto, pois
+se eu quisesse primitivar aqui, pois era
+era a primitivação era igual a esta e
+que, portanto, que dava aqui x, a
+primitivação aqui d
+menos e aqui daria o logaritmo de x + 2.
+Ok? Pronto. X men o logaritmo de x + 2,
+se não me enganei nas contas. OK. Vamos
+ver aqui outro. Um exemplo de outra
+divisão.
+Ora, vamos ver aqui um outro exemplo.
+Vamos dizer, por exemplo,
+2
+x³
+-
+5x
++ 14
+e
+a dividir por x + 3.
+Ok?
+Sim, senhora.
+Ora, 2x³
+- 5x
++ 14.
+Eh, existe uma regra e se calar vocês
+recordam-se a regra de Rufini, acho que
+está-se no 12º ano, já não me recordo.
+Ah, já não sei usar essa regra. Eu
+lembro mais ou menos que há uma
+tabelinha e que e pá, mas não sei, teria
+que ver, mas não preciso, não preciso,
+não preciso de regra de RFIN para nada.
+A regra do Fini pode ser mais simples,
+uma forma mais simples de de construir
+uma tabela e fazer esta divisão, mas eu
+não preciso. Eu, se eu precisar, eu faço
+esta e faço este algoritmo da divisão
+da divisão normal e tradicional, OK?
+Eh, e portanto vamos dividir aqui por x
++ 3.
+Ora bem, o x para 2x³ quantos cabe aqui?
+Cabe 2x²
+2x². Ok? Então tenho aqui 3 x 2 6x²
+- 6 x²
+2x³ - 2 x³.
+Ok.
+Soma.
+Pronto, aqui dá 0 e aqui dá -6²
+- 5x
++ 14.
+Ora, - 6x², quantos cabe aqui?
+Ora, cabe a -6x,
+OK?
+- 6x que tá - 6x²
+6 x 3 18 - 18x + 18x
++ 18x
+- 6x²
++ 6x²
+somando o termo x qu corta 18
+- 5 13x x
+13x + 14.
+Ora, quantos cabe aqui? Ora, cabe 13
++ 13.
+Ora, 133
+- 33
+eh, desculpem, e 13 está a 39 - 39.
+-9.
+Ora,
+13x
+- 13x
+soma.
+Ora, 14 - 39 - 25.
+E pronto, chegou ao fim a divisão,
+porque agora já tenho aqui fim de 5, que
+é de grau menor do que x + 3. Pronto. E
+então, finalmente vemos que esta fração
+tem uma é é é divisível.
+é divisível por x + 3 e, portanto, que
+vai dar 2
+x²
+- 6
+x [roncando]
++ 13
+- 25
+sobre
+x + 3, OK?
+E se não me enganei nas contas. E,
+portanto, h,
+pronto. E agora imaginem, queriam
+primitivar isto, pois agora já é de
+imediato. Primitivar aqui um polinómio,
+primitivar aqui. Isto é um dá um
+logaritmo.
+OK? Sim, senhora.
+Ora, vamos ver aqui mais um exemplo. OK?
+Vamos imaginar que tínhamos,
+ora x4
++ 2x³
+- 9 x²
+- 2x
++ 8
+a dividir por x - 1.
+x - 1. OK. Sim, senhora.
+Pronto. O que é que o que é que isto vai
+dar? Bom, isto vai dar resto zero.
+Vai dar resto zero porque que sucede que
+x - 1 realmente é fator deste polinómio.
+Eh, que se nós virmos que para x = 1,
+nós temos aqui 1, 2 e 1, 3,
+3 e 8 11 e 9 e 2 11. Portanto, 11 - 11
+0. OK? Mas vamos imaginar que a não
+tinha reparado nisso
+e, portanto, eh, eu vou fazer a divisão,
+OK?
+[roncando] Eh, e pronto, e vamos ver que
+vai dar resto zero neste caso.
+Sim, senhora.
+Então temos aqui, ora quando cabe aqui
+cabe x c
+x³
+e portanto - x³ + x³
+x - x4
+ok
+- x4 e portanto aqui dá 3x³
+- 9x²
+- 2x + 8. Ora, 3x³ quando cabe aqui cabe
+3x².
+Ora, - 3x² + 3x²
+3x³
+- 3x³.
+Ora, 3 - 9 - 6x²
+- 2x + 8.
+OK. Ora, quando cabe aqui, ora, - 6x,
+OK? O que vai dar aqui 6x - 6x
+- 6x² + 6x²
+- 8 x + 8. Ora, quando escaba aqui, -8.
+onde dá aqui + 8 - 8 - 8x + 8x
+e soma tudo e dar zero. Pronto. Sim,
+senhora. Então aí víamos que realmente
+e que este numerador deste polinómio era
+divisível para este denominador e dava
+um cociente aqui, certo? Com o resto
+zero. OK? Pronto, também um exemplo
+destes.
+[roncando] Ora, sim, senhor. Portanto,
+então nós já sabemos dividir os
+polinómios para o caso em que nos
+apareça uma função racional com o
+numerador de grau igual superior ou do
+denominador.
+Sim, senhor. Mas depois ainda temos um
+outro requisito. Se quisermos fazer a
+decomposição em frações parciais.
+Portanto, nós temos que eh fatorizar o
+denominador. Pronto. Eh,
+há um teorema famoso, eu não vou
+demonstrar aqui, vou só pôr aqui o
+enunciado, mas nem vou fazer nenhum
+exercício com ele, com isto. Isto é
+fácil de encontrar na internet, se
+quiserem, pesquisem.
+É de rational root theorem. OK?
+Eh, pronto, isto é fácil. Se quiserem,
+vejam, vejam exemplos. Isto tem a ver
+com fatorização em fatores primos aqui
+do do termo do an e do termo do a0. E
+depois com isto, com as combinações,
+vamos obter e quais as os as potenciais
+raízes
+eh com as quais poderemos fatorizar o
+polinómio. Pronto, isto mais ou menos
+tem a ver com isso, mas não não vou eu
+não vou fazer agora aqui exemplificar
+não vou exemplificar
+este teorema. Sim, senhor.
+Ora,
+vamos só ver aqui um exemplo.
+Hoje em dia há tantas ferramentas, se eu
+uma vez precisar de fatorizar um
+polinómio, ouamfa é o P, pode fatorizar
+ou com linguagens de programação ou
+seja, há tanta maneira de fazer as
+coisas.
+Mas vamos só ver aqui um exemplo em que
+seria fácil de fatorizarmos manualmente.
+Ok?
+Ora, vamos ver aqui, por exemplo, aqui o
+polinómio de grau 3.
+Bem, e também existe a forma resolvente
+de polinómios de grau 3. Nunca falamos
+nisso, mas falamos na forma resolvente
+dos polinómios de grau dois, que isso é
+uma forma subejamente conhecida,
+mas também existe a forma resolvente
+para os polinómios de grau três.
+Eh, dá uma forma bem bem mais complexa,
+nada.
+Portanto, h, mas vamos ver este exemplo
+que é simples de resolver manualmente.
+Portanto, teríamos aqui x³
+- 3x
++ 2. E, portanto, o objetivo é
+fatorizar. Fatorizar. Ora bem,
+fatorizar. O que é que nós faríamos
+aqui? Eu eu faria o seguinte. Bom, eu
+reparava a olho, reparava, por exemplo,
+que o é uma raiz. OK? Pronto, eu
+reparava aqui que 1 2 e 1, 3 e depois
+aqui com x = 1, 3 - 3 d está 0.
+Portanto, o 1 é um é uma raiz deste
+polinómio. Então, sendo assim, ele é
+divisível por x - 1. Pronto, eu já sei
+que ela vai ser divisível por x - 1, o
+eu verifiquei visualmente
+que o 1 é uma raiz, portanto eu eu
+divido pelo x - 1. Sim, senhor. Ora, ao
+dividir por x - 1, temos, então, já
+sabemos, já sabemos dividir. Ora, x2 -
+x2 + x2 aqui.
+Ora, x³ - x³.
+Sim, senhora.
+Eh, e, portanto,
+ora,
+ela é divisível, portanto, ele agora
+terá que dar resto zero porque vimos que
+ela é divisível e eu estou a fazer a
+fatorização deste deste polinómio.
+OK?
+Pronto. Sim, senhor.
+Ora,
+x²
+- 3x
++ 2. Pronto.
+Eh,
+ora, continuando, continuamos aqui a
+divisão. Ora, x2. Portanto, isto, ora,
+isto tem que dar aqui, portanto, mais x.
+Então aqui temos -x + x
+x2 - x2
+- x2. Ora, portanto, soma.
+Ora, - 2x + 2.
+Ora, sim, senhora. Ora, então aqui vai
+ser -2.
+Aqui tá + 2. - 2 - 2x + 2x. OK.
+soma dá zero. Pronto, como estávamos a
+dizer, o resto teria que dar zero.
+Pronto, então eu já tenho aqui que eu
+estou a fatorizar o polinómio de grau 3
+é igual a x - 1 x x2 + x - 2. Pronto, já
+tá. Mas agora tenho aqui o
+tenho aqui o polinómio de grau dois.
+poderia aplicar a fórmula resolvente
+ou poderia ou poderia continuar a fazer
+aqui uma divisão, por exemplo, reparando
+a olho que o 1 [roncando] era uma uma
+raiz 1 + 1 2 2 - 2 0. OK?
+Eh, neste caso vou aplicar a forma
+resolvendo. Pronto, mas agora será o
+mesmo que continuar aqui a dividir. Eu
+eu agora dividia este polinómio por x -
+1 e assim sucessivamente. Mas neste
+caso, como como é como eu já tenho o
+polinómio de grau dois, posso aplicar a
+forma resolvente.
+Portanto, a forma resolvente aqui x
+é igual a -1 qualquer coisa sobre 2a
+sobre 2. Portanto, mais ou menos.
+Ora, 1 quad - 4ac.
+Ora, 81 9 - 1 mais ou menos 3
+sobre 2, que portanto dá a orora -4/ 2
+dá dá -2
+ou
+e -1 + 3
+2/ 2 dá 1.
+Pronto. Então, as as raízes são
+x + 2,
+x - 1.
+E pronto. Então, e finalmente que
+já fizemos a decomposição,
+a fatorização do polinómio de grau 3,
+que é igual a
+a x - 1 ao quadrado, que -1 é que 1 é
+uma raiz
+de multiplicidade 2, portanto x - 1
+ao quadrado, OK? que é este x - 1 aqui e
+este x - 1 aqui
+e x + 2.
+Pronto, imaginem que este polinómio do
+grau 3 aparecia num denominador de um de
+uma função racional e, portanto,
+tínhamos o problema que tínhamos que
+fatorizar para a seguir podermos fazer a
+decomposição em frações parciais, OK?
+Portanto, são dois temas que que nós
+temos que nós temos que fazer. OK?
+Pronto. E penso que estamos chegamos ao
+fim. Penso que varremos mais ou menos
+aqui os tópicos. Portanto, OK, nós
+primeiro temos uma função racional. Nós
+temos que ver efetivamente se o grau do
+numerador tem que ser menor do que o
+grau do denominador. Se não for esse o
+caso, então fazemos uma divisão, fazemos
+uma uma full division de polinómios,
+como como vimos aqui, exemplos.
+H,
+e depois
+logo que tenhamos já uma função, uma
+parte de uma função racional que já
+cumpre esse requisito, então ainda temos
+que fatorizar o denominador. Portanto,
+temos temos dois problemas, temos um
+dois em um problemas, temos por vezes
+podemos ter que fazer a divisão e depois
+temos que fatorizar. E para fatorizar,
+eh, não é simples, eh, mas temos temos
+este teorema que eu não vou explicar
+aqui. Eh, podia explicar, mas não vale a
+pena. Possam, vejam vocês, se se
+quiserem, vejam vocês. É um bocado
+chato, é um bocado exaustivo, porque e
+depois tem temos que estudar todas as
+combinações aqui de do dos fatores
+primos aqui do do an e do a0. E,
+portanto, depois às 2x3, pois dá-nos ali
+uma uma dúzia de hipóteses e temos que
+estar a testar todas, experimentar uma a
+uma, eh, para ver qual delas é raiz.
+Pronto, é um é um bocado trabalhoso, mas
+pronto, mas imaginem que
+computacionalmente é é simples, não é?
+Computacionalmente será simples fazer.
+Pronto, e o mais simples ainda é ir
+direto ao alfa e pedir a fatorização de
+um polinómio. OK?
+E pronto. E, portanto, aqui vimos a long
+division de polinómios e vimos aqui um
+exemplo, uma fatorização manual de um
+caso simples.
+E penso que é tudo. Vamos ficar por
+aqui. [roncando] Obrigado pela atenção e
+até à próxima. M.
+

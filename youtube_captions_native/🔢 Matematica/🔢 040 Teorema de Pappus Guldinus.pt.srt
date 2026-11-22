@@ -1,0 +1,1395 @@
+
+Ora, sejam bem-vindos a mais um
+tutorial,
+OK?
+Hoje vai ser dedicado ao teorema de
+Papos Glinos,
+este espetacular teorema que acho que é
+desconhecido de muita gente.
+Ah, mas antes de irmos ao teorema, vamos
+rever aqui alguns umas pontas soltas que
+ficaram para trás e fazer aqui um outro
+exercício.
+OK? Uma das coisas que eu
+eh quis mostrar do tutorial anterior,
+mas depois esqueci-me,
+eh foi isto, a demonstração visual ou
+geométrica da da área de um círculo.
+Eh, é uma demonstração muito
+interessante, muito simples. Acho que é
+muito simples, intuitiva de entender,
+fácil de encontrar na internet, basta
+pesquisar no YouTube, aparece em vídeos.
+Pronto, então o que é que consiste?
+Consiste que nós temos aqui o o círculo,
+não é?
+[roncando]
+Eh, e portanto vamos dizer que temos
+aqui, eh, portanto aqui um um diâmetro.
+Ora, sim, senhora. Portanto, nós temos
+aqui o centro
+eh, portanto, raio raio raio R, OK?
+E, portanto, o que o que consiste é o
+seguinte, nós cortamos o círculo em
+fatias.
+Em fatias,
+eh, OK. como se fosse as fatias de um
+bolo.
+OK? Não há dúvida nenhuma, que é o que
+vemos aqui em baixo, onde temos aqui
+oito fatias. E não há dúvida nenhuma que
+quando as fatias ficam mais finas,
+então esta curvatura pois é ela é
+despresível, ela é despresível
+e passamos a ter um triângulo. Passamos,
+OK? Portanto, quando a espessura é
+infinitésimal, no limite, nós passamos a
+ter um triângulo,
+OK? Aqui com a largura dx, sendo a
+altura do triângulo é R, não há dúvida
+nenhuma, o raio. OK? Portanto, que será
+este isto aqui, esta distância aqui, nós
+sabemos que é é o é o raio do do
+círculo. OK? Sim, senhora.
+E nós sabemos qual é a área
+aqui do do triângulo, que é é 1/2
+da base
+vezes a altura, OK? Portanto, é igual a
+R/
+DX. Sim, senhor. Portanto, então o que
+acontece quando começamos a cortar
+fatias cada vez mais finas
+e [roncando] colocamos aqui as fatias
+sobrepostas desta forma, elas formam o
+retângulo, onde temos aqui a altura e R,
+não há dúvida nenhuma, que é este R
+aqui, o mesmo que está aqui em baixo.
+Eh, e efetivamente nós vemos que temos
+aqui metade das fatias têm a a base para
+baixo e a outra metade tão a base para
+cima. Portanto, portanto, digamos que
+esta esta metade aqui do do bolo,
+todas estas fatias são as as fatias aqui
+de baixo. É esta, é esta, é esta, OK? E
+da outra metade são as fatias de cima.
+Então, quanto mede esta base? Todos
+estes somatórios de DX aqui na base,
+quanto medem? Medem metade da
+circunferência. A circunferência é 2 pi,
+portanto aqui mede π.
+OK? Pronto. Então, sendo assim, isto é
+um retângulo de área pi r². OK?
+Sim, senhor. Pronto. E é interessante.
+Interessante e perfeitamente claro e
+perfeitamente intuitivo e convincente.
+Eh, efetivamente não precisávamos de
+integração para nada, mas pronto, é
+sempre interessante ver que a integração
+eh bate certo e que há vários métodos,
+como vimos, uma integração cartesiana,
+uma integração em coordenadas polares.
+OK? Sim, senhora.
+Eh, vamos para ver agora um outro
+exercício que eu quero mostrar de de
+integrais múltiplos.
+Ora bem, vamos fazer aqui um exercício
+de integrais múltiplos,
+OK? Que é interessante, o qual nós
+queremos
+vamos definir aqui uma função, OK? Vamos
+dizer aqui, OK? que seja uma função y
+y = f(x).
+Eh,
+e essa função,
+ou melhor, é, na verdade, até poderia
+ser uma função de de x e y, OK? Isto até
+poderia ser aqui uma função de x e y,
+mas que mas que na verdade resulta que
+só que só depende de na verdade, exato,
+na verdade é ela vai vai depender de y.
+OK? Pronto, o que é que acontece?
+Portanto, nós vamos ter um integral
+múltiplo que nós vamos querer calcular a
+varrer esta área, esta área vermelha que
+está aqui. Esta área aqui é delimitada
+por duas funções.
+Portanto, aqui em cima é delimitada pela
+reta y = 2
+e embaixo é delimitada
+pela curva y
+igual à à raiz cúbica de x.
+OK? Sim, senhor. Por exemplo, a raiz
+cúbica de 8 é 2. Ok. Bate, certo. Sim,
+senhor. Portanto, nós queremos
+eh calcular este um determinado
+integral, mas não mas não é só a área
+que nós queremos, OK? Nós queremos algo
+mais. Nós queremos para para cada
+elemento elemento de área, OK? Para cada
+elemento de área. E nós vamos usar uma
+integração cartesiana.
+E, portanto, cada elemento da área dx
+dy, pois vai ser aqui um pequeno
+quadradinho, como já sabemos, este é o
+este é o elemento de área.
+Este é o elemento de área, portanto, uma
+integração cartesiana. Sim, senhor. Mas
+eh nós não queremos calcular só a área.
+Eh, OK? Se fosse só a área, pois seria a
+área é é seria um integral múltiplo, um
+integral duplo. OK?
+Eh,
+varrendo esta área vermelha,
+logo teríamos que ver quais os limites
+de integração.
+Eh, dx, dy e pronto, ponto final. Esta
+seria a área.
+[roncando] Eh, mas nós queremos calcular
+o valor de uma função, o valor de uma de
+uma função aqui dentro.
+OK? Nós queremos calcular o valor de uma
+função que depende de x e de y.
+OK? Eh, não importa agora o que seja a
+função, poderia ser a densidade, poderia
+representar, por exemplo, a densidade
+deste objeto e nós queríamos calcular a
+massa e mas a densidade e era uma
+determinada função que dependia da
+posição. OK? Pronto, não importa agora o
+que seja o o significado deve. Isto é,
+vamos fazer apenas com o exercício
+puramente abstrato. Pronto. O que
+importa é que o f que eu quero, eu quero
+um um f, eu vou dizer que h uma função
+de x e de y,
+OK?
+Muitas vezes até se representa por z às
+vezes as funções de x e de y. Pronto. E
+mas esta função ela é igual a, na
+verdade, ela só depende de y.
+1 + 1 1 sobre 1 + y à qu
+Pronto. Sim, senhor.
+Então, o que é que como é que nós
+calculamos isto? Bom,
+nós poderíamos poderíamos fazer assim,
+olha, o meu integral que eu quero vai
+ser, bom, eu tenho que varrer x entre 0
+e 8,
+OK?
+x
+entre 0 e 8. Não há dúvida nenhuma.
+E para e para cada x,
+o y vai variar
+o y vai variar
+entre
+a raiz cúbica de x, OK? entre a raiz
+cúbica de x
+e 2.
+Pronto, entre esta função e y = 2. Ok?
+Ok? Então, estamos a integrar
+externamente em x,
+internamente em y. Pronto, cá está o
+elemento de integração. Pronto, se eu
+fizesse apenas isto, dar-me a área.
+Pronto, mas eu quero, eu não quero a
+área, eu quero o valor da função
+calculado
+dentro desta área. OK? Pronto. Então
+tenho que integrar e colocar aqui o
+valor da função 1
+sobre 1 + y
+pronto. E agora teria que integrar
+integrar
+eh calculando a primitiva à partida, não
+é? Calculando aqui a primitiva, a
+primitivação desta função que não não me
+parece nada fácil. OK?
+Eh, não me parece nada fácil. Talvez,
+talvez um um arco tangente de y². Não,
+acho que não, porque então teria que ter
+aqui algum termo aqui. OK, pronto. E eu
+não tentei sequer primitivar,
+mas porque o intuito deste problema é
+outro. O intuito deste problema é
+mostrar que
+nós ao resolvos abordarmos um problema
+deste tipo, quando estamos a construir
+um integral múltiplo,
+eh às vezes, portanto, e por hábito, e
+podemos ser levados e a a escrever o
+integral no de uma uma forma como que
+estamos habituados a raciinar, por
+exemplo, ao olhar para esta figura, pois
+raciinamos, olha, x varia entre 0 e 8 e
+agora para cada x, pronto, e foi o que
+eu escrevi. E está correto. Tá correto.
+Só que é difícil agora de calcular. E
+então existe um truque dá a volta ao
+problema,
+OK? E o problema de repente
+transforma-se num problema muito mais
+simples. Basta mudar a ordem de
+integração.
+OK? que eu já vos falei nisto no
+tutorial anterior, só que agora estamos
+a ver um problema específico e concreto
+onde onde realmente isso torna-se
+perfeitamente relevante. Pronto.
+[roncando] Então, mudando a área e a o o
+a ordem da integração, eu primeiro tenho
+que integrar em y,
+OK?
+[roncando]
+Integrando em y, eu vejo que o y varia
+entre 0 e 2. Da mesma forma que antes
+dizia que o x varia entre 0 e 8, eu aqui
+vejo que esta figura tem um y que varia
+entre 0 e 2. Pronto. Então eu vou
+integrar. Eu mudo a ordem de integração.
+Isso obriga-me a reaquacionar todos os
+limites de integração.
+Agora, integrando externamente, o y
+varia entre 0
+e 2
+d y e vou integrar internamente em x. E
+agora, como é que eu integro
+internamente em x? Agora reparem aqui no
+seguinte.
+No primeiro caso,
+eu ponho o x a variar.
+Portanto, aqui ao longo deste trajeto
+entre 0 e 8.
+E agora para cada x eu ponho o y a
+variar aqui.
+Cá está entre este ponto e este ponto.
+OK? Pronto. E pato certo. Sim, senhor. E
+pato certo porque eu tenho as funções. É
+porque estas funções que delimitam aqui
+o y,
+OK? Esta e esta já me foram dadas.
+Pronto. Agora, ao mudar a ordem de
+integração, aqui vai ter um truque
+em que agora é ao contrário.
+Agora é primeiro eu varro o y aqui,
+OK? Y varia de 0 a 2.
+Y varia de 0 a 2. Não há dúvida nenhuma.
+E agora para cada y o x vai variar do
+zero daqui até aqui.
+Até aqui.
+OK.
+Estava vai ficar um bocadinho torto, não
+sei porquê. Bom, até aqui.
+OK. Mas o mas o o que é esta distância?
+Pronto. E aí é que está o truque e é que
+está a intuição.
+Esta distância é a função inversa. A
+função inversa desta outra,
+esta ponto aqui, esta altura, é o y√ c
+x.
+A função inversa da raiz cúbica é o
+cubo.
+É o cubo. Por exemplo, imaginem aqui o
+para um,
+para um, 1 cubo dá 1 e para 2 2³ dá 8.
+Tá correto? Pronto. E este é que este é
+que é o truque. É que agora há há há eu
+estou a fazer uma espécie de de inversão
+da do do sistema deixos. OK? Por isso é
+que não é intuitivo. Por isso é que as
+pessoas normalmente em 99% dos casos
+toda a gente vai escrever o integral
+aqui nesta primeira forma. E está
+correto. Só que resulta que depois é
+muito mais difícil de primitivar, porque
+aqui tenho a função y, tenho que
+primitivar a primeira y, que eu não sei,
+primitivar esta função.
+OK? Não é trivial, pelo menos eu não a
+tentei, é como digo, não a tentei
+primitivar
+eh porque já sabia que este problema
+estava orientado para para desta forma,
+para trocar a ordem da integração.
+Pronto, então aqui integro primeiro em
+y,
+OK?
+E agora a seguir integra em X. OK?
+Portanto, integro em X agora aqui
+dentro. E digo então para cada y, para
+cada y o x varia de zero até a função
+inversa da raiz quadrada, ou seja, até y
+cub.
+Até y³.
+OK?
+Eh, logo aqui já tá mais simples, já não
+ando com raízes. Pronto. E agora aqui a
+função, a função é a mesma, nada muda.
+A função continua a mesma. É uma função
+de x y que, por acaso, só depende de y,
+mas é, em termos abstratos, é uma função
+genérica de x e de y.
+1 + y.
+Só que agora fica muito mais simples
+porque eu tenho que integrar esta função
+em x.
+E em x eu sei em x eu sei primitivar.
+Portanto, fica o integral
+y de 0 a 2.
+Internamente integrando em x. Pois é, x
+não estava a nada. É como se fosse x
+vezes 1 x, no qual aqui o y é constante
+quando integramos aqui em x. OK? E agora
+para x, para x entre 0
+e y c,
+ok? E agora falta uma integração externa
+em y. Pronto. E aqui internamente aqui
+pois fica para x = 0 vai a 0 e para x =
+y c fica y c. Pronto. E, portanto, fica
+o integral. Y varia de 0 a 2 de y c
+sobre 1 + y
+em d y pronto. E agora a primitiva
+também é imediata porque é um é um
+logaritmo. Estamos todos a ver que isto
+é um logaritmo
+[roncando] eh e portanto de
+1 +
+y
+OK? cuja derivada é o inverso de 1 + y/4
+x vezes 4y³.
+Portanto, falta aqui o quarto, o qu por
+tenho que pôr aqui 1/4.
+Pronto. E agora tenho que pôr isto
+a a variar entre y = 0 y = 2. Ok? Ora, y
+= 0, o logaritmo para dar 1,
+o expoente para dar 1 é 0. qualquer
+coisa elevada a zero, portanto que vai
+dar um. Portanto, então aqui vai dar
+zero.
+E depois o 2. Ora 2 à 2 x 2 x 2 4 x 4 16
+e 1 17. E portanto tudo isto dá 1/4
+logaritmo
+de 17.
+OK? Pronto. Então, portanto, eh, achei
+por bem mostrar este exercício que ele
+mostra bem como aqui a ordem de
+integração
+é faz toda a diferença, mas que as duas
+formas estavam corretas, mas faz toda a
+diferença mudarmos aqui a ordem de
+integração e também fizemos aqui um
+exercício a ter cuidado como determinar
+os limites de integração em que aqui
+aplicamos a função inversa. OK?
+São coisas, mas que não é preciso ter
+nada disto decor, OK? Eu não preciso
+estar a decorar e porque assim é a
+função inversa ou não é? Não, basta
+fazer um gráfico, fazer um esquema e
+olhar para as coisas e perceber e
+perceber aqui. OK, se eu para fazer a
+integração neste sentido,
+como é que eu vou? Qual será a melhor
+maneira? Primeiro faço variar o y entre
+0 e 2. Está correto? Pronto. E agora
+para cada y. Pronto. E aqui vejo
+intuitivamente vi qual era aqui o qual é
+o ponto e vi. Bom, este ponto tem que
+ser realmente eh para um um dado y é o y
+cubo.
+OK. Pronto. E penso que é intuitivo e
+não é uma questão de ter as coisas de
+cor. OK.
+Sim, senhora. Pronto. Então agora vamos
+então para o teorema de papos godinos.
+OK.
+Ora, vamos então ver o teorema de papos
+godinos. Eu acho que este teorema é
+pouco conhecido.
+Ha,
+se calhar às vezes as pessoas até podem
+recorrer a ele sem e não conhecerem que
+ele tem um nome.
+Ah, vamos ver que é um tirama
+espetacular. OK? Então, em que é que
+consiste? Ele permite-nos calcular
+volumes de revolução e superfícies de
+revolução.
+Vamos primeiro abordar na temática e da
+primeira variante do teorema, que é o a
+que calcula volumes de revolução, OK?
+Sim, senhor. Então, o que é que nós
+vamos ter aqui? Bom, antes de mais,
+vamos relembrar aqui em que consiste o
+centro de massa,
+OK? O centro de massa, mas em termos
+matemáticos para figuras homogéneas, no
+qual a densidade é uniforme, pois o
+centro de massa é equivalado ao centro,
+o centro geométrico, OK? Mas por
+normalmente chama-se o centro de massa
+ou centroide.
+Então vamos considerar aqui um sistema
+de eixos. Vamos trabalhar em coordenadas
+cartesianas,
+OK? Portanto, X y
+Sim, senhor. E nós vamos considerar aqui
+uma figura,
+uma determinada figura aqui fechada.
+Pronto. E esta figura
+vamos calcular o centro de massa desta
+figura.
+OK? Sim, senhor. Eh, como é que eu
+calculo o centro de massa? Bom, esta
+figura tem uma determinada área.
+Sim, senhora. E a área é é o integral
+duplo.
+O integral duplo,
+OK? Em x e y.
+DX dy ou d y dx, não importa. é o
+integral duplo que vai varrer, portanto,
+a soma todos estes elementos, os
+quadradinhos infinit e mais. já sabemos
+isto, os dx os d y
+portanto eh e portanto eh
+ao longo de determinados limites de
+integração, que pronto, que agora não
+sabemos e que por isso normalmente
+representa aqui por a, quer dizer, ao
+longo de uma determinada área,
+com determinados limites de integração,
+eu tenho aqui a área, é só isto. aqui
+dentro não é nada, é simplesmente é o é
+o é o somatório dos dos pequenos das
+pequenas quadrícolas dx dy. Sim,
+senhora.
+Agora, eh, mas eu não quero a área, eu
+quero o centro de massa. Pronto. Então,
+o centro de massa,
+o centro de massa vai ser
+e um determinado ponto, um determinado
+ponto
+com um determinado quadradinho.
+Podemos representar aqui. Vamos imaginar
+que tá aqui o centro de massa,
+OK?
+tal que
+tal que se toda a área do corpo
+estivesse concentrada nesta zona
+vermelha,
+OK? Então o o torque ou o momento
+em relação a X e em relação a Y seria
+igual ao da figura original. OK? Pronto.
+Até eh pode parecer um bocado confuso,
+mas mas eh mas basicamente é o traduz-se
+no seguinte. traduzse que fazendo o
+integral
+e para cada elemento, para cada elemento
+eu vou multiplicar aqui por esta
+distância x, pelo x de cada elemento.
+Portanto, eu eu eu tenho que computar
+esta distância aqui,
+o xi
+d esta e depois mais é esta. Ou seja,
+para todas as quadrículas, para todas as
+quadrículas, eu tenho que computar
+computar o somatório
+de todos estes xi,
+OK?
+De todos estes x, o produto do do do
+elemento de do infinitésimo da área
+vezes o x,
+OK?
+Eh, e depois
+a dividir pela área.
+OK? Pronto. Então, vai dar a média, vai
+dar um valor médio
+eh que é corresponde à aquilo que eu
+disse há bocado e que quando falei nos
+torques vai dar o o x médio, o centro de
+a coordenada x do centro de massa. OK?
+Pronto. Então, dizemos que a [roncando]
+coordenada X do centro de massa
+é igual ao somatório
+dos AI, dos elementos da área ais xi
+este x
+sobre
+o somatório dos ais. Pronto. Portanto,
+vai dar um um x. Pronto, isto seria num
+universo discreto, mas agora em termos
+contínuos, pois o somatório pois
+traduz num integral ou neste caso num
+integral duplo porque porque estamos a
+variar x y [roncando] e portanto é o
+integral duplo dos x, ou seja, de x
+dx d y
+e é dividir pela área.
+Ou seja, o integral duplo
+dx dy. Pronto, este é o centro de massa,
+OK? Integrando dentro
+da região que nós queremos integrar,
+OK? E o mesmo para y. Portanto, o y é é
+a mesma coisa, mas agora integrando e
+fazendo a integração, calculando o
+somatório dos Y. OK? Sim, senhora.
+Ora,
+vamos então agora já sabemos então o que
+é o centro de massa e como se define,
+OK?
+Sim, senhora. Posso representar aqui de
+uma forma mais compacta. X
+é o integral
+de x
+da
+representa o elemento da área
+e
+a dividir pela área.
+Pronto. E o y, a coordenada y do centro
+de massa
+é o integral dos y,
+OK? integrando vezes o elemento da área
+que dividia pela área. Pronto. Sim,
+senhor. Pronto. Aqui temos então
+o centro de massa. OK.
+E qual será agora o volume
+desta região quando ela gira?
+Quando ela gira, vamos dizer, quando ela
+gira em torno do eixo dos X.
+OK? Portanto, esta figura,
+ela vai girar aqui em em torno do eixo
+dos X.
+OK?
+Pronto. E, portanto, ela vai girar,
+OK? E, portanto, vai dar
+um sólido de revolução.
+OK? Sim, senhora.
+Eh,
+como é que nós calculamos o volume? É
+bem simples.
+Basta o integrar.
+Integrar.
+Reparem aqui.
+E para cada elemento, reparem aqui, cada
+elemento.
+Quando ele gira, quando este elemento
+gira, ele faz um um toroidal,
+OK?
+que tem a espessura de dx dy
+e percorre um um percurso, um
+comprimento que que é uma circunferência
+que é 2 pi r,
+ok? Portanto, ele percorre uma uma
+circunferência que é 2 pi
+r sendo o r o quê? O o r depois será o
+y. Esta distância é é o R vai ser, por
+exemplo, este ponto aqui, descreve este
+R aqui, roda e descreve este R, ou seja,
+aqui é o valor do Y. OK? Pronto, sendo
+assim,
+eh, tenho que o volume
+de revolução em torno do eixo dos X,
+em torno do eixo dos X,
+[roncando]
+o volume daquela superfície é o
+integral,
+o integral
+de de 2 pi y de 2 pi y onde o 2 pi pode
+passar aqui para fora, que é uma
+constante.
+y
+vez o da área.
+Pronto. E então aqui
+se olharmos esta expressão,
+se olharmos esta expressão
+para esta outra que está aqui, para esta
+aqui,
+se olharmos, se compararmos estas duas
+expressões, vemos que a única diferença
+é que aqui o o centro de massa aqui tá a
+dividir por a
+e este aqui tem 2 pi,
+ou seja,
+eh,
+portanto, aqui fica que o volume é igual
+a 2 pi
+e este integral duplo, portanto, do y da
+é igual ao centroide
+ou y do centro de massa,
+que é o que está aqui. Mas aqui aparece
+a dividir por a e aqui não tem.
+Então multiplica aqui por a.
+OK? Pronto. Ou seja, este centroide aqui
+y barra este integral. Se eu substituir
+o a corta corta com a que é uma
+constante, é o valor da área e fica o
+integral que é o que tenho aqui. Pronto.
+E tá correto. E é só isto. O tema de
+papos godinos é só isto. O volume de
+revolução, o volume de revolução
+é igual ao produto da área
+da área da figura que vai girar
+a multiplicar por 2 pi y linha, ou seja,
+a multiplicar pela distância percorrida
+pelo centro de massa.
+É uma coisa espetacular, mas já vocês já
+já vão ver o podrio disto, OK?
+[roncando]
+[roncando]
+Ora, aqui temos nós o toroide.
+Ora, o toroide é caracterizado porquê?
+temos
+é um é um é um círculo é um círculo que
+que gira
+aqui em torno de um determinado centro,
+OK? Portanto, o toroide vai ser
+caracterizado por um R pequeno,
+o raio do círculo
+e por um R grande, OK? Portanto, um R
+pequeno,
+portanto, aqui alguros aqui tenho o
+círculo que gira.
+tem um R pequeno,
+OK? E um R grande
+daqui do centro
+até aqui em Re. O que nos diz o teorema
+de papos rodinos?
+O volume do toroide
+é igual à área que gira
+π r quadrado
+vezes a distância percorrida pelo centro
+de massa,
+a distância 2 pi e o centro de massa do
+círculo onde está, pois é o centro do
+círculo. Portanto, 2 pi r,
+OK?
+2
+pi quadrado
+r quadrado
+ranto,
+vejam só o podrio desta teorema.
+Não precisei de calcular integral nenhum
+neste caso. Foi imediato. Foi só
+lembrar-me lembrar-me do conceito. Uma
+área que gira a multiplicar pela
+distância percorrida pelo centroide. OK?
+Espetacular.
+Ora [roncando] bem,
+vamos ver agora outro exemplo. Vamos
+calcular o volume de uma esfera. O
+volume de uma esfera usando o teorema de
+papos rotinos.
+OK? Sim, senhora.
+o volume de uma esfera poderíamos
+calcular com coordenadas esféricas.
+Pronto, mas vamos imaginar que, OK, eu
+nem sabia o que é que era isso.
+Coordenadas esféricas, nunca tinha usado
+na vida. Pronto. E é sempre bom ver como
+exercício que pode-se calcular de outra
+maneira. Na verdade, vamos calcular,
+vamos usar coordenadas polares, OK? Mas
+já vamos ver onde. Pronto, para já vamos
+usar o teorema de papos cudinos. Então
+eu tenho que determinar, bom, então para
+o volume da esfera, eu tenho que
+determinar qual qual é a figura que que
+girando origina a esfera.
+É um é um semicírculo. É um semicírculo.
+Portanto, é o semicírculo. É a figura
+plana que ao girar em torno de um eixo
+origina o volume esférico. Sim, senhor.
+Pronto. Então vamos vou fazer aqui um
+sistema. Eh vamos trabalhar com
+coordenadas polares, mas é aquilo que eu
+vos disse no outro tutorial.
+[roncando]
+Às vezes fazemos uma certa mistura
+eh
+e entre coordenadas cartesianas e
+polares e podemos fazer desde que
+tenhamos bastante cuidado com o que
+estamos a fazer. Por isso às vezes ajuda
+a raciocinar. OK? Eu vou escrever aqui
+XY. À partida parece que vou usar
+coordenadas cartesianas, mas depois na
+verdade vou usar coordenadas polares.
+OK?
+Ora, deixa-me fazer aqui um um
+semicírculo.
+OK. Deixa lá ver aqui um um semicírculo.
+OK. Sim, senhora. Pronto. Então, vamos
+ter aqui
+eh um círculo,
+um semicírculo de raio R.
+Pronto. Sim, senhor. Pronto. Então, o
+que é que eu tenho? Bom, a área que
+gira. Bom, a área que gira, eu eu eu sei
+eu já sei a área do círculo, isso já
+calculamos. Pois então vai ser 1/io de
+um círculo, um meio de de de pi r².
+Pronto, esta é a área que gira.
+Sim, senhor. Só que agora preciso do
+centroide. Eu preciso do centroide,
+OK? Do centro de massa. O centro de
+massa da área que gira, OK? Portanto, é
+o é o centro de massa.
+É o centro de massa desta desta área que
+gira.
+Sim, senhor. Ora bem, eh por simetria,
+eu já sei que esse centro de massa há de
+estar aqui alguros, há de estar aqui no
+eixo dos Y.
+Pronto.
+Eh, e eu preciso de saber,
+eh, portanto, ela há de estar aqui um
+pouco aqui mais mais para baixo, porque
+aqui para mais para baixo tem mais área
+e, portanto, o centro de massa tem que
+estar aqui um bocadinho próximo, mais
+próximo do eixo dos X. E, portanto, eu
+tenho que calcular esta esta distância
+aqui, que esta vai ser vezes a distância
+a distância que gira aqui do centro de
+massa. OK? Sim, senhor.
+Eh, só que eh
+vamos usar coordenadas polares, OK?
+Vamos usar coordenadas polares só porque
+sim, só porque é mais simples. OK? E,
+portanto, então como é que fica? Eh,
+vamos relembrar qual é a forma do do
+centroide. Portanto, o centroide y
+[roncando] é igual à integração. A
+integração na área em Y.
+A integração da área em y
+vezes o elemento da área
+é dividir pela área.
+Pronto, este é o centroide. Sim, senhor.
+Pronto. Então aqui vai ficar o y igual
+a. Pronto. Mas aqui a fórmula não diz
+quais tipos de coordenadas usamos. Esta
+fórmula aqui é abstrata, é uma
+integração
+com o elemento da área. Mas não diz aqui
+nada. diz que que que força coordenadas
+cartesianas.
+OK? Temos aqui um y. Pronto, pode dar a
+entender. Pronto, mas este y posso
+convertê-lo
+para outro sistema de coordenadas.
+Pronto, neste caso que vamos usar
+coordenadas polares. Vamos ver como é
+que fica.
+Pronto. Então, em coordenadas polares,
+eu posso integrar e por fora em teta ou
+em R. Já já vamos ver como é que como é
+que no nos convém. Eh, vou, por exemplo,
+integrar por fora aqui em teta. Varia de
+zero a pi. OK? Não há dúvida nenhuma
+aqui. De 0 a pi.
+Ok? Portanto, por fora, integra em teta.
+Eh, por por dentro
+integro em r.
+R varia zero
+a r.
+Pronto, mas tenho que ter aqui o a
+correção que é devido ao ao elemento de
+de integração, porque já sabemos que o
+elemento de integração em coordenadas
+polares não é drt, é tem um fator, um
+fator de correção que é o que é o rd.
+Vimos isto no tutorial anterior. Pronto.
+Portanto, este é o meu elemento de
+integração, é o meu da. O meu da, no
+caso de coordenadas polares, é igual a
+isto. No caso de coordenadas
+cartesianas, seria dx dy. Sim, senhor.
+Tenho aqui. E agora tenho que pôr aqui o
+y, este y que está aqui. Mas este y é em
+coordenadas cartesianas e eu quero em
+coordenadas polares, OK? Portanto, em
+coordenadas polares, em coordenadas
+polares para um determinado ponto, um
+determinado ponto qualquer, este ponto,
+o o y deste ponto
+é, já sabemos, é a projeção aqui na
+vertical. Portanto, o y deste ponto é o
+é o r seno de teta.
+O r
+seno de teta. Este é este é o y.
+OK? Pronto. Vocês certamente já viram
+muitas vezes as as formas de
+transformação.
+X = R cosseno de teta
+y = R seno de teta.
+OK? Pronto, vocês já devem ter visto
+isto muitas vezes.
+Ok?
+Sim, senhora.
+e, portanto, eh, que permite passar
+de X y permite passar para coordenadas
+polares através desta desta
+transformação.
+Sim, senhor. Pronto, então tenho aqui
+este integral e para calcular o centro e
+depois tenho que dividir pela área,
+OK? Que é o que nos diz aqui, a forma, a
+forma do centroide é esta. Pronto. Então
+depois tenho que dividir aqui pela área.
+1/2 de pi r quad.
+Sim, senhor. Não há dúvida nenhuma.
+Ok.
+Ok. Pronto.
+[roncando] Só que em vez de que agora eu
+não vou calcular aqui o centroide. Eu
+não vou calcular o centroide. Eu aqui
+poderia calcular o centroide, mas eu nem
+preciso do centroide. Eu só preciso de
+olhar ao teorema de Papos Gudinos,
+que o teorema de Papos Gudinos deu-nos
+esta expressão
+aqui, deu-nos esta expressão
+e disse-nos de imediato o termo de papos
+godinos disse o volume é igual a à área
+vezes 2 pi o centro.
+Pronto. Então, passando isto aqui, vou
+dirigir o o volume da esfera, que é o
+que eu quero calcular,
+é igual à área
+vez 2 pi, o centroide,
+o centroide.
+E, portanto, o centroide está aqui a ser
+dado
+por para por este integral que aqui
+está.
+0 a pi,
+0 a r.
+seno de teta
+R quad
+dreta
+a dividir pela área.
+E agora a área corta corta. Pronto. É
+por isso que é mais fácil que eu não ia
+perder tempo aqui a fazer os cálcos e
+depois a simplificar, a dividir por esta
+para esta área porque eu já sei que
+depois da área vai haver aqui o corta
+corta. Pronto. E o, portanto, o volume
+é o produto da área vezes 2, a distância
+2 pi 2 pi r do centroide. A área aqui
+corta, corta. E, portanto, fica só 2 pi
+vezes este integral aqui.
+Ora, temos 2 pi.
+OK.
+Ora, vamos integrar. Deixa ver primeiro
+o que é que o que é que convém integrar.
+Acho que convém primeiro integrar em R.
+Tá correto? Tal como eu pus aqui, fica
+mais simples, OK?
+Fica mais simples integrar primeiro em
+r.
+Teta varia de 0 a pi,
+seno de teta. Pronto, porque integrando
+em r fica
+r³/3
+entre
+0 e r.
+Pronto, aqui fica mais simples.
+Ora, portanto, aqui o zero vai dar 0 e o
+r³/3.
+Pronto, então isto R c passa para fora.
+2 pi
+r³
+ter.
+Ok? Ver se não me engano nas contas. 2
+pi r c. Pronto. E agora tenho aqui uma
+integração
+entre 0 e pi
+do seno de teta,
+do seno de teta de teta.
+Portanto, a primitiva do seno é o menos
+cosseno
+e, portanto, fica 2
+pi r³
+terços.
+Ora, menos cosseno
+eh cuja cuja derivada dá seno, tá
+correto?
+O integral calculado entre 0 e pi.
+Ora, o cosseno de de de 0 é 1. O cosseno
+de pi é -1. Menos por menos dá mais.
+Portanto, fica 1.
+OK? e depois menos
+eh
+portanto o cosseno aqui de pira
+é -1, portanto menos por menos dá mais
+fica 1 e agora é menos, mas menos por
+menos dá mais.
+OK? Eu estou para aqui a fazer aqui
+alguma confusão. Deixa-me fazer isto com
+calma que eu já me estou aqui a
+baralhar. Ora, portanto, 2 pi
+2 pira,
+r³
+ter.
+Ora, menos cosseno menos cosseno de pi
+e agora menos por menos dá mais cosseno
+de zero. Pronto, assim é que tá certo.
+Estava para aqui a baralhar.
+Sim, senhora. Pronto. Ora, o cosseno de
+zero é 1
+e o cosseno de pi é -1, menos por menos
+dá mais. Aqui é 1 também.
+1 e 1 são 2.
+2 x 2 4. E cá temos nós a nossa famosa
+forma do volume da esfera. 4/3 de pi
+raio cubo.
+OK?
+Sim, senhora. Pronto. Eh, como vem,
+eh, simples, bastante simples. Eh, não
+precisei de não preciso de saber
+coordenadas esféricas. OK. Eu também não
+precisava saber o teorema de papos
+godinos, OK? Eu para calcular o volume
+da da esfera eu poderia usar as
+coordenadas polares na mesma e depois
+para cada elemento calcular esta
+distância. OK? Eu não sabia nada de
+teorema de papos rodinos. Eu eu era era
+a mesma coisa, eu ia dar ao mesmo.
+Pronto, o teorema de papos rodinos ajuda
+a assentar as ideias. Eh, e n alguns
+casos, como o caso do toroidal, pois e
+permite-me até de calcular e coisas de
+cabeça. OK? É uma ferramenta mais, é
+mais uma ferramenta, às vezes pode ser
+útil eh para algumas figuras, realmente
+que seja que seja fácil eh saber onde
+está o centro de massa, pois pode ser
+útil. OK.
+Sim, senhor.
+Eh, pronto, a parte do, então, a
+primeira parte do teorema de papos
+godinos está vista, diz respeito a
+volumes. Vamos passar à segunda parte
+que diz respeito a superfícies de
+revolução. Pronto.
+Provavelmente iremos calcular a
+superfície da esfera, não é? Lá terá que
+ser.
+[roncando]
+Ora bem, a segunda parte do teorema de
+papos rodinos, portanto, tem a ver com
+superfícies de revolução. É exatamente
+similar ao que fizemos aqui nos volumes,
+mas nos volumes integrávamos ao longo de
+uma área e agora integramos ao longo de
+uma linha, que é uma linha que gira. OK?
+Pronto. Portanto, aqui vamos ter aqui,
+ora, XY.
+Portanto,
+vamos ter aqui uma linha,
+OK? Vamos considerar aqui,
+vamos considerar entre A e B,
+entre A e B. E vamos dizer: "OK, eu
+tenho aqui esta linha,
+OK? Uma determinada função.
+E o que é que vai acontecer?" Bom, eu
+vou ter aqui
+eh para cada pedacinho,
+para cada pedacinho,
+eu vou ter aqui um DL,
+OK? Um DL, um pequeno comprimento.
+E, portanto, ao girar esta superfície,
+pois dá
+2 pi r x dl. Portanto, o o r será o y,
+OK? E, portanto, vamos dizer que a
+superfície de revolução, a superfície de
+revolução,
+[roncando] portanto, tem que ser
+o integral
+de 2 pi
+y
+d. OK? 2 pi y d, não há dúvida nenhuma.
+Portanto, eu integro os pedacinhos de
+DL, OK?
+E para cada pedacinho
+multiplica e dá uma uma fatia, uma uma
+fita uma fita circular
+com a dimensão
+este DL vezes a distância percorrida 2
+pi r, que é 2 piy. Ok? Pronto. Sim,
+senhora.
+Ora, vimos há bocado que o se o
+centroide da do o centroide área,
+o centroide
+em termos da área, portanto, era era um
+integral integrando na área,
+integrando na área
+o y
+tudo a dividir pela área. Portanto, nós
+vimos isto há bocado. Este era o o
+centroide,
+um centroide em termos de uma
+superfície.
+Portanto, agora temos temos o centroide
+agora não é de uma área, mas do de um
+segmento, de uma linha.
+É a mesma coisa. É um integral, mas
+agora será um integral simples à
+partida.
+o integral dl do do do elemento dl
+f y,
+portanto, é dividir por l pelo
+comprimento total. OK?
+Pronto. Por analogia,
+este é o este é um centroide em termos
+de área. Este é o centro de massa de uma
+linha, OK? De uma curva.
+Ora,
+sim, senhor. A coordenada y do do
+central depois depois existe a
+coordenada X, tal como aqui, porque aqui
+aqui é aqui este Y y centroide é usado
+para para rotações em torno do eixo dos
+X. Se se for para rodar em torno do eixo
+dos Y, pois então vou vou usar o o X
+barra. OK?
+Sim, senhora.
+Portanto, olhando aqui para a expressão
+da superfície de revolução,
+OK?
+o do onde o 2 pi é uma constante passa
+para fora.
+Então eh vai dar uma uma forma
+equivalente, ou seja, vai dar 2
+pi
+o o o centroide
+y
+o centroide o centroide de de de linha
+não é centroide área, são centroides
+totalmente diferentes. OK?
+o centroide linha,
+eh,
+a distância percorrida pelo centroide da
+da linha 2 pi y barra vezes o
+comprimento
+vezes o comprimento
+da linha.
+OK?
+[roncando] Ora, porquê? Porque aqui
+tenho o integral de y d que é igual ao y
+barra, mas a dividir a dividir por aqui
+e aqui o y barra o o integral de y a
+dividir por l. OK? Aqui falta-me o
+dividir, tenho que multiplicar por L
+para ficar a forma equivalente, OK? Este
+integral substituindo aqui o integral de
+y a dividir por L. O L corta corta o 2
+pi passa perdente do integral e portanto
+dá o que temos aqui. Pronto, esta é a
+fórmula. OK? Pronto, bem simples. Por
+acaso este é, eu digo-vos que este é um
+teorema que nunca me esquece. É um
+teorema, já há muitos anos que eu
+conheço isto e conheço estes conceitos.
+Já há muitos anos que eu sei e não me
+esquece porque acho que é intuitivo. Um
+volume de um volume de revolução é é a a
+área que roda vezes o a distância
+percorrida pelo pelo pelo centro. E em
+termos da superfície de revolução é é a
+curva e a linha que roda. Eh, portanto,
+e a multiplicar pela a distância
+percorrida do centroide. OK? Pronto.
+[roncando]
+Ora, vamos então calcular o a superfície
+esférica, não é? Pois lá lá terá que
+ser. Ora bem,
+não se esqueçam de um pormenor, atenção,
+em termos de centroides, às vezes o
+centro, nem sempre o centroide calha
+dentro da figura, tá OK? Não se esqueçam
+disso.
+Eh, por vezes o centroide
+será agora o caso agora o caso quando
+vamos calcular agora a curva que gira da
+da semi o sem do semicircunferência
+e naturalmente que o centroide vamos ver
+que não vai calhar fora da própria da
+curva propriamente dita. OK? [roncando]
+Ora, sim senhor. Vamos então fazer aqui
+o sistema de eixos.
+OK.
+Sim, senhora. XY.
+Vamos então e desenhar aqui um um
+semicírculo.
+OK.
+OK. Cá está ele. Pronto. Sim, senhor.
+Portanto, o nosso semic agora não é um
+círculo que gira, agora é uma linha,
+uma uma uma linha que gira.
+OK, pronto. Esta linha vermelha
+da semir circunferência que gira
+raio R.
+Eh, então temos que
+a superfície esférica,
+a superfície da esfera
+Sá
+igual a ao comprimento do arco que gira,
+[limpando a garganta]
+portanto, que é pi é pi r, que é meia
+circunferência,
+o comprimento que gira a multiplicar
+pela distância percorrida pelo
+centroide. a multiplicar por 2 pi
+y barra o centroide curva.
+Eh, OK. Se não me engano, se eu não me
+enganei, é isto.
+Ora, portanto, vai dar 2 pi,
+ora, o integral de y
+d,
+OK?
+onde aqui seria por baixo seria a
+dividir por L, mas e portanto mas o L
+vai cortar aqui com este pi
+[roncando]
+e portanto esta fica a forma
+simplificada,
+OK?
+Ou seja, se eu já souber o centroide, eu
+uso esta expressão como fizemos
+potoidal.
+Quando eu já sei o centroide, então sim,
+senhora comprimento do arquito pelo
+centro. Agora, se eu não sei o centroide
+e vou ter que calcular o integral do
+centroide, então o integral do centroide
+ele na forma ele divide por L. Cá está
+aqui. Portanto, se eu tenho que calcular
+o integral do centroide, tenho que
+calcular o centroide propriamente dito
+que eu ainda não tenho, então eu sei que
+vai ter um integral e que depois divide
+por L. Então por esse L, então ao fazer
+esse cálculo
+L vai cortar com este L que está aqui,
+OK? Doamento para godinos. Pronto, é por
+isso que aqui corta e e este aqui corta,
+mas é a mesma coisa. Eu também podia
+calcular o centroid.
+Eu podia calcular, eu posso sempre
+calcular o centroide à parte,
+OK? Só que é um bocado borriço porque eu
+já sei que vai haver um elemento que que
+corta depois no final corta, que é o
+aquel. E, portanto, este PR aqui vai
+cortar, como é óbvio, porque porque
+senão ia-me dar aqui uma superfície com
+pi quadrado, que não pode ser. Eu eu sei
+que eu sei que a superfície esférica é 4
+pi r², não é? O o pi o pi não vem ao
+quadrado. Portanto, eu já sei que aqui
+tinha que não podia ser no no final não
+podia ter aqui um pi quadrado. É óbvio
+que este centroide aqui vai dar um
+determinado resultado a dividir por pi e
+que, portanto, que depois tem que haver
+um corta corta com pi. OK? Não sei se me
+explico. Pronto. E portanto, esta é a
+expressão. Esta é a expressão aqui.
+Fica-me só 2 pi e o integral de y. É a
+expressão simplificada.
+OK. Esta expressão, uma primeira é útil
+se eu já souber o centroid.
+Então fica mais rápido fazer assim
+porque eu já sei o centro. Foi o caso,
+por exemplo, de quando calculamos o
+toroidal.
+OK. Pronto. Aqui na na superfície aqui o
+centroide da circunferência. Não sei.
+OK. Pronto. E e como não sei e então vou
+fazer o cálculo e ao fazer o cálculo
+depois resulta um corta a corta e e este
+pi aqui que é o L, pois corta corta aqui
+com o denominador. OK? Não sei se eu me
+explico. Ora bem. Pronto. Então fica 2
+pi e agora faço uma integração polar.
+A integração polar seria é portanto
+entre teta e r.
+Só [roncando] que o R aqui é constante,
+portanto a integração fica só em teta.
+Teta varia de zero a pi, tal como
+acabamos de fazer agora para o volume da
+esfera. Pronto. Não é preciso fazer
+integração nenhuma em em R neste caso,
+porque porque R é uma constante, não?
+Então não preciso de integrar em R.
+Teta.
+OK? Portanto, a integração é só esta.
+Eh,
+OK.
+Só que eu tenho que ter tenho que ter
+cuidado com o elemento de integração. O
+melhor é escrever tudo aqui que é para
+não haver enganos. Pronto, este é o
+elemento de integração. Pronto, assim,
+assim não há enganos. E agora aqui
+dizemos, olha, R varia entre R e R.
+Pronto, R r e R. Pronto, é melhor pôr
+assim que é para não não haver enganos.
+Ora, vezes y vezes y ora, portanto, o y
+já sabemos o que é. É o é o r
+é o r que neste caso é uma constante que
+é o r maiúsculo,
+r seno de teta.
+OK? Pronto, este é o y.
+Ora, sim, senhor.
+Lá ver se não me enganei. Portanto,
+então isto fica 2 pi. Ora, este R é uma
+constante. Posso passar aqui para fora.
+OK.
+Ora, aqui entre 0 e pi.
+Ora, aqui dentro, aqui vamos ter um seno
+de teta.
+E depois temos este R aqui. Ora,
+integrando este R,
+não, não, eu não posso fazer isto. Isto
+está tudo mal. Porque porque aqui seria
+uma uma integração em termos de
+superfície.
+Se se houvesse uma, portanto, este,
+quando eu disse, ah, este é o elemento
+de integração, não errado. Este é o
+elemento de integração só em termos de
+elemento da área, não de elemento de
+comprimento. Não, aqui tá totalmente
+errado. Pronto. Eh, porque então aqui
+dava, eu aqui era como se eu quisesse
+calcular uma superfície, mas a
+superfície depois como é uma linha, uma
+linha não tem área. A área de uma linha
+é zero. Por isso, naturalmente, aqui o
+integral aqui R2/bre 2, depois calculado
+em R e R, depois corta, corta, pois dava
+tudo zero. O integral dava todo zero.
+Pronto, portanto não pode ser. Pronto,
+aqui estava aqui estava aqui estava aqui
+a fazer uma uma confusão tremenda
+bestial, porque não não posso fazer nada
+disto. Eu não posso fazer nada disto
+porque eu não porque aquele elemento
+aqui é o elemento de área, é um elemento
+de integração, elemento de área. OK? O
+elemento, agora o elemento de
+comprimento é outro. Vamos ter, vamos
+ter que deduzir qual é porque não, nunca
+fizemos um, uma integração de, de linha.
+OK? É, agora esta é a primeira vez que
+vamos fazer e, portanto, vamos deduzir
+visualmente. Pronto, não tem nada a ver
+com aquele outro elemento.
+OK? Sim, senhora.
+Pronto. Então, não há dúvida nenhuma que
+que eu agora tenho que calcular qual é o
+elemento o elemento DL. Pronto, então
+vamos vamos tentar aqui ver visualmente
+qual é o elemento DL. Pois, se eu tenho
+aqui este elemento,
+se eu tenho aqui um um dado elemento
+aqui d,
+OK? Este pedacinho aqui,
+este pedacinho aqui, eh, quanto mede
+este elemento? Pois, é fácil. É o
+comprimento, é o, neste caso, R d.
+Pronto, este é que é o meu elemento TL.
+Este é o meu elemento T. Isto é que é o
+que estou a integrar,
+OK?
+OK? Portanto, não é preciso ter nada
+decorado. Eu simplesmente eu estava
+estava a pôr os pés pelas mãos, estava a
+fazer uma integração usando um elemento
+da área que não não pode ser porque
+então a área de uma linha é zero. Claro
+que tuud pronto não pode ser. Eu tenho
+que fazer uma um um integral de linha.
+Pronto, sem querer agora entrar já muito
+em pormenores. Pois, que isto são é
+tópicos avançados de de de cálculo
+vetorial com integrais de vinha,
+integrais de superfície. Isso é tudo
+conceitos que ainda nunca vimos. Pronto,
+mas há coisas que podemos fazer
+intuitivamente e aqui é um caso.
+Eh, portanto, o meu elemento de
+integração tem que ser o rdeta. O rd
+teta. É claro que eu já sei quanto é que
+isto vai integrar, porque se eu
+integrar, ou seja, no fundo, o que eu
+estou aqui a dizer é que uma uma uma a
+linha vermelha, o comprimento da linha
+vermelha, o que eu estou aqui a afirmar
+é que o comprimento da linha vermelha,
+que eu já sei que é meia circunferência,
+é uma integração de teta entre 0 e pi,
+entre 0 e pi, do elemento de de linha d
+que é rθeta.
+Pronto.
+E, portanto, aqui integrando em teta,
+daqui tá teta, entre 0 e pi, dá pi e,
+portanto, tá pi, tá correto? Meia
+circunferência é π. OK? Pronto, então tá
+correto. Não há dúvida nenhuma que este
+é o este é o elemento de integração d.
+Pronto. Portanto, aqui tenho o elemento
+de integração d,
+OK? RDT.
+Pronto. Que aqui é que está correto. RD.
+Ora,
+porque o R é constante, mas se o R fosse
+variável, pois, eventualmente seria o R
+variável, R pequeno, R pequeno d teta.
+OK?
+Sim, [roncando] senhora.
+E preciso do Y.
+R
+sendo de teta, como já vimos. Este é o
+Y. Pronto. E agora o r é uma constante.
+O r² passa cá para fora.
+2 pi r².
+Ok. E agora aqui dá o a primitiva do
+seno que é o menos cosseno.
+Entre zero e pique já vimos que dava
+dois. O que isto é igual ao outro
+integral que calculamos ali do volume
+entre 0 e pi, que já vimos ali há bocado
+que entre 0 e pi, cá estava aqui é o
+cosseno, o menos cosseno entre 0 e pi,
+que dava 2.
+E aqui é igual o menos cosseno entre 0 e
+pi dá 2. 2 x 2 4. E pronto. E cá temos
+nós a nossa superfície esférica.
+4 pi r².
+A superfície esférica vale quatro vezes
+a área do círculo subordinado.
+OK?
+E acho que vamos ficar por aqui. Estava
+a pensar se dar aqui mais um exemplo.
+Por exemplo, um triângulo a rodar daria
+o volume de um conseíamos
+o Mas vou deixar isso para vocês como
+exercícios se quiserem fazer algum
+desses exercícios. Já num tutorial
+anterior fiz vimos o o volume de de uma
+pirâmide genérica, que é o aqui um codo,
+no fundo é um é um caso eh podes
+considerar como algum caso particular de
+do de de uma pirâmide.
+Mas deixa isso para vocês como exercício
+poderem usar o teama de papos rodinos
+para calcular volumes de cones ou
+qualquer outro volume de sólidos de
+revolução.
+E pronto, penso que ficamos por aqui.
+Espero que tenham gostado e até uma
+próxima oportunidade. Obrigado.
+

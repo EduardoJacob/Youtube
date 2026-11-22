@@ -1,0 +1,1786 @@
+0:00:02.919,0:00:06.759
+Ora, sejam bem-vindos a mais um
+
+0:00:04.319,0:00:08.679
+tutorial. Hoje vamos ver a indução
+
+0:00:06.759,0:00:11.000
+matemática.
+
+0:00:08.679,0:00:12.799
+Ainda estamos na parte das bases.
+
+0:00:11.000,0:00:14.480
+Realmente aquilo que eu considero as
+
+0:00:12.799,0:00:17.880
+bases, os fundamentos, para depois
+
+0:00:14.480,0:00:20.600
+partirmos para uma próxima etapa, que há
+
+0:00:17.880,0:00:22.680
+de ser o cálculo diferencial, derivadas
+
+0:00:20.600,0:00:24.359
+e integrais.
+
+0:00:22.680,0:00:27.119
+Eh, mas nesta etapa, pois, nós nós temos
+
+0:00:24.359,0:00:29.480
+que ter bases e fundamentos.
+
+0:00:27.119,0:00:31.279
+Eh, e portanto a indução matemática
+
+0:00:29.480,0:00:35.920
+também é um tema fundamental que acho
+
+0:00:31.279,0:00:37.840
+que e acho que se ensina no 12º ano.
+
+0:00:35.920,0:00:40.440
+E, portanto, vamos aqui relembrar
+
+0:00:37.840,0:00:43.559
+rapidamente.
+
+0:00:40.440,0:00:45.079
+Eh, e portanto aqui que onde eu fui ao
+
+0:00:43.559,0:00:46.760
+Gemini
+
+0:00:45.079,0:00:48.840
+perguntar quais eram os dois passos de
+
+0:00:46.760,0:00:51.399
+indução matemática, naturalmente que ele
+
+0:00:48.840,0:00:54.079
+me disse aqui. Portanto, nós temos que
+
+0:00:51.399,0:00:56.879
+provar um ponto de partida para uma
+
+0:00:54.079,0:00:59.280
+fórmula e depois temos que provar no
+
+0:00:56.879,0:01:00.600
+passo indutivo provar que é aquilo que
+
+0:00:59.280,0:01:02.719
+eu muitas vezes chamo de da da
+
+0:01:00.600,0:01:05.920
+herditariedade. Nós temos que provar que
+
+0:01:02.719,0:01:08.080
+OK, que se
+
+0:01:05.920,0:01:11.400
+no pressuposto de veracidade de uma
+
+0:01:08.080,0:01:13.000
+fórmula para um dado o valor n
+
+0:01:11.400,0:01:17.080
+implica
+
+0:01:13.000,0:01:17.080
+a veridade do do
+
+0:01:17.119,0:01:25.920
+valor seguinte, OK? que é o que eles
+
+0:01:20.400,0:01:29.159
+chamam aqui e o efeito dominol. OK?
+
+0:01:25.920,0:01:31.040
+Ora, sim, senhor. Normalmente isto são
+
+0:01:29.159,0:01:33.680
+são para fórmulas. Normalmente aqui
+
+0:01:31.040,0:01:35.200
+trabalhamos com números inteiros. Com
+
+0:01:33.680,0:01:37.520
+números inteiros ou porque isto é a
+
+0:01:35.200,0:01:39.200
+forma baseada na n algum número inteiro.
+
+0:01:37.520,0:01:41.000
+OK? Portanto, tem que haver normalmente
+
+0:01:39.200,0:01:43.079
+isto está relacionado com séries, o tipo
+
+0:01:41.000,0:01:44.320
+de formas que que que vamos demonstrar,
+
+0:01:43.079,0:01:45.680
+não é?
+
+0:01:44.320,0:01:48.960
+Ora bem, mas vamos passar a um caso
+
+0:01:45.680,0:01:54.200
+prático que que é mais simples, que é o
+
+0:01:48.960,0:01:55.719
+caso o caso que é muito conhecido e que
+
+0:01:54.200,0:01:57.560
+normalmente também é usado para para
+
+0:01:55.719,0:01:59.719
+quando se começa a trabalhar com a
+
+0:01:57.560,0:02:03.759
+indução matemática, que é o somatório
+
+0:01:59.719,0:02:06.240
+dos primeiros genes naturais. OK?
+
+0:02:03.759,0:02:07.960
+Eh,
+
+0:02:06.240,0:02:09.959
+também é muito conhecido o caso. Reza,
+
+0:02:07.960,0:02:12.680
+reza à história. Podem ir também ao
+
+0:02:09.959,0:02:15.680
+chatt perguntar. Reza a história que o
+
+0:02:12.680,0:02:17.360
+foi o Gaus que estava na sala de aula
+
+0:02:15.680,0:02:21.160
+quando quando era criança com 7 ou 8
+
+0:02:17.360,0:02:27.519
+anos e que somou de tacada os os números
+
+0:02:21.160,0:02:29.360
+naturais e de um até 100. OK.
+
+0:02:27.519,0:02:31.040
+Ah, mas com certeza que esta forma já
+
+0:02:29.360,0:02:32.879
+seria conhecida desde há muito tempo,
+
+0:02:31.040,0:02:34.480
+desde há séculos. que eu a séos
+
+0:02:32.879,0:02:37.000
+omilénios garantidamente já teria que
+
+0:02:34.480,0:02:38.599
+ser conhecida.
+
+0:02:37.000,0:02:40.599
+Ah,
+
+0:02:38.599,0:02:42.440
+mas pronto, em todo o caso, se calhar o
+
+0:02:40.599,0:02:44.640
+Gus também chegou a ela, chegou a ela
+
+0:02:42.440,0:02:45.879
+por por si próprio em criança,
+
+0:02:44.640,0:02:48.400
+garantidamente um dos maiores
+
+0:02:45.879,0:02:52.680
+matemáticos de todos os tempos.
+
+0:02:48.400,0:02:54.400
+Ora, e portanto o que o que ele reparou
+
+0:02:52.680,0:02:58.239
+que
+
+0:02:54.400,0:02:58.239
+ele reparou que
+
+0:02:59.599,0:03:04.400
+efetivamente e
+
+0:03:02.400,0:03:06.640
+se somássemos o primeiro elemento aqui
+
+0:03:04.400,0:03:10.360
+com o último,
+
+0:03:06.640,0:03:12.560
+OK? que dava 101
+
+0:03:10.360,0:03:15.640
+101
+
+0:03:12.560,0:03:18.200
+e que somássemos o segundo
+
+0:03:15.640,0:03:20.959
+com aqui com o penúltimo
+
+0:03:18.200,0:03:22.799
+também dava 101.
+
+0:03:20.959,0:03:24.959
+OK? E portanto isto era uma sequência de
+
+0:03:22.799,0:03:27.599
+101.
+
+0:03:24.959,0:03:30.000
+Isto era um somatório de 101. E agora
+
+0:03:27.599,0:03:32.159
+diz quantas em quantas vezes aparece o
+
+0:03:30.000,0:03:34.720
+101?
+
+0:03:32.159,0:03:38.280
+Ora bem, se eu tenho aqui 100 parcelas,
+
+0:03:34.720,0:03:41.640
+mas está aos pares,
+
+0:03:38.280,0:03:44.799
+OK? Portanto, é é 100 parcelas sobre 2,
+
+0:03:41.640,0:03:47.760
+50, portanto, o 101 aparece 50 vezes.
+
+0:03:44.799,0:03:52.239
+OK? Pronto. E por isso,
+
+0:03:47.760,0:03:53.840
+este é o resultado que dá 50,
+
+0:03:52.239,0:03:56.480
+OK?
+
+0:03:53.840,0:04:00.200
+Eh, e, portanto,
+
+0:03:56.480,0:04:02.959
+em termos mais genéricos, mais gerais, o
+
+0:04:00.200,0:04:04.840
+somatório de 1
+
+0:04:02.959,0:04:07.720
+até n
+
+0:04:04.840,0:04:10.280
+vai ser a soma do primeiro elemento mais
+
+0:04:07.720,0:04:11.840
+o último.
+
+0:04:10.280,0:04:15.000
+OK?
+
+0:04:11.840,0:04:17.880
+Eh, quantas vezes? Pois, o número de
+
+0:04:15.000,0:04:21.079
+parcelas sobre 2, porque é aos pares,
+
+0:04:17.880,0:04:24.360
+OK? E também funciona quando o n é
+
+0:04:21.079,0:04:27.600
+ímpar, OK? e funciona para n par ou para
+
+0:04:24.360,0:04:31.240
+n impar para também essa a forma também
+
+0:04:27.600,0:04:33.919
+bate certo. OK? E portanto isto é usando
+
+0:04:31.240,0:04:37.560
+a linguagem dos somatórios. O somatório
+
+0:04:33.919,0:04:41.720
+quando i varia de 1 a n
+
+0:04:37.560,0:04:41.720
+e de i
+
+0:04:42.160,0:04:48.400
+é igual a n
+
+0:04:45.600,0:04:50.720
++ 1
+
+0:04:48.400,0:04:53.120
+sobre 2.
+
+0:04:50.720,0:04:54.600
+Ok? Pronto, esta é a forma famosa do
+
+0:04:53.120,0:04:57.240
+somatório dos primeiros números
+
+0:04:54.600,0:04:58.720
+naturais. E, portanto, agora vamos, este
+
+0:04:57.240,0:04:59.800
+é um exemplo que acho que é muito usado
+
+0:04:58.720,0:05:01.360
+quando se começa a trabalhar com a
+
+0:04:59.800,0:05:03.160
+indução matemática. Vamos demonstrar
+
+0:05:01.360,0:05:05.160
+esta fórmula.
+
+0:05:03.160,0:05:08.479
+Bom, aquilo demonstrar é, vamos lá ver,
+
+0:05:05.160,0:05:12.280
+é ela, ela já ficou demonstrada aqui. Ou
+
+0:05:08.479,0:05:15.440
+seja, eh, é como eu digo,
+
+0:05:12.280,0:05:18.960
+às vezes há formas que que quando quando
+
+0:05:15.440,0:05:20.800
+nós as as deduzimos, às vezes eh são tão
+
+0:05:18.960,0:05:23.560
+intuitivas que não precisam de
+
+0:05:20.800,0:05:25.639
+demonstração. OK? Mas nós sabemos que na
+
+0:05:23.560,0:05:29.039
+matemática pura eh às vezes os
+
+0:05:25.639,0:05:31.199
+matemáticos dedicam-se a a temas eh tão
+
+0:05:29.039,0:05:32.800
+abstratos como provar que um mais um
+
+0:05:31.199,0:05:34.520
+mais um são dois. e outras coisas do
+
+0:05:32.800,0:05:35.880
+género. Portanto, eh, mas eu também já
+
+0:05:34.520,0:05:37.479
+falei que aqui na minha playlist não me
+
+0:05:35.880,0:05:41.360
+vou dedicar a matemáticas puras, nem
+
+0:05:37.479,0:05:43.160
+tenho não vou ter um um extremo cuidado
+
+0:05:41.360,0:05:46.080
+com com o rigor das demonstrações,
+
+0:05:43.160,0:05:49.800
+porque também não tenho noal para isso.
+
+0:05:46.080,0:05:51.680
+E, portanto, pretendo apenas eh
+
+0:05:49.800,0:05:54.319
+transmitir, ajudar a sedimentar
+
+0:05:51.680,0:05:56.720
+determinadas bases matemáticas de uma
+
+0:05:54.319,0:05:58.240
+forma intuitiva, chamando a atenção para
+
+0:05:56.720,0:06:00.600
+para como é que de onde é que as coisas
+
+0:05:58.240,0:06:02.000
+surgem. OK?
+
+0:06:00.600,0:06:05.360
+Bom, e portanto nós vamos agora
+
+0:06:02.000,0:06:07.160
+demonstrar por indução matemática esta
+
+0:06:05.360,0:06:10.039
+forma. Nós queremos demonstrar que esta
+
+0:06:07.160,0:06:12.639
+forma é sempre válida. OK? Pronto.
+
+0:06:10.039,0:06:14.479
+Então, o que é que nós vamos ter aqui?
+
+0:06:12.639,0:06:16.599
+De acordo aqui com a regra, nós temos
+
+0:06:14.479,0:06:19.120
+que demonstrar a fórmula para um
+
+0:06:16.599,0:06:22.720
+determinado valor inicial.
+
+0:06:19.120,0:06:25.039
+Neste caso, o valor inicial será n = 1.
+
+0:06:22.720,0:06:27.039
+Nós começamos com, ou seja, um somatório
+
+0:06:25.039,0:06:29.400
+de uma só parcela.
+
+0:06:27.039,0:06:34.560
+Portanto, então dizemos o somatório
+
+0:06:29.400,0:06:37.919
+quando o i varia de 1 até 1 de i que é
+
+0:06:34.560,0:06:41.039
+igual a mas só percebe igual a 1. É um
+
+0:06:37.919,0:06:42.880
+mais nada é só um. Ok?
+
+0:06:41.039,0:06:44.720
+Pronto, este somatório é igual a 1. E
+
+0:06:42.880,0:06:47.720
+agora, de acordo com a fórmula que temos
+
+0:06:44.720,0:06:50.840
+aqui, será
+
+0:06:47.720,0:06:53.360
+o número de parcelas, que é um
+
+0:06:50.840,0:06:58.520
+multiplica
+
+0:06:53.360,0:07:00.039
+n o número de parcelas 1 + 1.
+
+0:06:58.520,0:07:02.400
+É o que tá aqui a fórmula. o valor
+
+0:07:00.039,0:07:04.599
+inicial 1
+
+0:07:02.400,0:07:06.680
+mais o último
+
+0:07:04.599,0:07:10.199
+que é 1
+
+0:07:06.680,0:07:13.080
+vezes o número de parcelas 1
+
+0:07:10.199,0:07:15.599
+sobre 2 e efetivamente 2 sobre 2 dá 1 e
+
+0:07:13.080,0:07:20.280
+portanto tá certo. OK? Pronto. Muitas
+
+0:07:15.599,0:07:22.960
+vezes na indução matemática eh
+
+0:07:20.280,0:07:25.120
+testamos mais um ou dois casos.
+
+0:07:22.960,0:07:26.720
+Imaginem que o um caso seguinte já
+
+0:07:25.120,0:07:28.160
+chumbava. Então escusávamos estar a
+
+0:07:26.720,0:07:30.080
+perder tempo a demonstrar uma coisa que
+
+0:07:28.160,0:07:31.400
+depois não iríamos conseguir demonstrar
+
+0:07:30.080,0:07:33.520
+porque a fórmula estava errada.
+
+0:07:31.400,0:07:35.639
+Portanto, é comum muitas vezes temos uma
+
+0:07:33.520,0:07:38.280
+determinada fórmula ou se tivermos
+
+0:07:35.639,0:07:40.360
+suspeitas que ela seja verdadeira
+
+0:07:38.280,0:07:42.919
+e então podemos testar mais alguns
+
+0:07:40.360,0:07:44.440
+casos, OK? Não se perde mais nada e
+
+0:07:42.919,0:07:48.919
+então posso testar. Deixa-me testar
+
+0:07:44.440,0:07:51.879
+aqui, por exemplo, com n = 2,
+
+0:07:48.919,0:07:58.159
+somatório de i e varia de 1 a 2. Então,
+
+0:07:51.879,0:07:58.159
+vou dizer que é igual a 1 + 2 é igual
+
+0:07:59.280,0:08:04.319
+agora vou ver então deixa ver se a forma
+
+0:08:01.720,0:08:08.599
+esta forma que estava aqui
+
+0:08:04.319,0:08:12.560
+se se me dá o o valor, se me dá o 3.
+
+0:08:08.599,0:08:15.759
+Ok? Então eu vou dizer, bom, é o número
+
+0:08:12.560,0:08:18.680
+n que é 2,
+
+0:08:15.759,0:08:22.840
+que é o número de parcelas.
+
+0:08:18.680,0:08:22.840
+Aqui é 1 + 2
+
+0:08:22.919,0:08:26.960
+sobre 2
+
+0:08:25.280,0:08:29.039
+e, portanto, dá três e tá correto
+
+0:08:26.960,0:08:30.080
+também. Pronto. Então, eu já demonstrei
+
+0:08:29.039,0:08:32.560
+n alguns valores e agora podia
+
+0:08:30.080,0:08:33.640
+demonstrar mais alguns casos. Pronto, a
+
+0:08:32.560,0:08:35.399
+partir do momento em que eu já tenho
+
+0:08:33.640,0:08:37.360
+confiança na forma, digo: "Bom, ela em
+
+0:08:35.399,0:08:38.959
+princípio há de ser verdadeira.
+
+0:08:37.360,0:08:40.800
+Portanto, já chega, já demonstrei alguns
+
+0:08:38.959,0:08:42.360
+valores iniciais
+
+0:08:40.800,0:08:44.959
+e agora vamos passar à fase dois, o
+
+0:08:42.360,0:08:47.399
+método indutivo. Pronto. Então vou dizer
+
+0:08:44.959,0:08:49.480
+assim: "Bom, então eu vou assumir que
+
+0:08:47.399,0:08:51.920
+esta forma aqui é verdadeira. Eu vou
+
+0:08:49.480,0:08:55.000
+assumir que esta forma eu vou este vai
+
+0:08:51.920,0:08:57.320
+ser o meu pressuposto. OK, vou assumir
+
+0:08:55.000,0:08:58.600
+isto por hipótese é verdadeira.
+
+0:08:57.320,0:09:01.399
+é verdadeira, pelo menos, que eu já
+
+0:08:58.600,0:09:05.839
+demonstrei para alguns valores.
+
+0:09:01.399,0:09:08.399
+Então eu vou pretender demonstrar
+
+0:09:05.839,0:09:10.839
+que
+
+0:09:08.399,0:09:14.040
+pretender demonstrar
+
+0:09:10.839,0:09:19.680
+a velocidade da forma
+
+0:09:14.040,0:09:22.839
+para o o elemento um elemento seguinte,
+
+0:09:19.680,0:09:26.079
+ou seja, se este vai até n, o elemento
+
+0:09:22.839,0:09:29.720
+seguinte será o somatório
+
+0:09:26.079,0:09:33.120
+de 1 até n + 1.
+
+0:09:29.720,0:09:36.600
+Eu quero demonstrar esta fórmula.
+
+0:09:33.120,0:09:39.959
+Eu quero demonstrar uma nova fórmula
+
+0:09:36.600,0:09:41.880
+no pressuposto que esta é verdadeira.
+
+0:09:39.959,0:09:44.760
+OK? A a fórmula número um é é esta
+
+0:09:41.880,0:09:47.760
+fórmula número um. Esta fórmula número
+
+0:09:44.760,0:09:47.760
+um.
+
+0:09:49.279,0:09:53.600
+Esta fórmula número um. Eu estou a pôr
+
+0:09:52.120,0:09:54.920
+uma hipótese. Eu não sei se ela é
+
+0:09:53.600,0:09:57.200
+verdadeira, mas eu estou a pôr a
+
+0:09:54.920,0:09:59.120
+hipótese que ela é verdadeira. Eu já
+
+0:09:57.200,0:10:02.519
+verifiquei que ela é verdadeira, pelo
+
+0:09:59.120,0:10:03.959
+menos para uns casos iniciais.
+
+0:10:02.519,0:10:07.600
+Então eu vou assumir que ela é
+
+0:10:03.959,0:10:10.640
+verdadeira e vou demonstrar que no o
+
+0:10:07.600,0:10:13.079
+pressuposto dela ser verdadeira implica
+
+0:10:10.640,0:10:15.399
+que o consequente
+
+0:10:13.079,0:10:18.040
+que a forma seguinte também seja
+
+0:10:15.399,0:10:20.839
+verdadeira.
+
+0:10:18.040,0:10:23.160
+OK? Se for o caso, então toda a forma
+
+0:10:20.839,0:10:25.399
+fica provada verdadeira
+
+0:10:23.160,0:10:28.120
+por aqui este efeito dominox que aqui tá
+
+0:10:25.399,0:10:30.200
+expresso.
+
+0:10:28.120,0:10:33.000
+OK.
+
+0:10:30.200,0:10:34.240
+Eh, não sei se
+
+0:10:33.000,0:10:35.560
+se eu me explico. Isto pode ser um
+
+0:10:34.240,0:10:39.760
+bocadinho confuso assim à partida para
+
+0:10:35.560,0:10:41.240
+quem não nunca viu isto, mas pronto. Eh,
+
+0:10:39.760,0:10:43.200
+vamos seguir. Pode ser que fique mais
+
+0:10:41.240,0:10:46.200
+claro. Ora bem, então eu quero
+
+0:10:43.200,0:10:49.639
+demonstrar aqui a forma
+
+0:10:46.200,0:10:52.120
+e varia de 1 é n + 1. De acordo com esta
+
+0:10:49.639,0:10:57.600
+regra aqui, será
+
+0:10:52.120,0:10:57.600
+será aqui o o número de parcelas
+
+0:11:01.160,0:11:06.560
+que multiplica o número de parcelas mais
+
+0:11:04.000,0:11:08.720
+1. Vejam o n que é o que está aqui no
+
+0:11:06.560,0:11:13.600
+aqui no índice superior do somatório.
+
+0:11:08.720,0:11:13.600
+Portanto, o n + 1 + 1 fica n + 2
+
+0:11:16.279,0:11:23.839
+sobre 2. Pronto. Isto isto é agora esta
+
+0:11:19.880,0:11:25.320
+é a forma que eu quero demonstrar.
+
+0:11:23.839,0:11:26.959
+Eu quero eu quero demonstrar aidade
+
+0:11:25.320,0:11:29.480
+desta forma. Eu não sei será verdade
+
+0:11:26.959,0:11:31.959
+isto, será verdade que este somatório é
+
+0:11:29.480,0:11:34.399
+igual a isto? Eu eu quero demonstrar
+
+0:11:31.959,0:11:37.920
+isto.
+
+0:11:34.399,0:11:41.399
+OK? Pronto. Então, como é que fazemos?
+
+0:11:37.920,0:11:43.399
+Vamos expandir esta fórmula que eu quero
+
+0:11:41.399,0:11:47.720
+demonstrar
+
+0:11:43.399,0:11:49.600
+por forma a isolar esta outra fórmula,
+
+0:11:47.720,0:11:52.639
+esta outra fórmula primitiva, a fórmula
+
+0:11:49.600,0:11:55.560
+número um que eu já estou que eu
+
+0:11:52.639,0:11:57.240
+pressupus que seja verdadeira. Temos uma
+
+0:11:55.560,0:12:00.519
+fórmula número um e temos uma fórmula
+
+0:11:57.240,0:12:00.519
+número 2.
+
+0:12:01.519,0:12:07.560
+Esta é a fórmula número do
+
+0:12:05.279,0:12:10.480
+OK?
+
+0:12:07.560,0:12:12.680
+E eu quero ver se a fórmula número um
+
+0:12:10.480,0:12:14.480
+implica a veracidade da fórmula número
+
+0:12:12.680,0:12:16.680
+dois.
+
+0:12:14.480,0:12:19.519
+Para isso, eu tenho que pegar nesta
+
+0:12:16.680,0:12:23.360
+fórmula número dois e decompô-la por
+
+0:12:19.519,0:12:25.880
+forma a salientar a fórmula número um
+
+0:12:23.360,0:12:28.320
+que há de estar aqui embotida dentro
+
+0:12:25.880,0:12:32.760
+dela. Portanto, eu vou dizer assim:
+
+0:12:28.320,0:12:36.279
+"Bom, então vamos ver este somatório
+
+0:12:32.760,0:12:40.000
+e e igual a n + 1 é igual ao somatório
+
+0:12:36.279,0:12:44.880
+até n o termo seguinte. Portanto, isto
+
+0:12:40.000,0:12:47.639
+este somatório, isto vai dar o somatório
+
+0:12:44.880,0:12:48.880
+igual a 1 até n e não há dúvida nenhuma,
+
+0:12:47.639,0:12:51.360
+porque é o somatório dos primeiros
+
+0:12:48.880,0:12:54.240
+números até n + 1. Até eu vou fazer aqui
+
+0:12:51.360,0:12:57.600
+o somatório até n
+
+0:12:54.240,0:13:01.480
+e depois e falta somar o último termo, o
+
+0:12:57.600,0:13:04.839
+n + 1. Pronto, é isto. Estes estes dois,
+
+0:13:01.480,0:13:07.079
+OK? É igual a
+
+0:13:04.839,0:13:09.000
+este somatório que aqui está. Portanto,
+
+0:13:07.079,0:13:10.519
+este este não há dúvida nenhuma que este
+
+0:13:09.000,0:13:13.320
+somatório
+
+0:13:10.519,0:13:16.920
+eu decomponho
+
+0:13:13.320,0:13:16.920
+nestes dois termos.
+
+0:13:17.320,0:13:21.680
+OK? Bom,
+
+0:13:21.920,0:13:27.000
+portanto, então isto é igual ao que está
+
+0:13:24.199,0:13:30.519
+aqui. Aqui vou vou vou expandir aqui
+
+0:13:27.000,0:13:33.440
+este estes termos. fica n²
+
+0:13:30.519,0:13:35.680
+n²
+
+0:13:33.440,0:13:38.680
++
+
+0:13:35.680,0:13:38.680
+3n
+
+0:13:40.120,0:13:46.120
++ 2 sobre 2.
+
+0:13:44.600,0:13:51.240
+Isto é o que eu quero demonstrar. Será
+
+0:13:46.120,0:13:54.399
+verdade aqui? Será verdade?
+
+0:13:51.240,0:13:57.160
+OK. E eu te compus aqui.
+
+0:13:54.399,0:13:59.720
+E agora eu vou dizer assim: "Bom, mas
+
+0:13:57.160,0:14:02.160
+este
+
+0:13:59.720,0:14:04.360
+este
+
+0:14:02.160,0:14:06.560
+pelo pressuposto é verdade, é verdade
+
+0:14:04.360,0:14:07.720
+que seja igual a esta fórmula aqui. Pelo
+
+0:14:06.560,0:14:09.240
+menos é verdade para alguns valores
+
+0:14:07.720,0:14:11.320
+iniciais.
+
+0:14:09.240,0:14:12.839
+Portanto, garantidamente que para alguns
+
+0:14:11.320,0:14:14.720
+valores iniciais que nós verificamos
+
+0:14:12.839,0:14:18.240
+aqui manualmente, ela é verdadeira.
+
+0:14:14.720,0:14:21.160
+Então esta expressão posso com confiança
+
+0:14:18.240,0:14:25.880
+substituí-la aqui pela fórmula. nn + 1/
+
+0:14:21.160,0:14:27.880
+2 fica n
+
+0:14:25.880,0:14:30.639
++ 1
+
+0:14:27.880,0:14:32.560
+sobre 2
+
+0:14:30.639,0:14:35.120
++
+
+0:14:32.560,0:14:37.040
+n + 1
+
+0:14:35.120,0:14:40.160
+e eu quero ver será verdade que é igual
+
+0:14:37.040,0:14:40.160
+a isto.
+
+0:14:44.320,0:14:48.639
+OK?
+
+0:14:46.959,0:14:51.600
+Ora,
+
+0:14:48.639,0:14:53.480
+deixo para vocês fazerem a expansão e e
+
+0:14:51.600,0:14:57.639
+pronto. E aí vão verificar. Sim, é
+
+0:14:53.480,0:15:01.000
+verdade. Expandam aqui, fica o n²
+
+0:14:57.639,0:15:02.519
+e + n, depois aqui + 2n, portanto fica +
+
+0:15:01.000,0:15:03.959
+3n.
+
+0:15:02.519,0:15:05.720
+E aqui, aqui reduzindo ao mesmo
+
+0:15:03.959,0:15:10.639
+denominador,
+
+0:15:05.720,0:15:14.199
+aqui reduzindo a 2, aqui 2 2 n qu
+
+0:15:10.639,0:15:17.880
++ n + 2n dá + 3n
+
+0:15:14.199,0:15:22.720
++ 2 e pronto. Ou seja, tá está
+
+0:15:17.880,0:15:22.720
+demonstrado está demonstrado que
+
+0:15:22.920,0:15:27.800
+que na na velocidade desta da fórmula
+
+0:15:25.759,0:15:30.120
+número um, que eu pus aqui como
+
+0:15:27.800,0:15:33.160
+hipótese,
+
+0:15:30.120,0:15:35.480
+ela implica
+
+0:15:33.160,0:15:38.399
+implica que a fórmula
+
+0:15:35.480,0:15:41.279
+número 2 para n + 1,
+
+0:15:38.399,0:15:44.160
+ela fica verdadeira,
+
+0:15:41.279,0:15:45.880
+fica fica demonstrado e a fórmula número
+
+0:15:44.160,0:15:48.440
+um, ela é verdadeira, pelo menos para
+
+0:15:45.880,0:15:50.759
+valores. iniciais.
+
+0:15:48.440,0:15:52.680
+Portanto, ela é verdadeira aqui para n =
+
+0:15:50.759,0:15:55.360
+1.
+
+0:15:52.680,0:15:58.120
+Aqui ela implica então que para n = 2
+
+0:15:55.360,0:15:59.800
+também é verdadeira e pelo efeito tomor,
+
+0:15:58.120,0:16:02.720
+então também é verdadeira para n = 3,
+
+0:15:59.800,0:16:06.079
+para n = 4, para n = 5 e portanto é
+
+0:16:02.720,0:16:07.920
+verdadeira para todo o n. OK? Pronto,
+
+0:16:06.079,0:16:11.040
+aqui fica está demonstrado por indução
+
+0:16:07.920,0:16:13.079
+matemática a forma. Vamos só fazer mais
+
+0:16:11.040,0:16:15.600
+um exercício.
+
+0:16:13.079,0:16:18.160
+Vamos só fazer mais um exercício.
+
+0:16:15.600,0:16:21.639
+Portanto, vamos fazer agora
+
+0:16:18.160,0:16:25.040
+o a seguinte demonstração.
+
+0:16:21.639,0:16:28.240
+Eh, vamos demonstrar
+
+0:16:25.040,0:16:28.240
+o somatório
+
+0:16:28.959,0:16:31.959
+e
+
+0:16:35.199,0:16:39.639
+o somatório
+
+0:16:37.639,0:16:43.079
+dos cubos.
+
+0:16:39.639,0:16:43.079
+de i cubo
+
+0:16:47.040,0:16:52.839
+e varia de 1 a n
+
+0:16:50.519,0:16:55.839
+é igual
+
+0:16:52.839,0:16:58.120
+ao somatório
+
+0:16:55.839,0:17:03.680
+de i
+
+0:16:58.120,0:17:06.160
+varia de 1 a n ao quadrado,
+
+0:17:03.680,0:17:09.760
+ok? Ou seja,
+
+0:17:06.160,0:17:09.760
+e que o somatório
+
+0:17:10.319,0:17:16.199
+de I
+
+0:17:12.880,0:17:20.959
+foi o que acabamos de demonstrar aqui.
+
+0:17:16.199,0:17:23.799
+Demonstramos eh é tal a forma foi
+
+0:17:20.959,0:17:25.520
+deduzida por por por intuitivamente
+
+0:17:23.799,0:17:27.079
+por este método aqui e depois
+
+0:17:25.520,0:17:28.760
+demonstramos.
+
+0:17:27.079,0:17:32.760
+Portanto, então aqui vamos demonstrar
+
+0:17:28.760,0:17:34.320
+agora que o somatório dos cubos
+
+0:17:32.760,0:17:36.840
+é igual ao somatório de i ao quadrado,
+
+0:17:34.320,0:17:40.000
+ou seja, n
+
+0:17:36.840,0:17:40.000
++ 1
+
+0:17:40.880,0:17:47.080
+sobre 2 ao quadrado.
+
+0:17:44.039,0:17:50.559
+OK? Reparem que
+
+0:17:47.080,0:17:54.120
+o somatório de i dá uma forma, um
+
+0:17:50.559,0:17:57.159
+polinómio do segundo grau em n.
+
+0:17:54.120,0:17:59.720
+O somatório de i quadrado
+
+0:17:57.159,0:18:01.960
+dará, não vamos, não vamos agora vê-lo,
+
+0:17:59.720,0:18:07.240
+não vem agora a propósito,
+
+0:18:01.960,0:18:09.360
+dará uma fórmula do terceiro grau em n
+
+0:18:07.240,0:18:13.559
+e e assim sucessivamente. E o somatório
+
+0:18:09.360,0:18:16.520
+de i cubo dará uma forma do quarto grau
+
+0:18:13.559,0:18:19.400
+em n. OK?
+
+0:18:16.520,0:18:20.799
+Pronto, isto é é sistemático.
+
+0:18:19.400,0:18:24.120
+Pronto, então vamos demonstrar isto
+
+0:18:20.799,0:18:27.159
+aqui, OK?
+
+0:18:24.120,0:18:29.000
+Então vamos eh expandindo isto. Isto
+
+0:18:27.159,0:18:33.400
+fica
+
+0:18:29.000,0:18:33.400
+eh fica
+
+0:18:34.159,0:18:42.640
+e fica 1. Assim o que nós queremos
+
+0:18:37.159,0:18:46.120
+demonstrar que 1 + 2 +
+
+0:18:42.640,0:18:46.120
+n o somatório
+
+0:18:46.440,0:18:55.280
+dti ao quadrado
+
+0:18:50.600,0:18:55.280
+é igual ao somatório dos cubos. Isto
+
+0:18:55.520,0:18:59.200
+é o que nós queremos demonstrar,
+
+0:19:01.559,0:19:06.360
+OK? Que é uma propriedade engraçada.
+
+0:19:08.159,0:19:11.919
+Isto é o que nós queremos demonstrar.
+
+0:19:10.480,0:19:14.440
+Portanto, demonstramos para alguns
+
+0:19:11.919,0:19:18.320
+valores iniciais. Cá está.
+
+0:19:14.440,0:19:23.000
+Mostramos, olha, para para n = 1 fica
+
+0:19:18.320,0:19:26.360
+aqui, fica 1 ao quadrado será igual a 1
+
+0:19:23.000,0:19:30.080
+a cubo. É verdade.
+
+0:19:26.360,0:19:30.080
+para n = 2.
+
+0:19:30.559,0:19:37.039
+1 + 2
+
+0:19:35.039,0:19:41.039
+ao quadrado
+
+0:19:37.039,0:19:45.039
+será igual a 1³
+
+0:19:41.039,0:19:48.960
++ 2³.
+
+0:19:45.039,0:19:52.480
+Ora, 2 e 1 3 3 x 3 9 2³ 8 e 1 9. É
+
+0:19:48.960,0:19:54.760
+verdade. Pronto, então já chega. Já
+
+0:19:52.480,0:19:56.320
+demonstrei os valores iniciais. Tá
+
+0:19:54.760,0:19:58.880
+demonstrado?
+
+0:19:56.320,0:20:02.720
+E agora eu quero demonstrar
+
+0:19:58.880,0:20:04.880
+se a fórmula é válida
+
+0:20:02.720,0:20:07.720
+para
+
+0:20:04.880,0:20:12.240
+o termo seguinte de mais 1. Ou seja,
+
+0:20:07.720,0:20:12.240
+agora quero demonstrar, será verdade
+
+0:20:14.640,0:20:20.559
+também a fórmula. Esta mesma forma,
+
+0:20:22.360,0:20:30.880
+quando eu expando até n + 1,
+
+0:20:26.880,0:20:32.520
+esta estamos a assumir que é verdadeira
+
+0:20:30.880,0:20:33.559
+e ela é verdadeira, que eu já demonstrei
+
+0:20:32.520,0:20:36.080
+manualmente para alguns valores
+
+0:20:33.559,0:20:39.520
+iniciais.
+
+0:20:36.080,0:20:39.520
+Fórmula 1.
+
+0:20:39.559,0:20:43.200
+E agora quero demonstrar
+
+0:20:45.520,0:20:49.240
+pré + 1
+
+0:20:50.400,0:20:53.600
+a cub
+
+0:20:56.200,0:21:04.000
+n + n + 1 ao cubo. Esta é que eu quero
+
+0:20:59.520,0:21:05.520
+demonstrar. Será verdadeira esta? OK.
+
+0:21:04.000,0:21:08.480
+Ora bem.
+
+0:21:05.520,0:21:09.880
+H,
+
+0:21:08.480,0:21:11.760
+o que é que eu vou fazer aqui? Vou fazer
+
+0:21:09.880,0:21:13.279
+o seguinte. Estão a ver aqui este
+
+0:21:11.760,0:21:15.640
+quadrado,
+
+0:21:13.279,0:21:18.799
+eu posso agrupar todos os termos aqui
+
+0:21:15.640,0:21:21.039
+desde 1 até n
+
+0:21:18.799,0:21:24.880
+depois o n + 1. Ou seja, eu vou usar a
+
+0:21:21.039,0:21:28.240
+regra do a + b².
+
+0:21:24.880,0:21:33.000
+A² = a²
+
+0:21:28.240,0:21:35.240
++ 2ab + b². Eu vou usar esta regra aqui.
+
+0:21:33.000,0:21:37.840
+Eu vou então vou dizer que o quadrado do
+
+0:21:35.240,0:21:41.400
+primeiro que é a soma de 1 até n, vou
+
+0:21:37.840,0:21:42.919
+dizer 1 +
+
+0:21:41.400,0:21:46.159
+n
+
+0:21:42.919,0:21:46.159
+este quadrado
+
+0:21:46.880,0:21:52.039
+mais
+
+0:21:48.400,0:21:55.080
+o quadrado do segundo
+
+0:21:52.039,0:21:58.080
+n + 1 ao quadrado mais o dobro do
+
+0:21:55.080,0:22:00.720
+primeiro pelo segundo.
+
+0:21:58.080,0:22:02.279
+2n + 1
+
+0:22:00.720,0:22:04.679
+multiplica
+
+0:22:02.279,0:22:06.760
+de 1
+
+0:22:04.679,0:22:09.400
+até n.
+
+0:22:06.760,0:22:12.320
+Pronto, eu expandi, eu expandi aqui este
+
+0:22:09.400,0:22:14.640
+quadrado e quero perguntar se será igual
+
+0:22:12.320,0:22:17.360
+a
+
+0:22:14.640,0:22:20.640
+estes termos
+
+0:22:17.360,0:22:22.200
+n + 1 ao cubo.
+
+0:22:20.640,0:22:25.559
+OK?
+
+0:22:22.200,0:22:29.400
+Ora bem, pronto. Então,
+
+0:22:25.559,0:22:29.400
+eh, temos aqui
+
+0:22:29.919,0:22:35.720
+1 + n
+
+0:22:32.720,0:22:35.720
+quadrado
+
+0:22:39.080,0:22:42.480
+1 + n².
+
+0:22:48.039,0:22:51.039
+Temos,
+
+0:22:51.600,0:22:58.000
+deixa-me aqui pôr aqui mais um mais aqui
+
+0:22:53.600,0:22:58.000
+um termo para isto ficar mais claro.
+
+0:23:08.120,0:23:11.480
+OK?
+
+0:23:09.320,0:23:13.600
+o somatório dos cubos e depois mais o
+
+0:23:11.480,0:23:16.559
+último é de mais 1 a cubo. Ora, o que é
+
+0:23:13.600,0:23:19.520
+que acontece
+
+0:23:16.559,0:23:21.320
+aqui? Vai haver um corta a corta.
+
+0:23:19.520,0:23:24.360
+O somatório
+
+0:23:21.320,0:23:28.039
+deste 1 + n qu
+
+0:23:24.360,0:23:30.120
+é igual a este aqui pela hipótese do
+
+0:23:28.039,0:23:31.720
+pressuposto da fórmula 1 que diz que é e
+
+0:23:30.120,0:23:34.640
+que eu já verifiquei que é para alguns
+
+0:23:31.720,0:23:36.480
+valores iniciais
+
+0:23:34.640,0:23:39.000
+que o quadrado do somatório de i que é
+
+0:23:36.480,0:23:41.880
+igual à soma dos cubos.
+
+0:23:39.000,0:23:43.679
+Portanto, aqui tem um corta corta pelo
+
+0:23:41.880,0:23:46.200
+pressuposto,
+
+0:23:43.679,0:23:47.559
+que é o que tá aqui na forma, que este é
+
+0:23:46.200,0:23:49.679
+igual a este. Então, se este é igual a
+
+0:23:47.559,0:23:51.600
+este, eu corto.
+
+0:23:49.679,0:23:53.159
+Estes dois eu corto já. Fica corta a
+
+0:23:51.600,0:23:56.799
+corta.
+
+0:23:53.159,0:23:59.559
+OK? Sim, senhor. E agora vou desenvolver
+
+0:23:56.799,0:24:04.679
+o resto
+
+0:23:59.559,0:24:07.240
+aqui. N² + 2n + 1
+
+0:24:04.679,0:24:10.720
+e aqui + 2
+
+0:24:07.240,0:24:10.720
+n + 1.
+
+0:24:16.240,0:24:22.440
+E aqui
+
+0:24:18.679,0:24:24.159
+o somatório de 1 até n, eu vou usar uma
+
+0:24:22.440,0:24:25.919
+fórmula que por acaso já conhecemos que
+
+0:24:24.159,0:24:27.600
+que está aqui, vinha do problema
+
+0:24:25.919,0:24:30.080
+anterior que já deduzimos e já já
+
+0:24:27.600,0:24:31.399
+provamos que é nn + 1 + 2. Portanto,
+
+0:24:30.080,0:24:34.120
+esta já está demonstrada, posso
+
+0:24:31.399,0:24:36.600
+substituí-la e e vou usar. Ou seja, para
+
+0:24:34.120,0:24:38.120
+demonstrar aqui uma forma mais avançada,
+
+0:24:36.600,0:24:39.279
+recorro-me de outras formas mais
+
+0:24:38.120,0:24:40.720
+primitivas que, entretanto, já
+
+0:24:39.279,0:24:42.480
+demonstramos. E isto é que é muito comum
+
+0:24:40.720,0:24:45.320
+em matemática. Por isso é que a
+
+0:24:42.480,0:24:48.039
+matemática é um edifício por camadas. Eu
+
+0:24:45.320,0:24:50.320
+agora vou usar as formas mais anteriores
+
+0:24:48.039,0:24:53.120
+que já demonstramos. Vou usar esta
+
+0:24:50.320,0:24:56.440
+fórmula aqui. Bom, portanto, este
+
+0:24:53.120,0:24:59.200
+somatório aqui de 1 até n
+
+0:24:56.440,0:25:02.120
+é igual a n
+
+0:24:59.200,0:25:05.440
++ 1
+
+0:25:02.120,0:25:05.440
+sobre 2
+
+0:25:06.399,0:25:11.960
+será igual a
+
+0:25:09.000,0:25:14.799
+n + 1 ao cubo. É o que nós queremos
+
+0:25:11.960,0:25:18.000
+demonstrar.
+
+0:25:14.799,0:25:19.799
+OK? Pronto. Eu aqui tava tava tava a ser
+
+0:25:18.000,0:25:22.600
+um bocado burro.
+
+0:25:19.799,0:25:26.480
+Nesta nesta nesta quando eu expandi aqui
+
+0:25:22.600,0:25:28.120
+este este n + 1² eh foi borriço porque
+
+0:25:26.480,0:25:30.880
+eu eu tinha que estar a reparar que o n
+
+0:25:28.120,0:25:33.520
++ 1 era era o o fator comum que aparecia
+
+0:25:30.880,0:25:35.440
+em todo o lado e portanto então eu vou
+
+0:25:33.520,0:25:37.440
+fazer corta a corte em todo o lado. aqui
+
+0:25:35.440,0:25:40.320
+o n + 1²
+
+0:25:37.440,0:25:43.520
+ele vai cortar um n + 1 que eu ponho em
+
+0:25:40.320,0:25:47.440
+evidência fica apenas aqui n + 1 e vai e
+
+0:25:43.520,0:25:49.679
+vai cortar com com este n + 1 aqui
+
+0:25:47.440,0:25:52.960
+e vai cortar aqui com este n + 1 aqui
+
+0:25:49.679,0:25:55.480
+que fica apenas n + 1²
+
+0:25:52.960,0:25:59.720
+que é o que está aqui e aqui corta n +
+
+0:25:55.480,0:26:02.440
+1. Este corta e fica aqui 2 e com a
+
+0:25:59.720,0:26:05.240
+fórmula do nn + 1 sobre fica isto.
+
+0:26:02.440,0:26:08.039
+Pronto, é mais simples. OK, também dava.
+
+0:26:05.240,0:26:10.440
+Eu agora tinha que desenvolver o n cubo
+
+0:26:08.039,0:26:12.880
+aqui, mas mas era borriço porque hova
+
+0:26:10.440,0:26:16.320
+aqui um corta corta e portanto fica
+
+0:26:12.880,0:26:19.080
+aqui. Então aqui fica n + 1 mais aqui o
+
+0:26:16.320,0:26:23.080
+2 corta corta. Oi.
+
+0:26:19.080,0:26:23.080
+O 2 corta corta aqui.
+
+0:26:24.399,0:26:34.000
+E portanto aqui fica n² + n será igual a
+
+0:26:28.520,0:26:34.000
+n + 1 qu. É o que queremos provar.
+
+0:26:36.600,0:26:43.240
+Ora, e obviamente que é porque aqui n² +
+
+0:26:40.039,0:26:46.399
+2n + 1, tá aqui n²
+
+0:26:43.240,0:26:49.399
++ 2n + 1. E pronto, fica demonstrado. Cá
+
+0:26:46.399,0:26:51.000
+está. Demonstramos mais uma forma mais
+
+0:26:49.399,0:26:52.480
+complexa,
+
+0:26:51.000,0:26:54.200
+que era esta aqui, esta forma aqui
+
+0:26:52.480,0:26:57.480
+inicial,
+
+0:26:54.200,0:26:59.399
+OK? Do somatório dos cubos.
+
+0:26:57.480,0:27:00.679
+E, bom, pelo meio há o somatório dos
+
+0:26:59.399,0:27:02.000
+quadrados, mas isso não demonstramos
+
+0:27:00.679,0:27:03.640
+porque porque não calhou. Pronto,
+
+0:27:02.000,0:27:06.000
+podíamos ter, podem pode ficar para
+
+0:27:03.640,0:27:08.080
+vocês como exercício, desde logo,
+
+0:27:06.000,0:27:10.600
+deduzir a forma, se souberem deduzir ou
+
+0:27:08.080,0:27:13.080
+se não souberem, eh, vão vão procurar
+
+0:27:10.600,0:27:14.679
+qual é a forma dos quadrados,
+
+0:27:13.080,0:27:17.279
+OK?
+
+0:27:14.679,0:27:19.679
+Eh, e pronto, e demonstramos aqui a
+
+0:27:17.279,0:27:22.559
+forma dos cubos, que é igual ao
+
+0:27:19.679,0:27:24.840
+somatório de i ao quadrado. É uma é de
+
+0:27:22.559,0:27:26.960
+facto é um é um é um facto notável.
+
+0:27:24.840,0:27:29.360
+Dá-se essa curiosidade, não é? da forma
+
+0:27:26.960,0:27:32.640
+do somatório dos cubos ser igual a ao
+
+0:27:29.360,0:27:36.480
+somatório dos aos ao quadrado.
+
+0:27:32.640,0:27:39.720
+Eh, e demonstramos, ficou demonstrado
+
+0:27:36.480,0:27:42.600
+eh aqui na no desenvolvimento usamos,
+
+0:27:39.720,0:27:44.760
+tivemos que nos recorrer da da forma
+
+0:27:42.600,0:27:47.799
+mais antiga. Pronto, que isto é bastante
+
+0:27:44.760,0:27:50.279
+comum. E pronto, dou por terminado este
+
+0:27:47.799,0:27:52.039
+tutorial sobre indução matemática. Ainda
+
+0:27:50.279,0:27:54.760
+estamos na no período das bases, dos
+
+0:27:52.039,0:27:57.120
+fundamentos, mas isto é tudo bases
+
+0:27:54.760,0:28:00.399
+que achei por bem. para começar a esta
+
+0:27:57.120,0:28:02.519
+minha playlist, portanto, dar uma uma
+
+0:28:00.399,0:28:04.440
+uma passagem sobre todas as bases
+
+0:28:02.519,0:28:07.200
+fundamentais que eu considero
+
+0:28:04.440,0:28:10.399
+importantes, não é? Para relembrar
+
+0:28:07.200,0:28:13.399
+ideias. Espero que tenham gostado e até
+
+0:28:10.399,0:28:13.399
+uma próxima oportunidade.
+
+
