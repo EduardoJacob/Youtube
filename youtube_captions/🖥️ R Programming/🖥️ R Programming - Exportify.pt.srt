@@ -1,0 +1,910 @@
+0:00:01.600,0:00:10.080
+Ora, sejam bem-vindos a mais um 
+tutorial, programação R com RStudio,  
+
+0:00:10.080,0:00:16.960
+OK? Porque eu frizo sempre estes dois termos, 
+porque não se trata apenas da programação em R,  
+
+0:00:16.960,0:00:21.880
+mas também de todas as mais valias 
+que nos dá o este IDE, o RStudio,  
+
+0:00:21.880,0:00:28.640
+ou seja, é o é o que valoriza ainda mais a 
+linguagem R, é, a existência de deste IDE. OK?  
+
+0:00:29.200,0:00:33.800
+Portanto, um não anda sem o outro. Eu sempre 
+conheci desde o início, quando há uns anos,  
+
+0:00:33.800,0:00:38.480
+quando comecei a trabalhar em R, já existia o R 
+Studio. Por acaso ainda não investiguei até que  
+
+0:00:38.480,0:00:42.640
+ponto é quando é que apareceu um e quando é que 
+apareceu o outro. Isto é, quando é que o RStudio  
+
+0:00:42.640,0:00:48.040
+apareceu depois da linguagem R. Suponho que a 
+linguagem tenha aparecido primeiro, por acaso.  
+
+0:00:48.040,0:00:54.280
+Vou ver se não me esquece depois de investigar 
+isso, só por cultura geral. Ora bem, hoje vamos  
+
+0:00:54.280,0:01:06.680
+então ver o tema de hoje vai ser o Exportify. 
+OK, deixa aumentar aqui um bocadinho a fonte.
+
+0:01:06.680,0:01:13.840
+Ora, appearance ou pôr talvez no nos 
+125%. Eu tenho posto nos 125%. Mas talvez  
+
+0:01:13.840,0:01:21.880
+até ponha nos 150. Isto hoje o programa 
+é pequeno. Talvez 150%. OK. Portanto,  
+
+0:01:21.880,0:01:37.960
+nós temos aqui o Xportify, então a 150 também 
+é muito, não se vê nada. Ora, appearance 125.
+
+0:01:37.960,0:01:46.360
+OK, então qual é aqui a ideia? Portanto, 
+eh, eu já vos falei de webscrapping e nós  
+
+0:01:46.360,0:01:52.960
+e já fizemos web scraping com a ajuda do de um 
+de um de um add-on de uma extensão de browser.  
+
+0:01:52.960,0:01:57.520
+O addon fazia o web scraping para nós, que era 
+o instant data scraper. Não percam todos os  
+
+0:01:57.520,0:02:03.920
+meus tutorials desta playlist, da playlist que 
+eu tenho de programação em R. Portanto, isto é  
+
+0:02:03.920,0:02:13.160
+uma há uma certa continuidade nos tutorials. 
+E, portanto, nós vimos web scraping bem. Eh,  
+
+0:02:13.160,0:02:19.360
+suponho que as pessoas que estejam a ouvir saibam 
+o que é web scraping, senão investiguem um bocadinho.  
+
+0:02:19.360,0:02:27.880
+Basicamente é ir buscar informação eh às páginas 
+web, digamos assim. Eh, e portanto nós tínhamos  
+
+0:02:27.880,0:02:36.600
+visto o o addon,  instant data scraper que eu usei 
+e depois tratei os dados dentro do R. E também  
+
+0:02:36.600,0:02:45.520
+falei-vos que alguns packages de de R dedicados ao 
+webscraping, OK? sem precisarmos de um addon fazer  
+
+0:02:45.520,0:02:51.680
+tudo tudo aqui dentro da programação. Desde logo 
+o R selenium que é baseado no famoso. Não tenho  
+
+0:02:51.680,0:02:55.800
+muita experiência com o selenium, mas sei que 
+é uma ferramenta muito usada, muito famosa para  
+
+0:02:55.800,0:03:03.920
+webscraping e outras ferramentas, o RVEST e outra 
+outros outros packages que existem aqui no R,  
+
+0:03:03.920,0:03:11.320
+mas também vos falei das limitações, ou seja, que 
+quando um site tem uma autenticação e eu tenho que  
+
+0:03:11.320,0:03:20.480
+fazer uma autenticação e às vezes aparece-me o o 
+capcha, aqueles captchas para nós identificarmos  
+
+0:03:20.480,0:03:27.040
+as bicicletas. e as passadeiras e etc, etc. 
+Eh, não é prático esses esses mecanismos,  
+
+0:03:27.040,0:03:39.160
+pelo menos tanto quanto eu sei, tanto quanto eu 
+me apercebo, esses  packages de webscraping eh  
+
+0:03:39.160,0:03:44.960
+quase que se tornam inúteis porque eles não eles 
+não fazem autenticação. Portanto, quer dizer,  
+
+0:03:44.960,0:03:50.440
+acaba por ficar o processo semimanual na mesma 
+ou semiautomático, porque eu tenho que autenticar  
+
+0:03:50.440,0:03:57.240
+primeiro e, enfim, não é prático. Agora, se for 
+um site que não te requira autenticação, um site  
+
+0:03:57.240,0:04:04.040
+livre, um site de informação pública, então 
+aí, OK, então aí, sim, senhor. Eh, poderíamos  
+
+0:04:04.040,0:04:14.440
+usar esses esses packages. Eu ainda não fiz 
+nenhum tutorial sobre alguns desses packages, porque  
+
+0:04:14.440,0:04:23.440
+não calhou. Eh, de hoje para amanhã sou capaz de fazer. 
+Entretanto, também vos mostrei outros tutorials  
+
+0:04:23.440,0:04:31.760
+com APIs e chamei a atenção que esse método das 
+APIs era sempre o melhor o melhor método de todos.  
+
+0:04:31.760,0:04:42.560
+Ou seja, expliquei porque assim o método da API é 
+mais robusto. Eh, porque se uma página web mudar a  
+
+0:04:42.560,0:04:52.800
+informação, eh, a API não muda ou se mudar muda 
+de uma forma controlada, documentada. OK? Eh,  
+
+0:04:52.800,0:04:59.200
+mas hoje vamos ver um outro método, um outro 
+método ainda para além de todos estes métodos.  
+
+0:05:00.440,0:05:11.120
+Eh, e hoje vamos ver um método que vou buscar 
+informação ao Spotify. Eh, e portanto como eh nem  
+
+0:05:11.120,0:05:17.920
+é por API, nem é por web scraping,  É um site 
+e procuramos às vezes há sites nestas plataformas  
+
+0:05:17.920,0:05:23.400
+famosas que já são os sites especializados em 
+fazerem downloads de informação. São aplicações  
+
+0:05:23.400,0:05:28.560
+que alguém já fez, entretanto também recorrendo 
+à API e, portanto, facilitam-nos a vida. Ora,  
+
+0:05:28.560,0:05:35.440
+imaginando que eh vocês querem explorar um 
+pouco os vossos dados de Spotify e eu já fiz  
+
+0:05:35.440,0:05:43.640
+um tutorial sobre Spotify R, não percam. Eh, 
+mas imaginando que vocês dizem assim: "E pá,  
+
+0:05:43.640,0:05:49.840
+eu não tenho paciência, não tenho paciência 
+ou é complicado estar a a abrir uma conta de  
+
+0:05:49.840,0:05:56.320
+development junto do Spotify Development e estar 
+a obter as credenciais e é uma chatice e pronto,  
+
+0:05:56.320,0:05:59.880
+e é mais trabalhoso." Eu queria uma coisa mais 
+simples. Eu só quero, eu só quero, por exemplo,  
+
+0:05:59.880,0:06:05.520
+analisar as minhas playlists. Sim, senhor. 
+Então existem sites, é uma questão de procurar  
+
+0:06:05.520,0:06:11.320
+no Google ou no chat GPT, que nos dão diversas 
+informações para estas plataformas mais famosas,  
+
+0:06:11.320,0:06:17.800
+como o Steam e o Spotify, eh, que nos podem dar 
+que pode ser o suficiente para aquilo que alguém  
+
+0:06:17.800,0:06:23.360
+possa possa quer. Neste caso, eu em tempos, 
+eu fiz uma pesquisa e encontrei o Exportify,  
+
+0:06:23.360,0:06:34.000
+que eu não conhecia. Eh, deixa-me entrar aqui no 
+site Exportify. Ora, deixa-me entrar aqui para  
+
+0:06:34.000,0:06:44.680
+vocês verem. Pronto, e o Exportify está aqui. E 
+foi um site que eu descobri eh que me permite  
+
+0:06:44.680,0:06:51.480
+fazer o o download das minhas playlists, OK? 
+Para depois eu poder fazer trabalhar. OK.  
+
+0:06:51.480,0:06:55.400
+aparece-me aqui esta esta este pedido de 
+autenticação para eu me autenticar com as  
+
+0:06:55.400,0:07:03.720
+minhas credenciais e a partir daí a aplicação 
+pois terá terá acesso às minhas playlists. OK?  
+
+0:07:03.720,0:07:09.120
+Sim senhor. E pronto, cá está. É isto também 
+aqui as minhas playlists. E agora posso fazer  
+
+0:07:09.120,0:07:17.120
+carregar aqui exportar all. Export all, digo. 
+E, portanto, ele baixa um CSV massivo. OK.  
+
+0:07:18.120,0:07:25.240
+Eh, e pronto, essa é uma coisa que eu já 
+fiz. E eu tenho aqui nesta folder playlists,  
+
+0:07:25.240,0:07:30.400
+eu tenho as minhas playlists. Portanto, eu tenho 
+aqui as minhas playlists. Pronto. E, portanto,  
+
+0:07:30.400,0:07:36.360
+eu queria vos dar conhecimento disto, como também 
+aqui também esta é uma alternativa para além das  
+
+0:07:36.360,0:07:44.680
+APIs, para além de de de packages de de dedicados 
+a webscraping, para além de addons, para além, enfim,  
+
+0:07:44.680,0:07:51.080
+1001 formas que hoje em dia existem de fazer as 
+coisas, também temos esta mais simples. Às vezes  
+
+0:07:51.080,0:07:57.240
+procuramos um site que uma aplicação que já que 
+já faça as coisas por nós e às vezes pode ser o  
+
+0:07:57.240,0:08:05.320
+suficiente. é o caso aqui deste Exportify. Ah, então 
+eu fiz aqui um... este tutorial vai ser curto porque  
+
+0:08:05.320,0:08:11.520
+era só para vos mostrar isto e eu só fiz aqui 
+uma pequena análise engraçada que vos vou mostrar  
+
+0:08:11.520,0:08:20.840
+onde qual é aqui a o tema que eu fiz como exemplo 
+demonstrativo. como eu já fiz, eu já agora reparem  
+
+0:08:20.840,0:08:26.280
+isto que vamos ver hoje, eu também podia fazer 
+perfeitamente naquele outro tutorial que eu vos  
+
+0:08:26.280,0:08:32.440
+mostrei com a API Spotify R, OK? Obviamente que 
+eu aí tenho tudo, só que eu estou-vos a mostrar  
+
+0:08:32.440,0:08:37.240
+este tutorial para quem como uma alternativa, 
+para quem não queira trabalhar com a API, que era  
+
+0:08:37.240,0:08:44.360
+uma programação mais simples, ir buscar os CSVs e 
+pronto, mais nada, uma coisa mais simples. Pronto,  
+
+0:08:44.360,0:08:50.200
+então como alternativa eu fiz aqui uma função e o 
+que é que o que é que ela me vai dar? A a questão  
+
+0:08:50.200,0:08:56.640
+é esta aqui que eu pus aqui como como demo ou como 
+ilustrativo. Eu quero saber ano após ano, eu quero  
+
+0:08:56.640,0:09:02.480
+analisar apenas My Top Songs, que são estes que 
+estão aqui, que quem usa o Spotify conhece isto  
+
+0:09:02.480,0:09:09.720
+perfeitamente, que todos os anos o Spotify eh ao 
+fim do ano nos mostra quais o normalmente é um uma  
+
+0:09:09.720,0:09:18.520
+playlist com 100 temas e nos mostra h os e é isto 
+mesmo que o título diz, que o nome diz, as músicas  
+
+0:09:18.520,0:09:24.720
+que nós mais ouvimos ao longo do ano e dá-nos 
+as 100 músicas que mais ouvimos. Ok, pronto.  
+
+0:09:24.720,0:09:33.440
+E portanto são estas aqui. Eu tenho a informação 
+aqui desde 2018 até 2025. OK? Pronto. Então vai  
+
+0:09:33.440,0:09:39.760
+ser uma coisa muito simples, um tutorial rápido. 
+Portanto, aqui uma, isto nem tem função, é aqui um  
+
+0:09:39.760,0:09:47.040
+pedacinho de código. Eh, só para vocês verem mais 
+uma vez a a tremenda potencialidade do R e como o  
+
+0:09:47.040,0:09:56.040
+R permite uma uma uma programação perfeitamente 
+compacta. OK? O R é uma linguagem que com pouco  
+
+0:09:56.040,0:10:03.600
+pouco código e usando alguns packages à 
+mistura, não é? Se soubermos que eles existem ou  
+
+0:10:03.600,0:10:09.200
+se suspeitarmos por uma determinada funcionalidade 
+e existe um determinado package, pois nós podemos  
+
+0:10:09.200,0:10:13.400
+fazer uma programação muito compacta, como vamos 
+ver aqui. Pronto, então o que é que isto faz aqui?  
+
+0:10:13.400,0:10:20.040
+nós, eu interessa-me ter aqui, primeiro crio
+um um eu um eu quero estudar apenas os artistas,  
+
+0:10:20.040,0:10:28.200
+ou seja, a questão não é as músicas que eu eu 
+quero apenas eh eh saber quais os novos artistas  
+
+0:10:28.200,0:10:32.240
+que eu vou descobrindo ano a ano, imaginando 
+que há um artista que eu gosto bastante e eu  
+
+0:10:32.240,0:10:37.160
+pergunto-me assim: "E pá, há quantos anos é que 
+eu conheço este artista?" OK, pronto, então posso  
+
+0:10:37.160,0:10:42.960
+vir aqui e aqui eu vou saber rapidamente em que 
+ano é que eu comecei a ouvir esse artista, OK?  
+
+0:10:44.440,0:10:51.840
+Eh, sim, senhora. Ou, enfim, ou que o conheci 
+pela primeira vez, ou pelo menos que ouvi-o  
+
+0:10:51.840,0:10:58.600
+bastante o suficiente para que o Spotify me me o 
+considerasse na na lista da da das 100 músicas  
+
+0:10:58.600,0:11:02.880
+mais ouvidas. OK, não sei se me explico. Ora 
+bem, então nós temos aqui a primeira linha. O  
+
+0:11:02.880,0:11:09.600
+que é que ele faz? Bom, faz um data frame com 
+dois campos. Inicializa o data frame vazio,  
+
+0:11:09.600,0:11:18.320
+mas já definido com dois campos. O artistas 
+será é um é um vetor de character
+
+0:11:18.320,0:11:23.560
+vazio e o year é um é um numérico. OK? Esta é a 
+primeira coisa que eu faço aqui. Bom, já agora,  
+
+0:11:23.560,0:11:27.880
+deixa-me correr este primeiro código. Vocês 
+já sabem, se veem os meus outros tutorials,  
+
+0:11:27.880,0:11:34.720
+que eu tenho sempre uma um um um um uma parte 
+inicial de código que eh não é fundamental,  
+
+0:11:34.720,0:11:39.160
+que que não é necessário para vocês seguirem o 
+tutorial. é uma parte simplesmente que eu gosto,  
+
+0:11:39.160,0:11:46.480
+uma inicialização que eu gosto de correr 
+inicialmente. Eh, e também faz o load dos  
+
+0:11:46.480,0:11:53.640
+dos packages que eu vou usar agora. E como eu 
+já disse também noutros tutorials, estes meus  
+
+0:11:53.640,0:11:58.760
+tutorials que eu faço, eles eu considero-os para 
+nível médio avançado. Portanto, eu aqui não vou  
+
+0:11:58.760,0:12:04.840
+ensinar o Baba do R. Eu suponho que as pessoas têm 
+que saber as bases, têm que saber como instalar um  
+
+0:12:04.840,0:12:11.160
+pacote, um package novo no R. como como carregar 
+um package, como fazer o load dele com com os  
+
+0:12:11.160,0:12:15.240
+com o comando library, etc, etc. Ou seja, o 
+Baba tem que saber e tem que saber também o  
+
+0:12:15.240,0:12:28.080
+Baba aqui do IDE. Pronto, portanto, e essa é 
+a ideia dos meus tutorials, OK? Eh, portanto,
+
+0:12:28.080,0:12:34.880
+tenho aqui no a minha função display media, onde 
+eu ponho aqui e ponho sempre, normalmente eu  
+
+0:12:34.880,0:12:39.200
+tenho sempre alguns print screens que é o que é o 
+que eu ponho junto aos meus projetos, porque se eu  
+
+0:12:39.200,0:12:45.160
+voltar daqui a uns anos às duas por três já ou já 
+não me recordo ou estou a ver Exportify e já não me  
+
+0:12:45.160,0:12:48.920
+lembro e digo assim: "Pá, penso o que é isto? Eu 
+já não me lembro." Pronto. E aqui eu lembro-me,  
+
+0:12:48.920,0:12:53.720
+OK? E aqui por este aspecto lembro-me que 
+é um site e digo: "Ah, OK, isto é um site,  
+
+0:12:53.720,0:13:01.040
+é uma ferramenta uma tool, pronto, e consigo...
+lá diz o ditado que uma imagem vale mais que 10  
+
+0:13:01.040,0:13:06.160
+que 1000 palavras e portanto assim é facilita-me. 
+OK? Fica uma uma espécie de documentação que eu  
+
+0:13:06.160,0:13:13.320
+ponho aqui. Eh, vamos então aqui inicializar o 
+data frame. Cá está. Ele tem zero observations,  
+
+0:13:13.320,0:13:19.120
+duas variables. OK. Pronto. E agora o que é 
+que nós vamos fazer? Vamos fazer aqui um loop.  
+
+0:13:19.120,0:13:25.360
+onde eu vou ver os CSVs, as playlists que foram 
+foram downloadados pela ferramenta. Pronto,  
+
+0:13:25.360,0:13:28.760
+naturalmente. Pronto, eu vou fazer aqui um 
+exemplo para não fazer o loop todo tacada,  
+
+0:13:28.760,0:13:40.600
+senão não se entende. Eu vou inicializar aqui eh 
+o year a 2018 porque o loop vai varrer 2018 a 2025.  
+
+0:13:40.600,0:13:48.040
+OK? Pronto. Então eu vou inicializar aqui 2018. 
+Pronto, e agora consigo testar aqui este loop  
+
+0:13:48.040,0:13:55.080
+linha a linha. Primeiro o file name. O file name 
+eu construo o file, o file name que está na folder  
+
+0:13:55.080,0:14:04.480
+playlists, OK? E que é está aqui dentro aqui desta 
+folder. Eh, este é o nome que é o é o nome que o  
+
+0:14:04.480,0:14:10.960
+Spotify deu. Portanto, este é o é o nome é o 
+nome oficial que o Spotify atribuiu à playlist.  
+
+0:14:11.480,0:14:18.120
+E é o é, portanto, é o nome com que a ferramenta 
+baixou também a playlist. OK. Eh, agora vou ler,  
+
+0:14:18.120,0:14:27.320
+eu vou ler a a playlist. Cá está que ela tem 100 
+observações. Eh, tem uma quantidade de variáveis  
+
+0:14:27.320,0:14:32.840
+que a maior parte delas não interessa para nada. 
+Eh, mas tem aqui os temas, o nome da canção,  
+
+0:14:32.840,0:14:40.800
+o álbum, o artista, etc., etc. Eh, e portanto 
+eu agora o que é que eu quero? Eu quero  
+
+0:14:41.600,0:14:51.440
+vou filtrar, eu quero a fazer obter apenas os 
+artistas. Isto é um código muito simples. Ou seja,  
+
+0:14:51.440,0:15:00.840
+eu só quero a lista de artistas, os unique 
+artistas. OK, pronto. Eu vou aqui. Pronto, e  
+
+0:15:00.840,0:15:10.120
+faço aqui o unique. Cá está. das 100 músicas, elas 
+englobaram 72 artistas diferentes. OK? E pronto,  
+
+0:15:10.120,0:15:21.280
+cá estão os artistas para ordem alfabética, 
+eh, com... e sem repetidos. OK. Sim, senhora. Eh,  
+
+0:15:21.280,0:15:26.760
+por outro lado, agora tenho, vou considerar 
+este eu vou acrescentar aqui um campo neste,  
+
+0:15:26.760,0:15:31.400
+neste data frame que ele tem os artistas. Vou 
+acrescentar o ano, que é o o ano é este ano que eu  
+
+0:15:31.400,0:15:38.520
+estou aqui. Eu vou dizer: "Olha, estes estes são os 
+artistas que eu mais ouvi no ano 2018. Portanto,  
+
+0:15:38.520,0:15:46.760
+cá está. E ela acrescentou aqui. Sim, senhora. E 
+agora tenho este data frame dois campos. OK. Que é  
+
+0:15:46.760,0:15:56.920
+para saber, no ano 2018, este foi os artistas que 
+eu mais ouvi. OK. E agora tenho aqui um display  
+
+0:15:56.920,0:16:01.240
+que é para depois quando tiver a fazer o loop. 
+Pronto. E agora o que é que me interessa fazer?  
+
+0:16:01.240,0:16:08.680
+Agora interessa-me, eu vou acumulando, eu vou 
+acumulando no total, que é este artistas full.  
+
+0:16:08.680,0:16:14.160
+Ano após ano, eu vou acumular os novos artistas 
+que eu fui descobrindo nesse ano e que eu ainda  
+
+0:16:14.160,0:16:20.320
+não conhecia dos anos anteriores, digamos assim, 
+a nível das dos temas mais mais ouvidos. OK? Não  
+
+0:16:20.320,0:16:25.400
+sei se me explico. Eh, e portanto, o que é que 
+eu tenho aqui? Tenho um antijoin, que também já  
+
+0:16:25.400,0:16:35.440
+vimos isto noutros tutorials, que vem no package 
+dplyr. antijoin dá-nos as diferenças, dá-nos  
+
+0:16:35.440,0:16:41.520
+através de uma chave quais os registros de um data 
+frame que não estão contidos noutro dataframe. Eu  
+
+0:16:41.520,0:16:52.320
+aqui estou a dizer quais os registros do DF, 
+que o DF é é as novidades as novidades deste
+
+0:16:52.320,0:17:00.480
+o new data frame é as novidades deste ano. Não, 
+o new data frame é o que eu OK. É o é o é o que  
+
+0:17:00.480,0:17:06.560
+eu vou é a diferença. O New Datafame vai ser a 
+diferença dos artistas que eu ouvi este ano para  
+
+0:17:06.560,0:17:13.400
+todos os que vi nos anos anteriores. Os para ver 
+os novos aqui. OK. Antijoin por artista. Claro  
+
+0:17:13.400,0:17:18.560
+que agora como a diferença vai ser a totalidade 
+porque porque o full está vazio e portanto o  
+
+0:17:18.560,0:17:29.280
+new data frame e vai ter aqui as 72 observações 
+igual. Pronto. E agora acrescento no full. Ok.  
+
+0:17:29.280,0:17:35.680
+Sim, senhor. E agora vou vamos só 
+fazer aqui manualmente mais um ano.
+
+0:17:35.680,0:17:46.560
+year igual a 2019. Pronto, só para vermos. E 
+vamos repetir aqui, repetir o loop. Ok. filename
+
+0:17:46.560,0:17:57.880
+2019. Data frame com 100 observações. 
+Também o número de artistas distintos.
+
+0:17:59.840,0:18:03.640
+89.
+
+0:18:03.640,0:18:07.360
+o ano
+
+0:18:07.360,0:18:13.480
+2019, 
+
+0:18:13.480,0:18:20.680
+o antijoin, o antijoin por artista, não por ano. 
+Ignora o ano, o ano não importa para comparar. Eu  
+
+0:18:20.680,0:18:27.120
+quero apenas por artista os artistas novos 
+que estão do ano 2019 e que não estavam no  
+
+0:18:27.120,0:18:36.520
+acumulado total dos anos anteriores. Faço o 
+new data frame. Eh, e portanto dá deu-me 70,  
+
+0:18:36.520,0:18:49.520
+OK? No ano, em 2019 eu ouvi 70 novos artistas. OK. Ah, 
+sim, senhora. E agora acumulo. OK. E pronto. Eh,  
+
+0:18:49.520,0:18:56.440
+então vamos agora vou fazer o o loop de tacada, 
+OK? Vou inicializar aqui o full outra vez,  
+
+0:18:56.440,0:19:02.320
+OK? E vou fazer o loop de tacada. OK, ele 
+já correu. Então, o que é que eu tenho no  
+
+0:19:02.320,0:19:07.720
+full? Tenho para já, deixa-me limpar estes dois 
+dataframes aqui, que são data frames de trabalho,  
+
+0:19:07.720,0:19:19.920
+que eu não preciso deles. Aqui com remove. 
+Deixa limpar estes dois. OK. e, portanto,  
+
+0:19:19.920,0:19:29.800
+o que é que eu tenho aqui? Eu tenho eh eh os 
+artistas distintos destes últimos anos, como vocês  
+
+0:19:29.800,0:19:43.360
+estão que estão a ver, aqueles que eu mais ouvi 
+do ano 2018 e assim sucessivamente até 2025. OK.
+
+0:19:43.360,0:19:50.080
+O que é que eu tenho agora aqui? Length. Eh, 
+unique artistas artistas full artistas length  
+
+0:19:50.080,0:19:59.160
+unique 344 isto é simplesmente OK, isto deve ter 
+sido uma confirmação para ver que que eu não que  
+
+0:19:59.160,0:20:05.360
+não havia bug e que eu não tinha introduzido 
+inadvertidamente artistas repetidos. Ok,  
+
+0:20:05.360,0:20:10.200
+pronto, deve ter sido isso para confirmar, 
+porque claro que isto é o mesmo que escrever  
+
+0:20:10.200,0:20:21.880
+o número de rows, nrow dos artistas 
+artistas full. OK? É a mesma coisa. Pronto,  
+
+0:20:21.880,0:20:29.000
+só que aqui eu garanto que não tenho repetidos 
+porque eu filtrei o o unique e, portanto,  
+
+0:20:29.000,0:20:33.200
+e está correto e deu-me 344. OK? Isto é 
+uma chacagem. Pronto. E agora aqui eu  
+
+0:20:33.200,0:20:42.000
+vou tenho uma função minha que é o tableprop. 
+OK. Eh, mas isto é o mesmo que fazia por outra  
+
+0:20:42.000,0:20:47.480
+via. Esta é só por dizer que aqui dá-me com 
+proportion também. Mas isto era o mesmo que  
+
+0:20:47.480,0:21:00.400
+faz usar a função de base table table de 
+artist como é que é artist. OK. Deixa ver  
+
+0:21:00.400,0:21:11.520
+aqui. Já não me lembro se o table obriga a 
+fatorizar este campo ou não. Já vamos ver.
+
+0:21:11.520,0:21:18.560
+Portanto, esta é uma função 
+que vem de base, de raiz.
+
+0:21:18.560,0:21:25.480
+Deixa executar. OK. Só que dá neste formato. 
+Eh, é a mesma coisa, como estão a ver aqui, dá
+
+0:21:25.480,0:21:34.240
+Os totais por ano. Pronto. Eh, como vêem, bastante 
+poderoso. Vejam o poderio da linguagem R, OK? Faz  
+
+0:21:34.240,0:21:41.040
+logo, faz agregações, faz logo os summaries, 
+etc, etc, etc. uma linguagem muito poderosa.  
+
+0:21:41.040,0:21:48.120
+Há quem há quem diga às vezes que ah, bom, mas o 
+R não é uma linguagem generalista, é uma linguagem  
+
+0:21:48.120,0:21:57.520
+domain specific language, porque porquê? Porque 
+é vocacionada para estatística. E pá, não, não,  
+
+0:21:57.520,0:22:01.960
+isso não está correto. É de facto vocacionada 
+para estatística, está correto, mas não é de  
+
+0:22:01.960,0:22:07.280
+domain específic, é uma linguagem completamente 
+generalista. Eu posso fazer aqui tudo naturalmente  
+
+0:22:07.280,0:22:14.480
+que naturalmente que há linguagens especializadas 
+em cada área. Se que naturalmente que aqui e e por  
+
+0:22:14.480,0:22:21.280
+exemplo a componente para fazer aplicações 
+com GUIs grafic user interface é fraca na  
+
+0:22:21.280,0:22:28.080
+linguagem R. Sim senhor. Mas também mas também 
+existe. Existe um framework que é o Shiny que  
+
+0:22:28.080,0:22:34.920
+faz aplicações na web com interfaces gráficas. OK? 
+Eh, e acho que existem até outras frameworks. Eh,  
+
+0:22:34.920,0:22:41.240
+qualquer dia posso fazer até um tutorial sobre 
+esse tema, mas, portanto, é uma linguagem  
+
+0:22:41.240,0:22:48.920
+perfeitamente generalista, porque se vamos por aí, 
+porque as linguagens domain specific são linguagens,  
+
+0:22:48.920,0:22:56.400
+por exemplo, o SQL, pronto, domain específic. 
+Isso assim, só serve para fazer queries. OK. Eh,  
+
+0:22:56.400,0:23:01.840
+agora não, R não é R é uma linguagem completamente 
+generalista e tanto assim é tão generalista quanto  
+
+0:23:01.840,0:23:08.440
+é o Python porque tanto assim que ferramentas 
+hoje em dia profissionais de de de   
+
+0:23:08.440,0:23:15.520
+de inteligência artificial eh por exemplo o Azure, 
+Microsoft Azure e outras ferramentas eh da Google,  
+
+0:23:15.520,0:23:20.160
+etc, etc, e outras diversas que trabalham com 
+machine learning e inteligência artificial,  
+
+0:23:20.160,0:23:25.240
+normalmente vem sempre com as duas linguagens 
+de eleição para fazer scripting dentro das  
+
+0:23:25.240,0:23:30.680
+ferramentas. Normalmente é sempre o Python e o 
+R. Eu conheço várias linguagens que têm suportam  
+
+0:23:30.680,0:23:40.040
+as duas de igual para igual. OK? Portanto, o R 
+então é tão generalista quanto o Python. Ora,  
+
+0:23:40.040,0:23:44.200
+vamos continuar então aqui. Portanto, então o 
+table o já me deu esta informação, mas eu tenho,  
+
+0:23:44.200,0:23:49.200
+eu fiz a minha a minha função aqui, o minifunctions 
+que está no package minifunctions. Pronto, que dá  
+
+0:23:49.200,0:23:54.600
+dá-me a mesma informação que dá-me também aqui 
+em termos de de percentuais. Pronto. O que é que  
+
+0:23:54.600,0:24:01.480
+isto me diz? Então, diz-me como era expectável , ano 
+após ano, eu vou descobrindo o número de artistas  
+
+0:24:01.480,0:24:05.760
+novos que eu vou descobrindo é sempre cada vez 
+pequeno, porque é normal que nos primeiros anos,  
+
+0:24:05.760,0:24:11.680
+em termos que eu era, eu era novo no Spotify, pois 
+é normal tudo quanto eu ouvia no Spotify era tudo  
+
+0:24:11.680,0:24:17.200
+novo do ponto de vista, pelo menos o conhecimento 
+que o Spotify tinha de mim. E, portanto, é eram  
+
+0:24:17.200,0:24:23.960
+em termos de Spotify eram artistas novos. OK? Eh, 
+eu foi era a primeira vez que eu os ouvi, que eu  
+
+0:24:23.960,0:24:30.200
+os ouvi dentro do Spotify, obviamente. O Spotify, 
+de resto, não sabia mais nada, não me conhecia de  
+
+0:24:30.200,0:24:35.400
+lado nenhum, não, portanto, não sabia os músicos 
+que eu ouvi ou não fora do Spotify, isto é,  
+
+0:24:35.400,0:24:43.080
+informação dentro do Spotify. Eh, e é normal, pois 
+obviamente que ano após ano, pois não saem assim  
+
+0:24:43.080,0:24:50.280
+tantos artistas novos ano após ano, pelo menos que 
+sejam do do agrado de cada um, imagino. Pelo menos  
+
+0:24:50.280,0:24:56.840
+para o meu perfil é este. OK. Pronto. E pronto. 
+E está praticamente o tutorial terminado. O que é  
+
+0:24:56.840,0:25:01.680
+que eu posso aqui mostrar mais? Agora podemos 
+vir aqui. Já temos mais ou menos essa estatística.  
+
+0:25:01.680,0:25:07.800
+Claro que agora toda a informação está aqui. E agora 
+posso perguntar, olha, dá dá-me os artistas de,  
+
+0:25:07.800,0:25:12.800
+por exemplo, quais são os os novos artistas que eu 
+descobri neste último ano, por exemplo, de 2022.  
+
+0:25:12.800,0:25:18.480
+Pronto. E tenho-os aqui. São estes aqui. Podia 
+imprimir agora aqui. Podia fazer aqui um filtro,  
+
+0:25:18.480,0:25:24.160
+OK? um subset. Podia agora trabalhar isto de 1001 
+maneiras, mas isto como para qualquer pessoa que  
+
+0:25:24.160,0:25:32.760
+já conheça o B-a-ba do do R, da linguagem 
+R, já saberá fazer fazer subsets e filtragens de  
+
+0:25:32.760,0:25:39.920
+dataframes, etc, etc. Eh, e pronto, penso que está 
+chegado ao fim o tutorial, era o que eu vos queria  
+
+0:25:39.920,0:25:46.640
+mostrar. Eu acho engraçado. Isto é interessante e 
+podemos ter uma panorâmica eh dá-nos essa dá-nos  
+
+0:25:46.640,0:25:55.440
+essa resposta. Como vocês viram, eh, é uma dica, 
+vocês poderão estudar outra outras coisas. Eu  
+
+0:25:55.440,0:26:03.760
+eu neste caso estudei os as estes estes estas 
+playlists your top songs, mas eh vocês poderiam  
+
+0:26:03.760,0:26:08.440
+estudar qualquer outra coisa, qualquer outra 
+informação que estivesse na nas playlists.  
+
+0:26:08.440,0:26:15.000
+Esta este site que eu vos mostrei à partida 
+tanto quanto me apercebi, ele ele só exporta  
+
+0:26:15.000,0:26:21.440
+playlists. Pronto. Eh, eventualmente haverá outros 
+sites, outras outras ferramentas que eventualmente  
+
+0:26:21.440,0:26:26.880
+dar-vos a outro tipo de informações. É uma 
+questão de procurar. Pronto. E é uma alternativa,  
+
+0:26:26.880,0:26:32.200
+portanto, a quem a quem não tenha um bocadinho 
+de numa primeira fase, alguém que ainda esteja  
+
+0:26:32.200,0:26:37.040
+um bocadinho reticente em em querer usar API e 
+tem porque tem que se criar a conta, tem que se  
+
+0:26:37.040,0:26:44.640
+obter as credenciais, etc, etc. Eh, e portanto 
+possa possa usar uma ferramenta destas. OK?  
+
+0:26:45.320,0:26:51.240
+E pronto, espero que tenham gostado deste 
+mini tutorial e até uma próxima oportunidade.
+
+

@@ -99,88 +99,57 @@ CREATE_SUBFOLDERS = function(playlist_title) {
 }
 
 
-DOWNLOAD_CAPTIONS = function(videos,timestamps=FALSE,use_video_titles=TRUE) {
+DOWNLOAD_CAPTIONS = function(videos) {
   download_folder = file.path("youtube_captions",videos$playlist_title[1])
   
   # Download each caption
   for ( i in 1:nrow(videos) ) {
     
-    if ( use_video_titles ) {
-      file_name = videos$video_title[i]
-    } else {
-      file_name = videos$video_id[i]
-    }
-    
+    file_name = SANITIZE_FILENAME(videos$video_title[i])
     file_path = file.path(download_folder,paste0(file_name,".",videos$language[i],".srt"))
+    
     if ( file.exists(file_path) ) {
       cat("Caption already exists:", file_path, "\n") 
-    } else {
-      cat("Downloading caption:", file_path, "\n")
-      captions = tuber::download_caption(
-        caption_id = videos$caption_id[i], lang = videos$language[i], format = "sbv", as_raw = F
-      )
-      
-      if (!timestamps)  {
-        captions = gsub("[0-9]+:[0-9]{2}:[0-9]{2}\\.[0-9]{3},[0-9]+:[0-9]{2}:[0-9]{2}\\.[0-9]{3}", "",captions)
-        captions = gsub("\u00A0", "", captions) # Remove non-breaking spaces
-        captions = gsub("\n+", "\n", captions) # Remove multiple empty lines
+      next
+    } 
+    
+    cat("\nDownloading caption with tuber:", file_path, "\n")
+    
+    captions = tryCatch(
+      tuber::download_caption(
+        caption_id = videos$caption_id[i],
+        lang = videos$language[i],
+        format = "sbv",
+        as_raw = FALSE
+      ),
+
+
+      error = function(e) {
+        message("Error downloading caption: ", conditionMessage(e))
       }
-      # captions = gsub("(\r?\n)+", "\r\n", captions, perl = TRUE) # Remove multiple empty lines
+    )
+    
+    if ( !is.null(captions) ) {
       writeLines(captions, file_path)
-      
-    }
+      next
+    } 
     
-  }
-  
-}
-
-
-DOWNLOAD_CAPTIONS_WITH_YT_DLP = function(videos,timestamps=FALSE,use_video_titles=TRUE) {
-  download_folder = file.path("youtube_captions",videos$playlist_title[1])
-  
-  # Download each caption
-  for ( i in 1:nrow(videos) ) {
+    cat("\nDownloading caption with yt_dlp:", file_path, "\n")
     
-    if ( use_video_titles ) {
-      file_name = videos$video_title[i]
-    } else {
-      file_name = videos$video_id[i]
-    }
+    # ./tools/yt-dlp.exe --list-subs 'https://www.youtube.com/watch?v=Oht-pdPw8eo'
     
-    file_path = file.path(download_folder,paste0(file_name,".",videos$language[i],".srt"))
-    if ( file.exists(file_path) ) {
-      cat("Caption already exists:", file_path, "\n") 
-    } else {
-      cat("Downloading caption with yt_dlp:", file_path, "\n")
-      
-      command = "./tools/yt-dlp.exe --skip-download --write-subs --write-auto-subs --sub-format srt "
-      #command = "./tools/yt-dlp.exe --skip-download --write-subs --sub-format srt "
-      command = paste0(command,"--extractor-args 'youtube:skip=translated_subs' ")
-      #command = paste0(command,"--sub-langs '",videos$language[i],".*' ")
-      command = paste0(command,"--sub-langs '",videos$language[i],"' ")
-      command = paste0(command,"-P '",download_folder,"' ")
-      command = paste0(command,"-o '",file_name,"' ")
-      command = paste0(command,"'",videos$video_url[i],"'")
-      
-      terminal_id = rstudiotools::terminal(command)
-      
-      if (timestamps) return()
-     
-      captions = readLines(file_path,encoding = "UTF-8", warn = FALSE)
-      
-      # Trim leading/trailing whitespace and carriage returns (\r)
-      captions = trimws(captions)
-      # Drop empty lines, pure numbers (cue indices), and timestamp lines
-      is_blank     = captions == ""
-      is_number    = grepl("^\\d+$",captions)
-      is_timestamp = grepl("-->",captions, fixed = TRUE)
-      captions = captions[!(is_blank | is_number | is_timestamp)]
-      captions = paste(captions, collapse = "\n")
-      writeLines(captions, file_path)
-      
-    }
+    command = "./tools/yt-dlp.exe --skip-download --write-subs --write-auto-subs --sub-format srt "
+    #command = "./tools/yt-dlp.exe --skip-download --write-subs --sub-format srt "
+    command = paste0(command,"--extractor-args 'youtube:skip=translated_subs' ")
+    #command = paste0(command,"--sub-langs '",videos$language[i],".*' ")
+    command = paste0(command,"--sub-langs '",videos$language[i],"' ")
+    command = paste0(command,"-P '",download_folder,"' ")
+    command = paste0(command,"-o '",file_name,"' ")
+    command = paste0(command,"'",videos$video_url[i],"'")
     
-  }
+    terminal_id = rstudiotools::terminal(command)  
+    
+  } 
   
 }
 
@@ -392,7 +361,7 @@ DOWNLOAD_FROM_YOUTUBE_MASS_RENAME = function(download) {
 }
 
 
-DOWNLOAD_SUMMARIES_FROM_LMSTUDIO = function(videos) {
+DOWNLOAD_SUMMARIES_FROM_LMSTUDIO = function(videos,summary_size=10,overwrite=F) {
   playlist_title = videos$playlist_title[1]
   
   folder_captions = file.path("youtube_captions",playlist_title)
@@ -402,7 +371,7 @@ DOWNLOAD_SUMMARIES_FROM_LMSTUDIO = function(videos) {
   
   prompt_summary = paste0(
     "Give me the main topics of the following text in portuguese,",
-    "with no more than 10 topics and no title.",
+    "with no more than ",summary_size," topics and no title.",
     "Format the result as a numbered list: "
   )
   
@@ -414,49 +383,64 @@ DOWNLOAD_SUMMARIES_FROM_LMSTUDIO = function(videos) {
   
   # Download each summary
   for ( i in 1:nrow(videos) ) {
-    file_name = videos$video_title[i]
+    file_name = SANITIZE_FILENAME(videos$video_title[i])
     
-    path_captions = file.path(folder_captions,paste0(file_name,".srt"))
+    path_captions = file.path(folder_captions,paste0(file_name,".",videos$language[i],".srt"))
     path_summaries = file.path(folder_summaries,paste0(file_name,".txt"))
     path_summaries_html = file.path(folder_summaries_html,paste0(file_name,".html"))
     path_tags = file.path(folder_tags,paste0(file_name,".txt"))
     
-    captions = paste0(readLines(path_captions, warn = FALSE), collapse = " ")
-    captions = gsub("\\s{2,}", " ", captions) # Remove multiple spaces
-    
     if ( file.exists(path_summaries) ) {
-      cat("Summary already exists:", path_summaries, "\n") 
-    } else {
-      cat("Downloading summary:", path_summaries, "\n")
-      
-      # Generate summary using LM Studio
-      prompt = paste0(prompt_summary,captions)
-      video_summary = aitools::lmstudio(prompt=prompt)
-      video_summary = paste0(file_name, "\n", video_summary)
-      writeLines(video_summary,path_summaries)
-      
-      # Write HTML summary with video thumbnail
-      Report = data.frame(Video = videos$video_thumbnail[i], Summary = video_summary, stringsAsFactors = F) 
-      html = minifunctions::printdataframe(Report,expand_images = T)
-      writeLines(html,path_summaries_html)
+      if ( overwrite ) {
+        cat("Summary already exists:", path_summaries, "\n") 
+        cat("Overwriting summary\n") 
+      } else {
+        cat("Summary already exists:", path_summaries, "\n") 
+        next
+      }
     }
     
+    if ( !file.exists(path_captions) ) {
+      cat("Cannot generate Summary due to captions not found:", path_captions, "\n") 
+      next
+    }
+    
+    captions = readLines(path_captions, warn = FALSE)
+    captions = REMOVE_TIMESTAMPS_FROM_CAPTIONS(captions)
+    
+    cat("Downloading summary:", path_summaries, "\n")
+    
+    # Generate summary using LM Studio
+    prompt = paste0(prompt_summary,captions)
+    video_summary = aitools::lmstudio(prompt=prompt)
+    video_summary = paste0(file_name, "\n", video_summary)
+    writeLines(video_summary,path_summaries)
+    
+    # Write HTML summary with video thumbnail
+    Report = data.frame(Video = videos$video_thumbnail[i], Summary = video_summary, stringsAsFactors = F) 
+    html = minifunctions::printdataframe(Report,expand_images = T)
+    writeLines(html,path_summaries_html)
+    
+    next
+    
+    # Not used for now, but can be useful to generate tags for each video
     if ( file.exists(path_tags) ) {
       cat("Tags already exists:", path_tags, "\n") 
-    } else {
-      cat("Downloading tags:", path_tags, "\n")
-        
-      # Generate tags using LM Studio
-      prompt = paste0(prompt_tags,captions)
-      video_tags = aitools::lmstudio(prompt=prompt)
-      writeLines(video_tags,path_tags)
-    }
-    
+      next
+    } 
+  
+    cat("Downloading tags:", path_tags, "\n")
+      
+    # Generate tags using LM Studio
+    prompt = paste0(prompt_tags,captions)
+    video_tags = aitools::lmstudio(prompt=prompt)
+    writeLines(video_tags,path_tags)
+  
   }
 }
 
 
-DOWNLOAD_THUMBNAILS = function(videos,use_video_titles=TRUE) {
+DOWNLOAD_THUMBNAILS = function(videos) {
   file_paths = vector()
   
   ncol = ceiling(sqrt(nrow(videos)))
@@ -468,11 +452,8 @@ DOWNLOAD_THUMBNAILS = function(videos,use_video_titles=TRUE) {
   for ( i in 1:nrow(videos) ) {
     url = videos$video_thumbnail[i]
     
-    if ( use_video_titles ) {
-      file_name = videos$video_title[i]
-    } else {
-      file_name = videos$video_id[i]
-    }
+    file_name = SANITIZE_FILENAME(videos$video_title[i])
+    
     file_path = file.path(download_folder,paste0(file_name,".jpg"))
     if ( file.exists(file_path) ) {
       cat("Thumbnail already exists:", file_path, "\n") 
@@ -850,6 +831,59 @@ PROCESS_INFINIFACTORY_VIDEOS = function() {
 }
 
 
+
+REMOVE_TIMESTAMPS_FROM_CAPTIONS = function(captions) {
+  
+  # Normalize line endings
+  captions = paste(captions, collapse = "\n")
+  captions = gsub("\r\n?", "\n", captions)
+  
+  # Split into individual lines
+  captions = strsplit(captions, "\n")[[1]]
+  
+  captions = trimws(captions)
+  
+  is_blank = captions == ""
+  
+  # SRT / SBV / VTT timestamps
+  is_timestamp = grepl(
+    "^\\d{1,2}:\\d{2}:\\d{2}[.,]\\d{3}\\s*(-->|,)\\s*\\d{1,2}:\\d{2}:\\d{2}[.,]\\d{3}$",
+    captions
+  )
+  
+  # SRT subtitle sequence numbers
+  is_number = grepl("^\\d+$", captions)
+  
+  # Remove unwanted lines
+  captions = captions[!(is_blank | is_number | is_timestamp)]
+  
+  # Join remaining text
+  captions = paste(captions, collapse = " ")
+  
+  # Replace multiple consecutive whitespace characters with a single space
+  # Replace special whitespace characters with ordinary spaces
+  for (char in c(
+    "\u00A0",  # NBSP
+    "\u202F",  # Narrow NBSP
+    "\u2007",  # Figure space
+    "\u2009",  # Thin space
+    "\u200B",  # Zero-width space
+    "\uFEFF",  # Zero-width no-break space
+    "\t"       # Tab
+  )) {
+    captions = gsub(char, " ", captions, fixed = TRUE)
+  }
+  
+  # Collapse consecutive ordinary spaces
+  captions = gsub(" +", " ", captions)
+  
+  captions = trimws(captions)
+  
+  return(captions)
+}
+
+
+
 SANITIZE_FILENAME = function(file_name) {
   
   # Caracteres proibidos no Windows:
@@ -867,5 +901,20 @@ SANITIZE_FILENAME = function(file_name) {
   file_name = trimws(file_name)
   
   return(file_name)
+}
+
+
+UPDATE_TOOLS = function() {
+  # Update yt-dlp ----
+  # Update on your current release channel (stable by default)
+  rstudiotools::terminal("./tools/yt-dlp.exe -U") 
+  
+  # Switch to and update to the latest nightly build
+  # rstudiotools::terminal("./tools/yt-dlp.exe --update-to nightly")
+  
+  # Switch to and update to the latest stable build
+  # rstudiotools::terminal("./tools/yt-dlp.exe --update-to stable")
+  
+  rstudiotools::terminal("./tools/deno.exe upgrade") 
 }
 

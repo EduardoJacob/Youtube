@@ -22,18 +22,12 @@ videos = MERGE_VIDEOS_WITH_CAPTIONS(videos,captions)
 # Download Thumbnails and Plot Thumbnails Grid ----
 # It fails when video titles have special characters
 # to circumvent this, we can use the video_id instead of the video_title to name the thumbnail files
-MY_VIDEOS = F
 
-if ( MY_VIDEOS ) {
-  DOWNLOAD_THUMBNAILS(videos,use_video_titles = TRUE)
-  # We can only download captions for videos we own, not from other people's videos. 
-  DOWNLOAD_CAPTIONS(videos,timestamps = T,use_video_titles = TRUE)
-} else {
-  DOWNLOAD_THUMBNAILS(videos,use_video_titles = FALSE)
-  DOWNLOAD_CAPTIONS_WITH_YT_DLP(videos,timestamps = F,use_video_titles = FALSE)
-}
+DOWNLOAD_THUMBNAILS(videos)
 
+# UPDATE_TOOLS()
 
+DOWNLOAD_CAPTIONS(videos)
 
 
 # Start LM Studio ----
@@ -41,6 +35,7 @@ terminal_list = rstudioapi::terminalList()
 for (terminal_id in terminal_list) rstudioapi::terminalKill(terminal_id)
 terminal_id = rstudiotools::terminal("./powershell/LMstudioStart.ps1",caption="LMstudio")
 
+# DOWNLOAD_SUMMARIES_FROM_LMSTUDIO(videos,summary_size=20,overwrite=T)
 DOWNLOAD_SUMMARIES_FROM_LMSTUDIO(videos)
 
 

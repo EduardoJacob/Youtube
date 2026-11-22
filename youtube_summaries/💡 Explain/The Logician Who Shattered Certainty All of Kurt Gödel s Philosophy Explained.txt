@@ -1,0 +1,21 @@
+The Logician Who Shattered Certainty All of Kurt Gödel s Philosophy Explained
+1. Introdução a Kurt Gödel e sua posição intelectual única.
+2. Os Teoremas da Incompletude de 1931 e sistemas formais.
+3. A relação entre verdade objetiva e provabilidade formal.
+4. O impacto nos fundamentos da matemática e o programa de Hilbert.
+5. Platonismo Matemático e a realidade dos conceitos abstratos.
+6. Intuição Matemática e o problema epistemológico do platonismo.
+7. Teoria dos Conjuntos, Universo Construtível (L) e Hipótese do Contínuo.
+8. Axioma da Escolha e Consistência em Sistemas de Conjuntos.
+9. O Teorema da Completude da Lógica de Primeira Ordem.
+10. Semântica, Sintaxe e Modelos na Lógica Matemática.
+11. Interpretação Dialética e fundamentos da aritmética clássica.
+12. Contribuições para a teoria da prova e análise ordinal.
+13. Física, Relatividade Geral e Soluções Cosmológicas de Gödel.
+14. Universo rotativo e implicações sobre curvas temporais fechadas.
+15. Natureza do Tempo: Idealismo versus Realismo Físico.
+16. Argumento Ontológico para a Existência de Deus.
+17. Influência da Fenomenologia de Husserl no pensamento de Gödel.
+18. Compromissos Filosóficos Ampliados: Racionalismo, Idealismo e Teologia.
+19. Legado em Ciência da Computação e Inteligência Artificial.
+20. Correções de Conceitos Comuns e Impacto na História do Pensamento.
